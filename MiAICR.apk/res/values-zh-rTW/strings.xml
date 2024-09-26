@@ -67,6 +67,13 @@
     <string name="bottomsheet_action_expand_halfway">展開一半</string>
     <string name="bottomsheet_drag_handle_clicked">已輕觸兩下拖曳控點</string>
     <string name="bottomsheet_drag_handle_content_description">拖曳控點</string>
+    <string name="call_notification_answer_action">接聽</string>
+    <string name="call_notification_answer_video_action">視訊</string>
+    <string name="call_notification_decline_action">拒接</string>
+    <string name="call_notification_hang_up_action">掛斷</string>
+    <string name="call_notification_incoming_text">來電</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">正在過濾來電</string>
     <string name="case00001_audioProjectWhenPalyAudioMusic_description">特定時間播放音樂時，自動串流到%1$s</string>
     <string name="case00001_audioProjectWhenPalyAudioPod_description">特定時間播放電台時，自動串流到%1$s</string>
     <string name="case00001_audioProjectWhenPalyAudio_description_button">僅本次串流</string>
@@ -372,6 +379,10 @@
     <string name="miuix_appcompat_action_mode_title_empty">選擇</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">更多</string>
     <string name="miuix_appcompat_cancel_description">取消</string>
+    <string name="miuix_appcompat_cloud_state_disabled">小米雲同步未開啟</string>
+    <string name="miuix_appcompat_cloud_state_encrypt_disabled">暫未開啟端對端保護，雲端同步未開啟</string>
+    <string name="miuix_appcompat_cloud_state_finished">小米雲已完成同步</string>
+    <string name="miuix_appcompat_cloud_state_syncing">小米雲正在同步</string>
     <string name="miuix_appcompat_confirm_description">確定</string>
     <string name="miuix_appcompat_delete_description">刪除</string>
     <string name="miuix_appcompat_deselect_all">取消全選</string>
@@ -436,18 +447,22 @@
     <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
     <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
     <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_range_selection">所選開始日期：%1$s - 所選結束日期：%2$s</string>
     <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">無</string>
     <string name="mtrl_picker_cancel">取消</string>
     <string name="mtrl_picker_confirm">確定</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">選取日期</string>
     <string name="mtrl_picker_date_header_unselected">所選日期</string>
     <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_end_date_description">結束日期：%1$s</string>
     <string name="mtrl_picker_invalid_format">格式無效。</string>
     <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
     <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
     <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
-    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">前往今年 %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$d 年</string>
     <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
@@ -455,16 +470,18 @@
     <string name="mtrl_picker_range_header_title">選取範圍</string>
     <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
     <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_start_date_description">開始日期：%1$s</string>
     <string name="mtrl_picker_text_input_date_hint">日期</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">今天 %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
-    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換至日曆檢視畫面</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
-    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換至年份檢視畫面</string>
     <string name="mtrl_timepicker_cancel">取消</string>
     <string name="mtrl_timepicker_confirm">確定</string>
     <string name="night">晚上</string>
@@ -653,13 +670,12 @@
     <string name="privacy_agree">同意</string>
     <string name="privacy_agreement">私隱協議</string>
     <string name="privacy_banner_sub_title">MiAI引擎是AI能力中心，為Xiaomi HyperMind、小愛建議提供系統級情景感知及意圖辨識能力。我們重視你的私隱安全，資料採集和使用會向你溝通確認並允許關閉。強大的端側AI計算能力，讓多數學習和計算過程在本機完成。</string>
-    <string name="privacy_banner_title">别担心，很安全別擔心，很安全</string>
+    <string name="privacy_banner_title">別擔心，很安全</string>
     <string name="privacy_cancel">取消</string>
     <string name="privacy_cancel_not_do">取消</string>
     <string name="privacy_cancel_privacy">撤回私隱政策同意</string>
     <string name="privacy_cancel_privacy_title">撤回同意與註銷服務</string>
     <string name="privacy_cancel_service">註銷服務</string>
-    <string name="privacy_cancel_serviece">註銷小愛建議服務</string>
     <string name="privacy_cannel_service">註銷服務</string>
     <string name="privacy_cannel_service_content">你即將註銷MiAI引擎的服務，註銷後將刪除你在MiAI引擎中相關的個人資料，影響Xiaomi HyperMind、小愛建議服務。數據一旦註銷後將無法恢復，請謹慎操作。</string>
     <string name="privacy_close_personalized">關閉個性化</string>
@@ -669,10 +685,13 @@
     <string name="privacy_cta_url">https://privacy.mi.com/AIEngine/zh_TW/</string>
     <string name="privacy_dialog_location_message">開啟小愛建議定位權限，點擊去設定 > 定位，為獲得更好的體驗，請選擇「始終允許」</string>
     <string name="privacy_dialog_location_title">請先允許「小愛建議」取得定位</string>
+    <string name="privacy_dialog_retention_comment"><Data>請您閱讀並同意我們的&lt;a href=\"%1$s\">用戶協議&lt;/a>與&lt;a href=\"%2$s\">隱私政策&lt;/a></Data></string>
+    <string name="privacy_dialog_retention_content_agree_privacy"><Data>若要使用小愛建議提供的智慧提醒服務，需要您先同意&lt;a href=\"%1$s\">MiAI引擎隱私政策&lt;/a>。如果不同意，您只能使用應用程式建議。確認同意更新後的&lt;a href=\"%2$s\">MiAI引擎隱私政策&lt;/a>？</Data></string>
+    <string name="privacy_dialog_retention_content_express_permission">在使用過程中，我們將連網提供必要服務。為提供更多服務，我們可能向您申請以下權限：取得手機號碼及通話狀態、讀取您的簡訊內容、讀取彩信、開啟或關閉藍牙、開啟或關閉WLAN、取得手機中已安裝的應用程式資訊、取得裝置MAC地址標示、取得位置資訊、瀏覽音樂和音訊、瀏覽照片和影片。您可隨時前往權限管理調整所有權限的授權情況。</string>
     <string name="privacy_docs">私隱政策</string>
     <string name="privacy_experience_cancel_dialog">取消</string>
-    <string name="privacy_experience_comment_dialog">"你可以在小愛建議 > 私隱管理 > 用戶體驗改進計劃中對此功能進行管理。
-請你閱讀我們的《MiAI引擎私隱政策》"</string>
+    <string name="privacy_experience_comment_dialog">*您可以在小愛建議 > 隱私管理 > 用戶體驗改進計劃中對此功能進行管理。</string>
+    <string name="privacy_experience_comment_read_template"><Data>請您閱讀&lt;a href=\"%1$s\">《MiAI引擎隱私政策》&lt;/a></Data></string>
     <string name="privacy_experience_content_dialog">"開啟後你將加入用戶體驗改進計劃，允許使用你的數據來幫助MiAI引擎提升學習能力。MiAI引擎對你的學習和預測將變得更加準確及時。
 
 保持定位權限和位置服務開啟才能幫助MiAI引擎更好的學習。
@@ -695,32 +714,18 @@
     <string name="privacy_manager_user_improvement_plan_detail">開啟後，MiAI引擎會使用你的數據，用於改善算法推薦</string>
     <string name="privacy_op_gps_service_dialog_message">為提供更好的服務，小愛建議需要得到你的位置資料，點擊「去設定」，開啟位置服務</string>
     <string name="privacy_op_gps_service_dialog_title">請先開啟位置服務</string>
-    <string name="privacy_open">开启</string>
     <string name="privacy_permission_tip_text">請在定位權限中選擇「始終允許」</string>
     <string name="privacy_personalized">個性化推薦</string>
     <string name="privacy_personalized_close_content">關閉後，你仍可使用小愛建議功能，但無法取得個性化推薦體驗。我們將不再基於你的歷史使用行為調整卡片間的排序。</string>
     <string name="privacy_personalized_close_title">關閉個性化推薦</string>
     <string name="privacy_personalized_content">關閉後，MiAI引擎將不會使用你的個人資料為你提供個性化服務，目前僅小愛建議使用</string>
-    <string name="privacy_problem_feedback">問題回饋</string>
     <string name="privacy_refuse">拒絕</string>
     <string name="privacy_request_background_location_permission_reason">根據後台定位資料提供出行建議、乘車碼、智能家居的建議服務</string>
-    <string name="privacy_request_location_permission_dialog_hint">*您可以在设置 > 小爱建议 > 隐私管理 > 基于位置信息的学习和预测中对此功能进行管理。</string>
-    <string name="privacy_request_location_permission_dialog_reason">"为向您提供智能建议服务，在您开启定位权限的情况下，我们会收集您的精确地理位置信息，并在本地对这些信息进行学习。
-上述智能建议服务依赖后台定位选择“始终允许”权限。
-如您不提供此类信息，我们将无法为您准确完整地提供智能建议服务。"</string>
-    <string name="privacy_request_location_permission_dialog_title">授权小爱建议使用精确定位</string>
     <string name="privacy_request_location_permission_reason">根據定位資料提供出行建議、乘車碼、智能家居的建議服務</string>
     <string name="privacy_setting">去設定</string>
     <string name="privacy_tip_item_view_background_location">缺少後台定位權限，請選擇「始終允許」</string>
     <string name="privacy_tip_item_view_location">請開啟定位服務，以便提升建議準確性</string>
     <string name="privacy_tip_item_view_location_permission_hint">缺少定位權限，請選擇「始終允許」</string>
-    <string name="privacy_tip_item_view_location_provider_hint">请打开位置服务，以便提升建议准确性</string>
-    <string name="privacy_update_content_remind">如你已閱讀並同意更新後的《MiAI引擎私隱政策》，請點擊同意繼續使用我們的產品和服務。</string>
-    <string name="privacy_update_content_title">"為更好的為你提供服務，MiAI引擎的私隱政策有如下更新：
-"</string>
-    <string name="privacy_update_link_content">《MiAI引擎私隱政策》</string>
-    <string name="privacy_update_title">MiAI引擎私隱政策更新</string>
-    <string name="privacy_update_user_notice_content">若要使用小愛建議提供的智能提醒服務，需要你先同意《MiAI引擎私隱政策》。如果不同意，你只能使用應用程式建議。是否同意更新後的《MiAI引擎私隱政策》？</string>
     <string name="privacy_update_user_notice_title">用戶須知</string>
     <string name="privacy_user_agreement">用戶協議</string>
     <string name="privacy_user_experience">用戶體驗改進計劃</string>
