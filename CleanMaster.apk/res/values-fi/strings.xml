@@ -124,6 +124,7 @@
     <string name="auto_clean_time_every_day">Joka päivä</string>
     <string name="auto_cleaner_open">Ota käyttöön</string>
     <string name="back">Takaisin</string>
+    <string name="be_figuring">Lasketaan…</string>
     <string name="btn_text_done">Valmis</string>
     <string name="btn_text_quick_cleanup">Siivoa</string>
     <string name="btn_text_quick_cleanup_apk">Poista valitut APK:t %1$s</string>
@@ -180,12 +181,12 @@
     <string name="clean_master_icon_recall_button_text">Lisää</string>
     <string name="clean_master_icon_recall_dialog_button_negative">Ei kiitos</string>
     <string name="clean_master_icon_recall_dialog_button_positive">Lisää</string>
-    <string name="clean_master_icon_recall_dialog_summary">Lisää aloitusnäytön pikakuvake tyhjentääksesi roskakorin milloin tahansa.</string>
+    <string name="clean_master_icon_recall_dialog_summary">Lisää aloitusnäytön pikavalinta tyhjentääksesi roskakorin milloin tahansa.</string>
     <string name="clean_master_icon_recall_dialog_title">Tyhjennä roskakori nopeammin</string>
-    <string name="clean_master_icon_recall_hint">Lisää aloitusnäytön pikakuvake</string>
-    <string name="clean_master_icon_recall_summary">Lisää aloitusnäytön pikakuvake tyhjentääksesi roskakorin milloin tahansa.</string>
+    <string name="clean_master_icon_recall_hint">Lisää aloitusnäytön pikavalinta</string>
+    <string name="clean_master_icon_recall_summary">Lisää aloitusnäytön pikavalinta tyhjentääksesi roskakorin milloin tahansa.</string>
     <string name="clean_master_icon_recall_title">Tyhjennä roskakori nopeammin</string>
-    <string name="clean_master_icon_recall_toast_text">Lisätty aloitusnäytön pikakuvake Puhdistajalle onnistuneesti</string>
+    <string name="clean_master_icon_recall_toast_text">Lisätty aloitusnäytön pikavalinta Puhdistajalle onnistuneesti</string>
     <string name="clean_summary">Tyhjennetty %1$s</string>
     <string name="clear_bigfiles">Poista suuret tiedostot, kuvien kaksoiskappaleet ja muut turhat kohteet</string>
     <string name="clear_immediately">Puhdista nyt</string>
@@ -288,7 +289,7 @@
     <string name="dialog_msg_backup_and_uninstall_apps">Varmuuskopioidaanko ja poistetaanko valitut sovellukset?</string>
     <string name="dialog_msg_check_all">Varmista valinneesi %1$s, joka sisältää %2$d kohdetta</string>
     <string name="dialog_msg_esc_cleanmaster">Pysäytetäänkö skannaus ja poistutaanko Puhdistajasta?</string>
-    <string name="dialog_msg_load_cleanup_engine_error">Puhdistuskone on vahingoittunut.</string>
+    <string name="dialog_msg_load_cleanup_engine_error">Puhdistuskone on vioittunut.</string>
     <string name="dialog_msg_stop_scan">Lopetetaanko skannaus nyt?</string>
     <string name="dialog_msg_uninstall_apps">Poistetaanko nämä sovellukset?</string>
     <string name="dialog_msg_uninstall_apps_xspace">Poistetaanko nämä sovellukset mukaan lukien niiden kaksoissovellukset?</string>
@@ -655,28 +656,59 @@
     <string name="noon">Keskipäivä</string>
     <string name="not_set">Ei asetettu</string>
     <string name="notification_apk_clean_button_text">Tyhjennä</string>
+    <string name="notification_checker_installed_apk_hint">APK-tiedostoja ei tarvitse pitää asennuksen jälkeen</string>
+    <string name="notification_checker_picture_hint_a">Välimuistissa olevat kuvat voivat viedä paljon tallennustilaa</string>
+    <string name="notification_checker_picture_hint_b">Vapauta tallennustilaa poistamalla tarpeettomat kohteet</string>
+    <string name="notification_checker_picture_text_a">Tyhjennä välimuistissa olevat kuvat</string>
+    <string name="notification_checker_picture_text_b">Tyhjennä %s välimuistissa olevaa kuvaa</string>
     <string name="notification_garbage_clean_botton_text">Tyhjennä</string>
+    <string name="notification_garbage_clean_botton_text_new">Tyhjennä</string>
     <string name="notification_garbage_clean_hint">Tyhjennä tallennustila</string>
+    <string name="notification_garbage_clean_hint_new">Anna laitteesi yltää korkeuksiin</string>
     <string name="notification_garbage_clean_size">Vapauta %s</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f Gt</string>
+    <string name="notification_garbage_clean_size_found">%s roskatiedostoja</string>
+    <string name="notification_garbage_clean_size_found_hint">Aika tyhjentää roskat!</string>
+    <string name="notification_garbage_clean_size_found_text">Liian monta roskatiedostoa</string>
+    <string name="notification_garbage_clean_size_int_unit">%d Gt</string>
+    <string name="notification_garbage_clean_size_new">Vapauta %s tallennustilaa</string>
     <string name="notification_garbage_cleanup_summary">Tyhjennä roskat (%s) nopeuttaaksesi laitettasi</string>
     <string name="notification_garbage_cleanup_title">Tyhjennä roskatiedostot</string>
     <string name="notification_installed_clean_size">Vapauta %2$s asennettuasi kohteen %1$s</string>
+    <string name="notification_low_memory_button_text">Korjaa</string>
     <string name="notification_low_memory_cache_title">Tyhjennä välimuisti</string>
     <string name="notification_low_memory_deepclean_summary">Syväpuhdista vapauttaaksesi muistia laitteessasi</string>
     <string name="notification_low_memory_deepclean_title">Tallennustila vähissä</string>
+    <string name="notification_low_memory_hint">Turhat tiedostot hidastavat laitettasi</string>
+    <string name="notification_low_memory_text">Muistitilaa vähissä</string>
     <string name="notification_low_storage_button_text">Tyhjennä</string>
+    <string name="notification_low_storage_size">Alle %s tallennustilaa käytettävissä</string>
     <string name="notification_low_storage_size_1.5_GB">Alle %.1f Gt muistia jäljellä</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Tyhjennä</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Vapauta tallennustilaa laitteen nopeuttamiseksi</string>
     <string name="notification_low_storage_size_1_GB">Alle %d Gt muistia jäljellä</string>
     <string name="notification_low_storage_size_1_GB_hint">Syväpuhdistus voi auttaa</string>
+    <string name="notification_low_storage_size_1_gb_hint">Vapauta tallennustilaa laitteesi nopeuttamiseksi</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Nopeuta laitettasi tyhjentämällä roskakori</string>
     <string name="notification_memory_clean_button_text">Nopeuta</string>
     <string name="notification_memory_clean_hint">Napauta lisätäksesi nopeutta</string>
     <string name="notification_memory_clean_used_size">%s muistista on varattu</string>
+    <string name="notification_qq_clean_hint">Turhat tiedostot hidastavat laitettasi</string>
+    <string name="notification_qq_clean_text">Tyhjennä QQ-roskat</string>
     <string name="notification_summary_after_auto_cleanup">Puhdistettu %s.</string>
+    <string name="notification_uninstall_clean_hint">Tyhjennä roskakori vapauttaaksesi tallennustilaa</string>
+    <string name="notification_uninstall_clean_text">Poistetut sovellukset jättävät roskatiedostoja laitteeseesi</string>
     <string name="notification_uninstalled_clean_button_text">Näytä</string>
     <string name="notification_uninstalled_clean_with_name">Jäännöserät kohteessa %s</string>
     <string name="notification_uninstalled_clean_without_name">Poistetut sovellukset jättävät jäännöseriä</string>
+    <string name="notification_wechat_clean_high_level_hint">Nopeuta laitettasi tyhjentämällä roskakori</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat loi paljon roskatiedostoja</string>
+    <string name="notification_wechat_clean_high_level_text_b">WeChat-roskat hidastavat laitettasi</string>
+    <string name="notification_wechat_clean_low_level_hint">Vapauta tallennustilaa</string>
+    <string name="notification_wechat_clean_low_level_text">Tyhjennä WeChat-roskat</string>
+    <string name="notification_wechat_clean_middle_level_hint">Tyhjennä roskakori saadaksesi ilmoituksia viivettä</string>
+    <string name="notification_wechat_clean_middle_level_text_a">WeChat-roskat vievät paljon tallennustilaa</string>
+    <string name="notification_wechat_clean_middle_level_text_b">WeChat-roskat hidastavat sovellusta</string>
     <string name="notification_whatsapp_clean_button_text">Tyhjennä</string>
     <string name="notification_whatsapp_clean_size">WhatsApp-välimuisti saavuttanut %s</string>
     <string name="offline_notification_text">Avaa mainos napauttamalla</string>
@@ -743,7 +775,7 @@
     <string name="pref_title_choose_engine">Tunnisteet</string>
     <string name="pref_title_clean_alert">Muistuta puhdistamisesta</string>
     <string name="pref_title_cleanup_white_list">Poikkeukset</string>
-    <string name="pref_title_create_onekeyclean_shortcut">Näytä pikavalinta aloitusnäytöllä</string>
+    <string name="pref_title_create_onekeyclean_shortcut">Näytä aloitusnäytön pikavalinta</string>
     <string name="pref_title_expand_cache_group">Näytä välimuistin kohteet</string>
     <string name="pref_title_garbage_cleanup_check_size">Roskien kokorajoitus</string>
     <string name="pref_title_garbage_cleanup_check_time">Ajoita</string>
@@ -776,9 +808,9 @@
     <string name="recommend_news">Vastaanota suosituksia</string>
     <string name="recommend_the_following">Suorita seuraavat toiminnot, jotta saat laitteestasi kaiken irti</string>
     <string name="recommended">Esittelyssä</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> enemmän tiedostoja voidaan puhdistaa. Vapauta enemmän tilaa.&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>Voit tyhjentää &lt;font color=#ff0000 >%1$s&lt;/font> kohteen QQ tuottamasta välimuistista&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChatin välimuistista. Vapauta enemmän tilaa.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> enemmän tiedostoja voidaan puhdistaa. Vapauta enemmän tilaa.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>Voit tyhjentää &lt;font color=#ff0000 >%1$s&lt;/font> kohteen QQ tuottamasta välimuistista</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChatin välimuistista. Vapauta enemmän tilaa.</Data></string>
     <string name="s1">Tallenna kuva</string>
     <string name="s2">Myönnetäänkö mainokselle oikeus tallentaa kuva galleriaan?</string>
     <string name="s3">Hyväksy</string>
@@ -880,7 +912,7 @@
     <string name="tips_low_storage_dialog_title">Tallennustila vähissä</string>
     <string name="tips_of_app_manage">Säästä tallennustilaa poistamalla harvoin käytetyt sovellukset</string>
     <string name="tips_of_auto_launch_manage">Estä harvoin käytettyjä sovelluksia käynnistymästä automaattisesti</string>
-    <string name="tips_of_cloud_service">Kirjaudu sisään Mi-tililläsi käyttääksesi lisää Mi-palveluita</string>
+    <string name="tips_of_cloud_service">Kirjaudu sisään Xiaomi-tililläsi käyttääksesi lisää Xiaomi-palveluita</string>
     <string name="tips_of_connect">Yhdistä internettiin, jotta kaikki Tietoturva-ominaisuudet voidaan ottaa käyttöön</string>
     <string name="tips_of_garbage_cloud_scan">Etsi piilotetut roskat pilviskannauksella</string>
     <string name="tips_of_garbage_data_set">Päivitä Puhdistajan tietokanta löytääksesi paremmin roskia laitteestasi</string>
@@ -1016,6 +1048,6 @@
     <string name="wqfile_group_chat_pic">Kuvat viestisovelluksista</string>
     <string name="wqfile_group_chat_video">Videot viestisovelluksista</string>
     <string name="wqfile_group_chat_voice">Ääniviestit</string>
-    <string name="year_month_day_format">d MMM yyyy</string>
+    <string name="year_month_day_format">d. MMM yyyy</string>
     <string name="yesterday">Eilen</string>
 </resources>

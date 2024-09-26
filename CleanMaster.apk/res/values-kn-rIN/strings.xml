@@ -97,6 +97,7 @@
     <string name="auto_clean_time_every_day">ಪ್ರತಿ ದಿನ</string>
     <string name="auto_cleaner_open">ಆನ್ ಮಾಡಿ</string>
     <string name="back">ಹಿಂದೆ</string>
+    <string name="be_figuring">ಎಣಿಕೆ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
     <string name="btn_text_done">ಪೂರ್ಣಗೊಂಡಿದೆ</string>
     <string name="btn_text_quick_cleanup">ಸ್ವಚ್ಛಗೊಳಿಸು</string>
     <string name="btn_text_quick_cleanup_apk">ಆಯ್ದ APKಗಳನ್ನು ಅಳಿಸಿ %1$s</string>
@@ -146,7 +147,7 @@
     <string name="cd_check_box_unchecked">ಪರಿಶೀಲಿಸಲಿಲ್ಲ</string>
     <string name="cd_list_item_collapse">ಕುಸಿಯಿತು</string>
     <string name="cd_list_item_expanded">ವಿಸ್ತರಿಸಲಾಗಿದೆ</string>
-    <string name="cd_percent">ಶೇಖಡ</string>
+    <string name="cd_percent">ಶೇಕಡಾ</string>
     <string name="cd_scanning">ಸ್ಕ್ಯಾನಿಂಗ್‌</string>
     <string name="cd_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
     <string name="cd_sort_type">ಪ್ರಕಾರ ವಿಂಗಡಿಸಿ</string>
@@ -504,7 +505,7 @@
     <string name="memory_clean_no_trash_tip">ಎಲ್ಲವೂ ಚೆನ್ನಾಗಿದೆ</string>
     <string name="menu_add_to_white_list">ವಿನಾಯಿತಿಗಳಿಗೆ ಸೇರಿಸಿ</string>
     <string name="menu_clear">ಅಳಿಸಿ</string>
-    <string name="menu_install">ಈ ಆ್ಯಪ್‌‌ ಸ್ಥಾಪಿಸಿ</string>
+    <string name="menu_install">ಈ ಆ್ಯಪ್‌‌ ಇನ್‌ಸ್ಟಾಲ್‌ ಮಾಡಿ</string>
     <string name="menu_open">ತೆರೆ</string>
     <string name="menu_text_optimize_manage_1">ವೇಗ ಹೆಚ್ಚಿಸಿ</string>
     <string name="menu_view">ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ</string>
@@ -577,9 +578,9 @@
     <string name="morning">ಬೆಳಗ್ಗೆ</string>
     <string name="msg_cleanup_db_update_checking">ಅಪ್‌ಡೇಟ್‌ಗಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</string>
     <string name="msg_cleanup_db_update_time_unknown">ಹಿಂದಿನ ಅಪ್‌ಡೇಟ್‌: ಅಪರಿಚಿತ</string>
-    <string name="msg_update_error_code_already_running">ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
-    <string name="msg_update_error_code_network_error">ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುವುದಿಲ್ಲ</string>
-    <string name="msg_update_error_code_no_newer_db">ಕ್ಲೀನರ್ ನವೀಕರಿಸಿದೆ</string>
+    <string name="msg_update_error_code_already_running">ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿದೆ…</string>
+    <string name="msg_update_error_code_network_error">ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಕನೆಕ್ಟ್‌ ಆಗುತ್ತಿಲ್ಲ</string>
+    <string name="msg_update_error_code_no_newer_db">ಕ್ಲೀನರ್ ಅಪ್‌ ಟು ಡೇಟ್‌ ಆಗಿದೆ</string>
     <string name="msg_update_error_code_success">ಪೂರೈಸಿದೆ</string>
     <string name="msg_update_error_code_unknown_error">ಸರ್ವರ್‌ಗಳು ಕಾರ್ಯನಿರತವಾಗಿವೆ. ಒಂದೆರಡು ನಿಮಿಷ ನಿರೀಕ್ಷಿಸಿ, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="name_debuglog_dir">BSP ಡಿಬಗ್ ಲಾಗ್</string>
@@ -591,28 +592,59 @@
     <string name="no_network_btn">ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</string>
     <string name="noon">ಮಧ್ಯಾಹ್ನ</string>
     <string name="notification_apk_clean_button_text">ಅಳಿಸಿ</string>
+    <string name="notification_checker_installed_apk_hint">ಇನ್‌ಸ್ಟಾಲೇಶನ್‌ ಮುಗಿದ ಬಳಿಕ APK ಉಳಿಸಿಕೊಳ್ಳುವ ಅವಶ್ಯಕತೆ ಇಲ್ಲ</string>
+    <string name="notification_checker_picture_hint_a">ಕ್ಯಾಶೆ ಆದ ಚಿತ್ರಗಳು ಸಂಗ್ರಹಣೆ ಸ್ಥಳದ ಸಾಕಷ್ಟು ಭಾಗವನ್ನು ಕಬಳಿಸುತ್ತವೆ</string>
+    <string name="notification_checker_picture_hint_b">ನಿಮಗೆ ಅವಶ್ಯಕತೆ ಇರದೇ ಇರುವ ಐಟಂಗಳನ್ನು ಅಳಿಸುವ ಮೂಲಕ ಸಂಗ್ರಹಣೆ ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ</string>
+    <string name="notification_checker_picture_text_a">ಕ್ಯಾಶೆ ಚಿತ್ರಗಳನ್ನು ಅಳಿಸಿ</string>
+    <string name="notification_checker_picture_text_b">%s ರಷ್ಟು ಕ್ಯಾಶೆ ಆದ ಚಿತ್ರಗಳನ್ನು ಖಾಲಿ ಮಾಡಿ</string>
     <string name="notification_garbage_clean_botton_text">ಖಾಲಿ ಮಾಡಿ</string>
+    <string name="notification_garbage_clean_botton_text_new">ಅಳಿಸಿ</string>
     <string name="notification_garbage_clean_hint">ಸಂಗ್ರಹಣೆ ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ</string>
+    <string name="notification_garbage_clean_hint_new">ಡಿವೈಸ್‌ನ ವೇಗ ದ್ವಿಗುಣಗೊಳಿಸಿ</string>
     <string name="notification_garbage_clean_size">%s ಖಾಲಿ ಮಾಡಿ</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f GB</string>
+    <string name="notification_garbage_clean_size_found">%s ರಷ್ಟು ಅನುಪಯುಕ್ತವಿದೆ</string>
+    <string name="notification_garbage_clean_size_found_hint">ಅನುಪಯುಕ್ತವನ್ನು ಹೊರಗೆ ಹಾಕಿ!</string>
+    <string name="notification_garbage_clean_size_found_text">ವಿಪರೀತ ಅನುಪಯುಕ್ತ ಫೈಲ್‌ಗಳು</string>
+    <string name="notification_garbage_clean_size_int_unit">%d GB</string>
+    <string name="notification_garbage_clean_size_new">%sರಷ್ಟು ಸಂಗ್ರಹಣೆ ಖಾಲಿ ಮಾಡಿ</string>
     <string name="notification_garbage_cleanup_summary">ಡಿವೈಸ್‌ನ ವೇಗ ವೃದ್ಧಿಸಲು ಅನುಪಯುಕ್ತ (%s) ತೆರವುಗೊಳಿಸಿ</string>
     <string name="notification_garbage_cleanup_title">ಅನುಪಯುಕ್ತ ಸ್ವಚ್ಛಗೊಳಿಸಿ</string>
     <string name="notification_installed_clean_size">%1$s ಇನ್‌ಸ್ಟಾಲ್ ಆದ ಬಳಿಕ %2$s ಖಾಲಿ ಮಾಡಿ</string>
+    <string name="notification_low_memory_button_text">ಸರಿಪಡಿಸಿ</string>
     <string name="notification_low_memory_cache_title">ಕ್ಯಾಶೆ ಅಳಿಸಿ</string>
     <string name="notification_low_memory_deepclean_summary">ಆಳ ಸ್ವಚ್ಛತೆಯಿಂದ ಡಿವೈಸ್‌ನ ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಬಹುದು</string>
     <string name="notification_low_memory_deepclean_title">ಸಂಗ್ರಹಣಾ ಸ್ಥಳವು ಕಡಿಮೆ ಆಗುತ್ತಿದೆ</string>
+    <string name="notification_low_memory_hint">ಅನುಪಯುಕ್ತವು ಡಿವೈಸ್‌ ಅನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತದೆ</string>
+    <string name="notification_low_memory_text">ಮೆಮೊರಿ ಕಡಿಮೆಯಾಗುತ್ತಿದೆ</string>
     <string name="notification_low_storage_button_text">ಅಳಿಸಿ</string>
+    <string name="notification_low_storage_size">%s ಗಿಂತ ಕಡಿಮೆ ಸಂಗ್ರಹಣೆ ಲಭ್ಯವಿದೆ</string>
     <string name="notification_low_storage_size_1.5_GB">%.1f GB ಗಿಂತ ಕಡಿಮೆ ಸಂಗ್ರಹಣೆ ಬಾಕಿ ಇದೆ</string>
     <string name="notification_low_storage_size_1.5_GB_btn">ಅಳಿಸಿ</string>
     <string name="notification_low_storage_size_1.5_GB_hint">ಡಿವೈಸ್‌ ವೇಗ ಹೆಚ್ಚಿಸಲು ಸಂಗ್ರಹಣೆ ಖಾಲಿ ಮಾಡಿ</string>
     <string name="notification_low_storage_size_1_GB">%d GB ಗಿಂತ ಕಡಿಮೆ ಸಂಗ್ರಹಣೆ ಬಾಕಿ ಇದೆ</string>
     <string name="notification_low_storage_size_1_GB_hint">ಆಳ ಸ್ವಚ್ಛತೆ ಸಹಾಯವಾಗಬಹುದು</string>
+    <string name="notification_low_storage_size_1_gb_hint">ನಿಮ್ಮ ಡಿವೈಸ್‌ ವೇಗ ವರ್ಧಿಸಲು ಸಂಗ್ರಹಣೆ ಸ್ಥಳಾವಕಾಶ ಖಾಲಿ ಮಾಡಿ</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">ಡಿವೈಸ್‌ನ ವೇಗ ವೃದ್ಧಿಸಲು ಅನುಪಯುಕ್ತ ತೆರವುಗೊಳಿಸಿ</string>
     <string name="notification_memory_clean_button_text">ಬೂಸ್ಟ್</string>
     <string name="notification_memory_clean_hint">ವೇಗ ಬೂಸ್ಟ್‌ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="notification_memory_clean_used_size">%sರಷ್ಟು ಮೆಮೊರಿ ಭರ್ತಿಯಾಗಿದೆ</string>
+    <string name="notification_qq_clean_hint">ಅನುಪಯುಕ್ತವು ಡಿವೈಸ್‌ ಅನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತದೆ</string>
+    <string name="notification_qq_clean_text">QQ ಅನುಪಯುಕ್ತವನ್ನು ಅಳಿಸಿ</string>
     <string name="notification_summary_after_auto_cleanup">%s ಸ್ವಚ್ಛಗೊಳಿಸಿದೆ.</string>
+    <string name="notification_uninstall_clean_hint">ಸಂಗ್ರಹ ಸ್ಥಳಾವಕಾಶ ಮುಕ್ತಗೊಳಿಸಲು WeChat ಅನುಪಯುಕ್ತವನ್ನು ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="notification_uninstall_clean_text">ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್‌ ಆದ ಆ್ಯಪ್‌ಗಳು ನಿಮ್ಮ ಡಿವೈಸ್‌ನಲ್ಲಿ ಅನುಪಯುಕ್ತವನ್ನು ತುಂಬುತ್ತವೆ</string>
     <string name="notification_uninstalled_clean_button_text">ವೀಕ್ಷಿಸಿ</string>
     <string name="notification_uninstalled_clean_with_name">%s ನ ರೆಸಿಡ್ಯುಯಲ್‌ ಐಟಂಗಳು</string>
     <string name="notification_uninstalled_clean_without_name">ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಆದ ಆ್ಯಪ್‌ಗಳು ರೆಸಿಡ್ಯುಯಲ್‌ ಐಟಂಗಳನ್ನು ಉಳಿಸುತ್ತವೆ</string>
+    <string name="notification_wechat_clean_high_level_hint">ಡಿವೈಸ್‌ನ ವೇಗ ವೃದ್ಧಿಸಲು ಅನುಪಯುಕ್ತ ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat ಸಾಕಷ್ಟು ಅನುಪಯುಕ್ತ ಫೈಲ್‌ಗಳನ್ನು ಸೃಷ್ಟಿಸಿದೆ</string>
+    <string name="notification_wechat_clean_high_level_text_b">WeChat ಅನುಪಯುಕ್ತವು ಡಿವೈಸ್‌ ಅನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತದೆ</string>
+    <string name="notification_wechat_clean_low_level_hint">ಸಂಗ್ರಹಣೆ ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ</string>
+    <string name="notification_wechat_clean_low_level_text">WeChat ಅನುಪಯುಕ್ತ ಅಳಿಸಿ</string>
+    <string name="notification_wechat_clean_middle_level_hint">ಅಧಿಸೂಚನೆಗಳನ್ನು ತ್ವರಿತಗತಿಯಲ್ಲಿ ಸ್ವೀಕರಿಸಲು ಅನುಪಯುಕ್ತವನ್ನು ಅಳಿಸಿ</string>
+    <string name="notification_wechat_clean_middle_level_text_a">WeChat ಅನುಪಯುಕ್ತವು ಸಾಕಷ್ಟು ಸಂಗ್ರಹಣೆ ಸ್ಥಳವನ್ನು ಬಳಸಿಕೊಳ್ಳುತ್ತದೆ</string>
+    <string name="notification_wechat_clean_middle_level_text_b">WeChat ಅನುಪಯುಕ್ತವು ಆ್ಯಪ್‌ ಅನ್ನು ನಿಧಾನಗೊಳಿಸುತ್ತದೆ</string>
     <string name="notification_whatsapp_clean_button_text">ಅಳಿಸಿ</string>
     <string name="notification_whatsapp_clean_size">WhatsApp ಕ್ಯಾಶೆ %s ತಲುಪಿದೆ</string>
     <string name="ok">ಸರಿ</string>
@@ -704,14 +736,14 @@
     <string name="recommend_news">ಶಿಫಾರಸುಗಳನ್ನು ಸ್ವೀಕರಿಸಿ</string>
     <string name="recommend_the_following">ನಿಮ್ಮ ಫೋನಿನಿಂದ ಹೆಚ್ಚಿನ ಪ್ರಯೋಜನ ಪಡೆದುಕೊಳ್ಳಲು ಕೆಳಗಿನ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಿ</string>
     <string name="recommended">ಫೀಚರ್‌ ಆಗಿರುವ</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> ಹೆಚ್ಚಿನ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಬಹುದು. ಹೆಚ್ಚು ಜಾಗವನ್ನು ಮುಕ್ತಗೊಳಿಸಿ.&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>QQ ರಚಿಸಿದ ಕ್ಯಾಶ್‌ಗಳಲ್ಲಿ &lt;font color=#ff0000 >%1$s&lt;/font>ರಷ್ಟನ್ನು ನೀವು ಅಳಿಸಬಹುದು&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat ಕ್ಯಾಶ್. ಹೆಚ್ಚು ಜಾಗವನ್ನು ಮುಕ್ತಗೊಳಿಸಿ.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> ಹೆಚ್ಚಿನ ಫೈಲ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಬಹುದು. ಹೆಚ್ಚು ಜಾಗವನ್ನು ಮುಕ್ತಗೊಳಿಸಿ.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>QQ ರಚಿಸಿದ ಕ್ಯಾಶ್‌ಗಳಲ್ಲಿ &lt;font color=#ff0000 >%1$s&lt;/font>ರಷ್ಟನ್ನು ನೀವು ಅಳಿಸಬಹುದು</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat ಕ್ಯಾಶ್. ಹೆಚ್ಚು ಜಾಗವನ್ನು ಮುಕ್ತಗೊಳಿಸಿ.</Data></string>
     <string name="saturday">ಶನಿವಾರ</string>
     <string name="saturday_short">ಶನಿ</string>
     <string name="saturday_shortest">ಶನಿ</string>
     <string name="sc_allow_network_dialog_button">ಅನುಮತಿಸು</string>
-    <string name="sc_allow_network_dialog_message">ಅಪ್‌ಡೇಟ್‌ ಪಡೆದುಕೊಳ್ಳಲು ಈ ಆ್ಯಪ್‌‌ ಅನ್ನು ಇಂಟರ್‌ನೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸುವುದೇ?</string>
+    <string name="sc_allow_network_dialog_message">ಅಪ್‌ಡೇಟ್‌ ಪಡೆದುಕೊಳ್ಳಲು ಈ ಆ್ಯಪ್‌‌ ಅನ್ನು ಇಂಟರ್‌ನೆಟ್‌ಗೆ ಕನೆಕ್ಟ್‌ ಮಾಡಬೇಕೇ?</string>
     <string name="scanning">ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
     <string name="security_center_slogan">ಡಿವೈಸ್‌ ಅನ್ನು ವೇಗಗೊಳಿಸಿ ಹಾಗೂ ಸುರಕ್ಷಿತವಾಗಿಸಿ</string>
     <string name="see_more">ಅಧಿಕ</string>
@@ -790,15 +822,15 @@
     <string name="time_picker_label_hour">ಗಂ</string>
     <string name="time_picker_label_minute">ನಿ</string>
     <string name="tips_low_storage_dialog_cancel">ರದ್ದು</string>
-    <string name="tips_low_storage_dialog_msg_qq_new">QQ ಕ್ಯಾಶೆ ಗಾತ್ರವು %d GB ತಲುಪಿದೆ. ಇದು ನಿಮ್ಮ ಡಿವೈಸ್‌ ಅನ್ನು ನಿಧಾನಗೊಳಿಸಬಹುದು. QQ ಕ್ಯಾಶೆ ಅಳಿಸುವುದೇ?</string>
+    <string name="tips_low_storage_dialog_msg_qq_new">QQ ಕ್ಯಾಶೆ ಗಾತ್ರವು %d GB ತಲುಪಿದೆ. ಇದು ನಿಮ್ಮ ಡಿವೈಸ್‌ ಅನ್ನು ನಿಧಾನಗೊಳಿಸಬಹುದು. QQ ಕ್ಯಾಶೆ ಅಳಿಸಬೇಕೇ?</string>
     <string name="tips_low_storage_dialog_msg_storage_new">ನೀವು ನಿಮ್ಮ %s ರಷ್ಟು ಸಂಗ್ರಹಣಾ ಸ್ಥಳ ಬಳಸುತ್ತಿರುವಿರಿ. ಬಳಕೆಯಾಗದಿರುವ ಆ್ಯಪ್‌ಗಳನ್ನು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್‌ ಮಾಡಿ.</string>
-    <string name="tips_low_storage_dialog_msg_wechat_new">WeChat ಕ್ಯಾಶೆ ಗಾತ್ರವು %d GB ತಲುಪಿದೆ. ಇದು ನಿಮ್ಮ ಡಿವೈಸ್‌ ಅನ್ನು ನಿಧಾನಗೊಳಿಸಬಹುದು. WeChat ಕ್ಯಾಶೆ ಅಳಿಸುವುದೇ?</string>
+    <string name="tips_low_storage_dialog_msg_wechat_new">WeChat ಕ್ಯಾಶೆ ಗಾತ್ರವು %d GB ತಲುಪಿದೆ. ಇದು ನಿಮ್ಮ ಡಿವೈಸ್‌ ಅನ್ನು ನಿಧಾನಗೊಳಿಸಬಹುದು. WeChat ಕ್ಯಾಶೆ ಅಳಿಸಬೇಕೇ?</string>
     <string name="tips_low_storage_dialog_ok">ಅಳಿಸಿ</string>
     <string name="tips_low_storage_dialog_ok_storage">ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ</string>
     <string name="tips_low_storage_dialog_title">ಸಂಗ್ರಹಣಾ ಸ್ಥಳವು ಕಡಿಮೆ ರನ್ ಆಗುತ್ತಿದೆ</string>
     <string name="tips_of_app_manage">ಸಂಗ್ರಹಣೆ ಉಳಿಸಲು ಅಪರೂಪಕ್ಕೊಮ್ಮೆ ಬಳಕೆಯಾಗುವ ಆ್ಯಪ್‌‌ಗಳನ್ನು ಅಳಿಸಿ</string>
     <string name="tips_of_auto_launch_manage">ಅಪರೂಪವಾಗಿ ಬಳಕೆಯಾಗುವ ಆ್ಯಪ್‌‌ಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪ್ರಾರಂಭವಾಗುವುದನ್ನು ತಡೆಯಿರಿ</string>
-    <string name="tips_of_cloud_service">Mi ಖಾತೆಯೊಂದಿಗೆ ಸೈನ್‌ ಇನ್‌ ಮಾಡಿ. ಇನ್ನಷ್ಟು Mi ಸೇವೆಗಳ ಲಾಭ ಪಡೆದುಕೊಳ್ಳಿ</string>
+    <string name="tips_of_cloud_service">Xiaomi ಖಾತೆ ಮೂಲಕ ಸೈನ್‌ ಇನ್‌ ಮಾಡಿ. ಇನ್ನಷ್ಟು Xiaomi ಸೇವೆಗಳ ಲಾಭ ಪಡೆದುಕೊಳ್ಳಿ</string>
     <string name="tips_of_connect">ಭದ್ರತೆ ಫೀಚರ್‌‌ ಅನ್ನು ಪೂರ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಬಳಸಿಕೊಳ್ಳಲು ಇಂಟರ್ನೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ</string>
     <string name="tips_of_garbage_cloud_scan">ಕ್ಲೌಡ್‌ ಸ್ಕ್ಯಾನ್‌‌ ಮೂಲಕ ಮರೆಮಾಡಲಾದ ಟ್ರ‍್ಯಾಶ್‌‌ ಅನ್ನು ಪತ್ತೆ ಹಚ್ಚಿ</string>
     <string name="tips_of_garbage_data_set">ನಿಮ್ಮ ಡಿವೈಸ್‌ನಲ್ಲಿರುವ ಇನ್ನಷ್ಟು ಟ್ರ‍್ಯಾಶ್‌ ಅನ್ನು ಪತ್ತೆ ಹಚ್ಚಲು ಕ್ಲೀನರ್‌ ಡೇಟಾಬೇಸ್‌‌ ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ</string>
@@ -817,7 +849,7 @@
     <string name="title_of_auto_launch_manage">ಸ್ವಯಂಪ್ರಾರಂಭ</string>
     <string name="title_of_cloud_service">ಕ್ಲೌಡ್ ಸೇವೆಗಳು</string>
     <string name="title_of_garbage_cloud_scan">ಕ್ಲೌಡ್ ಸ್ಕ್ಯಾನ್‌</string>
-    <string name="title_of_garbage_data_set">ಸ್ವಚ್ಛಗೊಳಿಸುವಿಕೆ ಡೇಟಾಬೇಸ್‌ ಅಪ್‌ಡೇಟ್‌‌ಗಳು</string>
+    <string name="title_of_garbage_data_set">ಕ್ಲೀನರ್‌ ಡೇಟಾಬೇಸ್‌ ಅಪ್‌ಡೇಟ್‌‌ಗಳು</string>
     <string name="title_of_network_speed_set">ಸ್ಟೇಟಸ್‌ ಪಟ್ಟಿಯಲ್ಲಿ ನೆಟ್‌ವರ್ಕ್ ವೇಗವನ್ನು ತೋರಿಸಿ</string>
     <string name="title_of_operators_set">ವಾಹಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
     <string name="title_of_package_set">ಡೇಟಾ ಪ್ಲಾನ್‌ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
@@ -833,7 +865,7 @@
     <string name="toast_garbage_cleanup_success">ಸ್ವಚ್ಛತೆ ಮುಕ್ತಾಯವಾಗಿದೆ</string>
     <string name="toast_garbage_list_empty">ಎಲ್ಲವೂ ಚೆನ್ನಾಗಿದೆ!</string>
     <string name="toast_must_select_before_restore">ಮರುಸ್ಥಾಪಿಸಲು ಫೋಟೋಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
-    <string name="toast_network_eror">ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+    <string name="toast_network_eror">ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಕನೆಕ್ಟ್‌ ಮಾಡಲು ಆಗುತ್ತಿಲ್ಲ</string>
     <string name="toast_network_switch">ಈ ಆ್ಯಪ್‌‌‌ ಅನ್ನು ಇಂಟರ್ನೆಟ್‌‌ಗೆ ಸಂಪರ್ಕಿಸಬಹುದು</string>
     <string name="toast_removed_from_white_list">ಯಶಸ್ವಿಯಾಗಿ ವಿನಾಯಿತಿಗಳಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ</string>
     <string name="toast_resolve_apk_error">apk ದೋಷ ಪರಿಹರಿಸು</string>

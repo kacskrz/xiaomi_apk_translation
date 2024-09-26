@@ -97,6 +97,7 @@
     <string name="auto_clean_time_every_day">Iga päev</string>
     <string name="auto_cleaner_open">Lülita sisse</string>
     <string name="back">Tagasi</string>
+    <string name="be_figuring">Arvutamine…</string>
     <string name="btn_text_done">Valmis</string>
     <string name="btn_text_quick_cleanup">Puhasta</string>
     <string name="btn_text_quick_cleanup_apk">Kustuta valitud APKd %1$s</string>
@@ -301,9 +302,9 @@
     <string name="fmt_date_numeric_year_month">M-yyyy</string>
     <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
     <string name="fmt_date_short_month">MMM</string>
-    <string name="fmt_date_short_month_day">d MMM</string>
+    <string name="fmt_date_short_month_day">d. MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
+    <string name="fmt_date_short_year_month_day">d. MMM yyyy</string>
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
@@ -471,7 +472,7 @@
     <string name="hot_today">Täna populaarne</string>
     <string name="information_setting">Soovitused</string>
     <string name="install_sucess">%s installiti edukalt</string>
-    <string name="install_time_format">dd/MM/yyyy</string>
+    <string name="install_time_format">dd.MM.yyyy</string>
     <string name="installed">Installitud</string>
     <string name="installing">Installimine</string>
     <string name="item_title_process_mode">Vali tegevus</string>
@@ -542,7 +543,7 @@
     <string name="month_august">august</string>
     <string name="month_august_short">aug</string>
     <string name="month_august_shortest">aug</string>
-    <string name="month_day_format">dd. MMM</string>
+    <string name="month_day_format">d. MMM</string>
     <string name="month_december">detsember</string>
     <string name="month_december_short">dets</string>
     <string name="month_december_shortest">dets</string>
@@ -591,28 +592,59 @@
     <string name="no_network_btn">Proovi uuesti</string>
     <string name="noon">Keskpäev</string>
     <string name="notification_apk_clean_button_text">Tühjenda</string>
+    <string name="notification_checker_installed_apk_hint">APK-sid ei ole vaja pärast installeerimist alles hoida</string>
+    <string name="notification_checker_picture_hint_a">Vahemällu salvestatud pildid võivad hõivata palju salvestusruumi</string>
+    <string name="notification_checker_picture_hint_b">Vabasta salvestusruumi, kustutades üksused, mida sa enam ei vaja</string>
+    <string name="notification_checker_picture_text_a">Kustuta vahemälus olevad pildid</string>
+    <string name="notification_checker_picture_text_b">Puhasta %s vahemälus olevatest piltidest</string>
     <string name="notification_garbage_clean_botton_text">Tühjenda</string>
+    <string name="notification_garbage_clean_botton_text_new">Puhasta</string>
     <string name="notification_garbage_clean_hint">Tühjenda salvestusruum</string>
+    <string name="notification_garbage_clean_hint_new">Vabasta oma seade</string>
     <string name="notification_garbage_clean_size">Vabasta %s</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f GB</string>
+    <string name="notification_garbage_clean_size_found">Prügi osakaal on %s</string>
+    <string name="notification_garbage_clean_size_found_hint">Aeg prügi välja viia!</string>
+    <string name="notification_garbage_clean_size_found_text">Liiga palju prügifaile</string>
+    <string name="notification_garbage_clean_size_int_unit">%d GB</string>
+    <string name="notification_garbage_clean_size_new">Vabasta %s talletusruumist</string>
     <string name="notification_garbage_cleanup_summary">Seadme kiirendamiseks tühjenda prügikast (%s)</string>
     <string name="notification_garbage_cleanup_title">Kustuta prügifailid</string>
     <string name="notification_installed_clean_size">Vabasta %2$s pärast %1$s installimist</string>
+    <string name="notification_low_memory_button_text">Paranda</string>
     <string name="notification_low_memory_cache_title">Puhasta vahemälu</string>
     <string name="notification_low_memory_deepclean_summary">Sügavpuhastus võib teie seadmes ruumi vabastada</string>
     <string name="notification_low_memory_deepclean_title">Ladustamisruum on madal</string>
+    <string name="notification_low_memory_hint">Prügi aeglustab sinu seadet</string>
+    <string name="notification_low_memory_text">Mäluruum on täitumas</string>
     <string name="notification_low_storage_button_text">Tühjenda</string>
+    <string name="notification_low_storage_size">Saadaval on alla %s talletusruumist</string>
     <string name="notification_low_storage_size_1.5_GB">Mälumahust on järele jäänud vähem kui %.1f GB</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Tühjenda</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Oma seadme kiirendamiseks vabasta salvestusruum</string>
     <string name="notification_low_storage_size_1_GB">Mälumahust on järele jäänud vähem kui %d GB</string>
     <string name="notification_low_storage_size_1_GB_hint">Sügavpuhastus saab aidata</string>
+    <string name="notification_low_storage_size_1_gb_hint">Oma seadme kiirendamiseks vabasta talletusruumi</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Seadme kiirendamiseks tühjenda prügikast</string>
     <string name="notification_memory_clean_button_text">Võimenda</string>
     <string name="notification_memory_clean_hint">Puuduta kiiruse võimendamiseks</string>
     <string name="notification_memory_clean_used_size">%s mälu on hõivatud</string>
+    <string name="notification_qq_clean_hint">Prügi aeglustab sinu seadet</string>
+    <string name="notification_qq_clean_text">Puhasta QQ prügikast</string>
     <string name="notification_summary_after_auto_cleanup">%s puhastatud.</string>
+    <string name="notification_uninstall_clean_hint">Puhasta prügikast, et vabastada salvestusruumi</string>
+    <string name="notification_uninstall_clean_text">Desinstallimata rakendused jätavad sinu seadmesse prügi</string>
     <string name="notification_uninstalled_clean_button_text">Vaata</string>
     <string name="notification_uninstalled_clean_with_name">%s jääküksused</string>
     <string name="notification_uninstalled_clean_without_name">Installimata rakendused jätavad jääküksused</string>
+    <string name="notification_wechat_clean_high_level_hint">Seadme kiirendamiseks tühjenda prügikast</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat tootis palju prügifaile</string>
+    <string name="notification_wechat_clean_high_level_text_b">"WeChat'i prügi aeglustab sinu seadet"</string>
+    <string name="notification_wechat_clean_low_level_hint">Vabastage salvestusruumi</string>
+    <string name="notification_wechat_clean_low_level_text">"Puhasta WeChat'i prügikast"</string>
+    <string name="notification_wechat_clean_middle_level_hint">Tühjenda prügikast, et saada märguandeid viivitusteta</string>
+    <string name="notification_wechat_clean_middle_level_text_a">"WeChat'i prügikast võtab palju ruumi"</string>
+    <string name="notification_wechat_clean_middle_level_text_b">"WeChat'i prügikast aeglustab rakendust"</string>
     <string name="notification_whatsapp_clean_button_text">Tühjenda</string>
     <string name="notification_whatsapp_clean_size">"WhatsApp'i vahemälu saavutas %s"</string>
     <string name="ok">OK</string>
@@ -685,7 +717,7 @@
     <string name="privacy_cache_scaning">Kontrollimine…</string>
     <string name="privacy_cache_title">Isiklik teave</string>
     <string name="privacy_clipboard_desc">Lõikepuhvri sisu</string>
-    <string name="privacy_clipboard_type">Lõikepuhver</string>
+    <string name="privacy_clipboard_type">Lõikelaud</string>
     <string name="privacy_search_desc">Otsingu ajalugu</string>
     <string name="privacy_search_type">Google Otsing</string>
     <string name="promotion">Reklaam</string>
@@ -704,9 +736,9 @@
     <string name="recommend_news">Saage soovitusi</string>
     <string name="recommend_the_following">Teosta järgnevaid toiminguid et saada oma seadmest maksimum</string>
     <string name="recommended">Esiplaanil</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> faili lisaks on võimalik eemaldada. Vabasta ruumi juurde.&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>Te saate tühjendada &lt;font color=#ff0000 >%1$s&lt;/font> QQ poolt tekitatud vahemälu&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChati vahemälu. Vabasta ruumi juurde.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> faili lisaks on võimalik eemaldada. Vabasta ruumi juurde.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>Te saate tühjendada &lt;font color=#ff0000 >%1$s&lt;/font> QQ poolt tekitatud vahemälu</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChati vahemälu. Vabasta ruumi juurde.</Data></string>
     <string name="saturday">laupäev</string>
     <string name="saturday_short">L</string>
     <string name="saturday_shortest">L</string>
@@ -798,7 +830,7 @@
     <string name="tips_low_storage_dialog_title">Mäluruum hakkab otsa saama</string>
     <string name="tips_of_app_manage">Kustuta harva kasutatud rakendused et säästa mälu</string>
     <string name="tips_of_auto_launch_manage">Takista harva kasutatud rakendustel automaatselt käivituda</string>
-    <string name="tips_of_cloud_service">Logi sisse oma Mi Kontoga et kasutada ka teisi Mi teenuseid</string>
+    <string name="tips_of_cloud_service">Rohkemate Xiaomi teenuste kasutamiseks logige sisse oma Xiaomi kontoga</string>
     <string name="tips_of_connect">Ühendu internetiga et kasutada kõiki turvalisuse funktsioone</string>
     <string name="tips_of_garbage_cloud_scan">Leia peidetud prügi pilve skaneerimisega</string>
     <string name="tips_of_garbage_data_set">Uuenda puhastaja andmebaasi et leida rohkem prügi oma seadmes</string>
@@ -854,7 +886,7 @@
     <string name="unit_gb">%s GB</string>
     <string name="unit_mb">%s MB</string>
     <string name="unlike">Ei aitäh</string>
-    <string name="update_date_format">dd/MM/yyyy</string>
+    <string name="update_date_format">dd.MM.yyyy</string>
     <string name="virus_scan">Viiruskontroll</string>
     <string name="wechat_chat_data_type_cache">WeChat vahemälu</string>
     <string name="wechat_chat_data_type_cache_desc">Sul on võimalik taastada need failid pärast internetti ühendumist.</string>
@@ -883,8 +915,8 @@
     <string name="wechat_copying_video_dialog_title">Ekspordi galeriisse</string>
     <string name="wechat_copying_video_empty">Eksporditavad videod puuduvad</string>
     <string name="wechat_copying_video_success">Eksportimine oli edukas</string>
-    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
-    <string name="wechat_msg_time_short">dd-MM</string>
+    <string name="wechat_msg_time_long">dd.MM.yyyy</string>
+    <string name="wechat_msg_time_short">dd.MM</string>
     <string name="wechat_qq_activity_title">Sügavpuhastus</string>
     <string name="wechat_qq_celan_tab_file">Failid</string>
     <string name="wechat_qq_celan_tab_image">Pildid</string>
@@ -931,6 +963,6 @@
     <string name="wqfile_group_chat_pic">Pildid sõnumirakenduselt</string>
     <string name="wqfile_group_chat_video">Videod sõnumirakenduselt</string>
     <string name="wqfile_group_chat_voice">Häälsõnumid</string>
-    <string name="year_month_day_format">dd MMM, yyyy</string>
+    <string name="year_month_day_format">d. MMM, yyyy</string>
     <string name="yesterday">Eile</string>
 </resources>

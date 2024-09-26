@@ -5,7 +5,7 @@
     <string name="activity_title_apk">Paketlər</string>
     <string name="activity_title_brightness_image">Həddindən artıq parlaq və qaranlıq şəkillər</string>
     <string name="activity_title_cache">Keş</string>
-    <string name="activity_title_cache_data">Tətbiq məlumatları</string>
+    <string name="activity_title_cache_data">Tətbiq məlumatı</string>
     <string name="activity_title_deep_apk">APK-ləri sil</string>
     <string name="activity_title_deep_clean">Dərin təmizlik</string>
     <string name="activity_title_garbage_cleanup">Təmizləyici</string>
@@ -97,6 +97,7 @@
     <string name="auto_clean_time_every_day">Hər gün</string>
     <string name="auto_cleaner_open">Aç</string>
     <string name="back">Geri</string>
+    <string name="be_figuring">Hesablanır…</string>
     <string name="btn_text_done">Hazırdır</string>
     <string name="btn_text_quick_cleanup">Təmizlə</string>
     <string name="btn_text_quick_cleanup_apk">Seçilmiş APK-ləri sil %1$s</string>
@@ -183,7 +184,7 @@
     <string name="dc_header_used_space_text">Tutulan yaddaş sahəsi</string>
     <string name="dc_item_summary_wechat_chat">Daha çox yer boşaltmaq üçün tarixçəni hər söhbət üçün silin</string>
     <string name="dc_item_title_apk">Quraşdırma paketlərini sil</string>
-    <string name="dc_item_title_app_data">Tətbiq məlumatlarını təmizlə</string>
+    <string name="dc_item_title_app_data">Tətbiq məlumatını təmizlə</string>
     <string name="dc_item_title_image">Şəkilləri sil</string>
     <string name="dc_item_title_large_file">Böyük faylları sil</string>
     <string name="dc_item_title_qq">QQ Təmizləyici</string>
@@ -471,11 +472,11 @@
     <string name="hot_today">Bu gün məşhur</string>
     <string name="information_setting">Tövsiyələr</string>
     <string name="install_sucess">%s uğurla quraşdırıldı</string>
-    <string name="install_time_format">dd/MM/yyyy</string>
+    <string name="install_time_format">dd.MM.yyyy</string>
     <string name="installed">Quraşdırıldı</string>
     <string name="installing">Quraşdırılır</string>
     <string name="item_title_process_mode">Hərəkət seçin</string>
-    <string name="just_now">İndi</string>
+    <string name="just_now">İndicə</string>
     <string name="kilobyteShort">KB</string>
     <string name="label_image_list_none">Heç biri</string>
     <string name="label_preserve_the_best_image">Ən yaxşı şəkilləri yaddaşda saxla</string>
@@ -501,7 +502,7 @@
     <string name="megabyteShort">MB</string>
     <string name="memeory_check_content">%1$d tətbiq, %2$s yaddaş</string>
     <string name="memory_clean_icon_text">Sürəti artır</string>
-    <string name="memory_clean_no_trash_tip">Hər şey qaydasında görsənir</string>
+    <string name="memory_clean_no_trash_tip">Hər şey qaydasında görünür</string>
     <string name="menu_add_to_white_list">İstisnalara əlavə et</string>
     <string name="menu_clear">Təmizlə</string>
     <string name="menu_install">Bu tətbiqi quraşdır</string>
@@ -542,7 +543,7 @@
     <string name="month_august">Avqust</string>
     <string name="month_august_short">Avq</string>
     <string name="month_august_shortest">Avq</string>
-    <string name="month_day_format">dd MMM</string>
+    <string name="month_day_format">d MMM</string>
     <string name="month_december">Dekabr</string>
     <string name="month_december_short">Dek</string>
     <string name="month_december_shortest">Dek</string>
@@ -591,28 +592,59 @@
     <string name="no_network_btn">Yenidən cəhd edin</string>
     <string name="noon">Günorta</string>
     <string name="notification_apk_clean_button_text">Təmizlə</string>
+    <string name="notification_checker_installed_apk_hint">Quraşdırmadan sonra APK fayllarını saxlamağa ehtiyac yoxdur</string>
+    <string name="notification_checker_picture_hint_a">Keşlənmiş şəkillər çox sayda yaddaş sahəsi tuta bilər</string>
+    <string name="notification_checker_picture_hint_b">Artıq ehtiyacınız olmayan elementləri silməklə yaddaş sahəsini boşaldın</string>
+    <string name="notification_checker_picture_text_a">Keşlənmiş şəkilləri silin</string>
+    <string name="notification_checker_picture_text_b">Keşlənmiş şəkillərdən %s silin</string>
     <string name="notification_garbage_clean_botton_text">Təmizlə</string>
+    <string name="notification_garbage_clean_botton_text_new">Təmizlə</string>
     <string name="notification_garbage_clean_hint">Yaddaş sahəsini təmizlə</string>
+    <string name="notification_garbage_clean_hint_new">Cihazınızın yüksəlməsinə icazə verin</string>
     <string name="notification_garbage_clean_size">Boşalt %s</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f GB</string>
+    <string name="notification_garbage_clean_size_found">%s zibil var</string>
+    <string name="notification_garbage_clean_size_found_hint">Zibili çıxartmağın vaxtıdır!</string>
+    <string name="notification_garbage_clean_size_found_text">Həddən çox zibil faylı</string>
+    <string name="notification_garbage_clean_size_int_unit">%d GB</string>
+    <string name="notification_garbage_clean_size_new">%s yaddaş sahəsini boşalt</string>
     <string name="notification_garbage_cleanup_summary">Cihazınızı (%s) sürtələndirmək üçün zibil qutusunu təmizləyin</string>
     <string name="notification_garbage_cleanup_title">Zibil faylları təmizləyin</string>
     <string name="notification_installed_clean_size">%1$s quraşdırdıqdan sonra %2$s boşalt</string>
+    <string name="notification_low_memory_button_text">Düzəlt</string>
     <string name="notification_low_memory_cache_title">Keşi təmizlə</string>
     <string name="notification_low_memory_deepclean_summary">Dərin təmizləmə, cihazınızın yaddaşında boş sahə yarada bilər</string>
     <string name="notification_low_memory_deepclean_title">Yaddaş sahəsi zəif işləyir</string>
+    <string name="notification_low_memory_hint">Zibil cihazınızı yavaşladır</string>
+    <string name="notification_low_memory_text">Yaddaş azalır</string>
     <string name="notification_low_storage_button_text">Təmizlə</string>
+    <string name="notification_low_storage_size">%s -dən daha az yaddaş sahəsi mövcuddur</string>
     <string name="notification_low_storage_size_1.5_GB">%.1f -dən az GB yaddaş qalıb</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Təmizlə</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Cihazınızı sürətləndirmək üçün yaddaş sahəsi boşaltın</string>
     <string name="notification_low_storage_size_1_GB">%d -dən az GB yaddaş qalıb</string>
     <string name="notification_low_storage_size_1_GB_hint">Dərin təmizlik kömək edə bilər</string>
+    <string name="notification_low_storage_size_1_gb_hint">Cihazınızı sürətləndirmək üçün yaddaş sahəsini boşaldın</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Cihazınızı sürətləndirmək üçün zibil qutusunu təmizləyin</string>
     <string name="notification_memory_clean_button_text">Artır</string>
     <string name="notification_memory_clean_hint">Sürəti artırmaq üçün toxunun</string>
     <string name="notification_memory_clean_used_size">%s yaddaş sahəsi istifadə edilir</string>
+    <string name="notification_qq_clean_hint">Zibillər cihazınızı yavaşladır</string>
+    <string name="notification_qq_clean_text">QQ-nin zibilini təmizləyin</string>
     <string name="notification_summary_after_auto_cleanup">%s təmizləndi.</string>
+    <string name="notification_uninstall_clean_hint">Yaddaş sahəsini boşaltmaq üçün zibili təmizləyin</string>
+    <string name="notification_uninstall_clean_text">Silinməmiş tətbiqlər cihazınızda zibil buraxır</string>
     <string name="notification_uninstalled_clean_button_text">Bax</string>
     <string name="notification_uninstalled_clean_with_name">%s tətbiqinin qalan qalıqları</string>
     <string name="notification_uninstalled_clean_without_name">Silinmiş tətbiqlər qalıq elementlər buraxır</string>
+    <string name="notification_wechat_clean_high_level_hint">Cihazınızı sürətləndirmək üçün zibili təmizləyin</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat çox sayda zibil faylı yaratdı</string>
+    <string name="notification_wechat_clean_high_level_text_b">WeChat-ın zibili cihazınızı yavaşladır</string>
+    <string name="notification_wechat_clean_low_level_hint">Yaddaş sahəsini boşalt</string>
+    <string name="notification_wechat_clean_low_level_text">WeChat zibillərini təmizləyin</string>
+    <string name="notification_wechat_clean_middle_level_hint">Gecikmədən bildiriş almaq üçün zibili silin</string>
+    <string name="notification_wechat_clean_middle_level_text_a">WeChat-ın zibil qutusu çox sahə tutur</string>
+    <string name="notification_wechat_clean_middle_level_text_b">WeChat-ın zibili tətbiqi yavaşladır</string>
     <string name="notification_whatsapp_clean_button_text">Təmizlə</string>
     <string name="notification_whatsapp_clean_size">WhatsApp keşinə çatıldı %s</string>
     <string name="ok">Oldu</string>
@@ -646,8 +678,8 @@
     <string name="powerful_acceleration_notification_summary">Daha çox sahə boşaltmaq üçün toxunun</string>
     <string name="powerful_acceleration_notification_title">Birləşmə tamamlandı</string>
     <string name="powerful_acceleration_tip">Daxili yaddaş cihazınızı əhəmiyyətli dərəcədə ləngidə biləcək parçalanma ilə üzləşir. Birləşdirmə, fayllarınızı fiziki olaraq gecikməni azaldan ən kiçik hissələrə ayırır.</string>
-    <string name="powerful_acceleration_tip_high"><Data>Anbarınız &lt;font color=#ff0000 >ciddi şəkildə&lt;/font> parçalanmışdır. Birləşdirmə problemi həll edə bilər.</Data></string>
-    <string name="powerful_acceleration_tip_middle"><Data>Yaddaş sahəniz &lt;font color=#ff0000 >biraz&lt;/font> parçalanmışdır. Birləşdirmə problemi həll edə bilər.</Data></string>
+    <string name="powerful_acceleration_tip_high">&lt;Data>Anbarınız &lt;font color=#ff0000 >ciddi şəkildə&lt;/font> parçalanmışdır. Birləşdirmə problemi həll edə bilər.&lt;/Data></string>
+    <string name="powerful_acceleration_tip_middle">&lt;Data>Yaddaş sahəniz &lt;font color=#ff0000 >biraz&lt;/font> parçalanmışdır. Birləşdirmə problemi həll edə bilər.&lt;/Data></string>
     <string name="powerful_acceleration_toast">Cihazı istifadə etmədiyiniz zaman birləşdirmə aparılacaqdır</string>
     <string name="pref_about_privacy_title">Gizlilik Siyasəti</string>
     <string name="pref_category_title_auto_clean_settings">Təmizləməni xatırlat</string>
@@ -798,17 +830,17 @@
     <string name="tips_low_storage_dialog_title">Yaddaş sahəsi zəif işləyir</string>
     <string name="tips_of_app_manage">Yaddaş qazanmaq üçün nadirən istifadə edilən tətbiqləri silin</string>
     <string name="tips_of_auto_launch_manage">Nadirən istifadə edilən tətbiqlərin avtomatik olaraq başlamasının qarşısını alın</string>
-    <string name="tips_of_cloud_service">Daha çox Mi xidməti istifadə etmək üçün Mi Hesabınız ilə daxil olun</string>
+    <string name="tips_of_cloud_service">Daha çox Xiaomi xidmətlərindən istifadə etmək üçün Xiaomi Hesabınızla daxil olun</string>
     <string name="tips_of_connect">Təhlükəsizlik tətbiqi xüsusiyyətlərinin hamısından istifadə etmək üçün internetə qoşulun</string>
     <string name="tips_of_garbage_cloud_scan">Gizli qalıqları bulud analizi ilə tapın</string>
     <string name="tips_of_garbage_data_set">Cihazınızda daha çox qalıq fayl tapmaq üçün Təmizləyici məlumat bazasını yeniləyin</string>
     <string name="tips_of_network_speed_set">Vəziyyət sətrində şəbəkə əlaqə sürətinə baxın</string>
-    <string name="tips_of_operators_set">Mobil internet statistikalarını avtomatik olaraq yenilə</string>
+    <string name="tips_of_operators_set">Mobil trafik statistikalarını avtomatik olaraq yenilə</string>
     <string name="tips_of_package_set">Aylıq mobil internet miqdarınızı nəzarətdə saxlamaq üçün mobil internet istifadə planını tənzimləyin</string>
     <string name="tips_of_traffic_notification">Bildiriş panelində mobil internet statistikalarına baxın</string>
     <string name="tips_of_traffic_pack_threshold">Məlumat limitinə yaxınlaşdıqda daha çox mobil internet alın</string>
     <string name="tips_of_virus_scan">Cihazınızın təhlükəsizliyini təmin etmək üçün müntəzəm olaraq virus analizindən keçirin</string>
-    <string name="title_auto_cleaner">Təmizləməyi xatırlat</string>
+    <string name="title_auto_cleaner">Təmizləməni xatırlat</string>
     <string name="title_delete_cache">Tətbiq keşini təmizlə</string>
     <string name="title_delete_clipboard">Mübadilə buferi məzmunları</string>
     <string name="title_delete_deepclean">Sil</string>
@@ -854,7 +886,7 @@
     <string name="unit_gb">%s GB</string>
     <string name="unit_mb">%s MB</string>
     <string name="unlike">Xeyr, təşəkkürlər</string>
-    <string name="update_date_format">dd/MM/yyyy</string>
+    <string name="update_date_format">dd.MM.yyyy</string>
     <string name="virus_scan">Virus analizi</string>
     <string name="wechat_chat_data_type_cache">WeChat keşi</string>
     <string name="wechat_chat_data_type_cache_desc">İnternetə qoşulduqdan sonra bu faylları bərpa edə biləcəksiniz.</string>
@@ -869,7 +901,7 @@
     <string name="wechat_clean_canceled_empty_summary">Təmizlənmə tamamlanmadı, başdan başlayın.</string>
     <string name="wechat_clean_exit_confirm">Çıxılsın?</string>
     <string name="wechat_clean_exit_confirm_msg">Analiz indi dayandırılsın və çıxılsın?</string>
-    <string name="wechat_clean_finish_empty_summary">Hər şey qaydasında görsənir</string>
+    <string name="wechat_clean_finish_empty_summary">Hər şey qaydasında görünür</string>
     <string name="wechat_clean_finish_summary">Seçilmiş fayllar uğurla silindi</string>
     <string name="wechat_clean_stop_confirm">Analiz dayandırılsın?</string>
     <string name="wechat_clean_stop_confirm_msg">Analiz indi dayandırılsın?</string>
@@ -883,8 +915,8 @@
     <string name="wechat_copying_video_dialog_title">Qalereyaya köçür</string>
     <string name="wechat_copying_video_empty">Xaricə köçürülməli video yoxdur</string>
     <string name="wechat_copying_video_success">Uğurla xaricə köçürüldü</string>
-    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
-    <string name="wechat_msg_time_short">dd-MM</string>
+    <string name="wechat_msg_time_long">dd.MM.yyyy</string>
+    <string name="wechat_msg_time_short">dd.MM</string>
     <string name="wechat_qq_activity_title">Dərin təmizlik</string>
     <string name="wechat_qq_celan_tab_file">Fayllar</string>
     <string name="wechat_qq_celan_tab_image">Şəkillər</string>
@@ -931,6 +963,6 @@
     <string name="wqfile_group_chat_pic">Mesaj tətbiqlərindən olan şəkillər</string>
     <string name="wqfile_group_chat_video">Mesaj tətbiqlərindən olan videolar</string>
     <string name="wqfile_group_chat_voice">Səsli mesajlar</string>
-    <string name="year_month_day_format">dd MMM, yyyy</string>
+    <string name="year_month_day_format">d MMM yyyy</string>
     <string name="yesterday">Dünən</string>
 </resources>

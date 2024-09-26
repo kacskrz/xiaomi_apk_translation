@@ -124,6 +124,7 @@
     <string name="auto_clean_time_every_day">Штодзённа</string>
     <string name="auto_cleaner_open">Уключыць</string>
     <string name="back">Назад</string>
+    <string name="be_figuring">Разлік…</string>
     <string name="btn_text_done">Здзейснена</string>
     <string name="btn_text_quick_cleanup">Ачыстка</string>
     <string name="btn_text_quick_cleanup_apk">Выдаліць выбраныя APK %1$s</string>
@@ -156,7 +157,7 @@
     <string name="button_text_uninstall_only">Выдаліць \"%s\"</string>
     <string name="button_text_unselect_all">Зняць выбар</string>
     <string name="button_text_unselect_pic">Зняць выбар</string>
-    <string name="button_text_view_detail">Падрабязней</string>
+    <string name="button_text_view_detail">Падрабязнасці</string>
     <string name="button_text_view_file">Файл</string>
     <string name="buy_a_new_phone">Атрымаць больш месца для захоўвання</string>
     <string name="buy_immediately">Купіць</string>
@@ -286,8 +287,7 @@
     <string name="dialog_content_select_all_confirm">Пакінуць копію гэтага фота?</string>
     <string name="dialog_msg_add_white_list_error">Не атрымалася дадаць у белы спіс</string>
     <string name="dialog_msg_backup_and_uninstall_apps">Стварыць рэзервовую копію і выдаліць выбраныя праграмы?</string>
-    <string name="dialog_msg_check_all">"Праграм%1$s 
-Файлаў: %2$d"</string>
+    <string name="dialog_msg_check_all">Праграм %1$s Файлаў: %2$d</string>
     <string name="dialog_msg_esc_cleanmaster">Спыніць сканаванне і выйсці?</string>
     <string name="dialog_msg_load_cleanup_engine_error">Рухавік ачысткі быў пашкоджаны.</string>
     <string name="dialog_msg_stop_scan">Спыніць сканаванне зараз?</string>
@@ -547,7 +547,7 @@
     <string name="login_immediately">Уваход</string>
     <string name="long_click_dialog_summary">Націсніце і ўтрымлівайце, каб дадаць у выняткі.</string>
     <string name="long_click_dialog_title">Папярэджанне</string>
-    <string name="low_memory_clean_dialog_msg_new">Спачатку ачысціце мінімум %d МБ файлаў</string>
+    <string name="low_memory_clean_dialog_msg_new">"Спачатку выдаліце файлы агульным аб'ёмам мінімум %d МБ"</string>
     <string name="low_memory_clean_dialog_ok_button">Так</string>
     <string name="low_memory_clean_dialog_title">Недастаткова вольнага месца</string>
     <string name="low_memory_warning_dialog_cancel_button">Скасаваць</string>
@@ -656,28 +656,59 @@
     <string name="noon">Сярэдзіна дня</string>
     <string name="not_set">Не зададзена</string>
     <string name="notification_apk_clean_button_text">Ачысціць</string>
+    <string name="notification_checker_installed_apk_hint">Няма неабходнасці захоўваць APK пасля ўстаноўкі</string>
+    <string name="notification_checker_picture_hint_a">Кэшаваныя выявы могуць займаць шмат месца ў сховішчы</string>
+    <string name="notification_checker_picture_hint_b">"Вызваліце ​​месца ў сховішчы, выдаліўшы непатрэбныя аб'екты"</string>
+    <string name="notification_checker_picture_text_a">Выдаліць выявы з кэша</string>
+    <string name="notification_checker_picture_text_b">Выдаліць %s з кэшаваных выяў</string>
     <string name="notification_garbage_clean_botton_text">Ачысціць</string>
+    <string name="notification_garbage_clean_botton_text_new">Ачысціць</string>
     <string name="notification_garbage_clean_hint">Ачысціць месца для захоўвання</string>
+    <string name="notification_garbage_clean_hint_new">Дазвольце вашай прыладзе парыць</string>
     <string name="notification_garbage_clean_size">Вызваліць %s</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f ГБ</string>
+    <string name="notification_garbage_clean_size_found">Маецца %s смецця</string>
+    <string name="notification_garbage_clean_size_found_hint">Пара вынесці смецце!</string>
+    <string name="notification_garbage_clean_size_found_text">Занадта шмат смеццевых файлаў</string>
+    <string name="notification_garbage_clean_size_int_unit">%d ГБ</string>
+    <string name="notification_garbage_clean_size_new">Вызваліць %s сховішча</string>
     <string name="notification_garbage_cleanup_summary">Ачысціце смецце (%s) для паскарэння працы прылады</string>
     <string name="notification_garbage_cleanup_title">Выдаліць смеццевыя файлы</string>
     <string name="notification_installed_clean_size">Вызваліце %2$s пасля ўсталёўкі %1$s.</string>
+    <string name="notification_low_memory_button_text">Выправіць</string>
     <string name="notification_low_memory_cache_title">Ачысціць кэш</string>
     <string name="notification_low_memory_deepclean_summary">Глыбокая ачыстка дапаможа вызваліць месца на прыладзе</string>
     <string name="notification_low_memory_deepclean_title">Месца ў сховішчы заканчваецца</string>
+    <string name="notification_low_memory_hint">Смецце тармозіць вашу прыладу</string>
+    <string name="notification_low_memory_text">Мала памяці</string>
     <string name="notification_low_storage_button_text">Ачысціць</string>
+    <string name="notification_low_storage_size">Засталося менш за %s вольнага месца ў сховішчы</string>
     <string name="notification_low_storage_size_1.5_GB">Засталося менш за %.1f ГБ вольнага месца ў сховішчы</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Ачысціць</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Вызваліце ​​памяць прылады, каб паскорыць яе працу</string>
     <string name="notification_low_storage_size_1_GB">Засталося менш за %d ГБ вольнага месца ў сховішчы</string>
     <string name="notification_low_storage_size_1_GB_hint">Паспрабуйце скарыстацца глыбокай ачысткай</string>
+    <string name="notification_low_storage_size_1_gb_hint">Вызваліце ​​месца ў сховішчы, каб паскорыць яе працу</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Ачысціце смецце для паскарэння прылады</string>
     <string name="notification_memory_clean_button_text">Паскорыць</string>
     <string name="notification_memory_clean_hint">Націсніце, каб паскорыць прыладу</string>
     <string name="notification_memory_clean_used_size">Выкарыстоўваецца %s памяці</string>
+    <string name="notification_qq_clean_hint">Смецце тармозіць вашу прыладу</string>
+    <string name="notification_qq_clean_text">Ачысціць смецце QQ</string>
     <string name="notification_summary_after_auto_cleanup">Ачышчана %s.</string>
+    <string name="notification_uninstall_clean_hint">Ачысціце смецце, каб вызваліць памяць</string>
+    <string name="notification_uninstall_clean_text">Пасля выдалення праграм можа заставацца смецце</string>
     <string name="notification_uninstalled_clean_button_text">Прагляд</string>
     <string name="notification_uninstalled_clean_with_name">"Рэшткавыя аб'екты %s"</string>
     <string name="notification_uninstalled_clean_without_name">"Пасля выдалення праграм могуць заставацца іх аб'екты"</string>
+    <string name="notification_wechat_clean_high_level_hint">Ачысціце смецце для паскарэння прылады</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat стварыў шмат смеццевых файлаў</string>
+    <string name="notification_wechat_clean_high_level_text_b">Смецце WeChat тармозіць вашу прыладу</string>
+    <string name="notification_wechat_clean_low_level_hint">Вызваліць месца ў сховішчы</string>
+    <string name="notification_wechat_clean_low_level_text">Ачысціць смецце WeChat</string>
+    <string name="notification_wechat_clean_middle_level_hint">Выдаліце ​​смецце, каб атрымліваць апавяшчэнні без затрымак</string>
+    <string name="notification_wechat_clean_middle_level_text_a">Смецце WeChat займае шмат месца ў сховішчы</string>
+    <string name="notification_wechat_clean_middle_level_text_b">Смецце WeChat тармозіць вашу праграму</string>
     <string name="notification_whatsapp_clean_button_text">Ачысціць</string>
     <string name="notification_whatsapp_clean_size">Памер кэша WhatsApp дасягнуў %s</string>
     <string name="offline_notification_text">Націсніце, каб адкрыць рэкламу</string>
@@ -704,7 +735,7 @@
     <string name="permission_dialog_storage_btn1">Налады</string>
     <string name="permission_dialog_storage_btn2">Скасаваць</string>
     <string name="permission_dialog_storage_content">Для правільнай працы Ачыстцы патрабуецца дазвол на доступ да сховішча прылады. Націсніце \"Налады\", каб змяніць дазвол на доступ да сховішча.</string>
-    <string name="permission_dialog_storage_title">Запыт дазволаў</string>
+    <string name="permission_dialog_storage_title">Патрабуюцца дазволы</string>
     <string name="petabyteShort">ПБ</string>
     <string name="pm">PM</string>
     <string name="positive_confirm">OК</string>
@@ -721,7 +752,7 @@
     <string name="powerful_acceleration_tip_high"><Data>Сховішча &lt;font color=#ff0000 > вельмі&lt;/font> фрагментаванае. Дэфрагментацыя можа вырашыць гэтую праблему.</Data></string>
     <string name="powerful_acceleration_tip_middle"><Data>Сховішча &lt;font color=#ff0000 >трохі&lt;/font> фрагментаванае. Дэфрагментацыя можа вырашыць гэтую праблему.</Data></string>
     <string name="powerful_acceleration_toast">Дэфрагментацыя будзе выконвацца, калі вы не выкарыстоўваеце прыладу.</string>
-    <string name="pref_about_privacy_title">Палітыка канфідэнцыяльнасці</string>
+    <string name="pref_about_privacy_title">Палітыка прыватнасці</string>
     <string name="pref_category_title_auto_clean_settings">Напамін пра ачыстку</string>
     <string name="pref_category_title_auto_update_cleanup_db">Дадатковыя налады</string>
     <string name="pref_category_title_cleanup_white_list">Выняткі</string>
@@ -777,9 +808,9 @@
     <string name="recommend_news">Атрымліваць рэкамендацыі</string>
     <string name="recommend_the_following">Наступныя дзеянні дапамогуць вам больш эфектыўна выкарыстоўваць прыладу</string>
     <string name="recommended">Рэкамендацыі</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> файлаў могуць быць выдалены. Ачысціць больш месца.&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>Вы можаце ачысціць &lt;font color=#ff0000 >%1$s&lt;/font> кэша QQ&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> файлаў могуць быць выдалены. Ачысціць больш месца.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> файлаў могуць быць выдалены. Ачысціць больш месца.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>Вы можаце ачысціць &lt;font color=#ff0000 >%1$s&lt;/font> кэша QQ</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> файлаў могуць быць выдалены. Ачысціць больш месца.</Data></string>
     <string name="s1">Захаваць відарыс</string>
     <string name="s2">Дазволіць рэкламе захоўваць відарыс у Галерэі відарысаў?</string>
     <string name="s3">Прыняць</string>
@@ -881,7 +912,7 @@
     <string name="tips_low_storage_dialog_title">Сховішча запоўнена</string>
     <string name="tips_of_app_manage">Для эканоміі памяці выдаляйце праграмы, якія выкарыстоўваліся рэдка</string>
     <string name="tips_of_auto_launch_manage">Забараніць аўтазапуск рэдка выкарыстоўванных праграм</string>
-    <string name="tips_of_cloud_service">Выканайце ўваход з дапамогай Mi Акаўнта для доступу да ўсіх Mi сэрвісаў</string>
+    <string name="tips_of_cloud_service">Выканайце ўваход з дапамогай Xiaomi Акаўнта для доступу да ўсіх сэрвісаў Xiaomi</string>
     <string name="tips_of_connect">Падлучыцеся да інтэрнэту, каб выкарыстоўваць усе функцыі праграмы \"Бяспека\"</string>
     <string name="tips_of_garbage_cloud_scan">Знайдзіце схаванае смецце з дапамогай воблачнага сканавання</string>
     <string name="tips_of_garbage_data_set">Абнаўляйце базу дадзеных \"Ачыстка\", каб знаходзіць больш смецця на прыладзе</string>

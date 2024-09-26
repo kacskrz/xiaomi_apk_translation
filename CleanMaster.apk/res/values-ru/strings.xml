@@ -32,7 +32,7 @@
     <string name="activity_title_apk">Пакеты</string>
     <string name="activity_title_brightness_image">Неверная экспозиция</string>
     <string name="activity_title_cache">Кэш</string>
-    <string name="activity_title_cache_data">Файлы данных</string>
+    <string name="activity_title_cache_data">Данные приложений</string>
     <string name="activity_title_deep_apk">Пакеты установки</string>
     <string name="activity_title_deep_clean">Глубокая очистка</string>
     <string name="activity_title_garbage_cleanup">Очистка</string>
@@ -124,6 +124,7 @@
     <string name="auto_clean_time_every_day">Каждый день</string>
     <string name="auto_cleaner_open">Включить</string>
     <string name="back">Назад</string>
+    <string name="be_figuring">Оценка…</string>
     <string name="btn_text_done">Готово</string>
     <string name="btn_text_quick_cleanup">Очистить</string>
     <string name="btn_text_quick_cleanup_apk">Удалить выбранные пакеты %1$s</string>
@@ -286,8 +287,7 @@
     <string name="dialog_content_select_all_confirm">Оставить копию этого фото?</string>
     <string name="dialog_msg_add_white_list_error">Не удалось добавить файл в исключения</string>
     <string name="dialog_msg_backup_and_uninstall_apps">Зарезервировать и удалить выбранные приложения?</string>
-    <string name="dialog_msg_check_all">"Приложение: %1$s 
-Файлов: %2$d"</string>
+    <string name="dialog_msg_check_all">Приложение: %1$s Файлов: %2$d</string>
     <string name="dialog_msg_esc_cleanmaster">Остановить проверку и выйти?</string>
     <string name="dialog_msg_load_cleanup_engine_error">Модуль очистки был поврежден.</string>
     <string name="dialog_msg_stop_scan">Остановить проверку?</string>
@@ -462,11 +462,11 @@
     <string name="golbal_wa_backend_alert_dialog_btn">Открыть</string>
     <string name="goto_set">Настроить</string>
     <string name="grabage_rank_title">Очищено сегодня</string>
-    <string name="guide_dc_dialog_message_new">Осталось менее %d ГБ свободного места. Это может замедлить ваше устройство. Запустите глубокую очистку, чтобы освободить место в памяти.</string>
+    <string name="guide_dc_dialog_message_new">Осталось менее %d ГБ свободного места. Это может замедлить работу вашего устройства. Запустите глубокую очистку, чтобы освободить место в памяти.</string>
     <string name="guide_dc_dialog_negative">Отмена</string>
     <string name="guide_dc_dialog_positive">OK</string>
     <string name="guide_dc_dialog_title">Место заканчивается</string>
-    <string name="guide_secure_dialog_message_new">Оценка оптимизации вашего устройства ниже %d баллов. Оптимизировать его?</string>
+    <string name="guide_secure_dialog_message_new">Оценка оптимизации вашего устройства ниже %d баллов. Выполнить оптимизацию?</string>
     <string name="guide_secure_dialog_negative">Отмена</string>
     <string name="guide_secure_dialog_positive">Оптимизировать</string>
     <string name="guide_secure_dialog_title">Оптимизация устройства</string>
@@ -513,7 +513,7 @@
     <string name="hints_quick_cleanning">Очистка…</string>
     <string name="hints_quick_cleanuping">Оптимизация…</string>
     <string name="hints_quick_deep_clean">Очистить</string>
-    <string name="hints_quick_deep_clean2">Освоободите %s</string>
+    <string name="hints_quick_deep_clean2">Освободите %s</string>
     <string name="hints_quick_deep_scanning">Проверка</string>
     <string name="hints_quick_deep_uninstall">Удалить</string>
     <string name="hints_quick_prepare">Подготовка…</string>
@@ -603,7 +603,7 @@
     <string name="month_august">Август</string>
     <string name="month_august_short">Авг</string>
     <string name="month_august_shortest">Авг</string>
-    <string name="month_day_format">d MMMM</string>
+    <string name="month_day_format">d MMM</string>
     <string name="month_december">Декабрь</string>
     <string name="month_december_short">Дек</string>
     <string name="month_december_shortest">Дек</string>
@@ -651,33 +651,64 @@
     <string name="network_not_available">Не удалось подключиться к сети</string>
     <string name="news_change">Изменить</string>
     <string name="night">Вечер</string>
-    <string name="no_network">Не удалось подключиться к сети, повторите попытку позже</string>
+    <string name="no_network">Не удалось подключиться к сети. Повторите попытку позже.</string>
     <string name="no_network_btn">Повторить</string>
     <string name="noon">Полдень</string>
     <string name="not_set">Не указано</string>
     <string name="notification_apk_clean_button_text">Очистить</string>
+    <string name="notification_checker_installed_apk_hint">Нет необходимости хранить APK-файлы после установки приложений</string>
+    <string name="notification_checker_picture_hint_a">Кэшированные изображения могут занимать много места в хранилище устройства</string>
+    <string name="notification_checker_picture_hint_b">Удалите данные, которые вам больше не нужны, чтобы освободить место</string>
+    <string name="notification_checker_picture_text_a">Удалите кэшированные изображения</string>
+    <string name="notification_checker_picture_text_b">Удалите %s кэшированных изображений</string>
     <string name="notification_garbage_clean_botton_text">Очистить</string>
+    <string name="notification_garbage_clean_botton_text_new">Очистить</string>
     <string name="notification_garbage_clean_hint">Освободите место в памяти</string>
+    <string name="notification_garbage_clean_hint_new">Ускорьте свое устройство</string>
     <string name="notification_garbage_clean_size">Освободите %s памяти</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f ГБ</string>
+    <string name="notification_garbage_clean_size_found">Обнаружено %s мусора</string>
+    <string name="notification_garbage_clean_size_found_hint">Пора вынести мусор!</string>
+    <string name="notification_garbage_clean_size_found_text">Слишком много мусора</string>
+    <string name="notification_garbage_clean_size_int_unit">%d ГБ</string>
+    <string name="notification_garbage_clean_size_new">Освободите %s памяти</string>
     <string name="notification_garbage_cleanup_summary">Очистите мусор (%s) для ускорения работы устройства</string>
     <string name="notification_garbage_cleanup_title">Требуется очистка</string>
     <string name="notification_installed_clean_size">Освободите %2$s после установки %1$s.</string>
+    <string name="notification_low_memory_button_text">Исправить</string>
     <string name="notification_low_memory_cache_title">Требуется очистка</string>
     <string name="notification_low_memory_deepclean_summary">Глубокая очистка поможет освободить место</string>
     <string name="notification_low_memory_deepclean_title">Место заканчивается</string>
+    <string name="notification_low_memory_hint">Мусор может замедлять работу устройства</string>
+    <string name="notification_low_memory_text">Место в хранилище заканчивается</string>
     <string name="notification_low_storage_button_text">Очистить</string>
+    <string name="notification_low_storage_size">Осталось менее %s памяти</string>
     <string name="notification_low_storage_size_1.5_GB">Осталось менее %.1f ГБ свободного места.</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Очистить</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Освободите память устройства, чтобы ускорить его работу.</string>
     <string name="notification_low_storage_size_1_GB">Осталось менее %d ГБ свободного места.</string>
     <string name="notification_low_storage_size_1_GB_hint">Попробуйте воспользоваться глубокой очисткой.</string>
+    <string name="notification_low_storage_size_1_gb_hint">Освободите память устройства, чтобы ускорить его работу</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Очистите мусор для ускорения работы устройства</string>
     <string name="notification_memory_clean_button_text">Ускорить</string>
     <string name="notification_memory_clean_hint">Нажмите, чтобы ускорить устройство.</string>
     <string name="notification_memory_clean_used_size">Используется %s</string>
+    <string name="notification_qq_clean_hint">Мусор может замедлять работу устройства</string>
+    <string name="notification_qq_clean_text">Очистите мусор QQ</string>
     <string name="notification_summary_after_auto_cleanup">Очищено: %s.</string>
+    <string name="notification_uninstall_clean_hint">Удаление ненужных файлов для освобождения места в памяти устройства.</string>
+    <string name="notification_uninstall_clean_text">Удаленные приложения оставляют мусор на вашем устройстве</string>
     <string name="notification_uninstalled_clean_button_text">Просмотр</string>
     <string name="notification_uninstalled_clean_with_name">Остаточные данные приложения %s</string>
     <string name="notification_uninstalled_clean_without_name">После удаления приложений на устройстве могут оставаться некоторые файлы.</string>
+    <string name="notification_wechat_clean_high_level_hint">Очистите мусор для ускорения работы устройства</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat может создавать множество бесполезных файлов</string>
+    <string name="notification_wechat_clean_high_level_text_b">Мусор WeChat может замедлять работу устройства</string>
+    <string name="notification_wechat_clean_low_level_hint">Освободите место в памяти</string>
+    <string name="notification_wechat_clean_low_level_text">Очистите мусор WeChat</string>
+    <string name="notification_wechat_clean_middle_level_hint">Удалите мусор для получения уведомления без задержек</string>
+    <string name="notification_wechat_clean_middle_level_text_a">Мусор WeChat может занимать много места в хранилище устройства</string>
+    <string name="notification_wechat_clean_middle_level_text_b">Мусор может замедлять работу WeChat</string>
     <string name="notification_whatsapp_clean_button_text">Очистить</string>
     <string name="notification_whatsapp_clean_size">Размер кэша WhatsApp достиг %s</string>
     <string name="offline_notification_text">Чтобы открыть его, нажмите на уведомление.</string>
@@ -731,7 +762,7 @@
     <string name="pref_content_cleanup_white_list_none">Нет</string>
     <string name="pref_summary_auto_clean_and_alert">Настройте автоматический запуск очистки</string>
     <string name="pref_summary_auto_update_cleanup_db">Последнее обновление: %s</string>
-    <string name="pref_summary_cleanup_white_list">Файлы из списка исключений не будут очищены</string>
+    <string name="pref_summary_cleanup_white_list">Файлы из списка исключений не будут очищены.</string>
     <string name="pref_summary_expand_cache_group">Показывать содержимое кэша</string>
     <string name="pref_summary_garbage_auto_clean_content">Выберите объекты для автоматической очистки</string>
     <string name="pref_summary_garbage_cleanup_check_size">Очищать автоматически, когда накопится определенное количество мусора</string>
@@ -777,9 +808,9 @@
     <string name="recommend_news">Получать рекомендации</string>
     <string name="recommend_the_following">Следующие действия помогут вам эффективнее использовать устройство</string>
     <string name="recommended">Рекомендуемые</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>Вы можете очистить &lt;font color=#ff0000 >%1$s&lt;/font> данных&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>Вы можете очистить &lt;font color=#ff0000 >%1$s&lt;/font> кэша QQ&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> кэша WeChat. Освободите больше места.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>Вы можете очистить &lt;font color=#ff0000 >%1$s&lt;/font> данных.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>Вы можете очистить &lt;font color=#ff0000 >%1$s&lt;/font> кэша QQ.</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> кэша WeChat. Освободите больше места.</Data></string>
     <string name="s1">Сохранить изображение</string>
     <string name="s2">Разрешить объявлению сохранить изображение в галерее?</string>
     <string name="s3">Разрешить</string>
@@ -817,7 +848,7 @@
     <string name="start_install">Установить</string>
     <string name="status_bar_notification_info_overflow">>999</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_delete_apk">Удалить выбранные APK навсегда?</string>
+    <string name="summary_delete_apk">Удалить выбранные APK-файлы без возможности восстановления?</string>
     <string name="summary_delete_cache">Очистить кэш выбранных приложений?</string>
     <string name="summary_delete_large_file">Удалить выбранные файлы навсегда?</string>
     <string name="summary_delete_video">Удалить выбранные видео навсегда?</string>
@@ -869,7 +900,7 @@
     <string name="thursday">Четверг</string>
     <string name="thursday_short">Чт</string>
     <string name="thursday_shortest">Чт</string>
-    <string name="time_picker_dialog_title">Настройка времени</string>
+    <string name="time_picker_dialog_title">Выберите время</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">М</string>
     <string name="tips_low_storage_dialog_cancel">Отмена</string>
@@ -879,9 +910,9 @@
     <string name="tips_low_storage_dialog_ok">Очистить</string>
     <string name="tips_low_storage_dialog_ok_storage">Освободить</string>
     <string name="tips_low_storage_dialog_title">Место заканчивается</string>
-    <string name="tips_of_app_manage">Удаляйте редко используемые приложения</string>
+    <string name="tips_of_app_manage">Удаляйте редко используемые приложения.</string>
     <string name="tips_of_auto_launch_manage">Запретите автозапуск редко используемых приложений</string>
-    <string name="tips_of_cloud_service">Войдите в свой Mi аккаунт для доступа ко всем сервисам Mi</string>
+    <string name="tips_of_cloud_service">Для доступа ко всем сервисам, войдите в свой аккаунт Xiaomi</string>
     <string name="tips_of_connect">Подключитесь к интернету для использования всех функций безопасности</string>
     <string name="tips_of_garbage_cloud_scan">Находите скрытый мусор с помощью облачной проверки</string>
     <string name="tips_of_garbage_data_set">Обновляйте базы очистки для эффективного поиска мусора</string>
@@ -890,7 +921,7 @@
     <string name="tips_of_package_set">Настройте месячный тариф и контролируйте количество используемого трафика</string>
     <string name="tips_of_traffic_notification">Просматривайте сведения о трафике в шторке уведомлений</string>
     <string name="tips_of_traffic_pack_threshold">Оплатите дополнительный пакет трафика, когда ваш месячный лимит на исходе</string>
-    <string name="tips_of_virus_scan">Регулярно проверяйте устройство с помощью антивируса</string>
+    <string name="tips_of_virus_scan">Регулярно проверяйте устройство с помощью антивируса.</string>
     <string name="title_auto_cleaner">Напоминания об очистке</string>
     <string name="title_delete_cache">Очистка кэша приложений</string>
     <string name="title_delete_clipboard">Содержимое буфера</string>
@@ -1121,7 +1152,7 @@
     <string name="whatsapp_file_recv">Получено</string>
     <string name="whatsapp_file_send">Отправлено</string>
     <string name="whatsapp_file_show_order">Сегодня</string>
-    <string name="whatsapp_function_summery">Очищайте вложения WhatsApp</string>
+    <string name="whatsapp_function_summery">Удаление данных WhatsApp.</string>
     <string name="whatsapp_function_title">Очистка WhatsApp</string>
     <string name="whatsapp_group_audio">Аудиофайлы</string>
     <string name="whatsapp_group_document">Документы</string>
@@ -1141,6 +1172,6 @@
     <string name="wqfile_group_chat_pic">Изображения из мессенджеров</string>
     <string name="wqfile_group_chat_video">Видео из мессенджеров</string>
     <string name="wqfile_group_chat_voice">Голосовые сообщения</string>
-    <string name="year_month_day_format">d MMMM yyyy</string>
+    <string name="year_month_day_format">d MMM yyyy</string>
     <string name="yesterday">Вчера</string>
 </resources>

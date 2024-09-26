@@ -48,7 +48,7 @@
     <string name="activity_title_settings">การตั้งค่า</string>
     <string name="activity_title_similar_image">รูปภาพซ้ำ</string>
     <string name="activity_title_similar_image_group">ลบรูปภาพซ้ำ</string>
-    <string name="activity_title_tedious_image">ภาพอุบัติเหตุ</string>
+    <string name="activity_title_tedious_image">ภาพโดยไม่ได้ตั้งใจ</string>
     <string name="activity_title_uninstall_apps">แอป</string>
     <string name="activity_title_video">ลบวิดีโอ</string>
     <string name="activity_title_white_list">รายการยกเว้น</string>
@@ -58,7 +58,7 @@
     <string name="afternoon">บ่าย</string>
     <string name="am">AM</string>
     <string name="analying">กำลังวิเคราะห์…</string>
-    <string name="apk_status_damage">ไฟล์ไม่สมบูรณ์</string>
+    <string name="apk_status_damage">เสียหาย</string>
     <string name="apk_status_duplicate">ไฟล์ซ้ำ</string>
     <string name="apk_status_install">ติดตั้งแล้ว</string>
     <string name="apk_status_installed_old">เวอร์ชั่นเก่า</string>
@@ -124,6 +124,7 @@
     <string name="auto_clean_time_every_day">ทุกวัน</string>
     <string name="auto_cleaner_open">เปิดใช้งาน</string>
     <string name="back">ย้อนกลับ</string>
+    <string name="be_figuring">กำลังคำนาณ…</string>
     <string name="btn_text_done">เสร็จสิ้น</string>
     <string name="btn_text_quick_cleanup">ทำความสะอาด</string>
     <string name="btn_text_quick_cleanup_apk">ลบ APKs %1$s ที่เลือกไว้</string>
@@ -288,7 +289,7 @@
     <string name="dialog_msg_backup_and_uninstall_apps">สำรองข้อมูลแล้วถอนการติดตั้งแอปที่เลือกไว้?</string>
     <string name="dialog_msg_check_all">ยืนยันการเลือก %1$s ที่ประกอบด้วย %2$d รายการ</string>
     <string name="dialog_msg_esc_cleanmaster">หยุดการสแกนและออกจากตัวทำความสะอาด?</string>
-    <string name="dialog_msg_load_cleanup_engine_error">ตัวทำความสะอาดทำงานไม่สมบูรณ์</string>
+    <string name="dialog_msg_load_cleanup_engine_error">ตัวทำความสะอาดทำงานเสียหาย</string>
     <string name="dialog_msg_stop_scan">หยุดการสแกนทันที?</string>
     <string name="dialog_msg_uninstall_apps">ถอนการติดตั้งแอปเหล่านี้?</string>
     <string name="dialog_msg_uninstall_apps_xspace">ถอนการติดตั้งแอปเหล่านี้รวมถึงแอปคู่ของพวกเขา?</string>
@@ -478,7 +479,7 @@
     <string name="hints_apk_header_left">แพ็คเกจ</string>
     <string name="hints_apk_version">เวอร์ชั่น %s</string>
     <string name="hints_app_uninstall_residual">ทำความสะอาดไฟตกค้างจากแอปที่ได้ถอนการติดตั้ง?</string>
-    <string name="hints_cache_header_left">ไฟล์จัดเก็บ</string>
+    <string name="hints_cache_header_left">ไฟล์แคช</string>
     <string name="hints_cache_msd_desc">การลบอัปเดตเดลตาจะไม่มีผลต่อการใช้แอป</string>
     <string name="hints_cache_msd_title">อัปเดตเดลตา</string>
     <string name="hints_cleanfinish">เสร็จสิ้นการทำความสะอาด</string>
@@ -532,7 +533,7 @@
     <string name="information_setting">ข้อเสนอแนะ</string>
     <string name="install_sucess">ติดตั้ง %s เรียบร้อย</string>
     <string name="install_time_format">dd/MM/yyyy</string>
-    <string name="installed">ติดตั้งไว้</string>
+    <string name="installed">ติดตั้งแล้ว</string>
     <string name="installing">กำลังติดตั้ง</string>
     <string name="item_title_process_mode">เลือกการดำเนินการ</string>
     <string name="just_now">เมื่อสักครู่</string>
@@ -646,7 +647,7 @@
     <string name="native_body">เนื้อความ</string>
     <string name="native_headline">บรรทัดแรก</string>
     <string name="native_media_view">มุมมองสื่อ</string>
-    <string name="nb_clear_set">ล้างหน่วยความจำแคช เรียกดูแบตเตอรี่และข้อมูลรายการบล็อกในหน้าต่างการแจ้งเตือน</string>
+    <string name="nb_clear_set">ล้างหน่วยความจำแคช เรียกดูแบตเตอรี่และข้อมูลรายการบล็อกในหน้าแถบการแจ้งเตือน</string>
     <string name="network_not_available">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="news_change">แก้ไข</string>
     <string name="night">เย็น</string>
@@ -655,28 +656,59 @@
     <string name="noon">เที่ยงวัน</string>
     <string name="not_set">ไม่ได้ตั้งค่า</string>
     <string name="notification_apk_clean_button_text">ล้าง</string>
+    <string name="notification_checker_installed_apk_hint">ไม่จำเป็นต้องเก็บ APK ไว้หลังการติดตั้ง</string>
+    <string name="notification_checker_picture_hint_a">รูปภาพที่แคชไว้อาจใช้พื้นที่เก็บข้อมูลมาก</string>
+    <string name="notification_checker_picture_hint_b">เพิ่มพื้นที่เก็บข้อมูลโดยการลบรายการที่คุณไม่ต้องการอีกต่อไป</string>
+    <string name="notification_checker_picture_text_a">ล้างรูปภาพที่แคชไว้</string>
+    <string name="notification_checker_picture_text_b">ล้าง %s รูปภาพที่แคชไว้</string>
     <string name="notification_garbage_clean_botton_text">ล้าง</string>
+    <string name="notification_garbage_clean_botton_text_new">ล้าง</string>
     <string name="notification_garbage_clean_hint">ล้างพื้นที่เก็บข้อมูล</string>
+    <string name="notification_garbage_clean_hint_new">ให้อุปกรณ์ของคุณทะยาน</string>
     <string name="notification_garbage_clean_size">เพิ่มพื้นที่ %s</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f GB</string>
+    <string name="notification_garbage_clean_size_found">มีขยะ %s</string>
+    <string name="notification_garbage_clean_size_found_hint">ได้เวลากำจัดขยะ!</string>
+    <string name="notification_garbage_clean_size_found_text">ไฟล์ขยะมากเกินไป</string>
+    <string name="notification_garbage_clean_size_int_unit">%d GB</string>
+    <string name="notification_garbage_clean_size_new">เพิ่มที่จัดเก็บข้อมูล %s</string>
     <string name="notification_garbage_cleanup_summary">ล้างขยะ (%s) เพื่อเพิ่มความเร็วอุปกรณ์ของคุณ</string>
     <string name="notification_garbage_cleanup_title">ล้างไฟล์ขยะ</string>
     <string name="notification_installed_clean_size">เพิ่มพื้นที่ %2$s หลังจากติดตั้ง %1$s</string>
+    <string name="notification_low_memory_button_text">แก้ไข</string>
     <string name="notification_low_memory_cache_title">ล้างแคช</string>
     <string name="notification_low_memory_deepclean_summary">ทำความสะอาดเชิงลึกสามารถเพิ่มที่จัดเก็บข้อมูลในอุปกรณ์ของคุณ</string>
     <string name="notification_low_memory_deepclean_title">พื้นที่จัดเก็บเหลือน้อย</string>
+    <string name="notification_low_memory_hint">ขยะอาจทำให้อุปกรณ์ของคุณทำงานช้าลง</string>
+    <string name="notification_low_memory_text">หน่วยความจำใกล้หมด</string>
     <string name="notification_low_storage_button_text">ล้าง</string>
+    <string name="notification_low_storage_size">พื้นที่เก็บข้อมูลน้อยกว่า %s</string>
     <string name="notification_low_storage_size_1.5_GB">พื้นที่เก็บข้อมูลเหลือน้อยกว่า %.1f GB</string>
     <string name="notification_low_storage_size_1.5_GB_btn">ล้าง</string>
     <string name="notification_low_storage_size_1.5_GB_hint">เพิ่มพื้นที่เก็บข้อมูลเพื่อเร่งความเร็วอุปกรณ์ของคุณ</string>
     <string name="notification_low_storage_size_1_GB">พื้นที่เก็บข้อมูลเหลือน้อยกว่า %d GB</string>
     <string name="notification_low_storage_size_1_GB_hint">ทำความสะอาดเชิงลึกสามารถช่วยได้</string>
+    <string name="notification_low_storage_size_1_gb_hint">เพิ่มพื้นที่เก็บข้อมูลเพื่อเร่งความเร็วอุปกรณ์ของคุณ</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">ล้างขยะเพื่อเพิ่มความเร็วอุปกรณ์ของคุณ</string>
     <string name="notification_memory_clean_button_text">เพิ่ม</string>
     <string name="notification_memory_clean_hint">แตะเพื่อเพิ่มความเร็ว</string>
     <string name="notification_memory_clean_used_size">%s ของหน่วยความจำถูกครอบครอง</string>
+    <string name="notification_qq_clean_hint">ขยะอาจทำให้อุปกรณ์ของคุณทำงานช้าลง</string>
+    <string name="notification_qq_clean_text">ล้างขยะของ QQ</string>
     <string name="notification_summary_after_auto_cleanup">ทำความสะอาดแล้ว %s</string>
+    <string name="notification_uninstall_clean_hint">ล้างขยะเพื่อเพิ่มพื้นที่เก็บข้อมูล</string>
+    <string name="notification_uninstall_clean_text">แอปที่ถอนการติดตั้งจะกลายเป็นขยะในอุปกรณ์ของคุณ</string>
     <string name="notification_uninstalled_clean_button_text">ดู</string>
     <string name="notification_uninstalled_clean_with_name">รายการที่เหลือของ %s</string>
     <string name="notification_uninstalled_clean_without_name">แอปที่ถอนการติดตั้งออกจากรายการที่เหลือ</string>
+    <string name="notification_wechat_clean_high_level_hint">ล้างขยะเพื่อเพิ่มความเร็วอุปกรณ์ของคุณ</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat สร้างไฟล์ขยะจำนวนมาก</string>
+    <string name="notification_wechat_clean_high_level_text_b">ขยะของ WeChat ทำให้อุปกรณ์ของคุณทำงานช้าลง</string>
+    <string name="notification_wechat_clean_low_level_hint">เพิ่มพื้นที่ที่จัดเก็บข้อมูล</string>
+    <string name="notification_wechat_clean_low_level_text">ล้างขยะของ WeChat</string>
+    <string name="notification_wechat_clean_middle_level_hint">ล้างขยะเพื่อรับการแจ้งเตือนโดยไม่เกิดความล่าช้า</string>
+    <string name="notification_wechat_clean_middle_level_text_a">ขยะของ WeChat ใช้พื้นที่เก็บข้อมูลมาก</string>
+    <string name="notification_wechat_clean_middle_level_text_b">ขยะของ WeChat ทำให้แอปทำงานช้าลง</string>
     <string name="notification_whatsapp_clean_button_text">ล้าง</string>
     <string name="notification_whatsapp_clean_size">แคชของ WhatsApp ถึง %s แล้ว</string>
     <string name="offline_notification_text">แตะเพื่อเปิดโฆษณา</string>
@@ -776,9 +808,9 @@
     <string name="recommend_news">รับข้อเสนอแนะ</string>
     <string name="recommend_the_following">ดำเนินการต่อไปนี้เพื่อประโยชน์สูงสุดสำหรับอุปกรณ์ของคุณ</string>
     <string name="recommended">รายการเด่น</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font>สามารถล้างไฟล์เพิ่มเติม เพิ่มพื้นที่ว่างมากขึ้น.;&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>คุณสามารถล้าง &lt;font color=#ff0000 >%1$s&lt;/font> หน่วยความจำแคชที่สร้างโดย QQ&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> หน่วยความจำแคชของ WeChat. เพิ่มพื่้นที่ว่างมากขึ้น.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font>สามารถล้างไฟล์เพิ่มเติม เพิ่มพื้นที่ว่างมากขึ้น</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>คุณสามารถล้าง &lt;font color=#ff0000 >%1$s&lt;/font> หน่วยความจำแคชที่สร้างโดย QQ</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> หน่วยความจำแคชของ WeChat. เพิ่มพื่้นที่ว่างมากขึ้น.</Data></string>
     <string name="s1">บันทึกรูปภาพ</string>
     <string name="s2">อนุญาตให้โฆษณาจัดเก็บรูปภาพในแกลเลอรีภาพไหม</string>
     <string name="s3">ยอมรับ</string>
@@ -880,7 +912,7 @@
     <string name="tips_low_storage_dialog_title">พื้นที่จัดเก็บสำหรับใช้งานต่ำ</string>
     <string name="tips_of_app_manage">ลบแอปที่ใช้งานน้อยเพื่อประหยัดพื้นที่จัดเก็บข้อมูล</string>
     <string name="tips_of_auto_launch_manage">ป้องกันไม่ให้แอปที่ไม่ค่อยได้ใช้งานเริ่มการทำงานเองโดยอัตโนมัติ</string>
-    <string name="tips_of_cloud_service">ลงชื่อเข้าสู่ระบบ Mi เพื่อใช้งานบริการอื่นๆจาก Mi เพิ่มเติม</string>
+    <string name="tips_of_cloud_service">ลงชื่อเข้าใช้ด้วยบัญชี Xiaomi ของคุณเพื่อใช้บริการ Xiaomi เพิ่มเติม</string>
     <string name="tips_of_connect">เชื่อมกับต่ออินเตอร์เน็ตเพื่อให้แอปความปลอดภัยทำงานได้อย่างเต็มประสิทธิภาพ</string>
     <string name="tips_of_garbage_cloud_scan">ค้นหาไฟล์ขยะด้วยวิธีการสแกนผ่านคลาวด์</string>
     <string name="tips_of_garbage_data_set">การอัปเดตฐานข้อมูลของตัวทำความสะอาดช่วยในการค้นพบไฟล์ขยะ</string>
