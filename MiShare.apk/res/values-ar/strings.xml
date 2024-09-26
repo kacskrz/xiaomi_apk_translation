@@ -7,7 +7,7 @@
     <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
     <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
     <string name="abc_capital_off">إيقاف</string>
-    <string name="abc_capital_on">تفعيل</string>
+    <string name="abc_capital_on">مفعّلة</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
     <string name="abc_menu_delete_shortcut_label">حذف</string>
@@ -45,6 +45,13 @@
     <string name="btn_cancel_send">إلغاء هذا النقل</string>
     <string name="btn_exit_send">خروج</string>
     <string name="btn_sure">موافق</string>
+    <string name="call_notification_answer_action">ردّ</string>
+    <string name="call_notification_answer_video_action">فيديو</string>
+    <string name="call_notification_decline_action">رفض</string>
+    <string name="call_notification_hang_up_action">قطع الاتصال</string>
+    <string name="call_notification_incoming_text">مكالمة واردة</string>
+    <string name="call_notification_ongoing_text">مكالمة جارية</string>
+    <string name="call_notification_screening_text">يتم فحص المكالمة الواردة</string>
     <string name="can_not_transfer_when_screening">لا يمكن بث الشاشة أثناء عمليات النقل</string>
     <string name="cancel">إلغاء</string>
     <string name="cancel_receive">إلغاء</string>
@@ -87,6 +94,11 @@
     <string name="enable_midrop">تشغيل</string>
     <string name="eras_ad">بعد الميلاد</string>
     <string name="eras_bc">قبل الميلاد</string>
+    <string name="err_send_short_connect_error">تعذر الاتصال</string>
+    <string name="err_send_short_remote_busy">مشغول</string>
+    <string name="err_send_short_remote_cancel">تم إلغاء</string>
+    <string name="err_send_short_remote_refuse">تم الرفض</string>
+    <string name="err_send_short_remote_timeout">لا توجد إستجابة</string>
     <string name="error_ap_in_use">لا يمكن إرسال ملفات إلى الأجهزة الأخرى عند تشغيل نقطة الاتصال</string>
     <string name="error_ap_or_screen_already_hosting">لا يمكن إرسال عناصر إلى الأجهزة الأخرى أثناء البث إو استخدام نقطة الاتصال المحمولة.</string>
     <string name="error_ble_connect_failure">لا يمكن للجهاز المستقبل الاتصال بالبلوتوث. تأكد أن الشاشة غير مطفأة.</string>
@@ -195,13 +207,16 @@
     <string name="friday_short">الجمعة</string>
     <string name="friday_shortest">الجمعة</string>
     <string name="functions_are_being_developed">ستتوفر هذه الميزة قريبا. ابق على اطلاع!</string>
+    <string name="global_help">لا يمكن العثور على الجهاز</string>
     <string name="global_pad">جهازي اللوحي</string>
     <string name="global_pc">كمبيوتري</string>
     <string name="global_phone">هاتفي</string>
     <string name="go_to_settings">الإعدادات</string>
     <string name="guide_summary_1">يمكن للشخص الآخر النقر على المفتاح في مركز الإشعارات</string>
+    <string name="guide_summary_1_lyra">يمكنك تشغيل Xiaomi Share في مركز التحكم</string>
     <string name="guide_summary_2">حدد الجهاز الذي ترغب في ارسال العناصر إليه وانقر على أيقونتة</string>
     <string name="guide_title_1">شغل Xiaomi Share على الجهازين</string>
+    <string name="guide_title_1_lyra">قم بتشغيل Xiaomi Share لتلقي الملفات</string>
     <string name="guide_title_2">حدد جهاز للمشاركة</string>
     <string name="help">لا يمكن العثور على أجهزة؟</string>
     <string name="help_content">إذا لم تتمكن من العثور على الجهاز الذي تحتاجه، اطلب من الشخص الآخر تشغيل Xiaomi Share.</string>
@@ -316,6 +331,8 @@
     <string name="month_september_shortest">سبتمبر</string>
     <string name="more">المزيد</string>
     <string name="morning">الصباح</string>
+    <string name="motorola">موتورولا</string>
+    <string name="motorola_phone">هاتف موتورولا</string>
     <string name="multi_file_name">%1$s، %2$s</string>
     <string name="name_with_ellipsize">%1$s…%2$s</string>
     <string name="nearby_share">المشاركة عن قرب</string>
@@ -333,6 +350,8 @@
     <string name="nfc_wifi_and_bluetooth">تشغيل Wi-Fi والبلوتوث</string>
     <string name="nfc_wifi_and_bluetooth_china">تشغيل Wi-Fi والبلوتوث</string>
     <string name="night">المساء</string>
+    <string name="nio">NIO</string>
+    <string name="nio_phone">هاتف NIO</string>
     <string name="no_longer_prompt">حظر</string>
     <string name="no_longer_receive">حظر هذا الجهاز؟ لن تتمكن من استلام ملفات منه.</string>
     <string name="noon">الظهر</string>
@@ -408,7 +427,7 @@
     <string name="saturday">السبت</string>
     <string name="saturday_short">السبت</string>
     <string name="saturday_shortest">السبت</string>
-    <string name="scanning_device_tips">جارٍ البحث عن أجهزة قريبة…تأكد من أن الجهاز الآخر في وضع الاكتشاف.</string>
+    <string name="scanning_device_tips">&lt;Data>يتم اكتشاف الأجهزة القريبة. يحتاج الشخص الآخر إلى تشغيل Xiaomi Share في مركز التحكم. &lt;a>معرفة المزيد&lt;/a>&lt;/Data></string>
     <string name="scanning_only_xiaomi_device">يمكن نقل هذا العنصر فقط إلى أجهزة Xiaomi أو Black Shark</string>
     <string name="search_menu_title">البحث</string>
     <string name="seize_content">قم بإيقاف مشاركة الشاشة أولاً لتتمكن من نقل العناصر. إيقافها الآن؟</string>
@@ -439,6 +458,9 @@
     <string name="start_receive_much_files_from_pc">جارٍ استلام اكثر من %2$d ملف من %1$s…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sub_title_mishare_switch">سيتوقف تشغيل هذه الميزة تلقائيا بعد %d دقائق.</string>
+    <string name="sub_title_mishare_switch_all">يمكنك استلام كل الملفات</string>
+    <string name="sub_title_mishare_switch_mine">يمكنك استلام الملفات من الأجهزة التي سجلت الدخول على حسابك</string>
+    <string name="sub_title_mishare_switch_none">قم بتشغيل Xiaomi Share لتتمكن من تلقي الملفات</string>
     <string name="sub_title_turbo_mode">يوفر تجربة سريعة للغاية لنقل الملفات بين هواتف Xiaomi المحمولة والأجهزة اللوحية. سيتم قطع الشبكة أثناء النقل.</string>
     <string name="sub_title_withdraw_privacy_policy_consent">سيؤدي سحب الموافقة على سياسة الخصوصية إلى إيقاف تشغيل Xiaomi Share</string>
     <string name="success_receive_much_file_from_pc">تم استلام اكثر من %2$d ملف من %1$s. انقر للعرض.</string>
@@ -447,6 +469,9 @@
     <string name="sunday_short">الأحد</string>
     <string name="sunday_shortest">الأحد</string>
     <string name="support_device_type">الأجهزة المدعومة</string>
+    <string name="switch_mode_all">من أي شخص (لـ %dم)</string>
+    <string name="switch_mode_close">إيقاف التشغيل</string>
+    <string name="switch_mode_sameaccount">من هذا الحساب</string>
     <string name="the_anniversary_of_lifting_martial_law">ذكرى إلغاء الأحكام العرفية</string>
     <string name="the_anti_aggression_day">يوم مكافحة العدوان</string>
     <string name="the_arbor_day">يوم الشجرة</string>
@@ -503,15 +528,21 @@
     <string name="tips_prompt_enable_midrop">Xiaomi Share</string>
     <string name="to_feedback">الإبلاغ</string>
     <string name="toast_auto_close_in_minutes">سيتوقف تشغيل Xiaomi Share تلقائيا بعد %d دقائق.</string>
+    <string name="toast_or_desc_advert_all_close">Xiaomi Share متوقف</string>
+    <string name="toast_or_desc_advert_all_open">Xiaomi Share مشغل لمدة %d دقائق</string>
     <string name="toast_transfering">جارٍ نقل العناصر. حاول لاحقا.</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غدا</string>
     <string name="transfer_intercept_to_remote">تعذر الإرسال: %1$s</string>
-    <string name="transfer_to_pc_summary_new_plus"><Data>يدعم مدير Xiaomi PC الآن Xiaomi Share! يمكنك العثور على قائمة بطرازات أجهزة الكمبيوتر المدعومة من &lt;a href=%1$s>هنا&lt;/a>.</Data></string>
+    <string name="transfer_to_different_account_summary">تأكد من تشغيل Xiaomi Share في مركز التحكم أولاً. سيكون جهازك قابلاً للاكتشاف للآخرين لمدة %d دقائق.</string>
+    <string name="transfer_to_different_account_title">اكتشاف الأجهزة على حسابات مختلفة</string>
+    <string name="transfer_to_pc_summary_new_plus">&lt;Data>يدعم مدير Xiaomi PC الآن Xiaomi Share! يمكنك العثور على قائمة بطرازات أجهزة الكمبيوتر المدعومة من &lt;a href=%1$s>هنا&lt;/a>.&lt;/Data></string>
     <string name="transfer_to_pc_title">إرسال الملفات إلى الكمبيوتر</string>
     <string name="transfer_to_phone_summary">قم بتشغيل Xiaomi Share بإستخدام مفتاح تشغيل/إيقاف في مركز الإشعارات. بعد ذلك، ستتمكن من رؤية الأجهزة القريبة عند بدء مشاركة صورة أو ملف. انقر فوق جهاز المستلم لإرسال العنصر الذي تشاركه.</string>
     <string name="transfer_to_phone_summary_new">قم بتشغيل Xiaomi Share في مركز التحكم لتتمكن من إرسال العناصر واستقبالها. ستتمكن بعد تشغيله من مشاركة العناصر مع الأجهزة القريبة لمدة %d دقائق.</string>
     <string name="transfer_to_phone_title">إرسال الملفات إلى الهواتف</string>
+    <string name="transfer_to_same_account_summary">يجب أن تكون الأجهزة الموجودة على نفس الحساب قابلة للاكتشاف بسهولة. تأكد من تشغيل Xiaomi Share في الإعدادات.</string>
+    <string name="transfer_to_same_account_title">اكتشاف الأجهزة على نفس الحساب</string>
     <string name="transfer_to_summary">قم بتشغيل Xiaomi Share بإستخدام مفتاح تشغيل/إيقاف في مركز الإشعارات. بعد ذلك، ستتمكن من رؤية الأجهزة القريبة عند بدء مشاركة صورة أو ملف. انقر فوق جهاز المستلم لإرسال العنصر الذي تشاركه.</string>
     <string name="transfer_to_summary_new">قم بتشغيل Xiaomi Share في مركز التحكم لتتمكن من إرسال العناصر واستقبالها. ستتمكن بعد تشغيله من مشاركة العناصر مع الأجهزة القريبة لمدة %d دقائق.</string>
     <string name="transfer_to_title">إرسال الملفات على الأجهزة المحمولة</string>
