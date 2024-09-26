@@ -130,6 +130,8 @@
     <string name="ai_entrance_description">Creați o imagine IA bazată pe fotografiile oamenilor și generați portretele acestora</string>
     <string name="ai_entrance_title">Portrete IA</string>
     <string name="ai_exit">Ieși</string>
+    <string name="ai_film_description">Creați videoclipuri uimitoare cu ajutorul IA</string>
+    <string name="ai_film_title">Editare automată</string>
     <string name="ai_filter_album_tag">Persoanele cu fotografii insuficiente au fost eliminate</string>
     <string name="ai_free_creation_button">Creează</string>
     <string name="ai_free_creation_container_msg">De exemplu: O plimbare pe plajă</string>
@@ -162,7 +164,7 @@ Selectați alte fotografii și încercați din nou."</string>
     <string name="ai_image_over_limit_button_create">Continuă</string>
     <string name="ai_image_over_limit_title">Nu se poate crea imagine IA</string>
     <string name="ai_image_over_limit_title_update">Nu se pot actualiza imaginile IA acum</string>
-    <string name="ai_image_privacy_message">&lt;Data>Bine ați venit la Portrete IA!&lt;br/>Pentru a vă putea oferi servicii, trebuie să colectăm informațiile personale necesare:&lt;br/>&lt;xliff:g refersto=1 id=INDEX_1>%1$s&lt;/xliff:g>. Pentru a crea portrete IA, va trebui să încărcați &lt;b>fotografii cu persoane&lt;/b> pe serverele noastre. Vom colecta și procesa informațiile despre &lt;b>fețele&lt;/b> ale acestora pentru a genera un model IA.&lt;br/>&lt;xliff:g refersto=2 id=INDEX_2>%2$s&lt;/xliff:g>. Când încărcați &lt;b>fotografii ale unor persoane&lt;/b>, le vom sincroniza &lt;b>numele și fotografiile de profil&lt;/b> din albumele corespunzătoare și vom asocia aceste informații cu imaginile IA.&lt;br/>&lt;xliff:g refersto=3 id=INDEX_3>%3$s&lt;/xliff:g>. Când creați imagini IA bazate pe text, vom colecta &lt;b>descrierea&lt;/b> pe care o furnizați pentru a genera imagini.&lt;br/>Colectăm doar informații personale care sunt necesare pentru caracteristicile specifice ale produselor noastre și serviciile pe care le utilizați. Puteți afla cum colectăm și procesăm informațiile personale în &lt;a href=\"%4$s\">Politica de confidențialitate pentru Portrete IA&lt;/a>.&lt;br/>Citiți și acceptați &lt;a href=\"%5$s\">Acordul utilizatorului pentru Portrete IA&lt;/a> și &lt;a &lt;a href=\"%6$s\">Politica de confidențialitate pentru Portrete IA&lt;/a> înainte de a continua.&lt;/Data></string>
+    <string name="ai_image_privacy_message"><Data>Bine ați venit la Portrete IA!&lt;br/>Pentru a vă putea oferi servicii, trebuie să colectăm informațiile personale necesare:&lt;br/>&lt;xliff:g refersto=1 id=INDEX_1>%1$s&lt;/xliff:g>. Pentru a crea portrete IA, va trebui să încărcați &lt;b>fotografii cu persoane&lt;/b> pe serverele noastre. Vom colecta și procesa informațiile despre &lt;b>fețele&lt;/b> ale acestora pentru a genera un model IA.&lt;br/>&lt;xliff:g refersto=2 id=INDEX_2>%2$s&lt;/xliff:g>. Când încărcați &lt;b>fotografii ale unor persoane&lt;/b>, le vom sincroniza &lt;b>numele și fotografiile de profil&lt;/b> din albumele corespunzătoare și vom asocia aceste informații cu imaginile IA.&lt;br/>&lt;xliff:g refersto=3 id=INDEX_3>%3$s&lt;/xliff:g>. Când creați imagini IA bazate pe text, vom colecta &lt;b>descrierea&lt;/b> pe care o furnizați pentru a genera imagini.&lt;br/>Colectăm doar informații personale care sunt necesare pentru caracteristicile specifice ale produselor noastre și serviciile pe care le utilizați. Puteți afla cum colectăm și procesăm informațiile personale în &lt;a href=\"%4$s\">Politica de confidențialitate pentru Portrete IA&lt;/a>.&lt;br/>Citiți și acceptați &lt;a href=\"%5$s\">Acordul utilizatorului pentru Portrete IA&lt;/a> și &lt;a &lt;a href=\"%6$s\">Politica de confidențialitate pentru Portrete IA&lt;/a> înainte de a continua.</Data></string>
     <string name="ai_input_name_hint">Introduceți nume</string>
     <string name="ai_loading">Doar o secundă…</string>
     <string name="ai_multi_window_tip">Această pagină nu poate fi vizualizată în Ecran împărțit</string>
@@ -325,7 +327,7 @@ Cele mai bune fotografii au fost selectate automat. Puteți adăuga mai multe fo
     <string name="all_story_empty_desc">Nu există amintiri aici încă</string>
     <string name="all_story_empty_tip">"Fără memorii încă aici.
 Conectați încărcătorul și opriți ecranul pentru a face să apară amintirile."</string>
-    <string name="all_story_title">Memories</string>
+    <string name="all_story_title">Toate amintirile</string>
     <string name="all_video_album_display_name">Toate videoclipurile</string>
     <string name="already_authorize_to_device">Autorizat</string>
     <string name="already_cancel_authorize_to_device">Autorizație anulată</string>
@@ -361,8 +363,6 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="assistant_today_of_year_function_no_address_tip">Înapoi în timp</string>
     <string name="assistant_today_of_year_function_no_photo_tip">Începe</string>
     <string name="associate_face_album">Alege un album</string>
-    <string name="asus">Asus</string>
-    <string name="asus_phone">Asus</string>
     <string name="authorize_to_device_failed">Nu se poate autoriza</string>
     <string name="authorize_watch_on_tv_failed">Nu s-a putut autoriza pentru a viziona la TV</string>
     <string name="auto_backup_introduce">Sincronizați automat fotografiile și videoclipurile (Este necesar Cont Xiaomi)</string>
@@ -482,21 +482,10 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="base_btn_download">Continuă</string>
     <string name="begin_share">S-a creat Album de copil ”%s”, puteți să-l partajați acum</string>
     <string name="begin_share_toast">Creează un album separat pentru copiii înainte de partajare?</string>
-    <string name="blackshark">Black Shark</string>
-    <string name="blackshark_1">Black Shark</string>
-    <string name="blackshark_2">Black Shark 2</string>
-    <string name="blackshark_2_pro">Black Shark 2 Pro</string>
-    <string name="blackshark_3">Black Shark 3</string>
-    <string name="blackshark_3_pro">Black Shark 3 Pro</string>
-    <string name="blackshark_helo">Black Shark Helo</string>
-    <string name="blackshark_phone">Black Shark</string>
     <string name="blank_app_name" />
     <string name="blur_refocus_enter">Bokeh</string>
     <string name="browse_category_title">Caută</string>
-    <string name="btn_cancel">Anulează</string>
-    <string name="btn_cancel_send">Anulează acest transfer</string>
-    <string name="btn_exit_send">Ieşire</string>
-    <string name="btn_sure">OK</string>
+    <string name="btn_gallery_widget_pre_edit">Editare</string>
     <string name="burst_image_download_item_title" formatted="false">Descarcă originalul (%s|%s)</string>
     <string name="burst_photo_enter">Rafală</string>
     <string name="burst_photo_preview_thumbnail_content_description">Fotografie %d</string>
@@ -520,7 +509,6 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="byteShort">B</string>
     <string name="camera_needs_auto_backup_tip">Albumul de la apartul foto trebuie sincronizat</string>
     <string name="can_authorize_owner_albums_share_to_tv">Încercați să distribuiți elemente</string>
-    <string name="can_not_transfer_when_screening">Nu se poate emite în timpul transferurilor</string>
     <string name="cancel">Anulează</string>
     <string name="cancel_authorize_to_device_failed">Nu s-a putut anula autorizația</string>
     <string name="cancel_authorize_watch_on_tv_failed">Nu s-a putut anula autorizația pentru vizionarea la televizor</string>
@@ -592,6 +580,7 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="cleaner_similar_action">Vezi</string>
     <string name="cleaner_similar_description">Ștergeți fotografiile duplicate</string>
     <string name="cleaner_similar_title">Fotografii duplicate</string>
+    <string name="cleaner_size">Ștergeți elementele șterse recent (%s)</string>
     <string name="cleaner_slim_action">Începeți optimizarea</string>
     <string name="cleaner_slim_description">Păstrează fotografiile optimizate pe dispozitivul dvs. Fișierele originale vor fi stocate pe Xiaomi Cloud.</string>
     <string name="cleaner_slim_start">Optimizați</string>
@@ -675,8 +664,6 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="common_google_play_services_unknown_issue">%1$s întâmpină probleme privind serviciile Google Play. Încercați din nou.</string>
     <string name="confirm">OK</string>
-    <string name="confirm_cancel_task_files">Anulați trimiterea de fișiere la %1$s?</string>
-    <string name="confirm_cancel_task_images">Anulați trimiterea de imagini la %1$s?</string>
     <string name="confirm_delete_selected_albums">Ștergeți albumele selectate?</string>
     <string name="confirm_download_video_message">Termină descărcarea acestui videoclip pentru a începe vizionarea. Descărcarea se va relua când Wi-Fi este disponibil.</string>
     <string name="confirm_download_video_title">Descarcă video</string>
@@ -685,13 +672,13 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="confirm_hidden_recommend_group_message">Atunci când recomandările sunt dezactivate, puteți utiliza în continuare opțiunea \"Mai mulți oameni care arata la fel\"</string>
     <string name="confirm_hidden_recommend_group_title">Nu afișați recomandări</string>
     <string name="confirm_hide_selected_albums">Ascundeți albumele selectate?</string>
-    <string name="confirm_merge_face_albums">&lt;Data> Merge this album with %s? &lt;/Data></string>
-    <string name="confirm_merge_many_face_albums">&lt;Data> Îmbină aceste albume cu %s? &lt;/Data></string>
+    <string name="confirm_merge_face_albums">" "<Data> Îmbină acest album cu %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Îmbină aceste albume cu %s? </Data>" "</string>
     <string name="confirm_not_face">Nu există rezultate</string>
-    <string name="confirm_recommandation_face_is">" &lt;Data> Sigur acesta este &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Această persoană va fi mutată în albumul \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_face_not">" &lt;Data> Sigur asta nu este &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" &lt;Data> Sigur acestea sunt &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Aceste persoane vor fi mutate în albumul \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" &lt;Data> Sigur acestea nu sunt &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Sigur acesta este &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Această persoană va fi mutată în albumul \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Sigur asta nu este &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sigur acestea sunt &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Aceste persoane vor fi mutate în albumul \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Sigur acestea nu sunt &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Contact</string>
     <string name="context_menu_add_contact">Adaugă la contacte</string>
     <string name="context_menu_copy">Copiază</string>
@@ -719,7 +706,7 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="creativity_summary">Afișează funcții adiționale de creativitate și editare</string>
     <string name="creativity_title">Creativitate</string>
     <string name="crop_label">Fotografii tăiate</string>
-    <string name="cta_agreement_declare">&lt;Data>Pentru a înțelege pe deplin drepturile dvs. ca utilizator, precum și modalitățile prin care folosim datele dvs., citiți și acceptați &lt;a href=\"%1$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%2$s\">Politica de confidențialitate&lt;/a> înainte de a utiliza această aplicație.&lt;/Data></string>
+    <string name="cta_agreement_declare"><Data>Pentru a înțelege pe deplin drepturile dvs. ca utilizator, precum și modalitățile prin care folosim datele dvs., citiți și acceptați &lt;a href=\"%1$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%2$s\">Politica de confidențialitate&lt;/a> înainte de a utiliza această aplicație.</Data></string>
     <string name="cta_hybrid_feedback_network_declare">Pentru a vedea soluții la cele mai frecvente probleme, permiteți mai întâi acestei aplicații să se conecteze la rețea.</string>
     <string name="cta_network_declare">Pentru a sincroniza fotografiile și videoclipurile cu Xiaomi Cloud, această aplicație trebuie să se conecteze la internet.</string>
     <string name="cta_screenthrow_declare">Pentru a putea proiecta ecranul acestui dispozitiv pe monitoare externe, această aplicație trebuie să se conecteze la internet.</string>
@@ -739,49 +726,44 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="debugging_tip">Generarea de date de depanare</string>
     <string name="decrypt_video_failed">Nu s-a putut pregăti videoclipul</string>
     <string name="decrypting_video">Se pregătește videoclipul…</string>
-    <string name="default_device_name">Dispozitiv necunoscut</string>
     <string name="default_relation_name">Grup nou</string>
     <string name="define_by_user">Personalizați</string>
     <string name="delete">Şterge</string>
     <string name="delete_account_message">Galeria trebuie să șteargă memoria cache a aplicației, deoarece v-ați deconectat de la Contul Xiaomi.</string>
     <string name="delete_album_failed">Nu s-a putut şterge albumul</string>
     <string name="delete_album_msg_format">Ștergeți albumul \"%2$s\" %1$s %3$s?</string>
-    <string name="delete_album_msg_format_cloud">Ștergeți albumul %s de pe Xiaomi Cloud și de pe toate dispozitivele sincronizate?</string>
-    <string name="delete_album_msg_format_local">Ștergeți albumul %s?</string>
+    <string name="delete_album_msg_format_cloud">Ștergeți %1$s %2$s de la Xiaomi Cloud și din toate dispozitivele sincronizate?</string>
+    <string name="delete_album_msg_format_local">Ștergeți %1$s %2$s?</string>
     <string name="delete_album_success">Album șters</string>
     <string name="delete_all_photos">Sunteți pe cale să ștergeți toate fotografiile de pe acest dispozitiv. Acest lucru vă poate face să pierdeți date importante. Ștergeți oricum?</string>
     <string name="delete_from_all_devices_and_cloud">de pe toate dispozitivele și Xiaomi Cloud</string>
     <string name="delete_from_cloud">Șterge și din cloud</string>
     <string name="delete_from_this_album_and_cloud">de la acest album și Xiaomi Cloud</string>
+    <string name="delete_in_album">Elementele selectate vor fi șterse din cloud și din toate dispozitivele conectate și stocate printre elementele șterse recent pentru %d zile dacă aveți un spațiu de stocare gratuit în cloud plan. Ștergeți oricum?</string>
     <string name="delete_in_home_page">Elementele selectate vor fi șterse din cloud și din toate dispozitivele conectate și stocate printre elementele șterse recent pentru %d zile dacă aveți un spațiu de stocare gratuit în cloud plan. Ștergeți oricum?</string>
     <string name="delete_in_process">Se șterge…</string>
-    <string name="delete_media_dialog_comment">Aceste elemente vor fi mai întâi mutate în \"Elemente șterse recent\". De acolo, le puteți recupera sau le puteți șterge definitiv.</string>
-    <string name="delete_media_for_cloud">Elementele selectate vor fi eliminate din cloud și din toate dispozitivele sincronizate și mutate în \"Elemente șterse recent\".</string>
+    <string name="delete_media_dialog_comment">Aceste elemente vor fi mai întâi mutate în \"Elemente șterse\". De acolo, le puteți recupera sau le puteți șterge definitiv.</string>
+    <string name="delete_media_for_cloud">Elementele selectate vor fi eliminate din cloud și toate dispozitivele sincronizate cu elementele șterse recent.</string>
     <string name="delete_media_from_cloud">Elementele selectate vor fi șterse de pe toate dispozitivele și din cloud. Ștergeți oricum?</string>
     <string name="delete_origin">Şterge elementele din albumul original</string>
     <string name="delete_other_shared_images">Nu se poate șterge fotografiile partajate de alții</string>
     <string name="delete_owner_and_other_shared_images_format">%1$d șterse, %2$d salvate</string>
-    <string name="delete_risk_alert_message">Ați selectat un număr mare de elemente de șters. Dacă continuați, aceste elemente vor fi mutate în \"Elemente șterse recent\". Ștergeți elementele acum?</string>
+    <string name="delete_risk_alert_message">Ați selectat un număr mare de elemente de șters. Dacă continuați, aceste elemente vor fi mutate în \"Elemente șterse\". Ștergeți elementele acum?</string>
     <string name="delete_risk_alert_title">Atenție</string>
     <string name="delete_third_party_photo">Ștergeți această fotografie?</string>
     <string name="delete_third_party_video">Ştergeți acest video?</string>
     <string name="deny">Respinge</string>
+    <string name="desc_gallery_widget_editor_font_color_list">Culoarea textului</string>
+    <string name="desc_gallery_widget_editor_font_type_list">Font</string>
+    <string name="desc_gallery_widget_editor_selected_photo_list">Imagini selectate</string>
+    <string name="desc_gallery_widget_editor_text_position_list">Aspect</string>
     <string name="detail_title">Detalii informații</string>
-    <string name="device_list_all">Toate dispozitivele</string>
-    <string name="device_list_more">Mai multe</string>
-    <string name="device_name_with_ellipsize">%1$s…</string>
-    <string name="device_offline">Celălalt dispozitiv este deconectat. Începeți din nou.</string>
-    <string name="device_status_failed">Nu s-a putut trimite</string>
-    <string name="device_status_sending">Se trimite…</string>
-    <string name="device_status_success">Trimis cu succes</string>
-    <string name="device_status_waiting">Se așteaptă…</string>
     <string name="device_storage_space_low_dialog_des">Stocați fotografii și videoclipuri originale în cloud păstrând în același timp copii mai mici de înaltă calitate pe acest dispozitiv pentru a elibera %s de stocare.</string>
     <string name="device_storage_space_low_dialog_title">Spațiu insuficient</string>
     <string name="device_storage_space_low_notice_des">Sincronizați fotografii și videoclipuri cu cloud pentru a elibera %s</string>
     <string name="device_storage_space_low_notice_title">Rămâi fără spațiu de stocare</string>
     <string name="device_storage_space_low_textline_button">Începe</string>
     <string name="device_storage_space_low_textline_des">"S-a eliberat %s de stocare. "</string>
-    <string name="device_type_pc">Computer</string>
     <string name="disable_auto_upload_tip">Opriți sincronizarea cu cloud pentru acest album?</string>
     <string name="disable_auto_upload_title">Dezactivează sincronizarea cu cloud</string>
     <string name="disable_secret_album_upload_message">Fotografiile noi nu vor mai fi sincronizate cu cloud dacă dezactivați această funcție. Dezactivați oricum?</string>
@@ -863,7 +845,6 @@ Conectați încărcătorul și opriți ecranul pentru a face să apară amintiri
     <string name="enable_cloud_for_sharing">Activați albumele din Xiaomi Cloud pentru a vizualiza fotografiile partajate.</string>
     <string name="enable_face_album_summary">Sortează automat fotografiile după persoanele care apar în ele</string>
     <string name="enable_face_album_title">Sorteză după persoane</string>
-    <string name="enable_midrop">Activează</string>
     <string name="enable_secret_album_upload_message">Toate elementele private vor fi sincronizate cu cloud după ce activați această funcție. Activați acum?</string>
     <string name="enter_choice_mode">Ați intrat în dialog pentru partajat</string>
     <string name="enter_email_hint">Introduceți adresa de email</string>
@@ -995,12 +976,9 @@ sunt disponibile"</string>
     <string name="feedback_problem">Raportați o problemă</string>
     <string name="feedback_suggest">Trimiteți o sugestie</string>
     <string name="fileSizeSuffix">%1$s%2$s</string>
-    <string name="file_cannot_print">Nu se poate imprima acest element.</string>
-    <string name="file_cannot_screen_throw">Nu se poate emite acest element.</string>
-    <string name="file_sending">Se transferă fișierele…</string>
     <string name="finish_create_baby_album_toast">Creat un album pentru ”%s” în Xiaomi Cloud</string>
     <string name="finish_fill_baby">Creează</string>
-    <string name="first_delete_media_for_cloud">Elementele selectate vor fi eliminate din cloud și din toate dispozitivele sincronizate și mutate în \"Elemente șterse recent\". Acestea vor fi șterse definitiv după %d de zile, cu excepția cazului în care aveți un plan de stocare în cloud. Ștergeți oricum?</string>
+    <string name="first_delete_media_for_cloud">Elementele selectate vor fi eliminate din cloud și toate dispozitivele sincronizate cu elementele șterse recent și vor fi șterse definitiv după %d de zile cu excepția cazului în care aveți un plan de stocare în cloud. Ștergeți oricum?</string>
     <string name="first_time_add_video_to_secret_tips">Actualizați Galeria pentru a putea adăuga videoclipuri la albumul privat</string>
     <string name="flash_off">Fără bliț</string>
     <string name="flash_on">Bliț utilizat</string>
@@ -1065,11 +1043,12 @@ sunt disponibile"</string>
     <string name="friday">Vineri</string>
     <string name="friday_short">Vin</string>
     <string name="friday_shortest">Vin</string>
-    <string name="functions_are_being_developed">Această funcție va fi disponibilă în curând. Rămâneți aproape!</string>
     <string name="gallery_setting">Setări</string>
     <string name="gallery_sync_disable_toast">Sincronizarea este oprită pentru Galerie</string>
     <string name="gallery_uninstall_description_content">Galerie este o aplicație de sistem care vă permite să vizualizați, să gestionați și să sincronizați fotografii și videoclipuri pe toate dispozitivele conectate. Dacă dezinstalați Galerie, veți pierde elementele pe care le-ați făcut private și alte funcții legate de vizualizarea și selectarea elementelor din Galerie nu vor mai fi disponibile pentru dvs. Dezinstalați oricum?</string>
     <string name="gallery_uninstall_description_title">Dezinstalați Galeria?</string>
+    <string name="gallery_widget_editor_widget_text_form_label">Text</string>
+    <string name="gallery_widget_editor_widget_text_form_placeholder">Introduceți text</string>
     <string name="generate_story_summary">Faceți suficiente fotografii, conectați încărcătorul și opriți ecranul pentru a face să apară amintirile. Amintirile deja generate nu vor dispărea dacă dezactivați această funcție.</string>
     <string name="generate_story_title">Amintiri</string>
     <string name="get_GP_app_btn_install">Instalează</string>
@@ -1084,24 +1063,14 @@ sunt disponibile"</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_cloud_action_upgrade_onedrive">Actualizează OneDrive</string>
     <string name="global_cloud_full_space_tip_message">Actualizează planul de stocare în cloud pentru a putea crea copie de rezervă pentru toate fotografiile și videoclipurile în cloud.</string>
-    <string name="global_help">Nu se găsește dispozitivul</string>
-    <string name="global_pad">Tableta mea</string>
-    <string name="global_pc">Laptopul meu</string>
-    <string name="global_phone">Telefon meu</string>
     <string name="global_trash_vip_info_text_login_medium_or_low_level">Elementele șterse pentry care s-a creat copie de rezervă pot rămâne în cloud până la %1$s zile. Elementele la care nu s-a creat copie de rezervă vor fi reținute până la %2$s zile.</string>
-    <string name="google_banner_back_stop">Copierea de rezervă s-a oprit</string>
-    <string name="google_banner_back_stop_des">Ați epuizat spațiul de stocare al Contului Google. Pentru a relua copierea de rezervă a fotografiilor, obțineți mai mult spațiu de stocare sau curățați spațiul.</string>
     <string name="google_banner_backup_des">Începe acum și păstrează-ți fotografiile și videoclipurile în siguranță în Google Foto.</string>
     <string name="google_banner_backup_left_btn_text">Nu acum</string>
     <string name="google_banner_backup_right_btn_text">Activează copie de rezervă</string>
     <string name="google_banner_backup_title">Creează copie de rezervă pentru elementele din Google Foto</string>
     <string name="google_banner_upgrade_des">Puteți cumpăra mai mult spațiu de stocare în cloud pentru Contul Google.</string>
-    <string name="google_banner_upgrade_left_btn_clean_space">Curăță spațiul</string>
     <string name="google_banner_upgrade_left_btn_text">Vezi detalii</string>
-    <string name="google_banner_upgrade_right_btn_get_storage">Obține spațiu de stocare</string>
     <string name="google_banner_upgrade_right_btn_text">Cumpără stocare</string>
-    <string name="google_banner_upgrade_space_low_des">În curând, nu veți mai putea face copii de rezervă pentru fotografii și videoclipuri noi</string>
-    <string name="google_banner_upgrade_space_low_title">Spațiul de stocare este plin în proporție de %s</string>
     <string name="google_banner_upgrade_title">Spațiul de stocare Cloud este plin</string>
     <string name="google_open_backup_error">Nu s-a putut conecta la Google Foto</string>
     <string name="google_secret_add_content">Pentru a vizualiza elementele pe care le-ați făcut private, glisați în jos în \"Albume\"</string>
@@ -1143,12 +1112,8 @@ sunt disponibile"</string>
     <string name="hdr_switch_show_hint">Utilizați HDR pentru a afișa mai multe detalii în lumini și umbre</string>
     <string name="hdr_switch_show_title">Afișaj HDR Pro</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="help">Nu puteți găsi dispozitive?</string>
-    <string name="help_content">Dacă nu găsiți dispozitivul de care aveți nevoie, cereți celeilalte persoane să activeze Xiaomi Share.</string>
     <string name="hidden_album_display_name">Album ascuns</string>
     <string name="hide_nearby_photos">Ascunde fotografii și videoclipuri din apropiere</string>
-    <string name="hisense">Hisense</string>
-    <string name="hisense_phone">Hisense</string>
     <string name="holiday_travel_title_one">%1$s vacation</string>
     <string name="holiday_travel_title_two">Back to work</string>
     <string name="home_menu_all_photos">Afișează toate elementele</string>
@@ -1194,7 +1159,7 @@ sunt disponibile"</string>
     <string name="hybrid_try_again">Încercați din nou</string>
     <string name="id_photo_download_failed_for_notwork">Nu s-a putut descărca. Verificați setările de rețea și încercați din nou.</string>
     <string name="id_photo_download_sdk_without_wifi_msg">Se pare că dispozitivul dvs. nu este conectat la Wi-Fi. Descărcați plug-in-ul utilizând date mobile?</string>
-    <string name="id_photo_download_sdk_without_wifi_msg_china">Se pare că dispozitivul dvs. nu este conectat la WLAN. Descărcați plug-in-ul utilizând date mobile?</string>
+    <string name="id_photo_download_sdk_without_wifi_msg_china">"Looks like your device isn't connected to WLAN. Download the plug-in using mobile data?"</string>
     <string name="id_photo_download_sdk_without_wifi_title">Descarcă plug-in-ul \"Buletin\"</string>
     <string name="id_photo_load_data_fail">Datele nu au putut fi încărcate</string>
     <string name="id_photo_module_finish">Descărcat plug-in-ul \"Buletin\" cu succes</string>
@@ -1274,8 +1239,6 @@ sunt disponibile"</string>
     <string name="last_some_day_travel_title_three">Exploring %1$s</string>
     <string name="last_some_day_travel_title_two">Memories of %1$s</string>
     <string name="last_some_performance_title">Lucruri pe care le-am văzut</string>
-    <string name="lenovo">Lenovo</string>
-    <string name="lenovo_phone">Lenovo</string>
     <string name="live_photo">Captură dinamică</string>
     <string name="load_complete">Niciun element aici</string>
     <string name="load_failed">Nu s-a putut încărca informația, atingeți pentru a încerca din nou</string>
@@ -1320,7 +1283,7 @@ sunt disponibile"</string>
     <string name="macarons_select_video">Nu se poate utiliza videoclipuri pentru a crea magic vignettes</string>
     <string name="magic_matting_download_failed_for_notwork">Nu s-a putut descărca. Verificați setările de rețea și încercați din nou.</string>
     <string name="magic_matting_download_sdk_without_wifi_msg">Se pare că dispozitivul dvs. nu este conectat la Wi-Fi. Descărcați plug-in-ul utilizând date mobile?</string>
-    <string name="magic_matting_download_sdk_without_wifi_msg_china">Se pare că dispozitivul dvs. nu este conectat la WLAN. Descărcați plug-in-ul utilizând date mobile?</string>
+    <string name="magic_matting_download_sdk_without_wifi_msg_china">"Looks like your device isn't connected to WLAN. Download the plug-in using mobile data?"</string>
     <string name="magic_matting_download_sdk_without_wifi_title">Descarcă plug-in-ul \"Elimină\"</string>
     <string name="magic_matting_load_data_fail">Datele nu au putut fi încărcate</string>
     <string name="magic_matting_module_finish">Plug-in-ul \"Elimină\" a fost descărcat cu succes</string>
@@ -1338,8 +1301,8 @@ sunt disponibile"</string>
     <string name="map_guide_message">Vizualizați fotografiile și videoclipurile pe hartă</string>
     <string name="map_location">Mută la locația curentă</string>
     <string name="map_positioning_failed_tip">Nu se pot obține informații despre locație din cauza semnalului slab</string>
-    <string name="map_privacy_dialog_content">&lt;Data>Acest serviciu vă permite să vizualizați fotografii și videoclipuri cu informații despre locație pe o hartă. Utilizăm Harta Baidu Open SDK pentru a vă oferi acest serviciu. Citiți și acceptați &lt;a href=\"%1$s\">Declarația de partajare a datelor către Terță parte a Harta galeriei&lt;/a> înainte de a continua.&lt;/Data></string>
-    <string name="map_privacy_dialog_message">&lt;Data>Acest serviciu vă permite să vizualizați fotografii și videoclipuri cu informații despre locație pe o hartă. Folosim Baidu Map Open SDK pentru a vă oferi acest serviciu. Citește &lt;a href=\"%1$s\">Politica de confidențialitate a Baidu Map pentru Deschide produse și servicii de platformă&lt;/a> pentru a afla mai multe.&lt;/Data></string>
+    <string name="map_privacy_dialog_content"><Data>Acest serviciu vă permite să vizualizați fotografii și videoclipuri cu informații despre locație pe o hartă. Utilizăm Harta Baidu Open SDK pentru a vă oferi acest serviciu. Citiți și acceptați &lt;a href=\"%1$s\">Declarația de partajare a datelor către Terță parte a Harta galeriei&lt;/a> înainte de a continua.</Data></string>
+    <string name="map_privacy_dialog_message"><Data>Acest serviciu vă permite să vizualizați fotografii și videoclipuri cu informații despre locație pe o hartă. Folosim Baidu Map Open SDK pentru a vă oferi acest serviciu. Citește &lt;a href=\"%1$s\">Politica de confidențialitate a Baidu Map pentru Deschide produse și servicii de platformă&lt;/a> pentru a afla mai multe.</Data></string>
     <string name="map_privacy_dialog_title">Harta galeriei</string>
     <string name="map_privacy_policy">Politica de confidențialitate a Hărții Galeriei</string>
     <string name="map_privacy_policy_1">Politica de confidențialitate</string>
@@ -1367,8 +1330,6 @@ pentru a le personaliza în Galerie"</string>
     <string name="media_type_raw">RAW</string>
     <string name="media_type_slow_motion_video">Mișcare cu încetinitorul</string>
     <string name="megabyteShort">MB</string>
-    <string name="meizu">Meizu</string>
-    <string name="meizu_phone">Meizu</string>
     <string name="member_menu_vipname_free">Gratis</string>
     <string name="member_menu_vipname_mega">Mega</string>
     <string name="member_menu_vipname_premium">Premium</string>
@@ -1386,22 +1347,7 @@ pentru a le personaliza în Galerie"</string>
     <string name="merge_album">Fuzionare</string>
     <string name="merge_album_title">Fuzionează cu o persoană</string>
     <string name="messagelist_sender_self">Eu</string>
-    <string name="mi_10i">Mi 10I</string>
-    <string name="mi_10t">Mi 10T</string>
-    <string name="mi_10t_lite">Mi 10T Lite</string>
-    <string name="mi_11i">Mi 11i</string>
-    <string name="mi_11x">Mi 11X</string>
-    <string name="mi_11x_pro">Mi 11X Pro</string>
-    <string name="mi_9_lite">Mi 9 Lite</string>
-    <string name="mi_9t">Mi 9T</string>
-    <string name="mi_9t_pro">Mi 9T Pro</string>
-    <string name="mi_drop">Xiaomi Share</string>
     <string name="mi_mover_working_desc">Mi Mover transferă elemente…</string>
-    <string name="mi_note_10">Mi Note 10</string>
-    <string name="mi_pad_5">Xiaomi Pad 5</string>
-    <string name="mi_pad_5_pro">Xiaomi Pad 5 Pro</string>
-    <string name="mi_pad_5_pro_5g">Xiaomi Pad 5 Pro 5G</string>
-    <string name="mi_share_turbo_mode">Transfer turbo</string>
     <string name="micloud_introduce">Sincronizați automat fotografiile și videoclipurile (Este necesar Cont Xiaomi)</string>
     <string name="midnight">Noapte</string>
     <string name="migrate_gp_bottom_msg_0">Pentru a vă muta elementele în Google Foto, trebuie să adăugați un Cont Google și să acordați permisiune la Xiaomi:</string>
@@ -1415,7 +1361,6 @@ pentru a le personaliza în Galerie"</string>
     <string name="migrate_gp_msg_link">Vezi detalii</string>
     <string name="migrate_gp_title">Sincronizarea cu cloud-ul nu mai este disponibilă</string>
     <string name="migrate_msg">Unele albume necesită permisiuni pentru mutarea elementelor după o actualizare a sistemului.</string>
-    <string name="mini_pc_xiaomi_device_model_name">Xiaomi Mini PC</string>
     <string name="miplay_adjust_volume">Setați volumul la %d</string>
     <string name="miplay_circulate_failed">Nu s-a putut transfera redarea. Așteptați un minut sau două și încercați din nou.</string>
     <string name="miplay_circulating_msg">Se transferă redarea…</string>
@@ -1508,12 +1453,9 @@ pentru a le personaliza în Galerie"</string>
     <string name="morning">Dimineaţa</string>
     <string name="motion_photo_enter">Captură dinamică</string>
     <string name="motion_photo_play">Play</string>
-    <string name="motorola">Motorola</string>
-    <string name="motorola_phone">Telefon Motorola</string>
     <string name="move_to_other_albums_tip">Mutați acest album în \"Alte albume\"?</string>
     <string name="move_to_rubbish_albums_tip">Mutați elementele selectate în albume redundante?</string>
     <string name="movie_edit_photo">Fotografie</string>
-    <string name="multi_file_name">%1$s, %2$s</string>
     <string name="multi_view_tip_button_text">Am înțeles</string>
     <string name="multi_view_tip_sub_title">Depărtați două degete sau apropriațile unul spre altul pentru a ajusta dimensiunea elementelor afișate.</string>
     <string name="multi_view_tip_title">Se mărește și se micșorează</string>
@@ -1521,9 +1463,7 @@ pentru a le personaliza în Galerie"</string>
     <string name="must_pick_file">Selectați o fotografie</string>
     <string name="my_family">Casa mea</string>
     <string name="name_split">, </string>
-    <string name="name_with_ellipsize">%1$s…%2$s</string>
     <string name="national_day">National Day</string>
-    <string name="nearby_share">Nearby Share</string>
     <string name="need_to_turn_on_network">Dispozitivul nu este conectat la internet</string>
     <string name="need_to_turn_on_sync">Activează sincronizarea cu cloud</string>
     <string name="need_to_turn_on_sync_first">Activează mai întâi sincronizarea cu cloud</string>
@@ -1541,10 +1481,8 @@ pentru a le personaliza în Galerie"</string>
     <string name="new_year_eve">"New Year's Eve"</string>
     <string name="next">Următorul</string>
     <string name="night">Seara</string>
-    <string name="nio">NIO</string>
-    <string name="nio_phone">Telefon NIO</string>
     <string name="no">Nu</string>
-    <string name="no_ignore_faces">没有已忽略的内容</string>
+    <string name="no_ignore_faces">Nu există persoane aici</string>
     <string name="no_map_app">Nici o aplicație nu a fost găsită să efectueze această acțiune</string>
     <string name="no_network">Nu se poate conecta la rețea</string>
     <string name="no_network_connect">Nu s-a putut finaliza acțiunea. Verificați setările rețelei și încercați din nou.</string>
@@ -1559,8 +1497,6 @@ pentru a le personaliza în Galerie"</string>
     <string name="not_remind_any_more">Nu mai afișa din nou</string>
     <string name="not_set">Nesetată</string>
     <string name="notice_click_lock_orientation">Atingeți pentru a bloca orientarea</string>
-    <string name="nubia">Nubia</string>
-    <string name="nubia_phone">Nubia</string>
     <string name="ocr_abnormal">Nu s-a putut recunoaște textul.</string>
     <string name="ocr_abnormal_pic_format">Nu s-a putut recunoaște textul. Acest format de imagine nu este acceptat.</string>
     <string name="ocr_abnormal_pic_too_large">Nu s-a putut recunoaște textul. Această imagine este prea mare.</string>
@@ -1589,8 +1525,6 @@ pentru a le personaliza în Galerie"</string>
     <string name="ocr_using_cellular_positive">Anulează</string>
     <string name="ocr_using_cellular_text">Recunoașterea textului folosind date mobile poate genera taxe de operator adiționale. Recunoașteți oricum?</string>
     <string name="ok">OK</string>
-    <string name="oneplus">OnePlus</string>
-    <string name="oneplus_phone">OnePlus</string>
     <string name="online_video_error_unknown">A apărut o eroare de redare online. A descărcat în schimb elementul.</string>
     <string name="online_video_error_unsupported_type">Playerul online nu acceptă acest format. Elementul a fost descărcat.</string>
     <string name="online_video_normal_transcoding">Playerul online nu este încă pregătit. Elementul a fost descărcat.</string>
@@ -1667,8 +1601,6 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="operation_upgrade_gallery">Actualizează</string>
     <string name="operation_video_compress">Comprimă video</string>
     <string name="operation_watermark">Filigran de protecție</string>
-    <string name="oppo">OPPO</string>
-    <string name="oppo_phone">OPPO</string>
     <string name="orientation_lock_tip">Rotire automată oprită</string>
     <string name="orientation_unlock_tip">Rotire automată pornită</string>
     <string name="origin_gif_name">fișier original</string>
@@ -1679,7 +1611,6 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="other_album_operation_remove_from_other_albums">Elimină de la \"Alte albume\"</string>
     <string name="other_settings">Setări adiționale</string>
     <string name="owner_album_subtitle">Partajat cu %1$s persoane</string>
-    <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="passport_access_denied">Acces interzis</string>
     <string name="passport_account_crop_user_avatar">Decupați fotografia</string>
     <string name="passport_account_empty_user_name">Introduceți numele dvs.</string>
@@ -1838,9 +1769,6 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="passport_wrong_phone_number_format">Formatul numărului de telefon introdus nu este valid</string>
     <string name="passport_wrong_vcode">Codul introdus este incorect</string>
     <string name="passport_wrong_voice">Codul introdus este incorect</string>
-    <string name="pc_device_model_name">Computer</string>
-    <string name="pc_redmi_device_model_name">Laptop Redmi</string>
-    <string name="pc_xiaomi_device_model_name">Laptop Xiaomi</string>
     <string name="people_album_empty_title">Fotografiile pot fi sortate după persoanele din ele</string>
     <string name="people_jump_failed">Aşteptați până ce fotografiile cu persoane sunt sincronizate cu cloud şi apoi încercați din nou</string>
     <string name="people_mark_mode_title">Selectați \"%s\"</string>
@@ -1962,7 +1890,7 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="privacy_cloud_confirm">Activează sincronizarea</string>
     <string name="privacy_cloud_confirm_content1">Politica de confidențialitate a Xiaomi Cloud</string>
     <string name="privacy_cloud_confirm_content2">Acordul utilizatorului</string>
-    <string name="privacy_cloud_confirm_detail">&lt;Data>După ce activați sincronizarea, fotografiile și videoclipurile de pe acest dispozitiv vor fi încărcate pe Xiaomi Cloud și combinate cu elementele sincronizate anterior (dacă există). Citiți și acceptați &lt;a href=\"%1$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%2$s\">Politica de confidențialitate&lt;/a> a Xiaomi Cloud înainte de a continua.&lt;/Data></string>
+    <string name="privacy_cloud_confirm_detail"><Data>După ce activați sincronizarea, fotografiile și videoclipurile de pe acest dispozitiv vor fi încărcate pe Xiaomi Cloud și combinate cu elementele sincronizate anterior (dacă există). Citiți și acceptați &lt;a href=\"%1$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%2$s\">Politica de confidențialitate&lt;/a> a Xiaomi Cloud înainte de a continua.</Data></string>
     <string name="privacy_cloud_confirm_detail_negative">Ieșire</string>
     <string name="privacy_cloud_confirm_detail_positive">De acord</string>
     <string name="privacy_cloud_confirm_rejected">Consimțământul pentru Politica de confidențialitate a Xiaomi Cloud a fost retras pentru acest cont. Încercați să utilizați un alt cont.</string>
@@ -1970,7 +1898,7 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="privacy_detail_map">Vezi Politica de confidențialitate a Hărții Galeriei</string>
     <string name="privacy_entrance">Confidențialitate</string>
     <string name="privacy_map">Harta galeriei</string>
-    <string name="privacy_map_detail">&lt;Data>Acest serviciu vă permite să vizualizați fotografii și videoclipuri cu informații despre locație pe o hartă. Utilizăm Baidu Map Open SDK pentru a vă oferi acest serviciu. Citiți și acceptați &lt;a href=\"%1$s\">Politica de confidențialitate a Baidu Map pentru produse și servicii cu platformă deschisă&lt;/a> înainte de a continua.&lt;/Data></string>
+    <string name="privacy_map_detail"><Data>Acest serviciu vă permite să vizualizați fotografii și videoclipuri cu informații despre locație pe o hartă. Utilizăm Baidu Map Open SDK pentru a vă oferi acest serviciu. Citiți și acceptați &lt;a href=\"%1$s\">Politica de confidențialitate a Baidu Map pentru produse și servicii cu platformă deschisă&lt;/a> înainte de a continua.</Data></string>
     <string name="privacy_map_detail_content">Politica de confidențialitate a Baidu Map pentru produse și servicii cu platformă deschisă</string>
     <string name="privacy_map_detail_content_new">Declarația de partajare a datelor către Terță parte a Harta galeriei</string>
     <string name="privacy_permission">Permisiuni</string>
@@ -1987,7 +1915,7 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="privacy_permission_disagree">Nu a fost acordat</string>
     <string name="privacy_permission_location">Locație</string>
     <string name="privacy_permission_location_detail">Pentru afișarea fotografiilor și videoclipurilor pe hartă</string>
-    <string name="privacy_permission_request_message">&lt;Data>Galeria are nevoie de acces %3$s. Informațiile pe care le colectăm vor fi utilizate în conformitate cu &lt;a href=\"%1$s\">\"Termenii serviciului\"&lt;/a> și &lt;a href=\"%2$s\">\"Politica de Confidențialitate\"&lt;/a>. Permiteți?&lt;/Data></string>
+    <string name="privacy_permission_request_message"><Data>Galeria are nevoie de acces %3$s. Informațiile pe care le colectăm vor fi utilizate în conformitate cu &lt;a href=\"%1$s\">\"Termenii serviciului\"&lt;/a> și &lt;a href=\"%2$s\">\"Politica de Confidențialitate\"&lt;/a>. Permiteți?</Data></string>
     <string name="privacy_permission_request_negative">Restricționează</string>
     <string name="privacy_permission_request_positive">Permite</string>
     <string name="privacy_permission_request_title">Permisiuni necesare</string>
@@ -1995,7 +1923,7 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="privacy_permission_shotcut_detail">Pentru crearea comenzilor rapide pe Ecranul principal</string>
     <string name="privacy_permission_storage">Stocare</string>
     <string name="privacy_permission_storage_detail">Pentru stocarea fotografiilor și a videoclipurilor</string>
-    <string name="privacy_reject_map_detail_new">&lt;Data>Retragerea consimțământului dvs. pentru &lt;a href=\"%1$s\">Declarația de partajare a datelor către Terță parte a Harta galeriei&lt;/a> va fi considerat ca refuz de a accepta serviciile de la Harta galeriei. Veți putea în continuare să utilizați în mod normal alte funcții ale Galeriei. Retrageți consimțământul acum?&lt;/Data></string>
+    <string name="privacy_reject_map_detail_new"><Data>Retragerea consimțământului dvs. pentru &lt;a href=\"%1$s\">Declarația de partajare a datelor către Terță parte a Harta galeriei&lt;/a> va fi considerat ca refuz de a accepta serviciile de la Harta galeriei. Veți putea în continuare să utilizați în mod normal alte funcții ale Galeriei. Retrageți consimțământul acum?</Data></string>
     <string name="privacy_rejected">Retragerea consimțământului</string>
     <string name="privacy_rejected_map">Retrage consimțământul la Politica de confidențialitate a Hărții Galeriei</string>
     <string name="privacy_rejected_map_detail">Retragerea consimțământului la Politica de confidențialitate a Hărții Galeriei va fi considerată ca refuzând să acceptați serviciile sale. Alte funcții și servicii de bază ale Galeriei nu vor fi afectate. Vă retrageți oricum?</string>
@@ -2032,8 +1960,6 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="qr_invite_title">Invitație cu cod QR</string>
     <string name="quarterly_pets_title">Fluffy companions</string>
     <string name="quotation">\"%s\"</string>
-    <string name="realme">realme</string>
-    <string name="realme_phone">realme</string>
     <string name="recent_album_empty_title">Nu ați adăugat recent fotografii noi</string>
     <string name="recommanded_face_abandon_tip">Eliminat din sugestii</string>
     <string name="recommanded_face_added_tip">Adăugat la ”%s”</string>
@@ -2045,38 +1971,6 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="recovery_not_synced_reason">Elementele nu au fost restabilite</string>
     <string name="recovery_not_synced_solution">Conectați-vă la rețea pentru a restabili elemente.</string>
     <string name="recovery_rename">Redenumiți</string>
-    <string name="redmi_10x">Redmi 10X</string>
-    <string name="redmi_10x_4g">Redmi 10X 4G</string>
-    <string name="redmi_10x_pro">Redmi 10X Pro</string>
-    <string name="redmi_6">Redmi 6</string>
-    <string name="redmi_6_pro">Redmi 6 Pro</string>
-    <string name="redmi_6a">Redmi 6A</string>
-    <string name="redmi_7a">Redmi 7A</string>
-    <string name="redmi_8">Redmi 8</string>
-    <string name="redmi_8a">Redmi 8A</string>
-    <string name="redmi_9">Redmi 9</string>
-    <string name="redmi_k20">Redmi K20</string>
-    <string name="redmi_k20_pro">Redmi K20 Pro</string>
-    <string name="redmi_k30">Redmi K30</string>
-    <string name="redmi_k30_5g">Redmi K30 5G</string>
-    <string name="redmi_k30_pro">Redmi K30 Pro</string>
-    <string name="redmi_k30_ultra">Redmi K30 Ultra</string>
-    <string name="redmi_k30s">Redmi K30S Ultra</string>
-    <string name="redmi_k40">Redmi K40</string>
-    <string name="redmi_k40_g">Redmi K40 Gaming Edition</string>
-    <string name="redmi_k40_pro">Redmi K40 Pro</string>
-    <string name="redmi_note_10">Redmi Note 10</string>
-    <string name="redmi_note_10_pro">Redmi Note 10 Pro</string>
-    <string name="redmi_note_5">Redmi Note 5</string>
-    <string name="redmi_note_6_pro">Redmi Note 6 Pro</string>
-    <string name="redmi_note_7">Redmi Note 7</string>
-    <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
-    <string name="redmi_note_8">Redmi Note 8</string>
-    <string name="redmi_note_8_pro">Redmi Note 8 Pro</string>
-    <string name="redmi_note_9">Redmi Note 9</string>
-    <string name="redmi_note_9_pro">Redmi Note 9 Pro</string>
-    <string name="redmi_note_9_pro_max">Redmi Note 9 Pro Max</string>
-    <string name="redmi_note_9s">Redmi Note 9S</string>
     <string name="refocus_desc">Focalizați din nou</string>
     <string name="relation_text_empty_alert">Adaugă informație relație</string>
     <string name="relation_text_family">Membru familie</string>
@@ -2123,8 +2017,6 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="risk_control_deleted_message">Cineva ți-a șters elementele din Galerie din cloud folosind %3$s pe %1$s la %2$s. Ați fost dumneavoastră?</string>
     <string name="risk_control_deleted_time">HH:mm</string>
     <string name="risk_control_deleted_title">Avertisment de securitate</string>
-    <string name="rog">ROG</string>
-    <string name="rog_phone">ROG</string>
     <string name="rubbish_album_move_to_other_album_success">Puteți vedea aceste elemente în \"Alte albume\" acum.</string>
     <string name="rubbish_nomedia_manager_button_text">Gestionează albume cu fișierele \".nomedia\"</string>
     <string name="run_clip">执行AI搜索图形向量算法</string>
@@ -2139,8 +2031,6 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="saf_secret_album">Album privat</string>
     <string name="saf_secret_album_guide">Această aplicație are nevoie de permisiuni pentru a afișa elemente din albumul dvs. privat.</string>
     <string name="same_name_album_exist_and_toast">"Un album cu același nume exsită deja. '%s' a fost creat în loc."</string>
-    <string name="samsung">Samsung</string>
-    <string name="samsung_phone">Samsung</string>
     <string name="saturday">Sâmbătă</string>
     <string name="saturday_short">Sâm</string>
     <string name="saturday_shortest">Sâm</string>
@@ -2149,11 +2039,10 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="scan_qr_code">Scanați codul QR</string>
     <string name="scan_qr_code_buttom_text">Scanează codul QR pentru a vedea acest album</string>
     <string name="scan_qr_to_accept_invitation">Scanați codul QR pentru a accepta invitația</string>
-    <string name="scanning_device_tips"><Data>Se caută dispozitive din apropiere. Cealaltă persoană trebuie să pornească Xiaomi Share în Centrul de control. &lt;a>Aflați mai multe&lt;/a></Data></string>
     <string name="scope_storage_dialog_cancel_btn">Anulează</string>
     <string name="scope_storage_dialog_confirm_btn">Următorul</string>
     <string name="scope_storage_dialog_description">Permisiunile pentru Galerie au fost actualizate. Permite Galeriei să acceseze acest dosar pentru a putea vedea conținutul acestuia.</string>
-    <string name="scope_storage_dialog_guide_content">&lt;Data>Atinge &lt;b>\"%1$s\"&lt;/b> și apoi selectați &lt;b>\"%2$s\"&lt;/b>.&lt;/Data></string>
+    <string name="scope_storage_dialog_guide_content"><Data>Atinge &lt;b>\"%1$s\"&lt;/b> și apoi selectați &lt;b>\"%2$s\"&lt;/b>.</Data></string>
     <string name="scope_storage_dialog_guide_title">Cum acordați permisiunea</string>
     <string name="scope_storage_dialog_title">Permisiuni necesare</string>
     <string name="scope_storage_operation_btn_1">Salvează</string>
@@ -2269,23 +2158,9 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="send">Trimite</string>
     <string name="send_dolby_vision_video_continue">Continuă</string>
     <string name="send_file_beautify_failed">Nu s-a putut partaja</string>
-    <string name="send_files_by">Partajează fișiere prin</string>
-    <string name="send_files_to">Trimite elemente la</string>
     <string name="send_heif_summary">Convertiți imagini HEIF în JPEG înainte de a trimite</string>
     <string name="send_heif_title">Convertiți HEIF înainte de a trimite</string>
     <string name="send_multiple_files_hint_format">Trimite (%s)</string>
-    <string name="send_one_apk_dialog_desc">%2$d APK \"%3$s\" de la %1$s</string>
-    <string name="send_one_apk_dialog_desc_received">Received %2$d APK \"%3$s\" from %1$s</string>
-    <string name="send_one_apk_dialog_desc_receiving">Se primește %2$d APK \"%3$s\" de la %1$s</string>
-    <string name="send_one_audio_dialog_desc">%2$d audio file \"%3$s\" from %1$s</string>
-    <string name="send_one_audio_dialog_desc_received">Received %2$d audio file \"%3$s\" from %1$s</string>
-    <string name="send_one_audio_dialog_desc_receiving">Se primește %2$d fișier audio \"%3$s\" de la %1$s</string>
-    <string name="send_one_file_dialog_desc">%2$d %3$s file \"%4$s\" from %1$s</string>
-    <string name="send_one_file_dialog_desc_received">Received %2$d %3$s file \"%4$s\" from %1$s</string>
-    <string name="send_one_file_dialog_desc_receiving">Se primește %2$d %3$s fișier \"%4$s\" de la %1$s</string>
-    <string name="send_one_zip_dialog_desc">%2$d ZIP file \"%3$s\" from %1$s</string>
-    <string name="send_one_zip_dialog_desc_received">Received %2$d ZIP file \"%3$s\" from %1$s</string>
-    <string name="send_one_zip_dialog_desc_receiving">Se primește %2$d fișier ZIP \"%3$s\" de la %1$s</string>
     <string name="send_public_url">Trimite URL-ul albumului</string>
     <string name="send_secret_file_failed">Nu s-a putut partaja</string>
     <string name="send_secret_file_space_low">Spațiu de stocare insuficient</string>
@@ -2325,6 +2200,8 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="share_album_family_delete_sharer_message">Această persoană nu va putea vedea acest album dacă îl eliminați acum. Eliminați oricum?</string>
     <string name="share_album_family_delete_sharer_title">Restricționarea accesului</string>
     <string name="share_album_family_invite_category_title">Adăugați membri la grupul de familie</string>
+    <string name="share_album_family_invite_confirm_dialog_message">"You've turned on Advanced data protection. If you share this album, the shared content won't be encrypted. Share anyway?"</string>
+    <string name="share_album_family_invite_confirm_dialog_title">"Can't use Advanced data protection with shared items"</string>
     <string name="share_album_family_invite_default">Partajează</string>
     <string name="share_album_family_invite_family_cate_title">Grup de familie</string>
     <string name="share_album_family_invite_link">URL</string>
@@ -2449,7 +2326,7 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="slim_dialog_title">Optimizare stocare</string>
     <string name="slim_exit_dialog_positive">Stop</string>
     <string name="slim_exit_dialog_title">Oprește optimizarea</string>
-    <string name="slim_finish_upgrade_tip">&lt;Data>Actualizați planul de stocare în cloud pentru a sincroniza mai multe elemente în cloud. Atingeți pentru a &lt;a href=\"%1$s\">actualiza acum&lt;/a>.&lt;/Data></string>
+    <string name="slim_finish_upgrade_tip"><Data>Actualizați planul de stocare în cloud pentru a sincroniza mai multe elemente în cloud. Atingeți pentru a &lt;a href=\"%1$s\">actualiza acum&lt;/a>.</Data></string>
     <string name="slim_function_summery_first">Păstrați fotografii optimizate pe dispozitiv și salvați imaginea originală în cloud</string>
     <string name="slim_function_summery_second">Fișierele create în ultimele %d zile vor fi salvate pe dispozitivul dvs.</string>
     <string name="slim_preference_scanning">Analizând fotografii și videoclipuri…</string>
@@ -2466,8 +2343,6 @@ Transcodarea ar putea dura ceva timp când utilizați această funcție pentru p
     <string name="slim_success_tip">S-a eliberat %s de stocare</string>
     <string name="slim_upgrade_button">Actualizează</string>
     <string name="slow_motion_enter">Mișcare cu încetinitorul</string>
-    <string name="smartisan">Smartisan</string>
-    <string name="smartisan_phone">Smartisan</string>
     <string name="solar_children_day_title">"Children's Day"</string>
     <string name="solar_christmas_title">Christmas</string>
     <string name="solar_fathers_day_title">"Father's Day"</string>
@@ -2544,6 +2419,7 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="switch_account_msg_with_email">Ați oprit anterior un transfer către %1$s. Doriți să reluați transferul în acest Cont Google sau să începeți să utilizați alt cont?</string>
     <string name="switch_account_switch">Începe din nou</string>
     <string name="switch_account_title">Reluați transferul?</string>
+    <string name="switch_gallery_widget_editor_dof_enable">Aplicați efectul de adâncime</string>
     <string name="sync_album_in_proecess">Se sincronizează albumul…</string>
     <string name="sync_backup_disable_confirm_message_downloading">Dacă dezactivați sincronizarea acum, descărcările în curs ale fișierelor originale stocate în cloud vor fi întrerupte. Imaginile de înaltă calitate stocate pe acest dispozitiv nu vor mai fi disponibile. Dezactivați oricum?</string>
     <string name="sync_backup_disable_confirm_message_wait">Imaginile de înaltă calitate stocate pe acest dispozitiv nu vor mai fi disponibile după ce dezactivați sincronizarea. Puteți descărca fișierele originale din cloud și puteți dezactiva sincronizarea după aceea.</string>
@@ -2626,8 +2502,6 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="the_valentines_day">"Valentine's Day"</string>
     <string name="the_water_lantern_festival">Festivalul Felinarelor de Apă</string>
     <string name="things_album_empty_title">Fotografiile pot fi sortate după obiectele din ele</string>
-    <string name="throwing_print">Printare</string>
-    <string name="throwing_screen">Proiectează</string>
     <string name="thumbnail_name">miniaturi</string>
     <string name="thursday">Joi</string>
     <string name="thursday_short">Joi</string>
@@ -2653,7 +2527,6 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="tip_not_download">Nu este pe dispozitiv. Vor fi descărcate de pe Xiaomi Cloud în timp ce se redă.</string>
     <string name="tip_screenshot_package_info">Nume aplicație:</string>
     <string name="tips_for_photo_page_selection">Poți atinge elemente pentru a le vizualiza</string>
-    <string name="tips_prompt_enable_midrop">Xiaomi Share</string>
     <string name="title_set_name">Introduceți nume</string>
     <string name="title_tip">Sugestie</string>
     <string name="title_warn">Avertizare</string>
@@ -2728,19 +2601,20 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="transfer_status_banner_msg_processing">"Se transferă fotografiile și videoclipurile%1$s
 (%2$d/%3$d)"</string>
     <string name="transfer_status_banner_msg_unbinding">Se elimină contul acum. Așteaptă un minut sau două și încearcă din nou transferul%1$s</string>
-    <string name="trash_bin">Elemente șterse recent</string>
+    <string name="trash_bin">Elemente șterse</string>
     <string name="trash_bin_key_word">Fotografii șterse</string>
     <string name="trash_bin_summary">Răsfoiește fotografiile salvate care au fost șterse recent</string>
     <string name="trash_bin_summary_local">Vizualizați fotografii și videoclipuri șterse recent</string>
-    <string name="trash_empty">Nu există elemente aici</string>
+    <string name="trash_empty">Nu există elemente aici.</string>
     <string name="trash_high_occupied_tip_banner">Elementele șterse recent ocupă %1$s. Ștergeți câteva pentru a elibera spațiu.</string>
     <string name="trash_high_occupied_tip_toast">Elementele șterse recent ocupă %1$s. Ștergeți câteva pentru a elibera spațiu.</string>
     <string name="trash_menu_delete">Șterge</string>
     <string name="trash_menu_recovery">Restabileşte</string>
+    <string name="trash_purge_all">Toate elementele șterse recent vor fi șterse definitiv din cloud și din toate dispozitivele sincronizate. Ștergeți oricum?</string>
     <string name="trash_purge_all_media">Ștergeți definitiv toate elementele din cloud și toate dispozitivele sincronizate? Nu puteți inversa această acțiune.</string>
-    <string name="trash_purge_dialog_title">Șterge elemente</string>
+    <string name="trash_purge_dialog_title">Curăță coșul de gunoi</string>
     <string name="trash_purge_positive_button">Șterge</string>
-    <string name="trash_size">Elemente șterse recent (%1$s)</string>
+    <string name="trash_size">Elementele șterse (%s)</string>
     <string name="trash_vip_button_login">Extinde</string>
     <string name="trash_vip_button_login_top_level">Reînnoieşte</string>
     <string name="trash_vip_button_unlogin">Conectează-te</string>
@@ -2766,8 +2640,6 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="unpublish_failed">Nu poate fi nepublicat</string>
     <string name="unpublish_succeeded">Album nepublicat</string>
     <string name="unpublishing">Se anulează…</string>
-    <string name="unrecognized_manufacture">Necunoscut</string>
-    <string name="unrecognized_model">Dispozitiv necunoscut</string>
     <string name="unsupport_image">%s nu acceptă imagini</string>
     <string name="unsupport_raw">%s nu funcționează cu imagini RAW</string>
     <string name="unsupport_raw_and_video">%s nu funcționează cu videoclipuri și imagini RAW</string>
@@ -2797,7 +2669,7 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="user_agreement4">Politica de confidențialitate</string>
     <string name="user_alias_self">Eu</string>
     <string name="user_family">Casa lui %1$s</string>
-    <string name="user_notice_identify_summary_format">&lt;Data>Utilizând acest serviciu, sunteți de acord cu &lt;a href=\"%1$s\">\"Termenii serviciului\"&lt;/a> și &lt;a href=\"%2$s\">\"Politica de confidențialitate\" a Xiaomi&lt;/a>.&lt;/Data></string>
+    <string name="user_notice_identify_summary_format"><Data>Utilizând acest serviciu, sunteți de acord cu &lt;a href=\"%1$s\">\"Termenii serviciului\"&lt;/a> și &lt;a href=\"%2$s\">\"Politica de confidențialitate\" a Xiaomi&lt;/a>.</Data></string>
     <string name="user_notice_title">Termeni și condiții</string>
     <string name="v7_preference_off">DEZACTIVAT</string>
     <string name="v7_preference_on">ACTIVAT</string>
@@ -2822,7 +2694,7 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="video_not_exist">Acest video nu există</string>
     <string name="video_post_download_failed_for_notwork">Nu s-a putut descărca. Verificați setările de rețea și încercați din nou.</string>
     <string name="video_post_download_sdk_without_wifi_msg">Se pare că dispozitivul dvs. nu este conectat la Wi-Fi. Descărcați plug-in-ul utilizând date mobile?</string>
-    <string name="video_post_download_sdk_without_wifi_msg_china">Se pare că dispozitivul dvs. nu este conectat la WLAN. Descărcați plug-in-ul utilizând date mobile?</string>
+    <string name="video_post_download_sdk_without_wifi_msg_china">"Looks like your device isn't connected to WLAN. Download the plug-in using mobile data?"</string>
     <string name="video_post_download_sdk_without_wifi_title">Descarcă plug-in-ul \"Efecte video\"</string>
     <string name="video_post_load_data_fail">Datele nu au putut fi încărcate</string>
     <string name="video_post_module_finish">Descărcat plug-in-ul \"Efecte video\" cu succes</string>
@@ -2844,8 +2716,6 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="view_by_gallery_tip">Galerie</string>
     <string name="view_face_album">Vezi album</string>
     <string name="view_more_face_desc">Vezi mai multe persoane</string>
-    <string name="vivo">vivo</string>
-    <string name="vivo_phone">vivo</string>
     <string name="vlog_mi_clip">Editor video</string>
     <string name="vlog_save_stop_tips">Atingeți din nou pentru a anula salvarea</string>
     <string name="vlog_support_max_duration">Un proiect poate dura până la %1$d ore</string>
@@ -2869,6 +2739,7 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="widget_disable">Widget-urile de această dimensiune nu sunt acceptate pe acest dispozitiv</string>
     <string name="widget_editor_confirm">Efectuat</string>
     <string name="widget_editor_load_fail">Nu s-a putut încărca fotografia</string>
+    <string name="widget_editor_pic_segment_not_support_tip">Imaginea selectată nu acceptă efectul de adâncime</string>
     <string name="widget_editor_reselect">Selectați din nou</string>
     <string name="widget_editor_title">Editează</string>
     <string name="widget_label_custom">Imagini selectate</string>
@@ -2882,59 +2753,9 @@ Până la %1$s, vă puteți muta elementele în Google Foto sau accesați i.mi.c
     <string name="widget_recommend_store_detail_desc">Fotografii recente și momente frumoase</string>
     <string name="widget_talkback_custom">Galerie. Imagini selectate.</string>
     <string name="widget_talkback_recommend">Galerie. Amintiri.</string>
-    <string name="xiaomi">Mi</string>
-    <string name="xiaomi_10">Mi 10</string>
-    <string name="xiaomi_10_lite">Mi 10 Lite</string>
-    <string name="xiaomi_10_lite_5g">Mi 10 Lite 5G</string>
-    <string name="xiaomi_10_pro">Mi 10 Pro</string>
-    <string name="xiaomi_10_ultra">Mi 10 Ultra</string>
-    <string name="xiaomi_11">Mi 11</string>
-    <string name="xiaomi_11_lite">Mi 11 Lite 5G</string>
-    <string name="xiaomi_11_lite_ne">Xiaomi 11 Lite 5G NE</string>
-    <string name="xiaomi_11_pro">Mi 11 Pro</string>
-    <string name="xiaomi_11_ultra">Mi 11 Ultra</string>
-    <string name="xiaomi_12">Xiaomi 12</string>
-    <string name="xiaomi_12_pro">Xiaomi 12 Pro</string>
-    <string name="xiaomi_12x">Xiaomi 12X</string>
-    <string name="xiaomi_6">Mi 6</string>
-    <string name="xiaomi_6x">Mi 6X</string>
-    <string name="xiaomi_8">Mi 8</string>
-    <string name="xiaomi_8_exp">Mi 8 Explorer Edition</string>
-    <string name="xiaomi_8_se">Mi 8 SE</string>
-    <string name="xiaomi_8_ud">Mi 8 Pro</string>
-    <string name="xiaomi_8_young">Mi 8 Lite</string>
-    <string name="xiaomi_9">Mi 9</string>
-    <string name="xiaomi_9_pro">Mi 9 Pro 5G</string>
-    <string name="xiaomi_9_se">Mi 9 SE</string>
     <string name="xiaomi_account_not_exists_toast">Contul Xiaomi nu există</string>
-    <string name="xiaomi_cc_9">Mi CC9</string>
-    <string name="xiaomi_cc_9_custom">Mi CC9 Meitu Edition</string>
-    <string name="xiaomi_cc_9_pro">Mi CC9 Pro</string>
-    <string name="xiaomi_cc_9e">Mi CC9e</string>
-    <string name="xiaomi_civi">Xiaomi Civi</string>
-    <string name="xiaomi_max_3">Mi MAX 3</string>
-    <string name="xiaomi_mix_2">Mi MIX 2</string>
-    <string name="xiaomi_mix_2s">Mi MIX 2S</string>
-    <string name="xiaomi_mix_3">Mi MIX 3</string>
-    <string name="xiaomi_mix_3_5g">Mi MIX 3 5G</string>
-    <string name="xiaomi_mix_4">Xiaomi MIX 4</string>
-    <string name="xiaomi_mix_alpha">Mi MIX Alpha</string>
-    <string name="xiaomi_mix_fold">Mi MIX FOLD</string>
-    <string name="xiaomi_note_10_lite">Mi Note 10 Lite</string>
-    <string name="xiaomi_note_3">Mi Note 3</string>
-    <string name="xiaomi_phone">Xiaomi</string>
-    <string name="xiaomi_poco_f1">POCO F1</string>
-    <string name="xiaomi_poco_f2_pro">POCO F2 Pro</string>
-    <string name="xiaomi_poco_f3">POCO F3</string>
-    <string name="xiaomi_poco_f3_gt">POCO F3 GT</string>
-    <string name="xiaomi_poco_m2">POCO M2</string>
-    <string name="xiaomi_poco_m2_pro">POCO M2 Pro</string>
-    <string name="xiaomi_poco_x3">POCO X3</string>
-    <string name="xiaomi_poco_x3_gt">POCO X3 GT</string>
     <string name="yes">Da</string>
     <string name="yesterday">Ieri</string>
     <string name="you_are">Tu ești bebelușul lui</string>
     <string name="zman_title">Partajare sigură</string>
-    <string name="zte">ZTE</string>
-    <string name="zte_phone">ZTE</string>
 </resources>
