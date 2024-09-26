@@ -83,13 +83,12 @@ bulunamıyor mu?"</string>
     <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
     <string name="bottomsheet_drag_handle_clicked">Sürükleme tutamacına iki kez dokunuldu</string>
     <string name="bottomsheet_drag_handle_content_description">Sürükleme tutamacı</string>
-    <string name="camera_associate_connecting">Kameraya bağlanılıyor</string>
-    <string name="camera_associate_disconnecting">Telefon kamerası ile bağlantısı kesiliyor</string>
     <string name="camera_associate_failed">Kameraya bağlanılamadı</string>
     <string name="camera_associate_success">Camera connected</string>
-    <string name="camera_choose_device">Kamerayı değiştir</string>
-    <string name="camera_connecting">%s bu cihazın kamerasını kullanmak istiyor</string>
+    <string name="camera_connect_fail">Bağlanılamadı. Tekrar deneyin.</string>
     <string name="camera_disassociate">Kamera bağlantısı kesildi.</string>
+    <string name="camera_list_subtitle">Kamerayı değiştir</string>
+    <string name="camera_picker_title">Cihazlar arası kamera</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button">İptal</string>
@@ -98,9 +97,6 @@ bulunamıyor mu?"</string>
     <string name="car_air_con_switch_close">Araba klimasını kapat</string>
     <string name="car_air_con_switch_open">Araba klimasını aç</string>
     <string name="car_air_con_unuse">–-</string>
-    <string name="car_camera_associate_connecting">EV kamerasına bağlanılıyor</string>
-    <string name="car_camera_associate_disconnecting">EV kamerası ile bağlantısı kesiliyor</string>
-    <string name="car_camera_device_name">%1$s ön görüş kamerası</string>
     <string name="car_camera_unavailable_dialog_message">Bu cihaz, düşük güç modu veya gizlilik mod açık olduğunda EV kamerasını kullanamaz.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Anladım</string>
     <string name="car_camera_unavailable_dialog_title">EV ön kamerası meşgul</string>
@@ -128,6 +124,7 @@ bulunamıyor mu?"</string>
     <string name="car_card_seat_warm">Koltuk ısıtıcısı</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">Klima</string>
+    <string name="car_device_camera_name">%1$s ön kamera</string>
     <string name="car_seat_can_not_use">Kullanılamıyor</string>
     <string name="cast_auth_count_down">"Yansıtmaya başlamak için (%2$d sn.) ''%1$s'' üzerinden gelen kodu girin"</string>
     <string name="cast_auth_title">Kodu girin</string>
@@ -378,7 +375,6 @@ bulunamıyor mu?"</string>
     <string name="connect_settings_base">Ara bağlantı</string>
     <string name="connect_settings_category_connection_car">Araba özellikleri</string>
     <string name="connect_settings_category_hyper_mind">HyperMind</string>
-    <string name="connect_settings_category_hyper_mind_new">Akıllı kontroller</string>
     <string name="connect_settings_category_personal_device">Kişisel cihazlar</string>
     <string name="connect_settings_communication_sharing">Kablosuz internet paylaşımı</string>
     <string name="connect_settings_connect_permission">Ara bağlantı ve izinler</string>
@@ -397,12 +393,11 @@ bulunamıyor mu?"</string>
     <string name="connect_settings_share_clipboard">Pano</string>
     <string name="connect_settings_share_launcher">Ana ekran+</string>
     <string name="connect_settings_share_notification">Bildirimler</string>
-    <string name="connect_settings_summary">&lt;Data>Xiaomi Hesabınızda oturum açmış yakındaki cihazları otomatik olarak keşfedin ve birden fazla cihazda çeşitli görevleri gerçekleştirmek için bunları birbirine bağlayın.&lt;a href=%1$s>Daha fazla bilgi edinin&lt;/a>&lt;/Data></string>
+    <string name="connect_settings_summary"><Data>Xiaomi Hesabınızda oturum açmış yakındaki cihazları otomatik olarak keşfedin ve birden fazla cihazda çeşitli görevleri gerçekleştirmek için bunları birbirine bağlayın.&lt;a href=%1$s>Daha fazla bilgi edinin&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Cihazlarınızın kablosuz olarak birbirleri ile etkileşime geçmesine izin verin</string>
     <string name="connect_settings_summary_corp_phone">Xiaomi Hesabınızda oturum açmış yakındaki tabletlerde veya bilgisayarlarda aramaları yanıtlayın</string>
     <string name="connect_settings_summary_global">"Xiaomi Hesabınızda oturum açmış olan yakındaki cihazları keşfedin ve Xiaomi Smart Hub'a ekleyin"</string>
     <string name="connect_settings_summary_hyper_mind">Bu özellik desenlerinizi öğrenir ve akıllı ev cihazlarınızı kontrol etmek için kullanır. Mi AI tarafından desteklenir.</string>
-    <string name="connect_settings_summary_hyper_mind_new">"Xiaomi HyperMind'ın yakındaki cihazları alışkanlıklarınıza göre kontrol etmesine izin verin"</string>
     <string name="connect_settings_summary_relay_app">Başka cihazdaki aynı uygulamada görevlere devam edin</string>
     <string name="connect_settings_summary_share_clipboard">Kopyaladıktan sonra %d dakika içinde metni ve görüntüleri diğer cihazlara yapıştırın</string>
     <string name="connect_settings_summary_share_launcher_pad">Xiaomi Hesabınızda oturum açmış yakındaki telefonların Ana ekranlarını görüntüleyin ve bunlarla iletişime girin</string>
@@ -452,8 +447,8 @@ bulunamıyor mu?"</string>
     <string name="dialog_nearbydevice_permission_title">İzin gerekli</string>
     <string name="dialog_nearbydevice_permission_title_connectivity">İzin gerekli</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">"&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Hem mobil cihazınızı hem TV'nizi aynı Wi-Fi ağına bağlayın.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Bazı TV modellerinde bu özellik yalnızca ekran yansıtma açık olduğunda kullanılabilirdir. Daha fazla bilgi edinmek için &lt;a href=milink://com.milink.service/specification>\"Yardım\"&lt;/a> ögesini görüntüleyin.&lt;/Data>"</string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Hem mobil cihazınızı hem TV'nizi aynı Wi-Fi ağına bağlayın.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Bazı TV modellerinde bu özellik yalnızca ekran yansıtma açık olduğunda kullanılabilirdir. Daha fazla bilgi edinmek için &lt;a href=milink://com.milink.service/specification>\"Yardım\"&lt;/a> ögesini görüntüleyin."</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">Tamam</string>
     <string name="dialog_only_suport_content">Fotoğraf, video veya müzik yayınlayın</string>
     <string name="dialog_open_wifi_bt">Aç</string>
@@ -498,6 +493,7 @@ Eğer bağlantı sorunu yaşıyorsanız yardım için görüntüleyin."</string>
     <string name="evening">Öğleden sonra</string>
     <string name="expand_button_title">Gelişmiş</string>
     <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
+    <string name="file_deleted">Orijinal dosya silindi</string>
     <string name="find_device_close">Anladım</string>
     <string name="find_device_notification_content_phone">%1$s, %2$s kullanan bu cihazı arıyor. Ses çalmayı durdurmak için kilidi açın.</string>
     <string name="find_device_notification_content_single_phone">Birisi %1$s kullanan bu cihazı arıyor. Ses çalmayı durdurmak için kilidi açın.</string>
@@ -568,14 +564,14 @@ Eğer bağlantı sorunu yaşıyorsanız yardım için görüntüleyin."</string>
     <string name="global_dialog_nearbydevice_permission_message">"Xiaomi Ara Bağlantı Hizmetleri, yakındaki cihazları keşfedebilmek için bu cihazlara bağlanmak üzere izne ihtiyaç duyar. Xiaomi Ara Bağlantı Hizmetleri'ni normal bir şekilde kullanabilmek için Ayarlar'da bu izni verin."</string>
     <string name="global_dialog_nearbydevice_permission_title">İzin gerekli</string>
     <string name="global_privacy">Şartlar ve koşullar</string>
-    <string name="global_privacy_detail">&lt;Data>Bu uygulamayı kullanmadan önce &lt;a href=%1$s>Kullanıcı Sözleşmemizi&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikamızı&lt;/a> okuyun ve kabul edin.&lt;br>Yukarıda bahsedilen hizmetleri kullanmayı onaylamazsanız, bu uygulamanın bazı özelliklerini kullanamayacaksınız; bununla birlikte, temel işlevler hâlâ kullanılabilir olacaktır.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Bu uygulamayı kullanmadan önce &lt;a href=%1$s>Kullanıcı Sözleşmemizi&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikamızı&lt;/a> okuyun ve kabul edin.&lt;br>Yukarıda bahsedilen hizmetleri kullanmayı onaylamazsanız, bu uygulamanın bazı özelliklerini kullanamayacaksınız; bununla birlikte, temel işlevler hâlâ kullanılabilir olacaktır.</Data></string>
     <string name="global_privacy_explain">"Yansıtma'ya hoş geldiniz! Bu uygulama aşağıdaki hizmetleri sağlamaktadır:"</string>
     <string name="global_privacy_feature">Küçültülmüş pencereler kullanma, ekran kapalıyken yansıtma ve gizli ögeleri saklama.</string>
     <string name="global_privacy_main">Ögeleri, telefonunuzun ekranından daha büyük bir harici monitöre yansıtma.</string>
     <string name="global_privacy_negative">Reddet</string>
     <string name="global_privacy_positive">Kabul et</string>
     <string name="global_privacy_screencast">Bu özelliği sağlayan hizmet, kaydediyorken veya yansıtıyorken ekranınızda görüntülenen veya cihazınızdan oynatılan ses, şifreler, ödeme bilgileri, fotoğraflar ve mesajlar gibi hassas bilgileri yakalayabilir.</string>
-    <string name="global_privacy_tip">"&lt;Data>Temel hizmetleri size sunabilmek ve yansıtma işlemini optimize edebilmek için gerekli kişisel bilgilerinizi toplamamız gerekmektedir. &lt;a href=%1$s>Gizlilik Politikamızda&lt;/a> topladığımız bilgileri nasıl işlediğimizi öğrenebilirsiniz. İstediğiniz zaman Ayarlar menüsünden Gizlilik Politikası'na verdiğiniz izni geri çekebilirsiniz.&lt;/Data>"</string>
+    <string name="global_privacy_tip"><Data>"Temel hizmetleri size sunabilmek ve yansıtma işlemini optimize edebilmek için gerekli kişisel bilgilerinizi toplamamız gerekmektedir. &lt;a href=%1$s>Gizlilik Politikamızda&lt;/a> topladığımız bilgileri nasıl işlediğimizi öğrenebilirsiniz. İstediğiniz zaman Ayarlar menüsünden Gizlilik Politikası'na verdiğiniz izni geri çekebilirsiniz."</Data></string>
     <string name="hang_up">Ekran kapalı durumdayken yansıt</string>
     <string name="hang_up_alert_dialog_content">Cihazınızın ekranı kapalıyken yansıtmaya devam edin. Bu özellik pil tüketimini azaltır. Ekranı tekrar açmak için güç tuşuna basın.</string>
     <string name="hang_up_alert_dialog_neg">İptal et</string>
@@ -741,10 +737,11 @@ böylece Xiaomi HyperMind modelleri öğrenebilir ve geliştirebilir"</string>
     <string name="invisible_mode_dialog_content_audio_relay">Gizli modda iken oynatma aktarılamıyor. Önce Gizli modu kapatın.</string>
     <string name="invisible_mode_dialog_pos">Kapat</string>
     <string name="invisible_mode_dialog_title">Gizlisiniz</string>
-    <string name="is_creating_camera_cooperation">Bağlanmak için cihaz kilidini açın</string>
     <string name="item_view_role_description">Sekme</string>
     <string name="keyguard_security_setting_privacy_policy">Gizlilik Politikası</string>
     <string name="local_camera_device">This device</string>
+    <string name="local_device_camera">Bu cihaz</string>
+    <string name="local_hotspot_opening">Bu cihazın bağlantı noktasını kapatın ve tekrar deneyin</string>
     <string name="material_clock_toggle_content_description">"ÖÖ veya ÖS'yi seçin"</string>
     <string name="material_hour_24h_suffix">%1$s saat</string>
     <string name="material_hour_selection">Saat seçin</string>
@@ -936,6 +933,13 @@ böylece Xiaomi HyperMind modelleri öğrenebilir ve geliştirebilir"</string>
     <string name="onehop_mirror_guide_message_text_2">"Galeri'den veya Dosya Yöneticisi'nden bilgisayarınıza aktarılacak fotoğrafları, videoları ve diğer dosyaları seçin."</string>
     <string name="onehop_mirror_guide_message_title">Xiaomi Ara Bağlantı</string>
     <string name="open_game_accelerate">"Game Turbo'yu aç"</string>
+    <string name="open_wlan">"Wi-Fi'yi aç"</string>
+    <string name="open_wlan_china">"WLAN'ı aç"</string>
+    <string name="open_wlan_known">Anladım</string>
+    <string name="open_wlan_other">"Ara bağlantı özelliklerini kullanabilmek için %1$s üzerinde Wi-Fi'yi açın. Şimdi açılsın mı?"</string>
+    <string name="open_wlan_other_china">"Ara bağlantı özelliklerini kullanabilmek için %1$s üzerinde WLAN'ı açın. Şimdi açılsın mı?"</string>
+    <string name="open_wlan_self">"Ara bağlantı özelliklerini kullanabilmek için Wi-Fi'yi açın. Şimdi açılsın mı?"</string>
+    <string name="open_wlan_self_china">"Ara bağlantı özelliklerini kullanabilmek için WLAN'ı açın. Şimdi açılsın mı?"</string>
     <string name="paipai_connect_btn_text">Bitti</string>
     <string name="paipai_connect_tv1_text">Cihaza bağlanıldı</string>
     <string name="paipai_connect_tv2_text">Aktarılan veriler</string>
@@ -1127,7 +1131,7 @@ böylece Xiaomi HyperMind modelleri öğrenebilir ve geliştirebilir"</string>
     <string name="privacy_agree">Kabul et</string>
     <string name="privacy_confirm_revoke_and_exit_btn">Geri çek</string>
     <string name="privacy_detail">Devam etmeden önce bu uygulamanın internete bağlanmasına izin verin ve gerekli izinleri verin.</string>
-    <string name="privacy_detail_extra">&lt;Data>Bazı özellikler, üçüncü taraf bir hizmet sağlayıcısı olan HappyCast tarafından sağlanmaktadır. Bu özelliği kullanmadan önce, &lt;a href=%1$s>HappyCast Gizlilik Politikası&lt;/a> ve &lt;a href=%2$s>HappyCast Yasal Açıklamasını&lt;/a> okuyun ve kabul edin.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Bazı özellikler, üçüncü taraf bir hizmet sağlayıcısı olan HappyCast tarafından sağlanmaktadır. Bu özelliği kullanmadan önce, &lt;a href=%1$s>HappyCast Gizlilik Politikası&lt;/a> ve &lt;a href=%2$s>HappyCast Yasal Açıklamasını&lt;/a> okuyun ve kabul edin.</Data></string>
     <string name="privacy_explain">"Yansıtma'ya hoş geldiniz! Yansıtma, telefonunuzun ekranındaki ögeleri daha büyük harici bir monitörde yansıtmanıza olanak tanır. Bu uygulamanın internete bağlanması gerekir ve normal çalışabilmesi için aşağıdaki izinlere ihtiyacı vardır:"</string>
     <string name="privacy_give_up_revoke_btn">İptal</string>
     <string name="privacy_i_know_btn">Devam et</string>
@@ -1152,7 +1156,7 @@ böylece Xiaomi HyperMind modelleri öğrenebilir ve geliştirebilir"</string>
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">Yakınlardaki kullanılabilir cihazları bulmak için</string>
     <string name="privacy_permission_wlan_desc_china">Yakınlardaki kullanılabilir cihazları bulmak için</string>
-    <string name="privacy_phone_read_theme_privacy_policy">"&lt;Data>''&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Xiaomi Ara Bağlantı Gizlilik Politikası'na Verilen İznin Geri Çekilmesine İlişkin Bildiri'yi&lt;/a>&lt;/font>'' okudum ve kabul ediyorum.&lt;/Data>"</string>
+    <string name="privacy_phone_read_theme_privacy_policy"><Data>"''&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Xiaomi Ara Bağlantı Gizlilik Politikası'na Verilen İznin Geri Çekilmesine İlişkin Bildiri'yi&lt;/a>&lt;/font>'' okudum ve kabul ediyorum."</Data></string>
     <string name="privacy_positive">Kabul et</string>
     <string name="privacy_read_statement">Öncelikle şartlar ve koşulları kabul edin</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d. Devam etmeden önce izni geri çekme hakkınız olduğundan emin olun.
@@ -1182,11 +1186,11 @@ böylece Xiaomi HyperMind modelleri öğrenebilir ve geliştirebilir"</string>
     <string name="privacy_setting_show_lelink_policy">"HappyCast Gizlilik Politikası'nı görüntüle"</string>
     <string name="privacy_setting_show_policy">Gizlilik Politikasını görüntüle</string>
     <string name="privacy_setting_show_user_agreement">"Kullanıcı Sözleşmesi'ni görüntüle"</string>
-    <string name="privacy_text_1">"&lt;Data>Yansıtma'ya hoşgeldiniz! Yansıtma özelliği, telefonunuzun ekranındaki ögeleri daha büyük bir harici ekranda görüntülemenize olanak sağlar.
+    <string name="privacy_text_1"><Data>"Yansıtma'ya hoşgeldiniz! Yansıtma özelliği, telefonunuzun ekranındaki ögeleri daha büyük bir harici ekranda görüntülemenize olanak sağlar.
 Kişisel bilgileriniz, ilgili yasalar, yönetmelikler ve gizlilik politikaları çerçevesinde korunur. Bazı özellikler, üçüncü taraf hizmet sağlayıcısı olan HappyCast tarafından sağlanmaktadır. Bu özelliği kullanmadan önce, &lt;a href=%2$s>HappyCast Yasal Bildirisi&lt;/a> ve &lt;a href=%1$s>HappyCast Gizlilik Politikası'nı&lt;/a> okuyun ve kabul edin.
-Bu uygulama düzgün çalışabilmek için internete bağlanmalı ve kişisel bilgilerinizi toplamak üzere şu izinlere sahip olmalıdır:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Bu izinleri vermeyi veya kişisel bilgilerinizi paylaşmayı ve yüklemeyi reddederseniz, bu uygulamayı kullanamazsınız. Bu durumda bu uygulamayı kaldırmayı, oturumu kapatmayı veya Ayarlar menüsünde izinleri kaldırmayı seçebilirsiniz.
-Bu özelliği kullanmadan önce &lt;a href=%1$s>Kullanıcı Sözleşmesi&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası&lt;/a> anlaşmalarımızı okuyun ve kabul edin&lt;/Data>"</string>
+Bu uygulama düzgün çalışabilmek için internete bağlanmalı ve kişisel bilgilerinizi toplamak üzere şu izinlere sahip olmalıdır:"</Data></string>
+    <string name="privacy_text_2"><Data>"Bu izinleri vermeyi veya kişisel bilgilerinizi paylaşmayı ve yüklemeyi reddederseniz, bu uygulamayı kullanamazsınız. Bu durumda bu uygulamayı kaldırmayı, oturumu kapatmayı veya Ayarlar menüsünde izinleri kaldırmayı seçebilirsiniz.
+Bu özelliği kullanmadan önce &lt;a href=%1$s>Kullanıcı Sözleşmesi&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası&lt;/a> anlaşmalarımızı okuyun ve kabul edin"</Data></string>
     <string name="privacy_text_pemission">"　　•Cihazınızdaki resimleri harici ekranlara yansıtmak için erişir ve kaydeder
 　　•Harici cihazlara ses yansıtmak için aramaları ve sesleri kaydeder
 　　•Cihazınızı tanımak için telefon numarasına, IMEI ve IMSI numaralarına erişir
@@ -1198,7 +1202,6 @@ Bu özelliği kullanmadan önce &lt;a href=%1$s>Kullanıcı Sözleşmesi&lt;/a> 
     <string name="private_protect">Özel ögeleri gizle</string>
     <string name="prompt_camera_associate_failed">Bağlanılamadı</string>
     <string name="prompt_camera_disassociate">Bağlantı kesildi</string>
-    <string name="prompt_camera_guide">%s kamerası kullanılabilir</string>
     <string name="prompt_camera_ocuppied">Kamera meşgul</string>
     <string name="prompt_camera_prepare">Bağlanılıyor…</string>
     <string name="prompt_camera_success">Bağlanıldı</string>
@@ -1209,6 +1212,7 @@ Bu özelliği kullanmadan önce &lt;a href=%1$s>Kullanıcı Sözleşmesi&lt;/a> 
     <string name="quick_settings_device_dialog_positive">Aç</string>
     <string name="quick_settings_device_dialog_title">Yakındaki cihazları keşfet</string>
     <string name="quick_settings_notification_control_center">Bildirimler &amp; durum çubuğu</string>
+    <string name="remote_hotspot_opening">Diğer cihazın bağlantı noktasını kapatın ve tekrar deneyin</string>
     <string name="remote_speaker_list">Çalma listesi</string>
     <string name="remote_speaker_loop">Sırayla oynat</string>
     <string name="remote_speaker_random">Karıştır</string>
@@ -1238,12 +1242,12 @@ Bu özelliği kullanmadan önce &lt;a href=%1$s>Kullanıcı Sözleşmesi&lt;/a> 
     <string name="screen_projection_entrance_list">Kullanılabilir cihazları görüntüle</string>
     <string name="screen_projection_entrance_list_new">Yansıtmak için kullanılabilir cihazların listesini görüntüleyin</string>
     <string name="screen_projection_example_document_hint_miui15">"*Ögeler yakındaki bir TV'de görüntülenecek"</string>
-    <string name="screen_projection_example_document_hint_new">&lt;Data>*Bu özelliği kullanmak için Dosyalar > Belgeler menüsüne gidin ve &lt;img src=../drawable/ic_cast_icon_photo.png/> simgesine dokunun.&lt;/Data></string>
+    <string name="screen_projection_example_document_hint_new"><Data>*Bu özelliği kullanmak için Dosyalar > Belgeler menüsüne gidin ve &lt;img src=../drawable/ic_cast_icon_photo.png/> simgesine dokunun.</Data></string>
     <string name="screen_projection_example_document_summary">Slaytlar arasında geçiş yapmak ve notlara göz atmak için telefonunuzu kullanırken, sunumları harici bir ekranda gösterin. Bu özelliği denemek için Dosya Yöneticisi > Belgeler menüsüne gidin.</string>
     <string name="screen_projection_example_document_summary_miui15">"Bu cihazı uzaktan kumanda olarak kullanırken TV'de sunum slaytlarını gösterin"</string>
     <string name="screen_projection_example_document_title">Belgeler</string>
     <string name="screen_projection_example_gallery_hint_miui15">"*Fotoğrafları ve videoları yansıtabilmek için Galeri'de bir öge seçin, ''Paylaş'' seçeneğine dokunun ve ardından ''Yansıt'' simgesine dokunun."</string>
-    <string name="screen_projection_example_gallery_hint_new">"&lt;Data>*Bu özelliği kullanmak için Galeri'ye gidin, bir fotoğraf seçin, alt çubuktaki ''Gönder'' seçeneğine dokunun ve &lt;img src=../drawable/ic_cast_icon_photo.png/> simgesine dokunun.&lt;/Data>"</string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>"*Bu özelliği kullanmak için Galeri'ye gidin, bir fotoğraf seçin, alt çubuktaki ''Gönder'' seçeneğine dokunun ve &lt;img src=../drawable/ic_cast_icon_photo.png/> simgesine dokunun."</Data></string>
     <string name="screen_projection_example_gallery_summary">Galeri uygulamasındaki bir ögeyi harici bir ekrana yansıtmak için ögenin altındaki Paylaş tuşuna dokunun.</string>
     <string name="screen_projection_example_gallery_summary_miui15">Fotoğraflarınızı ve videolarınızı TV ekranında görüntüleyin</string>
     <string name="screen_projection_example_gallery_title">Fotoğraflar &amp; videolar</string>
@@ -1272,6 +1276,7 @@ Oyunları yansıtmadan önce Game Turbo'yu açtığınızdan emin olun."</string
     <string name="settings_cross_notify_power">Düşük pil</string>
     <string name="settings_cross_notify_system">Sistem bildirimleri</string>
     <string name="settings_cross_notify_tips">Bu cihaz kilitlendiğinde kullanımda olan yakındaki tabletlerde veya bilgisayarlarda bildirimleri göster</string>
+    <string name="sever_stream_beauty">Güzelleştirme</string>
     <string name="sever_stream_control_btn_exit">Durdur</string>
     <string name="sever_stream_control_btn_pause">Duraklat</string>
     <string name="sever_stream_control_btn_preview">Önizleme</string>
@@ -1280,6 +1285,9 @@ Oyunları yansıtmadan önce Game Turbo'yu açtığınızdan emin olun."</string
     <string name="sever_stream_push_state_idle2">Önizleme kapalı</string>
     <string name="sever_stream_push_state_pause">Duraklatıldı</string>
     <string name="sever_stream_push_state_pushing">Kamera akışı paylaşılıyor…</string>
+    <string name="sever_switch_camera">Ön ve arka kameralar arasında geçiş yap</string>
+    <string name="sever_switch_camera_front">Ön kamera</string>
+    <string name="sever_switch_camera_rear">Arka kamera</string>
     <string name="share_desktop_with_car">Ana ekranı arabayla paylaş</string>
     <string name="share_desktop_with_car_ing">Ekran arabayla paylaşılıyor…</string>
     <string name="show_result_on_tv">"Sonuçları TV'de görüntüle"</string>
@@ -1364,7 +1372,7 @@ Oyunları yansıtmadan önce Game Turbo'yu açtığınızdan emin olun."</string
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>
     <string name="trust_device_desc">Yakında olduklarında önce bu cihazlar görünecektir</string>
-    <string name="trust_device_dialog_desc">&lt;Data>Güvenilir cihaz olarak işaretlerseniz yakında olduğunda mevcut cihazlar arasında %s önce görünecektir.&lt;br>&lt;br>Ayarlar menüsünde &lt;a href=milink://com.milink.service/trust>güvenilir cihazları yönetebilirsiniz&lt;/a>.&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>Güvenilir cihaz olarak işaretlerseniz yakında olduğunda mevcut cihazlar arasında %s önce görünecektir.&lt;br>&lt;br>Ayarlar menüsünde &lt;a href=milink://com.milink.service/trust>güvenilir cihazları yönetebilirsiniz&lt;/a>.</Data></string>
     <string name="trust_device_dialog_pos">Güven</string>
     <string name="trust_device_dialog_title">Bu cihaza güven?</string>
     <string name="trust_device_manager">Güvenilir cihazları yönet</string>
@@ -1382,6 +1390,12 @@ Oyunları yansıtmadan önce Game Turbo'yu açtığınızdan emin olun."</string
     <string name="upgrade_check_upgrade">Güncelle</string>
     <string name="upgrade_checking">Güncellemeler kontrol ediliyor…</string>
     <string name="upgrade_edit_mijia">Düzenle</string>
+    <string name="upgrade_error_connect_api_server_fail">Ağ ayarlarınızı kontrol edin ve ardından tekrar deneyin</string>
+    <string name="upgrade_error_download_ip_intercepted">Çok fazla istek. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
+    <string name="upgrade_error_download_start_fall">Uygulama indirilemedi. Tekrar deneyin.</string>
+    <string name="upgrade_error_install_fail_invalid_apk">Uygulama yüklenemedi. Tekrar deneyin.</string>
+    <string name="upgrade_error_installparse_fail">Uygulama yüklenemedi</string>
+    <string name="upgrade_error_no_enough_space_before_download">Yetersiz depolama alanı. Yer boşaltın ve tekrar deneyin.</string>
     <string name="upgrade_help_menu">Yardım</string>
     <string name="upgrade_help_title">Güncelleme ile ilgili yardım</string>
     <string name="upgrade_log_title">更新日志</string>

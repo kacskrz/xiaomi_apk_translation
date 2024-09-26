@@ -51,13 +51,12 @@ dot pajisjet tuaja?"</string>
     <string name="ball_hint_connect_fail">Ky veprim nuk mund të kryhej. Prisni një ose dy minuta dhe provoni përsëri.</string>
     <string name="ball_hint_text_loading">Vetëm një sekondë…</string>
     <string name="ball_hint_text_success">U lidh me sukses</string>
-    <string name="camera_associate_connecting">Po lidhet me kamerën</string>
-    <string name="camera_associate_disconnecting">Po shkëputet nga kamera e telefonit</string>
     <string name="camera_associate_failed">Nuk mund të lidhej me kamerën</string>
     <string name="camera_associate_success">Camera connected</string>
-    <string name="camera_choose_device">Ndërroni kamerat</string>
-    <string name="camera_connecting">%s dëshiron të përdorë kamerën e kësaj pajisjeje</string>
+    <string name="camera_connect_fail">Nuk mund të lidhej. Provo përsëri.</string>
     <string name="camera_disassociate">Shkëputur nga kamera.</string>
+    <string name="camera_list_subtitle">Ndërroni kamerat</string>
+    <string name="camera_picker_title">Kamera ndër-pajisje</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button">Anullo</string>
@@ -66,9 +65,6 @@ dot pajisjet tuaja?"</string>
     <string name="car_air_con_switch_close">Fikni kondicionerin e makinës</string>
     <string name="car_air_con_switch_open">Ndizni kondicionerin e makinës</string>
     <string name="car_air_con_unuse">–-</string>
-    <string name="car_camera_associate_connecting">Duke lidhur me kamerën EV</string>
-    <string name="car_camera_associate_disconnecting">Po shkëputet nga kamera EV</string>
-    <string name="car_camera_device_name">%1$s kamera e pamjes së përparme</string>
     <string name="car_camera_unavailable_dialog_message">Kjo pajisje nuk mund ta përdorë kamerën e EV kur modaliteti i energjisë së ulët ose modaliteti i privatësisë është ndezur.</string>
     <string name="car_camera_unavailable_dialog_positive_button">E kuptova</string>
     <string name="car_camera_unavailable_dialog_title">Kamera e përparme e EV është e zënë</string>
@@ -96,6 +92,7 @@ dot pajisjet tuaja?"</string>
     <string name="car_card_seat_warm">Ngrohja e sediljeve</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
+    <string name="car_device_camera_name">%1$s Kamera e përparme</string>
     <string name="car_seat_can_not_use">I pa disponueshëm</string>
     <string name="cast_auth_count_down">Futni kodin nga \"%1$s\" për të filluar transmetimin (%2$ds)</string>
     <string name="cast_auth_title">Fut kodin</string>
@@ -343,7 +340,6 @@ dot pajisjet tuaja?"</string>
     <string name="connect_settings_base">Ndërlidhja</string>
     <string name="connect_settings_category_connection_car">Vecorite e makinës</string>
     <string name="connect_settings_category_hyper_mind">HyperMind</string>
-    <string name="connect_settings_category_hyper_mind_new">Kontrollet inteligjente</string>
     <string name="connect_settings_category_personal_device">Pajisjet personale</string>
     <string name="connect_settings_communication_sharing">Wireless tethering</string>
     <string name="connect_settings_connect_permission">Ndërlidhja dhe lejet</string>
@@ -362,12 +358,11 @@ dot pajisjet tuaja?"</string>
     <string name="connect_settings_share_clipboard">Clipboard</string>
     <string name="connect_settings_share_launcher">Ekrani bazë+</string>
     <string name="connect_settings_share_notification">Njoftime</string>
-    <string name="connect_settings_summary">&lt;Data>Zbuloni automatikisht pajisjet në afërsi të identifikuara në llogarinë tuaj Xiaomi dhe lidhini ato me njëra-tjetrën për të kryer një sërë detyrash në pajisje të shumta. &lt;a href=%1$s>Mëso më shumë&lt;/a>&lt;/Data></string>
+    <string name="connect_settings_summary"><Data>Zbuloni automatikisht pajisjet në afërsi të identifikuara në llogarinë tuaj Xiaomi dhe lidhini ato me njëra-tjetrën për të kryer një sërë detyrash në pajisje të shumta. &lt;a href=%1$s>Mëso më shumë&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Lejojini pajisjet tuaja të ndërveprojnë me njëra-tjetrën me valë</string>
     <string name="connect_settings_summary_corp_phone">Përgjigjuni telefonatave në tabletët ose kompjuterët e afërt të identifikuar në llogarinë tuaj Xiaomi</string>
     <string name="connect_settings_summary_global">Zbuloni pajisjet në afërsi të identifikuara në llogarinë tuaj Xiaomi dhe shtojini ato në Xiaomi Smart Hub</string>
     <string name="connect_settings_summary_hyper_mind">Kjo veçori mëson modelet tuaja dhe i përdor ato për të kontrolluar pajisjet e zgjuara të shtëpisë. Mundësuar nga Mi AI.</string>
-    <string name="connect_settings_summary_hyper_mind_new">Lëreni Xiaomi HyperMind të kontrollojë pajisjet e afërta sipas zakoneve tuaja</string>
     <string name="connect_settings_summary_relay_app">Vazhdoni detyrat në të njëjtin aplikacion në nje pajisje tjetër</string>
     <string name="connect_settings_summary_share_clipboard">Ngjit tekstin dhe imazhet në pajisje të tjera brenda %d minuta pas kopjimit të tyre në këtë pajisje</string>
     <string name="connect_settings_summary_share_launcher_pad">Shikoni dhe ndërveproni me ekranet bazë të telefonave në afërsi të identifikuar në llogarinë tuaj Xiaomi</string>
@@ -416,8 +411,8 @@ dot pajisjet tuaja?"</string>
     <string name="dialog_nearbydevice_permission_title">Lejet e kërkuara</string>
     <string name="dialog_nearbydevice_permission_title_connectivity">Lejet e kërkuara</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Lidhni pajisjen tuaj celular dhe TV me të njëjtin rrjet Wi-Fi. &lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Në disa modele televizive, kjo veçori është e disponueshme vetëm kur pasqyrimi i ekranit është aktiv. Shiko &lt;a href=milink://com.milink.service/specification>\"Ndihme\"&lt;/a> për të mësuar më shumë.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Lidhni pajisjen tuaj celular dhe TV me të njëjtin rrjet Wi-Fi. &lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Në disa modele televizive, kjo veçori është e disponueshme vetëm kur pasqyrimi i ekranit është aktiv. Shiko &lt;a href=milink://com.milink.service/specification>\"Ndihme\"&lt;/a> për të mësuar më shumë.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">Mirë</string>
     <string name="dialog_only_suport_content">Rrymëzo foto, video, ose muzikë</string>
     <string name="dialog_open_wifi_bt">Ndize</string>
@@ -459,6 +454,7 @@ Shikoni ndihmën nëse keni probleme në lidhjen."</string>
     <string name="err_toast_msg_retry_later">Ky veprim nuk mund të kryhej. Prisni një ose dy minuta dhe provoni përsëri.</string>
     <string name="err_toast_msg_try_switch_network">Lidhni pajisjen tuaj celulare dhe kompjuterin në të njëjtin rrjet WLAN</string>
     <string name="evening">Pasdite</string>
+    <string name="file_deleted">Skedari origjinal u fshi</string>
     <string name="find_device_close">E kuptova</string>
     <string name="find_device_notification_content_phone">%1$s është duke kërkuar për këtë pajisje të përdorë %2$s. kycni për të ndaluar së luajturi tingullin.</string>
     <string name="find_device_notification_content_single_phone">Dikush është duke kërkuar për këtë pajisje të përdorë %1$s. kycni për të ndaluar së luajturi tingullin.</string>
@@ -529,14 +525,14 @@ Shikoni ndihmën nëse keni probleme në lidhjen."</string>
     <string name="global_dialog_nearbydevice_permission_message">"Shërbimet e ndërlidhjes Xiaomi duhet leje për t'u lidhur me pajisjet në afërsi për t'i zbuluar ato. Jepni këtë leje te Cilësimet për të qenë në gjendje të përdorni normalisht Shërbimet e Ndërlidhjes Xiaomi."</string>
     <string name="global_dialog_nearbydevice_permission_title">Lejet e kërkuara</string>
     <string name="global_privacy">Termat dhe Kushtet</string>
-    <string name="global_privacy_detail">&lt;Data>Lexoni dhe bini dakord me tonë&lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>para se të përdorni këtë veçori.&lt;br>Nëse nuk pranoni të përdorni shërbimet e lartpërmendura, nuk do të jeni në gjendje të përdorni disa veçori të këtij aplikacioni; megjithatë, funksionaliteti i tij themelor do të jetë akoma i disponueshëm për ju.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Lexoni dhe bini dakord me tonë&lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>para se të përdorni këtë veçori.&lt;br>Nëse nuk pranoni të përdorni shërbimet e lartpërmendura, nuk do të jeni në gjendje të përdorni disa veçori të këtij aplikacioni; megjithatë, funksionaliteti i tij themelor do të jetë akoma i disponueshëm për ju.</Data></string>
     <string name="global_privacy_explain">Mirësevini në Transmetim! Ky aplikacion ofron shërbimet e mëpos</string>
     <string name="global_privacy_feature">Përdorimi i dritareve të minimizuara, transmetimi me ekran të fikur dhe fshehja e sendeve private.</string>
     <string name="global_privacy_main">Projektimi i artikujve nga ekrani i telefonit tuaj në një monitor të jashtëm më të madh.</string>
     <string name="global_privacy_negative">Nuk bie dakord</string>
     <string name="global_privacy_positive">Bie dakord</string>
     <string name="global_privacy_screencast">Gjatë regjistrimit ose transmetimit, shërbimi që ofron këtë veçori mund të kapë çdo informacion të ndjeshëm që shfaqet në ekran ose luhet nga pajisja juaj, duke përfshirë informacione të ndjeshme si audio, fjalëkalime, informacione pagese, foto dhe mesazhe.</string>
-    <string name="global_privacy_tip">"&lt;Data>Ne duhet të mbledhim informacionin e nevojshëm personal për t'ju siguruar shërbimet themelore dhe për të optimizuar procesin e hedhjes. Ju mund të mësoni se si i trajtojmë informacionet që mbledhim në tonë&lt;a href=%1$s>Politika e Privatësisë&lt;/a>.Ju mund të tërhiqni pëlqimin tuaj për Politikën e Privatësisë në Cilësimet në çdo kohë.&lt;/Data>"</string>
+    <string name="global_privacy_tip"><Data>"Ne duhet të mbledhim informacionin e nevojshëm personal për t'ju siguruar shërbimet themelore dhe për të optimizuar procesin e hedhjes. Ju mund të mësoni se si i trajtojmë informacionet që mbledhim në tonë&lt;a href=%1$s>Politika e Privatësisë&lt;/a>.Ju mund të tërhiqni pëlqimin tuaj për Politikën e Privatësisë në Cilësimet në çdo kohë."</Data></string>
     <string name="hang_up">Transmeto me ekran të fikur</string>
     <string name="hang_up_alert_dialog_content">Vazhdo transmetimin kur ta kesh ekranin e pajisjes të fikur. Kjo veçori zvogëlon konsumin e energjisë. Shtyp butonin e ndezjes për ta ndezur prapë ekranin.</string>
     <string name="hang_up_alert_dialog_neg">Anulo</string>
@@ -701,9 +697,10 @@ që Xiaomi HyperMind të mund të mësojë dhe të përmirësojë modelet"</stri
     <string name="invisible_mode_dialog_content_audio_relay">Nuk mund t; transferosh rid;gjimin kur je i panjohur. Fikni modalitetin i panjohur si fillim.</string>
     <string name="invisible_mode_dialog_pos">Fik</string>
     <string name="invisible_mode_dialog_title">Ti je i panjohur</string>
-    <string name="is_creating_camera_cooperation">Hapni pajisjen për tu lidhur</string>
     <string name="keyguard_security_setting_privacy_policy">Politika e privatësisë</string>
     <string name="local_camera_device">This device</string>
+    <string name="local_device_camera">Kjo pajisje</string>
+    <string name="local_hotspot_opening">Çaktivizo hotspot të kësaj pajisje dhe provo përsëri</string>
     <string name="message_connection_interrupted">Make sure your computer and tablet are within connection range and have Bluetooth and WLAN turned on. To continue, start the task on your computer again.</string>
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
@@ -820,6 +817,13 @@ që Xiaomi HyperMind të mund të mësojë dhe të përmirësojë modelet"</stri
     <string name="onehop_mirror_guide_message_text_2">"Zgjidhni foto, video dhe skedarë të tjerë nga Galeria ose Menaxher i Skedareve për t'i transferuar në kompjuterin tuaj."</string>
     <string name="onehop_mirror_guide_message_title">Ndërlidhja Xiaomi</string>
     <string name="open_game_accelerate">Ndiz LojaTurbo</string>
+    <string name="open_wlan">Aktivizo Wi-Fi</string>
+    <string name="open_wlan_china">Aktivizo WLAN</string>
+    <string name="open_wlan_known">E kuptova</string>
+    <string name="open_wlan_other">Aktivizo Wi-Fi në %1$s për të qenë në gjendje të përdorësh veçoritë e ndërlidhjes.</string>
+    <string name="open_wlan_other_china">Aktivizo WLAN në %1$s për të qenë në gjendje të përdorësh veçoritë e ndërlidhjes.</string>
+    <string name="open_wlan_self">Aktivizo Wi-Fi për të qenë në gjendje të përdorësh veçoritë e ndërlidhjes. Të aktivizohet tani?</string>
+    <string name="open_wlan_self_china">Aktivizo WLAN për të qenë në gjendje të përdorësh veçoritë e ndërlidhjes. Të aktivizohet tani?</string>
     <string name="paipai_connect_btn_text">U krye</string>
     <string name="paipai_connect_tv1_text">Lidhur me pajisjen</string>
     <string name="paipai_connect_tv2_text">Të dhënat e transferuara</string>
@@ -1009,7 +1013,7 @@ që Xiaomi HyperMind të mund të mësojë dhe të përmirësojë modelet"</stri
     <string name="privacy_agree">Bie dakord</string>
     <string name="privacy_confirm_revoke_and_exit_btn">Tërheqë</string>
     <string name="privacy_detail">Lejo që ky aplikacion të lidhet me internetin dhe të japë lejet e kërkuara përpara se të vazhdosh.</string>
-    <string name="privacy_detail_extra">&lt;Data>Disa karakteristika sigurohen nga një ofrues i shërbimit të palës së tretë HappyCast. Para se të përdorni këtë veçori, lexoni dhe pajtohuni &lt;a href=%1$s>Politika e privatësisë e HappyCast&lt;/a> dhe &lt;a href=%2$s>Deklarata Ligjore e HappyCast&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Disa karakteristika sigurohen nga një ofrues i shërbimit të palës së tretë HappyCast. Para se të përdorni këtë veçori, lexoni dhe pajtohuni &lt;a href=%1$s>Politika e privatësisë e HappyCast&lt;/a> dhe &lt;a href=%2$s>Deklarata Ligjore e HappyCast&lt;/a>.</Data></string>
     <string name="privacy_explain">Mirësevini në Transmetim! Hedhja lejon të projektoni artikujt nga ekrani i telefonit tuaj në një monitor të jashtëm më të madh. Kjo aplikacion duhet të lidhet me internetin dhe kërkon që lejet e mëposhtme të jenë në gjendje të funksionojnë normalisht:</string>
     <string name="privacy_give_up_revoke_btn">Anullo</string>
     <string name="privacy_i_know_btn">Vazhdo</string>
@@ -1034,7 +1038,7 @@ që Xiaomi HyperMind të mund të mësojë dhe të përmirësojë modelet"</stri
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">Për gjetjen e pajisjeve afër të disponueshme</string>
     <string name="privacy_permission_wlan_desc_china">Për gjetjen e pajisjeve afër të disponueshme</string>
-    <string name="privacy_phone_read_theme_privacy_policy">&lt;Data>Kam lexuar dhe kam rënë dakord me \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Deklaratë për tërheqjen e pëlqimit për politikën e privatësisë së ndërlidhjes Xiaomi&lt;/a>&lt;/font>\".&lt;/Data></string>
+    <string name="privacy_phone_read_theme_privacy_policy"><Data>Kam lexuar dhe kam rënë dakord me \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Deklaratë për tërheqjen e pëlqimit për politikën e privatësisë së ndërlidhjes Xiaomi&lt;/a>&lt;/font>\".</Data></string>
     <string name="privacy_positive">Bie dakord</string>
     <string name="privacy_read_statement">Prano të gjithë termat dhe kushtet së pari</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d.Sigurohuni që keni të drejtën të tërhiqni pëlqimin përpara se të vazhdoni.
@@ -1064,11 +1068,11 @@ që Xiaomi HyperMind të mund të mësojë dhe të përmirësojë modelet"</stri
     <string name="privacy_setting_show_lelink_policy">Shikoni Politikën e Privatësisë së HappyCast</string>
     <string name="privacy_setting_show_policy">Shih Politikën e Privatësisë</string>
     <string name="privacy_setting_show_user_agreement">Shiko Marrëveshjen e Përdoruesit</string>
-    <string name="privacy_text_1">"&lt;Data> [Mirësevini në Transmetim! Transmetimi lejon të projektoni artikujt nga ekrani i telefonit tuaj në një monitor të jashtëm më të madh.
+    <string name="privacy_text_1"><Data>" [Mirësevini në Transmetim! Transmetimi lejon të projektoni artikujt nga ekrani i telefonit tuaj në një monitor të jashtëm më të madh.
 Ne do të mbrojmë informacionin tuaj personal në përputhje me ligjet, rregulloret dhe politikat e intimitetit. Disa karakteristika sigurohen nga një ofrues i shërbimit të palës së tretë HappyCast. Para se të përdorni këtë veçori, lexoni dhe pajtohuni me &lt;a href=%2$s> Deklaratën Ligjore të HappyCast &lt;/a> dhe &lt;a href=%1$s> Politikës së privatësisë së HappyCast &lt;/a>.
- Për të qenë në gjendje të punoni normalisht, kjo aplikacion duhet të lidhet me internetin dhe kërkon duke ndjekur lejet për të mbledhur informacionin tuaj personal:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Nëse nuk bie dakord për dhënien e këtyre lejeve ose për ndarjen dhe ngarkimin e informacionit personal, nuk do të kesh mundësi ta përdorësh këtë aplikacion. Në raste të tilla, mund të zgjedhësh ta çinstalosh këtë aplikacion, të çidentifikohesh, ose të kufizosh lejet te Cilësimet.
-Lexo dhe pajtohu me &lt;a href=%1$s>Marrëveshjen e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politikën e privatësisë&lt;/a> para se të përdorësh këtë veçori.&lt;/Data>"</string>
+ Për të qenë në gjendje të punoni normalisht, kjo aplikacion duhet të lidhet me internetin dhe kërkon duke ndjekur lejet për të mbledhur informacionin tuaj personal:"</Data></string>
+    <string name="privacy_text_2"><Data>"Nëse nuk bie dakord për dhënien e këtyre lejeve ose për ndarjen dhe ngarkimin e informacionit personal, nuk do të kesh mundësi ta përdorësh këtë aplikacion. Në raste të tilla, mund të zgjedhësh ta çinstalosh këtë aplikacion, të çidentifikohesh, ose të kufizosh lejet te Cilësimet.
+Lexo dhe pajtohu me &lt;a href=%1$s>Marrëveshjen e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politikën e privatësisë&lt;/a> para se të përdorësh këtë veçori."</Data></string>
     <string name="privacy_text_pemission">"　　•Hyr te imazhet dhe ruaji në pajisje për t'i projektuar këta artikuj në montorë të jashtëm
 　　•Incizo telefonata dhe audio për të projektuar audio në pajisje të jashtme
 　　•Hyr te numri i telefonit, IMEI, dhe IMSI për të identifikuar pajisjen tënde
@@ -1080,7 +1084,6 @@ Lexo dhe pajtohu me &lt;a href=%1$s>Marrëveshjen e përdoruesit&lt;/a> dhe &lt;
     <string name="private_protect">Fshih artikujt privatë</string>
     <string name="prompt_camera_associate_failed">Nuk mund të lidhej</string>
     <string name="prompt_camera_disassociate">Shkëputur</string>
-    <string name="prompt_camera_guide">%s kamera është në dispozicion</string>
     <string name="prompt_camera_ocuppied">Kamera është e zënë</string>
     <string name="prompt_camera_prepare">Duke u lidhur…</string>
     <string name="prompt_camera_success">Lidhur</string>
@@ -1091,6 +1094,7 @@ Lexo dhe pajtohu me &lt;a href=%1$s>Marrëveshjen e përdoruesit&lt;/a> dhe &lt;
     <string name="quick_settings_device_dialog_positive">Aktivizo</string>
     <string name="quick_settings_device_dialog_title">Zbuloni Pajisjet në afërsi</string>
     <string name="quick_settings_notification_control_center">Njoftime dhe shiriti i statusit</string>
+    <string name="remote_hotspot_opening">Çaktivizo hotspot e pajisjes tjetër dhe provo përsëri</string>
     <string name="remote_speaker_list">Lista e këngëve</string>
     <string name="remote_speaker_loop">Luaj në rregull</string>
     <string name="remote_speaker_random">Përziej</string>
@@ -1120,12 +1124,12 @@ Lexo dhe pajtohu me &lt;a href=%1$s>Marrëveshjen e përdoruesit&lt;/a> dhe &lt;
     <string name="screen_projection_entrance_list">Shikoni pajisjet e disponueshme</string>
     <string name="screen_projection_entrance_list_new">Shikoni listën e pajisjeve të disponueshme për transmetim</string>
     <string name="screen_projection_example_document_hint_miui15">*Artikujt do të shfaqen në një televizor aty pranë</string>
-    <string name="screen_projection_example_document_hint_new">&lt;Data>*Për të përdorur këtë veçori, shkoni te Files > Dokumentat dhe klikoni mbi &lt;img src=../drawable/ic_cast_icon_photo.png/>ikone.&lt;/Data></string>
+    <string name="screen_projection_example_document_hint_new"><Data>*Për të përdorur këtë veçori, shkoni te Files > Dokumentat dhe klikoni mbi &lt;img src=../drawable/ic_cast_icon_photo.png/>ikone.</Data></string>
     <string name="screen_projection_example_document_summary">Shfaqni prezantimet në një monitor të jashtëm ndërsa përdorni telefonin tuaj për të kaluar ndërmjet rrëshqitjeve dhe shikoni shënimet. Shkoni te Menaxhuesin e Skedarëve > Dokumente për të provuar këtë veçori.</string>
     <string name="screen_projection_example_document_summary_miui15">Shfaq slidet e prezantimit në një televizor ndërsa përdor këtë pajisje si telekomandë</string>
     <string name="screen_projection_example_document_title">Dokumente</string>
     <string name="screen_projection_example_gallery_hint_miui15">*Për të qenë në gjendje të transmetoni foto dhe video, zgjidhni një artikull në Galeri, klikoni \"Ndaj\" dhe më pasklikoni ikonën \"Transmetim\".</string>
-    <string name="screen_projection_example_gallery_hint_new">&lt;Data>*Për të përdorur këtë veçori, shkoni te Galeria, zgjidhni një foto, klikoni \"Dërgo\" në shiritin e poshtëm dhe klikoni&lt;img src=../drawable/ic_cast_icon_photo.png/> ikonen.&lt;/Data></string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*Për të përdorur këtë veçori, shkoni te Galeria, zgjidhni një foto, klikoni \"Dërgo\" në shiritin e poshtëm dhe klikoni&lt;img src=../drawable/ic_cast_icon_photo.png/> ikonen.</Data></string>
     <string name="screen_projection_example_gallery_summary">Prekni butonin Ndaj nën një artikull në aplikacionin Galeria për ta projektuar atë në një monitor të jashtëm.</string>
     <string name="screen_projection_example_gallery_summary_miui15">Shikoni fotot dhe videot tuaja në ekranin e televizorit</string>
     <string name="screen_projection_example_gallery_title">Fotografitë dhe videot</string>
@@ -1153,6 +1157,7 @@ Sigurohu që të kesh aktivizuar Lojë Turbo përpara se të transmetosh lojëra
     <string name="settings_cross_notify_power">Bateri e ulët</string>
     <string name="settings_cross_notify_system">Njoftimet e sistemit</string>
     <string name="settings_cross_notify_tips">Shfaq njoftimet në tabletët ose kompjuterët e afërt në përdorim kur kjo pajisje është e kyçur</string>
+    <string name="sever_stream_beauty">Zbukuruar</string>
     <string name="sever_stream_control_btn_exit">Ndalo</string>
     <string name="sever_stream_control_btn_pause">Pezullo</string>
     <string name="sever_stream_control_btn_preview">Shikim paraprak</string>
@@ -1161,6 +1166,9 @@ Sigurohu që të kesh aktivizuar Lojë Turbo përpara se të transmetosh lojëra
     <string name="sever_stream_push_state_idle2">Pamja paraprake është fikur</string>
     <string name="sever_stream_push_state_pause">Pezulluar</string>
     <string name="sever_stream_push_state_pushing">Ndarja e furnizimit të kamerës…</string>
+    <string name="sever_switch_camera">Nderroni mes kamerave të përparme dhe të pasme</string>
+    <string name="sever_switch_camera_front">Kamera perballe</string>
+    <string name="sever_switch_camera_rear">Kamera e pasme</string>
     <string name="share_desktop_with_car">Ndani ekranin bazë me makinën</string>
     <string name="share_desktop_with_car_ing">Duke ndare ekranin me makinën…</string>
     <string name="show_result_on_tv">Shiko rezultatet në TV</string>
@@ -1243,7 +1251,7 @@ Sigurohu që të kesh aktivizuar Lojë Turbo përpara se të transmetosh lojëra
     <string name="today">Sot</string>
     <string name="tomorrow">Nesër</string>
     <string name="trust_device_desc">Këto pajisje do të shfaqen këtu së pari kur të jenë afër</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%s do të shfaqet së pari midis pajisjeve të disponueshme kur është afër nëse e shënoni si të besuar.&lt;br>&lt;br>Ju mund të &lt;a href=milink://com.milink.service/trust>menaxhoni pajisje të besuara&lt;/a> në Cilësimet.&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%s do të shfaqet së pari midis pajisjeve të disponueshme kur është afër nëse e shënoni si të besuar.&lt;br>&lt;br>Ju mund të &lt;a href=milink://com.milink.service/trust>menaxhoni pajisje të besuara&lt;/a> në Cilësimet.</Data></string>
     <string name="trust_device_dialog_pos">Beso</string>
     <string name="trust_device_dialog_title">Besoje këtë pajisje?</string>
     <string name="trust_device_manager">Menaxho pajisjet e besuara</string>
@@ -1261,6 +1269,12 @@ Sigurohu që të kesh aktivizuar Lojë Turbo përpara se të transmetosh lojëra
     <string name="upgrade_check_upgrade">Përditëso</string>
     <string name="upgrade_checking">Duke kontrolluar përditësimet…</string>
     <string name="upgrade_edit_mijia">Redakto</string>
+    <string name="upgrade_error_connect_api_server_fail">Kontrolloni cilësimet e rrjetit tuaj dhe provoni përsëri</string>
+    <string name="upgrade_error_download_ip_intercepted">Shumë kërkesa. Prisni një ose dy minuta dhe provoni përsëri.</string>
+    <string name="upgrade_error_download_start_fall">Aplikacioni nuk mund të shkarkohej. Provo përsëri.</string>
+    <string name="upgrade_error_install_fail_invalid_apk">Nuk mund të kryhej instalimi. Provo përseri.</string>
+    <string name="upgrade_error_installparse_fail">Nuk u mundësua instalimi i aplikacionit</string>
+    <string name="upgrade_error_no_enough_space_before_download">Hapësirë ​​e pamjaftueshme. Liro hapësirën ruajtëse dhe provo përseri.</string>
     <string name="upgrade_help_menu">Ndihmë</string>
     <string name="upgrade_help_title">Ndihmoni me përditësimin</string>
     <string name="upgrade_log_title">更新日志</string>

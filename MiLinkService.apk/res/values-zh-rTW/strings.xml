@@ -84,13 +84,12 @@
     <string name="bottomsheet_action_expand_halfway">展開一半</string>
     <string name="bottomsheet_drag_handle_clicked">已輕觸兩下拖曳控點</string>
     <string name="bottomsheet_drag_handle_content_description">拖曳控點</string>
-    <string name="camera_associate_connecting">正在連接手機相機</string>
-    <string name="camera_associate_disconnecting">正在中斷手機相機</string>
     <string name="camera_associate_failed">相機連線失敗</string>
     <string name="camera_associate_success">相機已連接</string>
-    <string name="camera_choose_device">切換攝影機至</string>
-    <string name="camera_connecting">%s請求使用相機</string>
+    <string name="camera_connect_fail">連接失敗，請稍後再試</string>
     <string name="camera_disassociate">相機連線已中斷</string>
+    <string name="camera_list_subtitle">切換攝影機至</string>
+    <string name="camera_picker_title">跨裝置相機</string>
     <string name="camera_title">正在搜尋可用裝置</string>
     <string name="cancel">取消</string>
     <string name="cancel_button">取消</string>
@@ -99,9 +98,6 @@
     <string name="car_air_con_switch_close">車內空調開關關閉</string>
     <string name="car_air_con_switch_open">車內空調開關打開</string>
     <string name="car_air_con_unuse">--</string>
-    <string name="car_camera_associate_connecting">正在連接汽車攝影機</string>
-    <string name="car_camera_associate_disconnecting">正在中斷汽車攝影機</string>
-    <string name="car_camera_device_name">%1$s的前置攝影機</string>
     <string name="car_camera_unavailable_dialog_message">汽車已開啟智駕休眠或一鍵隱私模式，手機暫時無法使用汽車前視鏡頭。</string>
     <string name="car_camera_unavailable_dialog_positive_button">知道了</string>
     <string name="car_camera_unavailable_dialog_title">汽車前視攝影機被佔用</string>
@@ -115,9 +111,9 @@
     <string name="car_card_one_key_back_pause">暫停後仰</string>
     <string name="car_card_one_key_front">後排尊享</string>
     <string name="car_card_one_key_front_pause">暫停前傾</string>
-    <string name="car_card_seat_back_end_seat">後排右座椅</string>
-    <string name="car_card_seat_back_left_seat">後排左座椅</string>
-    <string name="car_card_seat_back_middle_seat">後排中座椅</string>
+    <string name="car_card_seat_back_end_seat">後排右側</string>
+    <string name="car_card_seat_back_left_seat">後排左側</string>
+    <string name="car_card_seat_back_middle_seat">後排中間</string>
     <string name="car_card_seat_control_text">座椅控制</string>
     <string name="car_card_seat_level_auto">自動</string>
     <string name="car_card_seat_level_off">關閉</string>
@@ -129,6 +125,7 @@
     <string name="car_card_seat_warm">座椅加熱</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">空調</string>
+    <string name="car_device_camera_name">%1$s的前置攝影機</string>
     <string name="car_seat_can_not_use">暫不可用</string>
     <string name="cast_auth_count_down">請輸入\"%1$s\"的投影碼（%2$d秒）</string>
     <string name="cast_auth_title">投影驗證</string>
@@ -379,7 +376,6 @@
     <string name="connect_settings_base">互聯互通</string>
     <string name="connect_settings_category_connection_car">汽車互聯</string>
     <string name="connect_settings_category_hyper_mind">HyperMind</string>
-    <string name="connect_settings_category_hyper_mind_new">主動智能</string>
     <string name="connect_settings_category_personal_device">個人裝置</string>
     <string name="connect_settings_communication_sharing">通訊共享</string>
     <string name="connect_settings_connect_permission">互聯權限設定</string>
@@ -398,12 +394,11 @@
     <string name="connect_settings_share_clipboard">跨裝置剪貼簿</string>
     <string name="connect_settings_share_launcher">妙享桌面</string>
     <string name="connect_settings_share_notification">跨裝置通知</string>
-    <string name="connect_settings_summary">&lt;Data>自動發現並關聯附近的同帳號小米裝置，形成融合裝置中心，體驗全場景互聯互通，前往官網&lt;a href=%1$s>了解更多&lt;/a>&lt;/Data></string>
+    <string name="connect_settings_summary"><Data>自動發現並關聯附近的同帳號小米裝置，形成融合裝置中心，體驗全場景互聯互通，前往官網&lt;a href=%1$s>了解更多&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">開啟後允許使用小米互聯互通功能</string>
     <string name="connect_settings_summary_corp_phone">本機來電後在附近的同帳號平板或電腦接聽</string>
     <string name="connect_settings_summary_global">自動發現並綁定附近的同帳號小米裝置，形成融合裝置中心，體驗全場景互聯互通。</string>
     <string name="connect_settings_summary_hyper_mind">根據您的生活習慣，智慧調整附近裝置。由MiAI提供能力支援。</string>
-    <string name="connect_settings_summary_hyper_mind_new">根據你的生活習慣，智能調節附近裝置</string>
     <string name="connect_settings_summary_relay_app">在一台裝置上使用應用程式，在另一台裝置上繼續使用</string>
     <string name="connect_settings_summary_share_clipboard">本機複製圖片、文字後%d分鐘內在其他裝置進行貼上</string>
     <string name="connect_settings_summary_share_launcher_pad">使用附近同帳號手機的桌面並打開應用程式</string>
@@ -455,8 +450,8 @@
     <string name="dialog_nearbydevice_permission_title">附近裝置權限申請</string>
     <string name="dialog_nearbydevice_permission_title_connectivity">權限申請</string>
     <string name="dialog_nfc_cast_wifi_off">使用NFC一觸投影時，需開啟WiFi功能。 是否立即開啟？</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 電視需和手機連線同一Wi-Fi&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 部分電視需要在電視機打開鏡像功能才能被搜尋到，具體請&lt;a href=milink://com.milink.service/specification>查看幫助&lt;/a>&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 電視需和手機連線同一WLAN&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 部分電視需要在電視機打開鏡像功能才能被搜尋到，具體請&lt;a href=milink://com.milink.service/specification>查看幫助&lt;/a>&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 電視需和手機連線同一Wi-Fi&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 部分電視需要在電視機打開鏡像功能才能被搜尋到，具體請&lt;a href=milink://com.milink.service/specification>查看幫助&lt;/a></Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 電視需和手機連線同一WLAN&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. 部分電視需要在電視機打開鏡像功能才能被搜尋到，具體請&lt;a href=milink://com.milink.service/specification>查看幫助&lt;/a></Data></string>
     <string name="dialog_ok">好的</string>
     <string name="dialog_only_suport_content">僅支援圖片、影片、音樂投射螢幕</string>
     <string name="dialog_open_wifi_bt">立即開啟</string>
@@ -501,6 +496,7 @@
     <string name="evening">傍晚</string>
     <string name="expand_button_title">進階</string>
     <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="file_deleted">源檔案已刪除</string>
     <string name="file_read_des">讀取手機上的照片或檔案進行投影</string>
     <string name="find_device_close">關閉</string>
     <string name="find_device_notification_content_phone">“%1$s的%2$s”正在尋找此手機，解鎖停止響鈴</string>
@@ -575,14 +571,14 @@
     <string name="global_dialog_nearbydevice_permission_message">您正在使用的小米互聯互通功能需要連接附近的裝置權限，以用於發現和連接附近的裝置。 建議前往權限管理頁面開啟相關權限，否則功能將出現使用異常。</string>
     <string name="global_dialog_nearbydevice_permission_title">權限申請</string>
     <string name="global_privacy">條款與聲明</string>
-    <string name="global_privacy_detail">&lt;Data>請您閱讀並同意&lt;a href=%1$s>《用戶協議》&lt;/a>和&lt;a href=%2$s>《隱私政策》&lt;/a>。&lt;br>如果您不同意開啟上述服務，您仍可以正常使用本產品的投影功能。&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>請您閱讀並同意&lt;a href=%1$s>《用戶協議》&lt;/a>和&lt;a href=%2$s>《隱私政策》&lt;/a>。&lt;br>如果您不同意開啟上述服務，您仍可以正常使用本產品的投影功能。</Data></string>
     <string name="global_privacy_explain">歡迎您使用投影。本產品將會給您提供以下服務：</string>
     <string name="global_privacy_feature">小窗投影、熄滅螢幕投影、隱私保護</string>
     <string name="global_privacy_main">將手機畫面即時同步至電視/電視盒子/投影等大螢幕裝置</string>
     <string name="global_privacy_negative">不同意</string>
     <string name="global_privacy_positive">同意</string>
     <string name="global_privacy_screencast">在錄製或投影時，提供此功能的服務會取得在您的螢幕上顯示的或從您的裝置播放的任何敏感資訊，包括音訊、密碼、付款資訊、照片和訊息等。</string>
-    <string name="global_privacy_tip">&lt;Data>為了提供投影品質最佳化功能，我們需要收集您必要的個人資訊，具體規定請您閱讀我們的&lt;a href=%1$s>《隱私政策》&lt;/a>。您可以隨時在系統設定內的“隱私授權與撤回”中更改相關設定。&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>為了提供投影品質最佳化功能，我們需要收集您必要的個人資訊，具體規定請您閱讀我們的&lt;a href=%1$s>《隱私政策》&lt;/a>。您可以隨時在系統設定內的“隱私授權與撤回”中更改相關設定。</Data></string>
     <string name="hang_up">熄滅螢幕投射畫面</string>
     <string name="hang_up_alert_dialog_content">熄滅螢幕時，投射螢幕不會中斷，手機進入熄滅螢幕狀態以節省電量。按一次電源鍵可以退出熄滅螢幕狀態</string>
     <string name="hang_up_alert_dialog_neg">取消</string>
@@ -748,10 +744,11 @@
     <string name="invisible_mode_dialog_content_audio_relay">目前您已開啟隱身模式，無法使用音樂靠近接力功能，請前往關閉隱身模式後再試。</string>
     <string name="invisible_mode_dialog_pos">前往關閉</string>
     <string name="invisible_mode_dialog_title">關閉隱身模式</string>
-    <string name="is_creating_camera_cooperation">解鎖手機以完成連線</string>
     <string name="item_view_role_description">分頁標籤</string>
     <string name="keyguard_security_setting_privacy_policy">隱私政策</string>
     <string name="local_camera_device">本機</string>
+    <string name="local_device_camera">本機</string>
+    <string name="local_hotspot_opening">本端裝置熱點已開啟，請關閉熱點重試</string>
     <string name="material_clock_toggle_content_description">選取上午或下午</string>
     <string name="material_hour_24h_suffix">%1$s 小時</string>
     <string name="material_hour_selection">請選取時段</string>
@@ -943,6 +940,13 @@
     <string name="onehop_mirror_guide_message_text_2">在檔案管理/相簿介面選中要發送的圖片、影片、文件等檔案時，一碰即可傳輸至電腦</string>
     <string name="onehop_mirror_guide_message_title">一碰妙享</string>
     <string name="open_game_accelerate">開啟遊戲加速</string>
+    <string name="open_wlan">開啟Wi-Fi</string>
+    <string name="open_wlan_china">開啟WLAN</string>
+    <string name="open_wlan_known">知道了</string>
+    <string name="open_wlan_other">裝置互聯需要開啟Wi-Fi，請前往「%1$s」開啟。</string>
+    <string name="open_wlan_other_china">裝置互聯需要開啟WLAN，請前往「%1$s」開啟。</string>
+    <string name="open_wlan_self">裝置互連需要開啟Wi-Fi，確認開啟？</string>
+    <string name="open_wlan_self_china">裝置互聯需要開啟WLAN，確認開啟？</string>
     <string name="p2p_location_des">建立手機與大螢幕設備間的連接</string>
     <string name="paipai_connect_btn_text">完成</string>
     <string name="paipai_connect_tv1_text">連線裝置成功</string>
@@ -1136,7 +1140,7 @@
     <string name="privacy_agree">同意</string>
     <string name="privacy_confirm_revoke_and_exit_btn">確認撤回並退出</string>
     <string name="privacy_detail">請您同意應用程式連網及以上必要權限。</string>
-    <string name="privacy_detail_extra">&lt;Data>部分投影功能由第三方公司樂播投影提供支援，請您同時閱讀並同意&lt;a href=%1$s>《樂播投影隱私政策》&lt;/a>與&lt;a href=%2$s>《樂播投影法律聲明》&lt;/a>&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>部分投影功能由第三方公司樂播投影提供支援，請您同時閱讀並同意&lt;a href=%1$s>《樂播投影隱私政策》&lt;/a>與&lt;a href=%2$s>《樂播投影法律聲明》&lt;/a></Data></string>
     <string name="privacy_explain">歡迎使用投影，您可使用本應用程式將手機畫面即時同步至電視/電視盒子/投影等大螢幕裝置。 在使用本應用程式的過程中，我們將連網並向您申請以下權限：</string>
     <string name="privacy_give_up_revoke_btn">放棄撤回</string>
     <string name="privacy_i_know_btn">我已知悉請繼續</string>
@@ -1161,7 +1165,7 @@
     <string name="privacy_permission_wlan_china">開啟/關閉WLAN</string>
     <string name="privacy_permission_wlan_desc">使用Wi-Fi掃描附近可投影的裝置</string>
     <string name="privacy_permission_wlan_desc_china">使用WLAN掃描附近可投影的裝置</string>
-    <string name="privacy_phone_read_theme_privacy_policy">&lt;Data>我已閱讀並同意上述&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">《小米互聯互通隱私政策撤回同意重要提醒》&lt;/a>&lt;/font>&lt;/Data></string>
+    <string name="privacy_phone_read_theme_privacy_policy"><Data>我已閱讀並同意上述&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">《小米互聯互通隱私政策撤回同意重要提醒》&lt;/a>&lt;/font></Data></string>
     <string name="privacy_positive">同意</string>
     <string name="privacy_read_statement">請先閱讀並勾選聲明</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d.請您確保您有權進行本撤回同意操作。
@@ -1192,11 +1196,11 @@
     <string name="privacy_setting_show_lelink_policy">查看樂播隱私政策</string>
     <string name="privacy_setting_show_policy">查看隱私政策</string>
     <string name="privacy_setting_show_user_agreement">查看用戶協議</string>
-    <string name="privacy_text_1">"&lt;Data>歡迎您使用投影功能。您可使用本應用程式以實現將手機畫面即時同步至電視/電視盒子/投影等大螢幕裝置的功能。
+    <string name="privacy_text_1"><Data>"歡迎您使用投影功能。您可使用本應用程式以實現將手機畫面即時同步至電視/電視盒子/投影等大螢幕裝置的功能。
 我們將嚴格遵守相關法律法規和隱私政策以保護您的個人資訊。部分投影功能由第三方公司樂播投屏提供支援，請您同時閱讀並同意&lt;a href=%1$s>《樂播投屏隱私政策》&lt;/a>與&lt;a href=%2$s>《樂播投屏法律聲明》&lt;/a>。
-為提供基本服務，需要連網以及調用您的如下權限或功能，以收集必要的個人資訊：&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>如果您不同意調用以上必要權限或功能，或不同意我們收集並使用以上資訊，將導致本應用程式無法正常運作，您可選擇移除本應用程式/退出本應用程式/前往“設定”>“權限管理”關閉授權以終止服務。
-請您閱讀並同意&lt;a href=%1$s>《用戶協議》&lt;/a>與&lt;a href=%2$s>《隱私政策》&lt;/a>&lt;/Data>"</string>
+為提供基本服務，需要連網以及調用您的如下權限或功能，以收集必要的個人資訊："</Data></string>
+    <string name="privacy_text_2"><Data>"如果您不同意調用以上必要權限或功能，或不同意我們收集並使用以上資訊，將導致本應用程式無法正常運作，您可選擇移除本應用程式/退出本應用程式/前往“設定”>“權限管理”關閉授權以終止服務。
+請您閱讀並同意&lt;a href=%1$s>《用戶協議》&lt;/a>與&lt;a href=%2$s>《隱私政策》&lt;/a>"</Data></string>
     <string name="privacy_text_pemission">"• 存取裝置上的照片及檔案：
  用於將您手機內容投至大螢幕；
 • 進行通話錄音或本機錄音：
@@ -1212,7 +1216,6 @@
     <string name="private_protect">隱私保護</string>
     <string name="prompt_camera_associate_failed">連線失敗</string>
     <string name="prompt_camera_disassociate">連線已中斷</string>
-    <string name="prompt_camera_guide">\"%s\"相機可連線</string>
     <string name="prompt_camera_ocuppied">相機正在被佔用</string>
     <string name="prompt_camera_prepare">正在連線…</string>
     <string name="prompt_camera_success">連線成功</string>
@@ -1223,6 +1226,7 @@
     <string name="quick_settings_device_dialog_positive">立即開啟</string>
     <string name="quick_settings_device_dialog_title">即時發現周圍裝置</string>
     <string name="quick_settings_notification_control_center">通知與狀態列</string>
+    <string name="remote_hotspot_opening">對端裝置熱點已開啟，請關閉熱點重試</string>
     <string name="remote_speaker_list">播放清單</string>
     <string name="remote_speaker_loop">順序播放</string>
     <string name="remote_speaker_random">隨機播放</string>
@@ -1252,12 +1256,12 @@
     <string name="screen_projection_entrance_list">進入裝置搜尋清單</string>
     <string name="screen_projection_entrance_list_new">進入投影裝置搜尋清單</string>
     <string name="screen_projection_example_document_hint_miui15">*將手機畫面投射至附近的電視裝置</string>
-    <string name="screen_projection_example_document_hint_new">&lt;Data>*功能使用路徑：檔案-> 文件 ->投影&lt;img src=../drawable/ic_cast_icon_photo.png/>按鈕&lt;/Data></string>
+    <string name="screen_projection_example_document_hint_new"><Data>*功能使用路徑：檔案-> 文件 ->投影&lt;img src=../drawable/ic_cast_icon_photo.png/>按鈕</Data></string>
     <string name="screen_projection_example_document_summary">將PPT文檔同步至大螢幕，同時手機可控制翻頁與檢視註釋。可在 檔案 > 文檔 中使用此功能</string>
     <string name="screen_projection_example_document_summary_miui15">PPT文件投影至電視，支援手機控制翻頁與查看註釋。</string>
     <string name="screen_projection_example_document_title">文檔投影</string>
     <string name="screen_projection_example_gallery_hint_miui15">*功能使用路徑：相簿->圖片頁面左下角“發送”按鈕->投影 “XX”按鈕</string>
-    <string name="screen_projection_example_gallery_hint_new">&lt;Data>*功能使用路徑：相簿->圖片頁面左下角“發送”按鈕->投影&lt;img src=../drawable/ic_cast_icon_photo.png/>按鈕&lt;/Data></string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*功能使用路徑：相簿->圖片頁面左下角“發送”按鈕->投影&lt;img src=../drawable/ic_cast_icon_photo.png/>按鈕</Data></string>
     <string name="screen_projection_example_gallery_summary">將相簿中的照片和影片同步至大螢幕。 可在 相簿>圖片 頁面左下角的“傳送”選單中使用此功能</string>
     <string name="screen_projection_example_gallery_summary_miui15">將相簿中的照片和影片同步至電視</string>
     <string name="screen_projection_example_gallery_title">相簿投影</string>
@@ -1286,6 +1290,7 @@
     <string name="settings_cross_notify_power">低電量通知</string>
     <string name="settings_cross_notify_system">系統通知</string>
     <string name="settings_cross_notify_tips">手機鎖定螢幕時，通知在附近正在使用的平板和電腦上顯示</string>
+    <string name="sever_stream_beauty">美肌</string>
     <string name="sever_stream_control_btn_exit">結束</string>
     <string name="sever_stream_control_btn_pause">暫停</string>
     <string name="sever_stream_control_btn_preview">畫面預覽</string>
@@ -1294,6 +1299,9 @@
     <string name="sever_stream_push_state_idle2">預覽已關閉</string>
     <string name="sever_stream_push_state_pause">已暫停</string>
     <string name="sever_stream_push_state_pushing">協同中</string>
+    <string name="sever_switch_camera">前後置切換</string>
+    <string name="sever_switch_camera_front">前置</string>
+    <string name="sever_switch_camera_rear">後置</string>
     <string name="share_desktop_with_car">手機桌面共享至汽車</string>
     <string name="share_desktop_with_car_ing">正在與汽車共享桌面</string>
     <string name="show_result_on_tv">請在電視端檢視配網結果</string>
@@ -1402,7 +1410,7 @@
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
     <string name="trust_device_desc">當信任裝置出現在附近時，優先投影至該裝置</string>
-    <string name="trust_device_dialog_desc">&lt;Data>將%s設為信任裝置後，當該裝置出現在附近時，優先投影至該裝置。&lt;br>&lt;br>您可在投影設定中進行&lt;a href=milink://com.milink.service/trust>信任裝置管理&lt;/a>&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>將%s設為信任裝置後，當該裝置出現在附近時，優先投影至該裝置。&lt;br>&lt;br>您可在投影設定中進行&lt;a href=milink://com.milink.service/trust>信任裝置管理&lt;/a></Data></string>
     <string name="trust_device_dialog_pos">設為信任</string>
     <string name="trust_device_dialog_title">是否設為信任裝置？</string>
     <string name="trust_device_manager">信任裝置管理</string>
@@ -1420,6 +1428,12 @@
     <string name="upgrade_check_upgrade">裝置升級</string>
     <string name="upgrade_checking">正在檢查更新...</string>
     <string name="upgrade_edit_mijia">編輯智慧裝置</string>
+    <string name="upgrade_error_connect_api_server_fail">請檢查網路環境後重試</string>
+    <string name="upgrade_error_download_ip_intercepted">請求過於頻繁，請稍候重試</string>
+    <string name="upgrade_error_download_start_fall">應用程式下載失敗，請重試</string>
+    <string name="upgrade_error_install_fail_invalid_apk">應用程式安裝失敗，請重試</string>
+    <string name="upgrade_error_installparse_fail">應用程式安裝失敗</string>
+    <string name="upgrade_error_no_enough_space_before_download">儲存空間不足，請清理後重試</string>
     <string name="upgrade_help_menu">幫助</string>
     <string name="upgrade_help_title">升級幫助</string>
     <string name="upgrade_log_title">更新日誌</string>

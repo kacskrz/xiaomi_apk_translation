@@ -51,13 +51,12 @@ peranti anda?"</string>
     <string name="ball_hint_connect_fail">Tidak dapat melakukan tindakan ini. Tunggu satu atau dua minit dan cuba lagi.</string>
     <string name="ball_hint_text_loading">Sebentar…</string>
     <string name="ball_hint_text_success">Berjaya disambung</string>
-    <string name="camera_associate_connecting">Menyambung ke kamera</string>
-    <string name="camera_associate_disconnecting">Putuskan sambungan dari kamera telefon</string>
     <string name="camera_associate_failed">Tidak dapat menyambung ke kamera</string>
     <string name="camera_associate_success">Camera connected</string>
-    <string name="camera_choose_device">Tukar kamera</string>
-    <string name="camera_connecting">%s mahu menggunakan kamera peranti ini</string>
+    <string name="camera_connect_fail">Tidak dapat bersambung. Cuba lagi.</string>
     <string name="camera_disassociate">Diputuskan sambungan dari kamera</string>
+    <string name="camera_list_subtitle">Tukar kamera</string>
+    <string name="camera_picker_title">Kamera merentas peranti</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button">Batal</string>
@@ -66,9 +65,6 @@ peranti anda?"</string>
     <string name="car_air_con_switch_close">Matikan AC kereta</string>
     <string name="car_air_con_switch_open">Hidupkan AC kereta</string>
     <string name="car_air_con_unuse">–-</string>
-    <string name="car_camera_associate_connecting">Menyambung ke kamera EV</string>
-    <string name="car_camera_associate_disconnecting">Putuskan sambungan dari kamera EV</string>
-    <string name="car_camera_device_name">Kamera pandangan hadapan%1$s</string>
     <string name="car_camera_unavailable_dialog_message">Peranti ini tidak boleh menggunakan kamera EV apabila Mod Kuasa Rendah atau Mod Privasi dihidupkan.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Ok faham</string>
     <string name="car_camera_unavailable_dialog_title">Kamera depan EV sedang sibuk</string>
@@ -96,6 +92,7 @@ peranti anda?"</string>
     <string name="car_card_seat_warm">Pemanasan tempat duduk</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
+    <string name="car_device_camera_name">Kamera depan %1$s</string>
     <string name="car_seat_can_not_use">Tidak tersedia</string>
     <string name="cast_auth_count_down">Masukkan kod daripada \"%1$s\" untuk mula memaparkan (%2$ds)</string>
     <string name="cast_auth_title">Masukkan kod</string>
@@ -343,7 +340,6 @@ peranti anda?"</string>
     <string name="connect_settings_base">Kesalinghubungan</string>
     <string name="connect_settings_category_connection_car">Ciri kereta</string>
     <string name="connect_settings_category_hyper_mind">HyperMind</string>
-    <string name="connect_settings_category_hyper_mind_new">Kawalan pintar</string>
     <string name="connect_settings_category_personal_device">Peranti peribadi</string>
     <string name="connect_settings_communication_sharing">Wireless tethering</string>
     <string name="connect_settings_connect_permission">Kesalinghubungan dan kebenaran</string>
@@ -362,12 +358,11 @@ peranti anda?"</string>
     <string name="connect_settings_share_clipboard">Papan klip</string>
     <string name="connect_settings_share_launcher">Skrin Utama+</string>
     <string name="connect_settings_share_notification">Notifikasi</string>
-    <string name="connect_settings_summary">&lt;Data>Temui peranti berdekatan yang dilog masuk ke Akaun Xiaomi anda secara automatik dan sambungkannya antara satu sama lain untuk melaksanakan pelbagai tugas merentas beberapa peranti. &lt;a href=%1$s>Ketahui lebih lanjut&lt;/a>&lt;/Data></string>
+    <string name="connect_settings_summary"><Data>Temui peranti berdekatan yang dilog masuk ke Akaun Xiaomi anda secara automatik dan sambungkannya antara satu sama lain untuk melaksanakan pelbagai tugas merentas beberapa peranti. &lt;a href=%1$s>Ketahui lebih lanjut&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Benarkan peranti anda berinteraksi antara satu sama lain secara wayarles</string>
     <string name="connect_settings_summary_corp_phone">Jawab panggilan pada tablet atau komputer berdekatan yang dilog masuk ke Akaun Xiaomi anda</string>
     <string name="connect_settings_summary_global">Temui peranti berdekatan yang dilog masuk ke Akaun Xiaomi anda dan tambahkannya pada Xiaomi Smart Hub</string>
     <string name="connect_settings_summary_hyper_mind">Ciri ini mempelajari corak anda dan menggunakannya untuk mengawal peranti rumah pintar anda. Dikuasakan oleh Mi AI.</string>
-    <string name="connect_settings_summary_hyper_mind_new">Biarkan Xiaomi HyperMind mengawal peranti berdekatan mengikut tabiat anda</string>
     <string name="connect_settings_summary_relay_app">Teruskan tugasan dalam apl yang sama pada peranti lain</string>
     <string name="connect_settings_summary_share_clipboard">Tampal teks dan imej pada peranti lain dalam %d minit selepas menyalinnya pada peranti ini</string>
     <string name="connect_settings_summary_share_launcher_pad">Lihat dan berinteraksi dengan Skrin Utama telefon berdekatan yang dilog masuk ke Akaun Xiaomi anda</string>
@@ -416,8 +411,8 @@ peranti anda?"</string>
     <string name="dialog_nearbydevice_permission_title">Kebenaran diperlukan</string>
     <string name="dialog_nearbydevice_permission_title_connectivity">Kebenaran diperlukan</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sambungkan kedua-dua peranti mudah alih dan TV anda ke rangkaian Wi-Fi yang sama.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Pada beberapa model TV, ciri ini hanya tersedia ketika pencerminan skrin dihidupkan. Lihat &lt;a href=milink://com.milink.service/specification>\"Bantuan\"&lt;/a> untuk ketahui lebih lanjut.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sambungkan kedua-dua peranti mudah alih dan TV anda ke rangkaian Wi-Fi yang sama.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Pada beberapa model TV, ciri ini hanya tersedia ketika pencerminan skrin dihidupkan. Lihat &lt;a href=milink://com.milink.service/specification>\"Bantuan\"&lt;/a> untuk ketahui lebih lanjut.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">Ok</string>
     <string name="dialog_only_suport_content">Strim gambar, video, atau muzik</string>
     <string name="dialog_open_wifi_bt">Hidupkan</string>
@@ -459,6 +454,7 @@ Lihat bantuan jika anda mempunyai masalah untuk menyambungkan."</string>
     <string name="err_toast_msg_retry_later">Tidak dapat melakukan tindakan ini. Tunggu satu atau dua minit dan cuba lagi.</string>
     <string name="err_toast_msg_try_switch_network">Sambungkan kedua-dua peranti mudah alih dan komputer anda ke rangkaian WLAN yang sama</string>
     <string name="evening">Petang</string>
+    <string name="file_deleted">Fail asal telah dipadamkan</string>
     <string name="find_device_close">Ok faham</string>
     <string name="find_device_notification_content_phone">%1$s sedang mencari peranti ini menggunakan %2$s. Buka kunci untuk berhenti memainkan bunyi.</string>
     <string name="find_device_notification_content_single_phone">Seseorang sedang mencari peranti ini menggunakan %1$s. Buka kunci untuk berhenti memainkan bunyi.</string>
@@ -529,14 +525,14 @@ Lihat bantuan jika anda mempunyai masalah untuk menyambungkan."</string>
     <string name="global_dialog_nearbydevice_permission_message">Perkhidmatan Kesalinghubungan Xiaomi memerlukan kebenaran untuk menyambung ke peranti berdekatan untuk menemuinya. Berikan kebenaran ini dalam Tetapan untuk dapat menggunakan Perkhidmatan Kesalinghubungan Xiaomi seperti biasa.</string>
     <string name="global_dialog_nearbydevice_permission_title">Kebenaran diperlukan</string>
     <string name="global_privacy">Terma dan syarat</string>
-    <string name="global_privacy_detail">&lt;Data>Baca dan bersetuju dengan &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Dasar Privasi&lt;/a> kami sebelum menggunakan apl ini.&lt;br>Sekiranya anda tidak bersetuju untuk menggunakan perkhidmatan yang disebutkan di atas, anda tidak akan dapat menggunakan beberapa ciri aplikasi ini; namun, fungsi asasnya tetap tersedia untuk anda.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Baca dan bersetuju dengan &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Dasar Privasi&lt;/a> kami sebelum menggunakan apl ini.&lt;br>Sekiranya anda tidak bersetuju untuk menggunakan perkhidmatan yang disebutkan di atas, anda tidak akan dapat menggunakan beberapa ciri aplikasi ini; namun, fungsi asasnya tetap tersedia untuk anda.</Data></string>
     <string name="global_privacy_explain">Selamat datang ke Paparan! Aplikasi ini menyediakan perkhidmatan berikut:</string>
     <string name="global_privacy_feature">Menggunakan tingkap yang diminimumkan, memaparkan dengan skrin mati, dan menyembunyikan item peribadi.</string>
     <string name="global_privacy_main">Memproyeksikan item dari skrin telefon anda pada monitor luaran yang lebih besar.</string>
     <string name="global_privacy_negative">Tidak setuju</string>
     <string name="global_privacy_positive">Setuju</string>
     <string name="global_privacy_screencast">Semasa merakam atau memapar, perkhidmatan yang menyediakan ciri ini boleh menangkap sebarang maklumat sensitif yang dipaparkan pada skrin anda atau dimainkan daripada peranti anda, termasuk maklumat sensitif seperti audio, kata laluan, maklumat pembayaran, gambar dan mesej.</string>
-    <string name="global_privacy_tip">&lt;Data>Kami perlu mengumpulkan maklumat peribadi yang diperlukan untuk memberikan anda perkhidmatan asas dan mengoptimumkan proses memaparkan. Anda boleh belajar bagaimana kami menguruskan maklumat yang kami kumpulkan di &lt;a href=%1$s>Dasar Privasi&lt;/a> kami. Anda boleh menarik balik persetujuan anda terhadap Dasar Privasi dalam Tetapan pada bila-bila masa.&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>Kami perlu mengumpulkan maklumat peribadi yang diperlukan untuk memberikan anda perkhidmatan asas dan mengoptimumkan proses memaparkan. Anda boleh belajar bagaimana kami menguruskan maklumat yang kami kumpulkan di &lt;a href=%1$s>Dasar Privasi&lt;/a> kami. Anda boleh menarik balik persetujuan anda terhadap Dasar Privasi dalam Tetapan pada bila-bila masa.</Data></string>
     <string name="hang_up">Paparkan dengan skrin mati</string>
     <string name="hang_up_alert_dialog_content">Terus memaparkan apabila skrin peranti anda dimatikan. Ciri ini mengurangkan penggunaan kuasa. Tekan butang Kuasa untuk menghidupkan semula skrin.</string>
     <string name="hang_up_alert_dialog_neg">Batal</string>
@@ -701,9 +697,10 @@ supaya Xiaomi HyperMind boleh mempelajari dan memperhalusi corak"</string>
     <string name="invisible_mode_dialog_content_audio_relay">Tidak dapat memindahkan main balik apabila anda dalam Mod Penyamaran. Matikan Mod Penyamaran dahulu.</string>
     <string name="invisible_mode_dialog_pos">Matikan</string>
     <string name="invisible_mode_dialog_title">Anda berada dalam Mod Penyamaran</string>
-    <string name="is_creating_camera_cooperation">Buka kunci peranti untuk menyambung</string>
     <string name="keyguard_security_setting_privacy_policy">Dasar Privasi</string>
     <string name="local_camera_device">This device</string>
+    <string name="local_device_camera">Peranti ini</string>
+    <string name="local_hotspot_opening">Matikan hotspot peranti ini dan cuba lagi</string>
     <string name="message_connection_interrupted">Make sure your computer and tablet are within connection range and have Bluetooth and WLAN turned on. To continue, start the task on your computer again.</string>
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
@@ -820,6 +817,13 @@ supaya Xiaomi HyperMind boleh mempelajari dan memperhalusi corak"</string>
     <string name="onehop_mirror_guide_message_text_2">Pilih gambar, video dan fail lain daripada Galeri atau Pengurus Fail untuk dipindahkan ke komputer anda.</string>
     <string name="onehop_mirror_guide_message_title">Kesalinghubungan Xiaomi</string>
     <string name="open_game_accelerate">Hidupkan Game Turbo</string>
+    <string name="open_wlan">Hidupkan Wi-Fi</string>
+    <string name="open_wlan_china">Hidupkan WLAN</string>
+    <string name="open_wlan_known">Ok faham</string>
+    <string name="open_wlan_other">Hidupkan Wi-Fi pada %1$s untuk dapat menggunakan ciri kesalinghubungan.</string>
+    <string name="open_wlan_other_china">Hidupkan WLAN pada %1$s untuk dapat menggunakan ciri kesalinghubungan.</string>
+    <string name="open_wlan_self">Hidupkan Wi-Fi untuk dapat menggunakan ciri kesalinghubungan. Hidupkan sekarang?</string>
+    <string name="open_wlan_self_china">Hidupkan WLAN untuk dapat menggunakan ciri kesalinghubungan. Hidupkan sekarang?</string>
     <string name="paipai_connect_btn_text">Selesai</string>
     <string name="paipai_connect_tv1_text">Disambungkan ke peranti</string>
     <string name="paipai_connect_tv2_text">Data dipindahkan</string>
@@ -1009,7 +1013,7 @@ supaya Xiaomi HyperMind boleh mempelajari dan memperhalusi corak"</string>
     <string name="privacy_agree">Setuju</string>
     <string name="privacy_confirm_revoke_and_exit_btn">Menarik balik</string>
     <string name="privacy_detail">Benarkan apl ini menyambung ke Internet dan berikan kebenaran yang diperlukan sebelum anda meneruskan.</string>
-    <string name="privacy_detail_extra">&lt;Data>Beberapa ciri disediakan oleh penyedia perkhidmatan pihak ketiga HappyCast. Sebelum menggunakan ciri ini, baca dan bersetuju dengan &lt;a href=%1$s>Dasar Privasi HappyCast&lt;/a> dan &lt;a href=%2$s>Penyataan Undang-undang HappyCast&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Beberapa ciri disediakan oleh penyedia perkhidmatan pihak ketiga HappyCast. Sebelum menggunakan ciri ini, baca dan bersetuju dengan &lt;a href=%1$s>Dasar Privasi HappyCast&lt;/a> dan &lt;a href=%2$s>Penyataan Undang-undang HappyCast&lt;/a>.</Data></string>
     <string name="privacy_explain">Selamat Datang ke Paparan! Paparan membolehkan item dipaparkan dari skrin telefon anda pada monitor luaran yang lebih besar. Aplikasi ini perlu menyambung ke internet dan memerlukan kebenaran berikut untuk dapat berfungsi seperti biasa:</string>
     <string name="privacy_give_up_revoke_btn">Batal</string>
     <string name="privacy_i_know_btn">Teruskan</string>
@@ -1034,7 +1038,7 @@ supaya Xiaomi HyperMind boleh mempelajari dan memperhalusi corak"</string>
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">Untuk mencari peranti berdekatan yang tersedia</string>
     <string name="privacy_permission_wlan_desc_china">Untuk mencari peranti berdekatan yang tersedia</string>
-    <string name="privacy_phone_read_theme_privacy_policy">&lt;Data>Saya telah membaca dan bersetuju menerima \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Kenyataan pada Penarikan Balik Persetujuan kepada Dasar Privasi Kesalinghubungan Xiaomi&lt;/a>&lt;/font>\".&lt;/Data></string>
+    <string name="privacy_phone_read_theme_privacy_policy"><Data>Saya telah membaca dan bersetuju menerima \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Kenyataan pada Penarikan Balik Persetujuan kepada Dasar Privasi Kesalinghubungan Xiaomi&lt;/a>&lt;/font>\".</Data></string>
     <string name="privacy_positive">Setuju</string>
     <string name="privacy_read_statement">Bersetuju dengan terma dan syaratnya dahulu</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d. Pastikan anda mempunyai hak untuk menarik balik kebenaran sebelum anda meneruskan.
@@ -1064,11 +1068,11 @@ supaya Xiaomi HyperMind boleh mempelajari dan memperhalusi corak"</string>
     <string name="privacy_setting_show_lelink_policy">Lihat Dasar Privasi HappyCast</string>
     <string name="privacy_setting_show_policy">Lihat Dasar Privasi</string>
     <string name="privacy_setting_show_user_agreement">Lihat Perjanjian Pengguna</string>
-    <string name="privacy_text_1">"&lt;Data>Selamat datang ke Casting! Casting membolehkan item dipaparkan daripada skrin telefon anda ke layar luaran yang lebih besar.
+    <string name="privacy_text_1"><Data>"Selamat datang ke Casting! Casting membolehkan item dipaparkan daripada skrin telefon anda ke layar luaran yang lebih besar.
 Kami akan melindungi maklumat peribadi anda mengikut undang-undang, peraturan dan dasar privasi yang berkaitan. Sesetengah ciri disediakan oleh penyedia perkhidmatan pihak ketiga, HappyCast. Sebelum menggunakan ciri ini, baca dan bersetuju dengan &lt;a href=%2$s>Pernyataan Undang-undang HappyCast&lt;/a> dan &lt;a href=%1$s>Dasar Privasi HappyCast&lt;/a>.
-Untuk boleh berfungsi secara normal, aplikasi ini hendaklah disambungkan ke internet dan memerlukan kebenaran berikut untuk mengumpul maklumat peribadi anda:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Sekiranya anda tidak bersetuju untuk memberi kebenaran atau berkongsi apa-apa dan memuat naik maklumat peribadi anda, anda tidak akan dapat menggunakan aplikasi ini.
-Anda boleh memilih untuk menyahpasang aplikasi ini, keluar, atau menyekat keizinan dalam Tetapan dalam kes sedemikian. Baca dan bersetuju dengan &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Dasar Privasi &lt;/a> sebelum menggunakan ciri ini.&lt;/Data>"</string>
+Untuk boleh berfungsi secara normal, aplikasi ini hendaklah disambungkan ke internet dan memerlukan kebenaran berikut untuk mengumpul maklumat peribadi anda:"</Data></string>
+    <string name="privacy_text_2"><Data>"Sekiranya anda tidak bersetuju untuk memberi kebenaran atau berkongsi apa-apa dan memuat naik maklumat peribadi anda, anda tidak akan dapat menggunakan aplikasi ini.
+Anda boleh memilih untuk menyahpasang aplikasi ini, keluar, atau menyekat keizinan dalam Tetapan dalam kes sedemikian. Baca dan bersetuju dengan &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Dasar Privasi &lt;/a> sebelum menggunakan ciri ini."</Data></string>
     <string name="privacy_text_pemission">"　　•Akses dan simpan imej pada peranti anda untuk memproyeksikan perkara ini pada monitor luaran
 　　•Rekod panggilan dan audio untuk menghantar audio pada peranti luaran
 　　•Akses nombor telefon, IMEI, dan IMSI untuk mengenal pasti peranti anda
@@ -1080,7 +1084,6 @@ Anda boleh memilih untuk menyahpasang aplikasi ini, keluar, atau menyekat keizin
     <string name="private_protect">Sembunyikan item peribadi</string>
     <string name="prompt_camera_associate_failed">Sambungan gagal</string>
     <string name="prompt_camera_disassociate">Sambungan diputuskan</string>
-    <string name="prompt_camera_guide">%s kamera tersedia</string>
     <string name="prompt_camera_ocuppied">Kamera sibuk</string>
     <string name="prompt_camera_prepare">Menyambung…</string>
     <string name="prompt_camera_success">Disambung</string>
@@ -1091,6 +1094,7 @@ Anda boleh memilih untuk menyahpasang aplikasi ini, keluar, atau menyekat keizin
     <string name="quick_settings_device_dialog_positive">Hidupkan</string>
     <string name="quick_settings_device_dialog_title">Temui peranti berdekatan</string>
     <string name="quick_settings_notification_control_center">Notifikasi &amp; bar status</string>
+    <string name="remote_hotspot_opening">Matikan hotspot peranti lain dan cuba lagi</string>
     <string name="remote_speaker_list">Senarai Main</string>
     <string name="remote_speaker_loop">Main mengikut urutan</string>
     <string name="remote_speaker_random">Putar</string>
@@ -1120,12 +1124,12 @@ Anda boleh memilih untuk menyahpasang aplikasi ini, keluar, atau menyekat keizin
     <string name="screen_projection_entrance_list">Lihat peranti yang tersedia</string>
     <string name="screen_projection_entrance_list_new">Lihat senarai peranti yang tersedia untuk paparan</string>
     <string name="screen_projection_example_document_hint_miui15">*Item akan dipaparkan di TV berdekatan</string>
-    <string name="screen_projection_example_document_hint_new">&lt;Data>*Untuk menggunakan ciri ini, pergi ke Fail > Dokumen dan klik ikon &lt;img src=../drawable/ic_cast_icon_photo.png/>.&lt;/Data></string>
+    <string name="screen_projection_example_document_hint_new"><Data>*Untuk menggunakan ciri ini, pergi ke Fail > Dokumen dan klik ikon &lt;img src=../drawable/ic_cast_icon_photo.png/>.</Data></string>
     <string name="screen_projection_example_document_summary">Paparkan pembentangan pada monitor luaran semasa menggunakan telefon anda untuk bertukar antara slaid dan lihat nota. Pergi ke Pengurus Fail > Dokumen untuk mencuba ciri ini.</string>
     <string name="screen_projection_example_document_summary_miui15">Tunjukkan slaid pembentangan pada TV semasa menggunakan peranti ini sebagai alat kawalan jauh</string>
     <string name="screen_projection_example_document_title">Dokumen</string>
     <string name="screen_projection_example_gallery_hint_miui15">*Untuk dapat memaparkan gambar dan video, pilih item dalam Galeri, klik \"Kongsi\", dan kemudian klik ikon \"Paparan\".</string>
-    <string name="screen_projection_example_gallery_hint_new">&lt;Data>*Untuk menggunakan ciri ini, pergi ke Galeri, pilih gambar, klik \"Hantar\" pada bar bawah dan klik ikon &lt;img src=../drawable/ic_cast_icon_photo.png/>.&lt;/Data></string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*Untuk menggunakan ciri ini, pergi ke Galeri, pilih gambar, klik \"Hantar\" pada bar bawah dan klik ikon &lt;img src=../drawable/ic_cast_icon_photo.png/>.</Data></string>
     <string name="screen_projection_example_gallery_summary">Klik butang Kongsi di bawah item dalam apl Galeri untuk memaparkannya pada monitor luaran.</string>
     <string name="screen_projection_example_gallery_summary_miui15">Lihat gambar dan video anda di skrin TV</string>
     <string name="screen_projection_example_gallery_title">Gambar &amp; video</string>
@@ -1153,6 +1157,7 @@ Pastikan anda telah menghidupkan Game Turbo sebelum memaparkan permainan."</stri
     <string name="settings_cross_notify_power">Bateri lemah</string>
     <string name="settings_cross_notify_system">Notifikasi sistem</string>
     <string name="settings_cross_notify_tips">Paparkan notifikasi pada tablet atau komputer berdekatan yang sedang digunakan apabila peranti ini dikunci</string>
+    <string name="sever_stream_beauty">Percantik</string>
     <string name="sever_stream_control_btn_exit">Henti</string>
     <string name="sever_stream_control_btn_pause">Jeda</string>
     <string name="sever_stream_control_btn_preview">Pratonton</string>
@@ -1161,6 +1166,9 @@ Pastikan anda telah menghidupkan Game Turbo sebelum memaparkan permainan."</stri
     <string name="sever_stream_push_state_idle2">Pratonton dimatikan</string>
     <string name="sever_stream_push_state_pause">Dijeda</string>
     <string name="sever_stream_push_state_pushing">Berkongsi suapan kamera…</string>
+    <string name="sever_switch_camera">Bertukar antara kamera depan dan belakang</string>
+    <string name="sever_switch_camera_front">Kamera depan</string>
+    <string name="sever_switch_camera_rear">Kamera belakang</string>
     <string name="share_desktop_with_car">Kongsi Skrin Utama ke kereta</string>
     <string name="share_desktop_with_car_ing">Berkongsi skrin dengan kereta…</string>
     <string name="show_result_on_tv">Lihat hasil di TV</string>
@@ -1243,7 +1251,7 @@ Pastikan anda telah menghidupkan Game Turbo sebelum memaparkan permainan."</stri
     <string name="today">Hari ini</string>
     <string name="tomorrow">Esok</string>
     <string name="trust_device_desc">Peranti ini akan muncul di sini terlebih dahulu ketika berada berdekatan</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%s akan muncul di antara peranti yang tersedia terlebih dahulu apabila berdekatan jika anda menandakannya sebagai dipercayai.&lt;br>&lt;br>Anda boleh &lt;a href=milink://com.milink.service/trust>menguruskan peranti yang dipercayai&lt;/a> di Tetapan.&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%s akan muncul di antara peranti yang tersedia terlebih dahulu apabila berdekatan jika anda menandakannya sebagai dipercayai.&lt;br>&lt;br>Anda boleh &lt;a href=milink://com.milink.service/trust>menguruskan peranti yang dipercayai&lt;/a> di Tetapan.</Data></string>
     <string name="trust_device_dialog_pos">Percaya</string>
     <string name="trust_device_dialog_title">Percaya peranti ini?</string>
     <string name="trust_device_manager">Urus peranti yang dipercayai</string>
@@ -1261,6 +1269,12 @@ Pastikan anda telah menghidupkan Game Turbo sebelum memaparkan permainan."</stri
     <string name="upgrade_check_upgrade">Kemas kini</string>
     <string name="upgrade_checking">Menyemak kemas kini…</string>
     <string name="upgrade_edit_mijia">Edit</string>
+    <string name="upgrade_error_connect_api_server_fail">Semak tetapan rangkaian anda dan cuba lagi</string>
+    <string name="upgrade_error_download_ip_intercepted">Terlalu banyak permintaan. Sila tunggu sebentar dan cuba lagi.</string>
+    <string name="upgrade_error_download_start_fall">Tidak dapat memuat turun apl. Cuba lagi.</string>
+    <string name="upgrade_error_install_fail_invalid_apk">Tidak dapat memasang apl. Cuba lagi.</string>
+    <string name="upgrade_error_installparse_fail">Tidak dapat memasang apl</string>
+    <string name="upgrade_error_no_enough_space_before_download">Storan tidak mencukupi. Kosongkan ruang storan dan cuba lagi.</string>
     <string name="upgrade_help_menu">Bantuan</string>
     <string name="upgrade_help_title">Bantuan berkaitan kemas kini</string>
     <string name="upgrade_log_title">更新日志</string>

@@ -51,13 +51,12 @@ zure gailuak aurkitu?"</string>
     <string name="ball_hint_connect_fail">Ezin izan da ekintza hau burutu. Itxaron minutu bat edo bi eta saiatu berriro.</string>
     <string name="ball_hint_text_loading">Segundo bat bakarrik…</string>
     <string name="ball_hint_text_success">Arrakastaz konektatuta</string>
-    <string name="camera_associate_connecting">Kamerara konektatzen</string>
-    <string name="camera_associate_disconnecting">Telefonoaren kameratik deskonektatzen</string>
     <string name="camera_associate_failed">Ezin izan da kamerara konektatu</string>
     <string name="camera_associate_success">Camera connected</string>
-    <string name="camera_choose_device">Kamerak aldatu</string>
-    <string name="camera_connecting">%s-(e)k gailu honen kamera erabili nahi du</string>
+    <string name="camera_connect_fail">Ezin izan da konektatu. Saiatu berriro.</string>
     <string name="camera_disassociate">Kameratik deskonektatuta</string>
+    <string name="camera_list_subtitle">Kamerak aldatu</string>
+    <string name="camera_picker_title">Gailuen arteko kamera</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button">Ezeztatu</string>
@@ -66,9 +65,6 @@ zure gailuak aurkitu?"</string>
     <string name="car_air_con_switch_close">Autoaren aire girotua desaktibatu</string>
     <string name="car_air_con_switch_open">Autoaren aire girotua aktibatu</string>
     <string name="car_air_con_unuse">–-</string>
-    <string name="car_camera_associate_connecting">EV kamerara konektatzen</string>
-    <string name="car_camera_associate_disconnecting">EV kameratik deskonektatzen</string>
-    <string name="car_camera_device_name">%1$s aurreko bistaren kamera</string>
     <string name="car_camera_unavailable_dialog_message">Gailu honek ezin du EV-ren kamera erabili Energia gutxiko modua edo Pribatutasun modua aktibatuta daudenean.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Ados</string>
     <string name="car_camera_unavailable_dialog_title">EV-ren aurreko kamera okupatuta dago</string>
@@ -96,6 +92,7 @@ zure gailuak aurkitu?"</string>
     <string name="car_card_seat_warm">Eserlekuaren berogailua</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">Korronte alternoa</string>
+    <string name="car_device_camera_name">%1$s aurreko kamera</string>
     <string name="car_seat_can_not_use">Ez dago eskuragarri</string>
     <string name="cast_auth_count_down">%1$s-ren kodea sartu emititzen hasteko (%2$ds)</string>
     <string name="cast_auth_title">Kodea sartu</string>
@@ -343,7 +340,6 @@ zure gailuak aurkitu?"</string>
     <string name="connect_settings_base">Interkonektibitatea</string>
     <string name="connect_settings_category_connection_car">Autoaren funtzioak</string>
     <string name="connect_settings_category_hyper_mind">HyperMind</string>
-    <string name="connect_settings_category_hyper_mind_new">Kontrol adimendunak</string>
     <string name="connect_settings_category_personal_device">Gailu pertsonalak</string>
     <string name="connect_settings_communication_sharing">Wireless tethering</string>
     <string name="connect_settings_connect_permission">Interkonektibitatea eta baimenak</string>
@@ -362,12 +358,11 @@ zure gailuak aurkitu?"</string>
     <string name="connect_settings_share_clipboard">Arbela</string>
     <string name="connect_settings_share_launcher">Hasierako pantaila+</string>
     <string name="connect_settings_share_notification">Jakinarazpenak</string>
-    <string name="connect_settings_summary">&lt;Data>Zure Xiaomi Kontuan saioa hasita duten inguruko gailuak automatikoki detektatu eta bata bestearekin konektatu gailuen artean zenbait ataza egiteko. &lt;a href=%1$s>Gehiago jakin&lt;/a>&lt;/Data></string>
+    <string name="connect_settings_summary"><Data>Zure Xiaomi Kontuan saioa hasita duten inguruko gailuak automatikoki detektatu eta bata bestearekin konektatu gailuen artean zenbait ataza egiteko. &lt;a href=%1$s>Gehiago jakin&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Baimena eman zure gailuei beraien artean elkarreragiteko haririk gabe</string>
     <string name="connect_settings_summary_corp_phone">Zure Xiaomi Kontuan saioa hasita duten inguruko tableta edo ordenagailuetan deiak erantzun</string>
     <string name="connect_settings_summary_global">Zure Xiaomi Kontuan saioa hasita duten inguruko gailuak ezagutu eta Xiaomi Smart Hub-era gehi itzazu</string>
     <string name="connect_settings_summary_hyper_mind">Funtzio honek zure patroiak ikasten ditu eta etxeko gailu adimendunak kontrolatzeko erabiltzen ditu. Mi AAk bultzatuta.</string>
-    <string name="connect_settings_summary_hyper_mind_new">Utzi Xiaomi HyperMind-eri inguruko gailuak kontrolatzen zure ohituren arabera</string>
     <string name="connect_settings_summary_relay_app">Atazak aplikazio berean jarrai itzazu beste gailu batean</string>
     <string name="connect_settings_summary_share_clipboard">Testua eta irudiak beste gailuetan itsatsi gailu honetan kopiatu eta %d minutu geroago</string>
     <string name="connect_settings_summary_share_launcher_pad">Zure Xiaomi Kontuan saioa hasita duten inguruko telefonoen Hasierako pantaila ikusi eta hurarekin interakzionatzeko</string>
@@ -416,8 +411,8 @@ zure gailuak aurkitu?"</string>
     <string name="dialog_nearbydevice_permission_title">Baimenak behar dira</string>
     <string name="dialog_nearbydevice_permission_title_connectivity">Baimenak beharrezkoak dira</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Konektatu gailu mugikorra eta telebista wifi sare berdinera.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Telebista modelo batzuetan, funtzio hau bakarrik erabilgarri dago pantaila partekatzea aktibatuta dagoenean. Ikusi &lt;a href=milink://com.milink.service/specification>\"Laguntza\"&lt;/a> informazio gehiago lortzeko.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Konektatu gailu mugikorra eta telebista wifi sare berdinera.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Telebista modelo batzuetan, funtzio hau bakarrik erabilgarri dago pantaila partekatzea aktibatuta dagoenean. Ikusi &lt;a href=milink://com.milink.service/specification>\"Laguntza\"&lt;/a> informazio gehiago lortzeko.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">Ados</string>
     <string name="dialog_only_suport_content">Transmititu argazkiak, bideoak edo musika</string>
     <string name="dialog_open_wifi_bt">Aktibatu</string>
@@ -459,6 +454,7 @@ Ikusi laguntza konexio arazorik izanez gero."</string>
     <string name="err_toast_msg_retry_later">Ezin izan da ekintza hau burutu. Itxaron minutu bat edo bi eta saiatu berriro.</string>
     <string name="err_toast_msg_try_switch_network">Zure mugikorra eta ordenagailua WLAN sare berdinera konektatu</string>
     <string name="evening">Arratsaldea</string>
+    <string name="file_deleted">Jatorrizko fitxategia ezabatu da</string>
     <string name="find_device_close">Ulertuta</string>
     <string name="find_device_notification_content_phone">%1$s gailu hau bilatzen ari da%2$s erabiliz. Desblokeatu soinua erreproduzitzeari uzteko.</string>
     <string name="find_device_notification_content_single_phone">Norbait gailu honen bila dabil %1$s erabiliz. Desblokeatu soinua erreproduzitzeari uzteko.</string>
@@ -529,14 +525,14 @@ Ikusi laguntza konexio arazorik izanez gero."</string>
     <string name="global_dialog_nearbydevice_permission_message">Xiaomi Interkonektibitate-Zerbitzuek baimena behar dute inguruko gailuetara konektatzeko hauek ezagutu ahal izateko. Baimen hau Ezarpenak atalean eman Xiaomi Interkonektibitate Zerbitzuak normalki erabili ahal izateko.</string>
     <string name="global_dialog_nearbydevice_permission_title">Baimenak behar dira</string>
     <string name="global_privacy">Terminoak eta baldintzak</string>
-    <string name="global_privacy_detail">&lt;Data>Irakurri eta onartu gure &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> aplikazio hori erabili baino lehen.&lt;br>Ez baduzu onartzen zerbitzu horiek erabiltzea, ezin izango dituzu aplikazio horren ezaugarri batzuk erabili; hala ere, oinarrizko funtzionaltasuna oraindik erabilgarri izango duzu.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Irakurri eta onartu gure &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> aplikazio hori erabili baino lehen.&lt;br>Ez baduzu onartzen zerbitzu horiek erabiltzea, ezin izango dituzu aplikazio horren ezaugarri batzuk erabili; hala ere, oinarrizko funtzionaltasuna oraindik erabilgarri izango duzu.</Data></string>
     <string name="global_privacy_explain">Ongi etorri Emititu aplikaziora! Aplikazioak honako zerbitzu hauek ematen ditu:</string>
     <string name="global_privacy_feature">Ikonotutako leihoak erabiltzea, edukia emititzea pantaila itzalita dagoenean eta elementu pribatuak ezkutatzea.</string>
     <string name="global_privacy_main">Telefonoaren pantailaren elementuak kanpoko monitore handiago batean proiektatzea.</string>
     <string name="global_privacy_negative">Ez onartu</string>
     <string name="global_privacy_positive">Onartu</string>
     <string name="global_privacy_screencast">Grabatzen edo emititzen den bitartean, funtzio hau ematen duen zerbitzuak zure pantailan agertzen den edo zure gailutik erreproduzitzen den edozein informazio garrantzitzu gorde dezake, honakoak barne: audioa, pasahitzak, ordainketa informazioa, argazkiak eta mezuak.</string>
-    <string name="global_privacy_tip">&lt;Data>Beharrezkoa den informazio pertsonala bildu behar dugu oinarrizko zerbitzuak eskaintzeko eta emititze prozesua optimizatzeko. Biltzen dugun informazioaren erabilerari buruz informazio gehiago lortzeko, begiratu gure &lt;a href=%1$s>Pribatutasun politika&lt;/a>. Pribatutasun politikaren baimena Ezarpenak atalean kendu dezakezu edozein momentutan.&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>Beharrezkoa den informazio pertsonala bildu behar dugu oinarrizko zerbitzuak eskaintzeko eta emititze prozesua optimizatzeko. Biltzen dugun informazioaren erabilerari buruz informazio gehiago lortzeko, begiratu gure &lt;a href=%1$s>Pribatutasun politika&lt;/a>. Pribatutasun politikaren baimena Ezarpenak atalean kendu dezakezu edozein momentutan.</Data></string>
     <string name="hang_up">Emititu pantaila itzalitarekin</string>
     <string name="hang_up_alert_dialog_content">Jarraitu emititzen zure gailuaren pantaila itzalita dagoenean. Funtzio honek energia kontsumoa txikiagotzen du. Sakatu Pizteko botoia pantaila berriz aktibatzeko.</string>
     <string name="hang_up_alert_dialog_neg">Ezeztatu</string>
@@ -701,9 +697,10 @@ Xiaomi HyperMind-ek patroiak ikasi eta findu ditzan"</string>
     <string name="invisible_mode_dialog_content_audio_relay">Ezin da erreprodukzioa transferitu ezkutuko moduan zaudenean. Modu ezezaguna desaktibatu lehenik.</string>
     <string name="invisible_mode_dialog_pos">Desaktibatu</string>
     <string name="invisible_mode_dialog_title">Modu ezezagunean zaude</string>
-    <string name="is_creating_camera_cooperation">Gailua deskonektatu konektatzeko</string>
     <string name="keyguard_security_setting_privacy_policy">Pribatutasun politika</string>
     <string name="local_camera_device">This device</string>
+    <string name="local_device_camera">Gailu hau</string>
+    <string name="local_hotspot_opening">Gailu honen sarbide-puntua desaktibatu eta saiatu berriz</string>
     <string name="message_connection_interrupted">Make sure your computer and tablet are within connection range and have Bluetooth and WLAN turned on. To continue, start the task on your computer again.</string>
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
@@ -820,6 +817,13 @@ Xiaomi HyperMind-ek patroiak ikasi eta findu ditzan"</string>
     <string name="onehop_mirror_guide_message_text_2">Hautatutako argazkiak, bideoak eta Galeriako edo Fitxategi Kudeatzailearen beste fitxategiak zure ordenagailura transferitzeko.</string>
     <string name="onehop_mirror_guide_message_title">Xiaomi Interkonektibitatea</string>
     <string name="open_game_accelerate">Aktibatu Game Turbo</string>
+    <string name="open_wlan">Wifia aktibatu</string>
+    <string name="open_wlan_china">WLAN-a aktibatu</string>
+    <string name="open_wlan_known">Ulertuta</string>
+    <string name="open_wlan_other">Wifia aktibatu %1$s-an interkonektibitate funtzioak erabiltzeko. Aktibatu orain?</string>
+    <string name="open_wlan_other_china">WLAN-a aktibatu %1$s-an interkonektibitate funtzioak erabiltzeko. Aktibatu orain?</string>
+    <string name="open_wlan_self">Wifia aktibatu interkonektibitate funtzioak erabiltzeko. Aktibatu orain?</string>
+    <string name="open_wlan_self_china">WLAN-a aktibatu interkonektibitate funtzioak erabiltzeko. Aktibatu orain?</string>
     <string name="paipai_connect_btn_text">Egina</string>
     <string name="paipai_connect_tv1_text">Gailura konektatuta</string>
     <string name="paipai_connect_tv2_text">Transferitutako datuak</string>
@@ -1009,7 +1013,7 @@ Xiaomi HyperMind-ek patroiak ikasi eta findu ditzan"</string>
     <string name="privacy_agree">Onartu</string>
     <string name="privacy_confirm_revoke_and_exit_btn">Kendu</string>
     <string name="privacy_detail">Aurrera egin aurretik, eman aplikazio honi Internetera konektatzeko baimena eta beharrezko baimenak.</string>
-    <string name="privacy_detail_extra">&lt;Data>Funtzio batzuk hirugarrenen zerbitzu hornitzaile batek, HappyCast, ematen ditu. Funtzio hau erabili baino lehen, irakurri eta onartu &lt;a href=%1$s>HappyCast-en Pribatutasun politika&lt;/a> eta &lt;a href=%2$s>HappyCast-en Legezko adierazpena&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Funtzio batzuk hirugarrenen zerbitzu hornitzaile batek, HappyCast, ematen ditu. Funtzio hau erabili baino lehen, irakurri eta onartu &lt;a href=%1$s>HappyCast-en Pribatutasun politika&lt;/a> eta &lt;a href=%2$s>HappyCast-en Legezko adierazpena&lt;/a>.</Data></string>
     <string name="privacy_explain">Ongi etorri Emititzea aplikaziora! Emititzea aplikazioak telefonoaren pantailako elementuak kanpoko monitore handiago batean proiektatzeko aukera ematen du. Aplikazio honek internet konexioa behar du eta honako baimenak behar ditu behar bezala funtzionatzeko:</string>
     <string name="privacy_give_up_revoke_btn">Bertan behera utzi</string>
     <string name="privacy_i_know_btn">Jarraitu</string>
@@ -1034,7 +1038,7 @@ Xiaomi HyperMind-ek patroiak ikasi eta findu ditzan"</string>
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">Hurbil dauden gailu erabilgarriak aurkitzeko</string>
     <string name="privacy_permission_wlan_desc_china">Hurbil dauden gailu erabilgarriak aurkitzeko</string>
-    <string name="privacy_phone_read_theme_privacy_policy">&lt;Data>Irakurri eta onartu dut \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Xiaomi Interkonektibitatea-ren Pribatutasun Politikari Baimena Kentzearen Adierazpena&lt;/a>&lt;/font>\".&lt;/Data></string>
+    <string name="privacy_phone_read_theme_privacy_policy"><Data>Irakurri eta onartu dut \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Xiaomi Interkonektibitatea-ren Pribatutasun Politikari Baimena Kentzearen Adierazpena&lt;/a>&lt;/font>\".</Data></string>
     <string name="privacy_positive">Onartu</string>
     <string name="privacy_read_statement">Onartu lehenik termino eta baldintzak</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d. Ziurtatu zure onespena kentzeko eskubidea duzula jarraitu aurretik.
@@ -1064,11 +1068,11 @@ Xiaomi HyperMind-ek patroiak ikasi eta findu ditzan"</string>
     <string name="privacy_setting_show_lelink_policy">Ikusi HappyCast aplikazioaren Pribatutasun politika</string>
     <string name="privacy_setting_show_policy">Ikusi Pribatutasun politika</string>
     <string name="privacy_setting_show_user_agreement">Ikusi Erabiltzailearen akordioa</string>
-    <string name="privacy_text_1">"&lt;Data>Ongi etorri Emititzera! Emititzeak telefonoaren pantailako elementuak kanpoko monitore handiago batean proiektatzea baimentzen du.
+    <string name="privacy_text_1"><Data>"Ongi etorri Emititzera! Emititzeak telefonoaren pantailako elementuak kanpoko monitore handiago batean proiektatzea baimentzen du.
 Zure informazio pertsonala lege, erregulazio eta pribatutasun politika aipagarrien arabera babestuko dugu. Funtzio batzuk hirugarrenen zerbitzu hornitzaile batek, HappyCast, ematen ditu. Funtzio hau erabili baino lehen, irakurri eta onartu &lt;a href=%2$s>HappyCast-en legezko adierazpena&lt;/a> eta &lt;a href=%1$s>HappyCast-en Pribatutasun politika&lt;/a>.
-Aplikazio hau behar bezala funtzionatzeko internetera konektatu behar da eta zure informazio pertsonala biltzeko honako baimenak behar ditu:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Ez baduzu onartzen baimen horiek ematea edo zure informazio pertsonala partekatzea eta kargatzea, ezin izango duzu aplikazio hau erabili. Kasu horietan, Ezarpenetan aplikazio hau desinstalatu, saioa amaitu edo baimenak mugatu ditzakezu.
-Irakurri eta onartu gure &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> ezaugarri hau erabili baino lehen.&lt;/Data>"</string>
+Aplikazio hau behar bezala funtzionatzeko internetera konektatu behar da eta zure informazio pertsonala biltzeko honako baimenak behar ditu:"</Data></string>
+    <string name="privacy_text_2"><Data>"Ez baduzu onartzen baimen horiek ematea edo zure informazio pertsonala partekatzea eta kargatzea, ezin izango duzu aplikazio hau erabili. Kasu horietan, Ezarpenetan aplikazio hau desinstalatu, saioa amaitu edo baimenak mugatu ditzakezu.
+Irakurri eta onartu gure &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> ezaugarri hau erabili baino lehen."</Data></string>
     <string name="privacy_text_pemission">"　　•Atzitu eta gorde irudiak zure gailuan elementu hauek kanpoko monitoreetan proiektatzeko
 　　•Grabatu deiak eta audioa, audioa kanpoko pantailetan emititzeko
 　　•Atzitu telefono zenbakia, IMEI eta IMSI zure gailua identifikatzeko
@@ -1080,7 +1084,6 @@ Irakurri eta onartu gure &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &l
     <string name="private_protect">Ezkutatu elementu pribatuak</string>
     <string name="prompt_camera_associate_failed">Ezin izan da konektatu</string>
     <string name="prompt_camera_disassociate">Deskonektatuta</string>
-    <string name="prompt_camera_guide">%s kamera erabilgarri dago</string>
     <string name="prompt_camera_ocuppied">Kamera lanpetuta dago</string>
     <string name="prompt_camera_prepare">Konektatzen…</string>
     <string name="prompt_camera_success">Konektatua</string>
@@ -1091,6 +1094,7 @@ Irakurri eta onartu gure &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &l
     <string name="quick_settings_device_dialog_positive">Aktibatu</string>
     <string name="quick_settings_device_dialog_title">Inguruko gailuak ezagutu</string>
     <string name="quick_settings_notification_control_center">Jakinarazpenak eta egoera barra</string>
+    <string name="remote_hotspot_opening">Beste gailuaren sarbide-puntua desaktibatu eta saiatu berriz</string>
     <string name="remote_speaker_list">Erreprodukzio zerrenda</string>
     <string name="remote_speaker_loop">Ordenenan erreproduzitu</string>
     <string name="remote_speaker_random">Nahastu</string>
@@ -1120,12 +1124,12 @@ Irakurri eta onartu gure &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &l
     <string name="screen_projection_entrance_list">Gailu erabilgarriak ikusi</string>
     <string name="screen_projection_entrance_list_new">Emititzeko erailgarri dauden gailuen zerrenda ikusi</string>
     <string name="screen_projection_example_document_hint_miui15">*Elementuak inguruko telebista batean erakutsiko dira</string>
-    <string name="screen_projection_example_document_hint_new">&lt;Data>*Funtzio hau erabiltzeko, joan Fitxategiak > Dokumentuak atalera eta sakatu &lt;img src=../drawable/ic_cast_icon_photo.png/> ikonoa.&lt;/Data></string>
+    <string name="screen_projection_example_document_hint_new"><Data>*Funtzio hau erabiltzeko, joan Fitxategiak > Dokumentuak atalera eta sakatu &lt;img src=../drawable/ic_cast_icon_photo.png/> ikonoa.</Data></string>
     <string name="screen_projection_example_document_summary">Erakutsi aurkezpenak kanpoko pantaila batean zure telefonoa erabiltzerakoan diapositibak aldatzeko eta oharrak ikusteko. Funtzio hau probatzeko, zoaz hona: Fitxategi Kudeatzailea > Dokumentuak.</string>
     <string name="screen_projection_example_document_summary_miui15">Aurkezpenaren diapositibak telebista batean erakutsi gailu hau urruneko bezala erabiltzen duzun bitartean</string>
     <string name="screen_projection_example_document_title">Dokumentuak</string>
     <string name="screen_projection_example_gallery_hint_miui15">*Argazkiak eta bideoak emititu ahal izateko, aukeratu elementu bat Galerian, sakatu \"Partekatu\", eta gero sakatu \"Emititu\" ikonoa.</string>
-    <string name="screen_projection_example_gallery_hint_new">&lt;Data>Funtzio hau erabiltzeko, Galeriara joan, argazki bat hautatu, sakatu \"Bidali\" beheko barran eta sakatu &lt;img src=../drawable/ic_cast_icon_photo.png/> ikonoa.&lt;/Data></string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>Funtzio hau erabiltzeko, Galeriara joan, argazki bat hautatu, sakatu \"Bidali\" beheko barran eta sakatu &lt;img src=../drawable/ic_cast_icon_photo.png/> ikonoa.</Data></string>
     <string name="screen_projection_example_gallery_summary">Sakatu Partekatu botoia elementu baten azpian Galeria aplikazioan hau kanpoko pantaila batean erakusteko.</string>
     <string name="screen_projection_example_gallery_summary_miui15">Ikusi zure argazki eta bideoak telebistaren pantailan</string>
     <string name="screen_projection_example_gallery_title">Argazkiak eta bideoak</string>
@@ -1153,6 +1157,7 @@ Ziurtatu Game Turbo aktibatu duzula jokoak emititu aurretik."</string>
     <string name="settings_cross_notify_power">Bateria baxua</string>
     <string name="settings_cross_notify_system">Sistemaren jakinarazpenak</string>
     <string name="settings_cross_notify_tips">Gailu hau blokeatuta dagoenean inguruko tableta edo ordenagailuetan erakutsi jakinarazpenak</string>
+    <string name="sever_stream_beauty">Edertu</string>
     <string name="sever_stream_control_btn_exit">Utzi</string>
     <string name="sever_stream_control_btn_pause">Eten</string>
     <string name="sever_stream_control_btn_preview">Aurrebista</string>
@@ -1161,6 +1166,9 @@ Ziurtatu Game Turbo aktibatu duzula jokoak emititu aurretik."</string>
     <string name="sever_stream_push_state_idle2">Aurrebista desaktibatuta dago</string>
     <string name="sever_stream_push_state_pause">Etenda</string>
     <string name="sever_stream_push_state_pushing">Kameraren edukia partekatzen…</string>
+    <string name="sever_switch_camera">Aldatu aurreko eta atzeko kameren artean</string>
+    <string name="sever_switch_camera_front">Aurreko kamera</string>
+    <string name="sever_switch_camera_rear">Atzeko kamera</string>
     <string name="share_desktop_with_car">Hasierako pantaila autoarekin partekatu</string>
     <string name="share_desktop_with_car_ing">Pantaila kotxearekin partekatzen…</string>
     <string name="show_result_on_tv">Emaitzak telebistan ikusi</string>
@@ -1243,7 +1251,7 @@ Ziurtatu Game Turbo aktibatu duzula jokoak emititu aurretik."</string>
     <string name="today">Gaur</string>
     <string name="tomorrow">Bihar</string>
     <string name="trust_device_desc">Gailu hauek hemen agertuko dira hurbil daudenean</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%s gailu erabilgarrien artean agertuko da hurbil dagoenean, fidagarritzat markatzen duzunean.&lt;br>&lt;br>&lt;a href=milink://com.milink.service/trust>gailu fidagarriak kudeatu&lt;/a> ditzakezu Ezarpenak atalean.&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%s gailu erabilgarrien artean agertuko da hurbil dagoenean, fidagarritzat markatzen duzunean.&lt;br>&lt;br>&lt;a href=milink://com.milink.service/trust>gailu fidagarriak kudeatu&lt;/a> ditzakezu Ezarpenak atalean.</Data></string>
     <string name="trust_device_dialog_pos">Fidagarria da</string>
     <string name="trust_device_dialog_title">Gailu hau fidagarria da?</string>
     <string name="trust_device_manager">Kudeatu gailu fidagarriak</string>
@@ -1261,6 +1269,12 @@ Ziurtatu Game Turbo aktibatu duzula jokoak emititu aurretik."</string>
     <string name="upgrade_check_upgrade">Eguneratu</string>
     <string name="upgrade_checking">Eguneraketak bilatzen…</string>
     <string name="upgrade_edit_mijia">Editatu</string>
+    <string name="upgrade_error_connect_api_server_fail">Egiaztatu zure sare konfigurazioa eta saiatu berriro</string>
+    <string name="upgrade_error_download_ip_intercepted">Eskaera gehiegi. Itxaron minutu bat edo bi eta saiatu berriro.</string>
+    <string name="upgrade_error_download_start_fall">Ezin izan da aplikaizoa deskargatu. Saiatu berriz.</string>
+    <string name="upgrade_error_install_fail_invalid_apk">Ezin izan da aplikazioa instalatu, berriro saiatu.</string>
+    <string name="upgrade_error_installparse_fail">Ezin izan da aplikazioa instalatu</string>
+    <string name="upgrade_error_no_enough_space_before_download">Memoria nahikorik ez. Memoria askatu eta berriro saiatu.</string>
     <string name="upgrade_help_menu">Laguntza</string>
     <string name="upgrade_help_title">Eguneratzearekin lagundu</string>
     <string name="upgrade_log_title">更新日志</string>

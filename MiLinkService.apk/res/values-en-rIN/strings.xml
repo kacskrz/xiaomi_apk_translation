@@ -78,13 +78,12 @@ your devices?"</string>
     <string name="ball_hint_connect_fail">"Couldn't perform this action. Wait a minute or two and try again."</string>
     <string name="ball_hint_text_loading">Just a sec…</string>
     <string name="ball_hint_text_success">Connected successfully</string>
-    <string name="camera_associate_connecting">Connecting to camera</string>
-    <string name="camera_associate_disconnecting">Disconnecting from phone camera</string>
     <string name="camera_associate_failed">"Couldn't connect to camera"</string>
     <string name="camera_associate_success">Camera connected</string>
-    <string name="camera_choose_device">Switch cameras</string>
-    <string name="camera_connecting">"%s wants to use this device's camera"</string>
+    <string name="camera_connect_fail">"Couldn't connect. Try again."</string>
     <string name="camera_disassociate">Disconnected from camera</string>
+    <string name="camera_list_subtitle">Switch cameras</string>
+    <string name="camera_picker_title">Cross-device camera</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button">Cancel</string>
@@ -93,9 +92,6 @@ your devices?"</string>
     <string name="car_air_con_switch_close">Turn off car AC</string>
     <string name="car_air_con_switch_open">Turn on car AC</string>
     <string name="car_air_con_unuse">–-</string>
-    <string name="car_camera_associate_connecting">Connecting to EV camera</string>
-    <string name="car_camera_associate_disconnecting">Disconnecting from EV camera</string>
-    <string name="car_camera_device_name">%1$s front view camera</string>
     <string name="car_camera_unavailable_dialog_message">"This device can't use EV's camera when Low power mode or Privacy mode is on."</string>
     <string name="car_camera_unavailable_dialog_positive_button">Got it</string>
     <string name="car_camera_unavailable_dialog_title">"EV's front camera is busy"</string>
@@ -123,6 +119,7 @@ your devices?"</string>
     <string name="car_card_seat_warm">Seat heating</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
+    <string name="car_device_camera_name">%1$s front camera</string>
     <string name="car_seat_can_not_use">Not available</string>
     <string name="cast_auth_count_down">Enter code from \"%1$s\" to start casting (%2$ds)</string>
     <string name="cast_auth_title">Enter code</string>
@@ -370,7 +367,6 @@ your devices?"</string>
     <string name="connect_settings_base">Interconnectivity</string>
     <string name="connect_settings_category_connection_car">Car features</string>
     <string name="connect_settings_category_hyper_mind">HyperMind</string>
-    <string name="connect_settings_category_hyper_mind_new">Smart controls</string>
     <string name="connect_settings_category_personal_device">Personal devices</string>
     <string name="connect_settings_communication_sharing">Wireless tethering</string>
     <string name="connect_settings_connect_permission">Interconnectivity and permissions</string>
@@ -389,12 +385,11 @@ your devices?"</string>
     <string name="connect_settings_share_clipboard">Clipboard</string>
     <string name="connect_settings_share_launcher">Home screen+</string>
     <string name="connect_settings_share_notification">Notifications</string>
-    <string name="connect_settings_summary">&lt;Data>Automatically discover nearby devices signed in to your Xiaomi Account and connect them to each other to perform a variety of tasks across multiple devices. &lt;a href=%1$s>Learn more&lt;/a>&lt;/Data></string>
+    <string name="connect_settings_summary"><Data>Automatically discover nearby devices signed in to your Xiaomi Account and connect them to each other to perform a variety of tasks across multiple devices. &lt;a href=%1$s>Learn more&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Allow your devices to interact with each other wirelessly</string>
     <string name="connect_settings_summary_corp_phone">Answer calls on nearby tablets or computers signed in to your Xiaomi Account</string>
     <string name="connect_settings_summary_global">Discover nearby devices signed in to your Xiaomi Account and add them to Xiaomi Smart Hub</string>
     <string name="connect_settings_summary_hyper_mind">This feature learns your patterns and uses them to control your smart home devices. Powered by Mi AI.</string>
-    <string name="connect_settings_summary_hyper_mind_new">Let Xiaomi HyperMind control nearby devices according to your habits</string>
     <string name="connect_settings_summary_relay_app">Continue tasks in the same app on another device</string>
     <string name="connect_settings_summary_share_clipboard">Paste text and images to other devices within %d minutes after copying them on this device</string>
     <string name="connect_settings_summary_share_launcher_pad">View and interact with the Home screens of nearby phones signed in to your Xiaomi Account</string>
@@ -444,8 +439,8 @@ your devices?"</string>
     <string name="dialog_nearbydevice_permission_title">Permissions required</string>
     <string name="dialog_nearbydevice_permission_title_connectivity">Permissions required</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same Wi-Fi network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same Wi-Fi network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Stream photos, videos, or music</string>
     <string name="dialog_open_wifi_bt">Turn on</string>
@@ -488,6 +483,7 @@ View help if you have problems connecting."</string>
     <string name="err_toast_msg_try_switch_network">Connect both your mobile device and computer to the same WLAN network</string>
     <string name="evening">Afternoon</string>
     <string name="expand_button_title">Advanced</string>
+    <string name="file_deleted">Original file was deleted</string>
     <string name="find_device_close">Got it</string>
     <string name="find_device_notification_content_phone">%1$s is looking for this device using %2$s. Unlock to stop playing sound.</string>
     <string name="find_device_notification_content_single_phone">Someone is looking for this device using %1$s. Unlock to stop playing sound.</string>
@@ -558,14 +554,14 @@ View help if you have problems connecting."</string>
     <string name="global_dialog_nearbydevice_permission_message">Xiaomi Interconnectivity Services need permission to connect to nearby devices in order to discover them. Grant this permission in Settings to be able to use Xiaomi Interconnectivity Services normally.</string>
     <string name="global_dialog_nearbydevice_permission_title">Permissions required</string>
     <string name="global_privacy">Terms and conditions</string>
-    <string name="global_privacy_detail">"&lt;Data>Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using this app.&lt;br>If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you.&lt;/Data>"</string>
+    <string name="global_privacy_detail"><Data>"Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using this app.&lt;br>If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you."</Data></string>
     <string name="global_privacy_explain">Welcome to Casting! This app provides the following services:</string>
     <string name="global_privacy_feature">Using minimised windows, casting with the screen off, and hiding private items.</string>
     <string name="global_privacy_main">"Projecting the items from your phone's screen on a bigger external monitor."</string>
     <string name="global_privacy_negative">"Don't agree"</string>
     <string name="global_privacy_positive">Agree</string>
     <string name="global_privacy_screencast">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages.</string>
-    <string name="global_privacy_tip">&lt;Data>We need to collect necessary personal information to provide you with the basic services and optimise the casting process. You can learn how we handle the information we collect in our &lt;a href=%1$s>Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy in the Settings at any time.&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>We need to collect necessary personal information to provide you with the basic services and optimise the casting process. You can learn how we handle the information we collect in our &lt;a href=%1$s>Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy in the Settings at any time.</Data></string>
     <string name="hang_up">Cast with screen off</string>
     <string name="hang_up_alert_dialog_content">Keep casting when the screen of your device is turned off. This feature decreases power consumption. Press the Power button to turn the screen back on.</string>
     <string name="hang_up_alert_dialog_neg">Cancel</string>
@@ -730,9 +726,10 @@ so Xiaomi HyperMind can learn and refine patterns"</string>
     <string name="invisible_mode_dialog_content_audio_relay">"Can't transfer playback when you're incognito. Turn off Incognito mode first."</string>
     <string name="invisible_mode_dialog_pos">Turn off</string>
     <string name="invisible_mode_dialog_title">"You're incognito"</string>
-    <string name="is_creating_camera_cooperation">Unlock device to connect</string>
     <string name="keyguard_security_setting_privacy_policy">Privacy Policy</string>
     <string name="local_camera_device">This device</string>
+    <string name="local_device_camera">This device</string>
+    <string name="local_hotspot_opening">"Turn off this device's hotspot and try again"</string>
     <string name="message_connection_interrupted">Make sure your computer and tablet are within connection range and have Bluetooth and WLAN turned on. To continue, start the task on your computer again.</string>
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
@@ -875,6 +872,13 @@ so Xiaomi HyperMind can learn and refine patterns"</string>
     <string name="onehop_mirror_guide_message_text_2">Select photos, videos, and other files from Gallery or File Manager to transfer to your computer.</string>
     <string name="onehop_mirror_guide_message_title">Xiaomi Interconnectivity</string>
     <string name="open_game_accelerate">Turn on Game Turbo</string>
+    <string name="open_wlan">Turn on Wi-Fi</string>
+    <string name="open_wlan_china">Turn on WLAN</string>
+    <string name="open_wlan_known">Got it</string>
+    <string name="open_wlan_other">Turn on Wi-Fi on %1$s to be able to use interconnectivity features.</string>
+    <string name="open_wlan_other_china">Turn on WLAN on %1$s to be able to use interconnectivity features.</string>
+    <string name="open_wlan_self">Turn on Wi-Fi to be able to use interconnectivity features. Turn on now?</string>
+    <string name="open_wlan_self_china">Turn on WLAN to be able to use interconnectivity features. Turn on now?</string>
     <string name="paipai_connect_btn_text">Done</string>
     <string name="paipai_connect_tv1_text">Connected to device</string>
     <string name="paipai_connect_tv2_text">Transferred data</string>
@@ -1065,7 +1069,7 @@ so Xiaomi HyperMind can learn and refine patterns"</string>
     <string name="privacy_agree">Agree</string>
     <string name="privacy_confirm_revoke_and_exit_btn">Withdraw</string>
     <string name="privacy_detail">Allow this app to connect to the internet and grant the required permissions before you continue.</string>
-    <string name="privacy_detail_extra">&lt;Data>Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &lt;a href=%1$s>HappyCast Privacy Policy&lt;/a> and &lt;a href=%2$s>HappyCast Legal Statement&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &lt;a href=%1$s>HappyCast Privacy Policy&lt;/a> and &lt;a href=%2$s>HappyCast Legal Statement&lt;/a>.</Data></string>
     <string name="privacy_explain">"Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor. This app needs to connect to the internet and requires the following permissions to be able to work normally:"</string>
     <string name="privacy_give_up_revoke_btn">Cancel</string>
     <string name="privacy_i_know_btn">Continue</string>
@@ -1090,7 +1094,7 @@ so Xiaomi HyperMind can learn and refine patterns"</string>
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">For finding available devices nearby</string>
     <string name="privacy_permission_wlan_desc_china">For finding available devices nearby</string>
-    <string name="privacy_phone_read_theme_privacy_policy">"&lt;Data>I've read and agreed to the \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Statement on the Withdrawal of Consent to the Xiaomi Interconnectivity Privacy Policy&lt;/a>&lt;/font>\".&lt;/Data>"</string>
+    <string name="privacy_phone_read_theme_privacy_policy"><Data>"I've read and agreed to the \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Statement on the Withdrawal of Consent to the Xiaomi Interconnectivity Privacy Policy&lt;/a>&lt;/font>\"."</Data></string>
     <string name="privacy_positive">Agree</string>
     <string name="privacy_read_statement">Agree to the terms and conditions first</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d. Make sure that you have the right to withdraw consent before you continue.
@@ -1120,11 +1124,11 @@ so Xiaomi HyperMind can learn and refine patterns"</string>
     <string name="privacy_setting_show_lelink_policy">View HappyCast Privacy Policy</string>
     <string name="privacy_setting_show_policy">View Privacy Policy</string>
     <string name="privacy_setting_show_user_agreement">View User Agreement</string>
-    <string name="privacy_text_1">"&lt;Data>Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor.
+    <string name="privacy_text_1"><Data>"Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor.
 We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies. Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &lt;a href=%2$s>HappyCast Legal Statement&lt;/a> and &lt;a href=%1$s>HappyCast Privacy Policy&lt;/a>.
-To be able to work normally, this app needs to connect to the internet and requires the following permissions in order to collect your personal information:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.
-Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using this feature.&lt;/Data>"</string>
+To be able to work normally, this app needs to connect to the internet and requires the following permissions in order to collect your personal information:"</Data></string>
+    <string name="privacy_text_2"><Data>"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.
+Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using this feature."</Data></string>
     <string name="privacy_text_pemission">"　　•Access and save images on your device in order to project these items on external monitors
 　　•Record calls and audio in order to cast audio on external devices
 　　•Access phone number, IMEI, and IMSI to identify your device
@@ -1136,7 +1140,6 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="private_protect">Hide private items</string>
     <string name="prompt_camera_associate_failed">"Couldn't connect"</string>
     <string name="prompt_camera_disassociate">Disconnected</string>
-    <string name="prompt_camera_guide">%s camera is available</string>
     <string name="prompt_camera_ocuppied">Camera is busy</string>
     <string name="prompt_camera_prepare">Connecting…</string>
     <string name="prompt_camera_success">Connected</string>
@@ -1147,6 +1150,7 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="quick_settings_device_dialog_positive">Turn on</string>
     <string name="quick_settings_device_dialog_title">Discover nearby devices</string>
     <string name="quick_settings_notification_control_center">Notifications &amp; status bar</string>
+    <string name="remote_hotspot_opening">"Turn off the other device's hotspot and try again"</string>
     <string name="remote_speaker_list">Playlist</string>
     <string name="remote_speaker_loop">Play in order</string>
     <string name="remote_speaker_random">Shuffle</string>
@@ -1176,12 +1180,12 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="screen_projection_entrance_list">View available devices</string>
     <string name="screen_projection_entrance_list_new">View the list of available devices for casting</string>
     <string name="screen_projection_example_document_hint_miui15">*Items will be displayed on a nearby TV</string>
-    <string name="screen_projection_example_document_hint_new">&lt;Data>*To use this feature, go to Files > Docs and tap the &lt;img src=../drawable/ic_cast_icon_photo.png/> icon.&lt;/Data></string>
+    <string name="screen_projection_example_document_hint_new"><Data>*To use this feature, go to Files > Docs and tap the &lt;img src=../drawable/ic_cast_icon_photo.png/> icon.</Data></string>
     <string name="screen_projection_example_document_summary">Display presentations on an external monitor while using your phone to switch between slides and view notes. Go to File Manager > Docs to try this feature.</string>
     <string name="screen_projection_example_document_summary_miui15">Show presentation slides on a TV while using this device as a remote</string>
     <string name="screen_projection_example_document_title">Documents</string>
     <string name="screen_projection_example_gallery_hint_miui15">*To be able to cast photos and videos, select an item in Gallery, tap \"Share\", and then tap the \"Cast\" icon.</string>
-    <string name="screen_projection_example_gallery_hint_new">&lt;Data>*To use this feature, go to Gallery, select a photo, tap \"Send\" on the bottom bar, and tap the &lt;img src=../drawable/ic_cast_icon_photo.png/> icon.&lt;/Data></string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*To use this feature, go to Gallery, select a photo, tap \"Send\" on the bottom bar, and tap the &lt;img src=../drawable/ic_cast_icon_photo.png/> icon.</Data></string>
     <string name="screen_projection_example_gallery_summary">Tap the Share button under an item in the Gallery app to display it on an external monitor.</string>
     <string name="screen_projection_example_gallery_summary_miui15">View your photos and videos on TV screen</string>
     <string name="screen_projection_example_gallery_title">Photos &amp; videos</string>
@@ -1210,6 +1214,7 @@ Make sure you've turned on Game Turbo before casting games."</string>
     <string name="settings_cross_notify_power">Low battery</string>
     <string name="settings_cross_notify_system">System notifications</string>
     <string name="settings_cross_notify_tips">Show notifications on nearby tablets or computers in use when this device is locked</string>
+    <string name="sever_stream_beauty">Beautify</string>
     <string name="sever_stream_control_btn_exit">Stop</string>
     <string name="sever_stream_control_btn_pause">Pause</string>
     <string name="sever_stream_control_btn_preview">Preview</string>
@@ -1218,6 +1223,9 @@ Make sure you've turned on Game Turbo before casting games."</string>
     <string name="sever_stream_push_state_idle2">Preview is off</string>
     <string name="sever_stream_push_state_pause">Paused</string>
     <string name="sever_stream_push_state_pushing">Sharing camera feed…</string>
+    <string name="sever_switch_camera">Switch between front and rear cameras</string>
+    <string name="sever_switch_camera_front">Front camera</string>
+    <string name="sever_switch_camera_rear">Rear camera</string>
     <string name="share_desktop_with_car">Share Home screen to car</string>
     <string name="share_desktop_with_car_ing">Sharing screen with car…</string>
     <string name="show_result_on_tv">View results on the TV</string>
@@ -1302,7 +1310,7 @@ Make sure you've turned on Game Turbo before casting games."</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="trust_device_desc">"These devices will appear here first when they're nearby"</string>
-    <string name="trust_device_dialog_desc">"&lt;Data>%s will appear among available devices first when it's nearby if you mark it as trusted.&lt;br>&lt;br>You can &lt;a href=milink://com.milink.service/trust>manage trusted devices&lt;/a> in the Settings.&lt;/Data>"</string>
+    <string name="trust_device_dialog_desc"><Data>"%s will appear among available devices first when it's nearby if you mark it as trusted.&lt;br>&lt;br>You can &lt;a href=milink://com.milink.service/trust>manage trusted devices&lt;/a> in the Settings."</Data></string>
     <string name="trust_device_dialog_pos">Trust</string>
     <string name="trust_device_dialog_title">Trust this device?</string>
     <string name="trust_device_manager">Manage trusted devices</string>
@@ -1320,6 +1328,12 @@ Make sure you've turned on Game Turbo before casting games."</string>
     <string name="upgrade_check_upgrade">Update</string>
     <string name="upgrade_checking">Checking for updates…</string>
     <string name="upgrade_edit_mijia">Edit</string>
+    <string name="upgrade_error_connect_api_server_fail">Check your network settings and try again</string>
+    <string name="upgrade_error_download_ip_intercepted">Too many requests. Wait a minute or two and try again.</string>
+    <string name="upgrade_error_download_start_fall">"Couldn't download app. Try again."</string>
+    <string name="upgrade_error_install_fail_invalid_apk">"Couldn't install app. Try again."</string>
+    <string name="upgrade_error_installparse_fail">"Couldn't install app"</string>
+    <string name="upgrade_error_no_enough_space_before_download">Insufficient storage. Free up storage space and try again.</string>
     <string name="upgrade_help_menu">Help</string>
     <string name="upgrade_help_title">Help with updating</string>
     <string name="upgrade_log_title">更新日志</string>

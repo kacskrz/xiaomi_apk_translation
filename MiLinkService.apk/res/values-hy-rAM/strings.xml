@@ -51,13 +51,12 @@
     <string name="ball_hint_connect_fail">Չհաջողվեց կատարել այս գործողությունը: Սպասեք մեկ-երկու րոպե և նորից փորձեք:</string>
     <string name="ball_hint_text_loading">Մեկ վայրկյան…</string>
     <string name="ball_hint_text_success">Հաջողությամբ միացված է</string>
-    <string name="camera_associate_connecting">Միացում տեսախցիկին</string>
-    <string name="camera_associate_disconnecting">Անջատվում է հեռախոսի տեսախցիկից</string>
     <string name="camera_associate_failed">"Couldn't connect to camera"</string>
     <string name="camera_associate_success">Camera connected</string>
-    <string name="camera_choose_device">Միացնել տեսախցիկները</string>
-    <string name="camera_connecting">"%s wants to use this device's camera"</string>
+    <string name="camera_connect_fail">Չհաջողվեց միանալ: Կրկին փորձեք:</string>
     <string name="camera_disassociate">Disconnected from camera</string>
+    <string name="camera_list_subtitle">Միացնել տեսախցիկները</string>
+    <string name="camera_picker_title">Խաչաձեւ սարքի տեսախցիկ</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button">Չեղարկել</string>
@@ -66,9 +65,6 @@
     <string name="car_air_con_switch_close">Անջատեք օդորակիչը մեքենայի մեջ</string>
     <string name="car_air_con_switch_open">Միացրեք օդորակիչը մեքենայի մեջ</string>
     <string name="car_air_con_unuse">–-</string>
-    <string name="car_camera_associate_connecting">Միացում EV տեսախցիկին</string>
-    <string name="car_camera_associate_disconnecting">Անջատվում է EV տեսախցիկից</string>
-    <string name="car_camera_device_name">%1$s առջևի տեսախցիկ</string>
     <string name="car_camera_unavailable_dialog_message">Այս սարքը չի կարող օգտագործել EV-ի տեսախցիկը, երբ միացված է ցածր էներգիայի ռեժիմը կամ Գաղտնիության ռեժիմը:</string>
     <string name="car_camera_unavailable_dialog_positive_button">Հասկանալի է</string>
     <string name="car_camera_unavailable_dialog_title">EV-ի առջևի տեսախցիկը զբաղված է</string>
@@ -96,6 +92,7 @@
     <string name="car_card_seat_warm">Նստատեղերի ջեռուցում</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
+    <string name="car_device_camera_name">%1$s առջևի տեսախցիկ</string>
     <string name="car_seat_can_not_use">Հասանելի չէ</string>
     <string name="cast_auth_count_down">Մուտքագրեք կոդը «%1$s»-ից՝ հեռարձակումը սկսելու համար (%2$dվ)</string>
     <string name="cast_auth_title">Մուտքագրել ծածկագիրը</string>
@@ -343,7 +340,6 @@
     <string name="connect_settings_base">Փոխկապակցվածություն</string>
     <string name="connect_settings_category_connection_car">Մեքենայի առանձնահատկությունները</string>
     <string name="connect_settings_category_hyper_mind">HyperMind</string>
-    <string name="connect_settings_category_hyper_mind_new">Խելացի հսկիչներ</string>
     <string name="connect_settings_category_personal_device">Անձնական սարքեր</string>
     <string name="connect_settings_communication_sharing">Wireless tethering</string>
     <string name="connect_settings_connect_permission">Փոխկապակցվածություն և թույլտվություններ</string>
@@ -362,12 +358,11 @@
     <string name="connect_settings_share_clipboard">Ստեղնաշար</string>
     <string name="connect_settings_share_launcher">Գլխավոր էկրան+</string>
     <string name="connect_settings_share_notification">Ծանուցումներ</string>
-    <string name="connect_settings_summary">&lt;Data>Ավտոմատ հայտնաբերեք մոտակա սարքերը, որոնք մուտք են գործել ձեր Xiaomi հաշիվ և միացրեք դրանք միմյանց՝ բազմաթիվ սարքերում մի շարք առաջադրանքներ կատարելու համար: &lt;a href=%1$s>Իմանալ ավելին&lt;/a>&lt;/Data></string>
+    <string name="connect_settings_summary"><Data>Ավտոմատ հայտնաբերեք մոտակա սարքերը, որոնք մուտք են գործել ձեր Xiaomi հաշիվ և միացրեք դրանք միմյանց՝ բազմաթիվ սարքերում մի շարք առաջադրանքներ կատարելու համար: &lt;a href=%1$s>Իմանալ ավելին&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Թույլ տվեք ձեր սարքերին անլար կերպով փոխազդել միմյանց հետ</string>
     <string name="connect_settings_summary_corp_phone">Պատասխանեք մոտակա պլանշետների կամ ձեր Xiaomi հաշվում մուտք գործած համակարգիչների զանգերին</string>
     <string name="connect_settings_summary_global">Բացահայտեք մոտակա սարքերը, որոնք մուտք են գործել ձեր Xiaomi Հաշիվ և ավելացրեք դրանք Xiaomi Smart Hub-ում</string>
     <string name="connect_settings_summary_hyper_mind">Այս հատկությունը սովորում է ձեր նախշերը և օգտագործում դրանք ձեր խելացի տան սարքերը կառավարելու համար: Էլեկտրականացված Mi AI-ի կողմից:</string>
-    <string name="connect_settings_summary_hyper_mind_new">Թույլ տվեք Xiaomi HyperMind-ին կառավարել մոտակա սարքերը ձեր սովորությունների համաձայն</string>
     <string name="connect_settings_summary_relay_app">Շարունակեք առաջադրանքները նույն հավելվածում մեկ այլ սարքի վրա</string>
     <string name="connect_settings_summary_share_clipboard">Տեղադրեք տեքստը և պատկերները այլ սարքերում՝ դրանք այս սարքում պատճենելուց հետո %d րոպեի ընթացքում</string>
     <string name="connect_settings_summary_share_launcher_pad">Դիտեք և շփվեք մոտակա հեռախոսների հիմնական էկրանների հետ, որոնք մուտք են գործել ձեր Xiaomi Հաշիվ</string>
@@ -416,8 +411,8 @@
     <string name="dialog_nearbydevice_permission_title">Թույլտվություն է անհրաժեշտ</string>
     <string name="dialog_nearbydevice_permission_title_connectivity">Թույլտվություն է անհրաժեշտ</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Ձեր բջջային սարքը և հեռուստացույցը միացրեք նույն Wi-Fi ցանցին:&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Որոշ հեռուստատեսային մոդելներում այս գործառույթը հասանելի է միայն այն ժամանակ, երբ էկրանի հայելապատումը միացված է: Դիտեք &lt;a href=milink://com.milink.service/specification>\"Օգնություն\"&lt;/a> ավելին իմանալու համար:&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Ձեր բջջային սարքը և հեռուստացույցը միացրեք նույն Wi-Fi ցանցին:&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Որոշ հեռուստատեսային մոդելներում այս գործառույթը հասանելի է միայն այն ժամանակ, երբ էկրանի հայելապատումը միացված է: Դիտեք &lt;a href=milink://com.milink.service/specification>\"Օգնություն\"&lt;/a> ավելին իմանալու համար:</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">Լավ</string>
     <string name="dialog_only_suport_content">Գործարկել լուսանկարներ, տեսանյութեր կամ երաժշտություն</string>
     <string name="dialog_open_wifi_bt">Միացնել</string>
@@ -459,6 +454,7 @@
     <string name="err_toast_msg_retry_later">Չհաջողվեց կատարել այս գործողությունը: Սպասեք մեկ-երկու րոպե և նորից փորձեք:</string>
     <string name="err_toast_msg_try_switch_network">Միացրեք ձեր բջջային սարքը և համակարգիչը նույն WLAN ցանցին</string>
     <string name="evening">Ցերեկ</string>
+    <string name="file_deleted">Բնօրինակ ֆայլը ջնջվել է</string>
     <string name="find_device_close">Հասկանալի է</string>
     <string name="find_device_notification_content_phone">%1$s որոնում է այս սարքը օգտագործելով %2$s. Ապակողպեք՝ ձայնի նվագարկումը դադարեցնելու համար:</string>
     <string name="find_device_notification_content_single_phone">Ինչ-որ մեկը փնտրում է այս սարքը՝ օգտագործելով %1$s. Ապակողպեք՝ ձայնի նվագարկումը դադարեցնելու համար:</string>
@@ -529,14 +525,14 @@
     <string name="global_dialog_nearbydevice_permission_message">Xiaomi-ի փոխկապակցման ծառայությունները մոտակա սարքերին միանալու թույլտվության կարիք ունեն՝ դրանք հայտնաբերելու համար: Տվեք այս թույլտվությունը Կարգավորումներում, որպեսզի կարողանաք նորմալ օգտագործել Xiaomi-ի փոխկապակցման ծառայությունները:</string>
     <string name="global_dialog_nearbydevice_permission_title">Թույլտվություն է անհրաժեշտ</string>
     <string name="global_privacy">Դրույթներ և պայմաններ</string>
-    <string name="global_privacy_detail">&lt;Data>Կարդացեք և համաձայնվեք մեր &lt;a href=%1$s>Oգտվողի Հմաձայնագիր&lt;/a> և &lt;a href=%2$s>Գաղտնիության Քաղաքականություն&lt;/a> մինչ այս հավելվածն օգտագործելը:&lt;br>Եթե համաձայն չեք օգտագործել նշված ծառայությունները, դուք չեք կարողանա օգտագործել այս ծրագրի որոշ առանձնահատկություններ. սակայն դրա հիմնական ֆունկցիոնալությունը դեռ մատչելի կլինի ձեզ համար:&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Կարդացեք և համաձայնվեք մեր &lt;a href=%1$s>Oգտվողի Հմաձայնագիր&lt;/a> և &lt;a href=%2$s>Գաղտնիության Քաղաքականություն&lt;/a> մինչ այս հավելվածն օգտագործելը:&lt;br>Եթե համաձայն չեք օգտագործել նշված ծառայությունները, դուք չեք կարողանա օգտագործել այս ծրագրի որոշ առանձնահատկություններ. սակայն դրա հիմնական ֆունկցիոնալությունը դեռ մատչելի կլինի ձեզ համար:</Data></string>
     <string name="global_privacy_explain">Բարի գալուստ Քասթինգ: Այս ծրագիրը տրամադրում է հետևյալ ծառայությունները.</string>
     <string name="global_privacy_feature">Օգտագործելով նվազագույնի հասցված պատուհաններ, անջատված էկրանով ձուլում և անձնական իրեր թաքցնելով:</string>
     <string name="global_privacy_main">Նախագծեք ձեր հեռախոսի էկրանից իրերը ավելի մեծ արտաքին մոնիտորի վրա:</string>
     <string name="global_privacy_negative">Չհամաձայնել</string>
     <string name="global_privacy_positive">Համաձայնել</string>
     <string name="global_privacy_screencast">Ձայնագրման կամ հեռարձակման ընթացքում այս գործառույթն ապահովող ծառայությունը կարող է գրավել ցանկացած զգայուն տեղեկատվություն, որը ցուցադրվում է ձեր էկրանին կամ նվագարկվում է ձեր սարքից, ներառյալ զգայուն տեղեկությունները, ինչպիսիք են ձայնը, գաղտնաբառերը, վճարման տվյալները, լուսանկարները և հաղորդագրությունները:</string>
-    <string name="global_privacy_tip">&lt;Data>Մենք պետք է հավաքենք անհրաժեշտ անձնական տեղեկությունները ՝ ձեզ հիմնական ծառայություններ տրամադրելու և ձուլման գործընթացը օպտիմալացնելու համար: Դուք կարող եք իմանալ, թե ինչպես ենք մենք վարվում մեր հավաքած տեղեկատվության հետ կապված մեր &lt;a href=%1$s>Գաղտնիության Քաղաքականություն&lt;/a>. Ցանկացած պահի կարող եք հետ վերցնել ձեր համաձայնությունը Գաղտնիության Քաղաքականությանը, Կարգավորումներում:&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>Մենք պետք է հավաքենք անհրաժեշտ անձնական տեղեկությունները ՝ ձեզ հիմնական ծառայություններ տրամադրելու և ձուլման գործընթացը օպտիմալացնելու համար: Դուք կարող եք իմանալ, թե ինչպես ենք մենք վարվում մեր հավաքած տեղեկատվության հետ կապված մեր &lt;a href=%1$s>Գաղտնիության Քաղաքականություն&lt;/a>. Ցանկացած պահի կարող եք հետ վերցնել ձեր համաձայնությունը Գաղտնիության Քաղաքականությանը, Կարգավորումներում:</Data></string>
     <string name="hang_up">Անջատված էկրանով հեռարձակում</string>
     <string name="hang_up_alert_dialog_content">Շարունակեք ձուլել, երբ ձեր սարքի էկրանն անջատված է: Այս հատկությունը նվազեցնում է էլեկտրաէներգիայի սպառումը: Սեղմեք Միացնելու կոճակը էկրանը միացնելու համար:</string>
     <string name="hang_up_alert_dialog_neg">Չեղարկել</string>
@@ -701,9 +697,10 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">Հնարավոր չէ փոխանցել նվագարկումը, երբ ինկոգնիտո եք: Նախ անջատեք ինկոգնիտո ռեժիմը։</string>
     <string name="invisible_mode_dialog_pos">Անջատել</string>
     <string name="invisible_mode_dialog_title">Դուք ինկոգնիտո եք</string>
-    <string name="is_creating_camera_cooperation">Unlock device to connect</string>
     <string name="keyguard_security_setting_privacy_policy">Գաղտնիության Քաղաքականություն</string>
     <string name="local_camera_device">This device</string>
+    <string name="local_device_camera">Այս սարքը</string>
+    <string name="local_hotspot_opening">Անջատեք այս սարքի թեժ կետը և նորից փորձեք:</string>
     <string name="message_connection_interrupted">Make sure your computer and tablet are within connection range and have Bluetooth and WLAN turned on. To continue, start the task on your computer again.</string>
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
@@ -820,6 +817,13 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="onehop_mirror_guide_message_text_2">Ընտրեք լուսանկարներ, տեսանյութեր և այլ ֆայլեր Պատկերասրահից կամ Ֆայլերի կառավարիչից՝ ձեր համակարգչին փոխանցելու համար:</string>
     <string name="onehop_mirror_guide_message_title">Xiaomi փոխկապակցվածություն</string>
     <string name="open_game_accelerate">Միացնել Խաղի Արագացումը</string>
+    <string name="open_wlan">Միացնել Wi-Fi-ը</string>
+    <string name="open_wlan_china">Միացնել WLAN-ը</string>
+    <string name="open_wlan_known">Հասկանալի է</string>
+    <string name="open_wlan_other">Միացրեք Wi-Fi-ը %1$s-ում, որպեսզի կարողանաք օգտագործել փոխկապակցման գործառույթները:</string>
+    <string name="open_wlan_other_china">Միացրեք WLAN-ը %1$s-ում, որպեսզի կարողանաք օգտագործել փոխկապակցման գործառույթները:</string>
+    <string name="open_wlan_self">Միացրեք Wi-Fi-ը, որպեսզի կարողանաք օգտագործել փոխկապակցման գործառույթները: Միացնե՞լ հիմա:</string>
+    <string name="open_wlan_self_china">Միացրեք WLAN-ը, որպեսզի կարողանաք օգտագործել փոխկապակցման գործառույթները: Միացնե՞լ հիմա:</string>
     <string name="paipai_connect_btn_text">Կատարված</string>
     <string name="paipai_connect_tv1_text">Միացված է սարքին</string>
     <string name="paipai_connect_tv2_text">Փոխանցված տվյալներ</string>
@@ -1009,7 +1013,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="privacy_agree">Համաձայնել</string>
     <string name="privacy_confirm_revoke_and_exit_btn">Հետ քաշվել</string>
     <string name="privacy_detail">Թույլ տվեք այս հավելվածին միանալ համացանցին և տրամադրել պահանջվող թույլտվությունները՝ նախքան շարունակելը:</string>
-    <string name="privacy_detail_extra">&lt;Data>Որոշ առանձնահատկություններ տրամադրվում են երրորդ կողմի ծառայություններ մատուցողներից ՝ HappyCast: Այս գործառույթն օգտագործելուց առաջ կարդացեք և համաձայնեք &lt;a href=%1$s>HappyCast Գաղտնիության Քաղաքականություն&lt;/a> և &lt;a href=%2$s>HappyCast Իրավաբանական հայտարարություն&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Որոշ առանձնահատկություններ տրամադրվում են երրորդ կողմի ծառայություններ մատուցողներից ՝ HappyCast: Այս գործառույթն օգտագործելուց առաջ կարդացեք և համաձայնեք &lt;a href=%1$s>HappyCast Գաղտնիության Քաղաքականություն&lt;/a> և &lt;a href=%2$s>HappyCast Իրավաբանական հայտարարություն&lt;/a>.</Data></string>
     <string name="privacy_explain">Բարի գալուստ Քաստինգ: Ձայնագրումը թույլ է տալիս նախագծել իրերը ձեր հեռախոսի էկրանից ավելի մեծ արտաքին մոնիտորի վրա: Այս ծրագիրը պետք է միանա ինտերնետին և պահանջում է հետևյալ թույլտվությունները, որպեսզի կարողանան նորմալ աշխատել:</string>
     <string name="privacy_give_up_revoke_btn">Չեղարկել</string>
     <string name="privacy_i_know_btn">Շարունակել</string>
@@ -1034,7 +1038,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">Մոտակայքում առկա սարքերը գտնելու համար</string>
     <string name="privacy_permission_wlan_desc_china">Մոտակայքում առկա սարքերը գտնելու համար</string>
-    <string name="privacy_phone_read_theme_privacy_policy">&lt;Data>Ես կարդացել և համաձայնել եմ \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Հայտարարությանը Xiaomi-ի փոխկապակցման գաղտնիության քաղաքականությանը հետ վերցնելու համաձայնությունը&lt;/a>&lt;/font>\".&lt;/Data></string>
+    <string name="privacy_phone_read_theme_privacy_policy"><Data>Ես կարդացել և համաձայնել եմ \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Հայտարարությանը Xiaomi-ի փոխկապակցման գաղտնիության քաղաքականությանը հետ վերցնելու համաձայնությունը&lt;/a>&lt;/font>\".</Data></string>
     <string name="privacy_positive">Համաձայնել</string>
     <string name="privacy_read_statement">Համաձայնեք դրույթներին եւ պայմաններին առաջինը</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d. Համոզվեք, որ դուք իրավունք ունեք հետ կանչելու համաձայնությունը, նախքան շարունակելը:
@@ -1064,11 +1068,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="privacy_setting_show_lelink_policy">Դիտել HappyCast Գաղտնիության Քաղաքականություն</string>
     <string name="privacy_setting_show_policy">Դիտել Գաղտնիության Քաղաքականությունը</string>
     <string name="privacy_setting_show_user_agreement">Դիտել Օգտագործողի պայմանագիրը</string>
-    <string name="privacy_text_1">"&lt;Data>Բարի գալուստ Քասթինգ: Ձայնագրումը թույլ է տալիս նախագծել իրերը ձեր հեռախոսի էկրանից ավելի մեծ արտաքին մոնիտորի վրա: 
+    <string name="privacy_text_1"><Data>"Բարի գալուստ Քասթինգ: Ձայնագրումը թույլ է տալիս նախագծել իրերը ձեր հեռախոսի էկրանից ավելի մեծ արտաքին մոնիտորի վրա: 
 Մենք կպաշտպանենք ձեր անձնական տեղեկատվությունը համապատասխան օրենքներին, կանոնակարգերին և գաղտնիության քաղաքականությանը համապատասխան: Որոշ առանձնահատկություններ տրամադրվում են երրորդ կողմի ծառայություններ մատուցող HappyCast-ով: Այս գործառույթն օգտագործելուց առաջ կարդացեք և համաձայնեք &lt;a href=%2$s>HappyCast Իրավական Հայտարարություն&lt;/a> and &lt;a href=%1$s>HappyCast Գաղտնիության Քաղաքականություն&lt;/a>.
-Որպեսզի կարողանաք նորմալ աշխատել, այս ծրագիրը պետք է միանա ինտերնետին և պահանջում է հետևյալ թույլտվությունները `ձեր անձնական տվյալները հավաքելու համար.&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Եթե համաձայն չեք տրամադրել նման թույլտվություններ կամ կիսել և վերբեռնել ձեր անձնական տվյալները, դուք չեք կարողանա օգտագործել այս ծրագիրը: Նման դեպքերում կարող եք ընտրել տեղահանել այս ծրագիրը, դուրս գալ կամ սահմանափակել Կարգավորումների թույլտվությունները:
-Կարդացեք և համաձայնեք մեր &lt;a href=%1$s>Օգտվողի Համաձայնագիր&lt;/a> և &lt;a href=%2$s>Գաղտնիության Քաղաքականություն&lt;/a> նախքան այս գործառույթը օգտագործելը:&lt;/Data>"</string>
+Որպեսզի կարողանաք նորմալ աշխատել, այս ծրագիրը պետք է միանա ինտերնետին և պահանջում է հետևյալ թույլտվությունները `ձեր անձնական տվյալները հավաքելու համար."</Data></string>
+    <string name="privacy_text_2"><Data>"Եթե համաձայն չեք տրամադրել նման թույլտվություններ կամ կիսել և վերբեռնել ձեր անձնական տվյալները, դուք չեք կարողանա օգտագործել այս ծրագիրը: Նման դեպքերում կարող եք ընտրել տեղահանել այս ծրագիրը, դուրս գալ կամ սահմանափակել Կարգավորումների թույլտվությունները:
+Կարդացեք և համաձայնեք մեր &lt;a href=%1$s>Օգտվողի Համաձայնագիր&lt;/a> և &lt;a href=%2$s>Գաղտնիության Քաղաքականություն&lt;/a> նախքան այս գործառույթը օգտագործելը:"</Data></string>
     <string name="privacy_text_pemission">"　　•Ձեռք բերեք և պահպանեք պատկերներ ձեր սարքի վրա `այս կետերը արտաքին մոնիտորների վրա նախագծելու համար
 　　•Գրանցեք զանգեր և աուդիո ՝ արտաքին սարքերում աուդիո հեռարձակելու համար:
 　　•Մատչելի հեռախոսահամար, IMEI և IMSI ձեր սարքը նույնականացնելու համար
@@ -1080,7 +1084,6 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="private_protect">Թաքցնել մասնավոր տարրեր</string>
     <string name="prompt_camera_associate_failed">Չհաջողվեց միանալ</string>
     <string name="prompt_camera_disassociate">Անջատված</string>
-    <string name="prompt_camera_guide">%s camera is available</string>
     <string name="prompt_camera_ocuppied">Camera is busy</string>
     <string name="prompt_camera_prepare">Միանում է…</string>
     <string name="prompt_camera_success">Միացված է</string>
@@ -1091,6 +1094,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="quick_settings_device_dialog_positive">Միացնել</string>
     <string name="quick_settings_device_dialog_title">Բացահայտեք մոտակա սարքերը</string>
     <string name="quick_settings_notification_control_center">Ծանուցումներ և կարգավիճակի սանդղակ</string>
+    <string name="remote_hotspot_opening">Անջատեք այլ սարքի թեժ կետը և նորից փորձեք:</string>
     <string name="remote_speaker_list">Նվագարկման ցուցակ</string>
     <string name="remote_speaker_loop">Խաղացեք կարգով</string>
     <string name="remote_speaker_random">Խառնել</string>
@@ -1120,12 +1124,12 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="screen_projection_entrance_list">Դիտեք առկա սարքերը</string>
     <string name="screen_projection_entrance_list_new">Դիտեք հեռարձակման համար հասանելի սարքերի ցանկը</string>
     <string name="screen_projection_example_document_hint_miui15">* Նյութերը կցուցադրվեն մոտակա հեռուստացույցով</string>
-    <string name="screen_projection_example_document_hint_new">&lt;Data>*Այս հնարավորությունն օգտագործելու համար անցեք Ֆայլեր > Փաստաթղթեր և հպեք &lt;img src=../drawable/ic_cast_icon_photo.png/> icon.&lt;/Data></string>
+    <string name="screen_projection_example_document_hint_new"><Data>*Այս հնարավորությունն օգտագործելու համար անցեք Ֆայլեր > Փաստաթղթեր և հպեք &lt;img src=../drawable/ic_cast_icon_photo.png/> icon.</Data></string>
     <string name="screen_projection_example_document_summary">Սլայդերը փոխելու և նոտաները դիտելու համար ձեր հեռախոսն օգտագործելով ներկայացրեք արտաքին մոնիտորի վրա: Գնալ Ֆայլի Մենեջեր և Փաստաթղթեր այս հնարավորությունը փորձելու համար:</string>
     <string name="screen_projection_example_document_summary_miui15">Ցուցադրել ներկայացման սլայդները հեռուստացույցով այս սարքը որպես հեռակառավարման վահանակ օգտագործելիս</string>
     <string name="screen_projection_example_document_title">Փաստաթղթեր</string>
     <string name="screen_projection_example_gallery_hint_miui15">*Որպեսզի կարողանաք հեռարձակել լուսանկարներ և տեսանյութեր, ընտրեք որևէ տարր Պատկերասրահում, հպեք «Համօգտագործել» և այնուհետև հպեք «Հեռարձակել» պատկերակին:</string>
-    <string name="screen_projection_example_gallery_hint_new">&lt;Data>*Այս հնարավորությունն օգտագործելու համար գնացեք Պատկերասրահ, ընտրեք լուսանկար, հպեք «Ուղարկել» ներքևի տողում և հպեք &lt;img src=../drawable/ic_cast_icon_photo.png/> icon.&lt;/Data></string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*Այս հնարավորությունն օգտագործելու համար գնացեք Պատկերասրահ, ընտրեք լուսանկար, հպեք «Ուղարկել» ներքևի տողում և հպեք &lt;img src=../drawable/ic_cast_icon_photo.png/> icon.</Data></string>
     <string name="screen_projection_example_gallery_summary">Հպել Պատկերասրահում նշված կետի վերևում գտնվող կոճակը՝ այն արտաքին մոնիտորի վրա ցուցադրելու համար:</string>
     <string name="screen_projection_example_gallery_summary_miui15">Դիտեք ձեր լուսանկարներն ու տեսանյութերը հեռուստացույցի էկրանին</string>
     <string name="screen_projection_example_gallery_title">Լուսանկարներ և տեսանյութեր</string>
@@ -1153,6 +1157,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="settings_cross_notify_power">Մարտկոցի լիցքը թույլ է</string>
     <string name="settings_cross_notify_system">Համակարգի ծանուցումներ</string>
     <string name="settings_cross_notify_tips">Ցույց տալ մոտակա պլանշետների կամ օգտագործվող համակարգիչների մասին ծանուցումները, երբ այս սարքը կողպված է</string>
+    <string name="sever_stream_beauty">Գեղեցկացնել</string>
     <string name="sever_stream_control_btn_exit">Կանգնեցնել</string>
     <string name="sever_stream_control_btn_pause">Դադարեցնել</string>
     <string name="sever_stream_control_btn_preview">Նախնական դիտում</string>
@@ -1161,6 +1166,9 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="sever_stream_push_state_idle2">Նախադիտումն անջատված է</string>
     <string name="sever_stream_push_state_pause">Դադարեցված</string>
     <string name="sever_stream_push_state_pushing">Տեսախցիկի հոսքի համօգտագործում…</string>
+    <string name="sever_switch_camera">Անցում առջևի և հետևի տեսախցիկների միջև</string>
+    <string name="sever_switch_camera_front">Առջևի տեսախցիկ</string>
+    <string name="sever_switch_camera_rear">Ետին տեսախցիկ</string>
     <string name="share_desktop_with_car">Համօգտագործեք հիմնական էկրանը մեքենայի հետ</string>
     <string name="share_desktop_with_car_ing">Էկրանի համօգտագործում մեքենայի հետ…</string>
     <string name="show_result_on_tv">Դիտեք արդյունքները հեռուստացույցով</string>
@@ -1243,7 +1251,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="today">Այսօր</string>
     <string name="tomorrow">Վաղը</string>
     <string name="trust_device_desc">Այս սարքերը նախ կհայտնվեն այստեղ, երբ մոտակայքում լինեն</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%s-ը նախ կհայտնվի մատչելի սարքերի մոտ, երբ այն գտնվում է մոտակայքում, եթե նշեք այն որպես վստահելի:&lt;br>&lt;br>Կարող եք &lt;a href=milink://com.milink.service/trust>կառավարել վստահելի սարքերը&lt;/a> Կարգավորումներում։&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%s-ը նախ կհայտնվի մատչելի սարքերի մոտ, երբ այն գտնվում է մոտակայքում, եթե նշեք այն որպես վստահելի:&lt;br>&lt;br>Կարող եք &lt;a href=milink://com.milink.service/trust>կառավարել վստահելի սարքերը&lt;/a> Կարգավորումներում։</Data></string>
     <string name="trust_device_dialog_pos">Վստահություն</string>
     <string name="trust_device_dialog_title">Վստահե՞լ այս սարքին։</string>
     <string name="trust_device_manager">Կառավարել վստահելի սարքերը</string>
@@ -1261,6 +1269,12 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="upgrade_check_upgrade">Թարմացնել</string>
     <string name="upgrade_checking">Թարմացումների ստուգում…</string>
     <string name="upgrade_edit_mijia">Փոփոխել</string>
+    <string name="upgrade_error_connect_api_server_fail">Ստուգե՛ք ձեր ցանցի կարգավորումները և կրկին փորձե՛ք</string>
+    <string name="upgrade_error_download_ip_intercepted">Չափազանց շատ հարցումներ: Սպասեք մեկ-երկու րոպե և կրկին փորձեք:</string>
+    <string name="upgrade_error_download_start_fall">Չհաջողվեց ներբեռնել հավելվածը: Նորից փորձեք:</string>
+    <string name="upgrade_error_install_fail_invalid_apk">Չհաջողվեց տեղադրել հավելվածը: Նորից փորձեք:</string>
+    <string name="upgrade_error_installparse_fail">Չհաջողվեց տեղադրել հավելվածը</string>
+    <string name="upgrade_error_no_enough_space_before_download">Անբավարար պահեստավորում: Ազատեք պահեստային տարածք և նորից փորձեք:</string>
     <string name="upgrade_help_menu">Օգնություն</string>
     <string name="upgrade_help_title">Օգնել թարմացման հարցում</string>
     <string name="upgrade_log_title">更新日志</string>

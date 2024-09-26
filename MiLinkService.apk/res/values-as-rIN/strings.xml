@@ -51,13 +51,12 @@
     <string name="ball_hint_connect_fail">"কাৰ্যটো সম্পাদন কৰিব পৰা নগ'ল। এক বা দুই মিনিট অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।"</string>
     <string name="ball_hint_text_loading">"এক ছেকেণ্ড ৰ'ব…"</string>
     <string name="ball_hint_text_success">"সফলভাৱে সংযোজিত হ'ল"</string>
-    <string name="camera_associate_connecting">কেমেৰালৈ সংযোগ কৰি আছে</string>
-    <string name="camera_associate_disconnecting">ফোন কেমেৰাৰ পৰা সংযোগহীন কৰি আছে</string>
     <string name="camera_associate_failed">"কেমেৰালৈ সংযোগ কৰিব পৰা নগ'ল"</string>
     <string name="camera_associate_success">Camera connected</string>
-    <string name="camera_choose_device">কেমেৰা সলনি কৰক</string>
-    <string name="camera_connecting">"%s wants to use this device's camera"</string>
+    <string name="camera_connect_fail">"সংযোগ কৰিব পৰা নগ'ল। পুনৰ চেষ্টা কৰক।"</string>
     <string name="camera_disassociate">কেমেৰাৰ পৰা সংযোগহীন হৈছে</string>
+    <string name="camera_list_subtitle">কেমেৰা সলনি কৰক</string>
+    <string name="camera_picker_title">ক্ৰছ-ডিভাইচ কেমেৰা</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button">বাতিল</string>
@@ -66,9 +65,6 @@
     <string name="car_air_con_switch_close">গাড়ীৰ এচি অফ কৰক</string>
     <string name="car_air_con_switch_open">গাড়ীৰ এচি অন কৰক</string>
     <string name="car_air_con_unuse">–-</string>
-    <string name="car_camera_associate_connecting">EV কেমেৰালৈ সংযোগ কৰি আছে</string>
-    <string name="car_camera_associate_disconnecting">EV কেমেৰাৰ পৰা সংযোগহীন কৰি আছে</string>
-    <string name="car_camera_device_name">%1$s ফ্ৰণ্ট ভিউ কেমেৰা</string>
     <string name="car_camera_unavailable_dialog_message">"নিম্ন পাৱাৰ ম'ড বা গোপনীয়তা ম'ড অন হৈ থাকোতে এই ডিভাইচে EVৰ কেমেৰা ব্যৱহাৰ কৰিব নোৱাৰে।"</string>
     <string name="car_camera_unavailable_dialog_positive_button">বুজি পালো</string>
     <string name="car_camera_unavailable_dialog_title">EVৰ সন্মূখৰ কেমেৰা ব্যস্ত</string>
@@ -96,6 +92,7 @@
     <string name="car_card_seat_warm">আসনৰ উষ্ণতা বৃ্দ্ধি</string>
     <string name="car_card_warm_default_none">-</string>
     <string name="car_crad_air_control_text">AC</string>
+    <string name="car_device_camera_name">%1$s সন্মূখৰ কেমেৰা</string>
     <string name="car_seat_can_not_use">উপলব্ধ নহয়</string>
     <string name="cast_auth_count_down">"কাষ্টিং আৰম্ভ কৰিবলৈ \"%1$s\"ৰ পৰা ক'ড প্ৰৱিষ্ট কৰক (%2$dছে)"</string>
     <string name="cast_auth_title">"ক'ড প্ৰবিষ্ট কৰক"</string>
@@ -343,7 +340,6 @@
     <string name="connect_settings_base">আন্তঃসংযোগশীলতা</string>
     <string name="connect_settings_category_connection_car">গাড়ীৰ বৈশিষ্ট্য</string>
     <string name="connect_settings_category_hyper_mind">HyperMind</string>
-    <string name="connect_settings_category_hyper_mind_new">স্মাৰ্ট নিয়ন্ত্ৰণসমূহ</string>
     <string name="connect_settings_category_personal_device">ব্যক্তিগত ডিভাইচসমূহ</string>
     <string name="connect_settings_communication_sharing">Wireless tethering</string>
     <string name="connect_settings_connect_permission">আন্তঃসংযোগশীলতা আৰু অনুমতিসমূহ</string>
@@ -362,12 +358,11 @@
     <string name="connect_settings_share_clipboard">ক্লিপবোৰ্ড</string>
     <string name="connect_settings_share_launcher">গৃহ স্ক্ৰীণ+</string>
     <string name="connect_settings_share_notification">অধিসূচনা</string>
-    <string name="connect_settings_summary">&lt;Data>অপোনাৰ Xiaomi একাউণ্টলৈ ছাইন ইন হৈ থকা সকলো কাষৰীয়া ডিভাইচ স্বয়ংক্ৰিয়ভাৱে চিনাক্ত কৰে আৰু একাধিক ডিভাইচত বিভিন্ন ধৰণৰ কাম সম্পাদন কৰিবলৈ পৰস্পৰৰ সৈতে সংযোগ কৰে। &lt;a href=%1$s>অধিক শিকক&lt;/a>&lt;/Data></string>
+    <string name="connect_settings_summary"><Data>অপোনাৰ Xiaomi একাউণ্টলৈ ছাইন ইন হৈ থকা সকলো কাষৰীয়া ডিভাইচ স্বয়ংক্ৰিয়ভাৱে চিনাক্ত কৰে আৰু একাধিক ডিভাইচত বিভিন্ন ধৰণৰ কাম সম্পাদন কৰিবলৈ পৰস্পৰৰ সৈতে সংযোগ কৰে। &lt;a href=%1$s>অধিক শিকক&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">আপোনাৰ ডিভাইচসমূহক পৰস্পৰৰ সৈতে ৱায়াৰলেছভাৱে যোগাযোগ কৰিবলৈ অনুমতি দিয়ক</string>
     <string name="connect_settings_summary_corp_phone">আপোনাৰ Xiaomi একাউণ্টলৈ ছাইন ইন হৈ থকা কাষৰীয়া টেবলেট বা কম্পিউটাৰত কলৰ উত্তৰ দিয়ক</string>
     <string name="connect_settings_summary_global">আপোনাৰ Xiaomi একাউণ্টলৈ ছাইন ইন হৈ থকা কাষৰীয়া ডিভাইচসমূহ আৱিষ্কাৰ কৰক আৰু সেইসমূহ Xiaomi Smart Hubলৈ যোগ কৰক</string>
     <string name="connect_settings_summary_hyper_mind">এই বৈশিষ্ট্যটোৱে আপোনাৰ পদ্ধতিসমূহ শিকে আৰু আপোনাৰ স্মাৰ্ট গৃহ ডিভাইচসমূহ নিয়ন্ত্ৰণ কৰিবলৈ সেইবোৰ ব্যৱহাৰ কৰে। Mi AIৰ দ্বাৰা চালিত।</string>
-    <string name="connect_settings_summary_hyper_mind_new">Xiaomi HyperMindক আপোনাৰ স্বভাৱ অনুসৰি কাষৰীয়া ডিভাইচসমূহ নিয়ন্ত্ৰণ কৰিবলৈ দিয়ক</string>
     <string name="connect_settings_summary_relay_app">অন্য এটা ডিভাইচত একেটা এপতে কাৰ্যসমূহ জাৰী ৰাখক</string>
     <string name="connect_settings_summary_share_clipboard">এই ডিভাইচত পাঠ আৰু প্ৰতিচ্ছৱি প্ৰতিলিপি কৰাৰ %d মিনিট ভিতৰত সেইসমূহ অন্যটো ডিভাইচত লেপন কৰক</string>
     <string name="connect_settings_summary_share_launcher_pad">আপোনাৰ Xiaomi একাউণ্টত ছাইন ইন কৰা কাষৰীয়া ফোনসমূহ গৃহ স্ক্ৰীণ দৰ্শন আৰু ভাৱ-বিনিময় কৰক</string>
@@ -416,8 +411,8 @@
     <string name="dialog_nearbydevice_permission_title">অনুমতিৰ প্ৰয়োজন</string>
     <string name="dialog_nearbydevice_permission_title_connectivity">অনুমতিৰ প্ৰয়োজন</string>
     <string name="dialog_nfc_cast_wifi_off">"NFC ব্যৱহাৰ কৰি কাষ্ট কৰাত সক্ষম হ'বলৈ WLAN অন কৰক। এতিয়া অন কৰিবনে?"</string>
-    <string name="dialog_no_device_message">"&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. আপোনাৰ ম'বাইল ডিভাইচ আৰু টিভি দুয়োটা একেটা ৱাই-ফাই নেটৱৰ্কলৈ সংযোগ কৰক।&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. কিছুমান টিভি মডেলত, স্ক্ৰীণ মিৰ'ৰিং অন হৈ থাকিলেহে এই বৈশিষ্ট্যটো উপলব্ধ হয়। অধিক জানিবলৈ &lt;a href=milink://com.milink.service/specification>\"সহায়\"&lt;/a> দৰ্শন কৰক।&lt;/Data>"</string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. আপোনাৰ ম'বাইল ডিভাইচ আৰু টিভি দুয়োটা একেটা ৱাই-ফাই নেটৱৰ্কলৈ সংযোগ কৰক।&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. কিছুমান টিভি মডেলত, স্ক্ৰীণ মিৰ'ৰিং অন হৈ থাকিলেহে এই বৈশিষ্ট্যটো উপলব্ধ হয়। অধিক জানিবলৈ &lt;a href=milink://com.milink.service/specification>\"সহায়\"&lt;/a> দৰ্শন কৰক।"</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">ঠিক</string>
     <string name="dialog_only_suport_content">"ফটো, ভিডিঅ', বা সংগীত ষ্ট্ৰীম কৰক"</string>
     <string name="dialog_open_wifi_bt">অন কৰক</string>
@@ -459,6 +454,7 @@
     <string name="err_toast_msg_retry_later">"কাৰ্যটো সম্পাদন কৰিব পৰা নগ'ল। এক বা দুই মিনিট অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।"</string>
     <string name="err_toast_msg_try_switch_network">"আপোনাৰ ম'বাইল ডিভাইচ আৰু কম্পিউটাৰৰ দুয়োটাকে একেটা WLAN নেটৱৰ্কলৈ সংযোগ কৰক"</string>
     <string name="evening">আবেলি</string>
+    <string name="file_deleted">মূল ফাইল বিলোপ কৰা হৈছিল</string>
     <string name="find_device_close">বুজি পালো</string>
     <string name="find_device_notification_content_phone">%1$s ই %2$s ব্যৱহাৰ কৰি এই ডিভাইচ বিচাৰি আছে। ধ্বনি বজোৱা বন্ধ কৰিবলৈ আনলক কৰক।</string>
     <string name="find_device_notification_content_single_phone">%1$s ব্যৱহাৰ কৰি কোনোবাই এই ডিভাইচ বিচাৰি আছে। ধ্বনি বজোৱা বন্ধ কৰিবলৈ আনলক কৰক।</string>
@@ -529,14 +525,14 @@
     <string name="global_dialog_nearbydevice_permission_message">"Xiaomi আন্তঃসংযোগশীলতা সেৱাসমূহে কাষৰীয়া ডিভাইচসমূহ আৱিস্কাৰ কৰিবলৈ সেইসমূহলৈ সংযোগ কৰাৰ অনুমতি লাভ কৰা দৰকাৰ। Xiaomi আন্তঃসংযোগশীলতা সেৱাসমূহ স্বাভাৱিকভাৱে ব্যৱহাৰ কৰাত সক্ষম হ'বলৈ ছেটিংছত এই অনুমতি মঞ্জুৰ কৰক।"</string>
     <string name="global_dialog_nearbydevice_permission_title">অনুমতিৰ প্ৰয়োজন</string>
     <string name="global_privacy">চুক্তি আৰু চৰ্তসমূহ</string>
-    <string name="global_privacy_detail">"&lt;Data>এই এপটো ব্যৱহাৰ কৰাৰ পূৰ্বে আমাৰ &lt;a href=%1$s>ব্যৱহাৰকাৰীৰ চুক্তি&lt;/a> আৰু &lt;a href=%2$s>গোপনীয়তাৰ নীতি&lt;/a> পঢ়ক আৰু সন্মত হওক।&lt;br>যদি আপুনি ইতিপূৰ্বে উল্লিখিত সেৱাসমূহৰ ব্যৱহাৰত সন্মত নহয়, তেন্তে আপুনি এই এপটোৰ কিছুমান বৈশিষ্ট্য ব্যৱহাৰ কৰিবলৈ সক্ষম নহ'ব; অৱশ্যে ইয়াৰ প্ৰাথমিক কাৰ্যক্ষমতা আপোনাৰ বাবে উপলব্ধ হৈ থাকিব।&lt;/Data>"</string>
+    <string name="global_privacy_detail"><Data>"এই এপটো ব্যৱহাৰ কৰাৰ পূৰ্বে আমাৰ &lt;a href=%1$s>ব্যৱহাৰকাৰীৰ চুক্তি&lt;/a> আৰু &lt;a href=%2$s>গোপনীয়তাৰ নীতি&lt;/a> পঢ়ক আৰু সন্মত হওক।&lt;br>যদি আপুনি ইতিপূৰ্বে উল্লিখিত সেৱাসমূহৰ ব্যৱহাৰত সন্মত নহয়, তেন্তে আপুনি এই এপটোৰ কিছুমান বৈশিষ্ট্য ব্যৱহাৰ কৰিবলৈ সক্ষম নহ'ব; অৱশ্যে ইয়াৰ প্ৰাথমিক কাৰ্যক্ষমতা আপোনাৰ বাবে উপলব্ধ হৈ থাকিব।"</Data></string>
     <string name="global_privacy_explain">কাষ্টিঙলৈ স্বাগতম! এই এপটোৱে নিম্নলিখিত সেৱাসমূহ প্ৰদান কৰে:</string>
     <string name="global_privacy_feature">"হ্ৰাসকৃত উইণ্ড'ৰ ব্যৱহাৰ, স্ক্ৰীণ অফ কৰি কাষ্টিং, আৰু ব্যক্তিগত আইটেমসমূহ লুকুৱায়।"</string>
     <string name="global_privacy_main">আপোনাৰ ফোনৰ স্ক্ৰীণৰ পৰা আইটেমসমূহ এখন ডাঙৰ বাহ্যিক মনিটৰলৈ প্ৰক্ষেপন।</string>
     <string name="global_privacy_negative">সন্মত নহও</string>
     <string name="global_privacy_positive">সন্মত</string>
     <string name="global_privacy_screencast">"ৰেকৰ্ডিং বা কাষ্টিং কৰি থাকোতে, এই বৈশিষ্ট্যটো প্ৰদান কৰা সেৱাটোৱে অডিঅ', পাছৱৰ্ডসমূহ, পৰিশোধৰ তথ্য, ফটো, আৰু বাৰ্তাসমূহৰ দৰে স্পৰ্শকাতৰ তথ্যক সামৰি আপোনাৰ স্ক্ৰীণত প্ৰদৰ্শিত বা আপোনাৰ ডিভাইচত চলোৱা যিকোনো স্পৰ্শকাতৰ তথ্য কেপছাৰ কৰিব পাৰে।"</string>
-    <string name="global_privacy_tip">&lt;Data>আপোনাক সাধাৰণ সেৱাসমূহ প্ৰদান কৰিবলৈ আৰু কাষ্টিং প্ৰক্ৰিয়া সৰ্বোৎকৃষ্ট কৰিবলৈ আমি প্ৰয়োজনীয় ব্যক্তিগত তথ্য সংগ্ৰহ কৰা প্ৰয়োজন। আমি সংগৃহীত তথ্য কিদৰে ব্যৱহাৰ কৰো আপুনি সেয়া আমাৰ &lt;a href=%1$s>গোপনীয়তাৰ নীতি&lt;/a>ত জানিব পাৰে। আপুনি যিকোনো সময়তে ছেটিংছত গোপনীয়তাৰ নীতিলৈ সন্মতি প্ৰত্যাহাৰ কৰিব পাৰে।&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>আপোনাক সাধাৰণ সেৱাসমূহ প্ৰদান কৰিবলৈ আৰু কাষ্টিং প্ৰক্ৰিয়া সৰ্বোৎকৃষ্ট কৰিবলৈ আমি প্ৰয়োজনীয় ব্যক্তিগত তথ্য সংগ্ৰহ কৰা প্ৰয়োজন। আমি সংগৃহীত তথ্য কিদৰে ব্যৱহাৰ কৰো আপুনি সেয়া আমাৰ &lt;a href=%1$s>গোপনীয়তাৰ নীতি&lt;/a>ত জানিব পাৰে। আপুনি যিকোনো সময়তে ছেটিংছত গোপনীয়তাৰ নীতিলৈ সন্মতি প্ৰত্যাহাৰ কৰিব পাৰে।</Data></string>
     <string name="hang_up">স্ক্ৰীণ অফ কৰি কাষ্ট কৰক</string>
     <string name="hang_up_alert_dialog_content">আপোনাৰ ডিভাইচৰ স্ক্ৰীণখন অফ হৈ থাকোতে কাষ্টিং কৰি থাকক। এইটো বৈশিষ্ট্যই পাৱাৰৰ খৰচ হ্ৰাস কৰে। স্ক্ৰীণখন পুনৰ অন কৰিবলৈ পাৱাৰ বুটামটো টিপক।</string>
     <string name="hang_up_alert_dialog_neg">বাতিল</string>
@@ -701,9 +697,10 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">"আপুনি ইনকগ্নিত' হৈ থাকোতে প্লেবেক স্থানান্তৰ কৰিব নোৱাৰি। প্ৰথমে ইনকগ্নিত' ম'ড অফ কৰক।"</string>
     <string name="invisible_mode_dialog_pos">অফ কৰক</string>
     <string name="invisible_mode_dialog_title">"আপুনি ইনকগ্নিত'"</string>
-    <string name="is_creating_camera_cooperation">Unlock device to connect</string>
     <string name="keyguard_security_setting_privacy_policy">গোপনীয়তাৰ নীতি</string>
     <string name="local_camera_device">This device</string>
+    <string name="local_device_camera">এই ডিভাইচ</string>
+    <string name="local_hotspot_opening">এই ডিভাইচটোৰ হটস্পট অফ কৰক আৰু পুনৰ চেষ্টা কৰক</string>
     <string name="message_connection_interrupted">Make sure your computer and tablet are within connection range and have Bluetooth and WLAN turned on. To continue, start the task on your computer again.</string>
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
@@ -820,6 +817,13 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="onehop_mirror_guide_message_text_2">"আপোনাৰ কম্পিউটাৰলৈ স্থানান্তৰ কৰিবলৈ গেলাৰী বা ফাইল মেনেজাৰৰ পৰা ফটো, ভিডিঅ' আৰু অন্য ফাইল চয়ন কৰক।"</string>
     <string name="onehop_mirror_guide_message_title">Xiaomi আন্তঃসংযোগশীলতা</string>
     <string name="open_game_accelerate">খেল টাৰ্বো অন কৰক</string>
+    <string name="open_wlan">ৱাই-ফাই অন কৰক</string>
+    <string name="open_wlan_china">WLAN অন কৰক</string>
+    <string name="open_wlan_known">বুজি পালো</string>
+    <string name="open_wlan_other">আন্তঃসংযোগশীলতা বৈশিষ্ট্যসমূহ ব্যৱহাৰ কৰিবলৈ %1$sত ৱাই-ফাই অন কৰক।</string>
+    <string name="open_wlan_other_china">আন্তঃসংযোগশীলতা বৈশিষ্ট্যসমূহ ব্যৱহাৰ কৰিবলৈ %1$sত WLAN অন কৰক।</string>
+    <string name="open_wlan_self">আন্তঃসংযোগশীলতা বৈশিষ্ট্যসমূহ ব্যৱহাৰ কৰিবলৈ ৱাই-ফাই অন কৰক। এতিয়া অন কৰিবনে?</string>
+    <string name="open_wlan_self_china">আন্তঃসংযোগশীলতা বৈশিষ্ট্যসমূহ ব্যৱহাৰ কৰিবলৈ WLAN অন কৰক। এতিয়া অন কৰিবনে?</string>
     <string name="paipai_connect_btn_text">"কৰা হ'ল"</string>
     <string name="paipai_connect_tv1_text">ডিভাইচলৈ সংযোজিত</string>
     <string name="paipai_connect_tv2_text">স্থানান্তৰিত ডাটা</string>
@@ -1009,7 +1013,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="privacy_agree">সন্মত</string>
     <string name="privacy_confirm_revoke_and_exit_btn">প্ৰত্যাহাৰ</string>
     <string name="privacy_detail">আপুনি জাৰী ৰখাৰ পূৰ্বে এই এপটোক ইণ্টাৰনেটলৈ সংযোগৰ অনুমতি দিয়ক আৰু আৱশ্যকীয় অনুমতিসমূহ মঞ্জুৰ কৰক।</string>
-    <string name="privacy_detail_extra">&lt;Data>কিছুমান বৈশিষ্ট্য তৃতীয় পক্ষৰ সেৱা প্ৰদানকাৰী HappyCastৰ দ্বাৰা প্ৰদানিত। এই বৈশিষ্ট্যটো ব্যৱহাৰৰ পূৰ্বে &lt;a href=%1$s>HappyCast গোপনীয়তাৰ নীতি&lt;/a> আৰু &lt;a href=%2$s>HappyCast আইনী বিবৃতি&lt;/a> পঢ়ক আৰু সন্মত হওক।&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>কিছুমান বৈশিষ্ট্য তৃতীয় পক্ষৰ সেৱা প্ৰদানকাৰী HappyCastৰ দ্বাৰা প্ৰদানিত। এই বৈশিষ্ট্যটো ব্যৱহাৰৰ পূৰ্বে &lt;a href=%1$s>HappyCast গোপনীয়তাৰ নীতি&lt;/a> আৰু &lt;a href=%2$s>HappyCast আইনী বিবৃতি&lt;/a> পঢ়ক আৰু সন্মত হওক।</Data></string>
     <string name="privacy_explain">কাষ্টিঙলৈ স্বাগতম! কাষ্টিঙে আপোনাৰ ফোনৰ স্ক্ৰীণৰ পৰা আইটেমসমূহ এটা ডাঙৰ বাহ্যিক মনিটৰলৈ প্ৰক্ষেপ কৰিবলৈ দিয়ে। স্বাভাৱিকভাৱে কাম কৰিবলৈ এই এপটোৱে ইণ্টাৰনেটলৈ সংযোগ কৰা প্ৰয়োজন আৰু নিম্নলিখিত অনুমতিসমূহ লাভ কৰা দৰকাৰ।</string>
     <string name="privacy_give_up_revoke_btn">বাতিল</string>
     <string name="privacy_i_know_btn">জাৰী ৰাখক</string>
@@ -1034,7 +1038,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">কাষৰীয়া উপলব্ধ ডিভাইচ বিচাৰিবৰ বাবে</string>
     <string name="privacy_permission_wlan_desc_china">কাষৰীয়া উপলব্ধ ডিভাইচ বিচাৰিবৰ বাবে</string>
-    <string name="privacy_phone_read_theme_privacy_policy">&lt;Data>মই \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Xiaomi আন্তঃসংযোগশীলতাৰ গোপনীয়তাৰ নীতিলৈ সন্মতি প্ৰত্যাহাৰৰ বিবৃতি&lt;/a>&lt;/font>\" পঢ়িলো আৰু সন্মত হৈছো।&lt;/Data></string>
+    <string name="privacy_phone_read_theme_privacy_policy"><Data>মই \"&lt;font color=\"#8C93B0\">&lt;/color>&lt;a href=\"%1$s\">Xiaomi আন্তঃসংযোগশীলতাৰ গোপনীয়তাৰ নীতিলৈ সন্মতি প্ৰত্যাহাৰৰ বিবৃতি&lt;/a>&lt;/font>\" পঢ়িলো আৰু সন্মত হৈছো।</Data></string>
     <string name="privacy_positive">সন্মত</string>
     <string name="privacy_read_statement">প্ৰথমে চুক্তি আৰু চৰ্তসমূহত সন্মত হওক</string>
     <string name="privacy_revoke_agree_detail_content">"%1$d. আপুনি জাৰী ৰখাৰ পূৰ্বে সন্মতি প্ৰত্যাহাৰ কৰাৰ অধিকাৰ আপোনাৰ থকাটো নিশ্চিত কৰিব।
@@ -1064,11 +1068,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="privacy_setting_show_lelink_policy">HappyCast গোপনীয়তাৰ নীতি দৰ্শন কৰক</string>
     <string name="privacy_setting_show_policy">গোপনীয়তাৰ নীতি দৰ্শন কৰক</string>
     <string name="privacy_setting_show_user_agreement">ব্যৱহাৰকাৰীৰ চুক্তি দৰ্শন কৰক</string>
-    <string name="privacy_text_1">"&lt;Data>কাষ্টিঙলৈ স্বাগতম! কাষ্টিঙে আপোনাৰ ফোনৰ স্ক্ৰীণৰ পৰা আইটেমসমূহ এখন ডাঙৰ বাহ্যিক মনিটৰলৈ প্ৰক্ষেপ কৰাৰ অনুমতি দিয়ে।
+    <string name="privacy_text_1"><Data>"কাষ্টিঙলৈ স্বাগতম! কাষ্টিঙে আপোনাৰ ফোনৰ স্ক্ৰীণৰ পৰা আইটেমসমূহ এখন ডাঙৰ বাহ্যিক মনিটৰলৈ প্ৰক্ষেপ কৰাৰ অনুমতি দিয়ে।
 আমি প্ৰযোজ্য আইন, বিধিনিয়ম আৰু গোপনীয়তাৰ নীতি অনুসৰি আপোনাৰ ব্যক্তিগত তথ্যসমূহ সুৰক্ষিত কৰিম। কিছুমান বৈশিষ্ট্য তৃতীয় পক্ষৰ সেৱা প্ৰদানকাৰী HappyCast-ৰ দ্বাৰা প্ৰদানিত। এই বৈশিষ্ট্যটো ব্যৱহাৰৰ পূৰ্বে &lt;a href=%2$s>HappyCast আইনী বিবৃতি&lt;/a> আৰু &lt;a href=%1$s>HappyCast গোপনীয়তাৰ নীতি&lt;/a> পঢ়ক আৰু সন্মত হওক।
-স্বাভাৱিকভাৱে কাম কৰিবলৈ এই এপটোৱে ইণ্টাৰনেটলৈ সংযোগ কৰা আৰু আপোনাৰ ব্যক্তিগত তথ্য সংগ্ৰহৰ বাবে ইয়াক নিম্নলিখিত অনুমতিসমূহৰ প্ৰয়োজন:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>আপুনি এনে অনুমতি মঞ্জুৰ বা আপোনাৰ ব্যক্তিগত তথ্য ভাগ-বতৰা বা আপলোড কৰিবলৈ সন্মত নহ'লে, এই এপটো ব্যৱহাৰ কৰিবলৈ সক্ষম নহ'ব। তেনে ক্ষেত্ৰত আপুনি এই এপটো আনইনষ্টল, ছেটিংছত ছাইন আউট বা অনুমতি প্ৰতিবন্ধিত কৰিবলৈ পচন্দ কৰিব পাৰে।
-এই বৈশিষ্ট্যটো ব্যৱহাৰৰ পূৰ্বে আমাৰ &lt;a href=%1$s>ব্যৱহাৰকাৰী চুক্তি&lt;/a> আৰু &lt;a href=%2$s>গোপনীয়তাৰ নীতি&lt;/a> পঢ়ক আৰু সন্মত হওক।&lt;/Data>"</string>
+স্বাভাৱিকভাৱে কাম কৰিবলৈ এই এপটোৱে ইণ্টাৰনেটলৈ সংযোগ কৰা আৰু আপোনাৰ ব্যক্তিগত তথ্য সংগ্ৰহৰ বাবে ইয়াক নিম্নলিখিত অনুমতিসমূহৰ প্ৰয়োজন:"</Data></string>
+    <string name="privacy_text_2"><Data>"আপুনি এনে অনুমতি মঞ্জুৰ বা আপোনাৰ ব্যক্তিগত তথ্য ভাগ-বতৰা বা আপলোড কৰিবলৈ সন্মত নহ'লে, এই এপটো ব্যৱহাৰ কৰিবলৈ সক্ষম নহ'ব। তেনে ক্ষেত্ৰত আপুনি এই এপটো আনইনষ্টল, ছেটিংছত ছাইন আউট বা অনুমতি প্ৰতিবন্ধিত কৰিবলৈ পচন্দ কৰিব পাৰে।
+এই বৈশিষ্ট্যটো ব্যৱহাৰৰ পূৰ্বে আমাৰ &lt;a href=%1$s>ব্যৱহাৰকাৰী চুক্তি&lt;/a> আৰু &lt;a href=%2$s>গোপনীয়তাৰ নীতি&lt;/a> পঢ়ক আৰু সন্মত হওক।"</Data></string>
     <string name="privacy_text_pemission">"　　•প্ৰতিচ্ছৱিসমূহ এটা বাহ্যিক মনিটৰলৈ প্ৰক্ষেপ কৰিবলৈ সেইসমূহলৈ প্ৰৱেশ আৰু সংৰক্ষণ কৰে
 　　•অডিঅ' বাহ্যিক ডিভাইচলৈ কাষ্ট কৰিবলৈ কল আৰু অডিঅ' ৰেকৰ্ড কৰে
 　　•আপোনাৰ ডিভাইচ চিনাক্ত কৰিবলৈ ফোন নম্বৰ, IMEI, আৰু IMSI-লৈ প্ৰৱেশ কৰে
@@ -1080,7 +1084,6 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="private_protect">ব্যক্তিগত আইটেম লুকুৱাওক</string>
     <string name="prompt_camera_associate_failed">"সংযোগ কৰিব পৰা নগ'ল"</string>
     <string name="prompt_camera_disassociate">"সংযোগহীন হ'ল"</string>
-    <string name="prompt_camera_guide">%s camera is available</string>
     <string name="prompt_camera_ocuppied">Camera is busy</string>
     <string name="prompt_camera_prepare">সংযোগ কৰি আছে…</string>
     <string name="prompt_camera_success">সংযোজিত</string>
@@ -1091,6 +1094,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="quick_settings_device_dialog_positive">অন কৰক</string>
     <string name="quick_settings_device_dialog_title">কাষৰীয়া ডিভাইচ আৱিষ্কাৰ কৰক</string>
     <string name="quick_settings_notification_control_center">অধিসূচনা আৰু স্থিতি দণ্ডিকা</string>
+    <string name="remote_hotspot_opening">অন্য ডিভাইচটোৰ হটস্পট অফ কৰক আৰু পুনৰ চেষ্টা কৰক</string>
     <string name="remote_speaker_list">প্লেসূচী</string>
     <string name="remote_speaker_loop">ক্ৰমত চলাওক</string>
     <string name="remote_speaker_random">সানমিহলি</string>
@@ -1120,12 +1124,12 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="screen_projection_entrance_list">উপলব্ধ ডিভাইচসমূহ দৰ্শন কৰক</string>
     <string name="screen_projection_entrance_list_new">কাষ্টিংৰ বাবে উপলব্ধ ডিভাইচসমূহৰ সূচী দৰ্শন কৰক</string>
     <string name="screen_projection_example_document_hint_miui15">"*আইটেমসমূহ এটা কাষৰীয়া টিভিত প্ৰদৰ্শিত হ'ব"</string>
-    <string name="screen_projection_example_document_hint_new">&lt;Data>*এই বৈশিষ্ট্য ব্যৱহাৰ কৰিবলৈ, ফাইলসমূহ > নথিসমূহলৈ যাওক আৰু &lt;img src=../drawable/ic_cast_icon_photo.png/> আইকনটো টিপক।&lt;/Data></string>
+    <string name="screen_projection_example_document_hint_new"><Data>*এই বৈশিষ্ট্য ব্যৱহাৰ কৰিবলৈ, ফাইলসমূহ > নথিসমূহলৈ যাওক আৰু &lt;img src=../drawable/ic_cast_icon_photo.png/> আইকনটো টিপক।</Data></string>
     <string name="screen_projection_example_document_summary">আপোনাৰ ফোনটো ব্যৱহাৰ কৰি শ্লাইড সলনি বা টোকাসমূহ দৰ্শন কৰি থাকোতে উপস্থাপনসমূহ এটা বাহ্যিক মনিটৰত প্ৰদৰ্শন কৰক। এইটো বৈশিষ্ট্য ব্যৱহাৰৰ বাবে ফাইল মেনেজাৰ > নথি-লৈ যাওক।</string>
     <string name="screen_projection_example_document_summary_miui15">"এই ডিভাইচটো ৰিম'ট হিচাপে ব্যৱহাৰ কৰোতে উপস্থাপন শ্লাইডসমূহ এটা টিভিত দেখুৱাওক"</string>
     <string name="screen_projection_example_document_title">নথিপত্ৰ</string>
     <string name="screen_projection_example_gallery_hint_miui15">"*ফটো আৰু ভিডিঅ' কাষ্ট কৰাত সক্ষম হ'বলৈ, গেলাৰীত এটা আইটেম চয়ন কৰক, \"ভাগ-বতৰা\" টেপ কৰক, আৰু তাৰপিছত \"কাষ্ট\" আইকনটো টেপ কৰক।"</string>
-    <string name="screen_projection_example_gallery_hint_new">&lt;Data>*এই বৈশিষ্ট্য ব্যৱহাৰ কৰিবলৈ, গেলাৰীলৈ যাওক, এখন ফটো চয়ন কৰক, নিম্নৰ দণ্ডিকাত \"প্ৰেৰণ\" টেপ কৰক, আৰু &lt;img src=../drawable/ic_cast_icon_photo.png/> আইকনটো টেপ কৰক।&lt;/Data></string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*এই বৈশিষ্ট্য ব্যৱহাৰ কৰিবলৈ, গেলাৰীলৈ যাওক, এখন ফটো চয়ন কৰক, নিম্নৰ দণ্ডিকাত \"প্ৰেৰণ\" টেপ কৰক, আৰু &lt;img src=../drawable/ic_cast_icon_photo.png/> আইকনটো টেপ কৰক।</Data></string>
     <string name="screen_projection_example_gallery_summary">গেলাৰী এপৰ এটা আইটেম এটা বাহ্যিক মনিটৰত প্ৰদৰ্শনৰ বাবে সেইটোৰ তলত থকা ভাগ-বতৰা বুটামটো টেপ কৰক।</string>
     <string name="screen_projection_example_gallery_summary_miui15">"আপোনাৰ ফটো আৰু ভিডিঅ'সমূহ টিভি স্ক্ৰীণত দৰ্শন কৰক"</string>
     <string name="screen_projection_example_gallery_title">"ফটো আৰু ভিডিঅ'সমূহ"</string>
@@ -1153,6 +1157,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="settings_cross_notify_power">বেটাৰী কম</string>
     <string name="settings_cross_notify_system">ছিষ্টেম অধিসূচনাসমূহ</string>
     <string name="settings_cross_notify_tips">ডিভাইচটো লক হৈ থাকোতে কাষৰীয়া টেবলেট আৰু কম্পিউটাৰত অধিসূচনাসমূহ দেখুৱাওক</string>
+    <string name="sever_stream_beauty">সুন্দৰকৰণ</string>
     <string name="sever_stream_control_btn_exit">বন্ধ</string>
     <string name="sever_stream_control_btn_pause">বিৰাম</string>
     <string name="sever_stream_control_btn_preview">পূৰ্বলোকন</string>
@@ -1161,6 +1166,9 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="sever_stream_push_state_idle2">পূৰ্বলোকন অফ হৈ আছে</string>
     <string name="sever_stream_push_state_pause">বিৰামিত</string>
     <string name="sever_stream_push_state_pushing">কেমেৰা ফীড ভাগ-বতৰা কৰি আছে…</string>
+    <string name="sever_switch_camera">সন্মুখ আৰু পিছফালৰ কেমেৰাৰ মাজত সলনি কৰক</string>
+    <string name="sever_switch_camera_front">সন্মূখৰ কেমেৰা</string>
+    <string name="sever_switch_camera_rear">পিছফালৰ কেমেৰা</string>
     <string name="share_desktop_with_car">গৃহ স্ক্ৰীণ গাড়ীলৈ ভাগ-বতৰা কৰক</string>
     <string name="share_desktop_with_car_ing">স্ক্ৰীণ গাড়ীৰ সৈতে ভাগ-বতৰা কৰি আছে…</string>
     <string name="show_result_on_tv">টিভিত ফলাফল দৰ্শন কৰক</string>
@@ -1243,7 +1251,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="today">আজি</string>
     <string name="tomorrow">অহাকালি</string>
     <string name="trust_device_desc">"এই ডিভাইচসমূহ কাষত থাকিলে সেইসমূহ প্ৰথমে ইয়াত দৃশ্যমান হ'ব"</string>
-    <string name="trust_device_dialog_desc">"&lt;Data>আপুনি %sক বিশ্বাসী ৰূপে চিহ্নিত কৰিলে ওচৰত থকা অৱস্থাত উপলব্ধ ডিভাইচসমূহৰ প্ৰথমত দৃশ্যমান হ'ব।&lt;br>&lt;br>আপুনি ছেটিংছত &lt;a href=milink://com.milink.service/trust>বিশ্বাসী ডিভাইচ ব্যৱস্থাপন&lt;/a> কৰিব পাৰে।&lt;/Data>"</string>
+    <string name="trust_device_dialog_desc"><Data>"আপুনি %sক বিশ্বাসী ৰূপে চিহ্নিত কৰিলে ওচৰত থকা অৱস্থাত উপলব্ধ ডিভাইচসমূহৰ প্ৰথমত দৃশ্যমান হ'ব।&lt;br>&lt;br>আপুনি ছেটিংছত &lt;a href=milink://com.milink.service/trust>বিশ্বাসী ডিভাইচ ব্যৱস্থাপন&lt;/a> কৰিব পাৰে।"</Data></string>
     <string name="trust_device_dialog_pos">বিশ্বাস</string>
     <string name="trust_device_dialog_title">এই ডিভাইচক বিশ্বাস কৰিবনে?</string>
     <string name="trust_device_manager">বিশ্বাসী ডিভাইচ প্ৰৱন্ধন কৰক</string>
@@ -1261,6 +1269,12 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="upgrade_check_upgrade">আপডেট</string>
     <string name="upgrade_checking">আপডেটৰ বাবে পৰীক্ষা কৰি আছে…</string>
     <string name="upgrade_edit_mijia">সম্পাদনা</string>
+    <string name="upgrade_error_connect_api_server_fail">আপোনাৰ নেটৱৰ্ক ছেটিংছ পৰীক্ষা আৰু পুনৰ চেষ্টা কৰক</string>
+    <string name="upgrade_error_download_ip_intercepted">অত্যাধিক সংখ্যক অনুৰোধ। কেইমিনিটমান অপেক্ষা আৰু পুনৰ চেষ্টা কৰক।</string>
+    <string name="upgrade_error_download_start_fall">"এপ ডাউনলোড নহ'ল। পুনৰ চেষ্টা কৰক।"</string>
+    <string name="upgrade_error_install_fail_invalid_apk">"এপ ইনষ্টল কৰিব পৰা নগ'ল। পুনৰ চেষ্টা কৰক।"</string>
+    <string name="upgrade_error_installparse_fail">"এপ ইনষ্টল কৰিব পৰা নগ'ল"</string>
+    <string name="upgrade_error_no_enough_space_before_download">পৰ্যাপ্তহীন সংগ্ৰহণ। সংগ্ৰহণ স্থান মুক্ত কৰক আৰু পুনৰ চেষ্টা কৰক।</string>
     <string name="upgrade_help_menu">সহায়</string>
     <string name="upgrade_help_title">আপডেট কৰাত সহায়</string>
     <string name="upgrade_log_title">更新日志</string>
