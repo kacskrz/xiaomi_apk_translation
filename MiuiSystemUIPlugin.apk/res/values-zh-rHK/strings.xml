@@ -58,6 +58,7 @@
     <string name="auto_brightness_on">已打開自動亮度</string>
     <string name="auto_disable_screenbuttons_disable_toast_text">手機觸控按鍵已鎖定，按兩下任意點擊按鍵退出</string>
     <string name="auto_disable_screenbuttons_enable_toast_text">手機觸控按鍵已恢復</string>
+    <string name="brightness_setting_panel_title">亮度設定面板</string>
     <string name="bt_is_off">藍牙已關閉</string>
     <string name="clearable_edittext_clear_description">清空</string>
     <string name="close">關閉</string>
@@ -182,8 +183,6 @@
     <string name="hearing_assist_transmission_tips_continue">繼續使用</string>
     <string name="hearing_assist_transmission_tips_summary">手機咪高峰采集聲音，並傳給已連線的藍牙耳機即時播放。是否繼續使用？</string>
     <string name="hearing_assist_transmission_tips_title">耳機輔助收聽</string>
-    <string name="kddi_miui_toast_zen_standard_to_off">已關閉靜音模式，來電、通知鈴聲已恢復</string>
-    <string name="kddi_miui_toast_zen_to_standard">已開啟靜音模式，來電、通知鈴聲已靜音</string>
     <string name="loading">狀態未知</string>
     <string name="mi_smart_hub_entry_title">融合裝置中心</string>
     <string name="midnight">半夜</string>
@@ -194,6 +193,8 @@
     <string name="miplay_accessibility_play">播放</string>
     <string name="miplay_accessibility_prev">上一首</string>
     <string name="miplay_accessibility_seekbar">進度條</string>
+    <string name="miplay_accessibility_video_fastForward">快進%d秒</string>
+    <string name="miplay_accessibility_video_rewind">快退%d秒</string>
     <string name="miplay_accessibility_volume">音量</string>
     <string name="miplay_bluetooth_share_des_text">"小米耳機請開蓋或長按充電盒上的按鈕%d秒
 非小米耳機請進入設定-藍牙頁重設耳機後連接"</string>
@@ -207,38 +208,22 @@
     <string name="miplay_device_full_name">%1$s的%2$s</string>
     <string name="miplay_headset_lc3_hint">關閉耳機LC3模式後，音訊輸出可切換回本機</string>
     <string name="miplay_not_support_hint">暫不支援</string>
+    <string name="miplay_service_error_not_support">不支援該操作</string>
     <string name="miplay_service_timeout_toast">連線超時，請稍後重試</string>
     <string name="miplay_song_title_empty">暫無歌名</string>
     <string name="miplay_switch_local_device_when_in_audio_share_hint">正在使用兩副耳機一起聽，請結束後再試</string>
     <string name="miplay_tv_cast_retry_toast">請退出電視投影後重試</string>
     <string name="miui_dnd_count_down">滑動定時</string>
-    <string name="miui_dnd_count_down_time">"勿擾定時
-%s"</string>
     <string name="miui_dnd_mode_off">勿擾已關閉</string>
     <string name="miui_dnd_mode_on">勿擾已開啟</string>
-    <string name="miui_guide_dialog_button_negative_text">去設定</string>
-    <string name="miui_guide_dialog_button_positive_text">確認</string>
-    <string name="miui_guide_dialog_message">在當前靜音模式下，音樂/影片等媒體音仍會發聲，若您希望靜音模式下仍隱藏媒體音，請點擊[去設定]</string>
-    <string name="miui_ringer_count_down">定時</string>
-    <string name="miui_ringer_count_down_time">定時: %s</string>
     <string name="miui_ringer_standard">靜音</string>
-    <string name="miui_ringer_standard_description">【靜音】禁止來電和通知鈴聲</string>
-    <string name="miui_ringer_status_close">已關閉</string>
-    <string name="miui_ringer_status_open">已開啟</string>
     <string name="miui_ringer_total">勿擾</string>
-    <string name="miui_ringer_total_description">【勿擾】禁止除鬧鈴外的一切發聲和震動</string>
     <string name="miui_screen_rotation_freeze_message">鎖定螢幕為橫向模式</string>
     <string name="miui_silent_mode_off">靜音已關閉</string>
     <string name="miui_silent_mode_on">靜音已開啟</string>
     <string name="miui_toast_zen_dnd_to_off">來電、通知提示已恢復</string>
-    <string name="miui_toast_zen_dnd_to_off_T">通知提示已恢復</string>
-    <string name="miui_toast_zen_standard_to_off">靜音模式已關閉</string>
-    <string name="miui_toast_zen_standard_to_off_when_shield_media">退出靜音模式，來電、通知、媒體音已恢復</string>
     <string name="miui_toast_zen_to_dnd">來電、通知不再提示</string>
-    <string name="miui_toast_zen_to_dnd_T">通知不再提示</string>
     <string name="miui_toast_zen_to_dnd_when_lock">鎖定螢幕時，來電和通知不再提示</string>
-    <string name="miui_toast_zen_to_standard">靜音模式已開啟</string>
-    <string name="miui_toast_zen_to_standard_when_shield_media">進入靜音模式，來電、通知、媒體音已禁止</string>
     <string name="miuix_access_state_desc">選中</string>
     <string name="miuix_appcompat_action_mode_deselect_all">取消全選</string>
     <string name="miuix_appcompat_action_mode_select_all">全選</string>
@@ -249,6 +234,7 @@
     <string name="miuix_appcompat_delete_description">刪除</string>
     <string name="miuix_appcompat_deselect_all">取消全選</string>
     <string name="miuix_appcompat_deselect_all_description">取消全選</string>
+    <string name="miuix_appcompat_edit">編輯</string>
     <string name="miuix_appcompat_search_action_mode_cancel">取消</string>
     <string name="miuix_appcompat_search_input_description">搜尋</string>
     <string name="miuix_appcompat_select_all">全選</string>
@@ -335,6 +321,7 @@
     <string name="noon">中午</string>
     <string name="not_set">未設定</string>
     <string name="notification_control_center">通知與控制中心</string>
+    <string name="notification_status_bar">通知與狀態列</string>
     <string name="offline">裝置離線</string>
     <string name="online">裝置線上</string>
     <string name="open_system_optimization">請先開啟系統優化開關</string>
@@ -365,6 +352,7 @@
     <string name="qs_open_night_mode_alert_summary">深色模式下，部分螢幕顯示功能會受到影響，關閉深色模式後即可恢復正常。</string>
     <string name="quick_settings_aisubtitles_label">即時字幕</string>
     <string name="quick_settings_aitranslate_label">小愛翻譯</string>
+    <string name="quick_settings_aitranslate_label_new">翻譯</string>
     <string name="quick_settings_autobrightness_label">自動亮度</string>
     <string name="quick_settings_batterysaver_label">省電模式</string>
     <string name="quick_settings_bluetooth_detail_empty_text">沒有可用的配對裝置</string>
@@ -401,6 +389,7 @@
     <string name="quick_settings_uwbsh_label">一指連</string>
     <string name="quick_settings_vibrate_label">震動</string>
     <string name="quick_settings_voice_trans_label">同聲傳譯</string>
+    <string name="quick_settings_voice_trans_label_new">對話翻譯</string>
     <string name="quick_settings_vowifi_label">WiFi通話</string>
     <string name="quick_settings_vowifi_sim1_label">WiFi通話SIM1</string>
     <string name="quick_settings_vowifi_sim2_label">WiFi通話SIM2</string>
@@ -517,6 +506,7 @@
     <string name="tuesday_shortest">二</string>
     <string name="v7_preference_off">關閉</string>
     <string name="v7_preference_on">開啟</string>
+    <string name="volume_adjust_panel_title">音量調節面板</string>
     <string name="volume_dialog_accessibility_dismissed_message">已隱藏音量控制項</string>
     <string name="volume_dialog_accessibility_shown_message">已顯示%s音量控制項。 向上滑動即可關閉。</string>
     <string name="wednesday">星期三</string>
