@@ -38,6 +38,7 @@
     <string name="appcirculate_toast_cancel">لغو شد</string>
     <string name="appcirculate_toast_connected">Started casting</string>
     <string name="appcirculate_toast_fail">به دستگاه دیگر تعویض نشد</string>
+    <string name="appcirculate_toast_high_temperature">صبر کنید تا دستگاه خنک شود</string>
     <string name="appcirculate_toast_loading">درحال تعویض به دستگاهی دیگر…</string>
     <string name="appcirculate_toast_not_support_device_pad">این برنامه در تبلت‌ها باز نمی‌شود</string>
     <string name="appcirculate_toast_not_support_device_pc">این برنامه در رایانه‌ها باز نمی‌شود</string>
@@ -48,14 +49,25 @@
     <string name="appcirculate_toast_success_2">درحال بازتاباندن در حالت خصوصی…</string>
     <string name="appcirculate_toast_success_3">درحال بازتاباندن…</string>
     <string name="ask_for_using_camera">برای اعطای مجوز قفل را باز کنید</string>
+    <string name="ask_for_using_camera_car">نمایشگر اصلی خودروی برقی در حال دسترسی به خوراک دوربین این دستگاه است. برای مدیریت گزینه‌ها قفل دستگاه را باز کنید.</string>
     <string name="ball_hint_connect_fail">این اقدام انجام نشد. چند دقیقه صبر کرده و سپس دوباره تلاش کنید.</string>
     <string name="ball_hint_text_loading">چند لحظه صبر کنید…</string>
     <string name="ball_hint_text_success">با موفقیت متصل شد</string>
     <string name="camera_associate_failed">"Couldn't connect to camera"</string>
     <string name="camera_associate_success">Camera connected</string>
+    <string name="camera_composed_button">ترکیب</string>
+    <string name="camera_composed_no_device">به نظر می‌رسد دستگاه در این نزدیکی نیست</string>
+    <string name="camera_composed_title">ترکیب با دوربین این دستگاه</string>
+    <string name="camera_composed_using_title">دوربین‌های ترکیب شده</string>
     <string name="camera_connect_fail">وصل نشد. دوباره تلاش کنید.</string>
+    <string name="camera_connecting">"%s wants to use this device's camera"</string>
     <string name="camera_disassociate">Disconnected from camera</string>
     <string name="camera_list_subtitle">تعویض دوربین‌ها</string>
+    <string name="camera_permission_dialog_message">به این برنامه اجازه استفاده از دوربین این دستگاه را بدهید. می‌توانید این مجوز را در تنظیمات بدهید.</string>
+    <string name="camera_permission_dialog_negative">لغو</string>
+    <string name="camera_permission_dialog_positive">تنظیمات</string>
+    <string name="camera_permission_dialog_title">نیازمند مجوز است</string>
+    <string name="camera_permission_timeout_toast">مهلت اتصال تمام شد. دوباره تلاش کنید.</string>
     <string name="camera_picker_title">دوربین‌های بین دستگاهی</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
@@ -314,8 +326,8 @@
     <string name="circulate_tv_capturing">درحال گرفتن عکس صفحه…</string>
     <string name="circulate_tv_is_authing_tip">در حال تایید دستگاه‌ها. چند دقیقه صبر کرده و سپس دوباره تلاش کنید.</string>
     <string name="circulate_tv_name">Xiaomi TV</string>
-    <string name="circulate_tv_power_alter_text">شما تنظیم کرده‌اید که تلویزیون‌تان خاموش و یا صفحه‌اش خاموش شود. کنترل‌ها و تلویزیون‌ها پس از خاموش شدن تلویزیون از اینجا ناپدید خواهند شد.</string>
-    <string name="circulate_tv_power_alter_title">توجه</string>
+    <string name="circulate_tv_power_alter_text">پس از خاموش شدن تلویزیون، کنترل از راه دور و تلویزیون از این صفحه ناپدید می‌شوند. خاموش شود؟</string>
+    <string name="circulate_tv_power_alter_title">خاموش کردن تلویزیون</string>
     <string name="circulate_video_capture_fail">عکس صفحه گرفته نشد</string>
     <string name="circulate_video_capture_success">یک عکس صفحه با موفقیت گرفته شد</string>
     <string name="circulate_video_retry_later">درحال تلاش برای کنترل تلویزیون…</string>
@@ -443,6 +455,7 @@
     <string name="empty" />
     <string name="enable_screen_projection_summary">بازتاباندن محتوای صفحه روی یک نمایشگر خارجی</string>
     <string name="enable_screen_projection_summary_new">صفحه دستگاه موبایل را روی تلویزیون‌ها و سایر نمایشگر‌های خارجی نزدیک بازتاب می‌دهد</string>
+    <string name="enable_screen_projection_summary_pad">صفحه تبلت را به تلویزیون یا دستگاه دیگری در اطراف ارسال کنید</string>
     <string name="eras_ad">میلادی</string>
     <string name="eras_bc">پیش از میلاد</string>
     <string name="err_toast_msg_audio_support_support_only">این دستگاه فقط از انتقال پخش صدا پشتیبانی می‌کند. کشیدن کارت صدا را آزمایش کنید.</string>
@@ -697,6 +710,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">هنگامی که در حالت ناشناس هستید نمی‌توانید بازپخش را انتقال دهید. ابتدا حالت ناشناس را خاموش کنید.</string>
     <string name="invisible_mode_dialog_pos">خاموش کردن</string>
     <string name="invisible_mode_dialog_title">شما ناشناس هستید</string>
+    <string name="is_creating_camera_cooperation">Unlock device to connect</string>
     <string name="keyguard_security_setting_privacy_policy">سیاست حفظ حریم خصوصی</string>
     <string name="local_camera_device">This device</string>
     <string name="local_device_camera">این دستگاه</string>
@@ -705,6 +719,10 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
     <string name="midnight">شب</string>
+    <string name="mihome_camera_device_not_available">نمی‌توان دستگاه‌های بیشتری را وصل کرد</string>
+    <string name="mihome_camera_device_offline">وصل نشد. دوربین آفلاین است.</string>
+    <string name="mihome_camera_device_sleep">از حالت خواب خارج شده و دوباره امتحان کنید</string>
+    <string name="mihome_camera_device_updating">دستگاه درحال به‌روزرسانی است. پس از تکمیل به‌روزرسانی، دوباره تلاش کنید.</string>
     <string name="miplay_accessibility_cast">انتخاب دستگاه</string>
     <string name="miplay_accessibility_cover">جلد</string>
     <string name="miplay_accessibility_next">آهنگ بعدی</string>
@@ -1113,6 +1131,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="screen_projection_characteristics">ویژگی‌های خاص</string>
     <string name="screen_projection_characteristics_cast_summary">بازتاباندن محتوای صفحه روی یک تلویزیون نزدیک</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">هنگام بازتاباندن، صفحه نمایش گوشی را خاموش می‌کند تا در باتری صرفه‌جویی شده و از داغ کردن جلوگیری شود</string>
+    <string name="screen_projection_characteristics_hang_up_summary_pad">برای کاهش مصرف برق و گرمای بیش از حد، صفحه نمایش را هنگام بازتاباندن فیلم خاموش کنید</string>
     <string name="screen_projection_characteristics_off_screen_summary">می‌توانید بازتاباندن را هنگام خاموش بودن صفحه گوشی خود ادامه دهید. این ویژگی مصرف برق را کاهش می‌دهد.</string>
     <string name="screen_projection_characteristics_off_screen_title">بازتاباندن با صفحه خاموش</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">اعلان‌های شناور، تماس‌های ورودی و سایر موارد خصوصی روی نمایشگر نمایش داده نمی‌شوند.</string>
@@ -1120,6 +1139,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="screen_projection_characteristics_private_summary_new">محافظت از حریم خصوصی شما: هنگام بازتاباندن، دستگاه شما اعلان‌های شناور، تماس‌های دریافتی و سایر موارد خصوصی را نمایش نخواهد داد</string>
     <string name="screen_projection_characteristics_small_window_summary">با کوچک‌سازی پنجره‌ای که درحال بازتاباندن شدن است از سایر ویژگی‌های گوشی خود استفاده کنید.</string>
     <string name="screen_projection_characteristics_small_window_summary_new">هنگام استفاده از سایر برنامه‌ها، صفحه نمایش را بازتابانده و محتوای آن را در یک پنجره شناور نمایش می‌دهد</string>
+    <string name="screen_projection_characteristics_small_window_summary_pad">برنامه ای را که می‌فرستید به عنوان یک پنجره شناور نمایش داده و از سایر برنامه‌ها در تبلت خود به طور معمول استفاده کنید</string>
     <string name="screen_projection_characteristics_small_window_title">کوچک‌سازی پنجره</string>
     <string name="screen_projection_entrance_list">نمایش دستگاه‌های موجود</string>
     <string name="screen_projection_entrance_list_new">نمایش فهرست دستگاه‌های در دسترس برای بازتاباندن</string>
@@ -1262,6 +1282,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="tuesday_short">سه‌شنبه</string>
     <string name="tuesday_shortest">سه‌شنبه</string>
     <string name="unlock_screen_to_authorize_camera">%s می‌خواهد از دوربین این دستگاه استفاده کند</string>
+    <string name="unlock_screen_to_authorize_camera_car">%s در حال دسترسی به دوربین این دستگاه استفاده کند</string>
     <string name="update">Update</string>
     <string name="upgrade_app_name_version">%1$s، %2$s</string>
     <string name="upgrade_cancel">لغو</string>
@@ -1290,6 +1311,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="upgrade_start_all">به‌روزرسانی</string>
     <string name="upgrade_title">به‌روزرسانی دستگاه‌های متصل</string>
     <string name="upgrade_toast_cannot_cancel_while_installing">正在安装中，不可中断</string>
+    <string name="upgrade_toast_login_error">«تنظیم منطقه زمانی خودکار» را در تنظیمات روشن کرده و دوباره امتحان کنید</string>
     <string name="upgrade_toast_no_wifi">متصل نشد</string>
     <string name="upgrade_tv_device_tip">*به‌روزرسانی‌ها توسط تلویزیون Xiaomi ارائه شده‌اند</string>
     <string name="upgrade_ver_can_upgrade">به‌روزرسانی موجود است</string>

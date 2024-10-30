@@ -38,6 +38,7 @@
     <string name="appcirculate_toast_cancel">বাতিল করা হয়েছে</string>
     <string name="appcirculate_toast_connected">কাস্টিং শুরু করা হয়েছে</string>
     <string name="appcirculate_toast_fail">অন্য ডিভাইসে যাওয়া যাবে না</string>
+    <string name="appcirculate_toast_high_temperature">ডিভাইস ঠান্ডা হওয়া অবধি অপেক্ষা করুন</string>
     <string name="appcirculate_toast_loading">অন্য ডিভাইসে সুইচ করা হচ্ছে…</string>
     <string name="appcirculate_toast_not_support_device_pad">এই অ্যাপটি ট্যাবলেটে খোলা যাবে না</string>
     <string name="appcirculate_toast_not_support_device_pc">এই অ্যাপটি কম্পিউটারে খোলা যাবে না</string>
@@ -48,14 +49,25 @@
     <string name="appcirculate_toast_success_2">প্রাইভেট মোডে কাসটিং করছে…</string>
     <string name="appcirculate_toast_success_3">কাস্ট করা হচ্ছে…</string>
     <string name="ask_for_using_camera">অনুমতি দিতে আনলক করুন</string>
+    <string name="ask_for_using_camera_car">এই EV-র প্রধান ডিসপ্লে এই ডিভাইসের ক্য়ামেরা ফিড অ্যাকসেস করছে। বিকল্প ম্যানেজ করতে আনলক করুন।</string>
     <string name="ball_hint_connect_fail">এই অ্যাকশনটা করা যায় নি। দু এক মিনিট অপেক্ষা করুন ও আবার চেষ্টা করুন।</string>
     <string name="ball_hint_text_loading">এক মুহূর্ত অপেক্ষা করুন…</string>
     <string name="ball_hint_text_success">সফলভাবে সংযুক্ত হয়েছে</string>
     <string name="camera_associate_failed">ক্যামেরার সাথে কানেক্ট করা যায় নি</string>
     <string name="camera_associate_success">Camera connected</string>
+    <string name="camera_composed_button">সমন্বিত</string>
+    <string name="camera_composed_no_device">দেখে মনে হচ্ছে ডিভাইসটি রেডি নয়</string>
+    <string name="camera_composed_title">এই ডিভাইসের ক্যামেরার সাথে সমন্বিত করুন</string>
+    <string name="camera_composed_using_title">সমন্বিত ক্য়ামেরা</string>
     <string name="camera_connect_fail">কানেক্ট করা যায়নি। আবার চেষ্টা করুন।</string>
+    <string name="camera_connecting">%s এই ডিভাইসের ক্যামেরা ব্যবহার করতে চায়</string>
     <string name="camera_disassociate">ক্যামেরা থেকে ডিসকানেক্ট করা হয়েছে</string>
     <string name="camera_list_subtitle">অন্য ক্যামেরাতে যান</string>
+    <string name="camera_permission_dialog_message">এই অ্যাপকে ডিভাইসের ক্যামেরা ব্যবহার করার অনুমতি দিন। আপনি সেটিংস থেকে এই অনুমতি দিতে পারেন।</string>
+    <string name="camera_permission_dialog_negative">বাতিল করুন</string>
+    <string name="camera_permission_dialog_positive">সেটিংস</string>
+    <string name="camera_permission_dialog_title">অনুমতি প্রয়োজন</string>
+    <string name="camera_permission_timeout_toast">কানেকশনের টাইম-শেষ। আবার চেষ্টা করুন।</string>
     <string name="camera_picker_title">ক্রস-ডিভাইস ক্যামেরা</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
@@ -314,8 +326,8 @@
     <string name="circulate_tv_capturing">স্ক্রিনশট নেওয়া হচ্ছে…</string>
     <string name="circulate_tv_is_authing_tip">এখন ডিভাইস যাচাই করা হচ্ছে। দু এক মিনিট অপেক্ষা করুন ও আবার চেষ্টা করুন।</string>
     <string name="circulate_tv_name">Xiaomi TV</string>
-    <string name="circulate_tv_power_alter_text">আপনি টিভির স্ক্রিন বন্ধ করা বা টিভি বন্ধ করা সেট করেছেন। রিমোট ও টিভি এখান থেকে আর দেখা যাবে না টিভি বন্ধ করার পরে।</string>
-    <string name="circulate_tv_power_alter_title">খেয়াল করবেন</string>
+    <string name="circulate_tv_power_alter_text">টিভি বন্ধ করে দিলে রিমোট কন্ট্রোল ও টিভি এই পেজ থেকে চলে যাবে। এখন বন্ধ করবেন?</string>
+    <string name="circulate_tv_power_alter_title">টি ভি বন্ধ করুন</string>
     <string name="circulate_video_capture_fail">স্ক্রিনশট নেওয়া গেল না</string>
     <string name="circulate_video_capture_success">স্ক্রিনশট সফলভাবে নেওয়া হয়েছে</string>
     <string name="circulate_video_retry_later">টিভি নিয়ন্ত্রণ করতে চাইছেন…</string>
@@ -443,6 +455,7 @@
     <string name="empty" />
     <string name="enable_screen_projection_summary">একটি বাহ্যিক মনিটরে স্ক্রিন কন্টেন্ট কাস্ট করুন</string>
     <string name="enable_screen_projection_summary_new">কাছেপিঠের টিভি ও অন্য এক্সটারনাল মনিটরে মোবাইল স্ক্রিন কাস্ট করুন</string>
+    <string name="enable_screen_projection_summary_pad">ট্যাবলেট স্ক্রিন কাছাকাছির টিভি ও অন্য ডিভাইসে কাস্ট করুন</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
     <string name="err_toast_msg_audio_support_support_only">এই ডিভাইসে শুধু অডিও প্লেব্য়াক কাজ করে। অডিও কার্ড টেনে নেওয়ার চেষ্টা করুন।</string>
@@ -697,6 +710,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">আপনি ছদ্মবেশী মোডে প্লেব্যাক ট্রান্সফার করতে পারবেন না। প্রথমে ছদ্মবেশী মোড বন্ধে করে দিন।</string>
     <string name="invisible_mode_dialog_pos">বন্ধ করুন</string>
     <string name="invisible_mode_dialog_title">আপনি ছদ্মবেশী মোডে আছেন</string>
+    <string name="is_creating_camera_cooperation">কানেক্ট করার জন্য ডিভাইস আনলক করুন</string>
     <string name="keyguard_security_setting_privacy_policy">গোপনীয়তার নীতি</string>
     <string name="local_camera_device">This device</string>
     <string name="local_device_camera">এই ডিভাইস</string>
@@ -705,6 +719,10 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
     <string name="midnight">রাত্রি</string>
+    <string name="mihome_camera_device_not_available">আরও ডিভাইস কানেক্ট করা যাবে না</string>
+    <string name="mihome_camera_device_offline">কানেক্ট করা যায় নি। ক্য়ামেরা অফলাইন আছে।</string>
+    <string name="mihome_camera_device_sleep">ঘুমের মোড থেকে প্রস্থান করে আবার চেষ্টা করুন</string>
+    <string name="mihome_camera_device_updating">ডিভাইস আপডেট করা হচ্ছে। আপডেট সম্পূর্ণ হলে আবার চেষ্টা করে দেখুন।</string>
     <string name="miplay_accessibility_cast">ডিভাইস বাছুন</string>
     <string name="miplay_accessibility_cover">প্রচ্ছদ</string>
     <string name="miplay_accessibility_next">পরের গান</string>
@@ -1113,6 +1131,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="screen_projection_characteristics">বিশেষ ফিচারগুলি</string>
     <string name="screen_projection_characteristics_cast_summary">কাছেপিঠের একটি টিভিতে স্ক্রিন কনটেন্ট কাস্ট করুন</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">ব্যাটারি বাঁচাতে এবং অতিরিক্ত গরম এড়াতে কাস্ট করার সময় মোবাইল ডিভাইসের স্ক্রিন বন্ধ করুন</string>
+    <string name="screen_projection_characteristics_hang_up_summary_pad">কাস্টিং করার সময় স্ক্রিন অফ করুন যাতে বেশি গরম হওয়া ও পাওয়ার খরচ এড়ানো যায়</string>
     <string name="screen_projection_characteristics_off_screen_summary">আপনার ডিভাইসের স্ক্রিন বন্ধ করা থাকলেও আপনি কাস্টিং চালিয়ে যেতে পারবেন।এই ফিচারটি কম পাওয়ার খরচ করে।</string>
     <string name="screen_projection_characteristics_off_screen_title">স্ক্রিন বন্ধ করে কাস্ট করুন</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">ফ্লোটিং বিজ্ঞপ্তি ,ইনকামিং কল এবং অন্য ব্যক্তিগত আইটেম বাহ্যিক মনিটরে দেখাবেন না।</string>
@@ -1120,6 +1139,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="screen_projection_characteristics_private_summary_new">আপনার গোপনীয়তা রক্ষা করুন: কাস্টিংয়ের সময় আপনার ডিভাইস ফ্লোটিং বিজ্ঞপ্তি, ইনকামিং কল ও অন্য ব্যক্তিগত আইটেম দেখাবে না।</string>
     <string name="screen_projection_characteristics_small_window_summary">আপনার ফোনের অন্য ফিচারগুলি ব্যবহার করার জন্য যে উইন্ডোতে কাস্ট করা হচ্ছে সেটা মিনিমাইজ করুন।</string>
     <string name="screen_projection_characteristics_small_window_summary_new">অন্যান্য অ্যাপ ব্যবহার করার সময় স্ক্রীনটি কাস্ট করুন এবং একটি ভাসমান উইন্ডোতে এর সামগ্রী দেখান</string>
+    <string name="screen_projection_characteristics_small_window_summary_pad">আপনি যে অ্যাপ কাস্টিং করছেন সেটা ফ্লোটিং উইন্ডো হিসেবে ডিসপ্লে করুন ও অন্য অ্যাপ আপনার ট্যাবলেট সাধারণভাবে ব্যবহার করুন।</string>
     <string name="screen_projection_characteristics_small_window_title">উইন্ডো মিনিমাইজ করুন</string>
     <string name="screen_projection_entrance_list">উপলব্ধ ডিভাইসগুলি দেখুন</string>
     <string name="screen_projection_entrance_list_new">কাস্ট করার জন্য উপলব্ধ ডিভাইসের তালিকা দেখুন</string>
@@ -1262,6 +1282,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="tuesday_short">মঙ্গল</string>
     <string name="tuesday_shortest">মঙ্গল</string>
     <string name="unlock_screen_to_authorize_camera">%s এই ডিভাইসের ক্যামেরা ব্যবহার করতে চায়</string>
+    <string name="unlock_screen_to_authorize_camera_car">%s এই ডিভাইসের ক্যামেরা অ্যাকসেস করছে</string>
     <string name="update">Update</string>
     <string name="upgrade_app_name_version">%1$s | %2$s</string>
     <string name="upgrade_cancel">বাতিল করুন</string>
@@ -1290,6 +1311,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="upgrade_start_all">আপডেট করুন</string>
     <string name="upgrade_title">কানেক্ট করা ডিভাইসগুলি আপডেট করুন</string>
     <string name="upgrade_toast_cannot_cancel_while_installing">正在安装中，不可中断</string>
+    <string name="upgrade_toast_login_error">সেটিংস থেকে \"টাইম জোন অটোমেটিক সেট করুন\" চালু করুন ও আবার চেষ্টা করুন।</string>
     <string name="upgrade_toast_no_wifi">কানেক্ট করা যায় নি</string>
     <string name="upgrade_tv_device_tip">*আপডেটগুলি Xiaomi TV প্রদান করেছে</string>
     <string name="upgrade_ver_can_upgrade">আপডেট রয়েছে</string>

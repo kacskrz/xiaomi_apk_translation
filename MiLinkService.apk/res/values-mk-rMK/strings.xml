@@ -38,6 +38,7 @@
     <string name="appcirculate_toast_cancel">Откажано</string>
     <string name="appcirculate_toast_connected">Started casting</string>
     <string name="appcirculate_toast_fail">Неуспешно променето на друг уред</string>
+    <string name="appcirculate_toast_high_temperature">Причекајте уредот да се излади</string>
     <string name="appcirculate_toast_loading">Промени на друг уред…</string>
     <string name="appcirculate_toast_not_support_device_pad">Не може да се отвори оваа апликација на таблети</string>
     <string name="appcirculate_toast_not_support_device_pc">Не може да се отвори оваа апликација на компјутери</string>
@@ -48,14 +49,25 @@
     <string name="appcirculate_toast_success_2">Емитување во приватен режим…</string>
     <string name="appcirculate_toast_success_3">Проекција…</string>
     <string name="ask_for_using_camera">Отклучете за да дадете дозвола</string>
+    <string name="ask_for_using_camera_car">Главниот екран на ЕВ пристапува до содржината на камерата на овој уред. Отклучете за да управувате со опциите.</string>
     <string name="ball_hint_connect_fail">Не може да се изврши оваа акција. Почекајте минута или две и обидете се повторно.</string>
     <string name="ball_hint_text_loading">Само момент…</string>
     <string name="ball_hint_text_success">Успешно поврзано</string>
     <string name="camera_associate_failed">"Couldn't connect to camera"</string>
     <string name="camera_associate_success">Camera connected</string>
+    <string name="camera_composed_button">Комбинирај</string>
+    <string name="camera_composed_no_device">Се чини дека уредот не е во близина</string>
+    <string name="camera_composed_title">Комбинирај со камерата на уредот</string>
+    <string name="camera_composed_using_title">Комбинирани камери</string>
     <string name="camera_connect_fail">Не можеше да се поврзе. Обидете се повторно.</string>
+    <string name="camera_connecting">"%s wants to use this device's camera"</string>
     <string name="camera_disassociate">Disconnected from camera</string>
     <string name="camera_list_subtitle">Префрли камери</string>
+    <string name="camera_permission_dialog_message">Дозволете оваа апликација да ја користи камерата на овој уред. Можете да ја дадете оваа дозвола во Поставки.</string>
+    <string name="camera_permission_dialog_negative">Откажи</string>
+    <string name="camera_permission_dialog_positive">Поставки</string>
+    <string name="camera_permission_dialog_title">Потребни се дозволи</string>
+    <string name="camera_permission_timeout_toast">Врската истече. Обидете се повторно.</string>
     <string name="camera_picker_title">Камера попреку уреди</string>
     <string name="camera_title">Searching for available devices…</string>
     <string name="cancel">Cancel</string>
@@ -314,8 +326,8 @@
     <string name="circulate_tv_capturing">Се слика слика од екран…</string>
     <string name="circulate_tv_is_authing_tip">Сега се врши верификација на уреди. Почекајте минута или две и обидете се повторно.</string>
     <string name="circulate_tv_name">Xiaomi TV</string>
-    <string name="circulate_tv_power_alter_text">Го поставивте ТВ-уредот да го исклучува или вклучува екранот. Далечинските управувачи и ТВ-уреди ќе исчезнат оттука откако ТВ-уредот ќе се исклучи.</string>
-    <string name="circulate_tv_power_alter_title">Внимание</string>
+    <string name="circulate_tv_power_alter_text">Штом ТВ-уредот е исклучен, далечинскиот управувач и ТВ-уредот ќе исчезнат од оваа страница. Да се исклучи сега?</string>
+    <string name="circulate_tv_power_alter_title">Исклучи ТВ-уред</string>
     <string name="circulate_video_capture_fail">Неуспешна слика на екран</string>
     <string name="circulate_video_capture_success">Успешно направена слика од екран</string>
     <string name="circulate_video_retry_later">Обид за контрола на TV…</string>
@@ -443,6 +455,7 @@
     <string name="empty" />
     <string name="enable_screen_projection_summary">Емитувајте ја содржината од екран на екстерен монитор</string>
     <string name="enable_screen_projection_summary_new">Емитувајте го екранот на мобилниот уред на блиски ТВ-уреди и други надворешни монитори</string>
+    <string name="enable_screen_projection_summary_pad">Емитувајте го екранот на таблетот на близок ТВ-уред или на друг уред</string>
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="err_toast_msg_audio_support_support_only">Уредот поддржува само пренос на аудио репродукција. Обидете се со влечење на аудио картичката.</string>
@@ -697,6 +710,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">Не може да пренесува репродукција кога сте во инкогнито режим. Прво вклучете Инкогнито режим.</string>
     <string name="invisible_mode_dialog_pos">Исклучи</string>
     <string name="invisible_mode_dialog_title">Во инкогнито режим сте</string>
+    <string name="is_creating_camera_cooperation">Unlock device to connect</string>
     <string name="keyguard_security_setting_privacy_policy">Политика за приватност</string>
     <string name="local_camera_device">This device</string>
     <string name="local_device_camera">Овој уред</string>
@@ -705,6 +719,10 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
     <string name="midnight">Ноќ</string>
+    <string name="mihome_camera_device_not_available">Не може да поврзи повеќе уреди</string>
+    <string name="mihome_camera_device_offline">Не можеше да се поврзе. Камерата е офлајн.</string>
+    <string name="mihome_camera_device_sleep">Излезете од режимот Спиење и обидете се повторно</string>
+    <string name="mihome_camera_device_updating">Уредот се ажурира. Обидете се повторно што ажурирањето ќе заврши.</string>
     <string name="miplay_accessibility_cast">Изберете уред</string>
     <string name="miplay_accessibility_cover">Насловна</string>
     <string name="miplay_accessibility_next">Следна песна</string>
@@ -1113,6 +1131,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="screen_projection_characteristics">Специјални функции</string>
     <string name="screen_projection_characteristics_cast_summary">Емитувај ја содржината од екран на TV во близина</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Исклучете го екранот на мобилниот уред додека емитувате за да заштедите батерија и за да избегнете прекумерно загревање.</string>
+    <string name="screen_projection_characteristics_hang_up_summary_pad">Исклучете го екранот додека емитувате за да ги намалите потрошувачката на енергија и прегревањето</string>
     <string name="screen_projection_characteristics_off_screen_summary">Можете да продолжите со емитување кога екранот е исклучен. Оваа функција ја намалува потрошувачката на енергија.</string>
     <string name="screen_projection_characteristics_off_screen_title">Емитувај со исклучен екран</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">Не прикажувај лебдечки известувања, дојдовни повици, и други приватни ставки или екстерни монитори.</string>
@@ -1120,6 +1139,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="screen_projection_characteristics_private_summary_new">Заштитете ја вашата приватност: додека емитувате, вашиот уред нема да прикажува лебдечки известувања, дојдовни повици и други приватни ставки</string>
     <string name="screen_projection_characteristics_small_window_summary">Спушти го прозорецот што се емитува за да можеш да користиш други функции од телефонот.</string>
     <string name="screen_projection_characteristics_small_window_summary_new">Емитувајте го екранот и покажете ја неговата содржина во лебдечки прозорец додека користите други апликации</string>
+    <string name="screen_projection_characteristics_small_window_summary_pad">Прикажете ја апликацијата што ја емитувате како лебдечки прозорец и користете нормално други апликации на вашиот таблет</string>
     <string name="screen_projection_characteristics_small_window_title">Спушти прозорец</string>
     <string name="screen_projection_entrance_list">Види достапни уреди</string>
     <string name="screen_projection_entrance_list_new">Прикажете го списокот со достапни уреди за емитување</string>
@@ -1158,11 +1178,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="settings_cross_notify_system">Системски известувања</string>
     <string name="settings_cross_notify_tips">Прикажи изевестувања на блиски активни таблети или компјутери кога овој уред е заклучен</string>
     <string name="sever_stream_beauty">Разубави</string>
-    <string name="sever_stream_control_btn_exit">Стопирај</string>
+    <string name="sever_stream_control_btn_exit">Запри</string>
     <string name="sever_stream_control_btn_pause">Паузирај</string>
     <string name="sever_stream_control_btn_preview">Преглед</string>
     <string name="sever_stream_control_btn_resume">Продолжи</string>
-    <string name="sever_stream_push_state_idle">Прегледот е искл. на овој уред</string>
+    <string name="sever_stream_push_state_idle">Прегледот е исклучен на овој уред</string>
     <string name="sever_stream_push_state_idle2">Прегледот е исклучен</string>
     <string name="sever_stream_push_state_pause">Паузирано</string>
     <string name="sever_stream_push_state_pushing">Се споделува камера фид…</string>
@@ -1262,6 +1282,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="tuesday_short">Вто</string>
     <string name="tuesday_shortest">Вто</string>
     <string name="unlock_screen_to_authorize_camera">%s сака да ja користи камерата на овој уред</string>
+    <string name="unlock_screen_to_authorize_camera_car">%s пристапува до камерата на овој уред</string>
     <string name="update">Update</string>
     <string name="upgrade_app_name_version">%1$s | %2$s</string>
     <string name="upgrade_cancel">Откажи</string>
@@ -1290,6 +1311,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="upgrade_start_all">Ажурирајте</string>
     <string name="upgrade_title">Ажурирај поврзани уреди</string>
     <string name="upgrade_toast_cannot_cancel_while_installing">正在安装中，不可中断</string>
+    <string name="upgrade_toast_login_error">Влучете ја „Постави автоматски временска зона“ во Поставки и обидете се повторно</string>
     <string name="upgrade_toast_no_wifi">Неуспешно поврзување</string>
     <string name="upgrade_tv_device_tip">*Ажурирањата се овозможени од Xiaomi TV</string>
     <string name="upgrade_ver_can_upgrade">Ажурирањето е достапно</string>
