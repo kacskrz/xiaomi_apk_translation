@@ -116,6 +116,8 @@ a készülékeit?"</string>
     <string name="car_air_con_switch_close">Az autó légkondicionálójának kikapcsolása</string>
     <string name="car_air_con_switch_open">Az autó légkondicionálójának bekapcsolása</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Csatlakozás az EV kamerájához</string>
+    <string name="car_camera_associate_disconnecting">Lecsatlakozás az EV kamerájáról</string>
     <string name="car_camera_unavailable_dialog_message">A készülék nem tudja használni az EV kameráját, ha az Energiatakarékos vagy az Adatvédelem mód be van kapcsolva.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Értem</string>
     <string name="car_camera_unavailable_dialog_title">Az EV elülső kamerája foglalt</string>
@@ -210,6 +212,7 @@ a tablet képernyőjének tükrözéséhez"</string>
     <string name="circulate_card_sticker_remote_control_volum_reduce">Hangerő csökkentése</string>
     <string name="circulate_card_sticker_selected">Kiválasztva</string>
     <string name="circulate_card_tv_device_sync">Összekapcsolhatóság</string>
+    <string name="circulate_card_tv_full_screen">Teljes képernyő</string>
     <string name="circulate_card_tv_gesture_click_sure">A megerősítéshez koppintson bárhova</string>
     <string name="circulate_card_tv_gesture_content_desc">Érintéssel vezérelt terület. A kurzor mozgatásához csúsztassa el. Koppintson a kijelölés megerősítéséhez.</string>
     <string name="circulate_card_tv_gesture_ok">OK</string>
@@ -218,15 +221,29 @@ a tablet képernyőjének tükrözéséhez"</string>
     <string name="circulate_card_tv_gesture_slide">Csúsztasson a kurzor mozgatásához</string>
     <string name="circulate_card_tv_gesture_slide_title">Csúsztatás a vezérléshez</string>
     <string name="circulate_card_tv_my_app">További alkalmazások</string>
+    <string name="circulate_card_tv_notes_button_cancel">Mégse</string>
+    <string name="circulate_card_tv_notes_button_confirm">Küldés</string>
+    <string name="circulate_card_tv_notes_edittext_hint">Maximálisan %d karaktert adjon meg</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Alkalmazott TV öntapadós jegyzet</string>
+    <string name="circulate_card_tv_notes_edittext_toast">A jegyzetek legfeljebb %d karakteresek lehetnek</string>
+    <string name="circulate_card_tv_notes_send_error">Nem sikerült elküldeni. Ellenőrizze a hálózati kapcsolatot, és próbálja újra.</string>
+    <string name="circulate_card_tv_notes_subtitle">Adjon meg egy jegyzetet, amely a TV képernyővédőjén jelenik meg.</string>
+    <string name="circulate_card_tv_notes_text">TV öntapadós jegyzet</string>
+    <string name="circulate_card_tv_notes_title">TV öntapadós jegyzet</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Koppintson a megnyitáshoz a TV-n.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Egy hiba történt. Ellenőrizze a hálózati kapcsolatát és próbálja újra.</string>
     <string name="circulate_card_tv_privacy_protection">Adatvédelem</string>
     <string name="circulate_card_tv_remote_control">Távoli</string>
+    <string name="circulate_card_tv_screen">Kivetítés</string>
     <string name="circulate_card_tv_screen_mirror">Képernyőtükrözés</string>
     <string name="circulate_card_tv_screen_mirror_ing">Képernyő tükrözése…</string>
     <string name="circulate_card_tv_screen_of_mirror">Kikapcsolt képernyővel</string>
+    <string name="circulate_card_tv_screen_state">Kivetítés</string>
     <string name="circulate_card_tv_share">Megtekintés</string>
     <string name="circulate_card_tv_small_mirror">Lebegő ablak</string>
+    <string name="circulate_card_tv_small_screen">Kép-a-Képben</string>
     <string name="circulate_card_tv_source">Jelforrás</string>
+    <string name="circulate_card_tv_stop_screen">Kivetítése leállítása</string>
     <string name="circulate_common_retry_later">Várjon egy-két percet, majd próbálja újra</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@ a tablet képernyőjének tükrözéséhez"</string>
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">Hangfelvétel</string>
     <string name="circulate_cta_premission_storage_pad_title">Elemek elérése és mentése a tárhelyre</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,12 @@ hogy a Xiaomi HyperMind meg tudja tanulni, és finomítani tudja a mintákat"</s
     <string name="icon_content_description">Párbeszédpanel ikonja</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Az Összekapcsolhatóság lehetővé teszi az adatok vezérlését és átvitelét eszközök között.
+
+Kapcsolja be a Kisegítő lehetőségek funkciókat, hogy megakadályozza, hogy a mikrofont más alkalmazások használják az Összekapcsolhatóság használatakor
+
+
+Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszerű rendszerfigyelmeztetést kap. Biztos lehet benne, hogy az Összekapcsolhatóság nem sérti az Ön jogait, ha ezeket a funkciókat használja."</string>
     <string name="invisible_mode_dialog_content">Inkognitó módban nem használható a kivetítés. Először kapcsolja ki az Inkognitó módot.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Inkognitó módban nem helyzhető át visszajátszás. Először kapcsolja ki az Inkognitó módot.</string>
     <string name="invisible_mode_dialog_pos">Kikapcsol</string>
@@ -1347,6 +1370,9 @@ A játékok kivetítése előtt ellenőrizze, hogy bekapcsolta-e a Játékgyors�
     <string name="synergy_casting">Az átvitel nem használható, amíg a Screen Combo működik</string>
     <string name="synergy_text">Összekapcsolhatóság</string>
     <string name="talk_back_device_battery_quantity">%s akkumulátor</string>
+    <string name="temperature_warning_dialog_message">A készülék túlmelegedett. Várja meg, amíg lehűl, mielőtt megosztja a kameraképet.</string>
+    <string name="temperature_warning_dialog_positive_button">Értem</string>
+    <string name="temperature_warning_dialog_title">Nem hazsnálható készülékek közötti kamera</string>
     <string name="the_anniversary_of_lifting_martial_law">A harci törvény feloldásának évfordulója</string>
     <string name="the_anti_aggression_day">Agresszióellenes Nap</string>
     <string name="the_arbor_day">A Fák Napja</string>

@@ -116,6 +116,8 @@
     <string name="car_air_con_switch_close">Izslēgt mašīnas AC</string>
     <string name="car_air_con_switch_open">Ieslēgt mašīnas AC</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Savieno ar EV kameru</string>
+    <string name="car_camera_associate_disconnecting">Atvieno no tālruņa EV kameras</string>
     <string name="car_camera_unavailable_dialog_message">Šī ierīce nevar izmantot EV kameru, ja ir ieslēgts zemas enerģijas režīms vai privātuma režīms.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Sapratu</string>
     <string name="car_camera_unavailable_dialog_title">EV priekšējā kamera ir aizņemta</string>
@@ -210,6 +212,7 @@
     <string name="circulate_card_sticker_remote_control_volum_reduce">Samazināt skaļumu</string>
     <string name="circulate_card_sticker_selected">Izvēlētie</string>
     <string name="circulate_card_tv_device_sync">Savstarpējā savienojamība</string>
+    <string name="circulate_card_tv_full_screen">Pilnekrāna režīms</string>
     <string name="circulate_card_tv_gesture_click_sure">Pieskarieties jebkurā vietā, lai apstiprinātu</string>
     <string name="circulate_card_tv_gesture_content_desc">Skārienvadības apgabals. Bīdiet, lai pārvietotu kursoru. Pieskarieties, lai apstiprinātu izvēli.</string>
     <string name="circulate_card_tv_gesture_ok">Labi</string>
@@ -218,15 +221,29 @@
     <string name="circulate_card_tv_gesture_slide">Velciet, lai pārvietotu kursoru</string>
     <string name="circulate_card_tv_gesture_slide_title">Velciet, lai kontrolētu</string>
     <string name="circulate_card_tv_my_app">Vairāk lietotnes</string>
+    <string name="circulate_card_tv_notes_button_cancel">Atcelt</string>
+    <string name="circulate_card_tv_notes_button_confirm">Sūtīt</string>
+    <string name="circulate_card_tv_notes_edittext_hint">Ievadiet līdz %d rakstzīmēm</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Piemērota uzlīme uz TV ekrāna</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Piezīmes var būt līdz %d rakstzīmēm</string>
+    <string name="circulate_card_tv_notes_send_error">Neizdevās nosūtīt. Pārbaudiet tīkla savienojumu un mēģiniet vēlreiz.</string>
+    <string name="circulate_card_tv_notes_subtitle">Ievadiet piezīmi, kas tiks parādīta televizora ekrānsaudzētājā</string>
+    <string name="circulate_card_tv_notes_text">Uzlīme uz televizora</string>
+    <string name="circulate_card_tv_notes_title">Uzlīme uz televizora</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Pieskarieties, lai atvērtu televizoru.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Radās tīkla kļūda. Pārbaudiet tīkla savienojumu un mēģiniet vēlreiz.</string>
     <string name="circulate_card_tv_privacy_protection">Konfidencialitāte</string>
     <string name="circulate_card_tv_remote_control">Pults</string>
+    <string name="circulate_card_tv_screen">Pārraidīt</string>
     <string name="circulate_card_tv_screen_mirror">Ekrāna spoguļošana</string>
     <string name="circulate_card_tv_screen_mirror_ing">Spoguļo ekrānu…</string>
     <string name="circulate_card_tv_screen_of_mirror">Ar izslēgtu ekrānu</string>
+    <string name="circulate_card_tv_screen_state">Pārraide</string>
     <string name="circulate_card_tv_share">Skatīt</string>
     <string name="circulate_card_tv_small_mirror">Peldošais logs</string>
+    <string name="circulate_card_tv_small_screen">Attēls attēlā</string>
     <string name="circulate_card_tv_source">Signāla avots</string>
+    <string name="circulate_card_tv_stop_screen">Pārtraukt pārraidi</string>
     <string name="circulate_common_retry_later">Uzgaidiet dažas minūtes un mēģiniet vēlreiz</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">Ierīces skaņas ierakstīšanai pārraides un spoguļattēlošanas laikā un ierīces orientācijas noteikšanai, lai kontrolētu vairākas ierīces</string>
     <string name="circulate_cta_premission_sound_title">Ierakstīt audio</string>
     <string name="circulate_cta_premission_storage_pad_title">Piekļūt un saglabāt vienumus atmiņā</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,11 @@ mācoties, kā tās lietojat."</string>
     <string name="icon_content_description">Dialoglodziņa ikona</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Savstarpēja savienojamība ļauj kontrolēt un pārsūtīt datus starp ierīcēm.
+
+Ieslēdziet pieejamības funkcijas, lai nepieļautu, ka mikrofonu izmanto citas lietotnes, kad izmantojat savstarpējo savienojamību.
+
+Piezīme: Ieslēdzot pieejamības funkcijas, tiks saņemts regulārs sistēmas brīdinājums. Lūdzu, esiet droši, ka, izmantojot šīs funkcijas, Savstarpējā savienojamība nepārkāps jūsu tiesības."</string>
     <string name="invisible_mode_dialog_content">Nevar izmantot pārraidi, kad esat inkognito režīmā. Vispirms izslēdziet Inkognito režīmu.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Nevar pārsūtīt atskaņošanu, kad esat inkognito režīmā. Vispirms izslēdziet Inkognito režīmu.</string>
     <string name="invisible_mode_dialog_pos">Izslēgt</string>
@@ -1347,6 +1369,9 @@ Pirms spēļu pārraides pārliecinieties, vai esat ieslēdzis Game Turbo."</str
     <string name="synergy_casting">Nevar pārraidīt, kamēr Screen Combo strādā</string>
     <string name="synergy_text">Savienojamība</string>
     <string name="talk_back_device_battery_quantity">Baterija %s</string>
+    <string name="temperature_warning_dialog_message">Šī ierīce ir pārkarsēta. Pirms kopīgojiet kameras plūsmu, pagaidiet, līdz tā atdzisīs.</string>
+    <string name="temperature_warning_dialog_positive_button">Sapratu</string>
+    <string name="temperature_warning_dialog_title">Nevar izmantot starpierīču kameru</string>
     <string name="the_anniversary_of_lifting_martial_law">Jūrnieku likuma cildināšanas gadadiena</string>
     <string name="the_anti_aggression_day">Pretagresijas diena</string>
     <string name="the_arbor_day">Arbitrāžas diena</string>

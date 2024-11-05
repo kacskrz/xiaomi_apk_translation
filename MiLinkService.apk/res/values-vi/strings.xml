@@ -116,6 +116,8 @@ thiết bị của bạn?"</string>
     <string name="car_air_con_switch_close">Tắt điều hòa ô tô</string>
     <string name="car_air_con_switch_open">Bật điều hòa ô tô</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Đang kết nối với camera EV</string>
+    <string name="car_camera_associate_disconnecting">Đang ngắt kết nối khỏi camera EV</string>
     <string name="car_camera_unavailable_dialog_message">Thiết bị này không thể sử dụng camera của EV khi Chế độ tiết kiệm pin hoặc Chế độ riêng tư bật.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Tôi biết</string>
     <string name="car_camera_unavailable_dialog_title">Camera trước của EV bận</string>
@@ -210,6 +212,7 @@ thiết bị của bạn?"</string>
     <string name="circulate_card_sticker_remote_control_volum_reduce">Giảm âm lượng</string>
     <string name="circulate_card_sticker_selected">Đã chọn</string>
     <string name="circulate_card_tv_device_sync">Liên thông</string>
+    <string name="circulate_card_tv_full_screen">Toàn màn hình</string>
     <string name="circulate_card_tv_gesture_click_sure">Chạm vào bất cứ đâu để xác nhận</string>
     <string name="circulate_card_tv_gesture_content_desc">Khu vực điều khiển cảm ứng. Trượt để di chuyển con trỏ. Chạm để xác nhận lựa chọn.</string>
     <string name="circulate_card_tv_gesture_ok">OK</string>
@@ -218,15 +221,29 @@ thiết bị của bạn?"</string>
     <string name="circulate_card_tv_gesture_slide">Trượt để di chuyển con trỏ</string>
     <string name="circulate_card_tv_gesture_slide_title">Trượt để điều khiển</string>
     <string name="circulate_card_tv_my_app">Thêm ứng dụng</string>
+    <string name="circulate_card_tv_notes_button_cancel">Hủy</string>
+    <string name="circulate_card_tv_notes_button_confirm">Gửi</string>
+    <string name="circulate_card_tv_notes_edittext_hint">Nhập tối đa %d ký tự</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Đã áp dụng ghi chú dán TV</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Ghi chú có thể chứa tối đa %d ký tự</string>
+    <string name="circulate_card_tv_notes_send_error">Không thể gửi. Kiểm tra kết nối mạng của bạn và thử lại.</string>
+    <string name="circulate_card_tv_notes_subtitle">Nhập ghi chú để hiển thị trên màn hình chờ của TV</string>
+    <string name="circulate_card_tv_notes_text">Ghi chú dán TV</string>
+    <string name="circulate_card_tv_notes_title">Ghi chú dán TV</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Chạm để mở trên TV.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Xảy ra lỗi. Kiểm tra kết nối mạng của bạn và thử lại.</string>
     <string name="circulate_card_tv_privacy_protection">Riêng tư</string>
     <string name="circulate_card_tv_remote_control">Điều khiển</string>
+    <string name="circulate_card_tv_screen">Chiếu</string>
     <string name="circulate_card_tv_screen_mirror">Phản chiếu màn hình</string>
     <string name="circulate_card_tv_screen_mirror_ing">Đang phản chiếu màn hình…</string>
     <string name="circulate_card_tv_screen_of_mirror">Với màn hình tắt</string>
+    <string name="circulate_card_tv_screen_state">Đang chiếu</string>
     <string name="circulate_card_tv_share">Xem</string>
     <string name="circulate_card_tv_small_mirror">Cửa sổ nổi</string>
+    <string name="circulate_card_tv_small_screen">Ảnh trong ảnh</string>
     <string name="circulate_card_tv_source">Nguồn tín hiệu</string>
+    <string name="circulate_card_tv_stop_screen">Dừng chiếu</string>
     <string name="circulate_common_retry_later">Chờ một hoặc hai phút và thử lại</string>
     <string name="circulate_controlphone_button_hint">Xem màn hình</string>
     <string name="circulate_controlphone_title">Quản lý thiết bị</string>
@@ -241,7 +258,7 @@ thiết bị của bạn?"</string>
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">Ghi âm</string>
     <string name="circulate_cta_premission_storage_pad_title">Truy cập và lưu các mục vào lưu trữ</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,11 @@ bằng cách tìm hiểu cách bạn sử dụng"</string>
     <string name="icon_content_description">Biểu tượng hộp thoại</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Liên thông cho phép bạn kiểm soát và chuyển dữ liệu giữa các thiết bị.
+
+Bật các tính năng khả năng truy cập để ngăn micro bị các ứng dụng khác sử dụng khi sử dụng Liên thông.
+
+Ghi chú: Bạn sẽ nhận được cảnh báo hệ thống thường lệ khi bật các tính năng khả năng truy cập. Hãy yên tâm rằng Liên thông sẽ không xâm phạm bất kỳ quyền nào của bạn khi bạn sử dụng các tính năng này."</string>
     <string name="invisible_mode_dialog_content">Không thể sử dụng tính năng chiếu khi bạn đang ẩn danh. Hãy tắt Chế độ ẩn danh trước.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Không thể sử dụng chuyển phát khi bạn đang ẩn danh. Hãy tắt Chế độ ẩn danh trước.</string>
     <string name="invisible_mode_dialog_pos">Tắt</string>
@@ -1347,6 +1369,9 @@ Chúng tôi sẽ bảo vệ thông tin cá nhân của bạn theo luật, quy đ
     <string name="synergy_casting">Không thể sử dụng chiếu khi Screen Combo đang hoạt động</string>
     <string name="synergy_text">Liên thông</string>
     <string name="talk_back_device_battery_quantity">Pin %s</string>
+    <string name="temperature_warning_dialog_message">Thiết bị này quá nóng. Chờ thiết bị nguội trước khi chia sẻ dữ liệu truyền tải camera.</string>
+    <string name="temperature_warning_dialog_positive_button">Tôi biết</string>
+    <string name="temperature_warning_dialog_title">Không thể sử dụng camera đa thiết bị</string>
     <string name="the_anniversary_of_lifting_martial_law">Kỷ niệm Ngày Thiết quân Luật</string>
     <string name="the_anti_aggression_day">Ngày phản chiến</string>
     <string name="the_arbor_day">Tết Trồng Cây</string>

@@ -116,6 +116,8 @@ zařízení najít?"</string>
     <string name="car_air_con_switch_close">Vypnout klimatizaci ve vozidle</string>
     <string name="car_air_con_switch_open">Zapnout klimatizaci ve vozidle</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Připojování ke kameře EV</string>
+    <string name="car_camera_associate_disconnecting">Odpojování od kamery EV</string>
     <string name="car_camera_unavailable_dialog_message">Toto zařízení nemůže používat fotoaparát EV, když je v režimu nízké spotřeby nebo režimu soukromí.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Rozumím</string>
     <string name="car_camera_unavailable_dialog_title">Přední fotoaparát EV je zaneprázdněný</string>
@@ -210,6 +212,7 @@ přetáhněte kartu do jiného zařízení"</string>
     <string name="circulate_card_sticker_remote_control_volum_reduce">Snížit hlasitost</string>
     <string name="circulate_card_sticker_selected">Vybráno</string>
     <string name="circulate_card_tv_device_sync">Propojitelnost</string>
+    <string name="circulate_card_tv_full_screen">Celá obrazovka</string>
     <string name="circulate_card_tv_gesture_click_sure">Potvrďte klepnutím na libovolné místo</string>
     <string name="circulate_card_tv_gesture_content_desc">Oblast dotykových ovladačů. Potažením přesuňte kurzor. Klepnutím potvrďte volbu.</string>
     <string name="circulate_card_tv_gesture_ok">OK</string>
@@ -218,15 +221,29 @@ přetáhněte kartu do jiného zařízení"</string>
     <string name="circulate_card_tv_gesture_slide">Potažením přesuňte kurzor</string>
     <string name="circulate_card_tv_gesture_slide_title">Ovládejte potažením</string>
     <string name="circulate_card_tv_my_app">Další aplikace</string>
+    <string name="circulate_card_tv_notes_button_cancel">Storno</string>
+    <string name="circulate_card_tv_notes_button_confirm">Odeslat</string>
+    <string name="circulate_card_tv_notes_edittext_hint">Zadejte max. %d znaků</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Použita nalepovací poznámka TV</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Poznámky mohou mít maximálně %d znaků</string>
+    <string name="circulate_card_tv_notes_send_error">Odeslání se nezdařilo. Zkontrolujte síťové připojení a zkuste to znovu.</string>
+    <string name="circulate_card_tv_notes_subtitle">Zadejte poznámku, která se zobrazí na spořiči obrazovky TV</string>
+    <string name="circulate_card_tv_notes_text">Nalepovací poznámka TV</string>
+    <string name="circulate_card_tv_notes_title">Samolepicí lístek TV</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Klepnutím otevřete v TV.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Došlo k chybě. Zkontrolujte připojení k síti a zkuste to znovu.</string>
     <string name="circulate_card_tv_privacy_protection">Soukromí</string>
     <string name="circulate_card_tv_remote_control">Vzdálený přístup</string>
+    <string name="circulate_card_tv_screen">Přenášet</string>
     <string name="circulate_card_tv_screen_mirror">\"Zrcadlení obrazu\" (Screen Mirroring)</string>
     <string name="circulate_card_tv_screen_mirror_ing">Zrcadlím obraz…</string>
     <string name="circulate_card_tv_screen_of_mirror">S vypnutou obrazovkou</string>
+    <string name="circulate_card_tv_screen_state">Přenos obrazu</string>
     <string name="circulate_card_tv_share">Zobrazit</string>
     <string name="circulate_card_tv_small_mirror">Plovoucí okno</string>
+    <string name="circulate_card_tv_small_screen">Obraz v obraze</string>
     <string name="circulate_card_tv_source">Zdroj signálu</string>
+    <string name="circulate_card_tv_stop_screen">Zastavit přenos</string>
     <string name="circulate_common_retry_later">Počkejte chvíli a zkuste to znovu</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@ přetáhněte kartu do jiného zařízení"</string>
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">Nahrávat zvuk</string>
     <string name="circulate_cta_premission_storage_pad_title">Přístup k úložišti a ukládání položek do úložiště</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,11 @@ aby se služba Xiaomi HyperMind mohla naučit vzory a zpřesnit je"</string>
     <string name="icon_content_description">Ikona dialogového okna</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Funkce „Propojitelnost“ vám umožňuje ovládat a přenášet údaje mezi zařízeními.
+
+Zapněte funkce usnadnění přístupu, abyste během používání funkce „Propojitelnost“ zabránili jiným aplikacím v používání mikrofonu.
+
+Poznámka: Po zapnutí funkcí usnadnění přístupu se zobrazí běžné systémové upozornění. Ujišťujeme vás, že funkce „Propojitelnost“ neporušuje žádná vaše práva, když používáte tyto funkce."</string>
     <string name="invisible_mode_dialog_content">V režimu Inkognito nelze využít přenos obrazu. Nejprve režim Inkognito vypněte.</string>
     <string name="invisible_mode_dialog_content_audio_relay">V režimu Inkognito nelze přehrávání přenést. Nejprve režim Inkognito vypněte.</string>
     <string name="invisible_mode_dialog_pos">Vypnout</string>
@@ -1347,6 +1369,9 @@ Před přenosem her ověřte, že máte zapnutou funkci Game Turbo."</string>
     <string name="synergy_casting">Přenos obrazu nelze při spuštění Screen Combo využít</string>
     <string name="synergy_text">Propojitelnost</string>
     <string name="talk_back_device_battery_quantity">Baterie %s</string>
+    <string name="temperature_warning_dialog_message">Toto zařízení je přehřáté. Před sdílením kanálu kamery počkejte, než vychladne.</string>
+    <string name="temperature_warning_dialog_positive_button">Rozumím</string>
+    <string name="temperature_warning_dialog_title">Sdílení fotoaparátů v zařízeních nelze použít</string>
     <string name="the_anniversary_of_lifting_martial_law">Výročí zrušení stanného práva</string>
     <string name="the_anti_aggression_day">Den proti agresi</string>
     <string name="the_arbor_day">Den stromů</string>

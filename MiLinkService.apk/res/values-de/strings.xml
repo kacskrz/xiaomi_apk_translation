@@ -116,6 +116,8 @@ konnten nicht gefunden werden?"</string>
     <string name="car_air_con_switch_close">Klimaanlage im Auto ausschalten</string>
     <string name="car_air_con_switch_open">Klimaanlage im Auto einschalten</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Mit EV-Kamera verbinden</string>
+    <string name="car_camera_associate_disconnecting">Von EV-Kamera trennen</string>
     <string name="car_camera_unavailable_dialog_message">Dieses Gerät kann die Kamera des Elektrofahrzeugs nicht verwenden, wenn der Energiesparmodus oder der Datenschutzmodus aktiviert ist.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Verstanden</string>
     <string name="car_camera_unavailable_dialog_title">Die Frontkamera des Elektrofahrzeugs ist ausgelastet</string>
@@ -210,6 +212,7 @@ um den Bildschirm dieses Tablets zu zu spiegeln"</string>
     <string name="circulate_card_sticker_remote_control_volum_reduce">Leiser-Taste</string>
     <string name="circulate_card_sticker_selected">Ausgewählt</string>
     <string name="circulate_card_tv_device_sync">Interkonnektivität</string>
+    <string name="circulate_card_tv_full_screen">Vollbild</string>
     <string name="circulate_card_tv_gesture_click_sure">Zum Bestätigen auf eine beliebige Stelle tippen</string>
     <string name="circulate_card_tv_gesture_content_desc">Berühre den Steuerbereich. Schiebe, um den Cursor zu bewegen. Tippe, um die Auswahl zu bestätigen.</string>
     <string name="circulate_card_tv_gesture_ok">OK</string>
@@ -218,15 +221,29 @@ um den Bildschirm dieses Tablets zu zu spiegeln"</string>
     <string name="circulate_card_tv_gesture_slide">Schieben, um den Cursor zu bewegen</string>
     <string name="circulate_card_tv_gesture_slide_title">Zum Steuern verschieben</string>
     <string name="circulate_card_tv_my_app">Mehr Apps</string>
+    <string name="circulate_card_tv_notes_button_cancel">Abbrechen</string>
+    <string name="circulate_card_tv_notes_button_confirm">Senden</string>
+    <string name="circulate_card_tv_notes_edittext_hint">Gib bis zu %d Zeichen ein</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Fernseher-Haftnotiz angewendet</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Notizen können bis zu %d Zeichen lang sein</string>
+    <string name="circulate_card_tv_notes_send_error">Senden fehlgeschlagen. Überprüfe deine Netzwerkverbindung und versuche es erneut.</string>
+    <string name="circulate_card_tv_notes_subtitle">Gib eine Notiz ein, die auf dem Bildschirmschoner des Fernsehers angezeigt werden soll</string>
+    <string name="circulate_card_tv_notes_text">Fernseher-Haftnotiz</string>
+    <string name="circulate_card_tv_notes_title">Fernseher-Haftnotiz</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Tippe, um auf dem Fernseher zu öffnen.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Ein Fehler ist aufgetreten. Netzwerkverbindung überprüfen und erneut versuchen.</string>
     <string name="circulate_card_tv_privacy_protection">Datenschutz</string>
     <string name="circulate_card_tv_remote_control">Remote</string>
+    <string name="circulate_card_tv_screen">Übertragen</string>
     <string name="circulate_card_tv_screen_mirror">Bildschirmspiegelung</string>
     <string name="circulate_card_tv_screen_mirror_ing">Bildschirm wird gespiegelt…</string>
     <string name="circulate_card_tv_screen_of_mirror">Mit ausgeschaltetem Bildschirm</string>
+    <string name="circulate_card_tv_screen_state">Casting</string>
     <string name="circulate_card_tv_share">Anzeigen</string>
     <string name="circulate_card_tv_small_mirror">Schwebendes Fenster</string>
+    <string name="circulate_card_tv_small_screen">Bild im Bild</string>
     <string name="circulate_card_tv_source">Signalquelle</string>
+    <string name="circulate_card_tv_stop_screen">Übertragung beenden</string>
     <string name="circulate_common_retry_later">Warte eins bis zwei Minuten und versuche erneut</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@ um den Bildschirm dieses Tablets zu zu spiegeln"</string>
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">Audio aufnehmen</string>
     <string name="circulate_cta_premission_storage_pad_title">Zugriff auf und Speichern von Elementen</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,11 @@ damit Xiaomi HyperMind Muster lernen und verfeinern kann."</string>
     <string name="icon_content_description">Dialogfeldsymbol</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Interkonnektivität ermöglicht die Steuerung und Übertragung von Daten zwischen Geräten.
+
+Das Einschalten der Barrierefreiheit-Funktionen verhindert, dass das Mikrofon von anderen Apps verwendet wird, wenn Interkonnektivität benutzt wird.
+
+Hinweis: Du erhältst eine routinemäßige Systemwarnung, wenn du die Barrierefreiheit-Funktionen einschaltest. Du kannst dir sicher sein, dass Interkonnektivität keine deiner Rechte verletzt, wenn du diese Funktion verwendest."</string>
     <string name="invisible_mode_dialog_content">Übertragung kann nicht verwendet werden, wenn du inkognito bist. Schalte zuerst den Inkognito-Modus aus.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Wiedergabe kann nicht übertragen werden, wenn du inkognito bist. Schalte zuerst den Inkognito-Modus aus.</string>
     <string name="invisible_mode_dialog_pos">Ausschalten</string>
@@ -1347,6 +1369,9 @@ Stelle vor der Übertragung von Spielen sicher, dass Spiel-Turbo eingeschaltet i
     <string name="synergy_casting">Verwenden von Übertragung nicht möglich, während Screen Combo läuft.</string>
     <string name="synergy_text">Interkonnektivität</string>
     <string name="talk_back_device_battery_quantity">Akku %s</string>
+    <string name="temperature_warning_dialog_message">Dieses Gerät ist überhitzt. Warte, bis es abgekühlt ist, bevor du den Kamerafeed teilst.</string>
+    <string name="temperature_warning_dialog_positive_button">Verstanden</string>
+    <string name="temperature_warning_dialog_title">Geräteübergreifende Kamera kann nicht verwendet werden</string>
     <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
     <string name="the_anti_aggression_day">Anti-Aggressionstag</string>
     <string name="the_arbor_day">Tag des Baumes</string>

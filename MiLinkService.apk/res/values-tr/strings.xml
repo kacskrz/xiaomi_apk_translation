@@ -116,6 +116,8 @@ bulunamıyor mu?"</string>
     <string name="car_air_con_switch_close">Araba klimasını kapat</string>
     <string name="car_air_con_switch_open">Araba klimasını aç</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">EV kamerasına bağlanılıyor</string>
+    <string name="car_camera_associate_disconnecting">EV kamerası ile bağlantısı kesiliyor</string>
     <string name="car_camera_unavailable_dialog_message">Bu cihaz, düşük güç modu veya gizlilik mod açık olduğunda EV kamerasını kullanamaz.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Anladım</string>
     <string name="car_camera_unavailable_dialog_title">EV ön kamerası meşgul</string>
@@ -210,6 +212,7 @@ başka bir cihaza sürükleyin"</string>
     <string name="circulate_card_sticker_remote_control_volum_reduce">Sesi azalt</string>
     <string name="circulate_card_sticker_selected">Seçildi</string>
     <string name="circulate_card_tv_device_sync">Ara bağlantı</string>
+    <string name="circulate_card_tv_full_screen">Tam ekran</string>
     <string name="circulate_card_tv_gesture_click_sure">Onaylamak için herhangi bir yere dokunun</string>
     <string name="circulate_card_tv_gesture_content_desc">Dokunmatik kontrol alanı. İmleci hareket ettirmek için kaydırın. Seçimi onaylamak için dokunun.</string>
     <string name="circulate_card_tv_gesture_ok">Tamam</string>
@@ -218,15 +221,29 @@ başka bir cihaza sürükleyin"</string>
     <string name="circulate_card_tv_gesture_slide">İmleci hareket ettirmek için kaydırın</string>
     <string name="circulate_card_tv_gesture_slide_title">Kontrol etmek için kaydırın</string>
     <string name="circulate_card_tv_my_app">Daha fazla uygulama</string>
+    <string name="circulate_card_tv_notes_button_cancel">İptal</string>
+    <string name="circulate_card_tv_notes_button_confirm">Gönder</string>
+    <string name="circulate_card_tv_notes_edittext_hint">En fazla %d karakter girin</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">TV yapışkan not uygulandı</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Notlar en fazla %d karakter olabilir</string>
+    <string name="circulate_card_tv_notes_send_error">Gönderilemedi. Ağ bağlantınızı kontrol edin ve tekrar deneyin.</string>
+    <string name="circulate_card_tv_notes_subtitle">TV ekran koruyucunuzda gösterilecek bir not girin</string>
+    <string name="circulate_card_tv_notes_text">TV yapışkan not</string>
+    <string name="circulate_card_tv_notes_title">TV yapışkan not</string>
     <string name="circulate_card_tv_open_app_content_desc">"%1$s. TV'de açmak için dokunun."</string>
+    <string name="circulate_card_tv_pip_state_send_error">Bir hata oluştu. Ağ bağlantınızı kontrol edin ve tekrar deneyin.</string>
     <string name="circulate_card_tv_privacy_protection">Gizlilik</string>
     <string name="circulate_card_tv_remote_control">Uzaktan kumanda</string>
+    <string name="circulate_card_tv_screen">Yansıt</string>
     <string name="circulate_card_tv_screen_mirror">Ekran yansıtma</string>
     <string name="circulate_card_tv_screen_mirror_ing">Ekran yansıtılıyor…</string>
     <string name="circulate_card_tv_screen_of_mirror">Ekran kapalı durumdayken</string>
+    <string name="circulate_card_tv_screen_state">Yansıtılıyor</string>
     <string name="circulate_card_tv_share">Görüntüle</string>
     <string name="circulate_card_tv_small_mirror">Kayan pencere</string>
+    <string name="circulate_card_tv_small_screen">Resim içinde resim</string>
     <string name="circulate_card_tv_source">Sinyal kaynağı</string>
+    <string name="circulate_card_tv_stop_screen">Yansıtmayı durdur</string>
     <string name="circulate_common_retry_later">Bir veya iki dakika bekleyin ve ardından tekrar deneyin</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@ başka bir cihaza sürükleyin"</string>
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">Ekran yansıtma sırasında aramaları cihazlar arası aktarmak için</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">Ses kaydet</string>
     <string name="circulate_cta_premission_storage_pad_title">Depolama alanına eriş ve ögeleri kaydet</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,11 @@ böylece Xiaomi HyperMind modelleri öğrenebilir ve geliştirebilir"</string>
     <string name="icon_content_description">İletişim kutusu simgesi</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Ara bağlantı, verileri cihazlar arasında kontrol etmenize ve aktarmanıza olanak tanır.
+
+Ara bağlantı kullanılırken mikrofonun diğer uygulamalar tarafından kullanılmasını önlemek için erişilebilirlik özelliklerini açın.
+
+Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı alacaksınız. Bu özellikleri kullandığınızda Ara bağlantı özelliğinin hiçbir hakkınızı ihlal etmeyeceğinden lütfen emin olun."</string>
     <string name="invisible_mode_dialog_content">Gizli modda iken yansıtma kullanılamıyor. Önce Gizli modu kapatın.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Gizli modda iken oynatma aktarılamıyor. Önce Gizli modu kapatın.</string>
     <string name="invisible_mode_dialog_pos">Kapat</string>
@@ -1347,6 +1369,9 @@ Oyunları yansıtmadan önce Game Turbo'yu açtığınızdan emin olun."</string
     <string name="synergy_casting">Screen Combo çalışıyorken yansıtma kullanılamaz</string>
     <string name="synergy_text">Ara bağlantı</string>
     <string name="talk_back_device_battery_quantity">Pil %s</string>
+    <string name="temperature_warning_dialog_message">Bu cihaz aşırı ısınmış. Kamera akışını paylaşmadan önce soğumasını bekleyin.</string>
+    <string name="temperature_warning_dialog_positive_button">Anladım</string>
+    <string name="temperature_warning_dialog_title">Cihazlar arası kamera kullanılamıyor</string>
     <string name="the_anniversary_of_lifting_martial_law">Sıkıyönetim Kanunun Yıldönümü</string>
     <string name="the_anti_aggression_day">Saldırganlık Karşıtı Günü</string>
     <string name="the_arbor_day">Ağaç Dikme Günü</string>

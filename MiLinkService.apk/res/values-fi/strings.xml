@@ -116,6 +116,8 @@ laitteitasi?"</string>
     <string name="car_air_con_switch_close">Kytke auton ilmastointi pois päältä</string>
     <string name="car_air_con_switch_open">Kytke auton ilmastointi päälle</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Yhdistetään sähköauton kameraan</string>
+    <string name="car_camera_associate_disconnecting">Irrotetaan sähköauton kamerasta</string>
     <string name="car_camera_unavailable_dialog_message">Tämä laite ei voi käyttää sähköauton kameraa, kun virransäästötila tai yksityisyystila on käytössä.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Selvä</string>
     <string name="car_camera_unavailable_dialog_title">Sähköauton etukamera on varattu</string>
@@ -210,6 +212,7 @@ peilataksesi tämän tabletin näytön"</string>
     <string name="circulate_card_sticker_remote_control_volum_reduce">Äänenvoimakkuus alas</string>
     <string name="circulate_card_sticker_selected">Valittu</string>
     <string name="circulate_card_tv_device_sync">Yhteenliitettävyys</string>
+    <string name="circulate_card_tv_full_screen">Koko näyttö</string>
     <string name="circulate_card_tv_gesture_click_sure">Vahvista napauttamalla mistä tahansa</string>
     <string name="circulate_card_tv_gesture_content_desc">"Kosketusohjausalue. Siirrä kohdistinta liu'uttamalla. Vahvista valinta napauttamalla."</string>
     <string name="circulate_card_tv_gesture_ok">OK</string>
@@ -218,15 +221,29 @@ peilataksesi tämän tabletin näytön"</string>
     <string name="circulate_card_tv_gesture_slide">"Siirrä kohdistinta liu'uttamalla"</string>
     <string name="circulate_card_tv_gesture_slide_title">"Ohjaa liu'uttamalla"</string>
     <string name="circulate_card_tv_my_app">Lisää sovelluksia</string>
+    <string name="circulate_card_tv_notes_button_cancel">Peruuta</string>
+    <string name="circulate_card_tv_notes_button_confirm">Lähetä</string>
+    <string name="circulate_card_tv_notes_edittext_hint">Kirjoita enintään %d merkkiä</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Asetettu TV-tarralapu</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Muistiinpanot voivat olla enintään %d merkkiä</string>
+    <string name="circulate_card_tv_notes_send_error">Ei voitu lähettää. Tarkista verkkoyhteytesi ja yritä uudelleen.</string>
+    <string name="circulate_card_tv_notes_subtitle">Kirjoita muistiinpano, joka näytetään television näytönsäästäjässä</string>
+    <string name="circulate_card_tv_notes_text">TV-tarralappu</string>
+    <string name="circulate_card_tv_notes_title">TV-tarralappu</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Avaa televisiossa napauttamalla.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Tapahtui virhe. Tarkista verkkoyhteytesi ja yritä uudelleen.</string>
     <string name="circulate_card_tv_privacy_protection">Yksityisyys</string>
     <string name="circulate_card_tv_remote_control">Kaukosäädin</string>
+    <string name="circulate_card_tv_screen">Ruudunjako</string>
     <string name="circulate_card_tv_screen_mirror">Näytön peilaaminen</string>
     <string name="circulate_card_tv_screen_mirror_ing">Peilataan näyttöä…</string>
     <string name="circulate_card_tv_screen_of_mirror">Näytön ollessa sammuksissa</string>
+    <string name="circulate_card_tv_screen_state">Suoratoistetaan</string>
     <string name="circulate_card_tv_share">Näytä</string>
     <string name="circulate_card_tv_small_mirror">Kelluva ikkuna</string>
+    <string name="circulate_card_tv_small_screen">Kuva kuvassa</string>
     <string name="circulate_card_tv_source">Signaalin lähde</string>
+    <string name="circulate_card_tv_stop_screen">Lopeta ruudunjako</string>
     <string name="circulate_common_retry_later">Odota pari minuuttia ja yritä uudelleen</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@ peilataksesi tämän tabletin näytön"</string>
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">Laitteen äänen tallentamiseen suoratoiston ja peilauksen aikana sekä laitteen suunnan määrittämiseen laitteiden välisille ohjaimille</string>
     <string name="circulate_cta_premission_sound_title">Tallenna ääntä</string>
     <string name="circulate_cta_premission_storage_pad_title">Käytä ja tallenna kohteita tallennustilaan</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,11 @@ jotta Xiaomi HyperMind voi oppia ja tarkentaa kuvioita"</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Yhteenliitettävyyden avulla voit hallita ja siirtää tietoja laitteiden välillä.
+
+Ota käyttöön esteettömyysominaisuudet, jotta muut sovellukset eivät käytä mikrofonia, kun käytät yhteenliitettävyyttä.
+
+Huomautus: Saat rutiinijärjestelmän varoituksen, kun otat esteettömyysominaisuudet käyttöön. Voit olla varma, että yhteenliitettävyys ei loukkaa oikeuksiasi, kun käytät näitä ominaisuuksia."</string>
     <string name="invisible_mode_dialog_content">Et voi käyttää suoratoistoa inkognito-tilassa. Poista ensin inkognito-tila käytöstä.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Toistoa ei voi siirtää inkognito-tilassa. Poista ensin inkognito-tila käytöstä.</string>
     <string name="invisible_mode_dialog_pos">Poista käytöstä</string>
@@ -1347,6 +1369,9 @@ Varmista, että olet ottanut Game Turbon käyttöön ennen pelien ruudunjakoa."<
     <string name="synergy_casting">Näytönjakoa ei voi käyttää, kun Screen Combo toimii</string>
     <string name="synergy_text">Yhteenliitettävyys</string>
     <string name="talk_back_device_battery_quantity">Akku %s</string>
+    <string name="temperature_warning_dialog_message">Tämä laite on ylikuumentunut. Odota, että se jäähtyy ennen kuin jaat kamerasyötteen.</string>
+    <string name="temperature_warning_dialog_positive_button">Selvä</string>
+    <string name="temperature_warning_dialog_title">Laitteiden välistä kameraa ei voida käyttää</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>

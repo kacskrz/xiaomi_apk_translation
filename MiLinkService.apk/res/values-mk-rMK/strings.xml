@@ -77,6 +77,8 @@
     <string name="car_air_con_switch_close">Исклучи клима во автомобил</string>
     <string name="car_air_con_switch_open">Вклучи клима во автомобил</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Поврзување со камерата на ЕВ</string>
+    <string name="car_camera_associate_disconnecting">Исклучување од камерата на ЕВ</string>
     <string name="car_camera_unavailable_dialog_message">Овој уред не може да ја користи камерата на ЕВ кога е вклучен Режимот за ниска енергија или Режимот за приватност.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Јасно</string>
     <string name="car_camera_unavailable_dialog_title">Предната камера на ЕВ е зафатена</string>
@@ -169,6 +171,7 @@
     <string name="circulate_card_sticker_remote_control_volum_reduce">Намалување јачина</string>
     <string name="circulate_card_sticker_selected">Одбрано</string>
     <string name="circulate_card_tv_device_sync">Меѓуповрзаност</string>
+    <string name="circulate_card_tv_full_screen">Цел екран</string>
     <string name="circulate_card_tv_gesture_click_sure">Кликнете било каде за да потврдите</string>
     <string name="circulate_card_tv_gesture_content_desc">Област за контроли на допир. Лизгајте за да го поместите курсорот. Допрете за да го потврдите изборот.</string>
     <string name="circulate_card_tv_gesture_ok">Во ред</string>
@@ -177,15 +180,29 @@
     <string name="circulate_card_tv_gesture_slide">Лизгајте за да го поместите курсорот</string>
     <string name="circulate_card_tv_gesture_slide_title">Лизгај за контрола</string>
     <string name="circulate_card_tv_my_app">Повеќе апликации</string>
+    <string name="circulate_card_tv_notes_button_cancel">Откажете</string>
+    <string name="circulate_card_tv_notes_button_confirm">Испрати</string>
+    <string name="circulate_card_tv_notes_edittext_hint">Внесете до %d знака</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Применети леплива белешка на ТВ</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Белешките може да имаат до %d знака</string>
+    <string name="circulate_card_tv_notes_send_error">Не можеше да се прати. Проверете го мрежното поврзување и обидете се повторно.</string>
+    <string name="circulate_card_tv_notes_subtitle">Внесете белешка што ќе се прикажува на чуварот на екранот на ТВ</string>
+    <string name="circulate_card_tv_notes_text">Леплива белешка на ТВ</string>
+    <string name="circulate_card_tv_notes_title">Леплива белешка на ТВ</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Кликнете за да отворите на TV.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Настана грешка. Проверете ја мрежната врска и обидете се повторно.</string>
     <string name="circulate_card_tv_privacy_protection">Приватност</string>
     <string name="circulate_card_tv_remote_control">Далеч. управ.</string>
+    <string name="circulate_card_tv_screen">Емитувај</string>
     <string name="circulate_card_tv_screen_mirror">Пресликување на екран</string>
     <string name="circulate_card_tv_screen_mirror_ing">Пресликување екран…</string>
     <string name="circulate_card_tv_screen_of_mirror">Со исклучен екран</string>
+    <string name="circulate_card_tv_screen_state">Емитување</string>
     <string name="circulate_card_tv_share">Преглед</string>
     <string name="circulate_card_tv_small_mirror">Лебдечки прозорец</string>
+    <string name="circulate_card_tv_small_screen">Слика во слика</string>
     <string name="circulate_card_tv_source">Сигнален извор</string>
+    <string name="circulate_card_tv_stop_screen">Запри емитување</string>
     <string name="circulate_common_retry_later">Почекајте минута или две и обидете се повторно</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -200,7 +217,7 @@
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">Снимај аудио</string>
     <string name="circulate_cta_premission_storage_pad_title">Воспостави пристап до и зачувај ги елементите во складишниот простор</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -706,6 +723,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="i_see">Got it</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Меѓуповрзаноста во овозможува да контролирате и пренесувате податоци попреку уреди.
+
+Вклучете ги функциите за меѓуповрзаност за да спречите други апликации да го употребуваат микрофонот кога ја користите меѓуповрзаноста.
+
+Белешка: ќе добиете рутинско системско предупредување кога ќе ги вклучите функциите за меѓуповрзаност. Бидете спокојни дека меѓуповрзаноста нема да ги прекршува вашите права кога го користите овие функции."</string>
     <string name="invisible_mode_dialog_content">Не можете да емитувате кога сте во инкогнито. Најпрво исклучете го инкогнито режимот.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Не може да пренесува репродукција кога сте во инкогнито режим. Прво вклучете Инкогнито режим.</string>
     <string name="invisible_mode_dialog_pos">Исклучи</string>
@@ -1206,6 +1228,9 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="synergy_casting">Не може да се користи емитување додека е вклучена Screen Combo</string>
     <string name="synergy_text">Меѓуповрзаност</string>
     <string name="talk_back_device_battery_quantity">Батерија %s</string>
+    <string name="temperature_warning_dialog_message">Овој уред е прегреан. Причекајте да се излади пред да споделите содржина на камера.</string>
+    <string name="temperature_warning_dialog_positive_button">Разбрав</string>
+    <string name="temperature_warning_dialog_title">Не може да користи камера попреку уреди</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина од укинувањето на воениот режим</string>
     <string name="the_anti_aggression_day">Ден на анти-агресијата</string>
     <string name="the_arbor_day">Ден на дрвото</string>

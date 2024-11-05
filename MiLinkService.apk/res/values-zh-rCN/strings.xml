@@ -65,7 +65,7 @@
     <string name="appcirculate_toast_cancel">已取消</string>
     <string name="appcirculate_toast_connected">手机画面已流转</string>
     <string name="appcirculate_toast_fail">流转失败</string>
-    <string name="appcirculate_toast_high_temperature">手机温度过高，降温后恢复使用</string>
+    <string name="appcirculate_toast_high_temperature">手机降温后恢复使用</string>
     <string name="appcirculate_toast_loading">正在流转</string>
     <string name="appcirculate_toast_not_support_device_car">当前应用不支持流转到车机</string>
     <string name="appcirculate_toast_not_support_device_pad">当前应用不支持流转到平板</string>
@@ -118,6 +118,8 @@
     <string name="car_air_con_switch_close">车内空调开关关闭</string>
     <string name="car_air_con_switch_open">车内空调开关打开</string>
     <string name="car_air_con_unuse">--</string>
+    <string name="car_camera_associate_connecting">正在连接汽车摄像头</string>
+    <string name="car_camera_associate_disconnecting">正在断开汽车摄像头</string>
     <string name="car_camera_unavailable_dialog_message">汽车已开启智驾休眠或一键隐私模式，手机暂时无法使用汽车前视摄像头。</string>
     <string name="car_camera_unavailable_dialog_positive_button">知道了</string>
     <string name="car_camera_unavailable_dialog_title">汽车前视摄像头被占用</string>
@@ -214,6 +216,7 @@
     <string name="circulate_card_sticker_remote_control_volum_reduce">音量减少</string>
     <string name="circulate_card_sticker_selected">已选中</string>
     <string name="circulate_card_tv_device_sync">设备协同</string>
+    <string name="circulate_card_tv_full_screen">全屏</string>
     <string name="circulate_card_tv_gesture_click_sure">任意位置点击确认</string>
     <string name="circulate_card_tv_gesture_content_desc">触控区域，滑动移动电视光标、点击确认选择</string>
     <string name="circulate_card_tv_gesture_ok">OK</string>
@@ -222,15 +225,29 @@
     <string name="circulate_card_tv_gesture_slide">滑动移动电视光标</string>
     <string name="circulate_card_tv_gesture_slide_title">滑动控制</string>
     <string name="circulate_card_tv_my_app">更多应用</string>
+    <string name="circulate_card_tv_notes_button_cancel">取消</string>
+    <string name="circulate_card_tv_notes_button_confirm">发送</string>
+    <string name="circulate_card_tv_notes_edittext_hint">便签最多支持%d个字符</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">电视便签已生效</string>
+    <string name="circulate_card_tv_notes_edittext_toast">超过字数限制，最多%d个字符</string>
+    <string name="circulate_card_tv_notes_send_error">发送失败，请检查网络环境后重试</string>
+    <string name="circulate_card_tv_notes_subtitle">便签在电视屏保状态下显示</string>
+    <string name="circulate_card_tv_notes_text">电视便签</string>
+    <string name="circulate_card_tv_notes_title">电视便签</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s，点击在电视打开</string>
+    <string name="circulate_card_tv_pip_state_send_error">执行失败，请检查网络环境后重试</string>
     <string name="circulate_card_tv_privacy_protection">隐私保护</string>
     <string name="circulate_card_tv_remote_control">遥控器</string>
+    <string name="circulate_card_tv_screen">投屏</string>
     <string name="circulate_card_tv_screen_mirror">屏幕镜像</string>
     <string name="circulate_card_tv_screen_mirror_ing">正在屏幕镜像</string>
     <string name="circulate_card_tv_screen_of_mirror">息屏镜像</string>
+    <string name="circulate_card_tv_screen_state">投屏中</string>
     <string name="circulate_card_tv_share">查看</string>
     <string name="circulate_card_tv_small_mirror">小窗镜像</string>
+    <string name="circulate_card_tv_small_screen">画中画</string>
     <string name="circulate_card_tv_source">信号源</string>
+    <string name="circulate_card_tv_stop_screen">停止投屏</string>
     <string name="circulate_common_retry_later">请稍后重试</string>
     <string name="circulate_controlphone_button_hint">打开手机画面</string>
     <string name="circulate_controlphone_title">控制手机</string>
@@ -371,8 +388,8 @@
     <string name="circulate_tv_capturing">电视正在截图</string>
     <string name="circulate_tv_is_authing_tip">有设备正在认证，请稍候再试</string>
     <string name="circulate_tv_name">小米电视</string>
-    <string name="circulate_tv_power_alter_text">根据您的设置，电视会息屏或关机。关机后，遥控器与电视将在本页面消失</string>
-    <string name="circulate_tv_power_alter_title">关机/息屏</string>
+    <string name="circulate_tv_power_alter_text">根据您的设置，电视会关机。关机后，遥控器与电视将在本页面消失。</string>
+    <string name="circulate_tv_power_alter_title">关机</string>
     <string name="circulate_video_capture_fail">截图失败</string>
     <string name="circulate_video_capture_success">截图成功</string>
     <string name="circulate_video_retry_later">正在尝试控制电视</string>
@@ -774,6 +791,11 @@
     <string name="icon_content_description">对话框图标</string>
     <string name="image_transfer_failed">图片传输失败</string>
     <string name="install">安装</string>
+    <string name="introduction_to_accessibility_message">"您可通过本服务进行跨设备的控制和数据流转。
+
+开启互联互通服务的辅助功能权限，可以避免跨设备协同过程中麦克风与其他应用冲突导致无声音。
+
+提示：打开辅助功能时，会收到系统例行的警示提醒。互联互通服务不会进行侵害用户利益的行为，请放心开启。"</string>
     <string name="invisible_mode_dialog_content">当前您已开启隐身模式，无法使用投屏功能，请前往关闭隐身模式后再试。</string>
     <string name="invisible_mode_dialog_content_audio_relay">当前您已开启隐身模式，无法使用音乐靠近接力功能，请前往关闭隐身模式后再试。</string>
     <string name="invisible_mode_dialog_pos">前往关闭</string>
@@ -1407,6 +1429,9 @@
     <string name="synergy_casting">跨屏协作时无法使用投屏</string>
     <string name="synergy_text">设备协同</string>
     <string name="talk_back_device_battery_quantity">电量，%s</string>
+    <string name="temperature_warning_dialog_message">手机温度过高，降温后可重新开启相机协同。</string>
+    <string name="temperature_warning_dialog_positive_button">知道了</string>
+    <string name="temperature_warning_dialog_title">相机协同已断开</string>
     <string name="the_anniversary_of_lifting_martial_law">解严纪念日</string>
     <string name="the_anti_aggression_day">反侵略日</string>
     <string name="the_arbor_day">植树节</string>
@@ -1482,6 +1507,8 @@
     <string name="tuesday">星期二</string>
     <string name="tuesday_short">周二</string>
     <string name="tuesday_shortest">二</string>
+    <string name="tv_remote_auth_cancel">取消</string>
+    <string name="tv_remote_auth_title">输入电视验证码</string>
     <string name="unlock_screen_to_authorize_camera">%s请求使用相机</string>
     <string name="unlock_screen_to_authorize_camera_car">%s正在访问本机相机</string>
     <string name="update">升级</string>

@@ -116,6 +116,8 @@
     <string name="car_air_con_switch_close">자동차 에어컨 끄기</string>
     <string name="car_air_con_switch_open">자동차 에어컨 켜기</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">EV 카메라에 연결 중</string>
+    <string name="car_camera_associate_disconnecting">EV 카메라에서 연결 해제 중</string>
     <string name="car_camera_unavailable_dialog_message">이 기기는 저전력 모드 또는 비공개 모드가 켜져 있을 시 EV의 카메라를 사용할 수 없습니다.</string>
     <string name="car_camera_unavailable_dialog_positive_button">알겠습니다</string>
     <string name="car_camera_unavailable_dialog_title">EV의 전면 카메라가 과부하 상태입니다</string>
@@ -210,6 +212,7 @@
     <string name="circulate_card_sticker_remote_control_volum_reduce">볼륨 작게</string>
     <string name="circulate_card_sticker_selected">선택됨</string>
     <string name="circulate_card_tv_device_sync">상호 연결</string>
+    <string name="circulate_card_tv_full_screen">전체화면</string>
     <string name="circulate_card_tv_gesture_click_sure">아무 곳이나 탭하여 확인</string>
     <string name="circulate_card_tv_gesture_content_desc">제어 영역을 터치하십시오. 슬라이드로 커서를 이동하십시오. 탭하여 선택을 확인하십시오.</string>
     <string name="circulate_card_tv_gesture_ok">확인</string>
@@ -218,15 +221,29 @@
     <string name="circulate_card_tv_gesture_slide">슬라이드하여 커서 이동</string>
     <string name="circulate_card_tv_gesture_slide_title">슬라이드하여 제어</string>
     <string name="circulate_card_tv_my_app">더 많은 앱</string>
+    <string name="circulate_card_tv_notes_button_cancel">취소</string>
+    <string name="circulate_card_tv_notes_button_confirm">전송</string>
+    <string name="circulate_card_tv_notes_edittext_hint">최대 %d자리 문자 입력 가능</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">TV 스티커 메모 적용됨</string>
+    <string name="circulate_card_tv_notes_edittext_toast">메모 최대 %d자리 문자 입력 가능</string>
+    <string name="circulate_card_tv_notes_send_error">전송할 수 없습니다. 네트워크 연결을 확인한 후 다시 시도해 주십시오.</string>
+    <string name="circulate_card_tv_notes_subtitle">TV 화면보호기에 표시할 메모를 입력하십시오</string>
+    <string name="circulate_card_tv_notes_text">TV 스티커 메모</string>
+    <string name="circulate_card_tv_notes_title">TV 스티커 메모</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. 탭하여 TV에서 여십시오.</string>
+    <string name="circulate_card_tv_pip_state_send_error">네트워크 오류가 발생했습니다. 네트워크 연결을 확인하시고 다시 시도하십시오.</string>
     <string name="circulate_card_tv_privacy_protection">개인정보 보호</string>
     <string name="circulate_card_tv_remote_control">리모컨</string>
+    <string name="circulate_card_tv_screen">캐스트</string>
     <string name="circulate_card_tv_screen_mirror">화면 미러링</string>
     <string name="circulate_card_tv_screen_mirror_ing">화면 미러링 중…</string>
     <string name="circulate_card_tv_screen_of_mirror">화면을 끈 상태</string>
+    <string name="circulate_card_tv_screen_state">캐스팅</string>
     <string name="circulate_card_tv_share">보기</string>
     <string name="circulate_card_tv_small_mirror">플로팅 창</string>
+    <string name="circulate_card_tv_small_screen">픽처 인 픽처</string>
     <string name="circulate_card_tv_source">신호 출처</string>
+    <string name="circulate_card_tv_stop_screen">캐스트 중지</string>
     <string name="circulate_common_retry_later">1-2분 정도 기다리신 후 다시 시도하십시오</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">오디오 녹음</string>
     <string name="circulate_cta_premission_storage_pad_title">저장소 항목 접근 및 저장</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -755,6 +772,11 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="icon_content_description">대화상자 아이콘</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"상호 연결을 사용하면 여러 기기에서 데이터를 제어하고 전송할 수 있습니다.
+
+상호 연결을 사용할 때 다른 앱에서 마이크를 사용하지 못하도록 접근성 기능을 켜십시오.
+
+참고: 접근성 기능을 켜면 정기적으로 시스템 경고가 표시됩니다. 이러한 기능을 사용할 때 상호 연결은 귀하의 권리를 침해하지 않으므로 안심하시기 바랍니다."</string>
     <string name="invisible_mode_dialog_content">익명 상태에서는 캐스팅을 사용할 수 없습니다. 먼저 익명 모드를 끄십시오.</string>
     <string name="invisible_mode_dialog_content_audio_relay">익명 상태에서는 재생을 전송할 수 없습니다. 먼저 익명 모드를 끄십시오.</string>
     <string name="invisible_mode_dialog_pos">끄기</string>
@@ -1348,6 +1370,9 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="synergy_casting">Screen Combo가 작동 중일 시에는 캐스팅 할 수 없음</string>
     <string name="synergy_text">상호 연결</string>
     <string name="talk_back_device_battery_quantity">배터리 %s</string>
+    <string name="temperature_warning_dialog_message">기기가 과열되었습니다. 카메라 피드를 공유하기 전 온도가 내려갈 때까지 기다리십시오.</string>
+    <string name="temperature_warning_dialog_positive_button">알겠습니다</string>
+    <string name="temperature_warning_dialog_title">기기 간 카메라를 사용할 수 없음</string>
     <string name="the_anniversary_of_lifting_martial_law">계엄 해방일</string>
     <string name="the_anti_aggression_day">반침략일</string>
     <string name="the_arbor_day">식목일</string>

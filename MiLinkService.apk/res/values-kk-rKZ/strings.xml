@@ -77,6 +77,8 @@
     <string name="car_air_con_switch_close">Көлік кондиционерін өшіру</string>
     <string name="car_air_con_switch_open">Көлік кондиционерін қосу</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Электрлік көліктің камерасына қосылуда</string>
+    <string name="car_camera_associate_disconnecting">Электрлік көліктің камерасынан ажыратылуда</string>
     <string name="car_camera_unavailable_dialog_message">Электрлік көлік аз қуат немесе құпиялылық режимінде болса, оның камерасын осы құрылғы қолдана алмайды.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Түсінікті</string>
     <string name="car_camera_unavailable_dialog_title">Электрлік көліктің алдыңғы камерасы бос емес</string>
@@ -169,6 +171,7 @@
     <string name="circulate_card_sticker_remote_control_volum_reduce">Дыбыс деңгейін азайту</string>
     <string name="circulate_card_sticker_selected">Таңдалды</string>
     <string name="circulate_card_tv_device_sync">Өзара байланыстылық</string>
+    <string name="circulate_card_tv_full_screen">Толық экран</string>
     <string name="circulate_card_tv_gesture_click_sure">Растау үшін бір жерге басыңыз</string>
     <string name="circulate_card_tv_gesture_content_desc">Басқару аймағын басыңыз. Курсорды жылжыту үшін сырғытыңыз. Таңдауды растау үшін басыңыз.</string>
     <string name="circulate_card_tv_gesture_ok">OK</string>
@@ -177,15 +180,29 @@
     <string name="circulate_card_tv_gesture_slide">Курсорды жылжыту үшін сырғытыңыз</string>
     <string name="circulate_card_tv_gesture_slide_title">Басқару үшін сырғытыңыз</string>
     <string name="circulate_card_tv_my_app">Басқа қолданбалар</string>
+    <string name="circulate_card_tv_notes_button_cancel">Болдырмау</string>
+    <string name="circulate_card_tv_notes_button_confirm">Жіберу</string>
+    <string name="circulate_card_tv_notes_edittext_hint">%d таңбаға дейін енгізіңіз</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Қолданылған теледидар жапсырма жазбасы</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Жазбалар тек %d таңбаға дейін қамти алады</string>
+    <string name="circulate_card_tv_notes_send_error">Жіберу мүмкін болмады. Желі қосылымын тексеріп, әрекетті қайталаңыз.</string>
+    <string name="circulate_card_tv_notes_subtitle">Теледидардың экран сақтағышында көрсетілетін жазбаны енгізіңіз</string>
+    <string name="circulate_card_tv_notes_text">Теледидар жапсырма жазбасы</string>
+    <string name="circulate_card_tv_notes_title">Теледидар жапсырма жазбасы</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Теледидарда ашу үшін басыңыз.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Қате пайда болды. Желі қосылымын тексріңіз және қайталаңыз.</string>
     <string name="circulate_card_tv_privacy_protection">Құпиялылық</string>
     <string name="circulate_card_tv_remote_control">Пульт</string>
+    <string name="circulate_card_tv_screen">Трансляциялау</string>
     <string name="circulate_card_tv_screen_mirror">Экранды қосарлау</string>
     <string name="circulate_card_tv_screen_mirror_ing">Экран қосарлануда…</string>
     <string name="circulate_card_tv_screen_of_mirror">Өшірулі экранмен</string>
+    <string name="circulate_card_tv_screen_state">Трансляциялау</string>
     <string name="circulate_card_tv_share">Көру</string>
     <string name="circulate_card_tv_small_mirror">Қалқыма терезе</string>
+    <string name="circulate_card_tv_small_screen">Суреттегі сурет</string>
     <string name="circulate_card_tv_source">Сигнал көзі</string>
+    <string name="circulate_card_tv_stop_screen">Трансляцияны тоқтату</string>
     <string name="circulate_common_retry_later">Бір-екі минут күтіп, әрекетті қайталаңыз</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -200,7 +217,7 @@
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">Аудио жазу</string>
     <string name="circulate_cta_premission_storage_pad_title">Жадыға қол жеткізу және элементтерді жадыда сақтау</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -706,6 +723,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="i_see">Got it</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Өзара байланыстылық құрылғылар арасында деректерді басқаруға және тасымалдауға мүмкіндік береді.
+
+Өзара байланыстылықты пайдалану кезінде микрофонды басқа қолданбалар пайдалануына жол бермеу үшін арнайы мүмкіндіктерді қосыңыз.
+
+Ескерту: Арнайы мүмкіндіктерді қосқанда жүйелі жүйе ескертуін аласыз. Осы мүмкіндіктерді пайдаланған кезде Өзара байланыстылық ешбір құқықтарыңызды бұзбайтынына сенімді болыңыз."</string>
     <string name="invisible_mode_dialog_content">Инкогнито режимінде трансляциялауды пайдалана алмайсыз. Алдымен Инкогнито режимін өшіріңіз.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Инкогнито режимінде ойнатуды тасымалдау мүмкін емес. Алдымен Инкогнито режимін өшіріңіз.</string>
     <string name="invisible_mode_dialog_pos">Өшіру</string>
@@ -1206,6 +1228,9 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="synergy_casting">Screen Combo істеп тұрғанда трансляциялау мүмкін емес</string>
     <string name="synergy_text">Өзара байланыстылық</string>
     <string name="talk_back_device_battery_quantity">Батарея %s</string>
+    <string name="temperature_warning_dialog_message">Бұл құрылғы қызып кетті. Камера арнасын бөлісу алдында оның суығанын күтіңіз.</string>
+    <string name="temperature_warning_dialog_positive_button">Түсінікті</string>
+    <string name="temperature_warning_dialog_title">Құрылғыаралық камераны пайдалану мүмкін емес</string>
     <string name="the_anniversary_of_lifting_martial_law">Жауынгерлік Құқықты Көтеру Мерейтойы</string>
     <string name="the_anti_aggression_day">Агрессияға қарсы күн</string>
     <string name="the_arbor_day">Ағаш отырғызу күні</string>

@@ -116,6 +116,8 @@
     <string name="car_air_con_switch_close">إيقاف تشغيل مكيف السيارة</string>
     <string name="car_air_con_switch_open">تشغيل مكيف السيارة</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">جارٍ توصيل كاميرا السيارة الكهربائية</string>
+    <string name="car_camera_associate_disconnecting">جارٍ قطع الاتصال بكاميرا السيارة الكهربائية</string>
     <string name="car_camera_unavailable_dialog_message">لا يمكن لهذا الجهاز استخدام كاميرا السيارة الكهربائية عندما يكون وضع الطاقة المنخفضة أو وضع الخصوصية قيد التشغيل.</string>
     <string name="car_camera_unavailable_dialog_positive_button">حسنا</string>
     <string name="car_camera_unavailable_dialog_title">الكاميرا الأمامية للسيارة الكهربائية مشغولة</string>
@@ -210,6 +212,7 @@
     <string name="circulate_card_sticker_remote_control_volum_reduce">خفض مستوى الصوت</string>
     <string name="circulate_card_sticker_selected">محدد</string>
     <string name="circulate_card_tv_device_sync">الاتصال البيني</string>
+    <string name="circulate_card_tv_full_screen">ملء الشاشة</string>
     <string name="circulate_card_tv_gesture_click_sure">انقر في أي مكان للتأكيد</string>
     <string name="circulate_card_tv_gesture_content_desc">منطقة التحكم باللمس. حرك لتحريك المؤشر. انقر لتأكيد الاختيار.</string>
     <string name="circulate_card_tv_gesture_ok">موافق</string>
@@ -218,15 +221,29 @@
     <string name="circulate_card_tv_gesture_slide">حرك لتحريك المؤشر</string>
     <string name="circulate_card_tv_gesture_slide_title">اسحب للتحكم</string>
     <string name="circulate_card_tv_my_app">مزيد من التطبيقات</string>
+    <string name="circulate_card_tv_notes_button_cancel">إلغاء</string>
+    <string name="circulate_card_tv_notes_button_confirm">إرسال</string>
+    <string name="circulate_card_tv_notes_edittext_hint">أدخل ما يصل إلى %d حرف</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">تطبيق الملاحظات اللاصقة التلفزيونية</string>
+    <string name="circulate_card_tv_notes_edittext_toast">الحد الأقصى %dحرفًا للملاحظات</string>
+    <string name="circulate_card_tv_notes_send_error">لا يمكن الإرسال. تحقق من اتصال الشبكة وحاول مرة أخرى.</string>
+    <string name="circulate_card_tv_notes_subtitle">أدخل الملاحظات ليتم عرضها على شاشة توقف التلفزيون</string>
+    <string name="circulate_card_tv_notes_text">ملاحظات التصحيح التلفزيوني</string>
+    <string name="circulate_card_tv_notes_title">ملاحظات التصحيح التلفزيوني</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. انقر لفتحه على شاشة التلفزيون.</string>
+    <string name="circulate_card_tv_pip_state_send_error">حدث خطأ. تحقق من اتصال الشبكة وحاول مرة أخرى.</string>
     <string name="circulate_card_tv_privacy_protection">الخصوصية</string>
     <string name="circulate_card_tv_remote_control">جهاز ريموت</string>
+    <string name="circulate_card_tv_screen">بث الشاشة</string>
     <string name="circulate_card_tv_screen_mirror">عكس الشاشة</string>
     <string name="circulate_card_tv_screen_mirror_ing">يتم عكس الشاشة…</string>
     <string name="circulate_card_tv_screen_of_mirror">مع إيقاف تشغيل الشاشة</string>
+    <string name="circulate_card_tv_screen_state">بث الشاشة</string>
     <string name="circulate_card_tv_share">عرض</string>
     <string name="circulate_card_tv_small_mirror">نافذة منبثقة</string>
+    <string name="circulate_card_tv_small_screen">صورة داخل الصورة</string>
     <string name="circulate_card_tv_source">مصدر الإشارة</string>
+    <string name="circulate_card_tv_stop_screen">إيقاف بث الشاشة</string>
     <string name="circulate_common_retry_later">انتظر لمدة دقيقة أو دقيقتين ثم أعد المحاولة</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">تسجيل الصوت</string>
     <string name="circulate_cta_premission_storage_pad_title">الوصول إلى الذاكرة وحفظ العناصر</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="icon_content_description">رمز مربع الحوار</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"تتيح لك ميزة الاتصال البيني التحكم في البيانات ونقلها عبر الأجهزة.
+
+قم بتشغيل ميزات إمكانية الوصول لمنع استخدام الميكروفون بواسطة تطبيقات أخرى عند استخدام ميزة الاتصال البيني.
+
+ملاحظة: ستتلقى تحذيرًا روتينيًا للنظام عند تشغيل ميزات إمكانية الوصول. يرجى الاطمئنان إلى أن ميزة الاتصال البيني لن تنتهك أيًا من حقوقك عند استخدامها."</string>
     <string name="invisible_mode_dialog_content">لا يمكن استخدام بث الشاشة وأنت في وضع التصفح المتخفي. قم بإيقاف وضع التصفح المخفي أولاً.</string>
     <string name="invisible_mode_dialog_content_audio_relay">لا يمكن نقل التشغيل في الوضع التصفح المتخفي. يرجى إيقاف تشغيل وضع التصفح المخفي أولاً.</string>
     <string name="invisible_mode_dialog_pos">إيقاف التشغيل</string>
@@ -1347,6 +1369,9 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="synergy_casting">لا يمكن استخدام بث الشاشة أثناء تشغيل Screen Combo</string>
     <string name="synergy_text">الاتصال البيني</string>
     <string name="talk_back_device_battery_quantity">البطارية %s</string>
+    <string name="temperature_warning_dialog_message">هذا الجهاز جدا ساخن. انتظر حتى يبرد قبل مشاركة بث الكاميرا.</string>
+    <string name="temperature_warning_dialog_positive_button">حسنا</string>
+    <string name="temperature_warning_dialog_title">لا يمكن استخدام الكاميرات عبر الأجهزة</string>
     <string name="the_anniversary_of_lifting_martial_law">ذكرى إلغاء الأحكام العرفية</string>
     <string name="the_anti_aggression_day">يوم مكافحة العدوان</string>
     <string name="the_arbor_day">يوم الشجرة</string>

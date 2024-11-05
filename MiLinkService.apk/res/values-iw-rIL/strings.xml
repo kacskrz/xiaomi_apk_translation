@@ -77,6 +77,8 @@
     <string name="car_air_con_switch_close">כיבוי מזגן המכונית</string>
     <string name="car_air_con_switch_open">הפעלת מזגן המכונית</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">מתחבר למצלמת הרכב החשמלי</string>
+    <string name="car_camera_associate_disconnecting">מתנתק ממצלמת הרכב החשמלי</string>
     <string name="car_camera_unavailable_dialog_message">מכשיר זה לא יכול להשתמש במצלמת הרכב החשמלי כשמופעל מצב צריכת חשמל נמוכה או מצב פרטיות.</string>
     <string name="car_camera_unavailable_dialog_positive_button">הבנתי</string>
     <string name="car_camera_unavailable_dialog_title">המצלמה הקדמית של הרכב החשמלי תפוסה</string>
@@ -169,6 +171,7 @@
     <string name="circulate_card_sticker_remote_control_volum_reduce">הנמך שמע</string>
     <string name="circulate_card_sticker_selected">נבחר/ו</string>
     <string name="circulate_card_tv_device_sync">קישוריות הדדית</string>
+    <string name="circulate_card_tv_full_screen">מסך מלא</string>
     <string name="circulate_card_tv_gesture_click_sure">נא להקיש בכל מקום לאישור</string>
     <string name="circulate_card_tv_gesture_content_desc">יש לגעת באזור הבקרות. יש להעביר אצבע להזזת הסמן. יש להקיש לאישור הבחירה.</string>
     <string name="circulate_card_tv_gesture_ok">אישור</string>
@@ -177,15 +180,29 @@
     <string name="circulate_card_tv_gesture_slide">יש להעביר אצבע להזזת הסמן</string>
     <string name="circulate_card_tv_gesture_slide_title">נא להזיז לשליטה</string>
     <string name="circulate_card_tv_my_app">יישומים נוספים</string>
+    <string name="circulate_card_tv_notes_button_cancel">ביטול</string>
+    <string name="circulate_card_tv_notes_button_confirm">שליחה</string>
+    <string name="circulate_card_tv_notes_edittext_hint">יש להזין עד %d תווים</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">הפתק הדביק לטלוויזיה הוחל</string>
+    <string name="circulate_card_tv_notes_edittext_toast">פתקים יכולים להכיל עד %d תווים</string>
+    <string name="circulate_card_tv_notes_send_error">לא ניתן לשלוח. יש לבדוק את הגדרות הרשת ולנסות שוב.</string>
+    <string name="circulate_card_tv_notes_subtitle">הזינו תוכן לפתק שיוצג על שומר המסך בטלוויזיה</string>
+    <string name="circulate_card_tv_notes_text">פתק דביק לטלוויזיה</string>
+    <string name="circulate_card_tv_notes_title">פתק דביק לטלוויזיה</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. יש להקיש לפתיחה בטלוויזיה.</string>
+    <string name="circulate_card_tv_pip_state_send_error">אירעה שגיאה. יש לבדוק את החיבור לרשת ולנסות שוב.</string>
     <string name="circulate_card_tv_privacy_protection">פרטיות</string>
     <string name="circulate_card_tv_remote_control">מרחוק</string>
+    <string name="circulate_card_tv_screen">שידור</string>
     <string name="circulate_card_tv_screen_mirror">שיקוף מסך</string>
     <string name="circulate_card_tv_screen_mirror_ing">משקף את המסך…</string>
     <string name="circulate_card_tv_screen_of_mirror">כשהמסך כבוי</string>
+    <string name="circulate_card_tv_screen_state">הקרנה</string>
     <string name="circulate_card_tv_share">צפייה</string>
     <string name="circulate_card_tv_small_mirror">חלון צף</string>
+    <string name="circulate_card_tv_small_screen">תמונה בתוך תמונה</string>
     <string name="circulate_card_tv_source">מקור האות</string>
+    <string name="circulate_card_tv_stop_screen">הפסק את השידור</string>
     <string name="circulate_common_retry_later">המתן דקה או שתיים ונסה שוב</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -200,7 +217,7 @@
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">For recording device sound during casting and mirroring and determining device orientation for cross-device controls</string>
     <string name="circulate_cta_premission_sound_title">הקלטת שמע</string>
     <string name="circulate_cta_premission_storage_pad_title">גישה ושמירת פריטים בשטח האחסון</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -706,6 +723,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="i_see">Got it</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"מאפיין הקישוריות ההדדית מאפשר לשלוט בנתונים ולהעביר נתונים בין מכשירים.
+
+יש להפעיל את מאפייני הנגישות כדי למנוע שימוש במיקרופון על-ידי יישומים אחרים בזמן שימוש בקישוריות הדדית.
+
+הערה: בהפעלת מאפייני הנגישות, תקבלו אזהרת מערכת שגרתית. אתם יכולים להיות סמוכים ובטוחים כי מאפיין הקישוריות ההדדית לא יפגע בזכויות שלכם כשאתם משתמשים במאפיינים הללו."</string>
     <string name="invisible_mode_dialog_content">אי אפשר להשתמש בהצגה על מסך אחר בזמן שימוש במצב פרטיות. יש לכבות תחילה את מצב הפרטיות.</string>
     <string name="invisible_mode_dialog_content_audio_relay">אי אפשר להעביר ניגון בזמן שימוש במצב פרטיות. יש לכבות תחילה את מצב הפרטיות.</string>
     <string name="invisible_mode_dialog_pos">כיבוי</string>
@@ -1206,6 +1228,9 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="synergy_casting">לא ניתן להשתמש במקרן כאשר Screen Combo מופעל</string>
     <string name="synergy_text">קישוריות הדדית</string>
     <string name="talk_back_device_battery_quantity">סוללה %s</string>
+    <string name="temperature_warning_dialog_message">מכשיר זה התחמם יתר על המידה. נא להמתין עד שהוא יתקרר לפני שיתוף של פיד המצלמה.</string>
+    <string name="temperature_warning_dialog_positive_button">הבנתי</string>
+    <string name="temperature_warning_dialog_title">לא ניתן להשתמש במצלמה למכשירים מרובים</string>
     <string name="the_anniversary_of_lifting_martial_law">יום השנה לביטול החוק הצבאי</string>
     <string name="the_anti_aggression_day">יום המאבק באלימות</string>
     <string name="the_arbor_day">יום העץ</string>

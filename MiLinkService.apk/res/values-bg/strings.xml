@@ -116,6 +116,8 @@
     <string name="car_air_con_switch_close">Изключване на климатика на колата</string>
     <string name="car_air_con_switch_open">Включване на климатика на колата</string>
     <string name="car_air_con_unuse">–-</string>
+    <string name="car_camera_associate_connecting">Свързване с камерата на електромобила</string>
+    <string name="car_camera_associate_disconnecting">Връзката с камерата на електромобила се прекъсва</string>
     <string name="car_camera_unavailable_dialog_message">Това устройство не може да използва камерата на електромобила, когато е включен режим „Ниска мощност“ или „Поверителност“.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Разбрах</string>
     <string name="car_camera_unavailable_dialog_title">Предната камера на електромобила е заета</string>
@@ -210,6 +212,7 @@
     <string name="circulate_card_sticker_remote_control_volum_reduce">Намаляване на звука</string>
     <string name="circulate_card_sticker_selected">Избрани</string>
     <string name="circulate_card_tv_device_sync">Взаимосвързаност</string>
+    <string name="circulate_card_tv_full_screen">Цял екран</string>
     <string name="circulate_card_tv_gesture_click_sure">Натиснете произволно място, за да потвърдите</string>
     <string name="circulate_card_tv_gesture_content_desc">Зона за сензорно управление. Плъзнете, за да преместите курсора. Натиснете, за да потвърдите избора.</string>
     <string name="circulate_card_tv_gesture_ok">OК</string>
@@ -218,15 +221,29 @@
     <string name="circulate_card_tv_gesture_slide">Плъзнете, за да преместите курсора</string>
     <string name="circulate_card_tv_gesture_slide_title">Плъзнете, за да контролирате</string>
     <string name="circulate_card_tv_my_app">Още приложения</string>
+    <string name="circulate_card_tv_notes_button_cancel">Отказ</string>
+    <string name="circulate_card_tv_notes_button_confirm">Изпращане</string>
+    <string name="circulate_card_tv_notes_edittext_hint">Въведете до %d знака</string>
+    <string name="circulate_card_tv_notes_edittext_success_toast">Приложихте бележка за телевизор</string>
+    <string name="circulate_card_tv_notes_edittext_toast">Бележките могат да съдържат до %d знака</string>
+    <string name="circulate_card_tv_notes_send_error">Неуспешно изпращане. Проверете мрежовата си връзка и опитайте отново.</string>
+    <string name="circulate_card_tv_notes_subtitle">Въведете бележка, която да се покаже на скрийнсейвъра на телевизора</string>
+    <string name="circulate_card_tv_notes_text">Бележка за телевизор</string>
+    <string name="circulate_card_tv_notes_title">Бележка за телевизор</string>
     <string name="circulate_card_tv_open_app_content_desc">%1$s. Натиснете, за да отворите на телевизора.</string>
+    <string name="circulate_card_tv_pip_state_send_error">Възникна грешка. Проверете връзката си с мрежата и опитайте отново.</string>
     <string name="circulate_card_tv_privacy_protection">Поверителност</string>
     <string name="circulate_card_tv_remote_control">Дистанционно</string>
+    <string name="circulate_card_tv_screen">Прожекция</string>
     <string name="circulate_card_tv_screen_mirror">Огледален екран</string>
     <string name="circulate_card_tv_screen_mirror_ing">Показване на огледален екран…</string>
     <string name="circulate_card_tv_screen_of_mirror">При изключен екран</string>
+    <string name="circulate_card_tv_screen_state">Прожектиране</string>
     <string name="circulate_card_tv_share">Преглед</string>
     <string name="circulate_card_tv_small_mirror">Плаващ прозорец</string>
+    <string name="circulate_card_tv_small_screen">Картина в картината</string>
     <string name="circulate_card_tv_source">Източник на сигнала</string>
+    <string name="circulate_card_tv_stop_screen">Прекрати прожекцията</string>
     <string name="circulate_common_retry_later">Изчакайте минута-две и опитайте отново</string>
     <string name="circulate_controlphone_button_hint">View screen</string>
     <string name="circulate_controlphone_title">Manage device</string>
@@ -241,7 +258,7 @@
     <string name="circulate_cta_premission_mac_address_subtitle">For discovering nearby devices</string>
     <string name="circulate_cta_premission_obtain_information_subtitle">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
     <string name="circulate_cta_premission_read_call_log_subtitle">For transferring calls across devices during screen mirrorring</string>
-    <string name="circulate_cta_premission_sound_subtitle">For recording local audio during casting and screen mirrorring</string>
+    <string name="circulate_cta_premission_sound_subtitle">За записване на звук на устройството по време на прожекция и дублиране и определяне на ориентацията на устройството за контроли между устройства</string>
     <string name="circulate_cta_premission_sound_title">Записване на аудио</string>
     <string name="circulate_cta_premission_storage_pad_title">Достъп и запазване на елементи в паметта</string>
     <string name="circulate_cta_premission_storage_subtitle">For casting and transferring content from this device</string>
@@ -754,6 +771,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
+    <string name="introduction_to_accessibility_message">"Взаимосвързаност Ви позволява да контролирате и прехвърляте данни между устройствата.
+
+Включете функциите за достъпност, за да предотвратите използването на микрофона от други приложения, когато използвате Взаимосвързаност.
+
+Забележка: Ще получите рутинно системно предупреждение, когато включите функциите за достъпност . Моля, бъдете сигурни, че Взаимосвързаност няма да наруши никое от Вашите права, когато използвате тези функции."</string>
     <string name="invisible_mode_dialog_content">Не можете да използвате Прожектиране в режим Инкогнито. Първо изключете този режим.</string>
     <string name="invisible_mode_dialog_content_audio_relay">Не можете да прехвърляте възпроизвеждане в режим Инкогнито. Първо изключете този режим.</string>
     <string name="invisible_mode_dialog_pos">Изключи</string>
@@ -1347,6 +1369,9 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="synergy_casting">Не можете да използвате прожектиране докато Screen Combo работи</string>
     <string name="synergy_text">Взаимосвързаност</string>
     <string name="talk_back_device_battery_quantity">Батерия %s</string>
+    <string name="temperature_warning_dialog_message">Устройството е прегряло. Изчакайте да се охлади, преди да споделите съдържание от камерата.</string>
+    <string name="temperature_warning_dialog_positive_button">Разбрах</string>
+    <string name="temperature_warning_dialog_title">Не може да се използва камера от различно устройство</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
     <string name="the_arbor_day">Ден на дървото</string>
