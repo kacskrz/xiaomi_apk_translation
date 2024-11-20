@@ -70,7 +70,12 @@
     <string name="adjust_grain">ਗ੍ਰੇਨ</string>
     <string name="adjust_highlight">ਹਾਈਲਾਈਟਾਂ</string>
     <string name="adjust_highlight_shadow">ਹਾਈਲਾਈਟਾਂ ਅਤੇ ਪਰਛਾਵੇਂ</string>
+    <string name="adjust_light_perception">ਰੋਸ਼ਨੀ</string>
     <string name="adjust_natural_saturation">ਵਾਈਬ੍ਰੈਂਸ</string>
+    <string name="adjust_noise_degree">ਡਿਗਰੀ</string>
+    <string name="adjust_noise_high_lights">ਹਾਈਲਾਈਟਾਂ</string>
+    <string name="adjust_noise_roughness">ਖੁਰਦਰਾਪਨ</string>
+    <string name="adjust_noise_size">ਆਕਾਰ</string>
     <string name="adjust_reset">ਰੀਸੈੱਟ ਕਰੋ</string>
     <string name="adjust_saturation">ਸੰਤ੍ਰਿਪਤਾ</string>
     <string name="adjust_shadow">ਪਰਛਾਵੇਂ</string>
@@ -81,6 +86,7 @@
     <string name="adjust_tab_detail">ਵੇਰਵੇ</string>
     <string name="adjust_tab_dispersion">ਫੈਲਾਅ</string>
     <string name="adjust_tab_effect">ਪ੍ਰਭਾਵ</string>
+    <string name="adjust_tab_noise">ਸ਼ੋਰ</string>
     <string name="adjust_tab_tone">ਟੋਨ</string>
     <string name="adjust_tab_white_balance">ਚਿੱਟਾ ਸੰਤੁਲਨ</string>
     <string name="adjust_talkback_curve_anchor_delete">ਐਂਕਰ ਪੁਆਇੰਟ ਮਿਟਾਓ</string>
@@ -94,12 +100,45 @@
     <string name="agreement_quit">ਬਾਹਰ ਆਓ</string>
     <string name="agreement_required_tip">(ਜ਼ਰੂਰੀ)</string>
     <string name="agreement_summary">ਕਨੂੰਨੀ ਦਸਤਾਵੇਜ਼</string>
+    <string name="ai_action_toast_cloud_data_pull_failed">ਆਈਟਮਾਂ ਲੋਡ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕੀਆਂ। ਆਪਣੀਆਂ ਨੈੱਟਵਰਕ ਸੈਟਿੰਗਾਂ ਦੀ ਜਾਂਚ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="ai_action_toast_function_ai_expansion_processing">ਚਿੱਤਰ ਦਾ ਵਿਸਥਾਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_ai_portrait_processing">AI ਚਿੱਤਰ ਨਾਲ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…</string>
+    <string name="ai_action_toast_function_background_change_processing">ਬੈਕਗ੍ਰਾਊਂਡ ਬਦਲੀ ਜਾ ਰਹੀ ਹੈ…</string>
+    <string name="ai_action_toast_function_beautification_processing">ਸਜਾਉਣਾ ਨਾਲ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…</string>
+    <string name="ai_action_toast_function_download_failed">ਸਹੂਲਤ ਡਾਊਨਲੋਡ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ। ਆਪਣੀਆਂ ਨੈੱਟਵਰਕ ਸੈਟਿੰਗਾਂ ਦੀ ਜਾਂਚ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="ai_action_toast_function_expression_replace_processing">ਹਾਵ-ਭਾਵ ਬਦਲ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_face_shape_processing">ਚਹਿਰੇ ਦੇ ਨਕਸ਼ ਵਿਵਸਥਿਤ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_leica_watermark_processing">Leica ਵਾਟਰਮਾਰਕ ਲਾਗੂ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_magic_remove_processing">AI Erase Pro ਨਾਲ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…</string>
+    <string name="ai_action_toast_function_music_processing">ਸਾਉਂਡਟ੍ਰੈਕ ਲਾਗੂ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_not_support">ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਅਜੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="ai_action_toast_function_photo_auto_beautify_processing">ਸਜਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_photo_beautify_skin_processing">ਚਮੜੀ ਦਾ ਰੰਗ ਵਿਵਸਥਿਤ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_photo_enhance_processing">ਵਧਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_photo_filter_processing">ਫ਼ਿਲਟਰ ਲਾਗੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_photo_restoration_processing">ਚਿੱਤਰ ਰੀਸਟੋਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_process_all_failed">ਪ੍ਰਭਾਵ ਲਾਗੂ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕੇ। ਥੋੜ੍ਹੀ ਦੇਰ ਉਡੀਕ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="ai_action_toast_function_process_failed">ਕੁਝ ਪ੍ਰਭਾਵ ਲਾਗੂ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕੇ। ਥੋੜ੍ਹੀ ਦੇਰ ਉਡੀਕ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="ai_action_toast_function_resources_loading">ਪਲਗ-ਇਨ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_style_change_processing">ਫ਼ੋਟੋ ਨੂੰ ਸਟਾਈਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_function_super_portrait_processing">HD ਪੋਰਟ੍ਰੇਟ ਨਾਲ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…</string>
+    <string name="ai_action_toast_function_watermark_frame_processing">ਵਾਟਰਮਾਰਕ ਫ਼੍ਰੇਮ ਲਾਗੂ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="ai_action_toast_multiple_function_not_support">ਕੁਝ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਅਜੇ ਉਪਲਬਧ ਨਹੀਂ ਹਨ</string>
+    <string name="ai_action_toast_need_login_mi_account">Xiaomi ਖਾਤੇ ਨਾਲ ਸਾਈਨ-ਇਨ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="ai_action_toast_not_support_scene">ਇਹ ਸਹੂਲਤ ਇੱਥੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ। ਪੰਨਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਵਾਪਸ ਜਾਓ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="ai_action_toast_picture_content_illegal">ਇਹ ਚਿੱਤਰ ਭਾਈਚਾਰੇ ਦੇ ਮਿਆਰਾਂ ਦੀ ਉਲੰਘਣਾ ਕਰਦਾ ਹੈ। ਕੋਈ ਹੋਰ ਅਜ਼ਮਾਓ।</string>
+    <string name="ai_action_toast_picture_size_out_of_limit">ਇਸ ਆਕਾਰ ਦੇ ਚਿੱਤਰ ਸਮਰਥਿਤ ਨਹੀਂ ਹਨ। ਕੋਈ ਹੋਰ ਅਜ਼ਮਾਓ।</string>
+    <string name="ai_action_toast_poor_network">ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਆਪਣੀਆਂ ਨੈੱਟਵਰਕ ਸੈਟਿੰਗਾਂ ਦੀ ਜਾਂਚ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="ai_action_toast_request_time_out">ਬੇਨਤੀ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ ਹੈ। ਥੋੜ੍ਹੀ ਦੇਰ ਉਡੀਕ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="aicrmanager_download_cancel">ਡਾਊਨਲੋਡ ਰੱਦ ਕਰੋ</string>
     <string name="aicrmanager_download_done">ਡਾਊਨਲੋਡ ਪੂਰਾ ਹੋਇਆ</string>
     <string name="aicrmanager_download_done_content_title">AI ਸੰਪਾਦਕ ਪਲਗ-ਇਨ</string>
     <string name="aicrmanager_download_process_content_title">AI ਸੰਪਾਦਕ ਪਲਗ-ਇਨ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
     <string name="aicrmanager_download_update_tip">ਇੱਕ ਪਲਗ-ਇਨ ਅੱਪਡੇਟ ਉਪਲਬਧ ਹੈ। ਦੇਖਣ ਲਈ ਟੈਪ ਕਰੋ।</string>
     <string name="aicrmanager_downloading">ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ %s</string>
+    <string name="aigc_login_confirm">ਸਾਈਨ-ਇਨ ਕਰੋ</string>
+    <string name="aigc_login_hint_message">ਸਾਰੀਆਂ AI ਸੰਪਾਦਕ ਸਹੂਲਤਾਂ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਣ ਲਈ Xiaomi ਖਾਤੇ ਨਾਲ ਸਾਈਨ-ਇਨ ਕਰੋ।</string>
+    <string name="aigc_login_hint_title">ਸਾਈਨ-ਇਨ ਕਰੋ</string>
     <string name="am">AM</string>
     <string name="app_name">ਗੈਲਰੀ ਸੰਪਾਦਕ</string>
     <string name="app_photoshop_name">ਗੈਲਰੀ ਸੰਪਾਦਕ</string>
@@ -423,7 +462,7 @@
     <string name="confirm_cancel_task_files">%1$s ਨੂੰ ਫ਼ਾਈਲਾਂ ਭੇਜਣੀਆਂ ਰੱਦ ਕਰਨੀਆਂ ਹਨ?</string>
     <string name="confirm_cancel_task_images">%1$s ਨੂੰ ਚਿੱਤਰ ਭੇਜਣਾ ਰੱਦ ਕਰਨਾ ਹੈ?</string>
     <string name="crop_label">ਕ੍ਰੌਪ ਕੀਤੀਆਂ ਫ਼ੋਟੋਆਂ</string>
-    <string name="cta_agreement_declare"><Data>ਵਰਤੋਂਕਾਰ ਵਜੋਂ ਆਪਣੇ ਅਧਿਕਾਰਾਂ ਨੂੰ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਮਝਣ ਦੇ ਨਾਲ-ਨਾਲ ਸਾਡੇ ਵੱਲੋਂ ਤੁਹਾਡੇ ਡਾਟਾ ਨੂੰ ਵਰਤੋਂ ਕਰਨ ਦੇ ਤਰੀਕੇ ਬਾਰੇ ਜਾਣਨ ਲਈ, ਇਸ ਐਪ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਾਡੇ &lt;a href=\"%1$s\">ਵਰਤੋਂਕਾਰ ਸਮਝੌਤਾ&lt;/a> ਅਤੇ &lt;a href=\"%2$s\">ਪਰਦੇਦਾਰੀ ਨੀਤੀ&lt;/a>ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਉਸ ਨਾਲ ਸਹਿਮਤ ਹੋਵੋ।</Data></string>
+    <string name="cta_agreement_declare">&lt;Data>ਵਰਤੋਂਕਾਰ ਵਜੋਂ ਆਪਣੇ ਅਧਿਕਾਰਾਂ ਨੂੰ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਮਝਣ ਦੇ ਨਾਲ-ਨਾਲ ਸਾਡੇ ਵੱਲੋਂ ਤੁਹਾਡੇ ਡਾਟਾ ਨੂੰ ਵਰਤੋਂ ਕਰਨ ਦੇ ਤਰੀਕੇ ਬਾਰੇ ਜਾਣਨ ਲਈ, ਇਸ ਐਪ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਾਡੇ &lt;a href=\"%1$s\">ਵਰਤੋਂਕਾਰ ਸਮਝੌਤਾ&lt;/a> ਅਤੇ &lt;a href=\"%2$s\">ਪਰਦੇਦਾਰੀ ਨੀਤੀ&lt;/a>ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਉਸ ਨਾਲ ਸਹਿਮਤ ਹੋਵੋ।&lt;/Data></string>
     <string name="cta_network_declare">Xiaomi ਕਲਾਉਡ ਨਾਲ ਫ਼ੋਟੋਆਂ ਅਤੇ ਵੀਡੀਓ ਦਾ ਸਮਕਾਲੀਕਰਨ ਕਰਨ ਲਈ, ਇਸ ਐਪ ਨੂੰ ਇੰਟਰਨੈੱਟ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -505,7 +544,7 @@
     <string name="filter_description_dialog_content">ਕਸਟਮ ਫ਼ਿਲਟਰ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਤੁਸੀਂ CUBE ਰੰਗ ਲੁਕਅੱਪ ਟੇਬਲ ਆਯਾਤ ਕਰ ਸਕਦੇ ਹੋ।</string>
     <string name="filter_description_dialog_title">ਕਸਟਮ ਫ਼ਿਲਟਰ</string>
     <string name="filter_diy_import">ਆਯਾਤ ਕਰੋ</string>
-    <string name="filter_diy_import_first_time_pop_tips">ਸੰਪਾਦਨ ਕਰਨ ਲਈ ਦਬਾਈ ਰੱਖੋ</string>
+    <string name="filter_diy_import_first_time_pop_tips">ਪਸੰਦੀਦਾ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਦਬਾਈ ਰੱਖੋ</string>
     <string name="filter_diy_import_toast_fail">ਆਯਾਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ</string>
     <string name="filter_diy_import_toast_out_of_limit">ਤੁਸੀਂ %d ਤੱਕ CUBE ਰੰਗ ਲੁਕਅੱਪ ਟੇਬਲ ਆਯਾਤ ਕਰ ਸਕਦੇ ਹੋ।</string>
     <string name="filter_diy_tip_dialog_cancel">ਰੱਦ ਕਰੋ</string>
@@ -513,13 +552,25 @@
     <string name="filter_diy_tip_dialog_confirm">ਠੀਕ ਹੈ</string>
     <string name="filter_diy_tip_dialog_content">ਤੁਸੀਂ %d ਤੱਕ CUBE ਰੰਗ ਲੁਕਅੱਪ ਟੇਬਲ ਆਯਾਤ ਕਰ ਸਕਦੇ ਹੋ।</string>
     <string name="filter_diy_tip_dialog_title">ਫ਼ਿਲਟਰ ਆਯਾਤ ਕਰੋ</string>
+    <string name="filter_film_besson">ਪਾਰਕਰ</string>
     <string name="filter_film_chinese_red">ਸੰਧੂਰੀ</string>
     <string name="filter_film_desert_brown">ਹੋਜ਼ਲਨਟ</string>
     <string name="filter_film_flowers_dream">ਸੀਨੇਮੈਟਿਕ</string>
+    <string name="filter_film_freehand">ਫ਼੍ਰੀਹੈਂਡ</string>
+    <string name="filter_film_korean_rubber">ਓਰਕਿਡ</string>
+    <string name="filter_film_kyoto">ਪੁਰਾਣਾ ਸ਼ਹਿਰ</string>
+    <string name="filter_film_le_mans">ਕੈਨਲਸ</string>
     <string name="filter_film_light_tea_green">ਗ੍ਰੀਨ ਟੀ</string>
+    <string name="filter_film_monsoon">ਮਾਨਸੂਨ</string>
     <string name="filter_film_mountain_cyan">ਟੀਲ ਕੋਹਰਾ</string>
+    <string name="filter_film_old_alley">ਗਲੀ</string>
+    <string name="filter_film_old_style">ਵਿਸਟਫੁੱਲ</string>
+    <string name="filter_film_relaxation">ਆਲਸ ਭਰਿਆ ਦਿਨ</string>
+    <string name="filter_film_reversal">ਰਿਵਰਸਲ</string>
+    <string name="filter_film_seaside">ਸੀਸਕੇਪ</string>
     <string name="filter_film_sunset_red">ਗੁਲਾਨਾਰੀ</string>
     <string name="filter_film_taichi_ink">ਸਿਆਹੀ</string>
+    <string name="filter_film_zhi_xian">ਕਵਿਤਾ</string>
     <string name="filter_general_blackice">ਬਲੈਕ ਆਈਸ</string>
     <string name="filter_general_blackwhite">ਕਾਲਾ ਅਤੇ ਚਿੱਟਾ</string>
     <string name="filter_general_delicious">ਭੋਜਨ</string>
@@ -1032,6 +1083,8 @@
     <string name="motion_photo_video_reverse_effect">ਪਰਤਾਓ</string>
     <string name="motion_photo_video_reverse_ing">ਵੀਡੀਓ ਨੂੰ ਰਿਵਰਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
     <string name="motion_photo_video_reverse_on">ਪਰਤਾਇਆ ਗਿਆ</string>
+    <string name="motion_photo_watermark_off">ਵਾਟਰਮਾਰਕ ਬੰਦ ਹਨ</string>
+    <string name="motion_photo_watermark_on">ਵਾਟਰਮਾਰਕ ਚਾਲੂ ਹਨ</string>
     <string name="movie_add_disable">ਤੁਸੀਂ ਵੱਧ ਤੋਂ ਵੱਧ %d ਫ਼ੋਟੋਆਂ ਚੁਣ ਸਕਦੇ ਹੋ</string>
     <string name="movie_audio_antiquity">ਰੇਟ੍ਰੋ</string>
     <string name="movie_audio_custom">ਸਥਾਨਕ</string>
@@ -1091,6 +1144,7 @@
     <string name="movie_template_xmas">ਕ੍ਰਿਸਮਸ</string>
     <string name="movie_video_long">ਬਹੁਤ ਵੱਡਾ ਵੀਡੀਓ</string>
     <string name="movie_video_short">%dਸ</string>
+    <string name="msg_initialize_failed_and_reenter">ਪਲਗ-ਇਨ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਇਸ ਪੰਨੇ ਨੂੰ ਬੰਦ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ।</string>
     <string name="multi_file_name">%1$s, %2$s</string>
     <string name="name_split">, </string>
     <string name="name_with_ellipsize">%1$s…%2$s</string>
@@ -1120,6 +1174,7 @@
     <string name="pc_device_model_name">ਕੰਪਿਊਟਰ</string>
     <string name="permission_account_desc">ਸਿਸਟਮ ਖਾਤਿਆਂ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਅਤੇ ਦਾ ਪ੍ਰਬੰਧ ਕਰਨ ਲਈ</string>
     <string name="permission_account_name">ਖਾਤਿਆਂ ਤੱਕ ਪਹੁੰਚ ਕਰੋ</string>
+    <string name="permission_app_summary">ਫ਼ੋਟੋਆਂ ਅਤੇ ਵੀਡੀਓ ਦਾ ਸੰਪਾਦਨ ਕਰਨ ਅਤੇ ਸਜਾਉਣ ਲਈ ਤੁਸੀਂ ਗੈਲਰੀ ਸੰਪਾਦਕ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ। ਕੁਝ ਡੀਵਾਈਸ ਮਾਡਲਾਂ ਉੱਤੇ AI ਸੇਵਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵੇਲੇ, ਇਸ ਐਪ ਨੂੰ ਪ੍ਰਕਿਰਿਆ ਕਰਨ ਲਈ ਚੁਣੀਆਂ ਗਈਂ ਫ਼ੋਟੋਆਂ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇਗੀ।</string>
     <string name="permission_clipboard_desc">ਕਲਿੱਪਬੋਰਡ ਉੱਤੇ ਆਈਟਮਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ</string>
     <string name="permission_clipboard_name">ਕਲਿੱਪਬੋਰਡ ਉੱਤੇ ਆਈਟਮਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰੋ ਜਾਂ ਸੁਰੱਖਿਅਤ ਕਰੋ</string>
     <string name="permission_contacts_desc">ਫ਼ੋਟੋਆਂ ਵਾਲੇ ਲੋਕਾਂ ਨੂੰ ਸੰਪਰਕ ਅਸਾਈਨ ਕਰਨ ਲਈ</string>
@@ -1163,6 +1218,9 @@
     <string name="photo_editor_aicrmanager_title">ਪਲਗ-ਇਨ ਦਾ ਪ੍ਰਬੰਧ ਕਰੋ</string>
     <string name="photo_editor_aicrmanager_uninstall">ਹਟਾਓ</string>
     <string name="photo_editor_aicrmanager_update">ਅੱਪਡੇਟ ਕਰੋ</string>
+    <string name="photo_editor_aigc_inpaint_progress">ਮਿਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="photo_editor_aigc_outpaint_progress">ਚਿੱਤਰ ਦਾ ਵਿਸਥਾਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="photo_editor_aigc_quality_improve_progress">ਚਿੱਤਰ ਰੀਸਟੋਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
     <string name="photo_editor_beautify">ਸਵੈਚਲਿਤ</string>
     <string name="photo_editor_beautify_auto">ਸਵੈਚਲਿਤ</string>
     <string name="photo_editor_beauty">ਸਜਾਉਣਾ</string>
@@ -1175,14 +1233,15 @@
     <string name="photo_editor_common_download_sdk_without_wifi_title">ਪਲਗ-ਇਨ ਡਾਊਨਲੋਡ ਕਰੋ</string>
     <string name="photo_editor_confirm">ਸਵਿੱਚ ਕਰੋ</string>
     <string name="photo_editor_crop">ਕ੍ਰੌਪ ਕਰੋ</string>
+    <string name="photo_editor_crop_ai_outpaint_name">ਵਿਸਤਾਰ ਕਰੋ</string>
     <string name="photo_editor_crop_and_rotate">ਕ੍ਰਾਪ ਕਰੋ</string>
     <string name="photo_editor_crop_auto">ਸਵੈਚਲਿਤ</string>
     <string name="photo_editor_crop_auto_tips">"ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਕ੍ਰੋਪ ਕੀਤੀ ਗਈ"</string>
     <string name="photo_editor_crop_outpaint_auto_name">ਸਵੈਚਲਿਤ</string>
     <string name="photo_editor_crop_outpaint_free_name">ਕਸਟਮ</string>
-    <string name="photo_editor_crop_outpaint_guide_desc">"ਸਾਰੇ-ਨਵੇਂ AI ਫੈਲਾਅ ਅਜ਼ਮਾਓ!
+    <string name="photo_editor_crop_outpaint_guide_desc">"ਸਾਰੇ-ਨਵੇਂ AI ਵਿਸਥਾਰ ਅਜ਼ਮਾਓ!
 ਮੂਲ ਪੱਖ ਅਨੁਪਾਤ ਰੱਖੋ, ਆਪਣਾ ਖ਼ੁਦ ਦਾ ਚੁਣੋ, ਜਾਂ AI ਨੂੰ ਫੈਸਲਾ ਕਰਨ ਦਿਓ।"</string>
-    <string name="photo_editor_crop_outpaint_name">AI ਫੈਲਾਅ</string>
+    <string name="photo_editor_crop_outpaint_name">AI ਵਿਸਥਾਰ</string>
     <string name="photo_editor_crop_outpaint_process_again">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
     <string name="photo_editor_crop_outpaint_process_begin">ਸ਼ੁਰੂ ਕਰੋ</string>
     <string name="photo_editor_crop_outpaint_process_tips">ਚਿੱਤਰ ਸਿਰਜੇ ਜਾ ਰਹੇ ਹਨ…</string>
@@ -1195,6 +1254,7 @@
     <string name="photo_editor_crop_size_origin">ਅਸਲੀ</string>
     <string name="photo_editor_crop_size_portrait_fullscreen">ਪੂਰੀ ਸਕ੍ਰੀਨ ↕</string>
     <string name="photo_editor_doodle">ਡੂਡਲ</string>
+    <string name="photo_editor_enhancer_user_guide_desc">ਸਾਡਾ ਨਵਾਂ ਵੱਡਾ ਮਾਡਲ ਐਲਗੋਰੀਥਮ ਸਿਰਫ਼ ਇੱਕੋ ਟੈਪ ਨਾਲ ਚਿੱਤਰ ਦੀ ਸਪਸ਼ਟਤਾ ਨੂੰ ਬਿਹਤਰ ਬਣਾ ਸਕਦਾ ਹੈ</string>
     <string name="photo_editor_estimate_size">ਅੰਦਾਜ਼ਨ ਆਕਾਰ: %1$s - %2$d × %3$d px</string>
     <string name="photo_editor_filter">ਫ਼ਿਲਟਰ</string>
     <string name="photo_editor_font_default">Mi Lanting (ਨਿਯਮਿਤ)</string>
@@ -1214,7 +1274,8 @@
     <string name="photo_editor_gallery_frame_tab_leica">Leica</string>
     <string name="photo_editor_high">ਉੱਚ</string>
     <string name="photo_editor_highest">ਸਭ ਤੋਂ ਵਧੀਆ</string>
-    <string name="photo_editor_intoutpaint_name">AI ਵਿਸਤਾਰ/AI Erase 2.0</string>
+    <string name="photo_editor_inpaint_progress">ਮਿਟਾ ਰਿਹਾ ਹੈ…%s</string>
+    <string name="photo_editor_intoutpaint_name">AI ਵਿਸਥਾਰ/AI Erase 2.0</string>
     <string name="photo_editor_label">ਸੰਪਾਦਨ ਕਰੋ</string>
     <string name="photo_editor_leica_frame">Leica ਵਾਟਰਮਾਰਕ</string>
     <string name="photo_editor_long_crop">ਕ੍ਰਾਪ ਕਰੋ</string>
@@ -1253,8 +1314,10 @@
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">"Looks like you aren't connected to WLAN. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">ਪਲਗ-ਇਨ ਡਾਊਨਲੋਡ ਕਰੋ</string>
     <string name="photo_editor_navigator_tab_title_ai">ਸਿਰਜੋ</string>
+    <string name="photo_editor_navigator_tab_title_ai_pro">AI</string>
     <string name="photo_editor_navigator_tab_title_basic">ਮੁੱਢਲਾ</string>
     <string name="photo_editor_navigator_tab_title_beauty">ਸਜਾਉਣਾ</string>
+    <string name="photo_editor_outpaint_progress">ਵਿਸਤਾਰ ਕਰ ਰਿਹਾ ਹੈ…%s</string>
     <string name="photo_editor_perspective">ਪਰਿਪੇਖ</string>
     <string name="photo_editor_perspective_crop">ਕ੍ਰੌਪ ਕਰੋ</string>
     <string name="photo_editor_perspective_distortion">ਵਿਗਾੜਨਾ</string>
@@ -1267,12 +1330,15 @@
     <string name="photo_editor_privacy_negative">ਬਾਹਰ ਆਓ</string>
     <string name="photo_editor_privacy_notice">ਪਰਦੇਦਾਰੀ ਨੋੋਟਿਸ</string>
     <string name="photo_editor_privacy_positive">ਸਹਿਮਤ ਹਾਂ</string>
+    <string name="photo_editor_privacy_tip_ai">"AI ਸਹੂਲਤਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ, &lt;a href='%1$s'>ਗੈਲਰੀ ਸੰਪਾਦਕ AI ਸਹੂਲਤਾਂ ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ&lt;/a> ਅਤੇ &lt;a href='%2$s'>ਗੈਲਰੀ ਸੰਪਾਦਕ AI ਸਹੂਲਤਾਂ ਦਾ ਵਰਤੋਂਕਾਰ ਸਮਝੌਤਾ&lt;/a> ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਉਸ ਨਾਲ ਸਹਿਮਤ ਹੋਵੋ।"</string>
     <string name="photo_editor_privacy_tip_below">&lt;br>&lt;br>&lt;small>*ਐਲਗੋਰੀਥਮ ਰੈਂਡਮਾਈਜ਼ੇਸ਼ਨ ਕਰਕੇ, ਤੁਸੀਂ ਉਹਨਾਂ ਚਿੱਤਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਬਿਹਤਰੀਨ ਨਤੀਜੇ ਪ੍ਰਾਪਤ ਕਰੋਗੇ ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਵਿਸ਼ਾ ਪੂਰੀ ਤਰ੍ਹਾਂ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ।&lt;/small></string>
-    <string name="photo_editor_privacy_tip_outpaint">"AI ਫੈਲਾਅ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ &lt;a href='%1$s'>AI ਫੈਲਾਅ ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ&lt;/a> ਅਤੇ &lt;a href='%2$s'>AI ਫੈਲਾਅ ਦੇ ਵਰਤੋਂਕਾਰ ਸਮਝੌਤੇ&lt;/a> ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਉਸ ਨਾਲ ਸਹਿਮਤ ਹੋਵੋ।"</string>
-    <string name="photo_editor_privacy_tip_rmpro">"AI Erase 2.0 pro ਸਹੂਲਤਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ &lt;a href='%1$s'>AI Erase 2.0 Pro ਸਹੂਲਤਾਂ ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ&lt;/a> ਅਤੇ &lt;a href='%2$s'>AI Erase 2.0 Pro ਸਹੂਲਤਾਂ ਦੇ ਵਰਤੋਂਕਾਰ ਸਮਝੌਤੇ&lt;/a> ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਉਸ਼ ਨਾਲ ਸਹਿਮਤ ਹੋਵੋ।"</string>
+    <string name="photo_editor_privacy_tip_outpaint">"AI ਵਿਸਥਾਰ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ &lt;a href='%1$s'>AI ਵਿਸਥਾਰ ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ&lt;/a> ਅਤੇ &lt;a href='%2$s'>AI ਵਿਸਥਾਰ ਦੇ ਵਰਤੋਂਕਾਰ ਸਮਝੌਤੇ&lt;/a> ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਉਸ ਨਾਲ ਸਹਿਮਤ ਹੋਵੋ।"</string>
+    <string name="photo_editor_privacy_tip_rmpro">"AI Erase 2.0 pro ਸਹੂਲਤਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ &lt;a href='%1$s'>AI Erase 2.0 Pro ਸਹੂਲਤਾਂ ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ&lt;/a> ਅਤੇ &lt;a href='%2$s'>AI Erase 2.0 Pro ਸਹੂਲਤਾਂ ਦੇ ਵਰਤੋਂਕਾਰ ਸਮਝੌਤੇ&lt;/a> ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਉਸ ਨਾਲ ਸਹਿਮਤ ਹੋਵੋ।"</string>
     <string name="photo_editor_privacy_tip_virtualization">"AI ਚਿੱਤਰ ਅਤੇ ਸੰਬੰਧਿਤ ਸੇਵਾਵਾਂ ਵਿੱਚ ਤੁਹਾਡਾ ਜੀ ਆਇਆਂ ਨੂੰ!&lt;br>ਤੁਹਾਨੂੰ ਮੁੱਢਲੀਆਂ ਸਹੂਲਤਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਮੁਹੱਈਆ ਕਰਵਾਉਣ ਲਈ, ਸਾਨੂੰ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਇਕੱਤਰ ਕਰਨ ਅਤੇ ਵਰਤੋਂ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇਗੀ।&lt;br>ਜਦੋਂ ਤੁਸੀਂ AI ਚਿੱਤਰ ਸਹੂਲਤਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋ, ਤੁਹਾਨੂੰ ਕਿਸੇ ਵਿਅਕਤੀ ਦੀਆਂ ਫ਼ੋਟੋਆਂ ਅੱਪਲੋਡ ਕਰਨੀਆਂ ਪੈਂਦੀਆਂ ਹਨ। ਅਸੀਂ ਤੁਹਾਡੇ ਡੀਵਾਈਸ ਉੱਤੇ ਉਸ ਵਿਅਕਤੀ ਦੀ ਚਿਹਰੇ ਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਅਮਲ ਵਿੱਚ ਲਿਆਵਾਂਗੇ ਅਤੇ AI ਚਿੱਤਰ ਸਿਰਜਣ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰਾਂਗੇ।&lt;br>ਅਸੀਂ ਸਿਰਫ਼ ਉਹੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਇਕੱਤਰ ਕਰਦੇ ਹਾਂ ਜੋ ਸਾਡੇ ਉਤਪਾਦ ਅਤੇ ਸੇਵਾਵਾਂ ਮੁਹੱਈਆ ਕਰਵਾਉਣ ਲਈ ਲੋੜੀਂਦੀ ਹੈ। ਇਸੀ ਤੁਹਾਡੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਨੂੰ ਕਿਵੇਂ ਇਕੱਤਰ ਅਤੇ ਉਸਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਾਂ ਬਾਰੇ ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ, AI ਚਿੱਤਰ ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ ਦਾ ਹਵਾਲਾ ਲਓ।&lt;br>ਜਾਰੀ ਰੱਖਣ ਤੋਂ ਪਹਿਲਾਂ ਸਾਡੇ &lt;a href='%1$s'>AI ਚਿੱਤਰ ਦੇ ਵਰਤੋਂਕਾਰ ਸਮਝੌਤੇ&lt;/a> ਅਤੇ &lt;a href='%2$s'>AI ਚਿੱਤਰ ਦੀ ਪਰਦੇਦਾਰੀ ਨੀਤੀ&lt;/a> ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਉਸ ਨਾਲ ਸਹਿਮਤ ਹੋਵੋ।"</string>
     <string name="photo_editor_privacy_title">ਧਿਆਨ ਦਿਓ</string>
     <string name="photo_editor_quality">ਗੁਣਵੱਤਾ</string>
+    <string name="photo_editor_quality_improve">ਵਧਾਓ</string>
+    <string name="photo_editor_quality_improve_progress">ਵਧਾ ਰਿਹਾ ਹੈ…%s</string>
     <string name="photo_editor_remove_watermark">ਵਾਟਰਮਾਰਕ ਹਟਾਓ</string>
     <string name="photo_editor_remove_watermark_on">ਵਾਟਰਮਾਰਕ ਸ਼ਾਮਲ ਕਰੋ</string>
     <string name="photo_editor_remover">ਮਿਟਾਓ</string>
@@ -1386,7 +1452,7 @@
     <string name="portrait_improving_the_texture_of_the_whole_picture">ਬਣਤਰ ਦਾ ਅਨੁਕੂਲਨ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
     <string name="portrait_optimizing_skin_texture">ਚਮੜੀ ਦੀ ਬਣਤਰ ਦਾ ਅਨੁਕੂਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
     <string name="prepare_to_drop">%s ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
-    <string name="privacy_permission_request_message"><Data>ਗੈਲਰੀ ਨੂੰ %3$s ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਸਾਡੇ ਵੱਲੋਂ ਇਕੱਤਰ ਕੀਤੀ ਗਈ ਜਾਣਕਾਰੀ ਸਾਡੇ &lt;a href=\"%1$s\">\"ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ\"&lt;/a> ਅਤੇ &lt;a href=\"%2$s\">\"ਪਰਦੇਦਾਰੀ ਨੀਤੀ\"&lt;/a> ਅਨੁਸਾਰ ਵਰਤੀ ਜਾਵੇਗੀ। ਕੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਹੈ?</Data></string>
+    <string name="privacy_permission_request_message">&lt;Data>ਗੈਲਰੀ ਨੂੰ %3$s ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਸਾਡੇ ਵੱਲੋਂ ਇਕੱਤਰ ਕੀਤੀ ਗਈ ਜਾਣਕਾਰੀ ਸਾਡੇ &lt;a href=\"%1$s\">\"ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ\"&lt;/a> ਅਤੇ &lt;a href=\"%2$s\">\"ਪਰਦੇਦਾਰੀ ਨੀਤੀ\"&lt;/a> ਅਨੁਸਾਰ ਵਰਤੀ ਜਾਵੇਗੀ। ਕੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਹੈ?&lt;/Data></string>
     <string name="privacy_permission_request_negative">ਪਾਬੰਦੀ ਲਗਾਓ</string>
     <string name="privacy_permission_request_positive">ਇਜ਼ਾਜਤ ਦਿਓ</string>
     <string name="privacy_permission_request_title">ਮਨਜ਼ੂਰੀਆਂ ਲੋੜੀਂਦੀਆਂ</string>
@@ -1486,6 +1552,18 @@
     <string name="send_files_by">ਇਸ ਰਾਹੀਂ ਫ਼ਾਈਲਾਂ ਸਾਂਝਾ ਕਰੋ</string>
     <string name="send_files_to">ਇਹਨਾਂ ਨੂੰ ਆਈਟਮਾਂ ਭੇਜੋ</string>
     <string name="set_as_cover">ਕਵਰ ਵਜੋਂ ਸੈੱਟ ਕਰੋ</string>
+    <string name="settings_ai_editor_ai_image">AI ਚਿੱਤਰ</string>
+    <string name="settings_ai_editor_ai_image_description">ਬਿਲਕੁਲ ਨਵਾਂ AI ਚਿੱਤਰ ਤੁਹਾਨੂੰ ਕਈ ਸ਼ੈਲੀਆਂ ਵਿੱਚ ਚਿੱਤਰ ਬਣਾਉਣ ਦਵੇਗਾ। ਬਿਹਤਰੀਨ ਨਤੀਜਿਆਂ ਲਈ, ਸਪਸ਼ਟ ਦਿਖਾਈ ਦਿੰਦੇ ਚਿਹਰਿਆਂ ਨਾਲ ਫ਼ੋਟੋਆਂ ਅੱਪਲੋਡ ਕਰੋ।</string>
+    <string name="settings_ai_editor_expand">AI ਚਿੱਤਰ ਵਿਸਥਾਰ</string>
+    <string name="settings_ai_editor_expand_description">ਨਵਾਂ, AI-ਸਮਰਥਿਤ ਚਿੱਤਰ ਵਿਸਥਾਰ! ਮੂਲ ਪੱਖ ਅਨੁਪਾਤ ਰੱਖੋ, ਆਪਣਾ ਖ਼ੁਦ ਦਾ ਚੁਣੋ, ਜਾਂ AI ਨੂੰ ਫੈਸਲਾ ਕਰਨ ਦਿਓ।</string>
+    <string name="settings_ai_editor_image_restoration">ਵਧਾਓ</string>
+    <string name="settings_ai_editor_image_restoration_description">ਸਾਡੇ ਨਵੇਂ ਵੱਡੇ-ਮਾਡਲ ਐਲਗੋਰੀਦਮ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਇੱਕੋ ਹੀ ਟੈਪ ਨਾਲ ਚਿੱਤਰ ਸਮਸ਼ਟਤਾ ਨੂੰ ਬਿਹਤਰ ਬਣਾਓ</string>
+    <string name="settings_ai_editor_intelligent_filming">AI ਫ਼ਿਲਮ</string>
+    <string name="settings_ai_editor_intelligent_filming_description">AI ਦੀ ਤਾਕਤ ਨਾਲ ਆਪਣਏ ਆਪ ਹੀ ਵੀਡੀਓ ਸਿਰਜਣ ਲਈ ਫ਼ੋਟੋਆਂ ਅਤੇ ਵੀਡੀਓ ਅੱਪਲੋਡ ਕਰੋ ਜਾਂ ਸੰਕੇਤ ਦੇ ਕੇ ਕੁਝ ਬਿਲਕੁਲ ਨਵਾਂ ਬਣਾਓ</string>
+    <string name="settings_ai_editor_remover">AI Erase Pro</string>
+    <string name="settings_ai_editor_remover_description">ਅੱਪਗ੍ਰੇਡ ਕੀਤੇ AI Erase Pro ਸਹੂਲਤਾਂ ਨਾਲ ਬਿਨਾਂ ਨਿਸ਼ਾਨ ਛੱਡੇ ਮਿਟਾਓ</string>
+    <string name="settings_ai_editor_summary">ਫ਼ੋਟੋਆਂ ਅਤੇ ਵੀਡੀਓ ਬਣਾਓ ਅਤੇ ਸੋਧੋ</string>
+    <string name="settings_ai_editor_title">AI ਗੈਲਰੀ ਸੰਪਾਦਕ</string>
     <string name="share_album_qr_code">ਐਲਬਮ ਦਾ QR ਕੋਡ</string>
     <string name="share_and_delete_picture">ਸਾਂਝਾਕਰਨ ਤੋਂ ਬਾਅਦ ਮਿਟਾਓ</string>
     <string name="share_and_delete_screenshot">ਸਾਂਝਾਕਰਨ ਤੋਂ ਬਾਅਦ ਮਿਟਾਓ</string>
@@ -1733,6 +1811,19 @@
     <string name="tips_no_time_gallery_frame">ਇਸ ਫ਼ੋਟੋ ਵਿੱਚ ਟਾਈਮਸਟੈਂਪ ਸ਼ਾਮਲ ਨਹੀਂ ਹੁੰਦੀ</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="tips_support_gallery_frame">ਸਿਰਫ਼ Leica ਨਾਲ ਸਹਿ-ਇੰਜੀਨੀਅਰ ਕੀਤੇ Xiaomi ਉਤਪਾਦ ਵੱਲੋਂ ਲਏ ਗਏ ਚਿੱਤਰ ਹੀ ਸਮਰਥਿਤ ਹਨ</string>
+    <string name="toast_aigc_command_not_supported">ਇਹ ਕਮਾਂਡ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ</string>
+    <string name="toast_aigc_high_concurrency_limit">ਸਰਵਰ ਰੁੱਝਿਆ ਹੋਇਆ ਹੈ। ਥੋੜ੍ਹੀ ਦੇਰ ਉਡੀਕ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="toast_aigc_illegal_account_id">ਕੋਈ ਖਾਤਾ ਤਰੁੱਟੀ ਆਈ ਹੈ। ਗਾਹਕ ਸੇਵਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।</string>
+    <string name="toast_aigc_illegal_image">ਫ਼ੋਟੋ ਸਾਡੇ ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਉਲੰਘਣਾ ਕਰਦੀ ਹੈ। ਕੋਈ ਹੋਰ ਚੁਣੋ।</string>
+    <string name="toast_aigc_image_not_supported">ਇਹ ਫ਼ੋਟੋ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ</string>
+    <string name="toast_aigc_minimum_face_size_restrict">ਚਿਹਰੇ ਬਹੁਤ ਹੀ ਛੋਟੇ ਹਨ। ਕੋਈ ਹੋਰ ਫ਼ੋਟੋ ਦੇਖੋ।</string>
+    <string name="toast_aigc_minimum_resolution_restrict">ਰਿਜ਼ੋਲਿਊਸ਼ਨ ਬਹੁਤ ਹੀ ਘੱਟ ਹੈ। ਕੋਈ ਹੋਰ ਫ਼ੋਟੋ ਦੇਖੋ।</string>
+    <string name="toast_aigc_network_time_out">ਬੇਨਤੀ ਦਾ ਸਮਾਂ ਸਮਾਪਤ ਹੋ ਗਿਆ ਹੈ। ਥੋੜ੍ਹੀ ਦੇਰ ਉਡੀਕ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="toast_aigc_no_people_detected">ਕੋਈ ਵਿਅਕਤੀ ਨਹੀਂ ਮਿਲਿਆ। ਕੋਈ ਹੋਰ ਫ਼ੋਟੋ ਅਜ਼ਮਾਓ।</string>
+    <string name="toast_aigc_only_anime_stype_supported">ਸਿਰਫ਼ \"ਐਨੀਮੇਸ਼ਨ\" ਹੀ ਸਮਰਥਿਤ ਹੈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="toast_aigc_poor_network">ਆਪਣੇ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="toast_aigc_request_time_limit">ਅੱਜ ਹੋਰ ਬੇਨਤੀਆਂ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ। ਕੱਲ੍ਹ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="toast_aigc_server_error">ਇੱਕ ਸਰਵਰ ਤਰੁੱਟੀ ਆਈ ਹੈ। ਥੋੜ੍ਹੀ ਦੇਰ ਉਡੀਕ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="toast_download_with_metered_network_btn_continue">ਡਾਊਨਲੋਡ ਕਰੋ</string>
     <string name="toast_download_with_metered_network_msg">ਇੰਝ ਲੱਗਦਾ ਹੈ ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਵਾਈ-ਫ਼ਾਈ ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਹੈ। ਕੀ ਮੋਬਾਈਲ ਡਾਟਾ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਆਈਟਮਾਂ ਡਾਊਨਲੋਡ ਕਰਨੀਆਂ ਹਨ?</string>
     <string name="toast_download_with_metered_network_title">ਡਾਟਾ ਵਰਤੋਂ ਚਿਤਾਵਨੀ</string>
@@ -1750,7 +1841,7 @@
     <string name="user_agreement2">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
     <string name="user_agreement4">ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
     <string name="user_guide_close_desc">\"ਵਰਤੋਂਕਾਰ ਗਾਈਡ ਬੰਦ ਕਰੋ\" ਬਟਨ</string>
-    <string name="user_notice_identify_summary_format"><Data>ਇਸ ਸੇਵਾ ਦੀ ਵਰਤੋਂ ਕਰਕੇ, ਤੁਸੀਂ Xiaomi ਦੀਆਂ &lt;a href=\"%1$s\">\"ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ\"&lt;/a> ਅਤੇ &lt;a href=\"%2$s\">\"ਪਰਦੇਦਾਰੀ ਨੀਤੀ\"&lt;/a> ਨਾਲ ਸਹਿਮਤ ਹੁੰਦੇ ਹੋ।</Data></string>
+    <string name="user_notice_identify_summary_format">&lt;Data>ਇਸ ਸੇਵਾ ਦੀ ਵਰਤੋਂ ਕਰਕੇ, ਤੁਸੀਂ Xiaomi ਦੀਆਂ &lt;a href=\"%1$s\">\"ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ\"&lt;/a> ਅਤੇ &lt;a href=\"%2$s\">\"ਪਰਦੇਦਾਰੀ ਨੀਤੀ\"&lt;/a> ਨਾਲ ਸਹਿਮਤ ਹੁੰਦੇ ਹੋ।&lt;/Data></string>
     <string name="user_notice_title">ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ</string>
     <string name="video_analytic_cancel">ਰੱਦ ਕਰੋ</string>
     <string name="video_analytic_download">ਡਾਊਨਲੋਡ ਕਰੋ</string>
@@ -1978,6 +2069,7 @@
     <string name="vlog_auto_clip_delete_desc">ਇਸ ਕਲਿੱਪ ਨੂੰ ਹੁਣੇ ਮਿਟਾਉਣਾ ਹੈ?</string>
     <string name="vlog_auto_clip_delete_ok">ਮਿਟਾਓ</string>
     <string name="vlog_auto_complete">ਸੰਪੰਨ</string>
+    <string name="vlog_auto_compose_middle_close">ਕੋਂਪੋਜ਼ੀਸ਼ਨ ਨੂੰ ਹੱਥੀ ਵਿਵਸਥਿਤ ਕਰਨ ਨਾਲ, ਪਹਿਲਾਂ ਤੋਂ ਲਾਗੂ ਕੀਤੇ ਸਮਾਰਟ ਪ੍ਰਭਾਵ ਹਟ ਜਾਣਗੇ। ਫਿਰ ਵੀ ਵਿਵਸਥਿਤ ਕਰਨਾ ਹੈ?</string>
     <string name="vlog_auto_composition_close">ਪੱਖ ਅਨੁਪਾਤ ਨੂੰ ਹੱਥੀ ਵਿਵਸਥਿਤ ਕਰਨ ਨਾਲ Xiaomi ProCut ਬੰਦ ਹੋ ਜਾਵੇਗਾ। ਫਿਰ ਵੀ ਵਿਵਸਥਿਤ ਕਰਨਾ ਹੈ?</string>
     <string name="vlog_auto_generate_complete">ਬਣਾਓ</string>
     <string name="vlog_auto_generate_composition">Xiaomi ProCut</string>
@@ -2098,6 +2190,7 @@
     <string name="vlog_filter_nanfa">ਗੈਰੀਗਿਉ</string>
     <string name="vlog_filter_no_support_nums">ਛੱਡੇ ਗਏ ਵੀਡੀਓ ਜਿਨ੍ਹਾਂ ਦਾ ਸੰਪਾਦਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ (%1$d)</string>
     <string name="vlog_filter_nuanyang">ਸੂਰਜ ਦੀ ਰੋਸ਼ਨੀ</string>
+    <string name="vlog_filter_old_street">ਸਕ੍ਰੋਲ ਕਰੋ</string>
     <string name="vlog_filter_origin">ਕੋਈ ਵੀ ਨਹੀਂ</string>
     <string name="vlog_filter_qianyin">ਟੇਂਡਰ</string>
     <string name="vlog_filter_qihuan">ਕਲਪਨਾ</string>
@@ -2105,6 +2198,7 @@
     <string name="vlog_filter_qingye">ਰਾਤਰੀ ਗੀਤ</string>
     <string name="vlog_filter_rixi">ਪੇਸਟਲ</string>
     <string name="vlog_filter_romantic">ਸੁਹਜ</string>
+    <string name="vlog_filter_sea_breeze">ਸਮੁੰਦਰੀ ਹਵਾ</string>
     <string name="vlog_filter_senshan">ਮੋਮੀਜੀ</string>
     <string name="vlog_filter_shenmi">ਰਹੱਸ</string>
     <string name="vlog_filter_tag_atmosphere">ਵਾਯੂਮੰਡਲ</string>
@@ -2124,6 +2218,7 @@
     <string name="vlog_float_view_ratio">ਪੱਖ ਅਨੁਪਾਤ</string>
     <string name="vlog_fps">ਫ਼੍ਰੇਮ ਦਰ</string>
     <string name="vlog_improt_encode_video_error">ਇੱਕ ਇਨਕੋਡਿੰਗ ਤਰੁੱਟੀ ਆਈ ਹੈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="vlog_load_data_empty">ਪਹਿਲਾਂ ਆਈਟਮਾਂ ਚੁਣੋ</string>
     <string name="vlog_load_data_fail">ਡਾਟਾ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ</string>
     <string name="vlog_mi_clip">ਵੀਡੀਓ ਸੰਪਾਦਕ</string>
     <string name="vlog_min_resolution_hint">ਵਰਤਮਾਨ ਰਿਜ਼ੋਲਿਊਸ਼ਨ ਸਭ ਤੋਂ ਘੱਟ ਰਿਜ਼ੋਲਿਊਸ਼ਨ ਹੈ</string>
@@ -2146,7 +2241,7 @@
     <string name="vlog_pro_not_support">ਇਹ ਰਿਜ਼ੋਲਿਊਸ਼ਨ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ</string>
     <string name="vlog_pro_ok">ਸਵਿੱਚ ਕਰੋ</string>
     <string name="vlog_pro_title">ਵੀਡੀਓ ਸੰਪਾਦਕ</string>
-    <string name="vlog_quality">ਵੀਡੀਓ ਗੁਣਵੱਤਾ</string>
+    <string name="vlog_quality">ਗੁਣਵੱਤਾ</string>
     <string name="vlog_quality_bitrate_auto">ਆਪਣੇ ਆਪ</string>
     <string name="vlog_quality_bitrate_high">ਉੱਚ</string>
     <string name="vlog_quality_bitrate_low">ਘੱਟ</string>

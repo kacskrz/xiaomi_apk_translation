@@ -97,7 +97,12 @@
     <string name="adjust_grain">Κόκκος</string>
     <string name="adjust_highlight">Επισημάνσεις</string>
     <string name="adjust_highlight_shadow">Ανταύγειες &amp; σκιές</string>
+    <string name="adjust_light_perception">Φωτεινότητα</string>
     <string name="adjust_natural_saturation">Ζωτικότητα</string>
+    <string name="adjust_noise_degree">Βαθμοί</string>
+    <string name="adjust_noise_high_lights">Επισημάνσεις</string>
+    <string name="adjust_noise_roughness">Τραχύτητα</string>
+    <string name="adjust_noise_size">Μέγεθος</string>
     <string name="adjust_reset">Επαναφορά</string>
     <string name="adjust_saturation">Κορεσμός</string>
     <string name="adjust_shadow">Σκιές</string>
@@ -108,6 +113,7 @@
     <string name="adjust_tab_detail">Λεπτομέρειες</string>
     <string name="adjust_tab_dispersion">Διασπορά</string>
     <string name="adjust_tab_effect">Εφέ</string>
+    <string name="adjust_tab_noise">Θόρυβος</string>
     <string name="adjust_tab_tone">Τόνος</string>
     <string name="adjust_tab_white_balance">Ισορροπία λευκού</string>
     <string name="adjust_talkback_curve_anchor_delete">Διαγραφή σημείου αγκύρωσης</string>
@@ -121,12 +127,45 @@
     <string name="agreement_quit">Έξοδος</string>
     <string name="agreement_required_tip">(Υποχρεωτικό)</string>
     <string name="agreement_summary">Νομικά έγγραφα</string>
+    <string name="ai_action_toast_cloud_data_pull_failed">Αδυναμία λήψης στοιχείων. Ελέγξτε τις ρυθμίσεις του δικτύου σας και προσπαθήστε ξανά.</string>
+    <string name="ai_action_toast_function_ai_expansion_processing">Επέκταση εικόνας…</string>
+    <string name="ai_action_toast_function_ai_portrait_processing">Επεξεργασία με Εικόνα AI…</string>
+    <string name="ai_action_toast_function_background_change_processing">Αλλαγή παρασκηνίου…</string>
+    <string name="ai_action_toast_function_beautification_processing">Επεξεργασία με την Ωραιοποίηση…</string>
+    <string name="ai_action_toast_function_download_failed">Αδυναμία λήψης λειτουργίας. Ελέγξτε τις ρυθμίσεις του δικτύου σας και προσπαθήστε ξανά.</string>
+    <string name="ai_action_toast_function_expression_replace_processing">Αλλαγή έκφρασης…</string>
+    <string name="ai_action_toast_function_face_shape_processing">Προσαρμογή χαρακτηριστικών προσώπου…</string>
+    <string name="ai_action_toast_function_leica_watermark_processing">Εφαρμογή υδατογραφήματος Leica…</string>
+    <string name="ai_action_toast_function_magic_remove_processing">Επεξεργασία με AI Erase Pro…</string>
+    <string name="ai_action_toast_function_music_processing">Εφαρμογή μουσικής υπόκρουσης…</string>
+    <string name="ai_action_toast_function_not_support">Αυτή η λειτουργία δεν είναι διαθέσιμη τώρα</string>
+    <string name="ai_action_toast_function_photo_auto_beautify_processing">Ωραιοποίηση…</string>
+    <string name="ai_action_toast_function_photo_beautify_skin_processing">Προσαρμογή τόνου δέρματος…</string>
+    <string name="ai_action_toast_function_photo_enhance_processing">Ενίσχυση…</string>
+    <string name="ai_action_toast_function_photo_filter_processing">Εφαρμογή φίλτρου…</string>
+    <string name="ai_action_toast_function_photo_restoration_processing">Επαναφορά εικόνας…</string>
+    <string name="ai_action_toast_function_process_all_failed">Αδυναμία εφαρμογής εφέ. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
+    <string name="ai_action_toast_function_process_failed">Αδυναμία εφαρμογής ορισμένων εφέ. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
+    <string name="ai_action_toast_function_resources_loading">Φόρτωση προσθήκης…</string>
+    <string name="ai_action_toast_function_style_change_processing">Στυλιζάρισμα φωτογραφίας…</string>
+    <string name="ai_action_toast_function_super_portrait_processing">Επεξεργασία με Πορτρέτο HD…</string>
+    <string name="ai_action_toast_function_watermark_frame_processing">Εφαρμογή πλαισίου υδατογραφήματος…</string>
+    <string name="ai_action_toast_multiple_function_not_support">Κάποιες λειτουργίες δεν είναι διαθέσιμες τώρα</string>
+    <string name="ai_action_toast_need_login_mi_account">Συνδεθείτε με τον Λογαριασμό Xiaomi και προσπαθήστε ξανά</string>
+    <string name="ai_action_toast_not_support_scene">Αυτή η λειτουργία δεν υποστηρίζεται εδώ. Επιστρέψτε στην αρχική σελίδα και δοκιμάστε ξανά.</string>
+    <string name="ai_action_toast_picture_content_illegal">Αυτή η εικόνα παραβιάζει τα πρότυπα της κοινότητας. Δοκιμάστε μια άλλη.</string>
+    <string name="ai_action_toast_picture_size_out_of_limit">Οι εικόνες αυτού του μεγέθους δεν υποστηρίζονται. Δοκιμάστε ένα άλλο.</string>
+    <string name="ai_action_toast_poor_network">Δεν ήταν δυνατή η σύνδεση στο δίκτυο. Ελέγξτε τις ρυθμίσεις του δικτύου σας και προσπαθήστε ξανά.</string>
+    <string name="ai_action_toast_request_time_out">Έληξε τα αίτημα. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
     <string name="aicrmanager_download_cancel">Ακύρωση λήψης</string>
     <string name="aicrmanager_download_done">Λήψη ολοκληρώθηκε</string>
     <string name="aicrmanager_download_done_content_title">Προσθήκη Προγράμματος επεξεργασίας AI</string>
     <string name="aicrmanager_download_process_content_title">Γίνεται λήψη προσθήκης Πρόγραμμα επεξεργασίας AI</string>
     <string name="aicrmanager_download_update_tip">Υπάρχει διαθέσιμη ενημέρωση προσθήκης. Πατήστε για προβολή.</string>
     <string name="aicrmanager_downloading">Γίνεται λήψη %s</string>
+    <string name="aigc_login_confirm">Σύνδεση</string>
+    <string name="aigc_login_hint_message">Συνδεθείτε με τον Λογαριασμό Xiaomi για να μπορείτε να χρησιμοποιήσετε όλες τις λειτουργίες του Προγράμματος επεξεργασίας AI.</string>
+    <string name="aigc_login_hint_title">Σύνδεση</string>
     <string name="am">ΠΜ</string>
     <string name="app_name">Πρόγραμμα επεξεργασίας Συλλογής</string>
     <string name="app_photoshop_name">Πρόγραμμα επεξεργασίας Συλλογής</string>
@@ -484,7 +523,7 @@
     <string name="confirm_cancel_task_images">Ακύρωση αποστολής εικόνων σε %1$s;</string>
     <string name="copy">Αντιγραφή</string>
     <string name="crop_label">Κομμένες φωτογραφίες</string>
-    <string name="cta_agreement_declare"><Data>Για να κατανοήσετε πλήρως τα δικαιώματά σας ως χρήστης, καθώς και τους τρόπους με τους οποίους χρησιμοποιούμε τα δεδομένα σας, διαβάστε και αποδεχτείτε τη &lt;a href=\"%1$s\">Συμφωνία Χρήστη&lt;/a> και την &lt;a href=\"%2$s\">Πολιτική Απορρήτου&lt;/a> μας προτού χρησιμοποιήσετε αυτήν την εφαρμογή.</Data></string>
+    <string name="cta_agreement_declare">&lt;Data>Για να κατανοήσετε πλήρως τα δικαιώματά σας ως χρήστης, καθώς και τους τρόπους με τους οποίους χρησιμοποιούμε τα δεδομένα σας, διαβάστε και αποδεχτείτε τη &lt;a href=\"%1$s\">Συμφωνία Χρήστη&lt;/a> και την &lt;a href=\"%2$s\">Πολιτική Απορρήτου&lt;/a> μας προτού χρησιμοποιήσετε αυτήν την εφαρμογή.&lt;/Data></string>
     <string name="cta_network_declare">Για συγχρονισμό φωτογραφιών και βίντεο με το Xiaomi Cloud, αυτή η εφαρμογή πρέπει να συνδεθεί στο διαδίκτυο.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -569,7 +608,7 @@
     <string name="filter_description_dialog_content">Μπορείτε να εισαγάγετε πίνακες αναζήτησης χρώματος CUBE για να προσθέσετε προσαρμοσμένα φίλτρα.</string>
     <string name="filter_description_dialog_title">Προσαρμοσμένα φίλτρα</string>
     <string name="filter_diy_import">Εισαγωγή</string>
-    <string name="filter_diy_import_first_time_pop_tips">Πατήστε παρατεταμένα για επεξεργασία</string>
+    <string name="filter_diy_import_first_time_pop_tips">Πατήστε παρατεταμένα για προσθήκη στα αγαπημένα</string>
     <string name="filter_diy_import_toast_fail">Αδυναμία εισαγωγής</string>
     <string name="filter_diy_import_toast_out_of_limit">Μπορείτε να εισαγάγετε έως και %d πίνακες αναζήτησης χρώματος CUBE.</string>
     <string name="filter_diy_tip_dialog_cancel">Ακύρωση</string>
@@ -577,13 +616,25 @@
     <string name="filter_diy_tip_dialog_confirm">ΟΚ</string>
     <string name="filter_diy_tip_dialog_content">Μπορείτε να εισαγάγετε έως και %d πίνακες αναζήτησης χρώματος CUBE.</string>
     <string name="filter_diy_tip_dialog_title">Εισαγωγή φίλτρων</string>
+    <string name="filter_film_besson">Παρκούρ</string>
     <string name="filter_film_chinese_red">Κιννάβαρι</string>
     <string name="filter_film_desert_brown">Φουντούκι</string>
     <string name="filter_film_flowers_dream">Κινηματογραφικό</string>
+    <string name="filter_film_freehand">Ελεύθερο</string>
+    <string name="filter_film_korean_rubber">Ορχιδέα</string>
+    <string name="filter_film_kyoto">Παλιά πόλη</string>
+    <string name="filter_film_le_mans">Κανάλια</string>
     <string name="filter_film_light_tea_green">Πράσινο τσάι</string>
+    <string name="filter_film_monsoon">Μουσώνας</string>
     <string name="filter_film_mountain_cyan">Γαλαζοπράσινη ομίχλη</string>
+    <string name="filter_film_old_alley">Σοκάκι</string>
+    <string name="filter_film_old_style">Λαχτάρα</string>
+    <string name="filter_film_relaxation">Χαλαρή μέρα</string>
+    <string name="filter_film_reversal">Αναστροφή</string>
+    <string name="filter_film_seaside">Θαλασσινό τοπίο</string>
     <string name="filter_film_sunset_red">Πορφυρό</string>
     <string name="filter_film_taichi_ink">Μελάνι</string>
+    <string name="filter_film_zhi_xian">Ποίημα</string>
     <string name="filter_general_blackice">Μαύρος πάγος</string>
     <string name="filter_general_blackwhite">Μ&amp;Α</string>
     <string name="filter_general_delicious">Φαγητό</string>
@@ -1111,6 +1162,8 @@
     <string name="motion_photo_video_reverse_effect">Αναστροφή</string>
     <string name="motion_photo_video_reverse_ing">Αναστροφή βίντεο…</string>
     <string name="motion_photo_video_reverse_on">Ανεστραμμένο</string>
+    <string name="motion_photo_watermark_off">Υδατογράφημα ανενεργό</string>
+    <string name="motion_photo_watermark_on">Υδατογράφημα ενεργό</string>
     <string name="movie_add_disable">Μπορείτε να επιλέξετε μέχρι και %d φωτογραφίες</string>
     <string name="movie_audio_antiquity">Ρετρό</string>
     <string name="movie_audio_custom">Τοπικά</string>
@@ -1170,6 +1223,7 @@
     <string name="movie_template_xmas">Χριστούγεννα</string>
     <string name="movie_video_long">Βίντεο μεγαλύτερης διάρκειας</string>
     <string name="movie_video_short">%dδ</string>
+    <string name="msg_initialize_failed_and_reenter">Δεν ήταν δυνατή η προετοιμασία της προσθήκης. Κλείστε αυτή τη σελίδα και ξεκινήστε από την αρχή.</string>
     <string name="mtrl_badge_numberless_content_description">Νέα ειδοποίηση</string>
     <string name="mtrl_chip_close_icon_content_description">Κατάργηση %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Πάνω από %1$d νέες ειδοποιήσεις</string>
@@ -1243,6 +1297,7 @@
     <string name="pc_device_model_name">Υπολογιστής</string>
     <string name="permission_account_desc">Για σύνδεση και διαχείριση του λογαριασμού συστήματος</string>
     <string name="permission_account_name">Πρόσβαση σε λογαριασμούς</string>
+    <string name="permission_app_summary">Μπορείτε να χρησιμοποιήσετε το Πρόγραμμα επεξεργασίας Συλλογής για να επεξεργαστείτε και να ωραιοποιήσετε φωτογραφίες και βίντεο. Όταν χρησιμοποιείτε υπηρεσίες AI που παρέχονται σε ορισμένα μοντέλα συσκευών, αυτή η εφαρμογή θα πρέπει να έχει πρόσβαση σε επιλεγμένες φωτογραφίες για επεξεργασία.</string>
     <string name="permission_clipboard_desc">Για πρόσβαση και αποθήκευση στοιχείων στο πρόχειρο</string>
     <string name="permission_clipboard_name">Πρόσβαση ή αποθήκευση αντικειμένων στο πρόχειρο</string>
     <string name="permission_contacts_desc">Για ορισμό επαφών σε ανθρώπους σε φωτογραφίες</string>
@@ -1252,7 +1307,7 @@
     <string name="permission_location_desc">Για προσθήκη πληροφοριών τοποθεσίας σε φωτογραφίες και βίντεο</string>
     <string name="permission_location_name">Τοποθεσία</string>
     <string name="permission_optional_category">Προαιρετικές άδειες</string>
-    <string name="permission_phone_desc">Για ορισμό αντίστοιχων συσκευών σε πρόσφατα διαγραμμένα αντικείμενα στο Xiaomi Cloud</string>
+    <string name="permission_phone_desc">Για ορισμό αντίστοιχων συσκευών σε προσφάτως διαγραμμένα στοιχεία στο Xiaomi Cloud</string>
     <string name="permission_phone_name">Τηλέφωνο</string>
     <string name="permission_read_media_aural_desc">Για πρόσβαση σε αρχεία ήχου κατά την επεξεργασία φωτογραφιών και βίντεο</string>
     <string name="permission_read_media_aural_name">Πρόσβαση σε αρχεία αποθηκευμένα στη συσκευή</string>
@@ -1286,6 +1341,9 @@
     <string name="photo_editor_aicrmanager_title">Διαχείριση προσθηκών</string>
     <string name="photo_editor_aicrmanager_uninstall">Αφαίρεση</string>
     <string name="photo_editor_aicrmanager_update">Ενημέρωση</string>
+    <string name="photo_editor_aigc_inpaint_progress">Σβήσιμο…</string>
+    <string name="photo_editor_aigc_outpaint_progress">Επέκταση εικόνας…</string>
+    <string name="photo_editor_aigc_quality_improve_progress">Επαναφορά εικόνας…</string>
     <string name="photo_editor_beautify">Auto</string>
     <string name="photo_editor_beautify_auto">Αυτόματο</string>
     <string name="photo_editor_beauty">Ωραιοποίηση</string>
@@ -1298,6 +1356,7 @@
     <string name="photo_editor_common_download_sdk_without_wifi_title">Λήψη προσθήκης</string>
     <string name="photo_editor_confirm">Εναλλαγή</string>
     <string name="photo_editor_crop">Αποκοπή</string>
+    <string name="photo_editor_crop_ai_outpaint_name">Άνοιγμα</string>
     <string name="photo_editor_crop_and_rotate">Αποκοπή</string>
     <string name="photo_editor_crop_auto">Αυτόματο</string>
     <string name="photo_editor_crop_auto_tips">Έγινε αυτόματη αποκοπή</string>
@@ -1318,6 +1377,7 @@
     <string name="photo_editor_crop_size_origin">Πρωτότυπο</string>
     <string name="photo_editor_crop_size_portrait_fullscreen">Πλήρης οθόνη ↕</string>
     <string name="photo_editor_doodle">Σκιτσογραφία</string>
+    <string name="photo_editor_enhancer_user_guide_desc">Ο νέος αλγόριθμος μεγάλου μοντέλου μας μπορεί να βελτιώσει την ευκρίνεια της εικόνας με ένα μόνο πάτημα</string>
     <string name="photo_editor_estimate_size">Εκτιμώμενο μέγεθος: %1$s - %2$d × %3$d px</string>
     <string name="photo_editor_filter">Φίλτρο</string>
     <string name="photo_editor_font_default">Mi Lanting (Κανονικό)</string>
@@ -1337,6 +1397,7 @@
     <string name="photo_editor_gallery_frame_tab_leica">Leica</string>
     <string name="photo_editor_high">Υψηλή</string>
     <string name="photo_editor_highest">Βέλτιστη</string>
+    <string name="photo_editor_inpaint_progress">Σβήσιμο…%s</string>
     <string name="photo_editor_intoutpaint_name">Επέκταση AI/AI Erase 2.0</string>
     <string name="photo_editor_label">Επεξεργασία</string>
     <string name="photo_editor_leica_frame">Υδατογράφημα Leica</string>
@@ -1369,15 +1430,17 @@
     <string name="photo_editor_navigator_module_download_success">Επιτυχία λήψης</string>
     <string name="photo_editor_navigator_module_download_wait_wlan">Αναμονή για Wi-Fi</string>
     <string name="photo_editor_navigator_module_downloading">Γίνεται λήψη %s…</string>
-    <string name="photo_editor_navigator_need_download">Συνδεθείτε στο Ίντερνετ για λήψη %s.</string>
+    <string name="photo_editor_navigator_need_download">Συνδεθείτε στο διαδίκτυο για λήψη %s.</string>
     <string name="photo_editor_navigator_sticker_download_failed">Αδυναμία λήψης. Ελέγξτε τις ρυθμίσεις του δικτύου σας και προσπαθήστε ξανά.</string>
     <string name="photo_editor_navigator_sticker_download_success">Επιτυχία λήψης</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg">Φαίνεται ότι δεν είστε συνδεδεμένοι σε Wi-Fi. Χρήση %1$d MB δεδομένων κινητής τηλεφωνίας για λήψη προσθήκης;</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">"Looks like you aren't connected to WLAN. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">Λήψη προσθήκης</string>
     <string name="photo_editor_navigator_tab_title_ai">Δημιουργία</string>
+    <string name="photo_editor_navigator_tab_title_ai_pro">AI</string>
     <string name="photo_editor_navigator_tab_title_basic">Βασικά</string>
     <string name="photo_editor_navigator_tab_title_beauty">Ωραιοποίηση</string>
+    <string name="photo_editor_outpaint_progress">Επέκταση…%s</string>
     <string name="photo_editor_perspective">Προοπτική</string>
     <string name="photo_editor_perspective_crop">Αποκοπή</string>
     <string name="photo_editor_perspective_distortion">Διαστροφή</string>
@@ -1390,12 +1453,15 @@
     <string name="photo_editor_privacy_negative">Έξοδος</string>
     <string name="photo_editor_privacy_notice">Σημείωση απορρήτου</string>
     <string name="photo_editor_privacy_positive">Αποδοχή</string>
+    <string name="photo_editor_privacy_tip_ai">"Προτού χρησιμοποιήσετε τις λειτουργίες AI, διαβάστε και αποδεχτείτε την &lt;a href='%1$s'>Πολιτική Απορρήτου των Χαρακτηριστικών AI του Προγράμματος επεξεργασίας Συλλογής&lt;/a> και τη &lt;a href='%2$s'>Συμφωνία Χρήστη των Χαρακτηριστικών AI του Προγράμματος επεξεργασίας Συλλογής&lt;/a>."</string>
     <string name="photo_editor_privacy_tip_below">&lt;br>&lt;br>&lt;small>*Λόγω της αλγοριθμικής τυχαιοποίησης, θα έχετε τα καλύτερα αποτελέσματα όταν χρησιμοποιείτε εικόνες στις οποίες το θέμα εμφανίζεται πλήρως.&lt;/small></string>
     <string name="photo_editor_privacy_tip_outpaint">"Διαβάστε και αποδεχτείτε την &lt;a href='%1$s'>Πολιτική Απορρήτου Επέκτασης AI&lt;/a> και τη &lt;a href='%2$s'>Συμφωνία Χρήστη Επέκτασης AI&lt;/a>πριν χρησιμοποιήσετε την Επέκταση AI."</string>
     <string name="photo_editor_privacy_tip_rmpro">"Διαβάστε και αποδεχτείτε την &lt;a href='%1$s'>Πολιτική Απορρήτου των Λειτουργιών AI Erase 2.0 Pro&lt;/a> και τη &lt;a href='%2$s'>Συμφωνία Χρήστη των Λειτουργιών AI Erase 2.0 Pro&lt;/a> πριν χρησιμοποιήσετε τις λειτουργίες της AI Erase 2.0 Pro."</string>
     <string name="photo_editor_privacy_tip_virtualization">"Καλώς ήρθατε στις Εικόνες AI και τις σχετικές υπηρεσίες!&lt;br>Για να σας παρέχουμε βασικές λειτουργίες και υπηρεσίες, πρέπει να συλλέξουμε και να χρησιμοποιήσουμε ορισμένες απαραίτητες προσωπικές πληροφορίες.&lt;br>Όταν χρησιμοποιείτε τις λειτουργίες από τις Εικόνες AI, πρέπει να ανεβάσετε φωτογραφίες ενός προσώπου. Θα επεξεργαστούμε τις πληροφορίες προσώπου του ατόμου στις φωτογραφίες στη συσκευή σας και θα τις χρησιμοποιήσουμε για να δημιουργήσουμε την Εικόνα AI.&lt;br>Συλλέγουμε μόνο τις προσωπικές πληροφορίες που είναι απαραίτητες για την παροχή των προϊόντων και των υπηρεσιών μας. Για λεπτομέρειες σχετικά με τον τρόπο συλλογής και χρήσης των προσωπικών σας στοιχείων, ανατρέξτε στην Πολιτική Απορρήτου Εικόνας AI.&lt;br>Διαβάστε και αποδεχτείτε τη &lt;a href='%1$s'>Συμφωνία Χρήστη Εικόνας AI&lt;/a> και την &lt;a href='%2$s'>Πολιτική Απορρήτου Εικόνας AI&lt;/a> προτού συνεχίσετε."</string>
     <string name="photo_editor_privacy_title">Προσοχή</string>
     <string name="photo_editor_quality">Ποιότητα</string>
+    <string name="photo_editor_quality_improve">Ενίσχυση</string>
+    <string name="photo_editor_quality_improve_progress">Ενίσχυση…%s</string>
     <string name="photo_editor_remove_watermark">Αφαίρεση υδατογραφήματος</string>
     <string name="photo_editor_remove_watermark_on">Προσθήκη υδατογραφήματος</string>
     <string name="photo_editor_remover">Διαγραφή</string>
@@ -1510,7 +1576,7 @@
     <string name="portrait_optimizing_skin_texture">Βελτιστοποίηση υφής δέρματος…</string>
     <string name="preference_copied">Το \"%1$s\" αντιγράφηκε στο πρόχειρο.</string>
     <string name="prepare_to_drop">Γίνεται αποθήκευση σε %s</string>
-    <string name="privacy_permission_request_message"><Data>Η Συλλογή απαιτεί πρόσβαση στο %3$s. Οι πληροφορίες που συλλέξουμε θα χρησιμοποιηθούν σύμφωνα με τους &lt;a href=\"%1$s\">\"Όρους Υπηρεσίας\"&lt;/a> και την &lt;a href=\"%2$s\">\"Πολιτική Απορρήτου\"&lt;/a> μας. Να επιτραπεί;</Data></string>
+    <string name="privacy_permission_request_message">&lt;Data>Η Συλλογή απαιτεί πρόσβαση στο %3$s. Οι πληροφορίες που συλλέξουμε θα χρησιμοποιηθούν σύμφωνα με τους &lt;a href=\"%1$s\">\"Όρους Υπηρεσίας\"&lt;/a> και την &lt;a href=\"%2$s\">\"Πολιτική Απορρήτου\"&lt;/a> μας. Να επιτραπεί;&lt;/Data></string>
     <string name="privacy_permission_request_negative">Περιορισμός</string>
     <string name="privacy_permission_request_positive">Αποδοχή</string>
     <string name="privacy_permission_request_title">Απαιτούνται άδειες</string>
@@ -1611,6 +1677,18 @@
     <string name="send_files_by">Κοινοποίηση αρχείων με</string>
     <string name="send_files_to">Αποστολή αντικειμένων σε</string>
     <string name="set_as_cover">Ορισμός ως εξώφυλλο</string>
+    <string name="settings_ai_editor_ai_image">Εικόνα AI</string>
+    <string name="settings_ai_editor_ai_image_description">Η ολοκαίνουργια Εικόνα AI σας επιτρέπει να δημιουργείτε εικόνες σε πολλά στυλ. Για καλύτερα αποτελέσματα, ανεβάστε φωτογραφίες με ευδιάκριτα πρόσωπα.</string>
+    <string name="settings_ai_editor_expand">Επέκταση Εικόνας AI</string>
+    <string name="settings_ai_editor_expand_description">Νέα επέκταση εικόνας με υποστήριξη AI. Διατηρήστε την αρχική αναλογία διαστάσεων, επιλέξτε τη δική σας, ή αφήστε την τεχνητή νοημοσύνη να αποφασίσει.</string>
+    <string name="settings_ai_editor_image_restoration">Ενίσχυση</string>
+    <string name="settings_ai_editor_image_restoration_description">Βελτιώστε την ευκρίνεια της εικόνας με ένα πάτημα χρησιμοποιώντας τον νέο μας αλγόριθμο μεγάλου μοντέλου</string>
+    <string name="settings_ai_editor_intelligent_filming">Ταινία AI</string>
+    <string name="settings_ai_editor_intelligent_filming_description">Ανεβάστε φωτογραφίες και βίντεο για να δημιουργήσετε αυτόματα βίντεο με τη δύναμη της τεχνητής νοημοσύνης ή πληκτρολογήστε μηνύματα για να δημιουργήσετε κάτι εντελώς νέο</string>
+    <string name="settings_ai_editor_remover">AI Erase Pro</string>
+    <string name="settings_ai_editor_remover_description">Διαγραφή χωρίς ίχνος με αναβαθμισμένες λειτουργίες AI Erase Pro</string>
+    <string name="settings_ai_editor_summary">Δημιουργήστε και επεξεργαστείτε φωτογραφίες και βίντεο</string>
+    <string name="settings_ai_editor_title">Πρόγραμμα επεξεργασίας Συλλογής AI</string>
     <string name="share_album_qr_code">QR κωδικός άλμπουμ</string>
     <string name="share_and_delete_picture">Διαγραφή μετά από την κοινοποίηση</string>
     <string name="share_and_delete_screenshot">Διαγραφή μετά από την κοινοποίηση</string>
@@ -1860,6 +1938,19 @@
     <string name="tips_no_time_gallery_frame">Αυτή η φωτογραφία δεν περιέχει χρονική σήμανση</string>
     <string name="tips_prompt_enable_midrop">Mi Κοινοποίηση</string>
     <string name="tips_support_gallery_frame">Υποστηρίζονται μόνο οι εικόνες που λαμβάνονται από προϊόντα Xiaomi που έχουν σχεδιαστεί από κοινού με τη Leica</string>
+    <string name="toast_aigc_command_not_supported">Αυτή η εντολή δεν υποστηρίζεται</string>
+    <string name="toast_aigc_high_concurrency_limit">Το δίκτυο είναι απασχολημένο. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
+    <string name="toast_aigc_illegal_account_id">Παρουσιάστηκε σφάλμα λογαριασμού. Επικοινωνήστε με την εξυπηρέτηση πελατών.</string>
+    <string name="toast_aigc_illegal_image">Η φωτογραφία παραβιάζει τις οδηγίες μας. Επιλέξτε άλλη.</string>
+    <string name="toast_aigc_image_not_supported">Αυτή η φωτογραφία δεν υποστηρίζεται</string>
+    <string name="toast_aigc_minimum_face_size_restrict">Τα πρόσωπα είναι πολύ μικρά. Δοκιμάστε άλλη φωτογραφία.</string>
+    <string name="toast_aigc_minimum_resolution_restrict">Η ανάλυση είναι πολύ χαμηλή. Δοκιμάστε άλλη φωτογραφία.</string>
+    <string name="toast_aigc_network_time_out">Έληξε τα αίτημα. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
+    <string name="toast_aigc_no_people_detected">Δεν εντοπίστηκαν άτομα. Δοκιμάστε άλλη φωτογραφία.</string>
+    <string name="toast_aigc_only_anime_stype_supported">Υποστηρίζεται μόνο το \"Animation\". Προσπαθήστε ξανά.</string>
+    <string name="toast_aigc_poor_network">Ελέγξτε τη σύνδεση δικτύου σας και προσπαθήστε ξανά</string>
+    <string name="toast_aigc_request_time_limit">Αδυναμία υποβολής περισσότερων αιτημάτων σήμερα. Δοκιμάστε ξανά αύριο.</string>
+    <string name="toast_aigc_server_error">Παρουσιάστηκε σφάλμα διακομιστή. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
     <string name="toast_download_with_metered_network_btn_continue">Λήψη</string>
     <string name="toast_download_with_metered_network_msg">Φαίνεται ότι η συσκευή σας δεν είναι συνδεδεμένη στο Wi-Fi. Λήψη αντικειμένων χρησιμοποιώντας δεδομένα κινητής τηλεφωνίας;</string>
     <string name="toast_download_with_metered_network_title">Προειδοποίηση χρήσης δεδομένων</string>
@@ -1877,7 +1968,7 @@
     <string name="user_agreement2">Όροι Υπηρεσίας</string>
     <string name="user_agreement4">Πολιτική Απορρήτου</string>
     <string name="user_guide_close_desc">Κουμπί \"Κλείσιμο Εγχειριδίου χρήσης\".</string>
-    <string name="user_notice_identify_summary_format"><Data>Με τη χρήση αυτής της υπηρεσίας, συμφωνείτε με τους &lt;a href=\"%1$s\">\"Όρους Υπηρεσίας\"&lt;/a> και την &lt;a href=\"%2$s\">\"Πολιτική Απορρήτου\"&lt;/a> της Xiaomi.</Data></string>
+    <string name="user_notice_identify_summary_format">&lt;Data>Με τη χρήση αυτής της υπηρεσίας, συμφωνείτε με τους &lt;a href=\"%1$s\">\"Όρους Υπηρεσίας\"&lt;/a> και την &lt;a href=\"%2$s\">\"Πολιτική Απορρήτου\"&lt;/a> της Xiaomi.&lt;/Data></string>
     <string name="user_notice_title">Όροι και Προϋποθέσεις</string>
     <string name="v7_preference_off">ΑΝΕΝΕΡΓΗ</string>
     <string name="v7_preference_on">ΕΝΕΡΓΗ</string>
@@ -2107,6 +2198,7 @@
     <string name="vlog_auto_clip_delete_desc">Διαγραφή αυτού του κλιπ τώρα;</string>
     <string name="vlog_auto_clip_delete_ok">Διαγραφή</string>
     <string name="vlog_auto_complete">Τέλος</string>
+    <string name="vlog_auto_compose_middle_close">Η χειροκίνητη προσαρμογή της σύνθεσης θα αφαιρέσει τα έξυπνα εφέ που είχαν εφαρμοστεί προηγουμένως. Προσαρμογή ούτως ή άλλως;</string>
     <string name="vlog_auto_composition_close">Η χειροκίνητη προσαρμογή της αναλογίας διαστάσεων θα απενεργοποιήσει το Xiaomi ProCut. Προσαρμογή ούτως ή άλλως;</string>
     <string name="vlog_auto_generate_complete">Δημιουργία</string>
     <string name="vlog_auto_generate_composition">Xiaomi ProCut</string>
@@ -2227,6 +2319,7 @@
     <string name="vlog_filter_nanfa">Garrigue</string>
     <string name="vlog_filter_no_support_nums">Παραλειπόμενα βίντεο που δεν υποστηρίζουν επεξεργασία (%1$d)</string>
     <string name="vlog_filter_nuanyang">Ηλειοφάνεια</string>
+    <string name="vlog_filter_old_street">Βόλτα</string>
     <string name="vlog_filter_origin">Κανένα</string>
     <string name="vlog_filter_qianyin">Τρυφερό</string>
     <string name="vlog_filter_qihuan">Φαντασία</string>
@@ -2234,6 +2327,7 @@
     <string name="vlog_filter_qingye">Νυχτερινό</string>
     <string name="vlog_filter_rixi">Παστέλ</string>
     <string name="vlog_filter_romantic">Γοητεία</string>
+    <string name="vlog_filter_sea_breeze">Θαλασσινό αεράκι</string>
     <string name="vlog_filter_senshan">Momiji</string>
     <string name="vlog_filter_shenmi">Μυστήριο</string>
     <string name="vlog_filter_tag_atmosphere">Ατμόσφαιρα</string>
@@ -2253,6 +2347,7 @@
     <string name="vlog_float_view_ratio">Αναλογία διαστάσεων</string>
     <string name="vlog_fps">Ρυθμός πλαισίου</string>
     <string name="vlog_improt_encode_video_error">Παρουσιάστηκε σφάλμα κρυπτογράφησης. Προσπαθήστε ξανά.</string>
+    <string name="vlog_load_data_empty">Επιλέξτε αντικείμενο πρώτα</string>
     <string name="vlog_load_data_fail">Αδυναμία φόρτωσης δεδομένων</string>
     <string name="vlog_mi_clip">Πρόγραμμα επεξεργασίας βίντεο</string>
     <string name="vlog_min_resolution_hint">Η τρέχουσα ανάλυση είναι η χαμηλότατη διαθέσιμη</string>
@@ -2275,7 +2370,7 @@
     <string name="vlog_pro_not_support">Αυτή η ανάλυση δεν υποστηρίζεται</string>
     <string name="vlog_pro_ok">Εναλλαγή</string>
     <string name="vlog_pro_title">Επεξεργαστής βίντεο</string>
-    <string name="vlog_quality">Ποιότητα βίντεο</string>
+    <string name="vlog_quality">Ποιότητα</string>
     <string name="vlog_quality_bitrate_auto">Αυτόματα</string>
     <string name="vlog_quality_bitrate_high">Υψηλός</string>
     <string name="vlog_quality_bitrate_low">Χαμηλός</string>

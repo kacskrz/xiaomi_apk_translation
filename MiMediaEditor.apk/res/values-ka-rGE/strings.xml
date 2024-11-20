@@ -70,7 +70,12 @@
     <string name="adjust_grain">მარცვალი</string>
     <string name="adjust_highlight">სიკაშკაშე</string>
     <string name="adjust_highlight_shadow">ჰაილაითები და ჩრდილები</string>
+    <string name="adjust_light_perception">სიმსუბუქე</string>
     <string name="adjust_natural_saturation">ვიბრაცია</string>
+    <string name="adjust_noise_degree">გრადუსი</string>
+    <string name="adjust_noise_high_lights">სიკაშკაშე</string>
+    <string name="adjust_noise_roughness">სიუხეშე</string>
+    <string name="adjust_noise_size">ზომა</string>
     <string name="adjust_reset">გადატვირთვა</string>
     <string name="adjust_saturation">ინტენსივობა</string>
     <string name="adjust_shadow">ჩრდილები</string>
@@ -81,6 +86,7 @@
     <string name="adjust_tab_detail">დეტალები</string>
     <string name="adjust_tab_dispersion">დისპერსია</string>
     <string name="adjust_tab_effect">ეფექტები</string>
+    <string name="adjust_tab_noise">ხმაური</string>
     <string name="adjust_tab_tone">ტონი</string>
     <string name="adjust_tab_white_balance">სითეთრის ბალანსი</string>
     <string name="adjust_talkback_curve_anchor_delete">წამყვანი წერტილის წაშლა</string>
@@ -94,12 +100,45 @@
     <string name="agreement_quit">გასვლა</string>
     <string name="agreement_required_tip">(სავალდებულო)</string>
     <string name="agreement_summary">კანონიერი დოკუმენტები</string>
+    <string name="ai_action_toast_cloud_data_pull_failed">ერთეულების ჩატვირთვა ვერ მოხერხდა. შეამოწმეთ თქვენი ქსელის პარამეტრები და კიდევ სცადეთ.</string>
+    <string name="ai_action_toast_function_ai_expansion_processing">სურათის გაფართოება…</string>
+    <string name="ai_action_toast_function_ai_portrait_processing">მიმდინარეობს AI სურათის დამუშავება…</string>
+    <string name="ai_action_toast_function_background_change_processing">ვცვლი უკანა ფონს…</string>
+    <string name="ai_action_toast_function_beautification_processing">მიმდინარეობს გამშვენიერება…</string>
+    <string name="ai_action_toast_function_download_failed">ამ ფუნქციის ჩამოტვირთვა ვერ ხერხდება. შეამოწმეთ ქსელის პარამეტრები და კიდევ სცადეთ.</string>
+    <string name="ai_action_toast_function_expression_replace_processing">გამოხატულების შეცვლა…</string>
+    <string name="ai_action_toast_function_face_shape_processing">სახის ფუნქციების მორგება…</string>
+    <string name="ai_action_toast_function_leica_watermark_processing">Leica-ს წყლის ნიშნის გამოყენება…</string>
+    <string name="ai_action_toast_function_magic_remove_processing">AI Erase Pro-ს დამუშავება…</string>
+    <string name="ai_action_toast_function_music_processing">საუნდტრეკების მორგება…</string>
+    <string name="ai_action_toast_function_not_support">ეს ფუნქცია არ არის ხელმისაწვდომი ახლა</string>
+    <string name="ai_action_toast_function_photo_auto_beautify_processing">მიმდინარეობს გამშვენიერება…</string>
+    <string name="ai_action_toast_function_photo_beautify_skin_processing">კანის ტონის მორგება…</string>
+    <string name="ai_action_toast_function_photo_enhance_processing">გაუმჯობესება…</string>
+    <string name="ai_action_toast_function_photo_filter_processing">ფილტრის გამოყენება…</string>
+    <string name="ai_action_toast_function_photo_restoration_processing">მიმდინარეობს სურათის აღდგენა…</string>
+    <string name="ai_action_toast_function_process_all_failed">ეფექტების გამოყენება ვერ მოხერხდა. დაელოდეთ ერთი-ორი წუთი და კიდევ სცადეთ.</string>
+    <string name="ai_action_toast_function_process_failed">ზოგიერთი ეფექტის გამოყენება ვერ მოხერხდა. დაელოდეთ ერთი-ორი წუთი და კიდევ სცადეთ.</string>
+    <string name="ai_action_toast_function_resources_loading">შეერთება იტვირთება…</string>
+    <string name="ai_action_toast_function_style_change_processing">ვინახავ სურათს…</string>
+    <string name="ai_action_toast_function_super_portrait_processing">მიმდინარეობს HD პორტრეტით დამუშავება…</string>
+    <string name="ai_action_toast_function_watermark_frame_processing">წყლის ნიშანის ჩარჩოს გამოყენება…</string>
+    <string name="ai_action_toast_multiple_function_not_support">ზოგი ფუნქცია ხელმიუწვდომელია</string>
+    <string name="ai_action_toast_need_login_mi_account">გაიარეთ ავტორიზაცია Xiaomi-ს ანგარიშით და კიდევ სცადეთ</string>
+    <string name="ai_action_toast_not_support_scene">ეს ფუნქცია აქ არ არის მხარდაჭერილი. დაბრუნდით საწყის გვერდზე და კიდევ სცადეთ.</string>
+    <string name="ai_action_toast_picture_content_illegal">ეს სურათი არღვევს საზოგადოების სტანდარტებს. სცადეთ სხვა.</string>
+    <string name="ai_action_toast_picture_size_out_of_limit">ამ ზომის სურათები არ არის მხარდაჭერილი. სცადეთ სხვა.</string>
+    <string name="ai_action_toast_poor_network">ქსელთან დაკავშირება ვერ მოხერხდა. შეამოწმეთ ქსელის პარამეტრები და კიდევ სცადეთ.</string>
+    <string name="ai_action_toast_request_time_out">კავშირის მოთხოვნის დრო ამოიწურა. დაელოდეთ ერთი-ორი წუთი და კიდევ სცადეთ.</string>
     <string name="aicrmanager_download_cancel">გააუქმეთ ჩამოტვირთვა</string>
     <string name="aicrmanager_download_done">ჩამოტვირთვა დასრულებულია</string>
     <string name="aicrmanager_download_done_content_title">AI რედაქტორის პლაგინის ჩამოტვირთვა</string>
     <string name="aicrmanager_download_process_content_title">მიმდინარეობს AI რედაქტორის პლაგინის ჩამოტვირთვა</string>
     <string name="aicrmanager_download_update_tip">შეერთების განახლება ხელმისაწვდომია. შეეხეთ სანახავად.</string>
     <string name="aicrmanager_downloading">მიმდინარეობს ჩამოტვირთვა %s</string>
+    <string name="aigc_login_confirm">ავტორიზაცია</string>
+    <string name="aigc_login_hint_message">შედით Xiaomi-ს ანგარიშზე, რათა შეძლოთ AI რედაქტორის ყველა ფუნქციის გამოყენება.</string>
+    <string name="aigc_login_hint_title">ავტორიზაცია</string>
     <string name="am">AM</string>
     <string name="app_name">გალერეის რედაქტორი</string>
     <string name="app_photoshop_name">გალერეის რედაქტორი</string>
@@ -423,7 +462,7 @@
     <string name="confirm_cancel_task_files">გსურთ ფაილების გაგზავნის გაუქმება %1$s?</string>
     <string name="confirm_cancel_task_images">გსურთ სურათების გაგზავნის გაუქმება %1$s?</string>
     <string name="crop_label">მოჭრილი ფოტოები</string>
-    <string name="cta_agreement_declare"><Data>თქვენი უფლებების, სრულად გასაცნობიერებლად ,როგორც მომხმარებელმა, ასევე თუ როგორ გამოიყენოთ ჩვენი მონაცემები, წაიკითხეთ და დაეთანხმეთ ჩვენს &lt;a href=\"%1$s\">სამომხარებლო შეთანხმებასა&lt;/a> და &lt;a href=\"%2$s\">კონფიდენციალურობის პოლიტიკას&lt;/a>.</Data></string>
+    <string name="cta_agreement_declare">&lt;Data>თქვენი უფლებების, სრულად გასაცნობიერებლად ,როგორც მომხმარებელმა, ასევე თუ როგორ გამოიყენოთ ჩვენი მონაცემები, წაიკითხეთ და დაეთანხმეთ ჩვენს &lt;a href=\"%1$s\">სამომხარებლო შეთანხმებასა&lt;/a> და &lt;a href=\"%2$s\">კონფიდენციალურობის პოლიტიკას&lt;/a>.&lt;/Data></string>
     <string name="cta_network_declare">ფოტოებისა და ვიდეოების Xiaomi Cloud-თან სინქრონიზაციისათვის, ამ აპლიკაციას სჭირდება ინტერნეტთან დაკავშირება.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -505,7 +544,7 @@
     <string name="filter_description_dialog_content">თქვენ შეგიძლიათ CUBE ფერის საძიებო ცხრილების გადატანა მორგებული ფილტრების დასამატებლად.</string>
     <string name="filter_description_dialog_title">მორგებული ფილტრები</string>
     <string name="filter_diy_import">გადმოტანა</string>
-    <string name="filter_diy_import_first_time_pop_tips">წაშალეთ და დააჭირეთ ღილაკს რედაქტირების დროს</string>
+    <string name="filter_diy_import_first_time_pop_tips">დააჭირეთ და გეკავოთ რჩეულებში დასამატებლად</string>
     <string name="filter_diy_import_toast_fail">გადატანა ვერ მოხერხდა</string>
     <string name="filter_diy_import_toast_out_of_limit">შეგიძლიათ გადაიტანოთ %d CUBE ფერების საძიებო ცხრილები.</string>
     <string name="filter_diy_tip_dialog_cancel">გაუქმება</string>
@@ -513,13 +552,25 @@
     <string name="filter_diy_tip_dialog_confirm">OK</string>
     <string name="filter_diy_tip_dialog_content">შეგიძლიათ გადაიტანოთ %d CUBE ფერების საძიებო ცხრილები.</string>
     <string name="filter_diy_tip_dialog_title">გადაიტანეთ ფილტრები</string>
+    <string name="filter_film_besson">პარკური</string>
     <string name="filter_film_chinese_red">ვერმილიონი</string>
     <string name="filter_film_desert_brown">თხილი</string>
     <string name="filter_film_flowers_dream">კინემატიკური</string>
+    <string name="filter_film_freehand">თავისუფალი ხელი</string>
+    <string name="filter_film_korean_rubber">ორქიდეა</string>
+    <string name="filter_film_kyoto">ძველი ქალაქი</string>
+    <string name="filter_film_le_mans">არხი</string>
     <string name="filter_film_light_tea_green">მწვანე ჩაი</string>
+    <string name="filter_film_monsoon">მუსონი</string>
     <string name="filter_film_mountain_cyan">ჩაისფერი ნისლი</string>
+    <string name="filter_film_old_alley">ხეივანი</string>
+    <string name="filter_film_old_style">მგზნებარე</string>
+    <string name="filter_film_relaxation">სიზარმაცის დღეები</string>
+    <string name="filter_film_reversal">გადახვევა</string>
+    <string name="filter_film_seaside">ზღვის პეიზაჟი</string>
     <string name="filter_film_sunset_red">ალისფერი</string>
     <string name="filter_film_taichi_ink">მელანი</string>
+    <string name="filter_film_zhi_xian">ლექსი</string>
     <string name="filter_general_blackice">\u1ca8ავი ყინული</string>
     <string name="filter_general_blackwhite">შავი და თეთრი</string>
     <string name="filter_general_delicious">საკვები</string>
@@ -1032,6 +1083,8 @@
     <string name="motion_photo_video_reverse_effect">გადახვევა</string>
     <string name="motion_photo_video_reverse_ing">ვიდეოს გადახვევა…</string>
     <string name="motion_photo_video_reverse_on">გადახვეულია</string>
+    <string name="motion_photo_watermark_off">წყლის ნიშანი გამორთულია</string>
+    <string name="motion_photo_watermark_on">წყლის ნიშანი ჩართულია</string>
     <string name="movie_add_disable">შეგიძლიათ მონიშნოთ %d-მდე ფოტო</string>
     <string name="movie_audio_antiquity">რეტრო</string>
     <string name="movie_audio_custom">ლოკალური</string>
@@ -1091,6 +1144,7 @@
     <string name="movie_template_xmas">შობა</string>
     <string name="movie_video_long">უფრო გრძელი ვიდეო</string>
     <string name="movie_video_short">%dწმ</string>
+    <string name="msg_initialize_failed_and_reenter">დანამატის ინიციალიზაცია ვერ მოხერხდა. დახურეთ ეს გვერდი და დაიწყეთ თავიდან.</string>
     <string name="multi_file_name">%1$s, %2$s</string>
     <string name="name_split">, </string>
     <string name="name_with_ellipsize">%1$s…%2$s</string>
@@ -1120,6 +1174,7 @@
     <string name="pc_device_model_name">კომპიუტერი</string>
     <string name="permission_account_desc">სისტემის ანგარიშების შესვლისა და მართვისათვის</string>
     <string name="permission_account_name">წვდომა ანგარიშებზე</string>
+    <string name="permission_app_summary">თქვენ შეგიძლიათ გამოიყენოთ გალერეის რედაქტორი ფოტოებისა და ვიდეოების რედაქტირებისთვის და გასალამაზებლად. მოწყობილობის ზოგიერთ მოდელზე მოწოდებული AI სერვისების გამოყენებისას, ამ აპლიკაციას დასჭირდება წვდომა არჩეული ფოტოების დასამუშავებლად.</string>
     <string name="permission_clipboard_desc">ბუფერში ერთეულების წვდომისა და შენახვისათვის</string>
     <string name="permission_clipboard_name">დაუშვით წვდომა და შეინახეთ ერთეულები ბუფერში</string>
     <string name="permission_contacts_desc">კონტაქტებზე ფოტოების დასაყენებლად</string>
@@ -1163,6 +1218,9 @@
     <string name="photo_editor_aicrmanager_title">მართეთ პლაგინები</string>
     <string name="photo_editor_aicrmanager_uninstall">წაშლა</string>
     <string name="photo_editor_aicrmanager_update">განახლება</string>
+    <string name="photo_editor_aigc_inpaint_progress">მიმდინარეობს წაშლა…</string>
+    <string name="photo_editor_aigc_outpaint_progress">სურათის გაფართოება…</string>
+    <string name="photo_editor_aigc_quality_improve_progress">მიმდინარეობს სურათის აღდგენა…</string>
     <string name="photo_editor_beautify">ავტო</string>
     <string name="photo_editor_beautify_auto">ავტო</string>
     <string name="photo_editor_beauty">გამშვენიერება</string>
@@ -1175,6 +1233,7 @@
     <string name="photo_editor_common_download_sdk_without_wifi_title">ჩამოტვირთეთ პლაგინი</string>
     <string name="photo_editor_confirm">გადართვა</string>
     <string name="photo_editor_crop">ჩამოჭრა</string>
+    <string name="photo_editor_crop_ai_outpaint_name">გაშლა</string>
     <string name="photo_editor_crop_and_rotate">ჩამოჭრა</string>
     <string name="photo_editor_crop_auto">ავტო</string>
     <string name="photo_editor_crop_auto_tips">ავტომატურად ჩამოჭრილი</string>
@@ -1195,6 +1254,7 @@
     <string name="photo_editor_crop_size_origin">ორიგინალი</string>
     <string name="photo_editor_crop_size_portrait_fullscreen">მთლიან ეკრანზე ↕</string>
     <string name="photo_editor_doodle">ჩანახატი</string>
+    <string name="photo_editor_enhancer_user_guide_desc">ჩვენი ახალი დიდი მოდელის ალგორითმი შეუძლია გააუმჯობესოს გამოსახულების სიცხადე მხოლოდ ერთი შეხებით</string>
     <string name="photo_editor_estimate_size">სავარაუდო ზომა: %1$s - %2$d × %3$d px</string>
     <string name="photo_editor_filter">ფილტრი</string>
     <string name="photo_editor_font_default">Mi Lanting (ჩვეულებრივი)</string>
@@ -1214,6 +1274,7 @@
     <string name="photo_editor_gallery_frame_tab_leica">Leica</string>
     <string name="photo_editor_high">მაღალი</string>
     <string name="photo_editor_highest">საუკეთესო</string>
+    <string name="photo_editor_inpaint_progress">მიმდინარეობს წაშლა…%s</string>
     <string name="photo_editor_intoutpaint_name">AI გაფართოება/AI Erase 2.0</string>
     <string name="photo_editor_label">რედაქტირება</string>
     <string name="photo_editor_leica_frame">Leica-ს წყლისნიშანი</string>
@@ -1253,8 +1314,10 @@
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">"Looks like you aren't connected to WLAN. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">ჩამოტვირთეთ პლაგინი</string>
     <string name="photo_editor_navigator_tab_title_ai">შექმნა</string>
+    <string name="photo_editor_navigator_tab_title_ai_pro">AI</string>
     <string name="photo_editor_navigator_tab_title_basic">საბაზისო</string>
     <string name="photo_editor_navigator_tab_title_beauty">გამშვენიერება</string>
+    <string name="photo_editor_outpaint_progress">გაუმჯობესება…%s</string>
     <string name="photo_editor_perspective">პერსპექტივა</string>
     <string name="photo_editor_perspective_crop">ჩამოჭრა</string>
     <string name="photo_editor_perspective_distortion">არეული</string>
@@ -1267,12 +1330,15 @@
     <string name="photo_editor_privacy_negative">გასვლა</string>
     <string name="photo_editor_privacy_notice">კონფიდენციალურობის განცხადება</string>
     <string name="photo_editor_privacy_positive">ვეთანხმები</string>
+    <string name="photo_editor_privacy_tip_ai">"AI ფუნქციების გამოყენებამდე წაიკითხეთ და დაეთანხმეთ &lt;a href='%1$s'>გალერეის რედაქტორის AI მახასიათებლების კონფიდენციალურობის პოლიტიკას&lt;/a> და &lt;a href='%2$s'>გალერეის რედაქტორის AI-ს მახასიათებლები სამომხმარებლო შეთანხმებას&lt;/a>."</string>
     <string name="photo_editor_privacy_tip_below">&lt;br>&lt;br>&lt;small>*ალგორითმული რანდომიზაციის გამო, თქვენ მიიღებთ საუკეთესო შედეგებს იმ სურათების გამოყენებისას, სადაც საგანი მთლიანად არის ნაჩვენები.&lt;/small></string>
     <string name="photo_editor_privacy_tip_outpaint">"გამოყენებამდე წაიკითხეთ და დაეთანხმეთ &lt;a href='%1$s'>AI გაფართოების კონფიდენციალურობის პოლიტიკას&lt;/a> და &lt;a href='%2$s'>AI გაფართოების სამომხმარებლო შეთანხმებას&lt;/a> AI გაფართოებამდე."</string>
-    <string name="photo_editor_privacy_tip_rmpro">"წაიკითხეთ და დაეთანხმეთ &lt;a href='%1$s'>AI Erase 2.0 Pro მახასიათებლების კონფიდენციალურობის პოლიტიკას&lt;/a> და &lt;a href='%2$s'>AI Erase 2.0 Pro მახასიათებლების სამომხმარებლო შეთანხმებას&lt;/a> AI Erase 2.0 პრო ფუნქციების გამოყენებამდე."</string>
+    <string name="photo_editor_privacy_tip_rmpro">"წაიკითხეთ და დაეთანხმეთ &lt;a href='%1$s'>AI Erase 2.0 Pro მახასიათებლების კონფიდენციალურობის პოლიტიკას&lt;/a> და &lt;a href='%2$s'>AI Erase 2.0 Pro მახასიათებლების სამომხმარებლო შეთანხმებას&lt;/a> AI Erase 2.0 Pro ფუნქციების გამოყენებამდე."</string>
     <string name="photo_editor_privacy_tip_virtualization">"კეთილი იყოს თქვენი მობრძანება AI სურათებსა და მასთან დაკავშირებულ სერვისებში!&lt;br>იმისთვის, რომ მოგაწოდოთ ძირითადი ფუნქციები და სერვისები, ჩვენ უნდა შევაგროვოთ და გამოვიყენოთ ზოგიერთი აუცილებელი პერსონალური ინფორმაცია.&lt;br>როდესაც თქვენ იყენებთ AI გამოსახულების ფუნქციებს, თქვენ უნდა ატვირთოთ ფოტოები. ჩვენ დავამუშავებთ სახის ინფორმაციას ფოტოებზე თქვენს მოწყობილობაზე და გამოვიყენებთ ხელოვნური ინტელექტის სურათის გენერირებისთვის.&lt;br>ჩვენ ვაგროვებთ მხოლოდ პერსონალურ ინფორმაციას, რომელიც აუცილებელია ჩვენი პროდუქტებისა და სერვისების უზრუნველსაყოფად. დეტალებისთვის, თუ როგორ ვაგროვებთ და ვიყენებთ თქვენს პერსონალურ ინფორმაციას, იხილეთ AI გამოსახულების კონფიდენციალურობის პოლიტიკა.&lt;br>წაიკითხეთ და დაეთანხმეთ &lt;a href='%1$s'>AI გამოსახულების მომხმარებლის შეთანხმებას&lt;/a> და &lt;a href='%2$s'>AI სურათის კონფიდენციალურობის პოლიტიკა&lt;/a> სანამ გააგრძელებთ."</string>
     <string name="photo_editor_privacy_title">ყურადღება</string>
     <string name="photo_editor_quality">ხარისხი</string>
+    <string name="photo_editor_quality_improve">გაუმჯობესება</string>
+    <string name="photo_editor_quality_improve_progress">გაუმჯობესება…%s</string>
     <string name="photo_editor_remove_watermark">წაშალეთ წყლის ნიშანი</string>
     <string name="photo_editor_remove_watermark_on">წყლის ნიშანის დამატება</string>
     <string name="photo_editor_remover">წაშლა</string>
@@ -1386,7 +1452,7 @@
     <string name="portrait_improving_the_texture_of_the_whole_picture">ტექსტურის ოპტიმიზაცია…</string>
     <string name="portrait_optimizing_skin_texture">კანის ტექსტურის ოპტიმიზაცია…</string>
     <string name="prepare_to_drop">შენახულია %s</string>
-    <string name="privacy_permission_request_message"><Data>გალერეას ესაჭიროება წვდომა %3$s-ზე. ჩვენს მიერ შეგროვებული ინფორმაცია გამოყენებული იქნება ჩვენი &lt;a href=\"%1$s\">\"\u1c9bომსახურების პირობებისა\"&lt;/a> და &lt;a href=\"%2$s\">\"კონფიდენციალურობის პოლიტიკის\"&lt;/a> შესაბამისად. დავუშვა წვდომა?</Data></string>
+    <string name="privacy_permission_request_message">&lt;Data>გალერეას ესაჭიროება წვდომა %3$s-ზე. ჩვენს მიერ შეგროვებული ინფორმაცია გამოყენებული იქნება ჩვენი &lt;a href=\"%1$s\">\"\u1c9bომსახურების პირობებისა\"&lt;/a> და &lt;a href=\"%2$s\">\"კონფიდენციალურობის პოლიტიკის\"&lt;/a> შესაბამისად. დავუშვა წვდომა?&lt;/Data></string>
     <string name="privacy_permission_request_negative">შემცირება</string>
     <string name="privacy_permission_request_positive">დაშვება</string>
     <string name="privacy_permission_request_title">საჭიროა ნებართვები</string>
@@ -1486,6 +1552,18 @@
     <string name="send_files_by">ფაილების გაზიარება</string>
     <string name="send_files_to">გააგზავნეთ ერთეულები</string>
     <string name="set_as_cover">დააყენეთ ქავერად</string>
+    <string name="settings_ai_editor_ai_image">AI სურათი</string>
+    <string name="settings_ai_editor_ai_image_description">სრულიად ახალი AI სურათი საშუალებას გაძლევთ შექმნათ სურათები მრავალ სტილში. საუკეთესო შედეგისთვის ატვირთეთ ფოტოები აშკარად ხილული სახეებით.</string>
+    <string name="settings_ai_editor_expand">AI სურათის გაფართოება</string>
+    <string name="settings_ai_editor_expand_description">ახალი, AI მხარდაჭერილი გამოსახულების გაფართოება. შეინარჩუნეთ ორიგინალური ასპექტის თანაფარდობა, აირჩიეთ თქვენი საკუთარი, ან მიეცით საშუალება AI-ს თავად გადაწყვიტოს.</string>
+    <string name="settings_ai_editor_image_restoration">გაუმჯობესება</string>
+    <string name="settings_ai_editor_image_restoration_description">გააუმჯობესეთ გამოსახულების სიცხადე ერთი შეხებით ჩვენი ახალი დიდი მოდელის ალგორითმის გამოყენებით</string>
+    <string name="settings_ai_editor_intelligent_filming">AI ფილმი</string>
+    <string name="settings_ai_editor_intelligent_filming_description">ატვირთეთ ფოტოები და ვიდეოები, რათა ავტომატურად შექმნათ ვიდეო Ai-ის საშვალებით ან შეიყვანეთ მოთხოვნები, რათა შექმნათ რაიმე სრულიად ახალი</string>
+    <string name="settings_ai_editor_remover">AI Erase Pro</string>
+    <string name="settings_ai_editor_remover_description">წაშალეთ უკვალოდ განახლებული AI Erase Pro ფუნქციებით</string>
+    <string name="settings_ai_editor_summary">შექმენით და დაარედაქტირეთ ფოტოები და ვიდეოები</string>
+    <string name="settings_ai_editor_title">AI გალერეის რედაქტორი</string>
     <string name="share_album_qr_code">ალბომის QR კოდი</string>
     <string name="share_and_delete_picture">წაშალეთ გაზიარების შემდეგ</string>
     <string name="share_and_delete_screenshot">წაშალეთ გაზიარების შემდეგ</string>
@@ -1733,6 +1811,19 @@
     <string name="tips_no_time_gallery_frame">ეს ფოტო არ შეიცავს დროის ნიშანს</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="tips_support_gallery_frame">მხარდაჭერილია მხოლოდ Xiaomi-ს პროდუქტების მიერ გადაღებული სურათები, რომლებიც შექმნილია Leica-სთან ერთად</string>
+    <string name="toast_aigc_command_not_supported">ეს ბრძანება არ არის მხარდაჭერილი</string>
+    <string name="toast_aigc_high_concurrency_limit">სერვერი დაკავებულია. დაელოდეთ ერთი ან ორი წუთი და კიდევ სცადეთ.</string>
+    <string name="toast_aigc_illegal_account_id">დაფიქსირდა ანგარიშის შეცდომა. დაუკავშირდით მომხმარებელთა მომსახურებას.</string>
+    <string name="toast_aigc_illegal_image">ფოტო არღვევს ჩვენს მითითებებს. აირჩიეთ სხვა.</string>
+    <string name="toast_aigc_image_not_supported">ეს ფოტო არ არის მხარდაჭერილი</string>
+    <string name="toast_aigc_minimum_face_size_restrict">სახეები ძალიან პატარაა. სცადეთ სხვა ფოტო.</string>
+    <string name="toast_aigc_minimum_resolution_restrict">გარჩევადობა ძალიან დაბალია. სცადეთ სხვა ფოტო.</string>
+    <string name="toast_aigc_network_time_out">კავშირის მოთხოვნის დრო ამოიწურა. დაელოდეთ ერთი-ორი წუთი და კიდევ სცადეთ.</string>
+    <string name="toast_aigc_no_people_detected">ხალხის ამოცნობა ვერ მოხერხდა. სცადეთ სხვა ფოტო.</string>
+    <string name="toast_aigc_only_anime_stype_supported">მხარდაჭერილია მხოლოდ \"ანიმაცია\". სცადეთ ხელახლა.</string>
+    <string name="toast_aigc_poor_network">შეამოწმეთ ქსელთან კავშირი და კიდევ სცადეთ</string>
+    <string name="toast_aigc_request_time_limit">დღეს მეტის მოთხოვნა არ შეიძლება. კიდევ სცადე ხვალ.</string>
+    <string name="toast_aigc_server_error">დაფიქსირდა სერვერის შეცდომა. დაელოდეთ ერთი ან ორი წუთი და კიდევ სცადეთ.</string>
     <string name="toast_download_with_metered_network_btn_continue">ჩამოტვირთვა</string>
     <string name="toast_download_with_metered_network_msg">როგორც ჩანს, თქვენი მოწყობილობა არ არის დაკავშირებული Wi-Fi-ს. ჩამოვტვირთო საჭირო ერთეულები მობილური ინტერნეტის მეშვეობით?</string>
     <string name="toast_download_with_metered_network_title">გაფრთხილება მონაცემთა გამოყენების შესახებ</string>
@@ -1750,7 +1841,7 @@
     <string name="user_agreement2">მომსახურების პირობები</string>
     <string name="user_agreement4">კონფიდენციალურობის პოლიტიკა</string>
     <string name="user_guide_close_desc">ღილაკი \"მომხმარებლის სახელმძღვანელოს დახურვა\".</string>
-    <string name="user_notice_identify_summary_format"><Data>მე წავიკითხე და ვეთანხმები Xiaomi-ს &lt;a href=\"%1$s\">მომსახურების პირობებსა &lt;/a> და &lt;a href=\"%2$s\">კონფიდენციალურობის პოლიტიკას&lt;/a>.</Data></string>
+    <string name="user_notice_identify_summary_format">&lt;Data>მე წავიკითხე და ვეთანხმები Xiaomi-ს &lt;a href=\"%1$s\">მომსახურების პირობებსა &lt;/a> და &lt;a href=\"%2$s\">კონფიდენციალურობის პოლიტიკას&lt;/a>.&lt;/Data></string>
     <string name="user_notice_title">წესები და პირობები</string>
     <string name="video_analytic_cancel">გაუქმება</string>
     <string name="video_analytic_download">ჩამოტვირთვა</string>
@@ -1978,6 +2069,7 @@
     <string name="vlog_auto_clip_delete_desc">გსურთ წავშალო ეს კლიპი ახლავე？</string>
     <string name="vlog_auto_clip_delete_ok">წაშლა</string>
     <string name="vlog_auto_complete">შესრულებულია</string>
+    <string name="vlog_auto_compose_middle_close">კომპოზიციის ხელით რეგულირება წაშლის ადრე გამოყენებულ სმარტ ეფექტებს. მაინც გსურთ დარეგულირება?</string>
     <string name="vlog_auto_composition_close">ასპექტის თანაფარდობის ხელით რეგულირება გამორთულია Xiaomi Procut-ზე. მაინც გსურთ შეცვლა?</string>
     <string name="vlog_auto_generate_complete">შექმნა</string>
     <string name="vlog_auto_generate_composition">Xiaomi ProCut</string>
@@ -2098,6 +2190,7 @@
     <string name="vlog_filter_nanfa">გარიგი</string>
     <string name="vlog_filter_no_support_nums">გამოტოვეთ ვიდეოები, რომლებიც რედაქტირებული არაა (%1$d)</string>
     <string name="vlog_filter_nuanyang">მზიანი</string>
+    <string name="vlog_filter_old_street">გასეირნება</string>
     <string name="vlog_filter_origin">არცერთი</string>
     <string name="vlog_filter_qianyin">ტენდერი</string>
     <string name="vlog_filter_qihuan">ფანტაზია</string>
@@ -2105,6 +2198,7 @@
     <string name="vlog_filter_qingye">ნოქტურნი</string>
     <string name="vlog_filter_rixi">პასტელური</string>
     <string name="vlog_filter_romantic">მიმზიდველი</string>
+    <string name="vlog_filter_sea_breeze">\u1c96ღვის ბრიზი</string>
     <string name="vlog_filter_senshan">Momiji</string>
     <string name="vlog_filter_shenmi">საიდუმლო</string>
     <string name="vlog_filter_tag_atmosphere">ატმოსფერო</string>
@@ -2124,6 +2218,7 @@
     <string name="vlog_float_view_ratio">ასპექტის რაციონი</string>
     <string name="vlog_fps">ჩარჩოს ზომა</string>
     <string name="vlog_improt_encode_video_error">გამოვლინდა ქსელის შეცდომა. კიდევ სცადეთ.</string>
+    <string name="vlog_load_data_empty">პირველ რიგში მონიშნეთ ერთეულები</string>
     <string name="vlog_load_data_fail">მონაცემების ჩატვირთვა ვერ მოხერხდა</string>
     <string name="vlog_mi_clip">ვიდეო რედაქტორი</string>
     <string name="vlog_min_resolution_hint">ამჟამინდელი რეზოლუცია ყველაზე დაბალი ხილვადობითაა ხელმისაწვდომია</string>
@@ -2146,7 +2241,7 @@
     <string name="vlog_pro_not_support">ეს რეზოლუცია არ არის მხარდაჭერილი</string>
     <string name="vlog_pro_ok">გადართვა</string>
     <string name="vlog_pro_title">ვიდეო რედაქტორი</string>
-    <string name="vlog_quality">ვიდეოს ხარისხი</string>
+    <string name="vlog_quality">ხარისხი</string>
     <string name="vlog_quality_bitrate_auto">ავტო</string>
     <string name="vlog_quality_bitrate_high">მაღალი</string>
     <string name="vlog_quality_bitrate_low">დაბალი</string>
