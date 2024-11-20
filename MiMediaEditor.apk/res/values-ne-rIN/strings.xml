@@ -70,7 +70,12 @@
     <string name="adjust_grain">ग्रेन</string>
     <string name="adjust_highlight">हाइलाइटहरू</string>
     <string name="adjust_highlight_shadow">हाइलाइट र छाँयाहरू</string>
+    <string name="adjust_light_perception">लाइटनेस</string>
     <string name="adjust_natural_saturation">भाइब्रेन्स</string>
+    <string name="adjust_noise_degree">डिग्री</string>
+    <string name="adjust_noise_high_lights">हाइलाइटहरू</string>
+    <string name="adjust_noise_roughness">खरदरो</string>
+    <string name="adjust_noise_size">साइज</string>
     <string name="adjust_reset">रिसेट गर्नुहोस्</string>
     <string name="adjust_saturation">स्याचुरेसन</string>
     <string name="adjust_shadow">छाँया</string>
@@ -81,6 +86,7 @@
     <string name="adjust_tab_detail">विवरणहरू</string>
     <string name="adjust_tab_dispersion">फैलावट</string>
     <string name="adjust_tab_effect">प्रभावहरू</string>
+    <string name="adjust_tab_noise">शोर</string>
     <string name="adjust_tab_tone">टोन</string>
     <string name="adjust_tab_white_balance">सेतो ब्यालेन्स</string>
     <string name="adjust_talkback_curve_anchor_delete">एङ्कर पोइन्ट मेटाउनुहोस्</string>
@@ -94,12 +100,45 @@
     <string name="agreement_quit">बाहिरिनुहोस्</string>
     <string name="agreement_required_tip">(अनिवार्य)</string>
     <string name="agreement_summary">कानूनी कागजातहरू</string>
+    <string name="ai_action_toast_cloud_data_pull_failed">वस्तुहरू लोड गर्न सकिएन। तपाईंको नेटवर्क सेटिंग्स जाँच गर्नुहोस् र फेरि प्रयास गर्नुहोस्।</string>
+    <string name="ai_action_toast_function_ai_expansion_processing">छवि विस्तार गर्दैछ…</string>
+    <string name="ai_action_toast_function_ai_portrait_processing">AI छविसँग प्रशोधन गर्दैछ…</string>
+    <string name="ai_action_toast_function_background_change_processing">पृष्ठभूमि परिवर्तन गर्दैछ…</string>
+    <string name="ai_action_toast_function_beautification_processing">ब्युटिफाइसंग प्रशोधन गर्दैछ…</string>
+    <string name="ai_action_toast_function_download_failed">यो फिचर डाउनलोड गर्न सकिएन। नेटवर्क सेटिङहरू जाँच्नुहोस् र फेरि प्रयास गर्नुहोस्।</string>
+    <string name="ai_action_toast_function_expression_replace_processing">अभिव्यक्ति परिवर्तन गर्दैछ…</string>
+    <string name="ai_action_toast_function_face_shape_processing">तपाईँको अनुहारको बनावट समायोजन गर्दै…</string>
+    <string name="ai_action_toast_function_leica_watermark_processing">Leica वाटरमार्क लागू गर्दैछ…</string>
+    <string name="ai_action_toast_function_magic_remove_processing">AI Erase Pro सँग प्रशोधन गर्दै…</string>
+    <string name="ai_action_toast_function_music_processing">साउन्डट्र्याक लागू गर्दै…</string>
+    <string name="ai_action_toast_function_not_support">यो फिचर अब उपलब्ध छैन</string>
+    <string name="ai_action_toast_function_photo_auto_beautify_processing">ब्युटिफाइ गर्दैछ…</string>
+    <string name="ai_action_toast_function_photo_beautify_skin_processing">छालाको रङ समायोजन गर्दै…</string>
+    <string name="ai_action_toast_function_photo_enhance_processing">वृद्धि गर्दै…</string>
+    <string name="ai_action_toast_function_photo_filter_processing">फिल्टर लागू गर्दै…</string>
+    <string name="ai_action_toast_function_photo_restoration_processing">छवि पुनर्स्थापित गर्दैछ…</string>
+    <string name="ai_action_toast_function_process_all_failed">प्रभावहरू लागू गर्न सकिएन। एक वा दुई मिनेट पर्खनुहोस् र फेरि प्रयास गर्नुहोस्।</string>
+    <string name="ai_action_toast_function_process_failed">केही प्रभावहरू लागू गर्न सकिएन। एक वा दुई मिनेट पर्खनुहोस् र फेरि प्रयास गर्नुहोस्।</string>
+    <string name="ai_action_toast_function_resources_loading">प्लग-इन लोड हुँदैछ…</string>
+    <string name="ai_action_toast_function_style_change_processing">फोटोलाई स्टाइलिङ गर्दैछ…</string>
+    <string name="ai_action_toast_function_super_portrait_processing">HD पोर्ट्रेटसँग प्रशोधन गर्दैछ…</string>
+    <string name="ai_action_toast_function_watermark_frame_processing">वाटरमार्क फ्रेम लागू गर्दैछ…</string>
+    <string name="ai_action_toast_multiple_function_not_support">अहिले केहि फिचरहरू उपलब्ध छैनन्</string>
+    <string name="ai_action_toast_need_login_mi_account">Xiaomi खातामा सइन इन गर्नुहोस् र फेरि प्रयास गर्नुहोस्</string>
+    <string name="ai_action_toast_not_support_scene">यो सुविधा यहाँ समर्थित छैन। सुरु पृष्ठमा फर्कनुहोस् र पुन: प्रयास गर्नुहोस्।</string>
+    <string name="ai_action_toast_picture_content_illegal">यो छविले सामुदायिक मापदण्डहरू उल्लङ्घन गर्दछ। अर्को हालेर हेर्नुहोस्।</string>
+    <string name="ai_action_toast_picture_size_out_of_limit">यस आकारका छविहरू समर्थित छैनन्। एउटा फरक प्रयास गर्नुहोस्।</string>
+    <string name="ai_action_toast_poor_network">नेटवर्कमा कनेक्ट गर्न सकिएन। आफ्नो नेटवर्क सेटिंग जाँच गर्नुहोस् र फेरि प्रयास गर्नुहोस्।</string>
+    <string name="ai_action_toast_request_time_out">यो अनुरोधको समय सकियो। एक वा दुई मिनेट पर्खनुहोस् र फेरि प्रयास गर्नुहोस्।</string>
     <string name="aicrmanager_download_cancel">डाउनलोड रद्द गर्नुहोस्</string>
     <string name="aicrmanager_download_done">डाउनलोड पुरा भयो</string>
     <string name="aicrmanager_download_done_content_title">AI एडिटर प्लग-इन</string>
     <string name="aicrmanager_download_process_content_title">AI एडिटर प्लग-इन डाउनलोड गर्दै</string>
     <string name="aicrmanager_download_update_tip">प्लग-इन अपडेट उपलब्धछ। हेर्नका लागि ट्याप गर्नुहोस्।</string>
     <string name="aicrmanager_downloading">%s डाउनलोड गर्दैछ</string>
+    <string name="aigc_login_confirm">साइन इन गर्नुहोस्</string>
+    <string name="aigc_login_hint_message">सबै AI एडिटर सुविधाहरू प्रयोग गर्न सक्षम हुन Xiaomi खातामा साइन इन गर्नुहोस्।</string>
+    <string name="aigc_login_hint_title">साइन इन</string>
     <string name="am">AM</string>
     <string name="app_name">ग्यालरी एडिटर</string>
     <string name="app_photoshop_name">ग्यालरी एडिटर</string>
@@ -423,7 +462,7 @@
     <string name="confirm_cancel_task_files">%1$s लाई फाइलहरू पठाउन रद्द गर्ने?</string>
     <string name="confirm_cancel_task_images">%1$s लाई छविहरू पठाउने रद्द गर्ने?</string>
     <string name="crop_label">क्रम गरिएका फोटोहरू</string>
-    <string name="cta_agreement_declare"><Data>एक प्रयोगकर्ताको रूपमा तपाईंको अधिकारहरू पूर्ण रूपमा बुझ्नको लागि र हामी तपाईंको डाटा कहाँ प्रयोग गर्छौं सो जान्नका लागि, हाम्रो एप प्रयोग गर्नु अघि तपाईं हाम्रो &lt;a href=\"%1$s\">प्रयोगकर्ता सम्झौता&lt;/a> र &lt;a href=\"%2$s\">गोपनीयता नीति&lt;/a>पढ्नुहोस् र यसमा सहमत हुनुहोस्।</Data></string>
+    <string name="cta_agreement_declare">&lt;Data>एक प्रयोगकर्ताको रूपमा तपाईंको अधिकारहरू पूर्ण रूपमा बुझ्नको लागि र हामी तपाईंको डाटा कहाँ प्रयोग गर्छौं सो जान्नका लागि, हाम्रो एप प्रयोग गर्नु अघि तपाईं हाम्रो &lt;a href=\"%1$s\">प्रयोगकर्ता सम्झौता&lt;/a> र &lt;a href=\"%2$s\">गोपनीयता नीति&lt;/a>पढ्नुहोस् र यसमा सहमत हुनुहोस्।&lt;/Data></string>
     <string name="cta_network_declare">Xiaomi क्लाउडमा फोटो र भिडियो सिंक गर्न, यो एप इन्टरनेटमा कनेक्ट हुन आवश्यक छ।</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -505,7 +544,7 @@
     <string name="filter_description_dialog_content">तपाईँ अनुकूल फिल्टरहरू थप्न CUBE रङ लुकअप तालिकाहरू आयात गर्न सक्नुहुन्छ।</string>
     <string name="filter_description_dialog_title">कस्टम फिल्टर्स</string>
     <string name="filter_diy_import">इम्पोर्ट गर्नुहोस्</string>
-    <string name="filter_diy_import_first_time_pop_tips">सम्पादन गर्न थिचेर राख्नुहोस्</string>
+    <string name="filter_diy_import_first_time_pop_tips">मनपर्नेहरूमा थप्न यसलाई थिचेर राख्नुहोस्</string>
     <string name="filter_diy_import_toast_fail">इम्पोर्ट गर्न सकिएन</string>
     <string name="filter_diy_import_toast_out_of_limit">तपाईँले धेरै भन्दा धेरै %d CUBE रङ लुकअप टेबल इम्पोर्ट गर्न सक्नुहुन्छ।</string>
     <string name="filter_diy_tip_dialog_cancel">रद्द गर्नुहोस</string>
@@ -513,13 +552,25 @@
     <string name="filter_diy_tip_dialog_confirm">ठिक छ</string>
     <string name="filter_diy_tip_dialog_content">तपाईँले धेरै भन्दा धेरै %d CUBE रङ लुकअप टेबल इम्पोर्ट गर्न सक्नुहुन्छ।</string>
     <string name="filter_diy_tip_dialog_title">फिल्टरहरू इम्पोर्ट गर्नुहोस्</string>
+    <string name="filter_film_besson">पार्कर</string>
     <string name="filter_film_chinese_red">सिन्दुर</string>
     <string name="filter_film_desert_brown">हेजलनट</string>
     <string name="filter_film_flowers_dream">सिनेम्याटिक</string>
+    <string name="filter_film_freehand">फ्रिह्यान्ड</string>
+    <string name="filter_film_korean_rubber">अर्किड</string>
+    <string name="filter_film_kyoto">पुरानो सहर</string>
+    <string name="filter_film_le_mans">नहर</string>
     <string name="filter_film_light_tea_green">ग्रिन टी</string>
+    <string name="filter_film_monsoon">मनसुन</string>
     <string name="filter_film_mountain_cyan">टिल मिस्ट</string>
+    <string name="filter_film_old_alley">गली</string>
+    <string name="filter_film_old_style">विक्षिप्त</string>
+    <string name="filter_film_relaxation">लेजी डे</string>
+    <string name="filter_film_reversal">रिवर्सल</string>
+    <string name="filter_film_seaside">समुद्री दृश्य</string>
     <string name="filter_film_sunset_red">चकिलो रातो</string>
     <string name="filter_film_taichi_ink">मसी</string>
+    <string name="filter_film_zhi_xian">कविता</string>
     <string name="filter_general_blackice">कालो बरफ</string>
     <string name="filter_general_blackwhite">कालो र सेतो</string>
     <string name="filter_general_delicious">खाना</string>
@@ -1032,6 +1083,8 @@
     <string name="motion_photo_video_reverse_effect">उल्टाउनुहोस्</string>
     <string name="motion_photo_video_reverse_ing">भिडियो उल्टाउँदै…</string>
     <string name="motion_photo_video_reverse_on">उल्टाइयो</string>
+    <string name="motion_photo_watermark_off">वाटरमार्क बन्द छ</string>
+    <string name="motion_photo_watermark_on">वाटरमार्क चालु छ</string>
     <string name="movie_add_disable">तपाईंले %d सम्म फोटोहरू चयन गर्न सक्नुहुन्छ</string>
     <string name="movie_audio_antiquity">रेट्रो</string>
     <string name="movie_audio_custom">स्थानीय</string>
@@ -1091,6 +1144,7 @@
     <string name="movie_template_xmas">क्रिस्मस</string>
     <string name="movie_video_long">लामो भिडियो</string>
     <string name="movie_video_short">%dसे</string>
+    <string name="msg_initialize_failed_and_reenter">प्लग-इन सुरु गर्न सकिएन। यो पृष्ठ बन्द गर्नुहोस् र फेरि सुरु गर्नुहोस्।</string>
     <string name="multi_file_name">%1$s, %2$s</string>
     <string name="name_split">, </string>
     <string name="name_with_ellipsize">%1$s…%2$s</string>
@@ -1120,6 +1174,7 @@
     <string name="pc_device_model_name">कम्प्युटर</string>
     <string name="permission_account_desc">साइन इन गर्न र सिस्टम खाता प्रबन्धन गर्नका लागि</string>
     <string name="permission_account_name">खाताहरू हेर्नुहोस्</string>
+    <string name="permission_app_summary">तपाईं फोटो र भिडियोहरू सम्पादन गर्न र सुन्दर बनाउन ग्यालरी सम्पादक प्रयोग गर्न सक्नुहुन्छ। केही यन्त्र मोडेलहरूमा प्रदान गरिएका AI सेवाहरू प्रयोग गर्दा, यो एपले प्रशोधनका लागि चयन गरिएका तस्बिरहरू पहुँच गर्न आवश्यक हुनेछ।</string>
     <string name="permission_clipboard_desc">क्लिपबोर्डमा वस्तुहरू हेर्न वा सेभ गर्नका लागि</string>
     <string name="permission_clipboard_name">क्लिपबोर्डमा वस्तुहरू हेर्नुहोस् वा सेभ गर्नुहोस्</string>
     <string name="permission_contacts_desc">फोटोमा भएका मानिसहरूका लागि सम्पर्क निर्धारित गर्न</string>
@@ -1163,6 +1218,9 @@
     <string name="photo_editor_aicrmanager_title">प्लग-इन्स प्रबन्धन गर्नुहोस्</string>
     <string name="photo_editor_aicrmanager_uninstall">हटाउनुहोस्</string>
     <string name="photo_editor_aicrmanager_update">अपडेट गर्नुहोस्</string>
+    <string name="photo_editor_aigc_inpaint_progress">मेटाउँदैछ…</string>
+    <string name="photo_editor_aigc_outpaint_progress">छवि विस्तार गर्दैछ…</string>
+    <string name="photo_editor_aigc_quality_improve_progress">छवि पुनर्स्थापित गर्दैछ…</string>
     <string name="photo_editor_beautify">स्वत</string>
     <string name="photo_editor_beautify_auto">स्वत</string>
     <string name="photo_editor_beauty">ब्युटिफाइ</string>
@@ -1175,6 +1233,7 @@
     <string name="photo_editor_common_download_sdk_without_wifi_title">प्लग-इन डाउनलोड गर्नुहोस्</string>
     <string name="photo_editor_confirm">स्विच गर्नुहोस्</string>
     <string name="photo_editor_crop">क्रप गर्नुहोस्</string>
+    <string name="photo_editor_crop_ai_outpaint_name">विस्तार गर्नुहोस्</string>
     <string name="photo_editor_crop_and_rotate">क्रप गर्नुहोस्</string>
     <string name="photo_editor_crop_auto">स्वत</string>
     <string name="photo_editor_crop_auto_tips">स्वत: क्रप गरियो</string>
@@ -1195,6 +1254,7 @@
     <string name="photo_editor_crop_size_origin">मूल</string>
     <string name="photo_editor_crop_size_portrait_fullscreen">पूर्ण स्क्रिन ↕</string>
     <string name="photo_editor_doodle">डुडल</string>
+    <string name="photo_editor_enhancer_user_guide_desc">हाम्रो नयाँ ठूलो मोडेल एल्गोरिदमले केवल एक ट्यापमा छवि स्पष्टता सुधार गर्न सक्छ</string>
     <string name="photo_editor_estimate_size">अनुमानित आकार: %1$s - %2$d × %3$d px</string>
     <string name="photo_editor_filter">फिल्टर गर्नुहोस्</string>
     <string name="photo_editor_font_default">Mi Lanting (नियमित)</string>
@@ -1214,6 +1274,7 @@
     <string name="photo_editor_gallery_frame_tab_leica">Leica</string>
     <string name="photo_editor_high">उच्च</string>
     <string name="photo_editor_highest">उत्तम</string>
+    <string name="photo_editor_inpaint_progress">मेटाउँदैछ…%s</string>
     <string name="photo_editor_intoutpaint_name">AI विस्तार/AI Erase 2.0</string>
     <string name="photo_editor_label">सम्पादन गर्नुहोस्</string>
     <string name="photo_editor_leica_frame">Leica वाटरमार्क</string>
@@ -1253,8 +1314,10 @@
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">"Looks like you aren't connected to WLAN. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">प्लग-इन डाउनलोड गर्नुहोस्</string>
     <string name="photo_editor_navigator_tab_title_ai">सिर्जना गर्नुहोस्</string>
+    <string name="photo_editor_navigator_tab_title_ai_pro">AI</string>
     <string name="photo_editor_navigator_tab_title_basic">बेसिक</string>
     <string name="photo_editor_navigator_tab_title_beauty">ब्युटिफाइ</string>
+    <string name="photo_editor_outpaint_progress">विस्तार गर्दैछ…%s</string>
     <string name="photo_editor_perspective">परिप्रेक्ष्य</string>
     <string name="photo_editor_perspective_crop">क्रप गर्नुहोस्</string>
     <string name="photo_editor_perspective_distortion">विकृत गर्नुहोस्</string>
@@ -1267,12 +1330,15 @@
     <string name="photo_editor_privacy_negative">बाहारिनुहोस्</string>
     <string name="photo_editor_privacy_notice">गोपनीयता सूचना</string>
     <string name="photo_editor_privacy_positive">सहमत हुनुहोस्</string>
+    <string name="photo_editor_privacy_tip_ai">"AI सुविधाहरू प्रयोग गर्नु अघि, तपाईँ हाम्रो &lt;a href='%1$s'>ग्यालरी एडिटर AI फिचर गोपनीयता नीति&lt;/a> र &lt;a href='%2$s'> ग्यालरी एडिटर AI फिचर प्रयोगकर्ता सम्झौता&lt;/a> पढ्नुहोस् र यससँग सहमत हुनुहोस्।"</string>
     <string name="photo_editor_privacy_tip_below">&lt;br>&lt;br>&lt;small>*एल्गोरिदमिक अनियमितताको कारणले गर्दा, विषय पूर्ण रूपमा प्रदर्शित भएको छविहरू प्रयोग गर्दा तपाईंले उत्कृष्ट परिणामहरू प्राप्त गर्नुहुनेछ।&lt;/small></string>
     <string name="photo_editor_privacy_tip_outpaint">"प्रयोग गर्नु अघि &lt;a href='%1$s'>AI विस्तारको गोपनीयता नीति&lt;/a> र &lt;a href='%2$s'>AI विस्तार प्रयोगकर्ता सम्झौता&lt;/a> पढ्नुहोस् र सहमत हुनुहोस्।"</string>
     <string name="photo_editor_privacy_tip_rmpro">"AI Erase 2.0 pro फिचर प्रयोग गर्नु अघि &lt;a href='%1$s'>AI Erase 2.0 Pro Features को गोपनीयता नीतिy&lt;/a> र &lt;a href='%2$s'>AI Erase 2.0 Pro Features प्रयोगकर्ता सम्झौता&lt;/a> पढ्नुहोस् र यससँग सहमत हुनुहोस्।"</string>
     <string name="photo_editor_privacy_tip_virtualization">"AI छविहरू र सम्बन्धित सेवाहरूमा स्वागत छ!&lt;br>तपाईंलाई आधारभूत सुविधाहरू र सेवाहरू प्रदान गर्न, हामीले केही आवश्यक व्यक्तिगत जानकारी सङ्कलन र प्रयोग गर्न आवश्यक छ।&lt;br>जब तपाईंले AI छवि सुविधाहरू प्रयोग गर्नुहुन्छ, तपाईंले व्यक्तिको फोटोहरू अपलोड गर्न आवश्यक छ। हामी तपाईंको डिभाइसको फोटोहरूमा भएको व्यक्तिको अनुहारको जानकारीलाई प्रशोधन गर्नेछौं र AI छवि उत्पन्न गर्न प्रयोग गर्नेछौं।&lt;br>हामीले हाम्रा उत्पादनहरू र सेवाहरू प्रदान गर्न आवश्यक व्यक्तिगत जानकारी मात्र सङ्कलन गर्छौं। हामीले तपाईंको व्यक्तिगत जानकारी कसरी सङ्कलन र प्रयोग गर्छौं भन्ने बारे विवरणहरूको लागि, AI छवि गोपनीयता नीति हेर्नुहोस्।&lt;br>तपाईँले जारी राख्न अघि &lt;a href='%1$s'>AI छवि प्रयोगकर्ता सम्झौता&lt;/a> र &lt;a href='%2$s'>AI छवि गोपनीयता नीति&lt;/a> पढ्नुहोस् र यससँग सहमत हुनुहोस्।"</string>
     <string name="photo_editor_privacy_title">ध्यान दिनुहोस्</string>
     <string name="photo_editor_quality">गुणस्तर</string>
+    <string name="photo_editor_quality_improve">एनह्यान्स गर्नुहोस्</string>
+    <string name="photo_editor_quality_improve_progress">इन्ह्यान्स गर्दैछ…%s</string>
     <string name="photo_editor_remove_watermark">वाटरमार्क मेटाउनुहोस्</string>
     <string name="photo_editor_remove_watermark_on">वाटरमार्क थप्नुहोस्</string>
     <string name="photo_editor_remover">मेटाउनुहोस्</string>
@@ -1386,7 +1452,7 @@
     <string name="portrait_improving_the_texture_of_the_whole_picture">बनावट अप्टिमाइज गर्दैछ…</string>
     <string name="portrait_optimizing_skin_texture">त्वचाको बनावट अप्टिमाइज गर्दैछ…</string>
     <string name="prepare_to_drop">%s मा सेभ गरियो</string>
-    <string name="privacy_permission_request_message"><Data> ग्यालरीले %3$s मा पहुँच गर्न आवश्यक छ। हामीले संकलन गरेको जानकारी हाम्रो &lt;a href=\"%1$s\">\"सेवाका सर्तहरू\"&lt;/a> र &lt;a href=\"%2$s\">\"गोपनीयता नीति\"&lt;/a> अनुसार लागू हुनेछ। अनुमति दिनुहुन्छ?</Data></string>
+    <string name="privacy_permission_request_message">&lt;Data> ग्यालरीले %3$s मा पहुँच गर्न आवश्यक छ। हामीले संकलन गरेको जानकारी हाम्रो &lt;a href=\"%1$s\">\"सेवाका सर्तहरू\"&lt;/a> र &lt;a href=\"%2$s\">\"गोपनीयता नीति\"&lt;/a> अनुसार लागू हुनेछ। अनुमति दिनुहुन्छ?&lt;/Data></string>
     <string name="privacy_permission_request_negative">प्रतिबन्धित गर्नुहोस्</string>
     <string name="privacy_permission_request_positive">अनुमति दिनुहोस्</string>
     <string name="privacy_permission_request_title">अनुमति आवश्यक छ</string>
@@ -1486,6 +1552,18 @@
     <string name="send_files_by">यसमार्फत फाइल साझागर्नुहोस्</string>
     <string name="send_files_to">मा वस्तुहरू पठाउनुहोस्</string>
     <string name="set_as_cover">कभरका रूपमा सेट गर्नुहोस्</string>
+    <string name="settings_ai_editor_ai_image">AI छवि</string>
+    <string name="settings_ai_editor_ai_image_description">एउटा ब्रान्ड नयाँ AI छवि लिएर, तपाईं धेरै शैलीहरूमा छविहरू सिर्जना गर्न सक्षम हुनुहुनेछ। उत्तम परिणामको लागि, तपाईंको अनुहार स्पष्ट रूपमा देखिएको फोटोहरू अपलोड गर्नुहोस्।</string>
+    <string name="settings_ai_editor_expand">AI छवि विस्तार</string>
+    <string name="settings_ai_editor_expand_description">नयाँ, AI समर्थित छवि विस्तार। ओरिजिनल एस्पेक्ट रेसियो राख्नुहोस्, आफ्नो छनौट गर्नुहोस्, वा AI लाई निर्णय गर्न दिनुहोस्।</string>
+    <string name="settings_ai_editor_image_restoration">एनह्यान्स गर्नुहोस्</string>
+    <string name="settings_ai_editor_image_restoration_description">हाम्रो नयाँ ठूलो-मोडेल एल्गोरिदम प्रयोग गरेर एक ट्यापको साथ छवि स्पष्टतामा सुधार गर्नुहोस्</string>
+    <string name="settings_ai_editor_intelligent_filming">AI फ्लिम</string>
+    <string name="settings_ai_editor_intelligent_filming_description">AI को पावरबाट स्वचालित रूपमा भिडियोहरू उत्पन्न गर्न फोटो र भिडियोहरू अपलोड गर्नुहोस्, वा पूर्ण रूपमा नयाँ केही सिर्जना गर्न संकेतहरू प्रविष्ट गर्नुहोस्</string>
+    <string name="settings_ai_editor_remover">AI Erase Pro</string>
+    <string name="settings_ai_editor_remover_description">अपग्रेड गरिएको AI Erase Pro फिचरसँग कुनै ट्रेस बिना मेट्नुहोस्</string>
+    <string name="settings_ai_editor_summary">फोटो र भिडियो सिर्जना र सम्पादन गर्नुहोस्</string>
+    <string name="settings_ai_editor_title">AI ग्यालरी एडिटर</string>
     <string name="share_album_qr_code">एल्बमको QR कोड</string>
     <string name="share_and_delete_picture">शेयरिंग गरेपछि मेटाउनुहोस्</string>
     <string name="share_and_delete_screenshot">शेयरिंग गरेपछि मेटाउनुहोस्</string>
@@ -1733,6 +1811,19 @@
     <string name="tips_no_time_gallery_frame">यो फोटोमा टाइमस्ट्याम्प समावेश छैन</string>
     <string name="tips_prompt_enable_midrop">Mi शेयर</string>
     <string name="tips_support_gallery_frame">Leica सँग सह-इन्जिनियर गरिएका Xiaomi उत्पादनहरूद्वारा खिचिएका छविहरू मात्र समर्थित छन्</string>
+    <string name="toast_aigc_command_not_supported">यो कमान्ड समर्थन गरिएको छैन</string>
+    <string name="toast_aigc_high_concurrency_limit">सर्भर व्यस्त छ। एएक वा दुई मिनेट पर्खनुहोस् र फेरि प्रयास गर्नुहोस्।</string>
+    <string name="toast_aigc_illegal_account_id">खाता त्रुटि भयो। ग्राहक सेवा सम्पर्क गर्नुहोस्।</string>
+    <string name="toast_aigc_illegal_image">फोटोले हाम्रो दिशानिर्देशहरू उल्लङ्घन गर्छ। अर्को चयन गर्नुहोस्।</string>
+    <string name="toast_aigc_image_not_supported">यो फोटो समर्थित छैन</string>
+    <string name="toast_aigc_minimum_face_size_restrict">अनुहार हरू धेरै साना छन्। अर्को फोटो प्रयास गर्नुहोस्।</string>
+    <string name="toast_aigc_minimum_resolution_restrict">रिजोलुसन धेरै कम छ। अर्को फोटो प्रयास गर्नुहोस्।</string>
+    <string name="toast_aigc_network_time_out">यो अनुरोधको समय सकियो। एक वा दुई मिनेट पर्खनुहोस् र फेरि प्रयास गर्नुहोस्।</string>
+    <string name="toast_aigc_no_people_detected">कुनै पनि व्यक्ति फेला परेन। अर्को फोटो प्रयास गर्नुहोस्।</string>
+    <string name="toast_aigc_only_anime_stype_supported">केवल \"एनिमेसन\" समर्थित छ। पुनः प्रयास गर्नुहोस्.</string>
+    <string name="toast_aigc_poor_network">आफ्नो नेटवर्क कनेक्सन जाँच गरेर फेरि प्रयास गर्नुहोस्।</string>
+    <string name="toast_aigc_request_time_limit">आज थप अनुरोध गर्न सकिँदैन । भोलि फेरि प्रयास गर्नुहोस्।</string>
+    <string name="toast_aigc_server_error">सरभरमा त्रुटि देखा पर्यो। एक वा दुई मिनेट पर्खनुहोस् र फेरि प्रयास गर्नुहोस्</string>
     <string name="toast_download_with_metered_network_btn_continue">डाउनलोड गर्नुहोस्</string>
     <string name="toast_download_with_metered_network_msg">तपाईंको डिभाइस वाइ-फाइ मा जोडिएको जस्तो देखिँदैन। मोबाइल डाटा प्रयोग गरी वस्तुहरू डाउनलोड गर्नुहुन्छ?</string>
     <string name="toast_download_with_metered_network_title">डाटा प्रयोग चेतावनी</string>
@@ -1750,7 +1841,7 @@
     <string name="user_agreement2">सेवाका सर्तहरू</string>
     <string name="user_agreement4">गोपनीयता नीति</string>
     <string name="user_guide_close_desc">\"प्रयोगकर्ता निर्देशिका बन्द गर्नुहोस्\" बटन</string>
-    <string name="user_notice_identify_summary_format"><Data>यो सेवा प्रयोग गरेर तपाईं Xiaomi को &lt;a href=\"%1$s\">\"सेवाका सर्तहरू\"&lt;/a>र &lt;a href=\"%2$s\">\"गोपनीयता नीति\"&lt;/a>संग सहमत हुनुहुन्छ।</Data></string>
+    <string name="user_notice_identify_summary_format">&lt;Data>यो सेवा प्रयोग गरेर तपाईं Xiaomi को &lt;a href=\"%1$s\">\"सेवाका सर्तहरू\"&lt;/a>र &lt;a href=\"%2$s\">\"गोपनीयता नीति\"&lt;/a>संग सहमत हुनुहुन्छ।&lt;/Data></string>
     <string name="user_notice_title">सर्त तथा नियमहरू</string>
     <string name="video_analytic_cancel">रद्द गर्नुहोस्</string>
     <string name="video_analytic_download">डाउनलोड गर्नुहोस्</string>
@@ -1978,6 +2069,7 @@
     <string name="vlog_auto_clip_delete_desc">अब यो क्लिप मेटाउने?</string>
     <string name="vlog_auto_clip_delete_ok">मेटाउनुहोस्</string>
     <string name="vlog_auto_complete">पूरा भयो</string>
+    <string name="vlog_auto_compose_middle_close">म्यानुअल रूपमा रचना समायोजन गर्दा पहिले लागू गरिएको स्मार्ट प्रभावहरू हटाउनेछ। जसरी पनि समायोजन गर्नुहुन्छ?</string>
     <string name="vlog_auto_composition_close">म्यानुअल रूपमा आस्पेक्ट रेशियो एडजस्ट गर्दा Xiaomi ProCut बन्द हुनेछ। जसरी पनि समायोजन गर्नुहुन्छ?</string>
     <string name="vlog_auto_generate_complete">सिर्जना गर्नुहोस्</string>
     <string name="vlog_auto_generate_composition">Xiaomi ProCut</string>
@@ -2098,6 +2190,7 @@
     <string name="vlog_filter_nanfa">गैरीग्यू</string>
     <string name="vlog_filter_no_support_nums">सम्पादन गर्न नसकिने भिडियोहरू छोडियो (%1$d)</string>
     <string name="vlog_filter_nuanyang">चम्किलो घाम</string>
+    <string name="vlog_filter_old_street">टहल्नु</string>
     <string name="vlog_filter_origin">कुनै पनि होइन</string>
     <string name="vlog_filter_qianyin">कलिलो</string>
     <string name="vlog_filter_qihuan">काल्पनिक</string>
@@ -2105,6 +2198,7 @@
     <string name="vlog_filter_qingye">रात्रि</string>
     <string name="vlog_filter_rixi">पेस्टल</string>
     <string name="vlog_filter_romantic">आकर्षण</string>
+    <string name="vlog_filter_sea_breeze">समुद्री हावा</string>
     <string name="vlog_filter_senshan">ममिजी</string>
     <string name="vlog_filter_shenmi">रहस्यमयी</string>
     <string name="vlog_filter_tag_atmosphere">वायुमण्डल</string>
@@ -2124,6 +2218,7 @@
     <string name="vlog_float_view_ratio">एस्पेक्ट रेसियो</string>
     <string name="vlog_fps">फ्रेम रेट</string>
     <string name="vlog_improt_encode_video_error">इनकोडिंङ त्रुटि भएको छ, फेरि प्रयास गर्नुहोस्।</string>
+    <string name="vlog_load_data_empty">पहिले वस्तुहरू चयन गर्नुहोस्</string>
     <string name="vlog_load_data_fail">डाटा लोड हुन सकेन</string>
     <string name="vlog_mi_clip">भिडियो एडिटर</string>
     <string name="vlog_min_resolution_hint">हालको रिजोल्युसन उपलब्ध रहेको मध्य सबैभन्दा कम हो</string>
@@ -2146,7 +2241,7 @@
     <string name="vlog_pro_not_support">यो रिजोल्युसन समर्थित छैन</string>
     <string name="vlog_pro_ok">स्वीच गर्नुहोस्</string>
     <string name="vlog_pro_title">भिडियो एडिटर</string>
-    <string name="vlog_quality">भिडियोको गुणस्तर</string>
+    <string name="vlog_quality">गुणस्तर</string>
     <string name="vlog_quality_bitrate_auto">स्वत</string>
     <string name="vlog_quality_bitrate_high">उच्च</string>
     <string name="vlog_quality_bitrate_low">न्यून</string>

@@ -70,7 +70,12 @@
     <string name="adjust_grain">အပွင့်</string>
     <string name="adjust_highlight">ဟိုက်လိုက်</string>
     <string name="adjust_highlight_shadow">ဟိုက်လိုက်များနှင့် အရိပ်များ</string>
+    <string name="adjust_light_perception">ဖျော့အား</string>
     <string name="adjust_natural_saturation">ထူးကဲမှု</string>
+    <string name="adjust_noise_degree">ဒီဂရီ</string>
+    <string name="adjust_noise_high_lights">ဟိုက်လိုက်များ</string>
+    <string name="adjust_noise_roughness">ကြမ်းတမ်းအား</string>
+    <string name="adjust_noise_size">အရွယ်</string>
     <string name="adjust_reset">ပြန်သတ်မှတ်ရန်</string>
     <string name="adjust_saturation">တောက်ပမှုပြင်းအား</string>
     <string name="adjust_shadow">အရိပ်</string>
@@ -81,6 +86,7 @@
     <string name="adjust_tab_detail">အသေးစိတ်</string>
     <string name="adjust_tab_dispersion">ပျံ့လွင့်ခြင်း</string>
     <string name="adjust_tab_effect">အထူးပြုလုပ်ချက်များ</string>
+    <string name="adjust_tab_noise">ဆူညံသံ</string>
     <string name="adjust_tab_tone">တုန်း</string>
     <string name="adjust_tab_white_balance">အဖြူခံညှိခြင်း</string>
     <string name="adjust_talkback_curve_anchor_delete">ကျောက်ဆူးပုံဖျက်ရန်</string>
@@ -94,12 +100,45 @@
     <string name="agreement_quit">ထွက်မည်</string>
     <string name="agreement_required_tip">(မဖြစ်မနေ)</string>
     <string name="agreement_summary">တရားဝင် စာရွက်စာတမ်းများ</string>
+    <string name="ai_action_toast_cloud_data_pull_failed">အကြောင်းအရာများ တင်မရပါ။ ကွန်ရက်ဆက်တင်ကိုစစ်ပြီး ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="ai_action_toast_function_ai_expansion_processing">ပုံချဲ့နေသည်…</string>
+    <string name="ai_action_toast_function_ai_portrait_processing">AI ပုံနှင့် ပုံကူးနေသည်…</string>
+    <string name="ai_action_toast_function_background_change_processing">နောက်ခံပြောင်းနေသည်…</string>
+    <string name="ai_action_toast_function_beautification_processing">အလှဆင်စနစ်နှင့် ပုံကူးနေသည်…</string>
+    <string name="ai_action_toast_function_download_failed">အင်္ဂါရပ် ဒေါင်းလုဒ်လုပ်မရပါ။ ကွန်ရက်ဆက်တင်ကိုစစ်ပြီး ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="ai_action_toast_function_expression_replace_processing">အမူအယာထုတ်ပြောင်းသည်…</string>
+    <string name="ai_action_toast_function_face_shape_processing">မျက်နှာအင်္ဂါရပ်များချိန်နေသည်…</string>
+    <string name="ai_action_toast_function_leica_watermark_processing">Leica ရေစာ သုံးနေသည်…</string>
+    <string name="ai_action_toast_function_magic_remove_processing">AI Erase Pro နှင့် ပုံကူးနေသည်…</string>
+    <string name="ai_action_toast_function_music_processing">နောက်ခံတေးသုံးနေသည်…</string>
+    <string name="ai_action_toast_function_not_support">ဤအင်္ဂါရပ် မရရှိနိုင်သေးပါ</string>
+    <string name="ai_action_toast_function_photo_auto_beautify_processing">အလှဆင်နေသည်…</string>
+    <string name="ai_action_toast_function_photo_beautify_skin_processing">အသားအရောင်ချိန်နေသည်…</string>
+    <string name="ai_action_toast_function_photo_enhance_processing">အဆင့်မြှင့်နေသည်…</string>
+    <string name="ai_action_toast_function_photo_filter_processing">ဖီလတာထည့်နေသည်…</string>
+    <string name="ai_action_toast_function_photo_restoration_processing">ပုံပြန်ယူနေသည်…</string>
+    <string name="ai_action_toast_function_process_all_failed">အထူးပြုလုပ်ချက်များ သုံးမရပါ။ တစ်မိနစ်၊ နှစ်မိနစ်စောင့်ပြီး ပြန်လုပ်ကြည့်ပါ။</string>
+    <string name="ai_action_toast_function_process_failed">အချို့အထူးပြုလုပ်ချက်များ သုံးမရပါ။ တစ်မိနစ်၊ နှစ်မိနစ်စောင့်ပြီး ပြန်လုပ်ကြည့်ပါ။</string>
+    <string name="ai_action_toast_function_resources_loading">လုပ်ဆောင်နေသည်…</string>
+    <string name="ai_action_toast_function_style_change_processing">ဓာတ်ပုံကို စတိုင်ထည့်နေသည်…</string>
+    <string name="ai_action_toast_function_super_portrait_processing">HD ပုံတူနှင့် ပုံကူးနေသည်…</string>
+    <string name="ai_action_toast_function_watermark_frame_processing">ရေစာဘောင်သုံးနေသည်…</string>
+    <string name="ai_action_toast_multiple_function_not_support">အချို့လုပ်ဆောင်ချက်များ မရရှိနိုင်သေးပါ</string>
+    <string name="ai_action_toast_need_login_mi_account">Xiaomi အကောင့်နှင့် အကောင့်ဝင်ပြီး ထပ်လုပ်ကြည့်ပါ</string>
+    <string name="ai_action_toast_not_support_scene">ဤအင်္ဂါရပ်ကို ဤနေရာ၌မပံ့ပိုးပါ။ အစ စာမျက်နှာသို့ ပြန်သွားပြီး ပြန်လုပ်ကြည့်ပါ။</string>
+    <string name="ai_action_toast_picture_content_illegal">ဤပုံက ကွန်မြူနတီစံနှုန်း ချိုးဖောက်သည်။ အခြားပုံသုံးကြည့်ပါ။</string>
+    <string name="ai_action_toast_picture_size_out_of_limit">ဤအရွယ်ပုံများကို မပံ့ပိုးပါ။ အခြားပုံသုံးကြည့်ပါ။</string>
+    <string name="ai_action_toast_poor_network">ကွန်ရက်ချိတ်မရပါ။ ကွန်ရက်ဆက်တင်ကိုစစ်ပြီး ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="ai_action_toast_request_time_out">တောင်းဆိုချိန်ကုန်ပါပြီ။ တစ်မိနစ်၊ နှစ်မိနစ်စောင့်ပြီး ပြန်လုပ်ကြည့်ပါ။</string>
     <string name="aicrmanager_download_cancel">ဒေါင်းလုဒ်မလုပ်တော့ရန်</string>
     <string name="aicrmanager_download_done">ဒေါင်းလုဒ်လုပ်ပြီးပါပြီ</string>
     <string name="aicrmanager_download_done_content_title">AI အယ်ဒီတာပလပ်ဂင်</string>
     <string name="aicrmanager_download_process_content_title">AI အယ်ဒီတာပလပ်ဂင်ကို ဒေါင်းလုဒ်လုပ်နေသည်</string>
     <string name="aicrmanager_download_update_tip">ပလပ်ဂင် အပ်ပဒိတ်တစ်ခုရှိသည်။ ကြည့်ရန်တို့ပါ။</string>
     <string name="aicrmanager_downloading">%s ဒေါင်းလုဒ်လုပ်နေသည်</string>
+    <string name="aigc_login_confirm">အကောင့်ဝင်ရန်</string>
+    <string name="aigc_login_hint_message">AI အယ်ဒီတာ အင်္ဂါရပ်အားလုံး သုံးနိုင်ရန် Xiaomi အကောင့်နှင့် အကောင့်ဝင်ပါ။</string>
+    <string name="aigc_login_hint_title">အကောင့်ဝင်ရန်</string>
     <string name="am">နံနက်</string>
     <string name="app_name">ပြခန်း တည်းဖြတ်စက်</string>
     <string name="app_photoshop_name">ပြခန်းတည်းဖြတ်စနစ်</string>
@@ -423,7 +462,7 @@
     <string name="confirm_cancel_task_files">%1$s သို့ ဖိုင်ပို့ခြင်းကို ဖျက်သိမ်းလိုသလား။</string>
     <string name="confirm_cancel_task_images">%1$s သို့ ပုံပို့ခြင်းကို ဖျက်သိမ်းလိုသလား။</string>
     <string name="crop_label">ဖြတ်ထုတ်ပြီးသော ပုံများ</string>
-    <string name="cta_agreement_declare"><Data>ဤအက်(ပ်)ကို မသုံးမီ အသုံးပြုသူတစ်ဦးအနေနှင့် ရနိုင်သော အခွင့်အရေးများနှင့် သင့်ဒေတာများကို ကျွန်ုပ်တို့က အသုံးပြုပုံပြုနည်းများကို ကောင်းစွာနားလည်ရန် ကျွန်ုပ်တို့၏ &lt;a href=\"%1$s\">အသုံးပြုသူသဘောတူညီချက်&lt;/a> နှင့် &lt;a href=\"%2$s\">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> ကို ဖတ်ရှုပြီး သဘောတူရပါမည်။</Data></string>
+    <string name="cta_agreement_declare">&lt;Data>ဤအက်(ပ်)ကို မသုံးမီ အသုံးပြုသူတစ်ဦးအနေနှင့် ရနိုင်သော အခွင့်အရေးများနှင့် သင့်ဒေတာများကို ကျွန်ုပ်တို့က အသုံးပြုပုံပြုနည်းများကို ကောင်းစွာနားလည်ရန် ကျွန်ုပ်တို့၏ &lt;a href=\"%1$s\">အသုံးပြုသူသဘောတူညီချက်&lt;/a> နှင့် &lt;a href=\"%2$s\">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> ကို ဖတ်ရှုပြီး သဘောတူရပါမည်။&lt;/Data></string>
     <string name="cta_network_declare">ဤအက်(ပ်)သည် ဓာတ်ပုံနှင့် ဗီဒီယိုများကို Xiaomi ကလောက်နှင့် ဆင့်(ခ်)လုပ်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -505,7 +544,7 @@
     <string name="filter_description_dialog_content">စိတ်ကြိုက်ဖီလတာများထည့်ရန် CUBE အရောင်ရှာဇယားများ တင်သွင်းနိုင်သည်။</string>
     <string name="filter_description_dialog_title">စိတ်ကြိုက်ဖီလတာများ</string>
     <string name="filter_diy_import">တင်သွင်းရန်</string>
-    <string name="filter_diy_import_first_time_pop_tips">ပြင်ရန် ထိပြီးဖိထားပါ</string>
+    <string name="filter_diy_import_first_time_pop_tips">အကြိုက်ဆုံးစာရင်းသို့ထည့်ရန် ထိပြီးဖိထားပါ</string>
     <string name="filter_diy_import_toast_fail">တင်သွင်းမရပါ</string>
     <string name="filter_diy_import_toast_out_of_limit">CUBE အရောင်ရှာဇယား %d ခု အထိ တင်သွင်းနိုင်သည်။</string>
     <string name="filter_diy_tip_dialog_cancel">မလုပ်တော့ရန်</string>
@@ -513,13 +552,25 @@
     <string name="filter_diy_tip_dialog_confirm">အိုကေ</string>
     <string name="filter_diy_tip_dialog_content">CUBE အရောင်ရှာဇယား %d ခု အထိ တင်သွင်းနိုင်သည်။</string>
     <string name="filter_diy_tip_dialog_title">ဖီလတာများတင်သွင်းရန်</string>
+    <string name="filter_film_besson">ပါကွာပြေးခုန်ပစ်</string>
     <string name="filter_film_chinese_red">ဗာမီလျံ</string>
     <string name="filter_film_desert_brown">သစ်ကြားသီးရောင်</string>
     <string name="filter_film_flowers_dream">ရုပ်ရှင်ဆန်ဆန်</string>
+    <string name="filter_film_freehand">လက်လွတ်</string>
+    <string name="filter_film_korean_rubber">သစ်ခွ</string>
+    <string name="filter_film_kyoto">မြို့ဟောင်း</string>
+    <string name="filter_film_le_mans">တူးမြောင်းများ</string>
     <string name="filter_film_light_tea_green">လက်ဖက်စိမ်း</string>
+    <string name="filter_film_monsoon">မုတ်သုန်</string>
     <string name="filter_film_mountain_cyan">စိမ်းပြာမြူမှိုင်း</string>
+    <string name="filter_film_old_alley">လမ်းကြား</string>
+    <string name="filter_film_old_style">အလိုမကျ</string>
+    <string name="filter_film_relaxation">ပျင်းရိနေ့ရက်</string>
+    <string name="filter_film_reversal">ပြောင်းပြန်</string>
+    <string name="filter_film_seaside">ပင်လယ်ရှုခင်း</string>
     <string name="filter_film_sunset_red">အနီရဲရဲ</string>
     <string name="filter_film_taichi_ink">မင်</string>
+    <string name="filter_film_zhi_xian">ကဗျာ</string>
     <string name="filter_general_blackice">ရေခဲမည်း</string>
     <string name="filter_general_blackwhite">အဖြူအမည်း</string>
     <string name="filter_general_delicious">အစားအစာ</string>
@@ -1032,6 +1083,8 @@
     <string name="motion_photo_video_reverse_effect">နောက်ပြန်</string>
     <string name="motion_photo_video_reverse_ing">ဗီဒီယိုနောက်ပြန်နေသည်…</string>
     <string name="motion_photo_video_reverse_on">နောက်ပြန်ထားသည်</string>
+    <string name="motion_photo_watermark_off">ရေစာပိတ်ထားသည်</string>
+    <string name="motion_photo_watermark_on">ရေစာဖွင့်ထားသည်</string>
     <string name="movie_add_disable">%d ပုံအထိ ရွေးနိုင်သည်</string>
     <string name="movie_audio_antiquity">ရှေးဖက်ရှင်</string>
     <string name="movie_audio_custom">အတွင်းပိုင်း</string>
@@ -1091,6 +1144,7 @@
     <string name="movie_template_xmas">ခရစ္စမတ်</string>
     <string name="movie_video_long">ဗီဒီယိုရှည်</string>
     <string name="movie_video_short">%dစက္ကန့်</string>
+    <string name="msg_initialize_failed_and_reenter">ပလပ်ဂင်အစပြုမရပါ။ ဤစာမျက်နှာကိုပိတ်ပြီး အသစ်ပြန်စပါ။</string>
     <string name="multi_file_name">%1$s၊ %2$s</string>
     <string name="name_split">၊</string>
     <string name="name_with_ellipsize">%1$s…%2$s</string>
@@ -1120,6 +1174,7 @@
     <string name="pc_device_model_name">ကွန်ပျူတာ</string>
     <string name="permission_account_desc">စနစ်အကောင့်များသို့ ဝင်ခြင်းနှင့် စီမံခန့်ခွဲခြင်းအတွက်</string>
     <string name="permission_account_name">အကောင့်များဖတ်ရန်</string>
+    <string name="permission_app_summary">ဓာတ်ပုံနှင့် ဗီဒီယိုများကို ပြုပြင်အလှဆင်ရန် ပြခန်အယ်ဒီတာ သုံးနိုင်သည်။ စက်မော်ဒယ်အချို့တွင် ပံ့ပိုးသော AI ဝန်ဆောင်များသုံးချိန်၌ ဤအက်(ပ်)က ရွေးထားသောဓတ်ပုံများကို ဆောင်ရွက်ရန် ဖတ်ခွင့်လိုပါမည်။</string>
     <string name="permission_clipboard_desc">အကြောင်းအရာများကို ကလစ်ဘုတ်တွင် ဖတ်ခြင်းနှင့် သိမ်းခြင်းအတွက်</string>
     <string name="permission_clipboard_name">အကြောင်းအရာများကို ကလစ်ဘုတ်တွင် ဖတ်ရန် သို့မဟုတ် သိမ်းရန်</string>
     <string name="permission_contacts_desc">ဓာတ်ပုံရှိ လူပုဂ္ဂိုလ်များကို အဆက်အသွယ်နှင့် တွဲမှတ်ခြင်းအတွက်</string>
@@ -1163,6 +1218,9 @@
     <string name="photo_editor_aicrmanager_title">ပလပ်ဂင်များစီမံခန့်ခွဲရန်</string>
     <string name="photo_editor_aicrmanager_uninstall">ဖြုတ်ရန်</string>
     <string name="photo_editor_aicrmanager_update">အပ်ပဒိတ်လုပ်ရန်</string>
+    <string name="photo_editor_aigc_inpaint_progress">ဖျက်နေသည်…</string>
+    <string name="photo_editor_aigc_outpaint_progress">ပုံချဲ့နေသည်…</string>
+    <string name="photo_editor_aigc_quality_improve_progress">ပုံပြန်ယူနေသည်…</string>
     <string name="photo_editor_beautify">အလိုအလျောက်</string>
     <string name="photo_editor_beautify_auto">အလိုအလျောက်</string>
     <string name="photo_editor_beauty">အလှဆင်ရန်</string>
@@ -1175,6 +1233,7 @@
     <string name="photo_editor_common_download_sdk_without_wifi_title">ပလပ်အင်ဒေါင်းလုဒ်လုပ်ပါ</string>
     <string name="photo_editor_confirm">ပြောင်းရန်</string>
     <string name="photo_editor_crop">ဖြတ်ထုတ်ရန်</string>
+    <string name="photo_editor_crop_ai_outpaint_name">ပုံချဲ့</string>
     <string name="photo_editor_crop_and_rotate">ဖြတ်ထုတ်ခြင်း</string>
     <string name="photo_editor_crop_auto">အလိုအလျောက်</string>
     <string name="photo_editor_crop_auto_tips">အလိုအလျောက် ဖြတ်ယူပါ</string>
@@ -1195,6 +1254,7 @@
     <string name="photo_editor_crop_size_origin">မူရင်း</string>
     <string name="photo_editor_crop_size_portrait_fullscreen">မျက်နှာပြင်အပြည့် ↕</string>
     <string name="photo_editor_doodle">လက်ရေးခြစ်</string>
+    <string name="photo_editor_enhancer_user_guide_desc">မော်ဒယ်ကြီးအယ်လဂိုရီသမ်အသစ်တွင် တစ်ချက်တို့ရုံနှင့် ပုံကြည်လင်ပြတ်သားမှုကို မြှင့်နိုင်သည်</string>
     <string name="photo_editor_estimate_size">ခန့်မှန်းအရွယ် - %1$s - %2$d × %3$d px</string>
     <string name="photo_editor_filter">စစ်ထုတ်ကိရိယာ</string>
     <string name="photo_editor_font_default">Mi Lanting (ပုံမှန်)</string>
@@ -1214,6 +1274,7 @@
     <string name="photo_editor_gallery_frame_tab_leica">Leica</string>
     <string name="photo_editor_high">အမြင့်</string>
     <string name="photo_editor_highest">အကောင်းဆုံး</string>
+    <string name="photo_editor_inpaint_progress">ဖျက်နေသည်…%s</string>
     <string name="photo_editor_intoutpaint_name">AI ပုံချဲ့/AI AI Erase 2.0</string>
     <string name="photo_editor_label">တည်းဖြတ်</string>
     <string name="photo_editor_leica_frame">Leica ရေစာ</string>
@@ -1253,8 +1314,10 @@
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">"Looks like you aren't connected to WLAN. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">ပလပ်အင်ဒေါင်းလုဒ်လုပ်ပါ</string>
     <string name="photo_editor_navigator_tab_title_ai">ဖန်တီးရန်</string>
+    <string name="photo_editor_navigator_tab_title_ai_pro">AI</string>
     <string name="photo_editor_navigator_tab_title_basic">အခြေခံ</string>
     <string name="photo_editor_navigator_tab_title_beauty">အလှဆင်စနစ်</string>
+    <string name="photo_editor_outpaint_progress">ပုံချဲ့နေသည်…%s</string>
     <string name="photo_editor_perspective">ပါစပတ်တစ်</string>
     <string name="photo_editor_perspective_crop">ဖြတ်ထုတ်ရန်</string>
     <string name="photo_editor_perspective_distortion">ပုံပျက်ခြင်း</string>
@@ -1267,12 +1330,15 @@
     <string name="photo_editor_privacy_negative">ထွက်ရန်</string>
     <string name="photo_editor_privacy_notice">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုနို့တစ်</string>
     <string name="photo_editor_privacy_positive">သဘောတူရန်</string>
+    <string name="photo_editor_privacy_tip_ai">"AI အင်္ဂါရပ်များမသုံးမီ &lt;a href='%1$s'>ပြခန်းအယ်ဒီတာ AI အင်္ဂါရပ်များ ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> နှင့် &lt;a href='%2$s'>ပြခန်းအယ်ဒီတာ AI အင်္ဂါရပ်များ အသုံးပြုသူ သဘောတူညီချက်&lt;/a>တို့ကို ဖတ်ရှုပြီး သဘောတူပါ။"</string>
     <string name="photo_editor_privacy_tip_below">&lt;br>&lt;br>&lt;small>*အယ်လဂိုရီသမ်ကျပန်းရွေးချယ်မှုကြောင့် ဇာတ်ကောင်ကိုအပြည့်အဝပြသသော ပုံများသုံးချိန်၌ အကောင်းဆုံးရလဒ်များ ရပါမည်။&lt;/small></string>
     <string name="photo_editor_privacy_tip_outpaint">"AI ပုံချဲ့မသုံးမီ &lt;a href='%1$s'>AI ပုံချဲ့ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> နှင့် &lt;a href='%2$s'>AI ပုံချဲ့အသုံးပြုသူ သဘောတူညီချက်&lt;/a>ကို ဖတ်ရှုပြီး သဘောတူပါ။"</string>
-    <string name="photo_editor_privacy_tip_rmpro">"AI Erase 2.0 အင်္ဂါရပ်များမသုံးမီ &lt;a href='%1$s'>AI Erase 2.0 ပရိုအင်္ဂါရပ်များ ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> နှင့် &lt;a href='%2$s'>AI Erase 2.0 ပရိုအင်္ဂါရပ်များ အသုံးပြုသူ သဘောတူညီချက်&lt;/a>ကို ဖတ်ရှုပြီး သဘောတူပါ။"</string>
+    <string name="photo_editor_privacy_tip_rmpro">"AI Erase 2.0 အင်္ဂါရပ်များမသုံးမီ &lt;a href='%1$s'>AI Erase 2.0 Pro အင်္ဂါရပ်များ ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> နှင့် &lt;a href='%2$s'>AI Erase 2.0 Pro အင်္ဂါရပ်များ အသုံးပြုသူ သဘောတူညီချက်&lt;/a>ကို ဖတ်ရှုပြီး သဘောတူပါ။"</string>
     <string name="photo_editor_privacy_tip_virtualization">"AI ပုံတူမှ ကြိုဆိုပါသည်။&lt;br>ကျွန်ုပ်တို့သည် သင့်အား အခြေခံဝန်ဆောင်မှုများပေးနိုင်ရန်အတွက် လိုအပ်သော ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ကောက်ယူအသုံးပြုရန်လိုသည်။&lt;br>AI ပုံတူသုံးချိန်တွင် သင်က လူပုံတင်ရန်လိုသည်။ ကျွန်ုပ်တို့သည် AI ပုံများ ဖန်တီးနိုင်ရန် ထိုပုံများရှိ မျက်နှာအချက်အလက်များကို သင့်ဖုန်းတွင် ဆောင်ရွက်ပါမည်။&lt;br>ကျွန်ုပ်တို့သည် ကျွန်ုပ်တို့၏ ထုတ်ကုန်နှင့် ဝန်ဆောင်မှုများပံ့ပိုးရန်အတွက် လိုအပ်သောကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုသာ ကောက်ယူသည်။ ကျွန်ုပ်တို့က သင့်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ကောက်ယူအသုံးပြုပုံအကြောင်း အသေးစိတ်ကို AI ပုံကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒတွင်ကြည့်ပါ။&lt;br>ရှေ့မဆက်မီ &lt;a href='%1$s'>AI ပုံအသုံးပြုသူ သဘောတူညီချက်&lt;/a> နှင့် &lt;a href='%2$s'>AI ပုံကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> တို့ကို ဖတ်ရှုပြီး သဘောတူပါ။"</string>
     <string name="photo_editor_privacy_title">သတိပြုရန်</string>
     <string name="photo_editor_quality">အရည်အသွေး</string>
+    <string name="photo_editor_quality_improve">အဆင့်မြင့်</string>
+    <string name="photo_editor_quality_improve_progress">အဆင့်မြှင့်နေသည်…%s</string>
     <string name="photo_editor_remove_watermark">အမှတ်အသား ဖယ်ရှားမည်</string>
     <string name="photo_editor_remove_watermark_on">အမှတ်အသား ပေါင်းထည့်မည်</string>
     <string name="photo_editor_remover">ဖျက်မည်</string>
@@ -1306,7 +1372,7 @@
     <string name="photo_editor_remover2_standard_tip">ရိုးရိုးပုံများအတွက် ပိုမြန်သောကိရိယာ</string>
     <string name="photo_editor_remover2_tip_type_deshadow">အရိပ်များဖျောက်ရန်</string>
     <string name="photo_editor_remover2_toast_no_things">အရာဝတ္ထုများ ရှာမတွေ့ပါ</string>
-    <string name="photo_editor_remover_pro_desc">"AI Erase 2.0 ပရိုအင်္ဂါရပ်များက ပိုအားကောင်းလာပါပြီ။
+    <string name="photo_editor_remover_pro_desc">"AI Erase 2.0 Pro အင်္ဂါရပ်များက ပိုအားကောင်းလာပါပြီ။
  သုံးရန် \"Pro\" ကိုတို့ပါ။"</string>
     <string name="photo_editor_remover_pro_inpainting">ဖျက်နေသည်…</string>
     <string name="photo_editor_remover_pro_select_all_people">အားလုံးရွေးရန်</string>
@@ -1386,7 +1452,7 @@
     <string name="portrait_improving_the_texture_of_the_whole_picture">ဖွဲ့စည်းပုံကို အဆင့်မြှင့်နေသည်…</string>
     <string name="portrait_optimizing_skin_texture">အသားအရေဖွဲ့စည်းပုံကို အဆင့်မြှင့်နေသည်…</string>
     <string name="prepare_to_drop">%s သို့ သိမ်းနေသည်</string>
-    <string name="privacy_permission_request_message"><Data>ပြခန်းသည် %3$s သို့ ဝင်ခွင့်လိုသည်။ ကောက်ယူသော အချက်အလက်များကို ကျွန်ုပ်တို့၏ &lt;a href=\"%1$s\">\"ဝန်ဆောင်မှုစည်းမျဉ်းစည်းများ\"&lt;/a> နှင့် &lt;a href=\"%2$s\">\"ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ\"&lt;/a> နှင့်အညီ သုံးပါမည်။ ခွင့်ပြုလိုသလား။</Data></string>
+    <string name="privacy_permission_request_message">&lt;Data>ပြခန်းသည် %3$s သို့ ဝင်ခွင့်လိုသည်။ ကောက်ယူသော အချက်အလက်များကို ကျွန်ုပ်တို့၏ &lt;a href=\"%1$s\">\"ဝန်ဆောင်မှုစည်းမျဉ်းစည်းများ\"&lt;/a> နှင့် &lt;a href=\"%2$s\">\"ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ\"&lt;/a> နှင့်အညီ သုံးပါမည်။ ခွင့်ပြုလိုသလား။&lt;/Data></string>
     <string name="privacy_permission_request_negative">ကန့်သတ်မည်</string>
     <string name="privacy_permission_request_positive">ခွင့်ပြုမည်</string>
     <string name="privacy_permission_request_title">ခွင့်ပြုချက်များ လိုအပ်ပါသည်</string>
@@ -1486,6 +1552,18 @@
     <string name="send_files_by">ဖိုင်များကို တစ်ဆင့် မျှဝေရန် -</string>
     <string name="send_files_to">ပို့ရန်နေရာ -</string>
     <string name="set_as_cover">ကာဗာအဖြစ်သတ်မှတ်ရန်</string>
+    <string name="settings_ai_editor_ai_image">AI ပုံ</string>
+    <string name="settings_ai_editor_ai_image_description">လုံးဝအသစ် AI ပုံတွင် ပုံများကို စတိုင်အမျိုးမျိုးနှင့် ထုတ်ခွင့်ပေးသည်။ အကောင်းဆုံးရလဒ်များအတွက် မျက်နှာရှင်းလင်းစွာမြင်ရသော ဓာတ်ပုံများတင်ပါ။</string>
+    <string name="settings_ai_editor_expand">AI ပုံချဲ့စနစ်</string>
+    <string name="settings_ai_editor_expand_description">အသစ်။ AI ပံ့ပိုးသော ပုံချဲ့စနစ်။ မူလပုံစံအချိုးကိုထိန်းထားပြီး ကိုယ်တိုင်ရွေးပါ သို့မဟုတ် AI ကို ဆုံးဖြတ်ခိုင်းပါ။</string>
+    <string name="settings_ai_editor_image_restoration">အဆင့်မြင့်</string>
+    <string name="settings_ai_editor_image_restoration_description">မော်ဒယ်ကြီးအယ်လဂိုရီသမ်အသစ်သုံးပြီး တစ်ချက်တို့ရုံနှင့် ပုံကြည်လင်ပြတ်သားမှုကို မြှင့်ပါ</string>
+    <string name="settings_ai_editor_intelligent_filming">AI ဖလင်</string>
+    <string name="settings_ai_editor_intelligent_filming_description">ဓာတ်ပုံနှင့် ဗီဒီယိုများတင်ပြီး AI ပါဝါနှင့် ဗီဒီယိုများ အလိုအလျောက်ထုတ်ပါ သို့မဟုတ် လမ်းညွှန်များထည့်ပြီး အသစ်စက်စက်တစ်ခုဖန်တီးပါ</string>
+    <string name="settings_ai_editor_remover">AI Erase Pro</string>
+    <string name="settings_ai_editor_remover_description">အဆင့်မြင့် AI Erase Pro အင်္ဂါရပ်များနှင့် ခြေရာမချန်ဘဲဖျက်ပါ</string>
+    <string name="settings_ai_editor_summary">ဓာတ်ပုံနှင့် ဗီဒီယိုများ ဖန်တီးရန်နှင့် ပြင်ရန်</string>
+    <string name="settings_ai_editor_title">AI ပြခန်းအယ်ဒီတာ</string>
     <string name="share_album_qr_code">အယ်လဘမ် QR ကုဒ်</string>
     <string name="share_and_delete_picture">မျှဝေပြီးလျှင် ဖျက်ရန်</string>
     <string name="share_and_delete_screenshot">မျှဝေပြီးလျှင် ဖျက်ရန်</string>
@@ -1733,6 +1811,19 @@
     <string name="tips_no_time_gallery_frame">ဤဓာတ်ပုံတွင်အချိန်မှတ်ကိရိယာ မပါပါ</string>
     <string name="tips_prompt_enable_midrop">Mi မျှဝေခြင်း</string>
     <string name="tips_support_gallery_frame">Leica နှင့် တွဲဖက်တည်ဆောက်သော Xiaomi ထုတ်ကုန်များနှင့် ရိုက်ကူးသော ပုံများကိုသာ ပံ့ပိုးသည်။</string>
+    <string name="toast_aigc_command_not_supported">ဤစေခိုင်းချက်ကို မပံ့ပိုးပါ</string>
+    <string name="toast_aigc_high_concurrency_limit">ဆာဗာအလုပ်များနေသည်။ တစ်မိနစ်၊ နှစ်မိနစ်စောင့်ပြီး ပြန်လုပ်ကြည့်ပါ။</string>
+    <string name="toast_aigc_illegal_account_id">အမှားအယွင်းရှိသည်။ ဖောက်သည်ကူညီရေးရာကို ဆက်သွယ်ပါ။</string>
+    <string name="toast_aigc_illegal_image">ဓာတ်ပုံက ကျွန်ုပ်တို့၏စံညွှန်းများကို ချိုးဖောက်သည်။ နောက်တစ်ပုံရွေးပါ။</string>
+    <string name="toast_aigc_image_not_supported">ဤဓာတ်ပုံကို မပံ့ပိုးပါ</string>
+    <string name="toast_aigc_minimum_face_size_restrict">မျက်နှာများ သေးလွန်းသည်။ အခြားတစ်ပုံစမ်းကြည့်ပါ။</string>
+    <string name="toast_aigc_minimum_resolution_restrict">ရက်ဇလူးရှင်းနိမ့်လွန်းသည်။ အခြားတစ်ပုံစမ်းကြည့်ပါ။</string>
+    <string name="toast_aigc_network_time_out">တောင်းဆိုချိန်ကုန်ပါပြီ။ တစ်မိနစ်၊ နှစ်မိနစ်စောင့်ပြီး ပြန်လုပ်ကြည့်ပါ။</string>
+    <string name="toast_aigc_no_people_detected">လူမတွေ့ပါ။ အခြားတစ်ပုံစမ်းကြည့်ပါ။</string>
+    <string name="toast_aigc_only_anime_stype_supported">\"အန်နီမေးရှင်း\" သာ ပံ့ပိုးသည်။ ပြန်လုပ်ကြည့်ပါ။</string>
+    <string name="toast_aigc_poor_network">သင့်ကွန်ရက်ဆက်သွယ်မှုကိုစစ်ဆေးပြီး နောက်တစ်ကြိမ်ထပ်ကြိုးစားပါ</string>
+    <string name="toast_aigc_request_time_limit">ယနေ့ တောင်းဆိုချက်များ ထပ်လုပ်မရပါ။ မနက်ဖြန်မှ ထပ်စမ်းပါ။</string>
+    <string name="toast_aigc_server_error">ဆာဗာအမှားအယွင်းရှိသည်။ တစ်မိနစ်၊ နှစ်မိနစ်စောင့်ပြီး ပြန်လုပ်ကြည့်ပါ။</string>
     <string name="toast_download_with_metered_network_btn_continue">ဒေါင်းလုဒ်လုပ်မည်</string>
     <string name="toast_download_with_metered_network_msg">သင့်စက်ကို Wi-Fi ချိတ်ထားပုံမရပါ။ မိုဘိုင်းဒေတာ သုံးပြီး အကြောင်းအရာများကို ဒေါင်းလုဒ်လုပ်လိုသလား။</string>
     <string name="toast_download_with_metered_network_title">ဒေတာ သုံးစွဲမှု သတိပေးချက်</string>
@@ -1750,7 +1841,7 @@
     <string name="user_agreement2">ဝန်ဆောင်မှုဆိုင်ရာ စည်းကမ်းချက်များ</string>
     <string name="user_agreement4">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ</string>
     <string name="user_guide_close_desc">\"အသုံးပြုသူလမ်းညွှန်ပိတ်ရန်\" ခလုတ်</string>
-    <string name="user_notice_identify_summary_format"><Data>ဤဝန်ဆောင်မှုကိုသုံးခြင်းဖြင့် သင်သည် Xiaomi ၏ &lt;a href=\"%1$s\">\"ဝန်ဆောင်မှုစည်းမျဉ်းများး\"&lt;/a>နှင့် &lt;a href=\"%2$s\">\"ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ\"&lt;/a>တို့ကို သဘောတူရာရောက်သည်။</Data></string>
+    <string name="user_notice_identify_summary_format">&lt;Data>ဤဝန်ဆောင်မှုကိုသုံးခြင်းဖြင့် သင်သည် Xiaomi ၏ &lt;a href=\"%1$s\">\"ဝန်ဆောင်မှုစည်းမျဉ်းများး\"&lt;/a>နှင့် &lt;a href=\"%2$s\">\"ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ\"&lt;/a>တို့ကို သဘောတူရာရောက်သည်။&lt;/Data></string>
     <string name="user_notice_title">စည်းကမ်းသတ်မှတ်ချက်များ</string>
     <string name="video_analytic_cancel">ပယ်ဖျက်မည်</string>
     <string name="video_analytic_download">ဒေါင်းလုဒ်လုပ်မည်</string>
@@ -1978,6 +2069,7 @@
     <string name="vlog_auto_clip_delete_desc">ဤကလစ်ကို ယခုဖျက်လိုသလား။</string>
     <string name="vlog_auto_clip_delete_ok">ဖျက်ရန်</string>
     <string name="vlog_auto_complete">ပြီးပါပြီ</string>
+    <string name="vlog_auto_compose_middle_close">အနေအထားကို လက်နှင့်ညှိပါက ယခင်သုံးထားသော စမတ်အထူးပြုလုပ်ချက်များကို ဖြုတ်လိုက်ပါမည်။ မဖြစ်မနေညှိလိုသလား။</string>
     <string name="vlog_auto_composition_close">ပုံစံအချိုးကို လက်ဖြင့်ချိန်ပါက Xiaomi ProCut ပိတ်သွားပါမည်။ မဖြစ်မနေ ချိန်လိုသလား။</string>
     <string name="vlog_auto_generate_complete">ဖန်တီးရန်</string>
     <string name="vlog_auto_generate_composition">Xiaomi ProCut</string>
@@ -2098,6 +2190,7 @@
     <string name="vlog_filter_nanfa">ဂါရီဂူး</string>
     <string name="vlog_filter_no_support_nums">(%1$d) တည်းဖြတ်မှု ပံ့ပိုးမထားသော ဗီဒီယိုများကို ကျော်မည်</string>
     <string name="vlog_filter_nuanyang">နေရောင်ခြည်</string>
+    <string name="vlog_filter_old_street">လမ်းလျှောက်</string>
     <string name="vlog_filter_origin">တစ်ခုမျှမရှိ</string>
     <string name="vlog_filter_qianyin">Tender</string>
     <string name="vlog_filter_qihuan">စိတ်ကူးအိမ်မက်</string>
@@ -2105,6 +2198,7 @@
     <string name="vlog_filter_qingye">တေးနုယဉ်</string>
     <string name="vlog_filter_rixi">Pastel</string>
     <string name="vlog_filter_romantic">ချစ်စရာ</string>
+    <string name="vlog_filter_sea_breeze">ပင်လယ်လေညှင်း</string>
     <string name="vlog_filter_senshan">မိုမီဂျီမေပယ်</string>
     <string name="vlog_filter_shenmi">လျှို့ဝှက်ဆန်းကြယ်</string>
     <string name="vlog_filter_tag_atmosphere">လေထု</string>
@@ -2124,6 +2218,7 @@
     <string name="vlog_float_view_ratio">ပုံစံအချိုး</string>
     <string name="vlog_fps">ဖရိန်နှုန်း</string>
     <string name="vlog_improt_encode_video_error">ကုဒ်ဖွဲ့ခြင်းအမှားအယွင်းရှိသည်။ ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="vlog_load_data_empty">အကြောင်းအရာများ ဦးစွာရွေးပါ</string>
     <string name="vlog_load_data_fail">ဒေတာများကို အွန်လိုင်းတင်၍ မရခဲ့ပါ</string>
     <string name="vlog_mi_clip">ဗီဒီယိုတည်းဖြတ်သူ</string>
     <string name="vlog_min_resolution_hint">လက်ရှိပုံရိပ်ပြတ်သားနှုန်းသည် အသုံးပြုနိုင်သည့် အနိမ့်ဆုံးနှုန်းဖြစ်သည်။</string>
@@ -2146,7 +2241,7 @@
     <string name="vlog_pro_not_support">ဤရက်ဇလူးရှင်းကို မပံ့ပိုးပါ</string>
     <string name="vlog_pro_ok">ပြောင်းရန်</string>
     <string name="vlog_pro_title">ဗီဒီယိုတည်းဖြတ်သူ</string>
-    <string name="vlog_quality">ဗီဒီယိုအရည်အသွေး</string>
+    <string name="vlog_quality">အရည်အသွေး</string>
     <string name="vlog_quality_bitrate_auto">အလိုအလျောက်</string>
     <string name="vlog_quality_bitrate_high">အမြင့်</string>
     <string name="vlog_quality_bitrate_low">အနိမ့်</string>

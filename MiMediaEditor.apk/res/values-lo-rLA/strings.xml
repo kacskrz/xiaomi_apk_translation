@@ -70,7 +70,12 @@
     <string name="adjust_grain">Grain</string>
     <string name="adjust_highlight">ໄຮໄລທ໌</string>
     <string name="adjust_highlight_shadow">ໄຮໄລທ໌ແລະເງົາ</string>
+    <string name="adjust_light_perception">ຄວາມສະຫວ່າງ</string>
     <string name="adjust_natural_saturation">ຄວາມສັ່ນ</string>
+    <string name="adjust_noise_degree">ລະດັບ</string>
+    <string name="adjust_noise_high_lights">ໄຮໄລທ໌</string>
+    <string name="adjust_noise_roughness">ຄວາມຫຍາບຄາຍ</string>
+    <string name="adjust_noise_size">​ຂະ​ໜາດ</string>
     <string name="adjust_reset">ຣີເຊັດ</string>
     <string name="adjust_saturation">ຄວາມອີ່ມສີ</string>
     <string name="adjust_shadow">ເງົາ</string>
@@ -81,6 +86,7 @@
     <string name="adjust_tab_detail">​ລາຍ​ລະ​ອຽດ</string>
     <string name="adjust_tab_dispersion">ການກະຈາຍ</string>
     <string name="adjust_tab_effect">ເອັບເຟັກ</string>
+    <string name="adjust_tab_noise">ສຽງລົບກວນ</string>
     <string name="adjust_tab_tone">ໂທນສີ</string>
     <string name="adjust_tab_white_balance">ສົມດຸນສີຂາວ</string>
     <string name="adjust_talkback_curve_anchor_delete">ລົບຈຸດຍຶດ</string>
@@ -94,12 +100,45 @@
     <string name="agreement_quit">ອອກ</string>
     <string name="agreement_required_tip">(ຕ້ອງການ)</string>
     <string name="agreement_summary">ເອກະສານທາງກົດໝາຍ</string>
+    <string name="ai_action_toast_cloud_data_pull_failed">ບໍ່ສາມາດໂຫຼດລາຍການໄດ້. ກວດສອບການຕັ້ງຄ່າເຄືອຂ່າຍຂອງທ່ານແລະລອງອີກຄັ້ງ.</string>
+    <string name="ai_action_toast_function_ai_expansion_processing">ກຳລັງຂະຫຍາຍຮູບພາບ…</string>
+    <string name="ai_action_toast_function_ai_portrait_processing">ກຳລັງປະມວນຜົນດ້ວຍ​ຮູບ​ພາບ AI…</string>
+    <string name="ai_action_toast_function_background_change_processing">ກຳລັງປ່ຽນພື້ນຫຼັງ…</string>
+    <string name="ai_action_toast_function_beautification_processing">ກຳລັງປະມວນຜົນດ້ວຍໂໝດບິວຕີ້…</string>
+    <string name="ai_action_toast_function_download_failed">ບໍ່ສາມາດດາວໂຫຼດຄຸນສົມບັດໄດ້. ກວດສອບການຕັ້ງຄ່າເຄືອຂ່າຍຂອງທ່ານແລະລອງອີກຄັ້ງ.</string>
+    <string name="ai_action_toast_function_expression_replace_processing">​ກຳ​ລັງປ່ຽນການສະແດງອອກ…</string>
+    <string name="ai_action_toast_function_face_shape_processing">ກຳລັງປັບລັກສະນະໃບໜ້າ…</string>
+    <string name="ai_action_toast_function_leica_watermark_processing">​​ກຳ​ລັງ​ນຳໃຊ້ລາຍນ້ຳ Leica…</string>
+    <string name="ai_action_toast_function_magic_remove_processing">ກຳລັງປະມວນຜົນດ້ວຍ AI Erase Pro…</string>
+    <string name="ai_action_toast_function_music_processing">​​ກຳ​ລັງ​ນຳໃຊ້ສຽງປະກອບ…</string>
+    <string name="ai_action_toast_function_not_support">ຄຸນສົມບັດນີ້ຍັງບໍ່ພ້ອມໃຊ້ງານໃນຕອນນີ້</string>
+    <string name="ai_action_toast_function_photo_auto_beautify_processing">ກຳລັງປັບບິວຕີ້…</string>
+    <string name="ai_action_toast_function_photo_beautify_skin_processing">ກຳລັງປັບສີຜິວ…</string>
+    <string name="ai_action_toast_function_photo_enhance_processing">ກຳລັງປັບປຸງ…</string>
+    <string name="ai_action_toast_function_photo_filter_processing">ກຳລັງນຳໃຊ້ຕົວກອງ…</string>
+    <string name="ai_action_toast_function_photo_restoration_processing">ກຳລັງກູ້​ຄືນຮູບພາບ…</string>
+    <string name="ai_action_toast_function_process_all_failed">ບໍ່ສາມາດນຳໃຊ້ເອັບເຟັກໄດ້. ລໍຖ້າໜຶ່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
+    <string name="ai_action_toast_function_process_failed">ບໍ່ສາມາດນຳໃຊ້ເອັບເຟັກໄດ້. ລໍຖ້າໜຶ່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
+    <string name="ai_action_toast_function_resources_loading">​ກຳ​ລັງ​ໂຫຼດ Plug-in…</string>
+    <string name="ai_action_toast_function_style_change_processing">ກຳລັງຈັດແຕ່ງຮູບພາບ…</string>
+    <string name="ai_action_toast_function_super_portrait_processing">ກຳລັງປະມວນຜົນດ້ວຍພາບບຸກຄົນ HD…</string>
+    <string name="ai_action_toast_function_watermark_frame_processing">​​ກຳ​ລັງ​ນຳໃຊ້ຂອບລາຍນ້ຳ…</string>
+    <string name="ai_action_toast_multiple_function_not_support">ບາງຄຸນສົມບັດບໍ່ສາມາດໃຊ້ງານໄດ້ຕອນນີ້</string>
+    <string name="ai_action_toast_need_login_mi_account">ເຂົ້າ​​ສູ່​ລະ​ບົບດ້ວຍ​ບັນຊີ Xiaomi ແລະລອງອີກຄັ້ງ</string>
+    <string name="ai_action_toast_not_support_scene">ບໍ່ຮອງຮັບຄຸນສົມບັດນີ້ໃນເວີຊັ່ນທີ່ນີ້. ກັບໄປທີ່ໜ້າເລີ່ມຕົ້ນແລະລອງອີກຄັ້ງ.</string>
+    <string name="ai_action_toast_picture_content_illegal">ຮູບພາບນີ້ລະເມີດມາດຕະຖານຊຸມຊົນ. ລອງອັນອື່ນ.</string>
+    <string name="ai_action_toast_picture_size_out_of_limit">ບໍ່ຮອງຮັບຮູບພາບຂະໜາດນີ້. ລອງອັນອື່ນ.</string>
+    <string name="ai_action_toast_poor_network">ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍໄດ້. ກວດສອບການຕັ້ງຄ່າເຄືອຂ່າຍແລະລອງອີກຄັ້ງ.</string>
+    <string name="ai_action_toast_request_time_out">ຄຳຂໍໝົດເວລາແລ້ວ. ລໍຖ້າໜື່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
     <string name="aicrmanager_download_cancel">ຍົກເລີກການດາວໂຫຼດ</string>
     <string name="aicrmanager_download_done">​​ການ​ດາວ​ໂຫຼດ​ສຳ​ເລັດ</string>
     <string name="aicrmanager_download_done_content_title">Plug-in ຕົວແກ້ໄຂ AI</string>
     <string name="aicrmanager_download_process_content_title">ກຳລັງດາວໂຫຼດ Plug-in ຕົວແກ້ໄຂ AI</string>
     <string name="aicrmanager_download_update_tip">Plug-in ມີການອັບເດດ. ແຕະເພື່ອເບິ່ງ.</string>
     <string name="aicrmanager_downloading">ກຳລັງດາວໂຫຼດ %s</string>
+    <string name="aigc_login_confirm">ເຂົ້າ​ສູ່​ລະ​ບົບ</string>
+    <string name="aigc_login_hint_message">ເຂົ້າສູ່ລະບົບດ້ວຍບັນຊີ Xiaomi ເພື່ອສາມາດໃຊ້ຄຸນສົມບັດຕົວແກ້ໄຂ AI ທັງໝົດໄດ້.</string>
+    <string name="aigc_login_hint_title">ເຂົ້າ​ສູ່​ລະ​ບົບ</string>
     <string name="am">AM</string>
     <string name="app_name">ຕົວແກ້ໄຂຄັງຮູບພາບ</string>
     <string name="app_photoshop_name">ຕົວແກ້ໄຂຄັງຮູບພາບ</string>
@@ -423,7 +462,7 @@
     <string name="confirm_cancel_task_files">ຍົກເລີກການສົ່ງໄຟລ໌ໄປທີ່ %1$s ບໍ?</string>
     <string name="confirm_cancel_task_images">ຍົກເລີກການສົ່ງຮູບພາບໄປທີ່ %1$s ບໍ?</string>
     <string name="crop_label">ຕັດຮູບພາບ</string>
-    <string name="cta_agreement_declare"><Data>ເພື່ອເຂົ້າໃຈສິດທິຂອງທ່ານຢ່າງສົມບູນໃນຖານະຜູ້ໃຊ້ແລະວິທີທີ່ພວກເຮົານຳໃຊ້ຂໍ້ມູນຂອງທ່ານ, ອ່ານແລະເຫັນດີກັບ &lt;a href=\"%1$s\">​ຂໍ້ຕົກລົງຂອງຜູ້ນຳໃຊ້&lt;/a> ແລະ &lt;a href=\"%2$s\">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ&lt;/a> ກ່ອນນຳໃຊ້ແອັບນີ້.</Data></string>
+    <string name="cta_agreement_declare">&lt;Data>ເພື່ອເຂົ້າໃຈສິດທິຂອງທ່ານຢ່າງສົມບູນໃນຖານະຜູ້ໃຊ້ແລະວິທີທີ່ພວກເຮົານຳໃຊ້ຂໍ້ມູນຂອງທ່ານ, ອ່ານແລະເຫັນດີກັບ &lt;a href=\"%1$s\">​ຂໍ້ຕົກລົງຂອງຜູ້ນຳໃຊ້&lt;/a> ແລະ &lt;a href=\"%2$s\">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ&lt;/a> ກ່ອນນຳໃຊ້ແອັບນີ້.&lt;/Data></string>
     <string name="cta_network_declare">ເພື່ອຊິ້ງຂໍ້ມູນຮູບພາບແລະວິດີໂອດ້ວຍ Xiaomi Cloud, ແອັບນີ້ຕ້ອງການເຊື່ອມຕໍ່ອິນເຕີເນັດ.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -505,7 +544,7 @@
     <string name="filter_description_dialog_content">ທ່ານສາມາດນໍາເຂົ້າຕາຕະລາງຄົ້ນຫາຫາສີຂອງ CUBE ເພື່ອເພີ່ມຟິວເຈີແບບກຳນົດເອງ.</string>
     <string name="filter_description_dialog_title">ຄຸນສົມບັດທີ່ກຳນົດເອງ</string>
     <string name="filter_diy_import">ນຳເຂົ້າ</string>
-    <string name="filter_diy_import_first_time_pop_tips">ກົດຄ້າງໄວ້ເພື່ອແກ້ໄຂ</string>
+    <string name="filter_diy_import_first_time_pop_tips">ກົດຄ້າງເພື່ອເພີ່ມໃສ່ລາຍການທີ່ມັກ</string>
     <string name="filter_diy_import_toast_fail">ບໍ່ສາມາດນຳເຂົ້າໄດ້</string>
     <string name="filter_diy_import_toast_out_of_limit">ທ່ານສາມາດນຳເຂົ້າໄດ້ສູງສຸດ %d ຕາຕະລາງການຄົ້ນຫາສີຂອງ CUBE.</string>
     <string name="filter_diy_tip_dialog_cancel">ຍົກເລີກ</string>
@@ -513,13 +552,25 @@
     <string name="filter_diy_tip_dialog_confirm">ຕົກລົງ</string>
     <string name="filter_diy_tip_dialog_content">ທ່ານສາມາດນຳເຂົ້າໄດ້ສູງສຸດ %d ຕາຕະລາງການຄົ້ນຫາສີຂອງ CUBE.</string>
     <string name="filter_diy_tip_dialog_title">ນຳເຂົ້າຟິວເຈີ</string>
+    <string name="filter_film_besson">Parkour</string>
     <string name="filter_film_chinese_red">Vermilion</string>
     <string name="filter_film_desert_brown">Hazelnut</string>
     <string name="filter_film_flowers_dream">ຮູບເງົາ</string>
+    <string name="filter_film_freehand">Freehand</string>
+    <string name="filter_film_korean_rubber">Orchid</string>
+    <string name="filter_film_kyoto">ເມືອງເກົ່າ</string>
+    <string name="filter_film_le_mans">ຄອງ</string>
     <string name="filter_film_light_tea_green">ຊາຂຽວ</string>
+    <string name="filter_film_monsoon">ມໍລະສຸມ</string>
     <string name="filter_film_mountain_cyan">ໝອກສີຟ້າ</string>
+    <string name="filter_film_old_alley">ທາງຮ່ອມ</string>
+    <string name="filter_film_old_style">ໂຫຍຫາ</string>
+    <string name="filter_film_relaxation">ມື້ຂີ້ຄ້ານ</string>
+    <string name="filter_film_reversal">ການປີ້ນກັບ</string>
+    <string name="filter_film_seaside">ທິວທັດທະເລ</string>
     <string name="filter_film_sunset_red">ສີແດງ</string>
     <string name="filter_film_taichi_ink">ນ້ຳໝຶກ</string>
+    <string name="filter_film_zhi_xian">ບົດກະວີ</string>
     <string name="filter_general_blackice">ນ້ຳກ້ອນ​ສີ​ດຳ</string>
     <string name="filter_general_blackwhite">ດຳແລະຂາວ</string>
     <string name="filter_general_delicious">ອາຫານ</string>
@@ -1032,6 +1083,8 @@
     <string name="motion_photo_video_reverse_effect">ຍ້ອນກັບ</string>
     <string name="motion_photo_video_reverse_ing">ກຳລັງຍ້ອນກັບວິດີໂອ…</string>
     <string name="motion_photo_video_reverse_on">ຍ້ອນກັບແລ້ວ</string>
+    <string name="motion_photo_watermark_off">ລາຍນ້ຳປິດຢູ່</string>
+    <string name="motion_photo_watermark_on">ລາຍນ້ຳເປີດຢູ່</string>
     <string name="movie_add_disable">ທ່ານສາມາດເລືອກໄດ້ສູງສຸດ %d ຮູບພາບ</string>
     <string name="movie_audio_antiquity">Retro</string>
     <string name="movie_audio_custom">​ໃນ​ຕົວ​ເຄື່ອງ</string>
@@ -1091,6 +1144,7 @@
     <string name="movie_template_xmas">ຄຣິສມາສ</string>
     <string name="movie_video_long">​ວິ​ດີ​ໂອທີ່ຍາວກວ່າ</string>
     <string name="movie_video_short">%dວິ</string>
+    <string name="msg_initialize_failed_and_reenter">ບໍ່ສາມາດເລີ່ມຕົ້ນ Plug-in. ປິດໜ້ານີ້ແລະເລີ່ມຕົ້ນໃໝ່.</string>
     <string name="multi_file_name">%1$s, %2$s</string>
     <string name="name_split">, </string>
     <string name="name_with_ellipsize">%1$s…%2$s</string>
@@ -1120,6 +1174,7 @@
     <string name="pc_device_model_name">ຄອມພິວເຕີ</string>
     <string name="permission_account_desc">ສຳລັບການເຂົ້າສູ່ລະບົບແລະຈັດການບັນຊີລະບົບ</string>
     <string name="permission_account_name">ເຂົ້າເຖິງບັນຊີ</string>
+    <string name="permission_app_summary">ທ່ານ​ສາ​ມາດ​ນໍາ​ໃຊ້ຕົວແກ້ໄຂຄັງຮູບພາບເພື່ອ​ແກ້​ໄຂ​ແລະ​ສວຍ​ງາມ​ຮູບ​ພາບ​ແລະ​ວິ​ດີ​ໂອ​. ເມື່ອໃຊ້ບໍລິການ AI ທີ່ສະໜອງໃຫ້ໃນອຸປະກອນບາງລຸ້ນ, ແອັບນີ້ຈະຕ້ອງເຂົ້າເຖິງຮູບພາບທີ່ເລືອກສຳລັບການປະມວນຜົນ.</string>
     <string name="permission_clipboard_desc">ສຳລັບການເຂົ້າເຖິງຫຼືບັນທຶກລາຍການໄປທີ່ຄ​ລິ​ບບອ​ດ</string>
     <string name="permission_clipboard_name">ເຂົ້າເຖິງຫຼືບັນທຶກລາຍການໄປທີ່ຄ​ລິ​ບບອ​ດ</string>
     <string name="permission_contacts_desc">ສຳລັບການກຳນົດລາຍຊື່ຜູ້ຕິດຕໍ່ໃຫ້ກັບບຸກຄົນໃນຮູບຖ່າຍ</string>
@@ -1163,6 +1218,9 @@
     <string name="photo_editor_aicrmanager_title">ຈັດການ Plug-in</string>
     <string name="photo_editor_aicrmanager_uninstall">ລົບ​ອອກ</string>
     <string name="photo_editor_aicrmanager_update">ອັບເດດ</string>
+    <string name="photo_editor_aigc_inpaint_progress">​​ກຳ​ລັງ​ລົບ…</string>
+    <string name="photo_editor_aigc_outpaint_progress">ກຳລັງຂະຫຍາຍຮູບພາບ…</string>
+    <string name="photo_editor_aigc_quality_improve_progress">ກຳລັງກູ້​ຄືນຮູບພາບ…</string>
     <string name="photo_editor_beautify">ອັດຕະໂນມັດ</string>
     <string name="photo_editor_beautify_auto">ອັດຕະໂນມັດ</string>
     <string name="photo_editor_beauty">ໂໝດບິວຕີ້</string>
@@ -1175,6 +1233,7 @@
     <string name="photo_editor_common_download_sdk_without_wifi_title">ດາວໂຫຼດ Plug-in</string>
     <string name="photo_editor_confirm">​ສັບ​ປ່ຽນ</string>
     <string name="photo_editor_crop">ຕັດພາບ</string>
+    <string name="photo_editor_crop_ai_outpaint_name">ຂະຫຍາຍ</string>
     <string name="photo_editor_crop_and_rotate">ຕັດພາບ</string>
     <string name="photo_editor_crop_auto">ອັດຕະໂນມັດ</string>
     <string name="photo_editor_crop_auto_tips">ຕັດພາບ​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ</string>
@@ -1195,6 +1254,7 @@
     <string name="photo_editor_crop_size_origin">ຕົ້ນສະບັບ</string>
     <string name="photo_editor_crop_size_portrait_fullscreen">ເຕັມຈໍ ↕</string>
     <string name="photo_editor_doodle">ລາຍເສັ້ນ</string>
+    <string name="photo_editor_enhancer_user_guide_desc">ສູດການຄິດໄລ່ໂມເດວຂະຫນາດໃຫຍ່ໃໝ່ຂອງພວກເຮົາສາມາດປັບປຸງຄວາມຊັດເຈນຂອງຮູບພາບດ້ວຍການແຕະພຽງຄັ້ງດຽວ</string>
     <string name="photo_editor_estimate_size">ຂະໜາດຄາດຄະເນ: %1$s - %2$d × %3$d px</string>
     <string name="photo_editor_filter">ຟິວເຕີ</string>
     <string name="photo_editor_font_default">Mi Lanting (ປົກກະຕິ)</string>
@@ -1214,6 +1274,7 @@
     <string name="photo_editor_gallery_frame_tab_leica">Leica</string>
     <string name="photo_editor_high">​ສູງ</string>
     <string name="photo_editor_highest">ດີທີ່ສຸດ</string>
+    <string name="photo_editor_inpaint_progress">​​ກຳ​ລັງ​ລົບ…%s</string>
     <string name="photo_editor_intoutpaint_name">ການຂະຫຍາຍ AI/AI Erase 2.0</string>
     <string name="photo_editor_label">​ແກ້​ໄຂ</string>
     <string name="photo_editor_leica_frame">ລາຍນ້ຳ Leica</string>
@@ -1253,8 +1314,10 @@
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">"Looks like you aren't connected to WLAN. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">ດາວໂຫຼດ Plug-in</string>
     <string name="photo_editor_navigator_tab_title_ai">ສ້າງ</string>
+    <string name="photo_editor_navigator_tab_title_ai_pro">AI</string>
     <string name="photo_editor_navigator_tab_title_basic">ພື້ນຖານ</string>
     <string name="photo_editor_navigator_tab_title_beauty">ໂໝດບິວຕີ້</string>
+    <string name="photo_editor_outpaint_progress">ກຳລັງຂະຫຍາຍ…%s</string>
     <string name="photo_editor_perspective">ທັດສະນະ</string>
     <string name="photo_editor_perspective_crop">ຕັດພາບ</string>
     <string name="photo_editor_perspective_distortion">ບິດເບືອນ</string>
@@ -1267,12 +1330,15 @@
     <string name="photo_editor_privacy_negative">​ອອກ</string>
     <string name="photo_editor_privacy_notice">ແຈ້ງເຕືອນຄວາມ​ເປັນ​ສ່ວນ​ຕົວ</string>
     <string name="photo_editor_privacy_positive">​ເຫັນ​ດີ</string>
+    <string name="photo_editor_privacy_tip_ai">"ກ່ອນທີ່ຈະໃຊ້ຄຸນສົມບັດ AI, ອ່ານແລະເຫັນດີກັບ &lt;a href='%1$s'>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງຄຸນສົມບັັດຕົວແກ້ໄຂຄັງຮູບພາບ AI&lt;/a> ແລະ &lt;a href='%2$s'>ຂໍ້ຕົກລົງຂອງຜູ້ນຳໃຊ້ຄຸນສົມບັັດຕົວແກ້ໄຂຄັງຮູບພາບ AI&lt;/a>."</string>
     <string name="photo_editor_privacy_tip_below">&lt;br>&lt;br>&lt;small>*ເນື່ອງຈາກການສຸ່ມ Algorithmic, ທ່ານຈະໄດ້ຮັບຜົນໄດ້ຮັບທີ່ດີທີ່ສຸດໃນເວລາທີ່ນໍາໃຊ້ຮູບພາບທີ່ຫົວຂໍ້ຖືກສະແດງຢ່າງສົມບູນ.&lt;/small></string>
     <string name="photo_editor_privacy_tip_outpaint">"ອ່ານແລະເຫັນດີກັບ &lt;a href='%1$s'>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວການຂະຫຍາຍ AI&lt;/a> ແລະ &lt;a href='%2$s'>ຂໍ້ຕົກລົງຂອງຜູ້ນຳໃຊ້ການຂະຫຍາຍ AI&lt;/a> ກ່ອນນຳໃຊ້ການຂະຫຍາຍ AI."</string>
     <string name="photo_editor_privacy_tip_rmpro">"ອ່ານແລະເຫັນດີກັບ &lt;a href='%1$s'>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຄຸນສົມບັດ AI Erase 2.0 Pro&lt;/a> ແລະ &lt;a href='%2$s'>ຂໍ້ຕົກລົງຂອງຜູ້ນຳໃຊ້ຄຸນສົມບັດ AI Erase 2.0 Pro&lt;/a> ກ່ອນນຳໃຊ້ຄຸນສົມບັດ AI Erase 2.0 Pro."</string>
     <string name="photo_editor_privacy_tip_virtualization">"ຍິນດີຕ້ອນຮັບສູ່ຮູບພາບ AI ແລະການບໍລິການທີ່ກ່ຽວຂ້ອງ!&lt;br>ເພື່ອສະໜອງຄຸນສົມບັດແລະການບໍລິການຂັ້ນພື້ນຖານແກ່ທ່ານ, ພວກເຮົາຈໍາເປັນຕ້ອງເກັບກໍາແລະນໍາໃຊ້ຂໍ້ມູນສ່ວນຕົວທີ່ຈໍາເປັນບາງຢ່າງ.&lt;br>ເມື່ອທ່ານໃຊ້ຄຸນສົມບັດຮູບພາບ AI, ທ່ານຈໍາເປັນຕ້ອງອັບໂຫຼດຮູບພາບຂອງບຸກຄົນ. ພວກເຮົາຈະປະມວນຜົນຂໍ້ມູນໃບໜ້າຂອງບຸກຄົນໃນຮູບພາບໃນອຸປະກອນຂອງທ່ານແລະໃຊ້ເພື່ອສ້າງຮູບພາບ AI.&lt;br>ພວກເຮົາພຽງແຕ່ເກັບກໍາຂໍ້ມູນສ່ວນບຸກຄົນທີ່ຈໍາເປັນເພື່ອສະໜອງຜະລິດຕະພັນແລະການບໍລິການຂອງພວກເຮົາ. ສໍາລັບລາຍລະອຽດກ່ຽວກັບວິທີທີ່ພວກເຮົາເກັບກໍາແລະນໍາໃຊ້ຂໍ້ມູນສ່ວນຕົວຂອງທ່ານ, ເບິ່ງນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງຮູບພາບ AI.&lt;br>ອ່ານແລະເຫັນດີກັບ &lt;a href='%1$s'>ຂໍ້ຕົກລົງຂອງຜູ້ນຳໃຊ້ຂອງ​ຮູບ​ພາບ AI&lt;/a> ແລະ &lt;a href='%2$s'>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງ​ຮູບ​ພາບ AI&lt;/a> ກ່ອນທ່ານສືບຕໍ່."</string>
     <string name="photo_editor_privacy_title">ເອົາໃຈໃສ່</string>
     <string name="photo_editor_quality">ຄຸນະພາບ</string>
+    <string name="photo_editor_quality_improve">ເພີ່ມປະສິດທິພາບ</string>
+    <string name="photo_editor_quality_improve_progress">ກຳລັງປັບປຸງ…%s</string>
     <string name="photo_editor_remove_watermark">ລົບລາຍນ້ຳ</string>
     <string name="photo_editor_remove_watermark_on">ເພີ່ມລາຍນ້ຳ</string>
     <string name="photo_editor_remover">ລົບ</string>
@@ -1386,7 +1452,7 @@
     <string name="portrait_improving_the_texture_of_the_whole_picture">ເພີ່ມປະສິດທິພາບພື້ນຜິວ…</string>
     <string name="portrait_optimizing_skin_texture">ປັບສະພາບຜິວ…</string>
     <string name="prepare_to_drop">ກຳລັງ​ບັນ​ທຶກໄປທີ່ %s</string>
-    <string name="privacy_permission_request_message"><Data>ຄັງຮູບພາບຕ້ອງການເຂົ້າເຖິງ %3$s. ຂໍ້ມູນທີ່ພວກເຮົາເກັບກຳຈະຖືກນຳໃຊ້ໂດຍສອດຄ່ອງກັບພວກເຮົາ &lt;a href=\"%1$s\">\"ເງື່ອນໄຂການໃຫ້ບໍລິການ\"&lt;/a> ແລະ &lt;a href=\"%2$s\">\"ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ\"&lt;/a>. ອະນຸຍາດ?</Data></string>
+    <string name="privacy_permission_request_message">&lt;Data>ຄັງຮູບພາບຕ້ອງການເຂົ້າເຖິງ %3$s. ຂໍ້ມູນທີ່ພວກເຮົາເກັບກຳຈະຖືກນຳໃຊ້ໂດຍສອດຄ່ອງກັບພວກເຮົາ &lt;a href=\"%1$s\">\"ເງື່ອນໄຂການໃຫ້ບໍລິການ\"&lt;/a> ແລະ &lt;a href=\"%2$s\">\"ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ\"&lt;/a>. ອະນຸຍາດ?&lt;/Data></string>
     <string name="privacy_permission_request_negative">​ຈຳ​ກັດ</string>
     <string name="privacy_permission_request_positive">ອະ​ນຸ​ຍາດ</string>
     <string name="privacy_permission_request_title">ຈຳເປັນຕ້ອງມີການອະນຸຍາດ</string>
@@ -1486,6 +1552,18 @@
     <string name="send_files_by">ແຊຣ໌ໄຟລ໌ຜ່ານ</string>
     <string name="send_files_to">ສົ່ງລາຍການໄປທີ່</string>
     <string name="set_as_cover">ຕັ້ງເປັນໜ້າປົກ</string>
+    <string name="settings_ai_editor_ai_image">​ຮູບ​ພາບ AI</string>
+    <string name="settings_ai_editor_ai_image_description">ຮູບພາບ AI ໃໝ່ທັງໝົດອະນຸຍາດໃຫ້ທ່ານສ້າງຮູບພາບໃນຫຼາຍຮູບແບບ. ເພື່ອໃຫ້ໄດ້ຜົນທີ່ດີທີ່ສຸດ, ອັບໂຫຼດຮູບທີ່ມີໃບໜ້າທີ່ເຫັນໄດ້ຊັດເຈນ.</string>
+    <string name="settings_ai_editor_expand">ການຂະຫຍາຍຮູບພາບ AI</string>
+    <string name="settings_ai_editor_expand_description">ໃໝ່, ການຂະຫຍາຍຮູບພາບທີ່ຮອງຮັບ AI. ຮັກສາອັດຕາສ່ວນຮູບພາບເດີມ, ເລືອກເອງຫຼືໃຫ້ AI ຕັດສິນໃຈ.</string>
+    <string name="settings_ai_editor_image_restoration">ເພີ່ມປະສິດທິພາບ</string>
+    <string name="settings_ai_editor_image_restoration_description">ປັບປຸງຄວາມຄົມຊັດຂອງຮູບພາບດ້ວຍການແຕະຄັ້ງດຽວໂດຍໃຊ້ການຄິດໄລ່ຮູບແບບຂະຫນາດໃຫຍ່ຂອງພວກເຮົາ</string>
+    <string name="settings_ai_editor_intelligent_filming">ຟີມ AI</string>
+    <string name="settings_ai_editor_intelligent_filming_description">ອັບໂຫຼດຮູບພາບແລະວິດີໂອເພື່ອສ້າງວິດີໂອໂດຍອັດຕະໂນມັດດ້ວຍພະລັງຂອງ AI ຫຼືໃສ່ການເຕືອນເພື່ອສ້າງອັນໃໝ່ທັງໝົດ</string>
+    <string name="settings_ai_editor_remover">AI Erase Pro</string>
+    <string name="settings_ai_editor_remover_description">ລົບລ້າງໂດຍບໍ່ມີການຕິດຕາມດ້ວຍຄຸນສົມບັດ AI Erase Pro ທີ່ອັບເກຣດແລ້ວ</string>
+    <string name="settings_ai_editor_summary">ສ້າງ​ແລະ​ແກ້​ໄຂ​ຮູບ​ພາບ​ແລະ​ວິ​ດີ​ໂອ​</string>
+    <string name="settings_ai_editor_title">ຕົວແກ້ໄຂຄັງຮູບພາບ AI</string>
     <string name="share_album_qr_code">ລະ​ຫັດ QR ຂອງອາລະບ້ຳ</string>
     <string name="share_and_delete_picture">ລົບອອກຫຼັງຈາກການແຊຣ໌</string>
     <string name="share_and_delete_screenshot">ລົບອອກຫຼັງຈາກການແຊຣ໌</string>
@@ -1733,6 +1811,19 @@
     <string name="tips_no_time_gallery_frame">ຮູບພາບນີ້ບໍ່ມີການປະທັບເວລາ</string>
     <string name="tips_prompt_enable_midrop">Mi ແຊຣ໌</string>
     <string name="tips_support_gallery_frame">ຮອງຮັບສະເພາະຮູບພາບທີ່ຖ່າຍໂດຍຜະລິດຕະພັນ Xiaomi ທີ່ອອກແບບຮ່ວມກັບ Leica ເທົ່ານັ້ນ</string>
+    <string name="toast_aigc_command_not_supported">ບໍ່ຮອງຮັບຄຳສັ່ງນີ້</string>
+    <string name="toast_aigc_high_concurrency_limit">ເຊີບເວີບໍ່ຫວ່າງ. ລໍຖ້າໜຶ່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
+    <string name="toast_aigc_illegal_account_id">ບັນຊີເກີດຂໍ້ຜິດພາດ. ຕິດຕໍ່ບໍລິການລູກຄ້າ.</string>
+    <string name="toast_aigc_illegal_image">ຮູບພາບລະເມີດຂໍ້ແນະນຳຂອງພວກເຮົາ. ເລືອກອັນອື່ນ.</string>
+    <string name="toast_aigc_image_not_supported">ບໍ່ຮັບຮອງຮູບພາບນີ້</string>
+    <string name="toast_aigc_minimum_face_size_restrict">ໃບໜ້ານ້ອຍເກີນໄປ. ລອງຮູບພາບອື່ນ.</string>
+    <string name="toast_aigc_minimum_resolution_restrict">ຄວາມລະອຽດຕ່ຳຫຼາຍ. ລອງຮູບພາບອື່ນ.</string>
+    <string name="toast_aigc_network_time_out">ຄຳຂໍໝົດເວລາແລ້ວ. ລໍຖ້າໜື່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
+    <string name="toast_aigc_no_people_detected">ບໍ່ພົບບຸກຄົນ. ລອງຮູບພາບອື່ນ.</string>
+    <string name="toast_aigc_only_anime_stype_supported">ຮອງຮັບສະເພາະ \"ພາບເຄື່ອນໄຫວ\" ເທົ່ານັ້ນ. ລອງອີກຄັ້ງ.</string>
+    <string name="toast_aigc_poor_network">​ກວດ​​ສອບ​ການ​ເຊື່ອມ​ຕໍ່​ເຄືອ​ຂ່າຍ​ຂອງ​ທ່ານແລະ​ລອງ​ອີກ​ຄັ້ງ</string>
+    <string name="toast_aigc_request_time_limit">ບໍ່ສາມາດຮ້ອງຂໍເພີ່ມເຕີມໄດ້ໃນມື້ນີ້. ລອງໃໝ່ໃນມື້ອື່ນ.</string>
+    <string name="toast_aigc_server_error">ເຊີບເວີເກີດຂໍ້ຜິດພາດ. ລໍຖ້າໜຶ່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
     <string name="toast_download_with_metered_network_btn_continue">ດາວໂຫຼດ</string>
     <string name="toast_download_with_metered_network_msg">ອຸປະກອນຂອງທ່ານບໍ່ໄດ້ເຊື່ອມຕໍ່ກັບ Wi-Fi. ດາວໂຫຼດລາຍການໂດຍໃຊ້ຂໍ້ມູນມືຖືບໍ?</string>
     <string name="toast_download_with_metered_network_title">​ແຈ້ງເຕືອນ​ການນຳໃຊ້​ຂໍ້​ມູນ</string>
@@ -1750,7 +1841,7 @@
     <string name="user_agreement2">ເງື່ອນໄຂການໃຫ້ບໍລິການ</string>
     <string name="user_agreement4">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</string>
     <string name="user_guide_close_desc">ປຸ່ມ\"ປິດຄູ່ມືຜູ້ໃຊ້\"</string>
-    <string name="user_notice_identify_summary_format"><Data>ໂດຍການນຳໃຊ້ບໍລິການນີ້, ໝາຍເຖິງທ່ານເຫັນດີກັບ &lt;a href=\"%1$s\">\"ເງື່ອນໄຂການໃຫ້ບໍລິການ\"&lt;/a> ແລະ &lt;a href=\"%2$s\">\"ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ\"&lt;/a> ຂອງ Xiaomi.</Data></string>
+    <string name="user_notice_identify_summary_format">&lt;Data>ໂດຍການນຳໃຊ້ບໍລິການນີ້, ໝາຍເຖິງທ່ານເຫັນດີກັບ &lt;a href=\"%1$s\">\"ເງື່ອນໄຂການໃຫ້ບໍລິການ\"&lt;/a> ແລະ &lt;a href=\"%2$s\">\"ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ\"&lt;/a> ຂອງ Xiaomi.&lt;/Data></string>
     <string name="user_notice_title">​ຂໍ້​ກຳ​ນົດແລະເງື່ອນ​ໄຂ</string>
     <string name="video_analytic_cancel">ຍົກເລີກ</string>
     <string name="video_analytic_download">ດາວໂຫຼດ</string>
@@ -1978,6 +2069,7 @@
     <string name="vlog_auto_clip_delete_desc">ລົບຄລິບນີ້ຕອນນີ້?</string>
     <string name="vlog_auto_clip_delete_ok">ລົບ​ອອກ</string>
     <string name="vlog_auto_complete">​ສຳ​ເລັດ​ແລ້ວ</string>
+    <string name="vlog_auto_compose_middle_close">ການປັບອົງປະກອບດ້ວຍຕົນເອງຈະລົບເອັບເຟັກອັດສະລິຍະທີ່ນຳໃຊ້ໃນເມື່ອກ່ອນອອກ. ປັບຫຼືບໍ່?</string>
     <string name="vlog_auto_composition_close">ການປັບອັດຕາສ່ວນຮູບພາບດ້ວຍຕົນເອງຈະປິດ Xiaomi ProCut. ປັບຫຼືບໍ່?</string>
     <string name="vlog_auto_generate_complete">ສ້າງ</string>
     <string name="vlog_auto_generate_composition">Xiaomi ProCut</string>
@@ -2098,6 +2190,7 @@
     <string name="vlog_filter_nanfa">Garrigue</string>
     <string name="vlog_filter_no_support_nums">ຂ້າມວິດີໂອທີ່ບໍ່ຮອງຮັບການແກ້ໄຂ (%1$d)</string>
     <string name="vlog_filter_nuanyang">ແສງແດດ</string>
+    <string name="vlog_filter_old_street">ຍ່າງຫຼິ້ນ</string>
     <string name="vlog_filter_origin">​ບໍ່​ມີ​</string>
     <string name="vlog_filter_qianyin">ອ່ອນໂຍນ</string>
     <string name="vlog_filter_qihuan">ແຟນຕາຊີ</string>
@@ -2105,6 +2198,7 @@
     <string name="vlog_filter_qingye">ກາງຄືນ</string>
     <string name="vlog_filter_rixi">ພາສເທວ</string>
     <string name="vlog_filter_romantic">ສະເໜ່</string>
+    <string name="vlog_filter_sea_breeze">ລົມທະເລ</string>
     <string name="vlog_filter_senshan">ໂມມີຈິ</string>
     <string name="vlog_filter_shenmi">ລຶກລັບ</string>
     <string name="vlog_filter_tag_atmosphere">ບັນ​ຍາ​ກາດ</string>
@@ -2124,6 +2218,7 @@
     <string name="vlog_float_view_ratio">ອັດຕາສ່ວນຮູບພາບ</string>
     <string name="vlog_fps">ອັດຕາເຟຣມ</string>
     <string name="vlog_improt_encode_video_error">ການເຂົ້າລະຫັດເກີດຂໍ້ຜິດພາດ. ລອງອີກຄັ້ງ.</string>
+    <string name="vlog_load_data_empty">ເລືອກລາຍການກ່ອນ</string>
     <string name="vlog_load_data_fail">​ບໍ່​ສາ​ມາດ​ໂຫຼດ​ຂໍ້ມູນ​ໄດ້</string>
     <string name="vlog_mi_clip">ໂປຣແກມຕັດຕໍ່ວິດີໂອ</string>
     <string name="vlog_min_resolution_hint">ຄວາມລະອຽດປັດຈຸບັນແມ່ນຕ່ຳທີ່ສຸດ</string>
@@ -2146,7 +2241,7 @@
     <string name="vlog_pro_not_support">ບໍ່ຮັບຮອງຄວາມລະອຽດນີ້</string>
     <string name="vlog_pro_ok">​ສັບ​ປ່ຽນ</string>
     <string name="vlog_pro_title">ໂປຣແກມຕັດຕໍ່ວິດີໂອ</string>
-    <string name="vlog_quality">ຄຸນະພາບວິດີໂອ</string>
+    <string name="vlog_quality">ຄຸນະພາບ</string>
     <string name="vlog_quality_bitrate_auto">ອັດຕະໂນມັດ</string>
     <string name="vlog_quality_bitrate_high">​ສູງ</string>
     <string name="vlog_quality_bitrate_low">ຕໍ່າ</string>
