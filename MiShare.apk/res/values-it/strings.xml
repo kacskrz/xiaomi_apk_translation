@@ -31,6 +31,7 @@
     <string name="afternoon">Pomeriggio</string>
     <string name="agree_desc">Concedi i permessi obbligatori sopra elencati.</string>
     <string name="am">AM</string>
+    <string name="apple">Apple</string>
     <string name="asus">Asus</string>
     <string name="asus_phone">Asus</string>
     <string name="blackshark">Black Shark</string>
@@ -79,7 +80,7 @@
     <string name="device_offline">"L'altro dispositivo è offline. Ricomincia."</string>
     <string name="device_status_failed">Impossibile inviare</string>
     <string name="device_status_sending">Invio…</string>
-    <string name="device_status_success">Invio completato</string>
+    <string name="device_status_success">Inviato</string>
     <string name="device_status_waiting">In attesa…</string>
     <string name="device_type_blackshark_phone">Black Shark</string>
     <string name="device_type_meizu_phone">Meizu</string>
@@ -95,7 +96,7 @@
     <string name="eras_ad">d.C.</string>
     <string name="eras_bc">a.C.</string>
     <string name="err_send_short_connect_error">Impossibile connettere</string>
-    <string name="err_send_short_remote_busy">Occupato</string>
+    <string name="err_send_short_remote_busy">Dispositivo occupato</string>
     <string name="err_send_short_remote_cancel">Annullata</string>
     <string name="err_send_short_remote_refuse">Rifiutato</string>
     <string name="err_send_short_remote_timeout">Nessuna risposta</string>
@@ -208,6 +209,13 @@
     <string name="friday_shortest">Ven</string>
     <string name="functions_are_being_developed">Questa funzionalità sarà presto disponibile! Resta sintonizzato!</string>
     <string name="global_help">Impossibile trovare il dispositivo</string>
+    <string name="global_imac">Il mio iMac</string>
+    <string name="global_ipad">Il mio iPad</string>
+    <string name="global_iphone">Il mio iPhone</string>
+    <string name="global_macbook">Il mio MacBook</string>
+    <string name="global_macmini">Il mio Mac mini</string>
+    <string name="global_macpro">Il mio Mac Pro</string>
+    <string name="global_macstudio">Il mio Mac Studio</string>
     <string name="global_pad">Il mio tablet</string>
     <string name="global_pc">Il mio laptop</string>
     <string name="global_phone">Il mio telefono</string>
@@ -219,18 +227,25 @@
     <string name="guide_title_1_lyra">Attiva Xiaomi Share per ricevere i file</string>
     <string name="guide_title_2">Seleziona il dispositivo per condividere</string>
     <string name="help">Impossibile trovare i dispositivi?</string>
-    <string name="help_content">"Se non riesci a trovare il dispositivo che cerchi, chiedi all'altra persona di attivare Xiaomi Share."</string>
     <string name="hide">Nascondi</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
     <string name="i_know">Ho capito</string>
+    <string name="imac">iMac</string>
     <string name="international_privacy_dialog_agree">Accetto</string>
     <string name="international_privacy_dialog_content">"Durante l'utilizzo di questa applicazione, necessitiamo di raccogliere le informazioni necessarie per poterci connettere ai dispositivi e trasferire i file. Se scegli di non fornire queste informazioni, potremmo non essere in grado di offrirti i servizi corrispondenti o di rispondere alle tue domande. Puoi inviare una richiesta di revoca del consenso in qualsiasi momento in Privacy > Revoca del consenso."</string>
     <string name="international_privacy_dialog_disagree">Rifiuto</string>
     <string name="international_privacy_dialog_title">Xiaomi Share</string>
+    <string name="ipad">iPad</string>
+    <string name="iphone">iPhone</string>
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
     <string name="location_enabled">Xiaomi Share ha attivato i servizi di localizzazione per trovare dispositivi nelle vicinanze</string>
+    <string name="mac">Mac</string>
+    <string name="mac_mini">Mac mini</string>
+    <string name="mac_pro">Mac Pro</string>
+    <string name="mac_studio">Mac Studio</string>
+    <string name="macbook">MacBook</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
     <string name="menu_item_permission_manager_and_use_guide_title">Dettagli sui permessi</string>
@@ -260,8 +275,8 @@
     <string name="mini_pc_xiaomi_device_model_name">Xiaomi Mini PC</string>
     <string name="mishare_folder_in_file_explorer">Gestore File e Xiaomi Share</string>
     <string name="mishare_service_channel_desc">Notifiche sui processi di Xiaomi Share</string>
-    <string name="mishare_settings_summary_international">"Xiaomi Share ti consente di inviare elementi in modalità wireless ad altri dispositivi nelle vicinanze.
-Questa funzionalità è supportata da OPPO, vivo, realme e altri produttori di smartphone. Puoi controllare l'elenco dei dispositivi supportati sul sito web ufficiale di qualsiasi marca selezionata."</string>
+    <string name="mishare_settings_summary_international">"Telefoni e tablet Xiaomi
+Altri dispositivi Android, come vivo, realme, OPPO e altri marchi potrebbero supportare questa funzione. Per maggiori dettagli, consulta il sito ufficiale di ciascun marchio."</string>
     <string name="mishare_state_protection">Attiva Xiaomi Share automaticamente</string>
     <string name="mishare_state_protection_summary">Riattiva Xiaomi Share automaticamente quando vengono riattivati Bluetooth o Wi-Fi</string>
     <string name="mishare_state_protection_summary_china">Riattiva Xiaomi Share automaticamente quando vengono riattivati Bluetooth o Wi-Fi</string>
@@ -437,18 +452,18 @@ Prima di utilizzare Xiaomi Share, devi concedere i seguenti permessi, e consenti
     <string name="send_files_to">Invia elementi a</string>
     <string name="send_files_to_remote_success">Invio degli elementi a %1$s completato</string>
     <string name="send_files_to_remote_success_title">Invio completato</string>
-    <string name="send_one_apk_dialog_desc">%2$d APK \"%3$s\" from %1$s</string>
-    <string name="send_one_apk_dialog_desc_received">Received %2$d APK \"%3$s\" from %1$s</string>
-    <string name="send_one_apk_dialog_desc_receiving">Receiving %2$d APK \"%3$s\" from %1$s</string>
-    <string name="send_one_audio_dialog_desc">%2$d audio file \"%3$s\" from %1$s</string>
-    <string name="send_one_audio_dialog_desc_received">Received %2$d audio file \"%3$s\" from %1$s</string>
-    <string name="send_one_audio_dialog_desc_receiving">Receiving %2$d audio file \"%3$s\" from %1$s</string>
-    <string name="send_one_file_dialog_desc">%2$d %3$s file \"%4$s\" from %1$s</string>
-    <string name="send_one_file_dialog_desc_received">Received %2$d %3$s file \"%4$s\" from %1$s</string>
-    <string name="send_one_file_dialog_desc_receiving">Receiving %2$d %3$s file \"%4$s\" from %1$s</string>
-    <string name="send_one_zip_dialog_desc">%2$d ZIP file \"%3$s\" from %1$s</string>
-    <string name="send_one_zip_dialog_desc_received">Received %2$d ZIP file \"%3$s\" from %1$s</string>
-    <string name="send_one_zip_dialog_desc_receiving">Receiving %2$d ZIP file \"%3$s\" from %1$s</string>
+    <string name="send_one_apk_dialog_desc">%2$d APK \"%3$s\" da %1$s</string>
+    <string name="send_one_apk_dialog_desc_received">Hai ricevuto %2$d APK \"%3$s\" da %1$s</string>
+    <string name="send_one_apk_dialog_desc_receiving">Hai ricevuto %2$d APK \"%3$s\" da %1$s</string>
+    <string name="send_one_audio_dialog_desc">%2$d file audio \"%3$s\" da %1$s</string>
+    <string name="send_one_audio_dialog_desc_received">Hai ricevuto %2$d file audio \"%3$s\" da %1$s</string>
+    <string name="send_one_audio_dialog_desc_receiving">Stai ricevendo %2$d file audio \"%3$s\" da %1$s</string>
+    <string name="send_one_file_dialog_desc">%2$d %3$s file \"%4$s\" da %1$s</string>
+    <string name="send_one_file_dialog_desc_received">Hai ricevuto %2$d %3$s file \"%4$s\" da %1$s</string>
+    <string name="send_one_file_dialog_desc_receiving">Stai ricevendo %2$d %3$s file \"%4$s\" da %1$s</string>
+    <string name="send_one_zip_dialog_desc">%2$d file ZIP \"%3$s\" da %1$s</string>
+    <string name="send_one_zip_dialog_desc_received">Hai ricevuto %2$d file ZIP \"%3$s\" da %1$s</string>
+    <string name="send_one_zip_dialog_desc_receiving">Stai ricevendo %2$d file ZIP \"%3$s\" da %1$s</string>
     <string name="send_successfully">Invio completato</string>
     <string name="sender_error">Impossibile inviare. Aspetta un minuto o due e riprova.</string>
     <string name="smartisan">Smartisan</string>
@@ -461,7 +476,7 @@ Prima di utilizzare Xiaomi Share, devi concedere i seguenti permessi, e consenti
     <string name="sub_title_mishare_switch_all">Puoi ricevere tutti i file</string>
     <string name="sub_title_mishare_switch_mine">"Puoi ricevere i file dai dispositivi che hanno effettuato l'accesso al tuo account"</string>
     <string name="sub_title_mishare_switch_none">Attiva Xiaomi Share per essere in grado di ricevere i file</string>
-    <string name="sub_title_turbo_mode">Trasferimenti super veloci tra telefoni e tablet Xiaomi. La rete verrà disconnessa durante il trasferimento.</string>
+    <string name="sub_title_turbo_mode">Quando questa funzione è attivata, la rete viene scollegata durante il trasferimento</string>
     <string name="sub_title_withdraw_privacy_policy_consent">"La revoca del consenso all'Informativa sulla privacy disattiverà anche Xiaomi Share"</string>
     <string name="success_receive_much_file_from_pc">Ricevuti più di %2$d file da %1$s. Tocca per visualizzare.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -534,14 +549,14 @@ Prima di utilizzare Xiaomi Share, devi concedere i seguenti permessi, e consenti
     <string name="today">Oggi</string>
     <string name="tomorrow">Domani</string>
     <string name="transfer_intercept_to_remote">Impossibile inviare: %1$s</string>
-    <string name="transfer_to_different_account_summary">Assicurati prima di tutto che Xiaomi Share sia attivato nel Centro di controllo. Il tuo dispositivo sarà rilevabile dagli altri per %d minuti.</string>
-    <string name="transfer_to_different_account_title">Scoprire i dispositivi con account diversi</string>
-    <string name="transfer_to_pc_summary_new_plus"><Data>Xiaomi PC Manager ora supporta Xiaomi Share! Puoi trovare un elenco dei modelli di computer assistiti &lt;a href=%1$s>qui&lt;/a>.</Data></string>
-    <string name="transfer_to_pc_title">Invia file ai computer</string>
+    <string name="transfer_to_different_account_summary">Entrambi i dispositivi (Xiaomi e altri dispositivi Android) devono attivare Xiaomi Share nel Centro di controllo. Potrai ricevere file da chiunque per %d minuti.</string>
+    <string name="transfer_to_different_account_title">Scoprire telefoni e tablet</string>
+    <string name="transfer_to_pc_summary_new_plus"><Data>Assicurati che Xiaomi PC Manager sia installato, quindi attiva Xiaomi Share nel Centro di controllo per ricevere i file. Puoi trovare un elenco dei modelli di computer supportati &lt;a href=%1$s>qui&lt;/a>.</Data></string>
+    <string name="transfer_to_pc_title">Scoprire computer</string>
     <string name="transfer_to_phone_summary">"Attiva Xiaomi Share tramite il comando nell'area delle notifiche per visualizzare i Dispositivi nelle vicinanze quando condividi una foto o un file. Tocca il dispositivo del destinatario per inviare l'elemento condiviso."</string>
     <string name="transfer_to_phone_summary_new">Attiva Xiaomi Share nel Centro di controllo per inviare e ricevere elementi. Una volta attivato, puoi condividere elementi con i dispositivi vicini per %d minuti prima che si disattivi automaticamente.</string>
     <string name="transfer_to_phone_title">Invia file ai telefoni</string>
-    <string name="transfer_to_same_account_summary">I dispositivi con lo stesso account dovrebbero essere facilmente rilevabili. Assicurati che Xiaomi Share sia attivo nelle Impostazioni.</string>
+    <string name="transfer_to_same_account_summary">"Per trasferire oggetti a dispositivi con accesso al proprio account, assicurarsi innanzitutto che la versione del sistema dell'altro dispositivo sia aggiornata a Xiaomi HyperOS o successiva e che Xiaomi Share sia aggiornato alla versione 3.0.0 o successiva. Impostare lo stato di ricezione su “Da questo account”. Altrimenti, dovrete attivare Xiaomi Share nel Centro di controllo per poter ricevere file da chiunque per %d minuti."</string>
     <string name="transfer_to_same_account_title">Scoprire i dispositivi con lo stesso account</string>
     <string name="transfer_to_summary">"Attiva Xiaomi Share tramite il comando nell'area delle notifiche per visualizzare i Dispositivi nelle vicinanze quando condividi una foto o un file. Tocca il dispositivo del destinatario per inviare l'elemento condiviso."</string>
     <string name="transfer_to_summary_new">Attiva Xiaomi Share nel Centro di controllo per inviare e ricevere elementi. Una volta attivato, puoi condividere elementi con i dispositivi vicini per %d minuti prima che si disattivi automaticamente.</string>

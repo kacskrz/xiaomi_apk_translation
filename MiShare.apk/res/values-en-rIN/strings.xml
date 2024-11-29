@@ -31,6 +31,7 @@
     <string name="afternoon">Afternoon</string>
     <string name="agree_desc">Grant the mandatory permissions listed above.</string>
     <string name="am">AM</string>
+    <string name="apple">Apple</string>
     <string name="asus">Asus</string>
     <string name="asus_phone">Asus</string>
     <string name="blackshark">Black Shark</string>
@@ -79,7 +80,7 @@
     <string name="device_offline">The other device is offline. Start over.</string>
     <string name="device_status_failed">"Couldn't send"</string>
     <string name="device_status_sending">Sending…</string>
-    <string name="device_status_success">Sent successfully</string>
+    <string name="device_status_success">Sent</string>
     <string name="device_status_waiting">Waiting…</string>
     <string name="device_type_blackshark_phone">Black Shark</string>
     <string name="device_type_meizu_phone">Meizu</string>
@@ -95,7 +96,7 @@
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
     <string name="err_send_short_connect_error">"Couldn't connect"</string>
-    <string name="err_send_short_remote_busy">Busy</string>
+    <string name="err_send_short_remote_busy">Device is busy</string>
     <string name="err_send_short_remote_cancel">Canceled</string>
     <string name="err_send_short_remote_refuse">Rejected</string>
     <string name="err_send_short_remote_timeout">No response</string>
@@ -208,6 +209,13 @@
     <string name="friday_shortest">Fri</string>
     <string name="functions_are_being_developed">This feature will be available soon. Stay tuned!</string>
     <string name="global_help">"Can't find device"</string>
+    <string name="global_imac">My iMac</string>
+    <string name="global_ipad">My iPad</string>
+    <string name="global_iphone">My iPhone</string>
+    <string name="global_macbook">My MacBook</string>
+    <string name="global_macmini">My Mac mini</string>
+    <string name="global_macpro">My Mac Pro</string>
+    <string name="global_macstudio">My Mac Studio</string>
     <string name="global_pad">My tablet</string>
     <string name="global_pc">My laptop</string>
     <string name="global_phone">My phone</string>
@@ -219,18 +227,25 @@
     <string name="guide_title_1_lyra">Turn on Xiaomi Share to receive files</string>
     <string name="guide_title_2">Select device to share</string>
     <string name="help">"Can't find devices?"</string>
-    <string name="help_content">"If you can't find the device you need, ask the other person to turn on Xiaomi Share."</string>
     <string name="hide">Hide</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
     <string name="i_know">Got it</string>
+    <string name="imac">iMac</string>
     <string name="international_privacy_dialog_agree">Agree</string>
     <string name="international_privacy_dialog_content">"While you're using this app, we need to collect necessary information to be able to connect to devices and transfer files. If you choose not to provide this information, we may not be able to provide you with corresponding services or respond to your questions. You can submit a request to withdraw your consent at any time in Privacy > Withdrawal of consent."</string>
     <string name="international_privacy_dialog_disagree">"Don't agree"</string>
     <string name="international_privacy_dialog_title">Xiaomi Share</string>
+    <string name="ipad">iPad</string>
+    <string name="iphone">iPhone</string>
     <string name="lenovo">Lenovo</string>
     <string name="lenovo_phone">Lenovo</string>
     <string name="location_enabled">Xiaomi Share turned on location services to find devices nearby</string>
+    <string name="mac">Mac</string>
+    <string name="mac_mini">Mac mini</string>
+    <string name="mac_pro">Mac Pro</string>
+    <string name="mac_studio">Mac Studio</string>
+    <string name="macbook">MacBook</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
     <string name="menu_item_permission_manager_and_use_guide_title">Permissions details</string>
@@ -260,8 +275,8 @@
     <string name="mini_pc_xiaomi_device_model_name">Xiaomi Mini PC</string>
     <string name="mishare_folder_in_file_explorer">File Manager > Xiaomi Share</string>
     <string name="mishare_service_channel_desc">Notifications about Xiaomi Share processes</string>
-    <string name="mishare_settings_summary_international">"Xiaomi Share allows you to send items wirelessly to other nearby devices.
-This feature is supported by OPPO, vivo, realme, and other smartphone manufacturers. You can check the list of supported devices on the official website of any selected brand."</string>
+    <string name="mishare_settings_summary_international">"Xiaomi phones and tablets
+More Android devices: vivo, realme, OPPO, and other brands may support this feature. Refer to the official website of each brand for details."</string>
     <string name="mishare_state_protection">Turn on Xiaomi Share automatically</string>
     <string name="mishare_state_protection_summary">Turn Xiaomi Share back on automatically when Bluetooth or Wi-Fi are turned back on</string>
     <string name="mishare_state_protection_summary_china">Turn Xiaomi Share back on automatically when Bluetooth or WLAN are turned back on</string>
@@ -461,7 +476,7 @@ Before using Xiaomi Share, you must grant the following permissions, as well as 
     <string name="sub_title_mishare_switch_all">You can receive all files</string>
     <string name="sub_title_mishare_switch_mine">You can receive files from devices signed in to your account</string>
     <string name="sub_title_mishare_switch_none">Turn on Xiaomi Share to be able to receive files</string>
-    <string name="sub_title_turbo_mode">Super fast transfers between Xiaomi phones and tablets. The network will be disconnected during the transfer.</string>
+    <string name="sub_title_turbo_mode">When this feature is turned on, the network will be disconnected during the transfer</string>
     <string name="sub_title_withdraw_privacy_policy_consent">Withdrawing consent to the Privacy Policy will also turn off Xiaomi Share</string>
     <string name="success_receive_much_file_from_pc">Received more than %2$d files from %1$s. Tap to view.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -534,14 +549,14 @@ Before using Xiaomi Share, you must grant the following permissions, as well as 
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="transfer_intercept_to_remote">"Couldn't send: %1$s"</string>
-    <string name="transfer_to_different_account_summary">Make sure Xiaomi Share is turned on in Control center first. Your device will be discoverable to others for %d minutes.</string>
-    <string name="transfer_to_different_account_title">Discovering devices under different accounts</string>
-    <string name="transfer_to_pc_summary_new_plus"><Data>Xiaomi PC Manager now supports Xiaomi Share! You can find a list of supported computer models &lt;a href=%1$s>here&lt;/a>.</Data></string>
-    <string name="transfer_to_pc_title">Send files to computers</string>
+    <string name="transfer_to_different_account_summary">"Both devices (Xiaomi and other Android devices) need to turn on Xiaomi Share in Control center. You'll be able to receive files from anyone for %d minutes."</string>
+    <string name="transfer_to_different_account_title">Discovering phones and tablets</string>
+    <string name="transfer_to_pc_summary_new_plus"><Data>Make sure that Xiaomi PC Manager is downloaded, then turn on Xiaomi Share in Control center to be able to receive files. You can find a list of supported computer models &lt;a href=%1$s>here&lt;/a>.</Data></string>
+    <string name="transfer_to_pc_title">Discovering computers</string>
     <string name="transfer_to_phone_summary">"Turn on Xiaomi Share using the toggle in the Notification shade. After that, you'll be able to see nearby devices when you start sharing a photo or a file. Tap the recipient's device to send the item you're sharing."</string>
     <string name="transfer_to_phone_summary_new">Turn on Xiaomi Share in Control center to be able to easily send and receive items. After turning it on, you can share items with nearby devices for %d minutes before it turns off automatically.</string>
     <string name="transfer_to_phone_title">Send files to phones</string>
-    <string name="transfer_to_same_account_summary">Devices under the same account should be easily discoverable. Make sure Xiaomi Share is turned on in Settings.</string>
+    <string name="transfer_to_same_account_summary">"To transfer items to devices signed in to your account, first make sure the other device's system version is updated to Xiaomi HyperOS or later, and Xiaomi Share is updated to version 3.0.0 or later. Set the receiving status to \"From this account\". Otherwise, you'll have to turn on Xiaomi Share in Control center to be able to receive files from anyone for %d minutes."</string>
     <string name="transfer_to_same_account_title">Discovering devices under the same account</string>
     <string name="transfer_to_summary">"Turn on Xiaomi Share using the toggle in the Notification shade. After that, you'll be able to see nearby devices when you start sharing a photo or a file. Tap the recipient's device to send the item you're sharing."</string>
     <string name="transfer_to_summary_new">Turn on Xiaomi Share in Control center to be able to easily send and receive items. After turning it on, you can share items with nearby devices for %d minutes before it turns off automatically.</string>
