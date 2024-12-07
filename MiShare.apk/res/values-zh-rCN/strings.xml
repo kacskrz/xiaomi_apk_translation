@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Redmi_Pad_Pro">Redmi平板Pro</string>
+    <string name="Redmi_Pad_Pro_5G">Redmi平板Pro 5G</string>
+    <string name="Xiaomi_Civi_3">Xiaomi Civi 3</string>
+    <string name="Xiaomi_Civi_4_Pro">Xiaomi Civi 4 Pro</string>
+    <string name="Xiaomi_Pad_6S_Pro">Xiaomi平板6S Pro 12.4</string>
     <string name="abc_action_bar_home_description">转到首页</string>
     <string name="abc_action_bar_up_description">转到上一层级</string>
     <string name="abc_action_menu_overflow_description">更多选项</string>
@@ -82,7 +87,7 @@
     <string name="device_offline">对方设备已下线，请重新选择发送</string>
     <string name="device_status_failed">发送失败</string>
     <string name="device_status_sending">正在发送</string>
-    <string name="device_status_success">发送成功</string>
+    <string name="device_status_success">已完成</string>
     <string name="device_status_waiting">等待中</string>
     <string name="device_type_blackshark_phone">黑鲨手机</string>
     <string name="device_type_meizu_phone">魅族手机</string>
@@ -99,10 +104,11 @@
     <string name="eras_ad">公元</string>
     <string name="eras_bc">公元前</string>
     <string name="err_send_short_connect_error">连接异常</string>
-    <string name="err_send_short_remote_busy">设备被占用</string>
+    <string name="err_send_short_remote_busy">设备正忙</string>
     <string name="err_send_short_remote_cancel">对方取消</string>
     <string name="err_send_short_remote_refuse">对方拒绝</string>
     <string name="err_send_short_remote_timeout">未响应</string>
+    <string name="err_send_short_send_cancel">发送已取消</string>
     <string name="error_ap_in_use">热点使用状态下无法发送文件至其他设备</string>
     <string name="error_ap_or_screen_already_hosting">投屏或热点使用状态下无法发送文件至其他设备</string>
     <string name="error_ble_connect_failure">接收端蓝牙不可连接，请先保持接收端处于屏幕点亮状态</string>
@@ -211,16 +217,8 @@
     <string name="friday_shortest">五</string>
     <string name="functions_are_being_developed">功能正在开发，敬请期待</string>
     <string name="global_help">找不到设备</string>
-    <string name="global_imac">我的iMac</string>
-    <string name="global_ipad">我的iPad</string>
-    <string name="global_iphone">我的iPhone</string>
-    <string name="global_macbook">我的MacBook</string>
-    <string name="global_macmini">我的Mac mini</string>
-    <string name="global_macpro">我的Mac Pro</string>
-    <string name="global_macstudio">我的Mac Studio</string>
-    <string name="global_pad">我的平板</string>
-    <string name="global_pc">我的电脑</string>
-    <string name="global_phone">我的手机</string>
+    <string name="global_my">"我的
+%1$s"</string>
     <string name="go_to_settings">去设置</string>
     <string name="guide_summary_1">接收方在控制中心开启互传功能，让发送方可见</string>
     <string name="guide_summary_1_lyra">接收所有人文件，可在控制中心快捷开启</string>
@@ -229,7 +227,6 @@
     <string name="guide_title_1_lyra">接收文件开启互传</string>
     <string name="guide_title_2">选择接收方</string>
     <string name="help">找不到设备？</string>
-    <string name="help_content">如找不到设备，请要求对方下拉通知栏，在快捷开关中打开小米互传开关</string>
     <string name="hide">隐藏</string>
     <string name="hisense">海信</string>
     <string name="hisense_phone">海信手机</string>
@@ -273,16 +270,26 @@
     <string name="mi_pad_5">Xiaomi平板5</string>
     <string name="mi_pad_5_pro">Xiaomi平板5 Pro</string>
     <string name="mi_pad_5_pro_5g">Xiaomi平板5 Pro 5G</string>
+    <string name="mi_pad_6">Xiaomi平板6</string>
+    <string name="mi_pad_6_pro">Xiaomi平板6 Pro</string>
     <string name="mi_share_turbo_mode">极速传输模式</string>
     <string name="midnight">半夜</string>
     <string name="mini_pc_xiaomi_device_model_name">Xiaomi迷你主机</string>
+    <string name="mishare_device_find_conditions_comment">设备发现条件</string>
+    <string name="mishare_device_version_comment">*同一小米账号设备自动信任、自动接收。此特性需升级系统版本至小米澎湃OS及以上、“小米互传”版本为3.0.0及以上。</string>
     <string name="mishare_folder_in_file_explorer">文件管理器-小米互传</string>
     <string name="mishare_service_channel_desc">小米互传服务运行通知</string>
-    <string name="mishare_settings_summary_international">"开启小米互传后，可在分享图片、文件时自动搜索周围的设备并快速发送。
-此外，OPPO，vivo，realme等其他品牌的手机也将陆续支持本功能，支持机型等详情以各品牌官网为准。"</string>
+    <string name="mishare_settings_summary_international">"小米手机、小米平板
+更多Android设备：vivo、realme、OPPO等其他品牌也将陆续支持本功能，支持详情以各品牌官网为准"</string>
     <string name="mishare_state_protection">互传状态保护</string>
     <string name="mishare_state_protection_summary">关闭后，互传功能将在Wi-Fi及蓝牙关闭时一同关闭，且不会自动恢复</string>
     <string name="mishare_state_protection_summary_china">关闭后，互传功能将在WLAN及蓝牙关闭时一同关闭，且不会自动恢复</string>
+    <string name="mishare_support_device_comment">支持设备</string>
+    <string name="mishare_support_device_summary">"小米手机、小米平板、小米笔记本
+更多Android厂商设备：vivo、realme、OPPO、黑鲨、魅族、一加、中兴、海信、华硕、ROG、三星、联想、摩托罗拉、蔚来等"</string>
+    <string name="mishare_support_device_summary_ios">"小米手机、小米平板、小米笔记本
+Apple设备：iPhone、iPad、Mac
+更多Android厂商设备：vivo、realme、OPPO、黑鲨、魅族、一加、中兴、海信、华硕、ROG、三星、联想、摩托罗拉、蔚来等"</string>
     <string name="mishare_transefer_channel_desc">小米互传文件发送和文件接收通知</string>
     <string name="miuix_access_state_desc">选中</string>
     <string name="miuix_alphabet_indexer_name">索引条</string>
@@ -427,6 +434,8 @@
     <string name="redmi_k40">Redmi K40</string>
     <string name="redmi_k40_g">Redmi K40 游戏增强版</string>
     <string name="redmi_k40_pro">Redmi K40 Pro</string>
+    <string name="redmi_k50_ultra">Redmi K50 Ultra</string>
+    <string name="redmi_k70">Redmi K70</string>
     <string name="redmi_note_10">Redmi Note 10</string>
     <string name="redmi_note_10_pro">Redmi Note 10 Pro</string>
     <string name="redmi_note_5">Redmi Note5</string>
@@ -473,6 +482,12 @@
     <string name="send_one_zip_dialog_desc_receiving">正在接收来自%1$s的%2$d个压缩包文件“%3$s”</string>
     <string name="send_successfully">发送成功</string>
     <string name="sender_error">发送出现错误，请稍后重试</string>
+    <string name="share_canceled">传输已取消</string>
+    <string name="share_complete">传输完成</string>
+    <string name="share_failed">传输失败</string>
+    <string name="share_notification_receive_confirm_content">来自%1$s</string>
+    <string name="share_refuse">传输已拒绝</string>
+    <string name="share_send_notification_describe">接收设备：%1$s</string>
     <string name="smartisan">坚果</string>
     <string name="smartisan_phone">坚果手机</string>
     <string name="solar_term_autumn_begins">立秋</string>
@@ -510,8 +525,9 @@
     <string name="sub_title_mishare_switch">开启功能%d分钟后将自动关闭</string>
     <string name="sub_title_mishare_switch_all">当前可接收所有人文件</string>
     <string name="sub_title_mishare_switch_mine">当前仅接收同账号设备文件</string>
+    <string name="sub_title_mishare_switch_mine_desc">接收状态为“仅同账号设备”时，需确认对方系统版本为小米澎湃OS及以上，且“小米互传”版本为3.0.0及以上</string>
     <string name="sub_title_mishare_switch_none">开启互传服务，允许设备接收文件</string>
-    <string name="sub_title_turbo_mode">为小米手机和平板间的文件传输提供极速体验，开启后，传输任务期间将暂时断网</string>
+    <string name="sub_title_turbo_mode">开启后，传输期间将暂时断网</string>
     <string name="sub_title_withdraw_privacy_policy_consent">同时关闭小米互传</string>
     <string name="success_receive_much_file_from_pc">成功接收：%1$s发来的超过%2$d个文件，点击查看</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
@@ -584,12 +600,15 @@
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
     <string name="transfer_intercept_to_remote">发送失败：%1$s</string>
-    <string name="transfer_to_different_account_summary">需要确保接收设备在控制中心开启互传开关，%d分钟内允许所有人发现</string>
-    <string name="transfer_to_different_account_title">如何发现其他账号手机、平板</string>
-    <string name="transfer_to_pc_summary_new_plus"><Data>需要确保已下载小米电脑管家，且在控制中心开启互传开关，允许所有人发现。电脑支持机型见&lt;a href=%1$s>小米电脑管家帮助页&lt;/a></Data></string>
-    <string name="transfer_to_pc_title">如何发现其他账号电脑</string>
+    <string name="transfer_to_different_account_summary">小米及其他Android设备需要确保对方在控制中心开启互传开关，%d分钟内可接收所有人文件</string>
+    <string name="transfer_to_different_account_summary_ios" formatted="false">"%d. 小米及其他Android设备需要确保对方在控制中心开启互传开关，%d分钟内可接收所有人文件
+%d. iPhone、iPad需打开“小米互联服务”，并确保双端设备处于同一局域网"</string>
+    <string name="transfer_to_different_account_title">如何发现手机、平板</string>
+    <string name="transfer_to_pc_summary_new_plus"><Data>小米笔记本需下载“小米电脑管家”，且在控制中心开启互传开关，可接收所有人文件。电脑支持机型见&lt;a href=%1$s>小米电脑管家帮助页&lt;/a></Data></string>
+    <string name="transfer_to_pc_summary_new_plus_ios"><Data>&lt;xliff:g id=mishare_ios_1 refersto=1>%1$d&lt;/xliff:g>. 小米笔记本需下载“小米电脑管家”，且在控制中心开启互传开关，可接收所有人文件。电脑支持机型见&lt;a href=%2$s>小米电脑管家帮助页&lt;/a>&lt;br>&lt;xliff:g id=mishare_ios_2 refersto=2>%3$d&lt;/xliff:g>. Mac需下载并打开“小米互联服务”，并确保双端设备处于同一局域网</Data></string>
+    <string name="transfer_to_pc_title">如何发现电脑</string>
     <string name="transfer_to_phone_title">手机互传</string>
-    <string name="transfer_to_same_account_summary">默认情况下，同一小米账号设备之间可无障碍互传。若未发现同账号设备，请确认已开启设置页互传服务开关</string>
+    <string name="transfer_to_same_account_summary">同一小米账号设备之间可无障碍互传。需要确保对方系统版本为小米澎湃OS及以上且“小米互传”版本为3.0.0及以上，设置页“小米互传”接收状态为“仅同账号设备”。否则，仍需前往“控制中心”开启“小米互传”，%d分钟内可接收所有人文件。</string>
     <string name="transfer_to_same_account_title">如何发现同账号设备</string>
     <string name="tuesday">星期二</string>
     <string name="tuesday_short">周二</string>
@@ -638,6 +657,11 @@
     <string name="xiaomi_12">Xiaomi 12</string>
     <string name="xiaomi_12_pro">Xiaomi 12 Pro</string>
     <string name="xiaomi_12x">Xiaomi 12X</string>
+    <string name="xiaomi_13">Xiaomi 13</string>
+    <string name="xiaomi_13t">Xiaomi 13T</string>
+    <string name="xiaomi_14">Xiaomi 14</string>
+    <string name="xiaomi_14_pro">Xiaomi 14 Pro</string>
+    <string name="xiaomi_14_ultra">Xiaomi 14 Ultra</string>
     <string name="xiaomi_6">Xiaomi 6</string>
     <string name="xiaomi_6x">Xiaomi 6X</string>
     <string name="xiaomi_8">Xiaomi 8</string>
@@ -653,6 +677,7 @@
     <string name="xiaomi_cc_9_pro">Xiaomi CC9 Pro</string>
     <string name="xiaomi_cc_9e">Xiaomi CC 9e</string>
     <string name="xiaomi_civi">Xiaomi Civi</string>
+    <string name="xiaomi_civi2">Xiaomi Civi 2</string>
     <string name="xiaomi_max_3">Xiaomi MAX3</string>
     <string name="xiaomi_mix_2">Xiaomi MIX2</string>
     <string name="xiaomi_mix_2s">Xiaomi MIX2S</string>
