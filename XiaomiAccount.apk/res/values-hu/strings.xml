@@ -39,7 +39,7 @@
     <string name="account_crop_user_avatar">Kép vágása</string>
     <string name="account_empty_user_name">Írja be a Xiaomi Fiók felhasználónevét</string>
     <string name="account_error_all_space_user_name">Név nem tartalmazhat csak szóköz karaktert</string>
-    <string name="account_error_invalid_user_name">A név nem tartalmazhat &lt;, >, vagy / karaktereket</string>
+    <string name="account_error_invalid_user_name">A név nem tartalmazhat \"&lt;\", \">\", \"/\" vagy \"%\" karaktereket</string>
     <string name="account_error_user_name">A beírt név érvénytelen</string>
     <string name="account_global_region">Külföldi</string>
     <string name="account_invalid_user_avatar">Ez a fénykép érvénytelen formátumú. Próbálkozzon egy másikkal.</string>
@@ -225,7 +225,7 @@ Mostantól a csatlakoztatott %s-fiókkal is be tud lépni Xiaomi Fiókjába."</s
     <string name="fido2_err_service_exception">Kiszolgálóhiba. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="fido2_err_timeout">A kérésre rendelkezésre álló idő lejárt. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="fido2_fingerprint_auth">Hitelesítés ujjlenyomattal</string>
-    <string name="fido2_fingerprint_auth_desc">&lt;Data>Használja az ujjlenyomatát Xiaomi fiükjába való bejelentkezéssel, és hitelesítse személyazonoss &lt;a href=>Bővebben&lt;/a>&lt;/Data></string>
+    <string name="fido2_fingerprint_auth_desc"><Data>Használja az ujjlenyomatát Xiaomi fiükjába való bejelentkezéssel, és hitelesítse személyazonoss &lt;a href=>Bővebben&lt;/a></Data></string>
     <string name="fido2_fingerprint_changed_and_afresh_register">Az ujjlenyomat megváltozott a készüléken. Ellenőrizze a fiókját ismét, hogy be tudja kapcsolni az ujjlenyomatos azonosítást.</string>
     <string name="fido2_fingerprint_verify">Hitelesítés ujjlenyomattal</string>
     <string name="fido2_psw_changed_and_afresh_register">A jelszava megváltozott. Ellenőrizze újra ujjlenyomatát.</string>
@@ -750,7 +750,7 @@ Mostantól a csatlakoztatott %s-fiókkal is be tud lépni Xiaomi Fiókjába."</s
     <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
     <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%3$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
     <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_link">&lt;Data>Elovastam és elfogadom a Xiaomi &lt;a href=%1$s>Felhasználói megállapodását&lt;/a> és &lt;a href=%2$s>Adatvédelmi szabályzatát&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_link"><Data>Elovastam és elfogadom a Xiaomi &lt;a href=%1$s>Felhasználói megállapodását&lt;/a> és &lt;a href=%2$s>Adatvédelmi szabályzatát&lt;/a>.</Data></string>
     <string name="passport_user_agreement_required">Felhasználói Szerződés (kötelező)</string>
     <string name="passport_user_avatar_update_title">Profilkép módosítása</string>
     <string name="passport_user_avatar_uploading">Egy pillanat…</string>
@@ -758,7 +758,7 @@ Mostantól a csatlakoztatott %s-fiókkal is be tud lépni Xiaomi Fiókjába."</s
     <string name="passport_user_name_phone_number">Telefonszám</string>
     <string name="passport_user_password_hint">Jelszó</string>
     <string name="passport_user_reg_region">Ország/Régió</string>
-    <string name="passport_vcode_email_send_prompt">&lt;Data>Ellenőrzőkódját a következő címre küldtük el: &lt;a href=>&lt;xliff:g id=email_address>%s&lt;/xliff:g>&lt;/a>&lt;/Data></string>
+    <string name="passport_vcode_email_send_prompt"><Data>Ellenőrzőkódját a következő címre küldtük el: &lt;a href=>&lt;xliff:g id=email_address>%s&lt;/xliff:g>&lt;/a></Data></string>
     <string name="passport_vcode_notification_title">Az ellenőrzés befejeződött</string>
     <string name="passport_vcode_prompt_long">Írja be az ellenőrző kódot</string>
     <string name="passport_vcode_sms_send_prompt">Ellenőrző kód küldése: %s</string>
@@ -804,9 +804,9 @@ Szkennelje be az alábbi kódot egy Xiaomi alkalmazással."</string>
     <string name="qr_code_login_is_reloading">Egy pillanat…</string>
     <string name="qr_code_login_load_failed">QR-kód újrabetöltése…</string>
     <string name="qr_code_login_userid_hint">Xiaomi Fiók: %s</string>
-    <string name="qrcode_login_entry_text">&lt;Data>Másik készüléken van bejelentkezve? Használja a &lt;a href=>gyors bejelentkezést&lt;/a>&lt;/Data></string>
-    <string name="qrcode_login_load_refresh">&lt;Data>A QR-kód lejárt. Koppintson a &lt;a href=>frissítéshez&lt;/a>.&lt;/Data></string>
-    <string name="qrcode_login_load_retry">&lt;Data>Betöltés sikertelen &lt;a href=>Próbálja újra&lt;/a>.&lt;/Data></string>
+    <string name="qrcode_login_entry_text"><Data>Másik készüléken van bejelentkezve? Használja a &lt;a href=>gyors bejelentkezést&lt;/a></Data></string>
+    <string name="qrcode_login_load_refresh"><Data>A QR-kód lejárt. Koppintson a &lt;a href=>frissítéshez&lt;/a>.</Data></string>
+    <string name="qrcode_login_load_retry"><Data>Betöltés sikertelen &lt;a href=>Próbálja újra&lt;/a>.</Data></string>
     <string name="qrcode_login_message">Szkenneljen a Mi AI Scannerrel vagy egy másik Xiaomi alkalmazással a Xiaomi fiókjába való bejelentkezéshez</string>
     <string name="qrcode_login_title">Beolvasás a bejelentkezéshez</string>
     <string name="range_end">Tartomány vége</string>
@@ -955,24 +955,24 @@ Szkennelje be az alábbi kódot egy Xiaomi alkalmazással."</string>
     <string name="user_agreement_wlan_permission_title_china">WLAN be- és kikapcsolása</string>
     <string name="user_avatar_update_title">Profilkép módosítása</string>
     <string name="user_avatar_uploading">Egy pillanat…</string>
-    <string name="user_license_with_3rd_app">&lt;Data>A Xiaomi Fiókkal történő bejelentkezéssel megerősítem, hogy elolvastam és elfogadtam a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelveket&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelveit&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_mobile">"&lt;Data>Elolvastam és elfogadom az alkalmazás &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%5$s>a China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
-&lt;/Data>"</string>
-    <string name="user_license_with_3rd_app_no_operator">"&lt;Data>Elolvastam és elfogadom az alkalmazás &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>.
-&lt;/Data>"</string>
-    <string name="user_license_with_3rd_app_telcom">"&lt;Data>Elolvastam és elfogadom az alkalmazás &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%5$s>a China Telecom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
-&lt;/Data>"</string>
-    <string name="user_license_with_3rd_app_unicom">"&lt;Data>Elolvastam és elfogadom az alkalmazás &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%5$s>a China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
-&lt;/Data>"</string>
-    <string name="user_license_with_out_3rd_app_no_operator">"&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>.
-&lt;/Data>"</string>
-    <string name="user_license_without_3rd_app">&lt;Data>Elolvastam és elfogadtam a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelveit&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_mobile">"&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%3$s>a China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
-&lt;/Data>"</string>
-    <string name="user_license_without_3rd_telcom">"&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%3$s>a China Telecom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
-&lt;/Data>"</string>
-    <string name="user_license_without_3rd_unicom">"&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%3$s>a China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
-&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app"><Data>A Xiaomi Fiókkal történő bejelentkezéssel megerősítem, hogy elolvastam és elfogadtam a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelveket&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelveit&lt;/a>.</Data></string>
+    <string name="user_license_with_3rd_app_mobile"><Data>"Elolvastam és elfogadom az alkalmazás &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%5$s>a China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
+"</Data></string>
+    <string name="user_license_with_3rd_app_no_operator"><Data>"Elolvastam és elfogadom az alkalmazás &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>.
+"</Data></string>
+    <string name="user_license_with_3rd_app_telcom"><Data>"Elolvastam és elfogadom az alkalmazás &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%5$s>a China Telecom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
+"</Data></string>
+    <string name="user_license_with_3rd_app_unicom"><Data>"Elolvastam és elfogadom az alkalmazás &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%5$s>a China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
+"</Data></string>
+    <string name="user_license_with_out_3rd_app_no_operator"><Data>"Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>.
+"</Data></string>
+    <string name="user_license_without_3rd_app"><Data>Elolvastam és elfogadtam a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelveit&lt;/a>.</Data></string>
+    <string name="user_license_without_3rd_mobile"><Data>"Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%3$s>a China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
+"</Data></string>
+    <string name="user_license_without_3rd_telcom"><Data>"Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%3$s>a China Telecom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
+"</Data></string>
+    <string name="user_license_without_3rd_unicom"><Data>"Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint &lt;a href=%3$s>a China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.
+"</Data></string>
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>
     <string name="wednesday">Szerda</string>
