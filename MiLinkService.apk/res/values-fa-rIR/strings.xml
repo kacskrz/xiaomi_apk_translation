@@ -33,6 +33,7 @@
     <string name="appcirculate_fragment_circulate_device_list_button_confirm">جستجوی دوباره</string>
     <string name="appcirculate_fragment_circulate_device_list_text_none"><u>دستگاه‌های خود را نمی‌یابید؟</u></string>
     <string name="appcirculate_fragment_circulate_device_list_text_searching">درحال جستجوی دستگاه‌های نزدیک…</string>
+    <string name="appcirculate_toast_app_max_screen_count">پنجره‌های بیشتری باز نمی‌شوند</string>
     <string name="appcirculate_toast_app_notstall">انتقال داده نشد. این برنامه روی گوشی نصب نیست.</string>
     <string name="appcirculate_toast_busy">به نظر می‌رسد دستگاه دیگر درحال انتقال فایل‌هاست. صبر کرده تا انتقال فایل کامل شده و سپس دوباره تلاش کنید.</string>
     <string name="appcirculate_toast_cancel">لغو شد</string>
@@ -45,6 +46,8 @@
     <string name="appcirculate_toast_not_support_device_phone">"Can't open this app on phone"</string>
     <string name="appcirculate_toast_not_support_device_tv">این برنامه در تلویزیون‌ها باز نمی‌شود</string>
     <string name="appcirculate_toast_not_support_device_tv_connected">دستگاه پیش‌تر به این تلویزیون وصل شده است</string>
+    <string name="appcirculate_toast_pad_connection_car">تبلت به وسیله نقلیه متصل است</string>
+    <string name="appcirculate_toast_phone_connection_car">گوشی به وسیله نقلیه متصل است</string>
     <string name="appcirculate_toast_success_1">با موفقیت تعویض شد</string>
     <string name="appcirculate_toast_success_2">درحال بازتاباندن در حالت خصوصی…</string>
     <string name="appcirculate_toast_success_3">درحال بازتاباندن…</string>
@@ -462,6 +465,9 @@
     <string name="dialog_select_tv">انتخاب دستگاه (%1$d)</string>
     <string name="dialog_show_help">راهنما</string>
     <string name="disconnect">توقف بازتاباندن</string>
+    <string name="disconnect_access">قطع اتصال</string>
+    <string name="dist_file_notification_subtitle">\"%s\"می‌خواهد به فایل‌های این دستگاه دسترسی داشته باشد</string>
+    <string name="dist_file_notification_title">دسترسی به فایل‌های بین دستگاهی</string>
     <string name="dp_casting_start_hint">متصل از طریق کابل. بازتاباندن پایان یافت.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">‏Wi-Fi دوگانه را خاموش کرده و سپس دوباره تلاش کنید</string>
@@ -685,6 +691,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">هنگامی که در حالت ناشناس هستید نمی‌توانید بازپخش را انتقال دهید. ابتدا حالت ناشناس را خاموش کنید.</string>
     <string name="invisible_mode_dialog_pos">خاموش کردن</string>
     <string name="invisible_mode_dialog_title">شما ناشناس هستید</string>
+    <string name="is_accessed_by">\"%1$s\" به این دستگاه دسترسی دارد</string>
     <string name="is_creating_camera_cooperation">Unlock device to connect</string>
     <string name="keyguard_security_setting_privacy_policy">سیاست حفظ حریم خصوصی</string>
     <string name="local_camera_device">This device</string>
@@ -694,6 +701,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
     <string name="midnight">شب</string>
+    <string name="mihome_camera_device_during_calll">摄像机正被“微信通话”使用，暂时无法协同调用</string>
     <string name="mihome_camera_device_not_available">نمی‌توان دستگاه‌های بیشتری را وصل کرد</string>
     <string name="mihome_camera_device_offline">وصل نشد. دوربین آفلاین است.</string>
     <string name="mihome_camera_device_sleep">از حالت خواب خارج شده و دوباره امتحان کنید</string>
@@ -789,6 +797,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="more">بیشتر</string>
     <string name="morning">صبح</string>
     <string name="msg_send_fail">داده‌ها منتقل نشدند</string>
+    <string name="nearby_device_file_access">هنگامی که دستگاه‌های نزدیک به فایل‌های این دستگاه دسترسی دارند، اعلانی دریافت کنید</string>
     <string name="nfc_connect_failed_toast">بازتابانده نشد. دوباره تلاش کنید.</string>
     <string name="night">شب</string>
     <string name="noon">ظهر</string>
@@ -815,8 +824,12 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="open_wlan_known">متوجه‌ام</string>
     <string name="open_wlan_other">برای امکان استفاده از ویژگی‌های هم‌اتصالی Wi-Fi را در %1$s روشن کنید.</string>
     <string name="open_wlan_other_china">برای امکان استفاده از ویژگی‌های هم‌اتصالی WLAN را در %1$s روشن کنید.</string>
+    <string name="open_wlan_other_toast">Wi-Fi را در دستگاه دیگر روشن کنید و دوباره امتحان کنید</string>
+    <string name="open_wlan_other_toast_china">WLAN را در دستگاه دیگر روشن کنید و دوباره امتحان کنید</string>
     <string name="open_wlan_self">برای امکان استفاده از ویژگی‌های هم‌اتصالی Wi-Fi را روشن کنید. روشن شود؟</string>
     <string name="open_wlan_self_china">برای امکان استفاده از ویژگی‌های هم‌اتصالی WLAN را روشن کنید. روشن شود؟</string>
+    <string name="open_wlan_self_toast">Wi-Fi را روشن کرده و سپس دوباره تلاش کنید</string>
+    <string name="open_wlan_self_toast_china">WLAN را روشن کرده و سپس دوباره تلاش کنید</string>
     <string name="paipai_connect_btn_text">انجام شد</string>
     <string name="paipai_connect_tv1_text">به دستگاه متصل شد</string>
     <string name="paipai_connect_tv2_text">داده‌ها متنقل شدند</string>

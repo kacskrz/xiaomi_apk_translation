@@ -60,6 +60,7 @@
     <string name="appcirculate_fragment_circulate_device_list_button_confirm">Шукати ще раз</string>
     <string name="appcirculate_fragment_circulate_device_list_text_none"><u>Не можете знайти пристрій?</u></string>
     <string name="appcirculate_fragment_circulate_device_list_text_searching">Пошук пристроїв неподалік…</string>
+    <string name="appcirculate_toast_app_max_screen_count">Відкрито максимальну кількість вікон</string>
     <string name="appcirculate_toast_app_notstall">Не вдалося передати. Ця програма не встановлена на телефоні.</string>
     <string name="appcirculate_toast_busy">Схоже, що інший пристрій зараз передає файли. Зачекайте, поки передача буде завершена та повторіть спробу.</string>
     <string name="appcirculate_toast_cancel">Скасовано</string>
@@ -72,6 +73,8 @@
     <string name="appcirculate_toast_not_support_device_phone">"Can't open this app on phone"</string>
     <string name="appcirculate_toast_not_support_device_tv">Неможливо відкрити цю програму на телевізорі</string>
     <string name="appcirculate_toast_not_support_device_tv_connected">Вже підключено до цього телевізора</string>
+    <string name="appcirculate_toast_pad_connection_car">Планшет підключено до автомобіля</string>
+    <string name="appcirculate_toast_phone_connection_car">Телефон підключено до автомобіля</string>
     <string name="appcirculate_toast_success_1">Змінено успішно</string>
     <string name="appcirculate_toast_success_2">Трансляція у прихованому режимі…</string>
     <string name="appcirculate_toast_success_3">Трансляція…</string>
@@ -505,6 +508,9 @@
     <string name="dialog_select_tv">Виберіть пристрій (%1$d)</string>
     <string name="dialog_show_help">Довідка</string>
     <string name="disconnect">Зупинити трансляцію</string>
+    <string name="disconnect_access">Відключити</string>
+    <string name="dist_file_notification_subtitle">\"%s\" хоче отримати доступ до файлів цього пристрою</string>
+    <string name="dist_file_notification_title">Доступ до файлів між пристроями</string>
     <string name="dp_casting_start_hint">Підключено через кабель. Трансляція завершена.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">Вимкніть двохдіапазонний Wi-Fi та повторіть спробу</string>
@@ -733,6 +739,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">Неможливо передавати відтворення, коли ви в Анонімному режимі. Спочатку вимкніть Анонімний режим.</string>
     <string name="invisible_mode_dialog_pos">Вимкнути</string>
     <string name="invisible_mode_dialog_title">Тепер ви в Анонімному режимі</string>
+    <string name="is_accessed_by">\"%1$s\"отримує доступ до цього пристрою</string>
     <string name="is_creating_camera_cooperation">Розблокуйте пристрій для підключення</string>
     <string name="item_view_role_description">Вкладка</string>
     <string name="keyguard_security_setting_privacy_policy">Політика конфіденційності</string>
@@ -756,6 +763,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
     <string name="midnight">Ніч</string>
+    <string name="mihome_camera_device_during_calll">摄像机正被“微信通话”使用，暂时无法协同调用</string>
     <string name="mihome_camera_device_not_available">Неможливо підключити більше пристроїв.</string>
     <string name="mihome_camera_device_offline">Не вдалося підключитися. Камера в автономному режимі.</string>
     <string name="mihome_camera_device_sleep">Вийти з Сплячого режиму та повторити спробу</string>
@@ -921,6 +929,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="mtrl_picker_toggle_to_year_selection">Натисніть, щоб перейти до перегляду року</string>
     <string name="mtrl_timepicker_cancel">Скасувати</string>
     <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="nearby_device_file_access">Отримувати сповіщення, коли пристрої поблизу отримують доступ до файлів цього пристрою</string>
     <string name="nfc_connect_failed_toast">Помилка трансляції. Повторіть спробу.</string>
     <string name="night">Вечір</string>
     <string name="noon">Полудень</string>
@@ -948,8 +957,12 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="open_wlan_known">Зрозуміло</string>
     <string name="open_wlan_other">"Увімкніть Wi-Fi на %1$s, щоб використовувати функції взаємопов'язаності."</string>
     <string name="open_wlan_other_china">"Увімкніть WLAN на %1$s, щоб використовувати функції взаємопов'язаності."</string>
+    <string name="open_wlan_other_toast">Увімкніть Wi-Fi на іншому пристрої та повторіть спробу</string>
+    <string name="open_wlan_other_toast_china">Увімкніть WLAN на іншому пристрої та повторіть спробу</string>
     <string name="open_wlan_self">"Увімкніть Wi-Fi, щоб використовувати функції взаємопов'язаності. Увімкнути?"</string>
     <string name="open_wlan_self_china">"Увімкніть WLAN, щоб використовувати функції взаємопов'язаності. Увімкнути?"</string>
+    <string name="open_wlan_self_toast">Увімкніть Wi-Fi та повторіть спробу</string>
+    <string name="open_wlan_self_toast_china">Увімкніть WLAN та повторіть спробу</string>
     <string name="paipai_connect_btn_text">Готово</string>
     <string name="paipai_connect_tv1_text">Підключено до пристрою</string>
     <string name="paipai_connect_tv2_text">Передані дані</string>

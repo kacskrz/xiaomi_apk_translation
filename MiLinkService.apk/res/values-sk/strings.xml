@@ -60,6 +60,7 @@ vaše zariadenia?"</string>
     <string name="appcirculate_fragment_circulate_device_list_button_confirm">Znova vyhľadať</string>
     <string name="appcirculate_fragment_circulate_device_list_text_none"><u>Nenašli ste vaše zariadenia?</u></string>
     <string name="appcirculate_fragment_circulate_device_list_text_searching">Vyhľadávajú sa zariadenia v okolí…</string>
+    <string name="appcirculate_toast_app_max_screen_count">Nie je možné otvoriť viac okien</string>
     <string name="appcirculate_toast_app_notstall">Prenos zlyhal. Táto aplikácia nie je nainštalovaná v telefóne.</string>
     <string name="appcirculate_toast_busy">Zdá sa, že druhé zariadenie práve prenáša súbory. Počkajte na dokončenie prenosu a skúste to znova.</string>
     <string name="appcirculate_toast_cancel">Zrušené</string>
@@ -72,6 +73,8 @@ vaše zariadenia?"</string>
     <string name="appcirculate_toast_not_support_device_phone">"Can't open this app on phone"</string>
     <string name="appcirculate_toast_not_support_device_tv">Túto aplikáciu nie je možné otvoriť na televízore</string>
     <string name="appcirculate_toast_not_support_device_tv_connected">Táto televízia bola už pripojená</string>
+    <string name="appcirculate_toast_pad_connection_car">Tablet je pripojený k vozidlu</string>
+    <string name="appcirculate_toast_phone_connection_car">Telefón je pripojený k vozidlu</string>
     <string name="appcirculate_toast_success_1">Úspešne prepnuté</string>
     <string name="appcirculate_toast_success_2">Prenášanie v súkromnom režime…</string>
     <string name="appcirculate_toast_success_3">Prenášanie…</string>
@@ -346,7 +349,7 @@ vaše zariadenia?"</string>
     <string name="circulate_pad_card_use_desktop">Zdieľať domovskú obrazovku na tablet</string>
     <string name="circulate_pad_card_using_camera">Používa sa fotoaparát tabletu</string>
     <string name="circulate_pad_card_using_desktop">Zobrazuje sa domovská obrazovka na tablete…</string>
-    <string name="circulate_pc_card_use_desktop">Zdieľať domovskú obrazovku na počítač</string>
+    <string name="circulate_pc_card_use_desktop">Zdieľať Domovskú obrazovku na počítač</string>
     <string name="circulate_pc_card_use_km">Zdieľať myš s počítačom</string>
     <string name="circulate_pc_card_using_camera">Počítač používa fotoaparát</string>
     <string name="circulate_pc_card_using_desktop">Zobrazuje sa domovská obrazovka na počítači…</string>
@@ -505,6 +508,9 @@ Ak máte problémy s pripojením, otvorte pomocníka."</string>
     <string name="dialog_select_tv">Vyberte zariadenie (%1$d)</string>
     <string name="dialog_show_help">Pomocník</string>
     <string name="disconnect">Zastaviť prenášanie</string>
+    <string name="disconnect_access">Odpojiť</string>
+    <string name="dist_file_notification_subtitle">Zariadenie „%s” si vyžaduje prístup k súborom vo vašom zariadení</string>
+    <string name="dist_file_notification_title">Prístup k súborom naprieč zariadeniami</string>
     <string name="dp_casting_start_hint">Pripojené káblom. Prenášanie bolo ukončené.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">Vypnite duálne Wi-Fi a skúste to znova</string>
@@ -733,6 +739,7 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="invisible_mode_dialog_content_audio_relay">Prehrávanie nie je možné preniesť, keď ste v režime inkognito. Najskôr vypnite režim Inkognito.</string>
     <string name="invisible_mode_dialog_pos">Vypnúť</string>
     <string name="invisible_mode_dialog_title">Ste inkognito</string>
+    <string name="is_accessed_by">Zariadenie \"%1$s\" pristupuje k tomuto zariadeniu</string>
     <string name="is_creating_camera_cooperation">Pre pripojenie odomknite zariadenie</string>
     <string name="item_view_role_description">Tabulátor</string>
     <string name="keyguard_security_setting_privacy_policy">Zásady ochrany osobných údajov</string>
@@ -756,6 +763,7 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
     <string name="midnight">Noc</string>
+    <string name="mihome_camera_device_during_calll">摄像机正被“微信通话”使用，暂时无法协同调用</string>
     <string name="mihome_camera_device_not_available">Nie je možné pripojiť viac zariadení</string>
     <string name="mihome_camera_device_offline">Pripojenie zlyhalo. Kamera je offline.</string>
     <string name="mihome_camera_device_sleep">Ukončite Režim spánku a skúste to znova</string>
@@ -921,6 +929,7 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="mtrl_picker_toggle_to_year_selection">Klepnutím prepnete na zobrazenie jednotlivých rokov</string>
     <string name="mtrl_timepicker_cancel">Zrušiť</string>
     <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="nearby_device_file_access">Dostávajte upozornenia, keď okolité zariadenia pristupujú k súborom tohto zariadenia</string>
     <string name="nfc_connect_failed_toast">Prenášanie zlyhalo. Skúste to znovu.</string>
     <string name="night">Večer</string>
     <string name="noon">Poludnie</string>
@@ -948,8 +957,12 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="open_wlan_known">Rozumiem</string>
     <string name="open_wlan_other">Ak chcete používať funkcie prepojenia, zapnite Wi-Fi na zariadení %1$s.</string>
     <string name="open_wlan_other_china">Ak chcete používať funkcie prepojenia, zapnite WLAN na zariadení %1$s.</string>
+    <string name="open_wlan_other_toast">Zapnite Wi-Fi na druhom zariadení a skúste to znova</string>
+    <string name="open_wlan_other_toast_china">Zapnite WLAN na druhom zariadení a skúste to znova</string>
     <string name="open_wlan_self">Zapnite Wi-Fi, aby ste mohli používať funkcie prepojenia. Zapnúť teraz?</string>
     <string name="open_wlan_self_china">Zapnite WLAN, aby ste mohli používať funkcie prepojenia. Zapnúť teraz?</string>
+    <string name="open_wlan_self_toast">Zapnite Wi-Fi a skúste to znova</string>
+    <string name="open_wlan_self_toast_china">Zapnite WLANi a skúste to znova</string>
     <string name="paipai_connect_btn_text">Hotovo</string>
     <string name="paipai_connect_tv1_text">Pripojené k zariadeniu</string>
     <string name="paipai_connect_tv2_text">Prenesené dáta</string>
@@ -1302,7 +1315,7 @@ Pred prenášaním hier sa uistite, že ste zapli Game Turbo."</string>
     <string name="sever_switch_camera">Prepínanie medzi predným a zadným fotoaparátom</string>
     <string name="sever_switch_camera_front">Predný fotoaparát</string>
     <string name="sever_switch_camera_rear">Zadný fotoaparát</string>
-    <string name="share_desktop_with_car">Zdieľať domovskú obrazovku do auta</string>
+    <string name="share_desktop_with_car">Zdieľať Domovskú obrazovku do auta</string>
     <string name="share_desktop_with_car_ing">Zdieľanie obrazovky s autom…</string>
     <string name="show_result_on_tv">Zobraziť výsledky na TV</string>
     <string name="side_sheet_accessibility_pane_title">Bočný hárok</string>

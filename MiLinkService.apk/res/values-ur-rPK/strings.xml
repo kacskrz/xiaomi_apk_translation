@@ -33,6 +33,7 @@
     <string name="appcirculate_fragment_circulate_device_list_button_confirm">دوبارہ تلاش کریں</string>
     <string name="appcirculate_fragment_circulate_device_list_text_none"><u>اپنے ڈیوائسزتلاش نہیں کر سکتے؟</u></string>
     <string name="appcirculate_fragment_circulate_device_list_text_searching">نزدیکی ڈیوائس کے لیے تلاش کر رہا ہے…</string>
+    <string name="appcirculate_toast_app_max_screen_count">مزید ونڈو نہیں کھول سکتے</string>
     <string name="appcirculate_toast_app_notstall">منتقل نہیں کیا جا سکا۔ یہ ایپ فون پر انسٹال نہیں ہے۔</string>
     <string name="appcirculate_toast_busy">لگتا ہے دوسرا ڈیوائس ابھی فائلیں منتقل کر رہا ہے۔ منتقلی مکمل ہونے تک انتظار کریں اور دوبارہ کوشش کریں۔</string>
     <string name="appcirculate_toast_cancel">منسوخ کر دیا گیا</string>
@@ -45,6 +46,8 @@
     <string name="appcirculate_toast_not_support_device_phone">"Can't open this app on phone"</string>
     <string name="appcirculate_toast_not_support_device_tv">یہ ایپ ٹی وی پر نہیں کھولا جا سکتا</string>
     <string name="appcirculate_toast_not_support_device_tv_connected">پہلے سے اس ٹی وی سے مربوط</string>
+    <string name="appcirculate_toast_pad_connection_car">ٹیبلیٹ گاڑی سے مربوط ہے</string>
+    <string name="appcirculate_toast_phone_connection_car">فون گاڑی سے مربوط ہے</string>
     <string name="appcirculate_toast_success_1">کامیابی سے سوئچ کیا گیا</string>
     <string name="appcirculate_toast_success_2">نجی موڈ میں کاسٹ کرنا…</string>
     <string name="appcirculate_toast_success_3">کاسٹ کر رہا ہے…</string>
@@ -462,6 +465,9 @@
     <string name="dialog_select_tv">ڈیوائس منتخب کریں (%1$d)</string>
     <string name="dialog_show_help">مدد</string>
     <string name="disconnect">کاسٹ کرنا روکیں</string>
+    <string name="disconnect_access">منقطع کریں</string>
+    <string name="dist_file_notification_subtitle">\"%s\" اس ڈیوائس کی فائلوں تک رسائی کرنا چاہتا ہے</string>
+    <string name="dist_file_notification_title">کراس ڈیوائس فائل رسائی</string>
     <string name="dp_casting_start_hint">کیبل کے ذریعہ مربوط۔ کاسٹنگ ختم ہو گئی۔</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">ڈیول وائی-فائی آف کریں اور دوبارہ کوشش کریں</string>
@@ -685,6 +691,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">جب آپ خفیہ ہوں تو پلے بیک منتقل نہیں کر سکتے۔ پہلے خفیہ موڈ آف کریں۔</string>
     <string name="invisible_mode_dialog_pos">آف کریں</string>
     <string name="invisible_mode_dialog_title">آپ خفیہ ہیں</string>
+    <string name="is_accessed_by">\"%1$s\" اس ڈیوائس تک رسائی کر رہا ہے</string>
     <string name="is_creating_camera_cooperation">مربوط کرنے کے لیے ڈیوائس انلاک کریں</string>
     <string name="keyguard_security_setting_privacy_policy">رازداری پالیسی</string>
     <string name="local_camera_device">This device</string>
@@ -694,6 +701,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
     <string name="midnight">رات</string>
+    <string name="mihome_camera_device_during_calll">摄像机正被“微信通话”使用，暂时无法协同调用</string>
     <string name="mihome_camera_device_not_available">مزید ڈیوائس مربوط نہیں کر سکتے</string>
     <string name="mihome_camera_device_offline">مربوط نہیں کیا جا سکا۔ کیمرہ آف لائن ہے۔</string>
     <string name="mihome_camera_device_sleep">نیند موڈ سے باہر نکلیں اور دوبارہ کوشش کریں</string>
@@ -789,6 +797,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="more">مزید</string>
     <string name="morning">صبح</string>
     <string name="msg_send_fail">ڈیٹا منتقل نہیں کیا جا سکا</string>
+    <string name="nearby_device_file_access">جب نزدیکی ڈیوائس اس ڈیوائس کی فائلوں تک رسائی حاصل کریں تو اطلاع موصول کریں</string>
     <string name="nfc_connect_failed_toast">کاسٹ نہیں کر سکا، دوبارہ کوشش کریں۔</string>
     <string name="night">شام</string>
     <string name="noon">مڈ ڈے</string>
@@ -815,8 +824,12 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="open_wlan_known">سمجھ گئے</string>
     <string name="open_wlan_other">باہمی ربط فیچرز کا استعمال کر پانے کے لیے %1$s پر وائی-فائی آن کریں۔</string>
     <string name="open_wlan_other_china">باہمی ربط فیچرز کا استعمال کر پانے کے لیے %1$s پر WLAN آن کریں۔</string>
+    <string name="open_wlan_other_toast">دوسرے ڈیوائس پر وائی-فائی آن کریں اور دوبارہ کوشش کریں</string>
+    <string name="open_wlan_other_toast_china">دوسرے ڈیوائس پر WLAN آن کریں اور دوبارہ کوشش کریں</string>
     <string name="open_wlan_self">باہمی ربط فیچرز کا استعمال کر پانے کے لیے وائی-فائی آن کریں۔ ابھی آن کریں؟</string>
     <string name="open_wlan_self_china">باہمی ربط فیچرز کا استعمال کر پانے کے لیے WLAN آن کریں۔ ابھی آن کریں؟</string>
+    <string name="open_wlan_self_toast">وائی-فائی آن کریں اور دوبارہ کوشش کریں</string>
+    <string name="open_wlan_self_toast_china">WLAN آن کریں اور دوبارہ کوشش کریں</string>
     <string name="paipai_connect_btn_text">ہوگیا</string>
     <string name="paipai_connect_tv1_text">ڈیوائس سے مربوط</string>
     <string name="paipai_connect_tv2_text">منتقل کردہ ڈیٹا</string>

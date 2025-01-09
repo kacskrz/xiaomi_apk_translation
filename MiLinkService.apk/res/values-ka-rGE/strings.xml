@@ -33,6 +33,7 @@
     <string name="appcirculate_fragment_circulate_device_list_button_confirm">ისევ მოძებნეთ</string>
     <string name="appcirculate_fragment_circulate_device_list_text_none"><u>თქვენი მოწყობილობილობის მოძებნა ვერ მოხერხდა?</u></string>
     <string name="appcirculate_fragment_circulate_device_list_text_searching">მიმდინარეობს უახლოესი მოწყობილობების ძიება…</string>
+    <string name="appcirculate_toast_app_max_screen_count">მეტი ფანჯრის გახსნა ვერ ხერხდება</string>
     <string name="appcirculate_toast_app_notstall">გადატანა ვერ მოხერხდა. ეს აპლიკაცია ვერ დაინსტალირდა ტელეფონზე.</string>
     <string name="appcirculate_toast_busy">როგორც ჩანს, სხვა მოწყობილობა ახლა გადასცემს ფაილებს. დაელოდეთ გადაცემის დასრულებას და კიდევ სცადეთ.</string>
     <string name="appcirculate_toast_cancel">გაუქმებულია</string>
@@ -45,6 +46,8 @@
     <string name="appcirculate_toast_not_support_device_phone">"Can't open this app on phone"</string>
     <string name="appcirculate_toast_not_support_device_tv">ამ აპლიკაციის ტელევიზორზე გახსნა შეუძლებელია</string>
     <string name="appcirculate_toast_not_support_device_tv_connected">უკვე დაუკავშირდით ამ ტელევიზორს</string>
+    <string name="appcirculate_toast_pad_connection_car">ტაბლეტი დაკავშირებულია მანქანასთან</string>
+    <string name="appcirculate_toast_phone_connection_car">ტელეფონი დაკავშირებულია მანქანასთან</string>
     <string name="appcirculate_toast_success_1">წარმატებით შეცვალა</string>
     <string name="appcirculate_toast_success_2">მაუწყებლობა პირად რეჟიმში…</string>
     <string name="appcirculate_toast_success_3">მიდინარეობს მაუწყებლობა…</string>
@@ -462,6 +465,9 @@
     <string name="dialog_select_tv">მონიშნეთ მოწყობილობა (%1$d)</string>
     <string name="dialog_show_help">დახმარება</string>
     <string name="disconnect">მაუწყებლობის შეწყვეტა</string>
+    <string name="disconnect_access">კავშირის გაწყვეტა</string>
+    <string name="dist_file_notification_subtitle">\"%s\"-ს სურს ამ მოწყობილობის ფაილებზე წვდომა</string>
+    <string name="dist_file_notification_title">ფაილების წვდომა მოწყობილობათა შორის</string>
     <string name="dp_casting_start_hint">დაკავშირებულია კაბელთან. მაუწყებლობა დასრულდა.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">გამორთეთ ორმაგი Wi-Fi და კიდევ სცადეთ</string>
@@ -685,6 +691,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_content_audio_relay">ჩართვის გადატანა შეუძლებელია, როდესაც ინკოგნიტო რეჟიმში ხართ. ჯერ გამორთეთ ინკოგნიტო რეჟიმი.</string>
     <string name="invisible_mode_dialog_pos">გამორთვა</string>
     <string name="invisible_mode_dialog_title">თქვენ ხართ ინკოგნიტო</string>
+    <string name="is_accessed_by">\"%1$s აქვს წვდომა ამ მოწყობილობაზე</string>
     <string name="is_creating_camera_cooperation">Unlock device to connect</string>
     <string name="keyguard_security_setting_privacy_policy">კონფიდენციალურობის პოლიტიკა</string>
     <string name="local_camera_device">This device</string>
@@ -694,6 +701,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="message_install">Install Mi Canvas to be able to sketch across devices.</string>
     <string name="message_update">Update Mi Canvas to be able to sketch across devices.</string>
     <string name="midnight">ღამე</string>
+    <string name="mihome_camera_device_during_calll">摄像机正被“微信通话”使用，暂时无法协同调用</string>
     <string name="mihome_camera_device_not_available">მეტი მოწყობილობის დაკავშირება შეუძლებელია</string>
     <string name="mihome_camera_device_offline">დაკავშირება ვერ მოხერხდა. კამერა გამორთულია.</string>
     <string name="mihome_camera_device_sleep">გამოდით ძილის რეჟიმიდან და კიდევ სცადეთ</string>
@@ -789,6 +797,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="more">მეტი</string>
     <string name="morning">დილა</string>
     <string name="msg_send_fail">მონაცემების გადატანა ვერ მოხერხდა</string>
+    <string name="nearby_device_file_access">მიიღეთ შეტყობინება, როდესაც ახლომდებარე მოწყობილობებს აქვთ წვდომა ამ მოწყობილობის ფაილებზე</string>
     <string name="nfc_connect_failed_toast">მაუწყებლობა ვერ მოხერხდა. კიდევ სცადეთ.</string>
     <string name="night">საღამო</string>
     <string name="noon">შუადღე</string>
@@ -815,8 +824,12 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="open_wlan_known">გასაგებია</string>
     <string name="open_wlan_other">ჩართეთ Wi-Fi %1$s-ზე, რათა შეძლოთ ურთიერთდაკავშირების ფუნქციების გამოყენება.</string>
     <string name="open_wlan_other_china">ჩართეთ WLAN %1$s-ზე, რათა შეძლოთ ურთიერთდაკავშირების ფუნქციების გამოყენება.</string>
+    <string name="open_wlan_other_toast">ჩართეთ Wi-Fi სხვა მოწყობილობაზე და კიდევ სცადეთ</string>
+    <string name="open_wlan_other_toast_china">ჩართეთ WLAN სხვა მოწყობილობაზე და კიდევ სცადეთ</string>
     <string name="open_wlan_self">ჩართეთ Wi-Fi, რათა შეძლოთ ურთიერთდაკავშირების ფუნქციების გამოყენება. გსურთ ახლავე ჩართვა?</string>
     <string name="open_wlan_self_china">ჩართეთ WLAN, რათა შეძლოთ ურთიერთდაკავშირების ფუნქციების გამოყენება. გსურთ ახლავე ჩართვა?</string>
+    <string name="open_wlan_self_toast">ჩართეთ Wi-Fi და კიდევ სცადეთ</string>
+    <string name="open_wlan_self_toast_china">ჩართეთ WLAN და კიდევ სცადეთ</string>
     <string name="paipai_connect_btn_text">მზადაა</string>
     <string name="paipai_connect_tv1_text">დაუკავშირდით მოწყობილობას</string>
     <string name="paipai_connect_tv2_text">გადაცემული მონაცემები</string>
