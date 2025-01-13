@@ -42,6 +42,8 @@
     <string name="afternoon">بعد الظهر</string>
     <string name="aggree_desc">منح هذا التطبيق أذونات الوصول إلى الإنترنت وجميع الأذونات المطلوبة أعلاه.</string>
     <string name="agree">أوافق</string>
+    <string name="ai_search_building_database">تحليل الملفات لتقديم نتائج أكثر دقة…</string>
+    <string name="ai_search_building_database_pause">سيتم تحليل الملفات على جهازك لتوفير نتائج أكثر دقة</string>
     <string name="ai_search_progress">جارٍ تحليل الملفات… (%s)</string>
     <string name="ai_search_progress_tips">تأكد من توصيل الجهاز بالشاحن. سيقوم الجهاز بتحليل الملفات بشكل أسرع عندما تكون الشاشة مغلقة.</string>
     <string name="am">ص</string>
@@ -295,7 +297,7 @@
     <string name="file_cloud_guide_message_permissions">قد يطلب هذا التطبيق الأذونات التالية: الوصول إلى العناصر وإضافتها إلى مساحة تخزين الجهاز، والوصول إلى قائمة التطبيقات المثبتة على الجهاز، وإرسال الإشعارات. يمكنك ضبط تفضيلات الأذونات الخاصة بك في أي وقت من الإعدادات.</string>
     <string name="file_cloud_parse_download_success">تم الحفظ بنجاح</string>
     <string name="file_cloud_parse_title">ملفات على الإنترنت</string>
-    <string name="file_cloud_parsing">جارٍ تحليل الملف…</string>
+    <string name="file_cloud_parsing">جارٍ معالجة Cloud…</string>
     <string name="file_cloud_process_file_Size">"الحجم: "</string>
     <string name="file_cloud_process_message">قد تستغرق العملية بضع دقائق على حسب حجم الملف. يمكنك إلغاء العملية، أو النقر على \"انتظار\" للسماح بأنهائها في الخلفية.</string>
     <string name="file_cloud_processing">جارٍ المعالجة…</string>
@@ -312,7 +314,7 @@
     <string name="file_name_existed">اسم الملف هذا موجود مسبقا</string>
     <string name="file_name_invalid">لا يمكن أن تحتوي أسماء الملفات على الرموز التالية: /\\:*?&lt;></string>
     <string name="file_not_exist">الملف غير موجود</string>
-    <string name="file_parse_fail">تعذر تحليل الملف</string>
+    <string name="file_parse_fail">تعذر اكمال معالجة Cloud</string>
     <string name="file_parse_loading">جارٍ التحويل. قد يستغرق هذا دقيقة.</string>
     <string name="file_parse_outpace_1gb">لقد تجاوز هذا الملف %1$d جيجابايت ولا يمكن عرضه على هذا التطبيق. حاول فتحه بإستخدام تطبيق آخر.</string>
     <string name="file_parse_outpace_1mb">لقد تجاوز هذا الملف %1$d جيجابايت ولا يمكن عرضه على هذا التطبيق. حاول فتحه بإستخدام تطبيق آخر.</string>
@@ -608,8 +610,8 @@
     <string name="not_use">ليس الآن</string>
     <string name="notif_server_starting">جارٍ بدء خادم FTP‏…</string>
     <string name="notif_title">خادم FTP قيد التشغيل</string>
-    <string name="notification_fail">تعذرت المعالجة</string>
-    <string name="notification_success">تمت المعالجة بنجاح</string>
+    <string name="notification_fail">تعذر اكمال معالجة Cloud</string>
+    <string name="notification_success">اكتمل معالجة Cloud</string>
     <string name="notification_title_sync_result">اكتملت المزامنة</string>
     <string name="notification_title_syncing">جارٍ المزامنة…</string>
     <string name="notification_title_syncing_with_count">يتم مزامنة العناصر. الملفات المتبقية: %1$s</string>
@@ -622,6 +624,7 @@
     <string name="operation_cache_use_data">تنزيل</string>
     <string name="operation_cache_use_free_network">انتظر شبكة Wi-Fi</string>
     <string name="operation_cancel">إلغاء</string>
+    <string name="operation_check_cloud_space">العرض</string>
     <string name="operation_cloud_copy_to_local">حفظ إلى…</string>
     <string name="operation_compress">ضغط</string>
     <string name="operation_compressing">جارٍ الضغط…</string>
@@ -638,6 +641,7 @@
     <string name="operation_decompressing">جارٍ الاستخراج…</string>
     <string name="operation_del_fav">حذف من المفضلة…</string>
     <string name="operation_delete">حذف</string>
+    <string name="operation_delete_cloud_upload_record">تجاهل الرسالة</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM هو مجلد تطبيق المعرض. سيؤدي حذف المجلد إلى حذف جميع الملفات الموجودة في المعرض ولا يمكن استعادته. هل مازلت ترغب في المتابعة؟</string>
     <string name="operation_delete_confirm_message">هل ترغب في الحذف؟</string>
     <string name="operation_delete_confirm_message_folder">"سيتم حذف جميع محتويات المجلد.
@@ -688,6 +692,7 @@
     <string name="operation_upload_delete">حذف</string>
     <string name="operation_upload_err_file_not_found">يبدو أن هذا الملف غير موجود.</string>
     <string name="operation_upload_err_file_size_zero">لا يمكن تحميل ملفات فارغة.</string>
+    <string name="operation_upload_err_full_manage_space">التخزين السحابي ممتلئ. قم بترقية خطة التخزين الخاصة بك أو قم بإزالة العناصر التي لا تحتاج إليها. اضغط على \"عرض\" لعرض وإدارة مساحة التخزين السحابية، أو \"تجاهل\" لحذف مهمة التحميل هذه.</string>
     <string name="operation_upload_err_illegal_char">يحتوي هذا الملف هلى حروف أو رموز غير مدعومة.</string>
     <string name="operation_upload_err_larger_than_4g">لا يمكن تحميل ملفات حجمها أكبر من %d ميجابايت.</string>
     <string name="operation_upload_err_not_support_overseas">يمكن فقط للمستخدمين في البر الرئيسي الصيني تحميل العناصر في هذا الوقت.</string>
@@ -696,6 +701,7 @@
     <string name="operation_upload_retry">حاول مجددا</string>
     <string name="operation_upload_save_to_local">حفظ إلى…</string>
     <string name="operation_upload_use_data">تحميل</string>
+    <string name="otg_data_safely_exiting">لحظة من فضلك…</string>
     <string name="otg_data_transfer_success">تم النقل بنجاح</string>
     <string name="otg_data_transferring">جارٍ نقل الملفات… لا تفصل وحدة التخزين الخارجية.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

@@ -42,6 +42,8 @@
     <string name="afternoon">Popoldne</string>
     <string name="aggree_desc">Dovolite aplikaciji, da se poveže na omrežje in dodelite spodaj izpostavljena obvezna dovoljenja.</string>
     <string name="agree">Strinjam se</string>
+    <string name="ai_search_building_database">Analiziranje datotek za zagotavljanje natančnejših rezultatov…</string>
+    <string name="ai_search_building_database_pause">Datoteke bodo analizirane v vaši napravi za zagotovitev natančnejših rezultatov</string>
     <string name="ai_search_progress">Analiziranje datotek…(%s)</string>
     <string name="ai_search_progress_tips">Naprava naj bo priključena na polnilnik. Datoteke bodo hitreje analizirane, če bo zaslon izklopljen.</string>
     <string name="am">dop.</string>
@@ -295,7 +297,7 @@ Poskusite premakniti datoteke iz vaše naprave v Mi Drive."</string>
     <string name="file_cloud_guide_message_permissions">Ta aplikacija lahko zahteva naslednja dovoljenja: dostop do pomnilnika naprave in dodajanje predmetov vanj, dostop do seznama aplikacij, nameščenih v napravi, in pošiljanje obvestil. Nastavitve dovoljenj lahko kadar koli prilagodite v Nastavitvah.</string>
     <string name="file_cloud_parse_download_success">Uspešno shranjeno</string>
     <string name="file_cloud_parse_title">Spletni datoteke</string>
-    <string name="file_cloud_parsing">Razčlenjevanje datoteke…</string>
+    <string name="file_cloud_parsing">Obdelava v oblaku v teku…</string>
     <string name="file_cloud_process_file_Size">"Velikost:  "</string>
     <string name="file_cloud_process_message">Odvisno od velikosti datoteke lahko to traja nekaj minut. Lahko prekličete ali tapnete »Počakaj«, da se konča v ozadju.</string>
     <string name="file_cloud_processing">Obdelovanje…</string>
@@ -312,7 +314,7 @@ Poskusite premakniti datoteke iz vaše naprave v Mi Drive."</string>
     <string name="file_name_existed">Ime datoteke je že v uporabi</string>
     <string name="file_name_invalid">Ime datoteke ne sme vsebovati naslednjih znakov: /\\:*?&lt;></string>
     <string name="file_not_exist">Datoteka ne obstaja</string>
-    <string name="file_parse_fail">Datoteke ni bilo mogoče razčleniti</string>
+    <string name="file_parse_fail">Obdelave v oblaku ni bilo mogoče dokončati</string>
     <string name="file_parse_loading">Prekodiranje. To lahko traja nekaj minut.</string>
     <string name="file_parse_outpace_1gb">Ta datoteka presega %1$d GB in si je ni mogoče ogledati v tej aplikaciji. Namesto tega ga lahko odprete z drugo aplikacijo.</string>
     <string name="file_parse_outpace_1mb">Ta datoteka presega %1$d MB in si je ni mogoče ogledati v tej aplikaciji. Namesto tega ga lahko odprete z drugo aplikacijo.</string>
@@ -608,8 +610,8 @@ Poskusite premakniti datoteke iz vaše naprave v Mi Drive."</string>
     <string name="not_use">Ne zdaj</string>
     <string name="notif_server_starting">Zaganjanje FTP strežnika…</string>
     <string name="notif_title">FTP strežnik zagnan</string>
-    <string name="notification_fail">Ni mogoče obdelati</string>
-    <string name="notification_success">Uspešno obdelano</string>
+    <string name="notification_fail">Obdelave v oblaku ni bilo mogoče dokončati</string>
+    <string name="notification_success">Obdelava v oblaku je končana</string>
     <string name="notification_title_sync_result">Sinhronizacija končana</string>
     <string name="notification_title_syncing">Sinhronizacija …</string>
     <string name="notification_title_syncing_with_count">Sinhronizacija predmetov. Preostale datoteke: %1$s</string>
@@ -622,6 +624,7 @@ Poskusite premakniti datoteke iz vaše naprave v Mi Drive."</string>
     <string name="operation_cache_use_data">Prenos</string>
     <string name="operation_cache_use_free_network">Čakanje na Wi-Fi</string>
     <string name="operation_cancel">Prekliči</string>
+    <string name="operation_check_cloud_space">Ogled</string>
     <string name="operation_cloud_copy_to_local">Shrani v …</string>
     <string name="operation_compress">Stisni</string>
     <string name="operation_compressing">Stiskanje…</string>
@@ -638,6 +641,7 @@ Poskusite premakniti datoteke iz vaše naprave v Mi Drive."</string>
     <string name="operation_decompressing">Razširjanje…</string>
     <string name="operation_del_fav">Odstranjevanje iz priljubljenih…</string>
     <string name="operation_delete">Izbriši</string>
+    <string name="operation_delete_cloud_upload_record">Zavrzi</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM je mapa Galerija. Če izbrišete to mapo, bodo vsi elementi v njej trajno izbrisani tudi iz Galerije. Želite vseeno izbrisati to mapo?</string>
     <string name="operation_delete_confirm_message">Želite izbrisati?</string>
     <string name="operation_delete_confirm_message_folder">"Vsebine vseh map bodo izbrisane.
@@ -688,6 +692,7 @@ Poskusite premakniti datoteke iz vaše naprave v Mi Drive."</string>
     <string name="operation_upload_delete">Izbriši</string>
     <string name="operation_upload_err_file_not_found">Videti je, da ta datoteka ne obstaja.</string>
     <string name="operation_upload_err_file_size_zero">Ni mogoče naložiti praznih datotek.</string>
+    <string name="operation_upload_err_full_manage_space">Pomnilnik v oblaku je poln. Nadgradite svoj paket za shranjevanje ali izbrišite elemente, ki jih ne potrebujete. Tapnite »Ogled«, da si ogledate in upravljate pomnilnik v oblaku, ali »Zavrzi«, da izbrišete to opravilo nalaganja.</string>
     <string name="operation_upload_err_illegal_char">Ime datoteke vsebuje nepodprte znake.</string>
     <string name="operation_upload_err_larger_than_4g">Ni mogoče naložiti datotek večjih od %d GB.</string>
     <string name="operation_upload_err_not_support_overseas">Samo uporabniki na celinski Kitajski lahko trenutno nalagajo predmete.</string>
@@ -696,6 +701,7 @@ Poskusite premakniti datoteke iz vaše naprave v Mi Drive."</string>
     <string name="operation_upload_retry">Poskusi ponovno</string>
     <string name="operation_upload_save_to_local">Shrani v …</string>
     <string name="operation_upload_use_data">Naloži</string>
+    <string name="otg_data_safely_exiting">Trenutek…</string>
     <string name="otg_data_transfer_success">Uspešno premaknjeno</string>
     <string name="otg_data_transferring">Premik datotek… Ne odklopite zunanjega pomnilnika.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

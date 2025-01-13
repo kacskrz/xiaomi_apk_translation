@@ -42,6 +42,8 @@
     <string name="afternoon">Iltapäivä</string>
     <string name="aggree_desc">Salli tämän sovelluksen muodostaa yhteys Internettiin ja myöntää yllä lueteltut pakolliset käyttöoikeudet.</string>
     <string name="agree">Hyväksy</string>
+    <string name="ai_search_building_database">Analysoidaan tiedostoja tarkempien tulosten saamiseksi…</string>
+    <string name="ai_search_building_database_pause">Tiedostot analysoidaan laitteellasi tarkempien tulosten saamiseksi</string>
     <string name="ai_search_progress">Analysoidaan tiedostoja… (%s)</string>
     <string name="ai_search_progress_tips">Pidä laitteesi kytkettynä laturiin. Se analysoi tiedostot nopeammin, kun näyttö on pois päältä.</string>
     <string name="am">ap.</string>
@@ -295,7 +297,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="file_cloud_guide_message_permissions">Tämä sovellus voi pyytää seuraavia käyttölupia: oikeus käyttää ja lisätä kohteita laitteen tallennustilaan, oikeus käyttää laitteeseen asennettujen sovellusten luetteloa ja lähettää ilmoituksia. Voit muuttaa käyttölupiasi milloin tahansa asetuksissa.</string>
     <string name="file_cloud_parse_download_success">Tallennettu onnistuneesti</string>
     <string name="file_cloud_parse_title">Online-tiedostot</string>
-    <string name="file_cloud_parsing">Jäsennellään tiedostoa…</string>
+    <string name="file_cloud_parsing">Pilvikäsittely käynnissä…</string>
     <string name="file_cloud_process_file_Size">"Koko: "</string>
     <string name="file_cloud_process_message">Tiedoston koosta riippuen tämä saattaa kestää muutaman minuutin. Voit peruuttaa sen tai antaa sen valmistua taustalla napauttamalla \"Odota\".</string>
     <string name="file_cloud_processing">Käsitellään…</string>
@@ -312,7 +314,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="file_name_existed">Tiedostonimi on jo käytössä</string>
     <string name="file_name_invalid">Tiedoston nimi ei voi sisältää seuraavia merkkejä: /\\:*?&lt;></string>
     <string name="file_not_exist">Tiedostoa ei ole olemassa</string>
-    <string name="file_parse_fail">Tiedostoa ei voitu jäsentää</string>
+    <string name="file_parse_fail">Pilvikäsittelyä ei voitu suorittaa loppuun</string>
     <string name="file_parse_loading">Transkoodataan. Tämä voi kestää hetken.</string>
     <string name="file_parse_outpace_1gb">Tämä tiedosto on suurempi kuin %1$d Gt, eikä sitä voi tarkastella tässä sovelluksessa. Voit kuitenkin avata sen toisella sovelluksella.</string>
     <string name="file_parse_outpace_1mb">Tämä tiedosto on suurempi kuin %1$d Mt, eikä sitä voi tarkastella tässä sovelluksessa. Voit kuitenkin avata sen toisella sovelluksella.</string>
@@ -608,8 +610,8 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="not_use">Ei nyt</string>
     <string name="notif_server_starting">Käynnistetään FTP-palvelinta…</string>
     <string name="notif_title">FTP-palvelin on käynnissä</string>
-    <string name="notification_fail">Ei voitu käsitellä</string>
-    <string name="notification_success">Käsitelty onnistuneesti</string>
+    <string name="notification_fail">Pilvikäsittelyä ei voitu suorittaa loppuun</string>
+    <string name="notification_success">Pilvikäsittely valmis</string>
     <string name="notification_title_sync_result">Synkronointi valmis</string>
     <string name="notification_title_syncing">Synkronoidaan…</string>
     <string name="notification_title_syncing_with_count">Synkronoidaan kohteita. Jäljellä olevat tiedostot: %1$s</string>
@@ -622,6 +624,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="operation_cache_use_data">Lataa</string>
     <string name="operation_cache_use_free_network">Odotetaan Wi-Fi-yhteyttä</string>
     <string name="operation_cancel">Peruuta</string>
+    <string name="operation_check_cloud_space">Näytä</string>
     <string name="operation_cloud_copy_to_local">Tallenna kohteeseen…</string>
     <string name="operation_compress">Pakkaa</string>
     <string name="operation_compressing">Pakataan…</string>
@@ -638,6 +641,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="operation_decompressing">Puretaan…</string>
     <string name="operation_del_fav">Poistetaan suosikeista…</string>
     <string name="operation_delete">Poista</string>
+    <string name="operation_delete_cloud_upload_record">Hylkää</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM on Galleria-kansio. Jos poistat tämän kansion, myös kaikki siinä olevat kohteet poistetaan pysyvästi Galleriasta. Poistetaanko tämä kansio silti?</string>
     <string name="operation_delete_confirm_message">Poistetaanko?</string>
     <string name="operation_delete_confirm_message_folder">"Kaikki kansiossa oleva sisältö poistetaan.
@@ -688,6 +692,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="operation_upload_delete">Poista</string>
     <string name="operation_upload_err_file_not_found">Näyttää siltä, että tätä tiedostoa ei ole olemassa.</string>
     <string name="operation_upload_err_file_size_zero">Tyhjiä tiedostoja ei voi ladata.</string>
+    <string name="operation_upload_err_full_manage_space">Pilvitallennustila on täynnä. Päivitä tallennustilapakettisi tai poista tarpeettomia kohteita. Napauta \"Näytä\" nähdäksesi ja hallinnoidaksesi pilvitallennustilaasi tai \"Hylkää\" poistaaksesi tämän lataustehtävän.</string>
     <string name="operation_upload_err_illegal_char">Tämä tiedostonimi sisältää merkkejä, joita ei tueta.</string>
     <string name="operation_upload_err_larger_than_4g">Ei voi lähettää tiedostoja, jotka ovat suurempia kuin %d Gt.</string>
     <string name="operation_upload_err_not_support_overseas">Vain Manner-Kiinan käyttäjät voivat ladata kohteita tällä hetkellä.</string>
@@ -696,6 +701,7 @@ Kokeile siirtää tiedostoja laitteeltasi Mi Driveen."</string>
     <string name="operation_upload_retry">Yritä uudelleen</string>
     <string name="operation_upload_save_to_local">Tallenna kohteeseen…</string>
     <string name="operation_upload_use_data">Lataa</string>
+    <string name="otg_data_safely_exiting">Hetki vain…</string>
     <string name="otg_data_transfer_success">Siirrettiin onnistuneesti</string>
     <string name="otg_data_transferring">Siirretään tiedostoja… Älä irrota ulkoista tallennustilaa.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

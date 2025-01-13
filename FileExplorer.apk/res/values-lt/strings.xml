@@ -42,6 +42,8 @@
     <string name="afternoon">Popietė</string>
     <string name="aggree_desc">Leisti šiai programai prisijungti prie interneto ir suteikti privalomus pirmiau nurodytus leidimus.</string>
     <string name="agree">Sutinku</string>
+    <string name="ai_search_building_database">Analizuojami failai tikslesniems rezultatams pateikti…</string>
+    <string name="ai_search_building_database_pause">Tikslesniems rezultatams pateikti, jūsų įrenginyje bus analizuojami failai</string>
     <string name="ai_search_progress">Analizuojami failai… (%s)</string>
     <string name="ai_search_progress_tips">Laikykite įrenginį prijungtą prie įkroviklio. Kai ekranas išjungtas, failai bus analizuojami greičiau.</string>
     <string name="am">Priešpiet</string>
@@ -295,7 +297,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="file_cloud_guide_message_permissions">Ši programa gali prašyti šių leidimų: pasiekti ir pridėti elementų į įrenginio saugyklą, pasiekti įrenginyje įdiegtų programų sąrašą ir siųsti pranešimus. Leidimų nuostatas galite bet kada koreguoti parametruose.</string>
     <string name="file_cloud_parse_download_success">Sėkmingai išsaugota</string>
     <string name="file_cloud_parse_title">Internetiniai failai</string>
-    <string name="file_cloud_parsing">Analizuojamas failas…</string>
+    <string name="file_cloud_parsing">Vyksta apdorojimas debesyje…</string>
     <string name="file_cloud_process_file_Size">"Dydis: "</string>
     <string name="file_cloud_process_message">Atsižvelgiant į failo dydį, procesas gali užtrukti kelias minutes. Galite jį atšaukti arba palieskite „Palaukti“, kad jis būtų užbaigtas fone.</string>
     <string name="file_cloud_processing">Apdorojama…</string>
@@ -312,7 +314,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="file_name_existed">Failo pavadinimas jau egzistuoja</string>
     <string name="file_name_invalid">Failų pavadinimuose negali būti šių simbolių: / \\: *? &lt;></string>
     <string name="file_not_exist">Failas neegzistuoja</string>
-    <string name="file_parse_fail">Nepavyko išanalizuoti failo</string>
+    <string name="file_parse_fail">Nepavyko užbaigti apdorojimo debesyje</string>
     <string name="file_parse_loading">Transkoduojama. Tai gali šiek tiek užtrukti.</string>
     <string name="file_parse_outpace_1gb">Šio failo dydis viršija %1$d GB, todėl jo negalima peržiūrėti šioje programoje. Vietoj to galite jį atidaryti naudodami kitą programą.</string>
     <string name="file_parse_outpace_1mb">Šio failo dydis viršija %1$d MB, todėl jo negalima peržiūrėti šioje programoje. Vietoj to galite jį atidaryti naudodami kitą programą.</string>
@@ -608,8 +610,8 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="not_use">Ne dabar</string>
     <string name="notif_server_starting">Paleidžiamas FTP serveris…</string>
     <string name="notif_title">FTP serveris veikia</string>
-    <string name="notification_fail">Nepavyko apdoroti</string>
-    <string name="notification_success">Sėkmingai apdorota</string>
+    <string name="notification_fail">Nepavyko užbaigti apdorojimo debesyje</string>
+    <string name="notification_success">Apdorojimas debesyje baigtas</string>
     <string name="notification_title_sync_result">Sinchronizavimas baigtas</string>
     <string name="notification_title_syncing">Sinchronizuojama…</string>
     <string name="notification_title_syncing_with_count">Sinchronizuojami elementai. Liko failų: %1$s</string>
@@ -622,6 +624,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="operation_cache_use_data">Atsiųsti</string>
     <string name="operation_cache_use_free_network">Laukti „Wi-Fi“</string>
     <string name="operation_cancel">Atšaukti</string>
+    <string name="operation_check_cloud_space">Peržiūrėti</string>
     <string name="operation_cloud_copy_to_local">Išsaugoti į…</string>
     <string name="operation_compress">Suspausti</string>
     <string name="operation_compressing">Suspaudžiama…</string>
@@ -638,6 +641,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="operation_decompressing">Išskleidžiama…</string>
     <string name="operation_del_fav">Šalinama iš parankinių…</string>
     <string name="operation_delete">Trinti</string>
+    <string name="operation_delete_cloud_upload_record">Atmesti</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM yra galerijos aplankas. Jei ištrinsite šį aplanką, visi jame esantys elementai taip pat bus visam laikui ištrinti iš galerijos. Vis tiek ištrinti šį aplanką?</string>
     <string name="operation_delete_confirm_message">Ištrinti?</string>
     <string name="operation_delete_confirm_message_folder">"Visas aplanko turinys bus ištrintas.
@@ -688,6 +692,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="operation_upload_delete">Ištrinti</string>
     <string name="operation_upload_err_file_not_found">Atrodo, šis failas neegzistuoja.</string>
     <string name="operation_upload_err_file_size_zero">Nepavyko įkelti tuščių failų.</string>
+    <string name="operation_upload_err_full_manage_space">Debesų saugykla pilna. Atnaujinkite saugyklos planą arba ištrinkite nereikalingus elementus. Bakstelėkite „Peržiūrėti“, kad peržiūrėtumėte ir tvarkytumėte debesų saugyklą, arba „Atmesti“, kad ištrintumėte šią įkėlimo užduotį.</string>
     <string name="operation_upload_err_illegal_char">Šiame failo pavadinime yra nepalaikomų simbolių.</string>
     <string name="operation_upload_err_larger_than_4g">Didesnių nei %d GB failų įkėlimas negalimas.</string>
     <string name="operation_upload_err_not_support_overseas">Šiuo metu įkelti elementus gali tik žemyninės Kinijos naudotojai.</string>
@@ -696,6 +701,7 @@ Pabandykite perkelti failus iš savo įrenginio į „Mi diską“."</string>
     <string name="operation_upload_retry">Bandykite dar kartą</string>
     <string name="operation_upload_save_to_local">Išsaugoti į…</string>
     <string name="operation_upload_use_data">Įkelti</string>
+    <string name="otg_data_safely_exiting">Sekundėlę…</string>
     <string name="otg_data_transfer_success">Sėkmingai perkelta</string>
     <string name="otg_data_transferring">Perkeliami failai… Neatjunkite išorinės saugyklos.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

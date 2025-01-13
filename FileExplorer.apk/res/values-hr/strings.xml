@@ -42,6 +42,8 @@
     <string name="afternoon">Popodne</string>
     <string name="aggree_desc">Dopustite ovoj aplikaciji da se poveže s internetom i dodijelite gore navedena obvezna dopuštenja.</string>
     <string name="agree">Slažem se</string>
+    <string name="ai_search_building_database">Analiziranje datoteka će pružiti preciznije rezultate…</string>
+    <string name="ai_search_building_database_pause">Datoteke će se analizirati na vašem uređaju kako bi se dobili točniji rezultati</string>
     <string name="ai_search_progress">Analiza datoteka… (%s)</string>
     <string name="ai_search_progress_tips">Držite svoj uređaj priključen na punjač. Brže će analizirati datoteke kada je zaslon isključen.</string>
     <string name="am">prijep.</string>
@@ -295,7 +297,7 @@ Pokušajte premjestiti datoteke sa svog uređaja na Mi Drive."</string>
     <string name="file_cloud_guide_message_permissions">Ova aplikacija može tražiti sljedeća dopuštenja: pristup i dodavanje stavki u pohranu uređaja, pristup popisu aplikacija instaliranih na uređaju i slanje obavijesti. Postavke dopuštenja možete prilagoditi u bilo kojem trenutku u Postavkama.</string>
     <string name="file_cloud_parse_download_success">Uspješno spremljeno</string>
     <string name="file_cloud_parse_title">Online datoteke</string>
-    <string name="file_cloud_parsing">Raščlanjavanje datoteke…</string>
+    <string name="file_cloud_parsing">Obrada u cloudu u tijeku…</string>
     <string name="file_cloud_process_file_Size">"Veličina: "</string>
     <string name="file_cloud_process_message">Ovisno o veličini datoteke, to može potrajati nekoliko minuta. Možete ga otkazati ili dodirnuti \"Čekaj\" da završi u pozadini.</string>
     <string name="file_cloud_processing">Obrada…</string>
@@ -312,7 +314,7 @@ Pokušajte premjestiti datoteke sa svog uređaja na Mi Drive."</string>
     <string name="file_name_existed">Naziv datoteke je zauzet</string>
     <string name="file_name_invalid">Imena datoteka ne mogu sadržavati sljedeće znakove: /\\:*?&lt;></string>
     <string name="file_not_exist">Datoteka ne postoji</string>
-    <string name="file_parse_fail">Nije moguće raščlaniti datoteku</string>
+    <string name="file_parse_fail">Nije moguće dovršiti obradu u cloudu</string>
     <string name="file_parse_loading">Transkodiranje. Ovo bi moglo potrajati minutu.</string>
     <string name="file_parse_outpace_1gb">Ova datoteka premašuje %1$d GB i ne može se vidjeti u ovoj aplikaciji. Umjesto toga možete ga otvoriti pomoću druge aplikacije.</string>
     <string name="file_parse_outpace_1mb">Ova datoteka premašuje %1$d MB i ne može se vidjeti u ovoj aplikaciji. Umjesto toga možete ga otvoriti pomoću druge aplikacije.</string>
@@ -608,8 +610,8 @@ Pokušajte premjestiti datoteke sa svog uređaja na Mi Drive."</string>
     <string name="not_use">Ne sada</string>
     <string name="notif_server_starting">Pokretanje FTP poslužitelja…</string>
     <string name="notif_title">Pokrenut je FTP poslužitelj</string>
-    <string name="notification_fail">Obrada nije moguća</string>
-    <string name="notification_success">Uspješno obrađeno</string>
+    <string name="notification_fail">Nije moguće dovršiti obradu u cloudu</string>
+    <string name="notification_success">Obrada u cloudu dovršena</string>
     <string name="notification_title_sync_result">Sinkroniziranje završeno</string>
     <string name="notification_title_syncing">Sinkroniziram…</string>
     <string name="notification_title_syncing_with_count">Sinkronizacija stavki. Preostale datoteke: %1$s</string>
@@ -622,6 +624,7 @@ Pokušajte premjestiti datoteke sa svog uređaja na Mi Drive."</string>
     <string name="operation_cache_use_data">Preuzmi</string>
     <string name="operation_cache_use_free_network">Pričekajte Wi-Fi</string>
     <string name="operation_cancel">Odustani</string>
+    <string name="operation_check_cloud_space">Prikaži</string>
     <string name="operation_cloud_copy_to_local">Spremi u…</string>
     <string name="operation_compress">Sažmi</string>
     <string name="operation_compressing">Sažimanje…</string>
@@ -638,6 +641,7 @@ Pokušajte premjestiti datoteke sa svog uređaja na Mi Drive."</string>
     <string name="operation_decompressing">Raspakiravanje…</string>
     <string name="operation_del_fav">Uklanjanje iz omiljenog…</string>
     <string name="operation_delete">Izbriši</string>
+    <string name="operation_delete_cloud_upload_record">Odbaci</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM je mapa Galerije. Ako izbrišete ovu mapu, sve stavke unutar nje također će biti trajno izbrisane iz Galerije. Svejedno izbrisati ovu mapu?</string>
     <string name="operation_delete_confirm_message">Izbrisati?</string>
     <string name="operation_delete_confirm_message_folder">"Sve sadržaj mape će biti izbrisan.
@@ -688,6 +692,7 @@ Pokušajte premjestiti datoteke sa svog uređaja na Mi Drive."</string>
     <string name="operation_upload_delete">Obriši</string>
     <string name="operation_upload_err_file_not_found">Čini se da ova datoteka ne postoji.</string>
     <string name="operation_upload_err_file_size_zero">Ne mogu učitati prazne datoteke.</string>
+    <string name="operation_upload_err_full_manage_space">Pohrana u cloudu je puna. Nadogradite svoj plan za pohranu ili izbrišite stavke koje vam ne trebaju. Dodirnite \"Prikaz\" za pregled i upravljanje prostorom za pohranu u oblaku ili \"Odbaci\" za brisanje ovog zadatka prijenosa.</string>
     <string name="operation_upload_err_illegal_char">Ovaj naziv datoteke sadrži nepodržane znakove.</string>
     <string name="operation_upload_err_larger_than_4g">Nije moguće učitati datoteke veće od %d GB.</string>
     <string name="operation_upload_err_not_support_overseas">Samo korisnici u Kopnenoj Kini mogu učitavati stavke u ovom trenutku.</string>
@@ -696,6 +701,7 @@ Pokušajte premjestiti datoteke sa svog uređaja na Mi Drive."</string>
     <string name="operation_upload_retry">Pokušajte ponovo</string>
     <string name="operation_upload_save_to_local">Spremi u…</string>
     <string name="operation_upload_use_data">Učitaj</string>
+    <string name="otg_data_safely_exiting">Pričekajte trenutak…</string>
     <string name="otg_data_transfer_success">Uspješno preneseno</string>
     <string name="otg_data_transferring">Prijenos datoteka… Nemojte odspajati vanjsku pohranu.</string>
     <string name="otg_file_security_note">OGTSigurnost</string>

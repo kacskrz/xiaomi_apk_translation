@@ -42,6 +42,8 @@
     <string name="afternoon">День</string>
     <string name="aggree_desc">Разрешите этому приложению доступ к интернету и предоставьте обязательные разрешения, перечисленные выше.</string>
     <string name="agree">Согласиться</string>
+    <string name="ai_search_building_database">Анализ файлов для получения более точных результатов…</string>
+    <string name="ai_search_building_database_pause">Файлы будут анализироваться на вашем устройстве, чтобы предоставить более точные результаты</string>
     <string name="ai_search_progress">Анализ файлов… (%s)</string>
     <string name="ai_search_progress_tips">Оставьте устройство подключенным к зарядному устройству. При выключенном экране файлы анализируются быстрее.</string>
     <string name="am">AM</string>
@@ -295,7 +297,7 @@
     <string name="file_cloud_guide_message_permissions">Это приложение может запрашивать следующие разрешения: доступ к объектам и их добавление в хранилище устройства, доступ к списку приложений, установленных на устройстве, и отправка уведомлений. Вы можете изменить разрешения в любое время в Настройках.</string>
     <string name="file_cloud_parse_download_success">Сохранено</string>
     <string name="file_cloud_parse_title">Онлайн-файлы</string>
-    <string name="file_cloud_parsing">Анализ файла…</string>
+    <string name="file_cloud_parsing">Выполняется облачная обработка…</string>
     <string name="file_cloud_process_file_Size">"Размер: "</string>
     <string name="file_cloud_process_message">В зависимости от размера файла это может занять несколько минут. Вы можете отменить процесс или нажать «Подождать», чтобы он завершился в фоновом режиме.</string>
     <string name="file_cloud_processing">Обработка…</string>
@@ -312,7 +314,7 @@
     <string name="file_name_existed">Файл с таким именем уже существует</string>
     <string name="file_name_invalid">Имена файлов не могут содержать следующие символы: /\\:*?&lt;></string>
     <string name="file_not_exist">Файл не найден</string>
-    <string name="file_parse_fail">Не удалось проанализировать файл</string>
+    <string name="file_parse_fail">Не удалось завершить облачную обработку</string>
     <string name="file_parse_loading">Выполняется перекодирование. Это может занять до минуты.</string>
     <string name="file_parse_outpace_1gb">Размер этого файла превышает %1$d ГБ, и его нельзя просмотреть в этом приложении. Вы можете открыть его с помощью другого приложения.</string>
     <string name="file_parse_outpace_1mb">Размер этого файла превышает %1$d МБ, и его нельзя просмотреть в этом приложении. Вы можете открыть его с помощью другого приложения.</string>
@@ -608,8 +610,8 @@
     <string name="not_use">Не сейчас</string>
     <string name="notif_server_starting">Запуск FTP-сервера…</string>
     <string name="notif_title">FTP-сервер запущен</string>
-    <string name="notification_fail">Не удалось обработать</string>
-    <string name="notification_success">Успешно обработано</string>
+    <string name="notification_fail">Не удалось завершить облачную обработку</string>
+    <string name="notification_success">Облачная обработка завершена</string>
     <string name="notification_title_sync_result">Синхронизация завершена</string>
     <string name="notification_title_syncing">Синхронизация…</string>
     <string name="notification_title_syncing_with_count">Выполняется синхронизация объектов. Осталось файлов: %1$s</string>
@@ -622,6 +624,7 @@
     <string name="operation_cache_use_data">Скачать</string>
     <string name="operation_cache_use_free_network">Отложить</string>
     <string name="operation_cancel">Отмена</string>
+    <string name="operation_check_cloud_space">Просмотр</string>
     <string name="operation_cloud_copy_to_local">Сохранить в…</string>
     <string name="operation_compress">Добавить в архив</string>
     <string name="operation_compressing">Архивация…</string>
@@ -638,6 +641,7 @@
     <string name="operation_decompressing">Извлечение…</string>
     <string name="operation_del_fav">Удаление из избранного…</string>
     <string name="operation_delete">Удалить</string>
+    <string name="operation_delete_cloud_upload_record">Отменить</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM — это папка Галереи. Если удалить эту папку, то все элементы в ней также будут безвозвратно удалены из Галереи. Вы действительно хотите удалить эту папку?</string>
     <string name="operation_delete_confirm_message">Удалить?</string>
     <string name="operation_delete_confirm_message_folder">"Все содержимое папки будет удалено.
@@ -688,6 +692,7 @@
     <string name="operation_upload_delete">Удалить</string>
     <string name="operation_upload_err_file_not_found">Файл не был найден.</string>
     <string name="operation_upload_err_file_size_zero">Нельзя загружать пустые файлы.</string>
+    <string name="operation_upload_err_full_manage_space">Облачное хранилище заполнено. Обновите тарифный план хранения или удалите ненужные объекты. Нажмите «Просмотр», чтобы просмотреть свое облачное хранилище или управлять им, или «Отменить», чтобы удалить эту задачу загрузки.</string>
     <string name="operation_upload_err_illegal_char">Имя файла содержит неподдерживаемые символы.</string>
     <string name="operation_upload_err_larger_than_4g">Нельзя загружать файлы размером более %d ГБ.</string>
     <string name="operation_upload_err_not_support_overseas">В настоящее время загружать файлы могут только пользователи на территории материкового Китая.</string>
@@ -696,6 +701,7 @@
     <string name="operation_upload_retry">Повторить</string>
     <string name="operation_upload_save_to_local">Сохранить в…</string>
     <string name="operation_upload_use_data">Загрузить</string>
+    <string name="otg_data_safely_exiting">Секунду…</string>
     <string name="otg_data_transfer_success">Перенос данных завершен</string>
     <string name="otg_data_transferring">Передача файлов… Не отключайте внешний накопитель.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

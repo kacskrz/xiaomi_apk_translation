@@ -42,6 +42,8 @@
     <string name="afternoon">Popołudnie</string>
     <string name="aggree_desc">Zezwól tej aplikacji na łączenie się z internetem i przyznaj obowiązkowe uprawnienia wymienione powyżej.</string>
     <string name="agree">Akceptuj</string>
+    <string name="ai_search_building_database">Analiza plików w celu zapewnienia dokładniejszych wyników…</string>
+    <string name="ai_search_building_database_pause">Będziemy analizować pliki na urządzeniu, by poprawić dokładność wyników</string>
     <string name="ai_search_progress">Analizowanie plików… (%s)</string>
     <string name="ai_search_progress_tips">Nie odłączaj urządzenia od ładowarki. Pliki zostaną przeanalizowane szybciej, jeśli ekran będzie wyłączony.</string>
     <string name="am">AM</string>
@@ -271,7 +273,7 @@ Spróbuj przenieść pliki z urządzenia do Mi Drive."</string>
     <string name="error_open_file_failed_no_app_found">Nie udało się znaleźć aplikacji do otwarcia pliku.</string>
     <string name="evening">Popołudnie</string>
     <string name="exception_net_not_available">Sprawdź ustawienia sieci i spróbuj ponownie</string>
-    <string name="exit">Wyjście</string>
+    <string name="exit">Wyjdź</string>
     <string name="expand_button_title">Zaawansowane</string>
     <string name="extend_service_setting">Dodatkowe usługi</string>
     <string name="extend_service_summary">Po wyłączeniu tej usługi nie będzie możliwe korzystanie z funkcji powiązanych z Mi Drive</string>
@@ -295,7 +297,7 @@ Spróbuj przenieść pliki z urządzenia do Mi Drive."</string>
     <string name="file_cloud_guide_message_permissions">Aplikacja może prosić o następujące uprawnienia: dostęp do pamięci urządzenia, możliwość dodawania elementów do pamięci urządzenia, dostęp do listy aplikacji zainstalowanych na urządzeniu oraz wysyłanie powiadomień. Preferencje dotyczące uprawnień można w każdej chwili dostosować w Ustawieniach.</string>
     <string name="file_cloud_parse_download_success">Zapisano pomyślnie</string>
     <string name="file_cloud_parse_title">Pliki online</string>
-    <string name="file_cloud_parsing">Analizowanie pliku…</string>
+    <string name="file_cloud_parsing">Przetwarzanie w chmurze w toku…</string>
     <string name="file_cloud_process_file_Size">"Rozmiar: "</string>
     <string name="file_cloud_process_message">W zależności od rozmiaru pliku może to potrwać kilka minut. Możesz anulować proces albo kliknąć „Czekaj”, by umożliwić działanie w tle.</string>
     <string name="file_cloud_processing">Przetwarzanie…</string>
@@ -312,7 +314,7 @@ Spróbuj przenieść pliki z urządzenia do Mi Drive."</string>
     <string name="file_name_existed">Nazwa pliku jest już zajęta</string>
     <string name="file_name_invalid">Nazwa pliku nie może zawierać: /\\:*?&lt;></string>
     <string name="file_not_exist">Plik nie istnieje</string>
-    <string name="file_parse_fail">Nie udało się przeanalizować pliku</string>
+    <string name="file_parse_fail">Nie udało się ukończyć przetwarzania w chmurze</string>
     <string name="file_parse_loading">Transkodowanie. Może to chwilę potrwać.</string>
     <string name="file_parse_outpace_1gb">Rozmiar pliku przekracza %1$d GB i nie można go wyświetlić w tej aplikacji. Spróbuj go otworzyć w innej.</string>
     <string name="file_parse_outpace_1mb">Rozmiar pliku przekracza %1$d MB i nie można go wyświetlić w tej aplikacji. Spróbuj go otworzyć w innej.</string>
@@ -608,8 +610,8 @@ Spróbuj przenieść pliki z urządzenia do Mi Drive."</string>
     <string name="not_use">Nie teraz</string>
     <string name="notif_server_starting">Uruchamianie serwera FTP…</string>
     <string name="notif_title">Serwer FTP jest uruchomiony</string>
-    <string name="notification_fail">Nie udało się przetworzyć</string>
-    <string name="notification_success">Przetworzono pomyślnie</string>
+    <string name="notification_fail">Nie udało się ukończyć przetwarzania w chmurze</string>
+    <string name="notification_success">Zakończono przetwarzanie w chmurze</string>
     <string name="notification_title_sync_result">Synchronizowanie zakończone</string>
     <string name="notification_title_syncing">Synchronizowanie…</string>
     <string name="notification_title_syncing_with_count">Synchronizowanie elementów. Pozostało: %1$s</string>
@@ -622,6 +624,7 @@ Spróbuj przenieść pliki z urządzenia do Mi Drive."</string>
     <string name="operation_cache_use_data">Pobierz</string>
     <string name="operation_cache_use_free_network">Czekaj na sieć Wi-Fi</string>
     <string name="operation_cancel">Anuluj</string>
+    <string name="operation_check_cloud_space">Wyświetl</string>
     <string name="operation_cloud_copy_to_local">Zapisz do…</string>
     <string name="operation_compress">Kompresuj</string>
     <string name="operation_compressing">Kompresowanie…</string>
@@ -638,6 +641,7 @@ Spróbuj przenieść pliki z urządzenia do Mi Drive."</string>
     <string name="operation_decompressing">Wyodrębnianie…</string>
     <string name="operation_del_fav">Usuwanie z ulubionych…</string>
     <string name="operation_delete">Usuń</string>
+    <string name="operation_delete_cloud_upload_record">Odrzuć</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM to folder Galerii. Jeśli usuniesz ten folder, wszystkie znajdujące się w nim elementy zostaną również trwale usunięte z Galerii. Usunąć ten folder mimo to?</string>
     <string name="operation_delete_confirm_message">Usunąć?</string>
     <string name="operation_delete_confirm_message_folder">"Cała zawartość folderu zostanie usunięta.
@@ -688,6 +692,7 @@ Spróbuj przenieść pliki z urządzenia do Mi Drive."</string>
     <string name="operation_upload_delete">Usuń</string>
     <string name="operation_upload_err_file_not_found">Wygląda na to, że plik nie istnieje.</string>
     <string name="operation_upload_err_file_size_zero">Nie można przesyłać pustych plików.</string>
+    <string name="operation_upload_err_full_manage_space">Pamięć chmury jest pełna. Zaktualizuj plan przestrzeni dyskowej lub usuń niepotrzebne pliki. Dotknij „Wyświetl”, aby przejrzeć dysk w chmurze i zarządzać zapisanymi plikami, albo „Odrzuć”, aby anulować wysyłanie.</string>
     <string name="operation_upload_err_illegal_char">Nazwa pliku zawiera nieobsługiwane znaki.</string>
     <string name="operation_upload_err_larger_than_4g">Nie można przesyłać plików większych niż %d GB.</string>
     <string name="operation_upload_err_not_support_overseas">Tylko użytkownicy w Chinach kontynentalnych mogą przesyłać elementy w tym czasie.</string>
@@ -696,6 +701,7 @@ Spróbuj przenieść pliki z urządzenia do Mi Drive."</string>
     <string name="operation_upload_retry">Spróbuj ponownie</string>
     <string name="operation_upload_save_to_local">Zapisz do…</string>
     <string name="operation_upload_use_data">Prześlij</string>
+    <string name="otg_data_safely_exiting">Chwileczkę…</string>
     <string name="otg_data_transfer_success">Pomyślnie przesłano</string>
     <string name="otg_data_transferring">Przesyłanie plików… Nie odłączaj pamięci zewnętrznej.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

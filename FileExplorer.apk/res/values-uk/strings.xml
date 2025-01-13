@@ -42,6 +42,8 @@
     <string name="afternoon">Після обіду</string>
     <string name="aggree_desc">"Дозвольте програмі підключатися до інтернету та надайте обов'язкові дозволи."</string>
     <string name="agree">ОК</string>
+    <string name="ai_search_building_database">Аналіз файлів для отримання більш точних результатів…</string>
+    <string name="ai_search_building_database_pause">Файли будуть проаналізовані на пристрої для надання більш точних результатів</string>
     <string name="ai_search_progress">Аналіз файлів… (%s)</string>
     <string name="ai_search_progress_tips">Залиште пристрій підключеним до зарядного пристрою. Файли буде проаналізовано швидше при вимкненому екрані.</string>
     <string name="am">ДО</string>
@@ -295,7 +297,7 @@
     <string name="file_cloud_guide_message_permissions">"Ця програма може запитувати такі дозволи: доступ до об'єктів та додавання їх до сховища пристрою, доступ до списку програм, встановлених на пристрої, та надсилання сповіщень. Ви можете у будь-який момент змінити дозволи в Налаштуваннях."</string>
     <string name="file_cloud_parse_download_success">Збережено</string>
     <string name="file_cloud_parse_title">Онлайн-файли</string>
-    <string name="file_cloud_parsing">Парсинг файла…</string>
+    <string name="file_cloud_parsing">Триває хмарна обробка…</string>
     <string name="file_cloud_process_file_Size">"Розмір: "</string>
     <string name="file_cloud_process_message">Залежно від розміру файла, це може зайняти декілька хвилин. Ви можете скасувати процес або натиснути \"Чекати\", щоб він закінчився у фоновому режимі.</string>
     <string name="file_cloud_processing">Обробка…</string>
@@ -312,7 +314,7 @@
     <string name="file_name_existed">"Ім'я файла вже зайнято"</string>
     <string name="file_name_invalid">Імена файлів не можуть містити наступні символи: /\\:*?&lt;></string>
     <string name="file_not_exist">Файл не знайдено</string>
-    <string name="file_parse_fail">Помилка парсингу файла</string>
+    <string name="file_parse_fail">Не вдалося завершити хмарну обробку</string>
     <string name="file_parse_loading">Виконується перекодування. Це може зайняти декілька хвилин.</string>
     <string name="file_parse_outpace_1gb">Розмір цього файла перевищує %1$d ГБ, і його не можна переглянути у цій програмі. Ви можете відкрити його за допомогою іншої програми.</string>
     <string name="file_parse_outpace_1mb">Розмір цього файла перевищує %1$d МБ, і його не можна переглянути у цій програмі. Ви можете відкрити його за допомогою іншої програми.</string>
@@ -608,8 +610,8 @@
     <string name="not_use">Не зараз</string>
     <string name="notif_server_starting">Запуск FTP-сервера…</string>
     <string name="notif_title">FTP-сервер запущений</string>
-    <string name="notification_fail">Не вдалося обробити</string>
-    <string name="notification_success">Оброблено успішно</string>
+    <string name="notification_fail">Не вдалося завершити хмарну обробку</string>
+    <string name="notification_success">Хмарну обробку завершено</string>
     <string name="notification_title_sync_result">Синхронізація завершена</string>
     <string name="notification_title_syncing">Синхронізація…</string>
     <string name="notification_title_syncing_with_count">"Виконується синхронізація об'єктів. Залишилося файлів: %1$s"</string>
@@ -622,6 +624,7 @@
     <string name="operation_cache_use_data">Завантажити</string>
     <string name="operation_cache_use_free_network">Відкласти</string>
     <string name="operation_cancel">Скасувати</string>
+    <string name="operation_check_cloud_space">Перегляд</string>
     <string name="operation_cloud_copy_to_local">Зберегти до…</string>
     <string name="operation_compress">Додати до архіву</string>
     <string name="operation_compressing">Створення архіву…</string>
@@ -638,6 +641,7 @@
     <string name="operation_decompressing">Розпакування…</string>
     <string name="operation_del_fav">Видалення з обраних…</string>
     <string name="operation_delete">Видалити</string>
+    <string name="operation_delete_cloud_upload_record">Скасувати</string>
     <string name="operation_delete_confirm_dcim_message_folder">"DCIM — це папка Галереї. Якщо видалити цю папку, то всі об'єкти в ній також будуть безповоротно видалені з Галереї. Ви дійсно хочете видалити цю папку?"</string>
     <string name="operation_delete_confirm_message">Видалити?</string>
     <string name="operation_delete_confirm_message_folder">"Папка буде видалена з усіма файлами.
@@ -688,6 +692,7 @@
     <string name="operation_upload_delete">Видалити</string>
     <string name="operation_upload_err_file_not_found">Файл не було знайдено.</string>
     <string name="operation_upload_err_file_size_zero">Неможливо завантажити пусті файли.</string>
+    <string name="operation_upload_err_full_manage_space">"Хмарне сховище заповнене. Оновіть тарифний план зберігання або видаліть непотрібні об'єкти. Натисніть \"Перегляд\", щоб переглянути або керувати своїм хмарним сховищем, або \"Скасувати\", щоб видалити це завдання завантаження."</string>
     <string name="operation_upload_err_illegal_char">Назва файлу містить непідтримувані символи.</string>
     <string name="operation_upload_err_larger_than_4g">"Неможливо завантажувати об'єкти, які більше %d ГБ."</string>
     <string name="operation_upload_err_not_support_overseas">В даний час завантажувати файли можуть тільки користувачі на території материкового Китаю.</string>
@@ -696,6 +701,7 @@
     <string name="operation_upload_retry">Повторити</string>
     <string name="operation_upload_save_to_local">Зберегти до…</string>
     <string name="operation_upload_use_data">Завантажити</string>
+    <string name="otg_data_safely_exiting">Секунду…</string>
     <string name="otg_data_transfer_success">Передано успішно</string>
     <string name="otg_data_transferring">Передача файлів…Не відключайте від зовнішнього накопичувача.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

@@ -42,6 +42,8 @@
     <string name="afternoon">Öğleden sonra</string>
     <string name="aggree_desc">Bu uygulamanın internete bağlanmasına ve yukarıda listelenen zorunlu izinleri vermesine izin ver.</string>
     <string name="agree">Kabul et</string>
+    <string name="ai_search_building_database">Daha doğru sonuçlar sağlamak için dosyalar analiz ediliyor…</string>
+    <string name="ai_search_building_database_pause">Daha doğru sonuçlar sağlamak için dosyalar cihazınızda analiz edilecek</string>
     <string name="ai_search_progress">Dosyalar analiz ediliyor… (%s)</string>
     <string name="ai_search_progress_tips">Cihazınızı şarj cihazına bağlı tutun. Ekran kapalıyken dosyalar daha hızlı analiz edilecektir.</string>
     <string name="am">ÖÖ</string>
@@ -295,7 +297,7 @@ Dosyaları cihazınızdan Mi Drive'a taşımayı deneyin."</string>
     <string name="file_cloud_guide_message_permissions">Bu uygulama aşağıdaki izinleri isteyebilir: ögelere erişme ve ögeleri cihazın depolama alanına ekleme, cihazda yüklü uygulamaların listesine erişme ve bildirim gönderme. İzin tercihlerinizi dilediğiniz zaman Ayarlar menüsünde değiştirebilirsiniz.</string>
     <string name="file_cloud_parse_download_success">Başarıyla kaydedildi</string>
     <string name="file_cloud_parse_title">Çevrim içi dosyalar</string>
-    <string name="file_cloud_parsing">Dosya ayrıştırılıyor…</string>
+    <string name="file_cloud_parsing">Cloud işleme devam ediyor…</string>
     <string name="file_cloud_process_file_Size">"Boyut: "</string>
     <string name="file_cloud_process_message">"Dosya boyutuna bağlı olarak bu birkaç dakika sürebilir. İptal edebilir veya arka planda bitirilmesi için ''Bekle'' seçeneğine dokunabilirsiniz."</string>
     <string name="file_cloud_processing">İşleniyor…</string>
@@ -312,7 +314,7 @@ Dosyaları cihazınızdan Mi Drive'a taşımayı deneyin."</string>
     <string name="file_name_existed">Dosya adı alındı</string>
     <string name="file_name_invalid">Dosya adları belirtilen karakterleri içermemelidir: /\\:*?&lt;></string>
     <string name="file_not_exist">Dosya mevcut değil</string>
-    <string name="file_parse_fail">Dosya ayrıştırılamadı</string>
+    <string name="file_parse_fail">Cloud işleme tamamlanamadı</string>
     <string name="file_parse_loading">Kod dönüştürülüyor. Bu bir dakika sürebilir.</string>
     <string name="file_parse_outpace_1gb">"Bu dosya %1$d GB'yi aşıyor ve bu uygulamada görüntülenemiyor. Bunun yerine başka bir uygulama ile açabilirsiniz."</string>
     <string name="file_parse_outpace_1mb">"Bu dosya %1$d MB'yi aşıyor ve bu uygulamada görüntülenemiyor. Bunun yerine başka bir uygulama ile açabilirsiniz."</string>
@@ -608,8 +610,8 @@ Dosyaları cihazınızdan Mi Drive'a taşımayı deneyin."</string>
     <string name="not_use">Şimdi değil</string>
     <string name="notif_server_starting">FTP sunucusu başlatılıyor…</string>
     <string name="notif_title">FTP sunucusu çalışıyor</string>
-    <string name="notification_fail">İşlenemedi</string>
-    <string name="notification_success">Başarıyla işlendi</string>
+    <string name="notification_fail">Cloud işleme tamamlanamadı</string>
+    <string name="notification_success">Cloud işleme tamamlandı</string>
     <string name="notification_title_sync_result">Senkronizasyon tamamlandı</string>
     <string name="notification_title_syncing">Senkronize ediliyor…</string>
     <string name="notification_title_syncing_with_count">Ögeler senkronize ediliyor. Kalan dosya: %1$s</string>
@@ -622,6 +624,7 @@ Dosyaları cihazınızdan Mi Drive'a taşımayı deneyin."</string>
     <string name="operation_cache_use_data">İndir</string>
     <string name="operation_cache_use_free_network">Wi-Fi bağlantısını bekle</string>
     <string name="operation_cancel">İptal</string>
+    <string name="operation_check_cloud_space">Görüntüle</string>
     <string name="operation_cloud_copy_to_local">Şu konuma kaydet…</string>
     <string name="operation_compress">Sıkıştır</string>
     <string name="operation_compressing">Sıkıştırılıyor…</string>
@@ -638,6 +641,7 @@ Dosyaları cihazınızdan Mi Drive'a taşımayı deneyin."</string>
     <string name="operation_decompressing">Çıkartılıyor…</string>
     <string name="operation_del_fav">Favorilerden kaldırılıyor…</string>
     <string name="operation_delete">Sil</string>
+    <string name="operation_delete_cloud_upload_record">Yok say</string>
     <string name="operation_delete_confirm_dcim_message_folder">"DCIM bir Galeri klasörüdür. Bu klasörü silerseniz içindeki tüm ögeler de Galeri'den kalıcı olarak silinecektir. Bu klasör yine de silinsin mi?"</string>
     <string name="operation_delete_confirm_message">Sil?</string>
     <string name="operation_delete_confirm_message_folder">"Tüm klasör içeriği silinecektir.
@@ -688,6 +692,7 @@ Dosyaları cihazınızdan Mi Drive'a taşımayı deneyin."</string>
     <string name="operation_upload_delete">Sil</string>
     <string name="operation_upload_err_file_not_found">Bu dosya mevcut değil gibi görünüyor.</string>
     <string name="operation_upload_err_file_size_zero">Boş dosyalar yüklenemez.</string>
+    <string name="operation_upload_err_full_manage_space">"Cloud depolama alanı dolu. Depolama planınızı yükseltin veya gerekli olmayan ögeleri silin. Görüntülemek için ''Görüntüle'' seçeneğine dokunun ve cloud depolama alanınızı yönetin veya bu yükleme görevini silmek için ''Yok say'' seçeneğine dokunun."</string>
     <string name="operation_upload_err_illegal_char">Bu dosya adı desteklenmeyen karakterler içermektedir.</string>
     <string name="operation_upload_err_larger_than_4g">"%d GB'den büyük dosyalar yüklenemez."</string>
     <string name="operation_upload_err_not_support_overseas">Şu anda yalnızca Çin anakarasındaki kullanıcılar öge yükleyebilir.</string>
@@ -696,6 +701,7 @@ Dosyaları cihazınızdan Mi Drive'a taşımayı deneyin."</string>
     <string name="operation_upload_retry">Tekrar dene</string>
     <string name="operation_upload_save_to_local">Şu konuma kaydet…</string>
     <string name="operation_upload_use_data">Yükle</string>
+    <string name="otg_data_safely_exiting">Yalnızca bir sn.…</string>
     <string name="otg_data_transfer_success">Aktarım başarıyla tamamlandı</string>
     <string name="otg_data_transferring">Dosyalar aktarılıyor… Harici depolamanın bağlantısını kesmeyin.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

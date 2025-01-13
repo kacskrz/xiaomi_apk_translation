@@ -42,6 +42,8 @@
     <string name="afternoon">Pēcpusdiena</string>
     <string name="aggree_desc">Atļaut šai lietotnei izveidot savienojumu ar internetu un piešķirt iepriekš norādītās obligātās atļaujas.</string>
     <string name="agree">Piekrist</string>
+    <string name="ai_search_building_database">Analizē datnes, lai nodrošinātu precīzākus rezultātus…</string>
+    <string name="ai_search_building_database_pause">Datnes tiks analizēti jūsu ierīcē, lai nodrošinātu precīzākus rezultātus</string>
     <string name="ai_search_progress">Analizē datnes… (%s)</string>
     <string name="ai_search_progress_tips">Saglabājiet ierīci pieslēgtu lādētājam. Ja ekrāns ir izslēgts, tā ātrāk analizēs datnes.</string>
     <string name="am">AM</string>
@@ -295,7 +297,7 @@ Mēģiniet pārvietot datnes no savas ierīces uz Mi Drive."</string>
     <string name="file_cloud_guide_message_permissions">Šī lietotne var pieprasīt šādas atļaujas: piekļūt ierīces krātuvei un pievienot tajā vienumus, piekļūt ierīcē instalēto lietotņu sarakstam un sūtīt paziņojumus. Atļauju izvēles jebkurā laikā varat pielāgot iestatījumos.</string>
     <string name="file_cloud_parse_download_success">Veiksmīgi saglabāts</string>
     <string name="file_cloud_parse_title">Tiešsaistes datnes</string>
-    <string name="file_cloud_parsing">Parsē datni…</string>
+    <string name="file_cloud_parsing">Mākoņa apstrāde ir progresā…</string>
     <string name="file_cloud_process_file_Size">"Izmērs: "</string>
     <string name="file_cloud_process_message">Atkarībā no datnes lieluma tas var aizņemt dažas minūtes. Varat to atcelt vai pieskarties \"Gaidīt\", lai ļautu tam pabeigt fona režīmā.</string>
     <string name="file_cloud_processing">Apstrādā…</string>
@@ -312,7 +314,7 @@ Mēģiniet pārvietot datnes no savas ierīces uz Mi Drive."</string>
     <string name="file_name_existed">Datnes nosaukums jau ir izmantots</string>
     <string name="file_name_invalid">Datņu nosaukumi nevar saturēt šādas rakstzīmes: /\\:*?&lt;></string>
     <string name="file_not_exist">Datne neeksistē</string>
-    <string name="file_parse_fail">Neizdevās parsēt datni</string>
+    <string name="file_parse_fail">Neizdevās pabeigt mākoņa apstrādi</string>
     <string name="file_parse_loading">Pārkodēšana. Tas var ilgt minūti.</string>
     <string name="file_parse_outpace_1gb">Šī datne pārsniedz %1$d GB un to nevar skatīt šajā lietotnē. Tā vietā varat to atvērt, izmantojot citu lietotni.</string>
     <string name="file_parse_outpace_1mb">Šī datne pārsniedz %1$d MB un to nevar skatīt šajā lietotnē. Tā vietā varat to atvērt, izmantojot citu lietotni.</string>
@@ -608,8 +610,8 @@ Mēģiniet pārvietot datnes no savas ierīces uz Mi Drive."</string>
     <string name="not_use">Ne tagad</string>
     <string name="notif_server_starting">Palaiž FTP serveri…</string>
     <string name="notif_title">FTP serveris darbojas</string>
-    <string name="notification_fail">Nevarēja apstrādāt</string>
-    <string name="notification_success">Veiksmīgi apstrādāts</string>
+    <string name="notification_fail">Neizdevās pabeigt mākoņa apstrādi</string>
+    <string name="notification_success">Mākoņa apstrāde ir pabeigta</string>
     <string name="notification_title_sync_result">Sinhronizēšana pabeigta</string>
     <string name="notification_title_syncing">Sinhronizē…</string>
     <string name="notification_title_syncing_with_count">Sinhronizē vienumus. Atlikušās datnes: %1$s</string>
@@ -622,6 +624,7 @@ Mēģiniet pārvietot datnes no savas ierīces uz Mi Drive."</string>
     <string name="operation_cache_use_data">Lejupielādēt</string>
     <string name="operation_cache_use_free_network">Gaidīt Wi-Fi</string>
     <string name="operation_cancel">Atcelt</string>
+    <string name="operation_check_cloud_space">Skatīt</string>
     <string name="operation_cloud_copy_to_local">Saglabāt uz…</string>
     <string name="operation_compress">Saspiest</string>
     <string name="operation_compressing">Saspiež…</string>
@@ -638,6 +641,7 @@ Mēģiniet pārvietot datnes no savas ierīces uz Mi Drive."</string>
     <string name="operation_decompressing">Izvēršana…</string>
     <string name="operation_del_fav">Izņem no izlases…</string>
     <string name="operation_delete">Dzēst</string>
+    <string name="operation_delete_cloud_upload_record">Atmest</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM ir Galerijas mape. Ja šo mapi dzēsīsiet, visi tajā esošie vienumi tiks neatgriezeniski dzēsti arī no Galerijas. Vai tāpat dzēst šo mapi?</string>
     <string name="operation_delete_confirm_message">Dzēst?</string>
     <string name="operation_delete_confirm_message_folder">"Viss mapes saturs tiks dzēsts.
@@ -688,6 +692,7 @@ Mēģiniet pārvietot datnes no savas ierīces uz Mi Drive."</string>
     <string name="operation_upload_delete">Dzēst</string>
     <string name="operation_upload_err_file_not_found">Izskatās, ka šī datne nepastāv.</string>
     <string name="operation_upload_err_file_size_zero">Nevar augšupielādēt tukšas datnes.</string>
+    <string name="operation_upload_err_full_manage_space">Mākoņa atmiņa ir pilna. Jauniniet glabāšanas plānu vai dzēsiet nevajadzīgos vienumus. Noklikšķiniet uz \"Skatīt\", lai skatītu vai pārvaldītu savu mākoņa atmiņu, vai \"Atmest, lai dzēstu šo lejupielādes uzdevumu.</string>
     <string name="operation_upload_err_illegal_char">Šīs datnes nosaukums satur neatbalstītas rakstzīmes.</string>
     <string name="operation_upload_err_larger_than_4g">Nevar augšupielādēt datnes, kas lielākas par %d GB.</string>
     <string name="operation_upload_err_not_support_overseas">Tikai kontinentālās Ķīnas lietotāji var augšupielādēt šos vienumus šajā laikā.</string>
@@ -696,6 +701,7 @@ Mēģiniet pārvietot datnes no savas ierīces uz Mi Drive."</string>
     <string name="operation_upload_retry">Mēģināt vēlreiz</string>
     <string name="operation_upload_save_to_local">Saglabāt uz…</string>
     <string name="operation_upload_use_data">Augšupielādēt</string>
+    <string name="otg_data_safely_exiting">Vienu mirkli…</string>
     <string name="otg_data_transfer_success">Veiksmīga pārsūtīšana</string>
     <string name="otg_data_transferring">Pārsūta datnes… Neatvienojiet ārējo krātuvi.</string>
     <string name="otg_file_security_note">OGTSecurity</string>

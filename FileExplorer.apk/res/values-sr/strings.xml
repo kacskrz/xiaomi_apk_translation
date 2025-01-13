@@ -42,6 +42,8 @@
     <string name="afternoon">Поподне</string>
     <string name="aggree_desc">Дозволите овој апликацији да се повеже на интернет и дајте јој горе наведене обавезне дозволе.</string>
     <string name="agree">Прихватам</string>
+    <string name="ai_search_building_database">Анализирање фајлова ради добијања прецизнијих резултата…</string>
+    <string name="ai_search_building_database_pause">Фајлови ће бити анализирани на вашем уређају да би се добили прецизнији резултати</string>
     <string name="ai_search_progress">Анализирање фајлова… (%s)</string>
     <string name="ai_search_progress_tips">Нека ваш уређај буде повезан са пуњачем. Анализираће фајлове брже када је екран искључен.</string>
     <string name="am">Пре подне</string>
@@ -295,7 +297,7 @@
     <string name="file_cloud_guide_message_permissions">Ова апликација може да тражи следеће дозволе: приступ и додавање ставки у складиште уређаја, приступ листи апликација инсталираних на уређају и слање обавештења. Можете да прилагодите подешавања дозвола у било ком тренутку у Подешавањима.</string>
     <string name="file_cloud_parse_download_success">Успешно cачувано</string>
     <string name="file_cloud_parse_title">Фајлови на мрежи</string>
-    <string name="file_cloud_parsing">Рашчлањивање фајла…</string>
+    <string name="file_cloud_parsing">Обрада у cloud-у је у току…</string>
     <string name="file_cloud_process_file_Size">"Величина: "</string>
     <string name="file_cloud_process_message">У зависности од величине фајла, ово може потрајати неколико минута. Можете отказати или додирнути „Сачекај“ да би се процес завршио у позадини.</string>
     <string name="file_cloud_processing">Обрађивање…</string>
@@ -312,7 +314,7 @@
     <string name="file_name_existed">Назив фајла је заузет</string>
     <string name="file_name_invalid">Називи фајлова не могу садржати следеће знакове: /\\:*?&lt;></string>
     <string name="file_not_exist">Фајл не постоји</string>
-    <string name="file_parse_fail">Овај фајл се не може рашчланити</string>
+    <string name="file_parse_fail">Обрада у cloud-у није завршена</string>
     <string name="file_parse_loading">Транскодирање. Ово може потрајати минут.</string>
     <string name="file_parse_outpace_1gb">Овај фајл премашује %1$d GB и не може се видети у овој апликацији. Уместо тога, можете га отворити помоћу друге апликације.</string>
     <string name="file_parse_outpace_1mb">Овај фајл премашује %1$d MB и не може се видети у овој апликацији. Уместо тога, можете га отворити помоћу друге апликације.</string>
@@ -608,8 +610,8 @@
     <string name="not_use">Не сада</string>
     <string name="notif_server_starting">Покретање FTP сервера…</string>
     <string name="notif_title">FTP сервер је укључен</string>
-    <string name="notification_fail">Обрада није успела</string>
-    <string name="notification_success">Успешно обрађено</string>
+    <string name="notification_fail">Обрада у cloud-у није завршена</string>
+    <string name="notification_success">Обрада у cloud-у је завршена</string>
     <string name="notification_title_sync_result">Синхронизација је завршена</string>
     <string name="notification_title_syncing">Синхронизовање…</string>
     <string name="notification_title_syncing_with_count">Синхронизовање ставки. Преостало фајлова: %1$s</string>
@@ -622,6 +624,7 @@
     <string name="operation_cache_use_data">Преузми</string>
     <string name="operation_cache_use_free_network">Сачекај Wi-Fi</string>
     <string name="operation_cancel">Откажи</string>
+    <string name="operation_check_cloud_space">Прикажи</string>
     <string name="operation_cloud_copy_to_local">Сачувај на…</string>
     <string name="operation_compress">Компресуј</string>
     <string name="operation_compressing">Компресовање…</string>
@@ -638,6 +641,7 @@
     <string name="operation_decompressing">Распакивање…</string>
     <string name="operation_del_fav">Уклањање из омиљених…</string>
     <string name="operation_delete">Oбриши</string>
+    <string name="operation_delete_cloud_upload_record">Одбаци</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM је фолдер Галерије. Ако га обришете, све ставке у њему ће такође бити трајно обрисане из Галерије. Ипак обрисати фолдер?</string>
     <string name="operation_delete_confirm_message">Oбрисати?</string>
     <string name="operation_delete_confirm_message_folder">"Цео садржај фолдера ће бити обрисан.
@@ -688,6 +692,7 @@
     <string name="operation_upload_delete">Oбриши</string>
     <string name="operation_upload_err_file_not_found">Изгледа да овај фајл не постоји.</string>
     <string name="operation_upload_err_file_size_zero">Не могу се отпремати празни фајлови.</string>
+    <string name="operation_upload_err_full_manage_space">Складиште у cloud-у је пуно. Надоградите план за складиштење или обришите ставке које вам нису потребне. Додирните „Прикажи“ да бисте видели и управљали својим складишним простором у cloud-у или „Одбаци“ да бисте обрисали овај задатак отпремања.</string>
     <string name="operation_upload_err_illegal_char">Назив фајла садржи неподржане карактере.</string>
     <string name="operation_upload_err_larger_than_4g">Не могу се отпремити фајлови већи од %d GB.</string>
     <string name="operation_upload_err_not_support_overseas">Тренутно само корисници у континенталној Кини могу да отпремају ставке.</string>
@@ -696,6 +701,7 @@
     <string name="operation_upload_retry">Покушај опет</string>
     <string name="operation_upload_save_to_local">Сачувај на…</string>
     <string name="operation_upload_use_data">Отпреми</string>
+    <string name="otg_data_safely_exiting">Само тренутак…</string>
     <string name="otg_data_transfer_success">Успешно је пренето</string>
     <string name="otg_data_transferring">Пренос фајлова… Не прекидајте везу са спољним складиштем.</string>
     <string name="otg_file_security_note">OGTБезбедност</string>

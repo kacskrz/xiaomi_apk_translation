@@ -42,6 +42,8 @@
     <string name="afternoon">午後</string>
     <string name="aggree_desc">このアプリにインターネットへの接続を許可し、上記の必須のアクセス許可を付与してください。</string>
     <string name="agree">同意</string>
+    <string name="ai_search_building_database">より正確な結果を提供するためにファイルを分析中…</string>
+    <string name="ai_search_building_database_pause">ファイルはより正確な結果を提供するためにデバイス上で分析されます</string>
     <string name="ai_search_progress">ファイルを分析中… (%s)</string>
     <string name="ai_search_progress_tips">デバイスを充電器に接続したままにしてください。画面オフ時の方が、ファイルの分析が速くなります。</string>
     <string name="am">午前</string>
@@ -295,7 +297,7 @@
     <string name="file_cloud_guide_message_permissions">このアプリは、デバイスストレージへのアクセスとアイテムの追加、デバイスにインストールされているアプリの一覧へのアクセス、通知の送信などの権限を要求する場合があります。権限の付与は、いつでも設定で調整できます。</string>
     <string name="file_cloud_parse_download_success">正常に保存されました</string>
     <string name="file_cloud_parse_title">オンラインファイル</string>
-    <string name="file_cloud_parsing">ファイルを解析中…</string>
+    <string name="file_cloud_parsing">クラウド処理中…</string>
     <string name="file_cloud_process_file_Size">"サイズ: "</string>
     <string name="file_cloud_process_message">ファイルのサイズによっては、数分かかる場合があります。キャンセルするか、[待機] をタップしてバックグラウンドで完了させることもできます。</string>
     <string name="file_cloud_processing">処理中…</string>
@@ -312,7 +314,7 @@
     <string name="file_name_existed">このファイル名は既に使用されています</string>
     <string name="file_name_invalid">ファイル名にはこれらの記号 (/\\:*?&lt;>) は使用できません</string>
     <string name="file_not_exist">ファイルが存在しません</string>
-    <string name="file_parse_fail">ファイルを解析できませんでした</string>
+    <string name="file_parse_fail">クラウド処理を完了できませんでした</string>
     <string name="file_parse_loading">トランスコード中です。これには1分ほどかかる場合があります。</string>
     <string name="file_parse_outpace_1gb">このファイルは %1$d GB を超えているため、このアプリでは表示できません。代わりに別のアプリで開くことができます。</string>
     <string name="file_parse_outpace_1mb">このファイルは %1$d MB を超えているため、このアプリでは表示できません。代わりに別のアプリで開くことができます。</string>
@@ -608,8 +610,8 @@
     <string name="not_use">今はしない</string>
     <string name="notif_server_starting">FTPサーバーを起動しています…</string>
     <string name="notif_title">FTPサーバーが実行中です</string>
-    <string name="notification_fail">処理できませんでした</string>
-    <string name="notification_success">正常に処理されました</string>
+    <string name="notification_fail">クラウド処理を完了できませんでした</string>
+    <string name="notification_success">クラウド処理完了</string>
     <string name="notification_title_sync_result">同期が完了しました</string>
     <string name="notification_title_syncing">同期中…</string>
     <string name="notification_title_syncing_with_count">アイテムを同期しています。残りのファイル：%1$s</string>
@@ -622,6 +624,7 @@
     <string name="operation_cache_use_data">ダウンロード</string>
     <string name="operation_cache_use_free_network">Wi-Fiを待機</string>
     <string name="operation_cancel">キャンセル</string>
+    <string name="operation_check_cloud_space">表示</string>
     <string name="operation_cloud_copy_to_local">保存先…</string>
     <string name="operation_compress">圧縮</string>
     <string name="operation_compressing">圧縮中…</string>
@@ -638,6 +641,7 @@
     <string name="operation_decompressing">解凍中…</string>
     <string name="operation_del_fav">お気に入りから削除中…</string>
     <string name="operation_delete">削除</string>
+    <string name="operation_delete_cloud_upload_record">破棄</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM はギャラリーフォルダーです。このフォルダーを削除すると、フォルダー内のすべてのアイテムもギャラリーから完全に削除されます。このフォルダーを削除してもよろしいですか？</string>
     <string name="operation_delete_confirm_message">削除しますか？</string>
     <string name="operation_delete_confirm_message_folder">"フォルダー内のすべてのコンテンツは削除されます。
@@ -688,6 +692,7 @@
     <string name="operation_upload_delete">削除</string>
     <string name="operation_upload_err_file_not_found">このファイルは存在しないようです。</string>
     <string name="operation_upload_err_file_size_zero">空のファイルをアップロードできません。</string>
+    <string name="operation_upload_err_full_manage_space">クラウドストレージがいっぱいです。ストレージプランをアップグレードするか、不要なアイテムを削除してください。[表示] をタップしてクラウドストレージ容量を表示および管理するか、[破棄] をタップしてこのアップロードタスクを削除してください。</string>
     <string name="operation_upload_err_illegal_char">このファイル名にはサポートされていない文字が含まれています。</string>
     <string name="operation_upload_err_larger_than_4g">%dGBより大きいファイルをアップロードできません。</string>
     <string name="operation_upload_err_not_support_overseas">現時点では、中国本土のユーザーのみがアイテムをアップロードできます。</string>
@@ -696,6 +701,7 @@
     <string name="operation_upload_retry">再試行</string>
     <string name="operation_upload_save_to_local">保存先…</string>
     <string name="operation_upload_use_data">アップロード</string>
+    <string name="otg_data_safely_exiting">お待ちください…</string>
     <string name="otg_data_transfer_success">正常に転送されました</string>
     <string name="otg_data_transferring">ファイルを転送中… 外部ストレージを切断しないでください。</string>
     <string name="otg_file_security_note">OGTセキュリティ</string>

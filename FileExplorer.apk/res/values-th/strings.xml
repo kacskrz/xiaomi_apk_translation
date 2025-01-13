@@ -42,6 +42,8 @@
     <string name="afternoon">บ่าย</string>
     <string name="aggree_desc">อนุญาตให้แอปนี้เชื่อมต่ออินเทอร์เน็ตและให้การอนุญาตที่จำเป็นตามรายการด้านบน</string>
     <string name="agree">ยอมรับ</string>
+    <string name="ai_search_building_database">วิเคราะห์ไฟล์เพื่อให้ได้ผลลัพธ์ที่แม่นยำยิ่งขึ้น…</string>
+    <string name="ai_search_building_database_pause">ไฟล์จะถูกวิเคราะห์บนอุปกรณ์ของคุณเพื่อให้ผลลัพธ์ที่แม่นยำยิ่งขึ้น</string>
     <string name="ai_search_progress">กำลังวิเคราะห์ไฟล์… (%s)</string>
     <string name="ai_search_progress_tips">เชื่อมต่ออุปกรณ์ของคุณกับเครื่องชาร์จเสมอ อุปกรณ์จะวิเคราะห์ไฟล์ได้เร็วขึ้นเมื่อหน้าจอปิดอยู่</string>
     <string name="am">AM</string>
@@ -295,7 +297,7 @@
     <string name="file_cloud_guide_message_permissions">แอปนี้อาจขอสิทธิ์ต่อไปนี้: การเข้าถึงและเพิ่มรายการลงในที่เก็บข้อมูลของอุปกรณ์ การเข้าถึงรายการแอปที่ติดตั้งบนอุปกรณ์ และส่งการแจ้งเตือน คุณสามารถปรับการตั้งค่าการอนุญาตของคุณได้ตลอดเวลาในการตั้งค่า</string>
     <string name="file_cloud_parse_download_success">บันทึกเรียบร้อยแล้ว</string>
     <string name="file_cloud_parse_title">ไฟล์ออนไลน์</string>
-    <string name="file_cloud_parsing">กำลังแยกวิเคราะห์ไฟล์…</string>
+    <string name="file_cloud_parsing">กำลังประมวลผลคลาวด์อยู่…</string>
     <string name="file_cloud_process_file_Size">"ขนาด: "</string>
     <string name="file_cloud_process_message">อาจใช้เวลาสักครู่ ทั้งนี้ขึ้นอยู่กับขนาดไฟล์ คุณสามารถยกเลิกหรือแตะ \"รอ\" เพื่อให้สิ้นสุดในเบื้องหลัง</string>
     <string name="file_cloud_processing">กำลังประมวล…</string>
@@ -312,7 +314,7 @@
     <string name="file_name_existed">ชื่อไฟล์ถูกใช้ไปแล้ว</string>
     <string name="file_name_invalid">ชื่อไฟล์ไม่สามารถประกอบด้วยอักขระดังต่อไปนี้: /\\:*?&lt;></string>
     <string name="file_not_exist">ไม่พบไฟล์นี้</string>
-    <string name="file_parse_fail">ไม่สามารถแยกวิเคราะห์ไฟล์ได้</string>
+    <string name="file_parse_fail">ไม่สามารถทำการประมวลผลบนคลาวด์ได้</string>
     <string name="file_parse_loading">กำลังแปลงรหัส อาจใช้เวลาสักครู่</string>
     <string name="file_parse_outpace_1gb">ไฟล์นี้มีขนาดเกิน %1$d GB และไม่สามารถดูได้ในแอปนี้ คุณสามารถเปิดด้วยแอปอื่นแทนได้</string>
     <string name="file_parse_outpace_1mb">ไฟล์นี้มีขนาดเกิน %1$d MB และไม่สามารถดูได้ในแอปนี้ คุณสามารถเปิดด้วยแอปอื่นแทนได้</string>
@@ -608,8 +610,8 @@
     <string name="not_use">ไม่ใช่ตอนนี้</string>
     <string name="notif_server_starting">กำลังเริ่มเซิร์ฟเวอร์ FTP…</string>
     <string name="notif_title">เซิร์ฟเวอร์ FTP กำลังทำงาน</string>
-    <string name="notification_fail">ไม่สามารถประมวลผลได้</string>
-    <string name="notification_success">ดำเนินการเรียบร้อยแล้ว</string>
+    <string name="notification_fail">ไม่สามารถทำการประมวลผลบนคลาวด์ได้</string>
+    <string name="notification_success">การประมวลผลคลาวด์เสร็จสมบูรณ์</string>
     <string name="notification_title_sync_result">ซิงค์เสร็จแล้ว</string>
     <string name="notification_title_syncing">กำลังซิงค์…</string>
     <string name="notification_title_syncing_with_count">กำลังซิงค์รายการ ไฟล์ที่เหลืออยู่: %1$s</string>
@@ -622,6 +624,7 @@
     <string name="operation_cache_use_data">ดาวน์โหลด</string>
     <string name="operation_cache_use_free_network">รอเครือข่าย Wi-Fi</string>
     <string name="operation_cancel">ยกเลิก</string>
+    <string name="operation_check_cloud_space">ดู</string>
     <string name="operation_cloud_copy_to_local">บันทึกไปยัง…</string>
     <string name="operation_compress">บีบอัด</string>
     <string name="operation_compressing">กำลังบีบอัด…</string>
@@ -638,6 +641,7 @@
     <string name="operation_decompressing">กำลังแตกไฟล์…</string>
     <string name="operation_del_fav">กำลังนำออกจากรายการโปรด…</string>
     <string name="operation_delete">ลบ</string>
+    <string name="operation_delete_cloud_upload_record">ละทิ้ง</string>
     <string name="operation_delete_confirm_dcim_message_folder">DCIM เป็นโฟลเดอร์คลังภาพ หากคุณลบโฟลเดอร์นี้ รายการทั้งหมดที่อยู่ภายในจะถูกลบออกจากคลังภาพอย่างถาวรด้วย ต้องการลบโฟลเดอร์นี้หรือไม่?</string>
     <string name="operation_delete_confirm_message">ลบ?</string>
     <string name="operation_delete_confirm_message_folder">"ข้อมูลในโฟลเดอร์ทั้งหมดถูกลบ
@@ -688,6 +692,7 @@
     <string name="operation_upload_delete">ลบ</string>
     <string name="operation_upload_err_file_not_found">ดูเหมือนว่าไฟล์นี้ไม่มีอยู่</string>
     <string name="operation_upload_err_file_size_zero">ไม่สามารถอัปโหลดไฟล์เปล่า</string>
+    <string name="operation_upload_err_full_manage_space">พื้นที่จัดเก็บข้อมูลบนคลาวด์เต็มแล้ว อัปเกรดแผนจัดเก็บข้อมูลของคุณหรือลบรายการที่ไม่ต้องการ แตะ \"ดู\" เพื่อดูและจัดการพื้นที่จัดเก็บข้อมูลบนคลาวด์ของคุณ หรือ \"ยกเลิก\" เพื่อลบงานอัปโหลดนี้</string>
     <string name="operation_upload_err_illegal_char">ชื่อไฟล์นี้มีอักขระที่ไม่รองรับ</string>
     <string name="operation_upload_err_larger_than_4g">ไม่สามารถอัปโหลดไฟล์ที่มีขนาดใหญ่กว่า %d GB</string>
     <string name="operation_upload_err_not_support_overseas">เฉพาะผู้ใช้ในจีนแผ่นดินใหญ่เท่านั้นที่สามารถอัปโหลดรายการได้ในขณะนี้</string>
@@ -696,6 +701,7 @@
     <string name="operation_upload_retry">ลองอีกครั้ง</string>
     <string name="operation_upload_save_to_local">บันทึกไปยัง…</string>
     <string name="operation_upload_use_data">อัปโหลด</string>
+    <string name="otg_data_safely_exiting">รอสักครู่…</string>
     <string name="otg_data_transfer_success">โอนเรียบร้อยแล้ว</string>
     <string name="otg_data_transferring">กำลังโอนไฟล์…อย่าตัดการเชื่อมต่อที่จัดเก็บข้อมูลภายนอก</string>
     <string name="otg_file_security_note">OGTSecurity</string>
