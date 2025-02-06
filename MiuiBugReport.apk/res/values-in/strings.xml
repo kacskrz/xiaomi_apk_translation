@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Kami mendeteksi kesalahan terkait dengan sandi Layar kunci Anda. Anda dapat mengirimkan log perangkat untuk membantu kami mencari akar masalah dan menyelesaikannya. Info log akan diunggah secara anonim, yang hanya akan digunakan untuk mencari akar masalah, dan akan dihapus setelah proses pencarian akar masalah selesai.</string>
     <string name="bugreport_dialog_informed_consent_title">Persetujuan atas info yang telah diinformasikan</string>
     <string name="bugreport_dialog_not_show_again">Jangan tampilkan lagi</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Saat ini, Anda menyimpan log perangkat lunak di perangkat ini. Log mungkin mengandung info pribadi dan data lokasi Anda. Jangan bagikan log dengan orang lain jika Anda tidak ingin info ini terpapar. Memilih \"Setuju\" berarti Anda telah membaca dan menyetujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Saat ini, Anda menyimpan log perangkat lunak di perangkat ini. Log mungkin mengandung info pribadi dan data lokasi Anda. Jangan bagikan log dengan orang lain jika Anda tidak ingin info ini terpapar. Memilih \"Setuju\" berarti Anda telah membaca dan menyetujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Ketuk untuk lihat.</string>
     <string name="bugreport_dump_complete_notification_title">Laporan bug berhasil dibuat</string>
     <string name="bugreport_dump_start_notification_summary">Mungkin butuh beberapa menit.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">Oke</string>
     <string name="cta_dialog_content">Apl ini perlu terhubung ke internet untuk bekerja dengan normal.</string>
     <string name="cta_dialog_title">Koneksi internet</string>
-    <string name="cta_message">&lt;Data>Untuk dapat bekerja dengan normal, apl Masukan butuh terhubung ke internet. Apl ini juga akan meminta izin untuk mengakses lokasi Anda. Baca dan setujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami sebelum Anda melanjutkan.&lt;/Data></string>
+    <string name="cta_message"><Data>Untuk dapat bekerja dengan normal, apl Masukan butuh terhubung ke internet. Apl ini juga akan meminta izin untuk mengakses lokasi Anda. Baca dan setujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami sebelum Anda melanjutkan.</Data></string>
     <string name="cta_not_show_again">Jangan tampilkan lagi</string>
     <string name="customer_service_apply">Permintaan layanan pelanggan</string>
     <string name="customer_service_complain">Lapor layanan pelanggan</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Kalender China Tradisional</string>
     <string name="date_time_picker_dialog_title">Setel tanggal dan waktu</string>
     <string name="description">Jelaskan masalah yang ada</string>
+    <string name="device_header">"%1$d. Semua perangkat harus masuk ke Akun Xiaomi yang sama.
+%2$d. Perangkat harus terhubung ke Wi-Fi atau menggunakan data seluler."</string>
+    <string name="device_header_china">"%1$d. Semua perangkat harus masuk ke Akun Xiaomi yang sama.
+%2$d. Perangkat harus terhubung ke WLAN atau menggunakan data seluler."</string>
+    <string name="device_not_found">Tidak ada perangkat yang terhubung</string>
+    <string name="device_not_found_tips">Pastikan perangkat yang lainnya masuk ke Akun Xiaomi Anda</string>
+    <string name="device_tips">Memilih perangkat yang terhubung akan membantu kami menganalisis masalah lebih cepat. Anda dapat mengunggah log dari perangkat ini dan perangkat yang dipilih.</string>
     <string name="diagnosis_log_send_failed">Tidak dapat mengirimkan kode. Coba lagi.</string>
     <string name="diagnosis_log_sent_format">"Log terkirim.
 ID: %s
@@ -237,6 +244,8 @@ Kirim kode ini ke pengawas."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Kirim masukan?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s isu \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Pilih masalah</string>
+    <string name="feedback_choose_device">Pilih perangkat</string>
+    <string name="feedback_choose_device_hint">Anda belum memilih perangkat</string>
     <string name="feedback_choose_module">Pilih subjek</string>
     <string name="feedback_choose_module_hint">Butuh</string>
     <string name="feedback_choose_occurrence_time">Waktu</string>
@@ -887,9 +896,9 @@ Baca dan setujui versi terbaru dari %3$s sebelum Anda melanjutkan."</string>
     <string name="stop_full_log_dialog_title">Membuat log…</string>
     <string name="submit_dialog_cancel">Tidak setuju</string>
     <string name="submit_dialog_confirm">Setuju</string>
-    <string name="submit_dialog_content">&lt;Data>Anda harus membaca dan menyetujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami sebelum mengirim masukan. Masalah yang Anda laporkan bersama dengan item yang dilampirkan (termasuk log yang mungkin berisi informasi pribadi, serta informasi tentang perangkat dan jaringan Anda) akan diunggah ke server kami. Hal ini akan membantu kami menemukan dan menyelesaikan masalah yang Anda laporkan. Jika masalah yang Anda laporkan berkaitan dengan beberapa perangkat, log dari perangkat lain di mana Akun Xiaomi Anda digunakan juga akan diunggah.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Masukan Anda, bersama dengan lampiran (jika ada) dan log (Anda dapat membatalkan pilihan pada kotak yang sesuai untuk item yang tidak ingin Anda unggah) akan dikirimkan ke server kami. Log mungkin mengandung info pribadi dan data lokasi Anda. Memilih \"Setuju\" berarti Anda telah membaca dan menyetujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Masukan Anda, bersama dengan lampiran (jika ada) dan log (Anda dapat membatalkan pilihan pada kotak yang sesuai untuk item yang tidak ingin Anda unggah) akan dikirimkan ke server kami. Log mungkin mengandung info pribadi dan data lokasi Anda. Memilih \"Setuju\" berarti Anda telah membaca dan menyetujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Anda harus membaca dan menyetujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami sebelum mengirim masukan. Masalah yang Anda laporkan bersama dengan item yang dilampirkan (termasuk log yang mungkin berisi informasi pribadi, serta informasi tentang perangkat dan jaringan Anda) akan diunggah ke server kami. Hal ini akan membantu kami menemukan dan menyelesaikan masalah yang Anda laporkan. Jika masalah yang Anda laporkan berkaitan dengan beberapa perangkat, log dari perangkat lain di mana Akun Xiaomi Anda digunakan juga akan diunggah.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Masukan Anda, bersama dengan lampiran (jika ada) dan log (Anda dapat membatalkan pilihan pada kotak yang sesuai untuk item yang tidak ingin Anda unggah) akan dikirimkan ke server kami. Log mungkin mengandung info pribadi dan data lokasi Anda. Memilih \"Setuju\" berarti Anda telah membaca dan menyetujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Masukan Anda, bersama dengan lampiran (jika ada) dan log (Anda dapat membatalkan pilihan pada kotak yang sesuai untuk item yang tidak ingin Anda unggah) akan dikirimkan ke server kami. Log mungkin mengandung info pribadi dan data lokasi Anda. Memilih \"Setuju\" berarti Anda telah membaca dan menyetujui &lt;a href=\"%1$s\">Kebijakan Privasi&lt;/a> dan &lt;a href=\"%2$s\">Perjanjian Pengguna&lt;/a> kami.</Data></string>
     <string name="submit_dialog_not_show_again">Jangan tampilkan lagi</string>
     <string name="submit_dialog_title">Kirim laporan</string>
     <string name="submit_feedback_info_failed">Tidak dapat mengirim laporan</string>

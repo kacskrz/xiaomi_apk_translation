@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Mēs esam atklājuši kļūdu attiecībā uz jūsu Bloķēšanas ekrāna paroli. Jūs varat iesniegt ierīces žurnālus, lai palīdzētu mums atrast un atrisināt problēmu. Žurnāla informācija tiks augšupielādēta anonīmi, tiks izmantota tikai problēmu novēršanai, un tā tiks dzēsta, kad problēmu novēršana būs pabeigta.</string>
     <string name="bugreport_dialog_informed_consent_title">Informēta piekrišana</string>
     <string name="bugreport_dialog_not_show_again">Vairs nerādīt</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Jūs šobrīd saglabājat programmatūras žurnālus šajā ierīcē. Žurnāli var saturēt personisko informāciju un jūsu atrašanās vietas datus. Nedalieties ar žurnāliem ar citiem lietotājiem, ja jūs nevēlaties, lai šī informācija tiktu atklāta. Izvēloties \"Piekrītu\" nozīmē, kas esat izlasījis un piekrtits mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Jūs šobrīd saglabājat programmatūras žurnālus šajā ierīcē. Žurnāli var saturēt personisko informāciju un jūsu atrašanās vietas datus. Nedalieties ar žurnāliem ar citiem lietotājiem, ja jūs nevēlaties, lai šī informācija tiktu atklāta. Izvēloties \"Piekrītu\" nozīmē, kas esat izlasījis un piekrtits mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Pieskarieties, lai skatītu.</string>
     <string name="bugreport_dump_complete_notification_title">Kļūdu ziņojums izveidots</string>
     <string name="bugreport_dump_start_notification_summary">Tas var ilgt vairākas minūtes.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">Labi</string>
     <string name="cta_dialog_content">Šai lietotnei nepieciešams pieslēgums internetam, lai darbotos pareizi.</string>
     <string name="cta_dialog_title">Interneta pieslēgums</string>
-    <string name="cta_message">&lt;Data>Lai varētu normāli strādāt, Atsauksmēm nepieciešams interneta savienojums. Šī lietotne var pieprasīt atļauju piekļūt jūsu atrašanās vietai. Izlasiet un piekrītiet mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a> pirms turpināt.&lt;/Data></string>
+    <string name="cta_message"><Data>Lai varētu normāli strādāt, Atsauksmēm nepieciešams interneta savienojums. Šī lietotne var pieprasīt atļauju piekļūt jūsu atrašanās vietai. Izlasiet un piekrītiet mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a> pirms turpināt.</Data></string>
     <string name="cta_not_show_again">Vairs nerādīt</string>
     <string name="customer_service_apply">Prasīt klientu apkalpošanu</string>
     <string name="customer_service_complain">Ziņot par klientu apkalpošanu</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Ķīniešu tradicionālais kalendārs</string>
     <string name="date_time_picker_dialog_title">Iestatīt datumu un laiku</string>
     <string name="description">Apraksīt problēmu</string>
+    <string name="device_header">"%1$d. Visām ierīcēm jābūt pierakstītām tajā pašā Xiaomi Kontā.
+%2$d. Ierīcēm jābut savienotām ar to pašu Wi-Fi, izmantojot mobilos datus."</string>
+    <string name="device_header_china">"%1$d. Visām ierīcēm jābūt pierakstītām tajā pašā Xiaomi Kontā.
+%2$d. Ierīcēm jābut savienotām ar to pašu WLAN, izmantojot mobilos datus."</string>
+    <string name="device_not_found">Nav pievienotu ierīču</string>
+    <string name="device_not_found_tips">Pārliecinieties, ka citas ierīces ir pierakstījušās jūsu Xiaomi Kontā</string>
+    <string name="device_tips">Savienoto ierīču atlase palīdzēs mums ātrāk analizēt problēmu. Jūs varat augšupielādēt žurnālus gan no šīs ierīces, gan no atlasītajām ierīcēm.</string>
     <string name="diagnosis_log_send_failed">Neizdevās nosūtīt žurnālus. Mēģiniet vēlreiz.</string>
     <string name="diagnosis_log_sent_format">"Žurnāli veiksmīgi nosūtīti.
 ID:%s
@@ -237,6 +244,8 @@ Nosūtīt šo kodu uzraugam."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Iesniegt atsauksmi?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problēma \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Izvēlēties problēmu</string>
+    <string name="feedback_choose_device">Izvēlēt ierīci</string>
+    <string name="feedback_choose_device_hint">Jūs neesat izvēlējies nevienu ierīci</string>
     <string name="feedback_choose_module">Izvēlēties vienumu</string>
     <string name="feedback_choose_module_hint">Nepieciešams</string>
     <string name="feedback_choose_occurrence_time">Laiks</string>
@@ -887,9 +896,9 @@ Izlasiet un piekrītiet jaunajai %3$s versijai pirms turpināt."</string>
     <string name="stop_full_log_dialog_title">Ģenerē žurnālus…</string>
     <string name="submit_dialog_cancel">Nepiekrist</string>
     <string name="submit_dialog_confirm">Piekrist</string>
-    <string name="submit_dialog_content">&lt;Data>Izlasiet un piekrītiet mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a> pirms atsauksmes iesniegšanas. Problēmas, par kurām ziņojat, kā arī pievienotie vienumi (ieskaitot žurnālus, kuros var būt personiska informācija, kā arī informācija par jūsu ierīci un tīklu) tiks augšupielādēti mūsu serveros. Tas mums palīdzēs atrast un atrisināt problēmas, par kurām ziņojat. Ja ziņojat par problēmām, kas saistītas ar vairākām ierīcēm, tiks augšupielādēti arī žurnāli no citām ierīcēm, kurās tiek izmantots jūsu Xiaomi Konts.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Jūsu atsauksmes, kā arī pielikumi (ja tādi ir) un žurnāli (varat noņemt atzīmi no attiecīgajām izvēles rūtiņām vienumiem, kurus nevēlaties augšupielādēt) tiks nosūtīti uz mūsu serveriem.Žurnāli var saturēt personisko informāciju un jūsu atrašanās vietas datus. Izvēloties \"Piekrist\" nozīmē, ka esat izlasījis un piekritis mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Jūsu atsauksmes, kā arī pielikumi (ja tādi ir) un žurnāli (varat noņemt atzīmi no attiecīgajām izvēles rūtiņām vienumiem, kurus nevēlaties augšupielādēt) tiks nosūtīti uz mūsu serveriem.Žurnāli var saturēt personisko informāciju un jūsu atrašanās vietas datus. Izvēloties \"Piekrist\" nozīmē, ka esat izlasījis un piekritis mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Izlasiet un piekrītiet mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a> pirms atsauksmes iesniegšanas. Problēmas, par kurām ziņojat, kā arī pievienotie vienumi (ieskaitot žurnālus, kuros var būt personiska informācija, kā arī informācija par jūsu ierīci un tīklu) tiks augšupielādēti mūsu serveros. Tas mums palīdzēs atrast un atrisināt problēmas, par kurām ziņojat. Ja ziņojat par problēmām, kas saistītas ar vairākām ierīcēm, tiks augšupielādēti arī žurnāli no citām ierīcēm, kurās tiek izmantots jūsu Xiaomi Konts.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Jūsu atsauksmes, kā arī pielikumi (ja tādi ir) un žurnāli (varat noņemt atzīmi no attiecīgajām izvēles rūtiņām vienumiem, kurus nevēlaties augšupielādēt) tiks nosūtīti uz mūsu serveriem. Žurnāli var saturēt personisko informāciju un jūsu atrašanās vietas datus. Izvēloties \"Piekrist\" nozīmē, ka esat izlasījis un piekritis mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Jūsu atsauksmes, kā arī pielikumi (ja tādi ir) un žurnāli (varat noņemt atzīmi no attiecīgajām izvēles rūtiņām vienumiem, kurus nevēlaties augšupielādēt) tiks nosūtīti uz mūsu serveriem. Žurnāli var saturēt personisko informāciju un jūsu atrašanās vietas datus. Izvēloties \"Piekrist\" nozīmē, ka esat izlasījis un piekritis mūsu &lt;a href=\"%1$s\">Konfidencialitātes politikai&lt;/a> un &lt;a href=\"%2$s\">Lietotāja līgumam&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Vairs nerādīt</string>
     <string name="submit_dialog_title">Sūtīt ziņojumu</string>
     <string name="submit_feedback_info_failed">Neizdevās nosūtīt ziņojumu</string>

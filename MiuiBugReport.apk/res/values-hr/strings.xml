@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Otkrili smo pogrešku u vezi vaše zaporke za zaključani zaslon. Možete poslati zapisnike svog uređaja kako biste nam pomogli da lociramo i riješimo problem. Podaci iz dnevnika bit će anonimno učitani, koristit će se samo za rješavanje problema i bit će izbrisani nakon završetka rješavanja problema.</string>
     <string name="bugreport_dialog_informed_consent_title">Informirani pristanak</string>
     <string name="bugreport_dialog_not_show_again">Ne prikazuj ponovno</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Sada spremate zapise softvera na ovaj uređaj. Dnevnici mogu sadržavati osobne podatke i podatke o Vašoj lokaciji. Nemojte dijeliti dnevnike s drugima ako ne želite da ti podaci budu izloženi. Odabirom \"Slažem se\" znači da ste pročitali i slažete se s našim &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> i &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Sada spremate zapise softvera na ovaj uređaj. Dnevnici mogu sadržavati osobne podatke i podatke o Vašoj lokaciji. Nemojte dijeliti dnevnike s drugima ako ne želite da ti podaci budu izloženi. Odabirom \"Slažem se\" znači da ste pročitali i slažete se s našim &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> i &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Dodirni za prikaz.</string>
     <string name="bugreport_dump_complete_notification_title">Izvješće grešaka napravljeno</string>
     <string name="bugreport_dump_start_notification_summary">Ovo može potrajati nekoliko minuta.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Ovoj je aplikaciji potrebno povezivanje s internetom za normalan rad.</string>
     <string name="cta_dialog_title">Internet povezivanje</string>
-    <string name="cta_message">&lt;Data>Kako bi mogle normalno funkcionirati, Povratne informacije moraju se povezati s internetom. Ova aplikacija također može zatražiti dopuštenje za pristup vašoj lokaciji. Pročitajte i prihvatite naša &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> i &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> prije nego što nastavite.&lt;/Data></string>
+    <string name="cta_message"><Data>Za normalan rad, Povratne informacije moraju se povezati s internetom. Ova aplikacija također može zatražiti dopuštenje za pristup vašoj lokaciji. Pročitajte i prihvatite naša &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> and &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> prije nego što nastavite.</Data></string>
     <string name="cta_not_show_again">Ne prikazuj ponovno</string>
     <string name="customer_service_apply">Zahtjev službi za korisnike</string>
     <string name="customer_service_complain">Prijavi službi za korisnike</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Kineski tradicionalni kalendar</string>
     <string name="date_time_picker_dialog_title">Postavi datum i vrijeme</string>
     <string name="description">Opišite problem</string>
+    <string name="device_header">"%1$d. Svi uređaji moraju biti prijavljeni na isti Xiaomi račun.
+%2$d. Uređaji moraju biti povezani na Wi-Fi ili koristiti mobilne podatke."</string>
+    <string name="device_header_china">"%1$d. Svi uređaji moraju biti prijavljeni na isti Xiaomi račun.
+%2$d. Uređaji moraju biti povezani na WLAN ili koristiti mobilne podatke."</string>
+    <string name="device_not_found">Nema povezanih uređaja</string>
+    <string name="device_not_found_tips">Provjerite da su drugi uređaji prijavljeni na vaš Xiaomi račun</string>
+    <string name="device_tips">Odabir povezanih uređaja pomoći će nam da brže analiziramo problem. Možete prenijeti zapisnike i s ovog uređaja i s odabranih uređaja.</string>
     <string name="diagnosis_log_send_failed">Nije moguće poslati zapis. Pokušajte ponovo.</string>
     <string name="diagnosis_log_sent_format">"Poslano je uspješno.
 ID:%s
@@ -237,6 +244,8 @@ Pošaljite ovaj kod nadređenome."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Pošaljite povratne informacije?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Odaberi problem</string>
+    <string name="feedback_choose_device">Odaberite uređaj</string>
+    <string name="feedback_choose_device_hint">Niste odabrali niti jedan uređaj</string>
     <string name="feedback_choose_module">Odaberi stavku</string>
     <string name="feedback_choose_module_hint">Obvezno</string>
     <string name="feedback_choose_occurrence_time">Datum i vrijeme</string>
@@ -887,9 +896,9 @@ Pročitajte i potvrdite novu verziju %3$s prije nastavka."</string>
     <string name="stop_full_log_dialog_title">Stvaranje zapisa…</string>
     <string name="submit_dialog_cancel">Ne slažem se</string>
     <string name="submit_dialog_confirm">Slažem se</string>
-    <string name="submit_dialog_content">&lt;Data>Pročitajte i potvrdite naša &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> i &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> prije podnošenja povratne informacije. Problemi koje prijavljujete zajedno sa stavkama koje prilažete (uključujući zapise koji mogu sadržavati osobne podatke kao i podatke o Vašem uređaju i mreži) će biti učitani na naše poslužitelje. To će nam pomoći pronaći i riješiti probleme koje prijavljujete. Ako prijavljujete probleme povezane s više uređaja, zapisi sa ostalih uređaja gdje koristite svoj Xiaomi Račun također će biti učitani.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Vaše povratne informacije, zajedno s privicima (ako postoje) i zapisima (možete odznačiti stavke koje ne želite prenijeti) bit će poslane na naše poslužitelje. Zapisi mogu sadržavati osobne podatke i podatke o vašoj lokaciji. Dodirom na \"Prihvaćam\" izjavljujete da ste pročitali i prihvatili naša &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> and &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Vaše povratne informacije, zajedno s privicima (ako postoje) i zapisima (možete odznačiti stavke koje ne želite prenijeti) bit će poslane na naše poslužitelje. Zapisi mogu sadržavati osobne podatke i podatke o vašoj lokaciji. Dodirom na \"Prihvaćam\" izjavljujete da ste pročitali i prihvatili naša &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> and &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Pročitajte i potvrdite naša &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> i &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> prije podnošenja povratne informacije. Problemi koje prijavljujete zajedno sa stavkama koje prilažete (uključujući zapise koji mogu sadržavati osobne podatke kao i podatke o Vašem uređaju i mreži) će biti učitani na naše poslužitelje. To će nam pomoći pronaći i riješiti probleme koje prijavljujete. Ako prijavljujete probleme povezane s više uređaja, zapisi sa ostalih uređaja gdje koristite svoj Xiaomi Račun također će biti učitani.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Vaše povratne informacije, zajedno sa privicima (ako postoje) i zapisima (možete odznačiti stavke koje ne želite prenijeti) bit će poslane na naše poslužitelje. Zapisi mogu sadržavati osobne podatke i podatke o vašoj lokaciji. Dodirom na \"Prihvaćam\" izjavljujete da ste pročitali i prihvatili naša &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> i &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Vaše povratne informacije, zajedno sa privicima (ako postoje) i zapisima (možete odznačiti stavke koje ne želite prenijeti) bit će poslane na naše poslužitelje. Zapisi mogu sadržavati osobne podatke i podatke o vašoj lokaciji. Dodirom na \"Prihvaćam\" izjavljujete da ste pročitali i prihvatili naša &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> i &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Ne prikazuj ponovo</string>
     <string name="submit_dialog_title">Pošalji izvješće o pogrešci</string>
     <string name="submit_feedback_info_failed">Ne mogu poslati izvješće</string>

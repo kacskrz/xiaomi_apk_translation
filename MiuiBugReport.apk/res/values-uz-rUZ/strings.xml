@@ -45,7 +45,7 @@
     <string name="bugreport_dialog_informed_consent_content">Ekranni qulflash paroli bilan bog‘liq xatolik aniqlandi. Muammoni aniqlash va hal qilishimizga yordam berish uchun qurilmangiz jurnallarini jo‘natishingiz mumkin. Jurnal ma‘lumotlari anonim tarzda yuklanadi, faqat muammolarni bartaraf etish uchun ishlatiladi va muammolarni bartaraf etish tugallangandan keyin o‘chiriladi.</string>
     <string name="bugreport_dialog_informed_consent_title">Axborotlangan rozilik</string>
     <string name="bugreport_dialog_not_show_again">Boshqa ko‘rsatilmasin</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Siz ushbu qurilmadagi dasturiy ta’minot jurnallarini saqlayapsiz. Jurnallar shaxsiy ma’lumot va joylashuvingiz haqidagi ma’lumotlarni o‘z ichiga olishi mumkin. Ushbu ma’lumotlarning ochilishini istamasangiz, jurnallarni boshqa hech kim bilan ulashmang. \"Rozi bo‘lish\"ni tanlagan holda bizning &lt;a href=\"%1$s\">Maxfiylik Siyosatimiz&lt;/a> va &lt;a href=\"%2$s\">Foydalanuvchi Shartnomamiz&lt;/a> bilan tanishib rozi bo‘lgan bo‘lamiz.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Siz ushbu qurilmadagi dasturiy ta’minot jurnallarini saqlayapsiz. Jurnallar shaxsiy ma’lumot va joylashuvingiz haqidagi ma’lumotlarni o‘z ichiga olishi mumkin. Ushbu ma’lumotlarning ochilishini istamasangiz, jurnallarni boshqa hech kim bilan ulashmang. \"Rozi bo‘lish\"ni tanlagan holda bizning &lt;a href=\"%1$s\">Maxfiylik Siyosatimiz&lt;/a> va &lt;a href=\"%2$s\">Foydalanuvchi Shartnomamiz&lt;/a> bilan tanishib rozi bo‘lgan bo‘lamiz.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Ko‘rish uchun bosing.</string>
     <string name="bugreport_dump_complete_notification_title">Hisobot yaratildi</string>
     <string name="bugreport_dump_start_notification_summary">Bir necha daqiqa egallashi mumkin.</string>
@@ -120,7 +120,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Ushbu ilova to‘g‘ri ishlashi uchun internetga bog‘lanishi kerak.</string>
     <string name="cta_dialog_title">Internet bog‘lanish</string>
-    <string name="cta_message">&lt;Data>Hisobot normal ishlashi uchun internetga ulanishi kerak. Ushbu ilova joylashuvingizga kirish uchun ham ruxsat so‘rashi mumkin. Davom etishdan oldin &lt;a href=\"%1$s\">Maxfiylik Siyosati&lt;/a> and &lt;a href=\"%2$s\">Foydalanuvchi Shartnomasi&lt;/a> bilan tanishib chiqing va rozi bo‘ling.&lt;/Data></string>
+    <string name="cta_message"><Data>Hisobot normal ishlashi uchun internetga ulanishi kerak. Ushbu ilova joylashuvingizga kirish uchun ham ruxsat so‘rashi mumkin. Davom etishdan oldin &lt;a href=\"%1$s\">Maxfiylik Siyosati&lt;/a> and &lt;a href=\"%2$s\">Foydalanuvchi Shartnomasi&lt;/a> bilan tanishib chiqing va rozi bo‘ling.</Data></string>
     <string name="cta_not_show_again">Boshqa ko‘rsatilmansin</string>
     <string name="customer_service_apply">Xizmat haqida so‘rov jo‘natish</string>
     <string name="customer_service_complain">Xizmat haqida xabar jo‘natish</string>
@@ -131,6 +131,13 @@
     <string name="date_picker_lunar">Xitoy an‘anaviy taqvimi</string>
     <string name="date_time_picker_dialog_title">Sana va vaqt o‘rnatish</string>
     <string name="description">Masalani tasvirlab bering</string>
+    <string name="device_header">"%1$d. Barcha qurilmalar bir xil Xiaomi hisobiga kirgan bo'lishi kerak.
+%2$d. Qurilmalar WiFi tarmog'iga ulangan bo'lishi yoki mobil ma'lumotlardan foydalanishi kerak."</string>
+    <string name="device_header_china">"%1$d. Barcha qurilmalar bir xil Xiaomi hisobiga kirgan bo'lishi kerak.
+%2$d. Qurilmalar WLAN tarmog'iga ulangan bo'lishi yoki mobil ma'lumotlardan foydalanishi kerak."</string>
+    <string name="device_not_found">Bog‘langan qurilmalar yo‘q</string>
+    <string name="device_not_found_tips">Boshqa qurilmalar Xiaomi hisobingizga kirganligiga ishonch hosil qiling</string>
+    <string name="device_tips">Ulangan qurilmalarni tanlash muammoni tezroq tahlil qilishga yordam beradi. Jurnallarni ushbu qurilmadan ham, tanlangan qurilmalardan ham yuklashingiz mumkin.</string>
     <string name="diagnosis_log_send_failed">Jurnallani jo‘natib bo‘lmadi. Qaytadan ko‘ring.</string>
     <string name="diagnosis_log_sent_format">"Jurnallar muvaffaqiyatli jo‘natildi.
 ID:%s
@@ -190,6 +197,8 @@ Ushbu kodni maslahatchiga yuboring."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Fikr-mulohaza bildiring?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s masala \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Muammoni tanlang</string>
+    <string name="feedback_choose_device">Qurilmani tanlang</string>
+    <string name="feedback_choose_device_hint">Siz hech qanday qurilma tanlamadingiz</string>
     <string name="feedback_choose_module">Elementni tanlash</string>
     <string name="feedback_choose_module_hint">Talab qilinadi</string>
     <string name="feedback_choose_occurrence_time">Vaqt</string>
@@ -836,9 +845,9 @@ Davom etishdan oldin %3$s ilovasining yangi versiyasini o'qib chiqing va unga ro
     <string name="stop_full_log_dialog_title">Jurnallar yaratilmoqda…</string>
     <string name="submit_dialog_cancel">Rad etish</string>
     <string name="submit_dialog_confirm">Rozi bo‘lish</string>
-    <string name="submit_dialog_content">&lt;Data>Hisobotni topshirishdan oldin &lt;a href=\"%1$s\">Maxfiylik Siyosati&lt;/a> va &lt;a href=\"%2$s\">Foydalanuvchi Shartnomasi&lt;/a> bilan tanishib chiqing va rozi bo‘ling. Siz xabar bergan muammolar va biriktirgan narsalaringiz (jumladan, shaxsiy maʼlumotlarni o‘z ichiga olishi mumkin bo‘lgan jurnallar, shuningdek, qurilmangiz va tarmog‘ingiz haqidagi maʼlumotlar) bizning serverlarimizga yuklanadi. Bu sizga xabar bergan muammolarni topish va hal qilishimizga yordam beradi. Agar siz bir nechta qurilmalar bilan bog‘liq muammolar haqida xabar bersangiz, Xiaomi hisobingiz ishlatiladigan boshqa qurilmalardagi jurnallar ham yuklanadi.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Sizning hisobotingiz, qo‘shimchalar (agar mavjud bo‘lsa) va jurnallar (siz yuklamoqchi bo‘lmagan narsalar uchun tegishli katakchalarni olib tashlashingiz mumkin) bilan birga bizning serverlarimizga yuboriladi. Jurnallarda shaxsiy ma‘lumotlar va joylashuvingiz ma‘lumotlari bo‘lishi mumkin. \"Rozi bo‘lish\"ni tanlash bizning &lt;a href=\"%1$s\">Maxfiylik Siyosati&lt;/a> va &lt;a href=\"%2$s\">Foydalanuvchi Shartnomasi&lt;/a> bilan tanishib chiqqaningiz va rozi bo‘lganligingizni bildiradi.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Sizning hisobotingiz, qo‘shimchalar (agar mavjud bo‘lsa) va jurnallar (siz yuklamoqchi bo‘lmagan narsalar uchun tegishli katakchalarni olib tashlashingiz mumkin) bilan birga bizning serverlarimizga yuboriladi. Jurnallarda shaxsiy ma‘lumotlar va joylashuvingiz ma‘lumotlari bo‘lishi mumkin. \"Rozi bo‘lish\"ni tanlash bizning &lt;a href=\"%1$s\">Maxfiylik Siyosati&lt;/a> va &lt;a href=\"%2$s\">Foydalanuvchi Shartnomasi&lt;/a> bilan tanishib chiqqaningiz va rozi bo‘lganligingizni bildiradi.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>"Fikr-mulohaza yuborishdan oldin &lt;a href=\"%1$s\">Maxfiylik siyosatimiz&lt;/a> va &lt;a href=\"%2$s\">Foydalanuvchi shartnomasi&lt;/a> bilan tanishib chiqing va rozilik bildiring. Siz xabar bergan muammolar va biriktirgan narsalaringiz (jumladan, shaxsiy ma'lumotlarni o'z ichiga olishi mumkin bo'lgan jurnallar, shuningdek, qurilmangiz va tarmog'ingiz haqidagi ma'lumotlar) bizning serverlarimizga yuklanadi. Bu sizga xabar bergan muammolarni topish va hal qilishimizga yordam beradi. Agar siz bir nechta qurilmalar bilan bog'liq muammolar haqida xabar bersangiz, Xiaomi hisobingiz ishlatiladigan boshqa qurilmalardagi jurnallar ham yuklanadi."</Data></string>
+    <string name="submit_dialog_content_global"><Data>Sizning hisobotingiz, qo‘shimchalar (agar mavjud bo‘lsa) va jurnallar (siz yuklamoqchi bo‘lmagan narsalar uchun tegishli katakchalarni olib tashlashingiz mumkin) bilan birga bizning serverlarimizga yuboriladi. Jurnallarda shaxsiy ma‘lumotlar va joylashuvingiz ma‘lumotlari bo‘lishi mumkin. \"Rozi bo‘lish\"ni tanlash bizning &lt;a href=\"%1$s\">Maxfiylik Siyosati&lt;/a> va &lt;a href=\"%2$s\">Foydalanuvchi Shartnomasi&lt;/a> bilan tanishib chiqqaningiz va rozi bo‘lganligingizni bildiradi.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Sizning hisobotingiz, qo‘shimchalar (agar mavjud bo‘lsa) va jurnallar (siz yuklamoqchi bo‘lmagan narsalar uchun tegishli katakchalarni olib tashlashingiz mumkin) bilan birga bizning serverlarimizga yuboriladi. Jurnallarda shaxsiy ma‘lumotlar va joylashuvingiz ma‘lumotlari bo‘lishi mumkin. \"Rozi bo‘lish\"ni tanlash bizning &lt;a href=\"%1$s\">Maxfiylik Siyosati&lt;/a> va &lt;a href=\"%2$s\">Foydalanuvchi Shartnomasi&lt;/a> bilan tanishib chiqqaningiz va rozi bo‘lganligingizni bildiradi.</Data></string>
     <string name="submit_dialog_not_show_again">Boshqa ko‘rsatilmasin</string>
     <string name="submit_dialog_title">Hisobotni jo‘natish</string>
     <string name="submit_feedback_info_failed">Hisobot jo‘natilmadi</string>

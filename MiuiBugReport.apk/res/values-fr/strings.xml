@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">"Nous avons détecté une erreur concernant votre mot de passe d'Écran de verrouillage. Vous pouvez soumettre vos journaux d'appareil pour nous aider à localiser et résoudre le problème. Les informations du journal seront téléchargées anonymement, ne seront utilisées que pour le dépannage et seront supprimées une fois le dépannage terminé."</string>
     <string name="bugreport_dialog_informed_consent_title">Consentement informé</string>
     <string name="bugreport_dialog_not_show_again">Ne plus afficher</string>
-    <string name="bugreport_dialog_submit_content">"&lt;Data>Vous êtes en train d'enregistrer les journaux du logiciel sur cet appareil maintenant. Les journaux peuvent contenir des informations personnelles et vos données de localisation. Ne partagez pas les journaux avec quiconque si vous ne voulez pas que ces informations soient exposées. Choisir \"Accepter\" signifie que vous avez lu et accepté notre &lt;a href=\"%1$s\">Politique de confidentialité&lt;/a> et &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a>.&lt;/Data>"</string>
+    <string name="bugreport_dialog_submit_content"><Data>"Vous êtes en train d'enregistrer les journaux du logiciel sur cet appareil maintenant. Les journaux peuvent contenir des informations personnelles et vos données de localisation. Ne partagez pas les journaux avec quiconque si vous ne voulez pas que ces informations soient exposées. Choisir \"Accepter\" signifie que vous avez lu et accepté notre &lt;a href=\"%1$s\">Politique de confidentialité&lt;/a> et &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a>."</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Appuyez pour afficher.</string>
     <string name="bugreport_dump_complete_notification_title">"Rapport d'erreur créé"</string>
     <string name="bugreport_dump_start_notification_summary">Cela peut prendre plusieurs minutes.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK </string>
     <string name="cta_dialog_content">Cette fonctionnalité doit se connecter à Internet pour fonctionner normalement.</string>
     <string name="cta_dialog_title">Connexion Internet</string>
-    <string name="cta_message">"&lt;Data>Pour pouvoir travailler normalement, Commentaires doit se connecter à Internet. Cette application peut également demander l'autorisation d’accéder à votre localisation. Lisez et acceptez notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> et &lt;a href=\"%2$s\"> Accord Utilisateur&lt;/a> avant de continuer.&lt;/Data>"</string>
+    <string name="cta_message"><Data>"Pour pouvoir travailler normalement, Commentaires doit se connecter à Internet. Cette application peut également demander l'autorisation d’accéder à votre localisation. Lisez et acceptez notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> et &lt;a href=\"%2$s\"> Accord Utilisateur&lt;/a> avant de continuer."</Data></string>
     <string name="cta_not_show_again">Ne plus afficher</string>
     <string name="customer_service_apply">Demander le Service clientèle</string>
     <string name="customer_service_complain">Signaler le Service clientèle</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Calendrier Traditionnel Chinois</string>
     <string name="date_time_picker_dialog_title">"Définir la date et l'heure"</string>
     <string name="description">"Décrivez l'erreur"</string>
+    <string name="device_header">"%1$d. Tous les appareils doivent être connectés au même Compte Xiaomi.
+%2$d. Les appareils doivent être connectés au Wi-Fi ou utiliser des données mobiles."</string>
+    <string name="device_header_china">"%1$d. Tous les appareils doivent être connectés au même Compte Xiaomi.
+%2$d. Les appareils doivent être connectés au WLAN ou utiliser des données mobiles."</string>
+    <string name="device_not_found">Aucun appareil connecté</string>
+    <string name="device_not_found_tips">Assurez-vous que les autres appareils sont connectés à votre Compte Xiaomi</string>
+    <string name="device_tips">La sélection des appareils connectés nous aidera à analyser le problème plus rapidement. Vous pouvez télécharger les journaux de cet appareil et des appareils sélectionnés.</string>
     <string name="diagnosis_log_send_failed">"Impossible d'envoyer les journeaux. Réessayez."</string>
     <string name="diagnosis_log_sent_format">"Journaux envoyés avec succès.
 ID:%s
@@ -237,6 +244,8 @@ Envoyez ce code au superviseur."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Soumettre des commentaires?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problème \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Sélectionner un problème</string>
+    <string name="feedback_choose_device">"Sélectionner l'appareil"</string>
+    <string name="feedback_choose_device_hint">"Vous n'avez sélectionné aucun appareil"</string>
     <string name="feedback_choose_module">Sélectionner un élément</string>
     <string name="feedback_choose_module_hint">Requis</string>
     <string name="feedback_choose_occurrence_time">Date et heure</string>
@@ -887,9 +896,9 @@ Lisez et acceptez la nouvelle version de la politique de confidentialité %3$s a
     <string name="stop_full_log_dialog_title">Génération des journaux…</string>
     <string name="submit_dialog_cancel">Refuser</string>
     <string name="submit_dialog_confirm">Accepter</string>
-    <string name="submit_dialog_content">"&lt;Data>Lisez et acceptez notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> et notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> avant de soumettre des commentaires. Les problèmes que vous signalez ainsi que les éléments que vous attachez (y compris les journaux pouvant contenir des informations personnelles, ainsi que les informations sur votre appareil et votre réseau) seront téléchargés sur nos serveurs. Cela nous aidera à localiser et à résoudre les problèmes que vous signalez. Si vous signalez des problèmes liés à plusieurs appareils, les journaux d'autres appareils sur lesquels votre Compte Xiaomi est utilisé seront également téléchargés.&lt;/Data>"</string>
-    <string name="submit_dialog_content_global">"&lt;Data>Vos commentaires, ainsi que les pièces jointes (s'il y en a) et les journeaux, (vous pouvez décocher les cases correspondantes pour les éléments que vous ne souhaiter pas télécharger) seront envoyés sur nos serveurs. Il se peut que les journeaux contiennent des informations personnelles et vos données de localisation. Choisir \"Accepter\" signifie que vous avez lu et accepté notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> et &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a>.&lt;/Data>"</string>
-    <string name="submit_dialog_content_global_with_contactinfo">"&lt;Data>Vos commentaires, ainsi que les pièces jointes (s'il y en a) et les journeaux, (vous pouvez décocher les cases correspondantes pour les éléments que vous ne souhaiter pas télécharger) seront envoyés sur nos serveurs. Il se peut que les journeaux contiennent des informations personnelles et vos données de localisation. Choisir \"Accepter\" signifie que vous avez lu et accepté notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> et &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a>.&lt;/Data>"</string>
+    <string name="submit_dialog_content"><Data>"Lisez et acceptez notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> et notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> avant de soumettre des commentaires. Les problèmes que vous signalez ainsi que les éléments que vous attachez (y compris les journaux pouvant contenir des informations personnelles, ainsi que les informations sur votre appareil et votre réseau) seront téléchargés sur nos serveurs. Cela nous aidera à localiser et à résoudre les problèmes que vous signalez. Si vous signalez des problèmes liés à plusieurs appareils, les journaux d'autres appareils sur lesquels votre Compte Xiaomi est utilisé seront également téléchargés."</Data></string>
+    <string name="submit_dialog_content_global"><Data>"Vos commentaires, ainsi que les pièces jointes (s'il y en a) et les journaux, (vous pouvez décocher les cases correspondantes pour les éléments que vous ne souhaitez pas télécharger) seront envoyés sur nos serveurs. Il se peut que les journaux contiennent des informations personnelles et vos données de localisation. Choisir \"Accepter\" signifie que vous avez lu et accepté notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> et &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a>."</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>"Vos commentaires, ainsi que les pièces jointes (s'il y en a) et les journaux, (vous pouvez décocher les cases correspondantes pour les éléments que vous ne souhaitez pas télécharger) seront envoyés sur nos serveurs. Il se peut que les journaux contiennent des informations personnelles et vos données de localisation. Choisir \"Accepter\" signifie que vous avez lu et accepté notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> et &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a>."</Data></string>
     <string name="submit_dialog_not_show_again">Ne plus afficher</string>
     <string name="submit_dialog_title">Envoyer le rapport</string>
     <string name="submit_feedback_info_failed">"Impossible d'envoyer le rapport"</string>

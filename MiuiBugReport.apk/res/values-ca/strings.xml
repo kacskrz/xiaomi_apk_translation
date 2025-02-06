@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">"Hem detectat un error relacionat amb la contrasenya de la pantalla de bloqueig. Podeu enviar els registres del vostre dispositiu per ajudar-nos a localitzar i resoldre el problema. La informació del registre es penjarà de manera anònima, només s'utilitzarà per a la resolució de problemes i s'eliminarà un cop s'hagi completat la resolució de problemes."</string>
     <string name="bugreport_dialog_informed_consent_title">Consentiment informat</string>
     <string name="bugreport_dialog_not_show_again">No torneu a mostrar-ho</string>
-    <string name="bugreport_dialog_submit_content">"&lt;Data>Ara esteu guardant registres de software en aquest dispositiu. Els registres poden contenir informació personal i les vostres dades d'ubicació. No compartiu els registres amb ningú més si no voleu que aquesta informació quedi exposada. Al seleccionar \"Acceptar\" significa que heu llegit i acceptat la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a>.&lt;/Data>"</string>
+    <string name="bugreport_dialog_submit_content"><Data>"Ara esteu guardant registres de software en aquest dispositiu. Els registres poden contenir informació personal i les vostres dades d'ubicació. No compartiu els registres amb ningú més si no voleu que aquesta informació quedi exposada. Al seleccionar \"Accepto\" significa que heu llegit i acceptat la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a>."</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Toqueu per veure-ho.</string>
     <string name="bugreport_dump_complete_notification_title">"S'ha creat l'informe d'error"</string>
     <string name="bugreport_dump_start_notification_summary">Això pot trigar uns quants minuts.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">"D'acord"</string>
     <string name="cta_dialog_content">Aquesta aplicació necessita connectar-se a Internet per funcionar amb normalitat.</string>
     <string name="cta_dialog_title">Connexió a Internet</string>
-    <string name="cta_message">"&lt;Data>Per poder funcionar amb normalitat, Comentaris ha de connectar-se a Internet. Aquesta aplicació també pot sol·licitar el permís per accedir a la vostra ubicació. Llegiu i accepteu la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a> abans de continuar.&lt;/Data>"</string>
+    <string name="cta_message"><Data>"Per poder funcionar amb normalitat, Comentaris ha de connectar-se a Internet. Aquesta aplicació també pot sol·licitar el permís per accedir a la vostra ubicació. Llegiu i accepteu la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a> abans de continuar."</Data></string>
     <string name="cta_not_show_again">No tornis a mostrar-ho</string>
     <string name="customer_service_apply">Sol·licita Servei al client</string>
     <string name="customer_service_complain">Notifica Servei al client</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Calendari tradicional xinès</string>
     <string name="date_time_picker_dialog_title">"Configura la data i l'hora"</string>
     <string name="description">Descriviu el problema</string>
+    <string name="device_header">"%1$d. Tots els dispositius han d'haver iniciat la sessió al mateix Compte Xiaomi.
+%2$d. Els dispositius han d'estar connectats a Wi-Fi o utilitzant dades mòbils."</string>
+    <string name="device_header_china">"%1$d. Tots els dispositius han d'haver iniciat la sessió al mateix Compte Xiaomi.
+%2$d. Els dispositius han d'estar connectats a WLAN o utilitzant dades mòbils."</string>
+    <string name="device_not_found">Cap dispositiu connectat</string>
+    <string name="device_not_found_tips">Assegureu-vos que els altres dispositius tinguin la sessió iniciada al vostre Compte Xiaomi</string>
+    <string name="device_tips">"La selecció de dispositius connectats ens ajudarà a analitzar el problema més ràpidament. Podeu carregar registres tant d'aquest dispositiu com dels dispositius seleccionats."</string>
     <string name="diagnosis_log_send_failed">No ha estat possible enviar els registres. Proveu-ho de nou.</string>
     <string name="diagnosis_log_sent_format">"Els registres han estat enviats correctament.
 ID:%s
@@ -237,6 +244,8 @@ Envia aquest codi al supervisor."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Vols enviar un comentari?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problema \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Seleccioneu el problema</string>
+    <string name="feedback_choose_device">Seleccioneu un dispositiu</string>
+    <string name="feedback_choose_device_hint">No heu seleccionat cap dispositiu</string>
     <string name="feedback_choose_module">Trieu un element</string>
     <string name="feedback_choose_module_hint">Necessari</string>
     <string name="feedback_choose_occurrence_time">Data</string>
@@ -887,9 +896,9 @@ Llegiu i accepteu la nova versió de la %3$s abans de continuar."</string>
     <string name="stop_full_log_dialog_title">"S'està generant els registres…"</string>
     <string name="submit_dialog_cancel">No accepto</string>
     <string name="submit_dialog_confirm">Acceptar</string>
-    <string name="submit_dialog_content">"&lt;Data>Llegiu i accepteu la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i &lt;a href=\"%2$s\">Acord d'usuari&lt;/a> abans d'enviar comentaris. Els problemes que informeu juntament amb els elements que adjunteu (inclosos els registres que poden contenir informació personal, així com la informació sobre el dispositiu i la xarxa) es penjaran als nostres servidors. Això ens ajudarà a localitzar i resoldre els problemes que informeu. Si informeu de problemes relacionats amb diversos dispositius, també es penjaran els registres d'altres dispositius on s'utilitzi el vostre Compte Xiaomi.&lt;/Data>"</string>
-    <string name="submit_dialog_content_global">"&lt;Data>Els vostres comentaris, juntament amb els fitxers adjunts (si n'hi ha) i els registres (podeu desmarcar les caselles corresponents als elements que no voleu carregar) s'enviaran als nostres servidors. Els registres poden contenir informació personal i les vostres dades d'ubicació. Si seleccioneu \"Acceptar\" vol dir que heu llegit i acceptat la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a>.&lt;/Data>"</string>
-    <string name="submit_dialog_content_global_with_contactinfo">"&lt;Data>Els vostres comentaris, juntament amb els fitxers adjunts (si n'hi ha) i els registres (podeu desmarcar les caselles corresponents als elements que no voleu carregar) s'enviaran als nostres servidors. Els registres poden contenir informació personal i les vostres dades d'ubicació. Si seleccioneu \"Acceptar\" vol dir que heu llegit i acceptat la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a>.&lt;/Data>"</string>
+    <string name="submit_dialog_content"><Data>"Llegiu i accepteu la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i &lt;a href=\"%2$s\">Acord d'usuari&lt;/a> abans d'enviar comentaris. Els problemes que informeu juntament amb els elements que adjunteu (inclosos els registres que poden contenir informació personal, així com la informació sobre el dispositiu i la xarxa) es penjaran als nostres servidors. Això ens ajudarà a localitzar i resoldre els problemes que informeu. Si informeu de problemes relacionats amb diversos dispositius, també es penjaran els registres d'altres dispositius on s'utilitzi el vostre Compte Xiaomi."</Data></string>
+    <string name="submit_dialog_content_global"><Data>"Els vostres comentaris, juntament amb els fitxers adjunts (si n'hi ha) i els registres (podeu desmarcar les caselles corresponents als elements que no voleu carregar) s'enviaran als nostres servidors. Els registres poden contenir informació personal i les vostres dades d'ubicació. Si seleccioneu \"Acceptar\" vol dir que heu llegit i acceptat la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a>."</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>"Els vostres comentaris, juntament amb els fitxers adjunts (si n'hi ha) i els registres (podeu desmarcar les caselles corresponents als elements que no voleu carregar) s'enviaran als nostres servidors. Els registres poden contenir informació personal i les vostres dades d'ubicació. Si seleccioneu \"Acceptar\" vol dir que heu llegit i acceptat la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a>."</Data></string>
     <string name="submit_dialog_not_show_again">No ho tornis a mostrar</string>
     <string name="submit_dialog_title">"Envia l'informe"</string>
     <string name="submit_feedback_info_failed">"No s'ha pogut enviar l'informe"</string>

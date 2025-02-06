@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Kilit ekranı şifrenizle ilgili bir hata saptadık. Sorunu bulmamıza ve çözmemize yardımcı olmak için bize cihaz günlüklerini gönderebilirsiniz. Günlük bilgileri anonim olarak yüklenecek ve yalnızca sorun gidermede kullanılacaktır ve sorun giderme tamamlandığında silinecektir.</string>
     <string name="bugreport_dialog_informed_consent_title">Bilgilendirilmiş onay</string>
     <string name="bugreport_dialog_not_show_again">Tekrar gösterme</string>
-    <string name="bugreport_dialog_submit_content">"&lt;Data>Şu anda bu cihazda yazılım kayıtlarını kullanıyorsunuz. Kayıtlar kişisel bilgilerinizi ve konum verilerinizi içerebilir. Bu bilgilerin açığa çıkmasını engellemek için, kayıtları kimseyle paylaşmayın. \"Kabul et\" seçeneğini seçmek, &lt;a href=\"%1$s\">Gizlilik Politikası'nı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyup kabul ettiğiniz anlamına gelir.&lt;/Data>"</string>
+    <string name="bugreport_dialog_submit_content"><Data>"Şu anda bu cihazda yazılım kayıtlarını kullanıyorsunuz. Kayıtlar kişisel bilgilerinizi ve konum verilerinizi içerebilir. Bu bilgilerin açığa çıkmasını engellemek için, kayıtları kimseyle paylaşmayın. \"Kabul et\" seçeneğini seçmek, &lt;a href=\"%1$s\">Gizlilik Politikası'nı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyup kabul ettiğiniz anlamına gelir."</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Görüntülemek için dokunun.</string>
     <string name="bugreport_dump_complete_notification_title">Hata raporu oluşturuldu</string>
     <string name="bugreport_dump_start_notification_summary">Bu işlem birkaç dakika sürebilir.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">Tamam</string>
     <string name="cta_dialog_content">Bu uygulama normal çalışabilmek için internet bağlantısına ihtiyaç duyar.</string>
     <string name="cta_dialog_title">İnternet bağlantısı</string>
-    <string name="cta_message">"&lt;Data>Normal çalışabilmesi için Geri bildirim'in internete bağlanması gerekir. Bu uygulama ayrıca konumunuza erişim izni isteyebilir. Devam etmeden önce &lt;a href=\"%1$s\">Gizlilik Politikası'nı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin.&lt;/Data>"</string>
+    <string name="cta_message"><Data>"Normal çalışabilmesi için Geri bildirim'in internete bağlanması gerekir. Bu uygulama ayrıca konumunuza erişim izni isteyebilir. Devam etmeden önce &lt;a href=\"%1$s\">Gizlilik Politikası'nı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin."</Data></string>
     <string name="cta_not_show_again">Tekrar gösterme</string>
     <string name="customer_service_apply">Müşteri hizmetlerine başvur</string>
     <string name="customer_service_complain">Müşteri hizmetlerine bildir</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Çin Geleneksel Takvimi</string>
     <string name="date_time_picker_dialog_title">Tarih ve saati ayarla</string>
     <string name="description">Sorunu açıklayın</string>
+    <string name="device_header">"%1$d. Tüm cihazlar aynı Xiaomi Hesabında oturum açmalıdır.
+%2$d. Cihazların Wi-Fi'a bağlanması veya mobil veri kullanılması gerekir."</string>
+    <string name="device_header_china">"%1$d. Tüm cihazlar aynı Xiaomi Hesabında oturum açmalıdır.
+%2$d. Cihazların WLAN'a bağlanması veya mobil veri kullanılması gerekir."</string>
+    <string name="device_not_found">Bağlı cihaz yok</string>
+    <string name="device_not_found_tips">Diğer cihazların Xiaomi Hesabınızda oturum açtığından emin olun</string>
+    <string name="device_tips">Bağlı cihazların seçilmesi sorunu daha hızlı analiz etmemize yardımcı olacaktır. Kayıtları hem bu cihazdan hem seçili cihazlardan yükleyebilirsiniz.</string>
     <string name="diagnosis_log_send_failed">Kayıtlar gönderilemedi. Tekrar deneyin.</string>
     <string name="diagnosis_log_sent_format">"Kayıtlar başarıyla gönderildi.
 Kimlik:%s
@@ -237,6 +244,8 @@ Bu kodu yöneticiye gönderin."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Geri bildirim gönderin?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s sorunu \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Sorununuzu seçin</string>
+    <string name="feedback_choose_device">Cihaz seç</string>
+    <string name="feedback_choose_device_hint">Hiç cihaz seçmediniz</string>
     <string name="feedback_choose_module">Öge seçin</string>
     <string name="feedback_choose_module_hint">Gerekli</string>
     <string name="feedback_choose_occurrence_time">Zaman</string>
@@ -887,9 +896,9 @@ Devam etmeden önce %3$s'nın yeni sürümünü okuyun ve kabul edin."</string>
     <string name="stop_full_log_dialog_title">Günlükler oluşturuluyor…</string>
     <string name="submit_dialog_cancel">Reddet</string>
     <string name="submit_dialog_confirm">Kabul et</string>
-    <string name="submit_dialog_content">"&lt;Data>Geri bildirim göndermeden önce &lt;a href=\"%1$s\">Gizlilik Politikası'nı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin. Bildirdiğiniz sorunlar, eklediğiniz ögelerle birlikte (cihazınız ve ağ hakkındaki bilgilerle birlikte kişisel bilgileri de içerebilir) sunucularımıza yüklenir. Bu da bize bildirdiğiniz sorunu bulmamızda ve çözmemizde yardımcı olacaktır. Eğer birden fazla cihazla ilgili sorun bildirirseniz Xiaomi Hesabı kullandığınız diğer cihazlardaki kayıtlar da yüklenecektir.&lt;/Data>"</string>
-    <string name="submit_dialog_content_global">&lt;Data>Geri bildiriminiz, ekleriniz (eğer varsa) ve kayıtlar ile birlikte (yüklemek istemediğiniz ögelere karşılık gelen kutucukların işaretini kaldırabilirsiniz) sunucularımıza gönderilecektir. Kayıtlar kişisel bilgi ve konum verilerinizi içerebilir. \"Kabul et\" seçeneğini seçmek, &lt;a href=\"%1$s\">Gizlilik politikamızı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı sözleşmemizi&lt;/a> okuduğunuz ve kabul ettiğiniz anlamına gelir.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Geri bildiriminiz, ekleriniz (eğer varsa) ve kayıtlar ile birlikte (yüklemek istemediğiniz ögelere karşılık gelen kutucukların işaretini kaldırabilirsiniz) sunucularımıza gönderilecektir. Kayıtlar kişisel bilgi ve konum verilerinizi içerebilir. \"Kabul et\" seçeneğini seçmek, &lt;a href=\"%1$s\">Gizlilik politikamızı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı sözleşmemizi&lt;/a> okuduğunuz ve kabul ettiğiniz anlamına gelir.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>"Geri bildirim göndermeden önce &lt;a href=\"%1$s\">Gizlilik Politikası'nı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin. Bildirdiğiniz sorunlar, eklediğiniz ögelerle birlikte (cihazınız ve ağ hakkındaki bilgilerle birlikte kişisel bilgileri de içerebilir) sunucularımıza yüklenir. Bu da bize bildirdiğiniz sorunu bulmamızda ve çözmemizde yardımcı olacaktır. Eğer birden fazla cihazla ilgili sorun bildirirseniz Xiaomi Hesabı kullandığınız diğer cihazlardaki kayıtlar da yüklenecektir."</Data></string>
+    <string name="submit_dialog_content_global"><Data>Geri bildiriminiz ekleriniz (eğer varsa) ve kayıtlar ile birlikte (yüklemek istemediğiniz ögelere karşılık gelen kutucukların işaretini kaldırabilirsiniz) sunucularımıza gönderilecektir. Kayıtlar kişisel bilgi ve konum verilerinizi içerebilir. \"Kabul et\" seçeneğini seçmek, &lt;a href=\"%1$s\">Gizlilik politikamızı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı sözleşmemizi&lt;/a> okuduğunuz ve kabul ettiğiniz anlamına gelir.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Geri bildiriminiz ekleriniz (eğer varsa) ve kayıtlar ile birlikte (yüklemek istemediğiniz ögelere karşılık gelen kutucukların işaretini kaldırabilirsiniz) sunucularımıza gönderilecektir. Kayıtlar kişisel bilgi ve konum verilerinizi içerebilir. \"Kabul et\" seçeneğini seçmek, &lt;a href=\"%1$s\">Gizlilik politikamızı&lt;/a> ve &lt;a href=\"%2$s\">Kullanıcı sözleşmemizi&lt;/a> okuduğunuz ve kabul ettiğiniz anlamına gelir.</Data></string>
     <string name="submit_dialog_not_show_again">Tekrar gösterme</string>
     <string name="submit_dialog_title">Rapor gönder</string>
     <string name="submit_feedback_info_failed">Rapor gönderilemedi</string>

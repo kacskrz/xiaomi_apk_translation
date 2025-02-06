@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Vi har oppdaget en feil med låseskjermpassordet ditt. Du kan sende enhetsloggene dine til oss, slik at vi kan lokalisere og løse problemet. Logginformasjon lastes opp anonymt, brukes bare til feilsøking, og slettes så snart feilsøkingen er fullført.</string>
     <string name="bugreport_dialog_informed_consent_title">Informert samtykke</string>
     <string name="bugreport_dialog_not_show_again">Ikke vis igjen</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Du lagrer programvarelogger på denne enheten nå. Logger kan inneholde personlig informasjon og dine stedsdata. Ikke del logger med noen andre hvis du ikke ønsker at denne informasjonen skal bli eksponert. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Du lagrer programvarelogger på denne enheten nå. Logger kan inneholde personlig informasjon og dine stedsdata. Ikke del logger med noen andre hvis du ikke ønsker at denne informasjonen skal bli eksponert. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Trykk for å se.</string>
     <string name="bugreport_dump_complete_notification_title">Feilrapport er opprettet</string>
     <string name="bugreport_dump_start_notification_summary">Dette kan ta flere minutter.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Denne appen trenger en internettforbindelse for å fungere normalt.</string>
     <string name="cta_dialog_title">Internettforbindelse</string>
-    <string name="cta_message">&lt;Data>For å kunne fungere normalt må Feedback kobles til Internett. Denne appen kan også be om tillatelser til å få tilgang til plasseringene din. Les og godta vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">brukeravtale&lt;/a> før du fortsetter.&lt;/Data></string>
+    <string name="cta_message"><Data>For å kunne fungere normalt må Feedback kobles til Internett. Denne appen kan også be om tillatelser til å få tilgang til plasseringene din. Les og godta vår &lt;a href=\"%1$s\">personvernerklæring&lt;/a> og &lt;a href=\"%2$s\">brukeravtale&lt;/a> før du fortsetter.</Data></string>
     <string name="cta_not_show_again">Ikke vis igjen</string>
     <string name="customer_service_apply">Be om kundeservice</string>
     <string name="customer_service_complain">Rapporter kundeservice</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
     <string name="description">Forklar problemet</string>
+    <string name="device_header">"%1$d. Alle enheter må være logget på samme Mi-konto.
+%2$d. Enheter må være koblet til wifi eller bruke mobildata."</string>
+    <string name="device_header_china">"%1$d. Alle enheter må være logget på samme Mi-konto.
+%2$d. Enheter må være koblet til WLAN eller bruke mobildata."</string>
+    <string name="device_not_found">Ingen tilkoblede enheter</string>
+    <string name="device_not_found_tips">Sørg for at andre enheter er logget på Mi-kontoen din</string>
+    <string name="device_tips">Ved å velge tilkoblede enheter hjelper du oss med å analysere problemet raskere. Du kan laste opp logger fra både denne enheten og de valgte enhetene.</string>
     <string name="diagnosis_log_send_failed">Kunne ikke sende logger. Prøv igjen.</string>
     <string name="diagnosis_log_sent_format">"Logger er sendt.
 ID:%s
@@ -237,6 +244,8 @@ Send denne koden til den overordnede."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Sende inn tilbakemelding?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Velg et problem</string>
+    <string name="feedback_choose_device">Velg enhet</string>
+    <string name="feedback_choose_device_hint">Du har ikke valgt noen enheter</string>
     <string name="feedback_choose_module">Velg element</string>
     <string name="feedback_choose_module_hint">Påkrevd</string>
     <string name="feedback_choose_occurrence_time">Tid</string>
@@ -887,9 +896,9 @@ Les og godta den nye versjonen av %3$s før du fortsetter."</string>
     <string name="stop_full_log_dialog_title">Genererer logger…</string>
     <string name="submit_dialog_cancel">Ikke godta</string>
     <string name="submit_dialog_confirm">Enig</string>
-    <string name="submit_dialog_content">&lt;Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a> vår før du sender inn tilbakemelding. Problemene du rapporterer om med elementene du vedlegger (inkludert loggene som kan inneholde personopplysninger samt opplysninger om enheten og nettverket ditt) lastes opp til våre servere. Dette hjelper oss med å finne og løse problemene du rapporterer om. Hvis du rapporterer om problemer knyttet til flere enheter, blir loggene fra andre enheter der du bruker Mi-kontoen din også lastet opp.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), blir sendt til serverne våre. Logger kan inneholde personopplysninger og stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), blir sendt til serverne våre. Logger kan inneholde personopplysninger og stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a> vår før du sender inn tilbakemelding. Problemene du rapporterer om med elementene du vedlegger (inkludert loggene som kan inneholde personopplysninger samt opplysninger om enheten og nettverket ditt) lastes opp til våre servere. Dette hjelper oss med å lokalisere og løse problemene du rapporterer om. Hvis du rapporterer om problemer knyttet til flere enheter, vil loggene fra andre enheter der du bruker Mi-kontoen din også lastes opp.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), blir sendt til serverne våre. Logger kan inneholde personopplysninger og stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Tilbakemeldingen din, sammen med vedlegg (hvis det er noen) og logger (du kan velge bort gjeldene bokser for elementene du ikke ønsker å laste opp), blir sendt til serverne våre. Logger kan inneholde personopplysninger og stedsdata. Å velge \"Godta\" betyr at du har lest og godtatt &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> og &lt;a href=\"%2$s\">brukeravtalen&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Ikke vis igjen</string>
     <string name="submit_dialog_title">Send rapport</string>
     <string name="submit_feedback_info_failed">Kunne ikke sende rapport</string>

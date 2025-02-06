@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Zaznali smo napako z vašim geslom za Zaklenjeni zaslon. Lahko nam pošljete dnevnike vaše naprave, da poiščemo in odpravimo to težavo. Podatki dnevnika bodo anonimni, uporabljeni pa bodo samo za rešitev težave in bodo po zaključku izbrisani.</string>
     <string name="bugreport_dialog_informed_consent_title">Informirana privolitev</string>
     <string name="bugreport_dialog_not_show_again">Ne prikaži več</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Od tega trenutka naprej na vašo napravo shranjujete zapise programske opreme. Zapisi lahko vsebujejo osebne podatke in podatke o vaši lokaciji. Če se želite izogniti razkrivanju vaših podatkov, teh zapisov ne delite z nikomer drugim. Z izbiro \"Strinjam se\", potrjujete, da ste prebrali, ter da se strinjate z našim &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Od tega trenutka naprej na vašo napravo shranjujete zapise programske opreme. Zapisi lahko vsebujejo osebne podatke in podatke o vaši lokaciji. Če se želite izogniti razkrivanju vaših podatkov, teh zapisov ne delite z nikomer drugim. Z izbiro \"Strinjam se\", potrjujete, da ste prebrali, ter da se strinjate z našim &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Dotaknite se za pregled.</string>
     <string name="bugreport_dump_complete_notification_title">Poročilo napravljeno</string>
     <string name="bugreport_dump_start_notification_summary">To lahko traja nekaj minut.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">V redu</string>
     <string name="cta_dialog_content">Aplikacija potrebuje povezavo s spletom za normalno delovanje.</string>
     <string name="cta_dialog_title">Spletna povezava</string>
-    <string name="cta_message">&lt;Data>Za normalno delovanje se mora aplikacija Povratne informacije povezati na omrežje. Ta aplikacija lahko tudi zahteva dovoljenje za dostop do vaše lokacije. Pred nadaljevanjem preberite in se strinjajte z našim &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a>.&lt;/Data></string>
+    <string name="cta_message"><Data>Za normalno delovanje se mora aplikacija Povratne informacije povezati na omrežje. Ta aplikacija lahko tudi zahteva dovoljenja za dostop do vaše lokacije. Pred nadaljevanjem preberite in se strinjajte z našim &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a>.</Data></string>
     <string name="cta_not_show_again">Ne prikaži več</string>
     <string name="customer_service_apply">Zahtevajte Službo za uporabnike</string>
     <string name="customer_service_complain">Poročajte Službi za uporabnike</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Kitajski tradicionalni koledar</string>
     <string name="date_time_picker_dialog_title">Nastavi datum in čas</string>
     <string name="description">Opišite težavo</string>
+    <string name="device_header">"%1$d. Vse naprave morajo biti prijavljene v isti Xiaomi račun.
+%2$d. Naprave morajo biti povezane z omrežjem Wi-Fi ali uporabljati mobilne podatke."</string>
+    <string name="device_header_china">"%1$d. Vse naprave morajo biti prijavljene v isti Xiaomi račun.
+%2$d. Naprave morajo biti povezane z omrežjem WLAN ali uporabljati mobilne podatke."</string>
+    <string name="device_not_found">Ni povezanih naprav</string>
+    <string name="device_not_found_tips">Prepričajte se, da so druge naprave prijavljene v vaš Xiaomi račun</string>
+    <string name="device_tips">Izbira povezanih naprav nam bo pomagala hitreje analizirati težavo. Poročila lahko naložite iz te naprave in izbranih naprav.</string>
     <string name="diagnosis_log_send_failed">Ni mogoče poslati poročila. Poskusite ponovno.</string>
     <string name="diagnosis_log_sent_format">"Poročila so bila uspešno poslana.
 ID:%s
@@ -237,6 +244,8 @@ Pošljite to kodo nadzorniku."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Želite poslati povratne informacije?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s težava \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Izberite težavo</string>
+    <string name="feedback_choose_device">Izberite napravo</string>
+    <string name="feedback_choose_device_hint">Niste še izbrali nobenih naprav</string>
     <string name="feedback_choose_module">Izberite predmet</string>
     <string name="feedback_choose_module_hint">Zahtevano</string>
     <string name="feedback_choose_occurrence_time">Čas</string>
@@ -887,9 +896,9 @@ Preden, ko nadaljujete preberite in se strinjajte z novo različico %3$s."</stri
     <string name="stop_full_log_dialog_title">Ustvarjanje poročil…</string>
     <string name="submit_dialog_cancel">Ne strinjam se</string>
     <string name="submit_dialog_confirm">Strinjam se</string>
-    <string name="submit_dialog_content">&lt;Data>Preberite in se strinjajte z našim &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a>, preden pošljete povratne informacije. Težave, ki jih prijavite, bodo skupaj s priloženimi elementi (vključno s poročili, ki lahko vsebujejo osebne podatke, ter podatki o vaši napravi in omrežju) prenesene na naše strežnike. To nam bo pomagalo pri iskanju in reševanju težav, o katerih poročate. Če poročate o težavah, povezanih z več napravami, bodo naložena tudi poročila iz drugih naprav, kjer uporabljate Xiaomi Račun.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>&lt;![CDATA[Vaše povratne informacije bodo, skupaj s prilogami (če obstajajo) in dnevniki (lahko počistite ustrezna polja za elemente, ki jih ne želite naložiti) poslane našim strežnikom. Dnevniki lahko vsebujejo osebne podatke in podatke o vaši lokaciji. Izbira Strinjam se pomeni, da ste prebrali naš &lt;a href=%1$s>Pravilnik o zasebnosti&lt;/a> in &lt;a href=%2$s>Uporabniški dogovor in se strinjate z njima&lt;/a>&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Vaše povratne informacije bodo, skupaj s prilogami (če obstajajo) in poročili (lahko počistite ustrezna polja za elemente, ki jih ne želite naložiti) poslane našim strežnikom. Poročila lahko vsebujejo osebne podatke in podatke o vaši lokaciji. Izbira \"Strinjam se\" pomeni, da ste prebrali naš &lt;a href=\"%1$s\">Pravilnik o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniški dogovor in se strinjate z njima.&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Preberite in se strinjajte z našima &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a>, preden pošljete povratne informacije. Težave, ki jih prijavite, bodo skupaj s priloženimi elementi (vključno s poročili, ki lahko vsebujejo osebne podatke, ter podatki o vaši napravi in omrežju) prenesene na naše strežnike. To nam bo pomagalo pri iskanju in reševanju težav, o katerih poročate. Če poročate o težavah, povezanih z več napravami, bodo naložena tudi poročila iz drugih naprav, kjer uporabljate Xiaomi Račun.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Vaše povratne informacije bodo, skupaj s prilogami (če obstajajo) in poročili (lahko počistite ustrezna polja za elemente, ki jih ne želite naložiti) poslane našim strežnikom. Poročila lahko vsebujejo osebne podatke in podatke o vaši lokaciji. Izbira \"Strinjam se\" pomeni, da ste prebrali naša &lt;a href=\"%1$s\">Pravilnik o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniški dogovor in se z njima strinjate.&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Vaše povratne informacije bodo, skupaj s prilogami (če obstajajo) in poročili (lahko počistite ustrezna polja za elemente, ki jih ne želite naložiti) poslane našim strežnikom. Poročila lahko vsebujejo osebne podatke in podatke o vaši lokaciji. Izbira \"Strinjam se\" pomeni, da ste prebrali naša &lt;a href=\"%1$s\">Pravilnik o zasebnosti&lt;/a> in &lt;a href=\"%2$s\">Uporabniški dogovor in se z njima strinjate.&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Ne prikaži več</string>
     <string name="submit_dialog_title">Pošlji poročilo</string>
     <string name="submit_feedback_info_failed">Ne morem poslati poročila</string>

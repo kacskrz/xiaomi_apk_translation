@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Hemos detectado un error con respecto a la contraseña de su Pantalla de bloqueo. Puede enviar los registros de su dispositivo para ayudarnos a localizar y resolver el problema. La información de registro se cargará de forma anónima, solo se utilizará para la resolución de problemas y se eliminará una vez que se complete la resolución de problemas.</string>
     <string name="bugreport_dialog_informed_consent_title">Consentimiento informado</string>
     <string name="bugreport_dialog_not_show_again">No volver a mostrar</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Ahora está guardando registros de software en este dispositivo. Los registros pueden contener información personal y sus datos de ubicación. No comparta registros con nadie si no desea que esta información quede expuesta. Al seleccionar Aceptar, significa que ha leído y aceptado nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y el &lt;a href=\"%2$s\">Acuerdo de Usuario&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Ahora está guardando registros de software en este dispositivo. Los registros pueden contener información personal y sus datos de ubicación. No comparta registros con nadie si no desea que esta información quede expuesta. Al seleccionar Aceptar, significa que ha leído y aceptado nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y el &lt;a href=\"%2$s\">Acuerdo de Usuario&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Toque para visualizar.</string>
     <string name="bugreport_dump_complete_notification_title">Informe de errores creado</string>
     <string name="bugreport_dump_start_notification_summary">Esto puede tomar varios minutos.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">Aceptar</string>
     <string name="cta_dialog_content">Esta aplicación necesita conectarse a internet para funcionar correctamente.</string>
     <string name="cta_dialog_title">Conexión a internet</string>
-    <string name="cta_message">&lt;Data>Para poder trabajar normalmente, Comentarios necesita conectarse a Internet. Esta aplicación también puede solicitar el permiso para acceder a su ubicación. Lea y acepte nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y el &lt;a href=\"%2$s\">Acuerdo de Usuario&lt;/a> antes de continuar.&lt;/Data></string>
+    <string name="cta_message"><Data>Para poder trabajar normalmente, Comentarios necesita conectarse a Internet. Esta aplicación también puede solicitar el permiso para acceder a su ubicación. Lea y acepte nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y el &lt;a href=\"%2$s\">Acuerdo de Usuario&lt;/a> antes de continuar.</Data></string>
     <string name="cta_not_show_again">No volver a mostrar</string>
     <string name="customer_service_apply">Solicitar servicio al cliente</string>
     <string name="customer_service_complain">Reportar servicio al cliente</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Calendario chino tradicional</string>
     <string name="date_time_picker_dialog_title">Ajustar fecha y hora</string>
     <string name="description">Describa el problema</string>
+    <string name="device_header">"%1$d. Todos los dispositivos deben estar conectados a la misma Cuenta Mi.
+%2$d. Los dispositivos deben estar conectados a una red Wi-Fi o usar datos móviles."</string>
+    <string name="device_header_china">"%1$d. Todos los dispositivos deben estar conectados a la misma Cuenta Mi.
+%2$d. Los dispositivos deben estar conectados a una red WLAN o usar datos móviles."</string>
+    <string name="device_not_found">No hay dispositivos conectados</string>
+    <string name="device_not_found_tips">Asegúrese de que los otros dispositivos hayan iniciado sesión en su Cuenta Mi</string>
+    <string name="device_tips">Seleccionar los dispositivos conectados nos ayudará a analizar el problema más rápidamente. Puede cargar registros tanto de este dispositivo como de los dispositivos seleccionados.</string>
     <string name="diagnosis_log_send_failed">No se pudieron enviar los registros. Vuelva a intentarlo.</string>
     <string name="diagnosis_log_sent_format">"Registros enviados con éxito.
 ID: %s
@@ -237,6 +244,8 @@ Envíe este código al supervisor."</string>
     <string name="feedback_answer_detail_submit_dialog_title">¿Enviar comentario?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problema \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Seleccionar problema</string>
+    <string name="feedback_choose_device">Seleccionar dispositivo</string>
+    <string name="feedback_choose_device_hint">No ha seleccionado ningún dispositivo</string>
     <string name="feedback_choose_module">Seleccionar elemento</string>
     <string name="feedback_choose_module_hint">Necesario</string>
     <string name="feedback_choose_occurrence_time">Fecha</string>
@@ -887,9 +896,9 @@ Lee y acepta la nueva versión de la %3$s antes de continuar."</string>
     <string name="stop_full_log_dialog_title">Generando registros…</string>
     <string name="submit_dialog_cancel">Rechazar</string>
     <string name="submit_dialog_confirm">Aceptar</string>
-    <string name="submit_dialog_content">&lt;Data>[Lea y acepte nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y &lt;a href=\"%2$s\">Acuerdo de Usuario&lt;/a> antes de enviar comentarios. Los problemas de los que informes junto con los elementos que adjunte (incluidos los registros que podrían contener información personal, así como la información sobre su dispositivo y red) serán subidos a nuestros servidores. Esto nos ayudará a localizar y resolver los problemas de los que nos informe. Si informa de problemas relacionados con varios dispositivos, también se subirán los registros de otros dispositivos en los que utilizas su Cuenta Mi.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Sus comentarios, junto con los archivos adjuntos (si los hay) y los registros (puede desmarcar las casillas correspondientes para los elementos que no desea cargar) se enviarán a nuestros servidores. Los registros pueden contener información personal y datos de su ubicación. Seleccionar \"Aceptar\" significa que ha leído y aceptado nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y &lt;a href=\"%2$s\"> Acuerdo de usuario&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Sus comentarios, junto con los archivos adjuntos (si los hay) y los registros (puede desmarcar las casillas correspondientes para los elementos que no desea cargar) se enviarán a nuestros servidores. Los registros pueden contener información personal y datos de su ubicación. Seleccionar \"Aceptar\" significa que ha leído y aceptado nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y &lt;a href=\"%2$s\"> Acuerdo de usuario&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>[Lea y acepte nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y &lt;a href=\"%2$s\">Acuerdo de Usuario&lt;/a> antes de enviar comentarios. Los problemas de los que informes junto con los elementos que adjunte (incluidos los registros que podrían contener información personal, así como la información sobre su dispositivo y red) serán subidos a nuestros servidores. Esto nos ayudará a localizar y resolver los problemas de los que nos informe. Si informa de problemas relacionados con varios dispositivos, también se subirán los registros de otros dispositivos en los que utilizas su Cuenta Mi.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Sus comentarios, junto con los archivos adjuntos (si los hay) y los registros (puede desmarcar las casillas correspondientes para los elementos que no desea cargar) se enviarán a nuestros servidores. Los registros pueden contener información personal y datos de su ubicación. Seleccionar \"Aceptar\" significa que ha leído y aceptado nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y &lt;a href=\"%2$s\"> Acuerdo de Usuario&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Sus comentarios, junto con los archivos adjuntos (si los hay) y los registros (puede desmarcar las casillas correspondientes para los elementos que no desea cargar) se enviarán a nuestros servidores. Los registros pueden contener información personal y datos de su ubicación. Seleccionar \"Aceptar\" significa que ha leído y aceptado nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y &lt;a href=\"%2$s\"> Acuerdo de Usuario&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">No volver a mostrar</string>
     <string name="submit_dialog_title">Enviar reporte</string>
     <string name="submit_feedback_info_failed">No se pudo enviar el reporte</string>

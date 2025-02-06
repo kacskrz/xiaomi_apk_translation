@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Vi har registreret en fejl vedrørende din adgangskode til låseskærmen. Du kan indsende dine enhedslogfiler for at hjælpe os med at finde og løse problemet. Logfiloplysninger vil blive uploadet anonymt, vil kun blive brugt til fejlfinding og vil blive slettet, når fejlfindingen er fuldført.</string>
     <string name="bugreport_dialog_informed_consent_title">Informeret samtykke</string>
     <string name="bugreport_dialog_not_show_again">Vis ikke igen</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Du gemmer softwarelogfiler på denne enhed nu. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. Del ikke logfiler med nogen, hvis du ikke ønsker, at disse oplysninger skal videregives. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Du gemmer softwarelogfiler på denne enhed nu. Logfiler kan indeholde personlige oplysninger og dine placeringsdata. Del ikke logfiler med nogen, hvis du ikke ønsker, at disse oplysninger skal videregives. At vælge \"Bekræft\" betyder, at du har læst og accepteret vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Tryk for at se.</string>
     <string name="bugreport_dump_complete_notification_title">Oprettet fejlrapport.</string>
     <string name="bugreport_dump_start_notification_summary">Dette kan tage flere minutter.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Denne app er nødt til at tilslutte til internettet for at fungere normalt.</string>
     <string name="cta_dialog_title">Internetforbindelse</string>
-    <string name="cta_message">&lt;Data>For at kunne fungere normalt skal Feedback tilslutte til internettet. Denne app kan også anmode om tilladelse til at få adgang til din placering. Læs og acceptér vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>, før du fortsætter.&lt;/Data></string>
+    <string name="cta_message"><Data>For at kunne fungere normalt skal Feedback tilslutte til internettet. Denne app kan også anmode om tilladelse til at få adgang til din placering. Læs og acceptér vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>, før du fortsætter.</Data></string>
     <string name="cta_not_show_again">Vis ikke igen</string>
     <string name="customer_service_apply">Anmod om kundeservice</string>
     <string name="customer_service_complain">Anmeld kundeservice</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Kinesisk traditionel kalender</string>
     <string name="date_time_picker_dialog_title">Indstil dato og tid</string>
     <string name="description">Beskriv problemet</string>
+    <string name="device_header">"%1$d. Alle enheder skal være logget ind med samme Xiaomi-konto.
+%2$d. Enhederne skal være forbundet til wi-fi eller bruge mobildata."</string>
+    <string name="device_header_china">"%1$d. Alle enheder skal være logget ind med samme Xiaomi-konto.
+%2$d. Enhederne skal være forbundet til WLAN eller bruge mobildata."</string>
+    <string name="device_not_found">Ingen tilsluttede enheder</string>
+    <string name="device_not_found_tips">Sørg for, at de andre enheder er logget ind på din Xiaomi-konto</string>
+    <string name="device_tips">Ved at vælge tilsluttede enheder kan vi analysere problemet hurtigere. Du kan uploade logfiler både fra denne enhed og fra de valgte enheder.</string>
     <string name="diagnosis_log_send_failed">Kunne ikke sende logfiler. Prøv igen.</string>
     <string name="diagnosis_log_sent_format">"Logfiler er nu sendt.
 ID:%s
@@ -237,6 +244,8 @@ Send denne kode til supervisoren."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Send feedback?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Vælg problem</string>
+    <string name="feedback_choose_device">Vælg enhed</string>
+    <string name="feedback_choose_device_hint">Du har ikke valgt nogen enheder</string>
     <string name="feedback_choose_module">Vælg element</string>
     <string name="feedback_choose_module_hint">Påkrævet</string>
     <string name="feedback_choose_occurrence_time">Tidspunkt</string>
@@ -887,9 +896,9 @@ Læs og acceptér den nye version af %3$s, inden du fortsætter."</string>
     <string name="stop_full_log_dialog_title">Genererer logfiler…</string>
     <string name="submit_dialog_cancel">Acceptér ikke</string>
     <string name="submit_dialog_confirm">Acceptér</string>
-    <string name="submit_dialog_content">&lt;Data>Læs og acceptér vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>, inden du indsender feedback. Problemerne, du rapporterer, og elementerne, du vedhæfter (herunder logfiler, der kan indeholde personoplysninger såvel som oplysningerne om din enhed og dit netværk) vil blive uploadet til vores servere. Det vil hjælpe os med at lokalisere og løse de problemer, du rapporterer. Hvis du rapporterer problemer vedrørende flere enheder, vil logfiler fra andre enheder, hvor din Xiaomi-konto bruges, også blive uploadet.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Din feedback sammen med vedhæftede filer (hvis der er nogen) og logfiler (du kan fjerne markeringen i de tilsvarende felter for de elementer, du ikke ønsker at uploade) vil blive sendt til vores servere. Logfiler kan indeholde personoplysninger og dine placeringsdata. Hvis du vælger \"Acceptér\", betyder det, at du har læst og accepteret vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Din feedback sammen med vedhæftede filer (hvis der er nogen) og logfiler (du kan fjerne markeringen i de tilsvarende felter for de elementer, du ikke ønsker at uploade) vil blive sendt til vores servere. Logfiler kan indeholde personoplysninger og dine placeringsdata. Hvis du vælger \"Acceptér\", betyder det, at du har læst og accepteret vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Læs og accepter vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>, inden du indsender feedback. De problemer, du rapporterer, sammen med de vedhæftede filer (herunder logfiler, som kan indeholde personlige oplysninger, samt information om din enhed og netværk), uploades til vores servere. Det hjælper os med at lokalisere og løse de problemer, du rapporterer. Hvis du rapporterer problemer, der vedrører flere enheder, uploades logfiler også fra andre enheder, hvor din Xiaomi-konto er brugt.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Din feedback, sammen med eventuelle vedhæftede filer og logfiler (du kan fravælge de elementer, du ikke vil have uploadet), sendes til vores servere. Logfiler kan indeholde personlige oplysninger og placeringsdata. Hvis du vælger Bekræft accepterer du vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Din feedback, sammen med eventuelle vedhæftede filer og logfiler (du kan fravælge de elementer, du ikke vil have uploadet), sendes til vores servere. Logfiler kan indeholde personlige oplysninger og placeringsdata. Hvis du vælger Bekræft accepterer du vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Vis ikke igen</string>
     <string name="submit_dialog_title">Send rapport</string>
     <string name="submit_feedback_info_failed">Kunne ikke sende rapport.</string>

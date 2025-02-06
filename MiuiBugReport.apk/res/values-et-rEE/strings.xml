@@ -45,7 +45,7 @@
     <string name="bugreport_dialog_informed_consent_content">Avastasime teie lukustuskuva parooliga seotud vea. Saate esitada oma seadme logid, mis aitavad meil probleemi leida ja lahendada. Logiteave laaditakse üles anonüümselt, seda kasutatakse ainult tõrkeotsinguks ja see kustutatakse, kui tõrkeotsing on lõppenud.</string>
     <string name="bugreport_dialog_informed_consent_title">Teadlik nõusolek</string>
     <string name="bugreport_dialog_not_show_again">Ära näita uuesti</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Sa salvestad tarkvara logid nüüd sellesse seadmesse. Logid võivad sisaldada isiklikke andmeid. Ära jaga neid logisid kellegi teisega, kui sa ei soovi nende andmete avalikustamist. Valides \"Nõustun\" tähendab, et sa oled lugenud ja nõustunud meie &lt;a href=\"%1$s\">Privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\">Kasutajalepinguga&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Sa salvestad tarkvara logid nüüd sellesse seadmesse. Logid võivad sisaldada isiklikke andmeid. Ära jaga neid logisid kellegi teisega, kui sa ei soovi nende andmete avalikustamist. Valides \"Nõustun\" tähendab, et sa oled lugenud ja nõustunud meie &lt;a href=\"%1$s\">Privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\">Kasutajalepinguga&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Toksa vaatamiseks.</string>
     <string name="bugreport_dump_complete_notification_title">Loo vearaport</string>
     <string name="bugreport_dump_start_notification_summary">See võib võtta mõne minuti.</string>
@@ -120,7 +120,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Rakendus vajab normaalseks tööks internetiühendust.</string>
     <string name="cta_dialog_title">Internetiühendus</string>
-    <string name="cta_message">&lt;Data>Tavaliseks töötamiseks peab Tagasiside looma Interneti-ühenduse. See rakendus võib taotleda ka teie asukohale juurdepääsu luba. Enne jätkamist lugege läbi meie &lt;a href=\"%1$s\">privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\">kasutajaleping&lt;/a> ning nõustuge nendega.&lt;/Data></string>
+    <string name="cta_message"><Data>Tavaliseks töötamiseks peab Tagasiside looma Interneti-ühenduse. See rakendus võib taotleda ka teie asukohale juurdepääsu luba. Enne jätkamist lugege läbi meie &lt;a href=\"%1$s\">privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\">kasutajaleping&lt;/a> ning nõustuge nendega.</Data></string>
     <string name="cta_not_show_again">Ära enam kuva</string>
     <string name="customer_service_apply">Nõua kliendituge</string>
     <string name="customer_service_complain">Raporteeri klienditoele</string>
@@ -131,6 +131,13 @@
     <string name="date_picker_lunar">Traditsiooniline Hiina kalender</string>
     <string name="date_time_picker_dialog_title">Määra kuupäev ja kellaaeg</string>
     <string name="description">Kirjelda viga</string>
+    <string name="device_header">"%1$d. Kõik seadmed peavad olema sisse logitud samale Xiaomi kontole.
+%2$d. Seadmed peavad olema ühendatud Wi-Fi-iga või kasutama mobiilset andmesidet."</string>
+    <string name="device_header_china">"%1$d. Kõik seadmed peavad olema sisse logitud samale Xiaomi kontole.
+%2$d. Seadmed peavad olema ühendatud WLAN-iga või kasutama mobiilset andmesidet."</string>
+    <string name="device_not_found">Ühendatud seadmeid ei ole</string>
+    <string name="device_not_found_tips">Veenduge, et teised seadmed oleksid teie Xiaomi kontole sisse logitud</string>
+    <string name="device_tips">Ühendatud seadmete valimine aitab meil probleemi kiiremini analüüsida. Saate logisid üles laadida nii sellest seadmest kui ka valitud seadmetest.</string>
     <string name="diagnosis_log_send_failed">Logisid ei õnnestunud saata. Proovi uuesti.</string>
     <string name="diagnosis_log_sent_format">"Logid edukalt saadetud.
 ID:%s
@@ -190,6 +197,8 @@ Saada see kood ülevaatuseks."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Kas soovid anda tagasisidet?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s probleem \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Vali probleem</string>
+    <string name="feedback_choose_device">Valige seade</string>
+    <string name="feedback_choose_device_hint">Te pole ühtegi seadet valinud</string>
     <string name="feedback_choose_module">Vali üksus</string>
     <string name="feedback_choose_module_hint">Nõutud</string>
     <string name="feedback_choose_occurrence_time">Aeg</string>
@@ -836,9 +845,9 @@ Enne jätkamist loe %3$s uut versiooni ja nõustu sellega."</string>
     <string name="stop_full_log_dialog_title">Logide loomine…</string>
     <string name="submit_dialog_cancel">Ära nõustu</string>
     <string name="submit_dialog_confirm">Nõustu</string>
-    <string name="submit_dialog_content">&lt;Data>Lugege ja nõustuge meie &lt;a href=\"%1$s\">privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\">kasutajalepinguga&lt;/a> enne tagasiside esitamist. Probleemid, millest teavitate, koos manustatud üksustega (sh logid, mis võivad sisaldada isiklikku teavet, samuti teave teie seadme ja võrgu kohta) laaditakse üles meie serveritesse. See aitab meil teie teatatud probleemid leida ja lahendada. Kui teatate mitme seadmega seotud probleemidest, laaditakse üles ka muude seadmete logid, kus teie Xiaomi kontot kasutatakse.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Teie tagasiside koos manustega (kui on lisatud) ja logidega (saate tühjendada vastavad ruudud nende üksuste juures, mida te ei soovi üles laadida) saadetakse meie serveritesse. Logid võivad sisaldada isiklikku teavet ja teie asukohaandmeid. \"Nõustun\" valimine tähendab, et olete lugenud ja nõus meie &lt;a href=\"%1$s\">Privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\"> ja Kasutuslepinguga&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Teie tagasiside koos manustega (kui on lisatud) ja logidega (saate tühjendada vastavad ruudud nende üksuste juures, mida te ei soovi üles laadida) saadetakse meie serveritesse. Logid võivad sisaldada isiklikku teavet ja teie asukohaandmeid. \"Nõustun\" valimine tähendab, et olete lugenud ja nõus meie &lt;a href=\"%1$s\">Privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\"> ja Kasutuslepinguga&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Lugege ja nõustuge meie &lt;a href=\"%1$s\">privaatsuspoliitika&lt;/a> ja&lt;a href=\"%2$s\">kasutajalepinguga&lt;/a> enne tagasiside esitamist. Probleemid, millest teavitate, koos manustatud üksustega (sh logid, mis võivad sisaldada isiklikku informatsiooni, samuti teavet teie seadme ja võrgu kohta) laaditakse üles meie serveritesse. See aitab meil teie teatatud probleemid leida ja lahendada. Kui teatate mitme seadmega seotud probleemidest, laaditakse üles ka muude seadmete logid, kus teie Xiaomi kontot kasutatakse.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Teie tagasiside koos manustega (kui on lisatud) ja logidega (saate tühjendada vastavad ruudud nende üksuste juures, mida te ei soovi üles laadida) saadetakse meie serveritesse. Logid võivad sisaldada isiklikku teavet ja teie asukohaandmeid. \"Nõustun\" valimine tähendab, et olete lugenud ning nõustute meie &lt;a href=\"%1$s\">privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\">kasutuslepinguga&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Teie tagasiside koos manustega (kui on lisatud) ja logidega (saate tühjendada vastavad ruudud nende üksuste juures, mida te ei soovi üles laadida) saadetakse meie serveritesse. Logid võivad sisaldada isiklikku teavet ja teie asukohaandmeid. \"Nõustun\" valimine tähendab, et olete lugenud ning nõustute meie &lt;a href=\"%1$s\">privaatsuspoliitika&lt;/a> ja &lt;a href=\"%2$s\">kasutuslepinguga&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Ära kuva uuesti</string>
     <string name="submit_dialog_title">Raporteeri</string>
     <string name="submit_feedback_info_failed">Raportit ei õnnestunud saata</string>

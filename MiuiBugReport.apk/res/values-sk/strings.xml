@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Zistili sme chybu týkajúcu sa hesla vašej Zamknutej obrazovky. Pre nájdenie a vyriešenie tohto problému nám môžete poslať logy vášho zariadenia. Informácie obsiahnuté v logoch budú anonymne. Tieto informácie budú použité iba pre vyriešenie problému a po vyriešení budú odstránené.</string>
     <string name="bugreport_dialog_informed_consent_title">Informovaný súhlas</string>
     <string name="bugreport_dialog_not_show_again">Viac nezobrazovať</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Práve ukladáte do vášho zariadenia softvérové záznamy. Záznamy môžu obsahovať osobné informácie alebo informácie o vašej polohe. Pokiaľ sa chcete vyhnúť úniku informácií, s nikým tieto údaje nezdieľajte. Zvolením možnosti \"Súhlasím\" prehlasujete, že ste si prečítali a súhlasíte s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Práve ukladáte do vášho zariadenia softvérové záznamy. Záznamy môžu obsahovať osobné informácie alebo informácie o vašej polohe. Pokiaľ sa chcete vyhnúť úniku informácií, s nikým tieto údaje nezdieľajte. Zvolením možnosti \"Súhlasím\" prehlasujete, že ste si prečítali a súhlasíte s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Ťuknutím zobraziť.</string>
     <string name="bugreport_dump_complete_notification_title">Hlásenie o chybe vytvorené</string>
     <string name="bugreport_dump_start_notification_summary">Môže to trvať niekoľko minút.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Táto aplikácia si pre správne fungovanie vyžaduje pripojenie na internet.</string>
     <string name="cta_dialog_title">Internetové pripojenie</string>
-    <string name="cta_message">&lt;Data>Aby ste mohli normálne fungovať, aplikácia Spätná väzba sa musí pripojiť na internet. Táto aplikácia môže tiež požiadať o povolenie na prístup k vašej polohe. Pred tým, ako budete pokračovať, si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>.&lt;/Data></string>
+    <string name="cta_message"><Data>Aby ste mohli normálne fungovať, aplikácia Spätná väzba sa musí pripojiť na internet. Táto aplikácia môže tiež požiadať o povolenie na prístup k vašej polohe. Pred tým, ako budete pokračovať, si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>.</Data></string>
     <string name="cta_not_show_again">Viac nezobrazovať</string>
     <string name="customer_service_apply">Požiadať o služby zákazníkom</string>
     <string name="customer_service_complain">Nahlásiť službe zákazníkom</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Čínsky tradičný kalendár</string>
     <string name="date_time_picker_dialog_title">Nastavte dátum a čas</string>
     <string name="description">Popíšte chybu</string>
+    <string name="device_header">"%1$d. Všetky zariadenia musia byť prihlásené do rovnakého Xiaomi konta.
+%2$d. Zariadenia musia byť pripojené k sieti Wi-Fi alebo používať mobilné dáta."</string>
+    <string name="device_header_china">"%1$d. Všetky zariadenia musia byť prihlásené do rovnakého Xiaomi konta.
+%2$d. Zariadenia musia byť pripojené k sieti WLAN alebo používať mobilné dáta."</string>
+    <string name="device_not_found">Žiadne pripojené zariadenia</string>
+    <string name="device_not_found_tips">Uistite sa, že ostatné zariadenia sú prihlásené do vášho konta Xiaomi</string>
+    <string name="device_tips">Výber pripojených zariadení nám pomôže rýchlejšie analyzovať problém. Môžete odosielať logy z tohto zariadenia aj z vybraných zariadení.</string>
     <string name="diagnosis_log_send_failed">Záznamy nebolo možné odoslať. Skúste to znovu.</string>
     <string name="diagnosis_log_sent_format">"Záznamy úspešne odoslané.
 ID:%s
@@ -237,6 +244,8 @@ Odošlite tento kód zodpovednej osobe."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Odoslať spätnú väzbu?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s chyba \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Vyberte problém</string>
+    <string name="feedback_choose_device">Vyberte zariadenie</string>
+    <string name="feedback_choose_device_hint">Nevybrali ste žiadne zariadenie</string>
     <string name="feedback_choose_module">Vyberte položku</string>
     <string name="feedback_choose_module_hint">Povinné</string>
     <string name="feedback_choose_occurrence_time">Čas</string>
@@ -887,9 +896,9 @@ Pred tým, ako budete pokračovať si prečítajte a vyjadrite váš súhlas s n
     <string name="stop_full_log_dialog_title">Generujú sa logy…</string>
     <string name="submit_dialog_cancel">Nesúhlasím</string>
     <string name="submit_dialog_confirm">Súhlasím</string>
-    <string name="submit_dialog_content">&lt;Data>Pred odoslaním spätnej väzby si prečítajte a vyjadrite súhlas s našimi zmluvami&lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>. Problémy, ktoré nahlásite spolu s položkami, ktoré priložíte (vrátane protokolov, ktoré môžu obsahovať osobné informácie, ako aj informácie o vašom zariadení a sieti), sa nahrajú na servery. Toto nám pomôže nájsť a vyriešiť problémy, ktoré nahlásite. Ak nahlásite problémy týkajúce sa viacerých zariadení, nahrajú sa aj logy z iných zariadení, kde sa používa vaše Xiaomi konto.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Vaša spätná väzba spolu s prílohami (ak existujú) a logmi (môžete zrušiť začiarknutie príslušných políčok pri položkách, ktoré nechcete nahrať) budú odoslané na naše servery. Logy môžu obsahovať osobné informácie a údaje o vašej polohe. Zvolením možnosti \"Súhlasím\" vyjadrujete, že ste si prečítali a súhlasíte s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Vaša spätná väzba spolu s prílohami (ak existujú) a logmi (môžete zrušiť začiarknutie príslušných políčok pri položkách, ktoré nechcete nahrať) budú odoslané na naše servery. Logy môžu obsahovať osobné informácie a údaje o vašej polohe. Zvolením možnosti \"Súhlasím\" vyjadrujete, že ste si prečítali a súhlasíte s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Pred odoslaním spätnej väzby si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>. Problémy, ktoré nahlásite spolu s položkami, ktoré priložíte (vrátane protokolov, ktoré môžu obsahovať osobné informácie, ako aj informácie o vašom zariadení a sieti), sa nahrajú na servery. Toto nám pomôže nájsť a vyriešiť problémy, ktoré nahlásite. Ak nahlásite problémy týkajúce sa viacerých zariadení, nahrajú sa aj logy z iných zariadení, kde sa používa vaše Xiaomi konto.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Vaša spätná väzba spolu s prílohami (ak existujú) a logmi (môžete zrušiť začiarknutie príslušných políčok pri položkách, ktoré nechcete nahrať) budú odoslané na naše servery. Logy môžu obsahovať osobné informácie a údaje o vašej polohe. Zvolením možnosti \"Súhlasím\" vyjadrujete, že ste si prečítali a súhlasíte s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Vaša spätná väzba spolu s prílohami (ak existujú) a logmi (môžete zrušiť začiarknutie príslušných políčok pri položkách, ktoré nechcete nahrať) budú odoslané na naše servery. Logy môžu obsahovať osobné informácie a údaje o vašej polohe. Zvolením možnosti \"Súhlasím\" vyjadrujete, že ste si prečítali a súhlasíte s našimi zmluvami &lt;a href=\"%1$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"%2$s\">Podmienky používania&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Viac nezobrazovať</string>
     <string name="submit_dialog_title">Odoslať hlásenie</string>
     <string name="submit_feedback_info_failed">Nebolo možné odoslať hlásenie</string>

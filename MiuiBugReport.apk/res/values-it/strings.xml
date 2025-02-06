@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Abbiamo rilevato un errore relativo alla password della schermata di blocco. Puoi inviare i registri del tuo dispositivo per aiutarci a individuare e risolvere il problema. Le informazioni di registro verranno caricate in modo anonimo, verranno utilizzate solo per la risoluzione dei problemi e verranno eliminate una volta completata la risoluzione dei problemi.</string>
     <string name="bugreport_dialog_informed_consent_title">Consenso informato</string>
     <string name="bugreport_dialog_not_show_again">Non mostrare più</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Stai salvando i log del software su questo dispositivo. I log possono contenere informazioni personali e i dati sulla tua posizione. Non condividere i log con nessun altro se non vuoi che queste informazioni siano esposte. Selezionare \"Accetto\" significa che hai letto e accettato la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Stai salvando i log del software su questo dispositivo. I log possono contenere informazioni personali e i dati sulla tua posizione. Non condividere i log con nessun altro se non vuoi che queste informazioni siano esposte. Selezionare \"Accetto\" significa che hai letto e accettato la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Tocca per visualizzare.</string>
     <string name="bugreport_dump_complete_notification_title">Segnalazione bug creata</string>
     <string name="bugreport_dump_start_notification_summary">Questa operazione potrebbe richiedere alcuni minuti.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Questa applicazione necessita di una connessione internet per funzionare correttamente.</string>
     <string name="cta_dialog_title">Connessione Internet</string>
-    <string name="cta_message">&lt;Data>Per poter funzionare correttamente, Feedback deve connettersi a Internet. Questa app potrebbe anche richiedere il permesso di accedere alla tua posizione. Leggi e accetta la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a> prima di continuare.&lt;/Data></string>
+    <string name="cta_message"><Data>Per poter funzionare correttamente, Feedback deve connettersi a Internet. Questa app potrebbe anche richiedere il permesso di accedere alla tua posizione. Leggi e accetta la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a> prima di continuare.</Data></string>
     <string name="cta_not_show_again">Non mostrare più</string>
     <string name="customer_service_apply">Richiedi servizio clienti</string>
     <string name="customer_service_complain">Segnala servizio clienti</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Calendario cinese tradizionale</string>
     <string name="date_time_picker_dialog_title">Imposta data e ora</string>
     <string name="description">Descrivi il problema</string>
+    <string name="device_header">"%1$d. Tutti i dispositivi devono essere collegati allo stesso Xiaomi Account.
+%2$d. I dispositivi devono essere connessi alla rete Wi-Fi o utilizzare i dati mobili."</string>
+    <string name="device_header_china">"%1$d. Tutti i dispositivi devono essere collegati allo stesso Xiaomi Account.
+%2$d. I dispositivi devono essere connessi alla WLAN o utilizzare i dati mobili."</string>
+    <string name="device_not_found">Nessun dispositivo collegato</string>
+    <string name="device_not_found_tips">"Assicurati che gli altri dispositivi abbiano effettuato l'accesso al tuo Xiaomi Account"</string>
+    <string name="device_tips">Selezionare i dispositivi collegati ci aiuterà ad analizzare il problema più velocemente. Puoi caricare i log sia da questo dispositivo che dai dispositivi selezionati.</string>
     <string name="diagnosis_log_send_failed">Impossibile inviare i registri. Riprova.</string>
     <string name="diagnosis_log_sent_format">"Registri inviati correttamente.
 ID:%s
@@ -237,6 +244,8 @@ Invia questo codice al supervisore."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Vuoi inviare un feedback?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problema \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Seleziona il problema</string>
+    <string name="feedback_choose_device">Seleziona dispositivo</string>
+    <string name="feedback_choose_device_hint">Non hai selezionato nessun dispositivo</string>
     <string name="feedback_choose_module">"Seleziona l'elemento"</string>
     <string name="feedback_choose_module_hint">Richiesto</string>
     <string name="feedback_choose_occurrence_time">Data e ora</string>
@@ -887,9 +896,9 @@ Leggi e accetta la nuova versione dell'%3$s prima di continuare."</string>
     <string name="stop_full_log_dialog_title">Generazione registri…</string>
     <string name="submit_dialog_cancel">Rifiuta</string>
     <string name="submit_dialog_confirm">Accetta</string>
-    <string name="submit_dialog_content">&lt;Data>Leggi e accetta la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a> prima di inviare il feedback. I problemi segnalati e gli elementi allegati (inclusi i registri che potrebbero contenere informazioni personali, nonché le informazioni sul dispositivo e sulla rete) verranno caricati sui nostri server. Questo ci aiuterà a individuare e risolvere i problemi segnalati. Se segnali problemi relativi a più dispositivi, verranno caricati anche i log degli altri dispositivi su cui è utilizzato il tuo Xiaomi Account.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Il tuo feedback, insieme agli allegati (se presenti) e ai registri (puoi deselezionare le caselle corrispondenti per gli elementi che non vuoi caricare) verrà inviato ai nostri server. I registri possono contenere informazioni personali e i dati sulla posizione. Selezionando \"Accetta\", confermi di aver letto e accettato la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Il tuo feedback, insieme agli allegati (se presenti) e ai registri (puoi deselezionare le caselle corrispondenti per gli elementi che non vuoi caricare) verrà inviato ai nostri server. I registri possono contenere informazioni personali e i dati sulla posizione. Selezionando \"Accetta\", confermi di aver letto e accettato la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Leggi e accetta la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a> prima di inviare il feedback. I problemi segnalati e gli elementi allegati (compresi i log che potrebbero contenere dati personali e le informazioni sul dispositivo e sulla rete) saranno caricati sui nostri server. Ciò ci aiuterà a individuare e risolvere i problemi segnalati. Se segnali problemi relativi a più dispositivi, verranno caricati anche i log degli altri dispositivi che utilizzano il tuo Xiaomi Account.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Il tuo feedback, insieme agli allegati (se presenti) e ai log (puoi deselezionare le caselle corrispondenti agli elementi che non desideri caricare) saranno inviati ai nostri server. I log potrebbero contenere informazioni personali e i dati relativi alla tua posizione. Selezionare \"Accetto\" significa che hai letto e accettato la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Il tuo feedback, insieme agli allegati (se presenti) e ai log (puoi deselezionare le caselle corrispondenti agli elementi che non desideri caricare) saranno inviati ai nostri server. I log potrebbero contenere informazioni personali e dati relativi alla tua posizione. Selezionare \"Accetto\" significa che hai letto e accettato la nostra &lt;a href=\"%1$s\">Informativa sulla privacy&lt;/a> e il nostro &lt;a href=\"%2$s\">Accordo utente&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Non mostrare più</string>
     <string name="submit_dialog_title">Invia segnalazione</string>
     <string name="submit_feedback_info_failed">Impossibile inviare la segnalazione</string>

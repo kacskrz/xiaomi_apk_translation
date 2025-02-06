@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Chúng tôi đã phát hiện lỗi liên quan đến mật khẩu Màn hình khóa. Bạn có thể gửi nhật ký thiết bị của mình để giúp chúng tôi định vị và giải quyết vấn đề. Thông tin nhật ký sẽ được tải lên ẩn danh, sẽ chỉ được sử dụng để khắc phục sự cố và sẽ bị xóa sau khi khắc phục sự cố hoàn tất.</string>
     <string name="bugreport_dialog_informed_consent_title">Sự đồng ý</string>
     <string name="bugreport_dialog_not_show_again">Không hiển thị lại</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Bạn hiện đang lưu nhật ký phần mềm trên thiết bị này. Nhật ký có thể chứa thông tin cá nhân và dữ liệu vị trí của bạn. Không chia sẻ nhật ký với bất kỳ ai khác nếu bạn không muốn thông tin này bị tiết lộ. Chọn Đồng ý có nghĩa là bạn đã đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> của chúng tôi.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Bạn hiện đang lưu nhật ký phần mềm trên thiết bị này. Nhật ký có thể chứa thông tin cá nhân và dữ liệu vị trí của bạn. Không chia sẻ nhật ký với bất kỳ ai khác nếu bạn không muốn thông tin này bị tiết lộ. Chọn Đồng ý có nghĩa là bạn đã đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> của chúng tôi.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Chạm để xem.</string>
     <string name="bugreport_dump_complete_notification_title">Đã tạo báo cáo lỗi</string>
     <string name="bugreport_dump_start_notification_summary">Quá trình này mất vài phút.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Ứng dụng này cần phải kết nối Internet để làm việc bình thường.</string>
     <string name="cta_dialog_title">Kết nối Internet</string>
-    <string name="cta_message">&lt;Data>Để có thể hoạt động bình thường, Phản hồi cần kết nối với internet. Ứng dụng này cũng có thể yêu cầu quyền truy cập vào vị trí của bạn. Đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> trước khi bạn tiếp tục&lt;/Data></string>
+    <string name="cta_message"><Data>Để có thể hoạt động bình thường, Phản hồi cần kết nối với internet. Ứng dụng này cũng có thể yêu cầu quyền truy cập vào vị trí của bạn. Đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> trước khi bạn tiếp tục</Data></string>
     <string name="cta_not_show_again">Không hiển thị lại</string>
     <string name="customer_service_apply">Yêu cầu dịch vụ khách hàng</string>
     <string name="customer_service_complain">Báo cáo dịch vụ khách hàng</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Lịch Truyền thống Trung Quốc</string>
     <string name="date_time_picker_dialog_title">Đặt ngày và giờ</string>
     <string name="description">Mô tả sự cố</string>
+    <string name="device_header">"%1$d. Tất cả thiết bị phải được đăng nhập vào cùng một Tài khoản Xiaomi.
+%2$d. Thiết bị phải được kết nối với Wi-Fi hoặc sử dụng dữ liệu di động."</string>
+    <string name="device_header_china">"%1$d. Tất cả thiết bị phải được đăng nhập vào cùng một Tài khoản Xiaomi.
+%2$d. Thiết bị phải được kết nối với WLAN hoặc sử dụng dữ liệu di động."</string>
+    <string name="device_not_found">Không có thiết bị nào được kết nối</string>
+    <string name="device_not_found_tips">Đảm bảo các thiết bị khác đã đăng nhập vào Tài khoản Xiaomi của bạn</string>
+    <string name="device_tips">Chọn các thiết bị được kết nối sẽ giúp chúng tôi phân tích vấn đề nhanh hơn. Bạn có thể tải lên nhật ký từ cả thiết bị này và các thiết bị đã chọn.</string>
     <string name="diagnosis_log_send_failed">Không thể gửi nhật ký. Thử lại.</string>
     <string name="diagnosis_log_sent_format">"Gửi nhật ký thành công.
 ID:%s
@@ -237,6 +244,8 @@ nGửi mã này cho người giám sát."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Gửi phản hồi?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s vấn đề \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Chọn vấn đề</string>
+    <string name="feedback_choose_device">Chọn thiết bị</string>
+    <string name="feedback_choose_device_hint">Bạn chưa chọn bất kỳ thiết bị nào</string>
     <string name="feedback_choose_module">Chọn mục</string>
     <string name="feedback_choose_module_hint">Yêu cầu</string>
     <string name="feedback_choose_occurrence_time">Thời gian</string>
@@ -887,9 +896,9 @@ Email: service.jp@xiaomi.com"</string>
     <string name="stop_full_log_dialog_title">Đang tạo nhật ký…</string>
     <string name="submit_dialog_cancel">Không đồng ý</string>
     <string name="submit_dialog_confirm">Đồng ý</string>
-    <string name="submit_dialog_content">&lt;Data>Đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> trước khi gửi phản hồi. Các vấn đề bạn báo cáo cùng với các mục bạn đính kèm (bao gồm nhật ký có thể chứa thông tin cá nhân, cũng như thông tin về thiết bị và mạng của bạn) sẽ được tải lên máy chủ của chúng tôi. Điều này sẽ giúp chúng tôi định vị và giải quyết các vấn đề bạn báo cáo. Nếu bạn báo cáo vấn đề liên quan đến nhiều thiết bị, nhật ký từ các thiết bị khác nơi Tài khoản Xiaomi của bạn được sử dụng cũng sẽ được tải lên.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Phản hồi của bạn, cùng với đính kèm (nếu có) và nhật ký (bạn có thể bỏ chọn hộp tương ứng đối với mục bạn không muốn tải lên) sẽ được gửi đến máy chủ của chúng tôi. Nhật ký có thể chứa thông tin cá nhân và dữ liệu vị trí. Chọn Đồng ý nghĩa là bạn đã đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> của chúng tôi.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Phản hồi của bạn, cùng với đính kèm (nếu có) và nhật ký (bạn có thể bỏ chọn hộp tương ứng đối với mục bạn không muốn tải lên) sẽ được gửi đến máy chủ của chúng tôi. Nhật ký có thể chứa thông tin cá nhân và dữ liệu vị trí. Chọn Đồng ý nghĩa là bạn đã đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> của chúng tôi.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> trước khi gửi phản hồi. Các vấn đề bạn báo cáo cùng với các mục bạn đính kèm (bao gồm nhật ký có thể chứa thông tin cá nhân, cũng như thông tin về thiết bị và mạng của bạn) sẽ được tải lên máy chủ của chúng tôi. Điều này sẽ giúp chúng tôi định vị và giải quyết các vấn đề bạn báo cáo. Nếu bạn báo cáo vấn đề liên quan đến nhiều thiết bị, nhật ký từ các thiết bị khác nơi Tài khoản Xiaomi của bạn được sử dụng cũng sẽ được tải lên.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Phản hồi của bạn, cùng với đính kèm (nếu có) và nhật ký (bạn có thể bỏ chọn hộp tương ứng đối với mục bạn không muốn tải lên) sẽ được gửi đến máy chủ của chúng tôi. Nhật ký có thể chứa thông tin cá nhân và dữ liệu vị trí. Chọn Đồng ý nghĩa là bạn đã đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> của chúng tôi.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Phản hồi của bạn, cùng với đính kèm (nếu có) và nhật ký (bạn có thể bỏ chọn hộp tương ứng đối với mục bạn không muốn tải lên) sẽ được gửi đến máy chủ của chúng tôi. Nhật ký có thể chứa thông tin cá nhân và dữ liệu vị trí. Chọn Đồng ý nghĩa là bạn đã đọc và đồng ý với &lt;a href=\"%1$s\">Chính sách Riêng tư&lt;/a> và &lt;a href=\"%2$s\">Thỏa thuận Người dùng&lt;/a> của chúng tôi.</Data></string>
     <string name="submit_dialog_not_show_again">Không hiển thị lại</string>
     <string name="submit_dialog_title">Gửi báo cáo</string>
     <string name="submit_feedback_info_failed">Không thể gửi báo cáo</string>

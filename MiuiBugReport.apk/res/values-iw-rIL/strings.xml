@@ -45,7 +45,7 @@
     <string name="bugreport_dialog_informed_consent_content">זיהינו שגיאה בנוגע לסיסמת מסך הנעילה שלך. באפשרותך לשלוח את יומני המכשיר שלך כדי לעזור לנו לאתר ולפתור את הבעיה. פרטי היומן יועלו באנונימיות, ישמשו רק לפתרון בעיות ויימחקו לאחר השלמת פתרון הבעיות.</string>
     <string name="bugreport_dialog_informed_consent_title">הסכמה מדעת</string>
     <string name="bugreport_dialog_not_show_again">אל תציג שוב</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>כעת אתה מבצע שמירה של יומני תוכנה במכשיר זה. היומנים עשויים להכיל מידע אישי ופרטי המיקום שלך. אל תשתף את היומנים עם אף אחד אם אינך מעוניין בחשיפת המידע הזה. המשמעות של בחירה באפשרות \"מסכים\" היא שקראת והסכמת &lt;a href=\"%1$s\">למדיניות הפרטיות&lt;/a> וגם &lt;a href=\"%2$s\">להסכם המשתמש&lt;/a> שלנו.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>כעת אתה מבצע שמירה של יומני תוכנה במכשיר זה. היומנים עשויים להכיל מידע אישי ופרטי המיקום שלך. אל תשתף את היומנים עם אף אחד אם אינך מעוניין בחשיפת המידע הזה. המשמעות של בחירה באפשרות \"מסכים\" היא שקראת והסכמת &lt;a href=\"%1$s\">למדיניות הפרטיות&lt;/a> וגם &lt;a href=\"%2$s\">להסכם המשתמש&lt;/a> שלנו.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">לחץ להצגה.</string>
     <string name="bugreport_dump_complete_notification_title">דו\"ח שגיאה נוצר</string>
     <string name="bugreport_dump_start_notification_summary">זה עשוי לארוך מספר דקות.</string>
@@ -120,7 +120,7 @@
     <string name="cta_confirm">אישור</string>
     <string name="cta_dialog_content">יישום זה זקוק לחיבור לאינטרנט על מנת לפעול כראוי.</string>
     <string name="cta_dialog_title">חיבור לאינטרנט</string>
-    <string name="cta_message">&lt;Data>כדי לפעול כנדרש, יישום המשוב צריך להתחבר לאינטרנט. יישום זה עשוי גם לבקש הרשאת גישה למיקום שלך. יש לקרוא את &lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> ואת &lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> שלנו ולהסכים אתם כדי להמשיך.&lt;/Data></string>
+    <string name="cta_message"><Data>"כדי להיות מסוגל לפעול כרגיל, 'משוב' צריך להתחבר לאינטרנט. יישום זה עשוי גם לבקש הרשאה לגשת למיקום שלך. קרא והסכם ל&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> ול&lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> שלנו לפני שתמשיך."</Data></string>
     <string name="cta_not_show_again">אל תציג שוב</string>
     <string name="customer_service_apply">בקשת עזרה משירות הלקוחות</string>
     <string name="customer_service_complain">דיווח לשירות הלקוחות</string>
@@ -131,6 +131,13 @@
     <string name="date_picker_lunar">לוח שנה סיני מסורתי</string>
     <string name="date_time_picker_dialog_title">הגדר תאריך ושעה</string>
     <string name="description">תאר את הבעיה</string>
+    <string name="device_header">"%1$d. כל המכשירים צריכים להיות מחוברים לאותו חשבון Xiaomi.
+%2$d. המכשירים צריכים להיות מחוברים לרשת Wi-Fi או להשתמש בגלישה סלולרית."</string>
+    <string name="device_header_china">"%1$d. כל המכשירים צריכים להיות מחוברים לאותו חשבון Xiaomi.
+%2$d. המכשירים צריכים להיות מחוברים לרשת WLAN או להשתמש בגלישה סלולרית."</string>
+    <string name="device_not_found">אין מכשירים מחוברים</string>
+    <string name="device_not_found_tips">יש לוודא שהמכשירים האחרים מחוברים לחשבון Xiaomi שלך</string>
+    <string name="device_tips">בחירה במכשירים המחוברים תעזור לנו לנתח את הבעיה מהר יותר. ניתן להעלות יומנים גם ממכשיר זה וגם מהמכשירים שנבחרו.</string>
     <string name="diagnosis_log_send_failed">לא ניתן היה לשלוח את היומנים. נסה שוב.</string>
     <string name="diagnosis_log_sent_format">"היומנים נשלחו בהצלחה.
 ID:%s
@@ -190,6 +197,8 @@ ID:%s
     <string name="feedback_answer_detail_submit_dialog_title">לשלוח משוב?</string>
     <string name="feedback_bug_status_change_notification_desc">בעיה %1$s \"%2$s\"</string>
     <string name="feedback_choose_app_tag">בחירת בעיה</string>
+    <string name="feedback_choose_device">יש לבחור מכשיר</string>
+    <string name="feedback_choose_device_hint">לא בחרת אף מכשיר</string>
     <string name="feedback_choose_module">בחירת פריט</string>
     <string name="feedback_choose_module_hint">חובה</string>
     <string name="feedback_choose_occurrence_time">זמן</string>
@@ -836,9 +845,9 @@ ID:%s
     <string name="stop_full_log_dialog_title">מייצר יומנים…</string>
     <string name="submit_dialog_cancel">לא מסכימ/ה</string>
     <string name="submit_dialog_confirm">מסכימ/ה</string>
-    <string name="submit_dialog_content">&lt;Data>עליך לקרוא את &lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> ואת &lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> שלנו לפני שליחת משוב. הבעיות עליהן דיווחת, לצד הפריטים שצירפת (כולל היומנים שעשויים להכיל מידע אישי, וגם מידע לגבי המכשיר והרשת שלך) יועלו לשרתים שלנו. זה יעזור לנו לאתר ולפתור את הבעיות עליהן דיווחת. אם ברצונך לדווח על בעיות הקשורות למכשירים מרובים, יועלו גם היומנים מהמכשירים האחרים בהם התחברת לחשבון ה-Xiaomi שלך.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>המשוב שלך, יחד עם קבצים מצורפים (אם ישנם) ויומנים (ניתן לבטל את הסימון בתיבות המתאימות עבור הפריטים אותם אינך רוצה להעלות) יישלח לשרתים שלנו. היומנים עשויים להכיל מידע אישי ואת נתוני המיקום שלך. בחירה ב\"מסכימ/ה\" מהווה אישור לכך שקראת את &lt;a ​​href=\"%1$s\">מדיניות הפרטיות&lt;/a> ואת &lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> שלנו והסכמת אתם.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>המשוב שלך, יחד עם קבצים מצורפים (אם ישנם) ויומנים (ניתן לבטל את הסימון בתיבות המתאימות עבור הפריטים אותם אינך רוצה להעלות) יישלח לשרתים שלנו. היומנים עשויים להכיל מידע אישי ואת נתוני המיקום שלך. בחירה ב\"מסכימ/ה\" מהווה אישור לכך שקראת את &lt;a ​​href=\"%1$s\">מדיניות הפרטיות&lt;/a> ואת &lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> שלנו והסכמת אתם.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>יש לקרוא את &lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> ואת &lt;a href=\"%2$s\">הסכם המשתמשים&lt;/a> שלנו לפני שליחת משוב. הבעיות שעליהן דיווחת, לצד הפריטים שצירפת (כולל היומנים שעשויים להכיל מידע אישי, וגם מידע לגבי המכשיר והרשת שלך) יועלו לשרתים שלנו. זה יעזור לנו לאתר ולפתור את הבעיות שדיווחת עליהן. בדיווח על בעיות שקשורות למכשירים מרובים, יועלו גם יומנים מהמכשירים האחרים שבהם התחברת לחשבון Xiaomi שלך.</Data></string>
+    <string name="submit_dialog_content_global"><Data>המשוב שלך, יחד עם קבצים מצורפים (אם ישנם) ויומנים (ניתן לבטל את הסימון בתיבות המתאימות עבור פריטים שאותם אינך רוצה להעלות) יישלח לשרתים שלנו. היומנים עשויים להכיל מידע אישי ונתונים על המיקום. בחירה באפשרות \"מסכימ/ה\" מהווה אישור לכך שקראת את &lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> ואת &lt;a href=\"%2$s\">הסכם המשתמשים&lt;/a> שלנו והסכמת עמם.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>המשוב שלך, יחד עם קבצים מצורפים (אם ישנם) ויומנים (ניתן לבטל את הסימון בתיבות המתאימות עבור פריטים שאותם אינך רוצה להעלות) יישלח לשרתים שלנו. היומנים עשויים להכיל מידע אישי ונתונים על המיקום. בחירה באפשרות \"מסכימ/ה\" מהווה אישור לכך שקראת את &lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> ואת &lt;a href=\"%2$s\">הסכם המשתמשים&lt;/a> שלנו והסכמת עמם.</Data></string>
     <string name="submit_dialog_not_show_again">לא להציג שוב</string>
     <string name="submit_dialog_title">שליחת דוח</string>
     <string name="submit_feedback_info_failed">לא ניתן היה לשלוח את הדו\"ח</string>

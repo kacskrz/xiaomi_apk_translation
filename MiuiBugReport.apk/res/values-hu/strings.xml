@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Hibát észleltünk a képernyőzár jelszavával kapcsolatban. Beküldheti a készülék naplófájljait, hogy segítsen nekünk azonosítani és megoldani a problémát. A naplóadatok név nélkül lesznek feltöltve, kizárólag a hibaelhárításhoz van rájuk szükség. A hibaelhárítás befejezése után töröljük őket.</string>
     <string name="bugreport_dialog_informed_consent_title">Tájékoztatáson alapuló beleegyezés</string>
     <string name="bugreport_dialog_not_show_again">Ne mutassa újra</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Ezen a készüléken Ön szoftver-hibanaplókat is ment. A naplók tartalmazhatnak személyes adatokat és az Ön helyadatait. Senkivel se ossza meg a hibanaplókat, ha nem szeretné hogy ezek az információk szabadon elérhetővé váljanak. Az Elfogadás kiválasztása azt jelenti, Ön elolvasta és egyetért a mi &lt;a href=\"%1$s\">Adatvédelmi Irányelveinkkel&lt;/a> és &lt;a href=\"%2$s\">Felhasználói Szerződésünkkel&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Ezen a készüléken Ön szoftver-hibanaplókat is ment. A naplók tartalmazhatnak személyes adatokat és az Ön helyadatait. Senkivel se ossza meg a hibanaplókat, ha nem szeretné hogy ezek az információk szabadon elérhetővé váljanak. Az Elfogadás kiválasztása azt jelenti, Ön elolvasta és egyetért a mi &lt;a href=\"%1$s\">Adatvédelmi Irányelveinkkel&lt;/a> és &lt;a href=\"%2$s\">Felhasználói Szerződésünkkel&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Érintse meg a megtekintéshez.</string>
     <string name="bugreport_dump_complete_notification_title">A hibanapló elkészült</string>
     <string name="bugreport_dump_start_notification_summary">Ez néhány percet igénybe vehet.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">A Hibanapló normális működéséhez internetkapcsolat szükséges. Folytatja?</string>
     <string name="cta_dialog_title">Internetkapcsolat</string>
-    <string name="cta_message">&lt;Data>A normál működéshez a Visszajelzés funkciónak csatlakoznia kell az internethez. Az alkalmazás engedélyt kérhet a tartózkodási helyhez való hozzáféréshez is. Folytatás előtt olvassa el és fogadja el az &lt;a href=\"%1$s\">Adatvédelmi irányelveinket&lt;/a> és a &lt;a href=\"%2$s\">Felhasználói Szerződésünket&lt;/a>.&lt;/Data></string>
+    <string name="cta_message"><Data>A normál működéshez a Visszajelzés funkciónak csatlakoznia kell az internethez. Az alkalmazás engedélyt kérhet a tartózkodási helyhez való hozzáféréshez is. Folytatás előtt olvassa el és fogadja el az &lt;a href=\"%1$s\">Adatvédelmi irányelveinket&lt;/a> és a &lt;a href=\"%2$s\">Felhasználói Szerződésünket&lt;/a>.</Data></string>
     <string name="cta_not_show_again">Ne mutassa újra</string>
     <string name="customer_service_apply">Kérés az Ügyfélszolgálathoz</string>
     <string name="customer_service_complain">Panaszbejelentés az Ügyfélszolgálatnak</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Kínai hagyományos naptár</string>
     <string name="date_time_picker_dialog_title">Dátum- és időbeállítás</string>
     <string name="description">Jellemezze a problémát angolul</string>
+    <string name="device_header">"%1$d.Minden eszköznek ugyanabba a Xiaomi Fiókba kell bejelentkeznie.
+%2$d. Az eszközöknek Wi-Fi-hez kell kapcsolódniuk, vagy mobiladatokat kell használniuk."</string>
+    <string name="device_header_china">"%1$d.Minden eszköznek ugyanabba a Xiaomi Fiókba kell bejelentkeznie.
+%2$d. Az eszközöknek WLAN-hoz kell kapcsolódniuk, vagy mobiladatokat kell használniuk."</string>
+    <string name="device_not_found">Nincs csatlakoztatott készülék</string>
+    <string name="device_not_found_tips">Ügyeljen arra, hogy a többi eszköz be legyen jelentkezve a Xiaomi Fiókjába</string>
+    <string name="device_tips">A csatlakoztatott készülékek kiválasztása segít a hiba gyorsabb vizsgálatában. Erről a készülékről és a kijelölt készülékekről egyaránt feltölthet naplófájlokat.</string>
     <string name="diagnosis_log_send_failed">Naplók küldése sikertelen. Próbálja újra.</string>
     <string name="diagnosis_log_sent_format">"A naplók sikeresen elküldésre kerültek.
 Azonosító:%s
@@ -237,6 +244,8 @@ Küldje el ezt a kódot a vezetőjének."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Visszajelzés küldése?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s probléma \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Probléma kiválasztása</string>
+    <string name="feedback_choose_device">Készülékek kiválasztása</string>
+    <string name="feedback_choose_device_hint">Nem választott ki készüléket</string>
     <string name="feedback_choose_module">Kategória kiválasztása</string>
     <string name="feedback_choose_module_hint">Kötelező</string>
     <string name="feedback_choose_occurrence_time">Idő</string>
@@ -887,9 +896,9 @@ A folytatás előtt olvassa el és fogadja el a(z) %3$s új verzióját."</strin
     <string name="stop_full_log_dialog_title">Naplófájlok létrehozása…</string>
     <string name="submit_dialog_cancel">Elutasítom</string>
     <string name="submit_dialog_confirm">Elfogadom</string>
-    <string name="submit_dialog_content">&lt;Data>Visszajelzés küldése előtt el kell fogadnia az &lt;a href=\"%1$s\">Adatvédelmi Irányelveinket&lt;/a> és a &lt;a href=\"%2$s\">Felhasználói Szerződésünket&lt;/a>. Azokat a problémákat, amelyeket a mellékletekkel együtt beküldött (ideértve azokat a naplófájlokat, amelyek személyes, valamint a készülékéről és a hálózatból származó adatokat tartalmazhatnak), a szervereinkre fogjuk feltölteni. Ez segít nekünk megtalálni és megoldani a bejelentett hibákat. Ha több készülékkel kapcsolatban is jelent be hibát, azokról a készülékekről is feltöltjük a naplófájlokat, ahol Xiaomi Fiókját használta.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Az Ön visszajelzése (az esetleges) csatolmányokkal és naplófájlokkal együtt (ha ezt nem szeretné, eltávolíthatja a pipákat a jelölőnégyzetekből) a szervereinkre kerül. A naplófájlok személyes- és helyadatokat tartalmazhatnak. Az \"Elfogadom\" lehetőség kiválasztása azt jelenti, hogy Ön elolvasta és elfogadja az &lt;a href=\"%1$s\">Adatvédelmi irányelveket&lt;/a> és a &lt;a href=\"%2$s\">Felhasználói szerződést&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Az Ön visszajelzése (az esetleges) csatolmányokkal és naplófájlokkal együtt (ha ezt nem szeretné, eltávolíthatja a pipákat a jelölőnégyzetekből) a szervereinkre kerül. A naplófájlok személyes- és helyadatokat tartalmazhatnak. Az \"Elfogadom\" lehetőség kiválasztása azt jelenti, hogy Ön elolvasta és elfogadja az &lt;a href=\"%1$s\">Adatvédelmi irányelveket&lt;/a> és a &lt;a href=\"%2$s\">Felhasználói szerződést&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>A visszajelzés küldése előtt olvassa el és fogadja el az &lt;a href=\"%1$s\">Adatvédelmi irányelveinket&lt;/a> és a &lt;a href=\"%2$s\">Felhasználói szerződésünket&lt;/a>. Az Ön által jelentett hibákat a csatolt elemekkel együtt (beleértve a naplófájlokat, amelyek személyes adatokat tartalmazhatnak, valamint az Ön eszközére és hálózatára vonatkozó információkat) feltöltjük a szervereinkre. Ez segíteni fog nekünk az Ön által bejelentett hibák azonosításában és megoldásában. Ha több készülékkel kapcsolatos hibát jelent, azon készülékek naplóit is feltöltjük, amelyeken a Xiaomi Fiókját használja.</Data></string>
+    <string name="submit_dialog_content_global"><Data>A visszajelzését, valamint a mellékleteket (ha vannak) és a naplókat (a nem kívánt elemek esetében a megfelelő jelölőnégyzeteket ki tudja húzni) elküldjük a szervereinkre. A naplók személyes adatokat és az Ön tartózkodási helyére vonatkozó adatokat tartalmazhatnak. Az \"Elfogadom\" kiválasztása azt jelenti, hogy Ön elolvasta és elfogadta az &lt;a href=\"%1$s\">Adatvédelmi irányelveinket&lt;/a> és a &lt;a href=\"%2$s\">Felhasználói szerződésünket&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>A visszajelzését, valamint a mellékleteket (ha vannak) és a naplókat (a nem kívánt elemek esetében a megfelelő jelölőnégyzeteket ki tudja húzni) elküldjük a szervereinkre. A naplók személyes adatokat és az Ön tartózkodási helyére vonatkozó adatokat tartalmazhatnak. Az \"Elfogadom\" kiválasztása azt jelenti, hogy Ön elolvasta és elfogadta az &lt;a href=\"%1$s\">Adatvédelmi irányelveinket&lt;/a> és a &lt;a href=\"%2$s\">Felhasználói szerződésünket&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Ne mutassa újra</string>
     <string name="submit_dialog_title">Jelentés küldése</string>
     <string name="submit_feedback_info_failed">A jelentést nem sikerült elküldeni</string>

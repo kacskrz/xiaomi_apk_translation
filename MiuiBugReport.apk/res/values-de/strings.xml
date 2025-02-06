@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Wir haben einen Fehler in Bezug auf dein Passwort für den Sperrbildschirm festgestellt. Du kannst uns deine Geräteprotokolle übermitteln, um uns bei der Lokalisierung und Lösung des Problems zu helfen. Die Protokolldaten werden anonym hochgeladen, nur zur Fehlersuche verwendet und nach Abschluss der Fehlersuche gelöscht.</string>
     <string name="bugreport_dialog_informed_consent_title">Einwilligungserklärung</string>
     <string name="bugreport_dialog_not_show_again">Nicht mehr anzeigen</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Software-Protokolle werden jetzt auf diesem Gerät gespeichert. Diese können persönliche Informationen und Standortdaten enthalten. Gib die Protokolle nicht weiter, wenn du diese Daten vertraulich behandeln willst. Wenn du auf \"Zustimmen\" tippst, hast du unsere &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> gelesen und akzeptiert.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Software-Protokolle werden jetzt auf diesem Gerät gespeichert. Diese können persönliche Informationen und Standortdaten enthalten. Gib die Protokolle nicht weiter, wenn du diese Daten vertraulich behandeln willst. Wenn du auf \"Zustimmen\" tippst, hast du unsere &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> gelesen und akzeptiert.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Zum Anzeigen tippen.</string>
     <string name="bugreport_dump_complete_notification_title">Fehlerbericht erstellt</string>
     <string name="bugreport_dump_start_notification_summary">Das kann einige Minuten dauern.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Diese App erfordert eine Internetverbindung für den ordnungsgemäßen Betrieb.</string>
     <string name="cta_dialog_title">Internetverbindung</string>
-    <string name="cta_message">&lt;Data>Um normal arbeiten zu können, muss Feedback mit dem Internet verbunden sein. Diese App kann auch die Berechtigung zum Zugriff auf Ihren Standort anfordern. Lesen und akzeptieren Sie unsere &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a>, bevor Sie fortfahren.&lt;/Data></string>
+    <string name="cta_message"><Data>Um normal arbeiten zu können, muss Feedback mit dem Internet verbunden sein. Diese App kann auch die Berechtigung zum Zugriff auf Ihren Standort anfordern. Lesen und akzeptieren Sie unsere &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a>, bevor Sie fortfahren.</Data></string>
     <string name="cta_not_show_again">Nicht mehr anzeigen</string>
     <string name="customer_service_apply">Kundendienst anfordern</string>
     <string name="customer_service_complain">Kundendienst melden</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Traditioneller chinesischer Kalender</string>
     <string name="date_time_picker_dialog_title">Datum und Uhrzeit festlegen</string>
     <string name="description">Problem beschreiben</string>
+    <string name="device_header">"%1$d. Alle Geräte müssen mit demselben Xiaomi-Konto angemeldet sein.
+%2$d. Die Geräte müssen mit dem WLAN verbunden sein oder mobile Daten verwenden."</string>
+    <string name="device_header_china">"%1$d. Alle Geräte müssen mit demselben Xiaomi-Konto angemeldet sein.
+%2$d. Die Geräte müssen mit dem WLAN verbunden sein oder mobile Daten verwenden."</string>
+    <string name="device_not_found">Keine verbundene Geräte</string>
+    <string name="device_not_found_tips">Stelle sicher, dass die anderen Geräte bei deinem Xiaomi-Konto angemeldet sind</string>
+    <string name="device_tips">Die Auswahl der verbundenen Geräte hilft uns, das Problem schneller zu analysieren. Du kannst Protokolle sowohl von diesem Gerät als auch von den ausgewählten Geräten hochladen.</string>
     <string name="diagnosis_log_send_failed">Protokolle konnten nicht gesendet werden. Erneut versuchen.</string>
     <string name="diagnosis_log_sent_format">"Protokolle erfolgreich gesendet.
 ID%s
@@ -237,6 +244,8 @@ Sende diesen Code an den Vorgesetzten."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Feedback einsenden?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s Problem \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Problem auswählen</string>
+    <string name="feedback_choose_device">Gerät auswählen</string>
+    <string name="feedback_choose_device_hint">Du hast keine Geräte ausgewählt</string>
     <string name="feedback_choose_module">Element auswählen</string>
     <string name="feedback_choose_module_hint">Erforderlich</string>
     <string name="feedback_choose_occurrence_time">Zeit</string>
@@ -887,9 +896,9 @@ Lies die neue Version der %3$s und stimme ihr zu, bevor du fortfährst."</string
     <string name="stop_full_log_dialog_title">Protokolle werden erstellt…</string>
     <string name="submit_dialog_cancel">Ablehnen</string>
     <string name="submit_dialog_confirm">Zustimmen</string>
-    <string name="submit_dialog_content">&lt;Data>Du musst unsere &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> lesen und diesen zustimmen, bevor du Feedback sendest. Die Probleme, die du zusammen mit den von deinen angehängten Elementen meldest (darunter Protokolle, die personenbezogene Daten sowie Informationen über dein Gerät und Netzwerk enthalten können), werden auf unsere Server hochgeladen. Dies wird uns helfen, die von dir gemeldeten Probleme zu finden und zu lösen. Wenn du Probleme bzgl. mehrerer Geräten meldest, werden die Protokolle von anderen Geräten, auf denen dein Xiaomi-Konto genutzt wird, auch hochgeladen.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Deine Feedbacks, werden zusammen mit Anhängen (falls vorhanden) und Protokollen (Du kannst die betreffenden Kästchen für die Elemente, die du nicht hochladen möchten, ankreuzen) an unsere Server gesendet. Protokolle können personenbezogene Daten und Standortdaten enthalten. Wenn du Ich stimme zu wählst, bedeutet das dein Einverständnis mit unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Deine Feedbacks, werden zusammen mit Anhängen (falls vorhanden) und Protokollen (Du kannst die betreffenden Kästchen für die Elemente, die du nicht hochladen möchten, ankreuzen) an unsere Server gesendet. Protokolle können personenbezogene Daten und Standortdaten enthalten. Wenn du \"Ich stimme zu\" wählst, bedeutet das dein Einverständnis mit unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Du musst unsere &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a> lesen und diesen zustimmen, bevor du Feedback sendest. Die Probleme, die du zusammen mit den von deinen angehängten Elementen meldest (darunter Protokolle, die personenbezogene Daten sowie Informationen über dein Gerät und Netzwerk enthalten können), werden auf unsere Server hochgeladen. Dies wird uns helfen, die von dir gemeldeten Probleme zu finden und zu lösen. Wenn du Probleme bzgl. mehrerer Geräten meldest, werden die Protokolle von anderen Geräten, auf denen dein Xiaomi-Konto genutzt wird, auch hochgeladen.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Dein Feedback, wird zusammen mit Anhängen (falls vorhanden) und Protokollen (du kannst die betreffenden Kästchen für die Elemente, die du nicht hochladen möchten, ankreuzen) an unsere Server gesendet. Protokolle können personenbezogene Daten und Standortdaten enthalten. Wenn du \"Ich stimme zu\" wählst, bedeutet das dein Einverständnis mit unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Dein Feedback, wird zusammen mit Anhängen (falls vorhanden) und Protokollen (du kannst die betreffenden Kästchen für die Elemente, die du nicht hochladen möchten, ankreuzen) an unsere Server gesendet. Protokolle können personenbezogene Daten und Standortdaten enthalten. Wenn du \"Ich stimme zu\" wählst, bedeutet das dein Einverständnis mit unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a> und &lt;a href=\"%2$s\">Nutzervereinbarung&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Nicht mehr anzeigen</string>
     <string name="submit_dialog_title">Meldung senden</string>
     <string name="submit_feedback_info_failed">Bericht konnte nicht gesendet werden</string>

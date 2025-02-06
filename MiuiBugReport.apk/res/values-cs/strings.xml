@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Zjistili jsme chybu týkající se vašeho hesla Zamykací obrazovky. Pro nalezení a vyřešení tohoto problému nám můžete zaslat protokoly vašeho zařízení. Informace obsažené v protokolech budou anonymní. Tyto informace budou použity pouze pro vyřešení problému a po dokončení budou odstraněny.</string>
     <string name="bugreport_dialog_informed_consent_title">Informovaný souhlas</string>
     <string name="bugreport_dialog_not_show_again">Znovu nezobrazovat</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Softwarové protokoly jsou ukládány na vašem zařízení. Tyto protokoly mohou obsahovat osobní údaje a informace o vaší poloze. Nesdílejte tyto protokoly s jinými osobami pro vyhnutí se možnému zveřejnění. Klepnutím na \"Souhlasím\" vyjadřujete souhlas s našimi &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Softwarové protokoly jsou ukládány na vašem zařízení. Tyto protokoly mohou obsahovat osobní údaje a informace o vaší poloze. Nesdílejte tyto protokoly s jinými osobami pro vyhnutí se možnému zveřejnění. Klepnutím na \"Souhlasím\" vyjadřujete souhlas s našimi &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Zobrazit</string>
     <string name="bugreport_dump_complete_notification_title">Vytvořit hlášení o chybě</string>
     <string name="bugreport_dump_start_notification_summary">Tato akce může pár minut trvat.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Tato aplikace vyžaduje pro správné fungování přístup k internetu.</string>
     <string name="cta_dialog_title">Internetové připojení</string>
-    <string name="cta_message">&lt;Data>Zpětná vazba vyžaduje pro správné fungování připojení k internetu. Tato aplikace může také požádat o přístup k informacím o vaší poloze. Před pokračováním si přečtěte naše &lt;a href=\"%1$s\">Zásady ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvní podmínky&lt;/a> a přijměte je.&lt;/Data></string>
+    <string name="cta_message"><Data>Zpětná vazba vyžaduje pro správné fungování připojení k internetu. Tato aplikace může také požádat o přístup k informacím o vaší poloze. Před pokračováním si přečtěte a souhlaste s našimi &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a>.</Data></string>
     <string name="cta_not_show_again">Znovu nezobrazovat</string>
     <string name="customer_service_apply">Vyžádat zákaznický servis</string>
     <string name="customer_service_complain">Nahlásit zákaznickému servisu</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Tradiční čínský kalendář</string>
     <string name="date_time_picker_dialog_title">Nastavte datum a čas</string>
     <string name="description">Popište svůj problém</string>
+    <string name="device_header">"%1$d. Všechna zařízení musí být přihlášena ke stejnému Xiaomi účtu.
+%2$d. Zařízení musí být připojena k síti Wi-Fi nebo používat mobilní data."</string>
+    <string name="device_header_china">"%1$d. Všechna zařízení musí být přihlášena ke stejnému Xiaomi účtu.
+%2$d. Zařízení musí být připojena k síti WLAN nebo používat mobilní data."</string>
+    <string name="device_not_found">Žádná připojená zařízení</string>
+    <string name="device_not_found_tips">Zajistěte, aby ostatní zařízení byla připojena k vašemu Xiaomi účtu</string>
+    <string name="device_tips">Výběrem připojených zařízení nám pomůžete rychleji analyzovat problém. Můžete nahrát protokoly z tohoto zařízení i z vybraných zařízení.</string>
     <string name="diagnosis_log_send_failed">Odeslání protokolů se nezdařilo. Zkuste to znovu.</string>
     <string name="diagnosis_log_sent_format">"Protokoly úspěšně odeslány.
 ID: %s
@@ -237,6 +244,8 @@ Odešlete tento kód pověřené osobě."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Odeslat zpětnou vazbu?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problém \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Vyberte problém</string>
+    <string name="feedback_choose_device">Vyberte zařízení</string>
+    <string name="feedback_choose_device_hint">Nevybrali jste žádná zařízení</string>
     <string name="feedback_choose_module">Vybrat položky</string>
     <string name="feedback_choose_module_hint">Povinné</string>
     <string name="feedback_choose_occurrence_time">Čas</string>
@@ -887,9 +896,9 @@ Před pokračováním si přečtěte a souhlaste s novou verzí %3$s."</string>
     <string name="stop_full_log_dialog_title">Generování protokolů…</string>
     <string name="submit_dialog_cancel">Nesouhlasím</string>
     <string name="submit_dialog_confirm">Souhlasím</string>
-    <string name="submit_dialog_content">&lt;Data>Před využitím aplikace Zpětná vazba si přečtěte naše &lt;a href=\"%1$s\">Zásady ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvní podmínky&lt;/a> a přijměte je. Problémy, které se rozhodnete nahlásit budou společně s přílohami (včetně protokolů, které mohou obsahovat osobní informace a informace o vašem zařízení a síti) odeslány na naše servery. Tyto informace nám pomohou najít a opravit nahlášený problém rychleji. Pokud nahlásíte problém týkající se více zařízení, protokoly ze zařízení, na kterých využíváte svůj Xiaomi účet, budou také nahrány.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Vaše zpětná vazba společně s případnými přílohami a protokoly (u položek, které nechcete nahrát vyškrtněte zaškrtávací políčko) bude nahrána na naše servery. Protokoly mohou obsahovat vaše osobní údaje a informace o vaší poloze. Klepnutím na \"Souhlasím\" jste byli srozuměni a souhlasíte s našimi &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Vaše zpětná vazba společně s případnými přílohami a protokoly (u položek, které nechcete nahrát vyškrtněte zaškrtávací políčko) bude nahrána na naše servery. Protokoly mohou obsahovat vaše osobní údaje a informace o vaší poloze. Klepnutím na \"Souhlasím\" jste byli srozuměni a souhlasíte s našimi &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Před využitím aplikace Zpětná vazba si přečtěte naše &lt;a href=\"%1$s\">Zásady ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvní podmínky&lt;/a> a přijměte je. Problémy, které se rozhodnete nahlásit budou společně s přílohami (včetně protokolů, které mohou obsahovat osobní informace a informace o vašem zařízení a síti) odeslány na naše servery. Tyto informace nám pomohou najít a opravit nahlášený problém rychleji. Pokud nahlásíte problém týkající se více zařízení, protokoly ze zařízení, na kterých využíváte svůj Xiaomi účet, budou také nahrány.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Vaše zpětná vazba společně s případnými přílohami a protokoly (u položek, které nechcete nahrát, zrušte zaškrtnutí v odpovídajících polích) bude nahrána na naše servery. Protokoly mohou obsahovat osobní údaje a informace o vaší poloze. Klepnutím na „Souhlasím“ jste byli srozuměni a souhlasíte s našimi &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Vaše zpětná vazba společně s případnými přílohami a protokoly (u položek, které nechcete nahrát, zrušte zaškrtnutí v příslušném poli) bude nahrána na naše servery. Protokoly mohou obsahovat vaše osobní údaje a informace o vaší poloze. Klepnutím na „Souhlasím“ jste byli srozuměni a souhlasíte s našimi &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Znovu nezobrazovat</string>
     <string name="submit_dialog_title">Odeslat hlášení</string>
     <string name="submit_feedback_info_failed">Hlášení se nepodařilo odeslat</string>

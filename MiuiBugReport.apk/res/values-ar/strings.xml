@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">لقد اكتشفنا خطأ في كلمة مرور شاشة القفل. يمكنك إرسال سجلات جهازك إلينا للعثور على هذه المشكلة وحلها. ستكون المعلومات الواردة في السجلات مجهولة المصدر. سيتم استخدام هذه المعلومات فقط لحل المشكلة وسيتم حذفها بعد الانتهاء.</string>
     <string name="bugreport_dialog_informed_consent_title">موافقة مسبقة</string>
     <string name="bugreport_dialog_not_show_again">عدم الإظهار مرة أخرى</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>يتم حفظ سجلات البرنامج على هذا الجهاز. يمكن أن تحتوي على معلومات شخصية ومعلومات موقعك. لا تقم بمشاركة السجلات مع أي شخص ما لم تكن تريد الكشف عن هذه المعلومات. بالنقر على \"أوافق\" فأنك قرأت ووافقت على&lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>يتم حفظ سجلات البرنامج على هذا الجهاز. يمكن أن تحتوي على معلومات شخصية ومعلومات موقعك. لا تقم بمشاركة السجلات مع أي شخص ما لم تكن تريد الكشف عن هذه المعلومات. بالنقر على \"أوافق\" فأنك قرأت ووافقت على&lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">انقر للعرض.</string>
     <string name="bugreport_dump_complete_notification_title">تم إنشاء تقرير عن خلل</string>
     <string name="bugreport_dump_start_notification_summary">قد يستغرق ذلك عدة دقائق.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">موافق</string>
     <string name="cta_dialog_content">يحتاج هذا التطبيق للاتصال بالإنترنت ليعمل بشكل طبيعي.</string>
     <string name="cta_dialog_title">اتصال الإنترنت</string>
-    <string name="cta_message">&lt;Data>يحتاج تطبيق التعليقات إلى الاتصال بالإنترنت ليعمل بشكل طبيعي. وقد يحتاج أيضا الوصول إلى موقعك. يرجى قراءة والموافقة على &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدمة&lt;/a> قبل المتابعة.&lt;/Data></string>
+    <string name="cta_message"><Data>يحتاج تطبيق التعليقات إلى الاتصال بالإنترنت ليعمل بشكل طبيعي. وقد يحتاج أيضا الوصول إلى موقعك. يرجى قراءة والموافقة على &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدمة&lt;/a> قبل المتابعة.</Data></string>
     <string name="cta_not_show_again">عدم الإظهار مرة أخرى</string>
     <string name="customer_service_apply">طلب خدمة العملاء</string>
     <string name="customer_service_complain">تقرير خدمة العملاء</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">التقويم الصيني التقليدي</string>
     <string name="date_time_picker_dialog_title">تعيين التاريخ والوقت</string>
     <string name="description">وصف المشكلة</string>
+    <string name="device_header">"%1$d. يجب تسجيل الدخول إلى جميع الأجهزة باستخدام نفس حساب Mi.
+%2$d. يجب أن تكون الأجهزة متصلة بشبكة Wi-Fi أو تستخدم بيانات الهاتف."</string>
+    <string name="device_header_china">"%1$d. يجب تسجيل الدخول إلى جميع الأجهزة باستخدام نفس حساب Mi.
+%2$d. يجب أن تكون الأجهزة متصلة بشبكة WLAN أو تستخدم بيانات الهاتف."</string>
+    <string name="device_not_found">لا توجد أجهزة متصلة</string>
+    <string name="device_not_found_tips">تأكد من أن الأجهزة الأخرى سجل الدخول فيها إلى حساب Mi</string>
+    <string name="device_tips">سيساعدنا تحديد الأجهزة المتصلة في تحليل المشكلة بشكل أسرع. يمكنك تحميل السجلات من هذا الجهاز والأجهزة المحددة.</string>
     <string name="diagnosis_log_send_failed">لا يمكن إرسال السجلات، حاول مجددا.</string>
     <string name="diagnosis_log_sent_format">"تم إرسال السجلات بنجاح.
 المعرف:%s
@@ -237,6 +244,8 @@
     <string name="feedback_answer_detail_submit_dialog_title">إرسال تقرير عن المشكلة؟</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s مشكلة \"%2$s\"</string>
     <string name="feedback_choose_app_tag">حدد المشكلة</string>
+    <string name="feedback_choose_device">حدد الجهاز</string>
+    <string name="feedback_choose_device_hint">لم تقم بتحديد أي جهاز</string>
     <string name="feedback_choose_module">تحديد عنصر</string>
     <string name="feedback_choose_module_hint">مطلوب</string>
     <string name="feedback_choose_occurrence_time">الوقت</string>
@@ -887,9 +896,9 @@
     <string name="stop_full_log_dialog_title">جارٍ إنشاء السجلات…</string>
     <string name="submit_dialog_cancel">لا أوافق</string>
     <string name="submit_dialog_confirm">أوافق</string>
-    <string name="submit_dialog_content">&lt;Data>يرجى قراءة والموافقة على &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> لدينا قبل ارسال تقريرك. سيتم تحميل المشاكل التي تقوم بالإبلاغ عنها مع العناصر المرفقة (يتضمن ذلك سجلات قد تحتوي على البيانات الشخصية، بالإضافة إلى معلومات حول جهازك وشبكتك) إلى خوادمنا. سيساعدنا ذلك في العثور على المشاكل التي تبلغ عنها وحلها. إذا أبلغت عن مشاكل تتعلق بأجهزة متعددة، فسيتم ايضا تحميل سجلات الأجهزة الأخرى المستخدم فيها حساب Mi الخاص بك.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>سيتم إرسال تقريرك مع المرفقات (إذا وجدت) والسجلات (يمكنك إلغاء تحديد المربعات المقابلة للعناصر التي لا تريد رفعها) إلى خوادمنا. وقد تحتوي السجلات على معلومات شخصية ومعلومات موقعك. بالنقر على \"آوافق\" فأنك قرأت ووافقت على&lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>سيتم إرسال تقريرك مع المرفقات (إذا وجدت) والسجلات (يمكنك إلغاء تحديد المربعات المقابلة للعناصر التي لا تريد رفعها) إلى خوادمنا. وقد تحتوي السجلات على معلومات شخصية ومعلومات موقعك. بالنقر على \"آوافق\" فأنك قرأت ووافقت على&lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>يرجى قراءة والموافقة على &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> لدينا قبل ارسال تقريرك. سيتم تحميل المشاكل التي تقوم بالإبلاغ عنها مع العناصر المرفقة (يتضمن ذلك سجلات قد تحتوي على البيانات الشخصية، بالإضافة إلى معلومات حول جهازك وشبكتك) إلى خوادمنا. سيساعدنا ذلك في العثور على المشاكل التي تبلغ عنها وحلها. إذا أبلغت عن مشاكل تتعلق بأجهزة متعددة، فسيتم ايضا تحميل سجلات الأجهزة الأخرى المستخدم فيها حساب Mi الخاص بك.</Data></string>
+    <string name="submit_dialog_content_global"><Data>سيتم إرسال تقريرك مع المرفقات (إذا وجدت) والسجلات (يمكنك إلغاء تحديد المربعات المقابلة للعناصر التي لا تريد رفعها) إلى خوادمنا. وقد تحتوي السجلات على معلومات شخصية ومعلومات موقعك. بالنقر على \"أوافق\" فأنك قرأت ووافقت على&lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>سيتم إرسال تقريرك مع المرفقات (إذا وجدت) والسجلات (يمكنك إلغاء تحديد المربعات المقابلة للعناصر التي لا تريد رفعها) إلى خوادمنا. وقد تحتوي السجلات على معلومات شخصية ومعلومات موقعك. بالنقر على \"أوافق\" فأنك قرأت ووافقت على&lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a> و&lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">لا تظهر مرة اخرى</string>
     <string name="submit_dialog_title">ارسال تقرير</string>
     <string name="submit_feedback_info_failed">تعذر ارسال التقرير</string>

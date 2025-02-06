@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">Olemme havainneet lukitusnäytön salasanaasi koskevan virheen. Voit lähettää laitelokisi, jotta voimme paikantaa ja ratkaista ongelman. Lokitiedot ladataan anonyymisti, niitä käytetään vain vianetsintään ja ne poistetaan, kun vianetsintä on valmis.</string>
     <string name="bugreport_dialog_informed_consent_title">Tietoinen suostumus</string>
     <string name="bugreport_dialog_not_show_again">Älä näytä uudelleen</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Tallennat ohjelmistolokeja laitteellesi. Lokitiedostot voivat sisältää henkilökohtaisia tietoja sekä sijaintitietojasi. Älä jaa lokeja, jos et halua näiden tietojen paljastuvan. Valitsemalla Hyväksy vakuutat lukeneesi ja hyväksyneesi &lt;a href=\"%1$s\">Tietosuojakäytäntömme&lt;/a> sekä &lt;a href=\"%2$s\">Käyttäjäsopimuksemme&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>Tallennat ohjelmistolokeja laitteellesi. Lokitiedostot voivat sisältää henkilökohtaisia tietoja sekä sijaintitietojasi. Älä jaa lokeja, jos et halua näiden tietojen paljastuvan. Valitsemalla Hyväksy vakuutat lukeneesi ja hyväksyneesi &lt;a href=\"%1$s\">Tietosuojakäytäntömme&lt;/a> sekä &lt;a href=\"%2$s\">Käyttäjäsopimuksemme&lt;/a>.</Data></string>
     <string name="bugreport_dump_complete_notification_summary">Katso napauttamalla.</string>
     <string name="bugreport_dump_complete_notification_title">Virheilmoitus luotiin</string>
     <string name="bugreport_dump_start_notification_summary">Tämä saattaa kestää useita minuutteja.</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">Sovellus tarvitsee internet-yhteyden toimiakseen normaalisti.</string>
     <string name="cta_dialog_title">Internet-yhteys</string>
-    <string name="cta_message">&lt;Data>Voidakseen työskennellä normaalisti Palautteen on muodostettava yhteys Internetiin. Tämä sovellus saattaa myös pyytää lupaa käyttää sijaintiasi. Lue ja hyväksy meidän &lt;a href=\"%1$s\">tietosuojakäytäntö&lt;/a> ja &lt;a href=\"%2$s\">käyttäjäsopimus&lt;/a> ennen kuin jatkat.&lt;/Data></string>
+    <string name="cta_message"><Data>Voidakseen työskennellä normaalisti Palautteen on muodostettava yhteys Internetiin. Tämä sovellus saattaa myös pyytää lupaa käyttää sijaintiasi. Lue ja hyväksy meidän &lt;a href=\"%1$s\">tietosuojakäytäntö&lt;/a> ja &lt;a href=\"%2$s\">käyttäjäsopimus&lt;/a> ennen kuin jatkat.</Data></string>
     <string name="cta_not_show_again">Älä näytä uudelleen</string>
     <string name="customer_service_apply">Pyydä asiakaspalvelua</string>
     <string name="customer_service_complain">Ilmoita asiakaspalvelusta</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
     <string name="description">Kuvaile ongelmaa</string>
+    <string name="device_header">"%1$d. Kaikkien laitteiden on oltava kirjautuneena samalle Xiaomi-tilille.
+%2$d. Laitteiden on oltava yhteydessä Wi-Fi-verkkoon tai mobiilidataa käyttäen."</string>
+    <string name="device_header_china">"%1$d. Kaikkien laitteiden on oltava kirjautuneena samalle Xiaomi-tilille.
+%2$d. Laitteiden on oltava yhteydessä WLAN-verkkoon tai mobiilidataa käyttäen."</string>
+    <string name="device_not_found">Ei yhdistettyjä laitteita</string>
+    <string name="device_not_found_tips">Varmista, että muut laitteet ovat kirjautuneena Xiaomi-tilillesi</string>
+    <string name="device_tips">Liitettyjen laitteiden valitseminen auttaa meitä analysoimaan ongelmaa nopeammin. Voit ladata lokeja sekä tästä laitteesta että valituista laitteista.</string>
     <string name="diagnosis_log_send_failed">Lokeja ei voitu lähettää. Yritä uudelleen.</string>
     <string name="diagnosis_log_sent_format">"Lokit lähetettiin onnistuneesti.
 ID:%s
@@ -237,6 +244,8 @@ Lähetä tämä koodi valvojalle."</string>
     <string name="feedback_answer_detail_submit_dialog_title">Lähetä palautetta?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s ongelma \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Valitse ongelma</string>
+    <string name="feedback_choose_device">Valitse laite</string>
+    <string name="feedback_choose_device_hint">Et ole valinnut yhtään laitteita</string>
     <string name="feedback_choose_module">Valitse kohde</string>
     <string name="feedback_choose_module_hint">Vaadittu</string>
     <string name="feedback_choose_occurrence_time">Aika</string>
@@ -887,9 +896,9 @@ Lue ja hyväksy uusi %3$s-versio ennen kuin jatkat."</string>
     <string name="stop_full_log_dialog_title">Luodaan lokeja…</string>
     <string name="submit_dialog_cancel">Älä hyväksy</string>
     <string name="submit_dialog_confirm">Hyväksy</string>
-    <string name="submit_dialog_content">&lt;Data>Lue ja hyväksy &lt;a href=\"%1$s\">tietosuojakäytäntömme&lt;/a> ja &lt;a href=\"%2$s\">käyttäjäsopimuksemme&lt;/a> ennen palautteen lähettämistä. Ilmoittamasi ongelmat ja liitetyt kohteet (mukaan lukien lokit, jotka saattavat sisältää henkilökohtaisia tietoja, sekä laitteesi ja verkon tiedot) lähetetään palvelimillemme. Tämä auttaa meitä etsimään ja ratkaisemaan ilmoittamasi ongelmat. Jos ilmoitat useisiin laitteisiin liittyvistä ongelmista, myös muiden Xiaomi-tiliäsi käyttävien laitteiden lokit lähetetään.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Palautteesi mahdollisine liitteineen ja lokitiedostoineen (voit kumota valinnan niille kohteille, joita et halua ladata) lähetetään palvelimillemme. Lokit voivat sisältää henkilökohtaisia tietoja sekä sijaintitietojasi. Valitsemalla \"Hyväksy\" myönnät lukeneesi ja hyväksyväsi &lt;a href=\"%1$s\">tietosuojakäytäntömme&lt;/a> ja &lt;a href=\"%2$s\">käyttäjäsopimuksen&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Palautteesi mahdollisine liitteineen ja lokitiedostoineen (voit kumota valinnan niille kohteille, joita et halua ladata) lähetetään palvelimillemme. Lokit voivat sisältää henkilökohtaisia tietoja sekä sijaintitietojasi. Valitsemalla \"Hyväksy\" myönnät lukeneesi ja hyväksyväsi &lt;a href=\"%1$s\">tietosuojakäytäntömme&lt;/a> ja &lt;a href=\"%2$s\">käyttäjäsopimuksen&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>Lue ja hyväksy &lt;a href=\"%1$s\">tietosuojakäytäntömme&lt;/a> ja &lt;a href=\"%2$s\">käyttäjäsopimuksemme&lt;/a> ennen palautteen lähettämistä. Ilmoittamasi ongelmat ja liitetyt kohteet (mukaan lukien lokit, jotka saattavat sisältää henkilökohtaisia tietoja, sekä laitteesi ja verkon tiedot) lähetetään palvelimillemme. Tämä auttaa meitä etsimään ja ratkaisemaan ilmoittamasi ongelmat. Jos ilmoitat useisiin laitteisiin liittyvistä ongelmista, myös muiden Xiaomi-tiliäsi käyttävien laitteiden lokit lähetetään.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Palautteesi liitteineen (jos niitä on) ja lokitiedostoineen (voit kumota valinnan niille kohteille, joita et halua ladata) lähetetään palvelimillemme. Lokit voivat sisältää henkilökohtaisia tietoja sekä sijaintitietojasi. Valitsemalla \"Hyväksy\" myönnät lukeneesi ja hyväksyväsi &lt;a href=\"%1$s\">tietosuojakäytäntömme&lt;/a> ja &lt;a href=\"%2$s\">käyttäjäsopimuksen&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>Palautteesi liitteineen (jos niitä on) ja lokitiedostoineen (voit kumota valinnan niille kohteille, joita et halua ladata) lähetetään palvelimillemme. Lokit voivat sisältää henkilökohtaisia tietoja sekä sijaintitietojasi. Valitsemalla \"Hyväksy\" myönnät lukeneesi ja hyväksyväsi &lt;a href=\"%1$s\">tietosuojakäytäntömme&lt;/a> ja &lt;a href=\"%2$s\">käyttäjäsopimuksen&lt;/a>.</Data></string>
     <string name="submit_dialog_not_show_again">Älä näytä uudelleen</string>
     <string name="submit_dialog_title">Lähetä ilmoitus</string>
     <string name="submit_feedback_info_failed">Ilmoitusta ei voitu lähettää</string>

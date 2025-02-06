@@ -72,7 +72,7 @@
     <string name="bugreport_dialog_informed_consent_content">ロック画面パスワードに関するエラーが検出されました。デバイスログを送信することで、問題の特定と解決に役立てることができます。ログ情報は匿名でアップロードされ、トラブルシューティングにのみ使用され、トラブルシューティングが完了した時点で削除されます。</string>
     <string name="bugreport_dialog_informed_consent_title">説明と同意</string>
     <string name="bugreport_dialog_not_show_again">再度表示しない</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>現在、このデバイスにソフトウェアログを保存しています。ログには、個人情報と位置データが含まれている場合があります。この情報を公開したくない場合は、他のユーザーとログを共有しないでください。\"同意\"を選択すると、当社の&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>および&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意したことになります。&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content"><Data>現在、このデバイスにソフトウェアログを保存しています。ログには、個人情報と位置データが含まれている場合があります。この情報を公開したくない場合は、他のユーザーとログを共有しないでください。\"同意\"を選択すると、当社の&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>および&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意したことになります。</Data></string>
     <string name="bugreport_dump_complete_notification_summary">タップして表示します。</string>
     <string name="bugreport_dump_complete_notification_title">バグレポートを作成しました</string>
     <string name="bugreport_dump_start_notification_summary">これには数分かかります。</string>
@@ -166,7 +166,7 @@
     <string name="cta_confirm">OK</string>
     <string name="cta_dialog_content">このアプリが正常に動作するにはインターネットへの接続が必要です。</string>
     <string name="cta_dialog_title">インターネット接続</string>
-    <string name="cta_message">&lt;Data>フィードバックが正常に機能するには、インターネットに接続されている必要があります。また、このアプリは、位置情報へのアクセス許可を要求する場合があります。続ける前に、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>と&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意してください。&lt;/Data></string>
+    <string name="cta_message"><Data>フィードバックが正常に機能するには、インターネットに接続されている必要があります。また、このアプリは、位置情報へのアクセス許可を要求する場合があります。続ける前に、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>と&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意してください。</Data></string>
     <string name="cta_not_show_again">再度表示しない</string>
     <string name="customer_service_apply">カスタマーサービスを申請する</string>
     <string name="customer_service_complain">カスタマーサービスを報告する</string>
@@ -177,6 +177,13 @@
     <string name="date_picker_lunar">中国暦</string>
     <string name="date_time_picker_dialog_title">日付と時刻を設定</string>
     <string name="description">問題を説明してください</string>
+    <string name="device_header">"%1$d. すべてのデバイスは同じ Xiaomi アカウントにサインインする必要があります。
+%2$d. デバイスは Wi-Fi に接続されているか、モバイルデータを使用している必要があります。"</string>
+    <string name="device_header_china">"%1$d. すべてのデバイスは同じ Xiaomi アカウントにサインインする必要があります。
+%2$d. デバイスは WLAN に接続されているか、モバイルデータを使用している必要があります。"</string>
+    <string name="device_not_found">接続されたデバイスはありません</string>
+    <string name="device_not_found_tips">もう一方のデバイスが Xiaomi アカウントにサインインしていることを確認してください</string>
+    <string name="device_tips">接続されているデバイスを選択すると、問題をより早く分析できるようになります。このデバイスと選択したデバイスの両方からログをアップロードできます。</string>
     <string name="diagnosis_log_send_failed">ログを送信できませんでした。もう一度お試しください。</string>
     <string name="diagnosis_log_sent_format">"正常にログを送信しました。
 ID:%s
@@ -237,6 +244,8 @@ ID:%s
     <string name="feedback_answer_detail_submit_dialog_title">フィードバックを送信しますか？</string>
     <string name="feedback_bug_status_change_notification_desc">%1$sの問題 \"%2$s\"</string>
     <string name="feedback_choose_app_tag">問題を選択</string>
+    <string name="feedback_choose_device">デバイスを選択してください</string>
+    <string name="feedback_choose_device_hint">デバイスが選択されていません</string>
     <string name="feedback_choose_module">項目を選択</string>
     <string name="feedback_choose_module_hint">必須</string>
     <string name="feedback_choose_occurrence_time">発生日時</string>
@@ -888,9 +897,9 @@ Email：service.jp@xiaomi.com"</string>
     <string name="stop_full_log_dialog_title">ログを取得中…</string>
     <string name="submit_dialog_cancel">同意しない</string>
     <string name="submit_dialog_confirm">同意</string>
-    <string name="submit_dialog_content">&lt;Data>フィードバックを送信する前に、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>と&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意してください。報告された問題は、添付アイテム (個人情報を含む可能性のあるログ、デバイスやネットワークに関する情報を含む) とともに当社サーバーにアップロードされます。これらの情報は報告された問題の特定と解決のために使用されます。複数のデバイスに関連する問題を報告した場合は、ご利用者のXiaomi アカウントが使用されている他のデバイスのログもアップロードされます。&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>フィードバックは、添付ファイル（ある場合）およびログ（アップロードしたくないアイテムは、対応するチェックボックスのチェックを外すことができます）とともに当社サーバーに送信されます。ログには、個人情報と位置データが含まれる場合があります。\"同意\" を選択すると、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>および&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意したことになります。&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>フィードバックは、添付ファイル（ある場合）およびログ（アップロードしたくないアイテムは、対応するチェックボックスのチェックを外すことができます）とともに当社サーバーに送信されます。ログには、個人情報と位置データが含まれる場合があります。\"同意\" を選択すると、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>および&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意したことになります。&lt;/Data></string>
+    <string name="submit_dialog_content"><Data>フィードバックを送信する前に、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>と&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意してください。報告された問題は、添付アイテム (個人情報を含む可能性のあるログ、デバイスやネットワークに関する情報を含む) とともに当社サーバーにアップロードされます。これらの情報は報告された問題の特定と解決のために使用されます。複数のデバイスに関連する問題を報告した場合は、ご利用者の Xiaomi アカウントが使用されている他のデバイスのログもアップロードされます。</Data></string>
+    <string name="submit_dialog_content_global"><Data>フィードバックは、添付ファイル（ある場合）およびログ（アップロードしたくないアイテムは、対応するチェックボックスのチェックを外すことができます）とともに当社サーバーに送信されます。ログには、個人情報と位置データが含まれる場合があります。[同意] を選択すると、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>および&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意したことになります。</Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo"><Data>フィードバックは、添付ファイル（ある場合）およびログ（アップロードしたくないアイテムは、対応するチェックボックスのチェックを外すことができます）とともに当社サーバーに送信されます。ログには、個人情報と位置データが含まれる場合があります。[同意] を選択すると、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>および&lt;a href=\"%2$s\">利用規約&lt;/a>を読んで同意したことになります。</Data></string>
     <string name="submit_dialog_not_show_again">再度表示しない</string>
     <string name="submit_dialog_title">レポートを送信</string>
     <string name="submit_feedback_info_failed">レポートを送信できませんでした</string>
