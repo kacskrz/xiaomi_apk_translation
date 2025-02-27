@@ -58,7 +58,7 @@
     <string name="afternoon">Pomeriggio</string>
     <string name="am">AM</string>
     <string name="analying">Analisi in corso…</string>
-    <string name="apk_status_damage">Corrotto</string>
+    <string name="apk_status_damage">Danneggiato</string>
     <string name="apk_status_duplicate">Duplicato</string>
     <string name="apk_status_install">Installato</string>
     <string name="apk_status_installed_old">Vecchia versione</string>
@@ -124,6 +124,7 @@
     <string name="auto_clean_time_every_day">Ogni giorno</string>
     <string name="auto_cleaner_open">Attiva</string>
     <string name="back">Indietro</string>
+    <string name="be_figuring">Calcolo…</string>
     <string name="btn_text_done">Fatto</string>
     <string name="btn_text_quick_cleanup">Pulisci</string>
     <string name="btn_text_quick_cleanup_apk">Elimina i file APK selezionati %1$s</string>
@@ -146,7 +147,7 @@
     <string name="button_text_keep_one">Conserva una</string>
     <string name="button_text_known">OK</string>
     <string name="button_text_let_me_select">OK</string>
-    <string name="button_text_not_prompt_again">Non chiedere più</string>
+    <string name="button_text_not_prompt_again">Non mostrare più</string>
     <string name="button_text_photo_selected">Selezionato</string>
     <string name="button_text_restore_ignore">Annulla</string>
     <string name="button_text_select_all">Seleziona</string>
@@ -288,7 +289,7 @@
     <string name="dialog_msg_backup_and_uninstall_apps">Eseguire il backup e disinstallare le applicazioni selezionate?</string>
     <string name="dialog_msg_check_all">Conferma la selezione di %1$s che contiene %2$d elementi</string>
     <string name="dialog_msg_esc_cleanmaster">Interrompere la scansione ed uscire da Pulitore?</string>
-    <string name="dialog_msg_load_cleanup_engine_error">Il motore di pulizia è stato corrotto.</string>
+    <string name="dialog_msg_load_cleanup_engine_error">Il motore di pulizia è stato danneggiato.</string>
     <string name="dialog_msg_stop_scan">Interrompere la scansione?</string>
     <string name="dialog_msg_uninstall_apps">Disinstallare queste applicazioni?</string>
     <string name="dialog_msg_uninstall_apps_xspace">Disinstallare queste applicazioni e le corrispettive app clonate?</string>
@@ -535,7 +536,7 @@
     <string name="installed">Installato</string>
     <string name="installing">Installazione</string>
     <string name="item_title_process_mode">"Scegli un'azione"</string>
-    <string name="just_now">Proprio ora</string>
+    <string name="just_now">Poco fa</string>
     <string name="kilobyteShort">KB</string>
     <string name="label_image_list_none">Nessuna</string>
     <string name="label_preserve_the_best_image">Salva le foto più nitide</string>
@@ -546,12 +547,12 @@
     <string name="login_immediately">Accedi</string>
     <string name="long_click_dialog_summary">Pressione prolungata per aggiungere alle eccezioni.</string>
     <string name="long_click_dialog_title">Avviso</string>
-    <string name="low_memory_clean_dialog_msg_new">Elimina almeno %d MB di file prima</string>
+    <string name="low_memory_clean_dialog_msg_new">Elimina almeno %d MB di file</string>
     <string name="low_memory_clean_dialog_ok_button">OK</string>
     <string name="low_memory_clean_dialog_title">"Spazio d'archiviazione insufficiente"</string>
     <string name="low_memory_warning_dialog_cancel_button">Annulla</string>
     <string name="low_memory_warning_dialog_msg">Libera spazio sul dispositivo per continuare</string>
-    <string name="low_memory_warning_dialog_ok_button">Pulisci</string>
+    <string name="low_memory_warning_dialog_ok_button">Elimina</string>
     <string name="low_memory_warning_dialog_title">"Spazio d'archiviazione insufficiente"</string>
     <string name="main_title_filesize">%1$s cestino</string>
     <string name="main_total_garbage">Dimensione contenuti inutili</string>
@@ -602,7 +603,7 @@
     <string name="month_august">Agosto</string>
     <string name="month_august_short">Ago</string>
     <string name="month_august_shortest">Ago</string>
-    <string name="month_day_format">dd MMM</string>
+    <string name="month_day_format">d MMM</string>
     <string name="month_december">Dicembre</string>
     <string name="month_december_short">Dic</string>
     <string name="month_december_shortest">Dic</string>
@@ -641,7 +642,7 @@
     <string name="msg_update_error_code_network_error">Impossibile connettersi alla rete</string>
     <string name="msg_update_error_code_no_newer_db">Pulitore è aggiornato</string>
     <string name="msg_update_error_code_success">Fatto</string>
-    <string name="msg_update_error_code_unknown_error">I server sono occupati. Attendi un minuto o due e riprova.</string>
+    <string name="msg_update_error_code_unknown_error">I server sono occupati. Aspetta un minuto o due e riprova</string>
     <string name="name_debuglog_dir">Log debug BSP</string>
     <string name="native_body">Corpo</string>
     <string name="native_headline">Titolo</string>
@@ -655,28 +656,59 @@
     <string name="noon">Mezzogiorno</string>
     <string name="not_set">Non impostato</string>
     <string name="notification_apk_clean_button_text">Elimina</string>
+    <string name="notification_checker_installed_apk_hint">"Non è necessario conservare gli APK dopo l'installazione"</string>
+    <string name="notification_checker_picture_hint_a">Le immagini memorizzate nella cache possono occupare molto spazio</string>
+    <string name="notification_checker_picture_hint_b">Libera spazio eliminando gli elementi che non ti servono più</string>
+    <string name="notification_checker_picture_text_a">Elimina le immagini nella cache</string>
+    <string name="notification_checker_picture_text_b">Libera %s di immagini nella cache</string>
     <string name="notification_garbage_clean_botton_text">Elimina</string>
+    <string name="notification_garbage_clean_botton_text_new">Elimina</string>
     <string name="notification_garbage_clean_hint">Libera spazio di archiviazione</string>
+    <string name="notification_garbage_clean_hint_new">Fai volare il tuo dispositivo</string>
     <string name="notification_garbage_clean_size">Libera %s</string>
-    <string name="notification_garbage_cleanup_summary">Svuota il cestino (%s) per velocizzare il dispositivo</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f GB</string>
+    <string name="notification_garbage_clean_size_found">Trovati %s di contenuti inutili</string>
+    <string name="notification_garbage_clean_size_found_hint">È ora di eliminare la spazzatura!</string>
+    <string name="notification_garbage_clean_size_found_text">Troppi file nel cestino</string>
+    <string name="notification_garbage_clean_size_int_unit">%d GB</string>
+    <string name="notification_garbage_clean_size_new">Libera %s di memoria</string>
+    <string name="notification_garbage_cleanup_summary">Rimuovi i contenuti inutili (%s) per velocizzare il dispositivo</string>
     <string name="notification_garbage_cleanup_title">Rimuovi i file inutili</string>
     <string name="notification_installed_clean_size">Libera %2$s dopo aver installato %1$s</string>
+    <string name="notification_low_memory_button_text">Risolvi</string>
     <string name="notification_low_memory_cache_title">Svuota la cache</string>
     <string name="notification_low_memory_deepclean_summary">Pulizia profonda può liberare spazio sul dispositivo</string>
     <string name="notification_low_memory_deepclean_title">Spazio di archiviazione in esaurimento</string>
+    <string name="notification_low_memory_hint">Il cestino rallenta il dispositivo</string>
+    <string name="notification_low_memory_text">Memoria in esaurimento</string>
     <string name="notification_low_storage_button_text">Elimina</string>
+    <string name="notification_low_storage_size">Meno di %s di spazio disponibile</string>
     <string name="notification_low_storage_size_1.5_GB">Meno di %.1f GB di spazio residuo</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Elimina</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Libera spazio per velocizzare il dispositivo</string>
     <string name="notification_low_storage_size_1_GB">Meno di %d GB di spazio residuo</string>
     <string name="notification_low_storage_size_1_GB_hint">Prova la pulizia profonda</string>
+    <string name="notification_low_storage_size_1_gb_hint">Libera spazio di archiviazione per velocizzare il dispositivo</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Rimuovi i contenuti inutili per velocizzare il dispositivo</string>
     <string name="notification_memory_clean_button_text">Incrementa</string>
     <string name="notification_memory_clean_hint">Tocca per incrementare la velocità</string>
     <string name="notification_memory_clean_used_size">%s di memoria occupata</string>
+    <string name="notification_qq_clean_hint">Il cestino rallenta il dispositivo</string>
+    <string name="notification_qq_clean_text">Svuota il cestino di QQ</string>
     <string name="notification_summary_after_auto_cleanup">%s puliti.</string>
+    <string name="notification_uninstall_clean_hint">Svuota il cestino per liberare spazio di archiviazione</string>
+    <string name="notification_uninstall_clean_text">Le app disinstallate lasciano il contenuti inutili sul tuo dispositivo</string>
     <string name="notification_uninstalled_clean_button_text">Visualizza</string>
     <string name="notification_uninstalled_clean_with_name">Elementi residui di %s</string>
     <string name="notification_uninstalled_clean_without_name">Le app disinstallate hanno elementi residui</string>
+    <string name="notification_wechat_clean_high_level_hint">Rimuovi i contenuti inutili per velocizzare il dispositivo</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat ha generato molti file inutili</string>
+    <string name="notification_wechat_clean_high_level_text_b">Il cestino di WeChat rallenta il dispositivo</string>
+    <string name="notification_wechat_clean_low_level_hint">Libera spazio</string>
+    <string name="notification_wechat_clean_low_level_text">Elimina il cestino di WeChat</string>
+    <string name="notification_wechat_clean_middle_level_hint">Svuota il cestino per ricevere notifiche senza ritardi</string>
+    <string name="notification_wechat_clean_middle_level_text_a">Il cestino di WeChat occupa molto spazio di archiviazione</string>
+    <string name="notification_wechat_clean_middle_level_text_b">"Il cestino di WeChat rallenta l'app"</string>
     <string name="notification_whatsapp_clean_button_text">Elimina</string>
     <string name="notification_whatsapp_clean_size">La cache di WhatsApp ha raggiunto %s</string>
     <string name="offline_notification_text">"Tocca per aprire l'annuncio"</string>
@@ -720,7 +752,7 @@
     <string name="powerful_acceleration_tip_high"><Data>La memoria è &lt;font color=#ff0000 >altamente&lt;/font> frammentata. La deframmentazione può risolvere il problema.</Data></string>
     <string name="powerful_acceleration_tip_middle"><Data>La memoria è &lt;font color=#ff0000 >leggermente&lt;/font> frammentata. La deframmentazione può risolvere il problema.</Data></string>
     <string name="powerful_acceleration_toast">La deframmentazione verrà eseguita quando non utilizzi il dispositivo</string>
-    <string name="pref_about_privacy_title">Informativa sulla Privacy</string>
+    <string name="pref_about_privacy_title">Informativa sulla privacy</string>
     <string name="pref_category_title_auto_clean_settings">Ricorda di pulire</string>
     <string name="pref_category_title_auto_update_cleanup_db">Impostazioni aggiuntive</string>
     <string name="pref_category_title_cleanup_white_list">Eccezioni</string>
@@ -754,7 +786,7 @@
     <string name="preference_copied">\"%1$s\"copiato negli appunti.</string>
     <string name="privacy_browser_desc">Elementi cercati</string>
     <string name="privacy_cache_empty">Nessun dato privato</string>
-    <string name="privacy_cache_scaning">Verifica in corso2026</string>
+    <string name="privacy_cache_scaning">Verifica in corso…</string>
     <string name="privacy_cache_title">Informazioni personali</string>
     <string name="privacy_clipboard_desc">Contenuto degli appunti</string>
     <string name="privacy_clipboard_type">Appunti</string>
@@ -776,9 +808,9 @@
     <string name="recommend_news">Ricevi suggerimenti</string>
     <string name="recommend_the_following">Segui queste istruzioni per ottenere il massimo dal tuo dispositivo</string>
     <string name="recommended">In primo piano</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> di altri file possono essere puliti. Libera più spazio.&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>Puoi eliminare &lt;font color=#ff0000 >%1$s&lt;/font> di cache generati da QQ&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> di cache WeChat. Libera più spazio.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> altri file possono essere eliminati. Libera più spazio.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>Puoi eliminare &lt;font color=#ff0000 >%1$s&lt;/font> di cache generati da QQ</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> di cache WeChat. Libera più spazio.</Data></string>
     <string name="s1">Salva immagine</string>
     <string name="s2">"Consentire ad AdMob di memorizzare l'immagine nella galleria Immagini?"</string>
     <string name="s3">Accetto</string>
@@ -875,17 +907,17 @@
     <string name="tips_low_storage_dialog_msg_qq_new">La dimensione della cache di QQ ha raggiunto i %d GB. Questo potrebbe rallentare il dispositivo. Svuotare la cache di QQ?</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Stai utilizzando il %s del tuo spazio di archiviazione. Disinstalla le app che non usi.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">La dimensione della cache di WeChat ha raggiunto i %d GB. Questo potrebbe rallentare il dispositivo. Svuotare la cache di WeChat?</string>
-    <string name="tips_low_storage_dialog_ok">Sereno</string>
+    <string name="tips_low_storage_dialog_ok">Elimina</string>
     <string name="tips_low_storage_dialog_ok_storage">Libera dello spazio</string>
     <string name="tips_low_storage_dialog_title">Lo spazio di archiviazione sta per esaurirsi</string>
     <string name="tips_of_app_manage">Elimina le applicazioni che usi raramente per risparmiare spazio</string>
     <string name="tips_of_auto_launch_manage">Impedisci alle applicazioni usate raramente di avviarsi automaticamente</string>
-    <string name="tips_of_cloud_service">Accedi con il tuo Mi Account per usare altri servizi Mi</string>
+    <string name="tips_of_cloud_service">Accedi con il tuo Xiaomi Account per usare altri servizi Xiaomi</string>
     <string name="tips_of_connect">Connettiti ad internet per usare tutte le funzioni di Sicurezza</string>
     <string name="tips_of_garbage_cloud_scan">Trova contenuti inutili nascosti tramite una scansione cloud</string>
     <string name="tips_of_garbage_data_set">Aggiorna il database Pulitore per trovare più contenuti inutili nel tuo dispositivo</string>
     <string name="tips_of_network_speed_set">Visualizza la velocità della connessione nella barra di stato</string>
-    <string name="tips_of_operators_set">Regola automaticamente le statistiche di utilizzo dei dati</string>
+    <string name="tips_of_operators_set">"Regola automaticamente le statistiche sull'utilizzo dati"</string>
     <string name="tips_of_package_set">Imposta il tuo piano dati e controlla la quantità di traffico che utilizzi</string>
     <string name="tips_of_traffic_notification">"Visualizza le statistiche sulla connessione dati nell'area delle notifiche"</string>
     <string name="tips_of_traffic_pack_threshold">Acquista altri dati quando stai per raggiungere la tua soglia dati</string>
@@ -929,7 +961,7 @@
     <string name="today">Oggi</string>
     <string name="tomorrow">Domani</string>
     <string name="total_clean">Puliti in totale: %s</string>
-    <string name="total_clean_text">Pulisci</string>
+    <string name="total_clean_text">Elimina</string>
     <string name="tt_00_00">00:00</string>
     <string name="tt_ad">Annuncio</string>
     <string name="tt_ad_clicked_text">Annuncio cliccato</string>
@@ -1082,7 +1114,7 @@
     <string name="wechat_clean_finish_summary">File selezionati eliminati correttamente</string>
     <string name="wechat_clean_stop_confirm">Interrompere la scansione?</string>
     <string name="wechat_clean_stop_confirm_msg">Interrompere la scansione?</string>
-    <string name="wechat_content_bad_pic_file">Il file è corrotto</string>
+    <string name="wechat_content_bad_pic_file">Il file è danneggiato</string>
     <string name="wechat_content_empty">Nessun file da esportare</string>
     <string name="wechat_copy_to_gallery">Esporta in Galleria</string>
     <string name="wechat_copy_video_failed_dialog_title">Impossibile esportare</string>
@@ -1092,8 +1124,8 @@
     <string name="wechat_copying_video_dialog_title">Esporta in Galleria</string>
     <string name="wechat_copying_video_empty">Nessun video da esportare</string>
     <string name="wechat_copying_video_success">Esportato correttamente</string>
-    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
-    <string name="wechat_msg_time_short">dd-MM</string>
+    <string name="wechat_msg_time_long">dd/MM/yyyy</string>
+    <string name="wechat_msg_time_short">dd/MM</string>
     <string name="wechat_qq_activity_title">Pulizia profonda</string>
     <string name="wechat_qq_celan_tab_file">File</string>
     <string name="wechat_qq_celan_tab_image">Immagini</string>
@@ -1104,7 +1136,7 @@
     <string name="wednesday">Mercoledì</string>
     <string name="wednesday_short">Mer</string>
     <string name="wednesday_shortest">Mer</string>
-    <string name="whatsapp_btn_quick_cleanup">Eliminare gli elementi selezionati (%s)</string>
+    <string name="whatsapp_btn_quick_cleanup">Elimina gli elementi selezionati (%s)</string>
     <string name="whatsapp_cache_clear">Cancellazione cache…</string>
     <string name="whatsapp_clean_exit_confirm_cancel">Continua</string>
     <string name="whatsapp_clean_exit_confirm_msg">La scansione di WhatsApp non è ancora terminata. Interrompere la scansione ora?</string>
@@ -1120,7 +1152,7 @@
     <string name="whatsapp_file_recv">Ricevuti</string>
     <string name="whatsapp_file_send">Inviati</string>
     <string name="whatsapp_file_show_order">Oggi</string>
-    <string name="whatsapp_function_summery">Cancella gli allegati di WhatsApp</string>
+    <string name="whatsapp_function_summery">Elimina gli allegati di WhatsApp</string>
     <string name="whatsapp_function_title">Pulitore WhatsApp</string>
     <string name="whatsapp_group_audio">File audio</string>
     <string name="whatsapp_group_document">Documenti</string>
@@ -1140,6 +1172,6 @@
     <string name="wqfile_group_chat_pic">Immagini dalle applicazioni di messaggistica</string>
     <string name="wqfile_group_chat_video">Video dalle applicazioni di messaggistica</string>
     <string name="wqfile_group_chat_voice">Messaggi vocali</string>
-    <string name="year_month_day_format">dd MMM, yyyy</string>
+    <string name="year_month_day_format">d MMM yyyy</string>
     <string name="yesterday">Ieri</string>
 </resources>

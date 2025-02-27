@@ -97,6 +97,7 @@
     <string name="auto_clean_time_every_day">Секој ден</string>
     <string name="auto_cleaner_open">Вклучи</string>
     <string name="back">Назад</string>
+    <string name="be_figuring">Пресметување…</string>
     <string name="btn_text_done">Готово</string>
     <string name="btn_text_quick_cleanup">Исчисти</string>
     <string name="btn_text_quick_cleanup_apk">Избриши ги селектираните APKа %1$s</string>
@@ -351,7 +352,7 @@
     <string name="global_wa_backend_alert_dialog_content">Ослободете простор со бришење ставки од WhatsApp</string>
     <string name="global_wa_backend_alert_dialog_title">Whatsapp Чистач</string>
     <string name="global_wa_clean_icon_text">Whatsapp Чистач</string>
-    <string name="global_wa_clean_now">Бриши</string>
+    <string name="global_wa_clean_now">Избриши</string>
     <string name="global_wa_document">Документи</string>
     <string name="global_wa_gif">GIF</string>
     <string name="global_wa_group_advice">Препорачано</string>
@@ -373,7 +374,7 @@
     <string name="global_wa_main_stop_confirm">OK</string>
     <string name="global_wa_main_stop_msg">Стопирај со скенирање на ставки од WhatsApp?</string>
     <string name="global_wa_main_stop_scan">Стоп</string>
-    <string name="global_wa_main_to_clean">Бриши</string>
+    <string name="global_wa_main_to_clean">Избриши</string>
     <string name="global_wa_result_finish_hint_zero">Ослободи %s</string>
     <string name="global_wa_setting_alert_dialog_btn">Отвори</string>
     <string name="global_wa_setting_alert_dialog_content">Може да ослободите %s</string>
@@ -471,7 +472,7 @@
     <string name="hot_today">Популарно денес</string>
     <string name="information_setting">Препораки</string>
     <string name="install_sucess">Инсталирано %s успешно</string>
-    <string name="install_time_format">dd/MM/yyyy</string>
+    <string name="install_time_format">dd.MM.yyyy</string>
     <string name="installed">Инсталиран</string>
     <string name="installing">Инсталирање</string>
     <string name="item_title_process_mode">Изберете акција</string>
@@ -491,7 +492,7 @@
     <string name="low_memory_clean_dialog_title">Нема доволно слободен простор</string>
     <string name="low_memory_warning_dialog_cancel_button">Откажи</string>
     <string name="low_memory_warning_dialog_msg">Ослободи простор на твојот уред за да продолжи</string>
-    <string name="low_memory_warning_dialog_ok_button">Исчисти</string>
+    <string name="low_memory_warning_dialog_ok_button">Избриши</string>
     <string name="low_memory_warning_dialog_title">Нема доволно слободен простор</string>
     <string name="main_title_filesize">%1$s ѓубре</string>
     <string name="main_total_garbage">Големина на отпадоци</string>
@@ -503,7 +504,7 @@
     <string name="memory_clean_icon_text">Зголемување на брзина</string>
     <string name="memory_clean_no_trash_tip">Сè изгледа добро</string>
     <string name="menu_add_to_white_list">Додади во исклучоци</string>
-    <string name="menu_clear">Исчисти</string>
+    <string name="menu_clear">Избриши</string>
     <string name="menu_install">Инсталирај ја оваа апликација</string>
     <string name="menu_open">Отвори</string>
     <string name="menu_text_optimize_manage_1">Зголемете ја брзината</string>
@@ -542,7 +543,7 @@
     <string name="month_august">Август</string>
     <string name="month_august_short">Авг</string>
     <string name="month_august_shortest">Авг</string>
-    <string name="month_day_format">dd MMM</string>
+    <string name="month_day_format">d MMM</string>
     <string name="month_december">Декември</string>
     <string name="month_december_short">Дек</string>
     <string name="month_december_shortest">Дек</string>
@@ -591,28 +592,59 @@
     <string name="no_network_btn">Обиди се повторно</string>
     <string name="noon">Пладне</string>
     <string name="notification_apk_clean_button_text">Избриши</string>
+    <string name="notification_checker_installed_apk_hint">Нема потреба да се сочувуваат APK-иите после инсталација</string>
+    <string name="notification_checker_picture_hint_a">Кешираните слики може да зафатат многу скл. простор</string>
+    <string name="notification_checker_picture_hint_b">Ослободи скл. простор со бришење на ставките кои не ти требаат</string>
+    <string name="notification_checker_picture_text_a">Избриши ги кешираните слики</string>
+    <string name="notification_checker_picture_text_b">Избриши %s кеширани фотографии</string>
     <string name="notification_garbage_clean_botton_text">Избриши</string>
+    <string name="notification_garbage_clean_botton_text_new">Избриши</string>
     <string name="notification_garbage_clean_hint">Ослободете складишен простор</string>
+    <string name="notification_garbage_clean_hint_new">Забрзај уред</string>
     <string name="notification_garbage_clean_size">Ослободи %s</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f GB</string>
+    <string name="notification_garbage_clean_size_found">Има %s отпадоци</string>
+    <string name="notification_garbage_clean_size_found_hint">Време е исфрлање на отпадоци!</string>
+    <string name="notification_garbage_clean_size_found_text">Премногу датотеки во отпадоци</string>
+    <string name="notification_garbage_clean_size_int_unit">%d GB</string>
+    <string name="notification_garbage_clean_size_new">Ослободете %s скл. простор</string>
     <string name="notification_garbage_cleanup_summary">Исчистете го отпадот (%s) за да ја зголемите брзината на Вашиот уред</string>
     <string name="notification_garbage_cleanup_title">Избриши ги отпадоците</string>
     <string name="notification_installed_clean_size">Ослободи %2$s по инсталацијата %1$s</string>
+    <string name="notification_low_memory_button_text">Поправи</string>
     <string name="notification_low_memory_cache_title">Исчисти кеш меморија</string>
     <string name="notification_low_memory_deepclean_summary">Длабоко чистење ќе ослободи простор на вашиот уред</string>
     <string name="notification_low_memory_deepclean_title">Складишниот простор се намалува</string>
+    <string name="notification_low_memory_hint">Отпадоците го забавуваат вашиот уред</string>
+    <string name="notification_low_memory_text">Меморијата е при крај</string>
     <string name="notification_low_storage_button_text">Избриши</string>
+    <string name="notification_low_storage_size">Преостанато помалку од %s скл. простор</string>
     <string name="notification_low_storage_size_1.5_GB">Преостанато помалку од %.1f GB скл. простор</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Избриши</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Ослободи скл. простор за забрзување на вашиот уред</string>
     <string name="notification_low_storage_size_1_GB">Преостанато помалку од %d GB скл. простор</string>
     <string name="notification_low_storage_size_1_GB_hint">Длабинско чистење ќе помогне</string>
+    <string name="notification_low_storage_size_1_gb_hint">Ослободете скл. простор за забрзување на вашиот уред</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Избриши отпадоци за да го забрзаш уредот</string>
     <string name="notification_memory_clean_button_text">Забрзај</string>
     <string name="notification_memory_clean_hint">Притиснете за зголемување на брзината</string>
     <string name="notification_memory_clean_used_size">%s меморија е зафатена</string>
+    <string name="notification_qq_clean_hint">Отпадоците го забавуваат вашиот уред</string>
+    <string name="notification_qq_clean_text">Избришете отпадоци од QQ</string>
     <string name="notification_summary_after_auto_cleanup">Избришано %s.</string>
+    <string name="notification_uninstall_clean_hint">Избришете отпадоци за да ослободите скл. простор</string>
+    <string name="notification_uninstall_clean_text">Неинсталираните апл. оставаат отпадоци на вашиот уред</string>
     <string name="notification_uninstalled_clean_button_text">Преглед</string>
     <string name="notification_uninstalled_clean_with_name">Преостанати ставки во %s</string>
     <string name="notification_uninstalled_clean_without_name">Деинсталираните апл. оставаат ставки</string>
+    <string name="notification_wechat_clean_high_level_hint">Избришете отпадоци за да го забрзате уредот</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat генерираше многу отпадоци</string>
+    <string name="notification_wechat_clean_high_level_text_b">Отпадоците од WeChat го забавуваат вашиот уред</string>
+    <string name="notification_wechat_clean_low_level_hint">Ослободете складишен простор</string>
+    <string name="notification_wechat_clean_low_level_text">Избришете ги отпадоците од WeChat</string>
+    <string name="notification_wechat_clean_middle_level_hint">Избришете ги отпадоците за да примате известувања без одложувања</string>
+    <string name="notification_wechat_clean_middle_level_text_a">Отпадоците од WeChat зафаќаат многу скл. простор</string>
+    <string name="notification_wechat_clean_middle_level_text_b">Отпадоците од WeChat ја забавуваат апл.</string>
     <string name="notification_whatsapp_clean_button_text">Избриши</string>
     <string name="notification_whatsapp_clean_size">WhatsApp кеш меморијата достигна %s</string>
     <string name="ok">ОК</string>
@@ -704,9 +736,9 @@
     <string name="recommend_news">Прими препораки</string>
     <string name="recommend_the_following">Преземи ги следниве акции да го искористиш најдоброто од твојот уред</string>
     <string name="recommended">Напредни</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> уште датотеки можат да се исчистат. Ослободи повеќе простор.&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>Можете да исчистите &lt;font color=#ff0000 >%1$s&lt;/font> од кеш меморијата генерирана од QQ&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> од WeChat кеш. Ослободи повеќе простор.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> уште датотеки можат да се исчистат. Ослободи повеќе простор.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>Можете да исчистите &lt;font color=#ff0000 >%1$s&lt;/font> од кеш меморијата генерирана од QQ</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> од WeChat кеш. Ослободи повеќе простор.</Data></string>
     <string name="saturday">Сабота</string>
     <string name="saturday_short">Саб</string>
     <string name="saturday_shortest">Саб</string>
@@ -793,12 +825,12 @@
     <string name="tips_low_storage_dialog_msg_qq_new">Кеш меморијата на QQ достигна %dGB. Ова може да го забави Вашиот уред. Да се исчисти кеш меморијата на QQ сега?</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Користите %s од Вашиот простор за складирање. Деинсталирајте ги апликациите кои не ги користите.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">Кеш меморијата на WeChat достигна %d GB. Ова може да го забави Вашиот уред. Да се исчисти кеш меморијата на WeChat сега?</string>
-    <string name="tips_low_storage_dialog_ok">Исчисти</string>
+    <string name="tips_low_storage_dialog_ok">Избриши</string>
     <string name="tips_low_storage_dialog_ok_storage">Ослободи простор</string>
     <string name="tips_low_storage_dialog_title">Недостасува простор за складирање</string>
     <string name="tips_of_app_manage">Избриши ги ретко користените апликации да ослободиш простор</string>
     <string name="tips_of_auto_launch_manage">Спреќи ретко користените апликации да стартуваат автоматски</string>
-    <string name="tips_of_cloud_service">Најави се со твојот Mi Account за да користиш повеќе Mi услуги</string>
+    <string name="tips_of_cloud_service">Најавете се на вашата Xiaomi Сметка за да користите повеќе Xiaomi услуги</string>
     <string name="tips_of_connect">Конектирај се на интернет за да користиш комплетен сет на сигурносни поставки</string>
     <string name="tips_of_garbage_cloud_scan">Пронајди скриени непотребни податоци со cloud scan</string>
     <string name="tips_of_garbage_data_set">Надгради ја базата на Чистач да пронајде повеќе отпад на твојот уред</string>
@@ -847,7 +879,7 @@
     <string name="today">Денес</string>
     <string name="tomorrow">Утре</string>
     <string name="total_clean">Вкупно избришано: %s</string>
-    <string name="total_clean_text">Исчисти</string>
+    <string name="total_clean_text">Избриши</string>
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вто</string>
     <string name="tuesday_shortest">Вто</string>
@@ -884,7 +916,7 @@
     <string name="wechat_copying_video_empty">Нема видеа за експортирање</string>
     <string name="wechat_copying_video_success">Успешно експортирање</string>
     <string name="wechat_msg_time_long">dd.MM.yyyy</string>
-    <string name="wechat_msg_time_short">dd/MM</string>
+    <string name="wechat_msg_time_short">dd.MM</string>
     <string name="wechat_qq_activity_title">Детално чистење</string>
     <string name="wechat_qq_celan_tab_file">Фајлови</string>
     <string name="wechat_qq_celan_tab_image">Слики</string>
@@ -931,6 +963,6 @@
     <string name="wqfile_group_chat_pic">Слики од месинџери</string>
     <string name="wqfile_group_chat_video">Видеа од месинџери</string>
     <string name="wqfile_group_chat_voice">Гласовни пораки</string>
-    <string name="year_month_day_format">dd MMM yyyy</string>
+    <string name="year_month_day_format">d MMM yyyy</string>
     <string name="yesterday">Вчера</string>
 </resources>

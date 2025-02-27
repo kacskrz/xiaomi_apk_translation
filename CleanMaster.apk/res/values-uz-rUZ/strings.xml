@@ -15,7 +15,7 @@
     <string name="activity_title_main">Tozalovchi</string>
     <string name="activity_title_news">Yangiliklar</string>
     <string name="activity_title_privacy_cache">Maxfiylik keshi</string>
-    <string name="activity_title_residual">Axlat</string>
+    <string name="activity_title_residual">Chiqindi</string>
     <string name="activity_title_scanfinish">Qidiruv tugadi</string>
     <string name="activity_title_screenshot">Ekran tasvirlari</string>
     <string name="activity_title_settings">Sozlamalar</string>
@@ -75,7 +75,7 @@
     <string name="appcleaner_qq_clean_title">Ilova tozalovchi</string>
     <string name="appcleaner_qq_scanning_cache">QQ kesh</string>
     <string name="appcleaner_qq_scanning_chat">Fayllar jo‘natildi</string>
-    <string name="appcleaner_qq_scanning_trash">Axlat</string>
+    <string name="appcleaner_qq_scanning_trash">Chiqindi</string>
     <string name="appcleaner_result_dc_card_title">Ko‘proq joy bo‘shating</string>
     <string name="appcleaner_wechat_clean_summary">WeChat-dan keraksiz narsalarni o‘chirib tashlang</string>
     <string name="appcleaner_wechat_clean_title">Ilova tozalovchi</string>
@@ -88,7 +88,7 @@
     <string name="appcleaner_wechat_pref_title_garbage_cleanup_size">Kesh kattaligi</string>
     <string name="appcleaner_wechat_scanning_cache">WeChat kesh</string>
     <string name="appcleaner_wechat_scanning_chat">Fayllar jo‘natildi</string>
-    <string name="appcleaner_wechat_scanning_trash">Axlat</string>
+    <string name="appcleaner_wechat_scanning_trash">Chiqindi</string>
     <string name="apps_sort_type_item_size">Kattalik</string>
     <string name="apps_sort_type_item_time">Tez-tez ishlatiladigan</string>
     <string name="apps_sort_type_title">Saralash</string>
@@ -97,6 +97,7 @@
     <string name="auto_clean_time_every_day">Har kuni</string>
     <string name="auto_cleaner_open">Yoqish</string>
     <string name="back">Orqaga</string>
+    <string name="be_figuring">Hisoblanmoqda…</string>
     <string name="btn_text_done">Tayyor</string>
     <string name="btn_text_quick_cleanup">Tozalash</string>
     <string name="btn_text_quick_cleanup_apk">Tanlangan ilovalarni o‘chirish %1$s</string>
@@ -239,8 +240,7 @@
     <string name="dialog_content_select_all_confirm">Ushbu rasm nusxasi qoldirilsinmi?</string>
     <string name="dialog_msg_add_white_list_error">Ushbu faylni istisnolarga qo‘shib bo‘lmaydi</string>
     <string name="dialog_msg_backup_and_uninstall_apps">Tanlangan ilovalar zaxiraga nusxalab o‘chirilsinmi?</string>
-    <string name="dialog_msg_check_all">"Ilovalar: %1$s 
-Fayllar: %2$d"</string>
+    <string name="dialog_msg_check_all">Ilovalar: %1$s Fayllar: %2$d</string>
     <string name="dialog_msg_esc_cleanmaster">Skanerlashni to‘xtatib chiqilsinmi?</string>
     <string name="dialog_msg_load_cleanup_engine_error">Tozalovchi motori buzildi.</string>
     <string name="dialog_msg_stop_scan">Skanerlashni to‘xtatilsinmi?</string>
@@ -252,7 +252,7 @@ Fayllar: %2$d"</string>
     <string name="dialog_title_check_all">Barchasini tanlash</string>
     <string name="dialog_title_delete_image">Tanlangan suratlarni o‘chirish</string>
     <string name="dialog_title_esc_cleanmaster">Chiqish</string>
-    <string name="dialog_title_load_cleanup_engine_error">Xato ro‘y berdi…</string>
+    <string name="dialog_title_load_cleanup_engine_error">Xato ro‘y berdi</string>
     <string name="dialog_title_stop_scan">Skanerlashni to‘xtatilsin</string>
     <string name="dialog_title_uninstall_apps">O‘chirish</string>
     <string name="download">Yuklab olish</string>
@@ -465,7 +465,7 @@ Fayllar: %2$d"</string>
     <string name="hints_storage_free">Bepul</string>
     <string name="hints_storage_free_size">Jami %1$s | Mavjud %2$s</string>
     <string name="hints_storage_news">Xavfsizlik yangiliklari</string>
-    <string name="hints_title_garbage">Axlat</string>
+    <string name="hints_title_garbage">Chiqindi</string>
     <string name="hints_video_camera">Olingan videolar</string>
     <string name="hints_video_download">Yuklab olingan videolar</string>
     <string name="hot">Mashhur</string>
@@ -592,28 +592,59 @@ Fayllar: %2$d"</string>
     <string name="no_network_btn">Takrorlash</string>
     <string name="noon">Peshin</string>
     <string name="notification_apk_clean_button_text">Tozalash</string>
+    <string name="notification_checker_installed_apk_hint">O‘rnatilgandan so‘ng APK‘lar qoldirilmasin</string>
+    <string name="notification_checker_picture_hint_a">Keshlangan rasmlar juda ko‘p joy egallashi mumkin</string>
+    <string name="notification_checker_picture_hint_b">Endi keraksiz narsalarni o‘chirib tashlab, joyni bo‘shating</string>
+    <string name="notification_checker_picture_text_a">Keshlangan suratlarni tozalash</string>
+    <string name="notification_checker_picture_text_b">Keshlangan suratlarning %s ni tozalash</string>
     <string name="notification_garbage_clean_botton_text">Tozalash</string>
+    <string name="notification_garbage_clean_botton_text_new">Tozalash</string>
     <string name="notification_garbage_clean_hint">Bulut xotirasini tozalash</string>
+    <string name="notification_garbage_clean_hint_new">Qurilmangizni osmonga ko‘taring</string>
     <string name="notification_garbage_clean_size">%s tozalang</string>
+    <string name="notification_garbage_clean_size_float_unit">%.1f GB</string>
+    <string name="notification_garbage_clean_size_found">%s axlat aniqlandi</string>
+    <string name="notification_garbage_clean_size_found_hint">Axlatni tashlash vaqti keldi!</string>
+    <string name="notification_garbage_clean_size_found_text">Juda ko‘p axlat fayllar</string>
+    <string name="notification_garbage_clean_size_int_unit">%d GB</string>
+    <string name="notification_garbage_clean_size_new">Xotirani %s ni tozalang</string>
     <string name="notification_garbage_cleanup_summary">Qurilmani ishlashini oshirish uchun keshni (%s) tozalang</string>
     <string name="notification_garbage_cleanup_title">Axlat fayllarni tozalash</string>
     <string name="notification_installed_clean_size">s%1$sni o‘rgantgandan so‘ng %2$s tozalang</string>
+    <string name="notification_low_memory_button_text">Tuzatish</string>
     <string name="notification_low_memory_cache_title">Keshni tozalash</string>
     <string name="notification_low_memory_deepclean_summary">Chuqur tozalash qurilmangizda joy bo‘shatishi mumkin</string>
     <string name="notification_low_memory_deepclean_title">Joy tugamoqda</string>
+    <string name="notification_low_memory_hint">Axlat qurilmangizni ishlashini pasaytiradi</string>
+    <string name="notification_low_memory_text">Xotira to‘lmoqda</string>
     <string name="notification_low_storage_button_text">Tozalash</string>
+    <string name="notification_low_storage_size">Xotiraning %s dan kamrog‘i mavjud</string>
     <string name="notification_low_storage_size_1.5_GB">%.1f GB dan kam hajm qoldi</string>
     <string name="notification_low_storage_size_1.5_GB_btn">Tozalash</string>
     <string name="notification_low_storage_size_1.5_GB_hint">Qurilmangizni tezlashtirish uchun xotirani bo‘shating</string>
     <string name="notification_low_storage_size_1_GB">%d GB dan kam hajm qoldi</string>
     <string name="notification_low_storage_size_1_GB_hint">Chuqur tozalash yordam berishi mumkin</string>
+    <string name="notification_low_storage_size_1_gb_hint">Qurilmangizni tezlashtirish uchun xotirani bo‘shating</string>
+    <string name="notification_low_storage_size_1p5_gb_hint">Qurilmani ishlashini oshirish uchun keshni tozalang</string>
     <string name="notification_memory_clean_button_text">Kuchaytirish</string>
     <string name="notification_memory_clean_hint">Tezlikni oshirish uchun bosing</string>
     <string name="notification_memory_clean_used_size">%s xotiradagi joy egallangan</string>
+    <string name="notification_qq_clean_hint">Axlat qurilmangizni ishlashini pasaytiradi</string>
+    <string name="notification_qq_clean_text">QQ axlatini tozalang</string>
     <string name="notification_summary_after_auto_cleanup">Tozalandi: %s.</string>
+    <string name="notification_uninstall_clean_hint">Xotiradagi joyni bo‘shatish uchun axlatni tozalang</string>
+    <string name="notification_uninstall_clean_text">O‘chirilgan ilovalar qurilmangizda axlatni tashlaydi</string>
     <string name="notification_uninstalled_clean_button_text">Ko‘rsatish</string>
     <string name="notification_uninstalled_clean_with_name">%s ning qoldiq elementlari</string>
     <string name="notification_uninstalled_clean_without_name">O‘rnatilmagan ilovalar qoldiq elementlarni qoldiradi</string>
+    <string name="notification_wechat_clean_high_level_hint">Qurilmani ishlashini oshirish uchun keshni tozalang</string>
+    <string name="notification_wechat_clean_high_level_text_a">WeChat ko‘plab axlat fayllarini yaratdi</string>
+    <string name="notification_wechat_clean_high_level_text_b">WeChat axlati qurilmangizning ishlashini pasaytiradi</string>
+    <string name="notification_wechat_clean_low_level_hint">Xotirada joy bo‘shating</string>
+    <string name="notification_wechat_clean_low_level_text">WeChat axlatini tozalash</string>
+    <string name="notification_wechat_clean_middle_level_hint">Bildirishnomalarni kechiktirmasdan olish uchun axlatni tozalang</string>
+    <string name="notification_wechat_clean_middle_level_text_a">WeChat axlat qutisi juda ko‘p joy egallaydi</string>
+    <string name="notification_wechat_clean_middle_level_text_b">WeChat axlati dasturni sekinlashtiradi</string>
     <string name="notification_whatsapp_clean_button_text">Tozalash</string>
     <string name="notification_whatsapp_clean_size">WhatsApp keshi %s ga yetdi</string>
     <string name="ok">OK</string>
@@ -697,7 +728,7 @@ Fayllar: %2$d"</string>
     <string name="qq_data_type_cache_desc">Bu fayllarni internetga bog‘langandan keyin tiklasa bo‘ladi.</string>
     <string name="qq_data_type_chat">Suhbat tarixi</string>
     <string name="qq_data_type_chat_desc">Suhbat tarixini tiklay olmaysiz.</string>
-    <string name="qq_data_type_normal">Axlat</string>
+    <string name="qq_data_type_normal">Chiqindi</string>
     <string name="qq_data_type_normal_clean_tips">Bu texnik fayllar. Ularning o‘chirilishi ishlashga ta’sir qilmaydi.</string>
     <string name="qq_data_type_normal_desc">Ularning o‘chirilishi ishlashga ta’sir qilmaydi.</string>
     <string name="qq_data_type_other">Boshqa</string>
@@ -705,9 +736,9 @@ Fayllar: %2$d"</string>
     <string name="recommend_news">Tavsiyalarni qabul qilish</string>
     <string name="recommend_the_following">Qurilma yaxshi ishlashi uchun quyidagi amallarni bajaring</string>
     <string name="recommended">Tavsiya etilganlar</string>
-    <string name="resutl_function_deep_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> ta qo‘shimcha faylni tozalasa bo‘ladi. Xotiradagi joyni tozalang.&lt;/Data></string>
-    <string name="resutl_function_qq_clean_summary">&lt;Data>QQ ilovasini &lt;font color=#ff0000 >%1$s&lt;/font> keshini tozalasangiz bo‘ladi&lt;/Data></string>
-    <string name="resutl_function_wechat_clean_summary">&lt;Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat keshi. Xotiradagi joyni tozalang.&lt;/Data></string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> ta qo‘shimcha faylni tozalasa bo‘ladi. Xotiradagi joyni tozalang.</Data></string>
+    <string name="resutl_function_qq_clean_summary"><Data>QQ ilovasini &lt;font color=#ff0000 >%1$s&lt;/font> keshini tozalasangiz bo‘ladi</Data></string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat keshi. Xotiradagi joyni tozalang.</Data></string>
     <string name="saturday">Shanba</string>
     <string name="saturday_short">Shanba</string>
     <string name="saturday_shortest">Shn</string>
@@ -799,7 +830,7 @@ Fayllar: %2$d"</string>
     <string name="tips_low_storage_dialog_title">Joy tugamoqda</string>
     <string name="tips_of_app_manage">Xotira tejash uchun kamdan-kam ishlatiladigan ilovalarni o‘chiring</string>
     <string name="tips_of_auto_launch_manage">Kamdan-kan ishlatiladigan ilovalarni avtomatik boshlashini taqiqlash</string>
-    <string name="tips_of_cloud_service">Mi xizmatlarini ishlatish Mi Hisobiga kiring</string>
+    <string name="tips_of_cloud_service">Ko‘proq Xiaomi xizmatlaridan foydalanish uchun Xiaomi hisobingizga kiring</string>
     <string name="tips_of_connect">\"Xavfsizlik\" ilovani to‘liq xususiyatlarini ishlatish uchun internetga bog‘laning</string>
     <string name="tips_of_garbage_cloud_scan">Bulut skaneri orqali yashirin axlatni qidirish</string>
     <string name="tips_of_garbage_data_set">Qurilmangizda ko‘proq axlat topish uchun Tozalovchi ma’lumotlar bazasini yangilang</string>
@@ -861,7 +892,7 @@ Fayllar: %2$d"</string>
     <string name="wechat_chat_data_type_cache_desc">Bu fayllarni internetga bog‘langandan keyin tiklasa bo‘ladi.</string>
     <string name="wechat_chat_data_type_chat">Suhbat tarixi</string>
     <string name="wechat_chat_data_type_chat_desc">Suhbat tarixini tiklay olmaysiz.</string>
-    <string name="wechat_chat_data_type_normal">Axlat</string>
+    <string name="wechat_chat_data_type_normal">Chiqindi</string>
     <string name="wechat_chat_data_type_normal_clean_tips">Bu texnik fayllar. Ularning o‘chirilishi ishlashga ta’sir qilmaydi.</string>
     <string name="wechat_chat_data_type_normal_desc">Ularning o‘chirilishi ishlashga ta’sir qilmaydi.</string>
     <string name="wechat_chat_data_type_other">Boshqa</string>
@@ -907,7 +938,7 @@ Fayllar: %2$d"</string>
     <string name="whatsapp_delete_confirm_message">Hozir o‘chirilsinmi?</string>
     <string name="whatsapp_delete_confirm_ok">OK</string>
     <string name="whatsapp_delete_done">Tayyor</string>
-    <string name="whatsapp_detail_cache_result">Tozalandi %s</string>
+    <string name="whatsapp_detail_cache_result">%s tozalandi</string>
     <string name="whatsapp_detail_sort_created">Sana bo‘yicha saralash</string>
     <string name="whatsapp_file_recv">Qabul qilindi</string>
     <string name="whatsapp_file_send">Jo‘natildi</string>
