@@ -13,6 +13,10 @@
     <string name="October">តុលា</string>
     <string name="September">កញ្ញា</string>
     <string name="Updated_at">"បាន​អាប់ដេត៖ "</string>
+    <string name="accessibility_sliding_button_state_description_off">បិទ</string>
+    <string name="accessibility_sliding_button_state_description_on">បើក</string>
+    <string name="accessibility_tab_state_description_unselect">មិនបានជ្រើសរើស</string>
+    <string name="accessibility_tab_statedesc_unselect">មិនបានជ្រើសរើស</string>
     <string name="account_and_cloud">គណនី</string>
     <string name="account_logout">ចុះឈ្មោះចេញ</string>
     <string name="action_item_add">បន្ថែមទៅ</string>
@@ -123,6 +127,7 @@
     <string name="artist_name">សិល្បៈករ</string>
     <string name="asm_account_exception">កំហុសគណនីមួយបានកើតឡើង</string>
     <string name="asm_ad_free">គ្មានការផ្សាយពាណិជ្ជកម្មទេ</string>
+    <string name="asm_album_not_available_toast">មិនអាចចូលប្រើអាល់ប៊ុម</string>
     <string name="asm_batch_download_failed">មិនអាចទាញយក​​បានទេ</string>
     <string name="asm_buy_member_success">បាន​ទិញសមាជិកភាព VIP ដោយ​ជោគជ័យ</string>
     <string name="asm_check_video_playing">កំពុងចាក់វីដេអូ។ មិនអាចបន្ថែមវីដេអូទៅក្នុងបញ្ជីចម្រៀងបានទេ។</string>
@@ -130,7 +135,7 @@
     <string name="asm_delete_all">លុប</string>
     <string name="asm_delete_all_data">លុបទិន្នន័យទាំងអស់</string>
     <string name="asm_delete_all_data_failed">មិនអាចលុបទិន្នន័យបាន។ សូមព្យាយាម​ម្តង​ទៀត។</string>
-    <string name="asm_delete_all_data_loading">សូមរង់ចាំមួយភ្លែត…</string>
+    <string name="asm_delete_all_data_loading">សូមរង់ចាំបន្តិច…</string>
     <string name="asm_delete_all_data_no_net">ទាមទារឱ្យមានការភ្ជាប់អ៊ីនធឺណិត ដើម្បីផ្ទៀងផ្ទាត់អត្តសញ្ញាណរបស់អ្នក និងលុបទិន្នន័យ។ ភ្ជាប់អ៊ិនធឺណិត ហើយព្យាយាមម្តងទៀត។</string>
     <string name="asm_delete_all_data_success">បានលុបទិន្នន័យដោយជោគជ័យ</string>
     <string name="asm_delete_all_data_tips">"ប្រសិនបើអ្នកបន្ត អ្នកនឹងលុបទិន្នន័យកម្មវិធីទាំងអស់ រួមទាំងបទចម្រៀង បញ្ជីចម្រៀង និងប្រវត្តិរុករក។
@@ -193,6 +198,7 @@
     <string name="asm_guide_swip_look">អូសដើម្បីមើលជាមុន</string>
     <string name="asm_hate_ads">គ្មានការផ្សាយពាណិជ្ជកម្មទេ ខែដំបូងឥតគិតថ្លៃ</string>
     <string name="asm_hq">គុណភាពខ្ពស់</string>
+    <string name="asm_item_not_available_toast">មិនអាចទទួលបានទិន្នន័យ</string>
     <string name="asm_loadstate_error_retry">តភ្ជាប់អ៊ីនធឺណិត ហើយព្យាយាមចុចម្តងទៀត</string>
     <string name="asm_loadstate_not_more">ឥឡូវនេះអស់អ្វីដែលថ្មីទៀតហើយ</string>
     <string name="asm_main_section_best_sellers">លក់ដាច់បំផុត</string>
@@ -225,6 +231,24 @@
     <string name="asm_privacy_desc">គោលការណ៍​ឯកជន​ភាពរបស់ក្រុមហ៊ុន ASM</string>
     <string name="asm_privacy_tips_content">យល់ព្រមចំពោះ<a href="/link/click">គោលការណ៍​​ឯកជនភាពរបស់ក្រុមហ៊ុន ASM</a> ដើម្បីអាច​ប្រើ​សេវាកម្ម​តន្ត្រីតាមអនឡាញបាន។</string>
     <string name="asm_privacy_tips_title">គោលការណ៍​​ឯកជនភាពរបស់ក្រុមហ៊ុន ASM</string>
+    <string name="asm_private_account_info">ព័ត៌មានគណនី</string>
+    <string name="asm_private_avatar">រូបថតប្រវត្តិរូប</string>
+    <string name="asm_private_data_downloading_toast">កំពុងទាញយក។ កុំចាកចេញពីទំព័រនេះ។</string>
+    <string name="asm_private_download_data">ទាញយកព័ត៌មាន​ផ្ទាល់ខ្លួន</string>
+    <string name="asm_private_download_data_title">ទាញយកព័ត៌មាន​ផ្ទាល់ខ្លួន</string>
+    <string name="asm_private_download_success_toast">បានទាញយកដោយជោគជ័យ។ មើលនៅក្នុង %s ។</string>
+    <string name="asm_private_download_toast">មិន​អាចទាញយក​បាន។​ សូមព្យាយាម​ម្ដងទៀត។</string>
+    <string name="asm_private_download_tool">ទាញយកច្បាប់ចម្លងនៃព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកពីកម្មវិធីនេះ</string>
+    <string name="asm_private_download_tool_description">ប្រើឧបករណ៍នេះដើម្បីទាញយកច្បាប់ចម្លងនៃព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកដែលយើងខ្ញុំមាន។ អ្នកអាចទាញយកប្រភេទតែមួយ ឬព័ត៌មានទាំងអស់របស់អ្នកក្នុងពេលតែមួយដោយជ្រើសរើសខាងក្រោម។</string>
+    <string name="asm_private_downloaded_songs">បានទាញយកចម្រៀងអនឡាញ</string>
+    <string name="asm_private_favorite_lists">បញ្ជីចម្រៀងអនឡាញ អាល់ប៊ុម ចម្រៀង និងសិល្បករបានបន្ថែមទៅចំណូលចិត្តរបស់អ្នក</string>
+    <string name="asm_private_id">លេខសម្គាល់</string>
+    <string name="asm_private_playback_info">ព័ត៌​មាន​នៃការចាក់តន្រ្តី</string>
+    <string name="asm_private_recently_played_online">ចម្រៀងអនឡាញដែលបានចាក់ថ្មីៗ</string>
+    <string name="asm_private_request_info">អនុវត្ត</string>
+    <string name="asm_private_search_history">ប្រវត្តិស្វែងរកលើអនឡាញ</string>
+    <string name="asm_private_self_songlist">មិនអាចបង្កើត​​បញ្ជីចម្រៀង</string>
+    <string name="asm_private_username">ឈ្មោះ​អ្នកប្រើប្រាស់</string>
     <string name="asm_pro_center">សមាជិកភាព</string>
     <string name="asm_quality_hi_res_dialog_message">ឯកសារ Hi-Res មានទំហំធំហើយត្រូវប្រើទំហំផ្ទុកនៅលើឧបករណ៍របស់អ្នក។ ឧបករណ៍ខ្លះនឹងមិនអាចប្រើឯកសារ Hi-Res បានទេ។ ការបាត់បង់ឬ ខូចទម្រង់សំឡេង មានន័យថាឧបករណ៍របស់អ្នកមិនអាចប្រើឯកសារនេះ ហើយអ្នកត្រូវប្តូរប្រើគុណភាព CD ឬ MP3 វិញ។ បន្ត?</string>
     <string name="asm_quality_hi_res_dialog_title">អំពី Hi-Res files</string>
@@ -244,6 +268,7 @@
 "<font size="55"><b>ស្តាំពិរោះគ្រប់ចង្វាក់</b></font></string>
     <string name="asm_songlist_all_genre_close">ពង្រួមទាំងអស់</string>
     <string name="asm_songlist_all_genre_title">ប្រភេទទាំងអស់</string>
+    <string name="asm_songlist_not_available_toast">មិនអាចចូលប្រើបញ្ជីចម្រៀង</string>
     <string name="asm_songs_is_downloading">កំពុង​ទាញយក​ចម្រៀង…</string>
     <string name="asm_stop_action_when_no_network">តភ្ជាប់ទៅបណ្តាញ ហើយព្យាយាមម្តងទៀត</string>
     <string name="asm_subscribe_now">ចាប់ផ្ដើម</string>
@@ -263,6 +288,7 @@
     <string name="asm_ws_now_playing_listen">ស្តាប់កំណែពេញ</string>
     <string name="asm_ws_pre_listen">ស្តាប់ជាមុន%d-វិនាទី</string>
     <string name="asm_ws_privacy_bottom_title">ពិភពនៃតន្ត្រីកំពុងតែនៅជិតអ្នក</string>
+    <string name="asm_ws_privacy_link">គោលការណ៍​​ឯកជនភាពនៃ Vansound</string>
     <string name="asm_ws_privacy_tips_content">អាននិងយល់ព្រមចំពោះ <font size="18"><b><a href="/link/click">គោលការណ៍​​ឯកជនភាព Vansound</a></b></font> ដើម្បីចាប់ផ្តើមស្តាប់តន្ត្រីអនឡាញ។</string>
     <string name="asm_ws_privacy_tips_title">យើងខ្ញុំគោរពឯកជនភាពរបស់អ្នក</string>
     <string name="asm_ws_ready_exp">ត្រៀមខ្លួនហើយឬនៅសម្រាប់បទពិសោធន៍យ៉ាងពេញលេញ?</string>
@@ -479,7 +505,7 @@
     <string name="eq_preset_hint">ឈ្មោះបែបផែន</string>
     <string name="eq_preset_select">ជ្រើសកំណត់ជាមុន</string>
     <string name="eq_rock">ចង្វាក់​រ៉ុក</string>
-    <string name="equalizer">Equalizer</string>
+    <string name="equalizer">មុខងារកែសម្រួលចង្វាក់ភ្លេង</string>
     <string name="eras_ad">គ្រិស្តសករាជ</string>
     <string name="eras_bc">មុនគ្រិស្តសករាជ</string>
     <string name="error_not_support">មិនគាំទ្រ</string>
@@ -543,17 +569,17 @@
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
-    <string name="fmt_date_long_month_day">MMMM d</string>
+    <string name="fmt_date_long_month_day">d MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">d MMMM yyyy</string>
+    <string name="fmt_date_long_year_month_day">dd MMMM yyyy</string>
     <string name="fmt_date_numeric_day">d</string>
     <string name="fmt_date_numeric_month">M</string>
-    <string name="fmt_date_numeric_month_day">M-d</string>
+    <string name="fmt_date_numeric_month_day">d-M</string>
     <string name="fmt_date_numeric_year">yyyy</string>
     <string name="fmt_date_numeric_year_month">M-yyyy</string>
     <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
     <string name="fmt_date_short_month">MMM</string>
-    <string name="fmt_date_short_month_day">MMM d</string>
+    <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
     <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
     <string name="fmt_date_time">D T</string>
@@ -613,7 +639,7 @@
     <string name="handle_later">មិនមែនឥឡូវទេ</string>
     <string name="hd_quality_audio">HD ដែលមានគុណភាពខ្ពស់</string>
     <string name="headset_and_audio_effect_category">កាសស្តាប់ និង បែបផែនសំឡេង</string>
-    <string name="headset_and_audio_effect_summary">កាស និង Equalizer</string>
+    <string name="headset_and_audio_effect_summary">កាស និង មុខងារកែសម្រួលចង្វាក់ភ្លេង</string>
     <string name="headset_and_audio_effect_title">កាសស្តាប់ និង បែបផែនសំឡេង</string>
     <string name="hgm_failed_to_connect_hint">សូមពិនិត្យសំណុំកំណត់បណ្តាញរបស់អ្នក ហើយព្យាយាមម្តងទៀត។ ប្រសិនបើបញ្ហាគឺជាកំហុសម៉ាស៊ីនមេផ្ទុកទិន្នន័យ hungama យើងនឹងជួសជុលវាឱ្យបានឆាប់បំផុតតាមដែលអាចធ្វើទៅបាន។</string>
     <string name="hgm_has_offline">មិនអាចលេងតន្ត្រីដែលផ្តល់ដោយ hungama បានទេ។</string>
@@ -741,10 +767,10 @@
     <string name="list_item_play_all_tracks">លេងទាំងអស់</string>
     <string name="listen_anywhere">ស្តាប់គ្រប់ទីកន្លែង</string>
     <string name="load_shuffle">កំពុងផ្ទុក…</string>
-    <string name="loadercontainer_loading">សូមចាំមួយភ្លែត…</string>
-    <string name="loading_hint">សូមចាំមួយ​ភ្លែត…</string>
+    <string name="loadercontainer_loading">សូមរង់ចាំបន្តិច…</string>
+    <string name="loading_hint">សូមរង់ចាំបន្តិច…</string>
     <string name="loading_reached_the_bottom">ពេលនេះអស់អ្វីដែលថ្មីហើយ។</string>
-    <string name="loading_text">សូមចាំមួយភ្លែត…</string>
+    <string name="loading_text">សូមរង់ចាំបន្តិច…</string>
     <string name="local_ad_title">ការផ្សព្វផ្សាយ</string>
     <string name="local_download_download">ទាញយក</string>
     <string name="local_download_hint">បើក Wi-Fi មុនពេលទាញយក</string>
@@ -791,7 +817,7 @@
     <string name="lyric_ai_state_default">មិនស្គាល់ចម្រៀងទេ</string>
     <string name="lyric_ai_state_fail">មិនអាចសម្គាល់អត្ថបទចម្រៀងបានទេ</string>
     <string name="lyric_ai_state_identify">សម្គាល់</string>
-    <string name="lyric_ai_state_identifying">សូមចាំមួយភ្លែត…</string>
+    <string name="lyric_ai_state_identifying">សូមរង់ចាំបន្តិច…</string>
     <string name="lyric_ai_state_use">ប្រើ​</string>
     <string name="lyric_ai_success_toast">មាតិកាត្រូវបានបង្កើតដោយបច្ចេកវិទ្យាសម្គាល់ការនិយាយដោយស្វ័យប្រវត្ត។ អ្នកអាចបិទនៅក្នុងសំណុំកំណត់ > សំណុំកំណត់កម្រិតខ្ពស់។</string>
     <string name="lyric_ai_title">ការស្គាល់អត្ថបទចម្រៀង AI</string>
@@ -843,6 +869,10 @@
     <string name="miuishare_title_more">បន្ថែម</string>
     <string name="miuishare_title_share">ចែករំលែក​</string>
     <string name="miuix_access_state_desc">បានជ្រើសរើស</string>
+    <string name="miuix_accessibility_title">ចំណងជើង</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">ចាកចេញពីរបៀប​កែសម្រួល</string>
+    <string name="miuix_appcompat_accessibility_new_message">សារថ្មី</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">កែប្រែរបាយការណ៍</string>
     <string name="miuix_appcompat_action_mode_deselect_all">ដកការជ្រើសរើសទាំងអស់</string>
     <string name="miuix_appcompat_action_mode_select_all">ជ្រើសរើសទាំងអស់</string>
     <string name="miuix_appcompat_action_mode_title_empty">ជ្រើសរើស​​ធាតុ</string>
@@ -858,6 +888,7 @@
     <string name="miuix_appcompat_select_all">ជ្រើសរើសទាំងអស់</string>
     <string name="miuix_appcompat_select_all_description">ជ្រើសទាំងអស់</string>
     <string name="miuix_appcompat_select_item">ជ្រើសរើស​​ធាតុ</string>
+    <string name="miuix_progressbar_loading">កំពុងបញ្ចូល</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ទាញចុះក្រោមដើម្បីរីហ្វ្រេស</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">បានរីហ្វ្រែសដោយជោគជ័យ</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">កំពុង​រីហ្វ្រែស…</string>
@@ -866,6 +897,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">អស់ហើយសម្រាប់ពេលនេះ</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">សូមចាំមួយភ្លែត…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">មិនអាចទាញធាតុបានទេ</string>
+    <string name="miuix_show_password">បង្ហាញពាក្យសម្ងាត់</string>
     <string name="modify_lyric">កែទំនុក</string>
     <string name="modify_pic">ផ្លាស់ប្ដូរគ្រប</string>
     <string name="modify_progress">ប្តូរល្បឿងទាញរបស់ទំនុក</string>
@@ -1023,6 +1055,7 @@
     <string name="operation_done_close">បិទ</string>
     <string name="other_song_in_album">ចម្រៀង​ផ្សេងទៀត​ពីអាល់ប៊ុម​នេះ​</string>
     <string name="party">ជប់លៀង</string>
+    <string name="pasport_register_dialog_message">បង្កើតគណនី Xiaomi ដោយប្រើលេខទូរសព្ទរបស់អ្នក %s ឥឡូវនេះ?</string>
     <string name="passport_access_denied">បានបដិសេធ​ការចូលប្រើ</string>
     <string name="passport_account_crop_user_avatar">ច្រឹបរូបថត</string>
     <string name="passport_account_empty_user_name">បញ្ចូលឈ្មោះរបស់អ្នក</string>
@@ -1039,7 +1072,7 @@
     <string name="passport_account_secure_info_pref_title">ព័ត៌មាន​អំពី​គណនី</string>
     <string name="passport_account_security_info_pref_title">ព័ត៌មានសុវត្ថិភាព</string>
     <string name="passport_account_user_avatar">រូបថតប្រវត្តិរូប</string>
-    <string name="passport_account_user_avatar_from_album">វិចិត្រសាល</string>
+    <string name="passport_account_user_avatar_from_album">ជ្រើសរើសពីវិចិត្រសាល</string>
     <string name="passport_account_user_avatar_from_camera">កាមេរ៉ា</string>
     <string name="passport_account_user_base_info">ព័ត៌មានមូលដ្ឋាន</string>
     <string name="passport_account_user_details">ព័ត៌មានផ្ទាល់ខ្លួន</string>
@@ -1111,7 +1144,6 @@
     <string name="passport_login_register_by_local_phone_long_text">បង្កើតគណនី</string>
     <string name="passport_login_with_sns">វិធីផ្សេងទៀតក្នុងការចុះឈ្មោះចូល</string>
     <string name="passport_logout_account">ចុះឈ្មោះចេញ</string>
-    <string name="passport_mi_account_first_title">យើងខ្ញុំនឹងបង្កើតគណនីដោយស្វ័យប្រវត្តិ ប្រសិនបើអ្នកប្រើលេខទូរស័ព្ទរបស់អ្នកជាលើកដំបូង។</string>
     <string name="passport_mi_account_title">ចូលចុះឈ្មោះចូលដោយប្រើគណនី Xiaomi</string>
     <string name="passport_network_error">មានបញ្ហាបណ្តាញបានកើតឡើង។ សូមពិនិត្យសំណុំកំណត់បណ្តាញរបស់អ្នក ហើយព្យាយាមម្តងទៀត</string>
     <string name="passport_network_error_hint">សូមពិនិត្យ URL ហើយព្យាយាមម្តងទៀត ឬចម្លង URL ហើយបើកវានៅក្នុងកម្មវិធីរុករករបស់អ្នក។</string>
@@ -1131,6 +1163,8 @@
     <string name="passport_reging">កំពុង​បង្កើត​គណនី…</string>
     <string name="passport_register_by_local_phone_long_text">បង្កើតគណនី</string>
     <string name="passport_register_by_local_phone_short_text">បង្កើតគណនី</string>
+    <string name="passport_register_dialog_positive">បង្កើត</string>
+    <string name="passport_register_dialog_title">បង្កើតគណនី Xiaomi</string>
     <string name="passport_register_restricted">មាន​គណនី​ច្រើនពេក​ដែល​មាន​ទំនាក់ទំនង​ជាមួយនឹង​លេខ​នេះ។ សូមព្យាយាម​ប្រើ​លេខ​មួយ​ផ្សេងទៀត។</string>
     <string name="passport_relogin_notice">អ្នក​ត្រូវ​ការចុះឈ្មោះចូល​ម្ដងទៀត</string>
     <string name="passport_request_agree">អនុញ្ញាត</string>
@@ -1139,7 +1173,8 @@
     <string name="passport_request_error_invalid_token">មិនអាចផ្ទៀងផ្ទាត់បានទេ</string>
     <string name="passport_request_error_network">មានបញ្ហាបណ្ដាញបានកើតឡើង។ សូមពិនិត្យសំណុំកំណត់បណ្តាញរបស់អ្នក ហើយព្យាយាមម្តងទៀត</string>
     <string name="passport_request_error_unknown">មានបញ្ហាប្រព័ន្ធបានកើតឡើង។ សូមថយក្រោយ រួចព្យាយាមម្ដងទៀត។</string>
-    <string name="passport_request_gallery_permission_message">អនុញ្ញាតឱ្យចូលប្រើវិចិត្រសាល៖ &lt;br />សម្រាប់ការកំណត់រូបថតប្រវត្តិរូប</string>
+    <string name="passport_request_gallery_permission_message">កម្មវិធីនេះ​ត្រូវ​ការ​ចូល​ប្រើ​ធាតុ​ក្នុងវិចិត្រសាលដែលបានជ្រើសរើស​ ដើម្បីអាច​កំណត់រូបថតប្រវត្តិរូបរបស់អ្នកបាន។ អនុញ្ញាត​ឥឡូវឬទេ?</string>
+    <string name="passport_request_permission_title">ទា​ម​ទារការ​អ​នុញ្ញាត</string>
     <string name="passport_resend_ticket">បានផ្ញើកូដសារជាថ្មី</string>
     <string name="passport_retry">ព្យាយាមម្ដងទៀត</string>
     <string name="passport_send_sms_to">បានផ្ញើកូដទៅ %1$s</string>
@@ -1160,15 +1195,15 @@
     <string name="passport_to_verify_code_login">ចុះឈ្មោះចូលដោយ​ប្រើ​សារ SMS</string>
     <string name="passport_unknown_error">កំហុសមិនស្គាល់</string>
     <string name="passport_unknown_host_network_error">សូមពិនិត្យសំណុំកំណត់បណ្តាញរបស់អ្នក ហើយព្យាយាមម្តងទៀត</string>
-    <string name="passport_user_agreement_hint_3rd_app"><Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a> និង&lt;a href=%3$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> ព្រមទាំង&lt;a href=%4$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi។</Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a> &lt;a href=%3$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%4$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%5$s>ខ និង លក្ខខណ្ឌរបស់សេវាកម្មផ្ទៀងផ្ទាត់ China Mobile&lt;/a>។</Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a> &lt;a href=%3$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%4$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%5$s>ខ និង លក្ខខណ្ឌរបស់សេវាកម្មផ្ទៀងផ្ទាត់ eSurfing&lt;/a>។</Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a> &lt;a href=%3$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%4$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%5$s>ខ និង លក្ខខណ្ឌរបស់សេវាកម្មផ្ទៀងផ្ទាត់ China Unicom&lt;/a>។</Data></string>
-    <string name="passport_user_agreement_hint_default"><Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi។</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a> និង&lt;a href=%3$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> ព្រមទាំង&lt;a href=%4$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi។&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a> &lt;a href=%3$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%4$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%5$s>លក្ខខណ្ឌនៃការប្រើប្រាស់របស់សេវាកម្មផ្ទៀងផ្ទាត់ China Mobile&lt;/a>។&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a> &lt;a href=%3$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%4$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%5$s>លក្ខខណ្ឌនៃការប្រើប្រាស់របស់សេវាកម្មផ្ទៀងផ្ទាត់ eSurfing&lt;/a>។&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a> &lt;a href=%3$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%4$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%5$s>លក្ខខណ្ឌនៃការប្រើប្រាស់របស់សេវាកម្មផ្ទៀងផ្ទាត់ China Unicom&lt;/a>។&lt;/Data></string>
+    <string name="passport_user_agreement_hint_default">&lt;Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi។&lt;/Data></string>
     <string name="passport_user_agreement_hint_first_login">យើងនឹងបង្កើតគណនីដោយស្វ័យប្រវត្តិ ប្រសិនបើអ្នកកំពុងប្រើលេខទូរសព្ទរបស់អ្នកជាលើកដំបូង។</string>
-    <string name="passport_user_agreement_hint_with_mobile"><Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%3$s>ខ និង លក្ខខណ្ឌរបស់សេវាកម្មផ្ទៀងផ្ទាត់ China Mobile&lt;/a>។</Data></string>
-    <string name="passport_user_agreement_hint_with_telecom"><Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%3$s>ខ និង លក្ខខណ្ឌរបស់សេវាកម្មផ្ទៀងផ្ទាត់ eSurfing&lt;/a>។</Data></string>
-    <string name="passport_user_agreement_hint_with_unicom"><Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%3$s>ខ និង លក្ខខណ្ឌរបស់សេវាកម្មផ្ទៀងផ្ទាត់ China Unicom&lt;/a>។</Data></string>
+    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%3$s>លក្ខខណ្ឌនៃការប្រើប្រាស់របស់សេវាកម្មផ្ទៀងផ្ទាត់ China Mobile&lt;/a>។&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%3$s>លក្ខខណ្ឌនៃការប្រើប្រាស់របស់សេវាកម្មផ្ទៀងផ្ទាត់ eSurfing&lt;/a>។&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>ខ្ញុំបានអាន និងយល់ព្រមតាម&lt;a href=%1$s>កិច្ចព្រមព្រៀងអ្នកប្រើប្រាស់&lt;/a> និង&lt;a href=%2$s>គោលការណ៍​​ឯកជនភាព&lt;/a>របស់គណនី Xiaomi ក៏ដូចជា&lt;a href=%3$s>លក្ខខណ្ឌនៃការប្រើប្រាស់របស់សេវាកម្មផ្ទៀងផ្ទាត់ China Unicom&lt;/a>។&lt;/Data></string>
     <string name="passport_user_avatar_update_title">ផ្លាស់ប្ដូររូបថតប្រវត្តិរូប</string>
     <string name="passport_user_avatar_uploading">សូមចាំមួយភ្លែត…</string>
     <string name="passport_user_id_hint">អ៊ីមែល/លេខទូរស័ព្ទ/ID គណនី Xiaomi</string>
@@ -1292,8 +1327,8 @@
     <string name="repeat_current_notif">ចាក់ចំរៀង​បច្ចុប្បន្ន​ឡើងវិញ</string>
     <string name="request_overlay_permission_desc">អនុញ្ញាតឱ្យ Mi Music បង្ហាញបង្អួចអណ្តែត ដើម្បីអាចប្រើមុខងារពិសេសនេះបាន។</string>
     <string name="request_privacy_permission_title">សូមអាននិងយល់ព្រមនឹងខនិងល័ក្ខខ័ណ្ឌខាងក្រោម ដើម្បីប្រើប្រាស់សេវាកម្មរបស់យើងទាំងអស់បាន។</string>
-    <string name="request_share_info">សូមចាំមួយភ្លែត…</string>
-    <string name="request_subscription_status">សូមចាំមួយភ្លែត…</string>
+    <string name="request_share_info">សូមរង់ចាំបន្តិច…</string>
+    <string name="request_subscription_status">សូមរង់ចាំបន្តិច…</string>
     <string name="restart_immediate">បិទហើយបើកឡើងវិញ</string>
     <string name="retry">សូម​ព្យាយាម​ម្តង​ទៀត</string>
     <string name="revoke_upload_playlist_to_hungama_toast">ចម្រៀងលើអ៊ីនធឺណិតនឹងមិនត្រូវបានធ្វើបច្ចុប្បន្នភាពទៅក្នុង hungama ទេ</string>
@@ -1408,6 +1443,7 @@
     <string name="snow_ui_sound_effect_adjustment">ការកែតម្រូវដោយខ្លួនឯង</string>
     <string name="snow_ui_sound_enhancement">បង្កើនប្រសិទ្ធភាពសំឡេង</string>
     <string name="snow_ui_title_equalizer">មុខងារកែសម្រួលចង្វាក់ភ្លេង</string>
+    <string name="snow_ui_title_equalizer_toast">មិនអាចប្រើមុខងារកែសម្រួលចង្វាក់ភ្លេងនៅលើឧបករណ៍នេះទេ។ ការកំណត់ជាមុនមិនត្រូវបានអនុវត្តទេ។</string>
     <string name="snow_ui_toast_equalizer_not_enabled">មុខងារកែសម្រួលចង្វាក់ភ្លេងត្រូវបានបិទ</string>
     <string name="song_already_in_playlist">បទចម្រៀងនេះមាននៅក្នុងបញ្ជី​ចំរៀងរួចហើយ</string>
     <string name="song_exist_in_playlist">បទចម្រៀងនេះមាននៅក្នុង​ជួររួចហើយ</string>
@@ -1421,7 +1457,7 @@
     <string name="song_quality_category">តន្រ្តី</string>
     <string name="song_swipe_navigation">អូសទៅឆ្វេង ឬស្តាំដើម្បីប្តូរចម្រៀង</string>
     <string name="songgroup_pick_album">អាល់ប៊ុម</string>
-    <string name="songgroup_pick_playlist">បញ្ជីចំរៀង</string>
+    <string name="songgroup_pick_playlist">បញ្ជីចម្រៀង</string>
     <string name="sort_by_name">ឈ្មោះ</string>
     <string name="sort_by_time">កាលបរិច្ឆេទ</string>
     <string name="sound_fade_in_and_out_when_change_song_automatically">សាកល្បងការបន្ថយសម្លេងពេលប្តូរបទចម្រៀងអំឡិងពេលចាក់</string>
@@ -1446,32 +1482,46 @@
     <string name="tab_chart">តារាង</string>
     <string name="tab_flow">មើល</string>
     <string name="tab_folder">សឺមី</string>
-    <string name="tab_playlist">បញ្ជីចំរៀង</string>
+    <string name="tab_playlist">បញ្ជីចម្រៀង</string>
     <string name="tab_top_results">លទ្ធផលខ្ពស់ជាងគេ</string>
     <string name="tab_track">ចំរៀង</string>
     <string name="tab_track_list">ចំរៀង</string>
     <string name="tab_video">វីដេអូ</string>
     <string name="take_effect_afater_restart">អ្នក​ត្រូវ​ការ​បើក​កម្មវិធីជាថ្មី​សម្រាប់​ឱ្យ​សំណុំកំណត់នេះ​ដំណើរការ​បាន</string>
+    <string name="talkback_ad">ការផ្សាយពាណិជ្ជកម្ម</string>
     <string name="talkback_back">ថយ​ក្រោយ</string>
     <string name="talkback_batch_process">ធាតុច្រើន</string>
     <string name="talkback_clear">លុប</string>
     <string name="talkback_cut">កម្មវិធីកែច្នៃសំឡេងរោទ៍</string>
     <string name="talkback_device">ចាក់​នៅលើ​ឧបករណ៍ដ៏ទៃ​</string>
     <string name="talkback_download">ទាញយក</string>
+    <string name="talkback_drag_left">ព្រំដែនខាងឆ្វេង អូសដោយប្រើម្រាមដៃពីរដើម្បីកែតម្រូវ។</string>
+    <string name="talkback_drag_right">ព្រំដែនខាងស្តាំ អូសដោយប្រើម្រាមដៃពីរដើម្បីកែតម្រូវ។</string>
     <string name="talkback_favorite">ចូលចិត្ត​ចំរៀងនេះ</string>
+    <string name="talkback_float_ball">បាល់រហ័ស</string>
+    <string name="talkback_full_screen">ផ្ទៃអេក្រង់ពេញ</string>
     <string name="talkback_karaoke">បើក​ខារ៉ាអូខេ</string>
+    <string name="talkback_like">ចូលចិត្ត</string>
+    <string name="talkback_list">第%1$d项，共%2$d项</string>
     <string name="talkback_mode">បញ្ជីចំរៀង​វិលជុំ</string>
     <string name="talkback_mode_repeat_all">បង្កើតបញ្ជីម៉ូដ​លេង​វិលជុំ</string>
     <string name="talkback_mode_repeat_current">ម៉ូដ​លេង​វិលជុំម្តង​</string>
     <string name="talkback_mode_repeat_shuffle">ម៉ូដ​លេង​វិលជុំ​មិន​តាម​លំដាប់​</string>
     <string name="talkback_more">មីនុយ​ច្រើនទៀត​</string>
+    <string name="talkback_mute">静音</string>
     <string name="talkback_next">ចំរៀងបន្ទាប់</string>
     <string name="talkback_nowplaying_bar">របា​រចាក់</string>
     <string name="talkback_nowplaying_circle">ចាក់លេងវិលជុំ</string>
     <string name="talkback_play">លេង​ / ផ្អាក​</string>
     <string name="talkback_pre">ចំរៀងពីមុន​</string>
+    <string name="talkback_refresh">បើកឡើងវិញ</string>
+    <string name="talkback_replay">ចាក់ម្តងទៀត</string>
     <string name="talkback_search">ស្វែងរក</string>
+    <string name="talkback_shift_left">ប្តូរទៅឆ្វេង</string>
+    <string name="talkback_shift_right">ប្តូរទៅស្តាំ</string>
     <string name="talkback_show_navigation_draw">បង្ហាញថត</string>
+    <string name="talkback_skin_switch">左右滑动可切换</string>
+    <string name="talkback_voice_input">បញ្ចូលសំឡេង</string>
     <string name="task_card_button_exchange">ប្ដូរយក</string>
     <string name="task_card_message_received_successfully">អ្នកបានបញ្ចប់កិច្ចការថ្ងៃនេះហើយ។ ប្តូរកាក់របស់អ្នកឥឡូវនេះ!</string>
     <string name="task_card_title_received_successfully">បានទទួលដោយជោគជ័យ</string>
@@ -1664,7 +1714,7 @@
     <string name="youtube_store_dialog_desc">អ្នកអាចស្វែងរកវីដេអូតាមអនឡាញ ដែលអ្នកបានបញ្ចូលទៅក្នុងចំណូលចិត្តនៅទីនេះ។ ប្រសិនបើវីដេអូត្រូវបានផ្ទុកពីមុន អ្នកនឹងមិនចាំបាច់ប្រើទិន្នន័យចល័តដើម្បីមើលវាម្តងទៀតនៅពេលក្រោយទេ។</string>
     <string name="youtube_store_dialog_ok">យល់ហើយ</string>
     <string name="youtube_tab_explore">រកមើល</string>
-    <string name="youtube_tab_playlist">បញ្ជី​ចាក់បទចម្រៀង</string>
+    <string name="youtube_tab_playlist">បញ្ជី​ចម្រៀង</string>
     <string name="youtube_tab_popular">ពេញនិយម</string>
     <string name="youtube_tab_radar">រ៉ាដា</string>
     <string name="youtube_tab_shorts">ខ្លី</string>
