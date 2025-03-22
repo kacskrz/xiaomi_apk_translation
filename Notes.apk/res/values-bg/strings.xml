@@ -49,9 +49,15 @@
     <string name="afternoon">Следобяд</string>
     <string name="ai_already_copy_toast_text">Успешно копирано</string>
     <string name="ai_already_insert_toast_text">Поставен е оригинала</string>
+    <string name="ai_button_cancel">Отказ</string>
+    <string name="ai_button_close">Изключване</string>
+    <string name="ai_button_retry">Повторен опит</string>
     <string name="ai_check">AI корекция</string>
     <string name="ai_complete_summary_title">Обобщение</string>
     <string name="ai_content_generates_reminders">Това съдържание е генерирано от AI и е предоставено само за Ваша справка.</string>
+    <string name="ai_dialog_cancel_message">Опитайте да изключите Компютърната поддръжка, за да можете да използвате AI писане в облака.</string>
+    <string name="ai_dialog_retry_message">Натиснете бутона отдолу за повторен опит.</string>
+    <string name="ai_dialog_title">Не можете да използвате тази функция в момента</string>
     <string name="ai_failed">Неуспешно генериране. Опитайте отново.</string>
     <string name="ai_feature_disabled">Многократно нарушихте стандартите на общността. Тази функция вече не е налична.</string>
     <string name="ai_generate_stop_button">Стоп</string>
@@ -64,6 +70,7 @@
     <string name="ai_involve_sensitive_word_title">Неуспешно генериране на съдържание, свързано с чувствителни теми</string>
     <string name="ai_label">AI функции</string>
     <string name="ai_layout">AI оформление</string>
+    <string name="ai_llm_dis_connect_error_message">Сесията за Компютърна поддръжка беше прекъсната. Проверете мрежовите настройки и опитайте отново.</string>
     <string name="ai_local_device_low_battery_title">Ниска батерия. Заредете и опитайте отново.</string>
     <string name="ai_local_device_over_heat_title">Устройството е прегряло. Опитайте отново по-късно.</string>
     <string name="ai_local_language_unsupported_title">Този език не се поддържа</string>
@@ -71,6 +78,7 @@
     <string name="ai_multiple_violations_permanent_ban_title">Вие сте нарушили нашите указания и Ви е забранено перманентно да използвате тази функция</string>
     <string name="ai_multiple_violations_temporary_ban_title">Вие нарушихте нашите указания и временно Ви беше забранено да използвате тази функция</string>
     <string name="ai_no_error">Не са открити грешки</string>
+    <string name="ai_progress_dialog_message">Свързване към устройството…</string>
     <string name="ai_recommend_send_icon_talkback_text">Изпращане</string>
     <string name="ai_result_warn">Съдържанието по-горе е генерирано от AI. Точността може да варира.</string>
     <string name="ai_search_database_building_progress">Анализиране на бележки за предоставяне на по-точни резултати…</string>
@@ -101,6 +109,7 @@
     <string name="ai_when_mistake_title">Възникна грешка. Опитайте отново.</string>
     <string name="ai_writing_invite_beta_testing_content">Тази функция използва големи възможности на модела, за да коригира, разшири, обобщи и подобри вашето писане. Можете също да въведете подкани и да оставите AI да пише вместо вас. Натиснете „Приемам“, за да го изпробвате!</string>
     <string name="ai_writing_invite_beta_testing_title">Бета тестване на AI писане</string>
+    <string name="ai_writing_local_message">Използвайте модели на устройството за AI писане</string>
     <string name="aicr_download_confirm">Изтегляне</string>
     <string name="aicr_download_content">Изтеглете необходимите големи модели, за да можете да използвате функциите за писане на AI. Изтегляне сега?</string>
     <string name="aicr_download_title">Изтегляне на голям модел</string>
@@ -698,7 +707,7 @@
     <string name="permission_read_contact_desc">Асоцииране на направените по време на обаждания бележки с контакти</string>
     <string name="permission_storage_desc_new_v12">За добавяне на изображения към бележки и запазване на бележки като изображения</string>
     <string name="permission_storage_desc_pad_new_v12">За добавяне на изображения към бележки и запазване на бележки като изображения</string>
-    <string name="permission_xiaoai_desc_n">&lt;Data>За да предостави услуги за преобразуване на реч в текст, Бележки трябва да събере изговорено аудио съдържание и IMEI на Вашето устройство. Прочетете и приемете &lt;a href=\"%1$s\">Декларацията за споделяне на данни от трети страни на Бележки&lt;/a>, преди да използвате тази функция. Можете да научите повече за свързаните функции, като прочетете &lt;a href=\"%2$s\">Правилата за поверителност&lt;/a> на Mi AI.&lt;/Data></string>
+    <string name="permission_xiaoai_desc_n"><Data>За да предостави услуги за преобразуване на реч в текст, Бележки трябва да събере изговорено аудио съдържание и IMEI на Вашето устройство. Прочетете и приемете &lt;a href=\"%1$s\">Декларацията за споделяне на данни от трети страни на Бележки&lt;/a>, преди да използвате тази функция. Можете да научите повече за свързаните функции, като прочетете &lt;a href=\"%2$s\">Правилата за поверителност&lt;/a> на Mi AI.</Data></string>
     <string name="permission_xiaoai_title">Реч в текст</string>
     <string name="permlab_accessNote">Достъп до бележките</string>
     <string name="pm">PM</string>
@@ -930,7 +939,7 @@
     <string name="today">Днес</string>
     <string name="todo_alert_title_delete">Изтрий завършените задачи</string>
     <string name="todo_audio_default_content">"[Гласова задача] "</string>
-    <string name="todo_custom_remind_tag_pattern_with_md">dd/MM HH:mm</string>
+    <string name="todo_custom_remind_tag_pattern_with_md">dd.MM HH:mm</string>
     <string name="todo_custom_remind_tag_pattern_with_ymd">dd.MM.yyyy HH:mm</string>
     <string name="todo_edit_audio_hint">Изговорете задачата</string>
     <string name="todo_edit_btn_cancel_remind">Отмени напомнянето</string>
