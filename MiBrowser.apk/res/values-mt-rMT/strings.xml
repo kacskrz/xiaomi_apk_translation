@@ -3,6 +3,10 @@
     <string name="accelerate_play">Ħeffa: %sX</string>
     <string name="accept_cookies_confirm_message">Jekk titfi din il-faċilità jaf iġġiegħel ċertu siti ma jaħdmux kif suppost.</string>
     <string name="accessibility_button_clear">Neħħi l-input</string>
+    <string name="accessibility_sliding_button_state_description_off">mitfija</string>
+    <string name="accessibility_sliding_button_state_description_on">mixgħul</string>
+    <string name="accessibility_tab_state_description_unselect">Mhux magħżul</string>
+    <string name="accessibility_tab_statedesc_unselect">Mhux magħżul</string>
     <string name="account_prifix">Kont:</string>
     <string name="action">Idħol</string>
     <string name="action_menu_account_not_login">Mhux imdaħħal</string>
@@ -720,8 +724,6 @@ Il-Paġni li tara mhux ser jidrhu fl-istorja."</string>
     <string name="geolocation_settings_page_summary_allowed">"Dan is-sit jista' jaċċessa fejn tinsab"</string>
     <string name="geolocation_settings_page_summary_not_allowed">Dan is-sit ma jistax jaċċessa fejn tinsab</string>
     <string name="geolocation_settings_page_title">Neħħi l-aċċess għall-post fejn tinsab</string>
-    <string name="go_supermarket_button">Mur</string>
-    <string name="go_supermarket_title">"Iktar apps, veloċita' ikbar u inqas użu ta' dejta fl-App Store"</string>
     <string name="go_to_tab">Skeda</string>
     <string name="gold_medals">Midalji tad-deheb</string>
     <string name="google_bookmarks">Google</string>
@@ -768,7 +770,6 @@ Il-Paġni li tara mhux ser jidrhu fl-istorja."</string>
     <string name="hot_news_notify_summary">Push notifications għall-istejjer prinċipali</string>
     <string name="hot_news_notify_tips_light">"Tista' titfi n-notifikazzjonijiet tal-Aħbarijiet fi &lt;font color=\"#0D84FF\">Għażlietlt;/font>"</string>
     <string name="hot_news_notify_title">Notifikazzjonijiet ġodda</string>
-    <string name="i_know">Waqqaf</string>
     <string name="if_cancel">Tixtieq tikkanċella l-operazzjoni?</string>
     <string name="ignore_add_game_center_dialog_this_week">Turix għal dil-ġimgħa</string>
     <string name="ignore_add_pwa_dialog_today">Turix illum</string>
@@ -829,7 +830,6 @@ Il-Paġni li tara mhux ser jidrhu fl-istorja."</string>
     <string name="jump_web_learn_more">Iftaħ il-paġna oriġinali</string>
     <string name="junk_files_found">Instab xi żibel</string>
     <string name="just_now">Issa</string>
-    <string name="keep_intrercept">Waqqaf</string>
     <string name="kindred_coupons_get_code">Ikseb il-kodiċi</string>
     <string name="kindred_coupons_terms">Ara t-Termini u kundizzjonijiet</string>
     <string name="kindred_coupons_title">Kupuni</string>
@@ -915,6 +915,10 @@ Il-Paġni li tara mhux ser jidrhu fl-istorja."</string>
     <string name="miui_startpage">Paġna tal-bidu</string>
     <string name="miuishare_title_share">Aqsam mal-oħrajn</string>
     <string name="miuix_access_state_desc">Magħżula</string>
+    <string name="miuix_accessibility_title">Titlu</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">"Ħruġ mill-mod ta' editjar"</string>
+    <string name="miuix_appcompat_accessibility_new_message">Messaggio ġdid</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Daħħal fil-mod ta’ ħaddla</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Neħħi l-għażliet kollha</string>
     <string name="miuix_appcompat_action_mode_select_all">Agħżel kollox</string>
     <string name="miuix_appcompat_action_mode_title_empty">Agħżel l-affarijiet</string>
@@ -930,6 +934,7 @@ Il-Paġni li tara mhux ser jidrhu fl-istorja."</string>
     <string name="miuix_appcompat_select_all">Agħżel kollox</string>
     <string name="miuix_appcompat_select_all_description">Agħżel kollox</string>
     <string name="miuix_appcompat_select_item">Agħżel l-affarijiet</string>
+    <string name="miuix_progressbar_loading">Biex jilġib</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">"Iġbed 'l isfel biex tiffriska"</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Iffriska</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Qed jiffriska…</string>
@@ -938,6 +943,7 @@ Il-Paġni li tara mhux ser jidrhu fl-istorja."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Dak kollox għalissa</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Sekonda kollox…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Ma setax itella' l-affarijiet"</string>
+    <string name="miuix_show_password">Uri l-password</string>
     <string name="modify_download_path_no_sdcard_dlg_msg">Teħtieġ il-Karta SD biex tibdel din il-mogħdija.</string>
     <string name="monday">It-Tnejn</string>
     <string name="monday_short">Tne</string>
@@ -1197,20 +1203,14 @@ Trid titlaq minn dil-paġna issa?"</string>
     <string name="news_video_no_more_videos">Dak kollox għalissa</string>
     <string name="next">Li jmiss</string>
     <string name="nf_choose_reason">Iddeskrivi l-problema</string>
-    <string name="nf_detail_collection">Żid mal-favoriti</string>
     <string name="nf_dislike">Mhux interessanti</string>
     <string name="nf_feed_list_exit_toast">"Erġa' miss biex tagħlaq il-Feed tal-kontenut"</string>
-    <string name="nf_feed_list_refresh_guide">"Miss biex ittella' affarijiet ġodda"</string>
     <string name="nf_feedback">Irrapporta</string>
     <string name="nf_feedback_dislike">Ma togħġobnix</string>
     <string name="nf_feedback_tips1">"Ser tara inqas affarijiet ta' dix-xorta"</string>
     <string name="nf_feedback_tips2">Grazzi tal-ħsibijiet tiegħek</string>
     <string name="nf_go_source">Sors</string>
-    <string name="nf_product_buy">Ixtri issa</string>
-    <string name="nf_product_discount">Issejvja %s</string>
-    <string name="nf_product_more">Dettalji</string>
     <string name="nf_select_language">Agħżel il-lingwa tal-Feed tal-kontenut</string>
-    <string name="nf_set_follow_channel_as_default">Uri \"%s\" kif jixgħel</string>
     <string name="nf_submit">Ibgħat</string>
     <string name="night">Filgħaxija</string>
     <string name="no">Le</string>
@@ -1557,7 +1557,6 @@ Trid titlaq minn dil-paġna issa?"</string>
     <string name="pwa_app_name">Apps tas-sit</string>
     <string name="pwa_hint_added_success">Miżjuda</string>
     <string name="qr_code_title">Kodiċi QR</string>
-    <string name="qr_description">Skennja l-kodiċi QR</string>
     <string name="quick_access_to_common_functions">Aċċessa l-faċilitajiet li tħobb malajr</string>
     <string name="quick_search_and_access_to_functions">"It-tiftix ta' malajr tħallik issib iktar malajr dawk il-faċilitajiet li tuża l-iktar."</string>
     <string name="quicklink_bookmark_save">"Issejvja f'"</string>
@@ -1652,15 +1651,6 @@ Trid titlaq minn dil-paġna issa?"</string>
     <string name="request_profile_error">Ma setax jikseb l-informazzjoni tal-kont</string>
     <string name="restart">"Erġa' ibda"</string>
     <string name="return_to_homepage">Mur lura fil-paġna tal-bidu</string>
-    <string name="risk_continue">Kompli</string>
-    <string name="risk_detail">Dettalji</string>
-    <string name="risk_malicious_url">"Das-sit jista' jwassal għal riskji tas-sigurtà."</string>
-    <string name="risk_protect_browsing">Mi Brawżer tiċċekkja s-siti għal problemi tas-sigurtà</string>
-    <string name="risk_safe_url">Das-sit sigur</string>
-    <string name="risk_setting_des">Ħalli lil Mi Brawżer tiċċekkja s-siti għal problemi tas-sigurtà</string>
-    <string name="risk_setting_title">"Qalleb l-internet b'mod sigur"</string>
-    <string name="risk_stop">Ieqaf</string>
-    <string name="risk_unspecified_url">"Hemm problema biċ-ċertifikat tas-sigurtà ta' das-sit."</string>
     <string name="rlv_last_refreshing_time">Imġedded %1$s</string>
     <string name="rlv_loading_more">Sekonda waħda…</string>
     <string name="rlv_pull_to_refresh">Iġbed l-isfel biex iġġedded</string>
@@ -1883,11 +1873,27 @@ Trid titlaq minn dil-paġna issa?"</string>
     <string name="tag_undo">"Reġġa' lura"</string>
     <string name="tag_undo_title">Għalaqt %s</string>
     <string name="talk_back_voice_search">"Fittex b'leħnek"</string>
+    <string name="talkback_ai_button_close">Agħlaq l-IA</string>
+    <string name="talkback_ai_button_quiz">Staqsi</string>
+    <string name="talkback_ai_quiz_button_copy_answer">Ikkopja t-tweġiba</string>
+    <string name="talkback_ai_quiz_button_refresh_answer">Ġedded it-tweġiba</string>
+    <string name="talkback_ai_quiz_button_webpage_close">Agħlaq il-paġna</string>
+    <string name="talkback_ai_translate_pop">Tieqa bil-messaġġ</string>
     <string name="talkback_background_color">Lewn l-isfond</string>
     <string name="talkback_clear_copied">Battal il-memorja temporanja</string>
     <string name="talkback_clear_history">Neħħi l-istorja tat-tiftix</string>
+    <string name="talkback_download_edit">Ibdel l-apps</string>
     <string name="talkback_font_size">Daqs tal-kitba</string>
+    <string name="talkback_incognito_button_checked">Magħżula: %1$s</string>
+    <string name="talkback_incognito_button_unchecked">Mhux magħżula: %1$s</string>
+    <string name="talkback_logging_status_describe">Imdaħħal: %1$s</string>
+    <string name="talkback_panel_control_handle">Faxxa werrejja tat-twieqi</string>
+    <string name="talkback_popup_window">Tieqa popup</string>
     <string name="talkback_summary_close">Agħlaq</string>
+    <string name="talkbak_list_item">"%1$s, ħaġa %2$d. Għadd ta' ħwejjeġ: %3$d."</string>
+    <string name="talkbak_new_message">Għażilt: %1$s. Notifikazzjonijiet ġodda.</string>
+    <string name="talkbak_refresh_icon">Ġedded</string>
+    <string name="talkbak_title">Isem: %1$s</string>
     <string name="the_anniversary_of_lifting_martial_law">L-Anniversarju tat-Tneħħija tal-Liġi Marzjali</string>
     <string name="the_anti_aggression_day">Jum Kontra l-Aggressjonijiet</string>
     <string name="the_arbor_day">Jum is-Siġar</string>
@@ -2009,6 +2015,7 @@ Meta trid tista' tieqaf tagħmel parti mill-programm mill-Għażliet > Privatezz
     <string name="user_guide_provide_service_title">Dil-faċilità toffri dawn is-servizzi li ġejjin:</string>
     <string name="user_guide_read_info_tips">"Biex tkun tista' tinkludi l-apps fir-riżultati tat-tiftix, Mi Brawżer jeħtiġilha taċċessa l-lista tal-apps installati fuq it-tagħmir tiegħek."</string>
     <string name="user_guide_turn_off_feature">Agħfas &lt;font color=\"#0a84ff\">&lt;u>hawn&lt;/u>&lt;/font> biex titfi dil-faċilità.</string>
+    <string name="userguide_talkback_page_index">Paġna numru %1$d</string>
     <string name="username">Isem</string>
     <string name="v5_edit_mode_title_empty">Agħżel l-affarijiet</string>
     <string name="verify_subscription">Qed jaġġorna l-abbonament…</string>
@@ -2064,8 +2071,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="voice_title_listening">"Qed jisma'…"</string>
     <string name="voice_title_please">Ibda tkellem…</string>
     <string name="voice_title_speech_again">Ma setax jifmhek</string>
-    <string name="vote_already">Diġà vvutajt</string>
-    <string name="vote_fail">"Ma setax jivvota, erġa' pprova iktar tard"</string>
     <string name="vpn_data_current_period">Valida għal: %s</string>
     <string name="vpn_data_used_info">Użajt %2$s minn %1$s</string>
     <string name="vpn_detail_guide1">Ikseb aċċess għas-servers kollha biex iżżid il-ħeffa tal-konnessjoni tiegħek</string>
@@ -2235,7 +2240,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_video_size_stretch">Ġebbed</string>
     <string name="web_video_size_tailoring">Qasqas</string>
     <string name="webpage_title">Werrejja u Storja</string>
-    <string name="wechat_video">"Vidjos b' %s"</string>
     <string name="wednesday">L-Erbgħa</string>
     <string name="wednesday_short">Erb</string>
     <string name="wednesday_shortest">Erb</string>

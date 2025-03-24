@@ -30,6 +30,10 @@
     <string name="accelerate_play">Nopeus: %sX</string>
     <string name="accept_cookies_confirm_message">Jotkus sivut saattaa käyttäytyä omituisesti, jos kytket tämän ominaisuuden pois päältä.</string>
     <string name="accessibility_button_clear">Tyhjennä teksti</string>
+    <string name="accessibility_sliding_button_state_description_off">pois päältä</string>
+    <string name="accessibility_sliding_button_state_description_on">päällä</string>
+    <string name="accessibility_tab_state_description_unselect">Ei valittu</string>
+    <string name="accessibility_tab_statedesc_unselect">Ei valittu</string>
     <string name="account_prifix">Tili:</string>
     <string name="action">Kirjaudu sisään</string>
     <string name="action_menu_account_not_login">Et ole kirjautunut</string>
@@ -658,6 +662,7 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="exo_track_surround_5_point_1">5.1-surround-ääni</string>
     <string name="exo_track_surround_7_point_1">7.1-surround-ääni</string>
     <string name="exo_track_unknown">Tuntematon</string>
+    <string name="exo_track_unknown_name">Tuntematon (%1$s)</string>
     <string name="expand_button_title">Lisäasetukset</string>
     <string name="expand_more">Näytä lisää</string>
     <string name="experience_improve">Käyttäjäkokemusohjelma</string>
@@ -835,8 +840,6 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="geolocation_settings_page_summary_allowed">Tämä sivusto voi käyttää sijaintiasi</string>
     <string name="geolocation_settings_page_summary_not_allowed">Tämä sivusto ei voi käyttää sijaintiasi</string>
     <string name="geolocation_settings_page_title">Poista sijaintitietojen käyttöoikeus</string>
-    <string name="go_supermarket_button">Mene</string>
-    <string name="go_supermarket_title">Enemmän sovelluksia, nopeampi ja vähemmän datan käyttöä sovelluskaupassa</string>
     <string name="go_to_tab">Välilehdet</string>
     <string name="gold_medals">Kultamitalit</string>
     <string name="google_bookmarks">Google</string>
@@ -883,7 +886,6 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="hot_news_notify_summary">Push-ilmoitukset suosituimmista uutisista</string>
     <string name="hot_news_notify_tips_light">Voit poistaa uutisilmoitukset käytöstä &lt;font color=\"#0D84FF\">Asetuksista&lt;/font></string>
     <string name="hot_news_notify_title">Uutisilmoitukset</string>
-    <string name="i_know">Lopeta</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="if_cancel">Peruutetaanko tämä toiminto?</string>
     <string name="ignore_add_game_center_dialog_this_week">Älä näytä tällä viikolla</string>
@@ -946,7 +948,6 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="jump_web_learn_more">Avaa alkuperäinen verkkosivu</string>
     <string name="junk_files_found">Roskia löytynyt</string>
     <string name="just_now">Juuri nyt</string>
-    <string name="keep_intrercept">Lopeta</string>
     <string name="kindred_coupons_get_code">Hanki koodi</string>
     <string name="kindred_coupons_terms">Katso ehdot</string>
     <string name="kindred_coupons_title">Kupongit</string>
@@ -1044,6 +1045,10 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="miui_startpage">Aloitussivu</string>
     <string name="miuishare_title_share">Jaa</string>
     <string name="miuix_access_state_desc">Valittu</string>
+    <string name="miuix_accessibility_title">Otsikko</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Poistu muokkaustilasta</string>
+    <string name="miuix_appcompat_accessibility_new_message">Uusi viesti</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Aloita muokkaustila</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -1059,6 +1064,7 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
+    <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Virkistetään…</string>
@@ -1067,6 +1073,7 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Siinä kaikki tältä erää</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Hetki vain…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kohteita ei voitu ladata</string>
+    <string name="miuix_show_password">Näytä salasana</string>
     <string name="modify_download_path_no_sdcard_dlg_msg">SD-kortti vaaditaan muokataksesi tätä polkua.</string>
     <string name="monday">Maanantai</string>
     <string name="monday_short">Ma</string>
@@ -1362,20 +1369,14 @@ Poistutaanko tältä sivulta nyt?"</string>
     <string name="news_video_no_more_videos">Siinä kaikki tältä erää</string>
     <string name="next">Seuraava</string>
     <string name="nf_choose_reason">Kuvaile ongelmaa</string>
-    <string name="nf_detail_collection">Lisää suosikkeihin</string>
     <string name="nf_dislike">En ole kiinnostunut tästä</string>
     <string name="nf_feed_list_exit_toast">Napauta uudelleen sulkeaksesi sisältösyötteen</string>
-    <string name="nf_feed_list_refresh_guide">Lataa uusia kohteita napauttamalla</string>
     <string name="nf_feedback">Raportoi</string>
     <string name="nf_feedback_dislike">Älä tykkää</string>
     <string name="nf_feedback_tips1">Sinulle näytetään vähemmän tällaista sisältöä</string>
     <string name="nf_feedback_tips2">Kiitos palautteestasi</string>
     <string name="nf_go_source">Lähde</string>
-    <string name="nf_product_buy">Osta nyt</string>
-    <string name="nf_product_discount">Säästä %s</string>
-    <string name="nf_product_more">Tiedot</string>
     <string name="nf_select_language">Valitse sisältösyötteen kieli</string>
-    <string name="nf_set_follow_channel_as_default">Näytä \"%s\" käynnistyksessä</string>
     <string name="nf_submit">Lähetä</string>
     <string name="night">Ilta</string>
     <string name="no">Ei</string>
@@ -1737,7 +1738,6 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="pwa_app_name">Verkkosovellukset</string>
     <string name="pwa_hint_added_success">Lisätty onnistuneesti</string>
     <string name="qr_code_title">QR-koodi</string>
-    <string name="qr_description">Skannaa QR-koodi</string>
     <string name="quick_access_to_common_functions">Pääset nopeasti suosikkiominaisuuksiisi</string>
     <string name="quick_search_and_access_to_functions">Pikahaun avulla voit helposti käyttää eniten käyttämiäsi ominaisuuksia.</string>
     <string name="quicklink_bookmark_save">Tallenna kohteeseen</string>
@@ -1832,15 +1832,6 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="request_profile_error">Tilitietoja ei saatu</string>
     <string name="restart">Aloita alusta</string>
     <string name="return_to_homepage">Palaa aloitussivulle</string>
-    <string name="risk_continue">Jatka</string>
-    <string name="risk_detail">Tiedot</string>
-    <string name="risk_malicious_url">Tämä sivusto saattaa aiheuttaa tietoturvariskejä.</string>
-    <string name="risk_protect_browsing">Mi Selain tarkistaa verkkosivustojen tietoturvaongelmien varalta</string>
-    <string name="risk_safe_url">Tämä sivusto on turvallinen</string>
-    <string name="risk_setting_des">Anna Mi Selaimen tarkistaa verkkosivustot tietoturvaongelmien varalta</string>
-    <string name="risk_setting_title">Suojattu selaaminen</string>
-    <string name="risk_stop">Lopeta</string>
-    <string name="risk_unspecified_url">Tämän sivuston suojausvarmenteessa on ongelma.</string>
     <string name="rlv_last_refreshing_time">Päivitetty %1$s</string>
     <string name="rlv_loading_more">Hetki vain…</string>
     <string name="rlv_pull_to_refresh">Virkistä vetämällä alas</string>
@@ -2073,11 +2064,27 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="tag_undo">Kumoa</string>
     <string name="tag_undo_title">Suljettu %s</string>
     <string name="talk_back_voice_search">Äänihaku</string>
-    <string name="talkback_background_color">Background color</string>
+    <string name="talkback_ai_button_close">Sulje tekoäly</string>
+    <string name="talkback_ai_button_quiz">Kysy</string>
+    <string name="talkback_ai_quiz_button_copy_answer">Kopioi vastaus</string>
+    <string name="talkback_ai_quiz_button_refresh_answer">Päivitä vastaus</string>
+    <string name="talkback_ai_quiz_button_webpage_close">Sulje verkkosivu</string>
+    <string name="talkback_ai_translate_pop">Dialogi-ikkuna</string>
+    <string name="talkback_background_color">Taustaväri</string>
     <string name="talkback_clear_copied">Tyhjennä leikepöytä</string>
     <string name="talkback_clear_history">Tyhjennä hakuhistoria</string>
-    <string name="talkback_font_size">Text size</string>
+    <string name="talkback_download_edit">Muokkaa sovelluksia</string>
+    <string name="talkback_font_size">Tekstin koko</string>
+    <string name="talkback_incognito_button_checked">Valittu: %1$s</string>
+    <string name="talkback_incognito_button_unchecked">Ei valittu: %1$s</string>
+    <string name="talkback_logging_status_describe">Kirjautunut: %1$s</string>
+    <string name="talkback_panel_control_handle">Ikkunan ilmaisinpalkki</string>
+    <string name="talkback_popup_window">Ponnahdusikkuna</string>
     <string name="talkback_summary_close">Sulje</string>
+    <string name="talkbak_list_item">%1$s, kohde %2$d. Kohteita yhteensä: %3$d.</string>
+    <string name="talkbak_new_message">Valittu: %1$s. Uudet ilmoitukset.</string>
+    <string name="talkbak_refresh_icon">Virkistä</string>
+    <string name="talkbak_title">Otsikko: %1$s</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -2199,6 +2206,7 @@ Voit aina kieltäytyä kohdassa Asetukset > Yksityisyys ja tietosuoja."</string>
     <string name="user_guide_provide_service_title">Tämä ominaisuus tarjoaa seuraavat palvelut:</string>
     <string name="user_guide_read_info_tips">Mi-selaimen on käytettävä laitteellesi asennettujen sovellusten luetteloa voidakseen sisällyttää sovelluksia hakutuloksiin.</string>
     <string name="user_guide_turn_off_feature">Voit poistaa tämän ominaisuuden käytöstä napauttamalla &lt;font color=\"#0a84ff\">&lt;u>tätä&amp;lt ;/u>&lt;/font>.</string>
+    <string name="userguide_talkback_page_index">Sivu %1$d</string>
     <string name="username">Nimi</string>
     <string name="v5_edit_mode_title_empty">Valitse kohteet</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
@@ -2256,8 +2264,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="voice_title_listening">Kuunnellaan…</string>
     <string name="voice_title_please">Aloita puhuminen…</string>
     <string name="voice_title_speech_again">Puhetta ei ymmärretty</string>
-    <string name="vote_already">Olet jo äänestänyt</string>
-    <string name="vote_fail">Ei voitu äänestää, yritä myöhemmin uudelleen</string>
     <string name="vpn_data_current_period">Voimassaoloaika: %s</string>
     <string name="vpn_data_used_info">%2$s/%1$s käytetty</string>
     <string name="vpn_detail_guide1">Avaa kaikki palvelimet nopeuttaaksesi yhteyttäsi</string>
@@ -2428,7 +2434,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_video_size_stretch">Venytä</string>
     <string name="web_video_size_tailoring">Leikkaa</string>
     <string name="webpage_title">Kirjanmerkit &amp; Historia</string>
-    <string name="wechat_video">Video kohteessa %s</string>
     <string name="wednesday">Keskiviikko</string>
     <string name="wednesday_short">Ke</string>
     <string name="wednesday_shortest">Ke</string>

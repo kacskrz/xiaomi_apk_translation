@@ -3,6 +3,10 @@
     <string name="accelerate_play">Tezlik: %sX</string>
     <string name="accept_cookies_confirm_message">Ushbu xususiyatni o‘chirilishi ba’zi vebsaytlarni ishlashiga ta’sir qilishi mumkin.</string>
     <string name="accessibility_button_clear">Kirishni tozalash</string>
+    <string name="accessibility_sliding_button_state_description_off">"o'chirilgan"</string>
+    <string name="accessibility_sliding_button_state_description_on">yoqilgan</string>
+    <string name="accessibility_tab_state_description_unselect">Tanlanmagan</string>
+    <string name="accessibility_tab_statedesc_unselect">Tanlanmagan</string>
     <string name="account_prifix">Login:</string>
     <string name="action">Kirish</string>
     <string name="action_menu_account_not_login">Kirilmagan</string>
@@ -720,8 +724,6 @@ Ko‘radigan sahifalar tarixda ko‘rinmaydi."</string>
     <string name="geolocation_settings_page_summary_allowed">Ushbu saytda joylashuvingiz ma’lumotiga kirish huquqi bor</string>
     <string name="geolocation_settings_page_summary_not_allowed">Ushbu saytda joylashuvingiz ma’lumotiga kirish huquqi yo‘q</string>
     <string name="geolocation_settings_page_title">Joylashuvga kirish huquqini tozalansh</string>
-    <string name="go_supermarket_button">O‘tish</string>
-    <string name="go_supermarket_title">Ilovalar Marketida ko‘proq ilovalar, tezroq tezlik, va kamroq trafik ishlatilishi</string>
     <string name="go_to_tab">Yorliqlar</string>
     <string name="gold_medals">Oltin medallar</string>
     <string name="google_bookmarks">Google</string>
@@ -768,7 +770,6 @@ Ko‘radigan sahifalar tarixda ko‘rinmaydi."</string>
     <string name="hot_news_notify_summary">Eng sara yangiliklar uchun push-bildirishnomalar</string>
     <string name="hot_news_notify_tips_light">Yangiliklar bildirishnomalarini &lt;font color=\"#0D84FF\">Sozmalarda&lt;/font> o‘chirsangiz bo‘ladi</string>
     <string name="hot_news_notify_title">Yangiliklar bildirishnomalari</string>
-    <string name="i_know">To‘xtatish</string>
     <string name="if_cancel">Ushbu operatsiya bekor qilinsinmi?</string>
     <string name="ignore_add_game_center_dialog_this_week">Shu hafta ko‘rsatilmasin</string>
     <string name="ignore_add_pwa_dialog_today">Bugun ko‘rsatilmasin</string>
@@ -829,7 +830,6 @@ Ko‘radigan sahifalar tarixda ko‘rinmaydi."</string>
     <string name="jump_web_learn_more">Asl veb-sahifani oching</string>
     <string name="junk_files_found">Axlat topildi</string>
     <string name="just_now">Hozirgina</string>
-    <string name="keep_intrercept">To‘xtatish</string>
     <string name="kindred_coupons_get_code">Kodni olish</string>
     <string name="kindred_coupons_terms">Shartlarni ko‘rish</string>
     <string name="kindred_coupons_title">Kuponlar</string>
@@ -915,6 +915,10 @@ Ko‘radigan sahifalar tarixda ko‘rinmaydi."</string>
     <string name="miui_startpage">Bosh sahifa</string>
     <string name="miuishare_title_share">Ulashish</string>
     <string name="miuix_access_state_desc">Tanlandi</string>
+    <string name="miuix_accessibility_title">Sarlavha</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Tahrirlash rejimidandan chiqish</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yangi xabar</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Tahrirlash rejimiga kirish</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Barchasini olib tashlash</string>
     <string name="miuix_appcompat_action_mode_select_all">Barchasini tanlash</string>
     <string name="miuix_appcompat_action_mode_title_empty">Tanlash</string>
@@ -930,6 +934,7 @@ Ko‘radigan sahifalar tarixda ko‘rinmaydi."</string>
     <string name="miuix_appcompat_select_all">Barchasini tanlash</string>
     <string name="miuix_appcompat_select_all_description">Barchasini tanlash</string>
     <string name="miuix_appcompat_select_item">Elementlarni tanlang</string>
+    <string name="miuix_progressbar_loading">Yuklanmoqda</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yangilash uchun pastga torting</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Muvaffaqiyatli yangilandi</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Yangilanmoqda…</string>
@@ -938,6 +943,7 @@ Ko‘radigan sahifalar tarixda ko‘rinmaydi."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Hozircha hammasi shu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Bir soniya…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elementlarni yuklab bo‘lmadi</string>
+    <string name="miuix_show_password">"Parolni ko'rsatish"</string>
     <string name="modify_download_path_no_sdcard_dlg_msg">Ushbu yo‘lni o‘zgartirish uchun SD karta kerak.</string>
     <string name="monday">Dushanba</string>
     <string name="monday_short">Du</string>
@@ -1197,20 +1203,14 @@ Ushbu sahifadan chiqilsinmi?"</string>
     <string name="news_video_no_more_videos">Hozircha hammasi shu</string>
     <string name="next">Keyingi</string>
     <string name="nf_choose_reason">Masalani tasvirlab bering</string>
-    <string name="nf_detail_collection">Saralanganlarga qo‘shish</string>
     <string name="nf_dislike">Qiziqarli emas</string>
     <string name="nf_feed_list_exit_toast">Kontent tasmasini yopish uchun yana bosing</string>
-    <string name="nf_feed_list_refresh_guide">Yangilash uchun bosing</string>
     <string name="nf_feedback">Hisobot</string>
     <string name="nf_feedback_dislike">Yoqmadi</string>
     <string name="nf_feedback_tips1">Bunday turdagi elementlarni kamroq ko‘rasiz</string>
     <string name="nf_feedback_tips2">Hisobotingiz uchun rahmat</string>
     <string name="nf_go_source">Manba</string>
-    <string name="nf_product_buy">Sotib olish</string>
-    <string name="nf_product_discount">%s chegirma</string>
-    <string name="nf_product_more">Ma’lumotlar</string>
     <string name="nf_select_language">Ma’lumotlar lentasi tilini tanlang</string>
-    <string name="nf_set_follow_channel_as_default">Ishga tushirishda \"%s\" ni ko‘rish</string>
     <string name="nf_submit">Topshirish</string>
     <string name="night">Oqshom</string>
     <string name="no">Yo‘q</string>
@@ -1557,7 +1557,6 @@ Ba’zi saytlar sizning reklamalaringizni shaxsiylashtirish uchun oldingi ko‘r
     <string name="pwa_app_name">Veb ilovalar</string>
     <string name="pwa_hint_added_success">Qo‘shildi</string>
     <string name="qr_code_title">QR kodi</string>
-    <string name="qr_description">QR kodini skanerlash</string>
     <string name="quick_access_to_common_functions">Saralangan funksiyalaringizga tezda kiring</string>
     <string name="quick_search_and_access_to_functions">Tezkor qidiruv sizga eng ko‘p foydalanadigan funksiyalarga osongina kirish imkonini beradi.</string>
     <string name="quicklink_bookmark_save">Shu joyga saqlash</string>
@@ -1652,15 +1651,6 @@ Ba’zi saytlar sizning reklamalaringizni shaxsiylashtirish uchun oldingi ko‘r
     <string name="request_profile_error">Hisob ma’lumotlarini olib bo‘lmadi</string>
     <string name="restart">Qaytadan boshlash</string>
     <string name="return_to_homepage">Bosh sahifaga qaytish</string>
-    <string name="risk_continue">Davom etish</string>
-    <string name="risk_detail">Ma’lumotlar</string>
-    <string name="risk_malicious_url">Ushbu veb-sayt xavfsizlikka xavf tug‘dirishi mumkin.</string>
-    <string name="risk_protect_browsing">Mi Brauzer veb-saytlarni xavfsizlik muammolarga tekshiradi</string>
-    <string name="risk_safe_url">Ushbu vebsayt xavfsiz</string>
-    <string name="risk_setting_des">Mi Brauzerga veb-saytlarni xavfsizlik muammolarini tekshirishga ruxsat bering</string>
-    <string name="risk_setting_title">Xavfsiz brauzer</string>
-    <string name="risk_stop">To‘xtatish</string>
-    <string name="risk_unspecified_url">Bu veb-saytning xavfsizlik guvohnomasi bilan bog‘liq muammo bor.</string>
     <string name="rlv_last_refreshing_time">Yangilandi: %1$s</string>
     <string name="rlv_loading_more">Bir soniya…</string>
     <string name="rlv_pull_to_refresh">Yangilash uchun pastga torting</string>
@@ -1883,11 +1873,27 @@ Ba’zi saytlar sizning reklamalaringizni shaxsiylashtirish uchun oldingi ko‘r
     <string name="tag_undo">Bekor qilish</string>
     <string name="tag_undo_title">%s yopildi</string>
     <string name="talk_back_voice_search">Ovozli qidiruv</string>
-    <string name="talkback_background_color">Background color</string>
-    <string name="talkback_clear_copied">Clear clipboard</string>
-    <string name="talkback_clear_history">Clear search history</string>
-    <string name="talkback_font_size">Text size</string>
-    <string name="talkback_summary_close">Close</string>
+    <string name="talkback_ai_button_close">AI-ni yopish</string>
+    <string name="talkback_ai_button_quiz">So‘rash</string>
+    <string name="talkback_ai_quiz_button_copy_answer">Javobni nusxalash</string>
+    <string name="talkback_ai_quiz_button_refresh_answer">Javobni yangilash</string>
+    <string name="talkback_ai_quiz_button_webpage_close">Veb-sahifani yopish</string>
+    <string name="talkback_ai_translate_pop">Dialog oynasi</string>
+    <string name="talkback_background_color">Fon rangi</string>
+    <string name="talkback_clear_copied">Asboblar paneli tozalash</string>
+    <string name="talkback_clear_history">Qidiruv tarixini tozalash</string>
+    <string name="talkback_download_edit">Ilovalarni o‘zgartirish</string>
+    <string name="talkback_font_size">Shrift kattaligi</string>
+    <string name="talkback_incognito_button_checked">Tanlandi: %1$s</string>
+    <string name="talkback_incognito_button_unchecked">Tanlanmadi: %1$s</string>
+    <string name="talkback_logging_status_describe">Kirildi: %1$s</string>
+    <string name="talkback_panel_control_handle">Oyna ko‘rsatkich paneli</string>
+    <string name="talkback_popup_window">Suzuvchi oyna</string>
+    <string name="talkback_summary_close">Yopish</string>
+    <string name="talkbak_list_item">%1$s, %2$d-element. Jami elementlar: %3$d.</string>
+    <string name="talkbak_new_message">Tanlandi: %1$s. Yangi bildirishnomalar.</string>
+    <string name="talkbak_refresh_icon">Yangilash</string>
+    <string name="talkbak_title">Sarlavha: %1$s</string>
     <string name="the_anniversary_of_lifting_martial_law">Harbiy Qonunlarni Ko‘tarishning Yilligi</string>
     <string name="the_anti_aggression_day">Tajovuzga qarshi Kun</string>
     <string name="the_arbor_day">Arbor Kuni</string>
@@ -2009,6 +2015,7 @@ Buni Sozlamalar > Maxfiylik va Xavfsizlikda bekor qilishingiz mumkin."</string>
     <string name="user_guide_provide_service_title">Ushbu xususiyat quyidagi xizmatlarni taqdim etadi:</string>
     <string name="user_guide_read_info_tips">Ilovalarni qidiruv natijalariga qo‘shish uchun Mi Brauzer qurilmangizga o‘rnatilgan ilovalar ro‘yxatiga kirishi kerak.</string>
     <string name="user_guide_turn_off_feature">Ushbu xususiyatni oʻchirish uchun &lt;font color=\"#0a84ff\">&lt;u>shu yerni&lt;/u>&lt;/font> bosing.</string>
+    <string name="userguide_talkback_page_index">%1$d-sahifa</string>
     <string name="username">Ism</string>
     <string name="v5_edit_mode_title_empty">Kontaktlarni tanlang</string>
     <string name="verify_subscription">Obuna yangilanmoqda…</string>
@@ -2064,8 +2071,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="voice_title_listening">Tinglanmoqda…</string>
     <string name="voice_title_please">Gapirishni boshlang…</string>
     <string name="voice_title_speech_again">Sizni tushunib bo‘lmadi</string>
-    <string name="vote_already">Allaqachon ovoz berdingiz</string>
-    <string name="vote_fail">Ovoz berib bo‘lmadi, keyinroq qaytadan ko‘ring</string>
     <string name="vpn_data_current_period">Amal qilish muddati: %s</string>
     <string name="vpn_data_used_info">%2$s/%1$s ishlatildi</string>
     <string name="vpn_detail_guide1">Ulanishni tezlashtirish uchun barcha serverlarni qulfdan chiqaring</string>
@@ -2235,7 +2240,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_video_size_stretch">Cho‘zish</string>
     <string name="web_video_size_tailoring">Kesish</string>
     <string name="webpage_title">Joy belgilari va Tarix</string>
-    <string name="wechat_video">%s dagi video</string>
     <string name="wednesday">Chorshanba</string>
     <string name="wednesday_short">Chor</string>
     <string name="wednesday_shortest">Chor</string>
