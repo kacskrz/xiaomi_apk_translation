@@ -27,6 +27,10 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="accessibility_sliding_button_state_description_off">slukket</string>
+    <string name="accessibility_sliding_button_state_description_on">tændt</string>
+    <string name="accessibility_tab_state_description_unselect">Ikke valgt</string>
+    <string name="accessibility_tab_statedesc_unselect">Ikke valgt</string>
     <string name="action_copy">Kopiér</string>
     <string name="action_notes">Gem i Noter</string>
     <string name="action_retry">Prøv igen</string>
@@ -259,6 +263,10 @@
     <string name="middle_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/t</string>
     <string name="midnight">Nat</string>
     <string name="miuix_access_state_desc">Valgt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Afslut redigeringsvisning</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ny besked</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Start redigeringsvisning</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -277,12 +285,24 @@
     <string name="miuix_appcompat_select_all">Vælg alle</string>
     <string name="miuix_appcompat_select_all_description">Vælg alle</string>
     <string name="miuix_appcompat_select_item">Vælg emner</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Rul ned for at lukke</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Rul ned for at gå til halv skærm</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Rul ned for at minimere</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Rul op for at gå til halv skærm</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Rul op for at maksimere</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Halv skærm</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maksimeret</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimeret</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Skift til halv skærm</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Skift til maksimeret</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Skift til minimeret</string>
     <string name="miuix_item_view_role_description">Fane</string>
     <string name="miuix_navigator_category_group_collapse">Skjul</string>
     <string name="miuix_navigator_category_group_expand">Udvid</string>
     <string name="miuix_navigator_content_switch_description">Vis sidebjælke</string>
     <string name="miuix_navigator_multiple_choice">Vælg</string>
     <string name="miuix_navigator_navigator_switch_description">Skjul sidebjælke</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
@@ -291,6 +311,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">Man</string>
@@ -307,7 +328,7 @@
     <string name="month_february">Februar</string>
     <string name="month_february_short">Feb</string>
     <string name="month_february_shortest">Feb</string>
-    <string name="month_format">MM</string>
+    <string name="month_format">MMMM</string>
     <string name="month_january">Januar</string>
     <string name="month_january_short">Jan</string>
     <string name="month_january_shortest">Jan</string>
@@ -376,9 +397,9 @@
 Sådan gives tilladelse
 Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="new_saf_permission_dialog_grant_permission_immediately">Næste</string>
-    <string name="new_search_alll_records_hint">Afsøg i optagelser</string>
+    <string name="new_search_alll_records_hint">Søg i alle optagelser</string>
     <string name="new_search_app_records_hint">Afsøg i optagelser</string>
-    <string name="new_search_call_records_hint">Afsøg i opkaldsoptagelser</string>
+    <string name="new_search_call_records_hint">Søg i opkaldsoptagelser</string>
     <string name="new_search_fm_records_hint">Afsøg i radiooptagelser</string>
     <string name="new_search_recorder_records_hint">Søg i Optager</string>
     <string name="night">Aften</string>
@@ -786,11 +807,10 @@ Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="sunday_short">Søn</string>
     <string name="sunday_shortest">Søn</string>
     <string name="sync_desc_state_complete">Synkronisér med clouden: %1$s</string>
-    <string name="system_permission_declare_double_link">&lt;Data>Læs og accepter vores &lt;a href=\"%1$s\">brugeraftale&lt;/a> og &lt;a href=\"%2$s\">privatlivspolitik&lt;/a>, inden du fortsætter.&lt;/Data></string>
+    <string name="system_permission_declare_double_link"><Data>Læs og accepter vores &lt;a href=\"%1$s\">brugeraftale&lt;/a> og &lt;a href=\"%2$s\">privatlivspolitik&lt;/a>, inden du fortsætter.</Data></string>
     <string name="tab_all">Alle</string>
     <string name="tab_apps">Apps</string>
     <string name="tab_call">Opkald</string>
-    <string name="tab_fm">FM</string>
     <string name="talkback_component_exit_button">Luk flydende vindue</string>
     <string name="talkback_return_speak_location">Skift tilbage til synkroniseret afspilning</string>
     <string name="talkback_traslation">Oversæt</string>
@@ -798,7 +818,6 @@ Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="talkback_traslation_close">Stop oversættelse</string>
     <string name="text_btn_backward_3_seconds">%d sekunder tilbage</string>
     <string name="text_btn_complete">Stop</string>
-    <string name="text_btn_copy">复制</string>
     <string name="text_btn_forward_3_seconds">%d sekunder frem</string>
     <string name="text_btn_mark">Marker</string>
     <string name="text_btn_pause">Pause</string>
@@ -807,7 +826,6 @@ Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="text_btn_recognize_pending">"Venter "</string>
     <string name="text_btn_recording">\#Journal</string>
     <string name="text_btn_wave">Bølge</string>
-    <string name="text_copy_complete">已复制到剪贴板</string>
     <string name="text_finish">Bekræft</string>
     <string name="text_for_build_database_progress">Analyserer optagelse…(%s)</string>
     <string name="text_for_build_database_progress_state_paused">Optagelser analyseres på din enhed for at levere mere præcise resultater</string>
@@ -904,6 +922,6 @@ Midlertidigt sat på pause. Analysen genoptages, når du ikke bruger din enhed."
     <string name="wifi_recommended_title">Advarsel om brug af data</string>
     <string name="year_month_day_format">dd.MM.yyyy</string>
     <string name="year_month_day_hour_minute_format">dd-MM-yyyy hh.mm aaa</string>
-    <string name="year_month_format">MM yyyy</string>
+    <string name="year_month_format">MMMM yyyy</string>
     <string name="yesterday">I går</string>
 </resources>

@@ -27,6 +27,10 @@
     <string name="abc_shareactionprovider_share_with">Delen met</string>
     <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
     <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="accessibility_sliding_button_state_description_off">uit</string>
+    <string name="accessibility_sliding_button_state_description_on">aan</string>
+    <string name="accessibility_tab_state_description_unselect">Niet geselecteerd</string>
+    <string name="accessibility_tab_statedesc_unselect">Niet geselecteerd</string>
     <string name="action_copy">Kopiëren</string>
     <string name="action_notes">Opslaan in Notities</string>
     <string name="action_retry">Opnieuw proberen</string>
@@ -259,6 +263,10 @@
     <string name="middle_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/u</string>
     <string name="midnight">Nacht</string>
     <string name="miuix_access_state_desc">Geselecteerd</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bewerkingsmodus afsluiten</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nieuw bericht</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bewerkingsmodus starten</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Alles deselecteren</string>
     <string name="miuix_appcompat_action_mode_select_all">Alles selecteren</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selecteer items</string>
@@ -277,12 +285,24 @@
     <string name="miuix_appcompat_select_all">Alles selecteren</string>
     <string name="miuix_appcompat_select_all_description">Alles selecteren</string>
     <string name="miuix_appcompat_select_item">Selecteer items</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Scroll omlaag om te sluiten</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Scroll omlaag om over te schakelen naar de halve schermmodus</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Scroll omlaag om te minimaliseren</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Scroll omhoog om over te schakelen naar de halve schermmodus</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Scroll omhoog om te maximaliseren</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Halve scherm</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Gemaximaliseerd</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Geminimaliseerd</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Overschakelen naar halve schermmodus</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Overschakelen naar gemaximaliseerde modus</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Overschakelen naar geminimaliseerde modus</string>
     <string name="miuix_item_view_role_description">Tab</string>
     <string name="miuix_navigator_category_group_collapse">Inklappen</string>
     <string name="miuix_navigator_category_group_expand">Uitbreiden</string>
     <string name="miuix_navigator_content_switch_description">Zijbalk tonen</string>
     <string name="miuix_navigator_multiple_choice">Selecteren</string>
     <string name="miuix_navigator_navigator_switch_description">Zijbalk verbergen</string>
+    <string name="miuix_progressbar_loading">laden</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Sleep omlaag om te vernieuwen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Succesvol vernieuwd</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Vernieuwen…</string>
@@ -291,6 +311,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Dat is alles voor nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Een ogenblik geduld…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kon items niet laden</string>
+    <string name="miuix_show_password">Wachtwoord tonen</string>
     <string name="monday">Maandag</string>
     <string name="monday_short">Ma</string>
     <string name="monday_shortest">Ma</string>
@@ -300,14 +321,14 @@
     <string name="month_august">Augustus</string>
     <string name="month_august_short">Aug</string>
     <string name="month_august_shortest">Aug</string>
-    <string name="month_day_format">MM/dd</string>
+    <string name="month_day_format">dd/MM</string>
     <string name="month_december">December</string>
     <string name="month_december_short">Dec</string>
     <string name="month_december_shortest">Dec</string>
     <string name="month_february">Februari</string>
     <string name="month_february_short">Feb</string>
     <string name="month_february_shortest">Feb</string>
-    <string name="month_format">MM</string>
+    <string name="month_format">MMMM</string>
     <string name="month_january">Januari</string>
     <string name="month_january_short">Jan</string>
     <string name="month_january_shortest">Jan</string>
@@ -786,11 +807,10 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="sunday_short">Zo</string>
     <string name="sunday_shortest">Zon</string>
     <string name="sync_desc_state_complete">Gesynchroniseerd met de cloud: %1$s</string>
-    <string name="system_permission_declare_double_link">&lt;Data>Lees en ga akkoord met onze &lt;a href=\"%1$s\">Gebruikersovereenkomst&lt;/a> en &lt;a href=\"%2$s\">Privacybeleid&lt;/a> voordat u doorgaat.&lt;/Data></string>
+    <string name="system_permission_declare_double_link"><Data>Lees en ga akkoord met onze &lt;a href=\"%1$s\">Gebruikersovereenkomst&lt;/a> en &lt;a href=\"%2$s\">Privacybeleid&lt;/a> voordat u doorgaat.</Data></string>
     <string name="tab_all">Alle</string>
     <string name="tab_apps">Apps</string>
     <string name="tab_call">Oproepen</string>
-    <string name="tab_fm">FM</string>
     <string name="talkback_component_exit_button">Zwevend venster sluiten</string>
     <string name="talkback_return_speak_location">Terugschakelen naar gesynchroniseerd afspelen</string>
     <string name="talkback_traslation">Vertalen</string>
@@ -798,7 +818,6 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="talkback_traslation_close">Stop met vertalen</string>
     <string name="text_btn_backward_3_seconds">%d seconden terug</string>
     <string name="text_btn_complete">Stoppen</string>
-    <string name="text_btn_copy">复制</string>
     <string name="text_btn_forward_3_seconds">%d seconden vooruit</string>
     <string name="text_btn_mark">Teken</string>
     <string name="text_btn_pause">Pauzeren</string>
@@ -807,7 +826,6 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="text_btn_recognize_pending">"Afwachten "</string>
     <string name="text_btn_recording">Opnemen</string>
     <string name="text_btn_wave">Golf</string>
-    <string name="text_copy_complete">已复制到剪贴板</string>
     <string name="text_finish">Bevestigen</string>
     <string name="text_for_build_database_progress">Analyseren opname…(%s)</string>
     <string name="text_for_build_database_progress_state_paused">Opnames worden op uw apparaat geanalyseerd om nauwkeurigere resultaten te leveren</string>
@@ -902,8 +920,8 @@ Momenteel gepauzeerd. Analyse wordt hervat wanneer u uw apparaat niet gebruikt."
     <string name="wednesday_shortest">Wo</string>
     <string name="wifi_recommended_body" formatted="false">Uw mobiele dataverbinding gebruiken om dit bestand (%s) te downloaden zal uw dataverbruik verhogen. Als u over de limiet van uw databundel gaat, kan uw provider extra kosten rekenen. Om te wachten tot u een Wi-Fi verbinding heeft, tik op %s.</string>
     <string name="wifi_recommended_title">Waarschuwing datagebruik</string>
-    <string name="year_month_day_format">MM/dd/yyyy</string>
-    <string name="year_month_day_hour_minute_format">MM-dd-yyyy hh.mm aaa</string>
-    <string name="year_month_format">MM yyyy</string>
+    <string name="year_month_day_format">dd-MM-yyyy</string>
+    <string name="year_month_day_hour_minute_format">dd-MM-yyyy hh.mm aaa</string>
+    <string name="year_month_format">MMMM yyyy</string>
     <string name="yesterday">Gisteren</string>
 </resources>

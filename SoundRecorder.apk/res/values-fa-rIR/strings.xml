@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="accessibility_sliding_button_state_description_off">خاموش</string>
+    <string name="accessibility_sliding_button_state_description_on">روشن</string>
+    <string name="accessibility_tab_state_description_unselect">انتخاب نشده</string>
+    <string name="accessibility_tab_statedesc_unselect">انتخاب نشده</string>
     <string name="action_copy">کپی</string>
     <string name="action_notes">ذخیره در یادداشت‌ها</string>
     <string name="action_retry">تلاش دوباره</string>
@@ -199,6 +203,10 @@
     <string name="middle_bit_rate">MP3، ~%1$d ک.ب/ث، ~%2$d م.ب/س</string>
     <string name="midnight">شب</string>
     <string name="miuix_access_state_desc">انتخاب شده</string>
+    <string name="miuix_accessibility_title">عنوان</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">خروج از حالت ویرایش</string>
+    <string name="miuix_appcompat_accessibility_new_message">پیام جدید</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">ورود به حالت ویرایش</string>
     <string name="miuix_appcompat_action_mode_deselect_all">لغو انتخاب همه</string>
     <string name="miuix_appcompat_action_mode_select_all">انتخاب همه</string>
     <string name="miuix_appcompat_action_mode_title_empty">انتخاب موارد</string>
@@ -217,12 +225,24 @@
     <string name="miuix_appcompat_select_all">انتخاب همه</string>
     <string name="miuix_appcompat_select_all_description">انتخاب همه</string>
     <string name="miuix_appcompat_select_item">انتخاب موارد</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">برای بستن به پایین بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">برای نیمه صفحه به پایین بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">برای کمینه کردن به پایین بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">برای نیمه صفحه به بالا بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">برای بیشینه کردن به بالا بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">نیمه صفحه</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">بیشینه شده</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">کمینه شده</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">به نیمه صفحه تغییر یافت</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">به حالت بیشینه تغییر یافت</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">به حالت کمینه تغییر یافت</string>
     <string name="miuix_item_view_role_description">زبانه</string>
     <string name="miuix_navigator_category_group_collapse">بستن</string>
     <string name="miuix_navigator_category_group_expand">بیشتر</string>
     <string name="miuix_navigator_content_switch_description">نمایش نوار کناری</string>
     <string name="miuix_navigator_multiple_choice">انتخاب</string>
     <string name="miuix_navigator_navigator_switch_description">پنهان کردن نوار کناری</string>
+    <string name="miuix_progressbar_loading">در حال بارگذاری</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">برای تازه‌سازی پایین بکشید</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">با موفقیت تازه‌سازی شد</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">در حال تازه سازی…</string>
@@ -231,6 +251,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">به پایان صفحه رسیدید</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">چند لحظه صبر کنید…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">موارد بارگذاری نشدند</string>
+    <string name="miuix_show_password">نمایش رمز عبور</string>
     <string name="monday">دوشنبه</string>
     <string name="monday_short">دوشنبه</string>
     <string name="monday_shortest">دوشنبه</string>
@@ -247,7 +268,7 @@
     <string name="month_february">فوریه</string>
     <string name="month_february_short">فوریه</string>
     <string name="month_february_shortest">فوریه</string>
-    <string name="month_format">MM</string>
+    <string name="month_format">MMMM</string>
     <string name="month_january">ژانویه</string>
     <string name="month_january_short">ژانویه</string>
     <string name="month_january_shortest">ژانویه</string>
@@ -687,11 +708,10 @@
     <string name="sunday_short">یک‌شنبه</string>
     <string name="sunday_shortest">یک‌شنبه</string>
     <string name="sync_desc_state_complete">همگام‌سازی شده با فضای ابری: %1$s</string>
-    <string name="system_permission_declare_double_link">&lt;Data>پیش از ادامه، &lt;a href=\"%1$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%2$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را خوانده و بپذیرید.&lt;/Data></string>
+    <string name="system_permission_declare_double_link"><Data>پیش از ادامه، &lt;a href=\"%1$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%2$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را خوانده و بپذیرید.</Data></string>
     <string name="tab_all">همه</string>
     <string name="tab_apps">برنامه‌ها</string>
     <string name="tab_call">تماس‌ها</string>
-    <string name="tab_fm">FM</string>
     <string name="talkback_component_exit_button">بستن پنجره شناور</string>
     <string name="talkback_return_speak_location">بازگشت به بازپخش همگام‌سازی شده</string>
     <string name="talkback_traslation">ترجمه</string>
@@ -699,7 +719,6 @@
     <string name="talkback_traslation_close">توقف ترجمه</string>
     <string name="text_btn_backward_3_seconds">%d ثانیه به عقب</string>
     <string name="text_btn_complete">توقف</string>
-    <string name="text_btn_copy">复制</string>
     <string name="text_btn_forward_3_seconds">%d ثانیه به جلو</string>
     <string name="text_btn_mark">علامت‌گذاری</string>
     <string name="text_btn_pause">مکث</string>
@@ -708,7 +727,6 @@
     <string name="text_btn_recognize_pending">"در حال بررسی "</string>
     <string name="text_btn_recording">ضبط</string>
     <string name="text_btn_wave">موج</string>
-    <string name="text_copy_complete">已复制到剪贴板</string>
     <string name="text_finish">تأیید</string>
     <string name="text_for_build_database_progress">درحال تجزیه و تحلیل مورد ضبط شده…(%s)</string>
     <string name="text_for_build_database_progress_state_paused">ضبط‌ها بر روی دستگاه شما تجزیه و تحلیل خواهند شد تا نتایج دقیق‌تری ارائه شود</string>
@@ -803,6 +821,6 @@
     <string name="wifi_recommended_title">هشدار مصرف اینترنت همراه</string>
     <string name="year_month_day_format">dd/MM/yyyy</string>
     <string name="year_month_day_hour_minute_format">dd-MM-yyyy hh.mm aaa</string>
-    <string name="year_month_format">MM yyyy</string>
+    <string name="year_month_format">MMMM yyyy</string>
     <string name="yesterday">دیروز</string>
 </resources>

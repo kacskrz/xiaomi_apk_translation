@@ -27,6 +27,10 @@
     <string name="abc_shareactionprovider_share_with">Shiriki na</string>
     <string name="abc_shareactionprovider_share_with_application">Shiriki ukitumia %s</string>
     <string name="abc_toolbar_collapse_description">Kunja</string>
+    <string name="accessibility_sliding_button_state_description_off">imezimwa</string>
+    <string name="accessibility_sliding_button_state_description_on">imewashwa</string>
+    <string name="accessibility_tab_state_description_unselect">Haijachaguliwa</string>
+    <string name="accessibility_tab_statedesc_unselect">Haijachaguliwa</string>
     <string name="action_copy">Nakili</string>
     <string name="action_notes">Hifadhi kwenye Madokezo</string>
     <string name="action_retry">Jaribu tena</string>
@@ -242,7 +246,11 @@
     <string name="middle_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/saa</string>
     <string name="midnight">Usiku</string>
     <string name="miuix_access_state_desc">Imechaguliwa</string>
+    <string name="miuix_accessibility_title">Kichwa</string>
     <string name="miuix_alphabet_indexer_name">Upau wa index</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ondoka katika hali ya kuhariri</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ujumbe mpya</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Ingia katika hali ya kurekebisha</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Acha kuchagua zote</string>
     <string name="miuix_appcompat_action_mode_select_all">Chagua zote</string>
     <string name="miuix_appcompat_action_mode_title_empty">Chagua vipengee</string>
@@ -258,6 +266,17 @@
     <string name="miuix_appcompat_select_all">Chagua zote</string>
     <string name="miuix_appcompat_select_all_description">Chagua zote</string>
     <string name="miuix_appcompat_select_item">Chagua vipengee</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Sukuma chini ili kufunga</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Sukuma chini ili badilisha kuwa katika hali ya nusu skrini</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Sukuma chini ili kuchomoza</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Sukuma juu ili badilisha kuwa katika hali ya nusu skrini</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Sukuma juu ili kuongeza kubwa</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Nusu skrini</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Imekuwa kubwa zaidi</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Imekuwa ndogo zaidi</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Badilisha kuwa katika hali ya nusu skrini</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Badilisha kuwa katika hali ya kubwa zaidi</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Badilisha kuwa katika hali ya ndogo zaidi</string>
     <string name="miuix_indexer_selected">Imechagua %s</string>
     <string name="miuix_item_view_role_description">Kichupo</string>
     <string name="miuix_navigator_category_group_collapse">Kunja</string>
@@ -265,6 +284,7 @@
     <string name="miuix_navigator_content_switch_description">Onyesha utepe</string>
     <string name="miuix_navigator_multiple_choice">Chagua</string>
     <string name="miuix_navigator_navigator_switch_description">Ficha utepe</string>
+    <string name="miuix_progressbar_loading">Inakusanya</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Vuta chini ili kuonyesha upya</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Imefanikiwa kuonyeshwa upya</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Inaonyesha upya…</string>
@@ -273,6 +293,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Ni hayo tu kwa sasa</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Sekunde kidogo tu…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Haikuweza kupakia vipengee</string>
+    <string name="miuix_show_password">Onyesha nenosiri</string>
     <string name="monday">Jumatatu</string>
     <string name="monday_short">Jumatatu</string>
     <string name="monday_shortest">Jumatatu</string>
@@ -289,7 +310,7 @@
     <string name="month_february">Februari</string>
     <string name="month_february_short">Feb</string>
     <string name="month_february_shortest">Feb</string>
-    <string name="month_format">MM</string>
+    <string name="month_format">MMMM</string>
     <string name="month_january">Januari</string>
     <string name="month_january_short">Jan</string>
     <string name="month_january_shortest">Jan</string>
@@ -592,11 +613,10 @@ Gusa \"%1$s\", kisha uchague %2$s"</string>
     <string name="sunday_short">Jumapili</string>
     <string name="sunday_shortest">Jumapili</string>
     <string name="sync_desc_state_complete">Imesawazishwa na wingu: %1$s</string>
-    <string name="system_permission_declare_double_link">&lt;Data>Soma na ukubali &lt;a href=\"%1$s\">Makubaliano yetu ya Mtumiaji&lt;/a> na &lt;a href=\"%2$s\">Sera ya Faragha&lt;/a> a> kabla hujaendelea.&lt;/Data></string>
+    <string name="system_permission_declare_double_link"><Data>Soma na ukubali &lt;a href=\"%1$s\">Makubaliano yetu ya Mtumiaji&lt;/a> na &lt;a href=\"%2$s\">Sera ya Faragha&lt;/a> a> kabla hujaendelea.</Data></string>
     <string name="tab_all">Zote</string>
     <string name="tab_apps">Programu</string>
     <string name="tab_call">Simu</string>
-    <string name="tab_fm">FM</string>
     <string name="talkback_component_exit_button">Funga dirisha linaloelea</string>
     <string name="talkback_return_speak_location">Rudi kwa uchezaji uliosawazishwa</string>
     <string name="talkback_traslation">Tafsiri</string>
@@ -604,7 +624,6 @@ Gusa \"%1$s\", kisha uchague %2$s"</string>
     <string name="talkback_traslation_close">Acha kutafsiri</string>
     <string name="text_btn_backward_3_seconds">Sekunde %d nyuma</string>
     <string name="text_btn_complete">Acha</string>
-    <string name="text_btn_copy">复制</string>
     <string name="text_btn_forward_3_seconds">Sekunde %d mbele</string>
     <string name="text_btn_mark">Alama</string>
     <string name="text_btn_pause">Sitisha</string>
@@ -613,7 +632,6 @@ Gusa \"%1$s\", kisha uchague %2$s"</string>
     <string name="text_btn_recognize_pending">"Inasubiri "</string>
     <string name="text_btn_recording">Rekodi</string>
     <string name="text_btn_wave">Wimbi</string>
-    <string name="text_copy_complete">已复制到剪贴板</string>
     <string name="text_finish">Thibitisha</string>
     <string name="text_for_build_database_progress">Inachanganua rekodi…(%s)</string>
     <string name="text_for_build_database_progress_state_paused">Programu ya Rekodi itachanganuliwa kwenye kifaa chako ili kutoa matokeo sahihi zaidi</string>
@@ -710,6 +728,6 @@ Imesitishwa kwa sasa. Uchambuzi utaendelea wakati hutumii kifaa chako."</string>
     <string name="wifi_recommended_title">Onyo la matumizi ya data</string>
     <string name="year_month_day_format">dd/MM/yyyy</string>
     <string name="year_month_day_hour_minute_format">dd-MM-yyyy hh.mm aaa</string>
-    <string name="year_month_format">MM yyyy</string>
+    <string name="year_month_format">MMMM yyyy</string>
     <string name="yesterday">Jana</string>
 </resources>
