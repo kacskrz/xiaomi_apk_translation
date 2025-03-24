@@ -3,6 +3,10 @@
     <string name="accelerate_play">வேகம்: %sX</string>
     <string name="accept_cookies_confirm_message">இந்த அம்சத்தை முடக்குவதால் சில இணையதளங்கள் சரியாக செயல்படாமல் போகலாம்.</string>
     <string name="accessibility_button_clear">உள்ளீட்டை அழி</string>
+    <string name="accessibility_sliding_button_state_description_off">முடக்கு</string>
+    <string name="accessibility_sliding_button_state_description_on">இயக்கு</string>
+    <string name="accessibility_tab_state_description_unselect">தேர்ந்தெடுக்கப்படவில்லை</string>
+    <string name="accessibility_tab_statedesc_unselect">தேர்ந்தெடுக்கப்படவில்லை</string>
     <string name="account_prifix">கணக்கு:</string>
     <string name="action">உள்நுழையவும்</string>
     <string name="action_menu_account_not_login">உள்நுழையவில்லை</string>
@@ -51,8 +55,8 @@
     <string name="adblock_websites_settings_empyt_hint">நீங்கள் எந்தத் தளங்களையும் தடுக்கவில்லை.</string>
     <string name="adblock_websites_settings_title">தடுக்கப்பட்ட தளங்கள்</string>
     <string name="add">சேர்</string>
-    <string name="add_bookmark_close_talkback">Close add bookmark page</string>
-    <string name="add_bookmark_confirm_talkback">Add to bookmarks</string>
+    <string name="add_bookmark_close_talkback">புக்மார்க்கை சேர்ப்பதற்கான பக்கத்தை மூடுக</string>
+    <string name="add_bookmark_confirm_talkback">புக்மார்க்குகளில் சேர்த்திடுக</string>
     <string name="add_bookmark_group">குழுவைச் சேர்</string>
     <string name="add_bookmarks">புக்மார்க்குகள்</string>
     <string name="add_bookshelf_popup_text">புக்‌ஷெல்பில் சேர்க்கப்பட்டது</string>
@@ -509,8 +513,8 @@
     <string name="early_morning">காலை</string>
     <string name="edit">திருத்து</string>
     <string name="edit_bookmark">புக்மார்க்கைத் திருத்து</string>
-    <string name="edit_bookmark_close_talkback">Close edit bookmark page</string>
-    <string name="edit_bookmark_confirm_talkback">Save changes</string>
+    <string name="edit_bookmark_close_talkback">புக்மார்க்கைத் திருத்துவதற்கான பக்கத்தை மூடுக</string>
+    <string name="edit_bookmark_confirm_talkback">மாற்றங்களைச் சேமி</string>
     <string name="edit_bookmark_tips">வெற்றிகரமாக புக்மார்க்கில் சேர்க்கப்பட்டது. &lt;font color=\"#247BFF\">திருத்து.&lt;/font></string>
     <string name="edit_quicklink">திருத்து</string>
     <string name="edit_website">URL -ஐத் திருத்து</string>
@@ -720,8 +724,6 @@
     <string name="geolocation_settings_page_summary_allowed">இந்தத் தளத்தால் உங்கள் இருப்பிடத்தை அணுக முடியும்</string>
     <string name="geolocation_settings_page_summary_not_allowed">இந்தத் தளத்தால் உங்கள் இருப்பிடத்தை அணுக முடியாது</string>
     <string name="geolocation_settings_page_title">இருப்பிட அணுகலை அழி</string>
-    <string name="go_supermarket_button">செல்</string>
-    <string name="go_supermarket_title">ஆப் ஸ்டோரில் கூடுதலான பயன்பாடுகள், கூடுதல் வேகம் குறைவான தரவுப் பயன்பாடு</string>
     <string name="go_to_tab">தாவல்கள்</string>
     <string name="gold_medals">தங்கப் பதக்கங்கள்</string>
     <string name="google_bookmarks">Google</string>
@@ -768,7 +770,6 @@
     <string name="hot_news_notify_summary">முதன்மை செய்திகளுக்கான புஷ் அறிவிப்புகள்</string>
     <string name="hot_news_notify_tips_light">&lt;font color=\"#0D84FF\">அமைப்புகளில்&lt;/font> செய்திகளுக்கான அறிவிப்புகளை நீங்கள் அணைக்கலாம்</string>
     <string name="hot_news_notify_title">புதிய அறிவிப்புகள்</string>
-    <string name="i_know">நிறுத்து</string>
     <string name="if_cancel">இந்த செயலை ரத்துசெய்யவா?</string>
     <string name="ignore_add_game_center_dialog_this_week">இந்த வாரத்தைக் காண்பிக்க வேண்டாம்</string>
     <string name="ignore_add_pwa_dialog_today">இன்று காண்பிக்காதே</string>
@@ -829,7 +830,6 @@
     <string name="jump_web_learn_more">அசல் இணையப் பக்கத்தைத் திற</string>
     <string name="junk_files_found">குப்பைகள் உள்ளன</string>
     <string name="just_now">இப்போது</string>
-    <string name="keep_intrercept">நிறுத்து</string>
     <string name="kindred_coupons_get_code">குறியீட்டைப் பெறுக</string>
     <string name="kindred_coupons_terms">விதிகள் மற்றும் நிபந்தனைகளைக் காண்க</string>
     <string name="kindred_coupons_title">கூப்பன்கள்</string>
@@ -915,6 +915,10 @@
     <string name="miui_startpage">தொடக்கப் பக்கம்</string>
     <string name="miuishare_title_share">பங்கிடு</string>
     <string name="miuix_access_state_desc">தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="miuix_accessibility_title">தலைப்பு</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">திருத்த பாங்கிலிருந்து வெளியேறவும்</string>
+    <string name="miuix_appcompat_accessibility_new_message">புதிய தெரிவு</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">திருத்த பாங்கிற்கு செல்லவும்</string>
     <string name="miuix_appcompat_action_mode_deselect_all">எல்லாம் தேர்வுநீக்கு</string>
     <string name="miuix_appcompat_action_mode_select_all">எல்லாம் தேர்ந்தெடு</string>
     <string name="miuix_appcompat_action_mode_title_empty">உருப்படிகளைத் தேர்ந்தெடு</string>
@@ -930,6 +934,7 @@
     <string name="miuix_appcompat_select_all">எல்லாம் தேர்ந்தெடு</string>
     <string name="miuix_appcompat_select_all_description">எல்லாம் தேர்ந்தெடு</string>
     <string name="miuix_appcompat_select_item">உருப்படிகளைத் தேர்ந்தெடு</string>
+    <string name="miuix_progressbar_loading">லோட் செய்யுது</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">புதுப்பிக்க, கீழே இழுக்கவும்</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">வெற்றிகரமாகப் புதுப்பிக்கப்பட்டது</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">புதுப்பிக்கிறது…</string>
@@ -938,6 +943,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">இப்போதைக்கு அவ்வளவுதான்</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">சற்று காத்திருங்கள்…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">உருப்படிகளை ஏற்ற முடியவில்லை</string>
+    <string name="miuix_show_password">கடவுச்சொல்லை காட்டு</string>
     <string name="modify_download_path_no_sdcard_dlg_msg">இந்தப் பாதையை மாற்ற SD கார்டு தேவை.</string>
     <string name="monday">திங்கள்</string>
     <string name="monday_short">திங்</string>
@@ -1197,20 +1203,14 @@
     <string name="news_video_no_more_videos">இப்போதைக்கு அவ்வளவுதான்</string>
     <string name="next">அடுத்தது</string>
     <string name="nf_choose_reason">சிக்கலை விவரிக்கவும்</string>
-    <string name="nf_detail_collection">பிடித்தவையில் சேர்</string>
     <string name="nf_dislike">ஆர்வமில்லை</string>
     <string name="nf_feed_list_exit_toast">உள்ளடக்க ஊட்டத்தை மூட, மீண்டும் தட்டவும்</string>
-    <string name="nf_feed_list_refresh_guide">புதிய உருப்படிளை ஏற்ற தட்டவும்</string>
     <string name="nf_feedback">புகாரளி</string>
     <string name="nf_feedback_dislike">விரும்பவில்லை</string>
     <string name="nf_feedback_tips1">இது போன்ற உருப்படிகளைக் குறைவாகக் காண்பீர்கள்</string>
     <string name="nf_feedback_tips2">உங்கள் பின்னூட்டத்துக்கு நன்றி</string>
     <string name="nf_go_source">மூலம்</string>
-    <string name="nf_product_buy">இப்போது வாங்கு</string>
-    <string name="nf_product_discount">%s ஆகச் சேமி</string>
-    <string name="nf_product_more">விவரங்கள்</string>
     <string name="nf_select_language">உள்ளடக்க ஓடை மொழியை தேர்ந்தெடுக்கவும்</string>
-    <string name="nf_set_follow_channel_as_default">தொடக்கத்தின்போது, %s -ஐக் காண்பி</string>
     <string name="nf_submit">சமர்ப்பி</string>
     <string name="night">மாலை</string>
     <string name="no">வேண்டாம்</string>
@@ -1557,7 +1557,6 @@
     <string name="pwa_app_name">இணையப் பயன்பாடுகள்</string>
     <string name="pwa_hint_added_success">வெற்றிகரமாகச் சேர்க்கப்பட்டது</string>
     <string name="qr_code_title">QR குறியீடு</string>
-    <string name="qr_description">QR குறியீட்டை ஸ்கேன் செய்</string>
     <string name="quick_access_to_common_functions">உங்களுக்குப் பிடித்த அம்சங்களை விரைவாக அணுகவும்</string>
     <string name="quick_search_and_access_to_functions">விரைவான தேடலின் மூலம் நீங்கள் அதிகம் பயன்படுத்தும் அம்சங்களை எளிதாக அணுகலாம்.</string>
     <string name="quicklink_bookmark_save">இதில் சேமி</string>
@@ -1652,15 +1651,6 @@
     <string name="request_profile_error">கணக்கு விவரம் பெற முடியவில்லை</string>
     <string name="restart">புதிதாகத் தொடங்கு</string>
     <string name="return_to_homepage">தொடக்கப் பக்கத்திற்குத் திரும்பிச் செல்</string>
-    <string name="risk_continue">தொடரவும்</string>
-    <string name="risk_detail">விவரங்கள்</string>
-    <string name="risk_malicious_url">இந்த இணையதளத்தில் பாதுகாப்பு அச்சுறுத்தல்கள் இருக்கலாம்.</string>
-    <string name="risk_protect_browsing">Mi உலாவி இணையதளங்களில் பாதுகாப்பு சிக்கல்கள் உள்ளதா என்று சோதிக்கும்</string>
-    <string name="risk_safe_url">இந்த இணையதளம் பாதுகாப்பானது</string>
-    <string name="risk_setting_des">Mi உலாவி இணையதளங்களில் பாதுகாப்பு சிக்கல்கள் உள்ளதா என்று சோதிக்க அனுமதிக்கவும்</string>
-    <string name="risk_setting_title">பாதுகாப்பான உலாவல்</string>
-    <string name="risk_stop">நிறுத்து</string>
-    <string name="risk_unspecified_url">இந்த இணையதளத்தின் பாதுகாப்பு சான்றிதழில் சிக்கல் இருக்கிறது.</string>
     <string name="rlv_last_refreshing_time">%1$s புதுப்பிக்கப்பட்டது</string>
     <string name="rlv_loading_more">சற்று காத்திருங்கள்…</string>
     <string name="rlv_pull_to_refresh">புதுப்பிக்க, கீழே இழுக்கவும்</string>
@@ -1883,11 +1873,27 @@
     <string name="tag_undo">செயல்தவிர்</string>
     <string name="tag_undo_title">%s மூடப்பட்டது</string>
     <string name="talk_back_voice_search">குரல் தேடல்</string>
-    <string name="talkback_background_color">Background color</string>
-    <string name="talkback_clear_copied">Clear clipboard</string>
-    <string name="talkback_clear_history">Clear search history</string>
-    <string name="talkback_font_size">Text size</string>
-    <string name="talkback_summary_close">Close</string>
+    <string name="talkback_ai_button_close">AI ஐ மூடுக</string>
+    <string name="talkback_ai_button_quiz">கேளுங்கள்</string>
+    <string name="talkback_ai_quiz_button_copy_answer">பதிலை நகலெடு</string>
+    <string name="talkback_ai_quiz_button_refresh_answer">பதிலைப் புதுப்பித்திடு</string>
+    <string name="talkback_ai_quiz_button_webpage_close">வலைப்பக்கத்தை மூடுக</string>
+    <string name="talkback_ai_translate_pop">உரையாடல் விண்டோ</string>
+    <string name="talkback_background_color">பின்னணி நிறம்</string>
+    <string name="talkback_clear_copied">கிளிப்போர்டை அழி</string>
+    <string name="talkback_clear_history">தேடல் வரலாற்றை அழி</string>
+    <string name="talkback_download_edit">ஆப்பைத் திருத்திடுக</string>
+    <string name="talkback_font_size">எழுத்தின் அளவு</string>
+    <string name="talkback_incognito_button_checked">தேர்ந்தெடுக்கப்பட்டது: %1$s</string>
+    <string name="talkback_incognito_button_unchecked">தேர்ந்தெடுக்கவில்லை: %1$s</string>
+    <string name="talkback_logging_status_describe">உள்நுழைந்தது: %1$s</string>
+    <string name="talkback_panel_control_handle">விண்டோ இண்டிகேட்டர் பட்டி</string>
+    <string name="talkback_popup_window">பாப்-அப் விண்டோ</string>
+    <string name="talkback_summary_close">மூடுக</string>
+    <string name="talkbak_list_item">%1$s, ஐட்டம் %2$d. மொத்த ஐட்டங்கள்: %3$d.</string>
+    <string name="talkbak_new_message">தேர்ந்தெடுத்தது: %1$s. புதிய அறிவிப்புகள்</string>
+    <string name="talkbak_refresh_icon">புதுப்பித்திடு</string>
+    <string name="talkbak_title">தலைப்பு: %1$s</string>
     <string name="the_anniversary_of_lifting_martial_law">ராணுவ சட்ட விலக்கப்பட்ட ஆண்டு விழா</string>
     <string name="the_anti_aggression_day">வன்முறை எதிர்ப்பு தினம்</string>
     <string name="the_arbor_day">ஆர்பர் நாள்</string>
@@ -2009,6 +2015,7 @@
     <string name="user_guide_provide_service_title">இந்த அம்சம் பின்வரும் சேவைகளை வழங்குகிறது:</string>
     <string name="user_guide_read_info_tips">தேடல் முடிவுகளில் செயலிகளையும் சேர்க்க முடிவதற்காக, Mi உலாவி உங்கள் சாதனத்தில் நிறுவியுள்ள எல்லா செயலிகளின் பட்டியலையும் அணுக முடிய வேண்டும்.</string>
     <string name="user_guide_turn_off_feature">இந்த அம்சத்தை முடக்க &lt;font color=\"#0a84ff\">&lt;u>இங்கே&lt;/u>&lt;/font> தட்டவும்.</string>
+    <string name="userguide_talkback_page_index">பக்கம் %1$d</string>
     <string name="username">பெயர்</string>
     <string name="v5_edit_mode_title_empty">உருப்படிகளை தேர்ந்தெடுக்கவும்</string>
     <string name="verify_subscription">சந்தாவைப் புதுப்பிக்கிறது…</string>
@@ -2064,8 +2071,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="voice_title_listening">கேட்கிறது…</string>
     <string name="voice_title_please">பேசத் தொடங்கவும்…</string>
     <string name="voice_title_speech_again">புரியவில்லை</string>
-    <string name="vote_already">நீங்கள் ஏற்கனவே வாக்களித்து விட்டீர்கள்</string>
-    <string name="vote_fail">வாக்களிக்க முடியவில்லை, பிறகு மீண்டும் முயலவும்</string>
     <string name="vpn_data_current_period">செல்லுபடியாகும் காலம்: %s</string>
     <string name="vpn_data_used_info">பயன்படுத்தியது %2$s / %1$s</string>
     <string name="vpn_detail_guide1">உங்கள் இணைப்பை வேகமாக்க, எல்லா சர்வர்களையும் திறக்கவும்</string>
@@ -2235,7 +2240,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_video_size_stretch">இழு</string>
     <string name="web_video_size_tailoring">செதுக்கு</string>
     <string name="webpage_title">புக்மார்க்குகள் &amp; வரலாறு</string>
-    <string name="wechat_video">வீடியோ %s</string>
     <string name="wednesday">புதன்</string>
     <string name="wednesday_short">புத</string>
     <string name="wednesday_shortest">புத</string>
@@ -2256,7 +2260,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_webpage_tips">WhatsApp ஸ்டேட்டஸ் சேமிப்பான்</string>
     <string name="withdraw_dia_content">உள்ளடக்க மையத்தின் தனியுரிமைக் கொள்கைக்கான உங்கள் ஒப்புதலை நீங்கள் திரும்பப் பெற்றால், இந்த அம்சம் உங்கள் தனிப்பட்ட தகவல்களைச் சேகரிப்பதை நிறுத்திவிடும். முன்னர் சேகரிக்கப்பட்ட மற்றும் எங்கள் சர்வர்களில் பதிவேற்றப்பட்ட எந்த தனிப்பட்ட தகவலும் நீக்கப்படும். உங்கள் ஒப்புதலை திரும்பப் பெற்றவுடன், உங்களால் இனி உள்ளடக்க மையத்தைப் பயன்படுத்த முடியாது. இப்போது ஒப்புதலை திரும்பப் பெறவா?</string>
     <string name="xiaomi_sign_in_btn_txt">உள்நுழையவும் அல்லது கணக்கை உருவாக்கவும்</string>
-    <string name="year_month_day_format">dd MMM yyyy</string>
+    <string name="year_month_day_format">dd MMM, yyyy</string>
     <string name="yes">ஆம்</string>
     <string name="yesterday">நேற்று</string>
     <string name="youtube_dialog_content">நீங்கள் Mi உலாவியில் இருந்து வெளியேறி YouTubeஐ திறக்க இருக்கிறீர்கள். தொடரவா?</string>

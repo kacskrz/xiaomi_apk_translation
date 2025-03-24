@@ -3,6 +3,10 @@
     <string name="accelerate_play">სიჩქარე: %sX</string>
     <string name="accept_cookies_confirm_message">ამ ფუნქციის გამორთვამ შეიძლება გამოიწვიოს გარკვეული საიტების არასწორი აღქმა.</string>
     <string name="accessibility_button_clear">ჩანაწერის წაშლა</string>
+    <string name="accessibility_sliding_button_state_description_off">გამორთული</string>
+    <string name="accessibility_sliding_button_state_description_on">ჩართული</string>
+    <string name="accessibility_tab_state_description_unselect">არ არის არჩეული</string>
+    <string name="accessibility_tab_statedesc_unselect">არ არის არჩეული</string>
     <string name="account_prifix">ანგარიში:</string>
     <string name="action">შესვლა</string>
     <string name="action_menu_account_not_login">არ ხართ ავტორიზებული</string>
@@ -720,8 +724,6 @@
     <string name="geolocation_settings_page_summary_allowed">ამ საიტს შეუძლია თქვენი ადგილმდებარეობის დადგენა</string>
     <string name="geolocation_settings_page_summary_not_allowed">ამ საიტს არ შეუძლია თქვენი ადგილმდებარეობის დადგენა</string>
     <string name="geolocation_settings_page_title">ადგილმდებარეობაზე დაშვების გასუფთავება</string>
-    <string name="go_supermarket_button">წინ</string>
-    <string name="go_supermarket_title">სხვა აპლიკაციები, უფრო სწრაფი სიჩქარე და ნაკლები მონაცემების გამოყენება App Store-ში</string>
     <string name="go_to_tab">ჩანართები</string>
     <string name="gold_medals">ოქროს მედლები</string>
     <string name="google_bookmarks">Google</string>
@@ -768,7 +770,6 @@
     <string name="hot_news_notify_summary">Push შეტყობინებები საუკეთესო ამბების შესახებ</string>
     <string name="hot_news_notify_tips_light">შეგიძლიათ გამორთოთ ახალი ამბების შეტყობინებები &lt;font color=\"#0D84FF\">პარამეტრებში&lt;/font></string>
     <string name="hot_news_notify_title">ახალი ამბების შეტყობინებები</string>
-    <string name="i_know">შეჩერება</string>
     <string name="if_cancel">გსურთ ოპერაციის გაუქმება?</string>
     <string name="ignore_add_game_center_dialog_this_week">არ აჩვენოთ ამ კვირას</string>
     <string name="ignore_add_pwa_dialog_today">დღეს არ აჩვენო</string>
@@ -829,7 +830,6 @@
     <string name="jump_web_learn_more">გახსენით ორიგინალი ვებ-გვერდი</string>
     <string name="junk_files_found">ნაპოვნია ნარჩენები</string>
     <string name="just_now">ახლავე</string>
-    <string name="keep_intrercept">შეჩერება</string>
     <string name="kindred_coupons_get_code">კოდის მიღება</string>
     <string name="kindred_coupons_terms">იხილეთ წესები და პირობები</string>
     <string name="kindred_coupons_title">კუპონები</string>
@@ -915,6 +915,10 @@
     <string name="miui_startpage">საწყისი გვერდი</string>
     <string name="miuishare_title_share">გაზიარება</string>
     <string name="miuix_access_state_desc">მონიშულია</string>
+    <string name="miuix_accessibility_title">სათაური</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">რედაქტირების რეჟიმიდან გამოსვლა</string>
+    <string name="miuix_appcompat_accessibility_new_message">ახალი მესიჯი</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">ჩასვლა რედაქტირების რეჟიმში</string>
     <string name="miuix_appcompat_action_mode_deselect_all">ყველა მონიშნვნის გაუქმება</string>
     <string name="miuix_appcompat_action_mode_select_all">მონიშნეთ ყველა</string>
     <string name="miuix_appcompat_action_mode_title_empty">ერთეულების მონიშვნა</string>
@@ -930,6 +934,7 @@
     <string name="miuix_appcompat_select_all">მონიშნეთ ყველა</string>
     <string name="miuix_appcompat_select_all_description">მონიშნეთ ყველა</string>
     <string name="miuix_appcompat_select_item">ერთეულების მონიშვნა</string>
+    <string name="miuix_progressbar_loading">ჩატვირთვა</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ჩამოქაჩე გასანახლებლად</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">წარმატებით განახლდა</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">მიმდინარეობს განახლება…</string>
@@ -938,6 +943,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">ამჟამად სულ ეს არის</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">ერთი წამით…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">ერთეულების ჩატვირთვა ვერ მოხერხდა</string>
+    <string name="miuix_show_password">პაროლის ჩვენება</string>
     <string name="modify_download_path_no_sdcard_dlg_msg">SD ბარათმა უნდა შეცვალოს ეს ბილიკი.</string>
     <string name="monday">ორშაბათი</string>
     <string name="monday_short">ორშ</string>
@@ -1197,20 +1203,14 @@
     <string name="news_video_no_more_videos">ამჟამად სულ ეს არის</string>
     <string name="next">შემდეგი</string>
     <string name="nf_choose_reason">აღწერეთ პრობლემა</string>
-    <string name="nf_detail_collection">დაამატეთ რჩეულებში</string>
     <string name="nf_dislike">არ არის საინტერესო</string>
     <string name="nf_feed_list_exit_toast">ხელახლა შეეხეთ, რათა დახუროთ საინფორმაციო დაფა</string>
-    <string name="nf_feed_list_refresh_guide">შეეხეთ ახალი ერთეულების ჩასატვირთად</string>
     <string name="nf_feedback">რეპორტი</string>
     <string name="nf_feedback_dislike">არ მომწონს</string>
     <string name="nf_feedback_tips1">თქვენ ნახავთ ამ ტიპის ერთეულებს</string>
     <string name="nf_feedback_tips2">გმადლობთ გამოხმაურებისათვის</string>
     <string name="nf_go_source">წყარო</string>
-    <string name="nf_product_buy">შეიძინეთ ახლავე</string>
-    <string name="nf_product_discount">ფასდაკლება %s</string>
-    <string name="nf_product_more">დეტალები</string>
     <string name="nf_select_language">აირჩიეთ საინფორმაციო დაფის ენა</string>
-    <string name="nf_set_follow_channel_as_default">იხილეთ \"%s\" საწყის ეტაპზე</string>
     <string name="nf_submit">გაგზავნა</string>
     <string name="night">საღამო</string>
     <string name="no">არა</string>
@@ -1557,7 +1557,6 @@
     <string name="pwa_app_name">ვებ აპები</string>
     <string name="pwa_hint_added_success">დაემატა წარმატებით</string>
     <string name="qr_code_title">QR კოდი</string>
-    <string name="qr_description">QR კოდის სკანირება</string>
     <string name="quick_access_to_common_functions">სწრაფად შედით თქვენს საყვარელ ფუნქციებზე</string>
     <string name="quick_search_and_access_to_functions">სწრაფი ძიება საშუალებას გაძლევთ ადვილად შეხვიდეთ იმ ფუნქციებზე, რომლებსაც ყველაზე ხშირად იყენებთ.</string>
     <string name="quicklink_bookmark_save">შენახვა</string>
@@ -1652,15 +1651,6 @@
     <string name="request_profile_error">ანგარიშის შესახებ ინფორმაციის მიღება ვერ მოხერხდა</string>
     <string name="restart">თავიდან დაწყება</string>
     <string name="return_to_homepage">უკან საწყის გვერდზე დაბრუნება</string>
-    <string name="risk_continue">გაგრძელება</string>
-    <string name="risk_detail">დეტალები</string>
-    <string name="risk_malicious_url">ეს ვებ-საიტი შეიძლება შეიცავდეს უსაფრთხოების რისკებს.</string>
-    <string name="risk_protect_browsing">Mi ბრაუზერი ამოწმებს ვებ-საიტებს უსაფრთხოების საკითხებთან დაკავშირებით</string>
-    <string name="risk_safe_url">ეს ვებ-საიტი უსაფრთხოა</string>
-    <string name="risk_setting_des">დაუშვით წვდომა Mi ბრაუზერზე შეამოწმოს ვებ-საიტების უსაფრთხოების საკითხები</string>
-    <string name="risk_setting_title">უსაფრთხო დათვალიერება</string>
-    <string name="risk_stop">შეჩერება</string>
-    <string name="risk_unspecified_url">ამ ვებ-საიტის უსაფრთხოების სერტიფიკატის პრობლემა.</string>
     <string name="rlv_last_refreshing_time">განახლებულია %1$s</string>
     <string name="rlv_loading_more">ერთი წამით…</string>
     <string name="rlv_pull_to_refresh">ჩამოქაჩე გასანახლებლად</string>
@@ -1883,11 +1873,27 @@
     <string name="tag_undo">გაუქმება</string>
     <string name="tag_undo_title">დახურულია %s</string>
     <string name="talk_back_voice_search">ხმით ძიება</string>
+    <string name="talkback_ai_button_close">დახურეთ AI</string>
+    <string name="talkback_ai_button_quiz">შეკითხვა</string>
+    <string name="talkback_ai_quiz_button_copy_answer">დააკოპირეთ პასუხი</string>
+    <string name="talkback_ai_quiz_button_refresh_answer">განაახლეთ პასუხი</string>
+    <string name="talkback_ai_quiz_button_webpage_close">დახურეთ ვებ-გვერდი</string>
+    <string name="talkback_ai_translate_pop">დიალოგის ფანჯარა</string>
     <string name="talkback_background_color">უკანა ფონის ფერი</string>
     <string name="talkback_clear_copied">გაასუფთავეთ ბუფერი</string>
     <string name="talkback_clear_history">გაასუფთავეთ ძებნის ისტორია</string>
+    <string name="talkback_download_edit">აპლიკაციების რედაქტირება</string>
     <string name="talkback_font_size">ტექსტის ზომა</string>
+    <string name="talkback_incognito_button_checked">მონიშნულია: %1$s</string>
+    <string name="talkback_incognito_button_unchecked">არ არის მონიშნული: %1$s</string>
+    <string name="talkback_logging_status_describe">ავტორიზაცია: %1$s</string>
+    <string name="talkback_panel_control_handle">ფანჯრის ინდიკატორის ზოლი</string>
+    <string name="talkback_popup_window">ამომხტარი ფანჯარა</string>
     <string name="talkback_summary_close">დახურვა</string>
+    <string name="talkbak_list_item">%1$s, ერთეული %2$d. ერთეულები სულ: %3$d.</string>
+    <string name="talkbak_new_message">მონიშნულია: %1$s. ახალი შეტყობინებები.</string>
+    <string name="talkbak_refresh_icon">განახლება</string>
+    <string name="talkbak_title">სათაური: %1$s</string>
     <string name="the_anniversary_of_lifting_martial_law">მარტინის კანონის ძლაში შესვლის დღე</string>
     <string name="the_anti_aggression_day">ანტი აგრესიის დღე</string>
     <string name="the_arbor_day">ხის დღე</string>
@@ -2009,6 +2015,7 @@
     <string name="user_guide_provide_service_title">ეს ფუნქცია გთავაზობთ შემდეგ სერვისებს:</string>
     <string name="user_guide_read_info_tips">აპლიკაციის ძიების შედეგებში ჩასართავად, Mi ბრაუზერი საჭიროებს წვდომას თქვენს მოწყობილობაზე დაინსტალირებული აპლიკაციების სიაში.</string>
     <string name="user_guide_turn_off_feature">გამორთეთ ეს ფუნქცია, შეეხეთ &lt;font color=\"#0a84ff\">&lt;u>აქ&lt;/u>&lt;/font>.</string>
+    <string name="userguide_talkback_page_index">გვერდი %1$d</string>
     <string name="username">სახელი</string>
     <string name="v5_edit_mode_title_empty">მონიშნეთ ერთეულები</string>
     <string name="verify_subscription">მიმდინარეობს გამომწერების განახლება…</string>
@@ -2064,8 +2071,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="voice_title_listening">მოსმენა…</string>
     <string name="voice_title_please">ლაპარაკის დაწყება…</string>
     <string name="voice_title_speech_again">თქვენი ვერ გავიგე</string>
-    <string name="vote_already">თქვენ უკვე მიეცით ხმა</string>
-    <string name="vote_fail">ხმის მიცემა ვერ მოხერხდა, გთხოვთ სცადოთ მოგვიანებით</string>
     <string name="vpn_data_current_period">მოქმედების ვადა: %s</string>
     <string name="vpn_data_used_info">გამოყენებულია %2$s-ის%1$s</string>
     <string name="vpn_detail_guide1">ყველა სერვერის გახსნა, თქვენი კავშირის დასაჩქარებლად</string>
@@ -2235,7 +2240,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_video_size_stretch">გაწელვა</string>
     <string name="web_video_size_tailoring">მოჭრა</string>
     <string name="webpage_title">ჩანიშნულები და ისტორია</string>
-    <string name="wechat_video">ვიდეო %s</string>
     <string name="wednesday">ოთხშაბათი</string>
     <string name="wednesday_short">ოთხ</string>
     <string name="wednesday_shortest">ოთხ</string>

@@ -3,6 +3,10 @@
     <string name="accelerate_play">Sürət: %sX</string>
     <string name="accept_cookies_confirm_message">Bu xüsusiyyətin bağlanması bəzi veb saytların yanlış davranmasına səbəb ola bilər.</string>
     <string name="accessibility_button_clear">Girişi təmizlə</string>
+    <string name="accessibility_sliding_button_state_description_off">söndür</string>
+    <string name="accessibility_sliding_button_state_description_on">aktiv</string>
+    <string name="accessibility_tab_state_description_unselect">Seçilməmiş</string>
+    <string name="accessibility_tab_statedesc_unselect">Seçilməmiş</string>
     <string name="account_prifix">Hesab:</string>
     <string name="action">Daxil ol</string>
     <string name="action_menu_account_not_login">Daxil olunmadı</string>
@@ -720,8 +724,6 @@ Baxdığınız səhifələr tarixçədə görünməyəcək."</string>
     <string name="geolocation_settings_page_summary_allowed">Bu sayt məkanınıza müraciət edə bilər</string>
     <string name="geolocation_settings_page_summary_not_allowed">Bu sayt məkanınıza müraciət edə bilməz</string>
     <string name="geolocation_settings_page_title">Məkan müraciətini təmizlə</string>
-    <string name="go_supermarket_button">Get</string>
-    <string name="go_supermarket_title">Daha çox tətbiq, daha yüksək sürət və az məlumat istifadəsi üçün Tətbiq Mağazasını istifadə edin</string>
     <string name="go_to_tab">Bölmələr</string>
     <string name="gold_medals">Qızıl medallar</string>
     <string name="google_bookmarks">Google</string>
@@ -768,7 +770,6 @@ Baxdığınız səhifələr tarixçədə görünməyəcək."</string>
     <string name="hot_news_notify_summary">Ən yaxşı xəbərlər üçün push bildirişləri</string>
     <string name="hot_news_notify_tips_light">Xəbər bildirişlərini &lt;font color=\"#0D84FF\">Tənzimləmələr&lt;/font> menyusundan söndürə bilərsiniz</string>
     <string name="hot_news_notify_title">Xəbər bildirişləri</string>
-    <string name="i_know">Dayandır</string>
     <string name="if_cancel">Bu əməliyyat ləğv edilsin?</string>
     <string name="ignore_add_game_center_dialog_this_week">Bu həftə göstərilməsin</string>
     <string name="ignore_add_pwa_dialog_today">Bugün göstərmə</string>
@@ -829,7 +830,6 @@ Baxdığınız səhifələr tarixçədə görünməyəcək."</string>
     <string name="jump_web_learn_more">Orijinal veb səhifəni açın</string>
     <string name="junk_files_found">Zibil tapıldı</string>
     <string name="just_now">İndicə</string>
-    <string name="keep_intrercept">Dayandır</string>
     <string name="kindred_coupons_get_code">Kodu al</string>
     <string name="kindred_coupons_terms">Şərtlər və qaydalara bax</string>
     <string name="kindred_coupons_title">Kuponlar</string>
@@ -915,6 +915,10 @@ Baxdığınız səhifələr tarixçədə görünməyəcək."</string>
     <string name="miui_startpage">Başlat səhifəsi</string>
     <string name="miuishare_title_share">Paylaş</string>
     <string name="miuix_access_state_desc">Seçildi</string>
+    <string name="miuix_accessibility_title">Başlıq</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Düzəliş rejimindən çıxış</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yeni mesaj</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Düzəliş rejimində başla</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bütün seçimi ləğv et</string>
     <string name="miuix_appcompat_action_mode_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elementləri seç</string>
@@ -930,6 +934,7 @@ Baxdığınız səhifələr tarixçədə görünməyəcək."</string>
     <string name="miuix_appcompat_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_select_all_description">Hamısını seç</string>
     <string name="miuix_appcompat_select_item">Elementləri seç</string>
+    <string name="miuix_progressbar_loading">Yüklənir</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yeniləmək üşün aşağıya çəkin</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uğurla yeniləndi</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Yenilənir…</string>
@@ -938,6 +943,7 @@ Baxdığınız səhifələr tarixçədə görünməyəcək."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">İndilik bu qədər</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Bir saniyə…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Eementlər yüklənə bilmədi</string>
+    <string name="miuix_show_password">Parolu göstər</string>
     <string name="modify_download_path_no_sdcard_dlg_msg">Bu yolu dəyişmək üçün SD kart tələb edilir.</string>
     <string name="monday">Bazar ertəsi</string>
     <string name="monday_short">B.e.</string>
@@ -1197,20 +1203,14 @@ Bu səhifə tərk edilsin?"</string>
     <string name="news_video_no_more_videos">İndilik bu qədər</string>
     <string name="next">Növbəti</string>
     <string name="nf_choose_reason">Problemi təsvir edin</string>
-    <string name="nf_detail_collection">Sevimlilərə əlavə et</string>
     <string name="nf_dislike">Maraqlı deyil</string>
     <string name="nf_feed_list_exit_toast">Məzmun lentini bağlamaq üçün yenidən toxunun</string>
-    <string name="nf_feed_list_refresh_guide">Yeni elementləri yükləmək üçün toxunun</string>
     <string name="nf_feedback">Bildir</string>
     <string name="nf_feedback_dislike">Bəyənmə</string>
     <string name="nf_feedback_tips1">Bu növ elementləri daha az görəcəksiniz</string>
     <string name="nf_feedback_tips2">Geri bildirişiniz üçün təşəkkürlər</string>
     <string name="nf_go_source">Mənbə</string>
-    <string name="nf_product_buy">İndi al</string>
-    <string name="nf_product_discount">%s endirim</string>
-    <string name="nf_product_more">Detallar</string>
     <string name="nf_select_language">Məzmun lenti dilini seçin</string>
-    <string name="nf_set_follow_channel_as_default">Başlanğıcda \"%s\" göstərin</string>
     <string name="nf_submit">Göndər</string>
     <string name="night">Axşam</string>
     <string name="no">Xeyr</string>
@@ -1557,7 +1557,6 @@ Bu səhifə tərk edilsin?"</string>
     <string name="pwa_app_name">Veb tətbiqləri</string>
     <string name="pwa_hint_added_success">Uğurla əlavə edildi</string>
     <string name="qr_code_title">QR kodu</string>
-    <string name="qr_description">QR kodunu analiz et</string>
     <string name="quick_access_to_common_functions">Sevimli funksiyalarınıza sürətlə daxil olun</string>
     <string name="quick_search_and_access_to_functions">Sürətli axtarış sizə ən çox istifadə etdiyiniz funksiyalara asanlıqla daxil olmaq imkanı verir.</string>
     <string name="quicklink_bookmark_save">Burada yaddaşda saxla</string>
@@ -1652,15 +1651,6 @@ Bu səhifə tərk edilsin?"</string>
     <string name="request_profile_error">Hesab məlumatı alına bilmədi</string>
     <string name="restart">Yenidən başlat</string>
     <string name="return_to_homepage">Başlat səhifəsinə geri qayıt</string>
-    <string name="risk_continue">Davam et</string>
-    <string name="risk_detail">Detallar</string>
-    <string name="risk_malicious_url">Bu sayt təhlükəsizlik riskləri yarada bilər.</string>
-    <string name="risk_protect_browsing">Mi Brauzer veb saytlarını təhlükəsizlik problemləri üçün yoxlayır</string>
-    <string name="risk_safe_url">Bu veb sayt təhlükəsizdir</string>
-    <string name="risk_setting_des">Mi Brauzerin veb saytlarını təhlükəsizlik problemləri üçün yoxlamasına icazə verin</string>
-    <string name="risk_setting_title">Təhlükəsiz baxış</string>
-    <string name="risk_stop">Dayandır</string>
-    <string name="risk_unspecified_url">Bu veb saytın təhlükəsizlik sertifikatı ilə bağlı problem var.</string>
     <string name="rlv_last_refreshing_time">Yeniləndi: %1$s</string>
     <string name="rlv_loading_more">Bir saniyə…</string>
     <string name="rlv_pull_to_refresh">Yeniləmək üçün aşağıya çəkin</string>
@@ -1883,11 +1873,27 @@ Bu səhifə tərk edilsin?"</string>
     <string name="tag_undo">Geri al</string>
     <string name="tag_undo_title">%s bağlandı</string>
     <string name="talk_back_voice_search">Səsli axtarış</string>
+    <string name="talkback_ai_button_close">Sİ bağla</string>
+    <string name="talkback_ai_button_quiz">Soruş</string>
+    <string name="talkback_ai_quiz_button_copy_answer">Cavabı kopyala</string>
+    <string name="talkback_ai_quiz_button_refresh_answer">Cavabı yenilə</string>
+    <string name="talkback_ai_quiz_button_webpage_close">Veb səhifəni bağla</string>
+    <string name="talkback_ai_translate_pop">Dialoq pəncərəsi</string>
     <string name="talkback_background_color">Fon rəngi</string>
     <string name="talkback_clear_copied">Mübadilə buferini Təmizlə</string>
     <string name="talkback_clear_history">Axtarış Tarixçəsini Təmizlə</string>
+    <string name="talkback_download_edit">Tətbiqləri redaktə et</string>
     <string name="talkback_font_size">Mətn ölçüsü</string>
+    <string name="talkback_incognito_button_checked">Seçildi: %1$s</string>
+    <string name="talkback_incognito_button_unchecked">Seçilmədi: %1$s</string>
+    <string name="talkback_logging_status_describe">Giriş: %1$s</string>
+    <string name="talkback_panel_control_handle">Pəncərə göstərici çubuğu</string>
+    <string name="talkback_popup_window">Açılan pəncərə</string>
     <string name="talkback_summary_close">Bağla</string>
+    <string name="talkbak_list_item">%1$s, element %2$d. Ümumi elementlər: %3$d.</string>
+    <string name="talkbak_new_message">Seçildi: %1$s. Yeni bildirişlər.</string>
+    <string name="talkbak_refresh_icon">Yenilə</string>
+    <string name="talkbak_title">Başlıq: %1$s</string>
     <string name="the_anniversary_of_lifting_martial_law">Hərbi Vəziyyətin Qaldırılma İl dönümü</string>
     <string name="the_anti_aggression_day">Aqressiyaya qarşı mübarizə Günü</string>
     <string name="the_arbor_day">Arbor günü</string>
@@ -2009,6 +2015,7 @@ Siz istənilən vaxt Tənzimləmələr > Gizlilik &amp; təhlükəsizlik menyusu
     <string name="user_guide_provide_service_title">Bu xüsusiyyət aşağıdakı xidmətləri təqdim edir:</string>
     <string name="user_guide_read_info_tips">Tətbiqləri axtarış nəticələrinə daxil edə bilmək üçün Mi Brauzerin cihazınıza quraşdırılmış tətbiqlər siyahısına daxil olması lazımdır.</string>
     <string name="user_guide_turn_off_feature">Bu xüsusiyyəti bağlamaq üçün, &lt;font color=\"#0a84ff\">&lt;u>buraya toxunun&lt;/u>&lt;/font>.</string>
+    <string name="userguide_talkback_page_index">Səhifə %1$d</string>
     <string name="username">Ad</string>
     <string name="v5_edit_mode_title_empty">Element seç</string>
     <string name="verify_subscription">Abunəlik yenilənir…</string>
@@ -2064,8 +2071,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="voice_title_listening">Dinlənilir…</string>
     <string name="voice_title_please">Danışmağa başlayın…</string>
     <string name="voice_title_speech_again">Sizi başa düşə bilmədik</string>
-    <string name="vote_already">Bu gün artıq səs vermisiniz</string>
-    <string name="vote_fail">Səsvermə alınmadı, daha sonra yenidən cəhd edin</string>
     <string name="vpn_data_current_period">İstifadə müddəti: %s</string>
     <string name="vpn_data_used_info">İstifadə edilən: %2$s/%1$s</string>
     <string name="vpn_detail_guide1">Əlaqənizi sürətləndirmək üçün bütün serverləri kiliddən çıxarın</string>
@@ -2235,7 +2240,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_video_size_stretch">Uzat</string>
     <string name="web_video_size_tailoring">Kəs</string>
     <string name="webpage_title">Əlfəcinlər &amp; Tarixçə</string>
-    <string name="wechat_video">Video məkanı: %s</string>
     <string name="wednesday">Çərşənbə</string>
     <string name="wednesday_short">Ç.</string>
     <string name="wednesday_shortest">Ç.</string>
