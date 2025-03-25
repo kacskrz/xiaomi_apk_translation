@@ -49,6 +49,8 @@
     <string name="afternoon">下午</string>
     <string name="aiSearch_buildDB_dialog_analysis_completed_progress">已完成%1$s</string>
     <string name="aiSearch_buildDB_dialog_analysis_completed_progress_stop">已完成%1$s，當前已暫停</string>
+    <string name="aiSearch_buildDB_dialog_analysis_completed_progress_time">已完成%1$s</string>
+    <string name="aiSearch_buildDB_dialog_analysis_completed_progress_time_notice">已完成%1$s，分析过程中设备可能会轻微发热、耗电量增加</string>
     <string name="aiSearch_buildDB_dialog_analysis_notice_five">將在電量充足和溫度合適時繼續分析</string>
     <string name="aiSearch_buildDB_dialog_analysis_notice_four">將在電量充足和溫度合適時開始</string>
     <string name="aiSearch_buildDB_dialog_analysis_notice_one">分析過程中裝置可能會輕微發熱，耗電量增加</string>
@@ -81,10 +83,10 @@
     <string name="aiSearch_buildDB_dialog_notice_window_one">AI搜尋正在進行本機分析…</string>
     <string name="aiSearch_buildDB_dialog_notice_window_three">正在分析本機相片和檔案等系統內容，以提供更精確搜尋結果。</string>
     <string name="aiSearch_buildDB_dialog_notice_window_two">AI搜尋本機分析已暫停</string>
+    <string name="aiSearch_buildDB_dialog_secondary_confirmation_content">分析过程中可能对设备耗电速度、温度和运行流畅性有一定影响，确认开始？</string>
     <string name="aiSearch_buildDB_dialog_secondary_confirmation_remarks">保持充電狀態並將手機隨顯螢幕，可以更快分析。</string>
     <string name="aiSearch_buildDB_dialog_secondary_confirmation_title">即刻開始？</string>
-    <string name="aiSearch_buildDB_dialog_secondary_tmp_confirmation_remarks">分析速度可能受用戶端應用程式影響，保持充電狀態並將手機隨顯螢幕，可以更快分析。</string>
-    <string name="aiSearch_buildDB_dialog_secondary_tmp_confirmation_remarks_zh">分析速度可能受用戶端應用程式影響，保持充電狀態並將設備隨顯螢幕，可以更快分析。</string>
+    <string name="aiSearch_buildDB_dialog_secondary_tmp_confirmation_remarks">分析速度可能受用戶端應用程式影響，保持充電狀態並將裝置隨顯螢幕，可以更快分析。</string>
     <string name="aiSearch_buildDB_dialog_sms_search_title">短訊AI搜尋</string>
     <string name="aiSearch_buildDB_dialog_soundrecord_search_title">錄音AI搜尋</string>
     <string name="aiSearch_enhance_setting_analysis_one">正在分析本機內容以提供更精確搜尋結果</string>
@@ -107,6 +109,7 @@
     <string name="aiSearch_privacy_dialog_permission_desc_user_notice_hyper">小米澎湃AI引擎在部分應用程式中提供自然語言搜尋能力，若您想體驗升級的搜尋能力，需要先同意《小米澎湃AI引擎私隱政策》。確認同意並體驗？</string>
     <string name="aiSearch_privacy_dialog_permission_title_data_to_cloud">同意將部分個人資料上傳雲端？</string>
     <string name="aiSearch_privacy_dialog_permission_title_user_notice">用戶須知</string>
+    <string name="aiSearch_support_service">可支援服務</string>
     <string name="aiSearch_support_service_connect">連接至Windows</string>
     <string name="aiSearch_support_service_connect_computer">可連接到電腦，使用「AI搜尋」獲得精確結果</string>
     <string name="aiSearch_support_service_search">全域搜尋</string>
@@ -204,7 +207,7 @@
     <string name="cognition_os2_permission_default_desc_microphone">透過裝置識别「睡著」或「清醒」等事件</string>
     <string name="cognition_os2_permission_default_desc_phoneState">用於判斷用戶是否在通話狀態</string>
     <string name="cognition_os2_permission_default_desc_serchIndex">用於建立小米澎湃AI搜尋的索引庫</string>
-    <string name="cognition_os2_permission_default_desc_title">小米澎湃AI引擎是通过在本地获取、分析用户行为状态数据，为小米澎湃AI搜索、算力共享、智能充电引擎等服务提供场景识别和智能感知的系统能力中心。</string>
+    <string name="cognition_os2_permission_default_desc_title">小米澎湃AI引擎是透過在本機取得、分析用戶行為狀態資料，為小米澎湃AI搜尋、算力共享、智能充電引擎等服務提供場景識别和智能感知的系統能力中心。</string>
     <string name="cognition_os2_permission_request_content_desc">我們將為您提供內容搜尋服務，請開啟小米澎湃AI引擎的%1$s。</string>
     <string name="cognition_permission_all_files_name">“所有檔案瀏覽權限”</string>
     <string name="cognition_permission_calendar_name">「存取日曆資訊權限」</string>
@@ -372,9 +375,13 @@
     <string name="dist_compute_ai_writing_content">開啟後，AI寫作功能資料將在高算力裝置端側處理，不會被上傳到雲端</string>
     <string name="dist_compute_ai_writing_title">端側AI寫作</string>
     <string name="dist_compute_cancel">取消</string>
+    <string name="dist_compute_download_again_reminder">模型下載失敗，正在重新下載</string>
     <string name="dist_compute_download_guidance_content">開啟「算力共享」需下載「端側大模型」，下載後即可為附近低算力裝置提供算力支援。</string>
     <string name="dist_compute_download_guidance_title">需下載「端側大模型」</string>
     <string name="dist_compute_download_now">即刻下载</string>
+    <string name="dist_compute_download_reminder_content">此功能需使用「端側大模型」，確認下載並安裝？</string>
+    <string name="dist_compute_download_reminder_modelmanager">确认下载并安装“端侧大模型”以使用设备上的端侧AI功能？</string>
+    <string name="dist_compute_download_reminder_title">下載並安裝「端側大模型」</string>
     <string name="dist_compute_pad_already_connected">已連接：%1$s</string>
     <string name="dist_compute_pad_button_neutral">知道了</string>
     <string name="dist_compute_pad_notification_content">可使用附近高算力裝置提供的AI功能</string>
