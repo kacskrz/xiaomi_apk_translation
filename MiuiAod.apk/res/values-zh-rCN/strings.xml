@@ -35,6 +35,10 @@
     <string name="above_image">图片上方</string>
     <string name="accessibility_battery_level">电池电量为百分之 %d。</string>
     <string name="accessibility_battery_level_charging">正在充电，已完成百分之%d。</string>
+    <string name="accessibility_sliding_button_state_description_off">已关闭</string>
+    <string name="accessibility_sliding_button_state_description_on">已开启</string>
+    <string name="accessibility_tab_state_description_unselect">未选中</string>
+    <string name="accessibility_tab_statedesc_unselect">未选中</string>
     <string name="actionbar_button_up_description">返回</string>
     <string name="add_custom_image">"自定义
 图片"</string>
@@ -77,8 +81,12 @@ M/d"</string>
     <string name="aod_resting_screen_define">自定义</string>
     <string name="aod_resting_screen_same_to_lock">和锁屏样式一致</string>
     <string name="aod_resting_screen_style_title">息屏样式</string>
+    <string name="aod_setting_pad_des2">时间颜色根据锁屏壁纸自动取色</string>
     <string name="aod_show_date_and_time">显示日期和时间</string>
+    <string name="aod_show_mode_title_des_pad">充电时始终显示</string>
     <string name="aod_show_style_title">显示模式</string>
+    <string name="aod_show_title_des_pad">开启后，检测到人眼注视时显示息屏，此操作可能导致设备耗电量增加</string>
+    <string name="aod_show_widget_date">显示日期</string>
     <string name="aod_signature_12">aa hh:mm</string>
     <string name="aod_style">息屏样式</string>
     <string name="aod_theme_store">息屏主题商店</string>
@@ -241,6 +249,12 @@ M/d"</string>
     <string name="humidity_format_with_unit">%s</string>
     <string name="icon_content_description">对话框图标</string>
     <string name="item_view_role_description">标签页</string>
+    <string name="keyguard_shortcut_empty">无</string>
+    <string name="keyguard_shortcut_open_failed">应用启动失败，请稍后重试</string>
+    <string name="keyguard_shortcut_slide_enter">滑动进入</string>
+    <string name="keyguard_shortcut_tab_left">左</string>
+    <string name="keyguard_shortcut_tab_right">右</string>
+    <string name="keyguard_shortcut_title">快捷方式</string>
     <string name="kg_activity_label">锁屏编辑</string>
     <string name="kg_aod_settings_depth_video_toast">景深锁屏下仅支持自定义息屏</string>
     <string name="kg_apply">应用</string>
@@ -325,13 +339,15 @@ M/d"</string>
     <string name="kg_depth_produce_video_failed">景深应用出错</string>
     <string name="kg_depth_produce_video_progress_dialog_label">AI正在计算视频景深</string>
     <string name="kg_depth_video_apply_aod_close_toast">由于使用视频景深，已关闭全屏息屏</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm">正在应用“联动壁纸”，应用后锁屏和桌面壁纸均会被替换，息屏恢复至默认，确认应用？</string>
     <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">应用提醒</string>
     <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">取消</string>
     <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">应用</string>
     <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">正在使用联动壁纸，应用后桌面和锁屏均会替换，息屏后恢复原样，确定应用？</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">当前模板不支持使用超级壁纸，应用后桌面和锁屏均会替换，是否确认应用？</string>
     <string name="kg_dialog_apply_successful">应用成功</string>
-    <string name="kg_dialog_apply_super_wallpaper_confirm">当前正在应用超级壁纸，应用后桌面和锁屏壁纸均会替换， 是否确定应用？</string>
+    <string name="kg_dialog_apply_super_wallpaper_confirm">正在应用“超级壁纸”，应用后锁屏和桌面壁纸均会被替换，息屏恢复至默认，确认应用？</string>
+    <string name="kg_dialog_apply_super_wallpaper_confirm_title">应用提醒</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">取消</string>
     <string name="kg_dialog_apply_super_wallpaper_negative_button">取消</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">确定</string>
@@ -406,6 +422,8 @@ M/d"</string>
     <string name="kg_font_filter_object_label_hour_date">小时日期</string>
     <string name="kg_font_filter_object_label_main_content">主体</string>
     <string name="kg_font_filter_object_label_minute">分钟</string>
+    <string name="kg_font_filter_object_label_primary">主色</string>
+    <string name="kg_font_filter_object_label_secondary">辅色</string>
     <string name="kg_font_filter_object_label_signature">签名</string>
     <string name="kg_font_filter_object_label_time">时间</string>
     <string name="kg_font_filter_object_label_time_weather">时间天气</string>
@@ -495,6 +513,7 @@ M/d"</string>
     <string name="kg_template_title_magazine">影像杂志</string>
     <string name="kg_template_title_magazine_phone">人文影像</string>
     <string name="kg_template_title_mine">我的锁屏</string>
+    <string name="kg_template_title_pets">萌宠</string>
     <string name="kg_template_title_rhombus">菱形时间</string>
     <string name="kg_time_language_string">时间语言</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">无法获取第三方壁纸</string>
@@ -582,7 +601,11 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">选中</string>
+    <string name="miuix_accessibility_title">标题</string>
     <string name="miuix_alphabet_indexer_name">索引条</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">退出编辑模式</string>
+    <string name="miuix_appcompat_accessibility_new_message">有新消息</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">进入编辑模式</string>
     <string name="miuix_appcompat_action_mode_deselect_all">取消全选</string>
     <string name="miuix_appcompat_action_mode_select_all">全选</string>
     <string name="miuix_appcompat_action_mode_title_empty">选择</string>
@@ -599,9 +622,21 @@ mm"</string>
     <string name="miuix_appcompat_select_all_description">全选</string>
     <string name="miuix_appcompat_select_item">请选择项目</string>
     <string name="miuix_appcompat_show_dialog_description">弹出式窗口</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">向下滑动即可关闭</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">向下滑动切换至半屏</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">向下滑动切换至最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">向上滑动切换至半屏</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">向上滑动切换至最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">半屏</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">切换至半屏</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">切换至最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">切换至最小化</string>
     <string name="miuix_indexer_collect">收藏</string>
     <string name="miuix_indexer_selected">%s，已选中</string>
     <string name="miuix_popup_window_default_title">弹出式窗口</string>
+    <string name="miuix_progressbar_loading">正在加载中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">下拉刷新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">刷新完成</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">正在刷新</string>
@@ -610,6 +645,7 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">我是有底线的~~~</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">加载中...</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">加载失败</string>
+    <string name="miuix_show_password">显示密码</string>
     <string name="modify_scheduled_time">修改时间</string>
     <string name="monday">星期一</string>
     <string name="monday_short">周一</string>
@@ -755,9 +791,9 @@ mm"</string>
     <string name="signature_default_content">"永远相信
 美好的事情即将发生。"</string>
     <string name="smart_style">智能显示</string>
-    <string name="smart_style_summary">口袋模式、长时间暗光、未注视屏幕等场景下不显示，其他场景始终显示</string>
-    <string name="smart_style_summary_inner">口袋模式、长时间暗光、内屏未注视屏幕等场景下不显示，其他场景始终显示</string>
-    <string name="smart_style_summary_outer">口袋模式、长时间暗光、外屏未注视屏幕等场景下不显示，其他场景始终显示</string>
+    <string name="smart_style_summary">检测到人眼注视时显示</string>
+    <string name="smart_style_summary_inner">内屏检测到人眼注视时显示</string>
+    <string name="smart_style_summary_outer">外屏检测到人眼注视时显示</string>
     <string name="solar_term_autumn_begins">立秋</string>
     <string name="solar_term_autumn_equinox">秋分</string>
     <string name="solar_term_clear_and_bright">清明</string>

@@ -8,6 +8,10 @@
     <string name="above_image">Üles</string>
     <string name="accessibility_battery_level">Aku %d protsent.</string>
     <string name="accessibility_battery_level_charging">Aku laadimine, %d protsent.</string>
+    <string name="accessibility_sliding_button_state_description_off">väljas</string>
+    <string name="accessibility_sliding_button_state_description_on">sees</string>
+    <string name="accessibility_tab_state_description_unselect">Valimata</string>
+    <string name="accessibility_tab_statedesc_unselect">Valimata</string>
     <string name="actionbar_button_up_description">Tagasi</string>
     <string name="add_custom_image">Kohandatud pilt</string>
     <string name="add_from_local">Vali pilt</string>
@@ -48,8 +52,12 @@ d. MM"</string>
     <string name="aod_resting_screen_define">Kohandatud</string>
     <string name="aod_resting_screen_same_to_lock">Sama, mis lukustusekraan</string>
     <string name="aod_resting_screen_style_title">Teemad</string>
+    <string name="aod_setting_pad_des2">Kella värv ühtib teie taustapildi värviga</string>
     <string name="aod_show_date_and_time">Näita kuupäeva ja kellaaega</string>
+    <string name="aod_show_mode_title_des_pad">Näita alati laadimise ajal</string>
     <string name="aod_show_style_title">Näita üksusi</string>
+    <string name="aod_show_title_des_pad">Lülita ekraan välja, kui seade tuvastab, et keegi teine seda vaatab. See võib suurendada energiatarbimist.</string>
+    <string name="aod_show_widget_date">Näita kuupäeva</string>
     <string name="aod_style">Teema</string>
     <string name="aod_theme_store">Alati sisse lülitatud kuvateemad</string>
     <string name="aod_to_close">Lülita välja</string>
@@ -190,11 +198,17 @@ d. MM"</string>
     <string name="health_sleep_desc">Une kestus %1$s, unekvaliteet: %2$s</string>
     <string name="humidity_format">Niiskus %s</string>
     <string name="humidity_format_with_unit">%s</string>
+    <string name="keyguard_shortcut_empty">Puudub</string>
+    <string name="keyguard_shortcut_open_failed">Rakendust ei saanud käivitada. Proovige uuesti.</string>
+    <string name="keyguard_shortcut_slide_enter">Avamiseks libistage</string>
+    <string name="keyguard_shortcut_tab_left">Vasak</string>
+    <string name="keyguard_shortcut_tab_right">Parem</string>
+    <string name="keyguard_shortcut_title">Otseteed</string>
     <string name="kg_activity_label">Ekraaniluku muutmine</string>
     <string name="kg_aod_settings_depth_video_toast">Sügavusefekti kasutamisel toetatakse ainult kohandatud Alati-sees ekraani</string>
     <string name="kg_apply">Rakenda</string>
     <string name="kg_apply_dialog_desktop_preview">Avakuva eelvaade</string>
-    <string name="kg_apply_to_all_alert_dialog_negative_text">Ainult lukustusekraan</string>
+    <string name="kg_apply_to_all_alert_dialog_negative_text">Ainult lukustusekraanile</string>
     <string name="kg_apply_to_all_alert_dialog_positive_text">Rakenda mõlemale</string>
     <string name="kg_apply_to_all_alert_dialog_title">Kas rakendada see taustpilt ka avakuvale?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Tänan, ei</string>
@@ -274,6 +288,7 @@ d. MM"</string>
     <string name="kg_depth_produce_video_failed">Sügavusefekti ei saanud rakendada</string>
     <string name="kg_depth_produce_video_progress_dialog_label">AI töötleb video sügavusefekti…</string>
     <string name="kg_depth_video_apply_aod_close_toast">Video sügavuse efekt on sisse lülitatud. Täisekraani Alati-sees ekraan on välja lülitatud.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm">Kasutate hetkel taustapiltide komplekti. Kui rakendate uue teema, asendatakse nii lukustusekraani kui ka avakuva taustapildid. Kas jätkata ikkagi?</string>
     <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Rakenda teemad</string>
     <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Tühista</string>
     <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Rakenda</string>
@@ -281,6 +296,7 @@ d. MM"</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">See ekraanilukk ei toeta super taustapilte. Jätkamisel asendatakse nii avakuva kui ka ekraaniluku taustapilt. Kas jätkata ikkagi?</string>
     <string name="kg_dialog_apply_successful">Edukalt rakendatud</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Kasutate praegu supertaustapiltide komplekti. Kui rakendate uue teema, asendatakse nii lukustusekraani kui ka avakuva taustapildid ning alati-sees ekraan taastatakse vaikimisi stiilile. Kas rakendada kohe?</string>
+    <string name="kg_dialog_apply_super_wallpaper_confirm_title">Tähelepanu</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Tühista</string>
     <string name="kg_dialog_apply_super_wallpaper_negative_button">Tühista</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
@@ -313,7 +329,7 @@ d. MM"</string>
     <string name="kg_edit_cancel_dialog_title">Tühista muudatused?</string>
     <string name="kg_effects_not_support_gallery_tip">Seinapildi slaidiesitluse kasutamise ajal ei saa efekte seadistada</string>
     <string name="kg_effects_tip_button">Sain aru</string>
-    <string name="kg_effects_tip_desc">Teravussügavuse efekti ei saa filtritega kombineerida. Ühe kasutamine asendab teise.</string>
+    <string name="kg_effects_tip_desc">Teravussügavuse efekti ei saa filtritega kombineerida. Ühe kasutamine tühistab teise.</string>
     <string name="kg_effects_tip_not_support">Dünaamilistele taustapiltidele ei saa efekte rakendada</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Kolmanda osapoole taustapildid ei toeta efekte</string>
     <string name="kg_effects_tip_title">Teravussügavus ja filtrid</string>
@@ -355,6 +371,8 @@ d. MM"</string>
     <string name="kg_font_filter_object_label_hour_date">Tund ja kuupäev</string>
     <string name="kg_font_filter_object_label_main_content">Peamine</string>
     <string name="kg_font_filter_object_label_minute">Minutit</string>
+    <string name="kg_font_filter_object_label_primary">Esmane</string>
+    <string name="kg_font_filter_object_label_secondary">Teisene</string>
     <string name="kg_font_filter_object_label_signature">Allkiri</string>
     <string name="kg_font_filter_object_label_time">Kellaaeg</string>
     <string name="kg_font_filter_object_label_time_weather">Ilmakell</string>
@@ -376,7 +394,7 @@ d. MM"</string>
     <string name="kg_hierarchy_not_support_avoid_tip">Sügavusefekti nähtavaks muutmiseks reguleeri taustapildi asendit</string>
     <string name="kg_hierarchy_not_support_gallery_tip">Seinapildi slaidiesitluse kasutamise ajal ei saa sügavusefekti sisse lülitada</string>
     <string name="kg_hierarchy_not_support_third_party_wallpaper_service_tip">Kolmanda osapoole taustapildid ei toeta sügavusefekte</string>
-    <string name="kg_hierarchy_not_support_wallpaper_tip">See taustapilt ei toeta sügavuse efekti</string>
+    <string name="kg_hierarchy_not_support_wallpaper_tip">See taustapilt ei toeta sügavusefekti</string>
     <string name="kg_hierarchy_switch_label">Sügavusefekt</string>
     <string name="kg_line_spacing">Reavahe</string>
     <string name="kg_live_photo_land_tips">Staatilisteks fotodeks saab määrata ainult horisontaalseid reaalajas fotosid</string>
@@ -444,6 +462,7 @@ d. MM"</string>
     <string name="kg_template_title_magazine">Ajakiri</string>
     <string name="kg_template_title_magazine_phone">Inimesed</string>
     <string name="kg_template_title_mine">Lukustusekraan</string>
+    <string name="kg_template_title_pets">Loomad</string>
     <string name="kg_template_title_rhombus">Romb</string>
     <string name="kg_time_language_string">Numbrid</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">Kolmanda osapoole taustapildile ei pääse juurde</string>
@@ -518,6 +537,10 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Valitud</string>
+    <string name="miuix_accessibility_title">Pealkiri</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Lahku muutmise režiimist</string>
+    <string name="miuix_appcompat_accessibility_new_message">Uus sõnum</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Alusta muutmise režiimis</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kustuta kõik valikud</string>
     <string name="miuix_appcompat_action_mode_select_all">Vali kõik</string>
     <string name="miuix_appcompat_action_mode_title_empty">Vali üksused</string>
@@ -533,6 +556,18 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Vali kõik</string>
     <string name="miuix_appcompat_select_all_description">Vali kõik</string>
     <string name="miuix_appcompat_select_item">Vali üksused</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Keri allapoole, et sulgeda</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Keri allapoole, et lülituda pooliku ekraani režiimi</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Keri allapoole, et minimeerida</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Keri ülespoole, et lülituda pooliku ekraani režiimi</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Keri ülespoole, et maksimeerida</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Poolik ekraan</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maksimeeritud</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimeeritud</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Lülitus pooliku ekraani režiimi</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Lülitus maksimeeritud režiimi</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Lülitus minimeeritud režiimi</string>
+    <string name="miuix_progressbar_loading">Laenamine</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tõmmake värskendamiseks alla</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Edukalt värskendatud</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Värskendamine…</string>
@@ -541,6 +576,7 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">See on praeguseks kõik</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Üks hetk…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ei saanud üksuseid laadida</string>
+    <string name="miuix_show_password">Näita parooli</string>
     <string name="modify_scheduled_time">Muuda aega</string>
     <string name="monday">esmaspäev</string>
     <string name="monday_short">E</string>
