@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Flashlight">ໄຟສາຍ</string>
+    <string name="accessibility_sliding_button_state_description_off">ປິດແລ້ວ</string>
+    <string name="accessibility_sliding_button_state_description_on">​ເປີດ​ແລ້ວ</string>
+    <string name="accessibility_tab_state_description_unselect">ບໍ່ໄດ້ເລືອກ</string>
     <string name="action_settings">ການຕັ້ງຄ່າ</string>
     <string name="actionbar_button_up_description">​ກັບ​ຄືນ</string>
     <string name="active_btn_manual">ເພີ່ມດ້ວຍຕົນເອງແທນ</string>
@@ -68,7 +71,7 @@ ICCID: %2$s"</string>
     <string name="dialog_delete_esim_alert_network_content_china">ເປີດ WLAN, eSIM ອື່ນຫຼືຂໍ້ມູນມືຖືຂອງແຜ່ນ SIM ທີ່​ແທ້​ຈິງແລະລອງອີກຄັ້ງ.</string>
     <string name="dialog_delete_esim_alert_title">​ບໍ່​ສາມາດລົບ eSIM</string>
     <string name="dialog_delete_esim_alert_wifi_content">ເຊື່ອມຕໍ່ Wi-Fi ແລະລອງອີກຄັ້ງ.</string>
-    <string name="dialog_delete_esim_alert_wifi_content_china">Connect to WLAN and try again.</string>
+    <string name="dialog_delete_esim_alert_wifi_content_china">ເຊື່ອມຕໍ່ WLAN ແລະລອງອີກຄັ້ງ.</string>
     <string name="dialog_delete_msg">"ຖ້າທ່ານສືບຕໍ່, ທ່ານຈະລົບ %1$s ອອກຈາກອຸປະກອນນີ້ຢ່າງຖາວອນ. ລົບດຽວນີ້ບໍ່?
 ການກະທຳນີ້ຈະບໍ່ຍົກເລີກແຜນຂໍ້ມູນມືຖືທີ່ທ່ານອາດຈະໄດ້ຊື້ຈາກຜູ້ໃຫ້ບໍລິການ."</string>
     <string name="dialog_delete_profile_cancel">​ຍົກ​ເລີກ</string>
@@ -146,10 +149,10 @@ ICCID: %2$s"</string>
     <string name="dialog_reset_content_tips">ໝາຍເຫດ: ການດໍາເນີນການນີ້ຈະບໍ່ຍົກເລີກບໍລິການທີ່ທ່ານສະໝັກຈາກຜູ້ໃຫ້ບໍລິການ.</string>
     <string name="dialog_reset_esim_alert_close">ຮັບຊາບ</string>
     <string name="dialog_reset_esim_alert_network_content">ເປີດ Wi-Fi ຫຼືຂໍ້ມູນມືຖືຂອງແຜ່ນ SIM ທີ່​ແທ້​ຈິງແລະລອງອີກຄັ້ງ. ຖ້າ​ການ​ນໍາ​ໃຊ້​ແຜ່ນ SIM ​ທີ່​ແທ້​ຈິງ​, ໃສ່​​ໃນຖາດ %1$d ເພື່ອ​ໃຫ້​ສາ​ມາດ​ນໍາ​ໃຊ້​ຂໍ້​ມູນ​ໂທລະ​ສັບ​ມື​ຖື​.</string>
-    <string name="dialog_reset_esim_alert_network_content_china">"Turn on WLAN or a physical SIM card's mobile data and try again. If using a physical SIM card, insert it into slot %1$d to be able to use mobile data."</string>
+    <string name="dialog_reset_esim_alert_network_content_china">ເປີດ WLAN ຫຼືຂໍ້ມູນມືຖືຂອງແຜ່ນ SIM ທີ່​ແທ້​ຈິງແລະລອງອີກຄັ້ງ. ຖ້າ​ການ​ນໍາ​ໃຊ້​ແຜ່ນ SIM ​ທີ່​ແທ້​ຈິງ​, ໃສ່​​ໃນຖາດ %1$d ເພື່ອ​ໃຫ້​ສາ​ມາດ​ນໍາ​ໃຊ້​ຂໍ້​ມູນ​ໂທລະ​ສັບ​ມື​ຖື​.</string>
     <string name="dialog_reset_esim_alert_title">​ບໍ່​ສາມາດຣີເຊັດ eSIM</string>
     <string name="dialog_reset_esim_alert_wifi_content">ເຊື່ອມຕໍ່ Wi-Fi ແລະລອງອີກຄັ້ງ.</string>
-    <string name="dialog_reset_esim_alert_wifi_content_china">Connect to WLAN and try again.</string>
+    <string name="dialog_reset_esim_alert_wifi_content_china">ເຊື່ອມຕໍ່ WLAN ແລະລອງອີກຄັ້ງ.</string>
     <string name="dialog_reset_esim_cancel">​ຍົກ​ເລີກ</string>
     <string name="dialog_reset_esim_confirm">ຕົກລົງ</string>
     <string name="dialog_reset_esim_message">"ຖ້າທ່ານຣີເຊັດ eSIM, eSIM ທັງໝົດຂອງທ່ານຈະຖືກລົບອອກຈາກອຸປະກອນຢ່າງຖາວອນ. ຣີເຊັດດຽວນີ້ບໍ່?
@@ -314,6 +317,12 @@ ICCID: %2$s"</string>
     <string name="manual">ໃຊ້ລະຫັດການເປີດໃຊ້ງານ</string>
     <string name="midnight">ກາງຄືນ</string>
     <string name="miuix_access_state_desc">ເລືອກແລ້ວ</string>
+    <string name="miuix_accessibility_title">ຫົວຂໍ້</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">ຍຸບລົງແລ້ວ</string>
+    <string name="miuix_appcompat_accessibility_expand_state">ຂະຫຍາຍແລ້ວ</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">ອອກຈາກລີສະແດງແກ້ໄຂ</string>
+    <string name="miuix_appcompat_accessibility_new_message">ການແຈ້ງເຕືອນໃໝ່</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">ເຂົ້າສູ່ການແກ້ໄຂ</string>
     <string name="miuix_appcompat_action_mode_deselect_all">​ຍົກ​ເລີກ​ການ​ເລືອກ​ທັງ​ໝົດ</string>
     <string name="miuix_appcompat_action_mode_select_all">​ເລືອກ​ທັງ​ໝົດ</string>
     <string name="miuix_appcompat_action_mode_title_empty">ເລືອກລາຍການ</string>
@@ -329,6 +338,8 @@ ICCID: %2$s"</string>
     <string name="miuix_appcompat_select_all">​ເລືອກ​ທັງ​ໝົດ</string>
     <string name="miuix_appcompat_select_all_description">​ເລືອກ​ທັງ​ໝົດ</string>
     <string name="miuix_appcompat_select_item">ເລືອກລາຍການ</string>
+    <string name="miuix_appcompat_show_dialog_description">ໜ້າຕ່າງປັອບອັບ</string>
+    <string name="miuix_progressbar_loading">ກຳລັງໂຫຼດ</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">​ລາກ​ລົງ​ເພື່ອ​ຣີ​ເຟຣັຊ</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">ຣີ​ເຟຣັຊສຳເລັດແລ້ວ</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">​ກຳ​ລັງ​ຣີ​ເຟຣັຊ…</string>
@@ -337,6 +348,9 @@ ICCID: %2$s"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">ນັ້ນແມ່ນທັງໝົດສຳລັບຕອນນີ້</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">ລໍຖ້າຄາວໜຶ່ງ…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">ບໍ່ສາມາດໂຫຼດລາຍການ</string>
+    <string name="miuix_show_password">ສະແດງລະຫັດຜ່ານ</string>
+    <string name="miuix_stretchablewidget_collapsed">ຍຸບລົງແລ້ວ</string>
+    <string name="miuix_stretchablewidget_expanded">ຂະຫຍາຍແລ້ວ</string>
     <string name="monday">ວັນຈັນ</string>
     <string name="monday_short">ຈັນ</string>
     <string name="monday_shortest">ຈັນ</string>
@@ -420,6 +434,8 @@ ICCID: %2$s"</string>
     <string name="profile_policy_rule_2">"ທ່ານບໍ່ສາມາດລົບ eSIM ນີ້ໄດ້ຫຼັງຈາກເພີ່ມແລ້ວ
 "</string>
     <string name="provider">ຜູ້ໃຫ້ບໍລິການ</string>
+    <string name="qr_torch_state_off_talkback">ປິດ</string>
+    <string name="qr_torch_state_on_talkback">ເປີດ</string>
     <string name="quickstart_setup_activate_esim">ເປີດໃຊ້ງານ eSIM</string>
     <string name="quickstart_setup_back">​ກັບ​ຄືນ</string>
     <string name="quickstart_setup_skip">ຖັດໄປ</string>
@@ -515,7 +531,7 @@ ICCID: %2$s"</string>
     <string name="toast_not_disable_abide_ppr1">eSIM ນີ້ບໍ່ສາມາດຖືກປິດການນຳໃຊ້ໄດ້ລະຫວ່າງຂໍ້ຈຳກັດຂອງຜູ້ໃຫ້ບໍລິການ</string>
     <string name="toast_not_switch_abide_ppr1">ບໍ່ສາມາດເປີດໃຊ້ງານໄດ້. ທ່ານກຳລັງໃຊ້ eSIM ຢູ່ໃນອຸປະກອນນີ້ຢູ່ກ່ອນແລ້ວເຊິ່ງຂຶ້ນກັບຂໍ້ຈຳກັດຂອງຜູ້ໃຫ້ບໍລິການ.</string>
     <string name="toast_reset_esim_failed">ບໍ່ສາມາດຣີເຊັດ eSIM. ລໍຖ້າໜຶ່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
-    <string name="toast_scan_qr_error">ບໍ່ສາມາດສະແກນລະຫັດ QR ໄດ້. ກວດສອບແລະລອງອີກຄັ້ງ.</string>
+    <string name="toast_scan_qr_error">ບໍ່ສາມາດສະແກນລະຫັດ QR ນີ້. ກະລຸນາຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການຂອງທ່ານສຳລັບລາຍລະອຽດ.</string>
     <string name="toast_service_timeout">ຄຳຂໍໝົດເວລາແລ້ວ. ລໍຖ້າໜື່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
     <string name="toast_set_nickname_fail">ບໍ່ສາມາດປ່ຽນຊື່ຫຼິ້ນໄດ້. ລໍຖ້າໜຶ່ງຫຼືສອງນາທີແລະລອງອີກຄັ້ງ.</string>
     <string name="toast_use_mobile_data_warning">ທ່ານກຳລັງໃຊ້ຂໍ້ມູນມືຖືຕອນນີ້. ນີ້ອາດຈະສ້າງຄ່າທຳນຽມເພີ່ມເຕີມ.</string>
