@@ -154,9 +154,12 @@
     <string name="artist_home_search_hint">尋找歌手名稱、暱稱、拼音...</string>
     <string name="artist_is_empty">歌手名不能為空</string>
     <string name="artist_name">歌手名</string>
-    <string name="asm_account_exception">系統賬號異常</string>
+    <string name="asm_account_exception">系統帳號異常，請登出並重新登入</string>
     <string name="asm_ad_free">無廣告</string>
     <string name="asm_album_not_available_toast">專輯取得失敗</string>
+    <string name="asm_artist_message">藝人資訊</string>
+    <string name="asm_auth_failed_try_again_toast">認證啟動失敗，請稍候重試</string>
+    <string name="asm_auth_incomplete_toast">認證未完成，無法繼續操作</string>
     <string name="asm_batch_download_failed">下載失敗</string>
     <string name="asm_buy_member_success">會員購買成功</string>
     <string name="asm_check_video_playing">影片正在播放中，暫不支援加入歌曲</string>
@@ -209,6 +212,7 @@
     <string name="asm_during_the_payment">正在查詢付款狀態，請耐心等待...</string>
     <string name="asm_euro_try_one_month">免費試用一個月</string>
     <string name="asm_fail_play_song">歌曲載入失敗</string>
+    <string name="asm_featured">精選</string>
     <string name="asm_full_tracks">全部音樂</string>
     <string name="asm_google_connect_failed">支付失敗。請檢查網路並確認Google Play是否登入。</string>
     <string name="asm_google_no_goods">未查詢到商品資訊</string>
@@ -228,6 +232,7 @@
     <string name="asm_hate_ads">無廣告暢聽，首月免費</string>
     <string name="asm_hq">高音質</string>
     <string name="asm_item_not_available_toast">資源取得失敗</string>
+    <string name="asm_joox_song_expired_toast">版權已到期，無法下載</string>
     <string name="asm_loadstate_error_retry">請連接網路後點選螢幕重試</string>
     <string name="asm_loadstate_not_more">沒有更多資料</string>
     <string name="asm_main_section_best_sellers">暢銷</string>
@@ -241,6 +246,7 @@
 "<font size="38"><b>只需點選即可</b></font></string>
     <string name="asm_network_error">請檢查網路連接</string>
     <string name="asm_new_song_title">新歌</string>
+    <string name="asm_no_auth_interface_toast">無法取得認證介面，請檢查帳號狀態</string>
     <string name="asm_no_need_download_songs">歌曲已在下載清單</string>
     <string name="asm_no_network">無網路連線</string>
     <string name="asm_not_action_is_local_music">這是本地歌曲，暫不支援該操作選項</string>
@@ -287,7 +293,22 @@
 購買：串流媒體播放最高可達CD品質（16位元/44.1kHz，具體取決於您購買的品質）
 在行動網路上使用串流媒體播放音樂：行動電信商可能會收取額外費用"</string>
     <string name="asm_quality_title">選擇音質後，將在您的下次播放時生效</string>
+    <string name="asm_region_change_button_continue">繼續使用</string>
+    <string name="asm_region_change_button_switch">去切換</string>
+    <string name="asm_region_change_detected">監測到地區變化</string>
+    <string name="asm_region_change_message">偵測到您的網路環境或系統設定地區發生了改變，將為您顯示新地區的線上內容</string>
+    <string name="asm_region_change_tips_switch">點選去切換 > 設定 > 更多設定 > 地區完成切換</string>
+    <string name="asm_region_change_tips_vip">原地區（%s）會員服務將無法使用</string>
+    <string name="asm_region_de">德國</string>
+    <string name="asm_region_es">西班牙</string>
+    <string name="asm_region_fr">法國</string>
+    <string name="asm_region_gb">英國</string>
+    <string name="asm_region_it">義大利</string>
+    <string name="asm_region_pl">波蘭</string>
     <string name="asm_search_result_contain_music">包括:\"%1$s\"</string>
+    <string name="asm_service_connecting_toast">服務正在加載，請稍後重試</string>
+    <string name="asm_service_exception_toast">服務出現異常，請稍後重試</string>
+    <string name="asm_service_maintenance_toast">服務正在維護，請稍後重試</string>
     <string name="asm_song_err_connect">伺服器連接失敗</string>
     <string name="asm_song_err_not_exist">請求的音源不存在</string>
     <string name="asm_song_err_not_exist_clear">歌曲檔案不存在，已自動從播放清單中移除</string>
@@ -307,7 +328,9 @@
     <string name="asm_unknow_album">未知專輯</string>
     <string name="asm_unknow_artist">未知歌手</string>
     <string name="asm_unlock_tracks_ad_free">使用會員全域免廣告，不受干擾享受高品質音樂與下載服務</string>
+    <string name="asm_updated_at_time">更新於yyyy/MM/dd</string>
     <string name="asm_vip_share_rights">開通會員可以享受以下權益</string>
+    <string name="asm_vip_subscribed">已訂閱</string>
     <string name="asm_ws_agree_privacy">同意並繼續</string>
     <string name="asm_ws_all_listen">是否收聽完整歌曲？</string>
     <string name="asm_ws_give_up_rights">開通訂閱，享受以下權益</string>
@@ -1699,6 +1722,7 @@
     <string name="switch_success">切換成功</string>
     <string name="tab_album">專輯</string>
     <string name="tab_album_list">專輯</string>
+    <string name="tab_all">全部</string>
     <string name="tab_artist">歌手</string>
     <string name="tab_artist_list">歌手</string>
     <string name="tab_chart">排行榜</string>
@@ -1713,13 +1737,16 @@
     <string name="talkback_ad">廣告</string>
     <string name="talkback_back">退出目前頁</string>
     <string name="talkback_batch_process">批量處理</string>
+    <string name="talkback_call_ab">叫出操作列</string>
     <string name="talkback_clear">清空</string>
+    <string name="talkback_currentsong">目前歌曲</string>
     <string name="talkback_cut">鈴聲剪裁</string>
     <string name="talkback_device">連線到其他裝置播放</string>
     <string name="talkback_download">下載歌曲</string>
     <string name="talkback_drag_left">左邊界，雙指拖曳即可調整邊界</string>
     <string name="talkback_drag_right">右邊界，雙指拖曳即可調整邊界</string>
     <string name="talkback_favorite">收藏歌曲</string>
+    <string name="talkback_firstsong">第一首歌曲</string>
     <string name="talkback_float_ball">輔助觸控</string>
     <string name="talkback_full_screen">全螢幕</string>
     <string name="talkback_karaoke">打開K歌</string>
@@ -1734,7 +1761,9 @@
     <string name="talkback_next">切換下一首</string>
     <string name="talkback_nowplaying_bar">播放條</string>
     <string name="talkback_nowplaying_circle">播放球</string>
+    <string name="talkback_pause_new">暫停</string>
     <string name="talkback_play">播放／暫停</string>
+    <string name="talkback_play_new">播放</string>
     <string name="talkback_pre">切換上一首</string>
     <string name="talkback_refresh">重新整理</string>
     <string name="talkback_replay">重新播放</string>
