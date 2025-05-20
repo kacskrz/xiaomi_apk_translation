@@ -127,9 +127,12 @@
     <string name="artist_home_search_hint">შემსრულებლების ძებნა</string>
     <string name="artist_is_empty">შემსრულებლის სახელი არ შეიძლება იყოს ცარიელი.</string>
     <string name="artist_name">არტისტი</string>
-    <string name="asm_account_exception">დაფიქსირდა უცნობი შეცდომა</string>
+    <string name="asm_account_exception">სისტემის ანგარიშის შეცდომა. გადით სისტემიდან და ხელახლა შედით სისტემაში.</string>
     <string name="asm_ad_free">რეკლამის გარეშე</string>
     <string name="asm_album_not_available_toast">წვდომა ვერ მოხერხდა</string>
+    <string name="asm_artist_message">შემსრულებელის ინფორმაცია</string>
+    <string name="asm_auth_failed_try_again_toast">ავტორიზაციის დაწყება ვერ მოხერხდა. დაელოდეთ ერთი-ორი წუთი და კიდევ სცადეთ.</string>
+    <string name="asm_auth_incomplete_toast">გასაგრძელებლად დაასრულეთ ავტორიზაცია</string>
     <string name="asm_batch_download_failed">ჩამოტვირთვა ვერ მოხერხდა</string>
     <string name="asm_buy_member_success">VIP წევრობა წარმატებით იქნა შეძენილი</string>
     <string name="asm_check_video_playing">ჩართეთ ვიდეო. დასაკრავ სიაში ვიდეოების დამატება შეუძლებელია.</string>
@@ -182,6 +185,7 @@
     <string name="asm_during_the_payment">მიმდინარეობს გადახდის სტატუსის შემოწმება…</string>
     <string name="asm_euro_try_one_month">უფასოდ სცადეთ ერთი თვე</string>
     <string name="asm_fail_play_song">სიმღერის ჩამოტვირთვა ვერ მოხერხდა</string>
+    <string name="asm_featured">გამორჩეული</string>
     <string name="asm_full_tracks">სრული სიმღერები</string>
     <string name="asm_google_connect_failed">გადახდა ვერ შესრულდა. დარწმუნდით, რომ შესული ხართ Play Store-ში.</string>
     <string name="asm_google_no_goods">პროდუქტის ინფორმაციის მიღება ვერ მოხერხდა</string>
@@ -201,6 +205,7 @@
     <string name="asm_hate_ads">რეკლამის გარეშე, პირველი თვე უფასოა</string>
     <string name="asm_hq">მაღალი ხარისხი</string>
     <string name="asm_item_not_available_toast">მონაცემების მიღება ვერ მოხერხდა</string>
+    <string name="asm_joox_song_expired_toast">გაშვება ვერ ხერხდება საავტორო უფლებასთან დაკავშირებული საკითხების გამო</string>
     <string name="asm_loadstate_error_retry">დაუკავშირდით ინტერნეტს და კიდევ სცადეთ</string>
     <string name="asm_loadstate_not_more">ამჟამად სულ ეს არის</string>
     <string name="asm_main_section_best_sellers">ბესტსელერები</string>
@@ -214,6 +219,7 @@
 "<font size="38"><b>ერთი შეხებით</b></font></string>
     <string name="asm_network_error">შეამოწმეთ თქვენი ინტერნეტ კავშირი</string>
     <string name="asm_new_song_title">ახალი სიმღერები</string>
+    <string name="asm_no_auth_interface_toast">ავტორიზაციის ინტერფეისის ჩატვირთვა ვერ მოხერხდა. შეამოწმეთ თქვენი ანგარიშის სტატუსი და კიდევ სცადეთ.</string>
     <string name="asm_no_need_download_songs">სიმღერა ჩამოტვირთვის რიგშია</string>
     <string name="asm_no_network">ქსელთან დაკავშირება ვერ მოხერხდა</string>
     <string name="asm_not_action_is_local_music">ამ მოაქმედების განხორციელება ვერ ხერხდება ზარების დროს</string>
@@ -260,7 +266,22 @@
 შესყიდვა: სტრიმინგი CD ხარისხამდე (16-ბიტი/44,1 kHz, თქვენ მიერ შეძენილი ხარისხის მიხედვით).
 მუსიკის სტრიმინგს მობილური ინტერნეტით შეიძლება დაეკისროს თქვენი ოპერატორის საფასური."</string>
     <string name="asm_quality_title">მონიშნული აუდიო ხარისხი გამოყენებული იქნება შემდეგ სიმღერაზე, რომელსაც დაუკრავთ</string>
+    <string name="asm_region_change_button_continue">გაგრძელება</string>
+    <string name="asm_region_change_button_switch">შეცვალეთ</string>
+    <string name="asm_region_change_detected">რეგიონი შეიცვალა</string>
+    <string name="asm_region_change_message">როგორც ჩანს, თქვენი ქსელის გარემო ან სისტემის რეგიონის პარამეტრი შეიცვალა. გამოჩნდება თქვენი ახალი რეგიონის ონლაინ შინაარსი.</string>
+    <string name="asm_region_change_tips_switch">რეგიონის შესაცვლელად გადადით პარამეტრებში > დამატებითი პარამეტრები > რეგიონი.</string>
+    <string name="asm_region_change_tips_vip">წინა რეგიონის (%s) გამოწერა აღარ იქნება ხელმისაწვდომი.</string>
+    <string name="asm_region_de">გერმანია</string>
+    <string name="asm_region_es">ესპანეთი</string>
+    <string name="asm_region_fr">საფრანგეთი</string>
+    <string name="asm_region_gb">დიდი ბრიტანეთი</string>
+    <string name="asm_region_it">იტალია</string>
+    <string name="asm_region_pl">პოლონეთი</string>
     <string name="asm_search_result_contain_music">შეიცავს: \"%1$s\"</string>
+    <string name="asm_service_connecting_toast">სერვისი იტვირთება. სცადეთ მოგვიანებით.</string>
+    <string name="asm_service_exception_toast">სერვერის შეცდომა. სცადეთ მოგვიანებით.</string>
+    <string name="asm_service_maintenance_toast">სერვისი ამჟამად ტექნიკური მომსახურების პროცესშია. სცადეთ მოგვიანებით.</string>
     <string name="asm_song_err_connect">სერვერთან დაკავშირება ვერ მოხერხდა</string>
     <string name="asm_song_err_not_exist">მოთხოვნილი აუდიო წყარო არ არსებობს</string>
     <string name="asm_song_err_not_exist_clear">სიმღერა არ არსებობს. ამოღებულია სიიდან.</string>
@@ -280,7 +301,9 @@
     <string name="asm_unknow_album">უცნობი ალბომი</string>
     <string name="asm_unknow_artist">უცნობი არტისტი</string>
     <string name="asm_unlock_tracks_ad_free">წევრობის საშუალებით შეგიძლიათ ისიამოვნოთ მაღალი ხარისხის მუსიკით და ჩამოტვირთვებით რეკლამის ან შეფერხებების გარეშე.</string>
+    <string name="asm_updated_at_time">განახლებულია: dd/MM/yyyy</string>
     <string name="asm_vip_share_rights">გამოიწერეთ ეს შესანიშნავი ბონუსები</string>
+    <string name="asm_vip_subscribed">გამოწერილია</string>
     <string name="asm_ws_agree_privacy">ვეთანხმები</string>
     <string name="asm_ws_all_listen">გსურთ მთიან მუსიკას მოუწმინოთ?</string>
     <string name="asm_ws_give_up_rights">გამოიწერეთ შესანიშნავი ბენეფიტების მისაღებად</string>
@@ -1479,6 +1502,7 @@
     <string name="switch_success">წარმატებით შეცვალა</string>
     <string name="tab_album">ალბომები</string>
     <string name="tab_album_list">ალბომები</string>
+    <string name="tab_all">ყველა</string>
     <string name="tab_artist">არტისტები</string>
     <string name="tab_artist_list">არტისტები</string>
     <string name="tab_chart">ჩარტები</string>
@@ -1493,13 +1517,16 @@
     <string name="talkback_ad">რეკლამა</string>
     <string name="talkback_back">უკან</string>
     <string name="talkback_batch_process">მრავალი ერთეული</string>
+    <string name="talkback_call_ab">დაკვრის მართვის საშუალებების ჩვენება</string>
     <string name="talkback_clear">გასუფთავება</string>
+    <string name="talkback_currentsong">მიმდინარე სიმღერა</string>
     <string name="talkback_cut">ზარის მელოდიის რედაქტორი</string>
     <string name="talkback_device">სხვა მოწყობილობებზე დაკვრა</string>
     <string name="talkback_download">გადმოტვირთვა</string>
     <string name="talkback_drag_left">მარცხენა საზღვარი, გადაიტანეთ ორი თითით დასარეგულირებლად.</string>
     <string name="talkback_drag_right">მარჯვენა საზღვარი, გადაიტანეთ ორი თითით დასარეგულირებლად.</string>
     <string name="talkback_favorite">ამ სიმღერის მსგავსად</string>
+    <string name="talkback_firstsong">პირველი სიმღერა</string>
     <string name="talkback_float_ball">სწრაფი ბურთულა</string>
     <string name="talkback_full_screen">მთლიან ეკრანზე</string>
     <string name="talkback_karaoke">გახსენით კარაოკე</string>
@@ -1514,7 +1541,9 @@
     <string name="talkback_next">შემდეგი სიმღერა</string>
     <string name="talkback_nowplaying_bar">დაკვრის ინდიკატორი</string>
     <string name="talkback_nowplaying_circle">ცირკულარულად დაკვრა</string>
+    <string name="talkback_pause_new">დაპაუზება</string>
     <string name="talkback_play">დაკვრა/დაპაუზება</string>
+    <string name="talkback_play_new">გაშვება</string>
     <string name="talkback_pre">წინა სიმღერა</string>
     <string name="talkback_refresh">განახლება</string>
     <string name="talkback_replay">თავიდან გაშვება</string>
