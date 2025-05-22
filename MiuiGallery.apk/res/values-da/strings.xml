@@ -36,6 +36,9 @@
     <string name="acc_seconds">Sekunder</string>
     <string name="accept">Accepter</string>
     <string name="accept_or_deny">%1$s har delt albummet %2$s med dig.</string>
+    <string name="accessibility_sliding_button_state_description_off">Slået fra</string>
+    <string name="accessibility_sliding_button_state_description_on">Slået til</string>
+    <string name="accessibility_tab_state_description_unselect">Ikke valgt</string>
     <string name="actionbar_button_up_description">Tilbage</string>
     <string name="actionbar_overflow_item_desc">Flere muligheder</string>
     <string name="add_automatically_alert_msg">Tilføj automatisk fotos fra \"%1$s\" til dette album?</string>
@@ -249,6 +252,10 @@ De bedste billeder blev valgt automatisk. Du kan tilføje flere billeder manuelt
     <string name="album_creative">Kreativitet</string>
     <string name="album_detail_default_sort_tip">Skiftet til kronologisk rækkefølge</string>
     <string name="album_detail_page_empty">Ingen fotos eller videoer</string>
+    <string name="album_detail_sort_menu_asc">Dobbelttryk for at sortere i stigende rækkefølge</string>
+    <string name="album_detail_sort_menu_checked">Valgt</string>
+    <string name="album_detail_sort_menu_desc">Dobbelttryk for at sortere i faldende rækkefølge</string>
+    <string name="album_detail_sort_menu_unchecked">Ikke valgt</string>
     <string name="album_download">Download</string>
     <string name="album_faces_name">Folk</string>
     <string name="album_favorites_name">Favoritter</string>
@@ -505,11 +512,11 @@ Tilslut oplader og sluk for skærmen for at få minder frem."</string>
     <string name="blackshark_phone">Black Shark</string>
     <string name="blank_app_name" />
     <string name="blur_refocus_enter">Bokeh</string>
-    <string name="bottomsheet_action_collapse">Skjul feltet i bunden</string>
-    <string name="bottomsheet_action_expand">Udvid feltet i bunden</string>
-    <string name="bottomsheet_action_expand_halfway">Udvid halvdelen</string>
-    <string name="bottomsheet_drag_handle_clicked">Du har trykket to gange på håndtaget</string>
-    <string name="bottomsheet_drag_handle_content_description">Håndtag</string>
+    <string name="bottomsheet_action_collapse">Minimer bundarket</string>
+    <string name="bottomsheet_action_expand">Udvid bundarket</string>
+    <string name="bottomsheet_action_expand_halfway">Udvid halvvejs</string>
+    <string name="bottomsheet_drag_handle_clicked">Trækhåndtag dobbelttrykket</string>
+    <string name="bottomsheet_drag_handle_content_description">Trækhåndtag</string>
     <string name="browse_category_title">Gennemse</string>
     <string name="btn_cancel">Annuller</string>
     <string name="btn_cancel_send">Annuller denne overførsel</string>
@@ -710,13 +717,13 @@ Tilslut oplader og sluk for skærmen for at få minder frem."</string>
     <string name="confirm_hidden_recommend_group_title">Vis ikke anbefalinger</string>
     <string name="confirm_hide_selected_albums">Skjul valgte albummer?</string>
     <string name="confirm_merge_album_title">Sammenflet elementerne</string>
-    <string name="confirm_merge_face_albums">&lt;Data> Sammenlæg dette album med %s? &lt;/Data></string>
-    <string name="confirm_merge_many_face_albums">&lt;Data> Sammenlæg disse albummer med %s? &lt;/Data></string>
+    <string name="confirm_merge_face_albums">" "<Data> Sammenlæg dette album med %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Sammenlæg disse albummer med %s? </Data>" "</string>
     <string name="confirm_not_face">Ingen match</string>
-    <string name="confirm_recommandation_face_is">" &lt;Data> Sikker på, at det er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne person flyttes til albummet \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_face_not">" &lt;Data> Sikker på, at det ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" &lt;Data> Sikker på, at de er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Disse personer flyttes til albummet \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" &lt;Data> Sikker på, at de ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Sikker på, at det er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne person flyttes til albummet \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Sikker på, at det ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sikker på, at de er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Disse personer flyttes til albummet \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Sikker på, at de ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Kontakt</string>
     <string name="context_menu_add_contact">Føj til kontakter</string>
     <string name="context_menu_copy">Kopiér</string>
@@ -794,7 +801,17 @@ Tilslut oplader og sluk for skærmen for at få minder frem."</string>
     <string name="delete_third_party_photo">Slet dette foto?</string>
     <string name="delete_third_party_video">Slet denne video?</string>
     <string name="deny">Afvis</string>
+    <string name="desc_gallery_widget_editor_font_color_black">Sort</string>
+    <string name="desc_gallery_widget_editor_font_color_blue">Blå</string>
+    <string name="desc_gallery_widget_editor_font_color_gray">Grå</string>
+    <string name="desc_gallery_widget_editor_font_color_light_blue">Lyseblå</string>
+    <string name="desc_gallery_widget_editor_font_color_light_green">Lysegrøn</string>
     <string name="desc_gallery_widget_editor_font_color_list">Tekstfarve</string>
+    <string name="desc_gallery_widget_editor_font_color_orange">Orange</string>
+    <string name="desc_gallery_widget_editor_font_color_purple">Lilla</string>
+    <string name="desc_gallery_widget_editor_font_color_red">Rød</string>
+    <string name="desc_gallery_widget_editor_font_color_white">Hvid</string>
+    <string name="desc_gallery_widget_editor_font_color_yellow">Gul</string>
     <string name="desc_gallery_widget_editor_font_type_list">Skrifttype</string>
     <string name="desc_gallery_widget_editor_selected_photo_list">Valgte billeder</string>
     <string name="desc_gallery_widget_editor_text_position_list">Layout</string>
@@ -1120,6 +1137,7 @@ er tilgængelige"</string>
     <string name="foods_travel_title_one">En smag af %1$s</string>
     <string name="foods_travel_title_three">Gourmeternes %1$s</string>
     <string name="foods_travel_title_two">%1$s-mad</string>
+    <string name="frame_current_position_talkback">%1$s %2$s %3$s</string>
     <string name="free_view_desc">3D-visning</string>
     <string name="friday">Fredag</string>
     <string name="friday_short">Fre</string>
@@ -1132,6 +1150,8 @@ er tilgængelige"</string>
     <string name="gallery_sync_disable_toast">Synkronisering er slukket for galleri.</string>
     <string name="gallery_uninstall_description_content">Galleri er en systemapp, og med den kan du se, administrere og synkronisere fotos og videoer på tværs af alle tilsluttede enheder. Hvis du afinstallerer Galleri, mister du de elementer, du har gjort private, og andre funktioner, der er relateret til at se og vælge Galleri-elementer, vil heller ikke længere være tilgængelige for dig. Afinstallér alligevel?</string>
     <string name="gallery_uninstall_description_title">Afinstallér Galleri?</string>
+    <string name="gallery_widget_editor_generate_random_text">Generer tekst tilfældigt</string>
+    <string name="gallery_widget_editor_widget_add_image">Tilføj billede</string>
     <string name="gallery_widget_editor_widget_text_form_label">Tekst</string>
     <string name="gallery_widget_editor_widget_text_form_placeholder">Indtast tekst</string>
     <string name="generate_story_summary">Tag nok billeder, tilslut opladeren, og sluk skærmen for at få minderne til at dukke op. Minder, der allerede er eksisterer, forsvinder ikke, hvis du deaktiverer denne funktion.</string>
@@ -1211,6 +1231,7 @@ er tilgængelige"</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="help">Kan ikke finde enheder?</string>
     <string name="hidden_album_display_name">Skjult album</string>
+    <string name="hide">Skjul</string>
     <string name="hide_nearby_photos">Skjul fotos og videoer i nærheden</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
@@ -1348,6 +1369,7 @@ er tilgængelige"</string>
     <string name="keyboard_shortcut_paste">Indsæt</string>
     <string name="keyboard_shortcut_search">Søg</string>
     <string name="keyboard_shortcut_select_all">Vælg alt</string>
+    <string name="keyboard_shortcut_tile">Skift til alle elementer</string>
     <string name="keyboard_shortcut_year">Årsoversigt</string>
     <string name="kick_owner_user_positive_button_text">Fjern</string>
     <string name="kick_owner_user_title">Fjern denne person?</string>
@@ -1428,6 +1450,7 @@ er tilgængelige"</string>
     <string name="map_album_detail_page_title">Placering</string>
     <string name="map_enable_position_service_message">For at se fotos og videoer skal du først aktivere placeringstjenester.</string>
     <string name="map_enable_position_service_title">Aktivér placeringstjenester</string>
+    <string name="map_gallery">Gallerikort</string>
     <string name="map_grant_position_permission_after_declined_twice_message">For at se fotos og videoer på kortet skal du først give Galleri tilladelse til at få adgang til din placering.</string>
     <string name="map_grant_position_permission_subtitle">For at vise nærliggende fotos og videoer på kortet</string>
     <string name="map_guide_message">Se dine fotos og videoer på kortet</string>
@@ -1524,6 +1547,12 @@ til at gøre Galleri personligt"</string>
     <string name="miplay_volume_btn">Lydstyrke</string>
     <string name="mishare_all_devices">Alle enheder</string>
     <string name="miuix_access_state_desc">Valgt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Skjult</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Udvidet</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Afslut redigeringsvisning</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ny notifikation</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Start redigeringsvisning</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -1539,12 +1568,27 @@ til at gøre Galleri personligt"</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
     <string name="miuix_appcompat_select_all_description">Vælg alle</string>
     <string name="miuix_appcompat_select_item">Vælg emner</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop op-vindue</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Stryg ned for at lukke</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Stryg ned for at skifte til halv skærm</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Stryg ned for at minimere</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Stryg op for at skifte til halv skærm</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Stryg op for at maksimere</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Halv skærm</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maksimeret</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimeret</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Skift til halv skærm</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimer</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimer</string>
     <string name="miuix_item_view_role_description">Fane</string>
     <string name="miuix_navigator_category_group_collapse">Skjul</string>
     <string name="miuix_navigator_category_group_expand">Udvid</string>
     <string name="miuix_navigator_content_switch_description">Vis sidebjælke</string>
     <string name="miuix_navigator_multiple_choice">Vælg</string>
     <string name="miuix_navigator_navigator_switch_description">Skjul sidebjælke</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Værktøjslinje nederst på skærmen</string>
+    <string name="miuix_popup_window_default_title">Pop op-vindue</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
@@ -1553,6 +1597,9 @@ til at gøre Galleri personligt"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Skjult</string>
+    <string name="miuix_stretchablewidget_expanded">Udvidet</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
     <string name="monday_shortest">Man</string>
@@ -1767,6 +1814,7 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="operation_unhide">Gør synlig</string>
     <string name="operation_upgrade_gallery">Opdatér</string>
     <string name="operation_video_compress">Komprimér video</string>
+    <string name="operation_video_to_live">Konverter til livebillede</string>
     <string name="operation_watermark">Beskyttende vandmærke</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
@@ -1781,6 +1829,7 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="other_settings">Yderligere indstillinger</string>
     <string name="owner_album_subtitle">Delt med %1$s personer</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
+    <string name="pasport_register_dialog_message">Vil du oprette en Xiaomi-konto via dit telefonnummer %s nu?</string>
     <string name="passport_access_denied">Adgang nægtet</string>
     <string name="passport_account_crop_user_avatar">Beskær foto</string>
     <string name="passport_account_empty_user_name">Indtast dit navn</string>
@@ -1797,7 +1846,7 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="passport_account_secure_info_pref_title">Kontooplysninger</string>
     <string name="passport_account_security_info_pref_title">Sikkerhedsoplysninger</string>
     <string name="passport_account_user_avatar">Profilbillede</string>
-    <string name="passport_account_user_avatar_from_album">Galleri</string>
+    <string name="passport_account_user_avatar_from_album">Vælg fra Galleri</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Basisoplysninger</string>
     <string name="passport_account_user_details">Personoplysning</string>
@@ -1869,7 +1918,6 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="passport_login_register_by_local_phone_long_text">Opret konto</string>
     <string name="passport_login_with_sns">Andre måder at logge ind på</string>
     <string name="passport_logout_account">Log ud</string>
-    <string name="passport_mi_account_first_title">Vi opretter automatisk en konto, hvis du bruger dit telefonnummer for første gang.</string>
     <string name="passport_mi_account_title">Log ind med Xiaomi-konto</string>
     <string name="passport_network_error">Der opstod en netværksfejl. Kontrollér dine netværksindstillinger, og prøv igen.</string>
     <string name="passport_network_error_hint">"Tjek URL'en og prøv igen, eller kopiér URL'en og åbn den i din browser."</string>
@@ -1878,6 +1926,7 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="passport_no_account">Ikke logget ind</string>
     <string name="passport_open_settings">Indstillinger</string>
     <string name="passport_page_load_failed">Kan ikke åbne side</string>
+    <string name="passport_password_hide_show">Skjul adgangskode</string>
     <string name="passport_password_login_btn">Log ind</string>
     <string name="passport_password_not_show">Vis ikke adgangskode</string>
     <string name="passport_password_show">Vis adgangskode</string>
@@ -1889,6 +1938,8 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="passport_reging">Opretter konto…</string>
     <string name="passport_register_by_local_phone_long_text">Opret konto</string>
     <string name="passport_register_by_local_phone_short_text">Opret konto</string>
+    <string name="passport_register_dialog_positive">Opret</string>
+    <string name="passport_register_dialog_title">Opret Xiaomi-konto</string>
     <string name="passport_register_restricted">For mange konti er blevet knyttet til dette nummer. Prøv et andet nummer.</string>
     <string name="passport_relogin_notice">Du skal logge på igen</string>
     <string name="passport_request_agree">Tillad</string>
@@ -1897,7 +1948,8 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="passport_request_error_invalid_token">Kunne ikke verificere</string>
     <string name="passport_request_error_network">Der opstod en netværksfejl. Kontrollér dine netværksindstillinger, og prøv igen.</string>
     <string name="passport_request_error_unknown">Der opstod en systemfejl. Gå tilbage, og prøv igen.</string>
-    <string name="passport_request_gallery_permission_message">Tillad adgang til Galleri:&lt;br />For at vælge profilbilleder</string>
+    <string name="passport_request_gallery_permission_message">Denne app har brug for adgang til udvalgte elementer i dit galleri for at indstille dit profilbillede. Tillad nu?</string>
+    <string name="passport_request_permission_title">Tilladelser er påkrævet</string>
     <string name="passport_resend_ticket">Gensend kode</string>
     <string name="passport_retry">Prøv igen</string>
     <string name="passport_send_sms_to">Kode sendt til %1$s</string>
@@ -1911,21 +1963,22 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="passport_talkback_switch_image_captcha">Skift til billed-verifikationskode</string>
     <string name="passport_talkback_switch_voice_captcha">Skift til stemme-verifikationskode</string>
     <string name="passport_talkback_voice_captcha">Afspil stemme-verifikationskode</string>
+    <string name="passport_third_sns_service_unavailable">Tjenesten er ikke tilgængelig. Kontroller, at appen er installeret og ikke blokeret.</string>
     <string name="passport_ticket_send_by_second">Send om %d</string>
     <string name="passport_to_forget_password">Glemt adgangskode?</string>
     <string name="passport_to_password_login">Log ind ved hjælp af adgangskode</string>
     <string name="passport_to_verify_code_login">Log ind via SMS</string>
     <string name="passport_unknown_error">Ukendt fejl</string>
     <string name="passport_unknown_host_network_error">Tjek dine netværksindstillinger, og prøv igen</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a> og Xiaomi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Xiaomi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for China Mobiles verifikationstjenester&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Xiaomi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for eSurfings tjenester vedrørende kontoverifikation&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Xiaomi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for China Unicoms verifikationstjenester&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Jeg har læst og accepteret Xiaomi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s> privatlivspolitik&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a> og Xiaomi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Xiaomi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for China Mobiles verifikationstjenester&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Xiaomi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for eSurfings tjenester vedrørende kontoverifikation&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Jeg har læst og accepteret &lt;a href=%1$s>brugeraftalen&lt;/a> og &lt;a href=%2$s>privatlivspolitikken&lt;/a>, Xiaomi-kontos &lt;a href=%3$s>brugeraftale&lt;/a> og &lt;a href=%4$s>privatlivspolitik&lt;/a> samt &lt;a href=%5$s>vilkår og betingelser for China Unicoms verifikationstjenester&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Jeg har læst og accepteret Xiaomi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s> privatlivspolitik&lt;/a>.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Vi opretter automatisk en konto, hvis du bruger dit telefonnummer for første gang.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Jeg har læst og accepteret Xiaomi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s> privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for China Mobiles verifikationstjenester&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Jeg har læst og accepteret Xiaomi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for eSurfings tjenester vedrørende kontoverifikation&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Jeg har læst og accepteret Xiaomi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for China Unicoms verifikationstjenester&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Jeg har læst og accepteret Xiaomi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s> privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for China Mobiles verifikationstjenester&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Jeg har læst og accepteret Xiaomi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for eSurfings tjenester vedrørende kontoverifikation&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Jeg har læst og accepteret Xiaomi-kontos &lt;a href=%1$s>brugeraftale&lt;/a> og &lt;a href=%2$s>privatlivspolitik&lt;/a> samt &lt;a href=%3$s>vilkår og betingelser for China Unicoms verifikationstjenester&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Skift profilbillede</string>
     <string name="passport_user_avatar_uploading">Lige et øjeblik…</string>
     <string name="passport_user_id_hint">E-mail/telefonnummer/Xiaomi-konto-id</string>
@@ -2027,6 +2080,12 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="pic_to_pdf_update_dialog_content">"Opdatér Mi Doc Viewer til den nyeste udgave for at kunne generere PDF'er. Opdatér nu?"</string>
     <string name="pic_to_pdf_update_dialog_positive">Opdatér</string>
     <string name="pic_to_pdf_update_dialog_title">Opdatér Mi Doc Viewer</string>
+    <string name="pic_widget_editor_text_position_bottom">Titel vises nederst</string>
+    <string name="pic_widget_editor_text_position_left_bottom">Titel vises nederst til venstre</string>
+    <string name="pic_widget_editor_text_position_left_top">Titel vises øverst til venstre</string>
+    <string name="pic_widget_editor_text_position_right_bottom">Titel vises nederst til højre</string>
+    <string name="pic_widget_editor_text_position_right_top">Titel vises øverst til højre</string>
+    <string name="pic_widget_editor_text_position_top">Titel vises øverst</string>
     <string name="pick_from_contact">Vælg blandt kontakter</string>
     <string name="pick_people_cover_fail">Der er opstået en fejl. Prøv igen.</string>
     <string name="pick_people_cover_page_title">Vælg forsidefoto</string>
@@ -2143,6 +2202,7 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="qr_invite_title">Invitation med QR-kode</string>
     <string name="quarterly_pets_title">Dunede ledsagere</string>
     <string name="quotation">\"%s\"</string>
+    <string name="ratio">%1$d%%</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="recent_album_empty_title">Har ikke tilføjet nye foto for nylig.</string>
@@ -2272,7 +2332,7 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="scan_qr_code">Scan QR-kode</string>
     <string name="scan_qr_code_buttom_text">Scan QR-kode for at se dette album</string>
     <string name="scan_qr_to_accept_invitation">Scan QR-koden for at acceptere invitationen</string>
-    <string name="scanning_device_tips">&lt;Data>Søger efter enheder i nærheden. Den anden person skal aktivere Xiaomi Share i Kontrolcenter. &lt;a>Få mere at vide&lt;/a>&lt;/Data></string>
+    <string name="scanning_device_tips"><Data>Søger efter enheder i nærheden. Den anden person skal aktivere Xiaomi Share i Kontrolcenter. &lt;a>Få mere at vide&lt;/a></Data></string>
     <string name="scene_tag_name_abdominal_wheel">Mavehjul</string>
     <string name="scene_tag_name_acura_logo">Acura-logo</string>
     <string name="scene_tag_name_adidas_clover_logo">Adidas Originals-logo</string>
@@ -2859,6 +2919,7 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="security_share_subtitle_no_hide">Indeholder placeringsoplysninger</string>
     <string name="see_ignore_faces">Se folk, du har ignoreret.</string>
     <string name="see_more_settings">Yderligere indstillinger</string>
+    <string name="seeking_progress_bar_talkback">Sprang til: %1$s %2$s %3$s</string>
     <string name="segment_change_background">Skift baggrund</string>
     <string name="segment_copy">Kopiér</string>
     <string name="segment_copy_fail">Kunne ikke kopiere</string>
@@ -2896,6 +2957,9 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="send_one_zip_dialog_desc">%2$d ZIP-fil \"%3$s\" fra %1$s</string>
     <string name="send_one_zip_dialog_desc_received">Modtaget %2$d ZIP-fil \"%3$s\" fra %1$s</string>
     <string name="send_one_zip_dialog_desc_receiving">Modtager %2$d ZIP-fil \"%3$s\" fra %1$s</string>
+    <string name="send_photographic_competition_tip_confirm">Indsend</string>
+    <string name="send_photographic_competition_tip_content">For at indsende dette foto kræves billedmetadata, herunder enhedsmodel og kamerainstillinger. Indsend nu?</string>
+    <string name="send_photographic_competition_tip_title">Bemærk</string>
     <string name="send_public_url">Send album-URL</string>
     <string name="send_secret_file_failed">Kunne ikke dele</string>
     <string name="send_secret_file_space_low">Ikke nok lagerplads</string>
@@ -3011,6 +3075,8 @@ Omkodning kan tage lidt tid, når du bruger denne funktion for første gang."</s
     <string name="share_and_delete_screenshot">Slet efter deling</string>
     <string name="share_by_email_start">Del %1$s i baggrunden</string>
     <string name="share_by_email_successfully">Delt %1$s</string>
+    <string name="share_device_near_share">Del, når i nærheden</string>
+    <string name="share_device_near_share_image_describe">Hold NFC-områderne på de to enheder tæt sammen for at starte deling</string>
     <string name="share_from">Fra %1$s</string>
     <string name="share_public_url_text">Jeg har delt albummet %1$s med dig. Se det på %2$s</string>
     <string name="share_with_family">Del med familie</string>
@@ -3192,6 +3258,11 @@ Til den %1$s kan du flytte dine elementer til Google Photos eller besøge i.mi.c
     <string name="talkback_image_with_time">Foto, %s</string>
     <string name="talkback_image_with_time_and_location">Foto, %1$s, %2$s</string>
     <string name="talkback_input_search_hint">Søgebjælke. Indtast søgeord for at søge.</string>
+    <string name="talkback_people_and_group_album_name">Albumtitel: %1$s</string>
+    <string name="talkback_people_and_group_album_playicon_group">Afspil albummet med denne gruppe</string>
+    <string name="talkback_people_and_group_album_playicon_journey">Afspil albummet fra denne rejse</string>
+    <string name="talkback_people_and_group_album_playicon_people">Afspil albummet med denne person</string>
+    <string name="talkback_people_and_group_album_relation">Forhold: %1$s</string>
     <string name="talkback_portrait_with_time">Portræt, %s</string>
     <string name="talkback_portrait_with_time_and_location">Portræt, %1$s, %2$s</string>
     <string name="talkback_screenshot_with_time">Skærmbillede, %s</string>

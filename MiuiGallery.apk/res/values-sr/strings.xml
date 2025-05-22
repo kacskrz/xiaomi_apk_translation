@@ -36,6 +36,9 @@
     <string name="acc_seconds">Секунде</string>
     <string name="accept">Прихвати</string>
     <string name="accept_or_deny">%1$s је поделио овај албум %2$s са вама.</string>
+    <string name="accessibility_sliding_button_state_description_off">Искључен</string>
+    <string name="accessibility_sliding_button_state_description_on">Укључено</string>
+    <string name="accessibility_tab_state_description_unselect">Није изабрано</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="actionbar_overflow_item_desc">Више опција</string>
     <string name="add_automatically_alert_msg">Аутоматски додати фотографије из %1$s у овај албум?</string>
@@ -249,6 +252,10 @@
     <string name="album_creative">Креативност</string>
     <string name="album_detail_default_sort_tip">Пребачено на хронолошки ред</string>
     <string name="album_detail_page_empty">Нема фотографија ни видео снимака</string>
+    <string name="album_detail_sort_menu_asc">Двапут додирните да бисте сортирали у растућем редоследу</string>
+    <string name="album_detail_sort_menu_checked">Изабрано</string>
+    <string name="album_detail_sort_menu_desc">Двапут додирните да бисте сортирали у опадајућем редоследу</string>
+    <string name="album_detail_sort_menu_unchecked">Није изабрано</string>
     <string name="album_download">Преузимања</string>
     <string name="album_faces_name">Људи</string>
     <string name="album_favorites_name">Омиљено</string>
@@ -505,11 +512,11 @@
     <string name="blackshark_phone">Black Shark</string>
     <string name="blank_app_name" />
     <string name="blur_refocus_enter">Bokeh</string>
-    <string name="bottomsheet_action_collapse">Скупите доњу табелу</string>
-    <string name="bottomsheet_action_expand">Проширите доњу табелу</string>
-    <string name="bottomsheet_action_expand_halfway">Проширите до пола</string>
-    <string name="bottomsheet_drag_handle_clicked">Идентификатор за превлачење је двапут додирнут</string>
-    <string name="bottomsheet_drag_handle_content_description">Ручица за превлачење</string>
+    <string name="bottomsheet_action_collapse">Скупи доњи лист</string>
+    <string name="bottomsheet_action_expand">Прошири доњи лист</string>
+    <string name="bottomsheet_action_expand_halfway">Прошири до пола</string>
+    <string name="bottomsheet_drag_handle_clicked">Дупли додир на ручку за повлачење</string>
+    <string name="bottomsheet_drag_handle_content_description">Ручка за повлачење</string>
     <string name="browse_category_title">Прегледај</string>
     <string name="btn_cancel">Откажи</string>
     <string name="btn_cancel_send">Откажи овај пренос</string>
@@ -710,13 +717,13 @@
     <string name="confirm_hidden_recommend_group_title">Не приказуј препоруке</string>
     <string name="confirm_hide_selected_albums">Сакрити изабране албуме?</string>
     <string name="confirm_merge_album_title">Споји ставке</string>
-    <string name="confirm_merge_face_albums">&lt;Data> Спојити овај албум са %s? &lt;/Data></string>
-    <string name="confirm_merge_many_face_albums">&lt;Data> Спојити ове албуме сa %s? &lt;/Data></string>
+    <string name="confirm_merge_face_albums">" "<Data> Спојити овај албум са %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Спојити ове албуме сa %s? </Data>" "</string>
     <string name="confirm_not_face">Нема подударања</string>
-    <string name="confirm_recommandation_face_is">" &lt;Data> Да ли сте сигурни да је ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ова особа ће бити премештена у албум \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_face_not">" &lt;Data> Да ли сте сигурни да ово није &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" &lt;Data> Да ли сте сигурни да су ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ове особе ће бити премештене у албум \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" &lt;Data> Да ли сте сигурни да ово није &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Да ли сте сигурни да је ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ова особа ће бити премештена у албум \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Да ли сте сигурни да ово није &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Да ли сте сигурни да су ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ове особе ће бити премештене у албум \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Да ли сте сигурни да ово није &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Контакт</string>
     <string name="context_menu_add_contact">Додај у контакте</string>
     <string name="context_menu_copy">Копирај</string>
@@ -794,7 +801,17 @@
     <string name="delete_third_party_photo">Обрисати ову фотографију?</string>
     <string name="delete_third_party_video">Обрисати овај видео?</string>
     <string name="deny">Одбаци</string>
+    <string name="desc_gallery_widget_editor_font_color_black">Црно</string>
+    <string name="desc_gallery_widget_editor_font_color_blue">Плаво</string>
+    <string name="desc_gallery_widget_editor_font_color_gray">Сиво</string>
+    <string name="desc_gallery_widget_editor_font_color_light_blue">Светло плаво</string>
+    <string name="desc_gallery_widget_editor_font_color_light_green">Светло зелено</string>
     <string name="desc_gallery_widget_editor_font_color_list">Боја текста</string>
+    <string name="desc_gallery_widget_editor_font_color_orange">Наранџасто</string>
+    <string name="desc_gallery_widget_editor_font_color_purple">Љубичасто</string>
+    <string name="desc_gallery_widget_editor_font_color_red">Црвено</string>
+    <string name="desc_gallery_widget_editor_font_color_white">Бело</string>
+    <string name="desc_gallery_widget_editor_font_color_yellow">Жуто</string>
     <string name="desc_gallery_widget_editor_font_type_list">Фонт</string>
     <string name="desc_gallery_widget_editor_selected_photo_list">Изабране слике</string>
     <string name="desc_gallery_widget_editor_text_position_list">Распоред</string>
@@ -1029,7 +1046,7 @@
     <string name="fancy_color_desc">Боје</string>
     <string name="fast_share_auto_render">Улепшај</string>
     <string name="fast_share_auto_render_finish">Улепшано</string>
-    <string name="father_day">"Mother's Day"</string>
+    <string name="father_day">Дан мајки</string>
     <string name="feature_guidance_photo_effects">"Нови фото-ефекти
 нису доступни"</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
@@ -1120,6 +1137,7 @@
     <string name="foods_travel_title_one">Укус %1$s</string>
     <string name="foods_travel_title_three">Храна у %1$s</string>
     <string name="foods_travel_title_two">%1$s храна</string>
+    <string name="frame_current_position_talkback">%1$s %2$s %3$s</string>
     <string name="free_view_desc">3D приказ</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
@@ -1132,6 +1150,8 @@
     <string name="gallery_sync_disable_toast">Синхронизација је искључена за Галерију</string>
     <string name="gallery_uninstall_description_content">Галерија је системска апликација која вам омогућава да прегледате, управљате и синхронизујете фотографије и видео снимке на свим повезаним уређајима. Ако деинсталирате Галерију, изгубићете ставке које сте учинили приватним, а друге функције које се односе на прегледање и избор ставки Галерије такође вам више неће бити доступне. Ипак деинсталирати?</string>
     <string name="gallery_uninstall_description_title">Деинсталирати Галерију?</string>
+    <string name="gallery_widget_editor_generate_random_text">Насумично генеришите текст</string>
+    <string name="gallery_widget_editor_widget_add_image">Додај слику</string>
     <string name="gallery_widget_editor_widget_text_form_label">Текст</string>
     <string name="gallery_widget_editor_widget_text_form_placeholder">Унесите текст</string>
     <string name="generate_story_summary">Снимите довољно фотографија, повежите пуњач и искључите екран да би се појавиле успомене. Успомене које су већ генерисане неће нестати ако искључите ову функцију.</string>
@@ -1201,16 +1221,17 @@
     <string name="group_header_title_user_create_album">Моји албуми</string>
     <string name="group_name">Група</string>
     <string name="group_photo">Фотографије са овом групом</string>
-    <string name="halloween">Halloween</string>
+    <string name="halloween">Хеловин</string>
     <string name="has_invalid_recipient">Неважећи примаоци: %1$s</string>
     <string name="have_known">Схватам</string>
     <string name="hdr_show_hint">Подесите екран да бисте приказали више детаља у сенкама и светлима на ставкама са високим динамичким опсегом</string>
     <string name="hdr_show_title">Прикажи HDR</string>
     <string name="hdr_switch_show_hint">Користи HDR за приказ више детаља у истакнутом и засенченом</string>
     <string name="hdr_switch_show_title">Pro HDR приказ</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Здраво празно поље</string>
     <string name="help">Не можете пронаћи уређаје?</string>
     <string name="hidden_album_display_name">Скривени албум</string>
+    <string name="hide">Сакриј</string>
     <string name="hide_nearby_photos">Сакриј фотографије и видео снимке у близини</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
@@ -1348,6 +1369,7 @@
     <string name="keyboard_shortcut_paste">Залепи</string>
     <string name="keyboard_shortcut_search">Претражи</string>
     <string name="keyboard_shortcut_select_all">Изабери све</string>
+    <string name="keyboard_shortcut_tile">Прикажи све ставке</string>
     <string name="keyboard_shortcut_year">Годишњи приказ</string>
     <string name="kick_owner_user_positive_button_text">Уклони</string>
     <string name="kick_owner_user_title">Уклонити ову особу?</string>
@@ -1428,6 +1450,7 @@
     <string name="map_album_detail_page_title">Локација</string>
     <string name="map_enable_position_service_message">Да бисте видели фотографије и видео снимке на мапи, прво укључите услуге лоцирања.</string>
     <string name="map_enable_position_service_title">Укључи услуге лоцирања</string>
+    <string name="map_gallery">Мапа Галерије</string>
     <string name="map_grant_position_permission_after_declined_twice_message">Да бисте видели фотографије и видео снимке на мапи, дозволите Галерији да прво приступи вашој локацији.</string>
     <string name="map_grant_position_permission_subtitle">За приказивање фотографија и видео снимака у близини на мапи</string>
     <string name="map_guide_message">Погледајте ваше фотографије и видео снимке на мапи</string>
@@ -1447,7 +1470,7 @@
     <string name="mark_operation_processing">Обрађивање…</string>
     <string name="mark_operation_succeeded">Успешно додато</string>
     <string name="mark_people_ignore_info_message">Притисните и задржите фотографије људи да бисте их додали у групе</string>
-    <string name="mather_day">"Father's Day"</string>
+    <string name="mather_day">Дан очева</string>
     <string name="media_type_burst_photo">Брзо</string>
     <string name="media_type_cinematic">Режим филма</string>
     <string name="media_type_clone_photo">Клонови</string>
@@ -1524,6 +1547,12 @@
     <string name="miplay_volume_btn">Јачина звука</string>
     <string name="mishare_all_devices">Сви уређаји</string>
     <string name="miuix_access_state_desc">Изабрано</string>
+    <string name="miuix_accessibility_title">Наслов</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Скупљено</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Проширено</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Изађи из режима уређивања</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ново обавештење</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Улаз у режим за уређивање</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -1539,12 +1568,27 @@
     <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
     <string name="miuix_appcompat_select_item">Одаберите ставке</string>
+    <string name="miuix_appcompat_show_dialog_description">Искачући прозор</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Превуците надоле за затварање</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Превуците надоле за пребацивање на пола екрана</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Превуците надоле да умањите</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Превуците надоле да пребаците на пола екрана</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Превуците надоле да увећате</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Пола екрана</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Повећано</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Умањено</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Пребаци на пола екрана</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Повећај</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Умањи</string>
     <string name="miuix_item_view_role_description">Картица</string>
     <string name="miuix_navigator_category_group_collapse">Скупи</string>
     <string name="miuix_navigator_category_group_expand">Рашири</string>
     <string name="miuix_navigator_content_switch_description">Прикажи бочну траку</string>
     <string name="miuix_navigator_multiple_choice">Изаберите</string>
     <string name="miuix_navigator_navigator_switch_description">Сакриј бочну траку</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Трака са алатима на дну екрана</string>
+    <string name="miuix_popup_window_default_title">Искачући прозор</string>
+    <string name="miuix_progressbar_loading">Учитавање</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -1553,6 +1597,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
+    <string name="miuix_show_password">Прикажи лозинку</string>
+    <string name="miuix_stretchablewidget_collapsed">Скупљено</string>
+    <string name="miuix_stretchablewidget_expanded">Проширено</string>
     <string name="monday">Понедељак</string>
     <string name="monday_short">Пон</string>
     <string name="monday_shortest">Пон</string>
@@ -1637,7 +1684,7 @@
     <string name="new_relation_invalid_char">Називи група не могу да садрже “%s”. Користите слова, бројеве или карактере.</string>
     <string name="new_relation_invalid_name">\"%s\" група већ постоји, преименујте је.</string>
     <string name="new_relation_invalid_prefix">Назив групе не може да почиње са \".\" или \"_\"</string>
-    <string name="new_year_eve">"New Year's Eve"</string>
+    <string name="new_year_eve">Дочек Нове године</string>
     <string name="next">Даље</string>
     <string name="night">Вече</string>
     <string name="nio">NIO</string>
@@ -1767,6 +1814,7 @@
     <string name="operation_unhide">Откриј</string>
     <string name="operation_upgrade_gallery">Ажурирај</string>
     <string name="operation_video_compress">Компресуј видео</string>
+    <string name="operation_video_to_live">Конвертуј у Живу слику</string>
     <string name="operation_watermark">Заштитни водени жиг</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
@@ -1781,6 +1829,7 @@
     <string name="other_settings">Додатна подешавања</string>
     <string name="owner_album_subtitle">Подељено са %1$s људи</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
+    <string name="pasport_register_dialog_message">Креирати Xiaomi Налог преко броја телефона %s?</string>
     <string name="passport_access_denied">Приступ одбијен</string>
     <string name="passport_account_crop_user_avatar">Подрежи фотографију</string>
     <string name="passport_account_empty_user_name">Унесите ваше име</string>
@@ -1797,7 +1846,7 @@
     <string name="passport_account_secure_info_pref_title">Информације о налогу</string>
     <string name="passport_account_security_info_pref_title">Безбедносне информације</string>
     <string name="passport_account_user_avatar">Профилна фотографија</string>
-    <string name="passport_account_user_avatar_from_album">Галерија</string>
+    <string name="passport_account_user_avatar_from_album">Изаберите у Галерији</string>
     <string name="passport_account_user_avatar_from_camera">Камера</string>
     <string name="passport_account_user_base_info">Основни подаци</string>
     <string name="passport_account_user_details">Личне информације</string>
@@ -1869,7 +1918,6 @@
     <string name="passport_login_register_by_local_phone_long_text">Креирај налог</string>
     <string name="passport_login_with_sns">Други начини за пријаву</string>
     <string name="passport_logout_account">Одјави се</string>
-    <string name="passport_mi_account_first_title">Аутоматски ћемо отворити налог ако први пут користите ваш број телефона.</string>
     <string name="passport_mi_account_title">Пријави се преко Xiaomi Налога</string>
     <string name="passport_network_error">Дошло је до грешке на мрежи. Проверите подешавања мреже и покушајте опет.</string>
     <string name="passport_network_error_hint">Проверите URL и покушајте опет, или копирајте URL и отворите га у вашем прегледачу.</string>
@@ -1878,6 +1926,7 @@
     <string name="passport_no_account">Нисте се пријавили</string>
     <string name="passport_open_settings">Подешавања</string>
     <string name="passport_page_load_failed">Страница се не може отворити</string>
+    <string name="passport_password_hide_show">Сакриј лозинкy</string>
     <string name="passport_password_login_btn">Пријавите се</string>
     <string name="passport_password_not_show">Не приказуј лозинку</string>
     <string name="passport_password_show">Прикажи лозинку</string>
@@ -1889,6 +1938,8 @@
     <string name="passport_reging">Креирање налога…</string>
     <string name="passport_register_by_local_phone_long_text">Креирај налог</string>
     <string name="passport_register_by_local_phone_short_text">Креирај налог</string>
+    <string name="passport_register_dialog_positive">Креирај</string>
+    <string name="passport_register_dialog_title">Креирајте Xiaomi Налог</string>
     <string name="passport_register_restricted">Превише налога повезаних са овим бројем, покушајте са другим.</string>
     <string name="passport_relogin_notice">Поново се пријавите</string>
     <string name="passport_request_agree">Дозволи</string>
@@ -1897,7 +1948,8 @@
     <string name="passport_request_error_invalid_token">Потврда није успела</string>
     <string name="passport_request_error_network">Дошло је до грешке на мрежи. Проверите подешавања мреже и покушајте опет.</string>
     <string name="passport_request_error_unknown">Дошло је до системске грешке. Идите назад и покушајте опет.</string>
-    <string name="passport_request_gallery_permission_message">Дозволити приступ Галерији:&lt;br />За подешавање профилних фотографија</string>
+    <string name="passport_request_gallery_permission_message">Ова апликација треба да приступи изабраним ставкама Галерије да би могла да подеси слику профила. Дозволити сада?</string>
+    <string name="passport_request_permission_title">Потребне су дозволе</string>
     <string name="passport_resend_ticket">Поново пошаљите код</string>
     <string name="passport_retry">Покушај опет</string>
     <string name="passport_send_sms_to">Код је послат на %1$s</string>
@@ -1911,21 +1963,22 @@
     <string name="passport_talkback_switch_image_captcha">Пребаци на сликовни код за потврду</string>
     <string name="passport_talkback_switch_voice_captcha">Пребаци на гласовни код за потврду</string>
     <string name="passport_talkback_voice_captcha">Пусти гласовни код за потврду</string>
+    <string name="passport_third_sns_service_unavailable">Услуга није доступна. Уверите се да је апликација инсталирана и да није блокирана.</string>
     <string name="passport_ticket_send_by_second">Пошаљите за %d</string>
     <string name="passport_to_forget_password">Заборавили сте лозинку?</string>
     <string name="passport_to_password_login">Пријавите се помоћу лозинке</string>
     <string name="passport_to_verify_code_login">Пријавите се SMS-ом</string>
     <string name="passport_unknown_error">Непозната грешка</string>
     <string name="passport_unknown_host_network_error">Проверите подешавања мреже и покушајте опет</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> као и &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Xiaomi Налога.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%5$s>China Mobile одредбе и услове услуга потврђивања.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%5$s>Одредбе и услове услуга потврђивања eSurfing налога.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%5$s>Одредбе и услове China Unicom услуга потврђивања.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Xiaomi Налога.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> као и &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Xiaomi Налога.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%5$s>China Mobile одредбе и услове услуга потврђивања.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%5$s>Одредбе и услове услуга потврђивања eSurfing налога.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%5$s>Одредбе и услове China Unicom услуга потврђивања.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Xiaomi Налога.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Аутоматски ћемо отворити налог ако први пут користите ваш број телефона.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%3$s>Одредбе и услове China Mobile услуга потврђивања&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%3$s>Одредбе и услове услуга потврђивања eSurfing налога&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%3$s>Одредбе и услове China Unicom услуга потврђивања&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%3$s>Одредбе и услове China Mobile услуга потврђивања&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%3$s>Одредбе и услове услуга потврђивања eSurfing налога&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Xiaomi Налога, као и &lt;a href=%3$s>Одредбе и услове China Unicom услуга потврђивања&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Промени профилну фотографију</string>
     <string name="passport_user_avatar_uploading">Само тренутак…</string>
     <string name="passport_user_id_hint">Имејл/Број телефона/ID Xiaomi Налога</string>
@@ -2027,6 +2080,12 @@
     <string name="pic_to_pdf_update_dialog_content">Ажурирајте Mi Прегледач докумената на последњу верзију да бисте могли да генеришете PDF. Ажурирати сада?</string>
     <string name="pic_to_pdf_update_dialog_positive">Ажурирај</string>
     <string name="pic_to_pdf_update_dialog_title">Ажурирај Mi Прегледач докумената</string>
+    <string name="pic_widget_editor_text_position_bottom">Наслов се приказује на дну</string>
+    <string name="pic_widget_editor_text_position_left_bottom">Наслов се приказује у доњем левом углу</string>
+    <string name="pic_widget_editor_text_position_left_top">Наслов се приказује у горњем левом углу</string>
+    <string name="pic_widget_editor_text_position_right_bottom">Наслов се приказује у доњем десном углу</string>
+    <string name="pic_widget_editor_text_position_right_top">Наслов се приказује у горњем десном углу</string>
+    <string name="pic_widget_editor_text_position_top">Наслов се приказује на врху</string>
     <string name="pick_from_contact">Изаберите из контаката</string>
     <string name="pick_people_cover_fail">Дошло је до грешке. Покушајте опет.</string>
     <string name="pick_people_cover_page_title">Изберите фотографију омота</string>
@@ -2143,6 +2202,7 @@
     <string name="qr_invite_title">Позив QR кодом</string>
     <string name="quarterly_pets_title">Паперјасти сапутници</string>
     <string name="quotation">%s</string>
+    <string name="ratio">%1$d%%</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="recent_album_empty_title">Нисте додали нове фотографије у последње време</string>
@@ -2233,7 +2293,7 @@
     <string name="rename_from_contact">Име из контаката</string>
     <string name="replace_group_cover">Промени омот</string>
     <string name="replace_people_cover">Промени омот</string>
-    <string name="replace_pets_cover">Change cover</string>
+    <string name="replace_pets_cover">Промени омот</string>
     <string name="request_qr_code_failed">Не може се добити QR код</string>
     <string name="request_sms_url_failed">Информације нису добијене</string>
     <string name="request_sms_url_msg">Тражење информација…</string>
@@ -2272,7 +2332,7 @@
     <string name="scan_qr_code">Скенирајте QR код</string>
     <string name="scan_qr_code_buttom_text">Скенирајте QR код да бисте прегледали овај албум</string>
     <string name="scan_qr_to_accept_invitation">Скенирајте QR код да бисте прихватили позив</string>
-    <string name="scanning_device_tips">&lt;Data>Тражење уређаја у близини. Друга особа треба да укључи Xiaomi Share у Контролном центру. &lt;a>Сазнајте више&lt;/a>&lt;/Data></string>
+    <string name="scanning_device_tips"><Data>Тражење уређаја у близини. Друга особа треба да укључи Xiaomi Share у Контролном центру. &lt;a>Сазнајте више&lt;/a></Data></string>
     <string name="scene_tag_name_abdominal_wheel">Точак за трбушњаке</string>
     <string name="scene_tag_name_acura_logo">Acura лого</string>
     <string name="scene_tag_name_adidas_clover_logo">Adidas Originals лого</string>
@@ -2859,6 +2919,7 @@
     <string name="security_share_subtitle_no_hide">Садржи податке о локацији</string>
     <string name="see_ignore_faces">Приказ људи које сте игнорисали</string>
     <string name="see_more_settings">Додатна подешавања</string>
+    <string name="seeking_progress_bar_talkback">Премотано на: %1$s %2$s %3$s</string>
     <string name="segment_change_background">Промени позадину</string>
     <string name="segment_copy">Копирај</string>
     <string name="segment_copy_fail">Не може се копирати</string>
@@ -2896,6 +2957,9 @@
     <string name="send_one_zip_dialog_desc">%2$d ZIP фајл \"%3$s\" од %1$s</string>
     <string name="send_one_zip_dialog_desc_received">Примљен је %2$d ZIP фајл \"%3$s\" од %1$s</string>
     <string name="send_one_zip_dialog_desc_receiving">Примање %2$d ZIP фајла \"%3$s\" од %1$s</string>
+    <string name="send_photographic_competition_tip_confirm">Пошаљи</string>
+    <string name="send_photographic_competition_tip_content">Слање ове фотографије захтева мета-податке, укључујући и модел уређаја и параметре камере. Желите ли да пошаљете сада?</string>
+    <string name="send_photographic_competition_tip_title">Пажња</string>
     <string name="send_public_url">Пошаљи URL албума</string>
     <string name="send_secret_file_failed">Дељење није успело</string>
     <string name="send_secret_file_space_low">Нема довољно складишног простора</string>
@@ -3011,6 +3075,8 @@
     <string name="share_and_delete_screenshot">Обриши након дељења</string>
     <string name="share_by_email_start">Подели %1$s у позадини</string>
     <string name="share_by_email_successfully">Подељено %1$s</string>
+    <string name="share_device_near_share">Делите када сте у близини</string>
+    <string name="share_device_near_share_image_describe">Приближите NFC области два уређаја да бисте почели да делите</string>
     <string name="share_from">Од %1$s</string>
     <string name="share_public_url_text">Поделио сам албум %1$s са вама. Прегледајте га на %2$s</string>
     <string name="share_with_family">Поделите са породицом</string>
@@ -3091,11 +3157,11 @@
     <string name="solar_new_year_eve_title_one">Дочек Нове године</string>
     <string name="solar_new_year_eve_title_two">Последњи моменти %1$s</string>
     <string name="solar_new_year_title">Нова година</string>
-    <string name="solar_term_autumn_equinox">Autumnal equinox</string>
-    <string name="solar_term_clear_and_bright">Qingming Festival</string>
-    <string name="solar_term_summer_solstice">Summer solstice</string>
-    <string name="solar_term_vernal_equinox">Spring equinox</string>
-    <string name="solar_term_winter_solstice">Winter solstice</string>
+    <string name="solar_term_autumn_equinox">Јесења равнодневица</string>
+    <string name="solar_term_clear_and_bright">Фестивал Ћингминг</string>
+    <string name="solar_term_summer_solstice">Летња дугодневница</string>
+    <string name="solar_term_vernal_equinox">Пролећна равнодневица</string>
+    <string name="solar_term_winter_solstice">Зимска краткодневница</string>
     <string name="solar_valentines_day_title">Дан заљубљених</string>
     <string name="solo_process_suspend_tip">Садржај ће бити анализиран на вашем уређају како би се добили прецизнији резултати</string>
     <string name="solo_process_tip">Садржај се анализира на вашем уређају да бисмо пружили прецизније резултате…</string>
@@ -3193,6 +3259,11 @@
     <string name="talkback_image_with_time">Фотографија, %s</string>
     <string name="talkback_image_with_time_and_location">Фотографија, %1$s, %2$s</string>
     <string name="talkback_input_search_hint">Трака за претраживање. Унесите кључне речи за претраживање.</string>
+    <string name="talkback_people_and_group_album_name">Назив албума: %1$s</string>
+    <string name="talkback_people_and_group_album_playicon_group">Репродукуј албум са овом групом</string>
+    <string name="talkback_people_and_group_album_playicon_journey">Репродукуј албум са овог путовања</string>
+    <string name="talkback_people_and_group_album_playicon_people">Репродукуј албум са овом особом</string>
+    <string name="talkback_people_and_group_album_relation">Однос: %1$s</string>
     <string name="talkback_portrait_with_time">Портрет, %s</string>
     <string name="talkback_portrait_with_time_and_location">Портрет, %1$s, %2$s</string>
     <string name="talkback_screenshot_with_time">Слика екрана, %s</string>
@@ -3203,33 +3274,33 @@
     <string name="terabyteShort">TB</string>
     <string name="text_recognition">Препознај текст</string>
     <string name="text_segment">Фото исечак</string>
-    <string name="thanksgiving_day">Thanksgiving</string>
+    <string name="thanksgiving_day">Дан захвалности</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>
-    <string name="the_arbor_day">Arbor Day</string>
+    <string name="the_arbor_day">Дан дрвећа</string>
     <string name="the_armed_forces_day">Дан оружаних снага</string>
     <string name="the_armys_day">Дан армије</string>
-    <string name="the_childrens_day">"Children's Day"</string>
+    <string name="the_childrens_day">Дан деце</string>
     <string name="the_chinese_youth_day">Дан младости</string>
-    <string name="the_christmas_day">Christmas Day</string>
-    <string name="the_christmas_eve">Christmas Eve</string>
-    <string name="the_double_ninth_festival">Double Ninth Festival</string>
-    <string name="the_dragon_boat_festival">Dragon Boat Festival</string>
+    <string name="the_christmas_day">Божић</string>
+    <string name="the_christmas_eve">Бадње вече</string>
+    <string name="the_double_ninth_festival">Фестивал дупле деветке</string>
+    <string name="the_dragon_boat_festival">Фестивал змајевих бродова</string>
     <string name="the_easter_day">Васкрс</string>
-    <string name="the_eve_of_the_spring_festival">"Chinese New Year's Eve"</string>
+    <string name="the_eve_of_the_spring_festival">Кинеска нова година</string>
     <string name="the_fifth_day">Пети дан Кинеске Нове године</string>
-    <string name="the_fools_day">"April Fool's Day"</string>
+    <string name="the_fools_day">Први април</string>
     <string name="the_forth_day">Четврти дан Кинеске Нове године</string>
     <string name="the_hksar_establishment_day">Дан оснивања Специјалне административне области Хонг Конга</string>
-    <string name="the_international_womens_day">"Women's Day"</string>
-    <string name="the_laba_festival">Laba Festival</string>
-    <string name="the_labour_day">Labor Day</string>
-    <string name="the_lantern_festival">Lantern Festival</string>
-    <string name="the_mid_autumn_festival">Mid-Autumn Festival</string>
-    <string name="the_national_day">National Day</string>
+    <string name="the_international_womens_day">Дан жена</string>
+    <string name="the_laba_festival">Лаба фестивал</string>
+    <string name="the_labour_day">Празник рада</string>
+    <string name="the_lantern_festival">Фестивал лампиона</string>
+    <string name="the_mid_autumn_festival">Фестивал средине јесени</string>
+    <string name="the_national_day">Дан државности</string>
     <string name="the_national_father_day">Сун Јат-сенов рођендан</string>
-    <string name="the_new_years_day">"New Year's Day"</string>
-    <string name="the_night_of_sevens">Qixi Festival</string>
+    <string name="the_new_years_day">Нова година</string>
+    <string name="the_night_of_sevens">Кинески дан заљубљених</string>
     <string name="the_partys_day">Дан Комунистичке партије Кине</string>
     <string name="the_peace_day">Дан сећања</string>
     <string name="the_retrocession_day">Дан рестаурације</string>
@@ -3237,13 +3308,13 @@
     <string name="the_seventh_day">Седми дан Кинеске Нове године</string>
     <string name="the_sixth_day">Шести дан Кинеске Нове године</string>
     <string name="the_spirit_festival">Фестивал духова</string>
-    <string name="the_spring_festival">Chinese New Year</string>
+    <string name="the_spring_festival">Кинеска Нова година</string>
     <string name="the_teachers_day">Дан учитеља</string>
     <string name="the_third_day">Трећи дан Кинеске Нове године</string>
     <string name="the_tw_childrens_day">Дан деце</string>
     <string name="the_tw_youth_day">Дан младости</string>
     <string name="the_united_nations_day">Дан Уједињених Нација</string>
-    <string name="the_valentines_day">"Valentine's Day"</string>
+    <string name="the_valentines_day">Дан заљубљених</string>
     <string name="the_water_lantern_festival">Фестивал лампи на води</string>
     <string name="things_album_empty_title">Фотографије могу бити разврстане по објектима на њима</string>
     <string name="throwing_print">Штампа</string>
@@ -3391,7 +3462,7 @@
     <string name="two_group_name">%1$s и %2$s</string>
     <string name="unchecked">Поништен избор</string>
     <string name="unchecked_something">Поништен избор %s</string>
-    <string name="universal_pick_bottom_bar_selected_content">Show selected items</string>
+    <string name="universal_pick_bottom_bar_selected_content">Прикажи изабране ставке</string>
     <string name="unpublish_failed">Не може се поништити објављивање</string>
     <string name="unpublish_succeeded">Албум није објављен</string>
     <string name="unpublishing">Отказивање…</string>

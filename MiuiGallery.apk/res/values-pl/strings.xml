@@ -36,6 +36,9 @@
     <string name="acc_seconds">Sekundy</string>
     <string name="accept">Akceptuj</string>
     <string name="accept_or_deny">%1$s udostępnił album %2$s.</string>
+    <string name="accessibility_sliding_button_state_description_off">Wyłączono</string>
+    <string name="accessibility_sliding_button_state_description_on">Włączono</string>
+    <string name="accessibility_tab_state_description_unselect">Nie wybrano</string>
     <string name="actionbar_button_up_description">Wstecz</string>
     <string name="actionbar_overflow_item_desc">Więcej opcji</string>
     <string name="add_automatically_alert_msg">Dodać automatycznie zdjęcia z \"%1$s\" do tego albumu?</string>
@@ -249,6 +252,10 @@ Najlepsze zdjęcia zostaną wybrane automatycznie. Możesz dodać więcej zdję�
     <string name="album_creative">Kreatywność</string>
     <string name="album_detail_default_sort_tip">Zmieniono na porządek chronologiczny</string>
     <string name="album_detail_page_empty">Brak zdjęć i wideo</string>
+    <string name="album_detail_sort_menu_asc">Stuknij dwukrotnie, aby posortować rosnąco</string>
+    <string name="album_detail_sort_menu_checked">Wybrano</string>
+    <string name="album_detail_sort_menu_desc">Stuknij dwukrotnie, aby posortować malejąco</string>
+    <string name="album_detail_sort_menu_unchecked">Nie wybrano</string>
     <string name="album_download">Pobrania</string>
     <string name="album_faces_name">Osoby</string>
     <string name="album_favorites_name">Ulubione</string>
@@ -505,11 +512,11 @@ Podłącz ładowarkę i wyłącz ekran, aby pojawiły się wspomnienia."</string
     <string name="blackshark_phone">Black Shark</string>
     <string name="blank_app_name" />
     <string name="blur_refocus_enter">Bokeh</string>
-    <string name="bottomsheet_action_collapse">Zwiń planszę dolną</string>
-    <string name="bottomsheet_action_expand">Rozwiń planszę dolną</string>
+    <string name="bottomsheet_action_collapse">Zwiń dolny arkusz</string>
+    <string name="bottomsheet_action_expand">Rozwiń dolny arkusz</string>
     <string name="bottomsheet_action_expand_halfway">Rozwiń do połowy</string>
-    <string name="bottomsheet_drag_handle_clicked">Dwukrotnie kliknięto uchwyt do przeciągania</string>
-    <string name="bottomsheet_drag_handle_content_description">Uchwyt do przeciągania</string>
+    <string name="bottomsheet_drag_handle_clicked">Dwukrotne dotknięcie uchwytu przeciągania</string>
+    <string name="bottomsheet_drag_handle_content_description">Uchwyt przeciągania</string>
     <string name="browse_category_title">Przeglądaj</string>
     <string name="btn_cancel">Anuluj</string>
     <string name="btn_cancel_send">Anuluj transfer</string>
@@ -710,13 +717,13 @@ Podłącz ładowarkę i wyłącz ekran, aby pojawiły się wspomnienia."</string
     <string name="confirm_hidden_recommend_group_title">Nie pokazuj propozycji</string>
     <string name="confirm_hide_selected_albums">Ukryć wybrane albumy?</string>
     <string name="confirm_merge_album_title">Scal elementy</string>
-    <string name="confirm_merge_face_albums">&lt;Data> Scalić ten album z %s? &lt;/Data></string>
-    <string name="confirm_merge_many_face_albums">&lt;Data> Scalić te albumy z %s? &lt;/Data></string>
+    <string name="confirm_merge_face_albums">" "<Data> Scalić ten album z %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Scalić te albumy z %s? </Data>" "</string>
     <string name="confirm_not_face">To nie ta osoba</string>
-    <string name="confirm_recommandation_face_is">" &lt;Data> Czy to na pewno &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ta osoba zostanie przeniesiona do albumu \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_face_not">" &lt;Data> Czy to na pewno nie &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" &lt;Data> Czy to na pewno &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Te osoby zostaną przeniesione do albumu \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" &lt;Data> Czy to na pewno nie są &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Czy to na pewno &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ta osoba zostanie przeniesiona do albumu \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Czy to na pewno nie &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Czy to na pewno &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Te osoby zostaną przeniesione do albumu \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Czy to na pewno nie są &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Kontakt</string>
     <string name="context_menu_add_contact">Dodaj do kontaktów</string>
     <string name="context_menu_copy">Kopiuj</string>
@@ -794,7 +801,17 @@ Podłącz ładowarkę i wyłącz ekran, aby pojawiły się wspomnienia."</string
     <string name="delete_third_party_photo">Usunąć to zdjęcie?</string>
     <string name="delete_third_party_video">Usunąć to wideo?</string>
     <string name="deny">Odrzuć</string>
+    <string name="desc_gallery_widget_editor_font_color_black">Czarny</string>
+    <string name="desc_gallery_widget_editor_font_color_blue">Niebieski</string>
+    <string name="desc_gallery_widget_editor_font_color_gray">Szary</string>
+    <string name="desc_gallery_widget_editor_font_color_light_blue">Jasny niebieski</string>
+    <string name="desc_gallery_widget_editor_font_color_light_green">Jasny zielony</string>
     <string name="desc_gallery_widget_editor_font_color_list">Kolor tekstu</string>
+    <string name="desc_gallery_widget_editor_font_color_orange">Pomarańczowy</string>
+    <string name="desc_gallery_widget_editor_font_color_purple">Fioletowy</string>
+    <string name="desc_gallery_widget_editor_font_color_red">Czerwony</string>
+    <string name="desc_gallery_widget_editor_font_color_white">Biały</string>
+    <string name="desc_gallery_widget_editor_font_color_yellow">Żółty</string>
     <string name="desc_gallery_widget_editor_font_type_list">Czcionka</string>
     <string name="desc_gallery_widget_editor_selected_photo_list">Wybrane obrazy</string>
     <string name="desc_gallery_widget_editor_text_position_list">Układ</string>
@@ -1120,6 +1137,7 @@ są dostępne"</string>
     <string name="foods_travel_title_one">Tak smakuje %1$s</string>
     <string name="foods_travel_title_three">Kulinarne zwiedzanie: %1$s</string>
     <string name="foods_travel_title_two">Jedzenie w mieście %1$s</string>
+    <string name="frame_current_position_talkback">%1$s %2$s %3$s</string>
     <string name="free_view_desc">Widok 3D</string>
     <string name="friday">Piątek</string>
     <string name="friday_short">Pt</string>
@@ -1132,6 +1150,8 @@ są dostępne"</string>
     <string name="gallery_sync_disable_toast">Synchronizacja Galerii wył.</string>
     <string name="gallery_uninstall_description_content">Galeria jest aplikacją systemową zezwalającą użytkownikowi na wyświetlanie, zarządzanie i synchronizowanie zdjęć i filmów pomiędzy wszystkimi połączonymi urządzeniami. Po odinstalowaniu Galerii stracisz wszystkie prywatne elementy, a funkcje związane z wyświetlaniem i wybieraniem elementów w Galerii nie będą już dłużej dostępne. Odinstalować mimo to?</string>
     <string name="gallery_uninstall_description_title">Odinstalować Galerię?</string>
+    <string name="gallery_widget_editor_generate_random_text">Wygeneruj losowy tekst</string>
+    <string name="gallery_widget_editor_widget_add_image">Dodaj zdjęcie</string>
     <string name="gallery_widget_editor_widget_text_form_label">Tekst</string>
     <string name="gallery_widget_editor_widget_text_form_placeholder">Wpisz tekst</string>
     <string name="generate_story_summary">Zrób wystarczającą liczbę zdjęć, podłącz ładowarkę i wyłącz ekran, aby pojawiały się wspomnienia. Wygenerowane wspomnienia nie znikną po wyłączeniu tej funkcji.</string>
@@ -1211,6 +1231,7 @@ są dostępne"</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="help">Nie udało się znaleźć urządzeń?</string>
     <string name="hidden_album_display_name">Ukryty album</string>
+    <string name="hide">Ukryj</string>
     <string name="hide_nearby_photos">Ukryj zdjęcia i filmy w pobliżu.</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
@@ -1348,6 +1369,7 @@ są dostępne"</string>
     <string name="keyboard_shortcut_paste">Wklej</string>
     <string name="keyboard_shortcut_search">Wyszukaj</string>
     <string name="keyboard_shortcut_select_all">Zaznacz wszystkie</string>
+    <string name="keyboard_shortcut_tile">Przełącz na wszystkie elementy</string>
     <string name="keyboard_shortcut_year">Widok roczny</string>
     <string name="kick_owner_user_positive_button_text">Usuń</string>
     <string name="kick_owner_user_title">Usunąć tego użytkownika?</string>
@@ -1428,6 +1450,7 @@ są dostępne"</string>
     <string name="map_album_detail_page_title">Lokalizacja</string>
     <string name="map_enable_position_service_message">Włącz usługi lokalizacyjne, aby wyświetlić zdjęcia i filmy na mapie.</string>
     <string name="map_enable_position_service_title">Włącz usługi lokalizacyjne</string>
+    <string name="map_gallery">Mapa Galerii</string>
     <string name="map_grant_position_permission_after_declined_twice_message">Zezwól Galerii na dostęp do twojej lokalizacji, aby wyświetlić zdjęcia i filmy na mapie.</string>
     <string name="map_grant_position_permission_subtitle">Do wyświetlania na mapie pobliskich zdjęć i filmów</string>
     <string name="map_guide_message">Wyświetl twoje zdjęcia i filmy na mapie</string>
@@ -1524,6 +1547,12 @@ aby spersonalizować Galerię"</string>
     <string name="miplay_volume_btn">Głośność</string>
     <string name="mishare_all_devices">Wszystkie urządzenia</string>
     <string name="miuix_access_state_desc">Wybrane</string>
+    <string name="miuix_accessibility_title">Tytuł</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Zwinięto</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Rozwinięto</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Wyjdź z trybu edycji</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nowe powiadomienie</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Wprowadź tryb edycji</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Odznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_title_empty">Zaznacz elementy</string>
@@ -1539,12 +1568,27 @@ aby spersonalizować Galerię"</string>
     <string name="miuix_appcompat_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_select_all_description">Wybierz wszystko</string>
     <string name="miuix_appcompat_select_item">Wybierz elementy</string>
+    <string name="miuix_appcompat_show_dialog_description">Wyskakujące okno</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Przesuń w dół, aby zamknąć</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Przesuń w dół, aby przełączyć na połowę ekranu</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Przesuń w dół, aby zminimalizować</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Przesuń w górę, aby przełączyć na połowę ekranu</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Przesuń w górę, aby zmaksymalizować</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Połowa ekranu</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Zmaksymalizowano</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Zminimalizowano</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Przełącz na połowę ekranu</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Zmaksymalizuj</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Zminimalizuj</string>
     <string name="miuix_item_view_role_description">Zakładka</string>
     <string name="miuix_navigator_category_group_collapse">Zwiń</string>
     <string name="miuix_navigator_category_group_expand">Rozwiń</string>
     <string name="miuix_navigator_content_switch_description">Pokaż panel boczny</string>
     <string name="miuix_navigator_multiple_choice">Wybierz</string>
     <string name="miuix_navigator_navigator_switch_description">Schowaj panel boczny</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Pasek narzędzi u dołu ekranu</string>
+    <string name="miuix_popup_window_default_title">Wyskakujące okno</string>
+    <string name="miuix_progressbar_loading">Wczytywanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Przeciągnij w dół, aby odświeżyć</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Pomyślnie odświeżono</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Odświeżanie…</string>
@@ -1553,6 +1597,9 @@ aby spersonalizować Galerię"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">To wszystko na teraz</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Chwileczkę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nie udało się załadować elementów</string>
+    <string name="miuix_show_password">Pokaż hasło</string>
+    <string name="miuix_stretchablewidget_collapsed">Zwinięto</string>
+    <string name="miuix_stretchablewidget_expanded">Rozwinięto</string>
     <string name="monday">Poniedziałek</string>
     <string name="monday_short">Pon</string>
     <string name="monday_shortest">Pon</string>
@@ -1767,6 +1814,7 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="operation_unhide">Usuń z ukrytych</string>
     <string name="operation_upgrade_gallery">Aktualizuj</string>
     <string name="operation_video_compress">Kompresuj wideo</string>
+    <string name="operation_video_to_live">Konwertuj na Live photo</string>
     <string name="operation_watermark">Zabezpieczający znak wodny</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
@@ -1781,6 +1829,7 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="other_settings">Dodatkowe ustawienia</string>
     <string name="owner_album_subtitle">Udostępniany z %1$s użytkownikami</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
+    <string name="pasport_register_dialog_message">Utworzyć konto Xiaomi za pomocą numeru telefonu %s?</string>
     <string name="passport_access_denied">Odmowa dostępu</string>
     <string name="passport_account_crop_user_avatar">Przytnij zdjęcie</string>
     <string name="passport_account_empty_user_name">Wpisz swoją nazwę</string>
@@ -1797,7 +1846,7 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="passport_account_secure_info_pref_title">Informacje o koncie</string>
     <string name="passport_account_security_info_pref_title">Informacje o bezpieczeństwie</string>
     <string name="passport_account_user_avatar">Zdjęcie profilowe</string>
-    <string name="passport_account_user_avatar_from_album">Galeria</string>
+    <string name="passport_account_user_avatar_from_album">Wybierz z Galerii</string>
     <string name="passport_account_user_avatar_from_camera">Aparat</string>
     <string name="passport_account_user_base_info">Podstawowe informacje</string>
     <string name="passport_account_user_details">Dane osobowe</string>
@@ -1869,7 +1918,6 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="passport_login_register_by_local_phone_long_text">Utwórz konto</string>
     <string name="passport_login_with_sns">Inne sposoby logowania</string>
     <string name="passport_logout_account">Wyloguj</string>
-    <string name="passport_mi_account_first_title">Stworzymy automatycznie konto, jeśli używasz swojego numeru telefonu po raz pierwszy.</string>
     <string name="passport_mi_account_title">Zaloguj się za pomocą konta Xiaomi</string>
     <string name="passport_network_error">Wystąpił błąd sieci. Sprawdź ustawienia sieci i spróbuj ponownie.</string>
     <string name="passport_network_error_hint">Sprawdź adres URL i spróbuj ponownie lub skopiuj go i otwórz go w przeglądarce.</string>
@@ -1878,6 +1926,7 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="passport_no_account">Niezalogowano</string>
     <string name="passport_open_settings">Ustawienia</string>
     <string name="passport_page_load_failed">Nie można otworzyć strony</string>
+    <string name="passport_password_hide_show">Ukryj hasło</string>
     <string name="passport_password_login_btn">Zaloguj się</string>
     <string name="passport_password_not_show">Nie pokazuj hasła</string>
     <string name="passport_password_show">Pokaż hasło</string>
@@ -1889,6 +1938,8 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="passport_reging">Tworzenie konta…</string>
     <string name="passport_register_by_local_phone_long_text">Utwórz konto</string>
     <string name="passport_register_by_local_phone_short_text">Utwórz konto</string>
+    <string name="passport_register_dialog_positive">Utwórz</string>
+    <string name="passport_register_dialog_title">Utwórz konto Xiaomi</string>
     <string name="passport_register_restricted">Zbyt wiele kont zostało powiązanych z tym numerem. Spróbuj innego.</string>
     <string name="passport_relogin_notice">Musisz zalogować się ponownie</string>
     <string name="passport_request_agree">Zezwól</string>
@@ -1897,7 +1948,8 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="passport_request_error_invalid_token">Nie udało się zweryfikować</string>
     <string name="passport_request_error_network">Wystąpił błąd sieci. Sprawdź ustawienia sieci i spróbuj ponownie.</string>
     <string name="passport_request_error_unknown">Wystąpił błąd serwera. Wróć i spróbuj ponownie.</string>
-    <string name="passport_request_gallery_permission_message">Zezwól na dostęp do Galerii:&lt;br />Do ustawiania zdjęć profilowych</string>
+    <string name="passport_request_gallery_permission_message">Aplikacja musi mieć dostęp do wybranych plików w Galerii, aby ustawić zdjęcie profilowe. Udzielić dostępu?</string>
+    <string name="passport_request_permission_title">Wymagane uprawnienia</string>
     <string name="passport_resend_ticket">Wyślij ponownie kod</string>
     <string name="passport_retry">Spróbuj ponownie</string>
     <string name="passport_send_sms_to">Wysłano kod do %1$s</string>
@@ -1911,21 +1963,22 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="passport_talkback_switch_image_captcha">Przełącz na obrazkowy kod weryfikacyjny</string>
     <string name="passport_talkback_switch_voice_captcha">Przełącz na dźwiękowy kod weryfikacyjny</string>
     <string name="passport_talkback_voice_captcha">Odtwórz dźwiękowo kod weryfikacyjny</string>
+    <string name="passport_third_sns_service_unavailable">Usługa nie jest dostępna. Upewnij się, że aplikacja jest zainstalowana i nie jest zablokowana.</string>
     <string name="passport_ticket_send_by_second">Wysyłanie wiadomości za %d</string>
     <string name="passport_to_forget_password">Nie pamiętasz hasła?</string>
     <string name="passport_to_password_login">Zaloguj za pomocą hasła</string>
     <string name="passport_to_verify_code_login">Zaloguj za pomocą SMS</string>
     <string name="passport_unknown_error">Nieznany błąd</string>
     <string name="passport_unknown_host_network_error">Sprawdź swoje ustawienia sieciowe i spróbuj ponownie</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> oraz &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych konta eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> oraz &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych konta eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Stworzymy automatycznie konto, jeśli używasz swojego numeru telefonu po raz pierwszy.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych konta eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych konta eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Zmień zdjęcie profilowe</string>
     <string name="passport_user_avatar_uploading">Chwileczkę…</string>
     <string name="passport_user_id_hint">E-mail/numer telefonu/ID konta Xiaomi</string>
@@ -2027,6 +2080,12 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="pic_to_pdf_update_dialog_content">Zaktualizuj Mi Przeglądarkę dokumentów do najnowszej wersji, aby móc generować pliki PDF. Zaktualizować?</string>
     <string name="pic_to_pdf_update_dialog_positive">Zaktualizuj</string>
     <string name="pic_to_pdf_update_dialog_title">Zaktualizuj Mi Przeglądarkę dokumentów</string>
+    <string name="pic_widget_editor_text_position_bottom">Napis wyświetla się u dołu</string>
+    <string name="pic_widget_editor_text_position_left_bottom">Napis wyświetla się w lewym dolnym rogu</string>
+    <string name="pic_widget_editor_text_position_left_top">Napis wyświetla się w lewym górnym rogu</string>
+    <string name="pic_widget_editor_text_position_right_bottom">Napis wyświetla się w prawym dolnym rogu</string>
+    <string name="pic_widget_editor_text_position_right_top">Napis wyświetla się w prawym górnym rogu</string>
+    <string name="pic_widget_editor_text_position_top">Napis wyświetla się u góry</string>
     <string name="pick_from_contact">Wybierz z kontaktów</string>
     <string name="pick_people_cover_fail">Wystąpił błąd. Spróbuj ponownie.</string>
     <string name="pick_people_cover_page_title">Wybierz okładkę</string>
@@ -2143,6 +2202,7 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="qr_invite_title">Zaproszenie przez kod QR</string>
     <string name="quarterly_pets_title">Futrzani towarzysze</string>
     <string name="quotation">\"%s\"</string>
+    <string name="ratio">%1$d%%</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="recent_album_empty_title">Nie dodano ostatnio nowych zdjęć</string>
@@ -2272,7 +2332,7 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="scan_qr_code">Skanuj kod QR</string>
     <string name="scan_qr_code_buttom_text">Zeskanuj ten kod QR, aby wyświetlić album.</string>
     <string name="scan_qr_to_accept_invitation">Zeskanuj kod QR, aby zaakceptować zaproszenie</string>
-    <string name="scanning_device_tips">&lt;Data>Wyszukiwanie urządzeń w pobliżu. Druga osoba musi włączyć funkcję Xiaomi Share w Centrum kontroli. &lt;a>Dowiedz się więcej&lt;/a>&lt;/Data>.</string>
+    <string name="scanning_device_tips"><Data>Wyszukiwanie urządzeń w pobliżu. Druga osoba musi włączyć funkcję Xiaomi Share w Centrum kontroli. &lt;a>Dowiedz się więcej&lt;/a></Data>.</string>
     <string name="scene_tag_name_abdominal_wheel">Kółko do ćwiczeń brzucha</string>
     <string name="scene_tag_name_acura_logo">Logo Acura</string>
     <string name="scene_tag_name_adidas_clover_logo">Logo Adidas Originals</string>
@@ -2859,6 +2919,7 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="security_share_subtitle_no_hide">Zawiera informacje o lokalizacji</string>
     <string name="see_ignore_faces">Wyświetl osoby, które ignorujesz</string>
     <string name="see_more_settings">Dodatkowe ustawienia</string>
+    <string name="seeking_progress_bar_talkback">Przewinięto do: %1$s %2$s %3$s</string>
     <string name="segment_change_background">Zmień tło</string>
     <string name="segment_copy">Kopiuj</string>
     <string name="segment_copy_fail">Nie udało się skopiować</string>
@@ -2896,6 +2957,9 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="send_one_zip_dialog_desc">%2$d plik ZIP o nazwie „%3$s” od: %1$s</string>
     <string name="send_one_zip_dialog_desc_received">Otrzymano %2$d plik ZIP o nazwie „%3$s” od: %1$s</string>
     <string name="send_one_zip_dialog_desc_receiving">Otrzymujesz %2$d plik ZIP o nazwie „%3$s” od: %1$s</string>
+    <string name="send_photographic_competition_tip_confirm">Prześlij</string>
+    <string name="send_photographic_competition_tip_content">Do przesłania zdjęcia wymagane są metadane pliku obejmujące model urządzenia i parametry aparatu. Przesłać teraz?</string>
+    <string name="send_photographic_competition_tip_title">Uwaga</string>
     <string name="send_public_url">Wyślij odnośnik URL albumu</string>
     <string name="send_secret_file_failed">Nie udało się udostępnić</string>
     <string name="send_secret_file_space_low">Za mało miejsca</string>
@@ -3011,6 +3075,8 @@ Transkodowanie może zająć trochę czasu, gdy używasz tej funkcji po raz pier
     <string name="share_and_delete_screenshot">Usuń po udostępnieniu</string>
     <string name="share_by_email_start">Udostępnij %1$s w tle</string>
     <string name="share_by_email_successfully">Udostępniono%1$s</string>
+    <string name="share_device_near_share">Udostępnij urządzeniom w pobliżu</string>
+    <string name="share_device_near_share_image_describe">Zbliż do siebie obszary NFC dwóch różnych urządzeń, aby rozpocząć udostępnianie</string>
     <string name="share_from">Od %1$s</string>
     <string name="share_public_url_text">Udostępniłem Ci album %1$s. Zobacz go na %2$s</string>
     <string name="share_with_family">Udostępnij rodzinie</string>
@@ -3193,6 +3259,11 @@ Możesz przenosić swoje elementy do Zdjęć Google lub odwiedzić imi.com, aby 
     <string name="talkback_image_with_time">Zdjęcie, %s</string>
     <string name="talkback_image_with_time_and_location">Zdjęcie, %1$s, %2$s</string>
     <string name="talkback_input_search_hint">Pasek wyszukiwania. Wprowadź słowa kluczowe do wyszukiwania.</string>
+    <string name="talkback_people_and_group_album_name">Nazwa albumu: %1$s</string>
+    <string name="talkback_people_and_group_album_playicon_group">Uruchom pokaz slajdów albumu z tą grupą</string>
+    <string name="talkback_people_and_group_album_playicon_journey">Uruchom pokaz slajdów albumu z tej podróży</string>
+    <string name="talkback_people_and_group_album_playicon_people">Uruchom pokaz slajdów albumu z tą osobą</string>
+    <string name="talkback_people_and_group_album_relation">Relacja: %1$s</string>
     <string name="talkback_portrait_with_time">Portret, %s</string>
     <string name="talkback_portrait_with_time_and_location">Portret, %1$s, %2$s</string>
     <string name="talkback_screenshot_with_time">Zrzut ekranu, %s</string>

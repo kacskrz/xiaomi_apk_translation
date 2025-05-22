@@ -36,6 +36,9 @@
     <string name="acc_seconds">Секунды</string>
     <string name="accept">Принять</string>
     <string name="accept_or_deny">Пользователь \"%1$s\" поделился с вами альбомом %2$s.</string>
+    <string name="accessibility_sliding_button_state_description_off">Отключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрано</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="actionbar_overflow_item_desc">Дополнительные параметры</string>
     <string name="add_automatically_alert_msg">Добавлять фото из альбома \"%1$s\" в этот альбом автоматически?</string>
@@ -249,6 +252,10 @@
     <string name="album_creative">Творчество</string>
     <string name="album_detail_default_sort_tip">Переключено на хронологический порядок</string>
     <string name="album_detail_page_empty">Нет фото или видео</string>
+    <string name="album_detail_sort_menu_asc">Дважды нажмите, чтобы отсортировать по возрастанию</string>
+    <string name="album_detail_sort_menu_checked">Выбрано</string>
+    <string name="album_detail_sort_menu_desc">Дважды нажмите, чтобы отсортировать по убыванию</string>
+    <string name="album_detail_sort_menu_unchecked">Не выбрано</string>
     <string name="album_download">Загрузки</string>
     <string name="album_faces_name">Лица</string>
     <string name="album_favorites_name">Избранные</string>
@@ -505,11 +512,11 @@
     <string name="blackshark_phone">Black Shark</string>
     <string name="blank_app_name" />
     <string name="blur_refocus_enter">Боке</string>
-    <string name="bottomsheet_action_collapse">Свернуть нижний экран</string>
-    <string name="bottomsheet_action_expand">Развернуть нижний экран</string>
+    <string name="bottomsheet_action_collapse">Свернуть нижний лист</string>
+    <string name="bottomsheet_action_expand">Развернуть нижний лист</string>
     <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
-    <string name="bottomsheet_drag_handle_clicked">Двойное нажатие на маркер перемещения</string>
-    <string name="bottomsheet_drag_handle_content_description">Маркер перемещения</string>
+    <string name="bottomsheet_drag_handle_clicked">Выполнено двойное нажатие на маркер перетаскивания</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер для перетаскивания</string>
     <string name="browse_category_title">Отображение</string>
     <string name="btn_cancel">Отмена</string>
     <string name="btn_cancel_send">Отменить эту передачу</string>
@@ -710,13 +717,13 @@
     <string name="confirm_hidden_recommend_group_title">Не показывать рекомендации</string>
     <string name="confirm_hide_selected_albums">Скрыть выбранные альбомы?</string>
     <string name="confirm_merge_album_title">Объединить объекты</string>
-    <string name="confirm_merge_face_albums">&lt;Data> Объединить этот альбом с %s? &lt;/Data></string>
-    <string name="confirm_merge_many_face_albums">&lt;Data> Объединить эти альбомы с %s? &lt;/Data></string>
+    <string name="confirm_merge_face_albums">" "<Data> Объединить этот альбом с %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Объединить эти альбомы с %s? </Data>" "</string>
     <string name="confirm_not_face">Нет совпадений</string>
-    <string name="confirm_recommandation_face_is">" &lt;Data> Уверены, что это &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото этого человека будет перемещено в альбом \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_face_not">" &lt;Data> Уверены, что это не &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" &lt;Data> Уверены, что это &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото этих людей будут перемещены в альбом \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" &lt;Data> Уверены, что это не &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Уверены, что это &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото этого человека будет перемещено в альбом \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Уверены, что это не &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Уверены, что это &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото этих людей будут перемещены в альбом \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Уверены, что это не &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Контакты</string>
     <string name="context_menu_add_contact">Добавить в контакты</string>
     <string name="context_menu_copy">Копировать</string>
@@ -794,7 +801,17 @@
     <string name="delete_third_party_photo">Удалить это фото?</string>
     <string name="delete_third_party_video">Удалить это видео?</string>
     <string name="deny">Отклонить</string>
+    <string name="desc_gallery_widget_editor_font_color_black">Черный</string>
+    <string name="desc_gallery_widget_editor_font_color_blue">Синий</string>
+    <string name="desc_gallery_widget_editor_font_color_gray">Серый</string>
+    <string name="desc_gallery_widget_editor_font_color_light_blue">Светло-синий</string>
+    <string name="desc_gallery_widget_editor_font_color_light_green">Светло-зеленый</string>
     <string name="desc_gallery_widget_editor_font_color_list">Цвет текста</string>
+    <string name="desc_gallery_widget_editor_font_color_orange">Оранжевый</string>
+    <string name="desc_gallery_widget_editor_font_color_purple">Фиолетовый</string>
+    <string name="desc_gallery_widget_editor_font_color_red">Красный</string>
+    <string name="desc_gallery_widget_editor_font_color_white">Белый</string>
+    <string name="desc_gallery_widget_editor_font_color_yellow">Желтый</string>
     <string name="desc_gallery_widget_editor_font_type_list">Шрифт</string>
     <string name="desc_gallery_widget_editor_selected_photo_list">Выбранные изображения</string>
     <string name="desc_gallery_widget_editor_text_position_list">Макет</string>
@@ -1120,6 +1137,7 @@
     <string name="foods_travel_title_one">Вкус %1$s</string>
     <string name="foods_travel_title_three">%1$s для гурмана</string>
     <string name="foods_travel_title_two">Еда %1$s</string>
+    <string name="frame_current_position_talkback">%1$s %2$s %3$s</string>
     <string name="free_view_desc">3D просмотр</string>
     <string name="friday">Пятница</string>
     <string name="friday_short">Пт</string>
@@ -1132,6 +1150,8 @@
     <string name="gallery_sync_disable_toast">Синхронизация Галереи отключена</string>
     <string name="gallery_uninstall_description_content">Галерея — это системное приложение, которое позволяет просматривать, изменять и синхронизировать фото и видео на всех подключенных устройствах. Если вы удалите Галерею, то потеряете доступ ко всем скрытым объектам и другим функциям, связанным с просмотром и выбором объектов в Галерее. Удалить приложение?</string>
     <string name="gallery_uninstall_description_title">Удалить Галерею?</string>
+    <string name="gallery_widget_editor_generate_random_text">Случайно сгенерированный текст</string>
+    <string name="gallery_widget_editor_widget_add_image">Добавить изображение</string>
     <string name="gallery_widget_editor_widget_text_form_label">Текст</string>
     <string name="gallery_widget_editor_widget_text_form_placeholder">Введите текст</string>
     <string name="generate_story_summary">Сделайте достаточно фотографий, подключите зарядное устройство и заблокируйте экран, чтобы начать создание сюжетов. Если вы отключите эту функцию, уже созданные сюжеты не исчезнут.</string>
@@ -1211,6 +1231,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="help">Не удалось обнаружить устройства?</string>
     <string name="hidden_album_display_name">Скрытый альбом</string>
+    <string name="hide">Скрыть</string>
     <string name="hide_nearby_photos">Скрыть фото и видео поблизости</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
@@ -1348,6 +1369,7 @@
     <string name="keyboard_shortcut_paste">Вставить</string>
     <string name="keyboard_shortcut_search">Поиск</string>
     <string name="keyboard_shortcut_select_all">Выберите все</string>
+    <string name="keyboard_shortcut_tile">Переключиться на все объекты</string>
     <string name="keyboard_shortcut_year">Год</string>
     <string name="kick_owner_user_positive_button_text">Удалить</string>
     <string name="kick_owner_user_title">Удалить пользователя?</string>
@@ -1428,6 +1450,7 @@
     <string name="map_album_detail_page_title">Местоположение</string>
     <string name="map_enable_position_service_message">Чтобы включить отображение фото и видео на карте, необходимо включить службы определения местоположения.</string>
     <string name="map_enable_position_service_title">Службы местоположения</string>
+    <string name="map_gallery">Карта Галереи</string>
     <string name="map_grant_position_permission_after_declined_twice_message">Чтобы включить отображение фото и видео на карте, необходимо разрешить Галерее доступ к данным местоположении.</string>
     <string name="map_grant_position_permission_subtitle">Для отображения на карте фото и видео поблизости</string>
     <string name="map_guide_message">Просмотр фото и видео на карте.</string>
@@ -1524,6 +1547,12 @@
     <string name="miplay_volume_btn">Громкость</string>
     <string name="mishare_all_devices">Все устройства</string>
     <string name="miuix_access_state_desc">Выбрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Свернуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Развернуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйти из режима редактирования</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новое уведомление</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Перейти в режим редактирования</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбрать все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Выберите объекты</string>
@@ -1539,12 +1568,27 @@
     <string name="miuix_appcompat_select_all">Выбрать все</string>
     <string name="miuix_appcompat_select_all_description">Выбрать все</string>
     <string name="miuix_appcompat_select_item">Выберите объекты</string>
+    <string name="miuix_appcompat_show_dialog_description">Всплывающее окно</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Проведите вниз для закрытия</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Проведите вниз, чтобы переключиться на половину экрана</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Проведите вниз, чтобы свернуть</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Проведите вверх, чтобы переключиться на половину экрана</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Проведите вверх, чтобы развернуть</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">На половину экрана</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Развернуто</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Свернуто</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Переключиться на половину экрана</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Развернуть</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Свернуть</string>
     <string name="miuix_item_view_role_description">Вкладка</string>
     <string name="miuix_navigator_category_group_collapse">Свернуть</string>
     <string name="miuix_navigator_category_group_expand">Развернуть</string>
     <string name="miuix_navigator_content_switch_description">Показать боковую панель</string>
     <string name="miuix_navigator_multiple_choice">Выбрать</string>
     <string name="miuix_navigator_navigator_switch_description">Скрыть боковую панель</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Панель инструментов в нижней части экрана</string>
+    <string name="miuix_popup_window_default_title">Всплывающее окно</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потяните вниз для обновления</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Обновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновление…</string>
@@ -1553,6 +1597,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">На данный момент это все</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Секунду…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не удалось загрузить данные</string>
+    <string name="miuix_show_password">Показать пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Свернуто</string>
+    <string name="miuix_stretchablewidget_expanded">Развернуто</string>
     <string name="monday">Понедельник</string>
     <string name="monday_short">Пн</string>
     <string name="monday_shortest">Пн</string>
@@ -1767,6 +1814,7 @@
     <string name="operation_unhide">Отображать</string>
     <string name="operation_upgrade_gallery">Обновить</string>
     <string name="operation_video_compress">Сжать видео</string>
+    <string name="operation_video_to_live">Преобразовать в живое фото</string>
     <string name="operation_watermark">Защитный водяной знак</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
@@ -1781,6 +1829,7 @@
     <string name="other_settings">Дополнительные настройки</string>
     <string name="owner_album_subtitle">Пользователей: %1$s</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
+    <string name="pasport_register_dialog_message">Создать аккаунт Xiaomi с помощью вашего номера телефона %s?</string>
     <string name="passport_access_denied">Доступ запрещен</string>
     <string name="passport_account_crop_user_avatar">Кадрирование</string>
     <string name="passport_account_empty_user_name">Введите свой псевдоним</string>
@@ -1797,7 +1846,7 @@
     <string name="passport_account_secure_info_pref_title">Информация об аккаунте</string>
     <string name="passport_account_security_info_pref_title">Информация о безопасности</string>
     <string name="passport_account_user_avatar">Фото профиля</string>
-    <string name="passport_account_user_avatar_from_album">Галерея</string>
+    <string name="passport_account_user_avatar_from_album">Выбрать из Галереи</string>
     <string name="passport_account_user_avatar_from_camera">Камера</string>
     <string name="passport_account_user_base_info">Основная информация</string>
     <string name="passport_account_user_details">Личная информация</string>
@@ -1869,7 +1918,6 @@
     <string name="passport_login_register_by_local_phone_long_text">Создать аккаунт</string>
     <string name="passport_login_with_sns">Другие способы входа</string>
     <string name="passport_logout_account">Выйти</string>
-    <string name="passport_mi_account_first_title">Если вы используете номер телефона в первый раз, аккаунт будет создан автоматически.</string>
     <string name="passport_mi_account_title">Вход через аккаунт Xiaomi</string>
     <string name="passport_network_error">Произошла ошибка сети. Проверьте настройки и повторите попытку.</string>
     <string name="passport_network_error_hint">Проверьте URL-адрес и повторите попытку или скопируйте его, а затем откройте в браузере.</string>
@@ -1878,6 +1926,7 @@
     <string name="passport_no_account">Вход не выполнен</string>
     <string name="passport_open_settings">Настройки</string>
     <string name="passport_page_load_failed">Не удалось открыть страницу</string>
+    <string name="passport_password_hide_show">Скрыть пароль</string>
     <string name="passport_password_login_btn">Войти</string>
     <string name="passport_password_not_show">Не показывать пароль</string>
     <string name="passport_password_show">Показать пароль</string>
@@ -1889,6 +1938,8 @@
     <string name="passport_reging">Создание аккаунта…</string>
     <string name="passport_register_by_local_phone_long_text">Создать аккаунт</string>
     <string name="passport_register_by_local_phone_short_text">Создать аккаунт</string>
+    <string name="passport_register_dialog_positive">Создать</string>
+    <string name="passport_register_dialog_title">Создать аккаунт Xiaomi</string>
     <string name="passport_register_restricted">С этим номером телефона связано слишком много аккаунтов. Выберите другой номер.</string>
     <string name="passport_relogin_notice">Необходимо повторно войти в систему</string>
     <string name="passport_request_agree">Разрешить</string>
@@ -1897,7 +1948,8 @@
     <string name="passport_request_error_invalid_token">Ошибка проверки</string>
     <string name="passport_request_error_network">Произошла ошибка сети. Проверьте настройки и повторите попытку.</string>
     <string name="passport_request_error_unknown">Ошибка системы. Вернитесь назад и повторите попытку.</string>
-    <string name="passport_request_gallery_permission_message">Разрешите доступ к Галерее:&lt;br />Для установки фото профиля</string>
+    <string name="passport_request_gallery_permission_message">Этому приложению необходим доступ к выбранным объектам галереи, чтобы установить ваше фото профиля. Разрешить доступ?</string>
+    <string name="passport_request_permission_title">Требуются разрешения</string>
     <string name="passport_resend_ticket">Отправить еще раз</string>
     <string name="passport_retry">Повторить</string>
     <string name="passport_send_sms_to">Код был отправлен на номер %1$s</string>
@@ -1911,21 +1963,22 @@
     <string name="passport_talkback_switch_image_captcha">Переключиться на защитный код с картинки</string>
     <string name="passport_talkback_switch_voice_captcha">Переключиться на голосовой защитный код</string>
     <string name="passport_talkback_voice_captcha">Воспроизвести голосовой код подтверждения</string>
+    <string name="passport_third_sns_service_unavailable">Служба недоступна. Убедитесь, что приложение установлено и не заблокировано.</string>
     <string name="passport_ticket_send_by_second">Отправить через %d</string>
     <string name="passport_to_forget_password">Забыли пароль?</string>
     <string name="passport_to_password_login">Войти с паролем</string>
     <string name="passport_to_verify_code_login">Войти через SMS</string>
     <string name="passport_unknown_error">Неизвестная ошибка</string>
     <string name="passport_unknown_host_network_error">Проверьте настройки сети и повторите попытку</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a>, а также с &lt;a href=%3$s>Условиями использования&lt;/a> и &lt;a href=%4$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a>, &lt;a href=%3$s>Условиями использования&lt;/a> и &lt;a href=%4$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%5$s>Условиями использования служб верификации China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a>, &lt;a href=%3$s>Условиями использования&lt;/a> и &lt;a href=%4$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%5$s>Условиями использования служб верификации eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a>, &lt;a href=%3$s>Условиями использования&lt;/a> и &lt;a href=%4$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%5$s>Условиями использования служб верификации China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a>, а также с &lt;a href=%3$s>Условиями использования&lt;/a> и &lt;a href=%4$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a>, &lt;a href=%3$s>Условиями использования&lt;/a> и &lt;a href=%4$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%5$s>Условиями использования служб верификации China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a>, &lt;a href=%3$s>Условиями использования&lt;/a> и &lt;a href=%4$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%5$s>Условиями использования служб верификации eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a>, &lt;a href=%3$s>Условиями использования&lt;/a> и &lt;a href=%4$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%5$s>Условиями использования служб верификации China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Если вы используете номер телефона в первый раз, аккаунт будет создан автоматически.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%3$s>Условиями использования служб верификации China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%3$s>Условиями использования служб верификации eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%3$s>Условиями использования служб верификации China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%3$s>Условиями использования служб верификации China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%3$s>Условиями использования служб верификации eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Я прочитал(а) и соглашаюсь с &lt;a href=%1$s>Условиями использования&lt;/a> и &lt;a href=%2$s>Политикой конфиденциальности&lt;/a> аккаунта Xiaomi, а также с &lt;a href=%3$s>Условиями использования служб верификации China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Изменить фото профиля</string>
     <string name="passport_user_avatar_uploading">Секунду…</string>
     <string name="passport_user_id_hint">E-mail/Телефон/Идентификатор аккаунта Xiaomi</string>
@@ -2027,6 +2080,12 @@
     <string name="pic_to_pdf_update_dialog_content">Для создания PDF-файлов обновите Mi Doc Viewer до последней версии. Обновить?</string>
     <string name="pic_to_pdf_update_dialog_positive">Обновить</string>
     <string name="pic_to_pdf_update_dialog_title">Обновите Mi Doc Viewer</string>
+    <string name="pic_widget_editor_text_position_bottom">Название отображается внизу</string>
+    <string name="pic_widget_editor_text_position_left_bottom">Название отображается в нижнем левом углу</string>
+    <string name="pic_widget_editor_text_position_left_top">Название отображается в верхнем левом углу</string>
+    <string name="pic_widget_editor_text_position_right_bottom">Название отображается в нижнем правом углу</string>
+    <string name="pic_widget_editor_text_position_right_top">Название отображается в верхнем правом углу</string>
+    <string name="pic_widget_editor_text_position_top">Название отображается вверху</string>
     <string name="pick_from_contact">Выбрать из контактов</string>
     <string name="pick_people_cover_fail">Произошла ошибка. Повторите попытку.</string>
     <string name="pick_people_cover_page_title">Выберите обложку</string>
@@ -2143,6 +2202,7 @@
     <string name="qr_invite_title">Пригласительный QR-код</string>
     <string name="quarterly_pets_title">Пушистые компаньоны</string>
     <string name="quotation">\"%s\"</string>
+    <string name="ratio">%1$d%%</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="recent_album_empty_title">Нет новых фото</string>
@@ -2272,7 +2332,7 @@
     <string name="scan_qr_code">Отсканируйте QR-код</string>
     <string name="scan_qr_code_buttom_text">Отсканируйте QR-код для просмотра альбома</string>
     <string name="scan_qr_to_accept_invitation">Отсканируйте QR-код, чтобы принять приглашение</string>
-    <string name="scanning_device_tips">&lt;Data>Выполняется поиск устройств поблизости. Другому человеку необходимо включить Xiaomi Share в Центре управления. &lt;a>Подробнее&lt;/a>&lt;/Data></string>
+    <string name="scanning_device_tips"><Data>Выполняется поиск устройств поблизости. Другому человеку необходимо включить Xiaomi Share в Центре управления. &lt;a>Подробнее&lt;/a></Data></string>
     <string name="scene_tag_name_abdominal_wheel">Колесо для пресса</string>
     <string name="scene_tag_name_acura_logo">Логотип Acura</string>
     <string name="scene_tag_name_adidas_clover_logo">Логотип Adidas Originals</string>
@@ -2859,6 +2919,7 @@
     <string name="security_share_subtitle_no_hide">Включены данные о местоположении.</string>
     <string name="see_ignore_faces">Просмотреть пропущенные фото</string>
     <string name="see_more_settings">Дополнительные настройки</string>
+    <string name="seeking_progress_bar_talkback">Выполнен переход к: %1$s %2$s %3$s</string>
     <string name="segment_change_background">Изменить фон</string>
     <string name="segment_copy">Копировать</string>
     <string name="segment_copy_fail">Не удалось скопировать</string>
@@ -2896,6 +2957,9 @@
     <string name="send_one_zip_dialog_desc">%2$d ZIP-файл \"%3$s\" от %1$s</string>
     <string name="send_one_zip_dialog_desc_received">Получен %2$d ZIP-файл \"%3$s\" от %1$s</string>
     <string name="send_one_zip_dialog_desc_receiving">Получение %2$d ZIP-файла \"%3$s\" от %1$s</string>
+    <string name="send_photographic_competition_tip_confirm">Отправить</string>
+    <string name="send_photographic_competition_tip_content">Для отправки этого фото требуются метаданные изображения, включая модель устройства и параметры камеры. Отправить?</string>
+    <string name="send_photographic_competition_tip_title">Внимание!</string>
     <string name="send_public_url">Отправить ссылку на альбом</string>
     <string name="send_secret_file_failed">Не удалось отправить</string>
     <string name="send_secret_file_space_low">Недостаточно места</string>
@@ -3011,6 +3075,8 @@
     <string name="share_and_delete_screenshot">Удалить после отправки</string>
     <string name="share_by_email_start">Поделиться \"%1$s\" в фоновом режиме</string>
     <string name="share_by_email_successfully">Вы поделились с \"%1$s\"</string>
+    <string name="share_device_near_share">Делитесь, когда рядом</string>
+    <string name="share_device_near_share_image_describe">Расположите NFC- зоны двух устройств близко друг к другу, чтобы начать обмен данными</string>
     <string name="share_from">От пользователя %1$s</string>
     <string name="share_public_url_text">Я отправил вам альбом %1$s. Просмотреть можно по ссылке: %2$s</string>
     <string name="share_with_family">Поделиться с семьей</string>
@@ -3193,6 +3259,11 @@
     <string name="talkback_image_with_time">Фото, %s</string>
     <string name="talkback_image_with_time_and_location">Фото, %1$s, %2$s</string>
     <string name="talkback_input_search_hint">Строка поиска. Введите ключевые слова.</string>
+    <string name="talkback_people_and_group_album_name">Название альбома: %1$s</string>
+    <string name="talkback_people_and_group_album_playicon_group">Воспроизвести альбом с этой группой</string>
+    <string name="talkback_people_and_group_album_playicon_journey">Воспроизвести альбом этого путешествия</string>
+    <string name="talkback_people_and_group_album_playicon_people">Воспроизвести альбом с этим человеком</string>
+    <string name="talkback_people_and_group_album_relation">Отношения: %1$s</string>
     <string name="talkback_portrait_with_time">Портрет, %s</string>
     <string name="talkback_portrait_with_time_and_location">Портрет, %1$s, %2$s</string>
     <string name="talkback_screenshot_with_time">Снимок экрана, %s</string>

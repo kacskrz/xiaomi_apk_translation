@@ -36,6 +36,9 @@
     <string name="acc_seconds">Sekundy</string>
     <string name="accept">Přijmout</string>
     <string name="accept_or_deny">%1$s s vámi sdílí album %2$s.</string>
+    <string name="accessibility_sliding_button_state_description_off">Vypnuto</string>
+    <string name="accessibility_sliding_button_state_description_on">Zapnuto</string>
+    <string name="accessibility_tab_state_description_unselect">Nevybráno</string>
     <string name="actionbar_button_up_description">Zpět</string>
     <string name="actionbar_overflow_item_desc">Více možností</string>
     <string name="add_automatically_alert_msg">Přidat fotografie \"%1$s\" automaticky do tohoto alba?</string>
@@ -249,6 +252,10 @@ Nejlepší snímky budou vybrány automaticky. Další fotografie můžete přid
     <string name="album_creative">Tvořivost</string>
     <string name="album_detail_default_sort_tip">Přepnuto na chronologické řazení</string>
     <string name="album_detail_page_empty">Žádné fotky nebo videa</string>
+    <string name="album_detail_sort_menu_asc">Dvojitým klepnutím seřadíte vzestupně</string>
+    <string name="album_detail_sort_menu_checked">Vybráno</string>
+    <string name="album_detail_sort_menu_desc">Dvojitým klepnutím seřadíte sestupně</string>
+    <string name="album_detail_sort_menu_unchecked">Nevybráno</string>
     <string name="album_download">Stažené</string>
     <string name="album_faces_name">Lidé</string>
     <string name="album_favorites_name">Oblíbené</string>
@@ -505,11 +512,11 @@ Pro zobrazení vzpomínek připojte nabíječku a vypněte obrazovku zařízení
     <string name="blackshark_phone">Black Shark</string>
     <string name="blank_app_name" />
     <string name="blur_refocus_enter">Bokeh</string>
-    <string name="bottomsheet_action_collapse">Sbalit spodní tabulku</string>
-    <string name="bottomsheet_action_expand">Rozbalit spodní tabulku</string>
+    <string name="bottomsheet_action_collapse">Sbalit spodní list</string>
+    <string name="bottomsheet_action_expand">Rozbalit spodní list</string>
     <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
-    <string name="bottomsheet_drag_handle_clicked">Dvakrát jste klepli na úchyt pro přetažení</string>
-    <string name="bottomsheet_drag_handle_content_description">Úchyt pro přetažení</string>
+    <string name="bottomsheet_drag_handle_clicked">Dvojité poklepání na madlo pro tažení</string>
+    <string name="bottomsheet_drag_handle_content_description">Madlo pro tažení</string>
     <string name="browse_category_title">Zobrazení</string>
     <string name="btn_cancel">Zrušit</string>
     <string name="btn_cancel_send">Zrušit tento přenos</string>
@@ -710,13 +717,13 @@ Pro zobrazení vzpomínek připojte nabíječku a vypněte obrazovku zařízení
     <string name="confirm_hidden_recommend_group_title">Nezobrazovat doporučení</string>
     <string name="confirm_hide_selected_albums">Skrýt vybraná alba?</string>
     <string name="confirm_merge_album_title">Sloučení položek</string>
-    <string name="confirm_merge_face_albums">&lt;Data> Sloučit toto album s %s? &lt;/Data></string>
-    <string name="confirm_merge_many_face_albums">&lt;Data> Sloučit tato alba s %s? &lt;/Data></string>
+    <string name="confirm_merge_face_albums">" "<Data> Sloučit toto album s %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Sloučit tato alba s %s? </Data>" "</string>
     <string name="confirm_not_face">Žádné shody</string>
-    <string name="confirm_recommandation_face_is">" &lt;Data> Jste si jisti, že toto je &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Tato osoba bude přesunuta do alba \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_face_not">" &lt;Data> Jste si jisti, že toto není &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" &lt;Data> Jste si jisti, že toto jsou &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Tyto osoby budou přesunuty do alba \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" &lt;Data> Jste si jisti, že toto nejsou &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Jste si jisti, že toto je &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Tato osoba bude přesunuta do alba \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Jste si jisti, že toto není &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Jste si jisti, že toto jsou &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Tyto osoby budou přesunuty do alba \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Jste si jisti, že toto nejsou &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Kontakt</string>
     <string name="context_menu_add_contact">Přidat do kontaktů</string>
     <string name="context_menu_copy">Kopírovat</string>
@@ -794,7 +801,17 @@ Pro zobrazení vzpomínek připojte nabíječku a vypněte obrazovku zařízení
     <string name="delete_third_party_photo">Vymazat tuto fotografii?</string>
     <string name="delete_third_party_video">Vymazat toto video?</string>
     <string name="deny">Odmítnout</string>
+    <string name="desc_gallery_widget_editor_font_color_black">Černá</string>
+    <string name="desc_gallery_widget_editor_font_color_blue">Modrá</string>
+    <string name="desc_gallery_widget_editor_font_color_gray">Šedá</string>
+    <string name="desc_gallery_widget_editor_font_color_light_blue">Světlá modrá</string>
+    <string name="desc_gallery_widget_editor_font_color_light_green">Světle zelená</string>
     <string name="desc_gallery_widget_editor_font_color_list">Barva textu</string>
+    <string name="desc_gallery_widget_editor_font_color_orange">Oranžová</string>
+    <string name="desc_gallery_widget_editor_font_color_purple">Purpurová</string>
+    <string name="desc_gallery_widget_editor_font_color_red">Červená</string>
+    <string name="desc_gallery_widget_editor_font_color_white">Bílá</string>
+    <string name="desc_gallery_widget_editor_font_color_yellow">Žlutá</string>
     <string name="desc_gallery_widget_editor_font_type_list">Písmo</string>
     <string name="desc_gallery_widget_editor_selected_photo_list">Vybrané obrázky</string>
     <string name="desc_gallery_widget_editor_text_position_list">Rozložení</string>
@@ -1120,6 +1137,7 @@ nové efekty fotografií"</string>
     <string name="foods_travel_title_one">Tak chutná %1$s</string>
     <string name="foods_travel_title_three">Foodieho %1$s</string>
     <string name="foods_travel_title_two">Co jí %1$s</string>
+    <string name="frame_current_position_talkback">%1$s %2$s %3$s</string>
     <string name="free_view_desc">3D zobrazení</string>
     <string name="friday">Pátek</string>
     <string name="friday_short">Pát</string>
@@ -1132,6 +1150,8 @@ nové efekty fotografií"</string>
     <string name="gallery_sync_disable_toast">Synchronizace Galerie je vypnuta</string>
     <string name="gallery_uninstall_description_content">Galerie je systémová aplikace, pomocí které můžete prohlížet, spravovat a synchronizovat fotografie a videa napříč všemi připojenými zařízeními. Po odinstalování Galerie budou položky dříve uložené do soukromého alba odstraněny a současně ztratíte přístup k dalším funkcí spojeným s prohlížením a výběrem položek. Přesto odinstalovat?</string>
     <string name="gallery_uninstall_description_title">Odinstalovat Galerii?</string>
+    <string name="gallery_widget_editor_generate_random_text">Generovat náhodný text</string>
+    <string name="gallery_widget_editor_widget_add_image">Přidat obrázek</string>
     <string name="gallery_widget_editor_widget_text_form_label">Text</string>
     <string name="gallery_widget_editor_widget_text_form_placeholder">Zadejte text</string>
     <string name="generate_story_summary">Pro zobrazení vzpomínek se ujistěte, že máte dostatek fotografií, nabíječka zařízení je připojena a obrazovka je vypnuta. Již vygenerované vzpomínky budou i po vypnutí této funkce stále zobrazovány.</string>
@@ -1211,6 +1231,7 @@ nové efekty fotografií"</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="help">Zařízení nelze najít?</string>
     <string name="hidden_album_display_name">Skryté album</string>
+    <string name="hide">Skrýt</string>
     <string name="hide_nearby_photos">Skrýt fotografie a videa v okolí</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
@@ -1348,6 +1369,7 @@ nové efekty fotografií"</string>
     <string name="keyboard_shortcut_paste">Vložit</string>
     <string name="keyboard_shortcut_search">Hledat</string>
     <string name="keyboard_shortcut_select_all">Vybrat vše</string>
+    <string name="keyboard_shortcut_tile">Přepnout na všechny položky</string>
     <string name="keyboard_shortcut_year">Roční zobrazení</string>
     <string name="kick_owner_user_positive_button_text">Odstranit</string>
     <string name="kick_owner_user_title">Odstranit tohoto člena?</string>
@@ -1428,6 +1450,7 @@ nové efekty fotografií"</string>
     <string name="map_album_detail_page_title">Poloha</string>
     <string name="map_enable_position_service_message">Pro zobrazení fotografií a videí na mapě nejprve zapněte služby určování polohy.</string>
     <string name="map_enable_position_service_title">Zapnutí služeb určování polohy</string>
+    <string name="map_gallery">Mapa Galerie</string>
     <string name="map_grant_position_permission_after_declined_twice_message">Pro zobrazení fotografií a videí na mapě nejprve povolte Galerii přístup k informacím o vaší poloze.</string>
     <string name="map_grant_position_permission_subtitle">Pro zobrazení fotografií a videí na mapě</string>
     <string name="map_guide_message">Zobrazení vašich fotografií a videí na mapě</string>
@@ -1524,6 +1547,12 @@ vyberte fotografie s vaší tváří"</string>
     <string name="miplay_volume_btn">Hlasitost</string>
     <string name="mishare_all_devices">Všechna zařízení</string>
     <string name="miuix_access_state_desc">Vybráno</string>
+    <string name="miuix_accessibility_title">Nadpis</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Sbaleno</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Rozbaleno</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ukončit režim úprav</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nové oznámení</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Začít režim úprav</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Zrušit výběr</string>
     <string name="miuix_appcompat_action_mode_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_action_mode_title_empty">Vybrat položky</string>
@@ -1539,12 +1568,27 @@ vyberte fotografie s vaší tváří"</string>
     <string name="miuix_appcompat_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_select_all_description">Vybrat vše</string>
     <string name="miuix_appcompat_select_item">Vybrat položky</string>
+    <string name="miuix_appcompat_show_dialog_description">Vyskakovací okno</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Potažením dolů zavřete</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Potažením dolů přepněte na poloviční obrazovku</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Potažením dolů minimalizujte</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Potažením nahoru přepněte na poloviční obrazovku</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Potažením nahoru maximalizujte</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Poloviční obrazovka</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximalizované</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimalizované</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Přepnout na poloviční obrazovku</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizovat</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizovat</string>
     <string name="miuix_item_view_role_description">Panel</string>
     <string name="miuix_navigator_category_group_collapse">Sbalit</string>
     <string name="miuix_navigator_category_group_expand">Zvětšit</string>
     <string name="miuix_navigator_content_switch_description">Zobrazit postranní lištu</string>
     <string name="miuix_navigator_multiple_choice">Vybrat</string>
     <string name="miuix_navigator_navigator_switch_description">Skrýt postranní lištu</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Panel nástrojů ve spodní části obrazovky</string>
+    <string name="miuix_popup_window_default_title">Vyskakovací okno</string>
+    <string name="miuix_progressbar_loading">Načítání</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potáhněte pro obnovení</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Úspěšně obnoveno</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Obnovování…</string>
@@ -1553,6 +1597,9 @@ vyberte fotografie s vaší tváří"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je prozatím vše</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Ještě chvilku…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Načtení položek se nezdařilo</string>
+    <string name="miuix_show_password">Zobrazit heslo</string>
+    <string name="miuix_stretchablewidget_collapsed">Sbaleno</string>
+    <string name="miuix_stretchablewidget_expanded">Rozbaleno</string>
     <string name="monday">Pondělí</string>
     <string name="monday_short">Pon</string>
     <string name="monday_shortest">Pon</string>
@@ -1767,6 +1814,7 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="operation_unhide">Odkrýt</string>
     <string name="operation_upgrade_gallery">Aktualizovat</string>
     <string name="operation_video_compress">Zkomprimovat video</string>
+    <string name="operation_video_to_live">Převést na Živou fotografii</string>
     <string name="operation_watermark">Ochranný vodoznak</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
@@ -1781,6 +1829,7 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="other_settings">Další nastavení</string>
     <string name="owner_album_subtitle">Sdíleno s %1$s lidmi</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
+    <string name="pasport_register_dialog_message">Vytvořit Xiaomi účet pomocí telefonního čísla %s nyní?</string>
     <string name="passport_access_denied">Přístup zamítnut</string>
     <string name="passport_account_crop_user_avatar">Oříznout fotografii</string>
     <string name="passport_account_empty_user_name">Zadejte jméno</string>
@@ -1797,7 +1846,7 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="passport_account_secure_info_pref_title">Informace o účtu</string>
     <string name="passport_account_security_info_pref_title">Bezpečnostní informace</string>
     <string name="passport_account_user_avatar">Profilová fotografie</string>
-    <string name="passport_account_user_avatar_from_album">Galerie</string>
+    <string name="passport_account_user_avatar_from_album">Vybrat z Galerie</string>
     <string name="passport_account_user_avatar_from_camera">Fotoaparát</string>
     <string name="passport_account_user_base_info">Základní informace</string>
     <string name="passport_account_user_details">Osobní údaje</string>
@@ -1869,7 +1918,6 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="passport_login_register_by_local_phone_long_text">Vytvořit účet</string>
     <string name="passport_login_with_sns">Jiné způsoby přihlášení</string>
     <string name="passport_logout_account">Odhlásit se</string>
-    <string name="passport_mi_account_first_title">Při prvním použití vašeho telefonního čísla bude váš účet vytvořen automaticky.</string>
     <string name="passport_mi_account_title">Přihlaste se pomocí Xiaomi účtu</string>
     <string name="passport_network_error">Došlo k chybě sítě. Zkontrolujte síťové nastavení a zkuste to znovu.</string>
     <string name="passport_network_error_hint">Zkontrolujte URL adresu a zkuste to znovu nebo URL adresu zkopírujte a otevřete ji pomocí prohlížeče.</string>
@@ -1878,6 +1926,7 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="passport_no_account">Nepřihlášen(a)</string>
     <string name="passport_open_settings">Nastavení</string>
     <string name="passport_page_load_failed">Stránku nelze otevřít</string>
+    <string name="passport_password_hide_show">Skrýt heslo</string>
     <string name="passport_password_login_btn">Přihlásit se</string>
     <string name="passport_password_not_show">Nezobrazovat heslo</string>
     <string name="passport_password_show">Zobrazit heslo</string>
@@ -1889,6 +1938,8 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="passport_reging">Vytváření účtu…</string>
     <string name="passport_register_by_local_phone_long_text">Vytvořit účet</string>
     <string name="passport_register_by_local_phone_short_text">Vytvořit účet</string>
+    <string name="passport_register_dialog_positive">Vytvořit</string>
+    <string name="passport_register_dialog_title">Vytvořit Xiaomi účet</string>
     <string name="passport_register_restricted">S tímto číslem je propojeno příliš mnoho účtů. Zkuste jiné telefonní číslo.</string>
     <string name="passport_relogin_notice">Musíte se přihlásit znovu</string>
     <string name="passport_request_agree">Povolit</string>
@@ -1897,7 +1948,8 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="passport_request_error_invalid_token">Ověření se nezdařilo</string>
     <string name="passport_request_error_network">Došlo k chybě sítě. Zkontrolujte síťové nastavení a zkuste to znovu.</string>
     <string name="passport_request_error_unknown">Došlo k chybě systému. Vraťte se zpět a zkuste to znovu.</string>
-    <string name="passport_request_gallery_permission_message">Přístup do Galerie:&lt;br />Pro nastavení profilové fotografie</string>
+    <string name="passport_request_gallery_permission_message">Tato aplikace potřebuje za účelem nastavení vaší profilové fotky přístup k vybraným položkám Galerie. Povolit nyní?</string>
+    <string name="passport_request_permission_title">Vyžadována oprávnění</string>
     <string name="passport_resend_ticket">Zaslat kód znovu</string>
     <string name="passport_retry">Opakovat</string>
     <string name="passport_send_sms_to">Kód zaslán na %1$s</string>
@@ -1911,21 +1963,22 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="passport_talkback_switch_image_captcha">Přepnout na obrázkový ověřovací kód</string>
     <string name="passport_talkback_switch_voice_captcha">Přepnout na hlasový ověřovací kód</string>
     <string name="passport_talkback_voice_captcha">Přehrát hlasový ověřovací kód</string>
+    <string name="passport_third_sns_service_unavailable">Služba je nedostupná. Zkontrolujte, zda je aplikace nainstalována a není blokována.</string>
     <string name="passport_ticket_send_by_second">Odeslat za %d</string>
     <string name="passport_to_forget_password">Zapomněli jste heslo?</string>
     <string name="passport_to_password_login">Přihlásit se pomocí hesla</string>
     <string name="passport_to_verify_code_login">Přihlásit se pomocí SMS</string>
     <string name="passport_unknown_error">Neznámá chyba</string>
     <string name="passport_unknown_host_network_error">Zkontrolujte nastavení sítě a zkuste to znovu</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb společnosti China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb účtu eSurfing.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb společnosti China Unicom.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb společnosti China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb účtu eSurfing.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb společnosti China Unicom.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Při prvním použití vašeho telefonního čísla bude váš účet vytvořen automaticky.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb společnosti China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb účtu eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb společnosti China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb společnosti China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb účtu eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb společnosti China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Změnit profilovou fotografii</string>
     <string name="passport_user_avatar_uploading">Ještě chvilku…</string>
     <string name="passport_user_id_hint">E-mail/Telefonní číslo/ID Xiaomi účtu</string>
@@ -2027,6 +2080,12 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="pic_to_pdf_update_dialog_content">Aktualizujte Mi Prohlížeč dokumentů na nejnovější verzi, abyste mohli generovat PDF soubory. Aktualizovat nyní?</string>
     <string name="pic_to_pdf_update_dialog_positive">Aktualizovat</string>
     <string name="pic_to_pdf_update_dialog_title">Aktualizovat Mi Prohlížeč dokumentů</string>
+    <string name="pic_widget_editor_text_position_bottom">Název se zobrazí dole</string>
+    <string name="pic_widget_editor_text_position_left_bottom">Název se zobrazí v levém dolním rohu</string>
+    <string name="pic_widget_editor_text_position_left_top">Název se zobrazí v levém horním rohu</string>
+    <string name="pic_widget_editor_text_position_right_bottom">Název se zobrazí v pravém dolním rohu</string>
+    <string name="pic_widget_editor_text_position_right_top">Název se zobrazí v pravém horním rohu</string>
+    <string name="pic_widget_editor_text_position_top">Název se zobrazí nahoře</string>
     <string name="pick_from_contact">Vybrat z kontaktů</string>
     <string name="pick_people_cover_fail">Došlo k chybě. Zkuste to znovu.</string>
     <string name="pick_people_cover_page_title">Vyberte úvodní fotografii</string>
@@ -2143,6 +2202,7 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="qr_invite_title">QR kód pozvánky</string>
     <string name="quarterly_pets_title">Huňatí společníci</string>
     <string name="quotation">\"%s\"</string>
+    <string name="ratio">%1$d%%</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="recent_album_empty_title">V nedávné době jste nepřidali žádné fotografie</string>
@@ -2272,7 +2332,7 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="scan_qr_code">Naskenujte QR kód</string>
     <string name="scan_qr_code_buttom_text">Pro zobrazení tohoto alba naskenujte QR kód</string>
     <string name="scan_qr_to_accept_invitation">Naskenujte QR kód pro přijetí pozvánky</string>
-    <string name="scanning_device_tips">&lt;Data>Vyhledávání zařízení v okolí. Druhá osoba musí zapnout službu Xiaomi Share v Centru ovládání. &lt;a>Zjistit více&lt;/a>&lt;/Data></string>
+    <string name="scanning_device_tips"><Data>Vyhledávání zařízení v okolí. Druhá osoba musí zapnout službu Xiaomi Share v Centru ovládání. &lt;a>Zjistit více&lt;/a></Data></string>
     <string name="scene_tag_name_abdominal_wheel">Kolečko na posilování břišních svalů</string>
     <string name="scene_tag_name_acura_logo">Acura logo</string>
     <string name="scene_tag_name_adidas_clover_logo">Adidas Originals logo</string>
@@ -2859,6 +2919,7 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="security_share_subtitle_no_hide">Obsahuje informace o poloze</string>
     <string name="see_ignore_faces">Zobrazit osoby, které jste ignorovali</string>
     <string name="see_more_settings">Další nastavení</string>
+    <string name="seeking_progress_bar_talkback">Přeskočeno na: %1$s %2$s %3$s</string>
     <string name="segment_change_background">Změnit pozadí</string>
     <string name="segment_copy">Kopírovat</string>
     <string name="segment_copy_fail">Nelze zkopírovat</string>
@@ -2896,6 +2957,9 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="send_one_zip_dialog_desc">%2$d soubor ve formátu ZIP „%3$s“ ze zařízení %1$s</string>
     <string name="send_one_zip_dialog_desc_received">Přijat %2$d soubor ve formátu ZIP „%3$s“ ze zařízení %1$s</string>
     <string name="send_one_zip_dialog_desc_receiving">Příjem %2$d souboru ve formátu ZIP „%3$s“ ze zařízení %1$s</string>
+    <string name="send_photographic_competition_tip_confirm">Odeslat</string>
+    <string name="send_photographic_competition_tip_content">Odeslání této fotografie vyžaduje její metadata, včetně modelu zařízení a parametrů fotoaparátu. Odeslat nyní?</string>
+    <string name="send_photographic_competition_tip_title">Upozornění</string>
     <string name="send_public_url">Odeslat URL alba</string>
     <string name="send_secret_file_failed">Sdílení se nezdařilo</string>
     <string name="send_secret_file_space_low">Nedostatek místa na úložišti</string>
@@ -3011,6 +3075,8 @@ Při prvním použití této funkce může překódování chvíli trvat."</stri
     <string name="share_and_delete_screenshot">Po sdílení smazat</string>
     <string name="share_by_email_start">Sdílet %1$s na pozadí</string>
     <string name="share_by_email_successfully">Úspěšně sdíleno %1$s</string>
+    <string name="share_device_near_share">Sdílet, když se nachází v okolí</string>
+    <string name="share_device_near_share_image_describe">Chcete-li zahájit sdílení, umístěte poblíž sebe NFC oblasti dvou zařízení</string>
     <string name="share_from">Od uživatele %1$s</string>
     <string name="share_public_url_text">Sdílím album %1$s. Prohlédněte si ho na %2$s</string>
     <string name="share_with_family">Sdílet s rodinou</string>
@@ -3193,6 +3259,11 @@ Do %1$s můžete své fotografie a videa přenést do Fotek Google nebo si je st
     <string name="talkback_image_with_time">Fotografie, %s</string>
     <string name="talkback_image_with_time_and_location">Fotografie, %1$s, %2$s</string>
     <string name="talkback_input_search_hint">Řádek vyhledávání. Zadejte klíčová slova pro vyhledávání.</string>
+    <string name="talkback_people_and_group_album_name">Název alba: %1$s</string>
+    <string name="talkback_people_and_group_album_playicon_group">Spustit prezentaci alba s touto skupinou</string>
+    <string name="talkback_people_and_group_album_playicon_journey">Spustit prezentaci alba s tímto výletem</string>
+    <string name="talkback_people_and_group_album_playicon_people">Spustit prezentaci alba s touto osobou</string>
+    <string name="talkback_people_and_group_album_relation">Vztah: %1$s</string>
     <string name="talkback_portrait_with_time">Portrét, %s</string>
     <string name="talkback_portrait_with_time_and_location">Portrét, %1$s, %2$s</string>
     <string name="talkback_screenshot_with_time">Snímek obrazovky, %s</string>

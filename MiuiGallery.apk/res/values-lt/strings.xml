@@ -36,6 +36,9 @@
     <string name="acc_seconds">Sekundės</string>
     <string name="accept">Priimti</string>
     <string name="accept_or_deny">%1$s su jums pasidalino albumu %2$s.</string>
+    <string name="accessibility_sliding_button_state_description_off">Išjungta</string>
+    <string name="accessibility_sliding_button_state_description_on">Įjungta</string>
+    <string name="accessibility_tab_state_description_unselect">Nepasirinkta</string>
     <string name="actionbar_button_up_description">Grįžti</string>
     <string name="actionbar_overflow_item_desc">Daugiau parinkčių</string>
     <string name="add_automatically_alert_msg">Automatiškai pridėti nuotraukas iš „%1$s“ į šį albumą?</string>
@@ -249,6 +252,10 @@ Geriausios nuotraukos parinktos automatiškai. Galite pridėti daugiau nuotrauk�
     <string name="album_creative">Kūrybingumas</string>
     <string name="album_detail_default_sort_tip">Perjungta į chronologinę tvarką</string>
     <string name="album_detail_page_empty">Nėra nei vaizdo įrašų, nei nuotraukų</string>
+    <string name="album_detail_sort_menu_asc">Dukart bakstelėkite, kad surūšiuotumėte didėjančia tvarka</string>
+    <string name="album_detail_sort_menu_checked">Pasirinkta</string>
+    <string name="album_detail_sort_menu_desc">Dukart bakstelėkite, kad surūšiuotumėte mažėjančia tvarka</string>
+    <string name="album_detail_sort_menu_unchecked">Nepasirinkta</string>
     <string name="album_download">Atsisiuntimai</string>
     <string name="album_faces_name">Žmonės</string>
     <string name="album_favorites_name">Mėgstamiausi</string>
@@ -508,8 +515,8 @@ Jei norite, kad atsirastų atsiminimų, prijunkite kroviklį ir išjunkite ekran
     <string name="bottomsheet_action_collapse">Sutraukti apatinį lapą</string>
     <string name="bottomsheet_action_expand">Išskleisti apatinį lapą</string>
     <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
-    <string name="bottomsheet_drag_handle_clicked">Vilkimo rankenėlė dukart paliesta</string>
-    <string name="bottomsheet_drag_handle_content_description">Vilkimo rankenėlė</string>
+    <string name="bottomsheet_drag_handle_clicked">Dukart bakstelėję vilkite rankenėlę</string>
+    <string name="bottomsheet_drag_handle_content_description">Vilkimo rankena</string>
     <string name="browse_category_title">Naršymas</string>
     <string name="btn_cancel">Atšaukti</string>
     <string name="btn_cancel_send">Atšaukti perdavimą</string>
@@ -710,13 +717,13 @@ Jei norite, kad atsirastų atsiminimų, prijunkite kroviklį ir išjunkite ekran
     <string name="confirm_hidden_recommend_group_title">Nerodyti rekomendacijų</string>
     <string name="confirm_hide_selected_albums">Slėpti pasirinktus albumus?</string>
     <string name="confirm_merge_album_title">Sulieti elementus</string>
-    <string name="confirm_merge_face_albums">&lt;Data> Sulieti šį albumą su %s? &lt;/Data></string>
-    <string name="confirm_merge_many_face_albums">&lt;Data> Sulieti šiuos albumus su %s? &lt;/Data></string>
+    <string name="confirm_merge_face_albums">" "<Data> Sulieti šį albumą su %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Sulieti šiuos albumus su %s? </Data>" "</string>
     <string name="confirm_not_face">Nėra atitikmenų</string>
-    <string name="confirm_recommandation_face_is">" &lt;Data> Ar jūs įsitikinę, kad tai &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Šis asmuo bus perkeltas į albumą \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_face_not">" &lt;Data> Ar tai tikrai ne &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" &lt;Data> Ar jūs įsitikinę, kad tai &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Šie asmenys bus perkelti į albumą \"%2$s\". &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" &lt;Data> Ar tai tikrai ne &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Ar jūs įsitikinę, kad tai &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Šis asmuo bus perkeltas į albumą \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Ar tai tikrai ne &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Ar jūs įsitikinę, kad tai &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Šie asmenys bus perkelti į albumą \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Ar tai tikrai ne &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Kontaktas</string>
     <string name="context_menu_add_contact">Įtraukti į kontaktus</string>
     <string name="context_menu_copy">Kopijuoti</string>
@@ -794,7 +801,17 @@ Jei norite, kad atsirastų atsiminimų, prijunkite kroviklį ir išjunkite ekran
     <string name="delete_third_party_photo">Ištrinti šią nuotrauką?</string>
     <string name="delete_third_party_video">Ištrinti šį vaizdo įrašą?</string>
     <string name="deny">Atmesti</string>
+    <string name="desc_gallery_widget_editor_font_color_black">Juoda</string>
+    <string name="desc_gallery_widget_editor_font_color_blue">Mėlyna</string>
+    <string name="desc_gallery_widget_editor_font_color_gray">Pilka</string>
+    <string name="desc_gallery_widget_editor_font_color_light_blue">Šviesiai mėlyna</string>
+    <string name="desc_gallery_widget_editor_font_color_light_green">Šviesiai žalia</string>
     <string name="desc_gallery_widget_editor_font_color_list">Teksto spalva</string>
+    <string name="desc_gallery_widget_editor_font_color_orange">Oranžinė</string>
+    <string name="desc_gallery_widget_editor_font_color_purple">Violetinė</string>
+    <string name="desc_gallery_widget_editor_font_color_red">Raudona</string>
+    <string name="desc_gallery_widget_editor_font_color_white">Balta</string>
+    <string name="desc_gallery_widget_editor_font_color_yellow">Geltona</string>
     <string name="desc_gallery_widget_editor_font_type_list">Šriftas</string>
     <string name="desc_gallery_widget_editor_selected_photo_list">Pasirinkti vaizdai</string>
     <string name="desc_gallery_widget_editor_text_position_list">Išdėstymas</string>
@@ -1120,6 +1137,7 @@ nuotraukų efektai"</string>
     <string name="foods_travel_title_one">%1$s potyriai</string>
     <string name="foods_travel_title_three">Gurmano %1$s</string>
     <string name="foods_travel_title_two">%1$s maistas</string>
+    <string name="frame_current_position_talkback">%1$s %2$s %3$s</string>
     <string name="free_view_desc">3D vaizdas</string>
     <string name="friday">Penktadienis</string>
     <string name="friday_short">Pn.</string>
@@ -1132,6 +1150,8 @@ nuotraukų efektai"</string>
     <string name="gallery_sync_disable_toast">Galerijos sinchronizacija išjungta</string>
     <string name="gallery_uninstall_description_content">Galerija yra sisteminė programa, leidžianti peržiūrėti, valdyti ir sinchronizuoti nuotraukas ir vaizdo įrašus visuose prijungtuose įrenginiuose. Jei išdiegsite galeriją, prarasite elementus, kuriuos pažymėjote kaip privačius, o kitos funkcijos, susijusios su galerijos elementų peržiūra ir pasirinkimu, taip pat nebebus pasiekiamos. Vis tiek pašalinti?</string>
     <string name="gallery_uninstall_description_title">Išdiegti galeriją?</string>
+    <string name="gallery_widget_editor_generate_random_text">Atsitiktinai generuoti tekstą</string>
+    <string name="gallery_widget_editor_widget_add_image">Pridėti vaizdą</string>
     <string name="gallery_widget_editor_widget_text_form_label">Tekstas</string>
     <string name="gallery_widget_editor_widget_text_form_placeholder">Įveskite tekstą</string>
     <string name="generate_story_summary">Įamžinkite užtektinai nuotraukų, prijunkite įkroviklį ir išjunkite ekraną, kad matytumėte prisiminimus. Jau sugeneruoti prisiminimai nedings, jei išjungsite šią funkciją.</string>
@@ -1211,6 +1231,7 @@ nuotraukų efektai"</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="help">Nepavyksta rasti įrenginių?</string>
     <string name="hidden_album_display_name">Paslėptas albumas</string>
+    <string name="hide">Slėpti</string>
     <string name="hide_nearby_photos">Slėpti netoliese padarytas nuotraukas ir vaizdo įrašus</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
@@ -1348,6 +1369,7 @@ nuotraukų efektai"</string>
     <string name="keyboard_shortcut_paste">Įklijuoti</string>
     <string name="keyboard_shortcut_search">Ieškoti</string>
     <string name="keyboard_shortcut_select_all">Pasirinkti viską</string>
+    <string name="keyboard_shortcut_tile">Perjungti į visus elementus</string>
     <string name="keyboard_shortcut_year">Metų rodinys</string>
     <string name="kick_owner_user_positive_button_text">Pašalinti</string>
     <string name="kick_owner_user_title">Pašalinti šį asmenį?</string>
@@ -1428,6 +1450,7 @@ nuotraukų efektai"</string>
     <string name="map_album_detail_page_title">Vietovė</string>
     <string name="map_enable_position_service_message">Norėdami peržiūrėti nuotraukas ir vaizdo įrašus žemėlapyje, visų pirma įjunkite vietovės paslaugas.</string>
     <string name="map_enable_position_service_title">Įjunkite vietovės paslaugas</string>
+    <string name="map_gallery">Galerijos žemėlapis</string>
     <string name="map_grant_position_permission_after_declined_twice_message">Norėdami peržiūrėti nuotraukas ir vaizdo įrašus žemėlapyje, visų pirma leiskite galerijai gauti prieigą prie jūsų vietovės.</string>
     <string name="map_grant_position_permission_subtitle">Netoliese esančių nuotraukų ir vaizdo įrašų rodymui žemėlapyje</string>
     <string name="map_guide_message">Peržiūrėkite savo nuotraukas ir vaizdo įrašus žemėlapyje</string>
@@ -1524,6 +1547,12 @@ nuotraukų efektai"</string>
     <string name="miplay_volume_btn">Garsumas</string>
     <string name="mishare_all_devices">Visi įrenginiai</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
+    <string name="miuix_accessibility_title">Pavadinimas</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Sutraukta</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Išskleista</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Išeiti iš redagavimo režimo</string>
+    <string name="miuix_appcompat_accessibility_new_message">Naujas pranešimas</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Įjunkite redagavimo veikseną</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
@@ -1539,12 +1568,27 @@ nuotraukų efektai"</string>
     <string name="miuix_appcompat_select_all">Žymėti viską</string>
     <string name="miuix_appcompat_select_all_description">Pasirinkti viską</string>
     <string name="miuix_appcompat_select_item">Pasirinkti elementus</string>
+    <string name="miuix_appcompat_show_dialog_description">Laikinasis langas</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Uždarymui slinkite žemyn</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Braukite žemyn, kad perjungtumėte į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Braukite žemyn, kad sumažintumėte</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Braukite aukštyn, kad perjungtumėte į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Braukite žemyn, kad padidintumėte</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Pusė ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Padidintas</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Sumažintas</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Perjungti į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Padidinti</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Sumažintas</string>
     <string name="miuix_item_view_role_description">Skirtukas</string>
     <string name="miuix_navigator_category_group_collapse">Suskleisti</string>
     <string name="miuix_navigator_category_group_expand">Išplėsti</string>
     <string name="miuix_navigator_content_switch_description">Rodyti šoninę juostą</string>
     <string name="miuix_navigator_multiple_choice">Pasirinkti</string>
     <string name="miuix_navigator_navigator_switch_description">Slėpti šoninę juostą</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Įrankių juosta ekrano apačioje</string>
+    <string name="miuix_popup_window_default_title">Laikinasis langas</string>
+    <string name="miuix_progressbar_loading">Įkeliama</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Atnaujinimui braukite žemyn</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sėkmingai atnaujinta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atnaujinama…</string>
@@ -1553,6 +1597,9 @@ nuotraukų efektai"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Šiam kartui tiek</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Sekundėlę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nepavyko įkelti elementų</string>
+    <string name="miuix_show_password">Rodyti slaptažodį</string>
+    <string name="miuix_stretchablewidget_collapsed">Sutraukta</string>
+    <string name="miuix_stretchablewidget_expanded">Išskleista</string>
     <string name="monday">Pirmadienis</string>
     <string name="monday_short">Pr.</string>
     <string name="monday_shortest">Pr.</string>
@@ -1767,6 +1814,7 @@ nuotraukų efektai"</string>
     <string name="operation_unhide">Rodyti</string>
     <string name="operation_upgrade_gallery">Naujinti</string>
     <string name="operation_video_compress">Archyvuoti vaizdo įrašą</string>
+    <string name="operation_video_to_live">Konvertuojama į judančią nuotrauką</string>
     <string name="operation_watermark">Apsauginis vandenženklis</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
@@ -1781,6 +1829,7 @@ nuotraukų efektai"</string>
     <string name="other_settings">Papildomi parametrai</string>
     <string name="owner_album_subtitle">Pasidalinta su %1$s asmenims</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
+    <string name="pasport_register_dialog_message">Sukurti „Xiaomi“ paskyrą su jūsų telefono numeriu %s dabar?</string>
     <string name="passport_access_denied">Prieiga nesuteikta</string>
     <string name="passport_account_crop_user_avatar">Apkirpti nuotrauką</string>
     <string name="passport_account_empty_user_name">Įveskite savo slapyvardį</string>
@@ -1797,7 +1846,7 @@ nuotraukų efektai"</string>
     <string name="passport_account_secure_info_pref_title">Paskyros informacija</string>
     <string name="passport_account_security_info_pref_title">Saugumo informacija</string>
     <string name="passport_account_user_avatar">Profilio nuotrauka</string>
-    <string name="passport_account_user_avatar_from_album">Galerija</string>
+    <string name="passport_account_user_avatar_from_album">Pasirinkti iš galerijos</string>
     <string name="passport_account_user_avatar_from_camera">Fotoaparatas</string>
     <string name="passport_account_user_base_info">Pagrindinė informacija</string>
     <string name="passport_account_user_details">Asmeninė informacija</string>
@@ -1869,7 +1918,6 @@ nuotraukų efektai"</string>
     <string name="passport_login_register_by_local_phone_long_text">Sukurti paskyrą</string>
     <string name="passport_login_with_sns">Kiti prisijungimo būdai</string>
     <string name="passport_logout_account">Atsijungti</string>
-    <string name="passport_mi_account_first_title">Jei pirmą kartą naudojate savo telefono numerį, paskyrą sukursime automatiškai.</string>
     <string name="passport_mi_account_title">Prisijungti su „Xiaomi“ paskyra</string>
     <string name="passport_network_error">Įvyko tinklo klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="passport_network_error_hint">Patikrinkite URL ir bandykite dar kartą arba nukopijuokite URL ir atidarykite jį savo naršyklėje.</string>
@@ -1878,6 +1926,7 @@ nuotraukų efektai"</string>
     <string name="passport_no_account">Neprisijungta</string>
     <string name="passport_open_settings">Parametrai</string>
     <string name="passport_page_load_failed">Nepavyko atidaryti puslapio</string>
+    <string name="passport_password_hide_show">Slėpti slaptažodį</string>
     <string name="passport_password_login_btn">Prisijungti</string>
     <string name="passport_password_not_show">Nerodyti slaptažodžio</string>
     <string name="passport_password_show">Rodyti slaptažodį</string>
@@ -1889,6 +1938,8 @@ nuotraukų efektai"</string>
     <string name="passport_reging">Kuriama paskyra…</string>
     <string name="passport_register_by_local_phone_long_text">Sukurti paskyrą</string>
     <string name="passport_register_by_local_phone_short_text">Sukurti paskyrą</string>
+    <string name="passport_register_dialog_positive">Sukurti</string>
+    <string name="passport_register_dialog_title">Sukurti „Xiaomi“ paskyrą</string>
     <string name="passport_register_restricted">Per daug paskyrų, susietų su šiuo numeriu. Pabandykite kitą.</string>
     <string name="passport_relogin_notice">Reikalingas pakartotinis prisijungimas</string>
     <string name="passport_request_agree">Leisti</string>
@@ -1897,7 +1948,8 @@ nuotraukų efektai"</string>
     <string name="passport_request_error_invalid_token">Nepavyko patvirtinti</string>
     <string name="passport_request_error_network">Įvyko tinklo klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="passport_request_error_unknown">Įvyko sistemos klaida. Grįžkite ir pabandykite dar kartą.</string>
-    <string name="passport_request_gallery_permission_message">Lesiti pasiekti Galeriją:&lt;br/>profilio nuotraukų nustatymui</string>
+    <string name="passport_request_gallery_permission_message">Jei norite nustatyti savo profilio nuotrauką, šiai programai reikia suteikti prieigą prie pasirinktų galerijos elementų. Leisti dabar?</string>
+    <string name="passport_request_permission_title">Reikalingi leidimai</string>
     <string name="passport_resend_ticket">Iš naujo išsiųsti kodą</string>
     <string name="passport_retry">Bandykite dar kartą</string>
     <string name="passport_send_sms_to">Kodas išsiųstas į %1$s</string>
@@ -1911,21 +1963,22 @@ nuotraukų efektai"</string>
     <string name="passport_talkback_switch_image_captcha">Perjungti į vaizdinį patvirtinimo kodą</string>
     <string name="passport_talkback_switch_voice_captcha">Perjungti į balso patvirtinimo kodą</string>
     <string name="passport_talkback_voice_captcha">Groti balso patvirtinimo kodą</string>
+    <string name="passport_third_sns_service_unavailable">Paslauga nepasiekiama. Įsitikinkite, kad programa įdiegta ir neužblokuota.</string>
     <string name="passport_ticket_send_by_second">Siųsti po %d sek.</string>
     <string name="passport_to_forget_password">Pamiršote slaptažodį?</string>
     <string name="passport_to_password_login">Prisijungti naudojant slaptažodį</string>
     <string name="passport_to_verify_code_login">Prisijungti naudojant SMS</string>
     <string name="passport_unknown_error">Nežinoma klaida</string>
     <string name="passport_unknown_host_network_error">Patikrinkite tinklo parametrus ir pabandykite dar kartą</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Mobile“ patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>Privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>Privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„eSurfing“ paskyros patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Unicom“ patvirtinimo paslaugų teikimo nuostatomis sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Mobile“ patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Perskaičiau ir sutinku su &lt;a href=%1$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>Privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>Privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„eSurfing“ paskyros patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Unicom“ patvirtinimo paslaugų teikimo nuostatomis sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Jei pirmą kartą naudojate savo telefono numerį, paskyrą sukursime automatiškai.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Mobile“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„eSurfing“ paskyros patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Unicom“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Mobile“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„eSurfing“ paskyros patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Unicom“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Keisti profilio nuotrauką</string>
     <string name="passport_user_avatar_uploading">Sekundėlę…</string>
     <string name="passport_user_id_hint">El. paštas/Tel. numeris/„Xiaomi“ paskyros ID</string>
@@ -2027,6 +2080,12 @@ nuotraukų efektai"</string>
     <string name="pic_to_pdf_update_dialog_content">Atnaujinkite „Mi Doc Viewer“ į naujausią versiją, kad galėtumėte generuoti PDF failus. Naujinti dabar?</string>
     <string name="pic_to_pdf_update_dialog_positive">Naujinti</string>
     <string name="pic_to_pdf_update_dialog_title">Atnaujinti „Mi Doc Viewer“</string>
+    <string name="pic_widget_editor_text_position_bottom">Pavadinimas pasirodo apačioje</string>
+    <string name="pic_widget_editor_text_position_left_bottom">Pavadinimas pasirodo apatiniame kairiajame kampe</string>
+    <string name="pic_widget_editor_text_position_left_top">Pavadinimas pasirodo viršutiniame kairiajame kampe</string>
+    <string name="pic_widget_editor_text_position_right_bottom">Pavadinimas pasirodo apatiniame dešiniajame kampe</string>
+    <string name="pic_widget_editor_text_position_right_top">Pavadinimas pasirodo viršutiniame dešiniajame kampe</string>
+    <string name="pic_widget_editor_text_position_top">Pavadinimas pasirodo viršuje</string>
     <string name="pick_from_contact">Pasirinkti iš kontaktų</string>
     <string name="pick_people_cover_fail">Įvyko klaida. Bandykite dar kartą.</string>
     <string name="pick_people_cover_page_title">Pasirinkite viršelio nuotrauką</string>
@@ -2143,6 +2202,7 @@ nuotraukų efektai"</string>
     <string name="qr_invite_title">QR pakvietimo kodas</string>
     <string name="quarterly_pets_title">Pūkuotieji kompanionai</string>
     <string name="quotation">\"%s\"</string>
+    <string name="ratio">%1$d%%</string>
     <string name="realme">„realme“</string>
     <string name="realme_phone">„realme“</string>
     <string name="recent_album_empty_title">Pastaruoju metu nebuvo pridėta naujų nuotraukų</string>
@@ -2272,7 +2332,7 @@ nuotraukų efektai"</string>
     <string name="scan_qr_code">Nuskaityti QR kodą</string>
     <string name="scan_qr_code_buttom_text">Norėdami peržiūrėti šį albumą, nuskaitykite QR kodą</string>
     <string name="scan_qr_to_accept_invitation">Nuskaitykite QR kodą, kad priimtumėte pakvietimą</string>
-    <string name="scanning_device_tips">&lt;Data>Ieškoma netoliese esamų įrenginių. Kitas asmuo Valdymo centre turi įjungti „Xiaomi Share“. &lt;a>Sužinokite daugiau&lt;/a>&lt;/Data></string>
+    <string name="scanning_device_tips"><Data>Ieškoma netoliese esamų įrenginių. Kitas asmuo Valdymo centre turi įjungti „Xiaomi Share“. &lt;a>Sužinokite daugiau&lt;/a></Data></string>
     <string name="scene_tag_name_abdominal_wheel">Pilvo preso treniruoklis</string>
     <string name="scene_tag_name_acura_logo">„Acura“ logotipas</string>
     <string name="scene_tag_name_adidas_clover_logo">„Adidas Originals“ logotipas</string>
@@ -2859,6 +2919,7 @@ nuotraukų efektai"</string>
     <string name="security_share_subtitle_no_hide">Apima vietos informaciją</string>
     <string name="see_ignore_faces">Peržiūrėti jūsų ignoruojamus asmenis</string>
     <string name="see_more_settings">Papildomi parametrai</string>
+    <string name="seeking_progress_bar_talkback">Nušokta į: %1$s %2$s %3$s</string>
     <string name="segment_change_background">Keisti foną</string>
     <string name="segment_copy">Kopijuoti</string>
     <string name="segment_copy_fail">Nepavyko nukopijuoti</string>
@@ -2896,6 +2957,9 @@ nuotraukų efektai"</string>
     <string name="send_one_zip_dialog_desc">%2$d ZIP failų „%3$s“ iš %1$s</string>
     <string name="send_one_zip_dialog_desc_received">Gauta %2$d ZIP failų „%3$s“ iš %1$s</string>
     <string name="send_one_zip_dialog_desc_receiving">Gaunama %2$d ZIP failų „%3$s“ iš %1$s</string>
+    <string name="send_photographic_competition_tip_confirm">Pateikti</string>
+    <string name="send_photographic_competition_tip_content">Šios nuotraukos patiekimui reikalingi paveikslėlio metaduomenys, įskaitant įrenginio modelį ir fotoaparato parametrus. Pateikti dabar?</string>
+    <string name="send_photographic_competition_tip_title">Dėmesio</string>
     <string name="send_public_url">Siųsti albumo URL</string>
     <string name="send_secret_file_failed">Nepavyko pasidalinti</string>
     <string name="send_secret_file_space_low">Nepakanka vietos talpykloje</string>
@@ -3011,6 +3075,8 @@ nuotraukų efektai"</string>
     <string name="share_and_delete_screenshot">Trinti po bendrinimo</string>
     <string name="share_by_email_start">Dalintis %1$s fone</string>
     <string name="share_by_email_successfully">Pasidalinta %1$s</string>
+    <string name="share_device_near_share">Bendrinkite, kai esate netoliese</string>
+    <string name="share_device_near_share_image_describe">Priartinkite dviejų įrenginių NFC sritis, kad pradėtumėte bendrinti</string>
     <string name="share_from">Iš %1$s</string>
     <string name="share_public_url_text">Bendrinu %1$s albumą. Jį peržiūrėti galite %2$s</string>
     <string name="share_with_family">Dalintis su šeima</string>
@@ -3193,6 +3259,11 @@ Iki %1$s galite perkelti elementus į „Google Photos“ arba apsilankyti i.mi.
     <string name="talkback_image_with_time">Nuotrauka, %s</string>
     <string name="talkback_image_with_time_and_location">Nuotrauka, %1$s, %2$s</string>
     <string name="talkback_input_search_hint">Paieškos laukelis. Norėdami ieškoti, įveskite raktažodžius.</string>
+    <string name="talkback_people_and_group_album_name">Albumo pavadinimas: %1$s</string>
+    <string name="talkback_people_and_group_album_playicon_group">Leisti albumą su šios grupės nuotraukomis</string>
+    <string name="talkback_people_and_group_album_playicon_journey">Leisti šios kelionės albumą</string>
+    <string name="talkback_people_and_group_album_playicon_people">Leisti albumą su šio žmogaus nuotraukomis</string>
+    <string name="talkback_people_and_group_album_relation">Santykiai: %1$s</string>
     <string name="talkback_portrait_with_time">Portretas, %s</string>
     <string name="talkback_portrait_with_time_and_location">Portretas, %1$s, %2$s</string>
     <string name="talkback_screenshot_with_time">Ekranvaizdis, %s</string>

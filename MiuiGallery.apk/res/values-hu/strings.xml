@@ -36,6 +36,9 @@
     <string name="acc_seconds">Másodperc</string>
     <string name="accept">Elfogadás</string>
     <string name="accept_or_deny">%1$s megosztotta %2$s albumát Önnel.</string>
+    <string name="accessibility_sliding_button_state_description_off">Kikapcsolva</string>
+    <string name="accessibility_sliding_button_state_description_on">Bekapcsolva</string>
+    <string name="accessibility_tab_state_description_unselect">Nem kiválaszott</string>
     <string name="actionbar_button_up_description">Vissza</string>
     <string name="actionbar_overflow_item_desc">További lehetőségek</string>
     <string name="add_automatically_alert_msg">Hozzáadja \"%1$s\" fényképeit automatikusan ehhez az albumhoz?</string>
@@ -249,6 +252,10 @@ A legjobb felvételek automatikusan lesznek kiválasztva. Kézzel is hozzáadhat
     <string name="album_creative">Kreativitás</string>
     <string name="album_detail_default_sort_tip">Váltás időrendi sorrendre</string>
     <string name="album_detail_page_empty">Nincs fénykép vagy videó</string>
+    <string name="album_detail_sort_menu_asc">Dupla koppintással rendezze növekvő sorrendbe</string>
+    <string name="album_detail_sort_menu_checked">Kiválasztott</string>
+    <string name="album_detail_sort_menu_desc">Dupla koppintással rendezze csökkenő sorrendbe</string>
+    <string name="album_detail_sort_menu_unchecked">Nem kiválaszott</string>
     <string name="album_download">Letöltések</string>
     <string name="album_faces_name">Személyek</string>
     <string name="album_favorites_name">Kedvencek</string>
@@ -507,9 +514,9 @@ Csatlakoztassa a töltőt, és kapcsolja ki a képernyőt az emlékek megjelení
     <string name="blur_refocus_enter">Bokeh</string>
     <string name="bottomsheet_action_collapse">Az alsó lap összecsukása</string>
     <string name="bottomsheet_action_expand">Az alsó lap kibontása</string>
-    <string name="bottomsheet_action_expand_halfway">Kibontás félig</string>
-    <string name="bottomsheet_drag_handle_clicked">Duplán koppintott a csúszkára</string>
-    <string name="bottomsheet_drag_handle_content_description">Csúszka</string>
+    <string name="bottomsheet_action_expand_halfway">Kiterjesztés félig</string>
+    <string name="bottomsheet_drag_handle_clicked">Húzófogantyú duplán lenyomva</string>
+    <string name="bottomsheet_drag_handle_content_description">Húzófogantyú</string>
     <string name="browse_category_title">Böngésző</string>
     <string name="btn_cancel">Mégse</string>
     <string name="btn_cancel_send">Átvitel visszavonása</string>
@@ -710,13 +717,13 @@ Csatlakoztassa a töltőt, és kapcsolja ki a képernyőt az emlékek megjelení
     <string name="confirm_hidden_recommend_group_title">Ne jelenítse meg az ajánlásokat</string>
     <string name="confirm_hide_selected_albums">Elrejti a kiválasztott albumokat?</string>
     <string name="confirm_merge_album_title">Elemek összevonása</string>
-    <string name="confirm_merge_face_albums">&lt;Data> Összekapcsolja az albumot vele: %s? &lt;/Data></string>
-    <string name="confirm_merge_many_face_albums">&lt;Data> Összekapcsolja ezeket az albumokat vele: %s? &lt;/Data></string>
+    <string name="confirm_merge_face_albums">" "<Data> Összekapcsolja az albumot vele: %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Összekapcsolja ezeket az albumokat vele: %s? </Data>" "</string>
     <string name="confirm_not_face">Nincs találat</string>
-    <string name="confirm_recommandation_face_is">" &lt;Data> Biztos, hogy ő &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ez a személy áthelyezésre erkül a(z) \"%2$s\" albumba. &lt;/Data> "</string>
-    <string name="confirm_recommandation_face_not">"&lt;Data> Biztos, hogy ő nem &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" &lt;Data> Biztos, hogy ők &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ezek az személyek áthelyezésre kerülnek a(z) \"%2$s\" albumba. &lt;/Data> "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" &lt;Data> Biztos, hogy ők nem &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data> "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Biztos, hogy ő &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ez a személy áthelyezésre erkül a(z) \"%2$s\" albumba. </Data>" "</string>
+    <string name="confirm_recommandation_face_not"><Data> Biztos, hogy ő nem &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Biztos, hogy ők &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ezek az személyek áthelyezésre kerülnek a(z) \"%2$s\" albumba. </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Biztos, hogy ők nem &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Névjegy</string>
     <string name="context_menu_add_contact">Hozzáadás a névjegyekhez</string>
     <string name="context_menu_copy">Másolás</string>
@@ -794,7 +801,17 @@ Csatlakoztassa a töltőt, és kapcsolja ki a képernyőt az emlékek megjelení
     <string name="delete_third_party_photo">Törli ezt a fényképet?</string>
     <string name="delete_third_party_video">Törli ezt a videót?</string>
     <string name="deny">Elutasítás</string>
+    <string name="desc_gallery_widget_editor_font_color_black">Fekete</string>
+    <string name="desc_gallery_widget_editor_font_color_blue">Kék</string>
+    <string name="desc_gallery_widget_editor_font_color_gray">Szürke</string>
+    <string name="desc_gallery_widget_editor_font_color_light_blue">Világoskék</string>
+    <string name="desc_gallery_widget_editor_font_color_light_green">Világoszöld</string>
     <string name="desc_gallery_widget_editor_font_color_list">Betűszín</string>
+    <string name="desc_gallery_widget_editor_font_color_orange">Narancssárga</string>
+    <string name="desc_gallery_widget_editor_font_color_purple">Lila</string>
+    <string name="desc_gallery_widget_editor_font_color_red">Piros</string>
+    <string name="desc_gallery_widget_editor_font_color_white">Fehér</string>
+    <string name="desc_gallery_widget_editor_font_color_yellow">Sárga</string>
     <string name="desc_gallery_widget_editor_font_type_list">Betűtípus</string>
     <string name="desc_gallery_widget_editor_selected_photo_list">Kiválasztott képek</string>
     <string name="desc_gallery_widget_editor_text_position_list">Elrendezés</string>
@@ -1120,6 +1137,7 @@ Készítsen több fotót a barátairól!"</string>
     <string name="foods_travel_title_one">%1$s ízei</string>
     <string name="foods_travel_title_three">Egy gourmet kalandjai itt: %1$s</string>
     <string name="foods_travel_title_two">%1$s ételek</string>
+    <string name="frame_current_position_talkback">%1$s %2$s %3$s</string>
     <string name="free_view_desc">3D nézet</string>
     <string name="friday">Péntek</string>
     <string name="friday_short">Pén</string>
@@ -1132,6 +1150,8 @@ Készítsen több fotót a barátairól!"</string>
     <string name="gallery_sync_disable_toast">Galéria szinkronizálása kikapcsolva</string>
     <string name="gallery_uninstall_description_content">A Galéria olyan rendszeralkalmazás, amely lehetővé teszi a fényképek és videók megtekintését, kezelését és szinkronizálását az összes csatlakoztatott készüléken. Ha eltávolítja a Galéria alkalmazást, elveszíti a priváttá tett elemeket, és a Galéria elemek megtekintésével és kiválasztásával kapcsolatos egyéb funkciók sem lesznek többé elérhetők. Mindenképpen eltávolítja?</string>
     <string name="gallery_uninstall_description_title">Eltávolítja a Galériát?</string>
+    <string name="gallery_widget_editor_generate_random_text">Véletlenszerű szövegalkotás</string>
+    <string name="gallery_widget_editor_widget_add_image">Kép hozzáadása</string>
     <string name="gallery_widget_editor_widget_text_form_label">Szöveg</string>
     <string name="gallery_widget_editor_widget_text_form_placeholder">Írja be a szöveget</string>
     <string name="generate_story_summary">Készítsen elegendő fényképet, csatlakoztassa a töltőt, és kapcsolja ki a képernyőt emlékek megjelenítéséhez. A már létrehozott emlékek nem tűnnek el, ha kikapcsolja ezt a funkciót.</string>
@@ -1211,6 +1231,7 @@ Készítsen több fotót a barátairól!"</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="help">Nem találhatók eszközök?</string>
     <string name="hidden_album_display_name">Rejtett album</string>
+    <string name="hide">Elrejtés</string>
     <string name="hide_nearby_photos">Közelben lévő fényképek és videók elrejtése</string>
     <string name="hisense">Hisense</string>
     <string name="hisense_phone">Hisense</string>
@@ -1348,6 +1369,7 @@ Készítsen több fotót a barátairól!"</string>
     <string name="keyboard_shortcut_paste">Beillesztés</string>
     <string name="keyboard_shortcut_search">Keresés</string>
     <string name="keyboard_shortcut_select_all">Összes kijelölése</string>
+    <string name="keyboard_shortcut_tile">Váltás az összes elemre</string>
     <string name="keyboard_shortcut_year">Éves nézet</string>
     <string name="kick_owner_user_positive_button_text">Eltávolítás</string>
     <string name="kick_owner_user_title">Eltávolítja ezt a személyt?</string>
@@ -1428,6 +1450,7 @@ Készítsen több fotót a barátairól!"</string>
     <string name="map_album_detail_page_title">Tartózkodási hely</string>
     <string name="map_enable_position_service_message">A fényképek és videók térképen való megjelenítéséhez először kapcsolja be a helymeghatározó szolgáltatásokat.</string>
     <string name="map_enable_position_service_title">Helymeghatározó szolgáltatás bekapcsolása</string>
+    <string name="map_gallery">Galéria térkép</string>
     <string name="map_grant_position_permission_after_declined_twice_message">A fényképek és videók térképen történő megtekintéséhez először engedélyezze a Galéria számára, hogy hozzáférjen a tartózkodási helyéhez.</string>
     <string name="map_grant_position_permission_subtitle">A közelben lévő fényképek és videók megjelenítése a térképen</string>
     <string name="map_guide_message">Fotók és videók megtekintése a térképen</string>
@@ -1524,6 +1547,12 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="miplay_volume_btn">Hangerő</string>
     <string name="mishare_all_devices">Összes készülék</string>
     <string name="miuix_access_state_desc">Kiválasztott</string>
+    <string name="miuix_accessibility_title">Cím</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Összecsukott</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Kibontott</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Kilépés a szerkesztő módból</string>
+    <string name="miuix_appcompat_accessibility_new_message">Új értesítés</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Nyissa meg a szerkesztési módot</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
     <string name="miuix_appcompat_action_mode_title_empty">Kiválasztás</string>
@@ -1539,12 +1568,27 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="miuix_appcompat_select_all">Az összes kiválasztása</string>
     <string name="miuix_appcompat_select_all_description">Összes kijelölése</string>
     <string name="miuix_appcompat_select_item">Elemek kiválasztása</string>
+    <string name="miuix_appcompat_show_dialog_description">Felugró ablak</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Bezáráshoz csúsztasson lefelé</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Fél képernyőre váltáshoz csúsztasson lefelé</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Minimalizáláshoz csúsztasson lefelé</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Fél képernyőre váltáshoz csúsztasson felfelé</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Maximalizáláshoz csúsztasson felfelé</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Fél képernyő</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximális</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimális</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Váltás fél képernyőre</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizálás</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizálás</string>
     <string name="miuix_item_view_role_description">Lap</string>
     <string name="miuix_navigator_category_group_collapse">Összecsukás</string>
     <string name="miuix_navigator_category_group_expand">Kinyitás</string>
     <string name="miuix_navigator_content_switch_description">Oldalsáv megjelenítése</string>
     <string name="miuix_navigator_multiple_choice">Kiválaszt</string>
     <string name="miuix_navigator_navigator_switch_description">Oldalsáv elrejtése</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Eszköztár a képernyő alján</string>
+    <string name="miuix_popup_window_default_title">Felugró ablak</string>
+    <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sikeresen frissítve</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Frissítés…</string>
@@ -1553,6 +1597,9 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Egyelőre ennyi</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Egy pillanat...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemek betöltése sikertelen</string>
+    <string name="miuix_show_password">Jelszó megjelenítése</string>
+    <string name="miuix_stretchablewidget_collapsed">Összecsukott</string>
+    <string name="miuix_stretchablewidget_expanded">Kibontott</string>
     <string name="monday">Hétfő</string>
     <string name="monday_short">Hét</string>
     <string name="monday_shortest">Hét</string>
@@ -1767,6 +1814,7 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="operation_unhide">Elrejtés visszavonása</string>
     <string name="operation_upgrade_gallery">Frissítés</string>
     <string name="operation_video_compress">Videó tömörítése</string>
+    <string name="operation_video_to_live">Élő fotóvá alakítás</string>
     <string name="operation_watermark">Védő vízjel</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
@@ -1781,6 +1829,7 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="other_settings">További beállítások</string>
     <string name="owner_album_subtitle">Megosztva %1$s felhasználóval</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
+    <string name="pasport_register_dialog_message">Létrehoz egy Xiaomi Fiókot a telefonszámával %s most?</string>
     <string name="passport_access_denied">Hozzáférés megtagadva</string>
     <string name="passport_account_crop_user_avatar">Kép vágása</string>
     <string name="passport_account_empty_user_name">Adja meg a nevét</string>
@@ -1797,7 +1846,7 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="passport_account_secure_info_pref_title">Fiókadatok</string>
     <string name="passport_account_security_info_pref_title">Biztonsági információk</string>
     <string name="passport_account_user_avatar">Profilkép</string>
-    <string name="passport_account_user_avatar_from_album">Galéria</string>
+    <string name="passport_account_user_avatar_from_album">Kiválasztás Galériából</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Alapvető információk</string>
     <string name="passport_account_user_details">Személyes adatok</string>
@@ -1869,7 +1918,6 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="passport_login_register_by_local_phone_long_text">Fiók létrehozása</string>
     <string name="passport_login_with_sns">Más bejelentkezési módok</string>
     <string name="passport_logout_account">Kijelentkezés</string>
-    <string name="passport_mi_account_first_title">Automatikusan létrehozunk egy fiókot, ha először használja a telefonszámát.</string>
     <string name="passport_mi_account_title">Bejelentkezés Xiaomi Fiókkal</string>
     <string name="passport_network_error">Hálózati hiba történt. Ellenőrizze a hálózati beállításait és próbálja újra.</string>
     <string name="passport_network_error_hint">Ellenőrizze az URL-t, és próbálja meg újra, vagy másolja ki az URL-t, és nyissa meg a böngészőben.</string>
@@ -1878,6 +1926,7 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="passport_no_account">Nincs bejelentkezve</string>
     <string name="passport_open_settings">Beállítások</string>
     <string name="passport_page_load_failed">Az oldal nem nyitható meg</string>
+    <string name="passport_password_hide_show">Jelszó elrejtése</string>
     <string name="passport_password_login_btn">Bejelentkezés</string>
     <string name="passport_password_not_show">Ne mutassa a jelszót</string>
     <string name="passport_password_show">Jelszó megjelenítése</string>
@@ -1889,6 +1938,8 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="passport_reging">Fiók létrehozása…</string>
     <string name="passport_register_by_local_phone_long_text">Fiók létrehozása</string>
     <string name="passport_register_by_local_phone_short_text">Fiók létrehozása</string>
+    <string name="passport_register_dialog_positive">Létrehozás</string>
+    <string name="passport_register_dialog_title">Xiaomi Fiók létrehozása</string>
     <string name="passport_register_restricted">Túl sok fiók van hozzárendelve ehhez a számhoz. Próbáljon egy másikat.</string>
     <string name="passport_relogin_notice">Újra be kell jelentkeznie</string>
     <string name="passport_request_agree">Engedélyezés</string>
@@ -1897,7 +1948,8 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="passport_request_error_invalid_token">Nem lehet hitelesíteni</string>
     <string name="passport_request_error_network">Hálózati hiba történt. Ellenőrizze a hálózati beállításait és próbálja újra.</string>
     <string name="passport_request_error_unknown">Rendszerhiba történt. Lépjen vissza és próbálja újra.</string>
-    <string name="passport_request_gallery_permission_message">Hozzáférés biztosítása a Galériához:&lt;br />Profilkép beállításához</string>
+    <string name="passport_request_gallery_permission_message">Ennek az alkalmazásnak hozzá kell férnie a kiválasztott Galéria elemekhez, hogy beállíthassa a profilképét. Engedélyezi most?</string>
+    <string name="passport_request_permission_title">Engedélyek szükségesek</string>
     <string name="passport_resend_ticket">Kód újraküldése</string>
     <string name="passport_retry">Próbálja újra</string>
     <string name="passport_send_sms_to">Kód elküldve %1$s címre</string>
@@ -1911,21 +1963,22 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="passport_talkback_switch_image_captcha">Váltás képkódos ellenőrzésre</string>
     <string name="passport_talkback_switch_voice_captcha">Váltás hangkódos ellenőrzésre</string>
     <string name="passport_talkback_voice_captcha">Az ellenőrző hangkód lejátszása</string>
+    <string name="passport_third_sns_service_unavailable">A szolgáltatás nem elérhető. Ellenőrizze, hogy az alkalmazás telepítve van, és nincs letiltva.</string>
     <string name="passport_ticket_send_by_second">Küldés %d múlva</string>
     <string name="passport_to_forget_password">Elfelejtette a jelszavát?</string>
     <string name="passport_to_password_login">Bejelentkezés jelszó használatával</string>
     <string name="passport_to_verify_code_login">Bejelentkezés SMS segítségével</string>
     <string name="passport_unknown_error">Ismeretlen hiba</string>
     <string name="passport_unknown_host_network_error">Ellenőrizze a hálózati beállításokat és próbálja újra</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%5$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%5$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%5$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%5$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%5$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%5$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Amikor először használja a telefonszámát, automatikusan létrehozunk egy fiókot.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%3$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%3$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Profilkép módosítása</string>
     <string name="passport_user_avatar_uploading">Egy pillanat…</string>
     <string name="passport_user_id_hint">E-mail/Telefonszám/Xiaomi Fiók azonosító</string>
@@ -2027,6 +2080,12 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="pic_to_pdf_update_dialog_content">PDF-eket létrehozásához frissítse a Mi Dokumentumnézegetőt a legújabb verzióra. Frissíti most?</string>
     <string name="pic_to_pdf_update_dialog_positive">Frissítés</string>
     <string name="pic_to_pdf_update_dialog_title">Mi Dokumentumnézegető frissítése</string>
+    <string name="pic_widget_editor_text_position_bottom">A cím alul jelenik meg</string>
+    <string name="pic_widget_editor_text_position_left_bottom">A cím a bal alsó sarokban jelenik meg</string>
+    <string name="pic_widget_editor_text_position_left_top">A cím a bal felső sarokban jelenik meg</string>
+    <string name="pic_widget_editor_text_position_right_bottom">A cím a jobb alsó sarokban jelenik meg</string>
+    <string name="pic_widget_editor_text_position_right_top">A cím a jobb felső sarokban jelenik meg</string>
+    <string name="pic_widget_editor_text_position_top">A cím felül jelenik meg</string>
     <string name="pick_from_contact">Választás a névjegyek közül</string>
     <string name="pick_people_cover_fail">Hiba történt. Próbálja újra!</string>
     <string name="pick_people_cover_page_title">Válasszon borítóképet</string>
@@ -2143,6 +2202,7 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="qr_invite_title">QR-kód meghívó</string>
     <string name="quarterly_pets_title">Bolyhos társak</string>
     <string name="quotation">%s</string>
+    <string name="ratio">%1$d%%</string>
     <string name="realme">realme</string>
     <string name="realme_phone">realme</string>
     <string name="recent_album_empty_title">Nincs nemrég hozzáadott új fénykép</string>
@@ -2272,7 +2332,7 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="scan_qr_code">QR-kód beolvasása</string>
     <string name="scan_qr_code_buttom_text">QR-kód beolvasása az album megtekintéséhez</string>
     <string name="scan_qr_to_accept_invitation">QR-kód beolvasása a meghívó elfogadásához</string>
-    <string name="scanning_device_tips">&lt;Data>Közeli készülékek keresése folyamatban. A másik személynek be kell kapcsolnia a Xiaomi Megosztást az Irányítóközpontban. &lt;a>További információ&lt;/a>&lt;/Data></string>
+    <string name="scanning_device_tips"><Data>Közeli készülékek keresése folyamatban. A másik személynek be kell kapcsolnia a Xiaomi Megosztást az Irányítóközpontban. &lt;a>További információ&lt;/a></Data></string>
     <string name="scene_tag_name_abdominal_wheel">Haskerék</string>
     <string name="scene_tag_name_acura_logo">Acura-logó</string>
     <string name="scene_tag_name_adidas_clover_logo">Adidas Originals-logó</string>
@@ -2859,6 +2919,7 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="security_share_subtitle_no_hide">Tartalmazza a helyadatokat</string>
     <string name="see_ignore_faces">A már figyelmen kívül hagyottak megtekintése</string>
     <string name="see_more_settings">További beállítások</string>
+    <string name="seeking_progress_bar_talkback">Átugrott ide: %1$s %2$s %3$s</string>
     <string name="segment_change_background">Háttér módosítása</string>
     <string name="segment_copy">Másolás</string>
     <string name="segment_copy_fail">Nem másolható</string>
@@ -2896,6 +2957,9 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="send_one_zip_dialog_desc">%2$d ZIP file \"%3$s\" %1$s készülékről</string>
     <string name="send_one_zip_dialog_desc_received">Received %2$d ZIP-fájl \"%3$s\" fogadása %1$s készülékről</string>
     <string name="send_one_zip_dialog_desc_receiving">%2$d ZIP-fájl \"%3$s\" fogadása %1$s készülékről</string>
+    <string name="send_photographic_competition_tip_confirm">Beküldés</string>
+    <string name="send_photographic_competition_tip_content">A fénykép beküldéséhez a kép metaadataira van szükség, beleértve a készülék modelljét és a kamera paramétereit. Beküldi most?</string>
+    <string name="send_photographic_competition_tip_title">Figyelem</string>
     <string name="send_public_url">Album URL-jének küldése</string>
     <string name="send_secret_file_failed">Megosztás sikertelen</string>
     <string name="send_secret_file_space_low">Nincs elég tárhely</string>
@@ -3011,6 +3075,8 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="share_and_delete_screenshot">Megosztás után törlés</string>
     <string name="share_by_email_start">%1$s megosztása a háttérben</string>
     <string name="share_by_email_successfully">%1$s megosztva</string>
+    <string name="share_device_near_share">Ossza meg, ha a közelben van</string>
+    <string name="share_device_near_share_image_describe">A megosztáshoz helyezze közel egymáshoz a két készülék NFC-területét.</string>
     <string name="share_from">Feladó: %1$s</string>
     <string name="share_public_url_text">Megosztottam veled a(z) %1$s albumot. Itt tekintheted meg: %2$s</string>
     <string name="share_with_family">Megosztás a családdal</string>
@@ -3193,6 +3259,11 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="talkback_image_with_time">Fénykép, %s</string>
     <string name="talkback_image_with_time_and_location">Fénykép, %1$s, %2$s</string>
     <string name="talkback_input_search_hint">Keresősáv. Adjon meg kulcsszavakat a kereséshez.</string>
+    <string name="talkback_people_and_group_album_name">Album neve: %1$s</string>
+    <string name="talkback_people_and_group_album_playicon_group">Album lejátszása ezzel a csoporttal</string>
+    <string name="talkback_people_and_group_album_playicon_journey">Az utazás albumának lejátszása</string>
+    <string name="talkback_people_and_group_album_playicon_people">Album lejátszása ezzel a személlyel</string>
+    <string name="talkback_people_and_group_album_relation">Kapcsolat: %1$s</string>
     <string name="talkback_portrait_with_time">Portré, %s</string>
     <string name="talkback_portrait_with_time_and_location">Portré, %1$s, %2$s</string>
     <string name="talkback_screenshot_with_time">Képernyőkép, %s</string>
