@@ -29,9 +29,12 @@
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
     <string name="abort_backup_confirm">A mentés még nem fejeződött be. Mégis leállítja?</string>
     <string name="abort_restore_confirm">A visszaállítás még nem fejeződött be. Mégis leállítja?</string>
-    <string name="account_contact_backup_info">Google-fiók, Mi Fiók és Névjegyek adatai</string>
+    <string name="accessibility_sliding_button_state_description_off">Kikapcsolva</string>
+    <string name="accessibility_sliding_button_state_description_on">Bekapcsolva</string>
+    <string name="accessibility_tab_state_description_unselect">Nem kiválaszott</string>
+    <string name="account_contact_backup_info">Google-fiók, Xiaomi Fiók és Névjegyek adatai</string>
     <string name="account_login">Belépés</string>
-    <string name="account_summary">Mi Fiók, Google-fiók és más felhasználói adatok mentése</string>
+    <string name="account_summary">Xiaomi Fiók, Google-fiók és más felhasználói adatok mentése</string>
     <string name="actionbar_button_up_description">Vissza</string>
     <string name="afternoon">Délután</string>
     <string name="agree_button">Elfogadom</string>
@@ -77,11 +80,13 @@
     <string name="backup_failed">A mentés sikertelen</string>
     <string name="backup_file_error">Hiba a biztonsági mentésben, a művelet érvénytelen.</string>
     <string name="backup_finished">A mentés befejeződött</string>
-    <string name="backup_for_broken_screen">Backups with damaged screen</string>
+    <string name="backup_for_broken_screen">Biztonsági mentés sérült képernyő esetén</string>
     <string name="backup_hint">Ne kapcsolja ki, mert hiba léphet fel!</string>
     <string name="backup_hint_onpad">Hagyja a készüléket bekapcsolva</string>
     <string name="backup_hint_pad">Hagyja bekapcsolva az eszközt</string>
     <string name="backup_is_running">Készülék biztonsági mentése</string>
+    <string name="backup_item_collapsed">Összecsukott</string>
+    <string name="backup_item_expanded">Kibontott</string>
     <string name="backup_new">Új mentés</string>
     <string name="backup_notice_content">A mentések nem lesznek titkosítva, tehát azokhoz harmadik fél alkalmazásai hozzáférhetnek, vagy manipulálhatják azokat. Emellett egyéb biztonsági kockázatok is felmerülhetnek. Ellenőrizze, hogy a mentéseket megfelelően védett környezetben tárolja.</string>
     <string name="backup_notice_title">Figyelem</string>
@@ -134,6 +139,8 @@
     <string name="cancel_moving_dialog_message">Megszakítja az importálást?</string>
     <string name="cancel_moving_dialog_title">Importálás leállítása</string>
     <string name="cancel_restore">Megszakítás</string>
+    <string name="cannot_use_backup_summary">A Mi Átköltözés már átvisz elemeket. Várjon, amíg az aktuális átvitel befejeződik, és indítsa el újra a biztonsági mentést.</string>
+    <string name="cannot_use_backup_title">Biztonsági mentés nem lehetséges</string>
     <string name="category_contacts">Névjegyek</string>
     <string name="category_message_contacts">Üzenetek és Névjegyek</string>
     <string name="check_privacy_policy">Adatvédelmi irányelv megtekintése</string>
@@ -146,14 +153,11 @@
 Miután létrehozott egy új biztonsági kérdést és megerősítette a születési dátumát, a kétlépcsős ellenőrzés automatikusan kikapcsolódik. Ha az Apple fiókjának weboldalán nem lát lehetőséget a kétlépcsős ellenőrzés kikapcsolására, akkor nem kapcsolhatja ki."</string>
     <string name="close_twice_auth_operation">"A bezáráshoz látogasson el a 
 https://appleid.apple.com/#!&amp;page=signin weboldalra"</string>
-    <string name="close_twice_auth_step_1">1. Nyissa meg az appleid.apple.com weboldalt bármely böngészővel, bármilyen számítógépen.</string>
-    <string name="close_twice_auth_step_2">2. Lépjen be az Apple azonosítójával, menjen a beállítások \"Biztonság\" részébe és válassza a szerkesztést, ha ki szeretné kapcsolni.</string>
-    <string name="close_twice_auth_step_3">3. Kattintson a \"Kétlépcsős ellenőrzés kikapcsolása\" gombra. Majd hagyja jóvá.</string>
     <string name="close_twice_auth_steps">Kövesse az utasításokat, hogy hogyan kapcsolhatja ki az Apple azonosító kétlépcsős ellenőrzését:</string>
     <string name="close_twice_auth_tutor">Kapcsolja ki az Apple azonosító kétlépcsős ellenőrzését</string>
     <string name="cloud_app_name">Xiaomi Cloud-mentés</string>
     <string name="cloud_backup_hint">Jelentkezzen be a biztonsági mentés eléréséhez</string>
-    <string name="cloud_backup_login">Jelentkezzen be a Mi Fiókba</string>
+    <string name="cloud_backup_login">Jelentkezzen be Xiaomi Fiókjába</string>
     <string name="cloud_backup_window_title">Xiaomi Cloud-mentések</string>
     <string name="cloud_home_title">Xiaomi Cloud</string>
     <string name="cloud_item_info_summary">" (Local: %1$s | Xiaomi Cloud: %2$s)"</string>
@@ -164,7 +168,7 @@ https://appleid.apple.com/#!&amp;page=signin weboldalra"</string>
     <string name="cloud_restore_window_title">Visszaállítás a Xiaomi Cloudból</string>
     <string name="cloud_search">Online keresés…</string>
     <string name="comma_seperator">", "</string>
-    <string name="compute_backup_info">Mentés adatainak lekérdezése</string>
+    <string name="compute_backup_info">Mentés adatainak lekérdezése…</string>
     <string name="compute_delete_contact_info">Névjegyek keresése…</string>
     <string name="confirm_exit_link">Kilépés</string>
     <string name="confirm_exit_link_cancel">Ne lépjen ki</string>
@@ -182,7 +186,7 @@ https://appleid.apple.com/#!&amp;page=signin weboldalra"</string>
     <string name="data_detail_description">Részletek</string>
     <string name="data_item_desc">Adatok</string>
     <string name="data_no_enough_space_message">Nincs elég szabad tárhely a készülékén.</string>
-    <string name="date_format">yyyy.MM.dd. HH:mm:ss</string>
+    <string name="date_format">yyyy. MM. dd. HH:mm:ss</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -216,8 +220,8 @@ https://appleid.apple.com/#!&amp;page=signin weboldalra"</string>
     <string name="enable_encrypt_description">Titkosítás</string>
     <string name="enable_encrypt_fail">Titkosítási hiba</string>
     <string name="enable_encrypt_indicator">Érintse meg a titkosításhoz</string>
-    <string name="enable_encrypt_summery1">Lépjen be Mi Fiókjába, hogy elérje a titkosított mentéseket.</string>
-    <string name="enable_encrypt_summery2">Az Ön mentése automatikusan titkosítva lesz. Ahhoz, hogy elérje, be kell jelentkeznie a Mi Fiókjába.</string>
+    <string name="enable_encrypt_summery1">Lépjen be Xiaomi Fiókjába, hogy elérje a titkosított mentéseket.</string>
+    <string name="enable_encrypt_summery2">Az Ön mentése automatikusan titkosítva lesz. Ahhoz, hogy elérje, be kell jelentkeznie a Xiaomi Fiókjába.</string>
     <string name="enable_encrypt_title">Titkosítás engedélyezése</string>
     <string name="enable_local_backup">Helyi biztonsági mentések bekapcsolása</string>
     <string name="enable_local_backup_and_restore">Helyi biztonsági mentések bekapcsolása</string>
@@ -248,7 +252,7 @@ https://appleid.apple.com/#!&amp;page=signin weboldalra"</string>
     <string name="expand_button_title">Speciális</string>
     <string name="fail">Sikertelen</string>
     <string name="failed_description">Meghiúsult</string>
-    <string name="feature_title_account">Mi Fiók</string>
+    <string name="feature_title_account">Xiaomi Fiók</string>
     <string name="feature_title_antispam">Tiltólista</string>
     <string name="feature_title_call_log">Hívásnapló</string>
     <string name="feature_title_contacts">Névjegyek</string>
@@ -260,7 +264,7 @@ https://appleid.apple.com/#!&amp;page=signin weboldalra"</string>
     <string name="findlost_contact">Névjegy keresése</string>
     <string name="findlost_contact_online">Névjegyek visszaállítása a felhőből</string>
     <string name="flash_drive_backup_btn">Mentés az USB-meghajtóra</string>
-    <string name="flash_drive_backup_note">"Mentse az alkalmazásait USB-meghajtóra.
+    <string name="flash_drive_backup_note">"Mentse a tartalmait USB-meghajtóra.
 Mielőtt elkezdené, bizonyosodjon meg róla, hogy van elég hely az USB-n."</string>
     <string name="flash_drive_backup_restore">USB mentések</string>
     <string name="flash_drive_connection_failed">Az USB-meghajtó leválasztva</string>
@@ -336,11 +340,7 @@ Ne változtasson a mentések tartalmán és ne nevezze át őket."</string>
     <string name="hsa_send_again_countdown">Újraküldés (%dmp)</string>
     <string name="hsa_send_failed">Nem sikerült elküldeni az ellenőrző kódot. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="hsa_sending">Küldés…</string>
-    <string name="hsa_tip_message">"1. Ha nem kapja meg az ellenőrzőkódot, győződjön meg róla, hogy már bejelentkezett az iCloud-ba az Apple készülékén.r
-Ha az ellenőrzőkód beírása sem segít, kapcsolja ki a kétlépcsős hitelesítést. "</string>
     <string name="hsa_tip_message_shutdown_hsa">Hogyan kapcsolja ki a kétlépcsős ellenőrzést</string>
-    <string name="hsa_tip_message_with_device">"1. Egy ellenőrző kódot tartalmazó üzenetet küldtünk az Apple azonosítóhoz kötött \"%s\" készülékre.r
-2. Kapcsolja ki a kétlépcsős azonosítást, ha az ellenőrző kód nem működik."</string>
     <string name="hsa_tip_title">Tippek:</string>
     <string name="hsa_title">Kétlépcsős ellenőrzés</string>
     <string name="hsa_verify_failed">Kétlépcsős ellenőrzés meghiúsult</string>
@@ -349,9 +349,6 @@ Ha az ellenőrzőkód beírása sem segít, kapcsolja ki a kétlépcsős hiteles
     <string name="hsa_verify_shutdown">Kikapcsolás</string>
     <string name="iCloud_ID_verification_tip">Érintse meg az \"Engedélyezés\"-t az Apple készüléken, hogy megjelenjen az ellenőrzőkód. Ide írja be az ellenőrzőkódot.</string>
     <string name="icloud_backup_tip">Jelentkezzen be az iCloud fiókjába az iOS rendszerű régi készüléken</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Nyissa meg a Beállításokat az iOS készülékén és válassza az iCloudot.r
-2. Váltsa a kapcsolókat a Névjegyzéknél és más elemeknél.r
-3. Válassza a Fényképeket majd állítsa a kapcsolót az iCloud Fénykép Könyvtárra."</string>
     <string name="icloud_how_to_backup_tip_summary">Adatok importálása előtt az iOS rendszeren készítenie kell egy iCloud mentést.</string>
     <string name="icloud_how_to_backup_tip_title">Tippek:</string>
     <string name="icloud_login_title">Bejelentkezés az iCloudba</string>
@@ -370,10 +367,6 @@ készítenie kell egy iCloud mentést."</string>
     <string name="list_footer_tip_title">Tippek:</string>
     <string name="loading_data">Adatok betöltése</string>
     <string name="local_app_name">Biztonsági mentés</string>
-    <string name="local_back_up_detail_description">"Megjegyzés:
-1. Az adatvesztés és a helyi biztonsági mentések számítógépre való másolásához.
-2. Mindig másolja át a helyi biztonsági mentéseket a számítógépére, mielőtt gyári visszaállítást hajt végre, máskülönben a helyi biztonsági mentések elvesznek.
-3. Hol kerülnek tárolásra a helyi biztonsági mentések? %1$s"</string>
     <string name="local_backup_select_activity">Biztonsági mentés készítése</string>
     <string name="local_backup_window_title">Helyi adatmentés</string>
     <string name="local_button_backup_data">Mentés</string>
@@ -392,10 +385,10 @@ készítenie kell egy iCloud mentést."</string>
     <string name="local_main_backup_manager">Helyi mentések kezelése</string>
     <string name="local_main_backup_manager_title">Mentések kezelése</string>
     <string name="local_main_backup_settings">Helyi biztonsági mentések beállításai</string>
-    <string name="local_main_backup_time">"Utolsó mentés:  %1$s"</string>
-    <string name="local_main_date_format">yyyy.MM.dd. HH:mm</string>
-    <string name="local_main_encrypt_backup_summary">Titkosítsa az Ön által használt elemeket Mi Fiókjának használatával</string>
-    <string name="local_main_encrypt_backup_title">Mentések titkosítása</string>
+    <string name="local_main_backup_time">Utolsó mentés: %1$s</string>
+    <string name="local_main_date_format">yyyy. MM. dd. HH:mm</string>
+    <string name="local_main_encrypt_backup_summary">Titkosítsa az Ön által használt elemeket Xiaomi Fiókjának használatával</string>
+    <string name="local_main_encrypt_backup_title">Fiók ellenőrzése az elemek visszaállításához</string>
     <string name="local_main_latest_backup_time_loading">Egy pillanat…</string>
     <string name="local_no_backup">Nincs helyi mentés</string>
     <string name="local_no_backup_data">Itt nincsenek még mentések</string>
@@ -414,9 +407,15 @@ készítenie kell egy iCloud mentést."</string>
     <string name="login_failed">A bejelentkezés sikertelen. Próbálja újra.</string>
     <string name="logining">Bejelentkezés…</string>
     <string name="midnight">Éjszakai</string>
-    <string name="miliao_account_guide">Használja a Mi Fiókot bárhonnan a Xiaomi Cloudba való bejelentkezéshez, a MIUI Témákhoz.</string>
+    <string name="miliao_account_guide">Használja a Xiaomi Fiókot bárhonnan a Xiaomi Cloudba való bejelentkezéshez, a MIUI Témákhoz.</string>
     <string name="miliao_account_login">Bejelentkezés Mi Talkkal</string>
     <string name="miuix_access_state_desc">Kiválasztott</string>
+    <string name="miuix_accessibility_title">Cím</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Összecsukott</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Kibontott</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Kilépés a szerkesztő módból</string>
+    <string name="miuix_appcompat_accessibility_new_message">Új értesítés</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Nyissa meg a szerkesztési módot</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
     <string name="miuix_appcompat_action_mode_title_empty">Kiválasztás</string>
@@ -432,6 +431,8 @@ készítenie kell egy iCloud mentést."</string>
     <string name="miuix_appcompat_select_all">Az összes kiválasztása</string>
     <string name="miuix_appcompat_select_all_description">Összes kijelölése</string>
     <string name="miuix_appcompat_select_item">Elemek kiválasztása</string>
+    <string name="miuix_appcompat_show_dialog_description">Felugró ablak</string>
+    <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sikeresen frissítve</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Frissítés…</string>
@@ -440,6 +441,9 @@ készítenie kell egy iCloud mentést."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Egyelőre ennyi</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Egy pillanat...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemek betöltése sikertelen</string>
+    <string name="miuix_show_password">Jelszó megjelenítése</string>
+    <string name="miuix_stretchablewidget_collapsed">Összecsukott</string>
+    <string name="miuix_stretchablewidget_expanded">Kibontott</string>
     <string name="mms_title">Multimédiás Üzenetek</string>
     <string name="monday">Hétfő</string>
     <string name="monday_short">Hét</string>
@@ -494,17 +498,18 @@ készítenie kell egy iCloud mentést."</string>
     <string name="new_britem_other">Egyéb</string>
     <string name="new_britem_pic">Képek</string>
     <string name="new_britem_video">Videók</string>
-    <string name="new_confirm_enable_encrypt_content">A MIUI hozzátársítja a titkosított biztonsági mentéseket az Ön Mi Fiókjához. Az ilyen biztonsági mentésekből való elemek helyreállításához be kell jelentkeznie Mi Fiókjába.</string>
+    <string name="new_confirm_enable_encrypt_content">Hozzátársítjuk a titkosított biztonsági mentéseket az Ön Xiaomi Fiókjához. Az ilyen biztonsági mentésekből származó elemek visszaállításához be kell jelentkeznie Xiaomi Fiókjába.</string>
     <string name="new_confirm_enable_encrypt_title">Titkosítás</string>
     <string name="new_local_button_backup">Biztonsági mentés</string>
     <string name="new_local_button_restore">Helyreállítás</string>
     <string name="new_local_click_to_jump">A részletes utasítások megtekintéséhez koppintson</string>
     <string name="new_local_detail_description">"Figyelem:
-%1$d. Az adatvesztés elkerülése érdekében másolja át a biztonsági mentéseket a számítógépére. %2$s.%3$d. A biztonsági mentések a MIUI-Backup-AllBackup mappába kerülnek elmentésre."</string>
+%1$d. Az adatvesztés elkerülése érdekében másolja át a biztonsági mentéseket a számítógépére. %2$s
+%3$d. A biztonsági mentések a MIUI > backup > AllBackup mappába kerülnek elmentése."</string>
     <string name="new_local_detail_description_global">"Figyelem:
-%1$d. Az adatvesztés elkerülése érdekében másolja a biztonsági másolatokat a számítógépére. %2$s.
-%3$d. A mentések a MIUI-Backup-AllBackup mappába kerülnek.
-%4$d. Előfordulhat, hogy egyes alkalmazások nem támogatják a biztonsági mentéseket."</string>
+%1$d. Az adatvesztés elkerülése érdekében másolja a biztonsági mentéseket a számítógépére. %2$s
+%3$d. A biztonsági mentések a MIUI > backup > AllBackup mappába kerülnek elmentése.
+%4$d. Előfordulhat, hogy egyes alkalmazásokról nem lehet biztonsági mentést készíteni vagy visszaállítani."</string>
     <string name="new_local_tab_backup">Biztonsági mentés</string>
     <string name="new_local_tab_backup_pad">Biztonsági mentés</string>
     <string name="new_local_tab_restore">Visszaállítás</string>
@@ -513,8 +518,9 @@ készítenie kell egy iCloud mentést."</string>
     <string name="new_more_settings_label">További beállítások</string>
     <string name="new_pc_backup_content1">%1$d. „%2$s” megnyitása.</string>
     <string name="new_pc_backup_content2">%d. Várjon, amíg az összes elem biztonsági mentése megtörténik.</string>
-    <string name="new_pc_backup_content3">%d. Nyissa meg a MIUI-backup-AllBackup programot, és keresse meg a keresett biztonsági mentés mappát vagy *.zip fájlt a névben szereplő dátum alapján.</string>
+    <string name="new_pc_backup_content3">%d. Nyissa meg a MIUI > backup > AllBackup programot, és keresse meg a keresett biztonsági mentés mappát vagy *.zip fájlt a névben szereplő dátum alapján.</string>
     <string name="new_pc_backup_content4">%d. Másolja át a fájlt a számítógépére.</string>
+    <string name="new_pc_backup_restore_link">Mobilkészülék</string>
     <string name="new_pc_backup_restore_link_pad">Mobilkészülék</string>
     <string name="new_pc_backup_summary1">Válassza ki az elemeket és koppintson a „Biztonsági mentés” opcióra</string>
     <string name="new_pc_backup_summary2">Csatlakoztassa mobilkészülékét a számítógéphez egy USB-kábellel.</string>
@@ -522,8 +528,8 @@ készítenie kell egy iCloud mentést."</string>
     <string name="new_pc_backup_summary4">Figyelem: át is másolhatja a képeket és a videókat a DCIM mappából.</string>
     <string name="new_pc_restore_content1">%d. Csatlakoztassa mobilkészülékét a számítógéphez egy USB-kábellel.</string>
     <string name="new_pc_restore_content1_pad">%d. Csatlakoztassa mobilkészülékét a számítógéphez egy USB-kábellel.</string>
-    <string name="new_pc_restore_content2">%d. Másolja át a biztonsági mentést a számítógépéről a MIUI-Backup-AllBackup mappába.</string>
-    <string name="new_pc_restore_content2_pad">%d. Másolja át a biztonsági mentést a számítógépéről a MIUI-Backup-AllBackup mappába.</string>
+    <string name="new_pc_restore_content2">%d. Másolja át a biztonsági mentést a számítógépéről a MIUI > backup > AllBackup mappába.</string>
+    <string name="new_pc_restore_content2_pad">%d. Másolja át a biztonsági mentést a számítógépéről a MIUI > backup > AllBackup mappába.</string>
     <string name="new_pc_restore_content3">%1$d. Nyissa meg a „%2$s” elemet és válassza ki a helyreállítani kívánt elemeket.</string>
     <string name="new_pc_title">Biztonsági mentések másolása</string>
     <string name="new_select_file">Hangok, videók és fájlok</string>
@@ -537,14 +543,16 @@ készítenie kell egy iCloud mentést."</string>
     <string name="new_tab_pc_backup">Biztonsági mentés</string>
     <string name="new_tab_pc_restore">Visszaállítás</string>
     <string name="new_task_finished">Kész</string>
-    <string name="new_usb_detail_description">"Figyelem:
-%1$d. Ezzel a módszerrel harmadik féltől származó alkalmazásokról és alkalmazásadatokról készíthet biztonsági mentést.
-%2$d. A biztonsági mentések tárolásához gondoskodjon róla, hogy elegendő tárhely áll rendelkezésre az USB-meghajtón."</string>
+    <string name="new_usb_detail_description">"Megjegyzés:
+%1$d. Készítsen biztonsági másolatot a tartalomról egy USB-meghajtóra.
+%2$d. Mielőtt elkezdené, ellenőrizze, hogy az USB-meghajtón van-e elegendő tárhely."</string>
     <string name="new_usb_disconnect_dialog_message">Először csatlakoztasson egy USB-meghajtót.</string>
     <string name="new_usb_disconnect_dialog_title">Nem található USB-meghajtó</string>
     <string name="new_usb_select_data_no_space">Mindössze %s tárhely áll rendelkezésre USB-meghajtóján. Szabadítson fel tárhelyet.</string>
     <string name="new_usb_tab_backup">Biztonsági mentés</string>
     <string name="new_usb_tab_restore">Visszaállítás</string>
+    <string name="new_usb_unwritable_storage_content">Nem sikerült külső tárhelyre menteni az elemeket. Próbálja meg újra csatlakoztatni.</string>
+    <string name="new_usb_unwritable_storage_title">Mentés sikertelen</string>
     <string name="night">Este</string>
     <string name="no_encrypt_password">Nincs a titkosításhoz jelszó</string>
     <string name="no_network">Hálózati hiba. Kérjük, ellenőrizze a hálózati kapcsolatot majd próbálja újra</string>
@@ -584,7 +592,7 @@ készítenie kell egy iCloud mentést."</string>
     <string name="notif_trans_wait_for_reconnecting">A csatlakozás megszakadt. Csatlakoztassa újra.</string>
     <string name="old_soft_name">Csatlakozás QR-kóddal</string>
     <string name="old_way">Létrehozhatja a QR-kódot az új készülékén is, majd beolvashatja azt a régi készülékével.</string>
-    <string name="open_compatibility_mode">Turn on</string>
+    <string name="open_compatibility_mode">Bekapcsolom</string>
     <string name="page_loading">Egy pillanat…</string>
     <string name="password">Jelszó</string>
     <string name="password_null">A jelszómező nem lehet üres</string>
@@ -596,7 +604,7 @@ készítenie kell egy iCloud mentést."</string>
     <string name="perm_read_phone_state">Telefonállapot lekérdezése</string>
     <string name="perm_read_sms">SMS beolvasása</string>
     <string name="perm_storage">Külső tárhely írása és olvasása</string>
-    <string name="permission_admitted">Az engedély meg van adva</string>
+    <string name="permission_admitted">Engedély megadva</string>
     <string name="permission_backup_calendar">A naptáresemények biztonsági mentéséhez</string>
     <string name="permission_backup_calendar_desc">Ahhoz, hogy biztonsági másolatot készíthessen a naptáreseményekről, először engedélyezze az alkalmazásnak a naptáreseményekhez való hozzáférést.</string>
     <string name="permission_backup_calllog">Hívásnapló biztonsági mentéséhez</string>
@@ -692,7 +700,7 @@ Szabadítson fel legalább %s méretű helyet."</string>
     <string name="sc_internal_server_error">Belső szerver hiba</string>
     <string name="sc_network_unavailable">Ellenőrizze a hálózati kapcsolatot és próbálja újra.</string>
     <string name="sc_others">Egy hiba történt</string>
-    <string name="sc_precondition_failed">A Mi Fiók nem kötődik semmilyen e-mail címhez.</string>
+    <string name="sc_precondition_failed">A Xiaomi Fiók nem kötődik semmilyen e-mail címhez.</string>
     <string name="sc_request_timeout">Időtúllépés</string>
     <string name="sc_service_unavailable">A Xiaomi Cloud nem érhető el</string>
     <string name="sc_unaccess_password_file">Nem található Wi-Fi-hálózati jelszó</string>
@@ -742,9 +750,9 @@ Szabadítson fel legalább %s méretű helyet."</string>
     <string name="succ_description">Sikeresen</string>
     <string name="succeed">Kész</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_err_backup_encrypting">Jelentkezzen be a Mi Fiókba.</string>
+    <string name="summary_err_backup_encrypting">Jelentkezzen be Xiaomi Fiókjába.</string>
     <string name="summary_err_backup_no_network">Nem sikerült csatlakozni a hálózathoz</string>
-    <string name="summary_err_restore_encrypting">A visszaállítás nem sikerült. Győződjön meg róla, hogy a mentés a Mi Fiókja használatával készült-e.</string>
+    <string name="summary_err_restore_encrypting">A visszaállítás nem sikerült. Győződjön meg róla, hogy a mentés a Xiaomi Fiókja használatával készült-e.</string>
     <string name="summary_err_restore_no_network">Nem sikerült csatlakozni a hálózathoz</string>
     <string name="sunday">Vasárnap</string>
     <string name="sunday_short">Vas</string>
@@ -763,8 +771,8 @@ Szabadítson fel legalább %s méretű helyet."</string>
     <string name="task_finished">"Sikeresen mentve "</string>
     <string name="task_local_backup_cancel_dialog">A mentés még nem fejeződött be. Mégis megszakítja?</string>
     <string name="task_pending">Várakozás…</string>
-    <string name="task_post_running">Utómunkálatok</string>
-    <string name="task_pre_running">Előkészítés</string>
+    <string name="task_post_running">Utómunkálatok…</string>
+    <string name="task_pre_running">Előkészítés…</string>
     <string name="task_progress">Ütemezett feladatok</string>
     <string name="task_restore_cancel_dialog">A megszakítás adatvesztéssel járhat.</string>
     <string name="task_restore_cancel_progress">Megszakítás…</string>
@@ -865,9 +873,6 @@ Szabadítson fel legalább %s méretű helyet."</string>
     <string name="trans_detail_item_app_data_selected_tip">A kapcsolódó alkalmazások is ki lettek választva.</string>
     <string name="trans_detail_item_app_data_skip_data">Az alkalmazásadatok nem vihetők át</string>
     <string name="trans_detail_item_app_data_too_large_tip">Úgy tűnik, ez az elem túlságosan nagy az átvitelhez.</string>
-    <string name="trans_detail_list_footer">"1. Kiválaszthatja az áthelyezni kívánt alkalmazásokat.
-2. Ha egy alkalmazás adatait választja, a megfelelő alkalmazás is kiválasztásra kerül.
-3. Lehet, hogy kompatibilitási problémák miatt a WeChat és a QQ alkalmazások adatai nem vihetők át. Megpróbálhatja az alkalmazáson belüli átviteli funkciókat."</string>
     <string name="trans_detail_page_tip">Minél több elemet választ ki, annál tovább tart az átvitel.</string>
     <string name="trans_detail_qq_data">QQ-adatok (beleértve a csevegési előzményeket)</string>
     <string name="trans_detail_sys_data_list_title">Rendszeralkalmazások</string>
@@ -890,25 +895,18 @@ Szabadítson fel legalább %s méretű helyet."</string>
     <string name="trans_install_guide_scan_install_tip">"Olvassa be ezt a QR-kódot a régi készülékén
 a Mi Átköltözés letöltéséhez és telepítéséhez."</string>
     <string name="trans_install_guide_step1_content">Olvassa be a QR-kódot a régi készülékével a Mi Átköltözés letöltéséhez és telepítéséhez.</string>
-    <string name="trans_install_guide_step1_title">1. lépés</string>
     <string name="trans_install_guide_step2_content">Ha a telepítés befejeződött, érintse meg a \"Kezdés\" gombot.</string>
-    <string name="trans_install_guide_step2_title">2. lépés</string>
     <string name="trans_intro_desc_1">A Xiaomi készüléket csatlakoztassa Wi-Fi-hálózatra, majd indítsa el a Mi Átköltözést és érintse meg az \"Én vagyok a fogadó\" gombot. Válassza ki az iOS készülékét, csatlakozzon az iCloudra és importálja az adatait.</string>
     <string name="trans_intro_desc_10">Az új készüléken érintse meg a \"Csatlakozás QR-kóddal\" lehetőséget, olvassa be a kódot, hogy létrejöjjön a kapcsolat.</string>
     <string name="trans_intro_desc_3">Törölje az átvitelt, lépjen ki a Mi Átköltözésből, majd kezdje újra. Nem lesznek duplikált fájljai, mert az új átvitel törli a régieket.</string>
     <string name="trans_intro_desc_4">A Mi Átköltözés Wi-Fi-t használ. Ezért nem érheti el az internetet az átvitel alatt Wi-Fi használatával egyik eszközön sem. Mobiladatot használhat. Azonban az újabb készülékek (pl. Mi 6) már képesek az átvitel során is internetkapcsolatot biztosítani Wi-Fi-n.</string>
     <string name="trans_intro_desc_4_market">A Mi Átköltözés Wi-Fi-t használ a fájlok átvitelekor. Ezért nem tud egyik készülékével sem Wi-Fi-hálózatra csatlakozni az átvitel ideje alatt. Addig mobiladat-kapcsolatot tud használni.</string>
-    <string name="trans_intro_desc_5">Az átköltözési csomagok létrehozásához szükség van tárhelyre. Legyen biztos benne, hogy van 500MB - 1GB elérhető szabad tárhely a régi készülékén, mielőtt elkezdené az átvitelt.</string>
     <string name="trans_intro_desc_6">Sokféle oka lehet annak, hogy miért történik ez: rendszer- vagy alkalmazás-összeférhetetlenségi problémák, hálózati problémák, egyes készülékekkel kapcsolatos kompatibilitási problémák, stb.</string>
     <string name="trans_intro_desc_7">Néhány alkalmazás profilja (e-bank, pénzügyi, stb.) biztonsági okok miatt speciálisan készülékhez társított. Próbálja meg törölni az alkalmazásadatokat, vagy újratelepíteni az alkalmazást új készülékre.</string>
     <string name="trans_intro_desc_8">WeChat alkalmazásadatai és csevegési előzményei nem költöztethetőek át teljes mértékben a Mi Átköltözéssel. Lépjen be a WeChat beállításaiba, és jelentkezzen ki fiókjából, hogy nagyobb esélye legyen a sikeres átvitelnek.</string>
     <string name="trans_intro_desc_9_method_1_dec">A Visszajelzés alkalmazást a Kezdőképernyőn az Eszközök mappában találja. (De a Beállítások/Visszajelzés menüjéből is elindíthatja.)</string>
-    <string name="trans_intro_desc_9_method_1_title">1. Ossza meg visszajelzését a \"Visszajelzés\" alkalmazás használatával.</string>
     <string name="trans_intro_desc_9_method_2_dec">Küldje el visszajelzését a miui-mover@xiaomi.com címre.</string>
-    <string name="trans_intro_desc_9_method_2_title">2. Küldjön nekünk egy e-mailt</string>
-    <string name="trans_intro_desc_9_method_3_dec">A Mi Átköltözés QQ csoportja: 687338378</string>
-    <string name="trans_intro_desc_9_method_3_title">3. Jelentse a hibát a QQ csoportban</string>
-    <string name="trans_intro_desc_account">Biztonsági okokból az új készüléken újra be kell lépnie a fiókjaiba (pl. Mi Fiók, Google, Exchange, stb.).</string>
+    <string name="trans_intro_desc_account">Biztonsági okokból az új készüléken újra be kell lépnie a fiókjaiba (pl. Xiaomi Fiók, Google, Exchange, stb.).</string>
     <string name="trans_intro_desc_gms">A kompatibilitási problémák okozta sikertelen átvitel nagy valószínűsége miatt a Mi Átköltözés nem támogatja a Google-alkalmazások által generált adatok továbbítását.</string>
     <string name="trans_intro_desc_multiapp">A fájlok közötti összeütközések elkerülése érdekében a Mi Átköltözés nem másolja a Klónozott alkalmazások adatait.</string>
     <string name="trans_intro_desc_multiuser">A Mi Átköltözés nem adhat hozzáférést a Második asztal elemeihez. Átköltözés előtt helyezze át őket az Első asztalra.</string>
@@ -951,9 +949,6 @@ Szabadítson fel tárhelyet, vagy csak fontos elemeket vigyen át."</string>
     <string name="trans_operate_func_two">B módszer</string>
     <string name="trans_operate_new_phone_tips">"Lépjen be a Beállítások > További beállítások > Mi Átköltözés menüpontba
 QR-kód generálásához érintse meg az [Én vagyok a fogadó] gombot"</string>
-    <string name="trans_operate_old_phone_tips1">"1. Telepítse a Mi Átköltözés alkalmazást a régi készülékre
-2. Nyissa meg az alkalmazást és érintse meg a Start gombot
-3. Olvassa be a QR-kódot a régi készülékével"</string>
     <string name="trans_operate_old_phone_tips2">Lépjen be a Beállítások > További beállítások > Mi Átköltözés menüpontba, Érintse meg az [Én vagyok a küldő] gombot</string>
     <string name="trans_operate_reconnect_new_tips">"Várja meg míg az új készülék kiírja \"A csatlakozás megszakadt\".
 Aztán érintse meg a \"Csatlakoztassa újra\" gombot QR-kód készítéséhez."</string>
@@ -1018,11 +1013,9 @@ Tartsa a készülékeket közel egymáshoz."</string>
 Megkedvelte a Mi Átköltözést?"</string>
     <string name="trans_success_dialog_survey_title">Értékeljük a visszajelzését</string>
     <string name="trans_success_survey_hint">Először töltse ki az összes mezőt.</string>
-    <string name="trans_switching_5g">Váltás 5GHz-es Wi-Fi-kapcsolatra…</string>
-    <string name="trans_time_format_second">Kevesebb, mint egy perce</string>
     <string name="trans_time_spent">Eltöltött idő: %s</string>
     <string name="trans_wait_trans_data">"Csatlakozva a régi készülékhez.
- Várakozás az átköltözésre…"</string>
+Várakozás az átköltözésre…"</string>
     <string name="trans_waiting_ensurance">"Ellenőrizze, hogy a régi készülék be van-e kapcsolva
 és a Mi Átköltözés engedélyezve van-e"</string>
     <string name="trans_waiting_for_sender">Várakozás a régi készülék csatlakozására…</string>

@@ -29,6 +29,9 @@
     <string name="abc_toolbar_collapse_description">Sbalit</string>
     <string name="abort_backup_confirm">Zálohování nebylo dokončeno. Chcete zálohování přesto ukončit?</string>
     <string name="abort_restore_confirm">Obnovení nebylo dokončeno. Chcete obnovení přesto ukončit?</string>
+    <string name="accessibility_sliding_button_state_description_off">Vypnuto</string>
+    <string name="accessibility_sliding_button_state_description_on">Zapnuto</string>
+    <string name="accessibility_tab_state_description_unselect">Nevybráno</string>
     <string name="account_contact_backup_info">Účet Google, Xiaomi účet a kontakty</string>
     <string name="account_login">Přihlásit se</string>
     <string name="account_summary">Záloha účtu Google, Xiaomi účtu a dalších uživatelských dat</string>
@@ -82,6 +85,8 @@
     <string name="backup_hint_onpad">Nevypínejte zařízení</string>
     <string name="backup_hint_pad">Nevypínejte zařízení</string>
     <string name="backup_is_running">Zařízení pro zálohování</string>
+    <string name="backup_item_collapsed">Sbaleno</string>
+    <string name="backup_item_expanded">Rozbaleno</string>
     <string name="backup_new">Nový:</string>
     <string name="backup_notice_content">Vaše zálohy nebudou šifrovány, což znamená, že aplikace třetích stran mohou k těmto zálohám získat přístup nebo s nimi manipulovat. Vypnutí šifrování může také představovat další bezpečnostní rizika. Ujistěte se, že zálohované položky ukládáte v dobře chráněném prostředí.</string>
     <string name="backup_notice_title">Upozornění</string>
@@ -134,6 +139,8 @@
     <string name="cancel_moving_dialog_message">Zastavit import?</string>
     <string name="cancel_moving_dialog_title">Zastavit import</string>
     <string name="cancel_restore">Zastavit</string>
+    <string name="cannot_use_backup_summary">Přesun do nového zařízení (Mi Mover) již přesunuje položky. Počkejte na dokončení aktuálního přenosu a poté spusťte zálohování znovu.</string>
+    <string name="cannot_use_backup_title">Zálohování nelze provést</string>
     <string name="category_contacts">Kontakty</string>
     <string name="category_message_contacts">Zprávy a Kontakty</string>
     <string name="check_privacy_policy">Zobrazit Zásady ochrany osobních údajů</string>
@@ -146,14 +153,11 @@
 Po vytvoření nových bezpečnostních otázek a ověření vašeho data narození se dvoufaktorové ověření vypne. Pokud na stránce svého účtu Apple ID možnost vypnutí dvoufaktorového ověření nevidíte, znamená to, že ho vypnout nemůžete."</string>
     <string name="close_twice_auth_operation">"URL adresa:
 https://appleid.apple.com/#!&amp;page=signin zavřít"</string>
-    <string name="close_twice_auth_step_1">1. Otevřte jakýkoli prohlížeč na počítači a přejděte na stránku appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Pro vypnutí dvoufaktorové ověření se přihlaste pomocí svého Apple ID, přejděte do \"Zabezpečení\" a v sekci nastavení účtu klikněte na \"Upravit\".</string>
-    <string name="close_twice_auth_step_3">3. Klikněte na \"Vypnout dvoufaktorové ověření\". Klikněte znovu pro potvrzení.</string>
     <string name="close_twice_auth_steps">Postupujte podle těchto kroků pro vypnutí dvoufaktorové ověření Apple ID:</string>
     <string name="close_twice_auth_tutor">Vypněte dvoufaktorové ověření Apple ID</string>
     <string name="cloud_app_name">Záloha Xiaomi Cloudu</string>
     <string name="cloud_backup_hint">Pro přístup k vašim zálohám je nutné se přihlásit</string>
-    <string name="cloud_backup_login">Přihlaste se ke Xiaomi účtu</string>
+    <string name="cloud_backup_login">Přihlaste se ke svému Xiaomi účtu</string>
     <string name="cloud_backup_window_title">Zálohy Xiaomi Cloudu</string>
     <string name="cloud_home_title">Xiaomi Cloud</string>
     <string name="cloud_item_info_summary">" (Místní: %1$s | Xiaomi Cloud: %2$s)"</string>
@@ -182,7 +186,7 @@ https://appleid.apple.com/#!&amp;page=signin zavřít"</string>
     <string name="data_detail_description">Podrobnosti</string>
     <string name="data_item_desc">Data</string>
     <string name="data_no_enough_space_message">Na vašem zařízení není dostatek volného místa pro stažení.</string>
-    <string name="date_format">HH:mm:ss dd.MM.yyyy</string>
+    <string name="date_format">d.M.yyyy HH:mm:ss</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -260,7 +264,7 @@ https://appleid.apple.com/#!&amp;page=signin zavřít"</string>
     <string name="findlost_contact">Obnovit kontakty</string>
     <string name="findlost_contact_online">Obnovit kontakty z cloudu</string>
     <string name="flash_drive_backup_btn">Zálohovat na USB disk</string>
-    <string name="flash_drive_backup_note">"Zálohujte aplikace na USB disk.
+    <string name="flash_drive_backup_note">"Zálohujte obsah na USB disk.
 Před zahájením zálohování se ujistěte, že je na USB disku dostatek místa."</string>
     <string name="flash_drive_backup_restore">USB zálohy</string>
     <string name="flash_drive_connection_failed">USB disk odpojen</string>
@@ -336,11 +340,7 @@ Neměňte název zálohovaného souboru."</string>
     <string name="hsa_send_again_countdown">Odeslat znovu (%d s)</string>
     <string name="hsa_send_failed">Zaslání ověřovacího kódu se nezdařilo. Zkuste to znovu později.</string>
     <string name="hsa_sending">Odesílání…</string>
-    <string name="hsa_tip_message">"1. Pokud jste neobdrželi ověřovací kód, ujistěte se, že jste přihlášeni k iCloudu na svém Apple zařízení.r
-2. Pokud zadání ověřovacího kódu nepomůže, vypněte 2-stupňové ověření. "</string>
     <string name="hsa_tip_message_shutdown_hsa">Jak vypnout dvoufaktorové ověření</string>
-    <string name="hsa_tip_message_with_device">"1. Zpráva obsahující ověřovací kód byla zaslána na zařízení \"%s\" spojené s vaším Apple ID.r
-2. Pokud ověřovací kód nefunguje, vypněte dvoufaktorové ověření."</string>
     <string name="hsa_tip_title">Tipy:</string>
     <string name="hsa_title">Dvoufaktorové ověření</string>
     <string name="hsa_verify_failed">Dvoufaktorové ověření se nezdařilo</string>
@@ -349,9 +349,6 @@ Neměňte název zálohovaného souboru."</string>
     <string name="hsa_verify_shutdown">Vypnout</string>
     <string name="iCloud_ID_verification_tip">Pro zobrazení ověřovacího kódu klepněte na \"Povolit\" na vašem Apple zařízení. Ověřovací kód pak zadejte zde.</string>
     <string name="icloud_backup_tip">Přihlaste se k iCloudu na svém starém iOS zařízení</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Otevřte Nastavení na vašem iOS zařízení a zvolte iCloud.r
-2. Zapněte přepínače pro Kontakty atd.r
-3. Zvolte Fotografie a zapněte přepínač pro iCloudovou knihovnu fotografií."</string>
     <string name="icloud_how_to_backup_tip_summary">Pro importování dat z iOS, musíte nejprve vytvořit iCloudovou zálohu.</string>
     <string name="icloud_how_to_backup_tip_title">Tipy:</string>
     <string name="icloud_login_title">Přihlaste se k iCloudu</string>
@@ -366,14 +363,10 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Kvůli problémům s kompatibilitou, můžete z iOS zařízení přenést pouze část dat. Před zahájením přenosu nezapomeňte vytvořit zálohu iCloudu.</string>
     <string name="lack_perm_msg">Přesun do nového zařízení vyžaduje následující povolení: &lt;b>%s&lt;/b>.</string>
-    <string name="lack_perm_title">Vyžadována povolení</string>
+    <string name="lack_perm_title">Vyžadována oprávnění</string>
     <string name="list_footer_tip_title">Tipy:</string>
     <string name="loading_data">Načítání dat</string>
     <string name="local_app_name">Zálohování</string>
-    <string name="local_back_up_detail_description">"Poznámka:
-1. Zkopírujte všechny místně vytvořené zálohy do počítače. Vyhnete se tak jejich možné ztrátě.
-2. Před provedením obnovení do továrního nastavení vždy nejprve zkopírujte místní zálohy do počítače. V opačném případě budou zálohy ztraceny.
-3. Kde jsou místní zálohy uloženy? %1$s"</string>
     <string name="local_backup_select_activity">Vytvořit zálohu</string>
     <string name="local_backup_window_title">Místní zálohovaná data</string>
     <string name="local_button_backup_data">Zálohovat</string>
@@ -393,9 +386,9 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="local_main_backup_manager_title">Spravovat zálohy</string>
     <string name="local_main_backup_settings">Nastavení místního zálohování</string>
     <string name="local_main_backup_time">Poslední záloha: %1$s</string>
-    <string name="local_main_date_format">dd.MM.yyyy HH:mm</string>
+    <string name="local_main_date_format">d.M.yyyy HH:mm</string>
     <string name="local_main_encrypt_backup_summary">Zašifrujte zálohované položky pomocí Xiaomi účtu</string>
-    <string name="local_main_encrypt_backup_title">Šifrovat zálohy</string>
+    <string name="local_main_encrypt_backup_title">Pro obnovení položek ověřte účet</string>
     <string name="local_main_latest_backup_time_loading">Ještě chvilku…</string>
     <string name="local_no_backup">Žádné zálohy.</string>
     <string name="local_no_backup_data">Žádné zálohy</string>
@@ -417,6 +410,12 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="miliao_account_guide">Přihlaste se pomocí Xiaomi účtu do Xiaomi Cloudu, MIUI Obchodu s tématy a množství dalších Xiaomi služeb odkudkoli.</string>
     <string name="miliao_account_login">Přihlásit k Mi Talk</string>
     <string name="miuix_access_state_desc">Vybráno</string>
+    <string name="miuix_accessibility_title">Nadpis</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Sbaleno</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Rozbaleno</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ukončit režim úprav</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nové oznámení</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Začít režim úprav</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Zrušit výběr</string>
     <string name="miuix_appcompat_action_mode_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_action_mode_title_empty">Vybrat položky</string>
@@ -432,6 +431,8 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="miuix_appcompat_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_select_all_description">Vybrat vše</string>
     <string name="miuix_appcompat_select_item">Vybrat položky</string>
+    <string name="miuix_appcompat_show_dialog_description">Vyskakovací okno</string>
+    <string name="miuix_progressbar_loading">Načítání</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potáhněte pro obnovení</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Úspěšně obnoveno</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Obnovování…</string>
@@ -440,6 +441,9 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je prozatím vše</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Ještě chvilku…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Načtení položek se nezdařilo</string>
+    <string name="miuix_show_password">Zobrazit heslo</string>
+    <string name="miuix_stretchablewidget_collapsed">Sbaleno</string>
+    <string name="miuix_stretchablewidget_expanded">Rozbaleno</string>
     <string name="mms_title">MMS zprávy</string>
     <string name="monday">Pondělí</string>
     <string name="monday_short">Pon</string>
@@ -494,18 +498,18 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="new_britem_other">Ostatní</string>
     <string name="new_britem_pic">Obrázky</string>
     <string name="new_britem_video">Videa</string>
-    <string name="new_confirm_enable_encrypt_content">Šifrování záloh je propojeno s vaším Xiaomi účtem. Pro obnovení zašifrovaných záloh se budete nejprve muset přihlásit ke svému Xiaomi účtu.</string>
+    <string name="new_confirm_enable_encrypt_content">Šifrování záloh je propojeno s vaším Xiaomi účtem. Abyste mohli obnovit položky z takovýchto záloh, budete se muset přihlásit ke svému Xiaomi účtu.</string>
     <string name="new_confirm_enable_encrypt_title">Šifrování</string>
     <string name="new_local_button_backup">Zálohovat</string>
     <string name="new_local_button_restore">Obnovit</string>
     <string name="new_local_click_to_jump">Klepněte pro detailní instrukce</string>
     <string name="new_local_detail_description">"Poznámka:
 %1$d. Zkopírujte vytvořené zálohy do počítače. Vyhnete se tak možné ztrátě dat. %2$s.
-%3$d. Zálohy budou uloženy ve složce MIUI-Backup-AllBackup."</string>
+%3$d. Zálohy budou uloženy ve složce MIUI > backup > AllBackup."</string>
     <string name="new_local_detail_description_global">"Poznámka:
 %1$d. Zkopírujte vytvořené zálohy do počítače. Vyhnete se tak možné ztrátě dat. %2$s.
-%3$d. Zálohy budou uloženy ve složce MIUI-Backup-AllBackup.
-%4$d. Některé aplikace nemusejí zálohování podporovat."</string>
+%3$d. Zálohy budou uloženy ve složce MIUI > backup > AllBackup.
+%4$d. Je možné, že některé aplikace nepůjdou zálohovat."</string>
     <string name="new_local_tab_backup">Zálohovat</string>
     <string name="new_local_tab_backup_pad">Zálohovat</string>
     <string name="new_local_tab_restore">Obnovit</string>
@@ -514,7 +518,7 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="new_more_settings_label">Další nastavení</string>
     <string name="new_pc_backup_content1">%1$d. Otevřete \"%2$s\".</string>
     <string name="new_pc_backup_content2">%d. Počkejte, dokud nebude dokončeno zálohování všech položek.</string>
-    <string name="new_pc_backup_content3">%d. Otevřete MIUI-backup-AllBackup a najděte podle data v názvu složku záloh nebo soubor *.zip, který hledáte.</string>
+    <string name="new_pc_backup_content3">%d. Otevřete MIUI > backup > AllBackup a najděte podle data v názvu složku záloh nebo soubor *.zip, který hledáte.</string>
     <string name="new_pc_backup_content4">%d. Zkopírujte soubor do počítače.</string>
     <string name="new_pc_backup_restore_link">Mobilní zařízení</string>
     <string name="new_pc_backup_restore_link_pad">Mobilní zařízení</string>
@@ -524,8 +528,8 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="new_pc_backup_summary4">Poznámka: kopírovat můžete také fotografie a videa ze složky DCIM.</string>
     <string name="new_pc_restore_content1">%d. Připojte své mobilní zařízení k počítači pomocí USB kabelu.</string>
     <string name="new_pc_restore_content1_pad">%d. Připojte své mobilní zařízení k počítači pomocí USB kabelu.</string>
-    <string name="new_pc_restore_content2">%d. Zkopírujte zálohovaný soubor z počítače do složky MIUI-Backup-AllBackup.</string>
-    <string name="new_pc_restore_content2_pad">%d. Zkopírujte zálohovaný soubor z počítače do složky MIUI-Backup-AllBackup.</string>
+    <string name="new_pc_restore_content2">%d. Zkopírujte zálohovaný soubor z počítače do složky MIUI > backup > AllBackup.</string>
+    <string name="new_pc_restore_content2_pad">%d. Zkopírujte zálohovaný soubor z počítače do složky MIUI > backup > AllBackup.</string>
     <string name="new_pc_restore_content3">%1$d. Otevřete \"%2$s\" a zvolte položky, které chcete obnovit.</string>
     <string name="new_pc_title">Kopírování záloh</string>
     <string name="new_select_file">Zvuk, video a soubory</string>
@@ -540,13 +544,15 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="new_tab_pc_restore">Obnovit</string>
     <string name="new_task_finished">Hotovo</string>
     <string name="new_usb_detail_description">"Poznámka:
-%1$d. Tento způsob zálohování umožňuje zálohovat aplikace třetích stran a data aplikací.
-%2$d. Ujistěte se, že na je na vašem USB disku dostatek místa pro vytvoření zálohy."</string>
+%1$d. Zálohujte obsah na USB disk.
+%2$d. Před zahájením zálohování se ujistěte, že je na USB disku dostatek místa."</string>
     <string name="new_usb_disconnect_dialog_message">Nejprve připojte USB disk.</string>
     <string name="new_usb_disconnect_dialog_title">Nalezení USB disku se nezdařilo</string>
     <string name="new_usb_select_data_no_space">Na USB disku je dostupných pouze %s. Před pokračováním uvolněte místo.</string>
     <string name="new_usb_tab_backup">Zálohovat</string>
     <string name="new_usb_tab_restore">Obnovit</string>
+    <string name="new_usb_unwritable_storage_content">Uložení položek na externí úložné zařízení se nezdařilo. Zkuste jej připojit znovu.</string>
+    <string name="new_usb_unwritable_storage_title">Uložení se nezdařilo</string>
     <string name="night">Večer</string>
     <string name="no_encrypt_password">Bez hesla</string>
     <string name="no_network">Připojení k síti není k dispozici</string>
@@ -586,7 +592,7 @@ musíte nejprve vytvořit iCloudovou zálohu."</string>
     <string name="notif_trans_wait_for_reconnecting">Spojení bylo přerušeno. Připojte se znovu.</string>
     <string name="old_soft_name">Připojit pomocí QR kódu</string>
     <string name="old_way">Pro přenos můžete také nejprve vygenerovat QR kód na vašem novém zařízení a naskenovat jej pomocí starého zařízení.</string>
-    <string name="open_compatibility_mode">Turn on</string>
+    <string name="open_compatibility_mode">Zapnout</string>
     <string name="page_loading">Ještě chvilku…</string>
     <string name="password">Heslo</string>
     <string name="password_null">Heslo nesmí být prázdné</string>
@@ -694,7 +700,7 @@ Uvolněte alespoň %s."</string>
     <string name="sc_internal_server_error">Vnitřní chyba serveru</string>
     <string name="sc_network_unavailable">Zkontrolujte datové připojení a zkuste to znovu.</string>
     <string name="sc_others">Došlo k chybě</string>
-    <string name="sc_precondition_failed">Váš účet Xiaomi zatím není spojen s žádným e-mailem. Přidejte e-mailovou adresu.</string>
+    <string name="sc_precondition_failed">Váš Xiaomi účet zatím není spojen s žádným e-mailem. Přidejte e-mailovou adresu.</string>
     <string name="sc_request_timeout">Vypršel časový limit žádosti</string>
     <string name="sc_service_unavailable">Xiaomi Cloud není dostupný</string>
     <string name="sc_unaccess_password_file">Heslo k síti Wi-Fi nebylo nalezeno</string>
@@ -867,9 +873,6 @@ Uvolněte alespoň %s."</string>
     <string name="trans_detail_item_app_data_selected_tip">Vybrány také odpovídající aplikace.</string>
     <string name="trans_detail_item_app_data_skip_data">Data aplikace nelze přenést</string>
     <string name="trans_detail_item_app_data_too_large_tip">Zdá se, že tato položka je pro přenos příliš velká.</string>
-    <string name="trans_detail_list_footer">"1. Aplikace, které chcete přenést, můžete zvolit jednotlivě.
-2. Pokud zvolíte možnost přenosu dat aplikace, s nimi spojené aplikace budou přeneseny automaticky.
-3. Přenos dat aplikací WeChat a QQ nemusí být úspěšný z důvodu problému s kompatibilitou. Pro tato data vyzkoušejte vestavěnou funkci pro přenos dat přímo v aplikaci."</string>
     <string name="trans_detail_page_tip">Čím více položek vyberete, tím déle bude přenos trvat.</string>
     <string name="trans_detail_qq_data">QQ data (včetně historie konverzací)</string>
     <string name="trans_detail_sys_data_list_title">Systémové aplikace</string>
@@ -892,24 +895,17 @@ Uvolněte alespoň %s."</string>
     <string name="trans_install_guide_scan_install_tip">"Pro stažení a instalaci aplikace Přesun do nového zařízení
 naskenujte tento kód svým starým telefonem."</string>
     <string name="trans_install_guide_step1_content">Pro stažení a instalaci aplikace \"Přesun do nového zařízení\" naskenujte tento kód svým starým telefonem.</string>
-    <string name="trans_install_guide_step1_title">Krok 1</string>
     <string name="trans_install_guide_step2_content">Po dokončení instalace klepněte na tlačítko \"Začít\" níže.</string>
-    <string name="trans_install_guide_step2_title">Krok 2</string>
     <string name="trans_intro_desc_1">Připojte se k síti Wi-Fi na Xiaomi zařízení a klepněte na \"Jsem příjemce\". Zvolte vaše iOS zařízení, přihlaste se k iCloudu a importujte data.</string>
     <string name="trans_intro_desc_10">Klepněte na \"Připojit pomocí QR kódu\" na novém zařízení a naskenujte kód pomocí starého zařízení.</string>
     <string name="trans_intro_desc_3">Zrušte přenos, ukončete Přesun do nového zařízení a začněte znovu. Duplicitní soubory budou během nového přenosu přepsány.</string>
     <string name="trans_intro_desc_4">Přesun no nového zařízení využívá k přenosu souborů síť Wi-Fi. Proto se během přenosu nelze připojit k internetu ani na jednom ze zařízení. K připojení můžete mezitím využít mobilní data. Některé z novějších zařízení (např. Mi 6), se však mohou připojit k internetu pomocí sítě Wi-Fi i během přenosu.</string>
     <string name="trans_intro_desc_4_market">Přesun do nového zařízení využívá pro přenos souborů síť Wi-Fi. Proto se během přenosu nemůžete připojit k internetu pomocí Wi-Fi ani na jednom ze zařízení. Nadále však můžete využívat mobilní data.</string>
-    <string name="trans_intro_desc_5">Úložiště na vašem starém zařízení je využíváno pro vytváření přenosových balíčků. Ujistěte se, že máte alespoň 500 MB - 1 GB volného místa na vašem starém telefonu před zahájením přenosu.</string>
     <string name="trans_intro_desc_6">Existuje několik důvodů proč apl. nebyly přeneseny: problém s kompatibilitou systému a verzí aplikace, problém sítě, problémy s kompatibilitou pro konkrétní zařízení, atd.</string>
     <string name="trans_intro_desc_7">Některé profily aplikací (internetové bankovnictví, finance, apod.) jsou z bezpečnostních důvodů propojeny s konkrétními zařízeními. Zkuste vymazat data aplikace nebo aplikaci na novém zařízení přeinstalujte.</string>
     <string name="trans_intro_desc_8">Data aplikace WeChat a historie konverzací nemusejí být pomocí Přesunu do nového zařízení kompletně přeneseny. Přejděte do Nastavení vašeho WeChat účtu a odhlaste se, pro zvýšení šance úspěšnosti přenosu.</string>
     <string name="trans_intro_desc_9_method_1_dec">Přejděte na Domovskou obrazovku > Nástroje > Zpětná vazba.</string>
-    <string name="trans_intro_desc_9_method_1_title">1. Sdílejte s námi svůj názor pomocí aplikace \"Zpětná vazba\".</string>
     <string name="trans_intro_desc_9_method_2_dec">Pošlete nám svůj názor na miui-mover@xiaomi.com.</string>
-    <string name="trans_intro_desc_9_method_2_title">2. Pošlete nám e-mail</string>
-    <string name="trans_intro_desc_9_method_3_dec">QQ skupina aplikace Přesun do nového zařízení: 687338378</string>
-    <string name="trans_intro_desc_9_method_3_title">3. Nahlášení problému pomocí QQ</string>
     <string name="trans_intro_desc_account">Z bezpečnostních důvodů se na novém zařízení musíte znovu přihlásit do účtů aplikací (např. Xiaomi účet, Exchange, Google, apod.).</string>
     <string name="trans_intro_desc_gms">Z důvodu vysoké pravděpodobnosti neúspěšnosti přenosu způsobené problémy s kompatibilitou, Přenos do nového zařízení nepodporuje přenos dat vygenerovaných Google aplikacemi.</string>
     <string name="trans_intro_desc_multiapp">Přesun do nového zařízení nepřesune data duálních aplikací pro zabránění konfliktu mezi soubory.</string>
@@ -952,9 +948,6 @@ Uvolněte místo na úložišti nebo přesuňte pouze důležité položky."</st
     <string name="trans_operate_func_one">Metoda A</string>
     <string name="trans_operate_func_two">Metoda B</string>
     <string name="trans_operate_new_phone_tips">Přejděte do Nastavení > Další nastavení > Přesun do nového zařízení a stiskněte [Jsem příjemce] pro vytvoření QR kódu</string>
-    <string name="trans_operate_old_phone_tips1">"1. Nainstalujte aplikaci Přesun do nového zařízení na starém zařízení
-2. Spusťte aplikaci a klepněte na tlačítko Začít
-3. Načtěte QR kód na starém zařízení"</string>
     <string name="trans_operate_old_phone_tips2">Přejděte do Nastavení > Další nastavení > Přesun do nového zařízení a klepněte na [Jsem odesílatel]</string>
     <string name="trans_operate_reconnect_new_tips">"Vyčkejte dokud nový telefon nezobrazí \"Spojení bylo přerušeno\".
 Poté klepněte na \"Znovu připojit\" pro vygenerování QR kódu."</string>
@@ -1019,8 +1012,6 @@ Ponechejte obě zařízení blízko sebe."</string>
 Líbila se vám aplikace Přesun do nového zařízení?"</string>
     <string name="trans_success_dialog_survey_title">Váš názor je pro nás důležitý</string>
     <string name="trans_success_survey_hint">Nejprve vyplňte všechna pole.</string>
-    <string name="trans_switching_5g">Přepínání na 5 GHz Wi-Fi…</string>
-    <string name="trans_time_format_second">Méně než 1 minuta</string>
     <string name="trans_time_spent">Uplynulý čas: %s</string>
     <string name="trans_wait_trans_data">"Připojeno ke starému zařízení.
 Čekání na přenos…"</string>

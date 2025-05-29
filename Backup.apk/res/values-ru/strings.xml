@@ -29,9 +29,12 @@
     <string name="abc_toolbar_collapse_description">Свернуть</string>
     <string name="abort_backup_confirm">Резервирование не завершено. Прервать процесс?</string>
     <string name="abort_restore_confirm">Восстановление не завершено. Прервать процесс?</string>
-    <string name="account_contact_backup_info">Аккаунты и контакты</string>
+    <string name="accessibility_sliding_button_state_description_off">Отключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрано</string>
+    <string name="account_contact_backup_info">Учетная запись Google, аккаунт Xiaomi и контакты</string>
     <string name="account_login">Войти</string>
-    <string name="account_summary">Аккаунты и данные пользователя</string>
+    <string name="account_summary">Резервное копирование учетной записи Google, аккаунта Xiaomi и других пользовательских данных.</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">День</string>
     <string name="agree_button">Согласиться</string>
@@ -82,6 +85,8 @@
     <string name="backup_hint_onpad">Не выключайте устройство</string>
     <string name="backup_hint_pad">Не выключайте устройство</string>
     <string name="backup_is_running">Резервирование устройства</string>
+    <string name="backup_item_collapsed">Свернуто</string>
+    <string name="backup_item_expanded">Развернуто</string>
     <string name="backup_new">Новый:</string>
     <string name="backup_notice_content">Резервные копии не будут зашифрованы, а это означает, что сторонние приложения могут получить к ним доступ или изменить их. Также могут возникнуть другие угрозы безопасности. Убедитесь, что вы храните резервные копии данных в хорошо защищенной среде.</string>
     <string name="backup_notice_title">Внимание!</string>
@@ -134,6 +139,8 @@
     <string name="cancel_moving_dialog_message">Остановить импорт?</string>
     <string name="cancel_moving_dialog_title">Остановка импорта</string>
     <string name="cancel_restore">Отменить</string>
+    <string name="cannot_use_backup_summary">Mi Mover уже переносит объекты. Подождите, пока текущая передача завершится, и снова запустите резервное копирование.</string>
+    <string name="cannot_use_backup_title">Не удалось создать резервную копию</string>
     <string name="category_contacts">Контакты</string>
     <string name="category_message_contacts">Сообщения и контакты</string>
     <string name="check_privacy_policy">Политика конфиденциальности</string>
@@ -146,14 +153,11 @@
 После создания новых контрольных вопросов и подтверждения даты рождения двухфакторная аутентификация будет отключена. Если на странице учетной записи Apple ID отсутствует пункт для отключения двухфакторной аутентификации, значит, ее нельзя отключить."</string>
     <string name="close_twice_auth_operation">"Ссылка для отключения:
 https://appleid.apple.com/#!&amp;page=signin"</string>
-    <string name="close_twice_auth_step_1">1. Откройте на компьютере любой браузер и перейдите на сайт appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Войдите в Apple ID, для которого вы хотите отключить двухфакторную аутентификацию, перейдите в раздел \"Безопасность\" параметров учетной записи и выберите \"Правка\".</string>
-    <string name="close_twice_auth_step_3">3. Нажмите \"Выключить двухфакторную аутентификацию\". Нажмите еще раз для подтверждения.</string>
     <string name="close_twice_auth_steps">Для отключения двухфакторной аутентификации Apple ID выполните следующие действия:</string>
     <string name="close_twice_auth_tutor">Отключите двухфакторную аутентификацию Apple ID</string>
     <string name="cloud_app_name">Резервирование в Xiaomi Cloud</string>
     <string name="cloud_backup_hint">Авторизуйтесь для доступа к резервным копиям</string>
-    <string name="cloud_backup_login">Войдите в Mi аккаунт</string>
+    <string name="cloud_backup_login">Войдите в аккаунт Xiaomi</string>
     <string name="cloud_backup_window_title">Резервирование в Xiaomi Cloud</string>
     <string name="cloud_home_title">Xiaomi Cloud</string>
     <string name="cloud_item_info_summary">" (Локально: %1$s | Xiaomi Cloud: %2$s)"</string>
@@ -216,8 +220,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="enable_encrypt_description">Шифровать</string>
     <string name="enable_encrypt_fail">Ошибка шифрования</string>
     <string name="enable_encrypt_indicator">Нажмите для шифрования</string>
-    <string name="enable_encrypt_summery1">Войдите в свой Mi аккаунт для доступа к зашифрованным копиям</string>
-    <string name="enable_encrypt_summery2">Ваши резервные копии будут автоматически зашифрованы. Войдите в свой Mi аккаунт для доступа к ним.</string>
+    <string name="enable_encrypt_summery1">Войдите в аккаунт Xiaomi, чтобы получить доступ к зашифрованным копиям.</string>
+    <string name="enable_encrypt_summery2">Ваши резервные копии будут автоматически зашифрованы. Войдите в свой аккаунт Xiaomi для доступа к ним.</string>
     <string name="enable_encrypt_title">Шифрование резервных копий</string>
     <string name="enable_local_backup">Включить локальное резервирование</string>
     <string name="enable_local_backup_and_restore">Включить локальное резервирование</string>
@@ -248,7 +252,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="expand_button_title">Дополнительно</string>
     <string name="fail">Ошибка</string>
     <string name="failed_description">Ошибка</string>
-    <string name="feature_title_account">Mi аккаунт</string>
+    <string name="feature_title_account">Аккаунт Xiaomi</string>
     <string name="feature_title_antispam">Антиспам</string>
     <string name="feature_title_call_log">Журнал вызовов</string>
     <string name="feature_title_contacts">Контакты</string>
@@ -260,7 +264,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="findlost_contact">Восстановить контакты</string>
     <string name="findlost_contact_online">Восстановить контакты из облака</string>
     <string name="flash_drive_backup_btn">Сохранить копию на USB-накопитель</string>
-    <string name="flash_drive_backup_note">"Резервирование приложений на USB-накопитель.
+    <string name="flash_drive_backup_note">"Резервирование контента на USB-накопитель.
 Убедитесь, что на USB-накопителе достаточно места."</string>
     <string name="flash_drive_backup_restore">Резервирование на USB</string>
     <string name="flash_drive_connection_failed">USB-накопитель отключен</string>
@@ -336,11 +340,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="hsa_send_again_countdown">Повторить (%d с)</string>
     <string name="hsa_send_failed">Не удалось отправить код подтверждения. Подождите немного и повторите попытку.</string>
     <string name="hsa_sending">Отправка…</string>
-    <string name="hsa_tip_message">"1. Если вы не можете получить код подтверждения, убедитесь, что вы выполнили вход в iCloud на своем устройстве Apple.r
-2. Если код подтверждения не работает, отключите двухфакторную аутентификацию. "</string>
     <string name="hsa_tip_message_shutdown_hsa">Как отключить двухфакторную аутентификацию</string>
-    <string name="hsa_tip_message_with_device">"1. Сообщение с кодом подтверждения отправлено на устройство \"%s\", связанное с Apple ID.r
-2. Если код подтверждения не работает, отключите двухфакторную аутентификацию."</string>
     <string name="hsa_tip_title">Советы:</string>
     <string name="hsa_title">Двухфакторная аутентификация</string>
     <string name="hsa_verify_failed">Ошибка аутентификации</string>
@@ -349,9 +349,6 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="hsa_verify_shutdown">Отключить</string>
     <string name="iCloud_ID_verification_tip">Нажмите \"Разрешить\" на устройстве Apple для получения кода подтверждения. Введите код подтверждения здесь.</string>
     <string name="icloud_backup_tip">Войдите в iCloud старого устройства iOS</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Откройте \"Настройки\" на вашем устройстве iOS и выберите iCloud.r
-2. Включите переключатели для контактов и других объектов.r
-3. Выберите \"Фото\" и включите переключатель \"Медиатека iCloud\"."</string>
     <string name="icloud_how_to_backup_tip_summary">Для импорта данных из iOS необходимо создать резервную копию iCloud</string>
     <string name="icloud_how_to_backup_tip_title">Советы:</string>
     <string name="icloud_login_title">Вход в iCloud</string>
@@ -370,10 +367,6 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="list_footer_tip_title">Советы:</string>
     <string name="loading_data">Загрузка данных</string>
     <string name="local_app_name">Резервирование</string>
-    <string name="local_back_up_detail_description">"Примечание:
-1. Чтобы избежать потери данных, скопируйте локальные резервные копии на свой компьютер.
-2. Всегда копируйте локальные резервные копии на свой компьютер перед выполнением сброса настроек; в противном случае локальные резервные копии будут потеряны.
-3. Где хранятся локальные резервные копии? %1$s"</string>
     <string name="local_backup_select_activity">Создать копию</string>
     <string name="local_backup_window_title">Локальное резервирование</string>
     <string name="local_button_backup_data">Создать резервную копию</string>
@@ -394,8 +387,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="local_main_backup_settings">Настройки локального резервирования</string>
     <string name="local_main_backup_time">Последняя копия: %1$s</string>
     <string name="local_main_date_format">dd.MM.yyyy HH:mm</string>
-    <string name="local_main_encrypt_backup_summary">Шифрование резервных копий при помощи вашего Mi аккаунта</string>
-    <string name="local_main_encrypt_backup_title">Шифрование резервных копий</string>
+    <string name="local_main_encrypt_backup_summary">Шифрование резервных копий при помощи аккаунта Xiaomi</string>
+    <string name="local_main_encrypt_backup_title">Подтвердите аккаунт, чтобы восстановить данные</string>
     <string name="local_main_latest_backup_time_loading">Секунду…</string>
     <string name="local_no_backup">Нет резервных копий</string>
     <string name="local_no_backup_data">Нет резервных копий</string>
@@ -414,9 +407,15 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="login_failed">Ошибка авторизации, повторите попытку.</string>
     <string name="logining">Авторизация…</string>
     <string name="midnight">Ночь</string>
-    <string name="miliao_account_guide">Используйте Mi аккаунт для доступа к Xiaomi Cloud, темам MIUI и другим Mi сервисам.</string>
+    <string name="miliao_account_guide">Используйте аккаунт Xiaomi для доступа к Xiaomi Cloud, темам MIUI и другим Mi сервисам.</string>
     <string name="miliao_account_login">Войти через Mi Talk</string>
     <string name="miuix_access_state_desc">Выбрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Свернуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Развернуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйти из режима редактирования</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новое уведомление</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Перейти в режим редактирования</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбрать все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Выберите объекты</string>
@@ -432,6 +431,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="miuix_appcompat_select_all">Выбрать все</string>
     <string name="miuix_appcompat_select_all_description">Выбрать все</string>
     <string name="miuix_appcompat_select_item">Выберите объекты</string>
+    <string name="miuix_appcompat_show_dialog_description">Всплывающее окно</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потяните вниз для обновления</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Обновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновление…</string>
@@ -440,6 +441,9 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">На данный момент это все</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Секунду…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не удалось загрузить данные</string>
+    <string name="miuix_show_password">Показать пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Свернуто</string>
+    <string name="miuix_stretchablewidget_expanded">Развернуто</string>
     <string name="mms_title">MMS</string>
     <string name="monday">Понедельник</string>
     <string name="monday_short">Пн</string>
@@ -494,18 +498,18 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="new_britem_other">Другое</string>
     <string name="new_britem_pic">Изображения</string>
     <string name="new_britem_video">Видео</string>
-    <string name="new_confirm_enable_encrypt_content">MIUI связывает зашифрованные резервные копии с вашим Mi аккаунтом. Для восстановления объектов из зашифрованных копий необходимо выполнить вход в Mi аккаунт.</string>
+    <string name="new_confirm_enable_encrypt_content">Зашифрованные резервные копии связаны с вашим аккаунтом Xiaomi. Для восстановления данных из зашифрованных копий необходимо выполнить вход в аккаунт Xiaomi.</string>
     <string name="new_confirm_enable_encrypt_title">Шифрование</string>
     <string name="new_local_button_backup">Создать резервную копию</string>
     <string name="new_local_button_restore">Восстановить</string>
     <string name="new_local_click_to_jump">Нажмите для просмотра подробных инструкций</string>
     <string name="new_local_detail_description">"Примечание:
-%1$d. Скопируйте резервные копии на компьютер, чтобы избежать потери данных. %2$s.
-%3$d. Резервные копии будут сохранены в MIUI-Backup-AllBackup."</string>
+%1$d. Скопируйте резервные копии на компьютер, чтобы избежать потери данных. %2$s
+%3$d. Резервные копии будут сохранены в MIUI > backup > AllBackup."</string>
     <string name="new_local_detail_description_global">"Примечание:
-%1$d. Скопируйте резервные копии на компьютер, чтобы избежать потери данных. %2$s.
-%3$d. Резервные копии будут сохранены в каталоге MIUI-Backup-AllBackup.
-%4$d. Некоторые приложения могут не поддерживать функцию резервного копирования."</string>
+%1$d. Скопируйте резервные копии на компьютер, чтобы избежать потери данных. %2$s
+%3$d. Резервные копии будут сохранены в MIUI > backup > AllBackup.
+%4$d. Некоторые приложения могут не поддерживать резервное копирование и восстановление."</string>
     <string name="new_local_tab_backup">Создать резервную копию</string>
     <string name="new_local_tab_backup_pad">Создать копию</string>
     <string name="new_local_tab_restore">Восстановить</string>
@@ -514,7 +518,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="new_more_settings_label">Расширенные настройки</string>
     <string name="new_pc_backup_content1">%1$d. Откройте \"%2$s\".</string>
     <string name="new_pc_backup_content2">%d. Дождитесь завершения копирования всех объектов.</string>
-    <string name="new_pc_backup_content3">%d. Откройте MIUI-backup-AllBackup и найдите нужную папку резервной копии или файл *.zip по дате в имени.</string>
+    <string name="new_pc_backup_content3">%d. Откройте MIUI > backup > AllBackup и найдите нужную папку резервной копии или файл *.zip по дате в имени.</string>
     <string name="new_pc_backup_content4">%d. Скопируйте файлы на ваш компьютер.</string>
     <string name="new_pc_backup_restore_link">Мобильное устройство</string>
     <string name="new_pc_backup_restore_link_pad">Мобильное устройство</string>
@@ -524,8 +528,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="new_pc_backup_summary4">Примечание: вы также можете копировать фото и видео из папки DCIM.</string>
     <string name="new_pc_restore_content1">%d. Подключите мобильное устройство к компьютеру при помощи USB-кабеля.</string>
     <string name="new_pc_restore_content1_pad">%d. Подключите мобильное устройство к компьютеру при помощи USB-кабеля.</string>
-    <string name="new_pc_restore_content2">%d. Скопируйте копию с вашего компьютера в MIUI-Backup-AllBackup.</string>
-    <string name="new_pc_restore_content2_pad">%d. Скопируйте копию с вашего компьютера в MIUI-Backup-AllBackup.</string>
+    <string name="new_pc_restore_content2">%d. Скопируйте копию с вашего компьютера в MIUI > backup > AllBackup.</string>
+    <string name="new_pc_restore_content2_pad">%d. Скопируйте копию с вашего компьютера в MIUI > backup > AllBackup.</string>
     <string name="new_pc_restore_content3">%1$d. Откройте \"%2$s\" и выберите объекты для восстановления.</string>
     <string name="new_pc_title">Копирование копий</string>
     <string name="new_select_file">Аудио, видео и файлы</string>
@@ -540,13 +544,15 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="new_tab_pc_restore">Восстановить</string>
     <string name="new_task_finished">Готово</string>
     <string name="new_usb_detail_description">"Примечание:
-%1$d. Этот способ позволяет резервировать сторонние приложения и их данные.
-%2$d. Убедитесь, что на USB-накопителе достаточно памяти для сохранения резервных копий."</string>
+%1$d. Создайте резервную копию контента на USB-накопителе.
+%2$d. Убедитесь, что на USB-накопителе достаточно места для создания резервной копии."</string>
     <string name="new_usb_disconnect_dialog_message">Подключите USB-накопитель.</string>
     <string name="new_usb_disconnect_dialog_title">Не удалось обнаружить USB-накопитель</string>
     <string name="new_usb_select_data_no_space">На USB-накопителе доступно только %s. Освободите место.</string>
     <string name="new_usb_tab_backup">Создать резервную копию</string>
     <string name="new_usb_tab_restore">Восстановить</string>
+    <string name="new_usb_unwritable_storage_content">Не удалось сохранить объекты на внешнее хранилище. Попробуйте подключить его снова.</string>
+    <string name="new_usb_unwritable_storage_title">Не удалось сохранить</string>
     <string name="night">Вечер</string>
     <string name="no_encrypt_password">Нет пароля шифрования</string>
     <string name="no_network">Не удалось подключиться к сети</string>
@@ -586,7 +592,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="notif_trans_wait_for_reconnecting">Соединение прервано. Подключитесь заново.</string>
     <string name="old_soft_name">Подключение через QR-код</string>
     <string name="old_way">Вы также можете создать QR-код на новом устройстве и отсканировать его старым.</string>
-    <string name="open_compatibility_mode">Turn on</string>
+    <string name="open_compatibility_mode">Включить</string>
     <string name="page_loading">Секунду…</string>
     <string name="password">Пароль</string>
     <string name="password_null">Введите пароль</string>
@@ -694,7 +700,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="sc_internal_server_error">Внутренняя ошибка сервера</string>
     <string name="sc_network_unavailable">Проверьте подключение и повторите попытку.</string>
     <string name="sc_others">Произошла ошибка</string>
-    <string name="sc_precondition_failed">К вашему Mi аккаунту необходимо привязать адрес эл. почты.</string>
+    <string name="sc_precondition_failed">Сначала добавьте адрес эл. почты к своему аккаунту Xiaomi.</string>
     <string name="sc_request_timeout">Время ожидания истекло</string>
     <string name="sc_service_unavailable">Xiaomi Cloud недоступен</string>
     <string name="sc_unaccess_password_file">Не удалось найти пароль сети Wi-Fi</string>
@@ -744,9 +750,9 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="succ_description">Успех</string>
     <string name="succeed">Успешно завершено</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
-    <string name="summary_err_backup_encrypting">Войдите в Mi аккаунт.</string>
+    <string name="summary_err_backup_encrypting">Войдите в аккаунт Xiaomi.</string>
     <string name="summary_err_backup_no_network">Не удалось подключиться к сети</string>
-    <string name="summary_err_restore_encrypting">Сбой восстановления. Убедитесь, что резервная копия была создана из вашего Mi аккаунта.</string>
+    <string name="summary_err_restore_encrypting">Не удалось восстановить данные. Убедитесь, что резервная копия была создана через ваш аккаунт Xiaomi.</string>
     <string name="summary_err_restore_no_network">Не удалось подключиться к сети</string>
     <string name="sunday">Воскресенье</string>
     <string name="sunday_short">Вс</string>
@@ -867,9 +873,6 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="trans_detail_item_app_data_selected_tip">Выбраны соответствующие приложения.</string>
     <string name="trans_detail_item_app_data_skip_data">Невозможно передать данные приложения</string>
     <string name="trans_detail_item_app_data_too_large_tip">Объект слишком большой для передачи.</string>
-    <string name="trans_detail_list_footer">"1. Вы можете выбрать для передачи отдельные приложения.
-2. Если вы выберете данные приложений, будут также выбраны соответствующие приложения.
-3. Данные приложений WeChat и QQ могут быть не переданы из-за проблем совместимости. Вы можете попробовать функции передачи в приложении."</string>
     <string name="trans_detail_page_tip">Чем больше объектов вы выберете, тем дольше будет длиться передача.</string>
     <string name="trans_detail_qq_data">Данные QQ (включая историю чатов)</string>
     <string name="trans_detail_sys_data_list_title">Системные приложения</string>
@@ -892,25 +895,18 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="trans_install_guide_scan_install_tip">"Отсканируйте QR-код старым устройством
 для загрузки и установки Mi Mover."</string>
     <string name="trans_install_guide_step1_content">Отсканируйте QR-код старым устройством для загрузки и установки Mi Mover.</string>
-    <string name="trans_install_guide_step1_title">Шаг 1</string>
     <string name="trans_install_guide_step2_content">По завершении установки нажмите кнопку \"Начать\".</string>
-    <string name="trans_install_guide_step2_title">Шаг 2</string>
     <string name="trans_intro_desc_1">На устройстве Mi подключитесь к Wi-Fi и нажмите \"Я получатель\". Выберите свое устройство iOS, войдите в iCloud и импортируйте данные.</string>
     <string name="trans_intro_desc_10">Нажмите \"Подключение через QR-код\" на новом устройстве и отсканируйте QR-код для установки соединения.</string>
     <string name="trans_intro_desc_3">Отмените передачу, выйдите из Mi Mover и начните сначала. Дублирующиеся файлы будут перезаписаны во время новой передачи.</string>
     <string name="trans_intro_desc_4">Mi Mover использует Wi-Fi для передачи файлов. Поэтому вы не сможете подключиться к интернету по Wi-Fi на устройстве, участвующем в передаче. Вы можете использовать мобильный интернет. Однако некоторые новые устройства (например, Mi 6) могут подключаться к интернету с помощью Wi-Fi во время передачи.</string>
     <string name="trans_intro_desc_4_market">Mi Mover использует Wi-Fi для передачи файлов. Поэтому вы не сможете подключиться к интернету по Wi-Fi на устройстве, участвующем в передаче. Вы можете использовать мобильный интернет.</string>
-    <string name="trans_intro_desc_5">Память на старых устройствах используется для создания пакетов данных. Перед началом передачи убедитесь, что на вашем старом устройстве имеется не менее 500 МБ - 1 ГБ свободного места.</string>
     <string name="trans_intro_desc_6">Существует несколько причин: проблемы совместимости версий системы и приложений, проблемы с сетью, проблемы совместимости, специфичные для конкретного устройства, и т. д.</string>
     <string name="trans_intro_desc_7">Профили некоторых приложений (электронный банкинг, финансы и т.п.) связаны с конкретным устройством по соображениям безопасности. Попробуйте очистить данные приложения или переустановить приложение на новом устройстве.</string>
     <string name="trans_intro_desc_8">Данные WeChat и история чатов могут быть не полностью перенесены с помощью Mi Mover. Перейдите к настройкам WeChat и выйдите из своей учетной записи, чтобы получить больше шансов на успешный перенос.</string>
     <string name="trans_intro_desc_9_method_1_dec">Перейдите на Рабочий стол > Инструменты > Отчет.</string>
-    <string name="trans_intro_desc_9_method_1_title">1. Пришлите отчет через приложение \"Отчет\".</string>
     <string name="trans_intro_desc_9_method_2_dec">Пришлите отчет по адресу miui-mover@xiaomi.com.</string>
-    <string name="trans_intro_desc_9_method_2_title">2. Отправьте нам письмо</string>
-    <string name="trans_intro_desc_9_method_3_dec">Группа в QQ для Mi Mover: 687338378</string>
-    <string name="trans_intro_desc_9_method_3_title">3. Сообщите о проблеме в QQ</string>
-    <string name="trans_intro_desc_account">Вам придется снова войти в свои аккаунты (например, Mi аккаунт, Exchange, Google и т. д.) на новом устройстве по соображениям безопасности.</string>
+    <string name="trans_intro_desc_account">По соображениям безопасности вам придется заново выполнить вход в свои аккаунты (например, аккаунт Xiaomi, Exchange, Google и т. д.) на новом устройстве.</string>
     <string name="trans_intro_desc_gms">Из-за высокой вероятности неудачных передач, вызванных проблемами совместимости, Mi Mover не поддерживает передачу данных, созданных приложениями Google.</string>
     <string name="trans_intro_desc_multiapp">Mi Mover не переносит данные клонов приложений во избежание конфликтов между файлами.</string>
     <string name="trans_intro_desc_multiuser">Mi Mover не может получить доступ к объектам во втором пространстве. Переместите объекты в первое пространство и запустите Mi Mover оттуда.</string>
@@ -953,11 +949,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="trans_operate_func_two">Способ Б</string>
     <string name="trans_operate_new_phone_tips">"Настройки > Расширенные настройки > Mi Mover
 Нажмите [Я получатель] для создания QR-кода"</string>
-    <string name="trans_operate_old_phone_tips1">"1. Установите Mi Mover на старое устройство
-2. Откройте приложение и нажмите \"Начать\"
-3. Отсканируйте QR-код старым устройством"</string>
-    <string name="trans_operate_old_phone_tips2">"Настройки > Расширенные настройки > Mi Mover
-Нажмите [Я отправитель]"</string>
+    <string name="trans_operate_old_phone_tips2">\"Настройки\" > \"Расширенные настройки\" > \"Mi Mover\" и нажмите [Я отправитель]</string>
     <string name="trans_operate_reconnect_new_tips">"Дождитесь, когда на новом устройстве появится сообщение \"Соединение прервано\".
 Затем нажмите \"Подключиться заново\" для создания QR-кода."</string>
     <string name="trans_operate_reconnect_old_tips">"Дождитесь, когда на старом устройстве появится сообщение \"Соединение прервано\".
@@ -1021,8 +1013,6 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
 Вам понравился Mi Mover?"</string>
     <string name="trans_success_dialog_survey_title">Нам важно ваше мнение</string>
     <string name="trans_success_survey_hint">Сначала заполните все поля.</string>
-    <string name="trans_switching_5g">Переключение на 5 ГГц Wi-Fi…</string>
-    <string name="trans_time_format_second">Менее 1 минуты</string>
     <string name="trans_time_spent">Прошло времени: %s</string>
     <string name="trans_wait_trans_data">"Подключено к старому устройству.
 Ожидание передачи…"</string>

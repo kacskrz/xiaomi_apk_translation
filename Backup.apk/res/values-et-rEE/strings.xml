@@ -2,9 +2,12 @@
 <resources>
     <string name="abort_backup_confirm">Varundus pole lõppenud. Peata ikkagi?</string>
     <string name="abort_restore_confirm">Taaste pole lõppenud. Peata ikkagi?</string>
-    <string name="account_contact_backup_info">Varunda Google konto, Mi Konto, ja kontaktide andmed</string>
+    <string name="accessibility_sliding_button_state_description_off">Välja lülitatud</string>
+    <string name="accessibility_sliding_button_state_description_on">Sisse lülitatud</string>
+    <string name="accessibility_tab_state_description_unselect">Ei ole valitud</string>
+    <string name="account_contact_backup_info">Varunda Google konto, Xiaomi Konto, ja kontaktide andmed</string>
     <string name="account_login">Logi sisse</string>
-    <string name="account_summary">Varunda Google konto, Mi Konto ja muud kasutaja andmed</string>
+    <string name="account_summary">Varunda Google konto, Xiaomi Konto ja muud kasutaja andmed</string>
     <string name="actionbar_button_up_description">Tagasi</string>
     <string name="afternoon">Pärastlõuna</string>
     <string name="agree_button">Nõus</string>
@@ -50,11 +53,13 @@
     <string name="backup_failed">Varundus nurjus</string>
     <string name="backup_file_error">Varundus nurjus</string>
     <string name="backup_finished">Varundus õnnestus</string>
-    <string name="backup_for_broken_screen">Backups with damaged screen</string>
+    <string name="backup_for_broken_screen">Kahjustatud ekraaniga varukoopiad</string>
     <string name="backup_hint">Hoia seade sisse lülitatud</string>
     <string name="backup_hint_onpad">Hoia seade sisse lülitatud</string>
     <string name="backup_hint_pad">Hoidke seade sisselülitatuna</string>
     <string name="backup_is_running">Varunda seade</string>
+    <string name="backup_item_collapsed">Kahandatud</string>
+    <string name="backup_item_expanded">Laiendatud</string>
     <string name="backup_new">Uus:</string>
     <string name="backup_notice_content">Teie varukoopiaid ei krüptita, mis tähendab, et kolmanda osapoole rakendused võivad neile juurde pääseda või neid muuta. Samuti võivad tekkida muud turvariskid. Hoidke varundatud üksusi hästi kaitstud keskkonnas.</string>
     <string name="backup_notice_title">Tähelepanu</string>
@@ -107,6 +112,8 @@
     <string name="cancel_moving_dialog_message">Peatage importimine kohe?</string>
     <string name="cancel_moving_dialog_title">Peatage importimine</string>
     <string name="cancel_restore">Peata</string>
+    <string name="cannot_use_backup_summary">Mi Mover juba teisaldab üksusi. Oodake, kuni praegune ülekanne lõpeb, ja alustage uuesti varundamist.</string>
+    <string name="cannot_use_backup_title">Ei saa varundada</string>
     <string name="category_contacts">Kontaktid</string>
     <string name="category_message_contacts">Sõnumid ja Kontaktid</string>
     <string name="check_privacy_policy">Vaata Privaatsuspoliitikat</string>
@@ -119,18 +126,15 @@
 Pärast uue turvaküsimuse seadistamist ja oma sünnikuupäeva kinnitamist, Sinu Apple-ID topelttuvastamine lülitatakse välja. Kui sa ei näe oma Apple ID konto valikus võimalust topelttuvastamise väljalülitamiseks, pole seda võimalik välja lülitada."</string>
     <string name="close_twice_auth_operation">"URL:
 https://appleid.apple.com/#!&amp;page=signin väljalogimiseks"</string>
-    <string name="close_twice_auth_step_1">1. Ava veebibrauser arvutis ja mine aadressile appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Logi sisse selle Apple ID-ga millelt soovid topelttuvastuse eemalda, seejärel mine konto sätetes osasse \"Security\" ja vali \"Edit\".</string>
-    <string name="close_twice_auth_step_3">3. Vali \"Turn Off Two-Factor Authentication\". Kliki uuesti kinnitamiseks.</string>
     <string name="close_twice_auth_steps">Järgige juhiseid et lülitada välja topelttuvastus Apple ID jaoks:</string>
     <string name="close_twice_auth_tutor">Lülita välja Apple ID topelttuvastus</string>
     <string name="cloud_app_name">Xiaomi Cloud varundus</string>
     <string name="cloud_backup_hint">Et pääseda juurde oma varundustele, logi sisse nüüd</string>
-    <string name="cloud_backup_login">Logi sisse Mi Kontole</string>
+    <string name="cloud_backup_login">Logi oma Xiaomi kontole sisse</string>
     <string name="cloud_backup_window_title">Xiaomi Cloud varundused</string>
     <string name="cloud_home_title">Xiaomi Cloud</string>
     <string name="cloud_item_info_summary">" (Kohalik: %1$s | Xiaomi Cloud: %2$s)"</string>
-    <string name="cloud_last_backup">"Viimane varundus oli  "</string>
+    <string name="cloud_last_backup">"Viimane varundus oli "</string>
     <string name="cloud_no_backup">Varundused puuduvad</string>
     <string name="cloud_restore_guide">Et taastada kasutaja andmed rakenduse %s jaoks, vajuta Taasta</string>
     <string name="cloud_restore_title">Taasta varundatud andmed</string>
@@ -154,7 +158,7 @@ https://appleid.apple.com/#!&amp;page=signin väljalogimiseks"</string>
     <string name="data_detail_description">Üksikasjad</string>
     <string name="data_item_desc">Andmed</string>
     <string name="data_no_enough_space_message">Seadmes pole piisavalt salvestusruumi.</string>
-    <string name="date_format">HH:mm:ss dd-MM-yyyy</string>
+    <string name="date_format">dd.MM.yyyy HH:mm:ss</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -188,7 +192,7 @@ https://appleid.apple.com/#!&amp;page=signin väljalogimiseks"</string>
     <string name="enable_encrypt_description">Krüpteeri</string>
     <string name="enable_encrypt_fail">Krüpteerimise viga</string>
     <string name="enable_encrypt_indicator">Puuduta et krüpteerida</string>
-    <string name="enable_encrypt_summery1">Logi sisse oma Mi Kontoga te pääseda juurde krüpteeritud varundustele.</string>
+    <string name="enable_encrypt_summery1">Logi sisse oma Xiaomi Kontoga te pääseda juurde krüpteeritud varundustele.</string>
     <string name="enable_encrypt_summery2">Teie varundused krüpteeritakse automaatselt. Te peate sisenema oma Xiaomi Kontoga, et neile juurde pääseda.</string>
     <string name="enable_encrypt_title">Krüpteeri varundused</string>
     <string name="enable_local_backup">Lülita kohalikud varundused sisse</string>
@@ -219,7 +223,7 @@ https://appleid.apple.com/#!&amp;page=signin väljalogimiseks"</string>
     <string name="exchange_account">Vaheta kontot</string>
     <string name="fail">Ebaõnnestus</string>
     <string name="failed_description">Ebaõnnestus</string>
-    <string name="feature_title_account">Mi Konto</string>
+    <string name="feature_title_account">Xiaomi konto</string>
     <string name="feature_title_antispam">Blokeerimisloend</string>
     <string name="feature_title_call_log">Kõne ajalugu</string>
     <string name="feature_title_contacts">Kontaktid</string>
@@ -231,8 +235,8 @@ https://appleid.apple.com/#!&amp;page=signin väljalogimiseks"</string>
     <string name="findlost_contact">Taasta kontaktid</string>
     <string name="findlost_contact_online">Taasta kontaktid pilvest</string>
     <string name="flash_drive_backup_btn">Kopeeri USB-draivile</string>
-    <string name="flash_drive_backup_note">"Kopeeri rakendused USB-draivile.
-Enne alustamist veendu, et USB-draivil on piisavalt mahtu."</string>
+    <string name="flash_drive_backup_note">"Varundage sisu USB-draivile.
+Enne alustamist veenduge, et USB-draivil oleks piisavalt mahtu."</string>
     <string name="flash_drive_backup_restore">USB varukoopiad</string>
     <string name="flash_drive_connection_failed">USB-draiv ei ole ühendatud</string>
     <string name="flash_drive_restore_btn">Taasta USB-draivilt</string>
@@ -307,11 +311,7 @@ Enne alustamist veendu, et USB-draivil on piisavalt mahtu."</string>
     <string name="hsa_send_again_countdown">Uuesti saatmine (%ds)</string>
     <string name="hsa_send_failed">Kinnituskoodi ei õnnestunud saata. Oodake minut või kaks ja proovige uuesti.</string>
     <string name="hsa_sending">Saatmine…</string>
-    <string name="hsa_tip_message">"1. Kui te ei saa kinnituskoodi, veenduge, et ega te ei ole juba Apple'i seadmes iCloudi sisse loginud.r
-2. Kui kinnituskoodi sisestamine ei aita, lülitage välja kaheastmeline autentimine. "</string>
     <string name="hsa_tip_message_shutdown_hsa">Kuidas kahefaktorilist autoriseerimist välja lülitada</string>
-    <string name="hsa_tip_message_with_device">"1. Kinnituskoodiga sõnum on saadetud teie Apple ID-ga soetud “%s”-le.r
-2. Kui kinnituskood ei tööta, siis lülitage kahefaktoriline autoriseerimine välja."</string>
     <string name="hsa_tip_title">Nõuanded:</string>
     <string name="hsa_title">Topelttuvastus</string>
     <string name="hsa_verify_failed">Topelttuvastus ebaõnnetus</string>
@@ -320,9 +320,6 @@ Enne alustamist veendu, et USB-draivil on piisavalt mahtu."</string>
     <string name="hsa_verify_shutdown">Lülitage välja</string>
     <string name="iCloud_ID_verification_tip">Kinnituskoodi kuvamiseks puudutage oma Apple seadmes „Luba“. Sisestage kinnituskood siia.</string>
     <string name="icloud_backup_tip">Logi sisse Sinu eelneva Android seadme iCloud kontosse</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Avage oma iOS seadme Sätted ja valige iCloud.r
-2. Vajutage kontaktide ja muude üksuste lüliteid.r
-3. Valige Fotod ning puudutage iCloud Fotoraamatukogu lülitit."</string>
     <string name="icloud_how_to_backup_tip_summary">Kandmaks üle andmeid iOSist pead need esmalt varundama iCloudi.</string>
     <string name="icloud_how_to_backup_tip_title">Nõuanded:</string>
     <string name="icloud_login_title">Logi sisse iCloudi</string>
@@ -341,10 +338,6 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="list_footer_tip_title">Vihjed:</string>
     <string name="loading_data">Andmete laadimine</string>
     <string name="local_app_name">Varundus</string>
-    <string name="local_back_up_detail_description">"Note:
-1. Andmete kadumise vältimiseks kopeerige kohalikud varukoopiad oma arvutisse.
-2. Enne tehaseseadete lähtestamist kopeerige kohalikud varukoopiad alati arvutisse; vastasel juhul lähevad kohalikud varukoopiad kaotsi.
-3. Kus hoitakse kohalikke varukoopiaid? %1$s"</string>
     <string name="local_backup_select_activity">Loo varundus</string>
     <string name="local_backup_window_title">Kohalikud varundatud andmed</string>
     <string name="local_button_backup_data">Varunda</string>
@@ -364,9 +357,9 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="local_main_backup_manager_title">Halda varundusi</string>
     <string name="local_main_backup_settings">Kohalikud varundusseaded</string>
     <string name="local_main_backup_time">Viimane varundus: %1$s</string>
-    <string name="local_main_date_format">dd/MM/yyyy HH:mm</string>
-    <string name="local_main_encrypt_backup_summary">Krüpteerige oma Mi konto abil varundatud üksused</string>
-    <string name="local_main_encrypt_backup_title">Krüpteeri varundused</string>
+    <string name="local_main_date_format">dd.MM.yyyy HH.mm</string>
+    <string name="local_main_encrypt_backup_summary">Krüpteerige oma Xiaomi Konto abil varundatud üksused</string>
+    <string name="local_main_encrypt_backup_title">Üksuste taastamiseks kinnitage konto</string>
     <string name="local_main_latest_backup_time_loading">Üks hetk…</string>
     <string name="local_no_backup">Varundused puuduvad.</string>
     <string name="local_no_backup_data">Siin ei ole veel varundusi</string>
@@ -385,9 +378,15 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="login_failed">Sisse logimine nurjus, proovige uuesti.</string>
     <string name="logining">Sisse logimine…</string>
     <string name="midnight">Öö</string>
-    <string name="miliao_account_guide">"Kasuta oma Mi Kontot et siseneda kõikjalt Xiaomi Cloud'i, MIUI Theme'i ja teistesse Mi teenustesse."</string>
+    <string name="miliao_account_guide">"Kasuta oma Xiaomi Kontot et siseneda kõikjalt Xiaomi Cloud'i, MIUI Teemadesse ja teistesse Mi teenustesse."</string>
     <string name="miliao_account_login">"Logi sisse Mi Vestlus'ega"</string>
     <string name="miuix_access_state_desc">Valitud</string>
+    <string name="miuix_accessibility_title">Pealkiri</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Kahandatud</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Laiendatud</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Lahku muutmise režiimist</string>
+    <string name="miuix_appcompat_accessibility_new_message">Uus teavitus</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Alusta muutmise režiimis</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kustuta kõik valikud</string>
     <string name="miuix_appcompat_action_mode_select_all">Vali kõik</string>
     <string name="miuix_appcompat_action_mode_title_empty">Vali üksused</string>
@@ -399,10 +398,12 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="miuix_appcompat_deselect_all_description">Kustuta kõik valikud</string>
     <string name="miuix_appcompat_edit">Muuda</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Tühista</string>
-    <string name="miuix_appcompat_search_input_description">Otsi</string>
+    <string name="miuix_appcompat_search_input_description">Otsing</string>
     <string name="miuix_appcompat_select_all">Vali kõik</string>
     <string name="miuix_appcompat_select_all_description">Vali kõik</string>
     <string name="miuix_appcompat_select_item">Vali üksused</string>
+    <string name="miuix_appcompat_show_dialog_description">Hüpikaken</string>
+    <string name="miuix_progressbar_loading">Laenamine</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tõmmake värskendamiseks alla</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Edukalt värskendatud</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Värskendamine…</string>
@@ -411,6 +412,9 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">See on praeguseks kõik</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Üks hetk…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ei saanud üksuseid laadida</string>
+    <string name="miuix_show_password">Näita parooli</string>
+    <string name="miuix_stretchablewidget_collapsed">Kahandatud</string>
+    <string name="miuix_stretchablewidget_expanded">Laiendatud</string>
     <string name="mms_title">Multimeedia sõnumid</string>
     <string name="monday">esmaspäev</string>
     <string name="monday_short">E</string>
@@ -465,27 +469,27 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="new_britem_other">Muu</string>
     <string name="new_britem_pic">Pildid</string>
     <string name="new_britem_video">Videod</string>
-    <string name="new_confirm_enable_encrypt_content">MIUI seostab krüptitud varukoopiad teie Mi kontoga. Sellistest varukoopiatest üksuste taastamiseks peate oma Mi kontole sisse logima.</string>
+    <string name="new_confirm_enable_encrypt_content">Krüptitud varukoopiad on seotud teie Xiaomi kontoga. Sellistest varukoopiatest üksuste taastamiseks peate oma Xiaomi kontole sisse logima.</string>
     <string name="new_confirm_enable_encrypt_title">Krüpteeri</string>
     <string name="new_local_button_backup">Varundamine</string>
     <string name="new_local_button_restore">Taasta</string>
     <string name="new_local_click_to_jump">Puudutage üksikasjalike juhiste kuvamiseks</string>
     <string name="new_local_detail_description">"Märkus:
-%1$d. Andmete kadumise vältimiseks kopeerige varukoopiad arvutisse. %2$s.
-%3$d. Varundused salvestatakse asukohta MIUI-Backup-AllBackup."</string>
+%1$d. Andmete kadumise vältimiseks kopeerige varukoopiad oma arvutisse. %2$s
+%3$d. Varukoopiad salvestatakse MIUI > backup > AllBackup."</string>
     <string name="new_local_detail_description_global">"Märkus:
-%1$d. Andmete kadumise vältimiseks kopeerige varukoopiad arvutisse. %2$s.
-%3$d. Varukoopiad salvestatakse kausta MIUI-Backup-AllBackup.
-%4$d. Mõned rakendused ei pruugi toetada varundamist."</string>
+%1$d. Andmete kadumise vältimiseks kopeerige varukoopiad oma arvutisse. %2$s
+%3$d. Varukoopiad salvestatakse MIUI > backup > AllBackup.
+%4$d. Mõnda rakendust ei pruugi olla võimalik varundada või taastada."</string>
     <string name="new_local_tab_backup">Varunda</string>
     <string name="new_local_tab_backup_pad">Varundus</string>
     <string name="new_local_tab_restore">Taasta</string>
     <string name="new_local_tab_restore_pad">Taasta</string>
     <string name="new_low_storage_title">Talletusruumi pole piisavalt</string>
     <string name="new_more_settings_label">Lisaseaded</string>
-    <string name="new_pc_backup_content1">%1$d. Ava \"%2$s\".</string>
+    <string name="new_pc_backup_content1">%1$d. Avage \"%2$s\".</string>
     <string name="new_pc_backup_content2">%d. Oodake, kuni kõik üksused varundatakse.</string>
-    <string name="new_pc_backup_content3">%d. Avage MIUI-backup-AllBackup ja leidke otsitav varukaust või *.zip-fail nimes oleva kuupäeva järgi.</string>
+    <string name="new_pc_backup_content3">%d. Avage MIUI > backup > AllBackup ja leidke otsitav varukaust või *.zip-fail nimes oleva kuupäeva järgi.</string>
     <string name="new_pc_backup_content4">%d. Kopeerige fail oma arvutisse.</string>
     <string name="new_pc_backup_restore_link">Mobiilseade</string>
     <string name="new_pc_backup_restore_link_pad">Mobiilne seade</string>
@@ -495,9 +499,9 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="new_pc_backup_summary4">Märkus: fotosid ja videoid saate kopeerida ka asukohast DCIM.</string>
     <string name="new_pc_restore_content1">%d. Ühendage oma mobiilne seade USB-kaabli abil arvutiga.</string>
     <string name="new_pc_restore_content1_pad">%d. Ühendage oma mobiilne seade USB-kaabli abil arvutiga.</string>
-    <string name="new_pc_restore_content2">%d. Kopeerige varundus oma arvutist asukohta MIUI-Backup-AllBackup.</string>
-    <string name="new_pc_restore_content2_pad">%d. Kopeerige varundus oma arvutist asukohta MIUI-Backup-AllBackup.</string>
-    <string name="new_pc_restore_content3">%1$d. Ava \"%2$s\" ja valige üksused taastamiseks.</string>
+    <string name="new_pc_restore_content2">%d. Kopeerige varukoopia oma arvutist MIUI > backup > AllBackup.</string>
+    <string name="new_pc_restore_content2_pad">%d. Kopeerige varukoopia oma arvutist MIUI > backup > AllBackup.</string>
+    <string name="new_pc_restore_content3">%1$d. Avage \"%2$s\" ja valige üksused taastamiseks.</string>
     <string name="new_pc_title">Kopeerige varundused</string>
     <string name="new_select_file">Heli, videod ja failid</string>
     <string name="new_select_message">Lühisõnumid, kontaktid ja kõneajalugu</string>
@@ -511,16 +515,18 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="new_tab_pc_restore">Taasta</string>
     <string name="new_task_finished">Valmis</string>
     <string name="new_usb_detail_description">"Märkus:
-%1$d. See meetod võimaldab varundada kolmandate osapoolte rakendusi ja nende andmeid.
-%2$d. Veenduge, et USB-kettal oleks piisavalt ruumi varukoopiate salvestamiseks."</string>
+%1$d. Varundage sisu USB-draivile.
+%2$d. Enne alustamist veenduge, et USB-draivil oleks piisavalt mahtu."</string>
     <string name="new_usb_disconnect_dialog_message">Ühendage esmalt USB-ketas.</string>
     <string name="new_usb_disconnect_dialog_title">USB-ketast ei leitud</string>
     <string name="new_usb_select_data_no_space">Ainult %s salvestusruumi on saadaval teie USB-kettal. Vabastage salvestusruumi.</string>
     <string name="new_usb_tab_backup">Varunda</string>
     <string name="new_usb_tab_restore">Taasta</string>
+    <string name="new_usb_unwritable_storage_content">Üksuste salvestamine välise talletusruumi seadmesse ebaõnnestus. Proovi uuesti ühendada.</string>
+    <string name="new_usb_unwritable_storage_title">Salvestamine ebaõnnestus</string>
     <string name="night">Õhtu</string>
     <string name="no_encrypt_password">Parool puudub</string>
-    <string name="no_network">Ei saa võrguga ühendust</string>
+    <string name="no_network">Ei õnnestu võrguga ühendust luua</string>
     <string name="noon">Keskpäev</string>
     <string name="not_enough_storage_tips">Mäluruumi pole piisavalt. Vabastage ruumi ja proovige uuesti.</string>
     <string name="note_title">Märkmed</string>
@@ -556,7 +562,7 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="notif_trans_wait_for_reconnecting">Ühendus katkestati. Loo uus ühendus.</string>
     <string name="old_soft_name">Ühenda QR-koodi abil</string>
     <string name="old_way">Samuti saate oma uues seadmes luua QR-koodi ja skannida seda vana abil.</string>
-    <string name="open_compatibility_mode">Turn on</string>
+    <string name="open_compatibility_mode">Lülitage sisse</string>
     <string name="page_loading">Oodake hetk…</string>
     <string name="password">Parool</string>
     <string name="password_null">Parool ei tohi olla tühi</string>
@@ -631,7 +637,7 @@ peaksite te looma kõigepealt iCloudi varunduse."</string>
     <string name="refresh">Värskenda</string>
     <string name="remote_receive">Vastuvõtt</string>
     <string name="restore">Taasta</string>
-    <string name="restore_backup">Varunda ja taasta</string>
+    <string name="restore_backup">Varundamine ja taastamine</string>
     <string name="restore_contact">Taasta kontaktid</string>
     <string name="restore_contact_content">Taastus võib luua topelt kontaktid.</string>
     <string name="restore_contacts_hit">Võib vaja minna uuesti sisse logida, et näha taastatud andmed.</string>
@@ -663,7 +669,7 @@ Vabastage vähemalt %s."</string>
     <string name="sc_internal_server_error">Sisemise serveri viga</string>
     <string name="sc_network_unavailable">Kontrolli võrgu ühendust ja proovi uuesti.</string>
     <string name="sc_others">Ilmnes viga</string>
-    <string name="sc_precondition_failed">Esmalt peate lisama meili aadressi oma Mi Kontole.</string>
+    <string name="sc_precondition_failed">Esmalt peate lisama meili aadressi oma Xiaomi Kontole.</string>
     <string name="sc_request_timeout">Päring aegus</string>
     <string name="sc_service_unavailable">Xiaomi Cloud ei ole saadaval</string>
     <string name="sc_unaccess_password_file">Ei leia Wi-Fi võrgu parooli</string>
@@ -710,9 +716,9 @@ Vabastage vähemalt %s."</string>
     <string name="subtitle_compatibility_mode">Need rakendused on ühildumatud %d-bitise arhitektuuriga. Toksake allpool, et lülitada sisse rakenduste ühilduvusrežiim nende rakenduste taastamiseks.</string>
     <string name="succ_description">Edukalt</string>
     <string name="succeed">Valmis</string>
-    <string name="summary_err_backup_encrypting">Logi sisse Mi Kontole.</string>
+    <string name="summary_err_backup_encrypting">Logi oma Xiaomi kontole sisse.</string>
     <string name="summary_err_backup_no_network">Võrguga ühendamine nurjus</string>
-    <string name="summary_err_restore_encrypting">Taastus nurjus. Veendu et see varundus sai tehtud kasutades Mi Kontot.</string>
+    <string name="summary_err_restore_encrypting">Taastus nurjus. Veendu et see varundus sai tehtud kasutades Xiaomi Kontot.</string>
     <string name="summary_err_restore_no_network">Võrguga ühendamine nurjus</string>
     <string name="sunday">pühapäev</string>
     <string name="sunday_short">P</string>
@@ -731,7 +737,7 @@ Vabastage vähemalt %s."</string>
     <string name="task_finished">Varundus õnnestus</string>
     <string name="task_local_backup_cancel_dialog">Varundus pole lõppenud. Peata ikkagi?</string>
     <string name="task_pending">Ootamine…</string>
-    <string name="task_post_running">Varundan</string>
+    <string name="task_post_running">Varundan…</string>
     <string name="task_pre_running">Alustamine…</string>
     <string name="task_progress">Edeneb</string>
     <string name="task_restore_cancel_dialog">Katkestades nüüd võib põhjustada andmete kao.</string>
@@ -797,11 +803,11 @@ Vabastage vähemalt %s."</string>
     <string name="tomorrow">Homme</string>
     <string name="total_size">, %s</string>
     <string name="trans_backingup">Varundamine…</string>
-    <string name="trans_backingup_no_items">Sünkroniseerimine…</string>
-    <string name="trans_button_cancel">Katkesta</string>
+    <string name="trans_backingup_no_items">Sünkroonimine…</string>
+    <string name="trans_button_cancel">Tühista</string>
     <string name="trans_button_exit">Välju</string>
     <string name="trans_button_stay">Jää</string>
-    <string name="trans_calculating">Kalkuleerin</string>
+    <string name="trans_calculating">Arvutamine…</string>
     <string name="trans_calculating_app_sd_description">SD kaardil olevad andmed</string>
     <string name="trans_calculating_media_description">Meedia failid</string>
     <string name="trans_calculating_tip">Arvutamine %s…</string>
@@ -833,9 +839,6 @@ Vabastage vähemalt %s."</string>
     <string name="trans_detail_item_app_data_selected_tip">Samuti valitud vastavad rakendused.</string>
     <string name="trans_detail_item_app_data_skip_data">Ei saa rakenduse andmeid edastada</string>
     <string name="trans_detail_item_app_data_too_large_tip">Tundub, et üksus on edastamiseks liiga suur.</string>
-    <string name="trans_detail_list_footer">"1. Võite valida üksikud rakendused, mida soovite üle kanda.
-2. Kui valite rakenduse andmeid, valitakse ka vastavad rakendused.
-3. Ühilduvusprobleemide tõttu ei pruugita WeChati ja QQ rakenduse andmeid edastada. Te võite proovida rakendusesisesed ülekandevõimalusi."</string>
     <string name="trans_detail_page_tip">Mida rohkem üksuseid te valite, seda kauem kestab edastus.</string>
     <string name="trans_detail_qq_data">QQ andmed (kaasa arvatud vestluse ajalugu)</string>
     <string name="trans_detail_sys_data_list_title">Süsteemirakendused</string>
@@ -858,25 +861,18 @@ Vabastage vähemalt %s."</string>
     <string name="trans_install_guide_scan_install_tip">"Skaneeri see QR kood oma vana telefoniga
 to laadi alla ja installeeri Mi Mover."</string>
     <string name="trans_install_guide_step1_content">\"Mi Moveri\" allalaadimiseks ja installeerimiseks skaneeri oma vana telefoniga see QR kood.</string>
-    <string name="trans_install_guide_step1_title">1. samm</string>
     <string name="trans_install_guide_step2_content">Kui installeerimine on lõppenud, klõpsa allpool \"Start\".</string>
-    <string name="trans_install_guide_step2_title">2. samm</string>
     <string name="trans_intro_desc_1">"Oma Mi telefonis loo ühendus Wi-Fi'ga ja toksa \"Olen saaja\". Vali oma iOS seade, sisene iCloud'i ja impordi andmed."</string>
     <string name="trans_intro_desc_10">Puudutage \"Ühenda QR-koodi abil\" uues seadmes ja skannige QR-koodi ühenduse loomiseks.</string>
     <string name="trans_intro_desc_3">"Katkestage edastus, väljuge Mi Mover'ist, ning alustage uuesti. Dublikaatfailid kirjutatakse uue edastuse ajal üle."</string>
     <string name="trans_intro_desc_4">"Mi Mover kasutab failide edastamiseks Wi-Fi't. Seetõttu ei saa te ülekande ajal kummalgi seadmel Wi-Fi kaudu internetiga ühendust. Te saate aga endiselt kasutada mobiilandmesidet. Siiski, mõnedel uuematel seadmetel (näiteks Mi 6) on ülekannete ajal endiselt võimalik Wi-Fi kaudu internetiga ühendust saada."</string>
     <string name="trans_intro_desc_4_market">Mi Mover kasutab wifit failide edastamiseks. Seetõttu ei saa sa ülekande ajal wifi abil üheski seadmes internetiga ühendust. Kuid sa saad endiselt kasutada mobiiliandmeid.</string>
-    <string name="trans_intro_desc_5">Vanadel seadmetel olevat talletusruumi kasutatakse ülekandepakkide loomiseks. Veenduge enne ülekande alustamist, et teie vanas telefonis on vähemalt 500MB – 1GB vaba talletusruumi.</string>
     <string name="trans_intro_desc_6">Sellel on mitmeid põhjuseid: süsteemi ja rakenduse kokkusobivusvead, võrguprobleemid, kokkusobivusvead mis on teatud seadmele omased jne.</string>
     <string name="trans_intro_desc_7">Mõned rakenduseprofiilid (e-pangandus, finants jne) on teatud seadmetega turvalisus kaalutlustel seotud. Proovige oma uuel seadmel rakenduse andmed kustutada või paigaldage rakendus uuesti.</string>
     <string name="trans_intro_desc_8">"WeChat rakenduse andmed ja vestlusajalugu ei pruugi Mi Mover'it kasutades täielikult edastada. Et eduka edastuse tõenäosus oleks suurem, minge WeChat seadetesse ja logige oma kontolt välja."</string>
     <string name="trans_intro_desc_9_method_1_dec">Mine kodulehele > Tööriistad > Tagasiside.</string>
-    <string name="trans_intro_desc_9_method_1_title">1. Anna meile tagasisidet, kasutades \"Tagasiside\" rakendust.</string>
     <string name="trans_intro_desc_9_method_2_dec">Saada oma tagasiside aadressil miui-mover@xiaomi.com.</string>
-    <string name="trans_intro_desc_9_method_2_title">Saada meile meil</string>
-    <string name="trans_intro_desc_9_method_3_dec">"Mi Mover'i QQ Grupp: 687338378"</string>
-    <string name="trans_intro_desc_9_method_3_title">3. Teata probleemidest QQ-ga</string>
-    <string name="trans_intro_desc_account">Te peate uuel seadmel oma kontodele (nt Mi Konto, Exchange, Google jne) turvalisuskaalutlustel uuesti sisse logima.</string>
+    <string name="trans_intro_desc_account">Te peate uuel seadmel oma kontodele (nt Xiaomi Konto, Exchange, Google jne) turvalisuskaalutlustel uuesti sisse logima.</string>
     <string name="trans_intro_desc_gms">"Tänu ühilduvuse probleemidest tingitud edutute ülekannete suurele tõenäosusele ei toeta Mi Mover Google'i rakenduste genereeritud andmete edastamist."</string>
     <string name="trans_intro_desc_multiapp">Mi Mover ei edasta failidevahelise konflikti vältimiseks Duaalrakenduste andmeid.</string>
     <string name="trans_intro_desc_multiuser">Mi Mover ei edasta failidevahelise konflikti vältimiseks Duaalrakenduste andmeid.</string>
@@ -910,24 +906,21 @@ Vabasta ruumi või kanna üle ainult olulised elemendid."</string>
     <string name="trans_old_phone_low_space_msg">Mi Mover vajab ülekantavate andmete pakkimiseks veidi talletusruumi, aga tundub, et vanas seadmes ei ole piisavalt ruumi saadaval. Vabasta ruumi \"Turvalisus\" all või kanna üle ainult olulised elemendid.</string>
     <string name="trans_old_phone_low_space_title">Talletusruumi pole piisavalt</string>
     <string name="trans_one_key_migrate">Mi Mover</string>
-    <string name="trans_open_camera_failed_message">Taaskäivita seade või kontrolli, kas Mi Moverit on lubatud kasutada&lt;b>Kaamera&lt;/b>.</string>
+    <string name="trans_open_camera_failed_message">Taaskäivitage seade või kontrollige, kas Mi Moveril on lubatud kasutada&lt;b>Kaamerat&lt;/b>.</string>
     <string name="trans_open_camera_failed_title">Ei saanud kaameraga ühendust</string>
-    <string name="trans_open_location_button">Lülita sisse</string>
-    <string name="trans_open_location_message">Saadaolevate wifi-võrkude nimekirja saamiseks lülita sisse asukoha teenus.</string>
-    <string name="trans_open_location_title">Lülita asukoha teenused sisse</string>
+    <string name="trans_open_location_button">Lülitage sisse</string>
+    <string name="trans_open_location_message">Saadaolevate Wi-Fi-võrkude nimekirja saamiseks lülitage sisse asukohateenus.</string>
+    <string name="trans_open_location_title">Lülitage asukohateenused sisse</string>
     <string name="trans_operate_func_one">Meetod A</string>
     <string name="trans_operate_func_two">Meetod B</string>
     <string name="trans_operate_new_phone_tips">"Mine Seaded > Lisaseaded > Mi Mover
  vali [olen vastuvõtja] et luua QR kood"</string>
-    <string name="trans_operate_old_phone_tips1">"1. Installi Mi Mover rakendus oma vanasse seadmesse
-2. Ava rakendus ja vali Start
-3. Skaneeri QR kood oma vanema seadmega"</string>
     <string name="trans_operate_old_phone_tips2">Mine Seaded > Lisaseaded > Mi Mover, vali [olen saatja]</string>
     <string name="trans_operate_reconnect_new_tips">"Oodake kuni uus telefon näitab \"Ühendust segati\".
 Seejärel toksake QR koodi loomiseks \"Ühenda uuesti\"."</string>
     <string name="trans_operate_reconnect_old_tips">"Oodake kuni vana telefon ütleb \"Ühendust segati\".
 Seejärel toksake QR koodi loomiseks \"Ühenda uuesti\"."</string>
-    <string name="trans_operate_tip_for_other_android">Ava oma vanas telefonis Mi Mover, vajuta \"Start\" ja skänni ülal olev QR kood.</string>
+    <string name="trans_operate_tip_for_other_android">Avage oma vanas telefonis Mi Mover, vajutage \"Start\" ja skannige ülal olev QR kood.</string>
     <string name="trans_pausing">Ootamine…</string>
     <string name="trans_please_waiting">Oodake hetk…</string>
     <string name="trans_progress_subdescript_br_receiver">Taastatakse %1$s, %2$s lõpetatud</string>
@@ -986,8 +979,6 @@ Hoia seadmeid üksteise läheduses."</string>
 Kas Mi Mover meeldis sulle?"</string>
     <string name="trans_success_dialog_survey_title">Me hindame kõrgelt sinu tagasisidet</string>
     <string name="trans_success_survey_hint">Täida alguses kõik väljad.</string>
-    <string name="trans_switching_5g">Üleminek 5GHz Wi-Fi-le…</string>
-    <string name="trans_time_format_second">Vähem kui minut</string>
     <string name="trans_time_spent">Kulunud aeg: %s</string>
     <string name="trans_wait_trans_data">"Ühendatud vana seadmesse
 Ootan üleviimist…"</string>
@@ -1020,9 +1011,9 @@ Tee ruumi või kanna sinna vaid oluline."</string>
     <string name="user_notice_message">Mõned funktsioonid toimivad ainult internetiühenduse olemasolul.</string>
     <string name="user_notice_title">Tähelepanu</string>
     <string name="view_password_description">Näita parooli</string>
-    <string name="wait_link">"Ava Mi Mover vanal seadme,
-vajuta \"Ma olen saatja\" ja valige kuumkoht ühendumiseks
-Ära sulge lehekülge enne ühenduse loomist."</string>
+    <string name="wait_link">"Avage Mi Mover vanas seadmes,
+vajutage \"Olen saatja\" ja valige kuumkoht ühendumiseks.
+Ärge sulgege lehekülge enne ühenduse loomist."</string>
     <string name="waiting">Oodake hetk…</string>
     <string name="wednesday">kolmapäev</string>
     <string name="wednesday_short">K</string>
