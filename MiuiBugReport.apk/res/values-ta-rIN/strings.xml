@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="access_denied_info">மிக அதிக முயற்சிகள். ஓரிரு நிமிடங்கள் காத்திருந்து மீண்டும் முயலவும்.</string>
+    <string name="accessibility_sliding_button_state_description_off">ஆஃப் செய்யப்பட்டது</string>
+    <string name="accessibility_sliding_button_state_description_on">ஆன் செய்யப்பட்டது</string>
+    <string name="accessibility_tab_state_description_unselect">தேர்ந்தெடுக்கவில்லை</string>
     <string name="account_crop_user_avatar">படத்தைச் செதுக்கு</string>
     <string name="account_empty_user_name">உங்களது Mi கணக்கு பயனர்பெயரை உள்ளிடவும்</string>
     <string name="account_error_all_space_user_name">பயனர்பெயரில் எல்லாமே ஸ்பேஸ் எழுத்துகளாக இருக்க முடியாது</string>
@@ -196,6 +199,7 @@ ID:%s
     <string name="feedback_answer_detail_submit_dialog_content">நீங்கள் சந்தித்த சிக்கலை நீங்கள் விவரிக்கலாம், நாங்கள் அதை சரிசெய்ய முயற்சி செய்வோம். பின்னூட்டத்தை சமர்ப்பிக்கவா?</string>
     <string name="feedback_answer_detail_submit_dialog_title">பின்னூட்டத்தைச் சமர்ப்பிக்கவா?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s பிரச்சினை \"%2$s\"</string>
+    <string name="feedback_button">பட்டன்</string>
     <string name="feedback_choose_app_tag">பிரச்சனையைத் தேர்ந்தெடுக்கவும்</string>
     <string name="feedback_choose_device">சாதனத்தைத் தேர்ந்தெடு</string>
     <string name="feedback_choose_device_hint">நீங்கள் இன்னமும் எந்தச் சாதனங்களையும் தேர்ந்தெடுக்கவில்லை</string>
@@ -209,10 +213,10 @@ ID:%s
     <string name="feedback_continue">பின்னூட்டத்தைச் சமர்ப்பி</string>
     <string name="feedback_delete_images">படங்களை நீக்கு</string>
     <string name="feedback_description">விளக்கம்</string>
-    <string name="feedback_description_hint">"நீங்கள் எதிர்கொண்ட பிரச்சனையை இங்கே விவரிக்கவும்.
-%1$d. எந்தச் செயலி அல்லது பக்கத்தில் நீங்கள் இந்தச் சிக்கலை எதிர்கொண்டீர்கள்?
-%2$d. நீங்கள் எதைச் செய்த பிறகு, இந்தச் சிக்கல் தோன்றியது?
-%3$d. இந்தச் சிக்கலைச் சரிசெய்ய உதவக் கூடிய கூடுதல் தகவல்களை எங்களுக்கு வழங்குங்கள்."</string>
+    <string name="feedback_description_hint">"நீங்கள் சந்தித்த சிக்கலை விவரியுங்கள்:
+%1$d. இந்த சிக்கலை எந்த ஆப் அல்லது பக்கத்தில் சந்தித்தீர்கள்
+%2$d. எந்த சிக்கலை மற்றும் எந்த படியில் சந்தித்தீர்கள்
+%3$d. வேறென்ன விவரங்கள்"</string>
     <string name="feedback_description_hint_suggestion">எதை மேம்படுத்தலாம் என்று சொல்லுங்கள்.</string>
     <string name="feedback_description_hint_suggestion_pad">எதை மேம்படுத்தலாம் என்று சொல்லுங்கள்.</string>
     <string name="feedback_description_suggest_hint">நீங்கள் ஒரு புதிய அம்சத்தைச் () சேர்க்க வேண்டும் என்று விரும்புகிறேன், ஏனெனில் எனக்கு () தேவை.</string>
@@ -247,6 +251,7 @@ ID:%s
     <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Jira-ஐ உருவாக்குகிறது…</string>
     <string name="feedback_package_log_failed">பதிவுகளை சுருக்க முடியவில்லை</string>
+    <string name="feedback_radio_button">விருப்ப பட்டன்</string>
     <string name="feedback_remind_login_btn">உள்நுழையவும்</string>
     <string name="feedback_report_remind_login_desc">எங்கள் பொறியாளர்கள் உங்களைத் தொடர்பு கொள்ள உதவுவதற்கு, Xiaomi கணக்கைக் கொண்டு உள்நுழையவும்.</string>
     <string name="feedback_report_remind_login_desc2">உங்கள் புகாரின் செயல்நிலையை, “எனது பின்னூட்டம்” என்பதன் கீழ் காணலாம்.</string>
@@ -385,7 +390,7 @@ ID:%s
     <string name="kr_authorization_contact">கணக்கு</string>
     <string name="kr_authorization_contact_desc">சாதனத்தை அடையாளம் காண்பதற்காக, Xiaomi கணக்கு விவரங்களை அணுக</string>
     <string name="kr_authorization_exit">வெளியேறு</string>
-    <string name="kr_authorization_function">பின்னூட்டம் சமர்ப்பித்தல், பதிவுகளை உருவாக்குதல், அடிக்கடி கேட்கப்பட்ட கேள்விகளைக் காணுதல்</string>
+    <string name="kr_authorization_function">கருத்தை பார்த்துச் சமர்ப்பித்திடுங்கள், பதிவுகளை எடுங்கள், ஐயங்களையும் தீர்வுகளையும் பாருங்கள் மற்றும் செயல்நிலைக்கும் முடிவுகளுக்குமான பின்னூட்டத்தை சரிபாருங்கள்</string>
     <string name="kr_authorization_log_protocol">பதிவு நெறிமுறை (விருப்பத்தேர்வு)</string>
     <string name="kr_authorization_log_protocol_desc">உங்களுக்கு வழங்கும் சேவைகளை மேம்படுத்த, பயன்பாட்டு புள்ளிவிவரங்களையும் முறைமை பதிவுகளையும் எங்கள் சர்வர்களுக்குப் பதிவேற்றுவோம். இந்த உருப்படிகளில், உங்கள் தனிப்பட்ட தகவல்களும், உங்கள் சாதனம் மற்றும் நெட்வொர்க்குகள் தொடர்பான விவரங்களும் இருக்கும். பதிவேற்றிய உருப்படிகளைப் பயன்படுத்தி, முறைமையில் உள்ள சிக்கல்களைக் கண்டறிவோம் மற்றும் பகுப்பாய்வு செய்வோம்.</string>
     <string name="kr_authorization_phone">தொலைபேசி</string>
@@ -516,6 +521,12 @@ ID:%s
     <string name="miui_feedback_main_withdraw_consent_hint">நீங்கள் தொடர்வதன் மூலம், நீங்கள் %1$s -இன் தனியுரிமைக் கொள்கைக்கான உங்கள் ஒப்புதலைத் திரும்பப் பெறுவீர்கள். ஏற்கனவே சேகரிக்கப்பட்ட மற்றும் வைத்திருக்கப்படும் தனிப்பட்ட தகவல்கள் பொருந்தக் கூடிய சட்டங்களுடன் இணங்கியபடி குறிப்பிட்ட கால அளவுக்குள் நீக்கப்படும். %2$s ஆனது அதன் சேவைகளை அடிப்படை சேவைகளை வழங்குவதற்காக தேவையான தனிப்பட்ட தகவல்களை சேகரிப்பதைச் சார்ந்துள்ளது. இதன் தனியுரிமைக் கொள்கைக்கான ஒப்புதலை நீங்கள் திரும்பப் பெற்றுக்கொள்வதானது, %3$s -இன் சேவைகளை ஏற்பதை மறுப்பதாக கருதப்படும். இப்போது ஒப்புதலைத் திரும்பப்பெறவா?</string>
     <string name="miui_feedback_note_install_xiaomi_community">இந்த அம்சத்தைப் பயன்படுத்த Xiaomi Communityயை நிறுவவும்.</string>
     <string name="miuix_access_state_desc">தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="miuix_accessibility_title">தலைப்பு</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">சுருக்கப்பட்டது</string>
+    <string name="miuix_appcompat_accessibility_expand_state">விரிக்கப்பட்டது</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">திருத்த பாங்கிலிருந்து வெளியேறவும்</string>
+    <string name="miuix_appcompat_accessibility_new_message">புதிய அறிவிப்பு</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">திருத்த பாங்கிற்கு செல்லவும்</string>
     <string name="miuix_appcompat_action_mode_deselect_all">எல்லாம் தேர்வுநீக்கு</string>
     <string name="miuix_appcompat_action_mode_select_all">எல்லாம் தேர்ந்தெடு</string>
     <string name="miuix_appcompat_action_mode_title_empty">உருப்படிகளைத் தேர்ந்தெடு</string>
@@ -531,6 +542,8 @@ ID:%s
     <string name="miuix_appcompat_select_all">எல்லாம் தேர்ந்தெடு</string>
     <string name="miuix_appcompat_select_all_description">எல்லாம் தேர்ந்தெடு</string>
     <string name="miuix_appcompat_select_item">உருப்படிகளைத் தேர்ந்தெடு</string>
+    <string name="miuix_appcompat_show_dialog_description">பாப்-அப் விண்டோ</string>
+    <string name="miuix_progressbar_loading">லோட் செய்யுது</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">புதுப்பிக்க, கீழே இழுக்கவும்</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">வெற்றிகரமாகப் புதுப்பிக்கப்பட்டது</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">புதுப்பிக்கிறது…</string>
@@ -539,6 +552,9 @@ ID:%s
     <string name="miuix_sbl_tracking_progress_labe_up_none">இப்போதைக்கு அவ்வளவுதான்</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">சற்று காத்திருங்கள்…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">உருப்படிகளை ஏற்ற முடியவில்லை</string>
+    <string name="miuix_show_password">கடவுச்சொல்லை காட்டு</string>
+    <string name="miuix_stretchablewidget_collapsed">சுருக்கப்பட்டது</string>
+    <string name="miuix_stretchablewidget_expanded">விரிக்கப்பட்டது</string>
     <string name="mobile_data_note_dialog_cancel">Wi-Fi க்காக காத்திரு</string>
     <string name="mobile_data_note_dialog_cancel_china">Wait for WLAN</string>
     <string name="mobile_data_note_dialog_confirm">பதிவேற்று</string>
@@ -865,6 +881,7 @@ ID:%s
     <string name="tab_title_my_reports">எனது பின்னூட்டம்</string>
     <string name="tab_title_preferences">அமைப்புகள்</string>
     <string name="tab_title_report">கருத்து</string>
+    <string name="talkback_announce_last">கடைசி படி</string>
     <string name="telephony_cdma_dialog_cancel">ரத்து செய்யவும்</string>
     <string name="telephony_cdma_dialog_msg">உங்கள் சாதனத்திற்காக உங்கள் தொலைபேசி சேவை நிறுவனம் 4G/5G சேவையை செயலாக்கம் செய்துள்ளார்களா என உறுதி செய்துகொள்ளவும். அப்படி செயலாக்கம் செய்யப்பட்டிருந்தும் நீங்கள் இன்னமும் பிரச்சனைகளை எதிர்கொள்கிறீர்கள் என்றால் பின்னூட்டக்கருத்து அளிக்கவும்.</string>
     <string name="telephony_cdma_dialog_ok">பின்னூட்டக்கருத்து</string>
@@ -957,7 +974,10 @@ ID:%s
     <string name="tuesday">செவ்வாய்</string>
     <string name="tuesday_short">செவ்</string>
     <string name="tuesday_shortest">செவ்</string>
+    <string name="unLock_catch_log">உங்களது ஸ்க்ரீன் லாக் சாதனத்தை அன்லாக் செய்யவில்லை என்றாலோ வேறேதேனும் தொடர்புடைய சிக்கலை சந்தித்தாலோ நாங்கள் சிக்கலை கண்டறிந்து தீர்ப்பதற்கு உதவ சாதனப் பதிவுகளை சமர்ப்பித்திடுங்கள். பதிவுகள் அநாமதேயமாகப் பதிவேற்றப்படும்,,, சிக்கலை தீர்ப்பதற்காக மட்டுமே பயன்படுத்தப்படும் அதன் பிறகு உடனடியாக நீக்கப்படும்.</string>
+    <string name="unLock_catch_log_hint">மறந்துவிட்ட கடவுச்சொல்லை மீட்டெடுப்பதற்கு கருத்துச் சமர்ப்பிப்பைப் பயன்படுத்த இயலாது.</string>
     <string name="unknown_error_info">தெரியாத பிழை</string>
+    <string name="unlock_catch_log_toast" formatted="false">கருத்தை அனுப்புகிறது. அடுத்த %3d-%5d நிமிடங்களுக்கு சாதனத்தை அருகில் வைத்திருங்கள்.</string>
     <string name="update_dialog_cancel">ரத்துசெய்</string>
     <string name="update_dialog_confirm">புதுப்பி</string>
     <string name="update_dialog_content_log">"புதியவை என்ன:

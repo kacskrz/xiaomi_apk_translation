@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="access_denied_info">Həddən artıq çox cəhd. Bir və ya iki dəqiqə gözləyin və yenidən cəhd edin.</string>
+    <string name="accessibility_sliding_button_state_description_off">Söndürüldü</string>
+    <string name="accessibility_sliding_button_state_description_on">Açıldı</string>
+    <string name="accessibility_tab_state_description_unselect">Seçilmədi</string>
     <string name="account_crop_user_avatar">Şəkili kəs</string>
     <string name="account_empty_user_name">Mi Hesabı istifadəçi adınızı daxil edin</string>
     <string name="account_error_all_space_user_name">İstifadəçi adı yalnız boşluq simvolundan ibarət ola bilməz</string>
@@ -196,6 +199,7 @@ Bu kodu nəzarətçinizə göndərin."</string>
     <string name="feedback_answer_detail_submit_dialog_content">Qarşılaşdığınız problemi təsvir edə bilərsiniz və onu həll etməyə çalışacağıq. Geri bildiriş göndərilsin?</string>
     <string name="feedback_answer_detail_submit_dialog_title">Geri bildiriş göndərilsin?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problemi \"%2$s\"</string>
+    <string name="feedback_button">Düymə</string>
     <string name="feedback_choose_app_tag">Problem seçin</string>
     <string name="feedback_choose_device">Cihaz seçin</string>
     <string name="feedback_choose_device_hint">Siz heç bir cihaz seçməmisiniz</string>
@@ -209,10 +213,10 @@ Bu kodu nəzarətçinizə göndərin."</string>
     <string name="feedback_continue">Geri bildiriş göndər</string>
     <string name="feedback_delete_images">Şəkilləri sil</string>
     <string name="feedback_description">Açıqlama</string>
-    <string name="feedback_description_hint">"Burada qarşılaşdığınız problemi təsvir edin.
-%1$d.Hansı tətbiqdə və ya hansı səhifədə problemlə qarşılaşmısınız?
-%2$d.Etdiyiniz hansı hərəkətlərdən sonra məsələ ortaya çıxdı?
-%3$d. Problemi həll etməyə kömək edə biləcək əlavə məlumat verin."</string>
+    <string name="feedback_description_hint">"Qarşılaşdığınız problemi təsvir edin:
+%1$d. Problemlə hansı tətbiqdə və ya səhifədə qarşılaşmısınız
+%2$d. Hansı problemlə qarşılaşdınız və hansı mərhələdə
+%3$d. Hər hansı digər detallar"</string>
     <string name="feedback_description_hint_suggestion">Bizə necə təkmilləşdirə biləcəyimizi deyin.</string>
     <string name="feedback_description_hint_suggestion_pad">Bizə necə təkmilləşdirə biləcəyimizi deyin.</string>
     <string name="feedback_description_suggest_hint">Yeni xüsusiyyət () əlavə etməyinizi istəyirəm, çünki () mənə lazımdır.</string>
@@ -247,6 +251,7 @@ Bu kodu nəzarətçinizə göndərin."</string>
     <string name="feedback_jira_key">JIRA Açarı: %s</string>
     <string name="feedback_jira_key_place_holder">Jira yaradılır…</string>
     <string name="feedback_package_log_failed">Qeydlər sıxışdırıla bilmədi</string>
+    <string name="feedback_radio_button">Seçim düyməsi</string>
     <string name="feedback_remind_login_btn">Daxil ol</string>
     <string name="feedback_report_remind_login_desc">Mühəndislərimizin sizinlə əlaqə qurmaqları üçün Xiaomi Hesabınız ilə daxil olun.</string>
     <string name="feedback_report_remind_login_desc2">Siz həmçinin \"Geri bildirişim\" bölməsində geri bildirişinizin gedişatına baxa bilərsiniz.</string>
@@ -385,7 +390,7 @@ Bu kodu nəzarətçinizə göndərin."</string>
     <string name="kr_authorization_contact">Hesab</string>
     <string name="kr_authorization_contact_desc">Cihazı müəyyən etmək üçün Xiaomi Hesabı məlumatına müraciət etmək</string>
     <string name="kr_authorization_exit">Çıx</string>
-    <string name="kr_authorization_function">Geribildiriş göndərildi, qeydlər yaradılır, tez-tez soruşulan suallara baxılır</string>
+    <string name="kr_authorization_function">Rəyə baxın və göndərin, qeydləri saxlayın, TVS-ə baxın və rəyin gedişatını və nəticələrini yoxlayın</string>
     <string name="kr_authorization_log_protocol">Qeyd Protokolu (ixtiyari)</string>
     <string name="kr_authorization_log_protocol_desc">Sizə təqdim edilən xidmətləri yaxşılaşdırmaq üçün istifadə statistikalarını və sistem qeydlərini serverlərimizə yükləyəcəyik. Bu elementlər sizin şəxsi məlumatınızı, həmçinin cihazınız və şəbəkələriniz barədə məlumatları da daxil edə bilər. Sistemdəki problemləri aşkarlamaq və analiz etmək üçün yüklənmiş elementləri istifadə edəcəyik.</string>
     <string name="kr_authorization_phone">Telefon</string>
@@ -516,6 +521,12 @@ E-Poçt: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_withdraw_consent_hint">Davam etsəniz, %1$s-in Gizlilik Siyasətinə olan razılığınızı geri götürəcəksiniz. Artıq toplanmış və saxlanılan şəxsi məlumatlar, başqa müddət tələb olunmadıqda, tətbiq olunan qanun və qaydalara uyğun olaraq müəyyən müddət ərzində silinəcəkdir. %2$s xidmətlərini lazımi şəxsi məlumatların toplanmasına əsaslanaraq təqdim etdiyinə görə, razılığınızı geri götürməyiniz %3$s xidmətlərini qəbul etməmək kimi qiymətləndiriləcək. Razılıq indi geri çəkilsin?</string>
     <string name="miui_feedback_note_install_xiaomi_community">Install Xiaomi Community to be able to use this feature.</string>
     <string name="miuix_access_state_desc">Seçildi</string>
+    <string name="miuix_accessibility_title">Başlıq</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Yığılmış</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Genişləndirilmiş</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Düzəliş rejimindən çıxış</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yeni bildiriş</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Düzəliş rejimində başla</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bütün seçimi ləğv et</string>
     <string name="miuix_appcompat_action_mode_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elementləri seç</string>
@@ -531,6 +542,8 @@ E-Poçt: service.jp@xiaomi.com"</string>
     <string name="miuix_appcompat_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_select_all_description">Hamısını seç</string>
     <string name="miuix_appcompat_select_item">Elementləri seç</string>
+    <string name="miuix_appcompat_show_dialog_description">Açılan pəncərə</string>
+    <string name="miuix_progressbar_loading">Yüklənir</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yeniləmək üşün aşağıya çəkin</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uğurla yeniləndi</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Yenilənir…</string>
@@ -539,6 +552,9 @@ E-Poçt: service.jp@xiaomi.com"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">İndilik bu qədər</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Bir saniyə…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Eementlər yüklənə bilmədi</string>
+    <string name="miuix_show_password">Parolu göstər</string>
+    <string name="miuix_stretchablewidget_collapsed">Yığılmış</string>
+    <string name="miuix_stretchablewidget_expanded">Genişləndirilmiş</string>
     <string name="mobile_data_note_dialog_cancel">Wi-Fi gözlə</string>
     <string name="mobile_data_note_dialog_cancel_china">Wait for WLAN</string>
     <string name="mobile_data_note_dialog_confirm">Yüklə</string>
@@ -865,6 +881,7 @@ Davam etməzdən əvvəl %3$s yeni versiyasını oxuyun və qəbul edin."</strin
     <string name="tab_title_my_reports">Geri bildirişim</string>
     <string name="tab_title_preferences">Tənzimləmələr</string>
     <string name="tab_title_report">Geri bildiriş</string>
+    <string name="talkback_announce_last">Son addım</string>
     <string name="telephony_cdma_dialog_cancel">Ləğv et</string>
     <string name="telephony_cdma_dialog_msg">Cihazın üçün 4G/5G xidmətinin aktivləşdirildiyini operatorunla təsdiqlə. Əgər aktivləşdirilibsə və hələ də problem yaşayırsınızsa, geri bildiriş daxil edin.</string>
     <string name="telephony_cdma_dialog_ok">Geri bildiriş</string>
@@ -957,7 +974,10 @@ Davam etməzdən əvvəl %3$s yeni versiyasını oxuyun və qəbul edin."</strin
     <string name="tuesday">Çərşənbə axşamı</string>
     <string name="tuesday_short">Ç.a.</string>
     <string name="tuesday_shortest">Ç.a.</string>
+    <string name="unLock_catch_log">Əgər ekran kilidiniz cihazınızı açmırsa və ya digər əlaqəli problemlərlə qarşılaşırsınızsa, problemi tapıb düzəltməyimiz üçün cihazın qeydlərini təqdim edin. Qeydlər anonim şəkildə yüklənəcək, yalnız problemi həll etmək üçün istifadə olunacaq və problemin həlli tamamlandıqdan dərhal sonra silinəcək.</string>
+    <string name="unLock_catch_log_hint">Geri bildiriş göndərmək unudulmuş şifrəni bərpa etmək üçün istifadə oluna bilməz.</string>
     <string name="unknown_error_info">Naməlum xəta</string>
+    <string name="unlock_catch_log_toast" formatted="false">Geri bildiriş göndərilir. Növbəti %3d–%5d dəqiqə ərzində cihazı yaxınlıqda saxlayın.</string>
     <string name="update_dialog_cancel">Ləğv et</string>
     <string name="update_dialog_confirm">Yenilə</string>
     <string name="update_dialog_content_log">"Yeniliklər:

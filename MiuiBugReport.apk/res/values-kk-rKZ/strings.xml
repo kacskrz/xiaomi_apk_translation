@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="access_denied_info">Тым көп әрекет жасалды. Бір-екі минут күтіп, тағы бір рет қайталап көріңіз.</string>
+    <string name="accessibility_sliding_button_state_description_off">Өшірулі</string>
+    <string name="accessibility_sliding_button_state_description_on">Қосулы</string>
+    <string name="accessibility_tab_state_description_unselect">Таңдалмаған</string>
     <string name="account_crop_user_avatar">Суретті кесіңіз</string>
     <string name="account_empty_user_name">Сіздің Mi Аккаунтыңыздың атын енгізіңіз</string>
     <string name="account_error_all_space_user_name">Пайдаланушының аты бос әріптерден тұрмауы тиіс</string>
@@ -196,6 +199,7 @@ ID:%s
     <string name="feedback_answer_detail_submit_dialog_content">Сіз кездескен мәселені сипаттай аласыз және біз оны шешуге тырысамыз. Пікір жөнелтілсін бе?</string>
     <string name="feedback_answer_detail_submit_dialog_title">Пікір жөнелтілсін бе?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s мәселе \"%2$s\"</string>
+    <string name="feedback_button">Батырма</string>
     <string name="feedback_choose_app_tag">Мәселені таңдаңыз</string>
     <string name="feedback_choose_device">Құрылғыны таңдаңыз</string>
     <string name="feedback_choose_device_hint">Ешқандай құрылғыны таңдаған жоқсыз</string>
@@ -209,10 +213,10 @@ ID:%s
     <string name="feedback_continue">Кері байланыс жіберу</string>
     <string name="feedback_delete_images">Суреттерді жою</string>
     <string name="feedback_description">Сипаттама</string>
-    <string name="feedback_description_hint">"Сіз кездестірген мәселені осы жерде сипаттаңыз.
-%1$d. Қай қолданбада немесе қай бетте осы мәселеге тап болдыңыз?
-%2$d. Сіздің қандай әрекетіңізден кейін осы мәселе пайда болды?
-%3$d. Бізге мәселені шешуге көмектесу үшін қосымша ақпарат беріңіз."</string>
+    <string name="feedback_description_hint">"Кездескен мәселеңізді сипаттаңыз:
+%1$d. Қай қолданбада немесе бетте мәселеге тап болдыңыз
+%2$d. Сіз қандай мәселеге тап болдыңыз және қандай қадамда болдыңыз
+%3$d. Кез келген басқа ақпарат"</string>
     <string name="feedback_description_hint_suggestion">Бізге нені жақсартуға болатынын айтыңыз.</string>
     <string name="feedback_description_hint_suggestion_pad">Бізге нені жақсартуға болатынын айтыңыз.</string>
     <string name="feedback_description_suggest_hint">Мен () жаңа функциясын қосқым келеді, өйткені маған () қажет.</string>
@@ -247,6 +251,7 @@ ID:%s
     <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Jira жасатылуда…</string>
     <string name="feedback_package_log_failed">Журналдарды қысу мүмкін болмады</string>
+    <string name="feedback_radio_button">Таңдау батырмасы</string>
     <string name="feedback_remind_login_btn">Кіру</string>
     <string name="feedback_report_remind_login_desc">Біздің инженерлер сізбен байланыс алуы үшін Xiaomi Аккаунтқа кіріңіз.</string>
     <string name="feedback_report_remind_login_desc2">Есептемеңіздің прогрессін \"Менің пікірім\" бөлімінде көре аласыз.</string>
@@ -385,7 +390,7 @@ ID:%s
     <string name="kr_authorization_contact">Аккаунт</string>
     <string name="kr_authorization_contact_desc">Құрылғыны анықтау мақсатында Xiaomi Аккаунтына кіру үшін</string>
     <string name="kr_authorization_exit">Шығу</string>
-    <string name="kr_authorization_function">Кері байланысты тапсыру, журналдарды құру, жиі қойылатын сұрақтарды қарау</string>
+    <string name="kr_authorization_function">Пікірлерді қараңыз және жіберіңіз, журналдарды түсіріңіз, жиі қойылатын сұрақтарды қараңыз және кері байланыс барысы мен нәтижелерін тексеріңіз</string>
     <string name="kr_authorization_log_protocol">Журнал Протоколы (еркінше)</string>
     <string name="kr_authorization_log_protocol_desc">Сізге ұсынылған қызметтерді жақсарту үшін, біздің серверлерге пайдалану статистикасы мен жүйелік журналдарды жүктейміз. Бұл нысандар сіздің жеке деректеріңізді, сондай-ақ, құрылғы мен желілер туралы ақпаратты қамтуы мүмкін. Жүктелген объектілерді жүйедегі мәселелерді іздеу және талдау үшін қолданамыз.</string>
     <string name="kr_authorization_phone">Телефон</string>
@@ -516,6 +521,12 @@ ID:%s
     <string name="miui_feedback_main_withdraw_consent_hint">Егер жалғастырсаңыз, сіз %1$s Құпиялылық Саясатынан келісіміңізді кері аласыз. Әлдеқашан жиналған және сақталған жеке ақпаратыңыз, егер басқаша талап етілмесе, қолданыстағы заңдарға сәйкес, белгілі бір уақыт ішінде жойылады. %2$s өз қызметтерін қажетті жеке ақпаратты жинау негізінде ұсынатындықтан, келісімді қайтарып алу %3$s қызметтерін қабылдаудан бас тартқан болып есептеледі. Келісім кері алынсын ба?</string>
     <string name="miui_feedback_note_install_xiaomi_community">Install Xiaomi Community to be able to use this feature.</string>
     <string name="miuix_access_state_desc">Таңдалған</string>
+    <string name="miuix_accessibility_title">Атауы</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Жиырылған</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Кеңейтілген</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Түзету режимінен шығу</string>
+    <string name="miuix_appcompat_accessibility_new_message">Жаңа ескертпе</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Түзету режиміне кіріңіз</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Таңдауларды шешу</string>
     <string name="miuix_appcompat_action_mode_select_all">Барлығын таңдау</string>
     <string name="miuix_appcompat_action_mode_title_empty">Таңдауды алып тастау</string>
@@ -531,6 +542,8 @@ ID:%s
     <string name="miuix_appcompat_select_all">Барлығын таңдау</string>
     <string name="miuix_appcompat_select_all_description">Барлығын таңдау</string>
     <string name="miuix_appcompat_select_item">Объектілерді таңдаңыз</string>
+    <string name="miuix_appcompat_show_dialog_description">Қалқымалы терезе</string>
+    <string name="miuix_progressbar_loading">Жүктелуде</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Жаңарту үшін төмен қарай тартыңыз</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Сәтті жаңартылды</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Жаңарту…</string>
@@ -539,6 +552,9 @@ ID:%s
     <string name="miuix_sbl_tracking_progress_labe_up_none">Әзірше осы</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Бір секунд…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Элементтерді жүктеу мүмкін болмады</string>
+    <string name="miuix_show_password">Құпия сөзді көрсету</string>
+    <string name="miuix_stretchablewidget_collapsed">Жиырылған</string>
+    <string name="miuix_stretchablewidget_expanded">Кеңейтілген</string>
     <string name="mobile_data_note_dialog_cancel">Wi-Fi желісін күту</string>
     <string name="mobile_data_note_dialog_cancel_china">WLAN желісін күту</string>
     <string name="mobile_data_note_dialog_confirm">Жөнелту</string>
@@ -865,6 +881,7 @@ ID:%s
     <string name="tab_title_my_reports">Менің пікірім</string>
     <string name="tab_title_preferences">Баптаулар</string>
     <string name="tab_title_report">Кері байланыс</string>
+    <string name="talkback_announce_last">Соңғы қадам</string>
     <string name="telephony_cdma_dialog_cancel">Болдырмау</string>
     <string name="telephony_cdma_dialog_msg">Құрылғыңыз үшін 4G/5G қызметінің белсендірілгенін операторыңыздан анықтаңыз. Егер ол белсендірілген болса және сізде әлі де мәселелер туындаса, кері байланыс жіберіңіз.</string>
     <string name="telephony_cdma_dialog_ok">Кері байланыс</string>
@@ -957,7 +974,10 @@ ID:%s
     <string name="tuesday">Сейсенбі</string>
     <string name="tuesday_short">Сс</string>
     <string name="tuesday_shortest">Сс</string>
+    <string name="unLock_catch_log">Экран құлпы құрылғыңыздың құлпын ашпаса немесе басқа қатысты мәселелерге тап болсаңыз, ақаулықты табуға және шешуге көмектесу үшін құрылғы журналдарын жіберіңіз. Журналдар анонимді түрде жүктеледі, тек ақаулықтарды жою үшін пайдаланылады және ақаулықтарды жою аяқталғаннан кейін дереу жойылады.</string>
+    <string name="unLock_catch_log_hint">Пікір жіберуді ұмытылған құпия сөзді шығарып алу үшін пайдалану мүмкін емес.</string>
     <string name="unknown_error_info">Белгісіз қате</string>
+    <string name="unlock_catch_log_toast" formatted="false">Кері байланыс жіберу. Келесі %3d–%5d минут ішінде құрылғыны жақын жерде ұстаңыз.</string>
     <string name="update_dialog_cancel">Болдырмау</string>
     <string name="update_dialog_confirm">Жаңарту</string>
     <string name="update_dialog_content_log">"Қандай жаңартулар бар:

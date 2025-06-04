@@ -28,6 +28,9 @@
     <string name="abc_shareactionprovider_share_with_application">Kopīgot ar lietojumprogrammu %s</string>
     <string name="abc_toolbar_collapse_description">Sakļaut</string>
     <string name="access_denied_info">Pārāk daudz mēģinājumu. Uzgaidiet dažas minūtes un mēģiniet vēlreiz.</string>
+    <string name="accessibility_sliding_button_state_description_off">Izsl.</string>
+    <string name="accessibility_sliding_button_state_description_on">Ieslēgts</string>
+    <string name="accessibility_tab_state_description_unselect">Nav izvēlēts</string>
     <string name="account_crop_user_avatar">Apgriezt foto</string>
     <string name="account_empty_user_name">Ievadiet savu Mi Konta lietotājvārdu</string>
     <string name="account_error_all_space_user_name">Lietotājvārds nevar saturēt tikai atstarpes rakstzīmes</string>
@@ -243,6 +246,7 @@ Nosūtīt šo kodu uzraugam."</string>
     <string name="feedback_answer_detail_submit_dialog_content">Jūs varat aprakstīt radušos problēmu, un mēs centīsimies to novērst. Vai iesniegt atsauksmes?</string>
     <string name="feedback_answer_detail_submit_dialog_title">Iesniegt atsauksmi?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problēma \"%2$s\"</string>
+    <string name="feedback_button">Poga</string>
     <string name="feedback_choose_app_tag">Izvēlēties problēmu</string>
     <string name="feedback_choose_device">Izvēlēt ierīci</string>
     <string name="feedback_choose_device_hint">Jūs neesat izvēlējies nevienu ierīci</string>
@@ -256,10 +260,10 @@ Nosūtīt šo kodu uzraugam."</string>
     <string name="feedback_continue">Iesniegt atsauksmi</string>
     <string name="feedback_delete_images">Dzēst attēlus</string>
     <string name="feedback_description">Apraksts</string>
-    <string name="feedback_description_hint">"Aprakstiet šeit radušos problēmu.
-%1$d. Kādā lietotnē vai kādā lapā ir radusies problēma?
-%2$d. Pēc kādas darbības veikšanas radās problēma?
-%3$d. Sniedziet papildu informāciju, kas varētu palīdzēt novērst problēmu."</string>
+    <string name="feedback_description_hint">"Aprakstiet radušos problēmu:
+%1$d. Kurā lietotnē vai lapā saskārāties ar šo problēmu
+%2$d. Ar kādu problēmu saskārāties un kurā posmā
+%3$d. Cita informācija"</string>
     <string name="feedback_description_hint_suggestion">Pastāstiet mums, ko mēs varam uzlabot.</string>
     <string name="feedback_description_hint_suggestion_pad">Pastāstiet mums, ko mēs varam uzlabot.</string>
     <string name="feedback_description_suggest_hint">Es gribētu, lai pievienojat jaunu iespēju (), jo man nepieciešams ().</string>
@@ -294,6 +298,7 @@ Nosūtīt šo kodu uzraugam."</string>
     <string name="feedback_jira_key">JIRA atslēga: %s</string>
     <string name="feedback_jira_key_place_holder">Izveido Jira…</string>
     <string name="feedback_package_log_failed">Neizdevās saspiest ierakstus</string>
+    <string name="feedback_radio_button">Funkcijas poga</string>
     <string name="feedback_remind_login_btn">Pierakstīties</string>
     <string name="feedback_report_remind_login_desc">Pierakstieties savā Xiaomi Kontā, lai mūsu inženieri var ar jums sazināties.</string>
     <string name="feedback_report_remind_login_desc2">Jūs varat aplūkot sava ziņojuma progresu sadaļā \"Manas atsauksmes\".</string>
@@ -360,18 +365,18 @@ Nosūtīt šo kodu uzraugam."</string>
     <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d. MMMM</string>
-    <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">d. MMMM yyyy</string>
+    <string name="fmt_date_long_year_month">yyyy. MMMM.</string>
+    <string name="fmt_date_long_year_month_day">yyyy. d. MMMM.</string>
     <string name="fmt_date_numeric_day">d</string>
     <string name="fmt_date_numeric_month">M</string>
-    <string name="fmt_date_numeric_month_day">d/M</string>
+    <string name="fmt_date_numeric_month_day">dd.MM.</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">M. yyyy</string>
-    <string name="fmt_date_numeric_year_month_day">d. M. yyyy</string>
+    <string name="fmt_date_numeric_year_month">MM.yyyy.</string>
+    <string name="fmt_date_numeric_year_month_day">dd.MM.yyyy.</string>
     <string name="fmt_date_short_month">MMM</string>
-    <string name="fmt_date_short_month_day">d.MMM</string>
-    <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">d. MMM.yyyy</string>
+    <string name="fmt_date_short_month_day">d. MMM.</string>
+    <string name="fmt_date_short_year_month">yyyy. MMM.</string>
+    <string name="fmt_date_short_year_month_day">yyyy. d. MMM.</string>
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
@@ -432,7 +437,7 @@ Nosūtīt šo kodu uzraugam."</string>
     <string name="kr_authorization_contact">Konts</string>
     <string name="kr_authorization_contact_desc">Xiaomi konta informācijas piekļūšanai, lai identificētu ierīci</string>
     <string name="kr_authorization_exit">Iziet</string>
-    <string name="kr_authorization_function">Iesniedz atsauksmes, izveido žurnālus, skata beži uzdotos jautājumus</string>
+    <string name="kr_authorization_function">Skatiet un iesniedziet atsauksmes, reģistrējiet žurnālus, skatiet biežāk uzdotos jautājumus un pārbaudiet atsauksmju gaitu un rezultātus</string>
     <string name="kr_authorization_log_protocol">Žurnāla protokols (neobligāts)</string>
     <string name="kr_authorization_log_protocol_desc">Lai uzlabotu jums sniegtos pakalpojumus, mūsu serveros augšupielādēsim lietošanas statistiku un sistēmas žurnālus. Šie objekti var saturēt jūsu personas datus, kā arī informāciju par jūsu ierīci un tīkliem. Mēs izmantosim ielādētos objektus, lai meklētu un analizētu sistēmas problēmas.</string>
     <string name="kr_authorization_phone">Tālrunis</string>
@@ -563,6 +568,12 @@ E-pasts: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_withdraw_consent_hint">Ja jūs turpināsiet, jūs atceļat savu piekrišanu funkcijas %1$s Konfidencialitātes politikai. Jau savāktā un saglabātā personiskā informācija tiks dzēsta konkrētā periodā saskaņā ar piemērojamiem likumiem un noteikumiem, ja vien nav nepieciešami citādi. Tā kā %2$s nodrošina savus pakalpojumus, pamatojoties uz nepieciešamās personiskās informācijas vākšanu, jūsu piekrišanas atsaukšana notiks kā atteikšanās pieņemt %3$s pakalpojumus. Atsaukt piekrišanu tagad?</string>
     <string name="miui_feedback_note_install_xiaomi_community">Install Xiaomi Community to be able to use this feature.</string>
     <string name="miuix_access_state_desc">Izvēlēts</string>
+    <string name="miuix_accessibility_title">Virsraksts</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Savērsts</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Izvērsts</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Iziet no rediģēšanas režīma</string>
+    <string name="miuix_appcompat_accessibility_new_message">Jauns paziņojums</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Ieejiet rediģēšanas režīmā</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Neizvēlēt nevienu</string>
     <string name="miuix_appcompat_action_mode_select_all">Izvēlēt visus</string>
     <string name="miuix_appcompat_action_mode_title_empty">Atlasīt lietas</string>
@@ -578,6 +589,8 @@ E-pasts: service.jp@xiaomi.com"</string>
     <string name="miuix_appcompat_select_all">Izvēlēt visus</string>
     <string name="miuix_appcompat_select_all_description">Izvēlēt visus</string>
     <string name="miuix_appcompat_select_item">Izvēlēt vienumus</string>
+    <string name="miuix_appcompat_show_dialog_description">Uznirstošais logs</string>
+    <string name="miuix_progressbar_loading">Ielādē</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pavelciet uz leju, lai atsvaidzinātu</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Veiksmīgi atsvaidzināts</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atsvaidzina…</string>
@@ -586,6 +599,9 @@ E-pasts: service.jp@xiaomi.com"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Tas pagaidām ir viss</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vienu mirkli…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Neizdevās ielādēt vienumus</string>
+    <string name="miuix_show_password">Rādīt paroli</string>
+    <string name="miuix_stretchablewidget_collapsed">Savērsts</string>
+    <string name="miuix_stretchablewidget_expanded">Izvērsts</string>
     <string name="mobile_data_note_dialog_cancel">Gaidīt Wi-Fi</string>
     <string name="mobile_data_note_dialog_cancel_china">Gaidīt WLAN</string>
     <string name="mobile_data_note_dialog_confirm">Augšupielādēt</string>
@@ -917,6 +933,7 @@ Izlasiet un piekrītiet jaunajai %3$s versijai pirms turpināt."</string>
     <string name="tab_title_my_reports">Manas atsauksmes</string>
     <string name="tab_title_preferences">Iestatījumi</string>
     <string name="tab_title_report">Atsauksmes</string>
+    <string name="talkback_announce_last">Pēdējais solis</string>
     <string name="telephony_cdma_dialog_cancel">Atcelt</string>
     <string name="telephony_cdma_dialog_msg">Pārliecinieties, vai jūsu ierīcei ir aktivizēts 4G/5G pakalpojums, sazinoties ar mobilo sakaru operatoru. Ja tas ir aktivizēts, bet jums joprojām rodas problēmas, iesniedziet atsauksmi.</string>
     <string name="telephony_cdma_dialog_ok">Atsauksmes</string>
@@ -1009,7 +1026,10 @@ Izlasiet un piekrītiet jaunajai %3$s versijai pirms turpināt."</string>
     <string name="tuesday">Otrdiena</string>
     <string name="tuesday_short">Ot</string>
     <string name="tuesday_shortest">Ot</string>
+    <string name="unLock_catch_log">Ja ekrāna bloķētājs neatbloķē ierīci vai rodas citas ar to saistītas problēmas, iesniedziet ierīces žurnālus, lai palīdzētu mums atrast un novērst problēmu. Ieraksti tiks augšupielādēti anonīmi, tiks izmantoti tikai problēmas novēršanai un pēc problēmu novēršanas pabeigšanas nekavējoties dzēsti.</string>
+    <string name="unLock_catch_log_hint">Atsauksmes nosūtīšanu nevar izmantot, lai atgūtu aizmirstu paroli.</string>
     <string name="unknown_error_info">Nezināma kļūda</string>
+    <string name="unlock_catch_log_toast" formatted="false">Nosūta atsauksmi. Turiet ierīci tuvumā nākamo %3d–%5d minūšu laikā.</string>
     <string name="update_dialog_cancel">Atcelt</string>
     <string name="update_dialog_confirm">Atjaunināt</string>
     <string name="update_dialog_content_log">"Kas jauns:

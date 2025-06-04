@@ -28,6 +28,9 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="access_denied_info">For mange forsøg. Vent et øjeblik eller to og prøv så igen.</string>
+    <string name="accessibility_sliding_button_state_description_off">Slået fra</string>
+    <string name="accessibility_sliding_button_state_description_on">Slået til</string>
+    <string name="accessibility_tab_state_description_unselect">Ikke valgt</string>
     <string name="account_crop_user_avatar">Beskær foto</string>
     <string name="account_empty_user_name">Indtast dit brugernavn for Mi-konto</string>
     <string name="account_error_all_space_user_name">Brugernavn kan ikke indeholde udelukkende mellemrum</string>
@@ -243,6 +246,7 @@ Send denne kode til supervisoren."</string>
     <string name="feedback_answer_detail_submit_dialog_content">Du kan beskrive problemet, der er dukket op, og vi vil prøve at løse det. Send feedback?</string>
     <string name="feedback_answer_detail_submit_dialog_title">Send feedback?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
+    <string name="feedback_button">Knap</string>
     <string name="feedback_choose_app_tag">Vælg problem</string>
     <string name="feedback_choose_device">Vælg enhed</string>
     <string name="feedback_choose_device_hint">Du har ikke valgt nogen enheder</string>
@@ -256,10 +260,10 @@ Send denne kode til supervisoren."</string>
     <string name="feedback_continue">Indsend feedback</string>
     <string name="feedback_delete_images">Slet billeder</string>
     <string name="feedback_description">Beskrivelse</string>
-    <string name="feedback_description_hint">"Beskriv det problem, du har er stødt ind i, her.
-%1$d. I hvilken app eller på hvilken side er du stødt ind i problemet?
-%2$d. Efter hvilken handling, du udførte, opstod problemet?
-%3$d. Giv os yderligere oplysninger, der kan hjælpe os med at løse problemet."</string>
+    <string name="feedback_description_hint">"Beskriv det problem, du er stødt på:
+%1$d. På hvilken app eller side opstod problemet
+%2$d. Hvilket problem oplevede du, og i hvilket trin
+%3$d. Eventuelle andre oplysninger"</string>
     <string name="feedback_description_hint_suggestion">Fortæl os, hvordan vi kan blive bedre.</string>
     <string name="feedback_description_hint_suggestion_pad">Fortæl os, hvordan vi kan blive bedre.</string>
     <string name="feedback_description_suggest_hint">Jeg vil gerne tilføje en ny funktion (), fordi jeg har brug for ().</string>
@@ -294,6 +298,7 @@ Send denne kode til supervisoren."</string>
     <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Opretter en Jira-rapport…</string>
     <string name="feedback_package_log_failed">Kunne ikke komprimere logge.</string>
+    <string name="feedback_radio_button">Mulighedsknap</string>
     <string name="feedback_remind_login_btn">Log ind</string>
     <string name="feedback_report_remind_login_desc">Log ind med din Xiaomi Account, så vores ingeniører kan kontakte dig.</string>
     <string name="feedback_report_remind_login_desc2">Du kan også se sagsforløbet for din rapport i \"Min feedback\".</string>
@@ -432,7 +437,7 @@ Send denne kode til supervisoren."</string>
     <string name="kr_authorization_contact">Konto</string>
     <string name="kr_authorization_contact_desc">For at få adgang til Xiaomi Account-oplysninger for at kunne identificere enhed</string>
     <string name="kr_authorization_exit">Luk</string>
-    <string name="kr_authorization_function">Indsende feedback, generere logfiler, gennemse ofte stillede spørgsmål</string>
+    <string name="kr_authorization_function">Se og indsend feedback, optag logfiler, læs ofte stillede spørgsmål, og følg status og svar på feedback</string>
     <string name="kr_authorization_log_protocol">Logprotokol (valgfri)</string>
     <string name="kr_authorization_log_protocol_desc">For at forbedre de tjenester, der leveres til dig, vil vi uploade brugsstatistikker og systemlogfiler til vores servere. Disse elementer kan omfatte dine personlige oplysninger såvel som oplysninger om din enhed og dine netværk. Vi vil bruge uploadede elementer til at lokalisere og analysere problemerne i systemet.</string>
     <string name="kr_authorization_phone">Telefon</string>
@@ -563,6 +568,12 @@ E-mail: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_withdraw_consent_hint">Hvis du fortsætter, trækker du dit samtykke til privatlivspolitikken for %1$s tilbage. De personlige oplysninger, som vi allerede har indsamlet og opbevaret, vil blive slettet inden for den specifikke periode i overensstemmelse med gældende love og bestemmelser, medmindre andet er påkrævet. Da %2$s leverer sine tjenester baseret på indsamling af de nødvendige personoplysninger, vil din tilbagetrækning af samtykke blive anset som en afvist accept af %3$s tjenester. Tilbagetræk samtykke nu?</string>
     <string name="miui_feedback_note_install_xiaomi_community">Install Xiaomi Community to be able to use this feature.</string>
     <string name="miuix_access_state_desc">Valgt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Skjult</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Udvidet</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Afslut redigeringsvisning</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ny notifikation</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Start redigeringsvisning</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -578,6 +589,8 @@ E-mail: service.jp@xiaomi.com"</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
     <string name="miuix_appcompat_select_all_description">Vælg alle</string>
     <string name="miuix_appcompat_select_item">Vælg emner</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop op-vindue</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
@@ -586,6 +599,9 @@ E-mail: service.jp@xiaomi.com"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Skjult</string>
+    <string name="miuix_stretchablewidget_expanded">Udvidet</string>
     <string name="mobile_data_note_dialog_cancel">Vent på Wi-fi</string>
     <string name="mobile_data_note_dialog_cancel_china">Wait for WLAN</string>
     <string name="mobile_data_note_dialog_confirm">Upload</string>
@@ -917,6 +933,7 @@ Læs og acceptér den nye version af %3$s, inden du fortsætter."</string>
     <string name="tab_title_my_reports">Min feedback</string>
     <string name="tab_title_preferences">Indstillinger</string>
     <string name="tab_title_report">Feedback</string>
+    <string name="talkback_announce_last">Sidste skridt</string>
     <string name="telephony_cdma_dialog_cancel">Annuller</string>
     <string name="telephony_cdma_dialog_msg">Tjek med din udbyder, om 4G/5G er aktiveret på din enhed. Hvis det er aktiveret, og du stadig oplever problemer, så indsend feedback.</string>
     <string name="telephony_cdma_dialog_ok">Feedback</string>
@@ -1009,7 +1026,10 @@ Læs og acceptér den nye version af %3$s, inden du fortsætter."</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>
     <string name="tuesday_shortest">Tirs</string>
+    <string name="unLock_catch_log">Hvis din skærmlås ikke låser din enhed op, eller du oplever lignende problemer, så send enhedslogfiler, så vi kan finde og løse fejlen. Logfilerne uploades anonymt, bruges udelukkende til fejlfinding og slettes straks efter.</string>
+    <string name="unLock_catch_log_hint">Indsendelse af feedback kan ikke bruges til at gendanne en glemt adgangskode.</string>
     <string name="unknown_error_info">Ukendt fejl</string>
+    <string name="unlock_catch_log_toast" formatted="false">Sender feedback. Hold enheden i nærheden i de næste %3d–%5d minutter.</string>
     <string name="update_dialog_cancel">Annuller</string>
     <string name="update_dialog_confirm">Opdatér</string>
     <string name="update_dialog_content_log">"Hvad er nyt:

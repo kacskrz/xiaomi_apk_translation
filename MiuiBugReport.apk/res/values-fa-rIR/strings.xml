@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="access_denied_info">تلاش‌ها بیش از اندازه هستند. چند دقیقه صبر کرده سپس دوباره تلاش کنید.</string>
+    <string name="accessibility_sliding_button_state_description_off">خاموش شد</string>
+    <string name="accessibility_sliding_button_state_description_on">روشن شد</string>
+    <string name="accessibility_tab_state_description_unselect">انتخاب نشده است</string>
     <string name="account_crop_user_avatar">بریدن عکس</string>
     <string name="account_empty_user_name">نام کاربری حساب Mi خود را وارد کنید</string>
     <string name="account_error_all_space_user_name">نام کاربری نمی‌تواند فقط حاوی فاصله باشد</string>
@@ -196,6 +199,7 @@
     <string name="feedback_answer_detail_submit_dialog_content">شما می‌توانید اشکالی که با آن روبرو شده‌اید را توضیح داده و ما نیز تلاش می‌کنیم آن را برطرف کنیم. بازخورد ارسال شود؟</string>
     <string name="feedback_answer_detail_submit_dialog_title">بازخورد ارسال شود؟</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s مشکل \"%2$s\" شد</string>
+    <string name="feedback_button">دکمه</string>
     <string name="feedback_choose_app_tag">انتخاب اشکال</string>
     <string name="feedback_choose_device">انتخاب دستگاه</string>
     <string name="feedback_choose_device_hint">شما هیچ دستگاهی را انتخاب نکرده‌اید</string>
@@ -209,10 +213,10 @@
     <string name="feedback_continue">ارسال بازخورد</string>
     <string name="feedback_delete_images">حذف تصاویر</string>
     <string name="feedback_description">توضیحات</string>
-    <string name="feedback_description_hint">"اشکالی که با آن روبرو شدید را در اینجا شرح دهید.
-%1$d. در کدام برنامه یا در کدام صفحه با اشکال روبرو شده‌اید؟
-%2$d. بعد از چه اقداماتی که انجام دادید این اشکال نمایان شد؟
-%3$d. اطلاعات بیشتری که ممکن است در رفع اشکال به ما کمک کند، به ما بدهید."</string>
+    <string name="feedback_description_hint">"اشکالی که با آن روبرو شده‌اید را شرح دهید:
+%1$d. در کدام برنامه یا صفحه با مشکل روبرو شدید
+%2$d.با چه اشکالی و در چه مرحله‌ای روبرو شدید
+%3$d. هر جزئیات بیشتر دیگری"</string>
     <string name="feedback_description_hint_suggestion">به ما بگویید چگونه بهتر شویم.</string>
     <string name="feedback_description_hint_suggestion_pad">به ما بگویید چگونه بهتر شویم.</string>
     <string name="feedback_description_suggest_hint">مایلم شما یک ویژگی جدید () بیافزایید زیرا احتیاج دارم ().</string>
@@ -247,6 +251,7 @@
     <string name="feedback_jira_key">کلید JIRA: %s</string>
     <string name="feedback_jira_key_place_holder">درحال ایجاد یک Jira…</string>
     <string name="feedback_package_log_failed">گزارش‌ها فشرده نشد</string>
+    <string name="feedback_radio_button">دکمه گزینه</string>
     <string name="feedback_remind_login_btn">ورود</string>
     <string name="feedback_report_remind_login_desc">با حساب Xiaomi خود وارد شوید تا مهندسین ما بتوانند با شما تماس بگیرند.</string>
     <string name="feedback_report_remind_login_desc2">شما همچنین می‌توانید روند گزارش خود را در «بازخورد من» ببینید.</string>
@@ -385,7 +390,7 @@
     <string name="kr_authorization_contact">حساب</string>
     <string name="kr_authorization_contact_desc">برای دسترسی به اطلاعات حساب Xiaomi به منظور شناسایی دستگاه</string>
     <string name="kr_authorization_exit">خروج</string>
-    <string name="kr_authorization_function">ارسال بازخورد، تولید رخدادها و دیدن پرسش‌های متداول</string>
+    <string name="kr_authorization_function">دیدن و ارسال بازخورد، ضبط گزارش‌ها، مشاهده پرسش‌های متداول و بررسی پیشرفت و نتایج بازخورد</string>
     <string name="kr_authorization_log_protocol">پروتکل گزارش (اختیاری)</string>
     <string name="kr_authorization_log_protocol_desc">به منظور بهبود خدمات ارائه شده به شما، ما آمار مصرف و گزارشات سیستم را در سرورهای خود بارگذاری می‌کنیم. این موارد ممکن است دارای اطلاعات شخصی و همچنین اطلاعات درباره دستگاه و شبکه‌های شما باشد. ما از موارد بارگذاری شده برای مکان‌یابی و تجزیه و تحلیل اشکالات در سیستم استفاده می‌کنیم.</string>
     <string name="kr_authorization_phone">تلفن</string>
@@ -516,6 +521,12 @@
     <string name="miui_feedback_main_withdraw_consent_hint">در صورت ادامه، رضایت خود را نسبت به سیاست حفظ حریم خصوصی %1$s بر می‌دارید. اطلاعات شخصی که تا کنون گردآوری و نگهداری شده‌اند بر اساس قوانین و مقررات قابل اجرا در مدت زمان مشخص حذف خواهند شد، مگر این‌که به شکل دیگری نیاز باشد. از آن‌جا که %2$s خدمات خود را بر اساس گردآوری اطلاعات شخصی لازم ارائه می‌دهد، پس گرفتن رضایت شما به منزله خودداری از پذیرش خدمات %3$s خواهد بود. رضایت پس گرفته شود؟</string>
     <string name="miui_feedback_note_install_xiaomi_community">Install Xiaomi Community to be able to use this feature.</string>
     <string name="miuix_access_state_desc">انتخاب شده</string>
+    <string name="miuix_accessibility_title">عنوان</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">بسته شده</string>
+    <string name="miuix_appcompat_accessibility_expand_state">باز شد</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">خروج از حالت ویرایش</string>
+    <string name="miuix_appcompat_accessibility_new_message">اعلان جدید</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">ورود به حالت ویرایش</string>
     <string name="miuix_appcompat_action_mode_deselect_all">لغو انتخاب همه</string>
     <string name="miuix_appcompat_action_mode_select_all">انتخاب همه</string>
     <string name="miuix_appcompat_action_mode_title_empty">انتخاب موارد</string>
@@ -531,6 +542,8 @@
     <string name="miuix_appcompat_select_all">انتخاب همه</string>
     <string name="miuix_appcompat_select_all_description">انتخاب همه</string>
     <string name="miuix_appcompat_select_item">انتخاب موارد</string>
+    <string name="miuix_appcompat_show_dialog_description">صفحه بازشو</string>
+    <string name="miuix_progressbar_loading">در حال بارگذاری</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">برای تازه‌سازی پایین بکشید</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">با موفقیت تازه‌سازی شد</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">در حال تازه سازی…</string>
@@ -539,6 +552,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">به پایان صفحه رسیدید</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">چند لحظه صبر کنید…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">موارد بارگذاری نشدند</string>
+    <string name="miuix_show_password">نمایش رمز عبور</string>
+    <string name="miuix_stretchablewidget_collapsed">بسته شده</string>
+    <string name="miuix_stretchablewidget_expanded">باز شد</string>
     <string name="mobile_data_note_dialog_cancel">منتظر Wi-Fi می‌مانم</string>
     <string name="mobile_data_note_dialog_cancel_china">Wait for WLAN</string>
     <string name="mobile_data_note_dialog_confirm">بارگذاری</string>
@@ -865,6 +881,7 @@
     <string name="tab_title_my_reports">بازخورد من</string>
     <string name="tab_title_preferences">تنظیمات</string>
     <string name="tab_title_report">بازخورد</string>
+    <string name="talkback_announce_last">گام نهایی</string>
     <string name="telephony_cdma_dialog_cancel">لغو</string>
     <string name="telephony_cdma_dialog_msg">با کارور خود هماهنگ کنید که آیا خدمات 4G/5G برای دستگاه شما فعال شده است یا خیر. اگر فعال شده است و همچنان با مشکل روبرو هستید، بازخورد خود را ارسال کنید.</string>
     <string name="telephony_cdma_dialog_ok">بازخورد</string>
@@ -957,7 +974,10 @@
     <string name="tuesday">سه‌شنبه</string>
     <string name="tuesday_short">سه‌شنبه</string>
     <string name="tuesday_shortest">سه‌شنبه</string>
+    <string name="unLock_catch_log">اگر قفل صفحه شما قفل دستگاه شما را باز نمی‌کند یا با مشکلات مرتبط دیگری مواجه می‌شوید، گزارش‌های دستگاه را ارسال کنید تا به ما در یافتن و رفع مشکل کمک کنید. گزارش‌ها به‌صورت ناشناس بارگذاری شده، فقط برای عیب‌یابی استفاده گردیده و بلافاصله پس از اتمام عیب‌یابی حذف می‌شوند.</string>
+    <string name="unLock_catch_log_hint">از ارسال بازخورد نمی‌توان برای بازیابی گذرواژه فراموش شده استفاده کرد.</string>
     <string name="unknown_error_info">خطای ناشناخته</string>
+    <string name="unlock_catch_log_toast" formatted="false">در حال ارسال بازخورد. دستگاه را برای %3d تا %5d دقیقه بعدی نزدیک نگه دارید.</string>
     <string name="update_dialog_cancel">لغو</string>
     <string name="update_dialog_confirm">به‌روزرسانی</string>
     <string name="update_dialog_content_log">"موارد تازه:
