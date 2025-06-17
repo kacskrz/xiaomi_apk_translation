@@ -11,8 +11,8 @@
     <string name="app_name">מחשבון</string>
     <string name="baby_care">טיפול בפעוטות</string>
     <string name="base_rate">ריבית בסיסית</string>
-    <string name="base_rate_first_house">First property base interest rate (%1$s)</string>
-    <string name="base_rate_second_house">Second property base interest rate (%1$s)</string>
+    <string name="base_rate_first_house">שיעור ריבית בסיסי עבור נכס ראשון (%1$s)</string>
+    <string name="base_rate_second_house">שיעור ריבית בסיסי עבור נכס שני (%1$s)</string>
     <string name="bmi">מחשבון BMI</string>
     <string name="bmi_input_age_error">לא ניתן לחשב BMI לגיל מתחת ל-14</string>
     <string name="bmi_input_error">הנתונים שהזנת שגויים</string>
@@ -25,16 +25,16 @@
     <string name="cal_result_format">= %s</string>
     <string name="cal_text_copied">הטקסט הועתק</string>
     <string name="cancel">ביטול</string>
-    <string name="card_individual_income_tax">PIT (CNY)</string>
-    <string name="card_insurance_and_fund">Insurance (CNY)</string>
-    <string name="card_mortgage_average_repayment_monthly">Monthly payment</string>
-    <string name="card_mortgage_interest_amount_myriad">Interest (10K CNY)</string>
-    <string name="card_mortgage_interest_amount_yuan">Interest (CNY)</string>
-    <string name="card_mortgage_loans_amount_myriad">Loan (10K CNY)</string>
-    <string name="card_mortgage_loans_amount_yuan">Loan (CNY)</string>
-    <string name="card_mortgage_repayment_amount_myriad">Repayment (10K CNY)</string>
-    <string name="card_mortgage_repayment_amount_yuan">Repayment (CNY)</string>
-    <string name="card_pretax_income">Pretax (CNY)</string>
+    <string name="card_individual_income_tax">מס הכנסה (CNY)</string>
+    <string name="card_insurance_and_fund">ביטוח (CNY)</string>
+    <string name="card_mortgage_average_repayment_monthly">תשלום חודשי</string>
+    <string name="card_mortgage_interest_amount_myriad">ריבית (10K CNY)</string>
+    <string name="card_mortgage_interest_amount_yuan">ריבית (CNY)</string>
+    <string name="card_mortgage_loans_amount_myriad">הלוואה (10K CNY)</string>
+    <string name="card_mortgage_loans_amount_yuan">הלוואה (CNY)</string>
+    <string name="card_mortgage_repayment_amount_myriad">החזר (10K CNY)</string>
+    <string name="card_mortgage_repayment_amount_yuan">החזר (CNY)</string>
+    <string name="card_pretax_income">לפני המיסים (CNY)</string>
     <string name="children_education">חינוך ילדים</string>
     <string name="city_picker_hint">בחירה</string>
     <string name="clearDesc">ניקוי</string>
@@ -157,6 +157,7 @@
     <string name="friday">שישי</string>
     <string name="friday_short">"ו'"</string>
     <string name="friday_shortest">"ו'"</string>
+    <string name="full_window">למקסם</string>
     <string name="fund_loan">מימון הלוואה</string>
     <string name="further_education">לימודי המשך</string>
     <string name="get_loaction_permission_title">גישה למיקום</string>
@@ -327,7 +328,7 @@
     <string name="mortgage_detail_monthly_principal">הון</string>
     <string name="mortgage_detail_monthly_remain">נותר</string>
     <string name="mortgage_detail_monthly_repayment_commercial">מסחרי</string>
-    <string name="mortgage_detail_monthly_repayment_lending">Provident fund</string>
+    <string name="mortgage_detail_monthly_repayment_lending">קרן פנסיה</string>
     <string name="mortgage_detail_yearly_interest">ריבית</string>
     <string name="mortgage_detail_yearly_repayment">החזר</string>
     <string name="mortgage_hint_loan">הזן את הסכום</string>
@@ -336,7 +337,7 @@
     <string name="mortgage_item_repayment">שיטת החזר תשלום</string>
     <string name="mortgage_item_start_time">תאריך התחלה</string>
     <string name="mortgage_item_years_commercial">מונח הקשור להלוואות מסחריות</string>
-    <string name="mortgage_item_years_lending">Provident fund loan term</string>
+    <string name="mortgage_item_years_lending">תקופת ההלוואה של קרן פנסיה</string>
     <string name="mortgage_provident_found_interest_rate">שיעור הריבית של הקרן</string>
     <string name="mortgage_provider_east_money">הנתונים סופקו ע\"י East Money</string>
     <string name="mortgage_result">התוצאה</string>
@@ -383,6 +384,11 @@
     <string name="preference_get_local_tax_info">כדי לספק מידע מתאים על הלוואות ומסים</string>
     <string name="preference_has_allowed">הוענקה</string>
     <string name="preference_not_allowance">לא הוענקה</string>
+    <string name="preference_percentage">הוספה והחסרה של אחוזים</string>
+    <string name="preference_percentage_numericalvalue">לפי ערך</string>
+    <string name="preference_percentage_numericalvalue_comments">יש להמיר את האחוז לשבר עשרוני, ואז להוסיף או להחסיר</string>
+    <string name="preference_percentage_proportion">לפי שיעור</string>
+    <string name="preference_percentage_proportion_comments">קודם יש להחיל את האחוז על התוצאה הקודמת, ואז להוסיף או להחסיר — מושלם עבור הנחות</string>
     <string name="preference_permission_info">פרטי הרשאות</string>
     <string name="preference_privacy_setting">פרטיות</string>
     <string name="preference_privacy_title">מדיניות הפרטיות</string>
@@ -399,8 +405,8 @@
     <string name="privacy_switch">ביטול הסכמה</string>
     <string name="pull_to_refresh">משוך מטה לצפיה בהיסטוריה</string>
     <string name="radDesc">רדין</string>
-    <string name="rate_number_first_house">First property %1$s factor rate (%2$s)</string>
-    <string name="rate_number_second_house">Second property %1$s factor rate (%2$s)</string>
+    <string name="rate_number_first_house">נכס ראשון %1$s שיעור פקטור (%2$s)</string>
+    <string name="rate_number_second_house">נכס שני %1$s שיעור פקטור (%2$s)</string>
     <string name="re_compute">חישוב מחדש</string>
     <string name="reciprocalDesc">הפכי</string>
     <string name="relationship">קרבה</string>
