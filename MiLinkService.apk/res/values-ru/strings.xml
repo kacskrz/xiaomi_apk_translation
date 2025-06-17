@@ -143,7 +143,7 @@
     <string name="car_camera_unavailable_dialog_message">Автомобиль находится в режиме низкого энергопотребления или конфиденциальности. Сейчас невозможно использовать фронтальную камеру.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Понятно</string>
     <string name="car_camera_unavailable_dialog_title">Фронтальная камера электромобиля занята</string>
-    <string name="car_card_air_control_backseat_air">Задний ряд</string>
+    <string name="car_card_air_control_backseat_air">Кондиционер второго ряда</string>
     <string name="car_card_air_temperature_minus">Уменьшить температуру кондиционера</string>
     <string name="car_card_air_temperature_plus">Увеличить температуру кондиционера</string>
     <string name="car_card_air_temperature_text">Температура</string>
@@ -313,6 +313,10 @@
     <string name="circulate_device_type_name_tv">Телевизор</string>
     <string name="circulate_device_type_name_wifi_speaker">Колонка</string>
     <string name="circulate_device_type_name_wifi_speaker_with_screen">Колонка с сенсорным экраном</string>
+    <string name="circulate_edit_group_title">"Колонки или телевизоры можно группировать и отображать вместе, когда больше %1$d устройств подключены к одной и той же локальной сети
+"</string>
+    <string name="circulate_edit_sound_group_title">Группировать колонки</string>
+    <string name="circulate_edit_tv_group_title">Группировать телевизоры</string>
     <string name="circulate_glasses_duplicate_dialog_message">Очки уже подключены. Если вы подключитесь к новым очкам, предыдущие будут отключены. Подключиться сейчас?</string>
     <string name="circulate_glasses_duplicate_dialog_message_pad">Ваш планшет уже подключен к очкам. Если вы подключитесь к новым очкам, предыдущие будут отключены. Подключиться сейчас?</string>
     <string name="circulate_glasses_duplicate_dialog_message_phone">Ваш телефон уже подключен к очкам. Если вы подключитесь к новым очкам, предыдущие будут отключены. Подключиться сейчас?</string>
@@ -366,6 +370,7 @@
     <string name="circulate_headset_error_default">Время ожидания истекло</string>
     <string name="circulate_headset_error_device_not_support">Не удается подключить наушники к этому устройству</string>
     <string name="circulate_headset_error_ear_phone_not_support">Эти наушники не поддерживают передачу воспроизведения звука</string>
+    <string name="circulate_headset_error_group_device_not_support">Сначала выключите «Группировать телевизоры» в «Изменить группы устройств».</string>
     <string name="circulate_headset_error_headset_not_support">Не удается подключить наушники к этому компьютеру</string>
     <string name="circulate_headset_error_headset_not_worn">Вставьте оба наушника и повторите попытку</string>
     <string name="circulate_headset_error_headset_not_worn_both">Вставьте оба наушника и повторите попытку</string>
@@ -421,6 +426,7 @@
     <string name="circulate_ringfind_error_hint_stop">Не удалось остановить воспроизведение звука. Повторите попытку.</string>
     <string name="circulate_ringfind_title">Воспроизвести звук</string>
     <string name="circulate_ringfind_title_stop">Остановить воспроизведение звука</string>
+    <string name="circulate_sound_group_title">Группа колонок</string>
     <string name="circulate_speaker_control_header_title">音箱播控</string>
     <string name="circulate_speaker_control_view">来自%1$s</string>
     <string name="circulate_sport_device_find_band">Найти этот браслет</string>
@@ -434,6 +440,7 @@
     <string name="circulate_to_mijia">Устройства \"умного\" дома</string>
     <string name="circulate_tv_app_opening">Открытие на телевизоре…</string>
     <string name="circulate_tv_capturing">Создание снимка экрана…</string>
+    <string name="circulate_tv_group_title">Группа телевизоров</string>
     <string name="circulate_tv_is_authing_tip">Выполняется проверка устройств. Подождите немного и повторите попытку.</string>
     <string name="circulate_tv_name">Xiaomi TV</string>
     <string name="circulate_tv_power_alter_text">После выключения телевизора пульт и телевизор исчезнут с этой страницы. Выключить сейчас?</string>
@@ -483,7 +490,7 @@
     <string name="connect_settings_privacy_policy">Политика конфиденциальности</string>
     <string name="connect_settings_relay_app">Приложения</string>
     <string name="connect_settings_share_clipboard">Буфер обмена</string>
-    <string name="connect_settings_share_file">Доступ к файлам между устройствами</string>
+    <string name="connect_settings_share_file">Файлы между устройстами</string>
     <string name="connect_settings_share_launcher">Рабочий стол+</string>
     <string name="connect_settings_share_notification">Уведомления</string>
     <string name="connect_settings_summary"><Data>Автоматически обнаруживать устройства, находящиеся поблизости и подключенные к вашему аккаунту Xiaomi, а также соединять их друг с другом для выполнения различных задач на нескольких устройствах. &lt;a href=%1$s>Подробнее.&lt;/a></Data></string>
@@ -517,8 +524,9 @@
     <string name="device_desc_trust">Доверенные устройства</string>
     <string name="device_permission_authorize_dialog_message">После этого это устройство сможет использовать камеру %s для фотосъемки и записи видео.</string>
     <string name="device_permission_authorize_dialog_title">Предоставьте разрешение на %s</string>
-    <string name="device_permission_dialog_message">На устройстве %s выберите «Настройки» > «Взаимосвязанность» > «Взаимосвязанность и разрешения» и предоставьте разрешение на доступ к камере.</string>
+    <string name="device_permission_dialog_message">На %s перейдите в «Настройки» > «Конфиденциальность и безопасность» > «Взаимосвязанность и разрешения» и предоставьте камере разрешения, чтобы использовать эту функцию.</string>
     <string name="device_permission_dialog_message_car">На устройстве %s выберите «Настройки» > «Система» > «Управление приложениями» > «Специальные разрешения» > «Взаимосвязанность» и предоставьте разрешение на доступ к камере.</string>
+    <string name="device_permission_dialog_message_car_pad">Чтобы использовать эту функцию, предоставьте разрешения на использование камеры на планшете в разделе «Настройки» > «Конфиденциальность и безопасность» > «Взаимосвязанность и разрешения».</string>
     <string name="device_permission_dialog_positive_button">Понятно</string>
     <string name="device_permission_dialog_title">Предоставьте разрешение на %s</string>
     <string name="device_type_name_pad">Планшет</string>
@@ -574,6 +582,7 @@
     <string name="dual_wifi_warning_china">Выключите двухдиапазонную WLAN и повторите попытку</string>
     <string name="dual_wifi_warning_global">Отключите двухдиапазонный Wi-Fi и повторите попытку.</string>
     <string name="early_morning">Утро</string>
+    <string name="edit_device_group">Изменить группы устройств</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Транслировать изображение на внешний монитор.</string>
     <string name="enable_screen_projection_summary_new">Трансляция экрана мобильного устройства на телевизоры и другие внешние мониторы</string>
@@ -1385,6 +1394,8 @@
     <string name="sever_switch_camera">Переключиться между фронтальной и основной камерами</string>
     <string name="sever_switch_camera_front">Фронтальная камера</string>
     <string name="sever_switch_camera_rear">Основная камера</string>
+    <string name="share_compute_powing_title_pad">Совместное использование вычислительной мощности с телефоном…</string>
+    <string name="share_compute_powing_title_phone">Совместное использование вычислительной мощности с планшетом…</string>
     <string name="share_desktop_with_car">Общий доступ к рабочему столу в автомобиле</string>
     <string name="share_desktop_with_car_ing">Дублирование на экран в автомобиле…</string>
     <string name="show_result_on_tv">Показать результаты на телевизоре</string>

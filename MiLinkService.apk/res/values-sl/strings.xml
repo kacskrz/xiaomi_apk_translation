@@ -48,7 +48,7 @@
     <string name="answering_tel1">Sprejemanje klicev na tablici …</string>
     <string name="answering_tel2">Preneseno iz telefona …</string>
     <string name="app_name">Oddajanje</string>
-    <string name="app_name_vtcamera">Cross-device camera</string>
+    <string name="app_name_vtcamera">Kamera med napravami</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -143,7 +143,7 @@ naprave?"</string>
     <string name="car_camera_unavailable_dialog_message">Vozilo je v načinu nizke porabe energije ali načinu zasebnosti. Trenutno ni mogoče uporabiti sprednje kamere.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Razumem</string>
     <string name="car_camera_unavailable_dialog_title">Sprednja kamera električnega vozila je zasedena</string>
-    <string name="car_card_air_control_backseat_air">Zadnji sedeži</string>
+    <string name="car_card_air_control_backseat_air">Klimatska naprava v drugi vrsti</string>
     <string name="car_card_air_temperature_minus">Znižanje temperature klimatske naprave</string>
     <string name="car_card_air_temperature_plus">Zvišanje temperature klimatske naprave</string>
     <string name="car_card_air_temperature_text">Temperatura</string>
@@ -313,6 +313,10 @@ da bi zrcalili zaslon"</string>
     <string name="circulate_device_type_name_tv">TV</string>
     <string name="circulate_device_type_name_wifi_speaker">Zvočnik</string>
     <string name="circulate_device_type_name_wifi_speaker_with_screen">Zvočnik z zaslonom na dotik</string>
+    <string name="circulate_edit_group_title">"Zvočniki ali televizorji so lahko združeni v skupine in prikazani skupaj, če je več kot %1$d priključenih na isti LAN
+"</string>
+    <string name="circulate_edit_sound_group_title">Združi zvočnike</string>
+    <string name="circulate_edit_tv_group_title">Združi TV-je</string>
     <string name="circulate_glasses_duplicate_dialog_message">Očala so že povezana. Če se povežete z novim parom očal, bo povezava s prvim parom prekinjena. Želite povezati zdaj?</string>
     <string name="circulate_glasses_duplicate_dialog_message_pad">Vaša tablica je že povezana z očali. Če se povežete z novim parom očal, bo povezava s prvim parom prekinjena. Želite povezati zdaj?</string>
     <string name="circulate_glasses_duplicate_dialog_message_phone">Vaš telefon je že povezan z očali. Če se povežete z novim parom očal, bo povezava s prvim parom prekinjena. Želite povezati zdaj?</string>
@@ -366,6 +370,7 @@ da bi zrcalili zaslon"</string>
     <string name="circulate_headset_error_default">Povezava je potekla</string>
     <string name="circulate_headset_error_device_not_support">S to napravo ni mogoče povezati slušalk</string>
     <string name="circulate_headset_error_ear_phone_not_support">Te slušalke ne podpirajo prenosa predvajanja zvoka</string>
+    <string name="circulate_headset_error_group_device_not_support">Najprej izklopite “Združevanje TV-jev “ v “Urejanje skupin naprav“</string>
     <string name="circulate_headset_error_headset_not_support">S tem računalnikom ni mogoče povezati slušalk</string>
     <string name="circulate_headset_error_headset_not_worn">Vstavite obe slušalki in poskusite ponovno</string>
     <string name="circulate_headset_error_headset_not_worn_both">Vstavite obe slušalki in poskusite ponovno</string>
@@ -421,6 +426,7 @@ naprave?"</string>
     <string name="circulate_ringfind_error_hint_stop">Predvajanja zvoka ni bilo mogoče ustaviti. Poskusite znova.</string>
     <string name="circulate_ringfind_title">Predvajaj zvok</string>
     <string name="circulate_ringfind_title_stop">Ustavi predvajanje zvoka</string>
+    <string name="circulate_sound_group_title">Skupina zvočnikov</string>
     <string name="circulate_speaker_control_header_title">音箱播控</string>
     <string name="circulate_speaker_control_view">来自%1$s</string>
     <string name="circulate_sport_device_find_band">Poiščite to zapestnico</string>
@@ -434,6 +440,7 @@ naprave?"</string>
     <string name="circulate_to_mijia">Pametne naprave za dom</string>
     <string name="circulate_tv_app_opening">Odpiranje na televiziji…</string>
     <string name="circulate_tv_capturing">Zajemanje posnetka zaslona…</string>
+    <string name="circulate_tv_group_title">TV skupina</string>
     <string name="circulate_tv_is_authing_tip">Preverjanje naprav zdaj. Počakajte minuto ali dve in poskusite ponovno.</string>
     <string name="circulate_tv_name">Xiaomi TV</string>
     <string name="circulate_tv_power_alter_text">Ko je televizor izklopljen, daljinski upravljalnik in televizor izgineta s te strani. Želite izklopiti zdaj?</string>
@@ -483,7 +490,7 @@ naprave?"</string>
     <string name="connect_settings_privacy_policy">Pravilnik o zasebnosti</string>
     <string name="connect_settings_relay_app">Aplikacije</string>
     <string name="connect_settings_share_clipboard">Odložišče</string>
-    <string name="connect_settings_share_file">Dostop do datotek med napravami</string>
+    <string name="connect_settings_share_file">Datoteke med napravami</string>
     <string name="connect_settings_share_launcher">Začetni zaslon+</string>
     <string name="connect_settings_share_notification">Obvestila</string>
     <string name="connect_settings_summary"><Data>Samodejno odkrijte naprave v bližini, vpisane v vaš Xiaomi račun, in jih povežite med seboj za izvajanje različnih nalog v več napravah. &lt;a href=%1$s>Več o tem&lt;/a></Data></string>
@@ -517,8 +524,9 @@ naprave?"</string>
     <string name="device_desc_trust">Zaupanja vredna naprava</string>
     <string name="device_permission_authorize_dialog_message">Nato bo ta naprava lahko uporabljala kamero v %sza fotografiranje in snemanje videoposnetkov.</string>
     <string name="device_permission_authorize_dialog_title">Odobrite dovoljenje za %s</string>
-    <string name="device_permission_dialog_message">Na %s pojdite v Nastavitve>Medsebojna povezljivost>Medsebojna povezljivost in dovoljenja ter dovolite uporabo kamere.</string>
+    <string name="device_permission_dialog_message">V napravi \"%s\" pojdite v Nastavitve > Zasebnost &amp; varnost > Medsebojna povezljivost in dovoljenja, ter podelite dovoljenja kameri, da boste lahko uporabili to funkcijo.</string>
     <string name="device_permission_dialog_message_car">Na %s pojdite v Nastavitve>Sistem>Upravljanje aplikacij>Posebna dovoljenja > Medsebojna povezljivost in dovolite uporabo kamere.</string>
+    <string name="device_permission_dialog_message_car_pad">Za uporabo te funkcije v tablici podelite dovoljenja za kamero v Nastavitvah > Zasebnost &amp; varnost > Medsebojna povezljivost in dovoljenja.</string>
     <string name="device_permission_dialog_positive_button">Razumem</string>
     <string name="device_permission_dialog_title">Odobrite dovoljenje za %s</string>
     <string name="device_type_name_pad">Tablica</string>
@@ -574,6 +582,7 @@ Oglejte pomoč, če imate težave pri povezovanju."</string>
     <string name="dual_wifi_warning_china">Izklopite dvojno omrežje WLAN in poskusite ponovno</string>
     <string name="dual_wifi_warning_global">Izklopite dvojni Wi-Fi in poskusite ponovno</string>
     <string name="early_morning">Jutro</string>
+    <string name="edit_device_group">Urejanje skupin naprav</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Predvajanje vsebine zaslona na zunanji monitor</string>
     <string name="enable_screen_projection_summary_new">Oddajajte zaslon mobilne naprave v bližnje televizorje in druge zunanje monitorje</string>
@@ -1385,6 +1394,8 @@ Preberite in se strinjajte z našim &lt;a href=%1$s>Uporabniškim dogovorom&lt;/
     <string name="sever_switch_camera">Preklop med sprednjimi in zadnjimi kamerami</string>
     <string name="sever_switch_camera_front">Sprednja kamera</string>
     <string name="sever_switch_camera_rear">Zadnja kamera</string>
+    <string name="share_compute_powing_title_pad">Skupna raba računalniške moči s telefonom…</string>
+    <string name="share_compute_powing_title_phone">Skupna raba računalniške moči s tablico…</string>
     <string name="share_desktop_with_car">Skupna raba začetnega zaslona v avtomobilu</string>
     <string name="share_desktop_with_car_ing">Deljenje zaslona z avtomobilom…</string>
     <string name="show_result_on_tv">Ogled rezultatov na TV-ju</string>

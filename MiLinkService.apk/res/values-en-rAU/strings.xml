@@ -136,7 +136,7 @@ your devices?"</string>
     <string name="car_camera_unavailable_dialog_message">"The vehicle is in Low power or Privacy mode. Can't use front view camera now."</string>
     <string name="car_camera_unavailable_dialog_positive_button">Got it</string>
     <string name="car_camera_unavailable_dialog_title">"EV's front camera is busy"</string>
-    <string name="car_card_air_control_backseat_air">Back seats</string>
+    <string name="car_card_air_control_backseat_air">Second row A/C</string>
     <string name="car_card_air_temperature_minus">Decrease AC temperature</string>
     <string name="car_card_air_temperature_plus">Increase AC temperature</string>
     <string name="car_card_air_temperature_text">Temperature</string>
@@ -304,6 +304,10 @@ to mirror this tablet's screen"</string>
     <string name="circulate_device_type_name_tv">TV</string>
     <string name="circulate_device_type_name_wifi_speaker">Speaker</string>
     <string name="circulate_device_type_name_wifi_speaker_with_screen">Touch screen speaker</string>
+    <string name="circulate_edit_group_title">"Speakers or TVs can be grouped and displayed together when more than %1$d is connected to the same LAN
+"</string>
+    <string name="circulate_edit_sound_group_title">Group speakers</string>
+    <string name="circulate_edit_tv_group_title">Group TVs</string>
     <string name="circulate_glasses_duplicate_dialog_message">Glasses are already connected. If you connect to a new pair of glasses, the first pair will be disconnected. Connect now?</string>
     <string name="circulate_glasses_duplicate_dialog_message_pad">Your tablet is already connected to glasses. If you connect to a new pair of glasses, the first pair will be disconnected. Connect now?</string>
     <string name="circulate_glasses_duplicate_dialog_message_phone">Your phone is already connected to glasses. If you connect to a new pair of glasses, the first pair will be disconnected. Connect now?</string>
@@ -357,6 +361,7 @@ to mirror this tablet's screen"</string>
     <string name="circulate_headset_error_default">Connection timed out</string>
     <string name="circulate_headset_error_device_not_support">"Can't connect earphones to this device"</string>
     <string name="circulate_headset_error_ear_phone_not_support">"These earphones don't support transferring audio playback"</string>
+    <string name="circulate_headset_error_group_device_not_support">Turn off \"Group TVs\" in \"Edit device groups\" first</string>
     <string name="circulate_headset_error_headset_not_support">"Can't connect your earphones to this computer"</string>
     <string name="circulate_headset_error_headset_not_worn">Put in both earphones and try again</string>
     <string name="circulate_headset_error_headset_not_worn_both">Put in both earphones and try again</string>
@@ -412,6 +417,7 @@ your devices?"</string>
     <string name="circulate_ringfind_error_hint_stop">"Couldn't stop playing sound. Try again."</string>
     <string name="circulate_ringfind_title">Play sound</string>
     <string name="circulate_ringfind_title_stop">Stop playing sound</string>
+    <string name="circulate_sound_group_title">Speaker group</string>
     <string name="circulate_speaker_control_header_title">音箱播控</string>
     <string name="circulate_speaker_control_view">来自%1$s</string>
     <string name="circulate_sport_device_find_band">Find this band</string>
@@ -425,6 +431,7 @@ your devices?"</string>
     <string name="circulate_to_mijia">Smart home devices</string>
     <string name="circulate_tv_app_opening">Opening on TV…</string>
     <string name="circulate_tv_capturing">Taking screenshot…</string>
+    <string name="circulate_tv_group_title">TV group</string>
     <string name="circulate_tv_is_authing_tip">Verifying devices now. Wait a minute or two and try again.</string>
     <string name="circulate_tv_name">Xiaomi TV</string>
     <string name="circulate_tv_power_alter_text">Once the TV is turned off, the remote control and TV will disappear from this page. Turn off now?</string>
@@ -472,7 +479,7 @@ your devices?"</string>
     <string name="connect_settings_privacy_policy">Privacy Policy</string>
     <string name="connect_settings_relay_app">Apps</string>
     <string name="connect_settings_share_clipboard">Clipboard</string>
-    <string name="connect_settings_share_file">Cross-device file access</string>
+    <string name="connect_settings_share_file">Cross-device files</string>
     <string name="connect_settings_share_launcher">Home screen+</string>
     <string name="connect_settings_share_notification">Notifications</string>
     <string name="connect_settings_summary"><Data>Automatically discover nearby devices signed in to your Xiaomi Account and connect them to each other to perform a variety of tasks across multiple devices. &lt;a href=%1$s>Learn more&lt;/a></Data></string>
@@ -493,7 +500,7 @@ your devices?"</string>
     <string name="connection_failed">"Couldn't connect camera"</string>
     <string name="console_guide_btn_got_it">Got it</string>
     <string name="console_guide_subtitle_hang_up">You can keep casting when the screen of your device is turned off. This feature decreases power consumption.</string>
-    <string name="console_guide_subtitle_private">"Don't display floating notifications, incoming calls, and other private items on external monitors"</string>
+    <string name="console_guide_subtitle_private">"Don't display floating notifications, incoming calls and other private items on external monitors"</string>
     <string name="console_guide_subtitle_small_window">"Minimise the window that's being cast to be able to use other features of your phone"</string>
     <string name="copy">Copy</string>
     <string name="current_wifi_tv">Current network</string>
@@ -501,8 +508,9 @@ your devices?"</string>
     <string name="device_desc_trust">Trusted devices</string>
     <string name="device_permission_authorize_dialog_message">After that, this device will be able to use the camera on %s for taking photos and recording videos.</string>
     <string name="device_permission_authorize_dialog_title">Grant permission on %s</string>
-    <string name="device_permission_dialog_message">On %s, go to Settings > Interconnectivity > Interconnectivity and permissions and grant the camera permission.</string>
+    <string name="device_permission_dialog_message">On \"%s\", go to Settings > Privacy &amp; security > Interconnectivity and permissions, and grant the camera permissions to be able to use this feature.</string>
     <string name="device_permission_dialog_message_car">On %s, go to Settings > System > Manage apps > Special permissions > Interconnectivity and grant the camera permission.</string>
+    <string name="device_permission_dialog_message_car_pad">To be able to use this feature, grant camera permissions on your tablet in Settings > Privacy &amp; security > Interconnectivity and permissions.</string>
     <string name="device_permission_dialog_positive_button">Got it</string>
     <string name="device_permission_dialog_title">Grant permission on %s</string>
     <string name="device_type_name_pad">Tablet</string>
@@ -529,7 +537,7 @@ your devices?"</string>
     <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same Wi-Fi network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">OK</string>
-    <string name="dialog_only_suport_content">Stream photos, videos, or music</string>
+    <string name="dialog_only_suport_content">Stream photos, videos or music</string>
     <string name="dialog_open_wifi_bt">Turn on</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Make sure that the wireless casting feature is turned on on the target device.
 View help if you have problems connecting."</string>
@@ -557,6 +565,7 @@ View help if you have problems connecting."</string>
     <string name="dp_casting_start_hint">Connected via cable. Casting has ended.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">Turn off dual Wi-Fi and try again</string>
+    <string name="edit_device_group">Edit device groups</string>
     <string name="enable_screen_projection_summary">Cast screen contents to an external monitor</string>
     <string name="enable_screen_projection_summary_new">Cast mobile device screen to nearby TVs and other external monitors</string>
     <string name="enable_screen_projection_summary_pad">Cast the tablet screen to a nearby TV or other device</string>
@@ -644,7 +653,7 @@ View help if you have problems connecting."</string>
     <string name="global_privacy_main">"Projecting the items from your phone's screen on a bigger external monitor."</string>
     <string name="global_privacy_negative">"Don't agree"</string>
     <string name="global_privacy_positive">Agree</string>
-    <string name="global_privacy_screencast">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages.</string>
+    <string name="global_privacy_screencast">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos and messages.</string>
     <string name="global_privacy_tip"><Data>We need to collect necessary personal information to provide you with the basic services and optimise the casting process. You can learn how we handle the information we collect in our &lt;a href=%1$s>Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy in the Settings at any time.</Data></string>
     <string name="hang_up">Cast with screen off</string>
     <string name="hang_up_alert_dialog_content">Keep casting when the screen of your device is turned off. This feature decreases power consumption. Press the Power button to turn the screen back on.</string>
@@ -689,7 +698,7 @@ If the two devices can't be connected to the same network, turn on Miracast on y
     <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both WLAN and Bluetooth for a more stable connection."</string>
     <string name="help_page_text_09_global">"Tap the \"Cast\" toggle on your device's Notification shade. Turn on both Wi-Fi and Bluetooth for a more stable connection."</string>
     <string name="help_page_text_09_new_1">"Turn on casting in your device's Control centre, then search for an external monitor."</string>
-    <string name="help_page_text_10">If you want to cast photos, videos, games, or presentations, you can use built-in casting features in the corresponding apps.</string>
+    <string name="help_page_text_10">If you want to cast photos, videos, games or presentations, you can use built-in casting features in the corresponding apps.</string>
     <string name="help_page_text_11">Step %1$d: Select device</string>
     <string name="help_page_text_11_new">Step %1$d: Select device</string>
     <string name="help_page_text_12">Select an external device from the list of the available devices to start casting.</string>
@@ -729,35 +738,35 @@ If you need to turn on Miracast, press the [MENU] button and select My apps > Ca
     <string name="help_page_text_25">First, make sure that Miracast functionality is supported on your device. This feature is turned on by default on various models.</string>
     <string name="help_page_text_26">Philips customer support: 400-880-0008</string>
     <string name="help_page_text_27">TPV</string>
-    <string name="help_page_text_28">First, make sure that Miracast functionality is supported on your device. On some of the models, you can press the [MENU] button on the remote control and then select Settings > Connection > Network > Multiple screens.</string>
+    <string name="help_page_text_28">First, make sure that Miracast functionality is supported on your device. On some models, you can press the [MENU] button on the remote control and then select Settings > Connection > Network > Multiple screens.</string>
     <string name="help_page_text_29">TPV customer support: 400-887-8007</string>
     <string name="help_page_text_30">Hisense</string>
-    <string name="help_page_text_31">First, make sure that Miracast functionality is supported on your device. On some of the models, you can press the [SMART] button on the remote control and then select Casting > Wireless Display. Some models also support casting for games: Hi Cast > Cast games > Android.</string>
+    <string name="help_page_text_31">First, make sure that Miracast functionality is supported on your device. On some models, you can press the [SMART] button on the remote control and then select Casting > Wireless Display. Some models also support casting for games: Hi Cast > Cast games > Android.</string>
     <string name="help_page_text_32">Hisense customer support: 400-611-1111</string>
     <string name="help_page_text_33">Skyworth</string>
-    <string name="help_page_text_34">First, make sure that Miracast functionality is supported on your device. On some of the models, you can select Apps > Casting > Android device > Miracast.</string>
+    <string name="help_page_text_34">First, make sure that Miracast functionality is supported on your device. On some models, you can select Apps > Casting > Android device > Miracast.</string>
     <string name="help_page_text_35">Skyworth customer support: 95105555</string>
     <string name="help_page_text_36">Sony</string>
     <string name="help_page_text_37">First, make sure that Miracast functionality is supported on your device. On some of the models, you can press the [SOURCE] button on the remote control and then select \"Screen Mirroring\". On some other models, you can turn this feature on in Networks > WLAN Direct. This feature is turned on by default on various models.</string>
     <string name="help_page_text_38">Sony customer support: 400-810-9000</string>
     <string name="help_page_text_39">Panasonic</string>
-    <string name="help_page_text_40">First, make sure that Miracast functionality is supported on your device. On some of the models, you can select Apps > Screen Mirroring.</string>
+    <string name="help_page_text_40">First, make sure that Miracast functionality is supported on your device. On some models, you can select Apps > Screen Mirroring.</string>
     <string name="help_page_text_41">Panasonic customer support: 400-881-1315</string>
     <string name="help_page_text_42">Changhong</string>
     <string name="help_page_text_43">Check the settings of your TV to make sure that your external monitor supports Miracast functionality.</string>
     <string name="help_page_text_44">Changhong customer support: 400-811-1666</string>
     <string name="help_page_text_45">TCL</string>
-    <string name="help_page_text_46">First, make sure that Miracast functionality is supported on your device. On some of the models, you can select Apps > Wireless Display.</string>
+    <string name="help_page_text_46">First, make sure that Miracast functionality is supported on your device. On some models, you can select Apps > Wireless Display.</string>
     <string name="help_page_text_47">TCL customer support: 400-812-3456</string>
     <string name="help_page_text_48">AODIN</string>
-    <string name="help_page_text_49">First, make sure that Miracast functionality is supported on your device. To turn this feature on, go to My Apps > WiFi Display.</string>
+    <string name="help_page_text_49">First, make sure that Miracast functionality is supported on your device. To turn this feature on, go to My Apps > Wi-Fi Display.</string>
     <string name="help_page_text_50">AODIN customer support: 400-810-5858</string>
     <string name="help_page_text_51">LeEco</string>
-    <string name="help_page_text_52">First, make sure that Miracast functionality is supported on your device. On some of the models, you can turn this feature on in Settings > Networks > Multiple screens > Wireless Display.</string>
+    <string name="help_page_text_52">First, make sure that Miracast functionality is supported on your device. On some models, you can turn this feature on in Settings > Networks > Multiple screens > Wireless Display.</string>
     <string name="help_page_text_53">LeEco customer support: 10109000</string>
-    <string name="help_page_text_55">"If you can't connect to the network, make sure your external monitor supports Miracast functionality and it's turned on. On some models, this feature is called Wireless Display, Screen Mirroring, or Multiple screens. View the information below to learn how to turn on Miracast.
+    <string name="help_page_text_55">"If you can't connect to the network, make sure your external monitor supports Miracast functionality and it is turned on. On some models, this feature is called Wireless Display, Screen Mirroring or Multiple screens. View the information below to learn how to turn on Miracast.
 %1$d. If you encounter any issues, you can report them using our \"Services &amp; feedback\" app."</string>
-    <string name="help_page_text_55_global">"If you can't connect to the network, make sure your external monitor supports Miracast functionality and it's turned on. On some models, this feature is called Wireless Display, Screen Mirroring, or Multiple screens.
+    <string name="help_page_text_55_global">"If you can't connect to the network, make sure your external monitor supports Miracast functionality and it is turned on. On some models, this feature is called Wireless Display, Screen Mirroring or Multiple screens.
 %1$d. If you encounter any issues, you can report them using our \"Services &amp; feedback\" app."</string>
     <string name="help_page_text_end">"If the brand of your device isn't listed here, contact the manufacturer to learn more about casting functionality."</string>
     <string name="i_see">Got it</string>
@@ -850,7 +859,7 @@ Note: You'll receive a routine system warning when you turn on accessibility fea
     <string name="mr_user_route_category_name">Devices</string>
     <string name="msg_send_fail">"Couldn't transfer data"</string>
     <string name="nearby_device_file_access">"Receive a notification when nearby devices access this device's files"</string>
-    <string name="nfc_connect_failed_toast">"Couldnt't cast. Try again."</string>
+    <string name="nfc_connect_failed_toast">"Couldn't cast. Try again."</string>
     <string name="normal_device_desc">"The devices you've connected to, but haven't marked as trusted"</string>
     <string name="normal_device_desc_limit">"The devices you've connected to, but haven't marked as trusted"</string>
     <string name="normal_device_none">No previously connected devices here</string>
@@ -1090,7 +1099,7 @@ Note: You'll receive a routine system warning when you turn on accessibility fea
     <string name="privacy_permission_read_write_mobile_phone_storage">Access and save items to storage</string>
     <string name="privacy_permission_read_write_mobile_phone_storage_desc">For accessing and saving files and photos to this device</string>
     <string name="privacy_permission_screencast">Accessing information on the screen</string>
-    <string name="privacy_permission_screencast_desc">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos, and messages</string>
+    <string name="privacy_permission_screencast_desc">While recording or casting, the service providing this feature can capture any sensitive information that is displayed on your screen or played from your device, including sensitive information such as audio, passwords, payment info, photos and messages</string>
     <string name="privacy_permission_sound_recording">Record audio</string>
     <string name="privacy_permission_sound_recording_desc">For making voice calls or recording sound</string>
     <string name="privacy_permission_wlan">Turning Wi-Fi on and off</string>
@@ -1122,15 +1131,15 @@ Note: You'll receive a routine system warning when you turn on accessibility fea
     <string name="privacy_setting_category_3">Permissions</string>
     <string name="privacy_setting_permission_manager">Manage permissions</string>
     <string name="privacy_setting_revoke_lelink_policy">Withdrawal of consent to HappyCast Privacy Policy</string>
-    <string name="privacy_setting_show_authority">Permissions details</string>
+    <string name="privacy_setting_show_authority">"Permissions' details"</string>
     <string name="privacy_setting_show_lelink_law">View HappyCast Legal Statement</string>
     <string name="privacy_setting_show_lelink_policy">View HappyCast Privacy Policy</string>
     <string name="privacy_setting_show_policy">View Privacy Policy</string>
     <string name="privacy_setting_show_user_agreement">View User Agreement</string>
     <string name="privacy_text_1"><Data>"Welcome to Casting! Casting allows projecting the items from your phone's screen on a bigger external monitor.
-We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies. Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &lt;a href=%2$s>HappyCast Legal Statement&lt;/a> and &lt;a href=%1$s>HappyCast Privacy Policy&lt;/a>.
+We shall protect your personal information in accordance with the relevant laws, regulations and privacy policies. Some features are provided by a third party service provider HappyCast. Before using this feature, read and agree to &lt;a href=%2$s>HappyCast Legal Statement&lt;/a> and &lt;a href=%1$s>HappyCast Privacy Policy&lt;/a>.
 To be able to work normally, this app needs to connect to the internet and requires the following permissions in order to collect your personal information:"</Data></string>
-    <string name="privacy_text_2"><Data>"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.
+    <string name="privacy_text_2"><Data>"If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use this app. You can choose to uninstall this app, sign out or restrict permissions in the Settings in such cases.
 Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using this feature."</Data></string>
     <string name="privacy_text_pemission">"　　•Access and save images on your device in order to project these items on external monitors
 　　•Record calls and audio in order to cast audio on external devices
@@ -1172,7 +1181,7 @@ Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Turn the screen off while casting to reduce power consumption and overheating</string>
     <string name="screen_projection_characteristics_off_screen_summary">You can keep casting when the screen of your device is turned off. This feature decreases power consumption.</string>
     <string name="screen_projection_characteristics_off_screen_title">Cast with screen off</string>
-    <string name="screen_projection_characteristics_privacy_protect_summary">"Don't display floating notifications, incoming calls, and other private items on external monitors."</string>
+    <string name="screen_projection_characteristics_privacy_protect_summary">"Don't display floating notifications, incoming calls and other private items on external monitors."</string>
     <string name="screen_projection_characteristics_privacy_protect_title">Hide private items</string>
     <string name="screen_projection_characteristics_private_summary_new">"Protect your privacy: while casting, your device won't display floating notifications, incoming calls, and other private items"</string>
     <string name="screen_projection_characteristics_small_window_summary">"Minimise the window that's being cast to be able to use other features of your phone."</string>
@@ -1197,7 +1206,7 @@ Make sure you've turned on Game Turbo before casting games."</string>
     <string name="screen_projection_example_game_summary_miui15">View your gaming sessions on TV</string>
     <string name="screen_projection_example_game_title">Games</string>
     <string name="screen_projection_help">Help</string>
-    <string name="screen_projection_sample_summary">Casting documents, games, photos, and videos</string>
+    <string name="screen_projection_sample_summary">Casting documents, games, photos and videos</string>
     <string name="screen_projection_sample_title">Demos</string>
     <string name="screen_projection_title">Cast</string>
     <string name="screen_projection_title_miui15">Cast</string>
@@ -1227,6 +1236,8 @@ Make sure you've turned on Game Turbo before casting games."</string>
     <string name="sever_switch_camera">Switch between front and rear cameras</string>
     <string name="sever_switch_camera_front">Front camera</string>
     <string name="sever_switch_camera_rear">Rear camera</string>
+    <string name="share_compute_powing_title_pad">Sharing computing power with phone…</string>
+    <string name="share_compute_powing_title_phone">Sharing computing power with tablet…</string>
     <string name="share_desktop_with_car">Share Home screen to car</string>
     <string name="share_desktop_with_car_ing">Sharing screen with car…</string>
     <string name="show_result_on_tv">View results on the TV</string>

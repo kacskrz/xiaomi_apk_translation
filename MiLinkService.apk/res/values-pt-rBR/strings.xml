@@ -143,7 +143,7 @@ seus dispositivos?"</string>
     <string name="car_camera_unavailable_dialog_message">O veículo está no modo de baixa potência ou de privacidade. Não é possível usar a câmera de visão frontal agora.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Entendido</string>
     <string name="car_camera_unavailable_dialog_title">A câmera frontal do EV está ocupada</string>
-    <string name="car_card_air_control_backseat_air">Assentos traseiros</string>
+    <string name="car_card_air_control_backseat_air">A/C na segunda fileira</string>
     <string name="car_card_air_temperature_minus">Reduzir temperatura do AC</string>
     <string name="car_card_air_temperature_plus">Aumentar temperatura do AC</string>
     <string name="car_card_air_temperature_text">Temperatura</string>
@@ -313,6 +313,10 @@ para espelhar esta tela do tablet"</string>
     <string name="circulate_device_type_name_tv">TV</string>
     <string name="circulate_device_type_name_wifi_speaker">Alto-falante</string>
     <string name="circulate_device_type_name_wifi_speaker_with_screen">Alto-falante com tela sensível ao toque</string>
+    <string name="circulate_edit_group_title">"Alto-falantes ou TVs podem ser agrupadas e exibidas juntas quando mais de %1$d estiver conectada à mesma LAN
+"</string>
+    <string name="circulate_edit_sound_group_title">Agrupar alto-falantes</string>
+    <string name="circulate_edit_tv_group_title">Agrupar TVs</string>
     <string name="circulate_glasses_duplicate_dialog_message">Os óculos já estão conectados. Se você se conectar a um novo par de óculos, o primeiro par será desconectado. Conectar agora?</string>
     <string name="circulate_glasses_duplicate_dialog_message_pad">Seu tablet já está conectado aos óculos. Se você se conectar a um novo par de óculos, o primeiro par será desconectado. Conectar agora?</string>
     <string name="circulate_glasses_duplicate_dialog_message_phone">Seu telefone já está conectado aos óculos. Se você se conectar a um novo par de óculos, o primeiro par será desconectado. Conectar agora?</string>
@@ -366,6 +370,7 @@ para espelhar esta tela do tablet"</string>
     <string name="circulate_headset_error_default">Tempo limite da conexão</string>
     <string name="circulate_headset_error_device_not_support">Não é possível conectar fones de ouvido a este dispositivo</string>
     <string name="circulate_headset_error_ear_phone_not_support">Estes fones de ouvido não são compatíveis com a transferência da reprodução de áudio</string>
+    <string name="circulate_headset_error_group_device_not_support">Desative \"Agrupar TVs\" em \"Editar grupo de dispositivos\" primeiro</string>
     <string name="circulate_headset_error_headset_not_support">Não é possível conectar seus fones de ouvido a este computador</string>
     <string name="circulate_headset_error_headset_not_worn">Coloque os fones de ouvido e tente novamente</string>
     <string name="circulate_headset_error_headset_not_worn_both">Coloque os fones de ouvido e tente novamente</string>
@@ -421,6 +426,7 @@ seus dispositivos?"</string>
     <string name="circulate_ringfind_error_hint_stop">Não foi possível parar de reproduzir o som. Tente novamente.</string>
     <string name="circulate_ringfind_title">Tocar som</string>
     <string name="circulate_ringfind_title_stop">Parar de reproduzir som</string>
+    <string name="circulate_sound_group_title">Grupo de alto-falantes</string>
     <string name="circulate_speaker_control_header_title">音箱播控</string>
     <string name="circulate_speaker_control_view">来自%1$s</string>
     <string name="circulate_sport_device_find_band">Encontrar esta pulseira</string>
@@ -434,6 +440,7 @@ seus dispositivos?"</string>
     <string name="circulate_to_mijia">Dispositivos de casa inteligente</string>
     <string name="circulate_tv_app_opening">Abrindo na TV…</string>
     <string name="circulate_tv_capturing">Capturando a tela…</string>
+    <string name="circulate_tv_group_title">Grupo de TVs</string>
     <string name="circulate_tv_is_authing_tip">Verificando os dispositivos agora. Aguarde alguns minutos e tente novamente.</string>
     <string name="circulate_tv_name">Xiaomi TV</string>
     <string name="circulate_tv_power_alter_text">Quando a TV for desligada, o controle remoto e a TV desaparecerão desta página. Desligar agora?</string>
@@ -483,7 +490,7 @@ seus dispositivos?"</string>
     <string name="connect_settings_privacy_policy">Política de Privacidade</string>
     <string name="connect_settings_relay_app">Apps</string>
     <string name="connect_settings_share_clipboard">Área de transferência</string>
-    <string name="connect_settings_share_file">Acesso a arquivos entre dispositivos</string>
+    <string name="connect_settings_share_file">Arquivos entre dispositivos</string>
     <string name="connect_settings_share_launcher">Tela inicial+</string>
     <string name="connect_settings_share_notification">Notificações</string>
     <string name="connect_settings_summary"><Data>Descubra automaticamente dispositivos próximos conectados à sua Conta Xiaomi e conecte-os para executar uma variedade de tarefas entre vários dispositivos. &lt;a href=%1$s>Saiba mais&lt;/a></Data></string>
@@ -517,8 +524,9 @@ seus dispositivos?"</string>
     <string name="device_desc_trust">Dispositivos confiáveis</string>
     <string name="device_permission_authorize_dialog_message">Depois disso, este dispositivo poderá utilizar a câmera no %s para tirar fotos e gravar vídeos.</string>
     <string name="device_permission_authorize_dialog_title">Conceda a permissão no %s</string>
-    <string name="device_permission_dialog_message">No %s, vá em Configurações > Interconectividade > Interconectividade e permissões, e conceda a permissão da câmera.</string>
+    <string name="device_permission_dialog_message">Em \"%s\", vá para Configurações > Privacidade &amp; segurança > Interconectividade e permissões e conceda permissões à câmera para poder usar esse recurso.</string>
     <string name="device_permission_dialog_message_car">No %s, vá em Configurações > Sistema > Gerenciar apps > Permissões especiais > Interconectividade e conceda a permissão da câmera.</string>
+    <string name="device_permission_dialog_message_car_pad">Para poder usar esse recurso, conceda permissões de câmera no seu tablet em Configurações > Privacidade e segurança > Interconectividade e permissões.</string>
     <string name="device_permission_dialog_positive_button">Entendido</string>
     <string name="device_permission_dialog_title">Conceda a permissão no %s</string>
     <string name="device_type_name_pad">Tablet</string>
@@ -574,6 +582,7 @@ Consulte a ajuda caso tenha problemas com a conexão."</string>
     <string name="dual_wifi_warning_china">Desative o dual Wi-Fi e tente novamente</string>
     <string name="dual_wifi_warning_global">Desative o dual Wi-Fi e tente novamente</string>
     <string name="early_morning">Amanhecer</string>
+    <string name="edit_device_group">Editar grupo de dispositivos</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Transmitir o conteúdo da tela para um monitor externo</string>
     <string name="enable_screen_projection_summary_new">Transmite a tela do dispositivo móvel para TVs e outros monitores externos por perto</string>
@@ -1385,6 +1394,8 @@ Certifique-se de que você ativou o Game Turbo antes de transmitir os jogos."</s
     <string name="sever_switch_camera">Alternar entre câmera frontal e traseira</string>
     <string name="sever_switch_camera_front">Câmera frontal</string>
     <string name="sever_switch_camera_rear">Câmera traseira</string>
+    <string name="share_compute_powing_title_pad">Compartilhando poder computacional com o telefone…</string>
+    <string name="share_compute_powing_title_phone">Compartilhando poder computacional com o tablet…</string>
     <string name="share_desktop_with_car">Compartilhar Tela inicial no carro</string>
     <string name="share_desktop_with_car_ing">Comparitlhando a tela com o carro…</string>
     <string name="show_result_on_tv">Veja os resultados na TV</string>

@@ -143,7 +143,7 @@
     <string name="car_camera_unavailable_dialog_message">Transportlīdzeklis atrodas zemas jaudas vai privātuma režīmā. Tagad nevar izmantot priekšējā skata kameru.</string>
     <string name="car_camera_unavailable_dialog_positive_button">Sapratu</string>
     <string name="car_camera_unavailable_dialog_title">EV priekšējā kamera ir aizņemta</string>
-    <string name="car_card_air_control_backseat_air">Aizmugurējie sēdekļi</string>
+    <string name="car_card_air_control_backseat_air">Otrās rindas A/C</string>
     <string name="car_card_air_temperature_minus">Samazināt AC temperatūru</string>
     <string name="car_card_air_temperature_plus">Palielināt AC temperatūru</string>
     <string name="car_card_air_temperature_text">Temperatūra</string>
@@ -313,6 +313,10 @@
     <string name="circulate_device_type_name_tv">TV</string>
     <string name="circulate_device_type_name_wifi_speaker">Skaļrunis</string>
     <string name="circulate_device_type_name_wifi_speaker_with_screen">Skārienekrāna skaļrunis</string>
+    <string name="circulate_edit_group_title">"Skaļruņus vai televizorus var sagrupēt un parādīt kopā, ja vienai un tai pašai LAN ir pieslēgti vairāk nekā %1$d
+"</string>
+    <string name="circulate_edit_sound_group_title">Grupēt skaļruņus</string>
+    <string name="circulate_edit_tv_group_title">Sagrupēt televizorus</string>
     <string name="circulate_glasses_duplicate_dialog_message">Brilles jau ir savienotas. Ja savienosiet jaunu briļļu pāri, pirmais pāris tiks atvienots. Vai savienot?</string>
     <string name="circulate_glasses_duplicate_dialog_message_pad">Televizors jau ir savienots ar brillēm. Ja savienosiet jaunu briļļu pāri, pirmais pāris tiks atvienots. Vai savienot?</string>
     <string name="circulate_glasses_duplicate_dialog_message_phone">Tālrunis jau ir savienots ar brillēm. Ja savienosiet jaunu briļļu pāri, pirmais pāris tiks atvienots. Vai savienot?</string>
@@ -366,6 +370,7 @@
     <string name="circulate_headset_error_default">Savienojumam iestājies noilgums</string>
     <string name="circulate_headset_error_device_not_support">Nevar savienot austiņas ar šo ierīci</string>
     <string name="circulate_headset_error_ear_phone_not_support">Šīs austiņas neatbalsta audio atskaņošanas pārsūtīšanu</string>
+    <string name="circulate_headset_error_group_device_not_support">Vispirms izslēdziet \"Sagrupēt televizorus\" sadaļā \"Rediģēt ierīces grupas\"</string>
     <string name="circulate_headset_error_headset_not_support">Nevar savienot austiņas ar šo datoru</string>
     <string name="circulate_headset_error_headset_not_worn">Ievietojiet abas austiņas un mēģiniet vēlreiz</string>
     <string name="circulate_headset_error_headset_not_worn_both">Ievietojiet abas austiņas un mēģiniet vēlreiz</string>
@@ -421,6 +426,7 @@ un pierakstieties savā Xiaomi Kontā"</string>
     <string name="circulate_ringfind_error_hint_stop">Neizdevās pārtraukt skaņas atskaņošanu. Mēģiniet vēlreiz.</string>
     <string name="circulate_ringfind_title">Atskaņot skaņu</string>
     <string name="circulate_ringfind_title_stop">Pārtraukt atskaņot skaņu</string>
+    <string name="circulate_sound_group_title">Skaļruņa grupa</string>
     <string name="circulate_speaker_control_header_title">音箱播控</string>
     <string name="circulate_speaker_control_view">来自%1$s</string>
     <string name="circulate_sport_device_find_band">Atrast šo aproci</string>
@@ -434,6 +440,7 @@ un pierakstieties savā Xiaomi Kontā"</string>
     <string name="circulate_to_mijia">Viedās mājas ierīces</string>
     <string name="circulate_tv_app_opening">Atver televizorā…</string>
     <string name="circulate_tv_capturing">Uzņem ekrānuzņēmumu…</string>
+    <string name="circulate_tv_group_title">TV grupa</string>
     <string name="circulate_tv_is_authing_tip">Pašlaik tiek verificētas ierīces. Uzgaidiet dažas minūtes un mēģiniet vēlreiz.</string>
     <string name="circulate_tv_name">Xiaomi TV</string>
     <string name="circulate_tv_power_alter_text">Kad televizors ir izslēgts, tālvadības pults un televizors pazudīs no šīs lapas. Vai izslēgt?</string>
@@ -483,7 +490,7 @@ un pierakstieties savā Xiaomi Kontā"</string>
     <string name="connect_settings_privacy_policy">Konfidencialitātes politika</string>
     <string name="connect_settings_relay_app">Lietotnes</string>
     <string name="connect_settings_share_clipboard">Starpliktuve</string>
-    <string name="connect_settings_share_file">Piekļuve datnēm starp ierīcēm</string>
+    <string name="connect_settings_share_file">Starpierīču datnes</string>
     <string name="connect_settings_share_launcher">Sākuma ekrāns+</string>
     <string name="connect_settings_share_notification">Paziņojumi</string>
     <string name="connect_settings_summary"><Data>Automātiski atklājiet tuvumā esošās ierīces, kurās esat pierakstījies jūsu Xiaomi Kontā, un savienojiet tās savā starpā, lai veiktu dažādus uzdevumus vairākās ierīcēs. &lt;a href=%1$s>Uzzināt vairāk&lt;/a></Data></string>
@@ -517,8 +524,9 @@ un pierakstieties savā Xiaomi Kontā"</string>
     <string name="device_desc_trust">Uzticamas ierīces</string>
     <string name="device_permission_authorize_dialog_message">Pēc tam šī ierīce varēs izmantot %s kameru, lai fotografētu un ierakstītu videoklipus.</string>
     <string name="device_permission_authorize_dialog_title">Piešķirt atļauju %s</string>
-    <string name="device_permission_dialog_message">Ierīcē %s, ejiet uz Iestatījumi > Savstarpējā savienojamība > Savstarpējā savienojamība un atļaujas un piešķiriet kamerai atļauju.</string>
+    <string name="device_permission_dialog_message">Šajā ierīcē \"%s\", dodieties uz Iestatījumi > Konfidencialitāte &amp; drošība > Savstarpējā savienojamība un atļaujas un piešķiriet kamerai atļaujas, lai varētu izmantot šo funkciju.</string>
     <string name="device_permission_dialog_message_car">Ierīcē %s, ejiet uz Iestatījumi > Sistēma > Pārvaldīt lietotnes > Īpašas atļaujas > Savstarpējā savienojamība un piešķiriet kamerai atļauju.</string>
+    <string name="device_permission_dialog_message_car_pad">Lai varētu izmantot šo funkciju, piešķiriet kameras atļaujas planšetdatorā sadaļā Iestatījumi > Konfidencialitāte > Drošība > Savstarpējā savienojamība un atļaujas.</string>
     <string name="device_permission_dialog_positive_button">Sapratu</string>
     <string name="device_permission_dialog_title">Piešķirt atļauju %s</string>
     <string name="device_type_name_pad">Planšetdators</string>
@@ -574,6 +582,7 @@ Skatiet palīdzību, ja rodas problēmas ar savienojumu."</string>
     <string name="dual_wifi_warning_china">Izslēdziet duālo WLAN un mēģiniet vēlreiz</string>
     <string name="dual_wifi_warning_global">Izslēdziet duālo Wi-Fi un mēģiniet vēlreiz</string>
     <string name="early_morning">Rīts</string>
+    <string name="edit_device_group">Rediģēt ierīces grupas</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Pārraidīt ekrāna saturu ārējā monitorā</string>
     <string name="enable_screen_projection_summary_new">Pārraidiet mobilās ierīces ekrānu uz tuvumā esošajiem televizoriem un citiem ārējiem monitoriem</string>
@@ -1385,6 +1394,8 @@ Pirms spēļu pārraides pārliecinieties, vai esat ieslēdzis Game Turbo."</str
     <string name="sever_switch_camera">Pārslēgt starp priekšējo un aizmugurējo kameru</string>
     <string name="sever_switch_camera_front">Priekšējā kamera</string>
     <string name="sever_switch_camera_rear">Aizmugurējā kamera</string>
+    <string name="share_compute_powing_title_pad">Kopīgo skaitļošanas jaudu ar tālruni…</string>
+    <string name="share_compute_powing_title_phone">Kopīgo skaitļošanas jaudu ar planšetdatoru…</string>
     <string name="share_desktop_with_car">Kopīgot Sākuma ekrānu mašīnā</string>
     <string name="share_desktop_with_car_ing">Kopīgo ekrānu ar mašīnu…</string>
     <string name="show_result_on_tv">Skatīt rezultātus TV</string>
