@@ -76,6 +76,7 @@
     <string name="confirm_cancel_task_files">是否取消向%1$s发送文件</string>
     <string name="confirm_cancel_task_images">是否取消向%1$s发送图片</string>
     <string name="copy">复制</string>
+    <string name="count_and_size_of_file">%1$s %2$s</string>
     <string name="custom_define_permission_desc_android.permission_group.LOCATION">用于实现蓝牙/WLAN状态下的文件传输功能</string>
     <string name="custom_define_permission_desc_android.permission_group.STORAGE">用于发送及接收传输的文件</string>
     <string name="date_picker_label_day">日</string>
@@ -107,22 +108,19 @@
     <string name="enable_midrop">开启</string>
     <string name="eras_ad">公元</string>
     <string name="eras_bc">公元前</string>
-    <string name="err_send_short_connect_error">连接异常</string>
+    <string name="err_send_short_connect_error">连接失败</string>
     <string name="err_send_short_remote_busy">设备正忙</string>
     <string name="err_send_short_remote_cancel">对方取消</string>
     <string name="err_send_short_remote_refuse">对方拒绝</string>
     <string name="err_send_short_remote_timeout">未响应</string>
     <string name="err_send_short_send_cancel">发送已取消</string>
+    <string name="error_ap_in_use">热点使用状态下无法发送文件至其他设备</string>
     <string name="error_ap_or_screen_already_hosting">投屏或热点使用状态下无法发送文件至其他设备</string>
     <string name="error_ble_connect_failure">接收端蓝牙不可连接，请先保持接收端处于屏幕点亮状态</string>
     <string name="error_ble_connect_timeout">蓝牙连接失败，建议重启双方设备的蓝牙后再次发送</string>
     <string name="error_device_lost">对方设备未响应，请稍后重试</string>
     <string name="error_has_occurred">小米互传发生错误</string>
-    <string name="error_local_ap_in_use">尝试关闭热点后重试</string>
-    <string name="error_local_easytether">尝试结束“通信共享”后重试</string>
-    <string name="error_local_mirror">尝试结束“跨屏”后重试</string>
-    <string name="error_local_p2p_in_use">尝试结束互联任务后重试</string>
-    <string name="error_local_screening">尝试结束投屏后重试</string>
+    <string name="error_mirror_working">正在跨屏，不可使用互传</string>
     <string name="error_msg_network_error">连接失败，建议重启双方设备的Wi-Fi和蓝牙后再次发送</string>
     <string name="error_msg_network_error_china">连接失败，建议重启双方设备的WLAN和蓝牙后再次发送</string>
     <string name="error_msg_wlan_error">连接失败，建议重启双方设备的Wi-Fi后再次发送</string>
@@ -140,14 +138,9 @@
     <string name="error_receive_user_cancel">已取消互传文件</string>
     <string name="error_receive_user_interrupted">对方已取消互传文件</string>
     <string name="error_refuse_receive">已取消接收文件</string>
-    <string name="error_remote_ap_in_use">需对方关闭热点后重试</string>
+    <string name="error_remote_ap_working">对方设备需关闭热点才可接收</string>
     <string name="error_remote_busy">对方正忙，请稍后重试</string>
-    <string name="error_remote_easytether">需对方结束“通信共享”后重试</string>
-    <string name="error_remote_mirror">需对方结束“跨屏”后重试</string>
-    <string name="error_remote_p2p_in_use">需对方结束互联任务后重试</string>
-    <string name="error_remote_screening">需对方结束投屏后重试</string>
-    <string name="error_remote_wlan_off">请开启对方设备Wi-Fi</string>
-    <string name="error_remote_wlan_off_china">请开启对方设备WLAN</string>
+    <string name="error_remote_mirror_working">对方设备跨屏中，无法接收</string>
     <string name="error_self_busy">设备正忙，请稍后重试</string>
     <string name="error_send_file_cannot_read">文件发送失败，请重试</string>
     <string name="error_send_file_no_enough_space">对方存储空间不足，已停止发送</string>
@@ -232,8 +225,6 @@
     <string name="global_my">"我的
 %1$s"</string>
     <string name="go_to_settings">去设置</string>
-    <string name="guide_operation">双指左右滑动可切换</string>
-    <string name="guide_page" formatted="false">第%d页，共%d页</string>
     <string name="guide_page_view1">收发双方开启“小米互传”，接收方在“控制中心”开启该功能，让发送方可见，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
     <string name="guide_page_view1_lyra">接收文件开启“小米互传”，接收所有人的文件，可在“控制中心”快捷开启，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
     <string name="guide_page_view2">选择接收方，点击接收方的设备头像可分享文件，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
@@ -414,6 +405,13 @@ Apple设备：iPhone、iPad、Mac
     <string name="notification_channel_name">文件发送、接收通知</string>
     <string name="nubia">努比亚</string>
     <string name="nubia_phone">努比亚手机</string>
+    <string name="onehop_connecting_tips">正在连接…</string>
+    <string name="onehop_file_security_tips">正在抹除隐私信息…</string>
+    <string name="onehop_option_send_confirm">发送</string>
+    <string name="onehop_recv_tips">等待对方发送</string>
+    <string name="onehop_remote_cancel">对方已取消</string>
+    <string name="onehop_remote_refuse">对方已拒绝</string>
+    <string name="onehop_wait_for_connect_ap">等待对方连接热点</string>
     <string name="oneplus">一加</string>
     <string name="oneplus_phone">一加手机</string>
     <string name="operate_too_fast">请勿重复操作</string>
@@ -510,10 +508,38 @@ Apple设备：iPhone、iPad、Mac
     <string name="sender_error">发送出现错误，请稍后重试</string>
     <string name="share_canceled">传输已取消</string>
     <string name="share_complete">传输完成</string>
+    <string name="share_device_near_share">设备靠近分享</string>
+    <string name="share_device_near_share_condition">设备条件</string>
+    <string name="share_device_near_share_condition_describe">"%1$d. 双方开启NFC、蓝牙和Wi-Fi
+%2$d. “小米互传”升级至%3$s版本
+%4$d. iPhone需安装“小米互联服务”"</string>
+    <string name="share_device_near_share_condition_describe_china">"%1$d. 双方开启NFC、蓝牙和WLAN
+%2$d. “小米互传”升级至%3$s版本
+%4$d. iPhone需安装“小米互联服务”"</string>
+    <string name="share_device_near_share_content_describe" formatted="false">"在发送端手机上，如下界面支持“设备靠近分享”：
+%d. 分享照片：进入“相册”选择“照片分享”
+%d. 分享文件：进入“文件管理”选择文件"</string>
+    <string name="share_device_near_share_content_title">可分享内容</string>
+    <string name="share_device_near_share_image_describe">与另一个手机NFC区域保持靠近，即可快速分享</string>
+    <string name="share_device_near_share_subtitle">与另一个设备靠近分享文件</string>
     <string name="share_failed">传输失败</string>
     <string name="share_notification_receive_confirm_content">来自%1$s</string>
+    <string name="share_open_nfc_content">功能启用需开启NFC，确认开启？</string>
+    <string name="share_open_nfc_title">需要开启NFC</string>
     <string name="share_refuse">传输已拒绝</string>
     <string name="share_send_notification_describe">接收设备：%1$s</string>
+    <string name="share_show_nfc_position"><Data>&lt;a href=%1$s>查看NFC区域&lt;/a></Data></string>
+    <string name="size_of_B">%d B</string>
+    <string name="size_of_GB">%d GB</string>
+    <string name="size_of_KB">%d KB</string>
+    <string name="size_of_MB">%d MB</string>
+    <string name="size_of_one_float_GB">%.1f GB</string>
+    <string name="size_of_one_float_KB">%.1f KB</string>
+    <string name="size_of_one_float_MB">%.1f MB</string>
+    <string name="size_of_two_float_GB">%.2f GB</string>
+    <string name="size_of_two_float_KB">%.2f KB</string>
+    <string name="size_of_two_float_MB">%.2f MB</string>
+    <string name="size_of_two_float_TB">%.2f TB</string>
     <string name="smartisan">坚果</string>
     <string name="smartisan_phone">坚果手机</string>
     <string name="solar_term_autumn_begins">立秋</string>
@@ -609,6 +635,8 @@ Apple设备：iPhone、iPad、Mac
     <string name="thursday">星期四</string>
     <string name="thursday_short">周四</string>
     <string name="thursday_shortest">四</string>
+    <string name="tile_state_active">已开启</string>
+    <string name="tile_state_inactive">已关闭</string>
     <string name="tile_state_unavailable">不可用</string>
     <string name="time_picker_dialog_title">设置时间</string>
     <string name="time_picker_label_hour">时</string>
