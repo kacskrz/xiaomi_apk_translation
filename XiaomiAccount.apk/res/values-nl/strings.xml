@@ -87,7 +87,7 @@
     <string name="area_code_no_search_result">Kon geen resultaten vinden</string>
     <string name="area_code_search_hint">Zoek op land of regio</string>
     <string name="auth_fail_warning">Sessie is verlopen, probeer later opnieuw aan te melden</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Automatisch aanvullen wordt niet ondersteund op versies met watermerk</string>
     <string name="bind_facebook">Facebook account verbinden</string>
     <string name="bind_google">Verbind uw Google-account</string>
     <string name="bind_safe_phone_msg">Voeg uw telefoonnummer toe om u de volgende keer aan te kunnen melden op uw Xiaomi Account.</string>
@@ -121,6 +121,7 @@ U kunt nu aanmelden op uw Xiaomi Account met %s."</string>
     <string name="cloud_service_cloud_open">Inschakelen</string>
     <string name="cloud_service_space_full">Opslag vol</string>
     <string name="cloud_service_space_not_enough">Onvoldoende opslagruimte</string>
+    <string name="cloud_service_space_over_quota">Opslaglimiet bereikt</string>
     <string name="cloud_service_space_used">Gebruikt</string>
     <string name="cloud_service_state_error">Kon niet laden</string>
     <string name="cloud_service_status_backup_not_open">Back-up is uitgeschakeld</string>
@@ -189,14 +190,17 @@ U kunt nu aanmelden op uw Xiaomi Account met %s."</string>
     <string name="default_popup_window_title">Pop-upvenster</string>
     <string name="delete_bank_card_message">Mi Pay bankkaarten en NFC kaarten zullen verwijderd worden wanneer u uitlogt.</string>
     <string name="delete_bank_card_title">Attentie</string>
-    <string name="delete_device_btn">Verwijderen</string>
+    <string name="delete_device_btn">Apparaat verwijderen</string>
     <string name="delete_device_failed">Kan apparaat niet verwijderen</string>
-    <string name="delete_device_notice">"Nadat het apparaat is verwijderd, wordt deze automatisch uitgelogd van uw Xiaomi Account. U zult niet meer in staat zijn om met dit apparaat toegang tot krijgen tot foto's, berichten, of andere inhoud die opgeslagen is op uw account."</string>
+    <string name="delete_device_notice">Als u dit apparaat verwijdert, wordt u ook afgemeld bij uw Xiaomi Account. Na verwijdering hebt u geen toegang meer tot items die in de cloud zijn opgeslagen.</string>
     <string name="deny">Weigeren</string>
     <string name="device_delete_success_message">Als u zich niet hebt aangemeld op dit apparaat, wijzig uw wachtwoord dan onmiddellijk.</string>
     <string name="device_delete_success_title">Uitgeschreven</string>
+    <string name="device_id">Apparaat-ID</string>
+    <string name="device_list_error_tip"><Data>Kon niet laden. &lt;a href=>Probeer het opnieuw&lt;/a></Data></string>
     <string name="device_list_title">Mijn apparaten</string>
     <string name="device_name">Apparaatnaam</string>
+    <string name="device_recent_login_time">Laatste aanmelding</string>
     <string name="dind_device_service_not_open">Uit</string>
     <string name="dind_device_service_opened">Aan</string>
     <string name="dropdown_menu">Dropdownmenu</string>
@@ -323,6 +327,7 @@ U kunt nu aanmelden op uw Xiaomi Account met %s."</string>
     <string name="friday_shortest">Vr</string>
     <string name="get_back_password">Wachtwoord resetten</string>
     <string name="get_back_pwd">Wachtwoord resetten</string>
+    <string name="get_device_info_error">Kon apparaat info niet ophalen</string>
     <string name="get_identity_auth_url_failed">Kon ID niet verifiëren</string>
     <string name="get_phone_bind_exceed_limit">U kunt maximaal %d Xiaomi Accounts koppelen aan een telefoonnummer. Kan geen nieuwe accounts toevoegen.</string>
     <string name="get_phone_verifycode_exceed_limit">Kan geen verificatiecodes meer naar dit nummer sturen</string>
@@ -461,6 +466,7 @@ U kunt nu aanmelden op uw Xiaomi Account met %s."</string>
     <string name="night">Avond</string>
     <string name="no_account_or_forget_password">Account aanmaken of wachtwoord vergeten?</string>
     <string name="no_network_btn">Vernieuwen</string>
+    <string name="no_network_refresh_btn">Vernieuwen</string>
     <string name="no_network_title">Kan geen verbinding maken met het netwerk.</string>
     <string name="no_password_set">Niet ingesteld</string>
     <string name="no_phone">Geen telefoonnummer</string>
@@ -592,6 +598,7 @@ U kunt nu aanmelden op uw Xiaomi Account met %s."</string>
     <string name="passport_error_no_password_user">U heeft het wachtwoord nog niet ingesteld. Meld u aan met sms.</string>
     <string name="passport_error_phone">Ongeldig telefoonnummer</string>
     <string name="passport_error_server">Serverfout</string>
+    <string name="passport_error_server_msg">Controleer uw netwerkinstellingen en vernieuw de pagina</string>
     <string name="passport_error_sim_not_ready">Kan simkaart niet vinden</string>
     <string name="passport_error_sms_limit">Er zijn te veel verificatiecodes naar dit nummer verzonden. Probeer het later opnieuw.</string>
     <string name="passport_error_ssl_hand_shake">Kon niet verbinden met server</string>
@@ -752,7 +759,17 @@ U kunt nu aanmelden op uw Xiaomi Account met %s."</string>
     <string name="passport_to_verify_code_login">Log in via sms</string>
     <string name="passport_trust_device">Dit apparaat toevoegen aan geverifieerde apparaten</string>
     <string name="passport_two_factor_auth">Twee-factor-authenticatie</string>
-    <string name="passport_two_factor_auth_hint">Schakel in om twee-factor-authenticatie te vereisen wanneer u zich aanmeldt bij uw account</string>
+    <string name="passport_two_factor_auth_dialog_desc">Als u twee-factor-authenticatie inschakelt, wordt u op andere apparaten en alle websites afgemeld bij uw Xiaomi Account. Nu inschakelen?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Annuleren</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Inschakelen</string>
+    <string name="passport_two_factor_auth_dialog_title">Afmelden op andere apparaten</string>
+    <string name="passport_two_factor_auth_hint"><Data>Voltooi twee authenticatierondes elke keer dat u zich aanmeldt bij uw Xiaomi Account. &lt;a href= >Meer informatie&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Stel een accountwachtwoord in om twee-factor-authenticatie te kunnen gebruiken</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Stel een accountwachtwoord in om twee-factor-authenticatie te kunnen inschakelen.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Annuleren</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Instellen</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Accountwachtwoord instellen</string>
+    <string name="passport_two_factor_set_phone_hint">Voeg een telefoonnummer toe om twee-factor-authenticatie te kunnen gebruiken</string>
     <string name="passport_tz_invalid">"Beveiligingsrisico's gevonden. Dit apparaat is mogelijk geroot of geflitst. Probeer andere aanmeldingsopties."</string>
     <string name="passport_unknown_error">Onbekende fout</string>
     <string name="passport_unknown_host_network_error">Controleer uw netwerkinstellingen en probeer het opnieuw</string>

@@ -122,6 +122,7 @@
     <string name="cloud_service_cloud_open">立即开启</string>
     <string name="cloud_service_space_full">空间已满</string>
     <string name="cloud_service_space_not_enough">空间将满</string>
+    <string name="cloud_service_space_over_quota">空间超存</string>
     <string name="cloud_service_space_used">已用</string>
     <string name="cloud_service_state_error">加载失败</string>
     <string name="cloud_service_status_backup_not_open">云备份未开启</string>
@@ -190,14 +191,17 @@
     <string name="default_popup_window_title">弹出式窗口</string>
     <string name="delete_bank_card_message">退出小米账号后，将会从设备中删除绑定的Mi Pay银行卡和模拟的门卡</string>
     <string name="delete_bank_card_title">安全提示</string>
-    <string name="delete_device_btn">删除设备</string>
+    <string name="delete_device_btn">移除设备</string>
     <string name="delete_device_failed">此设备退出登录失败</string>
-    <string name="delete_device_notice">删除设备后将会注销此设备的登录状态，在此设备上将无法访问账号云服务数据</string>
+    <string name="delete_device_notice">移除设备后会同步退出账号，在此设备上将无法访问该账号“小米云服务”数据</string>
     <string name="deny">不同意</string>
     <string name="device_delete_success_message">若此设备非本人登录，请立即修改密码</string>
     <string name="device_delete_success_title">此设备成功退出登录</string>
+    <string name="device_id">设备ID</string>
+    <string name="device_list_error_tip"><Data>加载失败，&lt;a href=>重试&lt;/a></Data></string>
     <string name="device_list_title">设备列表</string>
     <string name="device_name">设备名称</string>
+    <string name="device_recent_login_time">最近登录时间</string>
     <string name="dind_device_service_not_open">未开启</string>
     <string name="dind_device_service_opened">已开启</string>
     <string name="dropdown_menu">下拉菜单</string>
@@ -323,6 +327,7 @@
     <string name="friday_shortest">五</string>
     <string name="get_back_password">找回账号密码</string>
     <string name="get_back_pwd">找回密码</string>
+    <string name="get_device_info_error">设备信息获取失败</string>
     <string name="get_identity_auth_url_failed">获取身份验证失败</string>
     <string name="get_phone_bind_exceed_limit">该手机号绑定的小米账号个数已达上限（%d），不能再绑定新的小米账号</string>
     <string name="get_phone_verifycode_exceed_limit">短信条数已达上限</string>
@@ -463,6 +468,7 @@
     <string name="night">晚上</string>
     <string name="no_account_or_forget_password">没有小米账号或忘记密码？</string>
     <string name="no_network_btn">点此重试</string>
+    <string name="no_network_refresh_btn">刷新</string>
     <string name="no_network_title">网络不给力</string>
     <string name="no_password_set">未设置密码</string>
     <string name="no_phone">无绑定手机</string>
@@ -594,6 +600,7 @@
     <string name="passport_error_no_password_user">您的账号暂未绑定密码，请使用手机短信登录</string>
     <string name="passport_error_phone">请检查手机格式</string>
     <string name="passport_error_server">服务器出错</string>
+    <string name="passport_error_server_msg">请检查网络连接是否正常</string>
     <string name="passport_error_sim_not_ready">SIM卡未就绪</string>
     <string name="passport_error_sms_limit">已经发送了太多短信，请换个时间再试试</string>
     <string name="passport_error_ssl_hand_shake">无法与服务器建立安全连接</string>
@@ -754,7 +761,17 @@
     <string name="passport_to_verify_code_login">手机号登录</string>
     <string name="passport_trust_device">将此设备添加至信任设备列表</string>
     <string name="passport_two_factor_auth">双重认证</string>
-    <string name="passport_two_factor_auth_hint">开启后，账号登录时需双重身份认证</string>
+    <string name="passport_two_factor_auth_dialog_desc">开启双重认证后，本机以外的其他设备和网站上您的小米账号将被退出</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">取消</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">确定</string>
+    <string name="passport_two_factor_auth_dialog_title">退出使用你账号的其他设备</string>
+    <string name="passport_two_factor_auth_hint"><Data>开启后，每次登录小米账号需通过两次验证。&lt;a href= >了解更多&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">开启双重认证，需设置账号密码</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">开启双重认证需要先设置账号密码</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">取消</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">设置</string>
+    <string name="passport_two_factor_set_phone_dialog_title">设置账号密码</string>
+    <string name="passport_two_factor_set_phone_hint">开启账号双重认证需绑定手机号，以在登录时使用</string>
     <string name="passport_tz_invalid">此设备登录环境不安全（可能是硬件被解锁或刷机），请使用其他方式登录</string>
     <string name="passport_unknown_error">未知错误</string>
     <string name="passport_unknown_host_network_error">网络连接错误，请检查</string>

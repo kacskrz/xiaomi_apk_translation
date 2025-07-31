@@ -87,7 +87,7 @@
     <string name="area_code_no_search_result">Kunne ikke finde resultater</string>
     <string name="area_code_search_hint">Søg efter land eller region</string>
     <string name="auth_fail_warning">Sessionen udløb. Log på igen senere.</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Automatisk udfyldt login understøttes ikke på versioner med vandmærke</string>
     <string name="bind_facebook">Forbind din Facebook-konto</string>
     <string name="bind_google">Tilslut din Google-konto</string>
     <string name="bind_safe_phone_msg">Tilføj dit telefonnummer for at kunne logge på Xiaomi-konto næste gang.</string>
@@ -121,6 +121,7 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="cloud_service_cloud_open">Aktivér</string>
     <string name="cloud_service_space_full">Lager er fuldt</string>
     <string name="cloud_service_space_not_enough">Ikke nok lagerplads</string>
+    <string name="cloud_service_space_over_quota">Lagringsgrænse overskredet</string>
     <string name="cloud_service_space_used">Optaget</string>
     <string name="cloud_service_state_error">Kunne ikke indlæse</string>
     <string name="cloud_service_status_backup_not_open">Backup er deaktiveret</string>
@@ -188,14 +189,17 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="default_popup_window_title">Pop op-vindue</string>
     <string name="delete_bank_card_message">Mi Pay-bankkort og NFC-kort vil blive slettet, efter at du har logget ud.</string>
     <string name="delete_bank_card_title">Bemærk</string>
-    <string name="delete_device_btn">Fjern</string>
+    <string name="delete_device_btn">Fjern enhed</string>
     <string name="delete_device_failed">Kan ikke fjerne enhed</string>
-    <string name="delete_device_notice">Når en enhed er fjernet, logges den automatisk ud af din Xiaomi-konto. Du vil ikke kunne anvende denne enhed til at få adgang til fotos, beskeder eller andet indhold, som er gemt på din konto.</string>
+    <string name="delete_device_notice">Fjernelse af denne enhed vil også logge dig ud af din Xiaomi-konto. Du vil ikke længere have adgang til elementer, der er gemt i clouden, når enheden er fjernet.</string>
     <string name="deny">Afvis</string>
     <string name="device_delete_success_message">Hvis du ikke loggede ind på denne enhed, så skift omgående din adgangskode.</string>
     <string name="device_delete_success_title">Logget ud</string>
+    <string name="device_id">Enheds-id</string>
+    <string name="device_list_error_tip"><Data>Kunne ikke indlæse. &lt;a href=>Prøv igen&lt;/a></Data></string>
     <string name="device_list_title">Mine enheder</string>
     <string name="device_name">Enhedens navn</string>
+    <string name="device_recent_login_time">Sidste login</string>
     <string name="dind_device_service_not_open">Deaktiveret</string>
     <string name="dind_device_service_opened">Aktiveret</string>
     <string name="dropdown_menu">Rullemenu</string>
@@ -322,6 +326,7 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="friday_shortest">Fre</string>
     <string name="get_back_password">Nulstil adgangskode</string>
     <string name="get_back_pwd">Nulstiller adgangskode</string>
+    <string name="get_device_info_error">Kunne ikke hente enhedsoplysninger</string>
     <string name="get_identity_auth_url_failed">Kunne ikke bekræfte ID</string>
     <string name="get_phone_bind_exceed_limit">Du kan tilknytte op til %d Xiaomi-konti med et telefonnummer. Der kan ikke tilføjes nye konti.</string>
     <string name="get_phone_verifycode_exceed_limit">Der kan ikke sendes flere bekræftelseskoder til dette nummer</string>
@@ -460,6 +465,7 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="night">Aften</string>
     <string name="no_account_or_forget_password">Opret konto, eller har du glemt adgangskoden?</string>
     <string name="no_network_btn">Opdater</string>
+    <string name="no_network_refresh_btn">Opdater</string>
     <string name="no_network_title">Kan ikke oprette forbindelse til netværket.</string>
     <string name="no_password_set">Ikke indstillet</string>
     <string name="no_phone">Intet telefonnummer</string>
@@ -478,7 +484,7 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="notify_verify_again_security_phone">Bekræft</string>
     <string name="notify_verify_security_phone">Telefon</string>
     <string name="oauth_getting_scopes">Bekræfter konto…</string>
-    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> vil få følgende tilladelser:&lt;br> &lt;br> %3$s "</string>
+    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> får følgende tilladelser:&lt;br> &lt;br> %3$s "</string>
     <string name="oauth_title">Log ind med Xiaomi-konto</string>
     <string name="off">Fra</string>
     <string name="ok">OK</string>
@@ -591,6 +597,7 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="passport_error_no_password_user">Du har endnu ikke indstillet adgangskoden. Log på med SMS.</string>
     <string name="passport_error_phone">Ugyldigt telefonnummer</string>
     <string name="passport_error_server">Serverfejl</string>
+    <string name="passport_error_server_msg">Tjek dine netværksindstillinger, og opdater siden</string>
     <string name="passport_error_sim_not_ready">Kan ikke finde SIM-kort</string>
     <string name="passport_error_sms_limit">Der er sendt for mange verifikationskoder til dette nummer. Prøv igen senere.</string>
     <string name="passport_error_ssl_hand_shake">Kunne ikke få forbindelse til serveren</string>
@@ -751,7 +758,17 @@ Du kan logge ind på din Xiaomi-konto ved hjælp af %s nu."</string>
     <string name="passport_to_verify_code_login">Log ind via SMS</string>
     <string name="passport_trust_device">Føj denne enhed til enheder, der er tillid til</string>
     <string name="passport_two_factor_auth">Tofaktorgodkendelse</string>
-    <string name="passport_two_factor_auth_hint">Slå til for at kræve tofaktorgodkendelse, når du logger ind på din konto</string>
+    <string name="passport_two_factor_auth_dialog_desc">Hvis du slår tofaktorgodkendelse til, bliver du logget ud af din Xiaomi-konto på andre enheder og alle websites. Slå til nu?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Annuller</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Slå til</string>
+    <string name="passport_two_factor_auth_dialog_title">Log ud fra andre enheder</string>
+    <string name="passport_two_factor_auth_hint"><Data>Udfør to runder af godkendelse, hver gang du logger ind på din Xiaomi-konto. &lt;a href= >Få mere at vide&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Indstil en kontoadgangskode for at kunne bruge tofaktorgodkendelse</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Indstil en kontoadgangskode for at kunne slå tofaktorgodkendelse til.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Annuller</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Indstil</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Indstil kontoadgangskode</string>
+    <string name="passport_two_factor_set_phone_hint">Tilføj et telefonnummer for at kunne bruge tofaktorgodkendelse</string>
     <string name="passport_tz_invalid">Sikkerhedsrisiko fundet. Denne enhed kan være kompromitteret, eller operativsystemet kan være blevet opdateret. Vælg en anden måde at logge ind på.</string>
     <string name="passport_unknown_error">Ukendt fejl</string>
     <string name="passport_unknown_host_network_error">Tjek dine netværksindstillinger, og prøv igen</string>

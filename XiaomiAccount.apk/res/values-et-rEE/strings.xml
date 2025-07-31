@@ -60,7 +60,7 @@
     <string name="area_code_no_search_result">Tulemusi ei leitud</string>
     <string name="area_code_search_hint">Otsi riiki või piirkonda</string>
     <string name="auth_fail_warning">Sessioon on aegunud, sisenegi hiljem uuesti</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Vesimärgiga versioonides ei toetata automaatse täitmisega sisselogimist</string>
     <string name="bind_facebook">"Ühenda oma Facebook'i Konto"</string>
     <string name="bind_google">"Ühenda oma Google'i konto"</string>
     <string name="bind_safe_phone_msg">Lisage oma telefoninumber, et te saaksite järgmine kord oma Xiaomi Kontole sisse logida.</string>
@@ -92,6 +92,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="cloud_service_cloud_open">Lülita sisse</string>
     <string name="cloud_service_space_full">Salvestusruum on täis</string>
     <string name="cloud_service_space_not_enough">Ebapiisav talletusruum</string>
+    <string name="cloud_service_space_over_quota">Salvestusruum otsas</string>
     <string name="cloud_service_space_used">Hõivatud</string>
     <string name="cloud_service_state_error">Laadida ei saanud</string>
     <string name="cloud_service_status_backup_not_open">Varundamine on väljas</string>
@@ -116,14 +117,17 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="date_time_picker_dialog_title">Määra kuupäev ja kellaaeg</string>
     <string name="delete_bank_card_message">Mi Pay pangakaardid ja NFC-kaardid kustutatakse pärast väljalogimist.</string>
     <string name="delete_bank_card_title">Tähelepanu</string>
-    <string name="delete_device_btn">Eemalda</string>
+    <string name="delete_device_btn">Eemalda seade</string>
     <string name="delete_device_failed">Seadmeid ei saa eemaldada</string>
-    <string name="delete_device_notice">Pärast seadme eemaldamist logitakse teie Xiaomi Kontolt automaatselt välja. Te ei saa kasutada seda seadet fotode, sõnumite või muude kontole salvestatud sisule ligi pääsemiseks.</string>
+    <string name="delete_device_notice">Selle seadme eemaldamine logib teid ka Xiaomi kontolt välja. Pärast selle eemaldamist ei pääse te enam pilve salvestatud üksustele juurde.</string>
     <string name="deny">Keela</string>
     <string name="device_delete_success_message">Kui te sellesse seadmesse ei loginud, vahetage koheselt oma parool.</string>
     <string name="device_delete_success_title">Välja logitud</string>
+    <string name="device_id">Seadme ID</string>
+    <string name="device_list_error_tip"><Data>Laadimine ebaõnnestus. &lt;a href=>Proovi uuesti&lt;/a></Data></string>
     <string name="device_list_title">Minu seadmed</string>
     <string name="device_name">Seadme nimi</string>
+    <string name="device_recent_login_time">Viimane sisselogimine</string>
     <string name="dind_device_service_not_open">Väljas</string>
     <string name="dind_device_service_opened">Sees</string>
     <string name="early_morning">Hommik</string>
@@ -248,6 +252,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="friday_shortest">R</string>
     <string name="get_back_password">Taassätesta parool</string>
     <string name="get_back_pwd">Parooli taassätestamine</string>
+    <string name="get_device_info_error">Ei saanud seadme infot</string>
     <string name="get_identity_auth_url_failed">ID-d ei saanud kontrollida</string>
     <string name="get_phone_bind_exceed_limit">Saad telefoninumbriga siduda kuni %d Xiaomi Kontot. Uusi kontosid ei saa lisada.</string>
     <string name="get_phone_verifycode_exceed_limit">Sellele numbrile ei saa saata rohkem kinnituskoode</string>
@@ -383,6 +388,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="night">Õhtu</string>
     <string name="no_account_or_forget_password">Loo konto või unustasid parooli?</string>
     <string name="no_network_btn">Värskenda</string>
+    <string name="no_network_refresh_btn">Värskenda</string>
     <string name="no_network_title">Võrguga ei saa ühendust.</string>
     <string name="no_password_set">Ei ole sätestatud</string>
     <string name="no_phone">Telefoninumbrit ei ole</string>
@@ -510,6 +516,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="passport_error_no_password_user">Te ei ole veel parooli määranud. Logige sisse SMS-ga.</string>
     <string name="passport_error_phone">Vigane telefoninumber</string>
     <string name="passport_error_server">Serveriviga</string>
+    <string name="passport_error_server_msg">Kontrollige oma võrgusätteid ja värskendage lehekülge</string>
     <string name="passport_error_sim_not_ready">SIM kaarti ei saa leida</string>
     <string name="passport_error_sms_limit">Sellele numbrile on saadetud liiga palju kinnituskoode. Proovige hiljem uuesti.</string>
     <string name="passport_error_ssl_hand_shake">Serveriga ei õnnestunud ühendust saada</string>
@@ -670,7 +677,17 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="passport_to_verify_code_login">Logi sisse SMS-i abil</string>
     <string name="passport_trust_device">Lisage see seade kinnitatud seadmete hulka</string>
     <string name="passport_two_factor_auth">Kaheastmeline autentimine</string>
-    <string name="passport_two_factor_auth_hint">Lülitage sisse, et nõuda kontole sisselogimisel kaheastmelist autentimist</string>
+    <string name="passport_two_factor_auth_dialog_desc">Kui lülitate sisse kaheastmelise autentimise, logitakse teid oma Xiaomi kontolt välja teistes seadmetes ja kõigil veebisaitidel. Kas lülitada kohe sisse?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Loobu</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Lülitage sisse</string>
+    <string name="passport_two_factor_auth_dialog_title">Logige teistest seadmetest välja</string>
+    <string name="passport_two_factor_auth_hint"><Data>Iga kord, kui oma Xiaomi kontole sisse logite, tehke kaks autentimisvooru.&lt;a href= >Lisateave&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Kaheastmelise autentimise kasutamiseks määrake konto parool</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Kaheastmelise autentimise sisselülitamiseks määrake kontole parool.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Loobu</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Määra</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Konto parooli määramine</string>
+    <string name="passport_two_factor_set_phone_hint">Kaheastmelise autentimise kasutamiseks lisage telefoninumber</string>
     <string name="passport_tz_invalid">Leiti turvariskid. See seade võib olla muudetud või ülekirjutatud püsivaraga. Proovige teisi sisselogimisvalikuid.</string>
     <string name="passport_unknown_error">Tundmatu viga</string>
     <string name="passport_unknown_host_network_error">Kontrolli võrguseadeid ja proovi uuesti</string>

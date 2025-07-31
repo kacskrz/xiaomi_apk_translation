@@ -121,6 +121,7 @@ Jūs varat pierakstīties savā Xiaomi Kontā, izmantojot %s."</string>
     <string name="cloud_service_cloud_open">Ieslēgt</string>
     <string name="cloud_service_space_full">Atmiņa pilna</string>
     <string name="cloud_service_space_not_enough">Nepietiek atmiņas</string>
+    <string name="cloud_service_space_over_quota">Pārsniegts ierobežojums</string>
     <string name="cloud_service_space_used">Aizņemts</string>
     <string name="cloud_service_state_error">Neizdevās ielādēt</string>
     <string name="cloud_service_status_backup_not_open">Dublējums ir izslēgts</string>
@@ -166,14 +167,17 @@ Jūs varat pierakstīties savā Xiaomi Kontā, izmantojot %s."</string>
     <string name="default_popup_window_title">Uznirstošais logs</string>
     <string name="delete_bank_card_message">Mi Pay bankas kartes un NFC kartes tiks dzēstas pēc tam, kad izrakstīsieties.</string>
     <string name="delete_bank_card_title">Uzmanību</string>
-    <string name="delete_device_btn">Dzēst</string>
+    <string name="delete_device_btn">Noņemt ierīci</string>
     <string name="delete_device_failed">Nevar noņemt ierīci</string>
-    <string name="delete_device_notice">Pēc ierīces noņemšanas tā automātiski tiks izrakstīta no jūsu Xiaomi Kontā. Jūs nevarēsiet šo ierīci izmantot, lai piekļūtu foto, ziņām vai citam jūsu kontā saglabātajam saturam.</string>
+    <string name="delete_device_notice">Noņemot šo ierīci, jūs arī izrakstīs no Xiaomi Konta. Pēc ierīces noņemšanas jūs nevarēsiet piekļūt mākoņa atmiņā saglabātajiem vienumiem.</string>
     <string name="deny">Noraidīt</string>
     <string name="device_delete_success_message">Ja neesat pierakstījies ar šo ierīci, nekavējoties nomainiet savu paroli.</string>
     <string name="device_delete_success_title">Veikta izrakstīšanās</string>
+    <string name="device_id">Ierīces ID</string>
+    <string name="device_list_error_tip"><Data>Neizdevās ielādēt. &lt;a href=>Mēģiniet vēlreiz&lt;/a></Data></string>
     <string name="device_list_title">Manas ierīces</string>
     <string name="device_name">Ierīces nosaukums</string>
+    <string name="device_recent_login_time">Pēdējā pieteikšanās</string>
     <string name="dind_device_service_not_open">Izsl.</string>
     <string name="dind_device_service_opened">Iesl.</string>
     <string name="dropdown_menu">Nolaižamā izvēlne</string>
@@ -300,6 +304,7 @@ Jūs varat pierakstīties savā Xiaomi Kontā, izmantojot %s."</string>
     <string name="friday_shortest">Pk</string>
     <string name="get_back_password">Atiestatīt paroli</string>
     <string name="get_back_pwd">Atiestata paroli</string>
+    <string name="get_device_info_error">Neizdevās iegūt ierīces informāciju</string>
     <string name="get_identity_auth_url_failed">Neizdevās verificēt ID</string>
     <string name="get_phone_bind_exceed_limit">Ar savu tālruņa numuru varat saistīt ne vairāk kā %d Xiaomi Kontus. Jaunus kontus nevar pievienot.</string>
     <string name="get_phone_verifycode_exceed_limit">Uz šo numuru vairs nevar nosūtīt verifikācijas kodus</string>
@@ -438,6 +443,7 @@ Jūs varat pierakstīties savā Xiaomi Kontā, izmantojot %s."</string>
     <string name="night">Vakars</string>
     <string name="no_account_or_forget_password">Izveidot kontu vai aizmirsu paroli?</string>
     <string name="no_network_btn">Atsvaidzināt</string>
+    <string name="no_network_refresh_btn">Atsvaidzināt</string>
     <string name="no_network_title">Nevar izveidot savienojumu ar tīklu.</string>
     <string name="no_password_set">Nav iestatīts</string>
     <string name="no_phone">Nav tālruņa numura</string>
@@ -569,6 +575,7 @@ Jūs varat pierakstīties savā Xiaomi Kontā, izmantojot %s."</string>
     <string name="passport_error_no_password_user">Jūs vēl neesat iestatījis paroli. Pierakstieties ar SMS.</string>
     <string name="passport_error_phone">Nederīgs tālruņa numurs</string>
     <string name="passport_error_server">Servera kļūda</string>
+    <string name="passport_error_server_msg">Pārbaudiet tīkla iestatījumus un atsavidziniet lapu</string>
     <string name="passport_error_sim_not_ready">Nevar atrast SIM karti</string>
     <string name="passport_error_sms_limit">Uz šo numuru nosūtīti pārāk daudzi verifikācijas kodi. Mēģināt vēlreiz.</string>
     <string name="passport_error_ssl_hand_shake">Neizdevās pieslēgties serverim</string>
@@ -729,7 +736,17 @@ Jūs varat pierakstīties savā Xiaomi Kontā, izmantojot %s."</string>
     <string name="passport_to_verify_code_login">Pierakstīties ar SMS</string>
     <string name="passport_trust_device">Pievienot šo ierīci apstiprinātajām ierīcēm</string>
     <string name="passport_two_factor_auth">Divu faktoru autentifikācija</string>
-    <string name="passport_two_factor_auth_hint">Ieslēgt, lai pieprasītu divu faktoru autentifikāciju, kad pierakstāties savā kontā</string>
+    <string name="passport_two_factor_auth_dialog_desc">Ja ieslēgsiet divu faktoru autentifikāciju, tiksiet izrakstīts no Xiaomi Konta citās ierīcēs un visās vietnēs. Vai ieslēgt?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Atcelt</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Ieslēgt</string>
+    <string name="passport_two_factor_auth_dialog_title">Izrakstīties no citas ierīces</string>
+    <string name="passport_two_factor_auth_hint"><Data>Veiciet divas autentifikācijas kārtas katru reizi, kad pierakstāties savā Xiaomi Kontā. &lt;a href= >Uzzināt vairāk&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Iestatiet konta paroli, lai varētu izmantot divu faktoru autentifikāciju</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Iestatīt konta paroli, lai varētu ieslēgt divu faktoru autentifikāciju</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Atcelt</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Iestatīt</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Iestatīt konta paroli</string>
+    <string name="passport_two_factor_set_phone_hint">Pievienojiet tālruņa numuru, lai varētu izmantot divu faktoru autentifikāciju</string>
     <string name="passport_tz_invalid">Ir konstatēts drošības risks. Šī ierīce ir potenciāli bojāta vai instalēta sistēmas attēlā. Izmēģiniet citas pieteikšanās iespējas.</string>
     <string name="passport_unknown_error">Nezināma kļūda</string>
     <string name="passport_unknown_host_network_error">Pārbaudiet tīkla iestatījumus un mēģiniet vēlreiz</string>

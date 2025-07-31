@@ -87,7 +87,7 @@
     <string name="area_code_no_search_result">Ni rezultatov</string>
     <string name="area_code_search_hint">Poiščite državo ali regijo</string>
     <string name="auth_fail_warning">Račun za prijavo je potekel, poskusite kasneje</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Prijava s samodejnim izpolnjevanjem ni podprta v različicah z vodnim žigom</string>
     <string name="bind_facebook">Dodajte svoj Facebook račun</string>
     <string name="bind_google">Dodajte vaš Google Račun</string>
     <string name="bind_safe_phone_msg">Dodajte vašo telefonsko številko, če se želite naslednjič vpisati v vaš Xiaomi Račun.</string>
@@ -121,6 +121,7 @@ V vaš Xiaomi Račun se lahko prijavite preko %s."</string>
     <string name="cloud_service_cloud_open">Vklopi</string>
     <string name="cloud_service_space_full">Pomnilnik poln</string>
     <string name="cloud_service_space_not_enough">Premalo prostora za shranjevanje</string>
+    <string name="cloud_service_space_over_quota">Presežena omejitev shranjevanja</string>
     <string name="cloud_service_space_used">Zasedeno</string>
     <string name="cloud_service_state_error">Ni mogoče naložiti</string>
     <string name="cloud_service_status_backup_not_open">Varnostno kopiranje je izklopljeno</string>
@@ -166,14 +167,17 @@ V vaš Xiaomi Račun se lahko prijavite preko %s."</string>
     <string name="default_popup_window_title">Pojavno okno</string>
     <string name="delete_bank_card_message">Mi Pay bančne kartice in NFC kartice bodo izbrisane, ko se boste odjavili.</string>
     <string name="delete_bank_card_title">Pozor</string>
-    <string name="delete_device_btn">Odstrani</string>
+    <string name="delete_device_btn">Odstrani napravo</string>
     <string name="delete_device_failed">Ne morem odstraniti naprave</string>
-    <string name="delete_device_notice">Ko odstranite napravo, bo le-ta samodejno izpisana iz vašega Xiaomi Računa. Ne boste mogli uporabljati te naprave za dostop do fotografij, sporočil ali druge vsebine shranjene na vašem računu.</string>
+    <string name="delete_device_notice">Če odstranite to napravo, se boste odjavili tudi iz Xiaomi računa. Ko jo odstranite, ne boste mogli dostopati do predmetov, shranjenih v oblaku.</string>
     <string name="deny">Zavrni</string>
     <string name="device_delete_success_message">Če se niste prijavili na tej napravi takoj spremenite geslo.</string>
     <string name="device_delete_success_title">Odjavljeno</string>
+    <string name="device_id">ID naprave</string>
+    <string name="device_list_error_tip"><Data>Ni mogoče naložiti. &lt;a href=>Poskusite ponovno&lt;/a></Data></string>
     <string name="device_list_title">Moje naprave</string>
     <string name="device_name">Ime naprave</string>
+    <string name="device_recent_login_time">Zadnji vpis</string>
     <string name="dind_device_service_not_open">Izklopljeno</string>
     <string name="dind_device_service_opened">Vklopljeno</string>
     <string name="dropdown_menu">Spustni meni</string>
@@ -300,6 +304,7 @@ V vaš Xiaomi Račun se lahko prijavite preko %s."</string>
     <string name="friday_shortest">Pet</string>
     <string name="get_back_password">Ponastavi geslo</string>
     <string name="get_back_pwd">Ponastavljanje gesla</string>
+    <string name="get_device_info_error">Ni bilo mogoče pridobiti informacij o napravi</string>
     <string name="get_identity_auth_url_failed">Ni mogoče potrditi ID</string>
     <string name="get_phone_bind_exceed_limit">Z eno telefonsko številko lahko povežete največ %d Xiaomi račune. Ni mogoče dodati novih računov.</string>
     <string name="get_phone_verifycode_exceed_limit">Na to številko ni mogoče poslati več kod za preverjanje</string>
@@ -438,6 +443,7 @@ V vaš Xiaomi Račun se lahko prijavite preko %s."</string>
     <string name="night">Večer</string>
     <string name="no_account_or_forget_password">Želite ustvariti račun ali ste pozabili geslo?</string>
     <string name="no_network_btn">Osveži</string>
+    <string name="no_network_refresh_btn">Osveži</string>
     <string name="no_network_title">Ni se mogoče povezati na omrežje.</string>
     <string name="no_password_set">Ni nastavljeno</string>
     <string name="no_phone">Ni številke telefona</string>
@@ -569,6 +575,7 @@ V vaš Xiaomi Račun se lahko prijavite preko %s."</string>
     <string name="passport_error_no_password_user">Niste še nastavili gesla. Prijavite se s SMSom.</string>
     <string name="passport_error_phone">Neveljavna telefonska številka</string>
     <string name="passport_error_server">Napaka strežnika</string>
+    <string name="passport_error_server_msg">Preverite vaše omrežne nastavitve in osvežite stran</string>
     <string name="passport_error_sim_not_ready">Ne najdem kartice SIM</string>
     <string name="passport_error_sms_limit">Na to številko je bilo poslano preveč kod za preverjanje. Poskusite ponovno kasneje.</string>
     <string name="passport_error_ssl_hand_shake">Napaka pri povezavi s strežnikom</string>
@@ -729,7 +736,17 @@ V vaš Xiaomi Račun se lahko prijavite preko %s."</string>
     <string name="passport_to_verify_code_login">Vpis prek SMS sporočila</string>
     <string name="passport_trust_device">Dodaj to napravo med preverjene</string>
     <string name="passport_two_factor_auth">Dvonivojska avtentikacija</string>
-    <string name="passport_two_factor_auth_hint">Vklopite, če želite zahtevati dvostopenjsko avtentikacijo ob prijavi v svoj račun</string>
+    <string name="passport_two_factor_auth_dialog_desc">Če izklopite dvostopenjsko preverjanje pristnosti, boste odjavljeni iz svojega Xiaomi računa v drugih napravah in spletnih mestih. Želite vklopiti zdaj?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Prekliči</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Vklopi</string>
+    <string name="passport_two_factor_auth_dialog_title">Odjava iz drugih naprav</string>
+    <string name="passport_two_factor_auth_hint"><Data>Izvedite dva kroga preverjanja pristnosti vsakič, ko se prijavite v svoj Xiaomi račun. &lt;a href= >Več informacij&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Nastavite geslo računa, da boste lahko uporabljali dvostopenjsko preverjanje pristnosti</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Nastavite geslo računa, da boste lahko vklopili dvostopenjsko preverjanje pristnosti.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Prekliči</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Nastavi</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Nastavite geslo računa</string>
+    <string name="passport_two_factor_set_phone_hint">Dodajte telefonsko številko, da boste lahko uporabljali dvostopenjsko preverjanje pristnosti</string>
     <string name="passport_tz_invalid">Ugotovljena varnostna tveganja. Ta naprava je bila morda zakoreninjena ali je bil narejen flash. Poskusite druge možnosti prijave.</string>
     <string name="passport_unknown_error">Neznana napaka</string>
     <string name="passport_unknown_host_network_error">Preverite omrežne nastavitve in poskusite ponovno</string>

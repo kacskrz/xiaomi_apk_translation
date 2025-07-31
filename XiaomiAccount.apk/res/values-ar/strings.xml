@@ -67,11 +67,11 @@
     <string name="account_user_name">الإسم</string>
     <string name="account_user_name_dialog_title">أدخل اسم المستخدم</string>
     <string name="account_user_other_info">المزيد من المصادر</string>
-    <string name="account_user_phone">رقم الهاتف لاسترداد الحساب</string>
+    <string name="account_user_phone">هاتف الاسترداد</string>
     <string name="account_user_phone_show">رقم الهاتف: %s</string>
     <string name="account_user_region">البلد</string>
     <string name="account_verify_guide_bind_mail_desc">قم بإضافة بريد إلكتروني لاسترداد الحساب</string>
-    <string name="account_verify_guide_bind_phone_desc">قم بإضافة رقم هاتف لاسترداد الحساب</string>
+    <string name="account_verify_guide_bind_phone_desc">قم بإضافة هاتف الاسترداد</string>
     <string name="account_verify_guide_set_password_desc">قم بتعيين كلمة مرور</string>
     <string name="account_verify_guide_verify_phone_desc">تأكيد هاتف الاسترداد</string>
     <string name="action_add_phone">أضف رقم هاتف</string>
@@ -87,7 +87,7 @@
     <string name="area_code_no_search_result">تعذر العثور على نتائج</string>
     <string name="area_code_search_hint">البحث عن دولة أو بلد</string>
     <string name="auth_fail_warning">انتهت الدورة، قم بتسجيل الدخول لاحقاً</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">لا يتم دعم تسجيل الدخول التلقائي في الإصدارات ذات العلامة المائية</string>
     <string name="bind_facebook">ربط حسابك بالفيسبوك</string>
     <string name="bind_google">ربط حساب Google</string>
     <string name="bind_safe_phone_msg">إضف رقم هاتفك لتتمكن من تسجيل الدخول إلى حساب Mi في المرة القادمة.</string>
@@ -121,6 +121,7 @@
     <string name="cloud_service_cloud_open">تشغيل</string>
     <string name="cloud_service_space_full">المساحة ممتلئة</string>
     <string name="cloud_service_space_not_enough">لا توجد مساحة كافية</string>
+    <string name="cloud_service_space_over_quota">المساحة على وشك النفاد</string>
     <string name="cloud_service_space_used">المستخدم</string>
     <string name="cloud_service_state_error">فشل التحميل</string>
     <string name="cloud_service_status_backup_not_open">النسخ الاحتياطي متوقف</string>
@@ -170,7 +171,7 @@
     <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
     <string name="completed">تم ضبط الكل!</string>
     <string name="confirm_bundled_phone_dialog_confirm">تأكيد</string>
-    <string name="confirm_bundled_phone_dialog_confirm_timer">تأكيد (%dث)</string>
+    <string name="confirm_bundled_phone_dialog_confirm_timer">تأكيد (%d ث)</string>
     <string name="confirm_bundled_phone_dialog_title">تأكيد رقم الهاتف المرتبط</string>
     <string name="confirm_new_pwd">تأكيد كلمة المرور الجديدة</string>
     <string name="confirm_unbind">إلغاء ربط هذا الحساب؟</string>
@@ -189,14 +190,17 @@
     <string name="default_popup_window_title">نافذة منبثقة</string>
     <string name="delete_bank_card_message">سيتم حذف بطاقة بنك دفع Mi وبطاقة NFC بعد تسجيل الخروج.</string>
     <string name="delete_bank_card_title">تنبيه</string>
-    <string name="delete_device_btn">إزالة</string>
+    <string name="delete_device_btn">حذف الجهاز</string>
     <string name="delete_device_failed">لا يمكن إزالة الجهاز</string>
-    <string name="delete_device_notice">بعد إزالة الجهاز، سيتم تسجيل الخروج من حساب Mi تلقائيًا. ولن تتمكن بعدها من استخدام هذا الجهاز في الوصول إلى الصور أو الرسائل أو المحتوى الآخر المخزن على هذا الحساب.</string>
+    <string name="delete_device_notice">سيؤدي إزالة هذا الجهاز أيضًا إلى تسجيل خروجك من حساب Mi. لن تتمكن من الوصول إلى العناصر المخزنة في Cloud بعد حذفه.</string>
     <string name="deny">رفض</string>
     <string name="device_delete_success_message">إذا لم تقم بتسجيل الدخول على هذا الجهاز، فقم بتغيير كلمة المرور على الفور.</string>
     <string name="device_delete_success_title">تسجيل خروج</string>
+    <string name="device_id">معرف الجهاز</string>
+    <string name="device_list_error_tip"><Data>فشل التحميل. &lt;a href=>حاول مجددا&lt;/a></Data></string>
     <string name="device_list_title">الأجهزة الخاصة بي</string>
     <string name="device_name">اسم الجهاز</string>
+    <string name="device_recent_login_time">آخر تسجيل دخول</string>
     <string name="dind_device_service_not_open">متوقف</string>
     <string name="dind_device_service_opened">مشغل</string>
     <string name="dropdown_menu">قائمة منسدلة</string>
@@ -323,6 +327,7 @@
     <string name="friday_shortest">الجمعة</string>
     <string name="get_back_password">إعادة تعيين كلمة المرور</string>
     <string name="get_back_pwd">إعادة تعيين كلمة المرور</string>
+    <string name="get_device_info_error">تعذر الحصول على معلومات الجهاز</string>
     <string name="get_identity_auth_url_failed">تعذر التحقق من الهوية</string>
     <string name="get_phone_bind_exceed_limit">يمكنك فقط ربط ما يصل إلى %d حسابات Mi برقم هاتف واحد. لا يمكنك إضافة حسابات جديدة.</string>
     <string name="get_phone_verifycode_exceed_limit">لا يمكن إرسال مزيد من رموز التحقق إلى هذا الرقم</string>
@@ -461,6 +466,7 @@
     <string name="night">المساء</string>
     <string name="no_account_or_forget_password">هل ترغب في إنشاء حساب أم نسيت كلمة المرور؟</string>
     <string name="no_network_btn">تحديث</string>
+    <string name="no_network_refresh_btn">تحديث</string>
     <string name="no_network_title">لا يمكن الاتصال بالشبكة.</string>
     <string name="no_password_set">غير معين</string>
     <string name="no_phone">لا يوجد رقم هاتف</string>
@@ -470,7 +476,7 @@
     <string name="noon">الظهر</string>
     <string name="not_selected">غير محدّد</string>
     <string name="not_set">لم يتمّ تحديد قيمة.</string>
-    <string name="notify_bind_security_phone">إضافة رقم هاتف لاسترداد الحساب</string>
+    <string name="notify_bind_security_phone">إضافة هاتف الاسترداد</string>
     <string name="notify_complete_security_info">أضف معلومات الاسترداد</string>
     <string name="notify_network_restricted_content_bg_network">تم تقييد وصول حساب Mi للإنترنت. انقر للسماح.</string>
     <string name="notify_network_restricted_content_hidden_state">تم تقييد نشاط خلفية حساب Mi. انقر للسماح.</string>
@@ -549,7 +555,7 @@
     <string name="passport_close_dialog_close_btn">إيقاف</string>
     <string name="passport_close_dialog_hint">إذا أوقفت تشغيل هذه الميزة، فلن تكون هناك حاجة إلى المصادقة الثنائية عند تسجيل الدخول إلى حسابك. وقد يؤدي هذا إلى تقليل أمان حسابك.</string>
     <string name="passport_close_dialog_open_btn">متابعة</string>
-    <string name="passport_close_two_factor_auth">إيقاف المصادقة ذات العاملين</string>
+    <string name="passport_close_two_factor_auth">إيقاف التحقق بخطوتين</string>
     <string name="passport_confirm_login">تسجيل الدخول</string>
     <string name="passport_confirm_recycle_account">نعم</string>
     <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>يبدو انه&lt;/font> تم إعادة استخدام هذا الرقم %s من قِبل شركة الاتصالات، وهناك حساب Mi مرتبط به. هل هذا هو حسابك؟</string>
@@ -592,6 +598,7 @@
     <string name="passport_error_no_password_user">لم تقم بتعيين كلمة المرور حتى الآن. تسجيل الدخول باستخدام SMS.</string>
     <string name="passport_error_phone">رقم هاتف غير صالح</string>
     <string name="passport_error_server">خطأ في الخادم</string>
+    <string name="passport_error_server_msg">تحقق من إعدادات الشبكة وقم بتحديث الصفحة</string>
     <string name="passport_error_sim_not_ready">لا يمكن إيجاد بطاقة SIM</string>
     <string name="passport_error_sms_limit">تم إرسال الكثير من رموز التحقق إلى هذا الرقم. حاول مرة أخرى لاحقا.</string>
     <string name="passport_error_ssl_hand_shake">تعذر الاتصال بالخادم</string>
@@ -726,7 +733,7 @@
     <string name="passport_send_vcode_failed">تعذر إرسال الرمز</string>
     <string name="passport_sending_vcode">جار إرسال الرمز…</string>
     <string name="passport_set">تعيين</string>
-    <string name="passport_set_password_hint">قم بتعيين كلمة مرور للحساب لتتمكن من استخدام المصادقة ذات العاملين</string>
+    <string name="passport_set_password_hint">قم بتعيين كلمة مرور للحساب لتتمكن من استخدام التحقق بخطوتين</string>
     <string name="passport_set_password_no_phone_msg">قم بإضافة رقم هاتفك لحماية حسابك.</string>
     <string name="passport_setting">جارٍ الإعداد…</string>
     <string name="passport_skip_login">تخطي</string>
@@ -751,8 +758,18 @@
     <string name="passport_to_password_login">تسجيل الدخول باستخدام كلمة المرور</string>
     <string name="passport_to_verify_code_login">تسجيل الدخول عبر SMS</string>
     <string name="passport_trust_device">إضافة هذا الجهاز الى الأجهزة التي تم التحقق منها</string>
-    <string name="passport_two_factor_auth">المصادقة ذات العاملين</string>
-    <string name="passport_two_factor_auth_hint">قم بزيادة المصادقة ذات عاملين عند تسجيل الدخول لحسابك</string>
+    <string name="passport_two_factor_auth">التحقق بخطوتين</string>
+    <string name="passport_two_factor_auth_dialog_desc">إذا قمت بتفعيل التحقق بخطوتين، سيتم تسجيل خروجك من حساب Mi على الأجهزة الأخرى وجميع المواقع. هل تريد التفعيل الآن؟</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">إلغاء</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">تشغيل</string>
+    <string name="passport_two_factor_auth_dialog_title">تسجيل الخروج من الأجهزة الأخرى</string>
+    <string name="passport_two_factor_auth_hint"><Data>أكمل خطوتين من التحقق في كل مرة تسجل فيها الدخول إلى حساب Mi الخاص بك. &lt;a href= >لمعرفة المزيد&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">قم بتعيين كلمة مرور للحساب لتتمكن من استخدام التحقق بخطوتين</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">قم بتعيين كلمة مرور للحساب لتتمكن من تفعيل التحقق بخطوتين.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">إلغاء</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">تعيين</string>
+    <string name="passport_two_factor_set_phone_dialog_title">تعيين كلمة مرور للحساب</string>
+    <string name="passport_two_factor_set_phone_hint">أضف رقم هاتف لتتمكن من استخدام التحقق بخطوتين</string>
     <string name="passport_tz_invalid">تم العثور على مخاطر أمنية. قد يكون تم الوصول لجذر هذا الجهاز أو إعادة تهيئته. جرب خيارات أخرى لتسجيل الدخول.</string>
     <string name="passport_unknown_error">خطأ غير معروف</string>
     <string name="passport_unknown_host_network_error">تحقق من إعدادات الشبكة ثم حاول مجددا</string>

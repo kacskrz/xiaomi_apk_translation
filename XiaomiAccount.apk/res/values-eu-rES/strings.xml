@@ -60,7 +60,7 @@
     <string name="area_code_no_search_result">Ezin izan dira emaitzak aurkitu</string>
     <string name="area_code_search_hint">Herria edo eskualdea bilatu</string>
     <string name="auth_fail_warning">Saioa iraungi da, saioa hasi berriro geroago</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Bete automatikoki saioa hastea ez da onartzen ur-markadun bertsioetan</string>
     <string name="bind_facebook">Zure Facebook Kontura konektatu</string>
     <string name="bind_google">Konektatu zure Google Kontua</string>
     <string name="bind_safe_phone_msg">Zure telefono zenbakia gehitu hurrengo aldian zure Xiaomi Kontuan saioa hasteko.</string>
@@ -92,6 +92,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="cloud_service_cloud_open">Aktibatu</string>
     <string name="cloud_service_space_full">Memoria beteta</string>
     <string name="cloud_service_space_not_enough">Memoria nahikorik ez</string>
+    <string name="cloud_service_space_over_quota">Biltegiratze-espazioa gaindituta</string>
     <string name="cloud_service_space_used">Okupatuta</string>
     <string name="cloud_service_state_error">Ezin izan da kargatu</string>
     <string name="cloud_service_status_backup_not_open">Babeskopia desaktibatuta dago</string>
@@ -116,14 +117,17 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="date_time_picker_dialog_title">Data eta ordua ezarri</string>
     <string name="delete_bank_card_message">Mi Pay banku txartelak eta NFC txartelak ezabatuak izango dira saio itxiz gero.</string>
     <string name="delete_bank_card_title">Adi</string>
-    <string name="delete_device_btn">Kendu</string>
+    <string name="delete_device_btn">Gailua kendu</string>
     <string name="delete_device_failed">Ezin da gailua kendu</string>
-    <string name="delete_device_notice">Gailua kendu eta gero, zure Xiaomi Kontuan saioa automatikoki itxiko da. Ezin izango duzu gailu hau erabili argazkietara, mezuetara edo zure kontuan gordeta dagoen beste edukitara sartu.</string>
+    <string name="delete_device_notice">Gailu hau kentzeak zure Xiaomi Kontuan saioa ixtea eragingo du. Ezin izango dituzu hodeian gordetako elementuak atzitu kendu eta gero.</string>
     <string name="deny">Ukatu</string>
     <string name="device_delete_success_message">Gailu honetan saioa hasi izan ez baduzu, pasahitza berehala aldatu.</string>
     <string name="device_delete_success_title">Saioa amaituta</string>
+    <string name="device_id">Gailuaren ID-a</string>
+    <string name="device_list_error_tip"><Data>Ezin izan da kargatu. &lt;a href=>Berriro saiatu&lt;/a></Data></string>
     <string name="device_list_title">Mi Gailuak</string>
     <string name="device_name">Gailuaren izena</string>
+    <string name="device_recent_login_time">Azken saioa-hastea</string>
     <string name="dind_device_service_not_open">Desaktibatuta</string>
     <string name="dind_device_service_opened">Aktibatuta</string>
     <string name="early_morning">Goiza</string>
@@ -248,6 +252,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="friday_shortest">Ol.</string>
     <string name="get_back_password">Pasahitza berrezarri</string>
     <string name="get_back_pwd">Pasahitza berrezartzen</string>
+    <string name="get_device_info_error">Ezin izan da gailuaren informazioa jaso</string>
     <string name="get_identity_auth_url_failed">Ezin izan da identitatea egiaztatu</string>
     <string name="get_phone_bind_exceed_limit">%d Xiaomi Kontu lotu ahal dituzu gehienez telefono zenbaki batekin. Ezin duzu kontu berririk gehitu.</string>
     <string name="get_phone_verifycode_exceed_limit">Ezin dira egiaztapen-kode gehiago bidali zenbaki honetara</string>
@@ -383,6 +388,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="night">Eguzki-sarrera</string>
     <string name="no_account_or_forget_password">Kontu bat sortu edo pasahitza ahaztuta?</string>
     <string name="no_network_btn">Freskatu</string>
+    <string name="no_network_refresh_btn">Freskatu</string>
     <string name="no_network_title">Ezin da sarera konektatu.</string>
     <string name="no_password_set">Ezarri gabe</string>
     <string name="no_phone">Ez dago telefono zenbakirik</string>
@@ -510,6 +516,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="passport_error_no_password_user">Ez duzu pasahitzik ezarri. Hasi saioa SMS-rekin</string>
     <string name="passport_error_phone">Telefono zenbaki baliogabea</string>
     <string name="passport_error_server">Zerbitzariaren akatsa</string>
+    <string name="passport_error_server_msg">Egiaztatu zure sare konfigurazioak eta orrialdea freskatu</string>
     <string name="passport_error_sim_not_ready">Ezin da SIM txartela aurkitu</string>
     <string name="passport_error_sms_limit">Egiaztatze-kode gehiegi bidali dira zenbaki honetara. Saiatu berriz geroago</string>
     <string name="passport_error_ssl_hand_shake">Ezin izan da zerbitzarira konektatu</string>
@@ -670,7 +677,17 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="passport_to_verify_code_login">Hasi saioa SMS bitartez</string>
     <string name="passport_trust_device">Gailu hau egiaztatutako gailuei gehitu</string>
     <string name="passport_two_factor_auth">Bi faktoreren autentifikazioa</string>
-    <string name="passport_two_factor_auth_hint">Aktibatu bi faktoreren autentifikazioa eskatzeko zure kontuan saioa hasterakoan</string>
+    <string name="passport_two_factor_auth_dialog_desc">Bi faktoreko autentifikazioa aktibatzen baduzu, beste gailu eta webgune guztietan zure Xiaomi Kontuan saioa itxiko. Aktibatu?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Ezeztatu</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Aktibatu</string>
+    <string name="passport_two_factor_auth_dialog_title">Saioa itxi beste gailuetan</string>
+    <string name="passport_two_factor_auth_hint"><Data>Osatu bi autentifikazio-txanda zure Xiaomi kontuan saioa hasten duzun bakoitzean. &lt;a href= >Informazio gehiago&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Kontuaren pasahitz bat ezarri bi faktoreren autentifikazioa erabiltzeko</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Kontuaren pasahitz bat ezarri bi faktoreren autentifikazioa aktibatu ahal izateko.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Ezeztatu</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Ezarri</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Kontuaren pasahitza ezarri</string>
+    <string name="passport_two_factor_set_phone_hint">Gehitu telefono zenbaki bat bi faktoreren autentifikazioa erabili ahal izateko.</string>
     <string name="passport_tz_invalid">Segurtasun-arriskuak aurkitu dira. Baliteke gailu hau erroa atzitzeko moldatua edo flasheatua egotea. Saiatu saioa hasteko beste aukera batzuk.</string>
     <string name="passport_unknown_error">Errore ezezaguna</string>
     <string name="passport_unknown_host_network_error">Egiaztatu zure sare konfigurazioa eta saiatu berriro</string>

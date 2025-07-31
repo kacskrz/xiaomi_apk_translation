@@ -87,7 +87,7 @@
     <string name="area_code_no_search_result">該当結果が見つかりませんでした</string>
     <string name="area_code_search_hint">国または地域を検索</string>
     <string name="auth_fail_warning">セッションの有効期限が切れました。後で再度サインインしてください。</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">透かし入りバージョンでは自動入力サインインはサポートされていません</string>
     <string name="bind_facebook">Facebookアカウントに接続する</string>
     <string name="bind_google">Googleアカウントに接続する</string>
     <string name="bind_safe_phone_msg">電話番号を追加すると、次回からXiaomi アカウントにサインインできるようになります。</string>
@@ -121,6 +121,7 @@
     <string name="cloud_service_cloud_open">オンにする</string>
     <string name="cloud_service_space_full">ストレージがいっぱいです</string>
     <string name="cloud_service_space_not_enough">空き容量が残りわずかです</string>
+    <string name="cloud_service_space_over_quota">超過</string>
     <string name="cloud_service_space_used">使用済み</string>
     <string name="cloud_service_state_error">読み込めませんでした</string>
     <string name="cloud_service_status_backup_not_open">バックアップはオフです</string>
@@ -189,14 +190,17 @@
     <string name="default_popup_window_title">ポップアップウィンドウ</string>
     <string name="delete_bank_card_message">サインアウトすると、Mi Pay銀行カードとNFCカードが削除されます。</string>
     <string name="delete_bank_card_title">注意</string>
-    <string name="delete_device_btn">削除</string>
+    <string name="delete_device_btn">デバイスを削除</string>
     <string name="delete_device_failed">デバイスを削除できません</string>
-    <string name="delete_device_notice">デバイスが削除されると、Xiaomi アカウントから自動的にサインアウトされます。このデバイスを使用して、アカウントに保存されている写真、メッセージ、その他のコンテンツにアクセスすることはできなくなります。</string>
+    <string name="delete_device_notice">このデバイスを削除すると、Xiaomi アカウントからもサインアウトされます。削除後は、クラウドに保存されているアイテムにアクセスできなくなります。</string>
     <string name="deny">拒否</string>
     <string name="device_delete_success_message">このデバイスでサインインしていない場合は、直ちにパスワードを変更してください。</string>
     <string name="device_delete_success_title">サインアウトしました</string>
+    <string name="device_id">デバイス ID</string>
+    <string name="device_list_error_tip"><Data>読み込めませんでした。&lt;a href=>再試行&lt;/a></Data></string>
     <string name="device_list_title">マイ デバイス</string>
     <string name="device_name">デバイス名</string>
+    <string name="device_recent_login_time">前回のサインイン</string>
     <string name="dind_device_service_not_open">オフ</string>
     <string name="dind_device_service_opened">オン</string>
     <string name="dropdown_menu">プルダウン メニュー</string>
@@ -323,6 +327,7 @@
     <string name="friday_shortest">金</string>
     <string name="get_back_password">パスワードをリセット</string>
     <string name="get_back_pwd">パスワードのリセット</string>
+    <string name="get_device_info_error">デバイス情報を取得できませんでした</string>
     <string name="get_identity_auth_url_failed">IDを認証できませんでした</string>
     <string name="get_phone_bind_exceed_limit">1つの電話番号には、最大で%d個のXiaomi アカウントを関連付けることができます。新しいアカウントは追加できません。</string>
     <string name="get_phone_verifycode_exceed_limit">この番号にこれ以上認証コードを送信できません</string>
@@ -461,6 +466,7 @@
     <string name="night">夜</string>
     <string name="no_account_or_forget_password">アカウントを作成する、またはパスワードを忘れた場合はこちら</string>
     <string name="no_network_btn">更新</string>
+    <string name="no_network_refresh_btn">更新</string>
     <string name="no_network_title">ネットワークに接続できません。</string>
     <string name="no_password_set">未設定</string>
     <string name="no_phone">電話番号はありません</string>
@@ -592,6 +598,7 @@
     <string name="passport_error_no_password_user">パスワードをまだ設定していません。SMSでサインインしてください。</string>
     <string name="passport_error_phone">電話番号が無効です</string>
     <string name="passport_error_server">サーバーエラー</string>
+    <string name="passport_error_server_msg">ネットワーク設定を確認し、ページを更新してください</string>
     <string name="passport_error_sim_not_ready">SIMカードが見つかりません</string>
     <string name="passport_error_sms_limit">この番号に送信された認証コードが多すぎます。後でもう一度お試しください。</string>
     <string name="passport_error_ssl_hand_shake">サーバーに接続できませんでした</string>
@@ -752,7 +759,17 @@
     <string name="passport_to_verify_code_login">SMSでサインイン</string>
     <string name="passport_trust_device">このデバイスを認証済みのデバイスに追加する</string>
     <string name="passport_two_factor_auth">2 ファクタ認証</string>
-    <string name="passport_two_factor_auth_hint">オンにすると、アカウントにサインインするときに2 ファクタ認証が必要です</string>
+    <string name="passport_two_factor_auth_dialog_desc">2 ファクタ認証をオンにすると、他のデバイスやすべてのウェブサイトで Xiaomi アカウントからサインアウトされます。今すぐオンにしますか？</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">キャンセル</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">オンにする</string>
+    <string name="passport_two_factor_auth_dialog_title">他のデバイスでサインアウト</string>
+    <string name="passport_two_factor_auth_hint"><Data>Xiaomi アカウントにサインインするたびに、2 回の認証を完了する必要があります。&lt;a href= >詳細はこちら&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">2 ファクタ認証を使用するには、アカウントのパスワードを設定してください</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">2 ファクタ認証をオンにするには、アカウントのパスワードを設定してください。</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">キャンセル</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">設定</string>
+    <string name="passport_two_factor_set_phone_dialog_title">アカウントのパスワードを設定</string>
+    <string name="passport_two_factor_set_phone_hint">2 ファクタ認証を使用するには、電話番号を追加してください</string>
     <string name="passport_tz_invalid">セキュリティリスクが見つかりました。このデバイスはルート化またはフラッシュされている可能性があります。他のサインイン方法をお試しください。</string>
     <string name="passport_unknown_error">不明なエラー</string>
     <string name="passport_unknown_host_network_error">ネットワーク設定を確認して、もう一度お試しください</string>

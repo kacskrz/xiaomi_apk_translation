@@ -121,6 +121,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="cloud_service_cloud_open">Povoliť</string>
     <string name="cloud_service_space_full">Úložisko je plné</string>
     <string name="cloud_service_space_not_enough">Nedostatok miesta na úložisku</string>
+    <string name="cloud_service_space_over_quota">Prekročený limit úložiska</string>
     <string name="cloud_service_space_used">Obsadené</string>
     <string name="cloud_service_state_error">Nepodarilo sa načítať</string>
     <string name="cloud_service_status_backup_not_open">Zálohovanie je vypnuté</string>
@@ -189,14 +190,17 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="default_popup_window_title">Vyskakovacie okno</string>
     <string name="delete_bank_card_message">Po odhlásení budú vymazané Mi Pay bankové karty a NFC karty.</string>
     <string name="delete_bank_card_title">Upozornenie</string>
-    <string name="delete_device_btn">Odstrániť</string>
+    <string name="delete_device_btn">Odstrániť zariadenie</string>
     <string name="delete_device_failed">Nie je možné odobrať zariadenie</string>
-    <string name="delete_device_notice">Po odobratí zariadenia budete automaticky odhlásený z vášho Xiaomi konta. Nebudete mať viac prístup ku fotografiám, správam alebo ostatnému obsahu uloženému na vašom konte.</string>
+    <string name="delete_device_notice">Odstránením tohto zariadenia sa tiež odhlásite zo svojho Xiaomi konta. Po odstránení nebudete mať prístup k položkám uloženým v cloude.</string>
     <string name="deny">Zakázať</string>
     <string name="device_delete_success_message">Ak ste sa neprihlásili na toto zariadenie, odporúčame vám čo najskôr si zmeniť vaše heslo.</string>
     <string name="device_delete_success_title">Odhlásený</string>
+    <string name="device_id">ID zariadenia</string>
+    <string name="device_list_error_tip"><Data>Nahrávanie zlyhalo. &lt;a href=>Skúste to znova&lt;/a></Data></string>
     <string name="device_list_title">Zoznam zariadení</string>
     <string name="device_name">Názov zariadenia</string>
+    <string name="device_recent_login_time">Posledné prihlásenie</string>
     <string name="dind_device_service_not_open">Vyp.</string>
     <string name="dind_device_service_opened">Zap.</string>
     <string name="dropdown_menu">Rozbaľovacia ponuka</string>
@@ -323,6 +327,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="friday_shortest">Pia</string>
     <string name="get_back_password">Obnoviť heslo</string>
     <string name="get_back_pwd">Heslo sa obnovuje</string>
+    <string name="get_device_info_error">Nebolo možné získať informácie o zariadení</string>
     <string name="get_identity_auth_url_failed">ID sa nepodarilo overiť</string>
     <string name="get_phone_bind_exceed_limit">So Xiaomi kontom môžete prepojiť až %d telefónne čísla. Nové kontá nie je možné pridať.</string>
     <string name="get_phone_verifycode_exceed_limit">Na toto číslo nie je možné odoslať viac overovacích kódov</string>
@@ -461,6 +466,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="night">Večer</string>
     <string name="no_account_or_forget_password">Vytvoriť konto alebo zabudnuté heslo?</string>
     <string name="no_network_btn">Obnoviť</string>
+    <string name="no_network_refresh_btn">Obnoviť</string>
     <string name="no_network_title">Nie je možné sa pripojiť k sieti.</string>
     <string name="no_password_set">Nenastavené</string>
     <string name="no_phone">Žiadne číslo</string>
@@ -592,6 +598,7 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_error_no_password_user">Zatiaľ ste nenastavili heslo. Prihláste sa prostredníctvom SMS.</string>
     <string name="passport_error_phone">Neplatné telefónne číslo</string>
     <string name="passport_error_server">Chyba servera</string>
+    <string name="passport_error_server_msg">Skontrolujte nastavenia siete a obnovte stránku</string>
     <string name="passport_error_sim_not_ready">Nenašla sa SIM karta</string>
     <string name="passport_error_sms_limit">Na toto číslo bolo odoslaných príliš veľa overovacích kódov. Skúste to znova neskôr.</string>
     <string name="passport_error_ssl_hand_shake">Chyba spojenia so serverom. Skúste nastaviť aktuálny systémový čas.</string>
@@ -752,7 +759,17 @@ Teraz sa môžete prihlásiť ku vášmu Xiaomi kontu pomocou %s."</string>
     <string name="passport_to_verify_code_login">Prihlásiť sa cez SMS</string>
     <string name="passport_trust_device">Dôverovať tomuto zariadeniu</string>
     <string name="passport_two_factor_auth">Dvojfaktorové overovanie</string>
-    <string name="passport_two_factor_auth_hint">Zapnite vyžadovanie dvojfaktorového overovania pri prihlasovaní do konta</string>
+    <string name="passport_two_factor_auth_dialog_desc">Ak zapnete dvojfaktorovú autentifikáciu, budete odhlásený(-á) zo svojho Xiaomi konta na ostatných zariadeniach a všetkých webových stránkach. Zapnúť teraz?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Zrušiť</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Zapnúť</string>
+    <string name="passport_two_factor_auth_dialog_title">Odhlásiť sa na ostatných zariadeniach</string>
+    <string name="passport_two_factor_auth_hint"><Data>Pri každom prihlásení do Xiaomi konta vykonať dve kolá overovania. &lt;a href= >Zistite viac&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Nastavte heslo konta, aby ste mohli používať dvojfaktorové overovanie</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Nastavte heslo konta, aby ste mohli zapnúť dvojfaktorové overovanie.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Zrušiť</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Nastaviť</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Nastaviť heslo konta</string>
+    <string name="passport_two_factor_set_phone_hint">Pridajte telefónne číslo, aby ste mohli používať dvojfaktorové overovanie</string>
     <string name="passport_tz_invalid">Zistené bezpečnostné riziká. Toto zariadenie by mohlo byť rootované alebo flashnuté. Skúste iné možnosti prihlásenia.</string>
     <string name="passport_unknown_error">Neznáma chyba</string>
     <string name="passport_unknown_host_network_error">Skontrolujte nastavenia siete a skúste to znova</string>

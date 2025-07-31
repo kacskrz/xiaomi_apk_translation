@@ -60,7 +60,7 @@
     <string name="area_code_no_search_result">Нәтижелерді табу мүмкін болмады</string>
     <string name="area_code_search_hint">Аймақты немесе мемлекетті іздеу</string>
     <string name="auth_fail_warning">Сессия бітті, аздап кейін қайта кіріңіз</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Автоматты түрде кіруге су таңбасы бар нұсқаларда қолдау көрсетілмейді</string>
     <string name="bind_facebook">Facebook аккаунтты қосу</string>
     <string name="bind_google">Google Аккаунтын қосыңыз</string>
     <string name="bind_safe_phone_msg">Келесі жолы Xiaomi Аккаунтыңызға кіре алу үшін телефон нөміріңізді қосыңыз.</string>
@@ -92,6 +92,7 @@ Xiaomi Аккаунтыңызға %s арқылы кіруіңізге бола�
     <string name="cloud_service_cloud_open">Қосу</string>
     <string name="cloud_service_space_full">Сақтау орны толы</string>
     <string name="cloud_service_space_not_enough">Сақтау орны жеткіліксіз</string>
+    <string name="cloud_service_space_over_quota">Жад шегінен асып кетті</string>
     <string name="cloud_service_space_used">Пайдаланылады</string>
     <string name="cloud_service_state_error">Жүктеу мүмкін болмады</string>
     <string name="cloud_service_status_backup_not_open">Сақтық көшірме өшірулі</string>
@@ -116,14 +117,17 @@ Xiaomi Аккаунтыңызға %s арқылы кіруіңізге бола�
     <string name="date_time_picker_dialog_title">Күні мен уақытын орнатыңыз</string>
     <string name="delete_bank_card_message">Mi Pay банк карталары және NFC карталары, шығуыңыздан кейін жойылады.</string>
     <string name="delete_bank_card_title">Назар аударыңыз</string>
-    <string name="delete_device_btn">Жою</string>
+    <string name="delete_device_btn">Құрылғыны жою</string>
     <string name="delete_device_failed">Құрылғыны жою мүмкін емес</string>
-    <string name="delete_device_notice">Құрылғы жойылғаннан соң, Xiaomi Аккаунтыңыздан автоматты түрде ажыратылады. Сіз осы құрылғыдан аккаунтта сақталған деректерге қол жеткізе алмайсыз.</string>
+    <string name="delete_device_notice">Бұл құрылғыны жойсаңыз, Xiaomi Аккаунтыңыздан да шығасыз. Cloud-та сақталған элементтер жойылғаннан кейін оларға қол жеткізе алмайсыз.</string>
     <string name="deny">Тыйым салу</string>
     <string name="device_delete_success_message">Егер сіз аккаунтқа осы құрылғыдан кірмеген болсаңыз, құпиясөзді ауыстырыңыз!</string>
     <string name="device_delete_success_title">Құрылғы жойылды</string>
+    <string name="device_id">Құрылғы ID-і</string>
+    <string name="device_list_error_tip"><Data>Жүктеу мұмкін болмады. &lt;a href=>Қайталап көріңіз&lt;/a></Data></string>
     <string name="device_list_title">Менің құрылғыларым</string>
     <string name="device_name">Құрылғының атауы</string>
+    <string name="device_recent_login_time">Соңғы кіру</string>
     <string name="dind_device_service_not_open">Өшіру</string>
     <string name="dind_device_service_opened">Қосу</string>
     <string name="early_morning">Таң</string>
@@ -248,6 +252,7 @@ Xiaomi Аккаунтыңызға %s арқылы кіруіңізге бола�
     <string name="friday_shortest">Жм</string>
     <string name="get_back_password">Құпиясөзді қалпына келтіру</string>
     <string name="get_back_pwd">Құпиясөзді қалпына келтіру</string>
+    <string name="get_device_info_error">Құрылғы ақпаратын алу мүмкін болмады</string>
     <string name="get_identity_auth_url_failed">Сіздің ID-іңіз расталмады</string>
     <string name="get_phone_bind_exceed_limit">Сіз телефон нөмірімен %d Xiaomi Аккаунтын байланыстыра аласыз. Жаңа аккаунтты қосу мүмкін болмады.</string>
     <string name="get_phone_verifycode_exceed_limit">Осы нөмірге бұдан артық растау кодын жіберу мүмкін емес</string>
@@ -383,6 +388,7 @@ Xiaomi Аккаунтыңызға %s арқылы кіруіңізге бола�
     <string name="night">Кеш</string>
     <string name="no_account_or_forget_password">Аккаунтты тіркеу немесе құпиясөзді ұмытып қалдыңыз ба?</string>
     <string name="no_network_btn">Жаңарту</string>
+    <string name="no_network_refresh_btn">Жаңарту</string>
     <string name="no_network_title">Желіге қосылу мүмкін емес.</string>
     <string name="no_password_set">Орнатылмаған</string>
     <string name="no_phone">Телефон нөмірі жоқ</string>
@@ -399,7 +405,7 @@ Xiaomi Аккаунтыңызға %s арқылы кіруіңізге бола�
     <string name="notify_verify_again_security_phone">Растау</string>
     <string name="notify_verify_security_phone">Телефон</string>
     <string name="oauth_getting_scopes">Аккаунтты тексеру…</string>
-    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> рұқсат алады:&lt;br> &lt;br> %3$s "</string>
+    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> келесі рұқсаттарды алады:&lt;br> &lt;br> %3$s "</string>
     <string name="oauth_title">Xiaomi Аккаунты арқылы кіру</string>
     <string name="ok">OK</string>
     <string name="operator_broadnet">China Broadnet</string>
@@ -510,6 +516,7 @@ Xiaomi Аккаунтыңызға %s арқылы кіруіңізге бола�
     <string name="passport_error_no_password_user">Сіз әлі құпия сөзді орнатпадыңыз. SMS арқылы кіріңіз.</string>
     <string name="passport_error_phone">Жарамсыз телефон нөмірі</string>
     <string name="passport_error_server">Сервердің қателігі</string>
+    <string name="passport_error_server_msg">Желі баптауларын тексеріп, бетті жаңартыңыз</string>
     <string name="passport_error_sim_not_ready">SIM карта табылған жоқ</string>
     <string name="passport_error_sms_limit">Осы нөмірге растау коды тым көп жіберілген. Кейінірек қайталаңыз.</string>
     <string name="passport_error_ssl_hand_shake">Серверге қосылу мүмкін болмады</string>
@@ -670,7 +677,17 @@ Xiaomi Аккаунтыңызға %s арқылы кіруіңізге бола�
     <string name="passport_to_verify_code_login">SMS арқылы кіру</string>
     <string name="passport_trust_device">Осы құрылғыны тексерілгендеріне қосу</string>
     <string name="passport_two_factor_auth">Екі факторлы аутентификация</string>
-    <string name="passport_two_factor_auth_hint">Аккаунтыңызға кіру кезінде екі факторлы аутентификацияны талап ету үшін қосыңыз</string>
+    <string name="passport_two_factor_auth_dialog_desc">Екі факторлы аутентификацияны қоссаңыз, басқа құрылғылар мен барлық веб-сайттардағы Xiaomi Аккаунтыңыздан шығасыз. Қазір қосасыз ба?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Болдырмау</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Қосу</string>
+    <string name="passport_two_factor_auth_dialog_title">Басқа құрылғыларда жүйеден шығыңыз</string>
+    <string name="passport_two_factor_auth_hint"><Data>Xiaomi Аккаунтыңызға кірген сайын аутентификацияның екі кезеңін орындаңыз. &lt;a href= >Толығырақ&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Екі факторлы аутентификацияны пайдалану үшін аккаунт құпиясөзін орнатыңыз</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Екі факторлы аутентификацияны қосу үшін аккаунт құпиясөзін орнатыңыз.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Болдырмау</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Орнату</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Аккаунт құпиясөзін орнатыңыз</string>
+    <string name="passport_two_factor_set_phone_hint">Екі факторлы аутентификацияны пайдалану үшін телефон нөмірін қосыңыз</string>
     <string name="passport_tz_invalid">Қауіпсіздік қатері анықталды. Бұл құрылғы қайта бағдарланған немесе root құқығы берілген болуы мүмкін. Басқа кіру мүмкіндіктерін пайдаланып көріңіз.</string>
     <string name="passport_unknown_error">Белгісіз қате</string>
     <string name="passport_unknown_host_network_error">Желі баптауларын тексеріп, әрекетті қайталаңыз</string>

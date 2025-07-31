@@ -87,7 +87,7 @@ Hesap kimliğiniz: %s"</string>
     <string name="area_code_no_search_result">Sonuç bulunamadı</string>
     <string name="area_code_search_hint">Ülke veya bölge arayın</string>
     <string name="auth_fail_warning">Oturum sona erdi, daha sonra yeniden oturum açın</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Otomatik doldurma oturum açma özelliği filigranlı sürümlerde desteklenmiyor</string>
     <string name="bind_facebook">Facebook hesabınıza bağlanın</string>
     <string name="bind_google">Google hesabınıza bağlanın</string>
     <string name="bind_safe_phone_msg">Xiaomi Hesabınızda oturum açabilmek için telefon numaranızı ekleyin.</string>
@@ -121,6 +121,7 @@ Xiaomi Hesabınızda şu andan itibaren %s kullanarak oturum açabilirsiniz."</s
     <string name="cloud_service_cloud_open">Aç</string>
     <string name="cloud_service_space_full">Depolama dolu</string>
     <string name="cloud_service_space_not_enough">Yetersiz depolama alanı</string>
+    <string name="cloud_service_space_over_quota">Depolama limiti aşıldı</string>
     <string name="cloud_service_space_used">Kullanılan</string>
     <string name="cloud_service_state_error">Yüklenemedi</string>
     <string name="cloud_service_status_backup_not_open">Yedekleme kapalı</string>
@@ -170,7 +171,7 @@ Xiaomi Hesabınızda şu andan itibaren %s kullanarak oturum açabilirsiniz."</s
     <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
     <string name="completed">Her şey tamam!</string>
     <string name="confirm_bundled_phone_dialog_confirm">Onayla</string>
-    <string name="confirm_bundled_phone_dialog_confirm_timer">Onayla (%dsn.)</string>
+    <string name="confirm_bundled_phone_dialog_confirm_timer">Onayla (%d sn.)</string>
     <string name="confirm_bundled_phone_dialog_title">Bağlı telefon numarasını doğrula</string>
     <string name="confirm_new_pwd">Yeni şifreyi onaylayın</string>
     <string name="confirm_unbind">Bu hesabın bağlantısını kes?</string>
@@ -189,14 +190,17 @@ Xiaomi Hesabınızda şu andan itibaren %s kullanarak oturum açabilirsiniz."</s
     <string name="default_popup_window_title">Pop-up Pencere</string>
     <string name="delete_bank_card_message">Mi Pay banka kartları ve NFC kartları, çıkış yapmanızdan sonra silinir.</string>
     <string name="delete_bank_card_title">Uyarı</string>
-    <string name="delete_device_btn">Kaldır</string>
+    <string name="delete_device_btn">Cihazı kaldır</string>
     <string name="delete_device_failed">Cihaz kaldırılamıyor</string>
-    <string name="delete_device_notice">Cihaz silindikten sonra, cihaz oturumu Xiaomi Hesabınızda otomatik olarak kapatılacaktır. Resimlerinize, mesajlarınıza veya hesabınızda depoladığınız diğer içeriklerinize ulaşmak için bu cihazı kullanamayacaksınız.</string>
+    <string name="delete_device_notice">"Bu cihaz kaldırmak, Xiaomi Hesabınızdan da çıkış yapmanıza neden olur. Kaldırdıktan sonra cloud'da depolanan ögelere erişemezsiniz."</string>
     <string name="deny">Reddet</string>
     <string name="device_delete_success_message">Eğer bu cihazda oturum açan siz değilseniz, şifrenizi en kısa sürede değiştirin.</string>
     <string name="device_delete_success_title">Oturum kapatıldı</string>
+    <string name="device_id">Cihaz Kimliği</string>
+    <string name="device_list_error_tip"><Data>Yüklenemedi. &lt;a href=>Tekrar dene&lt;/a></Data></string>
     <string name="device_list_title">Cihazlarım</string>
     <string name="device_name">Cihaz adı</string>
+    <string name="device_recent_login_time">Son oturum açma</string>
     <string name="dind_device_service_not_open">Kapalı</string>
     <string name="dind_device_service_opened">Açık</string>
     <string name="dropdown_menu">Açılır menü</string>
@@ -323,6 +327,7 @@ Xiaomi Hesabınızda şu andan itibaren %s kullanarak oturum açabilirsiniz."</s
     <string name="friday_shortest">Cum</string>
     <string name="get_back_password">Şifreyi sıfırla</string>
     <string name="get_back_pwd">Şifre sıfırlamak</string>
+    <string name="get_device_info_error">Cihaz bilgisi alınamadı</string>
     <string name="get_identity_auth_url_failed">Kimlik doğrulanamadı</string>
     <string name="get_phone_bind_exceed_limit">Bir telefon numarasını %d kadar Xiaomi Hesabı ile ilişkilendirebilirsiniz. Yeni hesaplar eklenemiyor.</string>
     <string name="get_phone_verifycode_exceed_limit">Bu numaraya daha fazla doğrulama kodu gönderilemiyor</string>
@@ -461,6 +466,7 @@ Xiaomi Hesabınızda şu andan itibaren %s kullanarak oturum açabilirsiniz."</s
     <string name="night">Akşam</string>
     <string name="no_account_or_forget_password">Hesap oluşturdunuz veya şifrenizi mi unuttunuz?</string>
     <string name="no_network_btn">Yenile</string>
+    <string name="no_network_refresh_btn">Yenile</string>
     <string name="no_network_title">Ağa bağlanılamıyor.</string>
     <string name="no_password_set">Ayarlı değil</string>
     <string name="no_phone">Telefon numarası yok</string>
@@ -592,6 +598,7 @@ Xiaomi Hesabınızda şu andan itibaren %s kullanarak oturum açabilirsiniz."</s
     <string name="passport_error_no_password_user">Henüz bir şifre oluşturmadınız. SMS ile oturum açın.</string>
     <string name="passport_error_phone">Geçersiz telefon numarası</string>
     <string name="passport_error_server">Sunucu hatası</string>
+    <string name="passport_error_server_msg">Ağ ayarlarınızı kontrol edin ve sayfayı yenileyin</string>
     <string name="passport_error_sim_not_ready">SIM kart bulunamıyor</string>
     <string name="passport_error_sms_limit">Bu numaraya çok fazla sayıda doğrulama kodu gönderildi. Daha sonra tekrar deneyin.</string>
     <string name="passport_error_ssl_hand_shake">Sunucuya bağlanılamadı</string>
@@ -752,7 +759,17 @@ Xiaomi Hesabınızda şu andan itibaren %s kullanarak oturum açabilirsiniz."</s
     <string name="passport_to_verify_code_login">SMS ile oturum aç</string>
     <string name="passport_trust_device">Bu cihazı onaylı cihazlara ekle</string>
     <string name="passport_two_factor_auth">İki faktörlü kimlik doğrulama</string>
-    <string name="passport_two_factor_auth_hint">Hesabınızda oturum açarken iki faktörlü kimlik doğrulamayı zorunlu kılmak için açın</string>
+    <string name="passport_two_factor_auth_dialog_desc">İki faktörlü doğrulamayı açarsanız diğer cihazlarda ve internet sitelerinde Xiaomi Hesabınızdan çıkış yapacaksınız. Şimdi açılsın mı?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">İptal</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Aç</string>
+    <string name="passport_two_factor_auth_dialog_title">Diğer cihazlardan çıkış yap</string>
+    <string name="passport_two_factor_auth_hint"><Data>Xiaomi Hesabınızda her oturum açtığınızda iki tur kimlik doğrulamasını tamamlayın. &lt;a href= >Daha fazla bilgi edinin&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">İki faktörlü kimlik doğrulamayı kullanabilmek için bir hesap şifresi belirleyin</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">İki faktörlü kimlik doğrulamayı açmak için bir hesap şifresi belirleyin.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">İptal</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Ayarla</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Hesap şifresi ayarla</string>
+    <string name="passport_two_factor_set_phone_hint">İki faktörlü doğrulamayı kullanmak için telefon numarası ekleyin</string>
     <string name="passport_tz_invalid">Güvenlik riskleri bulundu. Bu cihaz rootlanmış veya flashlanmış olabilir. Diğer oturum açma seçeneklerini deneyin.</string>
     <string name="passport_unknown_error">Bilinmeyen hata</string>
     <string name="passport_unknown_host_network_error">Ağ ayarlarınızı kontrol edin ve tekrar deneyin</string>

@@ -121,6 +121,7 @@
     <string name="cloud_service_cloud_open">Укључи</string>
     <string name="cloud_service_space_full">Складиште је пуно</string>
     <string name="cloud_service_space_not_enough">Недостатак просторa</string>
+    <string name="cloud_service_space_over_quota">Премашен складишни лимит</string>
     <string name="cloud_service_space_used">Заузето</string>
     <string name="cloud_service_state_error">Учитавање није успело</string>
     <string name="cloud_service_status_backup_not_open">Бекап је искључен</string>
@@ -166,14 +167,17 @@
     <string name="default_popup_window_title">Искачући прозор</string>
     <string name="delete_bank_card_message">Mi Pay банкарске картице и NFC картице ће бити обрисанe након што се одјавите.</string>
     <string name="delete_bank_card_title">Пажња</string>
-    <string name="delete_device_btn">Уклони</string>
+    <string name="delete_device_btn">Уклони уређај</string>
     <string name="delete_device_failed">Не може се уклонити уређај</string>
-    <string name="delete_device_notice">Након што уклоните уређај, аутоматски ће се одјавити са вашег Xiaomi Налога. Нећете моћи да користите овај уређај за приступ фотографијама, порукама или другом садржају ускладиштеном на вашем налогу.</string>
+    <string name="delete_device_notice">Уклањањем овог уређаја бићете одјављени и са свог Xiaomi Налога. Нећете моћи да приступите ставкама сачуваним у cloud-у након што га уклоните.</string>
     <string name="deny">Одбаци</string>
     <string name="device_delete_success_message">Ако се нисте пријавили на овом уређају, одмах промените лозинку.</string>
     <string name="device_delete_success_title">Одјављени сте</string>
+    <string name="device_id">ID уређаја</string>
+    <string name="device_list_error_tip"><Data>Учитавање није успело. &lt;a href=>Покушајте опет&lt;/a>.</Data></string>
     <string name="device_list_title">Моји уређаји</string>
     <string name="device_name">Назив уређајa</string>
+    <string name="device_recent_login_time">Последње пријављивање</string>
     <string name="dind_device_service_not_open">Иск</string>
     <string name="dind_device_service_opened">Ук</string>
     <string name="dropdown_menu">Падајући мени</string>
@@ -300,6 +304,7 @@
     <string name="friday_shortest">Пет</string>
     <string name="get_back_password">Ресетуј лозинку</string>
     <string name="get_back_pwd">Ресетовање лозинкe</string>
+    <string name="get_device_info_error">Не могу се добити подаци о уређају</string>
     <string name="get_identity_auth_url_failed">Потврда ID-а није успела</string>
     <string name="get_phone_bind_exceed_limit">Можете да повежете до %d Xiaomi Налога са бројем телефона. Не можете додавати нове налоге.</string>
     <string name="get_phone_verifycode_exceed_limit">Не можете слати више кодова за потврду на овај број</string>
@@ -438,6 +443,7 @@
     <string name="night">Вече</string>
     <string name="no_account_or_forget_password">Креирате налог или сте заборавили лозинку?</string>
     <string name="no_network_btn">Освежи</string>
+    <string name="no_network_refresh_btn">Освежи</string>
     <string name="no_network_title">Није могуће повезивање на мрежу.</string>
     <string name="no_password_set">Није подешено</string>
     <string name="no_phone">Нема телефонског броја</string>
@@ -569,6 +575,7 @@
     <string name="passport_error_no_password_user">Још нисте поставили лозинку. Пријавите се SMS-ом.</string>
     <string name="passport_error_phone">Неважећи број телефона</string>
     <string name="passport_error_server">Грешка на серверу</string>
+    <string name="passport_error_server_msg">Проверите подешавања мреже и освежите страницу</string>
     <string name="passport_error_sim_not_ready">Не може се пронаћи SIM картица</string>
     <string name="passport_error_sms_limit">Превише кодова за потврду је послато на овај број. Покушајте опет касније.</string>
     <string name="passport_error_ssl_hand_shake">Онемогућено повезивање са сервером</string>
@@ -729,7 +736,17 @@
     <string name="passport_to_verify_code_login">Пријавите се SMS-ом</string>
     <string name="passport_trust_device">Додај овај уређај на потврђене уређаје</string>
     <string name="passport_two_factor_auth">Двократна аутентификација</string>
-    <string name="passport_two_factor_auth_hint">Укључите да бисте захтевали аутентификацију у два корака приликом пријављивања на налог</string>
+    <string name="passport_two_factor_auth_dialog_desc">Ако укључите двофакторску аутентификацију, бићете одјављени са свог Xiaomi Налога на другим уређајима и свим веб-сајтовима. Укључити сада?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Откажи</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Укључи</string>
+    <string name="passport_two_factor_auth_dialog_title">Одјавити се на другим уређајима</string>
+    <string name="passport_two_factor_auth_hint"><Data>Завршите два круга аутентификације сваки пут када се пријавите на свој Xiaomi Налог. &lt;a href= >Сазнајте више&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Подесите лозинку налога да бисте могли да користите аутентификацију у два корака</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Подесите лозинку налога да бисте могли да укључите двофакторску аутентификацију.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Откажи</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Подеси</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Подеси лозинку налога</string>
+    <string name="passport_two_factor_set_phone_hint">Додајте број телефона да бисте могли да користите двофакторску аутентификацију</string>
     <string name="passport_tz_invalid">Пронађени су безбедносни ризици. Овај уређај је можда компромитован или флешован. Пробајте са другим опцијама пријављивања.</string>
     <string name="passport_unknown_error">Непозната грешка</string>
     <string name="passport_unknown_host_network_error">Проверите подешавања мреже и покушајте опет</string>

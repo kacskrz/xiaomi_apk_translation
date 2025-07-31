@@ -87,7 +87,7 @@ ID de su cuenta: %s"</string>
     <string name="area_code_no_search_result">No se encontraron resultados</string>
     <string name="area_code_search_hint">Buscar por país o región</string>
     <string name="auth_fail_warning">Sesión expirada, inicie sesión de nuevo</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">El inicio de sesión con autocompletado no es compatible con las versiones con marca de agua</string>
     <string name="bind_facebook">Conectar cuenta de Facebook</string>
     <string name="bind_google">Conecte su cuenta de Google</string>
     <string name="bind_safe_phone_msg">Agregue su número telefónico para poder iniciar sesión en su Cuenta Mi la próxima vez.</string>
@@ -121,6 +121,7 @@ Puede iniciar sesión en su Cuenta Mi usando %s."</string>
     <string name="cloud_service_cloud_open">Activar</string>
     <string name="cloud_service_space_full">Almacenamiento lleno</string>
     <string name="cloud_service_space_not_enough">Espacio insuficiente</string>
+    <string name="cloud_service_space_over_quota">Límite de almacenamiento excedido</string>
     <string name="cloud_service_space_used">Ocupado</string>
     <string name="cloud_service_state_error">No se pudo cargar</string>
     <string name="cloud_service_status_backup_not_open">Copia de seguridad está desactivada</string>
@@ -147,7 +148,7 @@ Puede iniciar sesión en su Cuenta Mi usando %s."</string>
     <string name="common_signin_button_text_long">Acceder con Google</string>
     <string name="completed">¡Todo listo!</string>
     <string name="confirm_bundled_phone_dialog_confirm">Confirmar</string>
-    <string name="confirm_bundled_phone_dialog_confirm_timer">Confirmar (%ds)</string>
+    <string name="confirm_bundled_phone_dialog_confirm_timer">Confirmar (%d s)</string>
     <string name="confirm_bundled_phone_dialog_title">Confirmar número telefónico asociado</string>
     <string name="confirm_new_pwd">Confirmar nueva contraseña</string>
     <string name="confirm_unbind">¿Desconectar esta cuenta?</string>
@@ -166,14 +167,17 @@ Puede iniciar sesión en su Cuenta Mi usando %s."</string>
     <string name="default_popup_window_title">Ventana emergente</string>
     <string name="delete_bank_card_message">Las tarjetas bancarias de Mi Pay y NFC serán borradas después de cerrar sesión.</string>
     <string name="delete_bank_card_title">Atención</string>
-    <string name="delete_device_btn">Eliminar</string>
+    <string name="delete_device_btn">Eliminar dispositivo</string>
     <string name="delete_device_failed">No se pudo quitar el dispositivo</string>
-    <string name="delete_device_notice">Después de eliminar el dispositivo, la sesión en su Cuenta Mi será cerrada. No podrá usar este dispositivo para acceder a las fotos, mensajes u otro contenido almacenado en su cuenta.</string>
+    <string name="delete_device_notice">Al eliminar este dispositivo, también cerrará sesión en su Cuenta Mi. No podrá acceder a los archivos almacenados en la nube una vez eliminado.</string>
     <string name="deny">Rechazar</string>
     <string name="device_delete_success_message">Si no inició sesión con este dispositivo, cambie su contraseña inmediatamente.</string>
     <string name="device_delete_success_title">Desconectado</string>
+    <string name="device_id">ID del dispositivo</string>
+    <string name="device_list_error_tip"><Data>No se pudo cargar. &lt;a href=>Vuelva a intentarlo&lt;/a></Data></string>
     <string name="device_list_title">Mis dispositivos</string>
     <string name="device_name">Nombre del dispositivo</string>
+    <string name="device_recent_login_time">Último inicio de sesión</string>
     <string name="dind_device_service_not_open">Desactivado</string>
     <string name="dind_device_service_opened">Activado</string>
     <string name="dropdown_menu">Menú desplegable</string>
@@ -300,6 +304,7 @@ Puede iniciar sesión en su Cuenta Mi usando %s."</string>
     <string name="friday_shortest">Vie</string>
     <string name="get_back_password">Restablecer contraseña</string>
     <string name="get_back_pwd">Restableciendo contraseña</string>
+    <string name="get_device_info_error">No se pudo obtener información del dispositivo</string>
     <string name="get_identity_auth_url_failed">No se pudo verificar la ID</string>
     <string name="get_phone_bind_exceed_limit">Puede asociar hasta %d Cuentas Mi a un número de teléfono. No puede añadir cuentas nuevas.</string>
     <string name="get_phone_verifycode_exceed_limit">No se pueden enviar más códigos de verificación a este número</string>
@@ -438,6 +443,7 @@ Puede iniciar sesión en su Cuenta Mi usando %s."</string>
     <string name="night">Noche</string>
     <string name="no_account_or_forget_password">¿Crear cuenta u olvidó la contraseña?</string>
     <string name="no_network_btn">Actualizar</string>
+    <string name="no_network_refresh_btn">Actualizar</string>
     <string name="no_network_title">No se pudo conectar a la red.</string>
     <string name="no_password_set">No establecido</string>
     <string name="no_phone">No hay número de teléfono</string>
@@ -569,6 +575,7 @@ Puede iniciar sesión en su Cuenta Mi usando %s."</string>
     <string name="passport_error_no_password_user">No ha establecido una contraseña aún. Inicie sesión con SMS.</string>
     <string name="passport_error_phone">Número de teléfono incorrecto</string>
     <string name="passport_error_server">Error del servidor</string>
+    <string name="passport_error_server_msg">Compruebe sus ajustes de red y actualice la página</string>
     <string name="passport_error_sim_not_ready">No se encuentra tarjeta SIM</string>
     <string name="passport_error_sms_limit">Se han enviado demasiados códigos de verificación a este número. Vuelva a intentarlo más tarde.</string>
     <string name="passport_error_ssl_hand_shake">No es posible conectarse al servidor</string>
@@ -729,7 +736,17 @@ Puede iniciar sesión en su Cuenta Mi usando %s."</string>
     <string name="passport_to_verify_code_login">Iniciar sesión vía SMS</string>
     <string name="passport_trust_device">Agregar este dispositivo a dispositivos verificados</string>
     <string name="passport_two_factor_auth">Autenticación de dos factores</string>
-    <string name="passport_two_factor_auth_hint">Active la opción de requerir autenticación de dos factores al iniciar sesión en su cuenta</string>
+    <string name="passport_two_factor_auth_dialog_desc">Si activa la autenticación de dos factores, se cerrará la sesión de su Cuenta Mi en otros dispositivos y todos los sitios web. ¿Activar ahora?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Cancelar</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Activar</string>
+    <string name="passport_two_factor_auth_dialog_title">Cerrar sesión en los otros dispositivos</string>
+    <string name="passport_two_factor_auth_hint"><Data>Complete dos rondas de autenticación cada vez que inicie sesión en su Cuenta Mi. &lt;a href= >Más información&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Establezca una contraseña de cuenta para poder utilizar la autenticación de dos factores</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Establezca una contraseña de cuenta para poder activar la autenticación de dos factores.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Cancelar</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Establecer</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Establecer contraseña de la cuenta</string>
+    <string name="passport_two_factor_set_phone_hint">Agregue un número de teléfono para poder usar la autenticación de dos factores</string>
     <string name="passport_tz_invalid">Riesgos de seguridad encontrados. Este dispositivo puede haber sido rooteado o flasheado. Pruebe otras opciones de inicio de sesión.</string>
     <string name="passport_unknown_error">Error desconocido</string>
     <string name="passport_unknown_host_network_error">Verifique la configuración de su red y vuelva a intentarlo</string>

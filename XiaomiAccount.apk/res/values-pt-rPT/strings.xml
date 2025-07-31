@@ -87,7 +87,7 @@ ID da sua conta: %s"</string>
     <string name="area_code_no_search_result">Sem resultados encontrados</string>
     <string name="area_code_search_hint">Pesquisar por país ou região</string>
     <string name="auth_fail_warning">Sessão expirada, tente novamente mais tarde</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">"O preenchimento automático de assinaturas não é suportado em versões com marcas d'água"</string>
     <string name="bind_facebook">Associar a sua Conta Facebook</string>
     <string name="bind_google">Associar a sua Conta Google</string>
     <string name="bind_safe_phone_msg">Adicione o seu número de telefone para poder iniciar a sessão em sua Conta Xiaomi da próxima vez.</string>
@@ -121,6 +121,7 @@ Agora, pode iniciar a sessão na sua Conta Xiaomi utilizando a %s."</string>
     <string name="cloud_service_cloud_open">Ligar</string>
     <string name="cloud_service_space_full">Armazenamento cheio</string>
     <string name="cloud_service_space_not_enough">Espaço insuficiente</string>
+    <string name="cloud_service_space_over_quota">Limite de armazenamento excedido</string>
     <string name="cloud_service_space_used">Em uso</string>
     <string name="cloud_service_state_error">Não foi possível carregar</string>
     <string name="cloud_service_status_backup_not_open">Cópia de segurança desligada</string>
@@ -170,7 +171,7 @@ Agora, pode iniciar a sessão na sua Conta Xiaomi utilizando a %s."</string>
     <string name="common_signin_button_text_long">Iniciar sessão com o Google</string>
     <string name="completed">Tudo configurado!</string>
     <string name="confirm_bundled_phone_dialog_confirm">Confirmar</string>
-    <string name="confirm_bundled_phone_dialog_confirm_timer">Confirmar (%ds)</string>
+    <string name="confirm_bundled_phone_dialog_confirm_timer">Confirmar (%d s)</string>
     <string name="confirm_bundled_phone_dialog_title">Confirmar número de telefone associado</string>
     <string name="confirm_new_pwd">Confirmar nova palavra-passe</string>
     <string name="confirm_unbind">Desassociar esta conta?</string>
@@ -189,14 +190,17 @@ Agora, pode iniciar a sessão na sua Conta Xiaomi utilizando a %s."</string>
     <string name="default_popup_window_title">Janela pop-up</string>
     <string name="delete_bank_card_message">Cartões bancários do Mi Pay e cartões NFC serão eliminados após terminares a sessão.</string>
     <string name="delete_bank_card_title">Atenção</string>
-    <string name="delete_device_btn">Remover</string>
+    <string name="delete_device_btn">Remover dispositivo</string>
     <string name="delete_device_failed">Não é possível remover o dispositivo</string>
-    <string name="delete_device_notice">Depois que o dispositivo for removido, ele será desligado da sua Conta Xiaomi automaticamente. Não poderá utilizar este dispositivo para aceder às fotos, mensagens ou outros conteúdos armazenados na sua conta.</string>
+    <string name="delete_device_notice">Remover este dispositivo também encerrará a sua sessão da sua Conta Xiaomi. Não poderá aceder aos itens armazenados na nuvem quando ele for removido.</string>
     <string name="deny">Recusar</string>
     <string name="device_delete_success_message">Se não iniciou sessão neste dispositivo altere imediatamente a sua palavra-passe.</string>
     <string name="device_delete_success_title">Sessão terminada</string>
+    <string name="device_id">ID do Dispositivo</string>
+    <string name="device_list_error_tip"><Data>Não foi possível carregar. &lt;a href=>Tente novamente&lt;/a></Data></string>
     <string name="device_list_title">Os meus dispositivos</string>
     <string name="device_name">Nome do dispositivo</string>
+    <string name="device_recent_login_time">Último início de sessão</string>
     <string name="dind_device_service_not_open">Desligado</string>
     <string name="dind_device_service_opened">Ligado</string>
     <string name="dropdown_menu">Menu pendente</string>
@@ -323,6 +327,7 @@ Agora, pode iniciar a sessão na sua Conta Xiaomi utilizando a %s."</string>
     <string name="friday_shortest">Sex</string>
     <string name="get_back_password">Repor palavra-passe</string>
     <string name="get_back_pwd">Repor palavra-passe</string>
+    <string name="get_device_info_error">Não foi possível obter informações sobre o dispositivo</string>
     <string name="get_identity_auth_url_failed">Não foi possível verificar a identidade</string>
     <string name="get_phone_bind_exceed_limit">Pode associar até %d Contas Xiaomi com um número de telefone. Não é possível adicionar novas contas.</string>
     <string name="get_phone_verifycode_exceed_limit">Não é possível enviar mais códigos de verificação para este número</string>
@@ -461,6 +466,7 @@ Agora, pode iniciar a sessão na sua Conta Xiaomi utilizando a %s."</string>
     <string name="night">Anoitecer</string>
     <string name="no_account_or_forget_password">Criar conta ou esqueceu a palavra-passe?</string>
     <string name="no_network_btn">Atualizar</string>
+    <string name="no_network_refresh_btn">Recarregar</string>
     <string name="no_network_title">Não é possível ligar à rede.</string>
     <string name="no_password_set">Não definido</string>
     <string name="no_phone">Sem número de telefone</string>
@@ -592,6 +598,7 @@ Agora, pode iniciar a sessão na sua Conta Xiaomi utilizando a %s."</string>
     <string name="passport_error_no_password_user">Ainda não definiu uma palavra-passe. Inicie sessão através de SMS.</string>
     <string name="passport_error_phone">Número de telefone inválido</string>
     <string name="passport_error_server">Erro do servidor</string>
+    <string name="passport_error_server_msg">Verifique as suas definições de rede e recarregue a página</string>
     <string name="passport_error_sim_not_ready">Não é possível localizar o cartão SIM</string>
     <string name="passport_error_sms_limit">Muitos códigos de verificação foram enviados para este número. Tente novamente mais tarde.</string>
     <string name="passport_error_ssl_hand_shake">Não foi possível ligar ao servidor</string>
@@ -752,7 +759,17 @@ Agora, pode iniciar a sessão na sua Conta Xiaomi utilizando a %s."</string>
     <string name="passport_to_verify_code_login">Iniciar sessão via SMS</string>
     <string name="passport_trust_device">Adicionar este dispositivo aos dispositivos verificados</string>
     <string name="passport_two_factor_auth">Autenticação de dois fatores</string>
-    <string name="passport_two_factor_auth_hint">Ligue para exigir a autenticação de dois fatores ao iniciar a sessão na sua conta</string>
+    <string name="passport_two_factor_auth_dialog_desc">"Se ativar a autenticação de dois fatores, terminará sessão na sua Conta Xiaomi noutros dispositivos e em todos os 'websites'. Deseja ativar agora?"</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Cancelar</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Ativar</string>
+    <string name="passport_two_factor_auth_dialog_title">Terminar sessão noutros dispositivos</string>
+    <string name="passport_two_factor_auth_hint"><Data>Conclua duas rondas de autenticação sempre que iniciar sessão na sua Conta Xiaomi. &lt;a href= >Saiba mais&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Defina uma palavra-passe de conta para poder usar a autenticação de dois fatores</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Defina uma palavra-passe de conta para poder ativar a autenticação de dois fatores.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Cancelar</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Definir</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Definir a palavra-passe da conta</string>
+    <string name="passport_two_factor_set_phone_hint">Adicione um número de telefone para poder usar a autenticação de dois fatores</string>
     <string name="passport_tz_invalid">Riscos de segurança encontrados. Este dispositivo pode estar com permissão root ou ter sido modificado. Tente outras formas de início de sessão.</string>
     <string name="passport_unknown_error">Erro desconhecido</string>
     <string name="passport_unknown_host_network_error">Verifique as suas definições de rede e tente novamente</string>

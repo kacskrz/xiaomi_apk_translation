@@ -87,7 +87,7 @@ L'ID de votre compte : %s"</string>
     <string name="area_code_no_search_result">Impossible de trouver des résultats</string>
     <string name="area_code_search_hint">Recherche de pays ou de région</string>
     <string name="auth_fail_warning">La session a expiré, veuillez vous reconnecter plus tard</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">"La connexion par remplissage automatique n'est pas prise en charge sur les versions avec filigrane"</string>
     <string name="bind_facebook">Se connecter à votre compte Facebook</string>
     <string name="bind_google">Se connecter à votre compte Google</string>
     <string name="bind_safe_phone_msg">Ajoutez votre numéro de téléphone pour être en mesure de vous connecter à votre Compte Xiaomi la prochaine fois.</string>
@@ -121,6 +121,7 @@ L'ID de votre compte : %s"</string>
     <string name="cloud_service_cloud_open">Activer</string>
     <string name="cloud_service_space_full">Stockage plein</string>
     <string name="cloud_service_space_not_enough">Stockage insuffisant</string>
+    <string name="cloud_service_space_over_quota">Limite de stockage dépassée</string>
     <string name="cloud_service_space_used">Occupé</string>
     <string name="cloud_service_state_error">Chargement impossible</string>
     <string name="cloud_service_status_backup_not_open">La sauvegarde est désactivée</string>
@@ -189,14 +190,17 @@ L'ID de votre compte : %s"</string>
     <string name="default_popup_window_title">Fenêtre pop-up</string>
     <string name="delete_bank_card_message">Les cartes bancaires de Mi Pay ainsi que les cartes NFC seront supprimées après votre déconnexion.</string>
     <string name="delete_bank_card_title">Attention</string>
-    <string name="delete_device_btn">Retirer</string>
+    <string name="delete_device_btn">"Supprimer l'appareil "</string>
     <string name="delete_device_failed">"Impossible de supprimer l'appareil"</string>
-    <string name="delete_device_notice">"Après le retrait de l'appareil, il sera automatiquement déconnecté de votre Compte Xiaomi. Vous ne pourrez pas utiliser cet appareil pour accéder aux photos, messages ou autres contenus stockés dans votre compte."</string>
+    <string name="delete_device_notice">"La suppression de cet appareil entraînera également votre déconnexion de votre Compte Xiaomi. Vous ne pourrez plus accéder aux éléments stockés dans le cloud une fois l'appareil supprimé."</string>
     <string name="deny">Rejeter</string>
     <string name="device_delete_success_message">Si vous ne vous êtes pas connecté sur cet appareil, modifiez votre mot de passe immédiatement.</string>
     <string name="device_delete_success_title">Déconnecté</string>
+    <string name="device_id">"Identifiant de l'appareil"</string>
+    <string name="device_list_error_tip"><Data>Impossible de charger. &lt;a href=>Réessayer&lt;/a></Data></string>
     <string name="device_list_title">Mes appareils</string>
     <string name="device_name">"Nom de l'appareil"</string>
+    <string name="device_recent_login_time">Dernière connexion</string>
     <string name="dind_device_service_not_open">Off</string>
     <string name="dind_device_service_opened">Activé</string>
     <string name="dropdown_menu">Menu déroulant</string>
@@ -323,6 +327,7 @@ L'ID de votre compte : %s"</string>
     <string name="friday_shortest">Ven</string>
     <string name="get_back_password">Réinitialiser le mot de passe</string>
     <string name="get_back_pwd">Réinitialisation du mot de passe</string>
+    <string name="get_device_info_error">"Impossible de récupérer les informations de l'appareil"</string>
     <string name="get_identity_auth_url_failed">"Impossible de vérifier l'identifiant"</string>
     <string name="get_phone_bind_exceed_limit">"Vous pouvez associer jusqu'à (%d Comptes Xiaomi avec un numéro de téléphone. Impossible d'ajouter de nouveaux comptes."</string>
     <string name="get_phone_verifycode_exceed_limit">"Impossible d'envoyer plus de codes de vérification à ce numéro"</string>
@@ -461,6 +466,7 @@ L'ID de votre compte : %s"</string>
     <string name="night">Soirée</string>
     <string name="no_account_or_forget_password">Créer un compte ou mot de passe oublié ?</string>
     <string name="no_network_btn">Actualiser</string>
+    <string name="no_network_refresh_btn">Actualiser</string>
     <string name="no_network_title">Impossible de se connecter au réseau.</string>
     <string name="no_password_set">Non défini</string>
     <string name="no_phone">Aucun numéro de téléphone</string>
@@ -592,6 +598,7 @@ L'ID de votre compte : %s"</string>
     <string name="passport_error_no_password_user">"Vous n'avez pas encore défini de mot de passe. Connectez-vous via SMS."</string>
     <string name="passport_error_phone">Numéro de téléphone invalide</string>
     <string name="passport_error_server">Erreur du serveur</string>
+    <string name="passport_error_server_msg">Vérifiez vos paramètres de réseau, puis rafraîchissez la page</string>
     <string name="passport_error_sim_not_ready">Carte SIM introuvable</string>
     <string name="passport_error_sms_limit">Trop de codes de vérification ont été envoyés à ce numéro. Réessayez plus tard.</string>
     <string name="passport_error_ssl_hand_shake">Impossible de se connecter au serveur</string>
@@ -752,7 +759,17 @@ L'ID de votre compte : %s"</string>
     <string name="passport_to_verify_code_login">Se connecter via SMS</string>
     <string name="passport_trust_device">Ajouter cet appareil aux appareils de confiance</string>
     <string name="passport_two_factor_auth">Authentification à 2 facteurs</string>
-    <string name="passport_two_factor_auth_hint">"Activez pour exiger l'authentification à deux facteurs lors de la connexion à votre compte"</string>
+    <string name="passport_two_factor_auth_dialog_desc">"Si vous activez l'authentification à deux facteurs, vous serez déconnecté de votre Compte Xiaomi sur les autres appareils et sites web. L'activer tout de même ?"</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Annuler</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Activer</string>
+    <string name="passport_two_factor_auth_dialog_title">Se déconnecter sur les autres appareils</string>
+    <string name="passport_two_factor_auth_hint"><Data>"Effectuez deux cycles d'authentification à chaque fois que vous vous connectez à votre compte Xiaomi. &lt;a href= >En savoir plus&lt;/a>"</Data></string>
+    <string name="passport_two_factor_set_password_hint">"Définissez un mot de passe pour pouvoir utiliser l'authentification à deux facteurs"</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">"Définissez un mot de passe pour pouvoir activer l'authentification à deux facteurs."</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Annuler</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Définir</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Définissez le mot de passe du compte</string>
+    <string name="passport_two_factor_set_phone_hint">Ajoutez un numéro de téléphone pour pouvoir utiliser l’authentification à deux facteurs</string>
     <string name="passport_tz_invalid">"Risques de sécurité détectés. Cet appareil a peut-être été rooté ou flashé. Essayez d'autres options de connexion."</string>
     <string name="passport_unknown_error">Erreur inconnue</string>
     <string name="passport_unknown_host_network_error">Vérifiez vos paramètres de réseau et réessayez</string>

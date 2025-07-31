@@ -60,7 +60,7 @@
     <string name="area_code_no_search_result">Не пронајде резултати</string>
     <string name="area_code_search_hint">Пребарај држава или регион</string>
     <string name="auth_fail_warning">Сесијата истече, најавете се повторно подоцна</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Автоматското пополнување на податоците за најување не се поддржува во верзии со воден жиг</string>
     <string name="bind_facebook">Поврзете ја вашата сметка Facebook</string>
     <string name="bind_google">Поврзете се на вашиот Google Профил</string>
     <string name="bind_safe_phone_msg">Додајте го вашиот телефонски број за да можете да се најавите на вашата Xiaomi Сметка следниот пат.</string>
@@ -92,6 +92,7 @@
     <string name="cloud_service_cloud_open">Вклучи</string>
     <string name="cloud_service_space_full">Скл. простор е искористен</string>
     <string name="cloud_service_space_not_enough">Нема доволно простор</string>
+    <string name="cloud_service_space_over_quota">Складот се надмина</string>
     <string name="cloud_service_space_used">Искористено</string>
     <string name="cloud_service_state_error">Не може да се вчита</string>
     <string name="cloud_service_status_backup_not_open">Рез. копии се исклучени</string>
@@ -116,14 +117,17 @@
     <string name="date_time_picker_dialog_title">Постави датум и време</string>
     <string name="delete_bank_card_message">Банкарските картички Mi Pay и картичките NFC ќе се избришат откако ќе се одјавите.</string>
     <string name="delete_bank_card_title">Внимание</string>
-    <string name="delete_device_btn">Отстрани</string>
+    <string name="delete_device_btn">Отстрани уред</string>
     <string name="delete_device_failed">Уредот не може да се отстрани</string>
-    <string name="delete_device_notice">Откако ќе се отстрани уредот, тој автоматски ќе биде одјавен од вашата Xiaomi Сметка. Нема да можете да го користите овој уред за пристап до фотографиите, пораките или другата содржина зачувана на вашата сметка.</string>
+    <string name="delete_device_notice">Отстранувањето на овој уред исто така ќе ве одјави од Xiaomi сметката. Нема да можете да пристапувате до ставки складирани во Cloud штом се отстрани.</string>
     <string name="deny">Одбиј</string>
     <string name="device_delete_success_message">Доколку не сте се најавиле на овој уред, веднаш променете ја вашата лозинка.</string>
     <string name="device_delete_success_title">Одјавено</string>
+    <string name="device_id">ИД на уред</string>
+    <string name="device_list_error_tip"><Data>Неуспешно вчитување. &lt;a href=>Обидете се повторно&lt;/a></Data></string>
     <string name="device_list_title">Мои уреди</string>
     <string name="device_name">Име на уредот</string>
+    <string name="device_recent_login_time">Последно најавување</string>
     <string name="dind_device_service_not_open">Исклучи</string>
     <string name="dind_device_service_opened">Вкл</string>
     <string name="early_morning">Утро</string>
@@ -248,6 +252,7 @@
     <string name="friday_shortest">Пет</string>
     <string name="get_back_password">Ресетирај лозинка</string>
     <string name="get_back_pwd">Ресетирање на лозинката</string>
+    <string name="get_device_info_error">Не можеше да се добијат информации за уредот</string>
     <string name="get_identity_auth_url_failed">Неуспешна верификација на ID</string>
     <string name="get_phone_bind_exceed_limit">Може да поврзете (%d Xiaomi Сметки на еден телефонски број. Не може да се додадат нови сметки.</string>
     <string name="get_phone_verifycode_exceed_limit">Не може да се испратат верификациони кодови до овој број</string>
@@ -383,6 +388,7 @@
     <string name="night">Вечер</string>
     <string name="no_account_or_forget_password">Креирајте сметка или заборавивте лозинка?</string>
     <string name="no_network_btn">Освежете</string>
+    <string name="no_network_refresh_btn">Освежи</string>
     <string name="no_network_title">Неуспешно поврзување на мрежата.</string>
     <string name="no_password_set">Не е поставено</string>
     <string name="no_phone">Нема телефонски број</string>
@@ -510,6 +516,7 @@
     <string name="passport_error_no_password_user">Уште не сте ја поставиле лозинката. Најавете се со SMS.</string>
     <string name="passport_error_phone">Невалиден телефонски број</string>
     <string name="passport_error_server">Грешка на сервер</string>
+    <string name="passport_error_server_msg">Проверете ги мрежните поставки и освежете ја страницата</string>
     <string name="passport_error_sim_not_ready">Не наоѓа SIM картичка</string>
     <string name="passport_error_sms_limit">Премногу кодови за верификација се испратени на овој број. Обидете се повторно подоцна.</string>
     <string name="passport_error_ssl_hand_shake">Не можеше да се поврзе на серверот</string>
@@ -670,7 +677,17 @@
     <string name="passport_to_verify_code_login">Најавете се со SMS</string>
     <string name="passport_trust_device">Додајте го овој уред на проверени уреди</string>
     <string name="passport_two_factor_auth">Двофакторска автентикација</string>
-    <string name="passport_two_factor_auth_hint">Вклучете за да побарате двофакторска автентикација кога се најавувате на вашата сметка</string>
+    <string name="passport_two_factor_auth_dialog_desc">Ако ја вклучите двофакторската автентикација, ќе бидете одјавени од Xiaomi сметката на другите уреди и сите веб-страници. Да се вклучи сега?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Откажи</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Вклучи</string>
+    <string name="passport_two_factor_auth_dialog_title">Одјавете се од други уреди</string>
+    <string name="passport_two_factor_auth_hint"><Data>Вршете две рунди автентикација секојпат кога се најавувате на вашата Xiaomi сметка. &lt;a href= >Дознајте повеќе&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Поставете лозинка на сметка за да можете да користите двофакторска автентикација</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Поставете лозинка на сметка за да можете да ја вклучите двофакторската автентикација.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Откажи</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Постави</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Поставете лозинка на сметка</string>
+    <string name="passport_two_factor_set_phone_hint">Додадете телефонски број за да можете да користите двофакторска автентикација</string>
     <string name="passport_tz_invalid">Најдени се безбедносни ризици. Овој уред беше компромитиран или флеширан. Обидете се со други опции за најавување.</string>
     <string name="passport_unknown_error">Непозната грешка</string>
     <string name="passport_unknown_host_network_error">Проверете го Вашето интернет поврзување и обидете се пак</string>

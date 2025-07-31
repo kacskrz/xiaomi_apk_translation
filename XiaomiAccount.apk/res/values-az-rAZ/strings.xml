@@ -60,7 +60,7 @@
     <string name="area_code_no_search_result">Nəticə tapıla bilmədi</string>
     <string name="area_code_search_hint">Ölkə və ya bölgə üçün axtar</string>
     <string name="auth_fail_warning">Sessiya müddəti bitdi, daha sonra yenidən daxil olun</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Möhürlənmiş versiyalarda avtomatik doldurma girişi dəstəklənmir</string>
     <string name="bind_facebook">Facebook hesabınıza qoşulun</string>
     <string name="bind_google">Google Hesabınıza qoşulun</string>
     <string name="bind_safe_phone_msg">Növbəti dəfə Xiaomi Hesabınıza daxil olmaq üçün telefon nömrənizi əlavə edin.</string>
@@ -92,6 +92,7 @@
     <string name="cloud_service_cloud_open">Aç</string>
     <string name="cloud_service_space_full">Yaddaş doldudur</string>
     <string name="cloud_service_space_not_enough">Yetərsiz yaddaş sahəsi</string>
+    <string name="cloud_service_space_over_quota">Saxlama limiti keçib</string>
     <string name="cloud_service_space_used">İstifadə edilən</string>
     <string name="cloud_service_state_error">Yüklənə bilmədi</string>
     <string name="cloud_service_status_backup_not_open">Yedəkləmə sönülüdür</string>
@@ -116,14 +117,17 @@
     <string name="date_time_picker_dialog_title">Tarix və saatı təyin et</string>
     <string name="delete_bank_card_message">Çıxış edildikdən sonra, Mi Pay bank kartları və NFC kartları silinir.</string>
     <string name="delete_bank_card_title">Diqqət</string>
-    <string name="delete_device_btn">Sil</string>
+    <string name="delete_device_btn">Cihazı sil</string>
     <string name="delete_device_failed">Cihaz silinə bilmir</string>
-    <string name="delete_device_notice">Cihaz silindikdən sonra, cihaz avtomatik olaraq Xiaomi Hesabınızdan çıxacaq. Siz hesabınızda saxlanılan şəkillərə, mesajlara və ya digər məzmuna daxil olmaq üçün bu cihazdan istifadə edə bilməyəcəksiniz.</string>
+    <string name="delete_device_notice">Bu cihazı silmək sizi Xiaomi Hesabınızdan da çıxaracaq. Silindikdən sonra cloud-da saxlanılan elementlərə daxil ola bilməyəcəksiniz.</string>
     <string name="deny">Rədd et</string>
     <string name="device_delete_success_message">Əgər bu cihazda hesaba daxil olmadınızsa, dərhal şifrənizi dəyişdirin.</string>
     <string name="device_delete_success_title">Hesabdan çıxıldı</string>
+    <string name="device_id">Cihaz ID-si</string>
+    <string name="device_list_error_tip"><Data>Yüklənə bilmədi. &lt;a href=>Yenidən cəhd edin&lt;/a></Data></string>
     <string name="device_list_title">Cihazlarım</string>
     <string name="device_name">Cihaz adı</string>
+    <string name="device_recent_login_time">Son giriş</string>
     <string name="dind_device_service_not_open">Bağlı</string>
     <string name="dind_device_service_opened">Aç</string>
     <string name="early_morning">Səhər</string>
@@ -248,6 +252,7 @@
     <string name="friday_shortest">C.</string>
     <string name="get_back_password">Şifrəni sıfırla</string>
     <string name="get_back_pwd">Şifrə sıfırlama</string>
+    <string name="get_device_info_error">Cihaz məlumatı əldə edilə bilmədi</string>
     <string name="get_identity_auth_url_failed">Kimlik təsdiqlənə bilmədi</string>
     <string name="get_phone_bind_exceed_limit">Siz %d -ə qədər Xiaomi Hesabını telefon nömrəsi ilə əlaqələndirə bilərsiniz. Yeni hesablar əlavə etmək mümkün deyil.</string>
     <string name="get_phone_verifycode_exceed_limit">Bu nömrəyə daha çox təsdiqləmə kodu göndərmək mümkün deyil</string>
@@ -383,6 +388,7 @@
     <string name="night">Axşam</string>
     <string name="no_account_or_forget_password">Hesab yaradın və ya şifrəni unutmusunuz?</string>
     <string name="no_network_btn">Yenilə</string>
+    <string name="no_network_refresh_btn">Yenilə</string>
     <string name="no_network_title">Şəbəkəyə qoşula bilmir.</string>
     <string name="no_password_set">Təyin ediləmədi</string>
     <string name="no_phone">Telefon nömrəsi yoxdur</string>
@@ -399,7 +405,7 @@
     <string name="notify_verify_again_security_phone">Təsdiqlə</string>
     <string name="notify_verify_security_phone">Telefon</string>
     <string name="oauth_getting_scopes">Hesab təsdiqlənir…</string>
-    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> aşağıdakı icazələri alacaq:&lt;br> &lt;br> %3$s "</string>
+    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> aşağıdakı icazələri əldə edəcək:&lt;br> &lt;br> %3$s "</string>
     <string name="oauth_title">Xiaomi Hesabı ilə daxil olun</string>
     <string name="ok">Oldu</string>
     <string name="operator_broadnet">Çin Broadnet</string>
@@ -510,6 +516,7 @@
     <string name="passport_error_no_password_user">Hələ şifrə təyin etmədiniz. SMS ilə daxil olun.</string>
     <string name="passport_error_phone">Yararsız telefon nömrəsi</string>
     <string name="passport_error_server">Server xətası</string>
+    <string name="passport_error_server_msg">Şəbəkə tənzimləmələrinizi yoxlayın və səhifəni yeniləyin</string>
     <string name="passport_error_sim_not_ready">SIM kart tapıla bilmir</string>
     <string name="passport_error_sms_limit">Bu nömrəyə çoxlu doğrulama kodu göndərilib. Biraz sonra yenidən cəhd edin.</string>
     <string name="passport_error_ssl_hand_shake">Serverə qoşula bilmədi</string>
@@ -670,7 +677,17 @@
     <string name="passport_to_verify_code_login">SMS ilə daxil olun</string>
     <string name="passport_trust_device">Bu cuhazı təsdiqlənmiş cihazlara əlavə et</string>
     <string name="passport_two_factor_auth">İki faktorlu identifikasiya</string>
-    <string name="passport_two_factor_auth_hint">Hesabına daxil olarkən iki faktorlu identifikasiya tələb etmək üçün aktiv et</string>
+    <string name="passport_two_factor_auth_dialog_desc">İki faktorlu identifikasiyanı aktiv etsəniz, digər cihazlar və bütün veb saytlar üzərindən Xiaomi Hesabınızdan çıxış edəcəksiniz. İndi aktiv edilsin?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Ləğv et</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Aktiv et</string>
+    <string name="passport_two_factor_auth_dialog_title">Digər cihazlardan çıxış et</string>
+    <string name="passport_two_factor_auth_hint"><Data>Xiaomi Hesabınıza hər dəfə daxil olduqda iki mərhələli təsdiq prosesini tamamlayın. &lt;a href= >Daha çox öyrənin&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">İki faktorlu identifikasiyadan istifadə edə bilmək üçün hesab şifrəsi təyin et</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">İki faktorlu identifikasiyadan aktivləşdirə bilmək üçün hesab şifrəsi təyin et.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Ləğv et</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Təyin et</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Hesab şifrəsi təyin et</string>
+    <string name="passport_two_factor_set_phone_hint">İki faktorlu identifikasiyadan istifadə edə bilmək üçün telefon nömrəsi əlavə et</string>
     <string name="passport_tz_invalid">Təhlükəsizlik riskləri tapıldı. Bu cihaz köklənib və ya proqram təminatı yenilənib. Digər giriş seçimlərini sınayın.</string>
     <string name="passport_unknown_error">Naməlum xəta</string>
     <string name="passport_unknown_host_network_error">Şəbəkə əlaqənizi yoxlayın və yenidən cəhd edin</string>

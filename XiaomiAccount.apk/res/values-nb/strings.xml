@@ -87,7 +87,7 @@
     <string name="area_code_no_search_result">Kunne ikke finne resultater</string>
     <string name="area_code_search_hint">Søk etter et land eller region</string>
     <string name="auth_fail_warning">Økten utløpt, logg på igjen senere</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Automatisk pålogging støttes ikke for vannmerkede versjoner</string>
     <string name="bind_facebook">Koble til din Facebook-konto</string>
     <string name="bind_google">Koble til din Google-konto</string>
     <string name="bind_safe_phone_msg">Legg til telefonnummeret ditt for å kunne logge på Mi-kontoen din neste gang.</string>
@@ -121,6 +121,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="cloud_service_cloud_open">Aktiver</string>
     <string name="cloud_service_space_full">Lagringsplass full</string>
     <string name="cloud_service_space_not_enough">Ikke nok lagringsplass</string>
+    <string name="cloud_service_space_over_quota">Lagringsgrense overskredet</string>
     <string name="cloud_service_space_used">Opptatt</string>
     <string name="cloud_service_state_error">Kunne ikke laste</string>
     <string name="cloud_service_status_backup_not_open">Sikkerhetskopiering er deaktivert</string>
@@ -188,14 +189,17 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="default_popup_window_title">Forgrunnsvindu</string>
     <string name="delete_bank_card_message">Mi Pay-bankkort og NFC-kort vil bli slettet når du logger av.</string>
     <string name="delete_bank_card_title">Merk</string>
-    <string name="delete_device_btn">Fjern</string>
+    <string name="delete_device_btn">Fjern enhet</string>
     <string name="delete_device_failed">Kan ikke fjerne enhet</string>
-    <string name="delete_device_notice">Når enheten er fjernet, vil den automatisk bli logget ut av din Mi-konto. Du kan ikke bruke denne enheten til å få tilgang til bildene, meldingene eller annet innhold som er lagret på kontoen din.</string>
+    <string name="delete_device_notice">Hvis denne enheten fjernes, logges du også ut av Mi-kontoen. Når den er fjernet, vil du ikke ha tilgang til elementer som er lagret i nettskyen.</string>
     <string name="deny">Avvis</string>
     <string name="device_delete_success_message">Hvis du ikke logget på denne enheten, endre passordet ditt umiddelbart.</string>
     <string name="device_delete_success_title">Logget ut</string>
+    <string name="device_id">Enhets-ID</string>
+    <string name="device_list_error_tip"><Data>Kunne ikke laste inn. &lt;a href=>Prøv igjen&lt;/a></Data></string>
     <string name="device_list_title">Mine enheter</string>
     <string name="device_name">Enhetsnavn</string>
+    <string name="device_recent_login_time">Siste pålogging</string>
     <string name="dind_device_service_not_open">Av</string>
     <string name="dind_device_service_opened">På</string>
     <string name="dropdown_menu">Rullegardinmeny</string>
@@ -322,6 +326,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="friday_shortest">Fre</string>
     <string name="get_back_password">Tilbakestill passord</string>
     <string name="get_back_pwd">Nullstille passord</string>
+    <string name="get_device_info_error">Kunne ikke hente enhetsopplysninger</string>
     <string name="get_identity_auth_url_failed">Kunne ikke verifisere ID</string>
     <string name="get_phone_bind_exceed_limit">Du kan knytte opptil %d Mi-kontoer med et telefonnummer. Kan ikke legge til nye kontoer.</string>
     <string name="get_phone_verifycode_exceed_limit">Kan ikke sende flere bekreftelseskoder til dette nummeret</string>
@@ -460,6 +465,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="night">Kveld</string>
     <string name="no_account_or_forget_password">Opprette konto eller glemt passord?</string>
     <string name="no_network_btn">Oppdater</string>
+    <string name="no_network_refresh_btn">Oppdater</string>
     <string name="no_network_title">Kan ikke koble til nettverket.</string>
     <string name="no_password_set">Ikke angitt</string>
     <string name="no_phone">Telefonnummer mangler</string>
@@ -478,7 +484,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="notify_verify_again_security_phone">Bekreft</string>
     <string name="notify_verify_security_phone">Telefon</string>
     <string name="oauth_getting_scopes">Verifiserer kontoen…</string>
-    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> vil bli gitt følgende tillatelser:&lt;br> &lt;br> %3$s "</string>
+    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> vil få følgende tillatelser:&lt;br> &lt;br> %3$s "</string>
     <string name="oauth_title">Logg inn med Mi-konto</string>
     <string name="off">Av</string>
     <string name="ok">OK</string>
@@ -591,6 +597,7 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="passport_error_no_password_user">Du har ikke valgt passord enda. Logg på med SMS.</string>
     <string name="passport_error_phone">Ugyldig telefonnummer</string>
     <string name="passport_error_server">Serverfeil</string>
+    <string name="passport_error_server_msg">Sjekk nettverksinnstillingene og oppdater siden</string>
     <string name="passport_error_sim_not_ready">Kan ikke finne SIM-kort</string>
     <string name="passport_error_sms_limit">For mange bekreftelseskoder har blitt sendt til dette nummeret. Prøv igjen senere.</string>
     <string name="passport_error_ssl_hand_shake">Kunne ikke koble til serveren</string>
@@ -751,7 +758,17 @@ Du kan logge in på din Mi-konto gjennom %s nå."</string>
     <string name="passport_to_verify_code_login">Logg på med SMS</string>
     <string name="passport_trust_device">Legg denne enheten til bekreftede enheter</string>
     <string name="passport_two_factor_auth">To-faktor-autentisering</string>
-    <string name="passport_two_factor_auth_hint">Deaktiver for å kreve tofaktorautentisering ved pålogging på kontoen</string>
+    <string name="passport_two_factor_auth_dialog_desc">Hvis du aktiverer tofaktorgodkjenning, logges du ut av Mi-kontoen på andre enheter og alle nettsteder. Aktivere nå?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Avbryt</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Aktiver</string>
+    <string name="passport_two_factor_auth_dialog_title">Logge ut fra andre enheter</string>
+    <string name="passport_two_factor_auth_hint"><Data>Fullfør to runder med godkjenning hver gang du logger på Mi-kontoen din. &lt;a href= >Les mer&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Angi et kontopassord for å kunne bruke to-faktor-autentisering</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Angi et kontopassord for å kunne aktivere to-faktor-autentisering.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Avbryt</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Angi</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Angi kontopassord</string>
+    <string name="passport_two_factor_set_phone_hint">Legg til et telefonnummer for å kunne bruke to-faktor-autentisering</string>
     <string name="passport_tz_invalid">Sikkerhetsrisikoer er oppdaget. Denne enheten kan være rootet eller flashet. Prøv andre påloggingsalternativer.</string>
     <string name="passport_unknown_error">Ukjent feil</string>
     <string name="passport_unknown_host_network_error">Sjekk nettverksinnstillingene dine og prøv igjen</string>

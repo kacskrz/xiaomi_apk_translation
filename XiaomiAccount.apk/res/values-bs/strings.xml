@@ -87,7 +87,7 @@
     <string name="area_code_no_search_result">Ne mogu pronaći rezultate</string>
     <string name="area_code_search_hint">Pronađi državu ili regiju</string>
     <string name="auth_fail_warning">Sesija je istekla, ponovo se prijavite kasnije</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">Prijava sa automatskim prijavljivanjem nije podržan na verzijama sa žigom</string>
     <string name="bind_facebook">Povežite svoj Facebook nalog</string>
     <string name="bind_google">Povežite Vaš Google nalog</string>
     <string name="bind_safe_phone_msg">Dodajte svoj broj telefona da biste sljedeći put mogli da se prijavite na vaš Xiaomi nalog.</string>
@@ -121,6 +121,7 @@ Sada se možete prijaviti na vaš Xiaomi nalog koristeći %s."</string>
     <string name="cloud_service_cloud_open">Uključi</string>
     <string name="cloud_service_space_full">Pohrana puna</string>
     <string name="cloud_service_space_not_enough">Nedovoljno pohrane</string>
+    <string name="cloud_service_space_over_quota">Pohrana puna</string>
     <string name="cloud_service_space_used">Zauzeto</string>
     <string name="cloud_service_state_error">Ne mogu učitati</string>
     <string name="cloud_service_status_backup_not_open">Backup je isključen</string>
@@ -166,14 +167,17 @@ Sada se možete prijaviti na vaš Xiaomi nalog koristeći %s."</string>
     <string name="default_popup_window_title">Skočni prozor</string>
     <string name="delete_bank_card_message">Mi Pay bankovne kartice i NFC kartice će biti izbrisane nakon što se odjavite.</string>
     <string name="delete_bank_card_title">Pažnja</string>
-    <string name="delete_device_btn">Ukloni</string>
+    <string name="delete_device_btn">Ukloni uređaj</string>
     <string name="delete_device_failed">Uređaj se ne može ukloniti</string>
-    <string name="delete_device_notice">Kada uređaj bude uklonjen, automatski će biti odjavljen sa vašeg Xiaomi naloga. Nećete moći da koristite ovaj uređaj za pristup fotografijama, porukama ili drugim sadržajima koji su sačuvani na vašem nalogu.</string>
+    <string name="delete_device_notice">Uklanjanje ovog uređaja će vas također odjaviti iz vašeg Xiaomi naloga. Nećete moći pristupiti stavkama pohranjenim na cloudu kada se uklone.</string>
     <string name="deny">Odbij</string>
     <string name="device_delete_success_message">Ako se Vi niste prijavili na ovom uređaju, odmah promijenite lozinku.</string>
     <string name="device_delete_success_title">Odjavili ste se</string>
+    <string name="device_id">ID uređaja</string>
+    <string name="device_list_error_tip"><Data>Ne mogu učitati. &lt;a href=>Pokušaj ponovo&lt;/a></Data></string>
     <string name="device_list_title">Moji uređaji</string>
     <string name="device_name">Naziv uređaja</string>
+    <string name="device_recent_login_time">Posljednja prijava</string>
     <string name="dind_device_service_not_open">Isk</string>
     <string name="dind_device_service_opened">Uk</string>
     <string name="dropdown_menu">Padajući meni</string>
@@ -300,6 +304,7 @@ Sada se možete prijaviti na vaš Xiaomi nalog koristeći %s."</string>
     <string name="friday_shortest">Pet</string>
     <string name="get_back_password">Resetiraj lozinku</string>
     <string name="get_back_pwd">Resetiranje lozinke</string>
+    <string name="get_device_info_error">Ne mogu dobiti podatke uređaja</string>
     <string name="get_identity_auth_url_failed">Ne mogu verificirati ID</string>
     <string name="get_phone_bind_exceed_limit">Možete povezati do %d Xiaomi naloga sa brojem telefona. Ne mogu dodati nove naloge.</string>
     <string name="get_phone_verifycode_exceed_limit">Ne mogu slati više verifikacijskih kodova na ovaj broj</string>
@@ -438,6 +443,7 @@ Sada se možete prijaviti na vaš Xiaomi nalog koristeći %s."</string>
     <string name="night">Veče</string>
     <string name="no_account_or_forget_password">Kreiranje naloga ili zaboravljena lozinka?</string>
     <string name="no_network_btn">Osvježi</string>
+    <string name="no_network_refresh_btn">Osvježi</string>
     <string name="no_network_title">Povezivanje na mrežu nije uspjelo.</string>
     <string name="no_password_set">Nije postavljeno</string>
     <string name="no_phone">Nema telefonskog broja</string>
@@ -569,6 +575,7 @@ Sada se možete prijaviti na vaš Xiaomi nalog koristeći %s."</string>
     <string name="passport_error_no_password_user">Još niste postavili šifru. Prijavite se putem SMS-a.</string>
     <string name="passport_error_phone">Neispravan broj telefona</string>
     <string name="passport_error_server">Greška servera</string>
+    <string name="passport_error_server_msg">Provjerite postavke mreže i osvježite stranicu</string>
     <string name="passport_error_sim_not_ready">Nije moguće pronaći SIM karticu</string>
     <string name="passport_error_sms_limit">Previše je verifikacijskih kodova poslano na ovaj broj. Pokušajte ponovo kasnije.</string>
     <string name="passport_error_ssl_hand_shake">Povezivanje na server nije uspjelo</string>
@@ -729,7 +736,17 @@ Sada se možete prijaviti na vaš Xiaomi nalog koristeći %s."</string>
     <string name="passport_to_verify_code_login">Prijavi se SMSom</string>
     <string name="passport_trust_device">Dodaj ovaj uređaj verifikovanim uređajima</string>
     <string name="passport_two_factor_auth">Autorizacija sa dva faktora</string>
-    <string name="passport_two_factor_auth_hint">Uključite za zahtijevanje dvo-faktorne autentifikacije pri prijavljivanju na vaš nalog</string>
+    <string name="passport_two_factor_auth_dialog_desc">Ako uključite autentifikaciju u dva koraka, bit ćete odjavljeni iz vašeg Xiaomi naloga na drugim uređajima i svih web sajtova. Uključi sada?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Otkaži</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Uključi</string>
+    <string name="passport_two_factor_auth_dialog_title">Odjavite se sa drugih uređaja</string>
+    <string name="passport_two_factor_auth_hint"><Data>Završite dva kruga autentifikacije svakoga puta kada se prijavite na vaš Xiaomi nalog. &lt;a href= >Saznaj više&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Postavite lozinku naloga da bi mogli koristiti dvo-faktornu autentifikaciju</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Postavite lozinku naloga da bi mogli uključiti dvo-faktornu autentifikaciju.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Otkaži</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Postavi</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Postavi lozinku naloga</string>
+    <string name="passport_two_factor_set_phone_hint">Dodajte broj telefona da bi mogli koristiti dvo-faktornu autentifikaciju</string>
     <string name="passport_tz_invalid">Pronađeni sigurnosni rizici. Ovaj uređaj je rootovan ili fleširan. Probajte druge opcije prijavljivanja.</string>
     <string name="passport_unknown_error">Nepoznata greška</string>
     <string name="passport_unknown_host_network_error">Provjerite postavke mreže i pokušajte ponovo</string>

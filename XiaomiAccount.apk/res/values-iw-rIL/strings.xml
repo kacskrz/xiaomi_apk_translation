@@ -60,7 +60,7 @@
     <string name="area_code_no_search_result">לא ניתן היה למצוא תוצאות</string>
     <string name="area_code_search_hint">חיפוש מדינה או אזור</string>
     <string name="auth_fail_warning">פג תוקף נסיון הכניסה, היכנס שוב מאוחר יותר</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">מילוי אוטומטי להתחברות לא נתמך בגרסאות עם סימן מים</string>
     <string name="bind_facebook">חבר את חשבון ה-Facebook שלך</string>
     <string name="bind_google">חבר את חשבון ה-Google שלך</string>
     <string name="bind_safe_phone_msg">הוסף את מספר הטלפון שלך כדי שתוכל להיכנס לחשבון Xiaomi שלך בפעם הבאה.</string>
@@ -92,6 +92,7 @@
     <string name="cloud_service_cloud_open">הפעל</string>
     <string name="cloud_service_space_full">שטח האחסון מלא</string>
     <string name="cloud_service_space_not_enough">אין מספיק שטח אחסון פנוי</string>
+    <string name="cloud_service_space_over_quota">חריגה ממגבלות האחסון</string>
     <string name="cloud_service_space_used">תפוס</string>
     <string name="cloud_service_state_error">לא ניתן היה לטעון</string>
     <string name="cloud_service_status_backup_not_open">הגיבוי מושבת</string>
@@ -116,14 +117,17 @@
     <string name="date_time_picker_dialog_title">הגדר תאריך ושעה</string>
     <string name="delete_bank_card_message">כרטיסי הבנק וכרטיסי ה-NFC של Mi Pay ימחקו לאחר שתצא.</string>
     <string name="delete_bank_card_title">שים לב</string>
-    <string name="delete_device_btn">הסר</string>
+    <string name="delete_device_btn">הסרת המכשיר</string>
     <string name="delete_device_failed">לא ניתן להסיר את המכשיר</string>
-    <string name="delete_device_notice">לאחר הסרת המכשיר, הוא ינותק מחשבון Xiaomi שלך באופן אוטומטי. לא תוכל להשתמש במכשיר זה כדי לגשת לתמונות, להודעות או לתוכן אחר המאוחסן בחשבונך.</string>
+    <string name="delete_device_notice">הסרת המכשיר הזה תביא גם להתנתקות מחשבון Xiaomi שלכם. לאחר הסרתו, לא תוכלו לקבל גישה לתוכן המאוחסן בענן.</string>
     <string name="deny">דחה</string>
     <string name="device_delete_success_message">במידה ולא נכנסת באמצעות מכשיר זה, שנה סיסמתך באופן מידי.</string>
     <string name="device_delete_success_title">יצא</string>
+    <string name="device_id">מזהה המכשיר</string>
+    <string name="device_list_error_tip"><Data>לא ניתן לטעון. &lt;a href=>יש לנסות שוב&lt;/a></Data></string>
     <string name="device_list_title">המכשירים שלי</string>
     <string name="device_name">שם המכשיר</string>
+    <string name="device_recent_login_time">ההתחברות האחרונה</string>
     <string name="dind_device_service_not_open">כבוי</string>
     <string name="dind_device_service_opened">פועל</string>
     <string name="early_morning">מוקדם בבוקר</string>
@@ -248,6 +252,7 @@
     <string name="friday_shortest">"ו'"</string>
     <string name="get_back_password">איפוס סיסמה</string>
     <string name="get_back_pwd">איפוס סיסמה</string>
+    <string name="get_device_info_error">לא ניתן לקבל את פרטי המכשיר</string>
     <string name="get_identity_auth_url_failed">לא ניתן לאמת את המזהה</string>
     <string name="get_phone_bind_exceed_limit">ניתן לקשר עד %d חשבונות Xiaomi למספר טלפון אחד. לא ניתן להוסיף חשובנות חדשים.</string>
     <string name="get_phone_verifycode_exceed_limit">לא ניתן לשלוח קודי אימות נוספים למספר טלפון זה.</string>
@@ -383,6 +388,7 @@
     <string name="night">ערב</string>
     <string name="no_account_or_forget_password">ברצונך לייצר חשבון או ששכחת את הסיסמה?</string>
     <string name="no_network_btn">רענן</string>
+    <string name="no_network_refresh_btn">רענון</string>
     <string name="no_network_title">לא ניתן להתחבר לרשת.</string>
     <string name="no_password_set">לא הוגדרה</string>
     <string name="no_phone">אין מספר טלפון</string>
@@ -510,6 +516,7 @@
     <string name="passport_error_no_password_user">עדיין לא הגדרת סיסמה. היכנס באמצעות מסרון.</string>
     <string name="passport_error_phone">מספר טלפון לא חוקי</string>
     <string name="passport_error_server">שגיאת שרת</string>
+    <string name="passport_error_server_msg">יש לבדוק את הגדרות הרשת ולרענן את הדף</string>
     <string name="passport_error_sim_not_ready">לא ניתן למצוא כרטיס SIM</string>
     <string name="passport_error_sms_limit">נשלחו למספר זה יותר מדי קודי אימות. נא לנסות שוב מאוחר יותר.</string>
     <string name="passport_error_ssl_hand_shake">לא ניתן היה להתחבר לשרת</string>
@@ -670,7 +677,17 @@
     <string name="passport_to_verify_code_login">התחברות באמצעות מסרון</string>
     <string name="passport_trust_device">הוסף מכשיר זה לרשימת המכשירים המאומתים</string>
     <string name="passport_two_factor_auth">אימות דו-שלבי</string>
-    <string name="passport_two_factor_auth_hint">הפעילו כדי לחייב אימות דו-שלבי בהתחברות לחשבון</string>
+    <string name="passport_two_factor_auth_dialog_desc">לאחר הפעלת אימות דו-שלבי, תתבצע התנתקות מחשבון Xiaomi שלך במכשירים האחרים ובכל אתרי האינטרנט. להפעיל עכשיו?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">ביטול</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">להפעיל</string>
+    <string name="passport_two_factor_auth_dialog_title">להתנתק במכשירים האחרים</string>
+    <string name="passport_two_factor_auth_hint"><Data>להשלים שני סבבי אימות בכל התחברות לחשבון Xiaomi שלך. &lt;a href= >למידע נוסף&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">יש להגדיר סיסמה לחשבון כדי להשתמש באימות דו-שלבי</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">יש להגדיר סיסמה לחשבון כדי להפעיל אימות דו-שלבי.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">ביטול</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">להגדיר</string>
+    <string name="passport_two_factor_set_phone_dialog_title">הגדרת סיסמה לחשבון</string>
+    <string name="passport_two_factor_set_phone_hint">יש להוסיף מספר טלפון כדי להשתמש באימות דו-שלבי</string>
     <string name="passport_tz_invalid">זוהו סיכוני אבטחה. ייתכן שהמכשיר נפרץ (rooted) או נצרב. נסה אפשרויות התחברות אחרות.</string>
     <string name="passport_unknown_error">שגיאה לא ידועה</string>
     <string name="passport_unknown_host_network_error">נא לבדוק את הגדרות הרשת ולנסות שוב</string>

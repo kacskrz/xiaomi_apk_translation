@@ -87,7 +87,7 @@
     <string name="area_code_no_search_result">Nessun risultato trovato</string>
     <string name="area_code_search_hint">Cerca paese o regione</string>
     <string name="auth_fail_warning">"Sessione scaduta, esegui l'accesso più tardi"</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">"L'accesso automatico non è supportato nelle versioni con filigrana"</string>
     <string name="bind_facebook">Connetti il tuo account Facebook</string>
     <string name="bind_google">Connetti il tuo Account Google</string>
     <string name="bind_safe_phone_msg">Aggiungi il tuo numero di telefono per poter accedere al tuo Xiaomi Account la prossima volta.</string>
@@ -121,6 +121,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="cloud_service_cloud_open">Attiva</string>
     <string name="cloud_service_space_full">Spazio esaurito</string>
     <string name="cloud_service_space_not_enough">Spazio insufficiente</string>
+    <string name="cloud_service_space_over_quota">Limite memoria superato</string>
     <string name="cloud_service_space_used">Utilizzati</string>
     <string name="cloud_service_state_error">Impossibile caricare</string>
     <string name="cloud_service_status_backup_not_open">Backup disattivato</string>
@@ -189,14 +190,17 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="default_popup_window_title">Finestra popup</string>
     <string name="delete_bank_card_message">Le carte bancarie Mi Pay e le tessere NFC verranno eliminate dopo la disconnessione.</string>
     <string name="delete_bank_card_title">Attenzione</string>
-    <string name="delete_device_btn">Rimuovi</string>
+    <string name="delete_device_btn">Rimuovi dispositivo</string>
     <string name="delete_device_failed">Impossibile rimuovere il dispositivo</string>
-    <string name="delete_device_notice">Dopo averlo rimosso, il dispositivo verrà automaticamente disconnesso dal tuo Xiaomi Account. Non potrai usare questo dispositivo per accedere a foto, messaggi e altri contenuti salvati nel tuo account.</string>
+    <string name="delete_device_notice">La rimozione di questo dispositivo ti farà uscire anche dal tuo Xiaomi Account. Una volta rimosso, non potrai più accedere agli elementi memorizzati nel cloud.</string>
     <string name="deny">Nega</string>
     <string name="device_delete_success_message">"Se non hai eseguito l'accesso su questo dispositivo, modifica immediatamente la password."</string>
     <string name="device_delete_success_title">Disconnesso</string>
+    <string name="device_id">ID dispositivo</string>
+    <string name="device_list_error_tip"><Data>Non è stato possibile caricare. &lt;a href=>Riprova&lt;/a></Data></string>
     <string name="device_list_title">I miei dispositivi</string>
     <string name="device_name">Nome dispositivo</string>
+    <string name="device_recent_login_time">Ultimo accesso</string>
     <string name="dind_device_service_not_open">Disattivato</string>
     <string name="dind_device_service_opened">Attivo</string>
     <string name="dropdown_menu">Menu a discesa</string>
@@ -323,6 +327,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="friday_shortest">Ven</string>
     <string name="get_back_password">Reimposta la password</string>
     <string name="get_back_pwd">Impostando nuovamente la password</string>
+    <string name="get_device_info_error">Non è stato possibile acquisire le informazioni sul dispositivo</string>
     <string name="get_identity_auth_url_failed">Impossibile verificare ID</string>
     <string name="get_phone_bind_exceed_limit">Puoi associare fino a %d Xiaomi Account a un numero di telefono. Impossibile aggiungere nuovi account.</string>
     <string name="get_phone_verifycode_exceed_limit">Impossibile inviare altri codici di verifica a questo numero</string>
@@ -461,6 +466,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="night">Sera</string>
     <string name="no_account_or_forget_password">Creare un account o password dimenticata?</string>
     <string name="no_network_btn">Aggiorna</string>
+    <string name="no_network_refresh_btn">Aggiorna</string>
     <string name="no_network_title">Impossibile connettersi alla rete.</string>
     <string name="no_password_set">Non impostato</string>
     <string name="no_phone">Nessun numero di telefono</string>
@@ -479,7 +485,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="notify_verify_again_security_phone">Conferma</string>
     <string name="notify_verify_security_phone">Telefono</string>
     <string name="oauth_getting_scopes">Verifica account in corso…</string>
-    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> otterranno i seguenti permessi:&lt;br> &lt;br> %3$s "</string>
+    <string name="oauth_scopes_intro">" &lt;font color=#%1$s>%2$s&lt;/font> usufruirà dei seguenti permessi:&lt;br> &lt;br> %3$s "</string>
     <string name="oauth_title">Accedi con Xiaomi Account</string>
     <string name="off">Off</string>
     <string name="ok">OK</string>
@@ -592,6 +598,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="passport_error_no_password_user">Non hai ancora impostato la password. Accedi con SMS.</string>
     <string name="passport_error_phone">Numero di telefono non valido</string>
     <string name="passport_error_server">Problemi con il server</string>
+    <string name="passport_error_server_msg">Verifica le impostazioni di rete e aggiorna la pagina</string>
     <string name="passport_error_sim_not_ready">Impossibile rilevare la scheda SIM</string>
     <string name="passport_error_sms_limit">Troppi codici di verifica inviati a questo numero. Riprova più tardi.</string>
     <string name="passport_error_ssl_hand_shake">Impossibile connettersi al server</string>
@@ -752,7 +759,17 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="passport_to_verify_code_login">Accedi con SMS</string>
     <string name="passport_trust_device">Aggiungi questo dispositivo ai dispositivi verificati</string>
     <string name="passport_two_factor_auth">Autenticazione a due fattori</string>
-    <string name="passport_two_factor_auth_hint">"Attiva per richiedere l'autenticazione a due fattori quando accedi al tuo account"</string>
+    <string name="passport_two_factor_auth_dialog_desc">"Se attivi l'autenticazione a due fattori, verrai disconnesso dal tuo Xiaomi Account sugli altri dispositivi e su tutti i siti web. Attivare ora?"</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Annulla</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Attiva</string>
+    <string name="passport_two_factor_auth_dialog_title">Esci dagli altri dispositivi</string>
+    <string name="passport_two_factor_auth_hint"><Data>Completa due passaggi di autenticazione ogni volta che accedi al tuo Xiaomi Account. &lt;a href= >Scopri di più&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">"Imposta la password dell'account per poter utilizzare l'autenticazione a due fattori"</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">"Imposta la password dell'account per poter attivare l'autenticazione a due fattori."</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Annulla</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Imposta</string>
+    <string name="passport_two_factor_set_phone_dialog_title">"Imposta la password dell'account"</string>
+    <string name="passport_two_factor_set_phone_hint">"Aggiungi un numero di telefono per poter utilizzare l'autenticazione a due fattori"</string>
     <string name="passport_tz_invalid">Rischi per la sicurezza rilevati. Questo dispositivo potrebbe essere stato modificato o flashato. Prova altre opzioni di accesso.</string>
     <string name="passport_unknown_error">Errore sconosciuto</string>
     <string name="passport_unknown_host_network_error">Verifica le impostazioni di rete e riprova</string>

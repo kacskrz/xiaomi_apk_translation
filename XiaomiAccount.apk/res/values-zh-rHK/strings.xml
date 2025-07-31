@@ -121,6 +121,7 @@
     <string name="cloud_service_cloud_open">即刻開啟</string>
     <string name="cloud_service_space_full">空間已滿</string>
     <string name="cloud_service_space_not_enough">空間將滿</string>
+    <string name="cloud_service_space_over_quota">空間超存</string>
     <string name="cloud_service_space_used">已用</string>
     <string name="cloud_service_state_error">載入失敗</string>
     <string name="cloud_service_status_backup_not_open">雲端備份未開啟</string>
@@ -189,14 +190,17 @@
     <string name="default_popup_window_title">彈出式視窗</string>
     <string name="delete_bank_card_message">退出小米帳號後，將會從裝置中刪除綁定的Mi Pay銀行卡和模擬的門禁卡</string>
     <string name="delete_bank_card_title">安全提醒</string>
-    <string name="delete_device_btn">刪除裝置</string>
+    <string name="delete_device_btn">移除裝置</string>
     <string name="delete_device_failed">此裝置退出登入失敗</string>
-    <string name="delete_device_notice">刪除裝置後將會註銷此裝置的登入狀態，在此裝置上將無法瀏覽帳號雲服務資料</string>
+    <string name="delete_device_notice">移除裝置後會同步退出帳號，在此裝置上將無法存取該帳號「小米雲端服務」資料</string>
     <string name="deny">不同意</string>
     <string name="device_delete_success_message">若此裝置非本人登入，請即刻修改密碼</string>
     <string name="device_delete_success_title">此裝置成功退出登入</string>
+    <string name="device_id">裝置ID</string>
+    <string name="device_list_error_tip"><Data>載入失敗，&lt;a href=>重試&lt;/a></Data></string>
     <string name="device_list_title">裝置清單</string>
     <string name="device_name">裝置名稱</string>
+    <string name="device_recent_login_time">最近登入時間</string>
     <string name="dind_device_service_not_open">未開啟</string>
     <string name="dind_device_service_opened">已開啟</string>
     <string name="dropdown_menu">下拉式選單</string>
@@ -322,6 +326,7 @@
     <string name="friday_shortest">五</string>
     <string name="get_back_password">找回帳號密碼</string>
     <string name="get_back_pwd">找回密碼</string>
+    <string name="get_device_info_error">裝置資訊取得失敗</string>
     <string name="get_identity_auth_url_failed">取得身份驗證失敗</string>
     <string name="get_phone_bind_exceed_limit">該手機號碼綁定的小米帳號個數已達上限（%d），不能再綁定新的小米帳號</string>
     <string name="get_phone_verifycode_exceed_limit">短訊條數已達上限</string>
@@ -460,6 +465,7 @@
     <string name="night">晚上</string>
     <string name="no_account_or_forget_password">沒有小米帳號或忘記密碼？</string>
     <string name="no_network_btn">點此重試</string>
+    <string name="no_network_refresh_btn">重新整理</string>
     <string name="no_network_title">沒有找到可用網路</string>
     <string name="no_password_set">未設定密碼</string>
     <string name="no_phone">無綁定手機</string>
@@ -591,6 +597,7 @@
     <string name="passport_error_no_password_user">您的帳號暫未綁定密碼，請使用手機短訊登入</string>
     <string name="passport_error_phone">請檢查手機格式</string>
     <string name="passport_error_server">伺服器出錯</string>
+    <string name="passport_error_server_msg">請檢查網絡連接是否正常</string>
     <string name="passport_error_sim_not_ready">SIM卡未就緒</string>
     <string name="passport_error_sms_limit">已經傳送了太多短訊，請換個時間再試試</string>
     <string name="passport_error_ssl_hand_shake">無法與伺服器建立安全連線</string>
@@ -751,7 +758,17 @@
     <string name="passport_to_verify_code_login">手機號碼登入</string>
     <string name="passport_trust_device">將此裝置新增至信任裝置清單</string>
     <string name="passport_two_factor_auth">雙重認證</string>
-    <string name="passport_two_factor_auth_hint">開啟後，帳號登入時需雙重身份認證</string>
+    <string name="passport_two_factor_auth_dialog_desc">開啟雙重認證後，本機以外的其他裝置和網站上您的小米帳號將會退出</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">取消</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">確定</string>
+    <string name="passport_two_factor_auth_dialog_title">退出使用你帳號的其他裝置</string>
+    <string name="passport_two_factor_auth_hint"><Data>開啟後，每次登入小米帳號需通過兩次驗證。 &lt;a href= >了解更多&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">開啟雙重認證，需設定帳號密碼</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">開啟雙重認證需要先設定帳號密碼</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">取消</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">設定</string>
+    <string name="passport_two_factor_set_phone_dialog_title">設定帳號密碼</string>
+    <string name="passport_two_factor_set_phone_hint">開啟帳號雙重認證需綁定手機號，以在登入時使用</string>
     <string name="passport_tz_invalid">此裝置登入環境不安全（可能是硬件被解鎖或刷機），請使用其他方式登入</string>
     <string name="passport_unknown_error">未知錯誤</string>
     <string name="passport_unknown_host_network_error">網絡連線錯誤，請檢查</string>

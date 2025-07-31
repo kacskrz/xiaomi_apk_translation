@@ -87,7 +87,7 @@ ID вашего аккаунта: %s"</string>
     <string name="area_code_no_search_result">Нет результатов поиска</string>
     <string name="area_code_search_hint">Поиск страны или региона</string>
     <string name="auth_fail_warning">Сессия устарела, войдите повторно</string>
-    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">В версиях с водяными знаками автоматический вход в систему не поддерживается</string>
     <string name="bind_facebook">Подключите аккаунт Facebook</string>
     <string name="bind_google">Подключите аккаунт Google</string>
     <string name="bind_safe_phone_msg">Добавьте номер телефона, чтобы в следующий раз иметь возможность войти в свой аккаунт Xiaomi.</string>
@@ -121,6 +121,7 @@ ID вашего аккаунта: %s"</string>
     <string name="cloud_service_cloud_open">Включить</string>
     <string name="cloud_service_space_full">Хранилище заполнено</string>
     <string name="cloud_service_space_not_enough">Недостаточно места</string>
+    <string name="cloud_service_space_over_quota">Превышен лимит</string>
     <string name="cloud_service_space_used">Занято</string>
     <string name="cloud_service_state_error">Ошибка загрузки</string>
     <string name="cloud_service_status_backup_not_open">Резервное копирование откл.</string>
@@ -189,14 +190,17 @@ ID вашего аккаунта: %s"</string>
     <string name="default_popup_window_title">Всплывающее окно</string>
     <string name="delete_bank_card_message">После выхода банковские карты Mi Pay и карты NFC будут удалены.</string>
     <string name="delete_bank_card_title">Внимание!</string>
-    <string name="delete_device_btn">Удалить</string>
+    <string name="delete_device_btn">Удалить устройство</string>
     <string name="delete_device_failed">Ошибка удаления устройства</string>
-    <string name="delete_device_notice">После удаления устройства аккаунт Xiaomi будет автоматически отвязан от него. Вы не сможете использовать это устройство для доступа к данным, которые хранятся в этом аккаунте.</string>
+    <string name="delete_device_notice">Удаление этого устройства также приведет к выходу из вашего аккаунта Xiaomi. После его удаления вы утратите доступ к объектам, хранящимся в облаке.</string>
     <string name="deny">Запретить</string>
     <string name="device_delete_success_message">Если вы не входили в аккаунт с этого устройства, смените пароль!</string>
     <string name="device_delete_success_title">Устройство удалено</string>
+    <string name="device_id">Идентификатор устройства</string>
+    <string name="device_list_error_tip"><Data>Сбой загрузки. &lt;a href=>Повторите попытку&lt;/a></Data></string>
     <string name="device_list_title">Мои устройства</string>
     <string name="device_name">Имя устройства</string>
+    <string name="device_recent_login_time">Последний вход</string>
     <string name="dind_device_service_not_open">Откл.</string>
     <string name="dind_device_service_opened">Вкл.</string>
     <string name="dropdown_menu">Раскрывающееся меню</string>
@@ -323,6 +327,7 @@ ID вашего аккаунта: %s"</string>
     <string name="friday_shortest">Пт</string>
     <string name="get_back_password">Сброс пароля</string>
     <string name="get_back_pwd">Сброс пароля</string>
+    <string name="get_device_info_error">Не удалось получить информацию об устройстве</string>
     <string name="get_identity_auth_url_failed">Не удалось проверить идентификатор</string>
     <string name="get_phone_bind_exceed_limit">Вы можете связать до %d аккаунтов Xiaomi с одним номером телефона. Невозможно добавить новые аккаунты.</string>
     <string name="get_phone_verifycode_exceed_limit">Нельзя отправить больше кодов подтверждения на этот номер</string>
@@ -461,6 +466,7 @@ ID вашего аккаунта: %s"</string>
     <string name="night">Вечер</string>
     <string name="no_account_or_forget_password">Создать аккаунт или восстановить пароль?</string>
     <string name="no_network_btn">Обновить</string>
+    <string name="no_network_refresh_btn">Обновить</string>
     <string name="no_network_title">Не удалось подключиться к сети</string>
     <string name="no_password_set">Не настроено</string>
     <string name="no_phone">Нет номера телефона</string>
@@ -592,6 +598,7 @@ ID вашего аккаунта: %s"</string>
     <string name="passport_error_no_password_user">Вы еще не задали пароль. Войдите с помощью SMS.</string>
     <string name="passport_error_phone">Недопустимый номер телефона</string>
     <string name="passport_error_server">Ошибка сервера</string>
+    <string name="passport_error_server_msg">Проверьте настройки сети и обновите страницу.</string>
     <string name="passport_error_sim_not_ready">SIM-карта не найдена</string>
     <string name="passport_error_sms_limit">На этот номер было отправлено слишком много кодов подтверждения. Повторите попытку позже.</string>
     <string name="passport_error_ssl_hand_shake">Не удалось подключиться к серверу</string>
@@ -752,7 +759,17 @@ ID вашего аккаунта: %s"</string>
     <string name="passport_to_verify_code_login">Войти через SMS</string>
     <string name="passport_trust_device">Доверять этому устройству</string>
     <string name="passport_two_factor_auth">Двухфакторная аутентификация</string>
-    <string name="passport_two_factor_auth_hint">Включите, чтобы требовать двухфакторную аутентификацию при входе в ваш аккаунт.</string>
+    <string name="passport_two_factor_auth_dialog_desc">Если вы включите двухфакторную аутентификацию, вы выйдете из своего аккаунта Xiaomi на других устройствах и веб-сайтах. Все равно включить?</string>
+    <string name="passport_two_factor_auth_dialog_negative_btn">Отмена</string>
+    <string name="passport_two_factor_auth_dialog_positive_btn">Включить</string>
+    <string name="passport_two_factor_auth_dialog_title">Выйти на других устройствах</string>
+    <string name="passport_two_factor_auth_hint"><Data>Проходите два этапа аутентификации каждый раз при входе в свой аккаунт Xiaomi. &lt;a href= >Подробнее&lt;/a></Data></string>
+    <string name="passport_two_factor_set_password_hint">Установите пароль аккаунта, чтобы использовать двухфакторную аутентификацию</string>
+    <string name="passport_two_factor_set_phone_dialog_desc">Установите пароль аккаунта, чтобы включить двухфакторную аутентификацию.</string>
+    <string name="passport_two_factor_set_phone_dialog_negative_btn">Отмена</string>
+    <string name="passport_two_factor_set_phone_dialog_positive_btn">Установить</string>
+    <string name="passport_two_factor_set_phone_dialog_title">Установить пароль от аккаунта</string>
+    <string name="passport_two_factor_set_phone_hint">Добавьте номер телефона, чтобы использовать двухфакторную аутентификацию</string>
     <string name="passport_tz_invalid">Обнаружены угрозы безопасности. Возможно, на этом устройстве установлено неавторизованное ПО или разрешен root-доступ. Попробуйте другой способ входа в систему.</string>
     <string name="passport_unknown_error">Неизвестная ошибка</string>
     <string name="passport_unknown_host_network_error">Проверьте настройки сети и повторите попытку</string>
