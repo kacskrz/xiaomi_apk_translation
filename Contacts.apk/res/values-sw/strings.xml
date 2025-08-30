@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Nenda mwanzo</string>
     <string name="abc_action_bar_up_description">Sogeza juu</string>
-    <string name="abc_action_menu_overflow_description">Chaguo zaidi</string>
     <string name="abc_action_mode_done">Nimemaliza</string>
     <string name="abc_activity_chooser_view_see_all">Angalia zote</string>
     <string name="abc_activitychooserview_choose_application">Chagua programu</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Tafuta…</string>
     <string name="abc_searchview_description_clear">Futa hoja</string>
-    <string name="abc_searchview_description_query">Hoja ya utafutaji</string>
     <string name="abc_searchview_description_search">Tafuta</string>
     <string name="abc_searchview_description_submit">Wasilisha hoja</string>
     <string name="abc_searchview_description_voice">Kutafuta kwa kutamka</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Haikuweza kupata SIM mbili</string>
     <string name="bind_simcard_not_set">Haijawekwa</string>
     <string name="bind_simcard_title">SIM chaguomsingi ya kupiga simu</string>
-    <string name="bluetooth_chat">Mawasiliano ya vifaa mbalimbali</string>
+    <string name="bluetooth_chat">Xiaomi Offline Communication</string>
     <string name="bluetooth_connection_failed_toast">Muunganisho wa Bluetooth umekatizwa</string>
     <string name="blurbJoinContactDataWith">Chaguaanwani unayotaka kuunganisha na %s:</string>
+    <string name="bottomsheet_action_collapse">Kunja karatasi ya chini</string>
+    <string name="bottomsheet_action_expand">Panua karatasi ya chini</string>
+    <string name="bottomsheet_action_expand_halfway">Panua nusu</string>
+    <string name="bottomsheet_drag_handle_clicked">Buruta utambulisho uliobofwa mara mbili</string>
+    <string name="bottomsheet_drag_handle_content_description">Buruta utambulisho</string>
     <string name="btn_split_contact">Tenga</string>
     <string name="button_cancel_scan">Acha</string>
     <string name="button_scan">Changanua upya</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Kisaidizi cha Simu cha AI ya Mi</string>
     <string name="cancel">Ghairi</string>
     <string name="cancel_confirmation_dialog_message">Ungependa kutupa mabadiliko yako?</string>
+    <string name="cancel_confirmation_dialog_separate">Endelea kuhariri</string>
     <string name="cancel_confirmation_dialog_title">Tupa mabadiliko</string>
     <string name="cancel_export_confirmation_message">Ungependa kughairi uhamishaji wa %s?</string>
     <string name="cancel_import_confirmation_message">Ungependa kughairi uingizaji wa %s?</string>
@@ -211,9 +215,6 @@
     <string name="contact_detail_calllog_call_record_tips">Simu iliyorekodiwa</string>
     <string name="contact_detail_calllog_correct_yellow_page">Sahihisha au ripoti</string>
     <string name="contact_detail_calllog_empty">Hakuna historia</string>
-    <string name="contact_detail_entry_pay">Tuma pesa</string>
-    <string name="contact_detail_entry_pay_dialog_title">Chagua nambari ya simu</string>
-    <string name="contact_detail_entry_pay_request">Omba pesa</string>
     <string name="contact_detail_menu_delete_miprofile">Futa kadi</string>
     <string name="contact_detail_miprofile_subtitle">Tayari wamebadilishana kadi</string>
     <string name="contact_detail_more_calllog">Onyesha zaidi</string>
@@ -229,7 +230,6 @@
     <string name="contact_import_methods_dialog_title">Chagua mbinu ya kuingiza</string>
     <string name="contact_is_deleted">Anwani hii ilifutwa</string>
     <string name="contact_is_readOnly">Haiwezi kuhariri anwani za kusoma pekee</string>
-    <string name="contact_pick_photo">Picha</string>
     <string name="contact_search_history">Historia</string>
     <string name="contact_status_update_attribution">kupitia %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s kupitia %2$s</string>
@@ -539,7 +539,6 @@ Sababu: \"%s\""</string>
     <string name="item_offical">Rasmi</string>
     <string name="keep_local">Usisawazishe</string>
     <string name="keep_local_btn">Tumia hifadhi ya ndani ya kifaa</string>
-    <string name="know">Nimeelewa</string>
     <string name="label_custom_type">Maalum</string>
     <string name="label_no_duplicate_contacts">Hakuna nakala zilizopatikana</string>
     <string name="label_notes">Madokezo</string>
@@ -634,6 +633,17 @@ Sababu: \"%s\""</string>
     <string name="miuix_appcompat_select_all_description">Chagua zote</string>
     <string name="miuix_appcompat_select_item">Chagua vipengee</string>
     <string name="miuix_appcompat_show_dialog_description">Dirisha ibukizi</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Telezesha kidole chini ili kufunga</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Telezesha kidole chini ili ubadilishe hadi skrini nusu</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Telezesha kidole chini ili upunguze</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Telezesha kidole juu ili ubadilishe hadi skrini nusu</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Telezesha kidole chini ili ukuze</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Skrini nusu</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Imekuzwa</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Imepunguzwa</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Badilisha kwa skrini nusu</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Kuza</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Punguza</string>
     <string name="miuix_item_view_role_description">Kichupo</string>
     <string name="miuix_navigator_category_group_collapse">Kunja</string>
     <string name="miuix_navigator_category_group_expand">Panua</string>
@@ -641,6 +651,7 @@ Sababu: \"%s\""</string>
     <string name="miuix_navigator_multiple_choice">Chagua</string>
     <string name="miuix_navigator_navigator_switch_description">Ficha utepe</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Upaozana chini ya skrini</string>
+    <string name="miuix_popup_window_default_title">Dirisha ibukizi</string>
     <string name="miuix_progressbar_loading">Inakusanya</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Vuta chini ili kuonyesha upya</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Imefanikiwa kuonyeshwa upya</string>
@@ -860,10 +871,7 @@ Gusa \"%1$s\", kisha uchague \"%2$s\"."</string>
     <string name="privacy_settings_blue_scan_connect">Unganisha kwenye vifaa vilivyo karibu</string>
     <string name="privacy_settings_call_phone">Piga simu</string>
     <string name="privacy_settings_call_phone_description">Ya kupiga simu kupitia njia mkato ya Skrini ya kwanza</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Kwa kupiga simu katika programu za watu wengine</string>
-    <string name="privacy_settings_call_phone_for_pad">Piga simu</string>
     <string name="privacy_settings_contacts">Mawasiliano na Simu</string>
-    <string name="privacy_settings_contacts_for_pad">Faragha</string>
     <string name="privacy_settings_mallowed">Imekubaliwa</string>
     <string name="privacy_settings_mnotallowed">Haijakubaliwa</string>
     <string name="privacy_settings_permission_description">Maelezo ya ruhusa</string>
@@ -935,19 +943,13 @@ Ili kuanza, gusa \"Unganisha\" chini ya skrini yako."</string>
     <string name="return_call_dialing">Kupiga simu</string>
     <string name="return_call_incoming">Simu inayoingia</string>
     <string name="ringLabelsGroup">Mlio wa simu</string>
-    <string name="saf_permission_dialog_content">Android hairuhusu Anwani na Simu kufikia rekodi za simu kwa chaguomsingi. Ruhusu programu hizi kufikia rekodi za simu ili kuweza kuzitazama.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Ruhusu</string>
-    <string name="saf_permission_dialog_later">Baadaye</string>
-    <string name="saf_permission_dialog_title">Ruhusu Anwani na Simu kufikia rekodi za simu</string>
     <string name="saturday">Jumamosi</string>
     <string name="saturday_short">Jumamosi</string>
     <string name="saturday_shortest">Jumamosi</string>
-    <string name="savingContact">Inahifadhi anwani…</string>
     <string name="savingDisplayGroups">Inahifadhi chaguo za kuonyesha…</string>
     <string name="scan_business_card">Changanua kadi ya biashara</string>
     <string name="scan_bussiness_card_merge_tip">Data inayokinzana imebadilishwa</string>
     <string name="scan_merge">\"Inatafuta anwani zilizorudiwa…\"</string>
-    <string name="scan_not_installed_china">Sakinisha Mi AI Scanner kwanza</string>
     <string name="scan_not_installed_china_ai">Sakinisha Kichanganuzi cha AI ili uweze kutumia kipengele hiki</string>
     <string name="scan_not_installed_global">Sakinisha Kichanganuzi kwanza</string>
     <string name="scan_qrcode_card_hint1">Changanua msimbo wa QR hapo juu</string>
@@ -964,7 +966,6 @@ Ili kuanza, gusa \"Unganisha\" chini ya skrini yako."</string>
     <string name="select_all">Chagua zote</string>
     <string name="select_groups">Chagua vikundi</string>
     <string name="select_vcard_title">Chagua faili ya vKadi</string>
-    <string name="send">Tuma</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Njia hii ya mkato tayari ipo</string>
     <string name="send_contact_shortcut_todesktop_failed">Haikuweza kuweka njia mkato kwenye Skrini ya kwanza</string>
     <string name="send_contact_shortcut_todesktop_overflow">Haiwezi kuweka njia mkato zaidi kwenye Skrini ya kwanza</string>
@@ -1052,6 +1053,7 @@ Ili kuanza, gusa \"Unganisha\" chini ya skrini yako."</string>
     <string name="sms_work_pager">Tuma ujumbe kwa kipeja cha kazi</string>
     <string name="special_code_security_exception">Haikuweza kukamilisha kitendo. Hii si pedi yako chaguomsingi ya kupiga.</string>
     <string name="splitConfirmation_title">Ungependa kutenganisha anwani?</string>
+    <string name="split_screen_fab_toast">Buruta ili utumie pedi ya kupiga simu</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Yenye nyota</string>

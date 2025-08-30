@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Přejít na plochu</string>
     <string name="abc_action_bar_up_description">Přejít nahoru</string>
-    <string name="abc_action_menu_overflow_description">Další možnosti</string>
     <string name="abc_action_mode_done">Hotovo</string>
     <string name="abc_activity_chooser_view_see_all">Zobrazit vše</string>
     <string name="abc_activitychooserview_choose_application">Vybrat aplikaci</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Vyhledat…</string>
     <string name="abc_searchview_description_clear">Smazat dotaz</string>
-    <string name="abc_searchview_description_query">Dotaz pro vyhledávání</string>
     <string name="abc_searchview_description_search">Hledat</string>
     <string name="abc_searchview_description_submit">Odeslat dotaz</string>
     <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Duální SIM kartu nelze najít</string>
     <string name="bind_simcard_not_set">Nenastaveno</string>
     <string name="bind_simcard_title">Výchozí SIM karta pro volání</string>
-    <string name="bluetooth_chat">Komunikace mezi zařízeními</string>
+    <string name="bluetooth_chat">Xiaomi Offline Communication</string>
     <string name="bluetooth_connection_failed_toast">Bluetooth spojení bylo přerušeno</string>
     <string name="blurbJoinContactDataWith">Vyberte kontakt, se kterým chcete sloučit %s.</string>
+    <string name="bottomsheet_action_collapse">Sbalit spodní list</string>
+    <string name="bottomsheet_action_expand">Rozbalit spodní list</string>
+    <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
+    <string name="bottomsheet_drag_handle_clicked">Dvojité poklepání na madlo pro tažení</string>
+    <string name="bottomsheet_drag_handle_content_description">Madlo pro tažení</string>
     <string name="btn_split_contact">Rozdělit</string>
     <string name="button_cancel_scan">Zastavit</string>
     <string name="button_scan">Znovu</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Mi AI Asistent hovorů</string>
     <string name="cancel">Zrušit</string>
     <string name="cancel_confirmation_dialog_message">Zahodit provedené změny?</string>
+    <string name="cancel_confirmation_dialog_separate">Pokračovat v úpravách</string>
     <string name="cancel_confirmation_dialog_title">Zrušit změny</string>
     <string name="cancel_export_confirmation_message">Přerušit exportování %s?</string>
     <string name="cancel_import_confirmation_message">Přerušit importování %s?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Nahrávka hovoru</string>
     <string name="contact_detail_calllog_correct_yellow_page">Opravy a hlášení</string>
     <string name="contact_detail_calllog_empty">Historie je prázdná</string>
-    <string name="contact_detail_entry_pay">Odeslat peníze</string>
-    <string name="contact_detail_entry_pay_dialog_title">Vyberte telefonní číslo</string>
-    <string name="contact_detail_entry_pay_request">Přijmout peníze</string>
     <string name="contact_detail_menu_delete_miprofile">Odstranit viztiku</string>
     <string name="contact_detail_miprofile_subtitle">Již vyměněné vizitky</string>
     <string name="contact_detail_more_calllog">Zobrazit více</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">Zvolte způsob přenosu</string>
     <string name="contact_is_deleted">Tento kontakt byl smazán</string>
     <string name="contact_is_readOnly">Kontakty pouze pro čtení nelze upravit</string>
-    <string name="contact_pick_photo">Fotografie</string>
     <string name="contact_search_history">Historie</string>
     <string name="contact_status_update_attribution">přes %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s přes %2$s</string>
@@ -556,7 +556,6 @@ Chyba: \"%s\""</string>
     <string name="item_offical">Oficiální</string>
     <string name="keep_local">Nesynchronizovat</string>
     <string name="keep_local_btn">Použít vnitřní úložiště zařízení</string>
-    <string name="know">Rozumím</string>
     <string name="label_custom_type">Vlastní</string>
     <string name="label_no_duplicate_contacts">Nenalezeny žádné duplicitní kontakty</string>
     <string name="label_notes">Poznámky</string>
@@ -653,6 +652,17 @@ Chyba: \"%s\""</string>
     <string name="miuix_appcompat_select_all_description">Vybrat vše</string>
     <string name="miuix_appcompat_select_item">Vybrat položky</string>
     <string name="miuix_appcompat_show_dialog_description">Vyskakovací okno</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Potažením dolů zavřete</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Potažením dolů přepněte na poloviční obrazovku</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Potažením dolů minimalizujte</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Potažením nahoru přepněte na poloviční obrazovku</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Potažením nahoru maximalizujte</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Poloviční obrazovka</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximalizované</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimalizované</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Přepnout na poloviční obrazovku</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizovat</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizovat</string>
     <string name="miuix_item_view_role_description">Panel</string>
     <string name="miuix_navigator_category_group_collapse">Sbalit</string>
     <string name="miuix_navigator_category_group_expand">Zvětšit</string>
@@ -660,6 +670,7 @@ Chyba: \"%s\""</string>
     <string name="miuix_navigator_multiple_choice">Vybrat</string>
     <string name="miuix_navigator_navigator_switch_description">Skrýt postranní lištu</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Panel nástrojů ve spodní části obrazovky</string>
+    <string name="miuix_popup_window_default_title">Vyskakovací okno</string>
     <string name="miuix_progressbar_loading">Načítání</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potáhněte pro obnovení</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Úspěšně obnoveno</string>
@@ -879,10 +890,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="privacy_settings_blue_scan_connect">Připojení k zařízením v okolí</string>
     <string name="privacy_settings_call_phone">Uskutečňovat hovory</string>
     <string name="privacy_settings_call_phone_description">Pro uskutečňování hovorů pomocí zástupce na Domovské obrazovce</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Pro uskutečnění hovorů z aplikací třetích stran</string>
-    <string name="privacy_settings_call_phone_for_pad">Uskutečňovat hovory</string>
     <string name="privacy_settings_contacts">Kontakty a Volání</string>
-    <string name="privacy_settings_contacts_for_pad">Soukromí</string>
     <string name="privacy_settings_mallowed">Uděleno</string>
     <string name="privacy_settings_mnotallowed">Neuděleno</string>
     <string name="privacy_settings_permission_description">Podrobnosti oprávnění</string>
@@ -954,19 +962,13 @@ Začněte klepnutím na „sloučit“ ve spodní části obrazovky."</string>
     <string name="return_call_dialing">Vytáčení</string>
     <string name="return_call_incoming">Příchozí hovor</string>
     <string name="ringLabelsGroup">Vyzváněcí tón</string>
-    <string name="saf_permission_dialog_content">Ve výchozím nastavení systém Android neumožňuje aplikacím Kontakty a Volání přístup k nahrávkám hovorů. Pro jejich zobrazení nejprve těmto aplikacím povolte přístup k nahrávkám hovorů.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Povolit</string>
-    <string name="saf_permission_dialog_later">Později</string>
-    <string name="saf_permission_dialog_title">Povolte aplikacím Kontakty a Volání přístup k nahrávkám hovorů</string>
     <string name="saturday">Sobota</string>
     <string name="saturday_short">Sob</string>
     <string name="saturday_shortest">Sob</string>
-    <string name="savingContact">Ukládání kontaktu…</string>
     <string name="savingDisplayGroups">Ukládám nastavení zobrazení…</string>
     <string name="scan_business_card">Naskenovat vizitku</string>
     <string name="scan_bussiness_card_merge_tip">Konfliktní údaje byly nahrazeny</string>
     <string name="scan_merge">\"Hledám duplicitní kontakty…\"</string>
-    <string name="scan_not_installed_china">Nejprve nainstalujte Mi AI Scanner</string>
     <string name="scan_not_installed_china_ai">Pro využití této funkce nainstalujte \"AI skener\"</string>
     <string name="scan_not_installed_global">Nejprve nainstalujte Skener</string>
     <string name="scan_qrcode_card_hint1">Načtěte QR kód</string>
@@ -983,7 +985,6 @@ Začněte klepnutím na „sloučit“ ve spodní části obrazovky."</string>
     <string name="select_all">Vybrat vše</string>
     <string name="select_groups">Vybrat skupinu</string>
     <string name="select_vcard_title">Vyberte vCard</string>
-    <string name="send">Odeslat</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Tento zástupce již existuje</string>
     <string name="send_contact_shortcut_todesktop_failed">Umístění zástupce na Domovskou obrazovku se nezdařilo</string>
     <string name="send_contact_shortcut_todesktop_overflow">Na Domovskou obrazovku nelze umístit více zástupců</string>
@@ -1071,6 +1072,7 @@ Začněte klepnutím na „sloučit“ ve spodní části obrazovky."</string>
     <string name="sms_work_pager">SMS na pracovní pager</string>
     <string name="special_code_security_exception">Akci nebylo možné dokončit. Toto není váš výchozí číselník.</string>
     <string name="splitConfirmation_title">Oddělit kontakt?</string>
+    <string name="split_screen_fab_toast">Číselník</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Označené hvězdičkou</string>

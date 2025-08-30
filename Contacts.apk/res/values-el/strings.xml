@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Πλοήγηση στην αρχική σελίδα</string>
     <string name="abc_action_bar_up_description">Πλοήγηση προς τα επάνω</string>
-    <string name="abc_action_menu_overflow_description">Περισσότερες επιλογές</string>
     <string name="abc_action_mode_done">Τέλος</string>
     <string name="abc_activity_chooser_view_see_all">Εμφάνιση όλων</string>
     <string name="abc_activitychooserview_choose_application">Επιλέξτε μια εφαρμογή</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Αναζήτηση…</string>
     <string name="abc_searchview_description_clear">Διαγραφή ερωτήματος</string>
-    <string name="abc_searchview_description_query">Ερώτημα αναζήτησης</string>
     <string name="abc_searchview_description_search">Αναζήτηση</string>
     <string name="abc_searchview_description_submit">Υποβολή ερωτήματος</string>
     <string name="abc_searchview_description_voice">Φωνητική αναζήτηση</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Αδυναμία εύρεσης διπλής SIM</string>
     <string name="bind_simcard_not_set">Δεν έχει οριστεί</string>
     <string name="bind_simcard_title">Προεπιλεγμένη SIM για κλήσεις</string>
-    <string name="bluetooth_chat">Επικοινωνία μεταξύ συσκευών</string>
+    <string name="bluetooth_chat">Επικοινωνία Εκτός Σύνδεσης Xiaomi</string>
     <string name="bluetooth_connection_failed_toast">Διακόπηκε η σύνδεση Bluetooth</string>
     <string name="blurbJoinContactDataWith">Επιλέξτε μια επαφή για συγχώνευση %s:</string>
+    <string name="bottomsheet_action_collapse">Κλείσιμο κάτω φύλλου</string>
+    <string name="bottomsheet_action_expand">Επέκταση κάτω φύλλου</string>
+    <string name="bottomsheet_action_expand_halfway">Μισή επέκταση</string>
+    <string name="bottomsheet_drag_handle_clicked">Χειριστήριο μετακίνησης, διπλό πάτημα</string>
+    <string name="bottomsheet_drag_handle_content_description">Χειριστήριο μετακίνησης</string>
     <string name="btn_split_contact">Διαχωρισμός</string>
     <string name="button_cancel_scan">Διακοπή</string>
     <string name="button_scan">Σάρωση ξανά</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Βοηθός Κλήσης Mi AI</string>
     <string name="cancel">Ακύρωση</string>
     <string name="cancel_confirmation_dialog_message">Απόρριψη αλλαγών;</string>
+    <string name="cancel_confirmation_dialog_separate">Συνέχεια επεξεργασίας</string>
     <string name="cancel_confirmation_dialog_title">Απόρριψη αλλαγών</string>
     <string name="cancel_export_confirmation_message">Ακύρωση εξαγωγής%s;</string>
     <string name="cancel_import_confirmation_message">Ακύρωση εισαγωγής %s;</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Έγινε ηχογράφηση κλήσης</string>
     <string name="contact_detail_calllog_correct_yellow_page">Διόρθωση ή αναφορά</string>
     <string name="contact_detail_calllog_empty">Δεν υπάρχει ιστορικό</string>
-    <string name="contact_detail_entry_pay">Αποστολή χρημάτων</string>
-    <string name="contact_detail_entry_pay_dialog_title">Eπιλογή αριθμού τηλεφώνου</string>
-    <string name="contact_detail_entry_pay_request">Αίτηση για χρήματα</string>
     <string name="contact_detail_menu_delete_miprofile">Διαγραφή καρτέλας</string>
     <string name="contact_detail_miprofile_subtitle">Ήδη ανταλλαγμένες καρτέλες</string>
     <string name="contact_detail_more_calllog">Εμφάνιση περισσότερων</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">Επιλογή μεθόδου εισαγωγής</string>
     <string name="contact_is_deleted">Αυτή η επαφή διαγράφηκε</string>
     <string name="contact_is_readOnly">Αδυναμία επεξεργασίας επαφών μόνο για ανάγνωση</string>
-    <string name="contact_pick_photo">Φωτογραφία</string>
     <string name="contact_search_history">Ιστορικό</string>
     <string name="contact_status_update_attribution">μέσω %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s μέσω %2$s</string>
@@ -556,7 +556,6 @@
     <string name="item_offical">Επίσημο</string>
     <string name="keep_local">Να μην γίνει συγχρονισμός</string>
     <string name="keep_local_btn">Χρήση εσωτερικού χώρου αποθήκευσης συσκευής</string>
-    <string name="know">Κατανοητό</string>
     <string name="label_custom_type">Προσαρμοσμένο</string>
     <string name="label_no_duplicate_contacts">Δεν βρέθηκαν διπλότυπες</string>
     <string name="label_notes">Σημειώσεις</string>
@@ -653,6 +652,17 @@
     <string name="miuix_appcompat_select_all_description">Επιλογή όλων</string>
     <string name="miuix_appcompat_select_item">Επιλογή αντικειμένων</string>
     <string name="miuix_appcompat_show_dialog_description">Αναδυόμενο παράθυρο</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Σάρωση προς τα κάτω για κλείσιμο</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Σύρετε προς τα κάτω για εναλλαγή σε μισή οθόνη</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Σύρετε προς τα κάτω για ελαχιστοποίηση</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Σύρετε προς τα πάνω για εναλλαγή σε μισή οθόνη</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Σύρετε προς τα πάνω για μεγιστοποίηση</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Μισή οθόνη</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Μεγιστοποιημένο</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Ελαχιστοποιημένο</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Εναλλαγή σε μισή οθόνη</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Μεγιστοποίηση</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Ελαχιστοποίηση</string>
     <string name="miuix_item_view_role_description">Καρτέλα</string>
     <string name="miuix_navigator_category_group_collapse">Κλείσιμο</string>
     <string name="miuix_navigator_category_group_expand">Άνοιγμα</string>
@@ -660,6 +670,7 @@
     <string name="miuix_navigator_multiple_choice">Επιλογή</string>
     <string name="miuix_navigator_navigator_switch_description">Απόκρυψη πλαϊνής γραμμής</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Γραμμή εργαλείων στο κάτω μέρος της οθόνης</string>
+    <string name="miuix_popup_window_default_title">Αναδυόμενο παράθυρο</string>
     <string name="miuix_progressbar_loading">Φόρτωση</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Τραβήξτε προς τα κάτω για ανανέωση</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Επιτυχής ανανέωση</string>
@@ -879,10 +890,7 @@
     <string name="privacy_settings_blue_scan_connect">Σύνδεση σε κοντινές συσκευές</string>
     <string name="privacy_settings_call_phone">Πραγματοποίηση κλήσεων</string>
     <string name="privacy_settings_call_phone_description">Για πραγματοποίηση κλήσεων μέσω συντομεύσεων Αρχικής οθόνης</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Για την πραγματοποίηση κλήσεων σε εφαρμογές τρίτων</string>
-    <string name="privacy_settings_call_phone_for_pad">Πραγματοποίηση κλήσεων</string>
     <string name="privacy_settings_contacts">Επαφές και Τηλέφωνο</string>
-    <string name="privacy_settings_contacts_for_pad">Απόρρητο</string>
     <string name="privacy_settings_mallowed">Έγινε παραχώρηση</string>
     <string name="privacy_settings_mnotallowed">Δεν έγινε παραχώρηση</string>
     <string name="privacy_settings_permission_description">Λεπτομέρειες αδειών</string>
@@ -954,19 +962,13 @@
     <string name="return_call_dialing">Γίνεται κλήση</string>
     <string name="return_call_incoming">Εισερχόμενη κλήση</string>
     <string name="ringLabelsGroup">Κουδούνισμα</string>
-    <string name="saf_permission_dialog_content">Το Android δεν επιτρέπει στις Επαφές και στο Τηλέφωνο να έχουν πρόσβαση στις εγγραφές κλήσεων από προεπιλογή. Επιτρέψτε σε αυτές τις εφαρμογές να έχουν πρόσβαση στις εγγραφές κλήσεων για να μπορείτε να τις προβάλετε.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Να επιτραπεί</string>
-    <string name="saf_permission_dialog_later">Αργότερα</string>
-    <string name="saf_permission_dialog_title">Να επιτραπεί στις Επαφές και στο Τηλέφωνο η πρόσβαση στις εγγραφές κλήσεων</string>
     <string name="saturday">Σάββατο</string>
     <string name="saturday_short">Σαβ</string>
     <string name="saturday_shortest">Σαβ</string>
-    <string name="savingContact">Γίνεται αποθήκευση επαφής…</string>
     <string name="savingDisplayGroups">Αποθήκευση ρυθμίσεων οθόνης…</string>
     <string name="scan_business_card">Σάρωση επαγγελματικής κάρτας</string>
     <string name="scan_bussiness_card_merge_tip">Τα αντικρουόμενα δεδομένα έχουν αντικατασταθεί</string>
     <string name="scan_merge">\"Αναζήτηση για διπλότυπες επαφές…\"</string>
-    <string name="scan_not_installed_china">Εγκατάσταση Mi AI Scanner πρώτα</string>
     <string name="scan_not_installed_china_ai">Εγκαταστήστε τον Σαρωτή AI για να μπορείτε να χρησιμοποιήσετε αυτήν τη δυνατότητα</string>
     <string name="scan_not_installed_global">Εγκατάσταση Σαρωτή πρώτα</string>
     <string name="scan_qrcode_card_hint1">Σάρωση του παραπάνω QR κωδικού</string>
@@ -983,7 +985,6 @@
     <string name="select_all">Επιλογή όλων</string>
     <string name="select_groups">Επιλογή ομάδων</string>
     <string name="select_vcard_title">Επιλογή αρχείου vCard</string>
-    <string name="send">Αποστολή</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Αυτή η συντόμευση υπάρχει ήδη</string>
     <string name="send_contact_shortcut_todesktop_failed">Αδυναμία τοποθέτησης της συντόμευσης στην Αρχική οθόνη</string>
     <string name="send_contact_shortcut_todesktop_overflow">Αδυναμία τοποθέτησης περισσότερων συντομεύσεων στην Αρχική οθόνη</string>
@@ -1071,6 +1072,7 @@
     <string name="sms_work_pager">Μήνυμα προς βομβητή εργασίας</string>
     <string name="special_code_security_exception">Αδυναμία ολοκλήρωσης ενέργειας. Αυτό δεν είναι το προεπιλεγμένο πληκτρολόγιο σας.</string>
     <string name="splitConfirmation_title">Διαχωρισμός επαφής;</string>
+    <string name="split_screen_fab_toast">Σύρετε για να χρησιμοποιήσετε το πληκτρολόγιο κλήσης</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Με αστέρι</string>

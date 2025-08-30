@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Tunjukkan jalan ke rumah</string>
     <string name="abc_action_bar_up_description">Kembali ke atas</string>
-    <string name="abc_action_menu_overflow_description">Opsi lain</string>
     <string name="abc_action_mode_done">Selesai</string>
     <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
     <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Telusuri...</string>
     <string name="abc_searchview_description_clear">Hapus kueri</string>
-    <string name="abc_searchview_description_query">Telusuri kueri</string>
     <string name="abc_searchview_description_search">Telusuri</string>
     <string name="abc_searchview_description_submit">Kirim kueri</string>
     <string name="abc_searchview_description_voice">Penelusuran suara</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Tidak dapat menemukan SIM ganda</string>
     <string name="bind_simcard_not_set">Belum disetel</string>
     <string name="bind_simcard_title">Pilihan pertama SIM untuk panggilan</string>
-    <string name="bluetooth_chat">Komunikasi lintas perangkat</string>
+    <string name="bluetooth_chat">Komunikasi Offline Xiaomi</string>
     <string name="bluetooth_connection_failed_toast">Koneksi Bluetooth terganggu</string>
     <string name="blurbJoinContactDataWith">Pilih kontak yg ingin digabung dgn %s:</string>
+    <string name="bottomsheet_action_collapse">Perkecil lembar bawah</string>
+    <string name="bottomsheet_action_expand">Perlebar lembar bawah</string>
+    <string name="bottomsheet_action_expand_halfway">Perlebar setengahnya</string>
+    <string name="bottomsheet_drag_handle_clicked">Drag handle diketuk 2x</string>
+    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
     <string name="btn_split_contact">Pisah</string>
     <string name="button_cancel_scan">Hentikan</string>
     <string name="button_scan">Pindai ulang</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Asisten Telepon Mi AI</string>
     <string name="cancel">Batal</string>
     <string name="cancel_confirmation_dialog_message">Buang perubahan?</string>
+    <string name="cancel_confirmation_dialog_separate">Lanjut mengubah</string>
     <string name="cancel_confirmation_dialog_title">Hapus perubahan</string>
     <string name="cancel_export_confirmation_message">Batal ekspor %s?</string>
     <string name="cancel_import_confirmation_message">Batal impor %s?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Panggilan terekam</string>
     <string name="contact_detail_calllog_correct_yellow_page">Koreksi atau lapor</string>
     <string name="contact_detail_calllog_empty">Tak ada riwayat</string>
-    <string name="contact_detail_entry_pay">Kirim uang</string>
-    <string name="contact_detail_entry_pay_dialog_title">Pilih nomor telepon</string>
-    <string name="contact_detail_entry_pay_request">Minta uang</string>
     <string name="contact_detail_menu_delete_miprofile">Hapus kartu</string>
     <string name="contact_detail_miprofile_subtitle">Telah berhasil tukar kartu</string>
     <string name="contact_detail_more_calllog">Tampilkan lainnya</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">Pilih metode impor</string>
     <string name="contact_is_deleted">Kontak ini telah dihapus</string>
     <string name="contact_is_readOnly">Tidak dapat ubah kontak baca-saja</string>
-    <string name="contact_pick_photo">Foto</string>
     <string name="contact_search_history">Riwayat</string>
     <string name="contact_status_update_attribution">via %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s via %2$s</string>
@@ -556,7 +556,6 @@ Alasan: \"%s\""</string>
     <string name="item_offical">Resmi</string>
     <string name="keep_local">Jangan sinkron</string>
     <string name="keep_local_btn">Gunakan penyimpanan internal perangkat</string>
-    <string name="know">Mengerti</string>
     <string name="label_custom_type">Kustom</string>
     <string name="label_no_duplicate_contacts">Tak ada kontak berulang</string>
     <string name="label_notes">Catatan</string>
@@ -653,6 +652,17 @@ Alasan: \"%s\""</string>
     <string name="miuix_appcompat_select_all_description">Pilih semua</string>
     <string name="miuix_appcompat_select_item">Pilih item</string>
     <string name="miuix_appcompat_show_dialog_description">Jendela pop-up</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Usap ke bawah untuk tutup</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Geser ke bawah untuk beralih ke setengah layar</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Geser ke bawah untuk meminimalkan</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Geser ke atas untuk beralih ke setengah layar</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Geser ke atas untuk memaksimalkan</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Setengah layar</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Dimaksimalkan</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Diminimalkan</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Beralih ke setengah layar</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimalkan</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalkan</string>
     <string name="miuix_item_view_role_description">Tab</string>
     <string name="miuix_navigator_category_group_collapse">Tutup</string>
     <string name="miuix_navigator_category_group_expand">Lebarkan</string>
@@ -660,6 +670,7 @@ Alasan: \"%s\""</string>
     <string name="miuix_navigator_multiple_choice">Pilih</string>
     <string name="miuix_navigator_navigator_switch_description">Sembunyikan bilah sisi</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Bilah alat di bagian bawah layar</string>
+    <string name="miuix_popup_window_default_title">Jendela pop-up</string>
     <string name="miuix_progressbar_loading">Memuat</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tarik ke bawah untuk segarkan</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Berhasil disegarkan</string>
@@ -879,10 +890,7 @@ Ketuk \"%1$s\", lalu pilih \"%2$s\"."</string>
     <string name="privacy_settings_blue_scan_connect">Menghubungkan ke perangkat di sekitar</string>
     <string name="privacy_settings_call_phone">Buat panggilan</string>
     <string name="privacy_settings_call_phone_description">Untuk membuat panggilan via pintasan Layar utama</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Untuk membuat panggilan di apl pihak ketiga</string>
-    <string name="privacy_settings_call_phone_for_pad">Buat panggilan</string>
     <string name="privacy_settings_contacts">Kontak dan Telepon</string>
-    <string name="privacy_settings_contacts_for_pad">Privasi</string>
     <string name="privacy_settings_mallowed">Telah diberikan</string>
     <string name="privacy_settings_mnotallowed">Tidak diberikan</string>
     <string name="privacy_settings_permission_description">Rincian perizinan</string>
@@ -954,19 +962,13 @@ Untuk memulai, ketuk \"Gabung\" di bagian bawah layar."</string>
     <string name="return_call_dialing">Memanggil</string>
     <string name="return_call_incoming">Panggilan masuk</string>
     <string name="ringLabelsGroup">Nada dering</string>
-    <string name="saf_permission_dialog_content">Android tidak mengizinkan apl Kontak dan Telepon untuk mengakses rekaman panggilan secara default. Izinkan apl ini mengakses rekaman panggilan agar dapat melihatnya.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Izinkan</string>
-    <string name="saf_permission_dialog_later">Nanti</string>
-    <string name="saf_permission_dialog_title">Izinkan apl Kontak dan Telepon mengakses rekaman panggilan</string>
     <string name="saturday">Sabtu</string>
     <string name="saturday_short">Sab</string>
     <string name="saturday_shortest">Sab</string>
-    <string name="savingContact">Menyimpan kontak…</string>
     <string name="savingDisplayGroups">Menyimpan opsi tampilan…</string>
     <string name="scan_business_card">Pindai kartu bisnis</string>
     <string name="scan_bussiness_card_merge_tip">Konflik data telah digantikan</string>
     <string name="scan_merge">\"Mencari kontak berulang…\" </string>
-    <string name="scan_not_installed_china">Instal Mi AI Scanner dulu</string>
     <string name="scan_not_installed_china_ai">Instal Pemindai AI untuk dapat menggunakan fitur ini</string>
     <string name="scan_not_installed_global">Instal Pemindai dulu</string>
     <string name="scan_qrcode_card_hint1">Pindai kode QR di atas</string>
@@ -983,7 +985,6 @@ Untuk memulai, ketuk \"Gabung\" di bagian bawah layar."</string>
     <string name="select_all">Pilih semua</string>
     <string name="select_groups">Pilih grup</string>
     <string name="select_vcard_title">Pilih berkas vCard</string>
-    <string name="send">Kirim</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Pintasan ini sudah ada</string>
     <string name="send_contact_shortcut_todesktop_failed">Tidak dapat menempatkan pintasan di Layar utama</string>
     <string name="send_contact_shortcut_todesktop_overflow">Tidak dapat menempatkan pintasan lainnya di Layar utama</string>
@@ -1071,6 +1072,7 @@ Untuk memulai, ketuk \"Gabung\" di bagian bawah layar."</string>
     <string name="sms_work_pager">SMS penyeranta kantor</string>
     <string name="special_code_security_exception">Tidak dapat menyelesaikan aksi. Ini bukan papan panggilan bawaan Anda.</string>
     <string name="splitConfirmation_title">Pisahkan kontak?</string>
+    <string name="split_screen_fab_toast">Seret untuk gunakan papan panggilan</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Berbintang</string>

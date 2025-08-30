@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
     <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
-    <string name="abc_action_menu_overflow_description">Autres options</string>
     <string name="abc_action_mode_done">OK</string>
     <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
     <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Rechercher…</string>
     <string name="abc_searchview_description_clear">Effacer la requête</string>
-    <string name="abc_searchview_description_query">Requête de recherche</string>
     <string name="abc_searchview_description_search">Rechercher</string>
     <string name="abc_searchview_description_submit">Envoyer la requête</string>
     <string name="abc_searchview_description_voice">Recherche vocale</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Impossible de trouver la double SIM</string>
     <string name="bind_simcard_not_set">Non défini</string>
     <string name="bind_simcard_title">SIM par défaut pour les appels</string>
-    <string name="bluetooth_chat">Communication entre appareils</string>
+    <string name="bluetooth_chat">Communication hors ligne Xiaomi</string>
     <string name="bluetooth_connection_failed_toast">Connexion Bluetooth interrompue</string>
     <string name="blurbJoinContactDataWith">Choisissez le contact que vous souhaitez fusionner avec %s.</string>
+    <string name="bottomsheet_action_collapse">Réduire la feuille du bas</string>
+    <string name="bottomsheet_action_expand">Développer la feuille du bas</string>
+    <string name="bottomsheet_action_expand_halfway">Élargir à mi-chemin</string>
+    <string name="bottomsheet_drag_handle_clicked">Faire glisser la poignée en appuyant deux fois</string>
+    <string name="bottomsheet_drag_handle_content_description">Poignée de déplacement</string>
     <string name="btn_split_contact">Séparer</string>
     <string name="button_cancel_scan">Arrêter</string>
     <string name="button_scan">Scanner</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">"Assistant d'appel Mi AI"</string>
     <string name="cancel">Annuler</string>
     <string name="cancel_confirmation_dialog_message">Annuler les changements ?</string>
+    <string name="cancel_confirmation_dialog_separate">Continuer</string>
     <string name="cancel_confirmation_dialog_title">Abandonner les modifications</string>
     <string name="cancel_export_confirmation_message">"Confirmez-vous l'annulation de l'exportation de %s ?"</string>
     <string name="cancel_import_confirmation_message">"Confirmez-vous l'annulation de l'importation de %s ?"</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Appel enregistré</string>
     <string name="contact_detail_calllog_correct_yellow_page">Corriger ou signaler</string>
     <string name="contact_detail_calllog_empty">Aucun historique</string>
-    <string name="contact_detail_entry_pay">"Envoyer de l'argent"</string>
-    <string name="contact_detail_entry_pay_dialog_title">Sélectionner un numéro de téléphone</string>
-    <string name="contact_detail_entry_pay_request">"Demander de l'argent"</string>
     <string name="contact_detail_menu_delete_miprofile">Supprimer la carte</string>
     <string name="contact_detail_miprofile_subtitle">Cartes déjà échangées</string>
     <string name="contact_detail_more_calllog">Afficher plus</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">"Sélectionner une méthode d'importation"</string>
     <string name="contact_is_deleted">Ce contact a été supprimé</string>
     <string name="contact_is_readOnly">"Impossible d'éditer les contacts en lecture seule"</string>
-    <string name="contact_pick_photo">Photo</string>
     <string name="contact_search_history">Historique</string>
     <string name="contact_status_update_attribution">via %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s via %2$s</string>
@@ -556,7 +556,6 @@ Raison: \"%s\""</string>
     <string name="item_offical">Officiel</string>
     <string name="keep_local">Synchro désactivée</string>
     <string name="keep_local_btn">Utiliser le stockage interne du périphérique</string>
-    <string name="know">"C'est compris"</string>
     <string name="label_custom_type">Personnaliser</string>
     <string name="label_no_duplicate_contacts">Aucun doublon trouvé</string>
     <string name="label_notes">Notes</string>
@@ -653,6 +652,17 @@ Raison: \"%s\""</string>
     <string name="miuix_appcompat_select_all_description">Tout sélectionner</string>
     <string name="miuix_appcompat_select_item">Sélectionnez les éléments</string>
     <string name="miuix_appcompat_show_dialog_description">Fenêtre contextuelle</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Glissez vers le bas pour fermer</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Balayez vers le bas pour passer au demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Balayez vers le bas pour minimiser</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Balayez vers le haut pour passer au demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Balayez vers le haut pour maximiser</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximisé</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimisé</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">"Passer à la moitié de l'écran"</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximiser</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimiser</string>
     <string name="miuix_item_view_role_description">Onglet</string>
     <string name="miuix_navigator_category_group_collapse">Réduire</string>
     <string name="miuix_navigator_category_group_expand">Étendre</string>
@@ -660,6 +670,7 @@ Raison: \"%s\""</string>
     <string name="miuix_navigator_multiple_choice">Sélectionner</string>
     <string name="miuix_navigator_navigator_switch_description">Masquer la barre latérale</string>
     <string name="miuix_navigator_toolbar_screen_bottom">"Barre d'outils en bas de l'écran"</string>
+    <string name="miuix_popup_window_default_title">Fenêtre contextuelle</string>
     <string name="miuix_progressbar_loading">Chargement</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualisé avec succès</string>
@@ -879,10 +890,7 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="privacy_settings_blue_scan_connect">Se connecter aux appareils à proximité</string>
     <string name="privacy_settings_call_phone">Passer des appels</string>
     <string name="privacy_settings_call_phone_description">"Pour passer des appels via les raccourcis de l'écran d'accueil"</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Pour passer des appels dans des applications tierces</string>
-    <string name="privacy_settings_call_phone_for_pad">Passer des appels</string>
     <string name="privacy_settings_contacts">Contacts et téléphone</string>
-    <string name="privacy_settings_contacts_for_pad">Confidentialité</string>
     <string name="privacy_settings_mallowed">Accordée</string>
     <string name="privacy_settings_mnotallowed">Non accordée</string>
     <string name="privacy_settings_permission_description">Détails des autorisations</string>
@@ -954,19 +962,13 @@ Pour commencer, appuyez sur \"Fusionner\" au bas de votre écran."</string>
     <string name="return_call_dialing">Appel en cours</string>
     <string name="return_call_incoming">Appel entrant</string>
     <string name="ringLabelsGroup">Sonnerie</string>
-    <string name="saf_permission_dialog_content">"Android n'autorise pas les contacts et le téléphone à accéder aux enregistrements d'appels par défaut. Autorisez ces applications à accéder aux enregistrements d'appels pour pouvoir les afficher."</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Autoriser</string>
-    <string name="saf_permission_dialog_later">Plus tard</string>
-    <string name="saf_permission_dialog_title">"Autoriser les contacts et le téléphone à accéder aux enregistrements d'appels"</string>
     <string name="saturday">Samedi</string>
     <string name="saturday_short">Sam</string>
     <string name="saturday_shortest">Sam</string>
-    <string name="savingContact">Sauvegarde du contact…</string>
     <string name="savingDisplayGroups">"Enregistrement des options d'affichage…"</string>
     <string name="scan_business_card">Scanner une carte de visite</string>
     <string name="scan_bussiness_card_merge_tip">Les données contradictoires ont été remplacées</string>
     <string name="scan_merge">"\"Recherche d'éventuels contacts dupliqués…\""</string>
-    <string name="scan_not_installed_china">"Installez d'abord Mi AI Scanner"</string>
     <string name="scan_not_installed_china_ai">Installer Scanneur IA pour pouvoir utiliser cette fonctionnalité</string>
     <string name="scan_not_installed_global">"Installez d'abord le Scanneur"</string>
     <string name="scan_qrcode_card_hint1">Scannez le code QR ci-dessus</string>
@@ -983,7 +985,6 @@ Pour commencer, appuyez sur \"Fusionner\" au bas de votre écran."</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="select_groups">Sélectionner les groupes</string>
     <string name="select_vcard_title">Choisir un fichier vCard</string>
-    <string name="send">Envoyer</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Ce raccourci existe déjà</string>
     <string name="send_contact_shortcut_todesktop_failed">"Impossible de placer un raccourci sur l'écran d'accueil"</string>
     <string name="send_contact_shortcut_todesktop_overflow">"Impossible de placer plus de raccourcis sur l'écran d'accueil"</string>
@@ -1071,6 +1072,7 @@ Pour commencer, appuyez sur \"Fusionner\" au bas de votre écran."</string>
     <string name="sms_work_pager">Envoyer un SMS vers téléavertisseur (bureau)</string>
     <string name="special_code_security_exception">"Impossible de terminer l'action. Ce n'est pas votre clavier par défaut."</string>
     <string name="splitConfirmation_title">Séparer le contact ?</string>
+    <string name="split_screen_fab_toast">Faites glisser pour utiliser le pavé de numérotation</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Favoris</string>

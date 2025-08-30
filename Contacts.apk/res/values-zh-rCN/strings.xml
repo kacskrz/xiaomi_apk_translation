@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">转到首页</string>
     <string name="abc_action_bar_up_description">转到上一层级</string>
-    <string name="abc_action_menu_overflow_description">更多选项</string>
     <string name="abc_action_mode_done">完成</string>
     <string name="abc_activity_chooser_view_see_all">查看全部</string>
     <string name="abc_activitychooserview_choose_application">选择应用</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">搜索…</string>
     <string name="abc_searchview_description_clear">清除查询</string>
-    <string name="abc_searchview_description_query">搜索查询</string>
     <string name="abc_searchview_description_search">搜索</string>
     <string name="abc_searchview_description_submit">提交查询</string>
     <string name="abc_searchview_description_voice">语音搜索</string>
@@ -271,6 +269,11 @@
     <string name="bluetooth_chat">无网通</string>
     <string name="bluetooth_connection_failed_toast">蓝牙连接中断</string>
     <string name="blurbJoinContactDataWith">选择要与%s合并的联系人：</string>
+    <string name="bottomsheet_action_collapse">收起底部动作条</string>
+    <string name="bottomsheet_action_expand">展开底部动作条</string>
+    <string name="bottomsheet_action_expand_halfway">展开到一半高度</string>
+    <string name="bottomsheet_drag_handle_clicked">拖动手柄被点按两次</string>
+    <string name="bottomsheet_drag_handle_content_description">拖动手柄</string>
     <string name="btn_split_contact">拆分联系人</string>
     <string name="button_cancel_scan">取消扫描</string>
     <string name="button_scan">重新扫描</string>
@@ -295,6 +298,7 @@
     <string name="call_other_fax">呼叫传真号码</string>
     <string name="call_pager">呼叫寻呼机</string>
     <string name="call_radio">呼叫无线装置</string>
+    <string name="call_recording_seekbar">通话录音进度条</string>
     <string name="call_sim1_description">卡1</string>
     <string name="call_sim1_menu_title">卡1拨打</string>
     <string name="call_sim2_description">卡2</string>
@@ -350,8 +354,9 @@
     <string name="callrecordview_menu_show_stranger">陌生人电话</string>
     <string name="callrecordview_menu_xiaoaiphone">小爱通话</string>
     <string name="cancel">取消</string>
-    <string name="cancel_confirmation_dialog_message">要舍弃您所做的更改吗？</string>
-    <string name="cancel_confirmation_dialog_title">取消编辑</string>
+    <string name="cancel_confirmation_dialog_message">要放弃您所做的更改？</string>
+    <string name="cancel_confirmation_dialog_separate">继续编辑</string>
+    <string name="cancel_confirmation_dialog_title">放弃更改</string>
     <string name="cancel_export_confirmation_message">要取消导出 %s 吗​​？</string>
     <string name="cancel_import_confirmation_message">要取消导入 %s 吗​​？</string>
     <string name="cancel_import_dialog_message">确定要停止导入联系人吗？</string>
@@ -377,7 +382,7 @@
     <string name="cloud_antispam_marked">已标记</string>
     <string name="cloud_state_disabled">开启小米云同步，同步联系人数据</string>
     <string name="cloud_state_loading">正在获取小米账号联系人</string>
-    <string name="cloud_upgrade_recommend">云空间不足，将影响联系人同步，升级空间</string>
+    <string name="cloud_upgrade_recommend">云空间不足，将影响联系人同步，升级空间></string>
     <string name="combined_title_and_miprofile_swaped">%1$s，%2$s</string>
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
@@ -403,9 +408,6 @@
     <string name="contact_detail_calllog_call_record_tips">通话录音</string>
     <string name="contact_detail_calllog_correct_yellow_page">纠错与举报</string>
     <string name="contact_detail_calllog_empty">暂无通话记录</string>
-    <string name="contact_detail_entry_pay">付款</string>
-    <string name="contact_detail_entry_pay_dialog_title">选择号码</string>
-    <string name="contact_detail_entry_pay_request">收款</string>
     <string name="contact_detail_menu_delete_miprofile">删除我的名片</string>
     <string name="contact_detail_miprofile_subtitle">已互换名片</string>
     <string name="contact_detail_more_calllog">更多通话记录</string>
@@ -421,7 +423,6 @@
     <string name="contact_import_methods_dialog_title">选择导入方式</string>
     <string name="contact_is_deleted">联系人已经被删除</string>
     <string name="contact_is_readOnly">不能修改只读联系人</string>
-    <string name="contact_pick_photo">头像</string>
     <string name="contact_search_history">搜索记录</string>
     <string name="contact_status_update_attribution">来源：%1$s</string>
     <string name="contact_status_update_attribution_with_date">时间：%1$s，来源：%2$s</string>
@@ -750,7 +751,6 @@
     <string name="item_offical">官方</string>
     <string name="keep_local">本地保存</string>
     <string name="keep_local_btn">仅保存在设备中</string>
-    <string name="know">知道了</string>
     <string name="label_custom_type">自定义</string>
     <string name="label_no_duplicate_contacts">没有发现重复联系人</string>
     <string name="label_notes">备注</string>
@@ -849,6 +849,18 @@
     <string name="miuix_appcompat_select_all_description">全选</string>
     <string name="miuix_appcompat_select_item">请选择项目</string>
     <string name="miuix_appcompat_show_dialog_description">弹出式窗口</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">向下滑动即可关闭</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">向下滑动切换至半屏</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">向下滑动切换至最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">向上滑动切换至半屏</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">向上滑动切换至最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">半屏</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">切换至半屏</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">切换至最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">切换至最小化</string>
+    <string name="miuix_edit_dialog_fragment_empty_arg_title">无参数</string>
     <string name="miuix_indexer_collect">收藏</string>
     <string name="miuix_item_view_accessibility_unselected">未选中</string>
     <string name="miuix_item_view_role_description">标签页</string>
@@ -860,6 +872,8 @@
     <string name="miuix_navigator_multiple_choice">多选</string>
     <string name="miuix_navigator_navigator_switch_description">收起侧边栏</string>
     <string name="miuix_navigator_toolbar_screen_bottom">工具栏在屏幕底部</string>
+    <string name="miuix_pairing_dialog_closable_icon_description">关闭</string>
+    <string name="miuix_popup_window_default_title">弹出式窗口</string>
     <string name="miuix_progressbar_loading">正在加载…</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">下拉刷新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">刷新完成</string>
@@ -983,7 +997,6 @@
     <string name="organization_company_and_title">%1$s-%2$s</string>
     <string name="pause">暂停</string>
     <string name="paused">已暂停</string>
-    <string name="pay_fail">支付失败</string>
     <string name="pay_success">支付成功</string>
     <string name="payphone">公用电话</string>
     <string name="people">联系人</string>
@@ -1088,10 +1101,7 @@
     <string name="privacy_settings_blue_scan_connect">连接附近的设备</string>
     <string name="privacy_settings_call_phone">拨打电话</string>
     <string name="privacy_settings_call_phone_description">用于实现使用桌面快捷方式拨打电话功能</string>
-    <string name="privacy_settings_call_phone_description_for_pad">用于实现三方应用通话等功能</string>
-    <string name="privacy_settings_call_phone_for_pad">通话</string>
     <string name="privacy_settings_contacts">通讯录与拨号隐私设置</string>
-    <string name="privacy_settings_contacts_for_pad">联系人隐私设置</string>
     <string name="privacy_settings_mallowed">已允许</string>
     <string name="privacy_settings_mnotallowed">未允许</string>
     <string name="privacy_settings_permission_description">权限说明</string>
@@ -1145,7 +1155,7 @@
     <string name="redirect_calls_to_vm_confirm_message">如未向运营商申请此业务，请不要开启。否则，您可能无法接到该联系人的来电。</string>
     <string name="redirect_calls_to_vm_confirm_text">开启</string>
     <string name="relationLabelsGroup">关系</string>
-    <string name="removePhoto">删除照片</string>
+    <string name="removePhoto">删除</string>
     <string name="remove_blacklist">移出黑名单</string>
     <string name="remove_blacklist_dialog_message">确定要把该号码移出黑名单吗？</string>
     <string name="remove_blacklist_dialog_title">移出黑名单</string>
@@ -1166,19 +1176,13 @@
     <string name="return_call_dialing">正在拨号</string>
     <string name="return_call_incoming">正在来电</string>
     <string name="ringLabelsGroup">铃声</string>
-    <string name="saf_permission_dialog_content">为保护您的数据安全，安卓系统限制通讯录与拨号读写通话录音文件。建议您授权通讯录与拨号读取相关文件，若拒绝授权通讯录与拨号将无法显示通话录音文件。</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">立即授权</string>
-    <string name="saf_permission_dialog_later">以后再说</string>
-    <string name="saf_permission_dialog_title">授权通讯录与拨号读取通话录音等文件</string>
     <string name="saturday">星期六</string>
     <string name="saturday_short">周六</string>
     <string name="saturday_shortest">六</string>
-    <string name="savingContact">正在保存联系人…</string>
     <string name="savingDisplayGroups">正在保存显示选项…</string>
     <string name="scan_business_card">扫描名片</string>
     <string name="scan_bussiness_card_merge_tip">重合信息已被替换</string>
     <string name="scan_merge">正在查找重复联系人…</string>
-    <string name="scan_not_installed_china">安装系统应用“小爱视觉”后可正常使用</string>
     <string name="scan_not_installed_china_ai">安装“AI扫描”后可正常使用</string>
     <string name="scan_not_installed_global">安装系统应用“扫一扫”后可正常使用</string>
     <string name="scan_qrcode_card_hint1">使用新增联系人中的【扫描名片】功能扫描二维码</string>
@@ -1196,7 +1200,6 @@
     <string name="select_all">全选</string>
     <string name="select_groups">选择群组</string>
     <string name="select_vcard_title">选择 vCard 文件</string>
-    <string name="send">发送</string>
     <string name="send_contact_shortcut_todesktop_duplicate">该联系人快捷方式已存在</string>
     <string name="send_contact_shortcut_todesktop_failed">发送联系人快捷方式到桌面失败</string>
     <string name="send_contact_shortcut_todesktop_overflow">联系人快捷方式数量已达上限</string>
@@ -1305,6 +1308,7 @@
     <string name="solar_term_winter_solstice">冬至</string>
     <string name="special_code_security_exception">操作拒绝：不是默认拨号设置</string>
     <string name="splitConfirmation_title">要拆分联系人吗？</string>
+    <string name="split_screen_fab_toast">请拖动至全屏拨号</string>
     <string name="starredList">已加星标的内容</string>
     <string name="starred_contacts">收藏</string>
     <string name="state_Star">已收藏</string>

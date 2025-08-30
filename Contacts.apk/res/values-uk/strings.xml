@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Перейти на головну</string>
     <string name="abc_action_bar_up_description">Перейти вгору</string>
-    <string name="abc_action_menu_overflow_description">Більше опцій</string>
     <string name="abc_action_mode_done">Готово</string>
     <string name="abc_activity_chooser_view_see_all">Показати всі</string>
     <string name="abc_activitychooserview_choose_application">Вибрати програму</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Введіть пошуковий запит…</string>
     <string name="abc_searchview_description_clear">Очистити запит</string>
-    <string name="abc_searchview_description_query">Пошуковий запит</string>
     <string name="abc_searchview_description_search">Пошук</string>
     <string name="abc_searchview_description_submit">Наіслати запит</string>
     <string name="abc_searchview_description_voice">Голосовий пошук</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Друга SIM-карта не виявлена</string>
     <string name="bind_simcard_not_set">Не вибрано</string>
     <string name="bind_simcard_title">SIM-карта для викликів за замовчуванням</string>
-    <string name="bluetooth_chat">Взаємодія між пристроями</string>
+    <string name="bluetooth_chat">Xiaomi Offline Communication</string>
     <string name="bluetooth_connection_failed_toast">Підключення через Bluetooth перервано</string>
     <string name="blurbJoinContactDataWith">"Виберіть контакт, для об'єднання з %s :"</string>
+    <string name="bottomsheet_action_collapse">Згорнути нижню сторінку</string>
+    <string name="bottomsheet_action_expand">Розгорнути нижню сторінку</string>
+    <string name="bottomsheet_action_expand_halfway">Розгорнути на половину</string>
+    <string name="bottomsheet_drag_handle_clicked">Виконано подвійне натиснення на маркер перетягування</string>
+    <string name="bottomsheet_drag_handle_content_description">Перетягнути тримач</string>
     <string name="btn_split_contact">Розділити контакти</string>
     <string name="button_cancel_scan">Зупинити</string>
     <string name="button_scan">Cканувати</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Помічник викликів Мі АІ</string>
     <string name="cancel">Скасувати</string>
     <string name="cancel_confirmation_dialog_message">Скасувати зміни?</string>
+    <string name="cancel_confirmation_dialog_separate">Продовжити</string>
     <string name="cancel_confirmation_dialog_title">Скасування змін</string>
     <string name="cancel_export_confirmation_message">Скасувати експорт %s ?</string>
     <string name="cancel_import_confirmation_message">Скасувати імпорт %s ?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Записаний виклик</string>
     <string name="contact_detail_calllog_correct_yellow_page">Виправити або повідомити</string>
     <string name="contact_detail_calllog_empty">Історія порожня</string>
-    <string name="contact_detail_entry_pay">Відправити гроші</string>
-    <string name="contact_detail_entry_pay_dialog_title">Виберіть номер телефону</string>
-    <string name="contact_detail_entry_pay_request">Запит грошей</string>
     <string name="contact_detail_menu_delete_miprofile">Видалити візитку</string>
     <string name="contact_detail_miprofile_subtitle">Обмін візитками відбувся</string>
     <string name="contact_detail_more_calllog">Показати ще</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">Оберіть спосіб імпорту</string>
     <string name="contact_is_deleted">Цей контакт було видалено</string>
     <string name="contact_is_readOnly">Неможливо редагувати контакти тільки для читання</string>
-    <string name="contact_pick_photo">Фото</string>
     <string name="contact_search_history">Історія пошуку</string>
     <string name="contact_status_update_attribution">за допомогою %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s, за допомогою %2$s</string>
@@ -556,7 +556,6 @@
     <string name="item_offical">Офіційний</string>
     <string name="keep_local">Не синхронізувати</string>
     <string name="keep_local_btn">"Використовувати внутрішню пам'ять пристрою"</string>
-    <string name="know">Зрозуміло</string>
     <string name="label_custom_type">Власний</string>
     <string name="label_no_duplicate_contacts">Дублікати не знайдені</string>
     <string name="label_notes">Нотатки</string>
@@ -653,6 +652,17 @@
     <string name="miuix_appcompat_select_all_description">Вибрати все</string>
     <string name="miuix_appcompat_select_item">Вибрати елементи</string>
     <string name="miuix_appcompat_show_dialog_description">Спливаюче вікно</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Посуньте вниз для закриття</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Посуньте вниз, щоб переключитися на півекранний режим</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Посуньте вниз, щоб зменшити</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Посуньте вгору, щоб переключитися на півекранний режим</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Посуньте вгору, щоб збільшити</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Півекрана</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">На максимум</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">На мінімум</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Переключитися на півекранний режим</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Збільшити</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Зменшити</string>
     <string name="miuix_item_view_role_description">Вкладка</string>
     <string name="miuix_navigator_category_group_collapse">Згорнути</string>
     <string name="miuix_navigator_category_group_expand">Розгорнути</string>
@@ -660,6 +670,7 @@
     <string name="miuix_navigator_multiple_choice">Вибрати</string>
     <string name="miuix_navigator_navigator_switch_description">Приховати бокову панель</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Панель інструментів у нижній частині екрана</string>
+    <string name="miuix_popup_window_default_title">Спливаюче вікно</string>
     <string name="miuix_progressbar_loading">Завантаження</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потягніть вниз для оновлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Оновлено</string>
@@ -879,10 +890,7 @@
     <string name="privacy_settings_blue_scan_connect">Підключення до пристроїв неподалік</string>
     <string name="privacy_settings_call_phone">Здійснення викликів</string>
     <string name="privacy_settings_call_phone_description">Для здійснення викликів за допомогою ярликів на робочому столі</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Для здійснення викликів у сторонніх програмах</string>
-    <string name="privacy_settings_call_phone_for_pad">Здійснення викликів</string>
     <string name="privacy_settings_contacts">Контакти та Телефон</string>
-    <string name="privacy_settings_contacts_for_pad">Конфіденційність</string>
     <string name="privacy_settings_mallowed">Надано</string>
     <string name="privacy_settings_mnotallowed">Не надано</string>
     <string name="privacy_settings_permission_description">Інформація про дозволи</string>
@@ -954,19 +962,13 @@
     <string name="return_call_dialing">Виклик</string>
     <string name="return_call_incoming">Вхідний виклик</string>
     <string name="ringLabelsGroup">Мелодія</string>
-    <string name="saf_permission_dialog_content">Android за замовчуванням не надає Контактам та Телефону доступ до записів викликів. Для того, щоб ці програми мали можливість переглядати записи викликів спочатку надайте їм до доступ до записів.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Дозволити</string>
-    <string name="saf_permission_dialog_later">Пізніше</string>
-    <string name="saf_permission_dialog_title">Надати Контактам та Телефону доступ до записів викликів</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Сб</string>
     <string name="saturday_shortest">Сб</string>
-    <string name="savingContact">Збереження контакту…</string>
     <string name="savingDisplayGroups">Варіанти відображення зберігаються…</string>
     <string name="scan_business_card">Сканувати візитку</string>
     <string name="scan_bussiness_card_merge_tip">Суперечливі дані були замінені</string>
     <string name="scan_merge">Пошук можливих дублікатів контактів…</string>
-    <string name="scan_not_installed_china">Спочатку встановіть Mi AI Scanner</string>
     <string name="scan_not_installed_china_ai">Щоб використовувати цю функцією, встановіть ШІ-сканер</string>
     <string name="scan_not_installed_global">Спочатку встановіть Сканер</string>
     <string name="scan_qrcode_card_hint1">Відскануйте QR-код вище</string>
@@ -983,7 +985,6 @@
     <string name="select_all">Вибрати все</string>
     <string name="select_groups">Вибрати групи</string>
     <string name="select_vcard_title">Вибір файлу vCard</string>
-    <string name="send">Надіслати</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Ярлик вже існує</string>
     <string name="send_contact_shortcut_todesktop_failed">Не вдалося помістити ярлик на робочому столі</string>
     <string name="send_contact_shortcut_todesktop_overflow">Не вдалося помістити більше ярликів на робочому столі</string>
@@ -1071,6 +1072,7 @@
     <string name="sms_work_pager">SMS: робочий пейджер</string>
     <string name="special_code_security_exception">Не вдалося виконати дію. Це не ваша клавіатура за замовчуванням.</string>
     <string name="splitConfirmation_title">Розділення контакту</string>
+    <string name="split_screen_fab_toast">Перетягніть, щоб використати панель набору номера</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Відзначені</string>

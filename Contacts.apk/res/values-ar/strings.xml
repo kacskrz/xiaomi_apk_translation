@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">التوجه إلى المنزل</string>
     <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
-    <string name="abc_action_menu_overflow_description">خيارات أكثر</string>
     <string name="abc_action_mode_done">تم</string>
     <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
     <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">القائمة+</string>
     <string name="abc_search_hint">بحث…</string>
     <string name="abc_searchview_description_clear">محو طلب البحث</string>
-    <string name="abc_searchview_description_query">طلب بحث</string>
     <string name="abc_searchview_description_search">البحث</string>
     <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
     <string name="abc_searchview_description_voice">بحث صوتي</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">لا يمكن العثور على بطاقة SIM مزدوجه</string>
     <string name="bind_simcard_not_set">غير معين</string>
     <string name="bind_simcard_title">بطاقة SIM الافتراضية للمكالمات</string>
-    <string name="bluetooth_chat">الاتصال عبر الأجهزة</string>
+    <string name="bluetooth_chat">اتصال Xiaomi دون اتصال بالإنترنت</string>
     <string name="bluetooth_connection_failed_toast">تقطع اتصال البلوتوث</string>
     <string name="blurbJoinContactDataWith">اختر جهة الاتصال التي ترغب في دمجها مع %s:</string>
+    <string name="bottomsheet_action_collapse">أغلاق الورقة السفلية</string>
+    <string name="bottomsheet_action_expand">فتح الورقة السفلية</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع الى المنتصف</string>
+    <string name="bottomsheet_drag_handle_clicked">مقبض السحب يتم النقر عليه مرتين</string>
+    <string name="bottomsheet_drag_handle_content_description">مقبض السحب</string>
     <string name="btn_split_contact">فصل</string>
     <string name="button_cancel_scan">إيقاف</string>
     <string name="button_scan">إعادة المسح</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">مساعد المكالمات Mi AI</string>
     <string name="cancel">إلغاء</string>
     <string name="cancel_confirmation_dialog_message">تجاهل هذه التغييرات؟</string>
+    <string name="cancel_confirmation_dialog_separate">متابعة التحرير</string>
     <string name="cancel_confirmation_dialog_title">تجاهل التغييرات</string>
     <string name="cancel_export_confirmation_message">هل ترغب في إلغاء تصدير %s؟</string>
     <string name="cancel_import_confirmation_message">هل ترغب في إلغاء استيراد %s؟</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">مكالمة مسجلة</string>
     <string name="contact_detail_calllog_correct_yellow_page">تصحيح أو إبلاغ</string>
     <string name="contact_detail_calllog_empty">لا يوجد سجل</string>
-    <string name="contact_detail_entry_pay">إرسال الأموال</string>
-    <string name="contact_detail_entry_pay_dialog_title">حدد رقم الهاتف</string>
-    <string name="contact_detail_entry_pay_request">طلب المال</string>
     <string name="contact_detail_menu_delete_miprofile">حذف البطاقة</string>
     <string name="contact_detail_miprofile_subtitle">بطاقات متبادلة مسبقا</string>
     <string name="contact_detail_more_calllog">عرض المزيد</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">تحديد طريقه الاستيراد</string>
     <string name="contact_is_deleted">تم حذف جهة الاتصال هذه</string>
     <string name="contact_is_readOnly">يتعذر تعديل جهات الاتصال المحددة للقراءة فقط</string>
-    <string name="contact_pick_photo">صورة</string>
     <string name="contact_search_history">السجل</string>
     <string name="contact_status_update_attribution">عبر %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s عبر %2$s</string>
@@ -557,7 +557,6 @@
     <string name="item_offical">رسمي</string>
     <string name="keep_local">عدم المزامنة</string>
     <string name="keep_local_btn">استخدم وحدة التخزين الداخلية للجهاز</string>
-    <string name="know">حسنا</string>
     <string name="label_custom_type">مخصص</string>
     <string name="label_no_duplicate_contacts">لم يتم العثور على تكرارات</string>
     <string name="label_notes">ملاحظات</string>
@@ -654,6 +653,17 @@
     <string name="miuix_appcompat_select_all_description">تحديد الكل</string>
     <string name="miuix_appcompat_select_item">تحديد العناصر</string>
     <string name="miuix_appcompat_show_dialog_description">نافذة منبثقة</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">مرّر للأسفل للإغلاق</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">اسحب لأسفل للتبديل إلى نصف الشاشة</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">اسحب لأسفل للتصغير</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">مرر لأعلى للتبديل إلى نصف الشاشة</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">اسحب لأعلى لتكبير الصورة</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">نصف الشاشة</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">تم التكبير</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">تم التصغير</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">التبديل إلى نصف الشاشة</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">تكبير</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">تصغير</string>
     <string name="miuix_item_view_role_description">التبويب</string>
     <string name="miuix_navigator_category_group_collapse">تقليص</string>
     <string name="miuix_navigator_category_group_expand">توسيع</string>
@@ -661,6 +671,7 @@
     <string name="miuix_navigator_multiple_choice">تحديد</string>
     <string name="miuix_navigator_navigator_switch_description">إخفاء الشريط الجانبي</string>
     <string name="miuix_navigator_toolbar_screen_bottom">شريط الأدوات في أسفل الشاشة</string>
+    <string name="miuix_popup_window_default_title">نافذة منبثقة</string>
     <string name="miuix_progressbar_loading">تحميل</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">اسحب لأسفل للتحديث</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">تم التحديث بنجاح</string>
@@ -880,10 +891,7 @@
     <string name="privacy_settings_blue_scan_connect">الاتصال بالأجهزة القريبة</string>
     <string name="privacy_settings_call_phone">إجراء مكالمات</string>
     <string name="privacy_settings_call_phone_description">لإجراء مكالمات من اختصار الشاشة الرئيسية</string>
-    <string name="privacy_settings_call_phone_description_for_pad">لإجراء مكالمات في تطبيقات الجهات الخارجية</string>
-    <string name="privacy_settings_call_phone_for_pad">إجراء مكالمات</string>
     <string name="privacy_settings_contacts">جهات الاتصال والهاتف</string>
-    <string name="privacy_settings_contacts_for_pad">الخصوصية</string>
     <string name="privacy_settings_mallowed">ممنوح</string>
     <string name="privacy_settings_mnotallowed">غير ممنوح</string>
     <string name="privacy_settings_permission_description">تفاصيل الأذونات</string>
@@ -955,19 +963,13 @@
     <string name="return_call_dialing">إتصال</string>
     <string name="return_call_incoming">مكالمة واردة</string>
     <string name="ringLabelsGroup">نغمة الرنين</string>
-    <string name="saf_permission_dialog_content">يقيد نظام Android افتراضيا جهات الاتصال والهاتف الوصول إلى تسجيل المكالمات. يرجى منح هذه التطبيقات أذن الوصول إلى تسجيل المكالمات لتتمكن من عرضها.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">السماح</string>
-    <string name="saf_permission_dialog_later">لاحقا</string>
-    <string name="saf_permission_dialog_title">السماح لجهات الاتصال والهاتف بالوصول إلى تسجيل المكالمات</string>
     <string name="saturday">السبت</string>
     <string name="saturday_short">السبت</string>
     <string name="saturday_shortest">السبت</string>
-    <string name="savingContact">جارٍ حفظ جهة الاتصال…</string>
     <string name="savingDisplayGroups">جارٍ حفظ خيارات العرض…</string>
     <string name="scan_business_card">مسح بطاقة أعمال</string>
     <string name="scan_bussiness_card_merge_tip">تم استبدال البيانات المتعارضة</string>
     <string name="scan_merge">\"البحث عن جهات الاتصال المكررة…\"</string>
-    <string name="scan_not_installed_china">ثبت Mi AI Scanner أولا</string>
     <string name="scan_not_installed_china_ai">ثبت الماسح الضوئي AI أولا لتتمكن من استخدام هذه الميزة</string>
     <string name="scan_not_installed_global">ثبت الماسح الضوئي أولاً</string>
     <string name="scan_qrcode_card_hint1">امسح رمز QR الموجود بالأعلى</string>
@@ -984,7 +986,6 @@
     <string name="select_all">تحديد الكل</string>
     <string name="select_groups">تحديد مجموعات</string>
     <string name="select_vcard_title">اختر ملف vCard</string>
-    <string name="send">مشاركة</string>
     <string name="send_contact_shortcut_todesktop_duplicate">هذا الاختصار موجود مسبقاً</string>
     <string name="send_contact_shortcut_todesktop_failed">لا يمكن إضافة اختصار على الشاشة الرئيسية</string>
     <string name="send_contact_shortcut_todesktop_overflow">لا يمكن إنشاء المزيد من الاختصارات على الشاشة الرئيسية</string>
@@ -1072,6 +1073,7 @@
     <string name="sms_work_pager">إرسال رسالة إلى جهاز النداء الخاص بالعمل</string>
     <string name="special_code_security_exception">فشل الإجراء. هذه ليست لوحة المفاتيح الافتراضية.</string>
     <string name="splitConfirmation_title">هل تريد فصل جهة الاتصال؟</string>
+    <string name="split_screen_fab_toast">اسحب لأستخدام لوحة الاتصالات</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">المفضلة</string>

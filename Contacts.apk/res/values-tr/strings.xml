@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Eve gidiş yolunu göster</string>
     <string name="abc_action_bar_up_description">Yukarı git</string>
-    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
     <string name="abc_action_mode_done">Bitti</string>
     <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
     <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menü+</string>
     <string name="abc_search_hint">Ara…</string>
     <string name="abc_searchview_description_clear">Sorguyu temizle</string>
-    <string name="abc_searchview_description_query">Arama sorgusu</string>
     <string name="abc_searchview_description_search">Ara</string>
     <string name="abc_searchview_description_submit">Sorguyu gönder</string>
     <string name="abc_searchview_description_voice">Sesli arama</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Çift SIM bulunamadı</string>
     <string name="bind_simcard_not_set">Ayarlı değil</string>
     <string name="bind_simcard_title">Çağrılar için varsayılan SİM</string>
-    <string name="bluetooth_chat">Cihazlar arası iletişim</string>
+    <string name="bluetooth_chat">Xiaomi Çevrim Dışı İletişim</string>
     <string name="bluetooth_connection_failed_toast">Bluetooth bağlantısı kesildi</string>
     <string name="blurbJoinContactDataWith">%s adlı kişi ile birleştirmek istediğiniz kişiyi seçin:</string>
+    <string name="bottomsheet_action_collapse">Alt sayfayı daralt</string>
+    <string name="bottomsheet_action_expand">Alt sayfayı genişlet</string>
+    <string name="bottomsheet_action_expand_halfway">Yarıya kadar genişlet</string>
+    <string name="bottomsheet_drag_handle_clicked">Sürükleme koluna çift dokunuldu</string>
+    <string name="bottomsheet_drag_handle_content_description">Sürükleme kolu</string>
     <string name="btn_split_contact">Ayır</string>
     <string name="button_cancel_scan">Durdur</string>
     <string name="button_scan">Yeniden tara</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Mi AI Arama Asistanı</string>
     <string name="cancel">İptal</string>
     <string name="cancel_confirmation_dialog_message">Değişiklikler yok sayılsın mı?</string>
+    <string name="cancel_confirmation_dialog_separate">Düzenlemeye devam et</string>
     <string name="cancel_confirmation_dialog_title">Değişiklikleri yok say</string>
     <string name="cancel_export_confirmation_message">%s dosyasının dışa aktarımı iptal edilsin mi?</string>
     <string name="cancel_import_confirmation_message">%s dosyasının içe aktarımı iptal edilsin mi?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Kaydedilen aramalar</string>
     <string name="contact_detail_calllog_correct_yellow_page">Düzelt veya bildir</string>
     <string name="contact_detail_calllog_empty">Geçmiş yok</string>
-    <string name="contact_detail_entry_pay">Para gönder</string>
-    <string name="contact_detail_entry_pay_dialog_title">Telefon numarası seçin</string>
-    <string name="contact_detail_entry_pay_request">Para iste</string>
     <string name="contact_detail_menu_delete_miprofile">Kartı sil</string>
     <string name="contact_detail_miprofile_subtitle">Kartlar zaten değiştirildi</string>
     <string name="contact_detail_more_calllog">Daha fazla göster</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">İçe aktarım yöntemini seçin</string>
     <string name="contact_is_deleted">Bu kişi silindi</string>
     <string name="contact_is_readOnly">Salt-okunur kişi kayıtları düzenlenemiyor</string>
-    <string name="contact_pick_photo">Fotoğraf</string>
     <string name="contact_search_history">Geçmiş</string>
     <string name="contact_status_update_attribution">%1$s ile</string>
     <string name="contact_status_update_attribution_with_date">%1$s, %2$s ile</string>
@@ -556,7 +556,6 @@ Neden: \"%s\""</string>
     <string name="item_offical">Resmî</string>
     <string name="keep_local">Senkronize etme</string>
     <string name="keep_local_btn">Cihazın dahili depolama alanını kullan</string>
-    <string name="know">Anladım</string>
     <string name="label_custom_type">Özel</string>
     <string name="label_no_duplicate_contacts">Çoklu kişi kaydı yok</string>
     <string name="label_notes">Notlar</string>
@@ -653,6 +652,17 @@ Neden: \"%s\""</string>
     <string name="miuix_appcompat_select_all_description">Tümünü seç</string>
     <string name="miuix_appcompat_select_item">Ögeleri seç</string>
     <string name="miuix_appcompat_show_dialog_description">Açılır pencere</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Kapatmak için aşağı kaydır</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Yarım ekrana geçmek için aşağı kaydır</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Küçültmek için aşağı kaydır</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Yarım ekrana geçmek için yukarı kaydır</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Büyütmek için yukarı kaydır</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Yarım ekran</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Büyütüldü</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Küçültüldü</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Yarım ekrana geç</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Büyüt</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Küçült</string>
     <string name="miuix_item_view_role_description">Sekme</string>
     <string name="miuix_navigator_category_group_collapse">Daralt</string>
     <string name="miuix_navigator_category_group_expand">Genişlet</string>
@@ -660,6 +670,7 @@ Neden: \"%s\""</string>
     <string name="miuix_navigator_multiple_choice">Seç</string>
     <string name="miuix_navigator_navigator_switch_description">Kenar çubuğunu gizle</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Ekranın alt kısmındaki araç çubuğu</string>
+    <string name="miuix_popup_window_default_title">Açılır pencere</string>
     <string name="miuix_progressbar_loading">Yükleniyor</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yenilemek için aşağı çekin</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Başarıyla yenilendi</string>
@@ -879,10 +890,7 @@ Nasıl izin verilir
     <string name="privacy_settings_blue_scan_connect">Yakındaki cihazlara bağlan</string>
     <string name="privacy_settings_call_phone">Arama yap</string>
     <string name="privacy_settings_call_phone_description">Ana ekran kısayolu aracılığıyla arama yapmak için</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Üçüncü taraf uygulamalarda arama yapmak için</string>
-    <string name="privacy_settings_call_phone_for_pad">Arama yap</string>
     <string name="privacy_settings_contacts">Kişiler ve Telefon</string>
-    <string name="privacy_settings_contacts_for_pad">Gizlilik</string>
     <string name="privacy_settings_mallowed">İzin verildi</string>
     <string name="privacy_settings_mnotallowed">İzin verilmedi</string>
     <string name="privacy_settings_permission_description">İzin ayrıntıları</string>
@@ -954,19 +962,13 @@ Başlamak için ekranınızın altındaki ''Birleştir'' simgesine dokunun."</st
     <string name="return_call_dialing">Aranıyor</string>
     <string name="return_call_incoming">Gelen arama</string>
     <string name="ringLabelsGroup">Zil sesi</string>
-    <string name="saf_permission_dialog_content">"Android, varsayılan olarak Kişiler ve Telefon'un arama kayıtlarına erişmesine izin vermez. Arama kayıtlarını görüntüleyebilmek için bu uygulamaların onlara erişmesine izin verin."</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">İzin ver</string>
-    <string name="saf_permission_dialog_later">Daha sonra</string>
-    <string name="saf_permission_dialog_title">"Kişiler ve Telefon'a arama kayıtlarına erişim izni ver"</string>
     <string name="saturday">Cumartesi</string>
     <string name="saturday_short">Cts</string>
     <string name="saturday_shortest">Cts</string>
-    <string name="savingContact">Kişi kaydediliyor…</string>
     <string name="savingDisplayGroups">Görüntüleme seçenekleri kaydediliyor…</string>
     <string name="scan_business_card">Kartviziti tara</string>
     <string name="scan_bussiness_card_merge_tip">Çelişen veriler değiştirildi</string>
     <string name="scan_merge">\"Çoklu kişi kayıtları aranıyor…\"</string>
-    <string name="scan_not_installed_china">"Önce Mi AI Scanner'ı yükleyin"</string>
     <string name="scan_not_installed_china_ai">"Bu özelliği kullanabilmek için AI Tarayıcı'yı yükleyin"</string>
     <string name="scan_not_installed_global">"Önce Tarayıcı'yı yükleyin"</string>
     <string name="scan_qrcode_card_hint1">Yukarıdaki QR kodunu tarayın</string>
@@ -983,7 +985,6 @@ Başlamak için ekranınızın altındaki ''Birleştir'' simgesine dokunun."</st
     <string name="select_all">Tümünü seç</string>
     <string name="select_groups">Grupları seçin</string>
     <string name="select_vcard_title">vCard dosyası seçin</string>
-    <string name="send">Gönder</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Bu kısayol zaten mevcut</string>
     <string name="send_contact_shortcut_todesktop_failed">Ana ekranda kısayol yerleştirilemedi</string>
     <string name="send_contact_shortcut_todesktop_overflow">Ana ekranda daha fazla kısayol yerleştirilemiyor</string>
@@ -1071,6 +1072,7 @@ Başlamak için ekranınızın altındaki ''Birleştir'' simgesine dokunun."</st
     <string name="sms_work_pager">İş çağrı cihazına mesaj gönder</string>
     <string name="special_code_security_exception">İşlem tamamlanamadı. Bu sizin varsayılan tuş takımınız değil.</string>
     <string name="splitConfirmation_title">Kişi ayrılsın mı?</string>
+    <string name="split_screen_fab_toast">Tuş takımını kullanmak için sürükleyin</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Yıldızlı</string>

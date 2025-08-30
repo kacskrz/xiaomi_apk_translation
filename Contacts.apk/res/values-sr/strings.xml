@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Идите на почетну</string>
     <string name="abc_action_bar_up_description">Идите нагоре</string>
-    <string name="abc_action_menu_overflow_description">Још опција</string>
     <string name="abc_action_mode_done">Готово</string>
     <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
     <string name="abc_activitychooserview_choose_application">Изаберите апликацију</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Претражите…</string>
     <string name="abc_searchview_description_clear">Обришите упит</string>
-    <string name="abc_searchview_description_query">Претражите упит</string>
     <string name="abc_searchview_description_search">Претражите</string>
     <string name="abc_searchview_description_submit">Пошаљите упит</string>
     <string name="abc_searchview_description_voice">Гласовна претрага</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Није пронађен двојни SIM</string>
     <string name="bind_simcard_not_set">Није постављено</string>
     <string name="bind_simcard_title">Задати SIM за позиве</string>
-    <string name="bluetooth_chat">Комуникација између уређаја</string>
+    <string name="bluetooth_chat">Xiaomi офлајн комуникација</string>
     <string name="bluetooth_connection_failed_toast">Веза са Bluetooth-ом је прекинута</string>
     <string name="blurbJoinContactDataWith">Изаберите контакт са којим желите да се спојите %s:</string>
+    <string name="bottomsheet_action_collapse">Скупи доњи лист</string>
+    <string name="bottomsheet_action_expand">Прошири доњи лист</string>
+    <string name="bottomsheet_action_expand_halfway">Прошири до пола</string>
+    <string name="bottomsheet_drag_handle_clicked">Дупли додир на ручку за повлачење</string>
+    <string name="bottomsheet_drag_handle_content_description">Ручка за повлачење</string>
     <string name="btn_split_contact">Одвоји</string>
     <string name="button_cancel_scan">Стоп</string>
     <string name="button_scan">Скенирај опет</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Mi AI помоћник за позивање</string>
     <string name="cancel">Откажи</string>
     <string name="cancel_confirmation_dialog_message">Одбацити промене?</string>
+    <string name="cancel_confirmation_dialog_separate">Настави уређивање</string>
     <string name="cancel_confirmation_dialog_title">Одбаци промене</string>
     <string name="cancel_export_confirmation_message">Отказати извоз %s?</string>
     <string name="cancel_import_confirmation_message">Отказати увоз %s?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Снимљени позив</string>
     <string name="contact_detail_calllog_correct_yellow_page">Исправите или пријавите</string>
     <string name="contact_detail_calllog_empty">Нема историје</string>
-    <string name="contact_detail_entry_pay">Шаљи новац</string>
-    <string name="contact_detail_entry_pay_dialog_title">Одаберите број телефона</string>
-    <string name="contact_detail_entry_pay_request">Захтев за новац</string>
     <string name="contact_detail_menu_delete_miprofile">Обриши картицу</string>
     <string name="contact_detail_miprofile_subtitle">Већ размењене картице</string>
     <string name="contact_detail_more_calllog">Прикажи више</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">Изаберите метод увоза</string>
     <string name="contact_is_deleted">Контакт је обрисан</string>
     <string name="contact_is_readOnly">Не могу се уредити read-only контакти</string>
-    <string name="contact_pick_photo">Слика</string>
     <string name="contact_search_history">Историја</string>
     <string name="contact_status_update_attribution">преко %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s преко %2$s</string>
@@ -556,7 +556,6 @@
     <string name="item_offical">Званично</string>
     <string name="keep_local">Не синхронизуј</string>
     <string name="keep_local_btn">Користи унутрашње складиште уређаја</string>
-    <string name="know">Схватам</string>
     <string name="label_custom_type">Задато</string>
     <string name="label_no_duplicate_contacts">Дупликати нису пронађени</string>
     <string name="label_notes">Белешке</string>
@@ -653,6 +652,17 @@
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
     <string name="miuix_appcompat_select_item">Одаберите ставке</string>
     <string name="miuix_appcompat_show_dialog_description">Искачући прозор</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Превуците надоле за затварање</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Превуците надоле за пребацивање на пола екрана</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Превуците надоле да умањите</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Превуците надоле да пребаците на пола екрана</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Превуците надоле да увећате</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Пола екрана</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Повећано</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Умањено</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Пребаци на пола екрана</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Повећај</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Умањи</string>
     <string name="miuix_item_view_role_description">Картица</string>
     <string name="miuix_navigator_category_group_collapse">Скупи</string>
     <string name="miuix_navigator_category_group_expand">Рашири</string>
@@ -660,6 +670,7 @@
     <string name="miuix_navigator_multiple_choice">Изаберите</string>
     <string name="miuix_navigator_navigator_switch_description">Сакриј бочну траку</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Трака са алатима на дну екрана</string>
+    <string name="miuix_popup_window_default_title">Искачући прозор</string>
     <string name="miuix_progressbar_loading">Учитавање</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
@@ -879,10 +890,7 @@
     <string name="privacy_settings_blue_scan_connect">Повежи се са уређајима у близини</string>
     <string name="privacy_settings_call_phone">Позивај</string>
     <string name="privacy_settings_call_phone_description">За упућивање позива преко Пречица на почетном екрану</string>
-    <string name="privacy_settings_call_phone_description_for_pad">За упућивање позива у апликацијама трећих страна</string>
-    <string name="privacy_settings_call_phone_for_pad">Позивај</string>
     <string name="privacy_settings_contacts">Контакти и Телефон</string>
-    <string name="privacy_settings_contacts_for_pad">Приватност</string>
     <string name="privacy_settings_mallowed">Одобрено</string>
     <string name="privacy_settings_mnotallowed">Није одобрено</string>
     <string name="privacy_settings_permission_description">Детаљи о дозволама</string>
@@ -954,19 +962,13 @@
     <string name="return_call_dialing">Позивање</string>
     <string name="return_call_incoming">Долазни позив</string>
     <string name="ringLabelsGroup">Мелодија звона</string>
-    <string name="saf_permission_dialog_content">Android не дозвољава да Контакти и Телефон приступају снимцима позива. Допустите овим апликацијама да приступе снимцима позива како бисте их могли видети.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Дозволи</string>
-    <string name="saf_permission_dialog_later">Касније</string>
-    <string name="saf_permission_dialog_title">Дозволите да Контакти и Телефон приступе снимцима позива</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
-    <string name="savingContact">Чување контакта…</string>
     <string name="savingDisplayGroups">Чување опција екрана…</string>
     <string name="scan_business_card">Скенирај визит-картицу</string>
     <string name="scan_bussiness_card_merge_tip">Конфликтни подаци су замењени</string>
     <string name="scan_merge">\"Претраживање дуплих контаката…\"</string>
-    <string name="scan_not_installed_china">Прво инсталирајте Mi AI Scanner</string>
     <string name="scan_not_installed_china_ai">Инсталирајте AI скенер да бисте могли да користите ову функцију</string>
     <string name="scan_not_installed_global">Прво инсталирајте Скенер</string>
     <string name="scan_qrcode_card_hint1">Скенирајте горњи QR код</string>
@@ -983,7 +985,6 @@
     <string name="select_all">Изабери све</string>
     <string name="select_groups">Изаберите групе</string>
     <string name="select_vcard_title">Изаберите vCard фајл</string>
-    <string name="send">Пошаљи</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Ова пречица већ постоји</string>
     <string name="send_contact_shortcut_todesktop_failed">Пречица није креирана на Почетном екрану</string>
     <string name="send_contact_shortcut_todesktop_overflow">Не може се поставити више пречица на Почетном екрану</string>
@@ -1071,6 +1072,7 @@
     <string name="sms_work_pager">Позови пословни пејџер</string>
     <string name="special_code_security_exception">Радња се не може извршити. Ово није задата нумеричка тастатура.</string>
     <string name="splitConfirmation_title">Одвојити контакт?</string>
+    <string name="split_screen_fab_toast">Превуците да бисте користили бројчаник</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Са звездицом</string>

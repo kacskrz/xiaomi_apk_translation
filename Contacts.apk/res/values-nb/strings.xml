@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Naviger hjem</string>
     <string name="abc_action_bar_up_description">Gå opp</string>
-    <string name="abc_action_menu_overflow_description">Flere alternativer</string>
     <string name="abc_action_mode_done">Ferdig</string>
     <string name="abc_activity_chooser_view_see_all">Se alle</string>
     <string name="abc_activitychooserview_choose_application">Velg en app</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Meny+</string>
     <string name="abc_search_hint">Søk</string>
     <string name="abc_searchview_description_clear">Slett søket</string>
-    <string name="abc_searchview_description_query">Søkeord</string>
     <string name="abc_searchview_description_search">Søk</string>
     <string name="abc_searchview_description_submit">Utfør søket</string>
     <string name="abc_searchview_description_voice">Talesøk</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Kunne ikke finne Dual-SIM</string>
     <string name="bind_simcard_not_set">Ikke angitt</string>
     <string name="bind_simcard_title">Standard SIM-kort for anrop</string>
-    <string name="bluetooth_chat">Kommunikasjon på tvers av enheter</string>
+    <string name="bluetooth_chat">Xiaomi Offline Communication</string>
     <string name="bluetooth_connection_failed_toast">Bluetooth-forbindelse forstyrret</string>
     <string name="blurbJoinContactDataWith">Velg kontakten du ønsker å slå sammen med %s:</string>
+    <string name="bottomsheet_action_collapse">Skjul arket nederst</string>
+    <string name="bottomsheet_action_expand">Vis arket nederst</string>
+    <string name="bottomsheet_action_expand_halfway">Ekspander halvveis</string>
+    <string name="bottomsheet_drag_handle_clicked">Dra-håndtaket dobbelttrykket</string>
+    <string name="bottomsheet_drag_handle_content_description">Dra i håndtak</string>
     <string name="btn_split_contact">Separer</string>
     <string name="button_cancel_scan">Stopp</string>
     <string name="button_scan">Skann på nytt</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Mi AI ringeassistent</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_confirmation_dialog_message">Forkaste endringer?</string>
+    <string name="cancel_confirmation_dialog_separate">Fortsett redigering</string>
     <string name="cancel_confirmation_dialog_title">Forkast endringer</string>
     <string name="cancel_export_confirmation_message">Avbryte eksportering av %s?</string>
     <string name="cancel_import_confirmation_message">Avbryt importering av %s?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Innspilt samtale</string>
     <string name="contact_detail_calllog_correct_yellow_page">Korriger eller rapporter</string>
     <string name="contact_detail_calllog_empty">Ingen historikk</string>
-    <string name="contact_detail_entry_pay">Send penger</string>
-    <string name="contact_detail_entry_pay_dialog_title">Velg telefonnummer</string>
-    <string name="contact_detail_entry_pay_request">Be om penger</string>
     <string name="contact_detail_menu_delete_miprofile">Slette kort</string>
     <string name="contact_detail_miprofile_subtitle">Allerede utvekslede kort</string>
     <string name="contact_detail_more_calllog">Vis mer</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">Velg måte å importere</string>
     <string name="contact_is_deleted">Denne kontakten er slettet</string>
     <string name="contact_is_readOnly">Kan ikke redigere skrivebeskyttede kontakter</string>
-    <string name="contact_pick_photo">Bilde</string>
     <string name="contact_search_history">Historikk</string>
     <string name="contact_status_update_attribution">via %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s via %2$s</string>
@@ -556,7 +556,6 @@
     <string name="item_offical">Offisiell</string>
     <string name="keep_local">Ikke synkroniser</string>
     <string name="keep_local_btn">Bruk enhetens internminne</string>
-    <string name="know">Greit</string>
     <string name="label_custom_type">Tilpasset</string>
     <string name="label_no_duplicate_contacts">Ingen duplikater funnet</string>
     <string name="label_notes">Notater</string>
@@ -653,6 +652,17 @@
     <string name="miuix_appcompat_select_all_description">Velg alle</string>
     <string name="miuix_appcompat_select_item">Velg elementer</string>
     <string name="miuix_appcompat_show_dialog_description">Popup-vindu</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Sveip ned for å lukke</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Sveip ned for å bytte til halv skjerm</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Sveip ned for å minimere</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Sveip opp for å bytte til halv skjerm</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Sveip ned for å maksimere</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Halv skjerm</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maksimert</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimert</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Bytt til halv skjerm</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimer</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimer</string>
     <string name="miuix_item_view_role_description">Fane</string>
     <string name="miuix_navigator_category_group_collapse">Skjul</string>
     <string name="miuix_navigator_category_group_expand">Utvid</string>
@@ -660,6 +670,7 @@
     <string name="miuix_navigator_multiple_choice">Velg</string>
     <string name="miuix_navigator_navigator_switch_description">Skjul sidelinje</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Verktøylinje nederst på skjermen</string>
+    <string name="miuix_popup_window_default_title">Popup-vindu</string>
     <string name="miuix_progressbar_loading">Laster</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra ned for å oppdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Oppdatert</string>
@@ -879,10 +890,7 @@ Trykk på «%1$s» og velg deretter «%2$s»."</string>
     <string name="privacy_settings_blue_scan_connect">Koble til enheter i nærheten</string>
     <string name="privacy_settings_call_phone">Ring</string>
     <string name="privacy_settings_call_phone_description">For å foreta anrop gjennom startskjermens snarveier</string>
-    <string name="privacy_settings_call_phone_description_for_pad">For å foreta anrop i tredjepartsapper</string>
-    <string name="privacy_settings_call_phone_for_pad">Ring</string>
     <string name="privacy_settings_contacts">Kontakter og telefon</string>
-    <string name="privacy_settings_contacts_for_pad">Personvern</string>
     <string name="privacy_settings_mallowed">Gitt</string>
     <string name="privacy_settings_mnotallowed">Ikke gitt</string>
     <string name="privacy_settings_permission_description">Detaljer for tillatelser</string>
@@ -954,19 +962,13 @@ Trykk på «Slå sammen» nederst på skjermen for å begynne."</string>
     <string name="return_call_dialing">Ringer</string>
     <string name="return_call_incoming">Innkommende anrop</string>
     <string name="ringLabelsGroup">Ringetone</string>
-    <string name="saf_permission_dialog_content">Android gir ikke kontakter og telefon tilgang til anropsopptak som standard. Gi disse appene tilgang til anropsopptak for å kunne vise dem.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Tillat</string>
-    <string name="saf_permission_dialog_later">Senere</string>
-    <string name="saf_permission_dialog_title">Gi kontakter og telefon tilgang til telefonopptak</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
-    <string name="savingContact">Lagrer kontakt…</string>
     <string name="savingDisplayGroups">Lagrer visningsvalg…</string>
     <string name="scan_business_card">Skann visittkort</string>
     <string name="scan_bussiness_card_merge_tip">Motstridende data har blitt erstattet</string>
     <string name="scan_merge">\"Søker etter duplikatkontakter…\"</string>
-    <string name="scan_not_installed_china">Installer Mi AI Scanner først</string>
     <string name="scan_not_installed_china_ai">Installer KI-skanner for å kunne bruke denne funksjonen</string>
     <string name="scan_not_installed_global">Installer skanner først</string>
     <string name="scan_qrcode_card_hint1">Skann QR-koden over</string>
@@ -983,7 +985,6 @@ Trykk på «Slå sammen» nederst på skjermen for å begynne."</string>
     <string name="select_all">Velg alle</string>
     <string name="select_groups">Velg grupper</string>
     <string name="select_vcard_title">Velg vCard-fil</string>
-    <string name="send">Send</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Denne snarveien finnes allerede</string>
     <string name="send_contact_shortcut_todesktop_failed">Kunne ikke plassere snarvei på Startskjerm</string>
     <string name="send_contact_shortcut_todesktop_overflow">Kan ikke plassere flere snarveier på Startskjerm</string>
@@ -1071,6 +1072,7 @@ Trykk på «Slå sammen» nederst på skjermen for å begynne."</string>
     <string name="sms_work_pager">Send melding til personsøker på jobb</string>
     <string name="special_code_security_exception">Kunne ikke fullføre handlingen. Dette er ikke ditt standard numeriske tastatur.</string>
     <string name="splitConfirmation_title">Separer kontakt?</string>
+    <string name="split_screen_fab_toast">Dra for å bruke nummertastaturet</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Med stjerne</string>

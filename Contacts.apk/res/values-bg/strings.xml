@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
     <string name="abc_action_bar_up_description">Навигиране нагоре</string>
-    <string name="abc_action_menu_overflow_description">Още опции</string>
     <string name="abc_action_mode_done">Готово</string>
     <string name="abc_activity_chooser_view_see_all">Преглед на всички</string>
     <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Търсете…</string>
     <string name="abc_searchview_description_clear">Изчистване на заявката</string>
-    <string name="abc_searchview_description_query">Заявка за търсене</string>
     <string name="abc_searchview_description_search">Търсене</string>
     <string name="abc_searchview_description_submit">Изпращане на заявката</string>
     <string name="abc_searchview_description_voice">Гласово търсене</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Не са открити две SIM карти</string>
     <string name="bind_simcard_not_set">Не е зададено</string>
     <string name="bind_simcard_title">SIM по подразбиране за обаждания</string>
-    <string name="bluetooth_chat">Комуникация между устройства</string>
+    <string name="bluetooth_chat">Xiaomi Offline Communication</string>
     <string name="bluetooth_connection_failed_toast">Bluetooth връзката е прекъсната</string>
     <string name="blurbJoinContactDataWith">Изберете контакта, който искате да обедините с %s:</string>
+    <string name="bottomsheet_action_collapse">Свий долния лист</string>
+    <string name="bottomsheet_action_expand">Разгъни долния лист</string>
+    <string name="bottomsheet_action_expand_halfway">Разшири наполовина</string>
+    <string name="bottomsheet_drag_handle_clicked">Двойно натисната дръжка за плъзгане</string>
+    <string name="bottomsheet_drag_handle_content_description">Дръжка за плъзгане</string>
     <string name="btn_split_contact">Раздели контакт</string>
     <string name="button_cancel_scan">Прекратяване</string>
     <string name="button_scan">Сканирай</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Mi AI Асистент за повиквания</string>
     <string name="cancel">Отказ</string>
     <string name="cancel_confirmation_dialog_message">Ще отмените ли промените?</string>
+    <string name="cancel_confirmation_dialog_separate">Продължете редактирането</string>
     <string name="cancel_confirmation_dialog_title">Отмяна на промените</string>
     <string name="cancel_export_confirmation_message">Ще отмените ли експортирането на %s?</string>
     <string name="cancel_import_confirmation_message">Ще отмените ли импортирането на %s?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Записани обаждания</string>
     <string name="contact_detail_calllog_correct_yellow_page">Коригирайте или докладвайте</string>
     <string name="contact_detail_calllog_empty">Няма хронология</string>
-    <string name="contact_detail_entry_pay">Изпратете пари</string>
-    <string name="contact_detail_entry_pay_dialog_title">Изберете телефонен номер</string>
-    <string name="contact_detail_entry_pay_request">Поискайте пари</string>
     <string name="contact_detail_menu_delete_miprofile">Изтрий картата</string>
     <string name="contact_detail_miprofile_subtitle">Вече обменихте карти</string>
     <string name="contact_detail_more_calllog">Покажи още</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">Изберете метод на импортиране</string>
     <string name="contact_is_deleted">Този контакт беше изтрит</string>
     <string name="contact_is_readOnly">Контакт само за четене не може да се редактира</string>
-    <string name="contact_pick_photo">Снимка</string>
     <string name="contact_search_history">Хронология</string>
     <string name="contact_status_update_attribution">чрез %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s чрез %2$s</string>
@@ -556,7 +556,6 @@
     <string name="item_offical">Официален</string>
     <string name="keep_local">Съхрани локално</string>
     <string name="keep_local_btn">Използване на вътрешната памет на устройството</string>
-    <string name="know">Разбрах</string>
     <string name="label_custom_type">Потребителски</string>
     <string name="label_no_duplicate_contacts">Отлично! Няма дублиращи се контакти за момента!</string>
     <string name="label_notes">Бележки</string>
@@ -653,6 +652,17 @@
     <string name="miuix_appcompat_select_all_description">Избери всички</string>
     <string name="miuix_appcompat_select_item">Изберете елементи</string>
     <string name="miuix_appcompat_show_dialog_description">Изскачащ прозорец</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Плъзни надолу за затваряне</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Плъзни надолу за половин екран</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Плъзни надолу за минимизиране</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Плъзни нагоре за половин екран</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Плъзни нагоре за максимизиране</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Половин екран</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Максимизиран</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Минимизиран</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Преминаване към половин екран</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Максимизиране</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Минимизиране</string>
     <string name="miuix_item_view_role_description">Таб</string>
     <string name="miuix_navigator_category_group_collapse">Скрий</string>
     <string name="miuix_navigator_category_group_expand">Разширяване</string>
@@ -660,6 +670,7 @@
     <string name="miuix_navigator_multiple_choice">Избиране</string>
     <string name="miuix_navigator_navigator_switch_description">Скриване на страничната лента</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Лента с инструменти в долната част на екрана</string>
+    <string name="miuix_popup_window_default_title">Изскачащ прозорец</string>
     <string name="miuix_progressbar_loading">Зареждане</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
@@ -879,10 +890,7 @@
     <string name="privacy_settings_blue_scan_connect">Свързване към устройства наблизо</string>
     <string name="privacy_settings_call_phone">Провеждане на повиквания</string>
     <string name="privacy_settings_call_phone_description">За провеждане на телефонни повиквания чрез Преки пътища на Началния екран</string>
-    <string name="privacy_settings_call_phone_description_for_pad">За провеждане на повиквания в приложения от трета страна</string>
-    <string name="privacy_settings_call_phone_for_pad">Провеждане на повиквания</string>
     <string name="privacy_settings_contacts">Контакти и Телефон</string>
-    <string name="privacy_settings_contacts_for_pad">Поверителност</string>
     <string name="privacy_settings_mallowed">Позволено</string>
     <string name="privacy_settings_mnotallowed">Не е позволено</string>
     <string name="privacy_settings_permission_description">Подробности за разрешения</string>
@@ -954,19 +962,13 @@
     <string name="return_call_dialing">Набиране</string>
     <string name="return_call_incoming">Входящо повикване</string>
     <string name="ringLabelsGroup">Мелодия</string>
-    <string name="saf_permission_dialog_content">Android не разрешава на Контакти и Телефон да получават достъп до записи на повиквания по подразбиране. Разрешете на тези приложения да получават достъп до записите на повиквания, за да можете да ги преглеждате.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Разреши</string>
-    <string name="saf_permission_dialog_later">Не сега</string>
-    <string name="saf_permission_dialog_title">Разрешете на Контакти и Телефон да получават достъп до записи на повиквания</string>
     <string name="saturday">Събота</string>
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
-    <string name="savingContact">Записване на контакт…</string>
     <string name="savingDisplayGroups">Записване настройките на изгледа…</string>
     <string name="scan_business_card">Сканирайте визитна картичка</string>
     <string name="scan_bussiness_card_merge_tip">Конфликтната информация е заменена</string>
     <string name="scan_merge">\"Търсене за дублиращи се контакти…\"</string>
-    <string name="scan_not_installed_china">Първо инсталирайте Mi AI Скенер</string>
     <string name="scan_not_installed_china_ai">Инсталирайте AI Скенер, за да можете да използвате тази функция</string>
     <string name="scan_not_installed_global">Първо инсталирайте Скенер</string>
     <string name="scan_qrcode_card_hint1">Сканирайте QR кода</string>
@@ -983,7 +985,6 @@
     <string name="select_all">Избери всички</string>
     <string name="select_groups">Избери групи</string>
     <string name="select_vcard_title">Избери файл с визитка</string>
-    <string name="send">Изпращане</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Този пряк път вече съществува</string>
     <string name="send_contact_shortcut_todesktop_failed">Неуспешно създаване на пряк път на Началния екран</string>
     <string name="send_contact_shortcut_todesktop_overflow">Не можете да създавате повече преки пътища на Началния екран</string>
@@ -1071,6 +1072,7 @@
     <string name="sms_work_pager">SMS: до сл. пейджър</string>
     <string name="special_code_security_exception">Не може да се завърши действието. Това не е вашето приложение за набиране по подразбиране.</string>
     <string name="splitConfirmation_title">Този контакт ще бъде разделен на няколко контакта.</string>
+    <string name="split_screen_fab_toast">Плъзнете, за да използвате клавиатурата за набиране</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Любими</string>

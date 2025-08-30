@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">"Navega fins a la pàgina d'inici"</string>
     <string name="abc_action_bar_up_description">Navega cap amunt</string>
-    <string name="abc_action_menu_overflow_description">Més opcions</string>
     <string name="abc_action_mode_done">Fet</string>
     <string name="abc_activity_chooser_view_see_all">Mostra-ho tot</string>
     <string name="abc_activitychooserview_choose_application">Selecciona una aplicació</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menú+</string>
     <string name="abc_search_hint">Cerca…</string>
     <string name="abc_searchview_description_clear">Esborra la consulta</string>
-    <string name="abc_searchview_description_query">Consulta de cerca</string>
     <string name="abc_searchview_description_search">Cerca</string>
     <string name="abc_searchview_description_submit">Envia la consulta</string>
     <string name="abc_searchview_description_voice">Cerca per veu</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">"No s'ha pogut trobar la Doble SIM"</string>
     <string name="bind_simcard_not_set">"No s'ha configurat"</string>
     <string name="bind_simcard_title">SIM predeterminada per a les trucades</string>
-    <string name="bluetooth_chat">Comunicació entre dispositius</string>
+    <string name="bluetooth_chat">Comunicació fora de línia de Xiaomi</string>
     <string name="bluetooth_connection_failed_toast">Connexió Bluetooth interrompuda</string>
     <string name="blurbJoinContactDataWith">Seleccioneu el contacte que voleu combinar amb %s:</string>
+    <string name="bottomsheet_action_collapse">Replega el full inferior</string>
+    <string name="bottomsheet_action_expand">Amplieu el full inferior</string>
+    <string name="bottomsheet_action_expand_halfway">Expandeix a la meitat</string>
+    <string name="bottomsheet_drag_handle_clicked">Arrossegueu la maneta fent doble toc</string>
+    <string name="bottomsheet_drag_handle_content_description">Arrossegueu el mànec</string>
     <string name="btn_split_contact">Separa</string>
     <string name="button_cancel_scan">Atura</string>
     <string name="button_scan">Torna a escanejar</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Assistent de trucada Mi IA</string>
     <string name="cancel">Cancel·leu</string>
     <string name="cancel_confirmation_dialog_message">Descarteu els canvis?</string>
+    <string name="cancel_confirmation_dialog_separate">Continua editant</string>
     <string name="cancel_confirmation_dialog_title">Descarta els canvis</string>
     <string name="cancel_export_confirmation_message">"Cancel·lar l'exportació de %s?"</string>
     <string name="cancel_import_confirmation_message">"Cancel·lar l'importació de %s?"</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Trucada enregistrada</string>
     <string name="contact_detail_calllog_correct_yellow_page">Corregir o informar</string>
     <string name="contact_detail_calllog_empty">No hi ha historial</string>
-    <string name="contact_detail_entry_pay">Envia Diners</string>
-    <string name="contact_detail_entry_pay_dialog_title">Seleccioneu el número de telèfon</string>
-    <string name="contact_detail_entry_pay_request">Demana Diners</string>
     <string name="contact_detail_menu_delete_miprofile">Suprimeix la targeta</string>
     <string name="contact_detail_miprofile_subtitle">"Ja s'han intercanviat les targetes"</string>
     <string name="contact_detail_more_calllog">"Mostra'n més"</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">"Seleccionar mètode d'importació"</string>
     <string name="contact_is_deleted">Aquest contacte ha sigut eliminat</string>
     <string name="contact_is_readOnly">No es poden editar els contactes de només lectura</string>
-    <string name="contact_pick_photo">Foto</string>
     <string name="contact_search_history">Historial</string>
     <string name="contact_status_update_attribution">a través de %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s a través de %2$s</string>
@@ -556,7 +556,6 @@ Motiu: \"%s\""</string>
     <string name="item_offical">Oficial</string>
     <string name="keep_local">Mantén local</string>
     <string name="keep_local_btn">"Utilitzeu L'emmagatzematge intern del dispositiu"</string>
-    <string name="know">Entesos</string>
     <string name="label_custom_type">Personalitzat</string>
     <string name="label_no_duplicate_contacts">"No s'han trobat duplicats"</string>
     <string name="label_notes">Notes</string>
@@ -653,6 +652,17 @@ Motiu: \"%s\""</string>
     <string name="miuix_appcompat_select_all_description">Seleccioneu-ho tot</string>
     <string name="miuix_appcompat_select_item">Selecciona elements</string>
     <string name="miuix_appcompat_show_dialog_description">Finestra emergent</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Llisqueu cap avall per tancar</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Llisqueu cap avall per canviar a mitja pantalla</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Llisqueu cap avall per minimitzar</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Llisqueu cap amunt per canviar a mitja pantalla</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Llisqueu cap amunt per maximitzar</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Mitja pantalla</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximitzat</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimitzat</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Canvia a mitja pantalla</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximitza</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimitza</string>
     <string name="miuix_item_view_role_description">Tabulador</string>
     <string name="miuix_navigator_category_group_collapse">Replega</string>
     <string name="miuix_navigator_category_group_expand">Expandeix</string>
@@ -660,6 +670,7 @@ Motiu: \"%s\""</string>
     <string name="miuix_navigator_multiple_choice">Selecciona</string>
     <string name="miuix_navigator_navigator_switch_description">Amaga la barra lateral</string>
     <string name="miuix_navigator_toolbar_screen_bottom">"Barra d'eines a la part inferior de la pantalla"</string>
+    <string name="miuix_popup_window_default_title">Finestra emergent</string>
     <string name="miuix_progressbar_loading">Carregant</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tira cap avall per a refrescar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">"S'ha refrescat correctament"</string>
@@ -879,10 +890,7 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="privacy_settings_blue_scan_connect">Connecteu-vos a dispositius propers</string>
     <string name="privacy_settings_call_phone">Fer trucades</string>
     <string name="privacy_settings_call_phone_description">"Per fer trucades mitjançant les dreceres a la Pantalla d'inici"</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Per fer trucades en aplicacions de tercers</string>
-    <string name="privacy_settings_call_phone_for_pad">Fer trucades</string>
     <string name="privacy_settings_contacts">Contactes i Telèfon</string>
-    <string name="privacy_settings_contacts_for_pad">Privadesa</string>
     <string name="privacy_settings_mallowed">Concedit</string>
     <string name="privacy_settings_mnotallowed">Sense concedir</string>
     <string name="privacy_settings_permission_description">Detalls dels permisos</string>
@@ -954,19 +962,13 @@ Per començar, toqueu \"Combina\" a la part inferior de la pantalla."</string>
     <string name="return_call_dialing">Marcant</string>
     <string name="return_call_incoming">Trucada entrant</string>
     <string name="ringLabelsGroup">To de trucada</string>
-    <string name="saf_permission_dialog_content">Android no permet que Contactes i el Telèfon accedeixin a les gravacions de trucades de manera predeterminada. Permet que aquestes aplicacions accedeixin a les gravacions de trucades per poder-les veure.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Permetre</string>
-    <string name="saf_permission_dialog_later">Més tard</string>
-    <string name="saf_permission_dialog_title">Permet que Contactes i el Telèfon accedeixin als enregistraments de trucades</string>
     <string name="saturday">dissabte</string>
     <string name="saturday_short">ds.</string>
     <string name="saturday_shortest">ds.</string>
-    <string name="savingContact">Desant contacte…</string>
     <string name="savingDisplayGroups">Desant opcions de visualització…</string>
     <string name="scan_business_card">Escanegeu la targeta de visita</string>
     <string name="scan_bussiness_card_merge_tip">"S'han substituït les dades conflictives"</string>
     <string name="scan_merge">\"Cercant contactes duplicats…\"</string>
-    <string name="scan_not_installed_china">"Primer instal·la L'escàner Mi IA"</string>
     <string name="scan_not_installed_china_ai">Instal·leu Escàner amb IA per poder utilitzar aquesta funció</string>
     <string name="scan_not_installed_global">"Primer instal·la L'escàner"</string>
     <string name="scan_qrcode_card_hint1">Escaneja el codi QR de dalt</string>
@@ -983,7 +985,6 @@ Per començar, toqueu \"Combina\" a la part inferior de la pantalla."</string>
     <string name="select_all">Seleccioneu-ho tot</string>
     <string name="select_groups">Grups seleccionats</string>
     <string name="select_vcard_title">Trieu una vCard</string>
-    <string name="send">Envia</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Aquesta drecera ja existeix</string>
     <string name="send_contact_shortcut_todesktop_failed">"No s'ha pogut col·locar la drecera a la Pantalla d'inici"</string>
     <string name="send_contact_shortcut_todesktop_overflow">"No es poden col·locar més dreceres a la Pantalla d'inici"</string>
@@ -1071,6 +1072,7 @@ Per començar, toqueu \"Combina\" a la part inferior de la pantalla."</string>
     <string name="sms_work_pager">Text del cercador de treball</string>
     <string name="special_code_security_exception">"No s'ha pogut completar l'acció. Aquest no és el teu teclat de marcació per defecte."</string>
     <string name="splitConfirmation_title">Separar contacte?</string>
+    <string name="split_screen_fab_toast">Arrossegueu per utilitzar el teclat de marcatge</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Favorits</string>

@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
     <string name="abc_action_bar_up_description">กลับ</string>
-    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
     <string name="abc_action_mode_done">เสร็จ</string>
     <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
     <string name="abc_activitychooserview_choose_application">เลือกแอป</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">เมนู+</string>
     <string name="abc_search_hint">ค้นหา…</string>
     <string name="abc_searchview_description_clear">ล้างคำค้นหา</string>
-    <string name="abc_searchview_description_query">คำค้นหา</string>
     <string name="abc_searchview_description_search">ค้นหา</string>
     <string name="abc_searchview_description_submit">ส่งคำค้นหา</string>
     <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">ไม่พบซิมคู่</string>
     <string name="bind_simcard_not_set">ไม่มีกำหนด</string>
     <string name="bind_simcard_title">ซิมเริ่มต้นสำหรับการโทร</string>
-    <string name="bluetooth_chat">การสื่อสารข้ามอุปกรณ์</string>
+    <string name="bluetooth_chat">การสื่อสารแบบออฟไลน์ของ Xiaomi</string>
     <string name="bluetooth_connection_failed_toast">การเชื่อมต่อบลูทูธถูกรบกวน</string>
     <string name="blurbJoinContactDataWith">เลือกชื่อติดต่อที่ต้องการควบรวมข้อมูลกับ %s</string>
+    <string name="bottomsheet_action_collapse">ยุบแผ่นด้านล่าง</string>
+    <string name="bottomsheet_action_expand">ขยายแผ่นด้านล่าง</string>
+    <string name="bottomsheet_action_expand_halfway">ขยายครึ่งทาง</string>
+    <string name="bottomsheet_drag_handle_clicked">แตะสองครั้งที่จับลาก</string>
+    <string name="bottomsheet_drag_handle_content_description">ลากที่จับ</string>
     <string name="btn_split_contact">แบ่ง</string>
     <string name="button_cancel_scan">หยุด</string>
     <string name="button_scan">สแกนซ้ำ</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">ผู้ช่วยโทร Mi AI</string>
     <string name="cancel">ยกเลิก </string>
     <string name="cancel_confirmation_dialog_message">ยกเลิกการเปลี่ยนแปลงหรือไม่</string>
+    <string name="cancel_confirmation_dialog_separate">แก้ไขต่อไป</string>
     <string name="cancel_confirmation_dialog_title">ละทิ้งการเปลี่ยนแปลง</string>
     <string name="cancel_export_confirmation_message">ยกเลิกส่งออก %s?</string>
     <string name="cancel_import_confirmation_message">ยกเลิกนำเข้า %s?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">สายสนทนาที่บันทึกไว้</string>
     <string name="contact_detail_calllog_correct_yellow_page">แก้ไขหรือรายงาน</string>
     <string name="contact_detail_calllog_empty">ไม่พบประวัติ</string>
-    <string name="contact_detail_entry_pay">ส่งเงิน</string>
-    <string name="contact_detail_entry_pay_dialog_title">เลือกหมายเลขโทรศัพท์</string>
-    <string name="contact_detail_entry_pay_request">ร้องขอเงิน</string>
     <string name="contact_detail_menu_delete_miprofile">ลบนามบัตร</string>
     <string name="contact_detail_miprofile_subtitle">แลกนามบัตรกันแล้ว</string>
     <string name="contact_detail_more_calllog">แสดงเพิ่มเติม</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">เลือกวิธีการนำเข้า</string>
     <string name="contact_is_deleted">รายชื่อนี้ถูกลบแล้ว</string>
     <string name="contact_is_readOnly">ไม่สามารถแก้ไขรายชื่อที่อ่านอย่างเดียว</string>
-    <string name="contact_pick_photo">รูปภาพ</string>
     <string name="contact_search_history">ประวัติ</string>
     <string name="contact_status_update_attribution">ผ่าน %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s ผ่าน %2$s</string>
@@ -556,7 +556,6 @@
     <string name="item_offical">ทางการ</string>
     <string name="keep_local">ไม่ต้องซิงค์</string>
     <string name="keep_local_btn">ใช้ที่จัดเก็บในเครื่องของโทรศัพท์</string>
-    <string name="know">รับทราบ</string>
     <string name="label_custom_type">กำหนดเอง</string>
     <string name="label_no_duplicate_contacts">ไม่พบข้อมูลซ้ำ</string>
     <string name="label_notes">บันทึกย่อ</string>
@@ -653,6 +652,17 @@
     <string name="miuix_appcompat_select_all_description">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_item">เลือกรายการ</string>
     <string name="miuix_appcompat_show_dialog_description">หน้าต่างป๊อปอัป</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">ปัดลงเพื่อปิด</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">ปัดลงเพื่อสลับไปยังครึ่งหน้าจอ</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">ปัดลงเพื่อย่อเล็กสุด</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">ปัดขึ้นเพื่อสลับไปยังครึ่งหน้าจอ</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">ปัดขึ้นเพื่อขยายใหญ่สุด</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">ครึ่งหน้าจอ</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">ขยายใหญ่สุด</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">ย่อเล็กสุด</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">สลับไปยังครึ่งหน้าจอ</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">ขยายใหญ่สุด</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">ย่อเล็กสุด</string>
     <string name="miuix_item_view_role_description">แท็บ</string>
     <string name="miuix_navigator_category_group_collapse">หุบ</string>
     <string name="miuix_navigator_category_group_expand">ขยาย</string>
@@ -660,6 +670,7 @@
     <string name="miuix_navigator_multiple_choice">เลือก</string>
     <string name="miuix_navigator_navigator_switch_description">ซ่อนแถบด้านข้าง</string>
     <string name="miuix_navigator_toolbar_screen_bottom">แถบเครื่องมือที่ด้านล่างของหน้าจอ</string>
+    <string name="miuix_popup_window_default_title">หน้าต่างป๊อปอัป</string>
     <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">รีเฟรชสำเร็จแล้ว</string>
@@ -879,10 +890,7 @@
     <string name="privacy_settings_blue_scan_connect">เชื่อมต่อกับอุปกรณ์ใกล้เคียง</string>
     <string name="privacy_settings_call_phone">โทรออก</string>
     <string name="privacy_settings_call_phone_description">สำหรับการโทรผ่านปุ่มลัดหน้าจอหลัก</string>
-    <string name="privacy_settings_call_phone_description_for_pad">สำหรับการโทรในแอปของบุคคลที่สาม</string>
-    <string name="privacy_settings_call_phone_for_pad">โทรออก</string>
     <string name="privacy_settings_contacts">รายชื่อผู้ติดต่อและโทรศัพท์</string>
-    <string name="privacy_settings_contacts_for_pad">ความเป็นส่วนตัว</string>
     <string name="privacy_settings_mallowed">ยินยอมแล้ว</string>
     <string name="privacy_settings_mnotallowed">ไม่ได้รับการยินยอม</string>
     <string name="privacy_settings_permission_description">รายละเอียดการอนุญาต</string>
@@ -954,19 +962,13 @@
     <string name="return_call_dialing">กำลังต่อสาย</string>
     <string name="return_call_incoming">สายเรียกเข้า</string>
     <string name="ringLabelsGroup">เสียงเรียกเข้า</string>
-    <string name="saf_permission_dialog_content">Android ไม่อนุญาตให้ รายชื่อผู้ติดต่อ และ โทรศัพท์ เข้าถึงการบันทึกการโทรโดยค่าเริ่มต้น อนุญาตให้แอปเหล่านี้เข้าถึงการบันทึกการโทรเพื่อให้สามารถดูได้</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">อนุญาต</string>
-    <string name="saf_permission_dialog_later">ภายหลัง</string>
-    <string name="saf_permission_dialog_title">อนุญาตให้ รายชื่อผู้ติดต่อ และ โทรศัพท์ เข้าถึงการบันทึกการโทร</string>
     <string name="saturday">วันเสาร์</string>
     <string name="saturday_short">เสาร์</string>
     <string name="saturday_shortest">เสาร์</string>
-    <string name="savingContact">บันทึกรายชื่อ…</string>
     <string name="savingDisplayGroups">บันทึกตัวเลือกการแสดง…</string>
     <string name="scan_business_card">สแกนนามบัตร</string>
     <string name="scan_bussiness_card_merge_tip">มีการแทนที่ข้อมูลที่ซ้ำซ้อนกัน</string>
     <string name="scan_merge">\"กำลังค้นหารายชื่อซ้ำ…\"</string>
-    <string name="scan_not_installed_china">ติดตั้ง Mi AI Scanner ก่อน</string>
     <string name="scan_not_installed_china_ai">ติดตั้ง ตัวสแกน AI เพื่อใช้งานฟีเจอร์นี้ได้</string>
     <string name="scan_not_installed_global">ติดตั้งตัวสแกนก่อน</string>
     <string name="scan_qrcode_card_hint1">สแกนรหัส QR ด้านบน</string>
@@ -983,7 +985,6 @@
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="select_groups">เลือกกลุ่ม</string>
     <string name="select_vcard_title">เลือกไฟล์ vCard</string>
-    <string name="send">ส่ง</string>
     <string name="send_contact_shortcut_todesktop_duplicate">ปุ่มลัดนี้มีอยู่แล้ว</string>
     <string name="send_contact_shortcut_todesktop_failed">ไม่สามารถวางปุ่มลัดบนหน้าจอหลักได้</string>
     <string name="send_contact_shortcut_todesktop_overflow">ไม่สามารถวางปุ่มลัดเพิ่มบนหน้าจอหลักได้</string>
@@ -1071,6 +1072,7 @@
     <string name="sms_work_pager">ส่งข้อความเพจเจอร์ที่ทำงาน</string>
     <string name="special_code_security_exception">ไม่สามารถการดำเนินการเสร็จสิ้นได้ นี่ไม่ใช่ปุ่มโทรเริ่มต้นของคุณ</string>
     <string name="splitConfirmation_title">แยกรายชื่อออกจากกัน?</string>
+    <string name="split_screen_fab_toast">ลากเพื่อใช้แป้นกดหมายเลข</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">ติดดาว</string>

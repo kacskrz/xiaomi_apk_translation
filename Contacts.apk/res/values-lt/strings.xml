@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">Eiti į pagrindinį puslapį</string>
     <string name="abc_action_bar_up_description">Naršyti aukštyn</string>
-    <string name="abc_action_menu_overflow_description">Daugiau parinkčių</string>
     <string name="abc_action_mode_done">Atlikta</string>
     <string name="abc_activity_chooser_view_see_all">Žr. viską</string>
     <string name="abc_activitychooserview_choose_application">Pasirinkite programą</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">„Menu“ +</string>
     <string name="abc_search_hint">Ieškoti…</string>
     <string name="abc_searchview_description_clear">Išvalyti užklausą</string>
-    <string name="abc_searchview_description_query">Paieškos užklausa</string>
     <string name="abc_searchview_description_search">Ieškoti</string>
     <string name="abc_searchview_description_submit">Pateikti užklausą</string>
     <string name="abc_searchview_description_voice">Paieška balsu</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">Nepavyko aptikti dvigubos SIM</string>
     <string name="bind_simcard_not_set">Nenustatyta</string>
     <string name="bind_simcard_title">Numatytoji SIM skambučiams</string>
-    <string name="bluetooth_chat">Ryšys tarp įrenginių</string>
+    <string name="bluetooth_chat">Xiaomi Offline Communication</string>
     <string name="bluetooth_connection_failed_toast">„Bluetooth“ ryšys sutrukdytas</string>
     <string name="blurbJoinContactDataWith">Pasirinkite adresatą, kurį norite sujungti su %s:</string>
+    <string name="bottomsheet_action_collapse">Sutraukti apatinį lapą</string>
+    <string name="bottomsheet_action_expand">Išskleisti apatinį lapą</string>
+    <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
+    <string name="bottomsheet_drag_handle_clicked">Dukart bakstelėję vilkite rankenėlę</string>
+    <string name="bottomsheet_drag_handle_content_description">Vilkimo rankena</string>
     <string name="btn_split_contact">Atskirti</string>
     <string name="button_cancel_scan">Stabdyti</string>
     <string name="button_scan">Atnaujinti</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">DI skambučių asistentas</string>
     <string name="cancel">Atšaukti</string>
     <string name="cancel_confirmation_dialog_message">Neįrašyti jūsų pakeitimų?</string>
+    <string name="cancel_confirmation_dialog_separate">Tęsti redagavimą</string>
     <string name="cancel_confirmation_dialog_title">Neišsaugoti pakeitimų</string>
     <string name="cancel_export_confirmation_message">Atšaukti eksportavimą iš %s?</string>
     <string name="cancel_import_confirmation_message">Atšaukti importavimą iš %s?</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">Įrašytas pokalbis</string>
     <string name="contact_detail_calllog_correct_yellow_page">Pataisyti arba pranešti</string>
     <string name="contact_detail_calllog_empty">Istorijos nėra</string>
-    <string name="contact_detail_entry_pay">Siųsti pinigus</string>
-    <string name="contact_detail_entry_pay_dialog_title">Pasirinkti telefono numerį</string>
-    <string name="contact_detail_entry_pay_request">Prašyti pinigų</string>
     <string name="contact_detail_menu_delete_miprofile">Ištrinti kortelę</string>
     <string name="contact_detail_miprofile_subtitle">Jau apsikeista kortelėmis</string>
     <string name="contact_detail_more_calllog">Rodyti daugiau</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">Pasirinkite importavimo būdą</string>
     <string name="contact_is_deleted">Šis kontaktas pašalintas</string>
     <string name="contact_is_readOnly">Neįmanoma redaguoti nekeičiamųjų kontaktų</string>
-    <string name="contact_pick_photo">Nuotrauka</string>
     <string name="contact_search_history">Istorija</string>
     <string name="contact_status_update_attribution">per %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s per %2$s</string>
@@ -556,7 +556,6 @@ Priežastis: \"%s\""</string>
     <string name="item_offical">Oficialu</string>
     <string name="keep_local">Nesinchronizuoti</string>
     <string name="keep_local_btn">Naudoti įrenginio vidinę talpyklą</string>
-    <string name="know">Supratau</string>
     <string name="label_custom_type">Pasirinktinis</string>
     <string name="label_no_duplicate_contacts">Pasikartojančių kontaktų nerasta</string>
     <string name="label_notes">Pastabos</string>
@@ -653,6 +652,17 @@ Priežastis: \"%s\""</string>
     <string name="miuix_appcompat_select_all_description">Pasirinkti viską</string>
     <string name="miuix_appcompat_select_item">Pasirinkti elementus</string>
     <string name="miuix_appcompat_show_dialog_description">Laikinasis langas</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Uždarymui slinkite žemyn</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Braukite žemyn, kad perjungtumėte į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Braukite žemyn, kad sumažintumėte</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Braukite aukštyn, kad perjungtumėte į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Braukite žemyn, kad padidintumėte</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Pusė ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Padidintas</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Sumažintas</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Perjungti į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Padidinti</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Sumažintas</string>
     <string name="miuix_item_view_role_description">Skirtukas</string>
     <string name="miuix_navigator_category_group_collapse">Suskleisti</string>
     <string name="miuix_navigator_category_group_expand">Išplėsti</string>
@@ -660,6 +670,7 @@ Priežastis: \"%s\""</string>
     <string name="miuix_navigator_multiple_choice">Pasirinkti</string>
     <string name="miuix_navigator_navigator_switch_description">Slėpti šoninę juostą</string>
     <string name="miuix_navigator_toolbar_screen_bottom">Įrankių juosta ekrano apačioje</string>
+    <string name="miuix_popup_window_default_title">Laikinasis langas</string>
     <string name="miuix_progressbar_loading">Įkeliama</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Atnaujinimui braukite žemyn</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sėkmingai atnaujinta</string>
@@ -879,10 +890,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="privacy_settings_blue_scan_connect">Prisijungti prie įrenginių netoliese</string>
     <string name="privacy_settings_call_phone">Skambinimas</string>
     <string name="privacy_settings_call_phone_description">Skambinimas naudojant pagrindinio ekrano nuorodas</string>
-    <string name="privacy_settings_call_phone_description_for_pad">Skambinimas trečiųjų šalių programose</string>
-    <string name="privacy_settings_call_phone_for_pad">Skambinti</string>
     <string name="privacy_settings_contacts">Kontaktai ir telefonas</string>
-    <string name="privacy_settings_contacts_for_pad">Privatumas</string>
     <string name="privacy_settings_mallowed">Suteikta</string>
     <string name="privacy_settings_mnotallowed">Nesuteikta</string>
     <string name="privacy_settings_permission_description">Leidimų informacija</string>
@@ -954,19 +962,13 @@ Norėdami pradėti, ekrano apačioje bakstelėkite „Sulieti“."</string>
     <string name="return_call_dialing">Renkama</string>
     <string name="return_call_incoming">Įeinantis skambutis</string>
     <string name="ringLabelsGroup">Skambučio melodija</string>
-    <string name="saf_permission_dialog_content">Pagal numatymą „Android“ neleidžia kontaktams ir telefonui pasiekti skambučių įrašų. Leiskite šioms programoms pasiekti skambučių įrašus, kad galėtumėte juos peržiūrėti.</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">Leisti</string>
-    <string name="saf_permission_dialog_later">Vėliau</string>
-    <string name="saf_permission_dialog_title">Leisti kontaktams ir telefonui pasiekti skambučių įrašus</string>
     <string name="saturday">Šeštadienis</string>
     <string name="saturday_short">Št.</string>
     <string name="saturday_shortest">Št.</string>
-    <string name="savingContact">Kontaktas išsaugomas…</string>
     <string name="savingDisplayGroups">Išsaugomos atvaizdavimo pasirinktys…</string>
     <string name="scan_business_card">Nuskaityti vizitinę kortelę</string>
     <string name="scan_bussiness_card_merge_tip">Prieštaringi duomenys pakeisti</string>
     <string name="scan_merge">\"Ieškoma pasikartojančių kontaktų…\"</string>
-    <string name="scan_not_installed_china">Pirmiausia įdiekite „Mi“ DI skaitytuvą</string>
     <string name="scan_not_installed_china_ai">Įdiekite Di skaitytuvąį, kad galėtumėte naudotis šia funkcija</string>
     <string name="scan_not_installed_global">Pirmiausia įdiekite skaitytuvą</string>
     <string name="scan_qrcode_card_hint1">Nuskaitykite viršuje esantį QR kodą</string>
@@ -983,7 +985,6 @@ Norėdami pradėti, ekrano apačioje bakstelėkite „Sulieti“."</string>
     <string name="select_all">Žymėti viską</string>
     <string name="select_groups">Pasirinkti grupes</string>
     <string name="select_vcard_title">Pasirinkite vCard failą</string>
-    <string name="send">Siųsti</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Ši nuoroda jau egzistuoja</string>
     <string name="send_contact_shortcut_todesktop_failed">Nepavyko sukurti nuorodos pagrindiniame ekrane</string>
     <string name="send_contact_shortcut_todesktop_overflow">Nepavyko sukurti daugiau nuorodų pagrindiniame ekrane</string>
@@ -1071,6 +1072,7 @@ Norėdami pradėti, ekrano apačioje bakstelėkite „Sulieti“."</string>
     <string name="sms_work_pager">SMS į darbo pranešimų gaviklį</string>
     <string name="special_code_security_exception">Nepavyko užbaigti veiksmo. Tai nėra jūsų numatytasis rinkiklis.</string>
     <string name="splitConfirmation_title">Atskirti kontaktą?</string>
+    <string name="split_screen_fab_toast">Vilkite norėdami naudoti rinkiklį</string>
     <string name="star">*</string>
     <string name="star_letter">,</string>
     <string name="starredList">Pažymėti</string>

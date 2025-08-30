@@ -2,7 +2,6 @@
 <resources>
     <string name="abc_action_bar_home_description">ホームに戻る</string>
     <string name="abc_action_bar_up_description">前に戻る</string>
-    <string name="abc_action_menu_overflow_description">その他のオプション</string>
     <string name="abc_action_mode_done">完了</string>
     <string name="abc_activity_chooser_view_see_all">すべて表示</string>
     <string name="abc_activitychooserview_choose_application">アプリの選択</string>
@@ -20,7 +19,6 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">検索…</string>
     <string name="abc_searchview_description_clear">検索キーワードを削除</string>
-    <string name="abc_searchview_description_query">検索キーワード</string>
     <string name="abc_searchview_description_search">検索</string>
     <string name="abc_searchview_description_submit">検索キーワードを送信</string>
     <string name="abc_searchview_description_voice">音声検索</string>
@@ -76,9 +74,14 @@
     <string name="bind_simcard_no_dual">デュアルSIMが見つかりませんでした</string>
     <string name="bind_simcard_not_set">未設定</string>
     <string name="bind_simcard_title">通話のデフォルトSIM</string>
-    <string name="bluetooth_chat">クロスデバイス通信</string>
+    <string name="bluetooth_chat">Xiaomi Offline Communication</string>
     <string name="bluetooth_connection_failed_toast">Bluetooth接続が中断されました</string>
     <string name="blurbJoinContactDataWith">%sと統合する連絡先を選択してください。</string>
+    <string name="bottomsheet_action_collapse">下のシートを折りたたむ</string>
+    <string name="bottomsheet_action_expand">下のシートを展開</string>
+    <string name="bottomsheet_action_expand_halfway">半分まで展開</string>
+    <string name="bottomsheet_drag_handle_clicked">ドラッグハンドルが 2 回タップされました</string>
+    <string name="bottomsheet_drag_handle_content_description">ドラッグハンドル</string>
     <string name="btn_split_contact">分割</string>
     <string name="button_cancel_scan">停止</string>
     <string name="button_scan">再スキャン</string>
@@ -162,6 +165,7 @@
     <string name="callrecordview_menu_xiaoaiphone">Mi AI 通話アシスタント</string>
     <string name="cancel">キャンセル</string>
     <string name="cancel_confirmation_dialog_message">変更を破棄しますか？</string>
+    <string name="cancel_confirmation_dialog_separate">編集を続ける</string>
     <string name="cancel_confirmation_dialog_title">変更内容を破棄</string>
     <string name="cancel_export_confirmation_message">%sのエクスポートをキャンセルしますか？</string>
     <string name="cancel_import_confirmation_message">%sのインポートをキャンセルしますか？</string>
@@ -212,9 +216,6 @@
     <string name="contact_detail_calllog_call_record_tips">通話録音</string>
     <string name="contact_detail_calllog_correct_yellow_page">修正または報告</string>
     <string name="contact_detail_calllog_empty">履歴はありません</string>
-    <string name="contact_detail_entry_pay">お金を送信</string>
-    <string name="contact_detail_entry_pay_dialog_title">電話番号を選択</string>
-    <string name="contact_detail_entry_pay_request">お金を請求</string>
     <string name="contact_detail_menu_delete_miprofile">カードを削除</string>
     <string name="contact_detail_miprofile_subtitle">既にカードを交換しています</string>
     <string name="contact_detail_more_calllog">詳細を表示</string>
@@ -230,7 +231,6 @@
     <string name="contact_import_methods_dialog_title">インポート方法を選択</string>
     <string name="contact_is_deleted">この連絡先は削除されました</string>
     <string name="contact_is_readOnly">読み取り専用の連絡先を編集できません</string>
-    <string name="contact_pick_photo">写真</string>
     <string name="contact_search_history">履歴</string>
     <string name="contact_status_update_attribution">%1$s経由</string>
     <string name="contact_status_update_attribution_with_date">%1$sに%2$s経由</string>
@@ -556,7 +556,6 @@
     <string name="item_offical">公式</string>
     <string name="keep_local">同期しない</string>
     <string name="keep_local_btn">デバイスの内部ストレージを使用する</string>
-    <string name="know">了解</string>
     <string name="label_custom_type">カスタム</string>
     <string name="label_no_duplicate_contacts">重複した連絡先は見つかりませんでした</string>
     <string name="label_notes">メモ</string>
@@ -653,6 +652,17 @@
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
     <string name="miuix_appcompat_show_dialog_description">ポップアップウィンドウ</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">下にスワイプして閉じる</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">下にスワイプして半画面に切り替える</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">下にスワイプして最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">上にスワイプして半画面に切り替える</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">上にスワイプして最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">半画面</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">半画面に切り替える</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">最小化</string>
     <string name="miuix_item_view_role_description">タブ</string>
     <string name="miuix_navigator_category_group_collapse">折りたたむ</string>
     <string name="miuix_navigator_category_group_expand">展開</string>
@@ -660,6 +670,7 @@
     <string name="miuix_navigator_multiple_choice">選択</string>
     <string name="miuix_navigator_navigator_switch_description">サイドバーを非表示</string>
     <string name="miuix_navigator_toolbar_screen_bottom">画面の下部にあるツールバー</string>
+    <string name="miuix_popup_window_default_title">ポップアップウィンドウ</string>
     <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
@@ -879,10 +890,7 @@
     <string name="privacy_settings_blue_scan_connect">付近のデバイスへの接続</string>
     <string name="privacy_settings_call_phone">通話の発信</string>
     <string name="privacy_settings_call_phone_description">ホーム画面のショートカットから通話を発信するため</string>
-    <string name="privacy_settings_call_phone_description_for_pad">サードパーティ製アプリでの通話のため</string>
-    <string name="privacy_settings_call_phone_for_pad">通話の発信</string>
     <string name="privacy_settings_contacts">連絡先と電話</string>
-    <string name="privacy_settings_contacts_for_pad">プライバシー</string>
     <string name="privacy_settings_mallowed">付与済み</string>
     <string name="privacy_settings_mnotallowed">未付与</string>
     <string name="privacy_settings_permission_description">アクセス許可の詳細</string>
@@ -954,19 +962,13 @@
     <string name="return_call_dialing">ダイヤル中</string>
     <string name="return_call_incoming">着信通話</string>
     <string name="ringLabelsGroup">着信音</string>
-    <string name="saf_permission_dialog_content">Androidでは、デフォルトで\"連絡先\"と\"電話\"による通話録音へのアクセスが制限されています。通話録音を表示するには、これらのアプリによる通話録音へのアクセスを許可してください。</string>
-    <string name="saf_permission_dialog_grant_permission_immediately">許可</string>
-    <string name="saf_permission_dialog_later">後で</string>
-    <string name="saf_permission_dialog_title">"\"連絡先\"と\"電話'に通話録音へのアクセスを許可"</string>
     <string name="saturday">土曜日</string>
     <string name="saturday_short">土</string>
     <string name="saturday_shortest">土</string>
-    <string name="savingContact">連絡先を保存しています…</string>
     <string name="savingDisplayGroups">表示オプションを保存中…</string>
     <string name="scan_business_card">名刺をスキャン</string>
     <string name="scan_bussiness_card_merge_tip">矛盾するデータが置き換えられました</string>
     <string name="scan_merge">\"重複した連絡先を検索中…\"</string>
-    <string name="scan_not_installed_china">まずMi AI Scannerをインストールしてください</string>
     <string name="scan_not_installed_china_ai">この機能を使用するには、AI スキャナーをインストールしてください</string>
     <string name="scan_not_installed_global">まずスキャナーをインストールしてください</string>
     <string name="scan_qrcode_card_hint1">上のQRコードをスキャンしてください</string>
@@ -983,7 +985,6 @@
     <string name="select_all">すべて選択</string>
     <string name="select_groups">グループを選択</string>
     <string name="select_vcard_title">vCardファイルを選択</string>
-    <string name="send">送信</string>
     <string name="send_contact_shortcut_todesktop_duplicate">このショートカットは既に存在します</string>
     <string name="send_contact_shortcut_todesktop_failed">ホーム画面にショートカットを配置できませんでした</string>
     <string name="send_contact_shortcut_todesktop_overflow">ホーム画面にこれ以上ショートカットを配置できません</string>
@@ -1071,6 +1072,7 @@
     <string name="sms_work_pager">勤務先ポケベルにメッセージを送信</string>
     <string name="special_code_security_exception">操作を完了できませんでした。これはデフォルトのダイヤルパッドではありません。</string>
     <string name="splitConfirmation_title">連絡先を分割しますか？</string>
+    <string name="split_screen_fab_toast">ダイヤルパッドを使用するにはドラッグしてください</string>
     <string name="star">*</string>
     <string name="star_letter">、</string>
     <string name="starredList">星付き</string>
