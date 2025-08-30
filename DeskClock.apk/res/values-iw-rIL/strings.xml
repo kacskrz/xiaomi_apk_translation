@@ -26,9 +26,10 @@
     <string name="alarm_repeat_self_define_button">התאמה אישית</string>
     <string name="alarm_ringtone_picker">התראות</string>
     <string name="alarm_set_new">השעון המעורר יפעל בעוד פחות מדקה אחת (%d)</string>
+    <string name="alarm_snooze_island">הופעל נודניק</string>
     <string name="alert">צלצול</string>
     <string name="alert_ringtone">רינגטון לשעון המעורר</string>
-    <string name="alert_vibrate_enable_summary">הפעל רטט יחד עם צלצול השעון המעורר</string>
+    <string name="alert_vibrate_enable_summary">להפעיל רטט כשהשעון המעורר מצלצל</string>
     <string name="alert_volume">עוצמת הקול של הרינגטון</string>
     <string name="alert_volume_summary">הגדר את עוצמת הקול לרינגטון השעון המעורר והטיימרים</string>
     <string name="alert_xiaoai_ringtone_desc">Mi AI מדבר…</string>
@@ -69,7 +70,7 @@
     <string name="bedtime_settings">הגדרות שעת שינה</string>
     <string name="bedtime_sleep_time_remind_new">נשלח לך תזכורת ללכת לישון %d דקות לפני זמן זה</string>
     <string name="bedtime_sleep_time_setting">מתי תרצה ללכת לישון?</string>
-    <string name="bedtime_wake_up_time_remind">הצלצול יכבה בזמן זה</string>
+    <string name="bedtime_wake_up_time_remind">שעון מעורר יצלצל בזמן הזה</string>
     <string name="bedtime_wake_up_time_setting">מתי תרצה להתעורר?</string>
     <string name="bedtime_welcome">נהל את שעת השינה</string>
     <string name="bedtime_welcome_desc">שמירה על לוח זמנים קבוע ועקבי מועילה לבריאותך. הגדר תזכורות שיעזרו לך ללכת לישון ולקום בזמן בכל יום.</string>
@@ -204,9 +205,9 @@
     <string name="legal_off_day">חגים</string>
     <string name="legal_off_day_message">" (השעון המעורר כבוי בימי חופש)"</string>
     <string name="legal_workday">יום עבודה נוסף</string>
-    <string name="legal_workday_invalidate">פג תוקף הנתונים (השעון המעורר יצלצל משני עד שישי)</string>
+    <string name="legal_workday_invalidate">פג תוקף הנתונים (השעון המעורר יצלצל מיום שני עד שישי)</string>
     <string name="legal_workday_invalidate_message">(פג תוקף הנתונים. עדכן בהגדרות.)</string>
-    <string name="legal_workday_message">" (השעון המעורר כבוי בימי חופש)"</string>
+    <string name="legal_workday_message">" (השעון המעורר לא יצלצל בימי חופש וחג)"</string>
     <string name="life_post_setting">דיווח בוקר</string>
     <string name="life_post_setting_FBE_remind">עקב מגבלות המערכת, ייתכן שנתוני מזג האוויר בדיווחי הבוקר לא יוצגו בצורה נכונה לאחר אתחול המכשיר.</string>
     <string name="life_post_setting_close_title">השבת דיווח בבוקר</string>
@@ -377,7 +378,7 @@
     <string name="notification_permission_dialog_not_open">לא עכשיו</string>
     <string name="notification_permission_dialog_open">הגדרות</string>
     <string name="notification_permission_dialog_title">נדרשות הרשאות</string>
-    <string name="oneshot_alarm">למחוק אחרי השמעת ההתראה של השעון המעורר</string>
+    <string name="oneshot_alarm">למחוק אחרי שהשעון המעורר מצלצל</string>
     <string name="open_keep_screen">המסך יישאר דלוק</string>
     <string name="open_notification_permission_remind">אפשר התראות כדי שתוכל לכבות שעון מעורר</string>
     <string name="open_sleep_record">הפעל</string>
@@ -421,7 +422,7 @@
     <string name="set_alarm">בחר שעה</string>
     <string name="set_alarm_done">בוצע</string>
     <string name="set_now">הגדרה</string>
-    <string name="setting_alarm_arriving_subtitle">הצג התראות לפני שהשעון המעורר נכבה</string>
+    <string name="setting_alarm_arriving_subtitle">להציג התראות לפני צלצול השעון המעורר</string>
     <string name="setting_alarm_arriving_title">התראה לפני צלצול</string>
     <string name="setting_complete">בוצע</string>
     <string name="shortcut_new_alarm">הגדר שעון מעורר</string>
@@ -432,7 +433,7 @@
     <string name="shut_down_keep_screen">המסך לא יישאר דלוק</string>
     <string name="shutdown_alarm_alert_enable_summary_new">יש להפעיל כדי שההתראות שעון המעורר שהוגדרו מראש יושמעו כשהמכשיר כבוי. יושמעו רק התראות שנקבעו לפחות ל-%d דקות לאחר כיבוי המכשיר.</string>
     <string name="shutdown_alarm_alert_title">כיבוי שעון מעורר</string>
-    <string name="shutdown_alarm_disable_summary">השעון המעורר ישאר דלוק לאחר כיבוי המכשיר</string>
+    <string name="shutdown_alarm_disable_summary">השעון המעורר לא יצלצל לאחר כיבוי המכשיר</string>
     <string name="silent_alarm_summary">מצב שקט</string>
     <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">בטל חד פעמית ב- %s</string>
@@ -459,7 +460,13 @@
     <string name="sleep_wake_time">%1$s-%2$s</string>
     <string name="slider_text_new">החלק למעלה כדי להפסיק</string>
     <string name="snooze_alarm_alert">נודניק עד %s</string>
+    <string name="snooze_count_entries_five">%d פעמים</string>
+    <string name="snooze_count_entries_one">פעם %d</string>
+    <string name="snooze_count_entries_ten">%d פעמים</string>
+    <string name="snooze_count_entries_three">%d פעמים</string>
+    <string name="snooze_count_entries_two">%d פעמים</string>
     <string name="snooze_duration">נודניק</string>
+    <string name="snooze_duration_count">ספירת הנודניק</string>
     <string name="snooze_duration_title">נודניק</string>
     <string name="snooze_duration_value">מרווח הזמן (דקות)</string>
     <string name="snooze_duration_value_fifteen_new">%d</string>
@@ -469,6 +476,13 @@
     <string name="snooze_duration_value_thirty_new">%d</string>
     <string name="snooze_duration_value_twenty_five_new">%d</string>
     <string name="snooze_duration_value_twenty_new">%d</string>
+    <string name="snooze_interval_entries_fifteen">%d דקות</string>
+    <string name="snooze_interval_entries_five">%d דקות</string>
+    <string name="snooze_interval_entries_one">דקה %d</string>
+    <string name="snooze_interval_entries_ten">%d דקות</string>
+    <string name="snooze_interval_entries_thirty">%d דקות</string>
+    <string name="snooze_interval_entries_twenty">%d דקות</string>
+    <string name="snooze_interval_entries_twenty_five">%d דקות</string>
     <string name="star_wy_alarm_speech">הכר את רוי וואנג</string>
     <string name="start">התחל</string>
     <string name="status_bar_alarm_alert">השעון המעורר מצלצל</string>
@@ -547,16 +561,19 @@
     <string name="timer_desc_use_facial_mask">מסכת פנים</string>
     <string name="timer_desc_use_sleep">תנומה</string>
     <string name="timer_display" formatted="false">%02d:%02d:%02d</string>
+    <string name="timer_end_island">הטיימר נעצר</string>
     <string name="timer_end_time">הטיימר (שעון עצר) יעצור ב-%s</string>
     <string name="timer_end_time_format">HH:mm MMM dd</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it_new">השתק</string>
     <string name="timer_is_paused">הטיימר הושהה</string>
     <string name="timer_keep_screen_on">להשאיר את המסך דלוק</string>
+    <string name="timer_pause_island">הטיימר הושהה</string>
     <string name="timer_pause_notification">הושהה</string>
     <string name="timer_pause_timer">השהה את שעון העצר</string>
     <string name="timer_ringtone">רינגטון לטיימר</string>
     <string name="timer_running">שעון העצר מופעל</string>
+    <string name="timer_running_island">טיימר</string>
     <string name="timer_running_notification">טיימר</string>
     <string name="timer_screen_on">המסך נשאר דלוק</string>
     <string name="timer_screen_turn_on">להשאיר את המסך דלוק</string>

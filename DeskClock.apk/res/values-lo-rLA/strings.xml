@@ -26,6 +26,7 @@
     <string name="alarm_repeat_self_define_button">ປັບແຕ່ງ</string>
     <string name="alarm_ringtone_picker">ໂມງປຸກ</string>
     <string name="alarm_set_new">ສຽງປຸກຈະດັງໜ້ອຍກວ່າ %d ນາທີ.</string>
+    <string name="alarm_snooze_island">Snoozed</string>
     <string name="alert">ສຽງເຕືອນ</string>
     <string name="alert_ringtone">ສຽງເຕືອນໂມງປຸກ</string>
     <string name="alert_vibrate_enable_summary">ສັ່ນເມື່ອໂມງປຸກດັງ</string>
@@ -377,7 +378,7 @@
     <string name="notification_permission_dialog_not_open">ບໍ່​ແມ່ນຕອນ​ນີ້</string>
     <string name="notification_permission_dialog_open">ການຕັ້ງຄ່າ</string>
     <string name="notification_permission_dialog_title">ຈຳເປັນຕ້ອງມີການອະນຸຍາດ</string>
-    <string name="oneshot_alarm">ລົບອອກຫຼັງຈາກໂມງປຸກປິດ</string>
+    <string name="oneshot_alarm">ລົບອອກຫຼັງຈາກໂມງປຸກດັງ</string>
     <string name="open_keep_screen">ໜ້າຈໍຈະຖືກເປີດໄວ້</string>
     <string name="open_notification_permission_remind">ອະນຸຍາດໃຫ້ການແຈ້ງເຕືອນສາມາດປິດການແຈ້ງເຕືອນໄດ້</string>
     <string name="open_sleep_record">ເປີດ</string>
@@ -421,7 +422,7 @@
     <string name="set_alarm">ເລືອກເວລາ</string>
     <string name="set_alarm_done">​ສຳ​ເລັດ​ແລ້ວ</string>
     <string name="set_now">ຕັ້ງ​</string>
-    <string name="setting_alarm_arriving_subtitle">ສະແດງການແຈ້ງເຕືອນກ່ອນທີ່ສຽງເຕືອນຈະດັງ</string>
+    <string name="setting_alarm_arriving_subtitle">ສະແດງການແຈ້ງເຕືອນກ່ອນທີ່ໂມງປຸກຈະດັງ</string>
     <string name="setting_alarm_arriving_title">ແຈ້ງເຕືອນກ່ອນທີ່ຈະມີສຽງປຸກ</string>
     <string name="setting_complete">​ສຳ​ເລັດ​ແລ້ວ</string>
     <string name="shortcut_new_alarm">ຕັ້ງໂມງປຸກ</string>
@@ -459,7 +460,13 @@
     <string name="sleep_wake_time">%1$s-%2$s</string>
     <string name="slider_text_new">​ປັດ​ຂຶ້ນ​ເພື່ອ​ຢຸດ</string>
     <string name="snooze_alarm_alert">ເລື່ອນປຸກຈົນເຖິງ %s</string>
+    <string name="snooze_count_entries_five">%d ຄັ້ງ</string>
+    <string name="snooze_count_entries_one">%d ຄັ້ງ</string>
+    <string name="snooze_count_entries_ten">%d ຄັ້ງ</string>
+    <string name="snooze_count_entries_three">%d ຄັ້ງ</string>
+    <string name="snooze_count_entries_two">%d ຄັ້ງ</string>
     <string name="snooze_duration">ເລື່ອນປຸກ</string>
+    <string name="snooze_duration_count">ຈຳນວນຄັ້ງເລື່ອນປຸກ</string>
     <string name="snooze_duration_title">ເລື່ອນປຸກ</string>
     <string name="snooze_duration_value">ຊ່ວງເວລາ (ນາທີ)</string>
     <string name="snooze_duration_value_fifteen_new">%d</string>
@@ -469,6 +476,13 @@
     <string name="snooze_duration_value_thirty_new">%d</string>
     <string name="snooze_duration_value_twenty_five_new">%d</string>
     <string name="snooze_duration_value_twenty_new">%d</string>
+    <string name="snooze_interval_entries_fifteen">%d ນາທີ</string>
+    <string name="snooze_interval_entries_five">%d ນາທີ</string>
+    <string name="snooze_interval_entries_one">%d ນາທີ</string>
+    <string name="snooze_interval_entries_ten">%d ນາທີ</string>
+    <string name="snooze_interval_entries_thirty">%d ນາທີ</string>
+    <string name="snooze_interval_entries_twenty">%d ນາທີ</string>
+    <string name="snooze_interval_entries_twenty_five">%d ນາທີ</string>
     <string name="star_wy_alarm_speech">ພົບກັບ Roy Wang</string>
     <string name="start">ເລີ່ມຕົ້ນ</string>
     <string name="status_bar_alarm_alert">ສຽງເຕືອນໂມງປຸກ</string>
@@ -547,16 +561,19 @@
     <string name="timer_desc_use_facial_mask">ແມັສໜ້າ</string>
     <string name="timer_desc_use_sleep">ນອນ</string>
     <string name="timer_display" formatted="false">%02d:%02d:%02d</string>
+    <string name="timer_end_island">ໂມງຕັ້ງເວລາຖືກຢຸດ</string>
     <string name="timer_end_time">ໂມງຕັ້ງເວລາຈະຢຸດທີ່ %s</string>
     <string name="timer_end_time_format">d MMM HH:mm</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it_new">ປິດສຽງ</string>
     <string name="timer_is_paused">ໂມງຕັ້ງເວລາຖືກຢຸດຊົ່ວຄາວ</string>
     <string name="timer_keep_screen_on">ເປີດໜ້າຈໍໄວ້</string>
+    <string name="timer_pause_island">ໂມງຕັ້ງເວລາຖືກຢຸດຊົ່ວຄາວ</string>
     <string name="timer_pause_notification">​ຢຸດ​ຊົ່ວ​ຄາວ​ແລ້ວ</string>
     <string name="timer_pause_timer">ຢຸດໂມງຕັ້ງເວລາ</string>
     <string name="timer_ringtone">ສຽງເຕືອນໂມງຕັ້ງເວລາ</string>
     <string name="timer_running">ໂມງຕັ້ງເວລາກຳລັງເຮັດວຽກ</string>
+    <string name="timer_running_island">ໂມງ​ຕັ້ງເວລາ</string>
     <string name="timer_running_notification">ໂມງ​ຕັ້ງເວລາ</string>
     <string name="timer_screen_on">ໜ້າຈໍເປີດຄ້າງໃນ</string>
     <string name="timer_screen_turn_on">ເປີດໜ້າຈໍໄວ້</string>
