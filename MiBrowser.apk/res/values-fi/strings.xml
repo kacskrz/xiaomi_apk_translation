@@ -30,10 +30,9 @@
     <string name="accelerate_play">Nopeus: %sX</string>
     <string name="accept_cookies_confirm_message">Jotkus sivut saattaa käyttäytyä omituisesti, jos kytket tämän ominaisuuden pois päältä.</string>
     <string name="accessibility_button_clear">Tyhjennä teksti</string>
-    <string name="accessibility_sliding_button_state_description_off">pois päältä</string>
-    <string name="accessibility_sliding_button_state_description_on">päällä</string>
+    <string name="accessibility_sliding_button_state_description_off">Sammutettu</string>
+    <string name="accessibility_sliding_button_state_description_on">Käynnistetty</string>
     <string name="accessibility_tab_state_description_unselect">Ei valittu</string>
-    <string name="accessibility_tab_statedesc_unselect">Ei valittu</string>
     <string name="account_prifix">Tili:</string>
     <string name="action">Kirjaudu sisään</string>
     <string name="action_menu_account_not_login">Et ole kirjautunut</string>
@@ -57,7 +56,7 @@
     <string name="action_menu_text_nightmode">Yötila</string>
     <string name="action_menu_text_nightmode_off">Yötila</string>
     <string name="action_menu_text_nightmode_on">Yötila</string>
-    <string name="action_menu_text_refresh">Päivitä</string>
+    <string name="action_menu_text_refresh">Lataa uudelleen</string>
     <string name="action_menu_text_setting">Asetukset</string>
     <string name="action_menu_text_share">Jaa</string>
     <string name="action_menu_text_snapshot">Tallenna sivu</string>
@@ -280,7 +279,7 @@ Kytke synkronointi pois käytöstä."</string>
     <string name="cleared_garbage">Tyhjennettiin %d Mt roskakoritiedostoja</string>
     <string name="click_always">Napauta \"Aina\"</string>
     <string name="click_clean">Tyhjennä</string>
-    <string name="click_to_refresh">Stopped here last time, tap to refresh</string>
+    <string name="click_to_refresh">Pysähdyit tähän viimeksi, lataa uudelleen napauttamalla</string>
     <string name="click_to_replay_btn">Toista uudelleen napauttamalla</string>
     <string name="clip_dialog_title">Avaa kopioitu verkkosivu?</string>
     <string name="clipboard_title_text">Teksti kopioitu</string>
@@ -836,6 +835,7 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="game_center">Pelit</string>
     <string name="game_center_recommend_play">Pelaa</string>
     <string name="game_center_recommend_title">Sinulle suositeltu</string>
+    <string name="game_notification_push_play">Pelaa</string>
     <string name="game_play">Toista</string>
     <string name="game_played">Viimeaikaiset</string>
     <string name="garbage_cleaning">Puhdistaja</string>
@@ -1071,8 +1071,10 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="miuishare_title_share">Jaa</string>
     <string name="miuix_access_state_desc">Valittu</string>
     <string name="miuix_accessibility_title">Otsikko</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Pienennetty</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Laajennettu</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Poistu muokkaustilasta</string>
-    <string name="miuix_appcompat_accessibility_new_message">Uusi viesti</string>
+    <string name="miuix_appcompat_accessibility_new_message">Uusi ilmoitus</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Aloita muokkaustila</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
@@ -1089,6 +1091,7 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
+    <string name="miuix_appcompat_show_dialog_description">Ponnahdusikkuna</string>
     <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
@@ -1099,6 +1102,8 @@ Sivut, joita katselet ei näy historiassa."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Hetki vain…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kohteita ei voitu ladata</string>
     <string name="miuix_show_password">Näytä salasana</string>
+    <string name="miuix_stretchablewidget_collapsed">Pienennetty</string>
+    <string name="miuix_stretchablewidget_expanded">Laajennettu</string>
     <string name="modify_download_path_no_sdcard_dlg_msg">SD-kortti vaaditaan muokataksesi tätä polkua.</string>
     <string name="monday">Maanantai</string>
     <string name="monday_short">Ma</string>
@@ -1492,6 +1497,7 @@ Saat lisätietoa, kun olet taas yhteydessä verkkoon."</string>
     <string name="pdf_summary">Yhteenveto</string>
     <string name="pdf_unlocking">Käytä tiedostoja</string>
     <string name="per_month">Per kuukausi</string>
+    <string name="permanent_delete">Poista</string>
     <string name="permission_agree_service">Olen lukenut ja hyväksynyt kaikki seuraavat käyttöehdot.</string>
     <string name="permission_alert_window">Salli selaimen näyttää kelluvat ikkunat, jotta se voi käyttää tätä ominaisuutta.</string>
     <string name="permission_contacts">Yhteystiedot</string>
@@ -1755,9 +1761,9 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="protection_dialog_refuse_midi">MIDI-laitteiden ohjaus on rajoitettu</string>
     <string name="protection_dialog_summary">Tämä toiminto estettiin</string>
     <string name="protection_dialog_title">Rajoita käyttöoikeuksia: %s</string>
-    <string name="pull_to_refresh">Pull down to refresh</string>
-    <string name="pull_to_refresh_pull_label">Vedä päivittääksesi</string>
-    <string name="pull_to_refresh_release_label">Vapauta suositellaksesi ja päivittääksesi</string>
+    <string name="pull_to_refresh">Lataa uudelleen vetämällä alas</string>
+    <string name="pull_to_refresh_pull_label">Lataa uudelleen vetämällä</string>
+    <string name="pull_to_refresh_release_label">Vapauta suositellaksesi ja ladataksesi uudelleen</string>
     <string name="pwa_app_name">Verkkosovellukset</string>
     <string name="pwa_hint_added_success">Lisätty onnistuneesti</string>
     <string name="qr_code_title">QR-koodi</string>
@@ -1809,7 +1815,7 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="readmode_reach_last_page">Tämä on viimeinen sivu</string>
     <string name="readmode_recommend">Näytä suositellut</string>
     <string name="readmode_recommend_message">Olet lukenut tämän kirjan jo. :)</string>
-    <string name="readmode_refresh">Päivitä</string>
+    <string name="readmode_refresh">Lataa uudelleen</string>
     <string name="readmode_tips">Ota käyttöön Vain teksti -tila</string>
     <string name="readmodelist_bookmarks_to_show">Lukulista</string>
     <string name="realtime_cancel_notification_btn">Peruuta</string>
@@ -1826,15 +1832,15 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="recommend_description">Olemme valinneet sisällöntuottajia, joita saatat haluta seurata.</string>
     <string name="record_permission_name">Tallenna ääntä</string>
     <string name="recovery_page_popup">Jatka siitä mihin jäit</string>
-    <string name="refresh">Refresh</string>
+    <string name="refresh">Lataa uudelleen</string>
     <string name="refresh_button_update_item">%d päivitystä on saatavilla</string>
     <string name="refresh_button_update_latest">Katselet uusimpia kohteita</string>
-    <string name="refresh_fail">Tietoa ei voitu ladata</string>
+    <string name="refresh_fail">Tietoja ei voitu ladata</string>
     <string name="refresh_guide">Palaa alkuun</string>
-    <string name="refreshing">Refreshing…</string>
+    <string name="refreshing">Ladataan uudelleen…</string>
     <string name="refuse_open">Ei nyt</string>
     <string name="refuse_permissions_request">Rajoita</string>
-    <string name="release_to_refresh">Release to refresh</string>
+    <string name="release_to_refresh">Vapauta ladataksesi uudelleen</string>
     <string name="relevant_recommendations">Suositellut</string>
     <string name="remember_my_choice">Muista valintani</string>
     <string name="remember_passwords_confirm_message">Tämän ominaisuuden poistaminen käytöstä voi vaikuttaa käyttöön.</string>
@@ -2075,7 +2081,7 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="tab_reader_description">Lukija</string>
     <string name="tab_realtime">Uutta</string>
     <string name="tab_realtime2">Viimeisin</string>
-    <string name="tab_refresh_description">Virkistä sivu</string>
+    <string name="tab_refresh_description">Lataa sivu uudelleen</string>
     <string name="tab_search_description">Etsi</string>
     <string name="tab_share_description">Jaa tämä sivu</string>
     <string name="tab_shorts">Kelat</string>
@@ -2089,7 +2095,7 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="talkback_ai_button_close">Sulje tekoäly</string>
     <string name="talkback_ai_button_quiz">Kysy</string>
     <string name="talkback_ai_quiz_button_copy_answer">Kopioi vastaus</string>
-    <string name="talkback_ai_quiz_button_refresh_answer">Päivitä vastaus</string>
+    <string name="talkback_ai_quiz_button_refresh_answer">Lataa vastaus uudelleen</string>
     <string name="talkback_ai_quiz_button_webpage_close">Sulje verkkosivu</string>
     <string name="talkback_ai_translate_pop">Dialogi-ikkuna</string>
     <string name="talkback_background_color">Taustaväri</string>
@@ -2107,7 +2113,7 @@ Tietyt sivustot eivät käytä aiempaa selaushistoriaasi yksilöidäkseen mainok
     <string name="talkback_summary_close">Sulje</string>
     <string name="talkbak_list_item">%1$s, kohde %2$d. Kohteita yhteensä: %3$d.</string>
     <string name="talkbak_new_message">Valittu: %1$s. Uudet ilmoitukset.</string>
-    <string name="talkbak_refresh_icon">Virkistä</string>
+    <string name="talkbak_refresh_icon">Lataa uudelleen</string>
     <string name="talkbak_title">Otsikko: %1$s</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
