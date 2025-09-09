@@ -44,6 +44,7 @@
     <string name="apple">Apple</string>
     <string name="asus">华硕</string>
     <string name="asus_phone">华硕手机</string>
+    <string name="background_wait">后台等待</string>
     <string name="blackshark">黑鲨</string>
     <string name="blackshark_1">黑鲨</string>
     <string name="blackshark_2">黑鲨2</string>
@@ -69,12 +70,16 @@
     <string name="cancel_receive">取消接收</string>
     <string name="cancel_send">已取消发送</string>
     <string name="cancel_task">取消发送</string>
+    <string name="canceled">已取消</string>
     <string name="clearable_edittext_clear_description">清空</string>
     <string name="close">关闭</string>
     <string name="complete">完成</string>
+    <string name="confirm">确认</string>
     <string name="confirm_cancel_receive">取消后文件内容将不再保留，是否确认取消？</string>
-    <string name="confirm_cancel_task_files">是否取消向%1$s发送文件</string>
-    <string name="confirm_cancel_task_images">是否取消向%1$s发送图片</string>
+    <string name="confirm_cancel_task_files">取消发送文件？</string>
+    <string name="confirm_cancel_task_images">取消发送图片？</string>
+    <string name="connect">连接</string>
+    <string name="connected">已连接</string>
     <string name="copy">复制</string>
     <string name="count_and_size_of_file">%1$s %2$s</string>
     <string name="custom_define_permission_desc_android.permission_group.LOCATION">用于实现蓝牙/WLAN状态下的文件传输功能</string>
@@ -108,19 +113,22 @@
     <string name="enable_midrop">开启</string>
     <string name="eras_ad">公元</string>
     <string name="eras_bc">公元前</string>
-    <string name="err_send_short_connect_error">连接失败</string>
+    <string name="err_send_short_connect_error">连接异常</string>
     <string name="err_send_short_remote_busy">设备正忙</string>
     <string name="err_send_short_remote_cancel">对方取消</string>
     <string name="err_send_short_remote_refuse">对方拒绝</string>
     <string name="err_send_short_remote_timeout">未响应</string>
     <string name="err_send_short_send_cancel">发送已取消</string>
-    <string name="error_ap_in_use">热点使用状态下无法发送文件至其他设备</string>
     <string name="error_ap_or_screen_already_hosting">投屏或热点使用状态下无法发送文件至其他设备</string>
     <string name="error_ble_connect_failure">接收端蓝牙不可连接，请先保持接收端处于屏幕点亮状态</string>
     <string name="error_ble_connect_timeout">蓝牙连接失败，建议重启双方设备的蓝牙后再次发送</string>
     <string name="error_device_lost">对方设备未响应，请稍后重试</string>
     <string name="error_has_occurred">小米互传发生错误</string>
-    <string name="error_mirror_working">正在跨屏，不可使用互传</string>
+    <string name="error_local_ap_in_use">尝试关闭热点后重试</string>
+    <string name="error_local_easytether">尝试结束“通信共享”后重试</string>
+    <string name="error_local_mirror">尝试结束“跨屏”后重试</string>
+    <string name="error_local_p2p_in_use">尝试结束互联任务后重试</string>
+    <string name="error_local_screening">尝试结束投屏后重试</string>
     <string name="error_msg_network_error">连接失败，建议重启双方设备的Wi-Fi和蓝牙后再次发送</string>
     <string name="error_msg_network_error_china">连接失败，建议重启双方设备的WLAN和蓝牙后再次发送</string>
     <string name="error_msg_wlan_error">连接失败，建议重启双方设备的Wi-Fi后再次发送</string>
@@ -138,9 +146,14 @@
     <string name="error_receive_user_cancel">已取消互传文件</string>
     <string name="error_receive_user_interrupted">对方已取消互传文件</string>
     <string name="error_refuse_receive">已取消接收文件</string>
-    <string name="error_remote_ap_working">对方设备需关闭热点才可接收</string>
+    <string name="error_remote_ap_in_use">需对方关闭热点后重试</string>
     <string name="error_remote_busy">对方正忙，请稍后重试</string>
-    <string name="error_remote_mirror_working">对方设备跨屏中，无法接收</string>
+    <string name="error_remote_easytether">需对方结束“通信共享”后重试</string>
+    <string name="error_remote_mirror">需对方结束“跨屏”后重试</string>
+    <string name="error_remote_p2p_in_use">需对方结束互联任务后重试</string>
+    <string name="error_remote_screening">需对方结束投屏后重试</string>
+    <string name="error_remote_wlan_off">请开启对方设备Wi-Fi</string>
+    <string name="error_remote_wlan_off_china">请开启对方设备WLAN</string>
     <string name="error_self_busy">设备正忙，请稍后重试</string>
     <string name="error_send_file_cannot_read">文件发送失败，请重试</string>
     <string name="error_send_file_no_enough_space">对方存储空间不足，已停止发送</string>
@@ -227,17 +240,28 @@
     <string name="go_to_settings">去设置</string>
     <string name="guide_page_view1">收发双方开启“小米互传”，接收方在“控制中心”开启该功能，让发送方可见，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
     <string name="guide_page_view1_lyra">接收文件开启“小米互传”，接收所有人的文件，可在“控制中心”快捷开启，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
+    <string name="guide_page_view1_os3">开启互传，接收文件，可在控制中心快捷开启，接收所有人文件，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
     <string name="guide_page_view2">选择接收方，点击接收方的设备头像可分享文件，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
+    <string name="guide_page_view2_os3">选择设备，发送文件，分享时，选择设备发送文件，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
+    <string name="guide_page_view3">背部贴贴，快速分享，与另一个手机背部NFC区域靠近，可快速分享，第%1$d页，共%2$d页，双指左滑或右滑可切换</string>
     <string name="guide_summary_1">接收方在控制中心开启互传功能，让发送方可见</string>
     <string name="guide_summary_1_lyra">接收所有人文件，可在控制中心快捷开启</string>
+    <string name="guide_summary_1_os3">可在控制中心快捷开启，接收所有人文件</string>
     <string name="guide_summary_2">在分享时点击接收方的设备头像，分享文件</string>
+    <string name="guide_summary_2_os3">分享时，选择设备发送文件</string>
+    <string name="guide_summary_3">与另一个手机背部NFC区域靠近，可快速分享</string>
     <string name="guide_title_1">收发双方开启互传</string>
     <string name="guide_title_1_lyra">接收文件开启互传</string>
+    <string name="guide_title_1_os3">开启互传，接收文件</string>
     <string name="guide_title_2">选择接收方</string>
+    <string name="guide_title_2_os3">选择设备，发送文件</string>
+    <string name="guide_title_3">背部贴贴，快速分享</string>
     <string name="help">找不到设备？</string>
     <string name="hide">隐藏</string>
     <string name="hisense">海信</string>
     <string name="hisense_phone">海信手机</string>
+    <string name="honor">荣耀</string>
+    <string name="honor_phone">荣耀手机</string>
     <string name="i_know">知道了</string>
     <string name="imac">iMac</string>
     <string name="international_privacy_dialog_agree">同意</string>
@@ -289,15 +313,18 @@
     <string name="mishare_service_channel_desc">小米互传服务运行通知</string>
     <string name="mishare_settings_summary_international">"小米手机、小米平板
 更多Android设备：vivo、realme、OPPO等其他品牌也将陆续支持本功能，支持详情以各品牌官网为准"</string>
+    <string name="mishare_settings_summary_international_ios">"小米手机、小米平板
+Apple设备：iPhone、iPad和Mac
+更多Android设备：vivo、realme和OPPO等其他品牌也将陆续支持本功能，支持详情以各品牌官网为准"</string>
     <string name="mishare_state_protection">互传状态保护</string>
     <string name="mishare_state_protection_summary">关闭后，互传功能将在Wi-Fi及蓝牙关闭时一同关闭，且不会自动恢复</string>
     <string name="mishare_state_protection_summary_china">关闭后，互传功能将在WLAN及蓝牙关闭时一同关闭，且不会自动恢复</string>
     <string name="mishare_support_device_comment">支持设备</string>
     <string name="mishare_support_device_summary">"小米手机、小米平板、小米笔记本
-更多Android厂商设备：vivo、realme、OPPO、黑鲨、魅族、一加、中兴、海信、华硕、ROG、三星、联想、摩托罗拉、蔚来等"</string>
+更多Android厂商设备：vivo、realme、OPPO、黑鲨、魅族、一加、中兴、海信、华硕、ROG、三星、联想、摩托罗拉、蔚来、荣耀等"</string>
     <string name="mishare_support_device_summary_ios">"小米手机、小米平板、小米笔记本
 Apple设备：iPhone、iPad、Mac
-更多Android厂商设备：vivo、realme、OPPO、黑鲨、魅族、一加、中兴、海信、华硕、ROG、三星、联想、摩托罗拉、蔚来等"</string>
+更多Android厂商设备：vivo、realme、OPPO、黑鲨、魅族、一加、中兴、海信、华硕、ROG、三星、联想、摩托罗拉、蔚来、荣耀等"</string>
     <string name="mishare_transefer_channel_desc">小米互传文件发送和文件接收通知</string>
     <string name="miuix_access_state_desc">选中</string>
     <string name="miuix_accessibility_title">标题</string>
@@ -475,6 +502,7 @@ Apple设备：iPhone、iPad、Mac
     <string name="redmi_note_9_pro_max">Redmi Note9 Pro Max</string>
     <string name="redmi_note_9s">Redmi Note 9S</string>
     <string name="refuse_file">拒绝</string>
+    <string name="refused">已拒绝</string>
     <string name="retry_task">重新发送</string>
     <string name="rog">ROG</string>
     <string name="rog_phone">ROG手机</string>
@@ -523,12 +551,18 @@ Apple设备：iPhone、iPad、Mac
     <string name="share_device_near_share_image_describe">与另一个手机NFC区域保持靠近，即可快速分享</string>
     <string name="share_device_near_share_subtitle">与另一个设备靠近分享文件</string>
     <string name="share_failed">传输失败</string>
+    <string name="share_file_timeout">文件处理超时，建议减少文件数量后重试</string>
+    <string name="share_not_supported">不支持</string>
     <string name="share_notification_receive_confirm_content">来自%1$s</string>
     <string name="share_open_nfc_content">功能启用需开启NFC，确认开启？</string>
     <string name="share_open_nfc_title">需要开启NFC</string>
     <string name="share_refuse">传输已拒绝</string>
     <string name="share_send_notification_describe">接收设备：%1$s</string>
     <string name="share_show_nfc_position"><Data>&lt;a href=%1$s>查看NFC区域&lt;/a></Data></string>
+    <string name="share_to_be_sent">待发送</string>
+    <string name="share_waiting_connect">待连接</string>
+    <string name="share_waiting_other_recv">等待对方接收</string>
+    <string name="share_waiting_recv">待接收</string>
     <string name="size_of_B">%d B</string>
     <string name="size_of_GB">%d GB</string>
     <string name="size_of_KB">%d KB</string>
@@ -579,6 +613,7 @@ Apple设备：iPhone、iPad、Mac
     <string name="sub_title_mishare_switch_mine">当前仅接收同账号设备文件</string>
     <string name="sub_title_mishare_switch_mine_desc">接收状态为“仅同账号设备”时，需确认对方系统版本为小米澎湃OS及以上，且“小米互传”版本为3.0.0及以上</string>
     <string name="sub_title_mishare_switch_none">开启互传服务，允许设备接收文件</string>
+    <string name="sub_title_mishare_switch_none_os3">可被附近设备发现</string>
     <string name="sub_title_turbo_mode">开启后，传输期间将暂时断网</string>
     <string name="sub_title_withdraw_privacy_policy_consent">同时关闭小米互传</string>
     <string name="success_receive_much_file_from_pc">成功接收：%1$s发来的超过%2$d个文件，点击查看</string>
@@ -589,7 +624,53 @@ Apple设备：iPhone、iPad、Mac
     <string name="support_device_type">支持的设备种类</string>
     <string name="switch_mode_all">所有人（%d分钟）</string>
     <string name="switch_mode_close">接收关闭</string>
+    <string name="switch_mode_close_os3">关闭</string>
     <string name="switch_mode_sameaccount">仅同账号设备</string>
+    <string name="tap_share_condition_describe">"%1$d. 双方开启NFC、蓝牙和Wi-Fi
+%2$d. 小米手机需升级“小米互传”至%3$s版本
+%4$d. iPhone需安装“小米互联服务”"</string>
+    <string name="tap_share_condition_describe_china">"%1$d. 双方开启NFC、蓝牙和WLAN
+%2$d. 小米手机需升级“小米互传”至%3$s版本
+%4$d. iPhone需安装“小米互联服务”"</string>
+    <string name="tap_share_condition_describe_os3">"%1$d. 双方亮屏解锁，开启NFC、蓝牙和Wi-Fi
+%2$d. 小米手机需升级至%3$s及以上，也可在设置页搜索小米互传，查看“贴贴分享”设置项确认是否支持
+%4$d. iPhone12以上机型，且系统版本iOS17及以上，并安装“小米互联服务”最新版"</string>
+    <string name="tap_share_condition_describe_os3_china">"%1$d. 双方亮屏解锁，开启NFC、蓝牙和WLAN
+%2$d. 小米手机需升级至%3$s及以上，也可在设置页搜索小米互传，查看“贴贴分享”设置项确认是否支持
+%4$d. iPhone12以上机型，且系统版本iOS17及以上，并安装“小米互联服务”最新版"</string>
+    <string name="tap_share_connecting_this_wifi">正在连接此WIFI</string>
+    <string name="tap_share_connecting_this_wlan">正在连接此WLAN</string>
+    <string name="tap_share_connecting_wifi">正在连接“%1$s”</string>
+    <string name="tap_share_content_describe">"在发送端手机上，打开以下界面触发分享：
+%1$d. 分享照片、视频：打开相册大图页、勾选页，或点击“发送”进入分享弹窗界面
+%2$d. 分享文件：打开文件管理勾选页，或点击“发送”进入分享弹窗界面
+%3$d. 分享Wi-Fi：已连接Wi-Fi时，打开Wi-Fi列表页或点击“已连接Wi-Fi”进入分享弹窗界面
+%4$d. 分享联系人：打开联系人详情页、勾选页，或点击“分享”，选择“VCard”文件，进入分享弹窗界面
+%5$d. 分享网页：打开小米浏览器网页，或点击“分享”进入分享弹窗界面
+"</string>
+    <string name="tap_share_content_describe_china">"在发送端手机上，打开以下界面触发分享：
+%1$d. 分享照片、视频：打开相册大图页、勾选页，或点击“发送”进入分享弹窗界面
+%2$d. 分享文件：打开文件管理勾选页，或点击“发送”进入分享弹窗界面
+%3$d. 分享WLAN：已连接WLAN时，打开WLAN列表页或点击“已连接WLAN”进入分享弹窗界面
+%4$d. 分享联系人：打开联系人详情页、勾选页，或点击“分享”，选择“VCard”文件，进入分享弹窗界面
+%5$d. 分享网页：打开小米浏览器网页，或点击“分享”进入分享弹窗界面
+"</string>
+    <string name="tap_share_image_describe">与另一个手机背部NFC区域靠近，即可快速分享</string>
+    <string name="tap_share_is_connect_this_wifi">是否连接此WIFI</string>
+    <string name="tap_share_is_connect_this_wlan">是否连接此WLAN</string>
+    <string name="tap_share_preparing">正在准备</string>
+    <string name="tap_share_preparing_file">正在准备文件</string>
+    <string name="tap_share_send_this_wifi">分享此WIFI</string>
+    <string name="tap_share_send_this_wlan">分享此WLAN</string>
+    <string name="tap_share_subTitle">与另一个设备NFC区域靠近分享文件</string>
+    <string name="tap_share_tips_title">手机背部贴贴，快速分享</string>
+    <string name="tap_share_title">贴贴分享</string>
+    <string name="tap_share_wifi_cannot_share">此网络不支持分享</string>
+    <string name="tap_share_wifi_connect_cancel">连接已取消</string>
+    <string name="tap_share_wifi_connect_success">连接成功</string>
+    <string name="tap_share_wifi_connected">已连接“%1$s”</string>
+    <string name="tap_share_wifi_fail">连接失败</string>
+    <string name="tapshare_receive_describe_wifi">连接“%1$s”</string>
     <string name="the_anniversary_of_lifting_martial_law">解严纪念日</string>
     <string name="the_anti_aggression_day">反侵略日</string>
     <string name="the_arbor_day">植树节</string>
