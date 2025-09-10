@@ -7,9 +7,13 @@
     <string name="action_notes">Жазбаларда сақтау</string>
     <string name="action_retry">Қайталап көру</string>
     <string name="actionbar_button_up_description">Артқа</string>
+    <string name="add_mark">Белгілеу</string>
     <string name="afternoon">Түстен кейін</string>
     <string name="agree_description">Осы қолданбаның барлық функцияларын қолдана алу үшін, интернетке қосылуға рұқсат беріңіз.</string>
     <string name="ai_recognition_other_speaker">(Басқа біреу сөйлеп жатыр)</string>
+    <string name="ai_recognize_fail">Транскрипциялау мүмкін болмады</string>
+    <string name="ai_recognize_fail_tip">Қорытынды жасау мүмкін болмады. Әрекетті қайталаңыз.</string>
+    <string name="ai_recognize_preference_summary">Жазу кезінде автоматты түрде транскрипциялау</string>
     <string name="ai_summary">AI Қорытынды</string>
     <string name="ai_watermark">Бұл мазмұн ЖИ тарабынан жасалған, және анықтама үшін келтірілген.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Микрофон пайдаланылған кезде жазу мүмкін емес</string>
@@ -38,6 +42,9 @@
     <string name="app_name">Диктофон</string>
     <string name="app_record">Қолданба жазбалары</string>
     <string name="app_record_preference_title">Дауыстық Қоңырау Диктафоны</string>
+    <string name="asr_in_progress">%s Транскрипциялау және қорытындылау</string>
+    <string name="asr_in_progress_with_polish">%s Пысықтау және қорытындылау</string>
+    <string name="asr_progress">Аудиожазба транскрипциялануда %s</string>
     <string name="back">Артқа</string>
     <string name="back_playback_position">Қазіргі орынға қайту</string>
     <string name="bottomsheet_action_collapse">Төменгі парақты кішірейту</string>
@@ -196,6 +203,7 @@
     <string name="head_set_tip_dialog_ok">Түсінікті</string>
     <string name="head_set_tip_dialog_title">Кірістірілген микрофонды пайдаланыңыз</string>
     <string name="high_bit_rate">MP3, ~%1$d кбит, ~%2$d МБ/сағ</string>
+    <string name="intelligent_polishing_preference_summary">Артықшылықтарды алып тастау және қытай тілі пішіміне стандарттау</string>
     <string name="invisible_mode_dialog_message">Инкогнито режимінде микрофонды пайдалана алмайсыз. Алдымен Инкогнито режимін өшіріңіз.</string>
     <string name="invisible_mode_dialog_negative">Болдырмау</string>
     <string name="invisible_mode_dialog_positive">Өшіру</string>
@@ -350,7 +358,10 @@
     <string name="no_text_content">Мәтін жоқ</string>
     <string name="noon">Күн ортасы</string>
     <string name="not_allowed">Берілген жоқ</string>
+    <string name="notice_btn_stop_ai_recognize">Өшіру</string>
+    <string name="notice_content_no_asr_long_time">Ұзақ уақыт бойы ешқандай сөйлеу анықталмады.</string>
     <string name="notice_for_ai_search_tips">Толығырақ</string>
+    <string name="notice_title_is_need_stop_ai_recognize">AI Сөйлеуді Тану өшірілсін бе?</string>
     <string name="notification_message_all_paused">Wi-Fi қосылуын күту.</string>
     <string name="notification_pause_playback">Ойнату кідіртілді</string>
     <string name="notification_playback">Ойнату…</string>
@@ -358,11 +369,16 @@
     <string name="notification_recording_ticker">Телефон бәсеңдетілген</string>
     <string name="notification_save_as_complete">Сәтті сақталды</string>
     <string name="notification_stopped">Жазу тоқтатылды</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Транскрипциялау аяқталды</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Қорытынды жасау мүмкін болмады</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Қорытынды жасау аяқталды</string>
     <string name="notification_title_all_paused">Жүктеу тоқтатылды</string>
+    <string name="nrt_asr_complete">Транскрипциялау аяқталды. Жаңарту үшін түртіңіз.</string>
     <string name="offline_recognize_transfer_format">Шифр ашу…</string>
     <string name="online_recognize_progress">Шифр ашу %s…</string>
     <string name="open_voice_enhancement">Дыбысты жақсарту</string>
     <string name="opened_voice_enhancement">Жақсартылған дауыс қосулы</string>
+    <string name="pasport_register_dialog_message">Xiaomi Аккаунты %s телефон нөміріңізбен тіркелсін бе?</string>
     <string name="passport_access_denied">Қолжетілмділік рұқсаты жоқ</string>
     <string name="passport_account_crop_user_avatar">Суретті кесу</string>
     <string name="passport_account_empty_user_name">Атыңызды енгізіңіз</string>
@@ -379,7 +395,7 @@
     <string name="passport_account_secure_info_pref_title">Аккаунт туралы ақпарат</string>
     <string name="passport_account_security_info_pref_title">Қауіпсіздік мәліметтері</string>
     <string name="passport_account_user_avatar">Профиль суреті</string>
-    <string name="passport_account_user_avatar_from_album">Галерея</string>
+    <string name="passport_account_user_avatar_from_album">Галереядан таңдаңыз</string>
     <string name="passport_account_user_avatar_from_camera">Камера</string>
     <string name="passport_account_user_base_info">Негізгі ақпарат</string>
     <string name="passport_account_user_details">Жеке ақпарат</string>
@@ -393,7 +409,6 @@
     <string name="passport_agree">Келісу</string>
     <string name="passport_area_code_title">Аймақ коды</string>
     <string name="passport_attention">Назар аударыңыз</string>
-    <string name="passport_auth_fail_warning">Сессия мерзімі бітті. Қайтадан кіріңіз.</string>
     <string name="passport_back">Артқа</string>
     <string name="passport_bad_authentication">Пайдаланушының аты немесе құпиясөзі дұрыс емес</string>
     <string name="passport_can_not_recevie_verify_code">Кодты алмадыңыз ба?</string>
@@ -415,11 +430,9 @@
     <string name="passport_doing_query_account">Аккаунт ақпаратын тексеру…</string>
     <string name="passport_error_auth_fail">Сессия уақыты асты. Қайтадан кіріңіз.</string>
     <string name="passport_error_device_id">Құрылғының ID-ін алу мүмкін емес</string>
-    <string name="passport_error_dup_binded_email">Осы электрондық мекенжай басқа Xiaomi Аккаунтымен байланысты.</string>
     <string name="passport_error_empty_password">Құпиясөзді енгізіңіз</string>
     <string name="passport_error_empty_pwd">Құпиясөз бос болауы керек</string>
     <string name="passport_error_empty_user_id">Пайдаланушы атыңызды енгізіңіз</string>
-    <string name="passport_error_invalid_bind_address">Сіз енгізген электрондық пошта жармсыз.</string>
     <string name="passport_error_length_limit">Енгізген мәтініңіз тым ұзын</string>
     <string name="passport_error_network">Желіге қосылу мүмкін емес</string>
     <string name="passport_error_no_password_user">Сіз әлі құпиясөзді орнатқан жоқсыз. SMS арқылы кіріңіз.</string>
@@ -435,17 +448,14 @@
     <string name="passport_error_unknown">Белгісіз қате</string>
     <string name="passport_error_user_name">Сіз енгізген пайдаланушы аты жарамсыз</string>
     <string name="passport_error_user_password">Құпиясөздер сәйкес келмейді</string>
-    <string name="passport_exceed_binded_phone_times_notice">Осы телефон нөмірі басқа Xiaomi Аккаунтымен байланысты.</string>
     <string name="passport_facebook_login_btn_content_description">Facebook арқылы кіру</string>
     <string name="passport_frequency_try_later">Тым көп әрекет жасалды. Бір-екі минут күтіп, әрекетті қайталаңыз.</string>
     <string name="passport_get_login_type_next">Келесі</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Осы нөмірге жіберілген растау кодтары тым көп. 24 сағат күтіп, әрекетті қайталаңыз.</string>
     <string name="passport_google_login_btn_content_description">Google арқылы кіру</string>
     <string name="passport_help">Көмек</string>
     <string name="passport_i_know">Түсінікті</string>
     <string name="passport_identification_expired">Растау кодының мерзімі аяқталды. Басынан бастаңыз.</string>
     <string name="passport_input_captcha_hint">Кодты енгізіңіз</string>
-    <string name="passport_input_email_address_notice">Біз аккаунтты растау үшін электрондық поштаны пайдаланамыз</string>
     <string name="passport_input_password_hint">Құпиясөзді енгізіңіз</string>
     <string name="passport_input_phone_number_hint">Телефон нөмірін енгізіңіз</string>
     <string name="passport_input_verify_code">Растау кодын енгізіңіз</string>
@@ -457,7 +467,6 @@
     <string name="passport_login_register_by_local_phone_long_text">Аккаунтты тіркеу</string>
     <string name="passport_login_with_sns">Кірудің басқа жолдары</string>
     <string name="passport_logout_account">Аккаунттан шығу</string>
-    <string name="passport_mi_account_first_title">Егер сіз телефон нөміріңізді бірінші рет қолдансаңыз, біз автоматты түрде аккаунт тіркейміз.</string>
     <string name="passport_mi_account_title">Xiaomi Аккаунты арқылы кіру</string>
     <string name="passport_network_error">Желі қатесі пайда болды. Желі баптауларын тексеріңіз және қайталаңыз.</string>
     <string name="passport_network_error_hint">URL-ды тексеріп, қайталап көріңіз, немесе URL-ды көшіріп, браузеріңізде ашыңыз.</string>
@@ -466,6 +475,7 @@
     <string name="passport_no_account">Кіру орындалмады</string>
     <string name="passport_open_settings">Баптаулар</string>
     <string name="passport_page_load_failed">Бетті ашу мүмкін емес</string>
+    <string name="passport_password_hide_show">Құпиясөзді жасыру</string>
     <string name="passport_password_login_btn">Кіру</string>
     <string name="passport_password_not_show">Құпиясөзді көрсетпеу</string>
     <string name="passport_password_show">Құпиясөзді көрсету</string>
@@ -477,6 +487,8 @@
     <string name="passport_reging">Аккаунтты тіркеу…</string>
     <string name="passport_register_by_local_phone_long_text">Аккаунтты тіркеу</string>
     <string name="passport_register_by_local_phone_short_text">Аккаунтты тіркеу</string>
+    <string name="passport_register_dialog_positive">Тіркеу</string>
+    <string name="passport_register_dialog_title">Xiaomi Аккаунтын тіркеу</string>
     <string name="passport_register_restricted">Осы нөмірмен байланысқан аккаунт тым көп. Басқасын таңдаңыз.</string>
     <string name="passport_relogin_notice">Сіз қайтадан кіру керексіз</string>
     <string name="passport_request_agree">Рұқсат беру</string>
@@ -485,40 +497,37 @@
     <string name="passport_request_error_invalid_token">Растау мүмкін болмады</string>
     <string name="passport_request_error_network">Желі қатесі пайда болды. Желі баптауларын тексеріңіз және қайталаңыз.</string>
     <string name="passport_request_error_unknown">Жүйе қатесі пайда болды. Артқа қайтып, әрекетті қайталаңыз.</string>
-    <string name="passport_request_gallery_permission_message">Галереяға қолжетімділік рұқсатын беріңіз:&lt;br />Профиль суретін орнату үшін</string>
-    <string name="passport_resend_email_reach_limit_message">Сіз растау үшін тым көп хат сұраттыңыз. Хаттың сіздің пошта жәшігіңіздің спамына арналған папкаға түспегеніне көз жеткізіңіз.</string>
-    <string name="passport_resend_email_reach_limit_title">Тым көп әрекет жасалды</string>
+    <string name="passport_request_gallery_permission_message">Бұл қолдаңба профиль суретіңізді орнату үшін таңдалған Галерея элементтеріне кіру керек. Қазір рұқсат етесіз бе?</string>
+    <string name="passport_request_permission_title">Рұқсаттар талап етіледі</string>
     <string name="passport_resend_ticket">Кодты қайта жіберу</string>
     <string name="passport_retry">Қайталау</string>
-    <string name="passport_same_new_and_old_pwd">Ағымдағы құпиясөзбен бірдей бола алмайды</string>
     <string name="passport_send_sms_to">Код %1$s нөміріне жіберілді</string>
     <string name="passport_send_too_many_code">Осы нөмірге жіберілген растау кодтары тым көп. 24 сағат күтіп, әрекетті қайталаңыз.</string>
     <string name="passport_sending_vcode">Кодты жіберу…</string>
-    <string name="passport_service_error">Сервер қатесі</string>
     <string name="passport_set_password_no_phone_msg">Аккаунтыңызды қорғау үшін телефон нөміріңізді қосыңыз.</string>
     <string name="passport_skip_query_account">Өткізіп жіберу</string>
-    <string name="passport_sns_access_token_expired_warning">Сессия уақыты асты. Аккаунтқа қайта кіріңіз.</string>
     <string name="passport_sns_bind_limit">Тым көп әрекет жасалды. Кірудің басқа жолдарын көріңіз.</string>
     <string name="passport_system_error">Жүйе бос емес. Бір-екі минут күтіп, әрекетті қайталаңыз.</string>
     <string name="passport_talkback_image_captcha">Сурет растау коды</string>
     <string name="passport_talkback_switch_image_captcha">Сурет растау кодына ауысу</string>
     <string name="passport_talkback_switch_voice_captcha">Дауыс растау кодына ауысу</string>
     <string name="passport_talkback_voice_captcha">Дауыс растау кодын ойнату</string>
+    <string name="passport_third_sns_service_unavailable">Қызмет қолжетімсіз. Қолданба орнатылғанына және бұғатталмағанына көз жеткізіңіз.</string>
     <string name="passport_ticket_send_by_second">%d жіберіледі</string>
     <string name="passport_to_forget_password">Құпиясөзді ұмыттыңыз ба?</string>
     <string name="passport_to_password_login">Құпия сөз арқылы кіріңіз</string>
     <string name="passport_to_verify_code_login">SMS арқылы кіру</string>
     <string name="passport_unknown_error">Белгісіз қате</string>
     <string name="passport_unknown_host_network_error">Желі баптауларын тексеріп, әрекетті қайталаңыз</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a> және Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a> оқыдым және оларға келісемін.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>China Mobile растау қызметтерінің Ережелері мен Шарттарын оқыдым және оларға келісемін&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>eSurfing аккаунтының растау қызметтерінің Ережелері мен Шарттарын оқыдым және оған келісемін&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>China Unicom растау қызметтерінің Ережелері мен Шарттарын оқыдым және оларға келісемін&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a> оқыдым және оларға келісемін.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a> және Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a> оқыдым және оларға келісемін.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>China Mobile растау қызметтерінің Ережелері мен Шарттарын оқыдым және оларға келісемін&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>eSurfing аккаунтының растау қызметтерінің Ережелері мен Шарттарын оқыдым және оған келісемін&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>China Unicom растау қызметтерінің Ережелері мен Шарттарын оқыдым және оларға келісемін&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a> оқыдым және оларға келісемін.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Егер сіз телефон нөміріңізді бірінші рет қолдансаңыз, біз автоматты түрде аккаунт тіркейміз.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>China Mobile растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>eSurfing аккаунты растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>China Unicom растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>China Mobile растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>eSurfing аккаунты растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>China Unicom растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.</Data></string>
     <string name="passport_user_avatar_update_title">Профиль суретін өзгерту</string>
     <string name="passport_user_avatar_uploading">Бір секунд…</string>
     <string name="passport_user_id_hint">Эл. пошта/телефон нөмірі/Xiaomi Аккаунт ID</string>
@@ -537,6 +546,7 @@
     <string name="permission_bluetooth">Bluetooth байланысы жайлы мәліметке қолжетімділік</string>
     <string name="permission_bluetooth_dialog_description">Бұл құрылғыға жазбаларды ойнатқан кезінде жақын арадағы құрылғыларға ауысу үшін, оларға қосылуға рұқсат беріңіз.</string>
     <string name="permission_bluetooth_title">Рұқсаттар талап етіледі</string>
+    <string name="permission_camera_description">Жазу кезінде суретке түсіру үшін</string>
     <string name="permission_desc">Рұқсаттар туралы ақпарат</string>
     <string name="permission_dialog_cancel">Болдырмау</string>
     <string name="permission_dialog_ok">Баптаулар</string>
@@ -568,6 +578,10 @@
     <string name="preference_clear_data">Деректерді тазалау</string>
     <string name="preference_enable_earpiece_summary">Сөйлесу динамигін пайдаланып дыбысты ойнатыңыз</string>
     <string name="preference_enable_earpiece_title">Сөйлесу динамигі режимі</string>
+    <string name="preference_group_title_for_ai_setting">AI функциялары</string>
+    <string name="preference_group_title_for_normal_setting">Жалпы</string>
+    <string name="preference_key_ai_recognize">AI Сөйлеуді Тану</string>
+    <string name="preference_key_intelligent_polishing">Ақылды пысықтау</string>
     <string name="preference_led_indicator">Экран хабарландыруларын құлыптау</string>
     <string name="preference_led_indicator_prompt">Жазу кезінде Бұғаттау экранында көк индикаторды және LED жарығын көрсету</string>
     <string name="preference_record_desktop_indicator_summary">Жазу кезінде Басты экраннан көк индикаторды көрсету</string>
@@ -588,6 +602,7 @@
     <string name="progress">Ойнату жолағы</string>
     <string name="progress_dialog_message">Жүктеу…</string>
     <string name="radio_tips">Диктофон аудио транскрипцияны, аудио қорытындыларды және т.б. қамтамасыз етеді. Осы қызметтерді қамтамасыз ету үшін бұл қолданба интернетке қосылуы керек.</string>
+    <string name="re_asr_error_tip">Транскрипциялау мүмкін болмады. Әрекетті қайталаңыз.</string>
     <string name="recent_delete">Жуырда жойылғандар</string>
     <string name="recent_delete_delete_all">Барлық элементтер жойылсын ба?</string>
     <string name="recognition_button_add_to_queue">Кезекке қосу</string>
@@ -617,6 +632,7 @@
     <string name="recognition_process_dialog_title">Ағымдағы міндеттер</string>
     <string name="recognition_stop_current">Ағымдағы тапсырманы тоқтату</string>
     <string name="recognize_complete_toast">Транскрипция аяқталды</string>
+    <string name="recognize_data_loading">Бір секунд…</string>
     <string name="recognize_tip_part_one">"Транскрипциялау аяқталмады. "</string>
     <string name="recognize_tip_part_two">Әрекетті қайталаңыз</string>
     <string name="recognizing_not_rename">Осы жазбаның атын өзгерту мүмкін емес</string>
@@ -732,6 +748,7 @@
     <string name="size_tera_byte">ТБ</string>
     <string name="sound_recorder_settings">Баптаулар</string>
     <string name="speaker">"Сөйлеуші "</string>
+    <string name="state_wait_recognize_tip">Алдымен ағымдағы транскрипцияны аяқтау…</string>
     <string name="status_bar_back">Диктофонға оралу үшін түртіңіз</string>
     <string name="status_bar_recording">Жазу…</string>
     <string name="status_bar_recording_pause">Кідіріс</string>
@@ -763,6 +780,7 @@
     <string name="talkback_traslation_ai_recognize">Мәтін жолағын жасыру</string>
     <string name="talkback_traslation_close">Аударуды тоқтату</string>
     <string name="text_btn_backward_3_seconds">%d секунд артқа</string>
+    <string name="text_btn_camera">Суретке түсіру</string>
     <string name="text_btn_complete">Тоқтату</string>
     <string name="text_btn_forward_3_seconds">%d секунд алға</string>
     <string name="text_btn_mark">Белгілеу</string>
@@ -835,8 +853,11 @@
     <string name="tips_for_build_database">Құрылғыны зарядтағышқа қосулы ұстаңыз. Ол экран өшірулі кезде бұл жазбаны тезірек талдайды.</string>
     <string name="toast_enter_silent_mode">Жазылуда. Үнсіз режимі қосулы.</string>
     <string name="toast_exit_silent_mode">Жазылу аяқталды. Үнсіз режимі өшірулі.</string>
+    <string name="toast_for_no_asr_long_time">Сөйлеу анықталмады. AI Сөйлеуді Тану тоқтатылды.</string>
+    <string name="toast_for_pause_record_long_time">Жазба тоқтатылды. AI Сөйлеуді Тану тоқтатылды.</string>
     <string name="toast_max_record_time">%1$s барынша %2$s жазу уақытын қолдайды</string>
     <string name="toast_stop">Жазылу аяқталды</string>
+    <string name="toast_title_stop_ai_recognize">AI Сөйлеуді Тану тоқтатылды</string>
     <string name="toast_uninstall_fileexplorer">Файл Басқарушы орнатылмады</string>
     <string name="today">Бүгін</string>
     <string name="tomorrow">Ертең</string>

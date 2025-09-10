@@ -34,9 +34,13 @@
     <string name="action_notes">नोट्स में सेव करें</string>
     <string name="action_retry">फिर से कोशिश करें</string>
     <string name="actionbar_button_up_description">वापस</string>
+    <string name="add_mark">मार्क</string>
     <string name="afternoon">दोपहर</string>
     <string name="agree_description">इस ऐप्प के सभी फ़ीचरों का इस्तेमाल कर पाने के लिए, इसे इंटरनेट से कनेक्ट करने की अनुमति दें.</string>
     <string name="ai_recognition_other_speaker">(कोई और बोल रहा है)</string>
+    <string name="ai_recognize_fail">ट्रांस्क्राइब नहीं किया जा सका</string>
+    <string name="ai_recognize_fail_tip">सारांश नहीं लिखा जा सका. फिर से कोशिश करें.</string>
+    <string name="ai_recognize_preference_summary">रिकॉर्डिंग के दौरान अपने-आप ट्रांस्क्राइब करें</string>
     <string name="ai_summary">AI सारांश</string>
     <string name="ai_watermark">यह कंटेंट AI द्वारा जनरेट की गई है और सिर्फ़ आपके संदर्भ के लिए उपलब्ध कराई गई है.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">जब माइक्रोफ़ोन इस्तेमाल में हो, तब रिकॉर्ड नहीं किया जा सकता</string>
@@ -65,13 +69,16 @@
     <string name="app_name">रिकॉर्डर</string>
     <string name="app_record">ऐप्प रिकॉर्डिंग</string>
     <string name="app_record_preference_title">वॉयस कॉल रिकॉर्डर</string>
+    <string name="asr_in_progress">%s ट्रांस्क्राइब करके सारांश लिखा जा रहा है</string>
+    <string name="asr_in_progress_with_polish">%s पॉलिश करके सारांश लिखा जा रहा है</string>
+    <string name="asr_progress">ऑडियो %s ट्रांस्क्राइब हो रहा है</string>
     <string name="back">वापस</string>
     <string name="back_playback_position">वर्तमान स्थिति में वापस लौटें</string>
-    <string name="bottomsheet_action_collapse">नीचे की शीट को छोटा करें</string>
-    <string name="bottomsheet_action_expand">नीचे की शीट को बड़ा करें</string>
-    <string name="bottomsheet_action_expand_halfway">आधे तक बड़ा करें</string>
-    <string name="bottomsheet_drag_handle_clicked">ड्रैग हैंडल को दो बार टैप किया गया</string>
-    <string name="bottomsheet_drag_handle_content_description">ड्रैग हैंडल</string>
+    <string name="bottomsheet_action_collapse">बॉटम शीट को छोटा करें</string>
+    <string name="bottomsheet_action_expand">बॉटम शीट को बड़ा करें</string>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="bottomsheet_drag_handle_clicked">खींचकर छोड़ने वाले हैंडल पर दो बार टैप किया गया</string>
+    <string name="bottomsheet_drag_handle_content_description">खींचकर छोड़ने वाला हैंडल</string>
     <string name="btn_continue_record_description">रिकॉर्डिंग जारी रखें</string>
     <string name="button_queue_for_wifi">प्रतीक्षा करें</string>
     <string name="button_start_now">डाउनलोड करें</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">खाली</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
+    <string name="error_a11y_label">गड़बड़ी: यह अमान्य है</string>
     <string name="error_app_internal">देखें कि क्या कोई अन्य ऐप्प वर्तमान में रिकॉर्डिंग फ़ीचर का उपयोग कर रहा है.</string>
     <string name="error_app_internal_title">ध्वनि रिकॉर्डर मे त्रुटि</string>
     <string name="error_file_access">फ़ाइल मौजूद नहीं है या अनुपयोगी है</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">आंतरिक माइक का उपयोग करें</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
     <string name="icon_content_description">डायलॉग का आइकॉन</string>
+    <string name="intelligent_polishing_preference_summary">अनावश्यक दोहराव हटाएं और चीनी भाषा के लिए फ़ॉर्मेट को मानकीकृत करें</string>
     <string name="invisible_mode_dialog_message">गुप्त मोड में होने पर माइक्रोफ़ोन का इस्तेमाल नहीं किया जा सकता. पहले गुप्त मोड को बंद करें.</string>
     <string name="invisible_mode_dialog_negative">रद्द करें</string>
     <string name="invisible_mode_dialog_positive">बंद करें</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">सभी फ़इलें एक्सेस करें</string>
     <string name="mark_add_toast">जोड़ दिया गया है</string>
     <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_24h_suffix">%1$s घंटे</string>
     <string name="material_hour_selection">घंटा चुनें</string>
     <string name="material_hour_suffix">%1$s बजे</string>
     <string name="material_minute_selection">मिनट चुनें</string>
@@ -381,38 +391,50 @@
     <string name="more_ai_unit_title">मुख्य बिन्दु</string>
     <string name="morning">सुबह</string>
     <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
+    <string name="mtrl_checkbox_state_description_checked">सही का निशान लगाया गया</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">कुछ विकल्प चुने गए</string>
+    <string name="mtrl_checkbox_state_description_unchecked">सही का निशान नहीं लगाया गया</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d से ज़्यादा नई सूचनाएं</string>
     <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
     <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_range_selection">शुरू होने की तारीख चुनें: %1$s – खत्म होने की तारीख चुनें: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">कोई भी तारीख नहीं चुनी गई</string>
+    <string name="mtrl_picker_cancel">रद्द करें</string>
+    <string name="mtrl_picker_confirm">ठीक है</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
     <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
-    <string name="mtrl_picker_day_of_week_column_header">दिनों का कॉलम: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">खत्म होने की तारीख %1$s</string>
     <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
     <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
     <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
-    <string name="mtrl_picker_navigate_to_year_description">साल %1$s पर जाएं</string>
-    <string name="mtrl_picker_out_of_range">तारीख की मान्य सीमा से बाहर: %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">मौजूदा साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_out_of_range">चुनी गई तारीख मान्य नहीं है: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
     <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
     <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
     <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
     <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_start_date_description">शुरू होने की तारीख %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">तारीख</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">आज %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
-    <string name="mtrl_picker_toggle_to_day_selection">"'दिन चुनना' पर स्विच करने के लिए टैप करें"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">कैलेंडर के व्यू पर स्विच करने के लिए टैप करें</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
-    <string name="mtrl_picker_toggle_to_year_selection">"'साल चुनना' पर स्विच करने के लिए टैप करें"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">साल के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_timepicker_cancel">रद्द करें</string>
+    <string name="mtrl_timepicker_confirm">ठीक है</string>
     <string name="network_tip_dialog_cancel">सहमत नहीं हैं</string>
     <string name="network_tip_dialog_content">सामान्य रूप से कार्य करने के लिए रिकॉर्डर को इंटरनेट से कनेक्ट करने की ज़रूरत है. सहमत हैं?</string>
     <string name="network_tip_dialog_ok">सहमत</string>
@@ -439,7 +461,10 @@
     <string name="noon">मध्याह्न</string>
     <string name="not_allowed">अनुमति नहीं मिली</string>
     <string name="not_set">सेट नहीं है</string>
+    <string name="notice_btn_stop_ai_recognize">बंद करें</string>
+    <string name="notice_content_no_asr_long_time">काफी समय से कोई बोली नहीं मिली है.</string>
     <string name="notice_for_ai_search_tips">विवरण</string>
+    <string name="notice_title_is_need_stop_ai_recognize">AI वाक् पहचान बंद करें?</string>
     <string name="notification_message_all_paused">वाई-फाई कनेक्शन की प्रतीक्षा कर रहा है.</string>
     <string name="notification_pause_playback">प्लेबैक रोका गया</string>
     <string name="notification_playback">चल रहा है…</string>
@@ -447,11 +472,16 @@
     <string name="notification_recording_ticker">फ़ोन म्यूट है</string>
     <string name="notification_save_as_complete">सेव कर दिया गया है</string>
     <string name="notification_stopped">रिकॉर्डिंग बंद</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">ट्रांस्क्राइब हो गया है</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">सारांश नहीं लिखाया जा सका</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">सारांश पूरा हो गया है</string>
     <string name="notification_title_all_paused">डाउनलोड रोका गया</string>
+    <string name="nrt_asr_complete">ट्रांस्क्राइब हो गया है। रीफ़्रेश करने के लिए टैप करें।</string>
     <string name="offline_recognize_transfer_format">ट्रांस्क्राइब किया जा रहा है…</string>
     <string name="online_recognize_progress">ट्रांस्क्राइब किया जा रहा है %s…</string>
     <string name="open_voice_enhancement">बेहतर आवाज़ पाएं</string>
     <string name="opened_voice_enhancement">बेहतर आवाज़ चालू है</string>
+    <string name="pasport_register_dialog_message">अपने फ़ोन नंबर %s से अभी एक Xiaomi खाता बनाएं?</string>
     <string name="passport_access_denied">प्रवेश निषेध</string>
     <string name="passport_account_crop_user_avatar">फ़ोटो क्रॉप करें</string>
     <string name="passport_account_empty_user_name">अपना नाम लिखें</string>
@@ -468,7 +498,7 @@
     <string name="passport_account_secure_info_pref_title">खाता जानकारी</string>
     <string name="passport_account_security_info_pref_title">सुरक्षा जानकारी</string>
     <string name="passport_account_user_avatar">प्रोफ़ाइल फ़ोटो</string>
-    <string name="passport_account_user_avatar_from_album">गैलरी</string>
+    <string name="passport_account_user_avatar_from_album">गैलरी से चुनें</string>
     <string name="passport_account_user_avatar_from_camera">कैमरा</string>
     <string name="passport_account_user_base_info">बुनियादी जानकारी</string>
     <string name="passport_account_user_details">निजी जानकारी</string>
@@ -482,7 +512,6 @@
     <string name="passport_agree">सहमत हूं</string>
     <string name="passport_area_code_title">क्षेत्र कोड</string>
     <string name="passport_attention">ध्यान दें</string>
-    <string name="passport_auth_fail_warning">सत्र की समयसीमा खत्म हो गई है. फिर से साइन इन करें.</string>
     <string name="passport_back">वापस</string>
     <string name="passport_bad_authentication">अमान्य उपयोगकर्ता नाम या पासवर्ड</string>
     <string name="passport_can_not_recevie_verify_code">कोड नहीं मिला?</string>
@@ -504,11 +533,9 @@
     <string name="passport_doing_query_account">खाते की जानकारी की जांच की जा रही है…</string>
     <string name="passport_error_auth_fail">सत्र की समयसीमा समाप्त हो गई है. पुनः साइन इन करें.</string>
     <string name="passport_error_device_id">डिवाइस आईडी नहीं मिला</string>
-    <string name="passport_error_dup_binded_email">यह ईमेल पता पहले से ही किसी अन्य Xiaomi खाते से जुड़ा हुआ है.</string>
     <string name="passport_error_empty_password">अपना पासवर्ड डालें</string>
     <string name="passport_error_empty_pwd">पासवर्ड खाली नहीं छोड़ा जा सकता</string>
     <string name="passport_error_empty_user_id">अपना उपयोगकर्ता नाम डालें</string>
-    <string name="passport_error_invalid_bind_address">आपके द्वारा दर्ज किया गया ईमेल पता अमान्य है.</string>
     <string name="passport_error_length_limit">लिखा गया टेक्स्ट बहुत लंबा है</string>
     <string name="passport_error_network">नेटवर्क से कनेक्ट नहीं हो सका</string>
     <string name="passport_error_no_password_user">आपने अबतक पासवर्ड सेट नहीं किया है. एसएमएस से साइन इन करें.</string>
@@ -524,17 +551,14 @@
     <string name="passport_error_unknown">अज्ञात त्रुटि</string>
     <string name="passport_error_user_name">आपके द्वारा दर्ज किया गया उपयोगकर्ता नाम अमान्य है</string>
     <string name="passport_error_user_password">पासवर्ड मेल नहीं खा रहे हैं</string>
-    <string name="passport_exceed_binded_phone_times_notice">यह फ़ोन नंबर पहले से ही किसी अन्य Xiaomi खाते से जुड़ा हुआ है.</string>
     <string name="passport_facebook_login_btn_content_description">Facebook से साइन इन करें</string>
     <string name="passport_frequency_try_later">बहुत अधिक प्रयास. एक या दो मिनट रुककर फिर से कोशिश करें.</string>
     <string name="passport_get_login_type_next">अगला</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">इस नंबर पर बहुत सारे सत्यापन कोड भेजे गए हैं. 24 घंटे प्रतीक्षा करें और फिर से कोशिश करें.</string>
     <string name="passport_google_login_btn_content_description">Google से साइन इन करें</string>
     <string name="passport_help">मदद</string>
     <string name="passport_i_know">ठीक है</string>
     <string name="passport_identification_expired">सत्यापन कोड की समयसीमा समाप्त हो गई है. फिर से शुरू करें.</string>
     <string name="passport_input_captcha_hint">कोड दर्ज करे</string>
-    <string name="passport_input_email_address_notice">हम आपका खाता सत्यापित करने के लिए इस ईमेल का उपयोग करेंगें</string>
     <string name="passport_input_password_hint">पासवर्ड दर्ज करें</string>
     <string name="passport_input_phone_number_hint">फ़ोन नंबर डालें</string>
     <string name="passport_input_verify_code">सत्यापन कोड डालें</string>
@@ -546,7 +570,6 @@
     <string name="passport_login_register_by_local_phone_long_text">खाता बनाएं</string>
     <string name="passport_login_with_sns">साइन इन करने के अन्य तरीके</string>
     <string name="passport_logout_account">साइन आउट करें</string>
-    <string name="passport_mi_account_first_title">अगर आप पहली बार अपने फ़ोन नंबर का उपयोग कर रहे हैं, तो हम अपने-आप एक खाता बना देंगे.</string>
     <string name="passport_mi_account_title">Xiaomi खाता से साइन इन करें</string>
     <string name="passport_network_error">नेटवर्क त्रुटि आई है. अपनी नेटवर्क सेटिंग्स की जांच करें और फिर से कोशिश करें.</string>
     <string name="passport_network_error_hint">URL की जांच करें और फिर से कोशिश करें, या URL कॉपी करें और इसे अपने ब्राउज़र में खोलें.</string>
@@ -555,6 +578,7 @@
     <string name="passport_no_account">साइन इन नहीं है</string>
     <string name="passport_open_settings">सेटिंग</string>
     <string name="passport_page_load_failed">पेज खोला नहीं जा सकता</string>
+    <string name="passport_password_hide_show">पासवर्ड छिपाएं</string>
     <string name="passport_password_login_btn">साइन इन करें</string>
     <string name="passport_password_not_show">पासवर्ड न दिखाएं</string>
     <string name="passport_password_show">पासवर्ड दिखाएं</string>
@@ -566,6 +590,8 @@
     <string name="passport_reging">खाता बनाया जा रहा है…</string>
     <string name="passport_register_by_local_phone_long_text">खाता बनाएं</string>
     <string name="passport_register_by_local_phone_short_text">खाता बनाएं</string>
+    <string name="passport_register_dialog_positive">बनाएं</string>
+    <string name="passport_register_dialog_title">Xiaomi खाता बनाएं</string>
     <string name="passport_register_restricted">इस नंबर से बहुत सारे खाते जुड़े हुए हैं, कोई अन्य नंबर आज़माएं</string>
     <string name="passport_relogin_notice">आपको पहले साइन इन करना होगा</string>
     <string name="passport_request_agree">अनुमति दें</string>
@@ -574,40 +600,37 @@
     <string name="passport_request_error_invalid_token">सत्यापित नहीं किया जा सकता</string>
     <string name="passport_request_error_network">नेटवर्क त्रुटि आई है. अपनी नेटवर्क सेटिंग्स की जांच करें और फिर से कोशिश करें.</string>
     <string name="passport_request_error_unknown">कोई सिस्टम त्रुटि आई है. वापस जाएं और फिर से कोशिश करें.</string>
-    <string name="passport_request_gallery_permission_message">गैलरी एक्सेस करने की अनुमति दें:&lt;br />प्रोफ़ाइल फ़ोटो सेट करने के लिए</string>
-    <string name="passport_resend_email_reach_limit_message">आपने कई सत्यापन ईमेलों के लिए आवेदन किया है. पक्का करें कि सत्यापन ईमेल आपके इनबॉक्स के स्पैम फ़ोल्डर में तो नहीं है.</string>
-    <string name="passport_resend_email_reach_limit_title">बहुत अधिक प्रयास</string>
+    <string name="passport_request_gallery_permission_message">इस ऐप्प को आपकी प्रोफ़ाइल फ़ोटो सेट करने के लिए, गैलरी में चुने गए आइटमों को एक्सेस करने की ज़रूरत है. अभी अनुमति दें?</string>
+    <string name="passport_request_permission_title">आवश्यक अनुमतियां</string>
     <string name="passport_resend_ticket">कोड फिर से भेजें</string>
     <string name="passport_retry">फिर से कोशिश करें</string>
-    <string name="passport_same_new_and_old_pwd">वर्तमान पासवर्ड के समान नहीं हो सकता</string>
     <string name="passport_send_sms_to">कोड %1$s पर भेजा गया</string>
     <string name="passport_send_too_many_code">इस नंबर पर बहुत सारे सत्यापन कोड भेजे गए हैं. 24 घंटे प्रतीक्षा करें और फिर से कोशिश करें.</string>
     <string name="passport_sending_vcode">कोड भेजा जा रहा है…</string>
-    <string name="passport_service_error">सर्वर त्रुटि</string>
     <string name="passport_set_password_no_phone_msg">अपने खाता की रक्षा करने के लिए अपना फ़ोन नंबर जोड़ें.</string>
     <string name="passport_skip_query_account">छोड़ें</string>
-    <string name="passport_sns_access_token_expired_warning">सत्र की समयसीमा समाप्त हो गई है. इस खाते को दोबारा कनेक्ट करने के लिए फिर से साइन इन करें.</string>
     <string name="passport_sns_bind_limit">बहुत अधिक प्रयास. साइन इन करने के अन्य तरीके आज़माएं.</string>
     <string name="passport_system_error">सिस्टम व्यस्त है. एक या दो मिनट रुककर फिर से कोशिश करें.</string>
     <string name="passport_talkback_image_captcha">छवि सत्यापन कोड</string>
     <string name="passport_talkback_switch_image_captcha">छवि सत्यापन कोड में स्विच करें</string>
     <string name="passport_talkback_switch_voice_captcha">आवाज़ सत्यापन कोड में स्विच करें</string>
     <string name="passport_talkback_voice_captcha">आवाज़ सत्यापन कोड चलाएं</string>
+    <string name="passport_third_sns_service_unavailable">सेवा उपलब्ध नहीं है. पक्का करें कि ऐप्प इंस्टॉल हो गया है और उसे ब्लॉक नहीं किया गया है.</string>
     <string name="passport_ticket_send_by_second">%d में भेजें</string>
     <string name="passport_to_forget_password">पासवर्ड भूल गए हैं?</string>
     <string name="passport_to_password_login">पासवर्ड का उपयोग करके साइन इन करें</string>
     <string name="passport_to_verify_code_login">एसएमएस से साइन इन करें</string>
     <string name="passport_unknown_error">अज्ञात त्रुटि</string>
     <string name="passport_unknown_host_network_error">अपनी नेटवर्क सेटिंग्स देखें और फिर से कोशिश करें</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>मैंने &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> और Xiaomi खाता का &lt;a href=%3$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%4$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>मैंने &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> और Xiaomi खाता का &lt;a href=%3$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%4$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%5$s>चाइना मोबाइल सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>मैंने &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> और Xiaomi खाता का &lt;a href=%3$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%4$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%5$s>eSurfing खाता सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>मैंने &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> और Xiaomi खाता का &lt;a href=%3$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%4$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%5$s>चाइना यूनिकोन सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>मैंने Xiaomi खाता का &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>मैंने &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> और Xiaomi खाता का &lt;a href=%3$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%4$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>मैंने &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> और Xiaomi खाता का &lt;a href=%3$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%4$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%5$s>चाइना मोबाइल सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>मैंने &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> और Xiaomi खाता का &lt;a href=%3$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%4$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%5$s>eSurfing खाता सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>मैंने &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> और Xiaomi खाता का &lt;a href=%3$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%4$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%5$s>चाइना यूनिकोन सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>मैंने Xiaomi खाता का &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं.</Data></string>
     <string name="passport_user_agreement_hint_first_login">अगर आप पहली बार अपने फ़ोन नंबर का उपयोग कर रहे हैं, तो हम अपने-आप एक खाता बना देंगे.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>मैंने Xiaomi खाता के &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%3$s>चाइना मोबाइल सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>मैंने Xiaomi खाता के &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%3$s>eSurfing खाता सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>मैंने Xiaomi खाता के &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%3$s>चाइना यूनिकोन सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>मैंने Xiaomi खाता के &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%3$s>चाइना मोबाइल सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>मैंने Xiaomi खाता के &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%3$s>eSurfing खाता सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>मैंने Xiaomi खाता के &lt;a href=%1$s>उपयोगकर्ता अनुबंध&lt;/a> और &lt;a href=%2$s>गोपनीयता नीति&lt;/a> को पढ़ लिया है और इनसे सहमत हूं. साथ ही, &lt;a href=%3$s>चाइना यूनिकोन सत्यापन सेवाओं के नियम और शर्तें&lt;/a> पढ़ ली हैं और इनसे सहमत हूं.</Data></string>
     <string name="passport_user_avatar_update_title">प्रोफ़ाइल फ़ोटो बदलें</string>
     <string name="passport_user_avatar_uploading">बस एक सेकंड…</string>
     <string name="passport_user_id_hint">ईमेल/फ़ोन नंबर/Xiaomi खाता आईडी</string>
@@ -627,6 +650,7 @@
     <string name="permission_bluetooth">ब्लुटूथ कनेक्शन स्थिति एक्सेस करें</string>
     <string name="permission_bluetooth_dialog_description">इस डिवाइस को रिकॉर्डिंग चलाए जाने के दौरान डिवाइस बदल पाने के लिए, आस-पास मौजूद डिवाइसों से कनेक्ट करने की अनुमति दें.</string>
     <string name="permission_bluetooth_title">आवश्यक अनुमतियां</string>
+    <string name="permission_camera_description">रिकॉर्डिंग करते समय फ़ोटो लेने के लिए</string>
     <string name="permission_desc">अनुमतियों के विवरण</string>
     <string name="permission_dialog_cancel">रद्द करें</string>
     <string name="permission_dialog_ok">सेटिंग्स</string>
@@ -659,6 +683,10 @@
     <string name="preference_copied">\"%1$s\" क्लिपबोर्ड पर कॉपी किया गया.</string>
     <string name="preference_enable_earpiece_summary">ईयरपीस स्पीकर पर ऑडियो बजाएं</string>
     <string name="preference_enable_earpiece_title">ईयरपीस मोड</string>
+    <string name="preference_group_title_for_ai_setting">AI फ़ीचर्स</string>
+    <string name="preference_group_title_for_normal_setting">सामान्य</string>
+    <string name="preference_key_ai_recognize">AI वाक् पहचान</string>
+    <string name="preference_key_intelligent_polishing">स्मार्ट पॉलिशिंग</string>
     <string name="preference_led_indicator">लॉक स्क्रीन सूचनाएं</string>
     <string name="preference_led_indicator_prompt">रिकॉर्ड करते समय लॉक स्क्रीन पर नीला संकेत दिखाएं और एलईडी लाइट फ़्लैश करें</string>
     <string name="preference_record_desktop_indicator_summary">रिकॉर्ड करते समय होम स्क्रीन पर नीला संकेत दिखाएं</string>
@@ -679,6 +707,7 @@
     <string name="progress">प्लेबैक प्रोग्रेस बार</string>
     <string name="progress_dialog_message">डाउनलोड हो रहा है…</string>
     <string name="radio_tips">रिकॉर्डर में आपको ऑडियो ट्रांसक्रिप्शन, ऑडियो सारांश, और भी कई सुविधाएं मिलती हैं. इन सेवाओं को मुहैया कराने के लिए इस ऐप्प का इंटरनेट से कनेक्ट होना ज़रूरी है.</string>
+    <string name="re_asr_error_tip">ट्रांस्क्राइब नहीं किया जा सका. फिर से कोशिश करें.</string>
     <string name="recent_delete">हाल ही में हटाया गया</string>
     <string name="recent_delete_delete_all">सभी आइटमों को अभी हमेशा के लिए हटाना चाहते हैं?</string>
     <string name="recognition_button_add_to_queue">कतार में जोड़ें</string>
@@ -708,6 +737,7 @@
     <string name="recognition_process_dialog_title">जारी कार्य</string>
     <string name="recognition_stop_current">जारी काम रोकें</string>
     <string name="recognize_complete_toast">ट्रांसक्रिप्शन पूरा हुआ</string>
+    <string name="recognize_data_loading">बस एक सेकंड…</string>
     <string name="recognize_tip_part_one">"पूरा ट्रांसक्राइब नहीं हुआ है. "</string>
     <string name="recognize_tip_part_two">फिर से कोशिश करें</string>
     <string name="recognizing_not_rename">रिकॉर्डिंग के दौरान नाम नहीं बदला जा सकता</string>
@@ -789,6 +819,8 @@
     <string name="search_scenes">रिकॉर्डिंग के प्रकार</string>
     <string name="search_silent_mode">रिकॉर्डिंग के दौरान रिंगर को म्यूट करें</string>
     <string name="search_tip_rename">रिकॉर्डिंग का नाम मैन्युअल रूप से रखें</string>
+    <string name="searchview_clear_text_content_description">टेक्स्ट मिटाएं</string>
+    <string name="searchview_navigation_content_description">वापस जाएं</string>
     <string name="send">भेजें</string>
     <string name="settings_ai_record_abstract">सारांश लिखें</string>
     <string name="settings_ai_record_abstract_description">रिकॉर्डिंग के विषय और कंटेंट का सारांश लिखें और सारांश को नोट्स में सेव करें</string>
@@ -815,6 +847,7 @@
     <string name="shortcut_stop_record">रिकॉर्डिंग बंद करें</string>
     <string name="show_text">टेक्स्ट दिखाएं</string>
     <string name="show_wave">वॉयसप्रिंट दिखाएं</string>
+    <string name="side_sheet_accessibility_pane_title">साइड शीट</string>
     <string name="size_byte">बाइट</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -824,6 +857,7 @@
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">सेटिंग्स</string>
     <string name="speaker">"वक्ता "</string>
+    <string name="state_wait_recognize_tip">सबसे पहले मौजूदा ट्रांसक्रिप्शन पूरा किया जा रहा है…</string>
     <string name="status_bar_back">रिकॉर्डर पर वापस जाने के लिए टैप करें</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">रिकॉर्डिंग…</string>
@@ -857,6 +891,7 @@
     <string name="talkback_traslation_ai_recognize">टेक्स्ट बॉक्स छिपाएं</string>
     <string name="talkback_traslation_close">अनुवाद करना बंद करें</string>
     <string name="text_btn_backward_3_seconds">%d सेकंड पीछे</string>
+    <string name="text_btn_camera">फ़ोटो खींचें</string>
     <string name="text_btn_complete">रोकें</string>
     <string name="text_btn_forward_3_seconds">%d सेकंड आगे</string>
     <string name="text_btn_mark">मार्क</string>
@@ -929,8 +964,11 @@
     <string name="tips_for_build_database">अपने डिवाइस को चार्जर से कनेक्ट करके रखें. स्क्रीन बंद होने पर यह रिकॉर्डिंग का तेज़ी से विश्लेषण करेगा.</string>
     <string name="toast_enter_silent_mode">रिकॉर्ड हो रहा है. मौन मोड चालू करें.</string>
     <string name="toast_exit_silent_mode">रिकॉर्डिंग पूरी हो गई है. मौन मोड बंद करें.</string>
+    <string name="toast_for_no_asr_long_time">कोई बोली नहीं मिली. AI वाक् पहचान बंद हो गई है.</string>
+    <string name="toast_for_pause_record_long_time">रिकॉर्डिंग रोकी गई. AI वाक् पहचान बंद हो गई है.</string>
     <string name="toast_max_record_time">%1$s तक रिकॉर्ड कर सकते %2$s हे</string>
     <string name="toast_stop">रिकॉर्डिंग समाप्त</string>
+    <string name="toast_title_stop_ai_recognize">AI वाक् पहचान रोकी गई</string>
     <string name="toast_uninstall_fileexplorer">फ़ाइल प्रबंधक इंस्टॉल नहीं किया गया है</string>
     <string name="today">आज</string>
     <string name="tomorrow">आनेवाला कल</string>

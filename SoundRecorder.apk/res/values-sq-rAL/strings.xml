@@ -7,9 +7,13 @@
     <string name="action_notes">Ruaje te Shënimet</string>
     <string name="action_retry">Provo përsëri</string>
     <string name="actionbar_button_up_description">Prapa</string>
+    <string name="add_mark">Shëno</string>
     <string name="afternoon">Pasdite</string>
     <string name="agree_description">Lejoni këtë aplikacion të lidhet me internetin të jetë në gjendje të përdorë të gjitha karakteristikat e tij.</string>
     <string name="ai_recognition_other_speaker">(Dikush tjetër flet)</string>
+    <string name="ai_recognize_fail">Nuk mund të transkriptohej</string>
+    <string name="ai_recognize_fail_tip">Nuk mund të përmblidhej. Provo përsëri.</string>
+    <string name="ai_recognize_preference_summary">Transkripto automatikisht gjatë regjistrimit</string>
     <string name="ai_summary">Përmbledhje Al</string>
     <string name="ai_watermark">Kjo përmbajtje është krijuar nga AI dhe ofrohet vetëm për referencën tuaj.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Nuk mund të regjistrohet kur mikrofoni është në përdorim</string>
@@ -38,6 +42,9 @@
     <string name="app_name">Regjistrues</string>
     <string name="app_record">Regjistrimet e aplikacionit</string>
     <string name="app_record_preference_title">Regjistruesi i thirrjeve zanore</string>
+    <string name="asr_in_progress">%s Transkriptimi dhe përmbledhja</string>
+    <string name="asr_in_progress_with_polish">%s Lustrimi dhe përmbledhja</string>
+    <string name="asr_progress">Duke transkriptuar audio %s</string>
     <string name="back">Prapa</string>
     <string name="back_playback_position">Kthehu në pozicionin aktual</string>
     <string name="bottomsheet_action_collapse">Palos fletën e poshtme</string>
@@ -196,6 +203,7 @@
     <string name="head_set_tip_dialog_ok">E kuptova</string>
     <string name="head_set_tip_dialog_title">Përdore mikrofonin e brendshëm</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
+    <string name="intelligent_polishing_preference_summary">Hiqni tepricat dhe standardizoni formatin për gjuhën kineze</string>
     <string name="invisible_mode_dialog_message">Mikrofoni nuk mund të përdoret kur je i te panjohur. Çaktivizo fillimisht modalitetin e panjohur.</string>
     <string name="invisible_mode_dialog_negative">Anullo</string>
     <string name="invisible_mode_dialog_positive">"Ç'aktivizo"</string>
@@ -350,7 +358,10 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="no_text_content">Ska tekst</string>
     <string name="noon">Mesditë</string>
     <string name="not_allowed">Jo i dhënë</string>
+    <string name="notice_btn_stop_ai_recognize">"Ç'aktivizo"</string>
+    <string name="notice_content_no_asr_long_time">Nuk është zbuluar asnjë zë i të folurit për një kohë të gjatë.</string>
     <string name="notice_for_ai_search_tips">Detajet</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Të çaktivizohet Njohja e të folurit Al?</string>
     <string name="notification_message_all_paused">Në pritje për lidhje Wi-Fi.</string>
     <string name="notification_pause_playback">Ridëgjimi u pezullua</string>
     <string name="notification_playback">Duke luajtur…</string>
@@ -358,11 +369,16 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="notification_recording_ticker">Telefoni pa zë</string>
     <string name="notification_save_as_complete">U ruajt me sukses</string>
     <string name="notification_stopped">Regjistrimi u ndalua</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Transkriptimi përfundoi</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Nuk mund të përmblidhej</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Përmbledhja përfundoi</string>
     <string name="notification_title_all_paused">Shkarkimi u pezullua</string>
+    <string name="nrt_asr_complete">Transkriptimi përfundoi. Cek për të rifreskuar.</string>
     <string name="offline_recognize_transfer_format">Duke kopjuar…</string>
     <string name="online_recognize_progress">Duke kopjuar %s…</string>
     <string name="open_voice_enhancement">Përmirëso zërin</string>
     <string name="opened_voice_enhancement">Përmirësimi i zërit është ndezur</string>
+    <string name="pasport_register_dialog_message">Të krijosh një llogari Xiaomi nëpërmjet numrit tënd të telefonit %s tani?</string>
     <string name="passport_access_denied">Qasje e refuzuar</string>
     <string name="passport_account_crop_user_avatar">Pritini foton</string>
     <string name="passport_account_empty_user_name">Fut emrin tend</string>
@@ -379,7 +395,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="passport_account_secure_info_pref_title">Informacioni i llogarisë</string>
     <string name="passport_account_security_info_pref_title">Informacioni i sigurisë</string>
     <string name="passport_account_user_avatar">Foto profili</string>
-    <string name="passport_account_user_avatar_from_album">Galeria</string>
+    <string name="passport_account_user_avatar_from_album">Zgjidh nga Galeria</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Informacioni bazë</string>
     <string name="passport_account_user_details">Informacion personal</string>
@@ -393,7 +409,6 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="passport_agree">Bie dakord</string>
     <string name="passport_area_code_title">Kodi i hapësirës</string>
     <string name="passport_attention">Kujdes</string>
-    <string name="passport_auth_fail_warning">Seanca skadoi. Identifikohu sërish.</string>
     <string name="passport_back">Prapa</string>
     <string name="passport_bad_authentication">Emër përdoruesi ose fjalëkalim i pavlefshëm</string>
     <string name="passport_can_not_recevie_verify_code">Nuk keni marrë një kod?</string>
@@ -415,11 +430,9 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="passport_doing_query_account">Po kontrollon informacionin e llogarisë…</string>
     <string name="passport_error_auth_fail">Seanca skadoi. Identifikohu sërish.</string>
     <string name="passport_error_device_id">Nuk mund të merret ID e pajisjes</string>
-    <string name="passport_error_dup_binded_email">Kjo adresë emaili është tashmë e lidhur me një llogari tjetër Xiaomi.</string>
-    <string name="passport_error_empty_password">Fut fjalëkalimin</string>
+    <string name="passport_error_empty_password">Fut fjalëkalimin tënd</string>
     <string name="passport_error_empty_pwd">Fjalëkalimi nuk mund të lihet bosh</string>
     <string name="passport_error_empty_user_id">Fut emrin e përdoruesit</string>
-    <string name="passport_error_invalid_bind_address">Adresa e email-it që fute është e pavlefshme.</string>
     <string name="passport_error_length_limit">Teksti që fute është shumë i gjatë</string>
     <string name="passport_error_network">Nuk mund të lidhej me rrjetin</string>
     <string name="passport_error_no_password_user">Nuk ke vënë ende fjalëkalim. Identifikohu me SMS.</string>
@@ -435,17 +448,14 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="passport_error_unknown">Gabim i panjohur</string>
     <string name="passport_error_user_name">Emri i përdoruesit që fute është i pavlefshëm</string>
     <string name="passport_error_user_password">Fjalëkalimet nuk përputhen</string>
-    <string name="passport_exceed_binded_phone_times_notice">Ky numër telefoni është tashmë i lidhur me një llogari tjetër Xiaomi.</string>
     <string name="passport_facebook_login_btn_content_description">Identifikohu me Facebook</string>
     <string name="passport_frequency_try_later">Shumë përpjekje. Prisni një ose dy minuta dhe provoni përsëri.</string>
     <string name="passport_get_login_type_next">Tjetër</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Janë dërguar kode verifikimi të tepërta në këtë numër. Prit 24 orë dhe provo përseri.</string>
     <string name="passport_google_login_btn_content_description">Identifikohu me google</string>
     <string name="passport_help">Ndihmë</string>
     <string name="passport_i_know">E kuptova</string>
     <string name="passport_identification_expired">Kodi i verifikimit skadoi. Provo sërish.</string>
     <string name="passport_input_captcha_hint">Fut kodin</string>
-    <string name="passport_input_email_address_notice">Do të përdorim këtë email për të verifikuar llogarinë tënde</string>
     <string name="passport_input_password_hint">Fut fjalëkalimin</string>
     <string name="passport_input_phone_number_hint">Fut numrin e telefonit</string>
     <string name="passport_input_verify_code">Fut kodin e verifikimit</string>
@@ -457,7 +467,6 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="passport_login_register_by_local_phone_long_text">Krijo llogari</string>
     <string name="passport_login_with_sns">"Mënyra të tjera për t'u identifikuar"</string>
     <string name="passport_logout_account">Dilni</string>
-    <string name="passport_mi_account_first_title">Ne do të krijojmë një llogari automatikisht nëse po përdorni numrin tuaj të telefonit për herë të parë.</string>
     <string name="passport_mi_account_title">Identifikohu me Llogaria Xiaomi</string>
     <string name="passport_network_error">Ndodhi një gabim në rrjet. Kontrolloni cilësimet e rrjetit tuaj dhe provoni përsëri.</string>
     <string name="passport_network_error_hint">Kontrolloni URL-në dhe provoni përsëri, ose kopjoni URL-në dhe hapeni në shfletuesin tuaj.</string>
@@ -466,6 +475,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="passport_no_account">Pa identifikuar</string>
     <string name="passport_open_settings">Cilësimet</string>
     <string name="passport_page_load_failed">Faqja nuk mund të hapet</string>
+    <string name="passport_password_hide_show">Fshih fjakëkalimin</string>
     <string name="passport_password_login_btn">Identifikohu</string>
     <string name="passport_password_not_show">Mos shfaq fjalëkalim</string>
     <string name="passport_password_show">Shfaq fjalëkalimin</string>
@@ -477,6 +487,8 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="passport_reging">Duke krijuar llogarinë…</string>
     <string name="passport_register_by_local_phone_long_text">Krijo llogari</string>
     <string name="passport_register_by_local_phone_short_text">Krijo llogari</string>
+    <string name="passport_register_dialog_positive">Krijo</string>
+    <string name="passport_register_dialog_title">Krijo Llogari Xiaomi</string>
     <string name="passport_register_restricted">Llogari të tepërta janë shoqëruar me këtë numër, provo një tjetër.</string>
     <string name="passport_relogin_notice">Duhet të identifikohesh sërish</string>
     <string name="passport_request_agree">Lejo</string>
@@ -485,40 +497,37 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="passport_request_error_invalid_token">Nuk mund të verifikohej</string>
     <string name="passport_request_error_network">Ndodhi një gabim në rrjet. Kontrolloni cilësimet e rrjetit tuaj dhe provoni përsëri.</string>
     <string name="passport_request_error_unknown">Ndodhi një gabim i sistemit. Kthehuni dhe provoni përsëri.</string>
-    <string name="passport_request_gallery_permission_message">Lejo qasje në Galeri:&lt;br />Për vendosjen e fotografive të profilit</string>
-    <string name="passport_resend_email_reach_limit_message">Ke kërkuar emaile verifikimi të tepërta. Sigurohu që emaili i verifikimit të mos jetë në dosjen Spam.</string>
-    <string name="passport_resend_email_reach_limit_title">Shumë përpjekje</string>
+    <string name="passport_request_gallery_permission_message">Ky aplikacion duhet të ketë qasje në elementet e zgjedhura të Galerisë për të qenë në gjendje të caktojë foton e profilit tënd. Të lejohet tani?</string>
+    <string name="passport_request_permission_title">Lejet e kërkuara</string>
     <string name="passport_resend_ticket">Ridërgo kodin</string>
     <string name="passport_retry">Provo përsëri</string>
-    <string name="passport_same_new_and_old_pwd">Nuk mund të jetë njësoj si fjalëkalimi aktual</string>
     <string name="passport_send_sms_to">Kodi u dergua tek %1$s</string>
-    <string name="passport_send_too_many_code">Janë dërguar kode verifikimi të tepërta në këtë numër. Prit 24 orë dhe provo sërish.</string>
+    <string name="passport_send_too_many_code">Janë dërguar kode verifikimi të tepërta në këtë numër. Prit 24 orë dhe provo përseri.</string>
     <string name="passport_sending_vcode">Duke dërguar kodin…</string>
-    <string name="passport_service_error">Gabim në server</string>
     <string name="passport_set_password_no_phone_msg">Shto numrin tënd të telefonit për të mbrojtur llogarinë.</string>
     <string name="passport_skip_query_account">Anashkalo</string>
-    <string name="passport_sns_access_token_expired_warning">"Seanca skadoi. Identifikohu sërish për t'u rilidhur me këtë llogari."</string>
     <string name="passport_sns_bind_limit">Shumë përpjekje. Provoni mënyra të tjera për të hyrë.</string>
     <string name="passport_system_error">Sistemi është i zënë. Prit një minutë ose dy dhe provo përsëri.</string>
     <string name="passport_talkback_image_captcha">Kod verifikimi me imazh</string>
     <string name="passport_talkback_switch_image_captcha">Kalo te kodi verifikues me imazh</string>
     <string name="passport_talkback_switch_voice_captcha">Kalo te kodi verifikues zanor</string>
     <string name="passport_talkback_voice_captcha">Luaj kodin verifikues zanor</string>
+    <string name="passport_third_sns_service_unavailable">Shërbimi nuk është i disponueshëm. Sigurohuni që aplikacioni të jetë i instaluar dhe jo i bllokuar.</string>
     <string name="passport_ticket_send_by_second">Dërgo në %d</string>
     <string name="passport_to_forget_password">Harrove fjalëkalimin?</string>
     <string name="passport_to_password_login">Identifikohu duke përdorur fjalëkalim</string>
     <string name="passport_to_verify_code_login">Identifikohu me SMS</string>
     <string name="passport_unknown_error">Gabim i panjohur</string>
     <string name="passport_unknown_host_network_error">Kontrolloni cilësimet e rrjetit tuaj dhe provoni përsëri</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Unë kam lexuar dhe rënë dakord me &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a> dhe Llogarinë Xiaomi &lt;a href=%3$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%4$s>Politika e Privatësisë&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Unë kam lexuar dhe rënë dakord me &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a> dhe Llogarinë Xiaomi &lt;a href=%3$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%4$s>Politika e Privatësisë&lt;/a>, aq mirë sa &lt;a href=%5$s>Termat dhe Kushtet e verifikimit të shërbimeve të China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Une kam lexuar dhe kam rene dakord &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>, Llogaria Xiaomi &lt;a href=%3$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%4$s>Politika e Privatësisë&lt;/a>, aq mire sa &lt;a href=%5$s>Termat dhe kushtet e shërbimeve të verifikimit të llogarisë eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Unë kam lexuar dhe rënë dakord me &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a> dhe Llogarinë Xiaomi &lt;a href=%3$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%4$s>Politika e Privatësisë&lt;/a>, aq mirë sa &lt;a href=%5$s>Termat dhe Kushtet e verifikimit të shërbimeve të China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">"&lt;Data>Kam lexuar dhe rene dakord me Llogarine Xiaomi's &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Unë kam lexuar dhe rënë dakord me &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a> dhe Llogarinë Xiaomi &lt;a href=%3$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%4$s>Politika e Privatësisë&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Unë kam lexuar dhe rënë dakord me &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a> dhe Llogarinë Xiaomi &lt;a href=%3$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%4$s>Politika e Privatësisë&lt;/a>, aq mirë sa &lt;a href=%5$s>Termat dhe Kushtet e verifikimit të shërbimeve të China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Une kam lexuar dhe kam rene dakord &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>, Llogaria Xiaomi &lt;a href=%3$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%4$s>Politika e Privatësisë&lt;/a>, aq mire sa &lt;a href=%5$s>Termat dhe kushtet e shërbimeve të verifikimit të llogarisë eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Unë kam lexuar dhe rënë dakord me &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a> dhe Llogarinë Xiaomi &lt;a href=%3$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%4$s>Politika e Privatësisë&lt;/a>, aq mirë sa &lt;a href=%5$s>Termat dhe Kushtet e verifikimit të shërbimeve të China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>"Kam lexuar dhe rene dakord me Llogarine Xiaomi's &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>."</Data></string>
     <string name="passport_user_agreement_hint_first_login">Ne do të krijojmë një llogari automatikisht nëse po përdorni numrin tuaj të telefonit për herë të parë.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Une kam lexuar dhe kam rene dakord &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>, aq mire sa &lt;a href=%3$s>Termat dhe kushtet e shërbimeve të verifikimit të China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Une kam lexuar dhe kam rene dakord me tonen&lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>, aq mire sa &lt;a href=%3$s>Termat dhe kushtet e shërbimeve të verifikimit të llogarisë eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Une kam lexuar dhe kam rene dakord me tonen &lt;a href=%1$s>Marreveshja e Perdoruesit&lt;/a> and &lt;a href=%2$s>Politika e Privatësisë&lt;/a>, aq mire sa&lt;a href=%3$s>Termat dhe kushtet e shërbimeve të verifikimit të China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Une kam lexuar dhe kam rene dakord &lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>, aq mire sa &lt;a href=%3$s>Termat dhe kushtet e shërbimeve të verifikimit të China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Une kam lexuar dhe kam rene dakord me tonen&lt;a href=%1$s>Marrëveshja e përdoruesit&lt;/a> dhe &lt;a href=%2$s>Politika e Privatësisë&lt;/a>, aq mire sa &lt;a href=%3$s>Termat dhe kushtet e shërbimeve të verifikimit të llogarisë eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Une kam lexuar dhe kam rene dakord me tonen &lt;a href=%1$s>Marreveshja e Perdoruesit&lt;/a> and &lt;a href=%2$s>Politika e Privatësisë&lt;/a>, aq mire sa&lt;a href=%3$s>Termat dhe kushtet e shërbimeve të verifikimit të China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Ndrysho foton e profilit</string>
     <string name="passport_user_avatar_uploading">Vetëm një sekondë…</string>
     <string name="passport_user_id_hint">Email/Numri i telefonit/ID e llogarisë Xiaomi</string>
@@ -537,6 +546,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="permission_bluetooth">Qasuni në statusin e lidhjes Bluetooth</string>
     <string name="permission_bluetooth_dialog_description">Lejo që kjo pajisje të lidhet me pajisjet në afërsi për të qenë në gjendje të ndërrojë pajisjet kur luan regjistrime.</string>
     <string name="permission_bluetooth_title">Lejet e kërkuara</string>
+    <string name="permission_camera_description">Për të shkrepur foto gjatë regjistrimit</string>
     <string name="permission_desc">Detajet e lejeve</string>
     <string name="permission_dialog_cancel">Anullo</string>
     <string name="permission_dialog_ok">Cilësimet</string>
@@ -568,6 +578,10 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="preference_clear_data">Pastro të dhënat</string>
     <string name="preference_enable_earpiece_summary">Luaj audio duke përdorur altoparlantin e kufjes</string>
     <string name="preference_enable_earpiece_title">Modaliteti i kufjes</string>
+    <string name="preference_group_title_for_ai_setting">Veçoritë AI</string>
+    <string name="preference_group_title_for_normal_setting">Të përgjithshme</string>
+    <string name="preference_key_ai_recognize">Njohja e të folurit nga AI</string>
+    <string name="preference_key_intelligent_polishing">Lustrim i zgjuar</string>
     <string name="preference_led_indicator">Njoftime në ekranin kyçës</string>
     <string name="preference_led_indicator_prompt">Tregoni një tregues blu në Ekranin kycës drita LED blic gjate regjistrimit</string>
     <string name="preference_record_desktop_indicator_summary">Tregoni një tregues blu në Ekranin bazë gjatë regjistrimit</string>
@@ -586,6 +600,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="progress">Shiriti i përparimit të luajtjes</string>
     <string name="progress_dialog_message">Duke shkarkuar…</string>
     <string name="radio_tips">Regjistruesi ofron transkriptimin e audios, përmbledhjen e audios dhe më shumë. Ky aplikacion nevojitet të lidhet me internetinpër të ofruar këto shërbime.</string>
+    <string name="re_asr_error_tip">Nuk mund të transkriptohej. Provo përsëri.</string>
     <string name="recent_delete">Fshirë së fundi</string>
     <string name="recent_delete_delete_all">Të fshihen përgjithmonë të gjithë artikujt tani?</string>
     <string name="recognition_button_add_to_queue">Shtoni në radhë</string>
@@ -615,6 +630,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="recognition_process_dialog_title">Dëtyra në vazhdim</string>
     <string name="recognition_stop_current">Ndaloni detyrën në vazhdim</string>
     <string name="recognize_complete_toast">Transkriptimi përfundoi</string>
+    <string name="recognize_data_loading">Vetëm një sekondë…</string>
     <string name="recognize_tip_part_one">"Nuk e kam mbaruar transkriptimin. "</string>
     <string name="recognize_tip_part_two">Provo përsëri</string>
     <string name="recognizing_not_rename">Nuk mund të riemërtohet gjatë regjistrimit</string>
@@ -730,6 +746,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Cilësimet</string>
     <string name="speaker">"Folësi "</string>
+    <string name="state_wait_recognize_tip">Duke përfunduar fillimisht transkriptimin aktual…</string>
     <string name="status_bar_back">Kliko për të kthyer te regjistrimi</string>
     <string name="status_bar_recording">Duke regjistruar…</string>
     <string name="status_bar_recording_pause">Regjistrimi u pezullua</string>
@@ -761,6 +778,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="talkback_traslation_ai_recognize">Fshih kutinë e tekstit</string>
     <string name="talkback_traslation_close">Ndalo së transmetuari</string>
     <string name="text_btn_backward_3_seconds">%d sekonda prapa</string>
+    <string name="text_btn_camera">Shkrep një foto</string>
     <string name="text_btn_complete">Ndalo</string>
     <string name="text_btn_forward_3_seconds">%d sekonda përpara</string>
     <string name="text_btn_mark">Shëno</string>
@@ -833,8 +851,11 @@ Aktualisht në pauzë. Analiza do të rifillojë kur nuk jeni duke përdorur paj
     <string name="tips_for_build_database">Mbajeni pajisjen tuaj të lidhur me karikuesin. Ai do ta analizojë këtë regjistrim më shpejt kur ekrani është i fikur.</string>
     <string name="toast_enter_silent_mode">Duke regjistruar. Modaliteti i heshtur është ndezur.</string>
     <string name="toast_exit_silent_mode">Regjistrimi përfundoi. Modaliteti i heshtur është fikur.</string>
+    <string name="toast_for_no_asr_long_time">Nuk është zbuluar asnjë fjalim. Njohja e të folurit nga AI është ndalur.</string>
+    <string name="toast_for_pause_record_long_time">Regjistrimi u ndalua. Njohja e të folurit Al është ndalur.</string>
     <string name="toast_max_record_time">%1$s mund të regjistrojë rreth %2$s</string>
     <string name="toast_stop">Regjistrimi përfundoi</string>
+    <string name="toast_title_stop_ai_recognize">Njohja e të folurit AI ndaloi</string>
     <string name="toast_uninstall_fileexplorer">Menaxhuesi i skedarëve nuk është i instaluar</string>
     <string name="today">Sot</string>
     <string name="tomorrow">Nesër</string>

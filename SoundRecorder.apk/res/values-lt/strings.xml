@@ -34,9 +34,13 @@
     <string name="action_notes">Išsaugoti „Užrašinėje“</string>
     <string name="action_retry">Bandyti dar kartą</string>
     <string name="actionbar_button_up_description">Grįžti</string>
+    <string name="add_mark">Žymėti</string>
     <string name="afternoon">Popietė</string>
     <string name="agree_description">Norint naudoti visas šios programos funkcijas, leisti šiai programai prisijungti prie interneto.</string>
     <string name="ai_recognition_other_speaker">(Kalba kažkas kitas)</string>
+    <string name="ai_recognize_fail">Nepavyko transkribuoti</string>
+    <string name="ai_recognize_fail_tip">Nepavyko apibendrinti. Bandykite dar kartą.</string>
+    <string name="ai_recognize_preference_summary">Automatiškai perrašykite įrašymo metu</string>
     <string name="ai_summary">DI santrauka</string>
     <string name="ai_watermark">Šį turinį sugeneravo DI ir jis pateiktas tik jūsų nuorodai.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Neįmanoma įrašyti, kai naudojamas mikrofonas</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Diktofonas</string>
     <string name="app_record">Programos įrašai</string>
     <string name="app_record_preference_title">Balso skambučių įrašymas</string>
+    <string name="asr_in_progress">%s translribuojama ir apibendrinama</string>
+    <string name="asr_in_progress_with_polish">%s dailinama ir apibendrinama</string>
+    <string name="asr_progress">Transkribuojamas garsas %s</string>
     <string name="back">Atgal</string>
     <string name="back_playback_position">Grįžti į esamą poziciją</string>
     <string name="bottomsheet_action_collapse">Sutraukti apatinį lapą</string>
     <string name="bottomsheet_action_expand">Išskleisti apatinį lapą</string>
     <string name="bottomsheet_action_expand_halfway">Išskleisti iki pusės</string>
-    <string name="bottomsheet_drag_handle_clicked">Dukart bakstelėję vilkite rankenėlę</string>
-    <string name="bottomsheet_drag_handle_content_description">Vilkimo rankena</string>
+    <string name="bottomsheet_drag_handle_clicked">Vilkimo rankenėlė dukart paliesta</string>
+    <string name="bottomsheet_drag_handle_content_description">Vilkimo rankenėlė</string>
     <string name="btn_continue_record_description">Tęsti įrašymą</string>
     <string name="button_queue_for_wifi">Palaukite</string>
     <string name="button_start_now">Parsiųsti</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Nėra įrašų</string>
     <string name="eras_ad">m.e.</string>
     <string name="eras_bc">Pr. Kr.</string>
+    <string name="error_a11y_label">Klaida: netinkama</string>
     <string name="error_app_internal">Patikrinkite ar Diktofonas nėra naudojamas kitoje programoje.</string>
     <string name="error_app_internal_title">Diktofono klaida</string>
     <string name="error_file_access">Failas neegzistuoja arba yra pažeistas</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Naudoti vidinį mikrofoną</string>
     <string name="high_bit_rate">MP3, ~%1$d kbits, ~%2$d MB/h</string>
     <string name="icon_content_description">Dialogo lango piktograma</string>
+    <string name="intelligent_polishing_preference_summary">Pašalinkite dubliavimus ir suvienodinkite kinų kalbos formatą</string>
     <string name="invisible_mode_dialog_message">Negalite naudoti mikrofono, kai esate inkognito režime. Pirmiausia išjunkite inkognito režimą.</string>
     <string name="invisible_mode_dialog_negative">Atšaukti</string>
     <string name="invisible_mode_dialog_positive">Išjungti</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Prieiga prie visų failų</string>
     <string name="mark_add_toast">Sėkmingai pridėta</string>
     <string name="material_clock_toggle_content_description">Pasirinkite „iki pietų“ arba „po pietų“</string>
+    <string name="material_hour_24h_suffix">%1$s val.</string>
     <string name="material_hour_selection">Pasirinkite valandą</string>
     <string name="material_hour_suffix">%1$s val.</string>
     <string name="material_minute_selection">Pasirinkite minutes</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Pagrindiniai punktai</string>
     <string name="morning">Rytas</string>
     <string name="mtrl_badge_numberless_content_description">Naujas pranešimas</string>
+    <string name="mtrl_checkbox_state_description_checked">Pažymėta</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Iš dalies pažymėta</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nepažymėta</string>
     <string name="mtrl_chip_close_icon_content_description">Pašalinti %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Naujų pranešimų: daugiau nei %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="mtrl_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
+    <string name="mtrl_picker_announce_current_range_selection">Pradžios datos pasirinkimas: %1$s – Pabaigos datos pasirinkimas: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Dabartinis pasirinkimas: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">nėra</string>
+    <string name="mtrl_picker_cancel">Atšaukti</string>
+    <string name="mtrl_picker_confirm">Gerai</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pasirinkite datą</string>
     <string name="mtrl_picker_date_header_unselected">Pasirinkta data</string>
-    <string name="mtrl_picker_day_of_week_column_header">Dienų stulpelis: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Pabaigos data %1$s</string>
     <string name="mtrl_picker_invalid_format">Netinkamas formatas.</string>
     <string name="mtrl_picker_invalid_format_example">Pavyzdys: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Naudoti: %1$s</string>
     <string name="mtrl_picker_invalid_range">Netinkamas diapazonas.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Eiti į %1$s metus</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Eiti į dabartinius metus %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Eiti į %1$d metus</string>
     <string name="mtrl_picker_out_of_range">Nepatenka į diapazoną: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Pradžios data–%1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s–pabaigos data</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Pasirinkite diapazoną</string>
     <string name="mtrl_picker_range_header_unselected">Pradžios data–pabaigos data</string>
     <string name="mtrl_picker_save">Išsaugoti</string>
+    <string name="mtrl_picker_start_date_description">Pradžios data %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Pabaigos data</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Pradžios data</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">Šiandien %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Perjungti į kalendoriaus įvesties režimą</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Palieskite, kad perjungtumėte į dienos pasirinkimą</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Palieskite, kad perjungtumėte į Kalendoriaus rodinį</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Perjungti į teksto įvesties režimą</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Palieskite, kad perjungtumėte į metų pasirinkimą</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Palieskite, kad perjungtumėte į metų rodinį</string>
+    <string name="mtrl_timepicker_cancel">Atšaukti</string>
+    <string name="mtrl_timepicker_confirm">Gerai</string>
     <string name="network_tip_dialog_cancel">Neteikti</string>
     <string name="network_tip_dialog_content">Siekiant užtikrinti diktofono funkcionalumą reikalinga prieiga prie interneto. Suteikti?</string>
     <string name="network_tip_dialog_ok">Sutinku</string>
@@ -439,7 +461,10 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="noon">Vidurdienis</string>
     <string name="not_allowed">Nesuteikta</string>
     <string name="not_set">Nenustatyta</string>
+    <string name="notice_btn_stop_ai_recognize">Išjungti</string>
+    <string name="notice_content_no_asr_long_time">Ilgą laiką nebuvo aptikta jokių kalbų.</string>
     <string name="notice_for_ai_search_tips">Išsami informacija</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Išjungti DI kalbos atpažinimą?</string>
     <string name="notification_message_all_paused">Laukiama „Wi-Fi“ ryšio.</string>
     <string name="notification_pause_playback">Atkūrimas pristabdytas</string>
     <string name="notification_playback">Grojama…</string>
@@ -447,18 +472,23 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="notification_recording_ticker">Telefonas nutildytas</string>
     <string name="notification_save_as_complete">Sėkmingai išsaugota</string>
     <string name="notification_stopped">Įrašymas sustabdytas</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Transkribavimas baigtas</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Nepavyko apibendrinti</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Apibendrinimas baigtas</string>
     <string name="notification_title_all_paused">Atsiuntimas pristabdytas</string>
+    <string name="nrt_asr_complete">Transkribavimas baigtas. Bakstelėkite, norėdami atnaujinti.</string>
     <string name="offline_recognize_transfer_format">Transkribuojama…</string>
     <string name="online_recognize_progress">Transkribuojama %s…</string>
     <string name="open_voice_enhancement">Pastiprintas balsas</string>
     <string name="opened_voice_enhancement">Pastiprintas balsas įjungtas</string>
+    <string name="pasport_register_dialog_message">Sukurti „Xiaomi“ paskyrą su jūsų telefono numeriu %s dabar?</string>
     <string name="passport_access_denied">Prieiga nesuteikta</string>
     <string name="passport_account_crop_user_avatar">Apkirpti nuotrauką</string>
     <string name="passport_account_empty_user_name">Įveskite savo slapyvardį</string>
     <string name="passport_account_error_all_space_user_name">Slapyvardis negali būti tik iš „tarpo“ simbolių</string>
     <string name="passport_account_error_invalid_user_name">Slapyvardžio negali sudaryti &lt;, > ar /</string>
-    <string name="passport_account_error_longer_user_name">"Name can't be longer than %d characters"</string>
-    <string name="passport_account_error_shorter_user_name">Name must be longer than %d characters</string>
+    <string name="passport_account_error_longer_user_name">Vardas negali būti ilgesnis nei %d simbolių</string>
+    <string name="passport_account_error_shorter_user_name">Vardas turi būti ilgesnis nei %d simboliai</string>
     <string name="passport_account_error_user_name">Šis slapyvardis netinkamas. Pabandykite kitą.</string>
     <string name="passport_account_invalid_user_avatar">Ši nuotrauka netinkama. Pabandykite kitą.</string>
     <string name="passport_account_name">"Paskyra: %1$s "</string>
@@ -468,7 +498,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="passport_account_secure_info_pref_title">Paskyros informacija</string>
     <string name="passport_account_security_info_pref_title">Saugumo informacija</string>
     <string name="passport_account_user_avatar">Profilio nuotrauka</string>
-    <string name="passport_account_user_avatar_from_album">Galerija</string>
+    <string name="passport_account_user_avatar_from_album">Pasirinkti iš galerijos</string>
     <string name="passport_account_user_avatar_from_camera">Fotoaparatas</string>
     <string name="passport_account_user_base_info">Pagrindinė informacija</string>
     <string name="passport_account_user_details">Asmeninė informacija</string>
@@ -482,7 +512,6 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="passport_agree">Sutinku</string>
     <string name="passport_area_code_title">Pašto kodas</string>
     <string name="passport_attention">Dėmesio</string>
-    <string name="passport_auth_fail_warning">Seansas baigėsi. Prisijunkite iš naujo.</string>
     <string name="passport_back">Grįžti</string>
     <string name="passport_bad_authentication">Neteisingas naudotojo vardas arba slaptažodis</string>
     <string name="passport_can_not_recevie_verify_code">Negavote kodo?</string>
@@ -504,11 +533,9 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="passport_doing_query_account">Tikrinama paskyros informacija…</string>
     <string name="passport_error_auth_fail">Seansas baigėsi. Prisijunkite dar kartą.</string>
     <string name="passport_error_device_id">Nepavyko gauti prietaiso ID</string>
-    <string name="passport_error_dup_binded_email">Šis el. pašto adresas jau yra susietas su kita „Xiaomi“ paskyra.</string>
     <string name="passport_error_empty_password">Įveskite slaptažodį</string>
     <string name="passport_error_empty_pwd">Slaptažodis negali būti tuščias</string>
     <string name="passport_error_empty_user_id">Įveskite naudotojo vardą</string>
-    <string name="passport_error_invalid_bind_address">El. pašto adresas, kurį įvedėte, yra neteisingas.</string>
     <string name="passport_error_length_limit">Įvestas tekstas per ilgas</string>
     <string name="passport_error_network">Nepavyksta prisijungti prie tinklo</string>
     <string name="passport_error_no_password_user">Dar nesukūrėte slaptažodžio. Prisijunkite su SMS.</string>
@@ -524,17 +551,14 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="passport_error_unknown">Nežinoma klaida</string>
     <string name="passport_error_user_name">Neteisingas naudotojo vardas</string>
     <string name="passport_error_user_password">Slaptažodžiai nesutampa</string>
-    <string name="passport_exceed_binded_phone_times_notice">Šis telefono numeris jau yra susietas su kita „Xiaomi“ paskyra.</string>
     <string name="passport_facebook_login_btn_content_description">Prisijungti naudojant „Facebook“</string>
     <string name="passport_frequency_try_later">Per daug bandymų. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="passport_get_login_type_next">Kitas</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Šiuo numeriu buvo išsiųsta per daug patvirtinimo kodų. Palaukite 24 val. ir pabandykite dar kartą.</string>
     <string name="passport_google_login_btn_content_description">Prisijungti naudojant „Google“</string>
     <string name="passport_help">Pagalba</string>
     <string name="passport_i_know">Supratau</string>
     <string name="passport_identification_expired">Patvirtinimo kodas nebegalioja. Pradėkite iš naujo.</string>
     <string name="passport_input_captcha_hint">Įveskite kodą</string>
-    <string name="passport_input_email_address_notice">Šis el. pašto adresas bus naudojamas jūsų paskyros patvirtinimui</string>
     <string name="passport_input_password_hint">Įveskite slaptažodį</string>
     <string name="passport_input_phone_number_hint">Įveskite telefono numerį</string>
     <string name="passport_input_verify_code">Įveskite patvirtinimo kodą</string>
@@ -546,7 +570,6 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="passport_login_register_by_local_phone_long_text">Sukurti paskyrą</string>
     <string name="passport_login_with_sns">Kiti prisijungimo būdai</string>
     <string name="passport_logout_account">Atsijungti</string>
-    <string name="passport_mi_account_first_title">Jei pirmą kartą naudojate savo telefono numerį, paskyrą sukursime automatiškai.</string>
     <string name="passport_mi_account_title">Prisijungti su „Xiaomi“ paskyra</string>
     <string name="passport_network_error">Įvyko tinklo klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="passport_network_error_hint">Patikrinkite URL ir bandykite dar kartą arba nukopijuokite URL ir atidarykite jį savo naršyklėje.</string>
@@ -555,6 +578,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="passport_no_account">Neprisijungta</string>
     <string name="passport_open_settings">Parametrai</string>
     <string name="passport_page_load_failed">Nepavyko atidaryti puslapio</string>
+    <string name="passport_password_hide_show">Slėpti slaptažodį</string>
     <string name="passport_password_login_btn">Prisijungti</string>
     <string name="passport_password_not_show">Nerodyti slaptažodžio</string>
     <string name="passport_password_show">Rodyti slaptažodį</string>
@@ -566,6 +590,8 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="passport_reging">Kuriama paskyra…</string>
     <string name="passport_register_by_local_phone_long_text">Sukurti paskyrą</string>
     <string name="passport_register_by_local_phone_short_text">Sukurti paskyrą</string>
+    <string name="passport_register_dialog_positive">Sukurti</string>
+    <string name="passport_register_dialog_title">Sukurti „Xiaomi“ paskyrą</string>
     <string name="passport_register_restricted">Per daug paskyrų, susietų su šiuo numeriu. Pabandykite kitą.</string>
     <string name="passport_relogin_notice">Reikalingas pakartotinis prisijungimas</string>
     <string name="passport_request_agree">Leisti</string>
@@ -574,40 +600,37 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="passport_request_error_invalid_token">Nepavyko patvirtinti</string>
     <string name="passport_request_error_network">Įvyko tinklo klaida. Patikrinkite tinklo parametrus ir pabandykite dar kartą.</string>
     <string name="passport_request_error_unknown">Įvyko sistemos klaida. Grįžkite ir pabandykite dar kartą.</string>
-    <string name="passport_request_gallery_permission_message">Lesiti pasiekti Galeriją:&lt;br/>profilio nuotraukų nustatymui</string>
-    <string name="passport_resend_email_reach_limit_message">Išsiųsta per daug paskyros patvirtinimo užklausų. Įsitikinkite, kad patvirtinimo el. laiškas nepakliuvo į gautųjų laiškų Šlamšto aplanką.</string>
-    <string name="passport_resend_email_reach_limit_title">Per daug bandymų</string>
+    <string name="passport_request_gallery_permission_message">Jei norite nustatyti savo profilio nuotrauką, šiai programai reikia suteikti prieigą prie pasirinktų galerijos elementų. Leisti dabar?</string>
+    <string name="passport_request_permission_title">Reikalingi leidimai</string>
     <string name="passport_resend_ticket">Iš naujo išsiųsti kodą</string>
     <string name="passport_retry">Bandykite dar kartą</string>
-    <string name="passport_same_new_and_old_pwd">Negali sutapti su esamu slaptažodžiu</string>
     <string name="passport_send_sms_to">Kodas išsiųstas į %1$s</string>
     <string name="passport_send_too_many_code">Šiuo numeriu buvo išsiųsta per daug patvirtinimo kodų. Palaukite 24 val. ir pabandykite dar kartą.</string>
     <string name="passport_sending_vcode">Siunčiamas kodas…</string>
-    <string name="passport_service_error">Serverio klaida</string>
     <string name="passport_set_password_no_phone_msg">Norėdami apsaugoti savo paskyrą, įveskite savo telefono numerį.</string>
     <string name="passport_skip_query_account">Praleisti</string>
-    <string name="passport_sns_access_token_expired_warning">Seanso laikas baigėsi. Prisijunkite dar kartą.</string>
     <string name="passport_sns_bind_limit">Per daug bandymų. Pamėginkite kitus prisijungimo būdus.</string>
     <string name="passport_system_error">Sistema užimta. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="passport_talkback_image_captcha">Vaizdinis patvirtinimo kodas</string>
     <string name="passport_talkback_switch_image_captcha">Perjungti į vaizdinį patvirtinimo kodą</string>
     <string name="passport_talkback_switch_voice_captcha">Perjungti į balso patvirtinimo kodą</string>
     <string name="passport_talkback_voice_captcha">Groti balso patvirtinimo kodą</string>
+    <string name="passport_third_sns_service_unavailable">Paslauga nepasiekiama. Įsitikinkite, kad programa įdiegta ir neužblokuota.</string>
     <string name="passport_ticket_send_by_second">Siųsti po %d sek.</string>
     <string name="passport_to_forget_password">Pamiršote slaptažodį?</string>
     <string name="passport_to_password_login">Prisijungti naudojant slaptažodį</string>
     <string name="passport_to_verify_code_login">Prisijungti naudojant SMS</string>
     <string name="passport_unknown_error">Nežinoma klaida</string>
     <string name="passport_unknown_host_network_error">Patikrinkite tinklo parametrus ir pabandykite dar kartą</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Mobile“ patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>Privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>Privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„eSurfing“ paskyros patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Unicom“ patvirtinimo paslaugų teikimo nuostatomis sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Mobile“ patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Perskaičiau ir sutinku su &lt;a href=%1$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>Privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>Naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>Privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„eSurfing“ paskyros patvirtinimo paslaugų teikimo nuostatomis ir sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Perskaičiau ir sutinku su &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>, „Xiaomi“ paskyros &lt;a href=%3$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%4$s>privatumo politika&lt;/a>, taip pat &lt;a href=%5$s>„China Unicom“ patvirtinimo paslaugų teikimo nuostatomis sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a>.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Jei pirmą kartą naudojate savo telefono numerį, paskyrą sukursime automatiškai.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Mobile“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„eSurfing“ paskyros patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Unicom“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Mobile“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„eSurfing“ paskyros patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Perskaičiau ir sutinku su „Xiaomi“ paskyros &lt;a href=%1$s>naudotojo sutartimi&lt;/a> ir &lt;a href=%2$s>privatumo politika&lt;/a> bei &lt;a href=%3$s>„China Unicom“ patvirtinimo paslaugų nuostatomis ir sąlygomis&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Keisti profilio nuotrauką</string>
     <string name="passport_user_avatar_uploading">Sekundėlę…</string>
     <string name="passport_user_id_hint">El. paštas/Tel. numeris/„Xiaomi“ paskyros ID</string>
@@ -627,6 +650,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="permission_bluetooth">Pasiekti „Bluetooth“ ryšio būseną</string>
     <string name="permission_bluetooth_dialog_description">Kad būtų galima perjungti įrenginius leidžiant įrašus, leiskite šiam įrenginiui prisijungti prie netoliese esančių įrenginių.</string>
     <string name="permission_bluetooth_title">Reikalingi leidimai</string>
+    <string name="permission_camera_description">Norėdami fotografuoti įrašymo metu</string>
     <string name="permission_desc">Leidimų informacija</string>
     <string name="permission_dialog_cancel">Atšaukti</string>
     <string name="permission_dialog_ok">Parametrai</string>
@@ -659,6 +683,10 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="preference_copied">Suvestinė „%1$s“ nukopijuota į iškarpinę.</string>
     <string name="preference_enable_earpiece_summary">Groti garso įrašą per ausinių garsiakalbį</string>
     <string name="preference_enable_earpiece_title">Ausinių režimas</string>
+    <string name="preference_group_title_for_ai_setting">DI funkcijos</string>
+    <string name="preference_group_title_for_normal_setting">Bendrieji nustatymai</string>
+    <string name="preference_key_ai_recognize">DI kalbos atpažinimas</string>
+    <string name="preference_key_intelligent_polishing">Išmanusis grąžinimas</string>
     <string name="preference_led_indicator">Užrakto ekrano pranešimai</string>
     <string name="preference_led_indicator_prompt">Įrašymo metu užrakto ekrane rodyti mėlyną indikatorių ir mirksinčią LED lemputę</string>
     <string name="preference_record_desktop_indicator_summary">Įrašymo metu pagrindiniame ekrane rodyti mėlyną indikatorių</string>
@@ -677,6 +705,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="progress">Grojimo progreso juosta</string>
     <string name="progress_dialog_message">Atsiunčiama…</string>
     <string name="radio_tips">Diktofonas gali transkribuoti garsą, atlikti garso santraukas ir dar daugiau. Norint teikti šias paslaugas, programai reikia prisijungti prie interneto.</string>
+    <string name="re_asr_error_tip">Nepavyko perrašyti. Bandykite dar kartą.</string>
     <string name="recent_delete">Neseniai ištrinta</string>
     <string name="recent_delete_delete_all">Visam laikui dabar ištrinti visus elementus?</string>
     <string name="recognition_button_add_to_queue">Pridėti į eilę</string>
@@ -706,6 +735,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="recognition_process_dialog_title">Vykdomos užduotys</string>
     <string name="recognition_stop_current">Sustabdyti vykdomą užduotį</string>
     <string name="recognize_complete_toast">Transkripcija baigta</string>
+    <string name="recognize_data_loading">Sekundėlę…</string>
     <string name="recognize_tip_part_one">"Nebaigė transkribuoti. "</string>
     <string name="recognize_tip_part_two">Bandykite dar kartą</string>
     <string name="recognizing_not_rename">Įrašant negalima pervardyti</string>
@@ -787,6 +817,8 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="search_scenes">Įrašo tipas</string>
     <string name="search_silent_mode">Įrašymo metu pritildyti garsus</string>
     <string name="search_tip_rename">Pavadinti įrašus rankiniu būdu</string>
+    <string name="searchview_clear_text_content_description">Išvalyti tekstą</string>
+    <string name="searchview_navigation_content_description">Atgal</string>
     <string name="send">Siųsti</string>
     <string name="settings_ai_record_abstract">Apibendrinti</string>
     <string name="settings_ai_record_abstract_description">Apibendrinkite įrašo temą ir turinį ir išsaugokite santrauką užrašinėje</string>
@@ -813,6 +845,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="shortcut_stop_record">Sustabdyti įrašymą</string>
     <string name="show_text">Rodyti tekstą</string>
     <string name="show_wave">Rodyti balso ypatybes</string>
+    <string name="side_sheet_accessibility_pane_title">Šoninis lapas</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Parametrai</string>
     <string name="speaker">"Kalbėtojas "</string>
+    <string name="state_wait_recognize_tip">Pirmiausia užbaigiama dabartinė transkripcija…</string>
     <string name="status_bar_back">Palieskite norėdami grįžti į Diktofoną</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Įrašoma…</string>
@@ -855,6 +889,7 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="talkback_traslation_ai_recognize">Slėpti teksto laukelį</string>
     <string name="talkback_traslation_close">Nustoti versti</string>
     <string name="text_btn_backward_3_seconds">%d sek. atgal</string>
+    <string name="text_btn_camera">Fotografuoti</string>
     <string name="text_btn_complete">Sustabdyti</string>
     <string name="text_btn_forward_3_seconds">%d sek. į priekį</string>
     <string name="text_btn_mark">Žymėti</string>
@@ -927,8 +962,11 @@ Bakstelėkite „%1$s“ ir tada pasirinkite „%2$s“."</string>
     <string name="tips_for_build_database">Laikykite įrenginį prijungtą prie įkroviklio. Kai ekranas išjungtas, įrašas bus analizuojamas greičiau.</string>
     <string name="toast_enter_silent_mode">Įrašoma. Tylos režimas įjungtas.</string>
     <string name="toast_exit_silent_mode">Įrašymas baigtas. Tylos režimas išjungtas.</string>
+    <string name="toast_for_no_asr_long_time">Neaptikta jokios kalbos. DI kalbos atpažinimas sustabdytas.</string>
+    <string name="toast_for_pause_record_long_time">Įrašymas pristabdytas. DI kalbos atpažinimas sustabdytas.</string>
     <string name="toast_max_record_time">%1$s gali įrašinėti maždaug %2$s</string>
     <string name="toast_stop">Įrašymas baigtas</string>
+    <string name="toast_title_stop_ai_recognize">DI kalbos atpažinimas sustabdytas</string>
     <string name="toast_uninstall_fileexplorer">Failų tvarkyklė nėra įdiegta</string>
     <string name="today">Šiandien</string>
     <string name="tomorrow">Rytoj</string>

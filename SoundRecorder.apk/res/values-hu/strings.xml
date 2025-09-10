@@ -34,9 +34,13 @@
     <string name="action_notes">Mentés a Jegyzetekbe</string>
     <string name="action_retry">Próbálja újra</string>
     <string name="actionbar_button_up_description">Vissza</string>
+    <string name="add_mark">Megjelölés</string>
     <string name="afternoon">Délután</string>
     <string name="agree_description">Az internethez való csatlakozás engedélyezés az alkalmazás számára az összes funkció használata érdekében.</string>
     <string name="ai_recognition_other_speaker">(Valaki más beszél)</string>
+    <string name="ai_recognize_fail">Sikertelen szövegátírás</string>
+    <string name="ai_recognize_fail_tip">Sikertelen összefoglalás. Próbálja újra.</string>
+    <string name="ai_recognize_preference_summary">Automatikus átírás felvétel közben</string>
     <string name="ai_summary">AI összefoglaló</string>
     <string name="ai_watermark">Ezt a tartalmat az AI generálta, és csak az Ön tájékoztatására szolgál.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Nem lehet felvenni, ha a mikrofon használatban van</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Hangrögzítő</string>
     <string name="app_record">Alkalmazás felvételek</string>
     <string name="app_record_preference_title">Hívásrögzítő</string>
+    <string name="asr_in_progress">%s Szövegátírás és összefoglalás</string>
+    <string name="asr_in_progress_with_polish">%s Csiszolás és összefoglalás</string>
+    <string name="asr_progress">Hanganyag átírása %s</string>
     <string name="back">Vissza</string>
     <string name="back_playback_position">Visszatérés a jelenlegi helyzethez</string>
     <string name="bottomsheet_action_collapse">Az alsó lap összecsukása</string>
     <string name="bottomsheet_action_expand">Az alsó lap kibontása</string>
-    <string name="bottomsheet_action_expand_halfway">Kiterjesztés félig</string>
-    <string name="bottomsheet_drag_handle_clicked">Húzófogantyú duplán lenyomva</string>
-    <string name="bottomsheet_drag_handle_content_description">Húzófogantyú</string>
+    <string name="bottomsheet_action_expand_halfway">Kibontás félig</string>
+    <string name="bottomsheet_drag_handle_clicked">Duplán koppintott a csúszkára</string>
+    <string name="bottomsheet_drag_handle_content_description">Csúszka</string>
     <string name="btn_continue_record_description">Felvétel folytatása</string>
     <string name="button_queue_for_wifi">Várakozás Wi-Fi kapcsolatra</string>
     <string name="button_start_now">Letöltés</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Üres</string>
     <string name="eras_ad">I.SZ.</string>
     <string name="eras_bc">I.E.</string>
+    <string name="error_a11y_label">Hiba: érvénytelen</string>
     <string name="error_app_internal">Belső alkalmazáshiba</string>
     <string name="error_app_internal_title">Hangrögzítő hiba</string>
     <string name="error_file_access">A fájl sérült vagy nem található</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Belső mikrofon használata</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
     <string name="icon_content_description">Párbeszédpanel ikonja</string>
+    <string name="intelligent_polishing_preference_summary">A redundanciák eltávolítása és a kínai formátum szabványosítása</string>
     <string name="invisible_mode_dialog_message">Inkognitó módban nem használható a mikrofon. Először kapcsolja ki az Inkognitó módot.</string>
     <string name="invisible_mode_dialog_negative">Mégse</string>
     <string name="invisible_mode_dialog_positive">Kikapcsol</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Hozzáférés az összes fájlhoz</string>
     <string name="mark_add_toast">Sikeresen hozzáadva</string>
     <string name="material_clock_toggle_content_description">Válassza ki, hogy délelőtt vagy délután</string>
+    <string name="material_hour_24h_suffix">%1$s óra</string>
     <string name="material_hour_selection">Óra kiválasztása</string>
     <string name="material_hour_suffix">%1$s óra</string>
     <string name="material_minute_selection">Perc kiválasztása</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Főbb pontok</string>
     <string name="morning">Reggel</string>
     <string name="mtrl_badge_numberless_content_description">Új értesítés</string>
+    <string name="mtrl_checkbox_state_description_checked">Bejelölve</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Részlegesen bejelölve</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nincs bejelölve</string>
     <string name="mtrl_chip_close_icon_content_description">Eltávolítás (%1$s)</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Több mint %1$d új értesítés</string>
     <string name="mtrl_picker_a11y_next_month">Váltás a következő hónapra</string>
     <string name="mtrl_picker_a11y_prev_month">Váltás az előző hónapra</string>
+    <string name="mtrl_picker_announce_current_range_selection">Kiválasztott kezdő dátum: %1$s – Kiválasztott befejező dátum: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Jelenleg kiválasztva: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">egyik sem</string>
+    <string name="mtrl_picker_cancel">Mégse</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Válasszon dátumot</string>
     <string name="mtrl_picker_date_header_unselected">Kiválasztott dátum</string>
-    <string name="mtrl_picker_day_of_week_column_header">Napok oszlopa: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Befejezés dátuma: %1$s</string>
     <string name="mtrl_picker_invalid_format">Érvénytelen formátum.</string>
     <string name="mtrl_picker_invalid_format_example">Példa: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Használja ezt: %1$s</string>
     <string name="mtrl_picker_invalid_range">Érvénytelen tartomány.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Ugrás ehhez az évhez: %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Ugrás az aktuális évre %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ugrás ehhez az évhez: %1$d</string>
     <string name="mtrl_picker_out_of_range">Tartományon kívül: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Kezdés dátuma – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – Befejezés dátuma</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Válasszon dátumtartományt</string>
     <string name="mtrl_picker_range_header_unselected">Kezdés dátuma – Befejezés dátuma</string>
     <string name="mtrl_picker_save">Mentés</string>
+    <string name="mtrl_picker_start_date_description">Kezdés dátuma: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Dátum</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Befejezés dátuma</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Kezdés dátuma</string>
     <string name="mtrl_picker_text_input_day_abbr">N</string>
     <string name="mtrl_picker_text_input_month_abbr">H</string>
     <string name="mtrl_picker_text_input_year_abbr">É</string>
+    <string name="mtrl_picker_today_description">Ma %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Váltás naptárbeviteli módra</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Koppintson a nap kiválasztásához</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Koppintson a naptárnézetre való váltáshoz</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Váltás szövegbeviteli módra</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Koppintson az év kiválasztásához</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Koppintson az éves nézetre való váltáshoz</string>
+    <string name="mtrl_timepicker_cancel">Mégse</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="network_tip_dialog_cancel">Elutasítás</string>
     <string name="network_tip_dialog_content">A hangrögzítő megfelelő működéséhez internetkapcsolat szükséges. Folytatja?</string>
     <string name="network_tip_dialog_ok">Engedélyezés</string>
@@ -439,7 +461,10 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="noon">Dél</string>
     <string name="not_allowed">Az engedély nincs megadva</string>
     <string name="not_set">Nincs beállítva</string>
+    <string name="notice_btn_stop_ai_recognize">Kikapcsolás</string>
+    <string name="notice_content_no_asr_long_time">Hosszú ideje nem észlelhető beszéd.</string>
     <string name="notice_for_ai_search_tips">Részletek</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Kikapcsolja az AI beszédfelismerést?</string>
     <string name="notification_message_all_paused">Várakozás Wi-Fi-kapcsolatra.</string>
     <string name="notification_pause_playback">Lejátszás szünetel</string>
     <string name="notification_playback">Felvétel visszajátszása…</string>
@@ -447,18 +472,23 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="notification_recording_ticker">Telefon lenémítva. Felvétel folyamatban…</string>
     <string name="notification_save_as_complete">Sikeresen mentve</string>
     <string name="notification_stopped">Felvétel leállítva</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Szövegátírás befejezése</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Sikertelen összefoglalás</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Összefoglalás befejeződött</string>
     <string name="notification_title_all_paused">A letöltés szüneteltetve</string>
+    <string name="nrt_asr_complete">Átírás befejezve. Koppintson a frissítéshez.</string>
     <string name="offline_recognize_transfer_format">Szövegátírás…</string>
     <string name="online_recognize_progress">Szövegátírás %s…</string>
     <string name="open_voice_enhancement">Hang javítása</string>
     <string name="opened_voice_enhancement">A javított hang be van kapcsolva</string>
+    <string name="pasport_register_dialog_message">Létrehoz egy Xiaomi Fiókot a telefonszámával %s most?</string>
     <string name="passport_access_denied">Hozzáférés megtagadva</string>
     <string name="passport_account_crop_user_avatar">Kép vágása</string>
     <string name="passport_account_empty_user_name">Adja meg a nevét</string>
     <string name="passport_account_error_all_space_user_name">A név kizárólag különleges karaktereket tartalmazhat</string>
     <string name="passport_account_error_invalid_user_name">A név nem tartalmazhat &lt;, >, vagy / karaktereket</string>
-    <string name="passport_account_error_longer_user_name">"Name can't be longer than %d characters"</string>
-    <string name="passport_account_error_shorter_user_name">Name must be longer than %d characters</string>
+    <string name="passport_account_error_longer_user_name">A név nem lehet hosszabb %d karakternél</string>
+    <string name="passport_account_error_shorter_user_name">A névnek %d karakternél hosszabbnak kell lennie</string>
     <string name="passport_account_error_user_name">Ez a becenév érvénytelen. Próbálkozzon egy másikkal.</string>
     <string name="passport_account_invalid_user_avatar">Ez a fénykép érvénytelen. Próbálkozzon egy másikkal.</string>
     <string name="passport_account_name">"Fiók: %1$s "</string>
@@ -468,7 +498,7 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="passport_account_secure_info_pref_title">Fiókadatok</string>
     <string name="passport_account_security_info_pref_title">Biztonsági információk</string>
     <string name="passport_account_user_avatar">Profilkép</string>
-    <string name="passport_account_user_avatar_from_album">Galéria</string>
+    <string name="passport_account_user_avatar_from_album">Kiválasztás Galériából</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Alapvető információk</string>
     <string name="passport_account_user_details">Személyes adatok</string>
@@ -482,7 +512,6 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="passport_agree">Elfogadás</string>
     <string name="passport_area_code_title">Körzetszám</string>
     <string name="passport_attention">Figyelem</string>
-    <string name="passport_auth_fail_warning">A munkamenet lejárt. Jelentkezzen be újra.</string>
     <string name="passport_back">Vissza</string>
     <string name="passport_bad_authentication">Helytelen felhasználónév vagy jelszó</string>
     <string name="passport_can_not_recevie_verify_code">Nem kapta meg a kódot?</string>
@@ -504,11 +533,9 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="passport_doing_query_account">Fiókadatok ellenőrzése…</string>
     <string name="passport_error_auth_fail">Időtúllépés történt. Jelentkezzen be újra.</string>
     <string name="passport_error_device_id">Nem kérhető le a készülékazonosító</string>
-    <string name="passport_error_dup_binded_email">Ez az e-mail-cím már hozzá van rendelve egy másik Xiaomi Fiókhoz.</string>
     <string name="passport_error_empty_password">Írja be a jelszavát</string>
     <string name="passport_error_empty_pwd">A jelszómező nem lehet üres</string>
     <string name="passport_error_empty_user_id">Adja meg a felhasználónevét</string>
-    <string name="passport_error_invalid_bind_address">A megadott e-mail cím érvénytelen.</string>
     <string name="passport_error_length_limit">A megadott szöveg túl hosszú</string>
     <string name="passport_error_network">Nem sikerült csatlakozni a hálózathoz</string>
     <string name="passport_error_no_password_user">Önnek nincs beállított jelszava. Jelentkezzen be SMS segítségével.</string>
@@ -524,17 +551,14 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="passport_error_unknown">Ismeretlen hiba</string>
     <string name="passport_error_user_name">A megadott felhasználónév helytelen</string>
     <string name="passport_error_user_password">A jelszavak nem egyeznek</string>
-    <string name="passport_exceed_binded_phone_times_notice">Ez a telefonszám már hozzá van rendelve egy másik Xiaomi Fiókhoz.</string>
     <string name="passport_facebook_login_btn_content_description">Bejelentkezés Facebookkal</string>
     <string name="passport_frequency_try_later">Túl sok próbálkozás. Várjon 1–2 percet, majd próbálja újra.</string>
     <string name="passport_get_login_type_next">Tovább</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Túl sok hitelesítő kód került elküldésre erre a számra. Várjon 24 órát és próbálja újra.</string>
     <string name="passport_google_login_btn_content_description">Bejelentkezés Google-lal</string>
     <string name="passport_help">Súgó</string>
     <string name="passport_i_know">Értem</string>
     <string name="passport_identification_expired">Az ellenőrzőkód érvényessége lejárt. Kezdje újra.</string>
     <string name="passport_input_captcha_hint">Írja be a kódot</string>
-    <string name="passport_input_email_address_notice">Fiókja hitelesítéséhez ezt az e-mailt használjuk</string>
     <string name="passport_input_password_hint">Írja be a jelszót</string>
     <string name="passport_input_phone_number_hint">Adja meg a telefonszámot</string>
     <string name="passport_input_verify_code">Írja be az ellenőrzőkódot</string>
@@ -546,7 +570,6 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="passport_login_register_by_local_phone_long_text">Fiók létrehozása</string>
     <string name="passport_login_with_sns">Más bejelentkezési módok</string>
     <string name="passport_logout_account">Kijelentkezés</string>
-    <string name="passport_mi_account_first_title">Automatikusan létrehozunk egy fiókot, ha először használja a telefonszámát.</string>
     <string name="passport_mi_account_title">Bejelentkezés Xiaomi Fiókkal</string>
     <string name="passport_network_error">Hálózati hiba történt. Ellenőrizze a hálózati beállításait és próbálja újra.</string>
     <string name="passport_network_error_hint">Ellenőrizze az URL-t, és próbálja meg újra, vagy másolja ki az URL-t, és nyissa meg a böngészőben.</string>
@@ -555,6 +578,7 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="passport_no_account">Nincs bejelentkezve</string>
     <string name="passport_open_settings">Beállítások</string>
     <string name="passport_page_load_failed">Az oldal nem nyitható meg</string>
+    <string name="passport_password_hide_show">Jelszó elrejtése</string>
     <string name="passport_password_login_btn">Bejelentkezés</string>
     <string name="passport_password_not_show">Ne mutassa a jelszót</string>
     <string name="passport_password_show">Jelszó megjelenítése</string>
@@ -566,6 +590,8 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="passport_reging">Fiók létrehozása…</string>
     <string name="passport_register_by_local_phone_long_text">Fiók létrehozása</string>
     <string name="passport_register_by_local_phone_short_text">Fiók létrehozása</string>
+    <string name="passport_register_dialog_positive">Létrehozás</string>
+    <string name="passport_register_dialog_title">Xiaomi Fiók létrehozása</string>
     <string name="passport_register_restricted">Túl sok fiók van hozzárendelve ehhez a számhoz. Próbáljon egy másikat.</string>
     <string name="passport_relogin_notice">Újra be kell jelentkeznie</string>
     <string name="passport_request_agree">Engedélyezés</string>
@@ -574,40 +600,37 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="passport_request_error_invalid_token">Nem lehet hitelesíteni</string>
     <string name="passport_request_error_network">Hálózati hiba történt. Ellenőrizze a hálózati beállításait és próbálja újra.</string>
     <string name="passport_request_error_unknown">Rendszerhiba történt. Lépjen vissza és próbálja újra.</string>
-    <string name="passport_request_gallery_permission_message">Hozzáférés biztosítása a Galériához:&lt;br />Profilkép beállításához</string>
-    <string name="passport_resend_email_reach_limit_message">Túl sok hitelesítő e-mail-kérelem érkezett. Ellenőrizze, hogy a hitelesítő e-mail nem a Spam mappába került-e.</string>
-    <string name="passport_resend_email_reach_limit_title">Túl sok kísérlet</string>
+    <string name="passport_request_gallery_permission_message">Ennek az alkalmazásnak hozzá kell férnie a kiválasztott Galéria elemekhez, hogy beállíthassa a profilképét. Engedélyezi most?</string>
+    <string name="passport_request_permission_title">Engedélyek szükségesek</string>
     <string name="passport_resend_ticket">Kód újraküldése</string>
     <string name="passport_retry">Próbálja újra</string>
-    <string name="passport_same_new_and_old_pwd">Nem egyezhet meg a jelenlegi jelszóval</string>
     <string name="passport_send_sms_to">Kód elküldve %1$s címre</string>
     <string name="passport_send_too_many_code">Túl sok ellenőrző kód lett elküldve erre a számra. Várjon 24 órát és próbálja újra.</string>
     <string name="passport_sending_vcode">Kód küldése…</string>
-    <string name="passport_service_error">Kiszolgálóhiba</string>
     <string name="passport_set_password_no_phone_msg">Adja hozzá telefonszámát Mi Fiókjának erősebb védelméhez.</string>
     <string name="passport_skip_query_account">Kihagyás</string>
-    <string name="passport_sns_access_token_expired_warning">A munkamenet lejárt. Jelentkezzen be újra a fiók újbóli csatlakoztatásához.</string>
     <string name="passport_sns_bind_limit">Túl sok próbálkozás. Próbálkozzon másféle bejelentkezési módokkal.</string>
     <string name="passport_system_error">A rendszer túlterhelt. Várjon 1–2 percet, majd próbálja újra.</string>
     <string name="passport_talkback_image_captcha">Ellenőrző képkód</string>
     <string name="passport_talkback_switch_image_captcha">Váltás képkódos ellenőrzésre</string>
     <string name="passport_talkback_switch_voice_captcha">Váltás hangkódos ellenőrzésre</string>
     <string name="passport_talkback_voice_captcha">Az ellenőrző hangkód lejátszása</string>
+    <string name="passport_third_sns_service_unavailable">A szolgáltatás nem elérhető. Ellenőrizze, hogy az alkalmazás telepítve van, és nincs letiltva.</string>
     <string name="passport_ticket_send_by_second">Küldés %d múlva</string>
     <string name="passport_to_forget_password">Elfelejtette a jelszavát?</string>
     <string name="passport_to_password_login">Bejelentkezés jelszó használatával</string>
     <string name="passport_to_verify_code_login">Bejelentkezés SMS segítségével</string>
     <string name="passport_unknown_error">Ismeretlen hiba</string>
     <string name="passport_unknown_host_network_error">Ellenőrizze a hálózati beállításokat és próbálja újra</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%5$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%5$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%5$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, valamint a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%5$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%5$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Elolvastam és elfogadom a &lt;a href=%1$s>Felhasználói Szerződést&lt;/a> és az &lt;a href=%2$s>Adatvédelmi irányelvet&lt;/a>, a Xiaomi Fiók &lt;a href=%3$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%4$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%5$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Amikor először használja a telefonszámát, automatikusan létrehozunk egy fiókot.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%3$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Mobile hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint az &lt;a href=%3$s>eSurfing fiókhitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Elolvastam és elfogadom a Xiaomi Fiók &lt;a href=%1$s>Felhasználói Szerződését&lt;/a> és &lt;a href=%2$s>Adatvédelmi irányelvét&lt;/a>, valamint a &lt;a href=%3$s>China Unicom hitelesítési szolgáltatásainak Felhasználási feltételeit&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Profilkép módosítása</string>
     <string name="passport_user_avatar_uploading">Egy pillanat…</string>
     <string name="passport_user_id_hint">E-mail/Telefonszám/Xiaomi Fiók azonosító</string>
@@ -627,6 +650,7 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="permission_bluetooth">Hozzáférés a Bluetooth-kapcsolat állapotához</string>
     <string name="permission_bluetooth_dialog_description">Engedélyezd ennek az eszköznek a közeli eszközökhöz való csatlakozást, hogy a felvételek lejátszása közben eszközt válthasson.</string>
     <string name="permission_bluetooth_title">Engedély szükséges</string>
+    <string name="permission_camera_description">Fényképezéshez felvétel közben</string>
     <string name="permission_desc">Engedélyek részletei</string>
     <string name="permission_dialog_cancel">Mégse</string>
     <string name="permission_dialog_ok">Beállítások</string>
@@ -659,6 +683,10 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="preference_copied">„%1$s” a vágólapra lett másolva.</string>
     <string name="preference_enable_earpiece_summary">Hangok lejátszása a beszédhangszórón keresztül</string>
     <string name="preference_enable_earpiece_title">Beszédhangszórós mód</string>
+    <string name="preference_group_title_for_ai_setting">AI funkciók</string>
+    <string name="preference_group_title_for_normal_setting">Általános</string>
+    <string name="preference_key_ai_recognize">AI beszédfelismerés</string>
+    <string name="preference_key_intelligent_polishing">Intelligens polírozás</string>
     <string name="preference_led_indicator">LED értesítés lezárt képernyőnél</string>
     <string name="preference_led_indicator_prompt">Jelenjen meg kék jelző a Képernyőzáron és villogjon a LED-fény felvétel közben</string>
     <string name="preference_record_desktop_indicator_summary">Jelenjen meg kék jelző a Kezdőképernyőn felvétel közben</string>
@@ -677,6 +705,7 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="progress">Lejátszási folyamatjelző sáv</string>
     <string name="progress_dialog_message">Letöltés…</string>
     <string name="radio_tips">A Hangrögzítő hangátiratot, hangösszefoglalókat és másokat biztosít. Ennek az alkalmazásnak internetkapcsolatra van szüksége a szolgáltatásnyújtáshoz.</string>
+    <string name="re_asr_error_tip">Sikertelen átírás. Próbálja ismét.</string>
     <string name="recent_delete">Legutóbb törölt</string>
     <string name="recent_delete_delete_all">Törli most véglegesen az összes elemet?</string>
     <string name="recognition_button_add_to_queue">Hozzáadás a várólistához</string>
@@ -706,6 +735,7 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="recognition_process_dialog_title">Folyamatban lévő feladatok</string>
     <string name="recognition_stop_current">Folyamatban lévő feladat leállítása</string>
     <string name="recognize_complete_toast">Átirat kész</string>
+    <string name="recognize_data_loading">Egy pillanat…</string>
     <string name="recognize_tip_part_one">"Nem fejezte be az átírást. "</string>
     <string name="recognize_tip_part_two">Próbálja újra</string>
     <string name="recognizing_not_rename">Felvétel közben nem lehet átnevezni</string>
@@ -787,6 +817,8 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="search_scenes">Felvételtípus</string>
     <string name="search_silent_mode">Csengőhang-némítás felvételkor</string>
     <string name="search_tip_rename">Felvétel automatikus átnevezése</string>
+    <string name="searchview_clear_text_content_description">Szöveg törlése</string>
+    <string name="searchview_navigation_content_description">Vissza</string>
     <string name="send">Küldés</string>
     <string name="settings_ai_record_abstract">Összefoglaló</string>
     <string name="settings_ai_record_abstract_description">Egy felvétel témájának és tartalmának összefoglalása és az összefoglaló mentése a Jegyzetek közé</string>
@@ -813,6 +845,7 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="shortcut_stop_record">Rögzítés leállítása</string>
     <string name="show_text">Szöveg megjelenítése</string>
     <string name="show_wave">Hangminta megjelenítése</string>
+    <string name="side_sheet_accessibility_pane_title">Oldalsáv</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">kB</string>
@@ -822,6 +855,7 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Felvétel beállítások</string>
     <string name="speaker">"Beszélő "</string>
+    <string name="state_wait_recognize_tip">Aktuális átirat befejezése először…</string>
     <string name="status_bar_back">Vissza a felvételekhez</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Rögzítés…</string>
@@ -855,6 +889,7 @@ Koppintson a(z) \"%1$s\" parancsra, majd válassza ki a(z) \"%2$s\" elemet."</st
     <string name="talkback_traslation_ai_recognize">Szövegdoboz elrejtése</string>
     <string name="talkback_traslation_close">Fordítás leállítása</string>
     <string name="text_btn_backward_3_seconds">%d másodperc vissza</string>
+    <string name="text_btn_camera">Készítsen egy fényképet</string>
     <string name="text_btn_complete">Leállítás</string>
     <string name="text_btn_forward_3_seconds">%d másodperc előre</string>
     <string name="text_btn_mark">Megjelölés</string>
@@ -927,8 +962,11 @@ Jelenleg szünetel. Az elemzés folytatódik, amikor nem használja a készülé
     <string name="tips_for_build_database">Tartsa a készüléket a töltőhöz csatlakoztatva. Gyorsabban elemzi a felvételt, ha a képernyő ki van kapcsolva.</string>
     <string name="toast_enter_silent_mode">Rögzítés. Néma mód bekapcsolva.</string>
     <string name="toast_exit_silent_mode">Rögzítés vége. Néma mód kikapcsolva.</string>
+    <string name="toast_for_no_asr_long_time">Nem észlelhető beszéd. Az AI beszédfelismerés leállítva.</string>
+    <string name="toast_for_pause_record_long_time">A felvétel szüneteltetve. Az AI beszédfelismerés leállítva.</string>
     <string name="toast_max_record_time">Alk:%1$s maximum %2$s felvételt támogat</string>
     <string name="toast_stop">A felvétel befejeződött</string>
+    <string name="toast_title_stop_ai_recognize">AI beszédfelismerés leállítva</string>
     <string name="toast_uninstall_fileexplorer">Fájlkezelő nincs telepítve</string>
     <string name="today">Ma</string>
     <string name="tomorrow">Holnap</string>

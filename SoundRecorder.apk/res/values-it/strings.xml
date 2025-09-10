@@ -34,9 +34,13 @@
     <string name="action_notes">Salva in Note</string>
     <string name="action_retry">Riprova</string>
     <string name="actionbar_button_up_description">Indietro</string>
+    <string name="add_mark">Segna</string>
     <string name="afternoon">Pomeriggio</string>
     <string name="agree_description">Consenti alla app di connettersi a Internet per utilizzare tutte le sue funzionalità.</string>
     <string name="ai_recognition_other_speaker">(Qualcun altro parla)</string>
+    <string name="ai_recognize_fail">Non è stato possibile trascrivere</string>
+    <string name="ai_recognize_fail_tip">Non è stato possibile riassumere. Riprova.</string>
+    <string name="ai_recognize_preference_summary">Trascrivi automaticamente durante la registrazione</string>
     <string name="ai_summary">Riassunto AI</string>
     <string name="ai_watermark">"Questo contenuto è generato dall'IA e viene fornito solo come riferimento."</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Non è possibile registrare quando il microfono è in uso</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Registratore</string>
     <string name="app_record">Registrazioni app</string>
     <string name="app_record_preference_title">Registratore di chiamate vocali</string>
+    <string name="asr_in_progress">Trascrizione e riassunto al %s</string>
+    <string name="asr_in_progress_with_polish">Ottimizzazione e riassunto al %s</string>
+    <string name="asr_progress">Trascrizione audio %s</string>
     <string name="back">Indietro</string>
     <string name="back_playback_position">Torna alla posizione attuale</string>
-    <string name="bottomsheet_action_collapse">Comprimi foglio inferiore</string>
-    <string name="bottomsheet_action_expand">Espandi foglio inferiore</string>
+    <string name="bottomsheet_action_collapse">Comprimi riquadro inferiore</string>
+    <string name="bottomsheet_action_expand">Espandi riquadro inferiore</string>
     <string name="bottomsheet_action_expand_halfway">Espandi a metà</string>
-    <string name="bottomsheet_drag_handle_clicked">Cursore di trascinamento premuto due volte</string>
-    <string name="bottomsheet_drag_handle_content_description">Cursore di trascinamento</string>
+    <string name="bottomsheet_drag_handle_clicked">Doppio tocco su punto di trascinamento</string>
+    <string name="bottomsheet_drag_handle_content_description">Punto di trascinamento</string>
     <string name="btn_continue_record_description">Riprendi registrazione</string>
     <string name="button_queue_for_wifi">Attendi</string>
     <string name="button_start_now">Scarica</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Vuoto</string>
     <string name="eras_ad">d.C.</string>
     <string name="eras_bc">a.C.</string>
+    <string name="error_a11y_label">Errore: non valido</string>
     <string name="error_app_internal">"Verifica che un'altra applicazione non stia usando la funzione di registrazione."</string>
     <string name="error_app_internal_title">Errore Registratore</string>
     <string name="error_file_access">Il file non esiste o è stato danneggiato</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Usa il microfono interno</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
     <string name="icon_content_description">Icona della finestra di dialogo</string>
+    <string name="intelligent_polishing_preference_summary">Rimuovi le ridondanze e standardizza il formato per il cinese</string>
     <string name="invisible_mode_dialog_message">Impossibile utilizzare il microfono quando sei in incognito. Disattiva prima la modalità in incognito.</string>
     <string name="invisible_mode_dialog_negative">Annulla</string>
     <string name="invisible_mode_dialog_positive">Disattiva</string>
@@ -261,15 +270,16 @@
     <string name="manage_external_storage">Accedere a tutti i file</string>
     <string name="mark_add_toast">Aggiunto correttamente</string>
     <string name="material_clock_toggle_content_description">Seleziona AM o PM</string>
+    <string name="material_hour_24h_suffix">%1$s ore</string>
     <string name="material_hour_selection">"Seleziona l'ora"</string>
     <string name="material_hour_suffix">%1$s in punto</string>
     <string name="material_minute_selection">Seleziona i minuti</string>
     <string name="material_minute_suffix">%1$s minuti</string>
-    <string name="material_timepicker_am">am</string>
+    <string name="material_timepicker_am">AM</string>
     <string name="material_timepicker_clock_mode_description">"Passa alla modalità orologio per inserire l'ora."</string>
     <string name="material_timepicker_hour">Ora</string>
     <string name="material_timepicker_minute">Minuto</string>
-    <string name="material_timepicker_pm">pm</string>
+    <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">"Seleziona l'ora"</string>
     <string name="material_timepicker_text_input_mode_description">"Passa alla modalità di immissione testo per inserire l'ora."</string>
     <string name="message_file_size_error">La registrazione ha raggiunto la lunghezza massima supportata da %s</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Punti chiave</string>
     <string name="morning">Buongiorno</string>
     <string name="mtrl_badge_numberless_content_description">Nuova notifica</string>
+    <string name="mtrl_checkbox_state_description_checked">Selezionata</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Parzialmente selezionata</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Non selezionata</string>
     <string name="mtrl_chip_close_icon_content_description">Rimuovi %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Più di %1$d nuove notifiche</string>
     <string name="mtrl_picker_a11y_next_month">Passa al mese successivo</string>
     <string name="mtrl_picker_a11y_prev_month">Passa al mese precedente</string>
+    <string name="mtrl_picker_announce_current_range_selection">Selezione della data di inizio: %1$s. Selezione della data di fine: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Selezione attuale: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">Nessuna selezione</string>
+    <string name="mtrl_picker_cancel">Annulla</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Seleziona data</string>
     <string name="mtrl_picker_date_header_unselected">Data selezionata</string>
-    <string name="mtrl_picker_day_of_week_column_header">Colonna dei giorni: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Data di fine: %1$s</string>
     <string name="mtrl_picker_invalid_format">Formato non valido.</string>
     <string name="mtrl_picker_invalid_format_example">Esempio: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Usa: %1$s</string>
     <string name="mtrl_picker_invalid_range">Intervallo non valido.</string>
-    <string name="mtrl_picker_navigate_to_year_description">"Vai all'anno %1$s"</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">"Vai all'anno corrente %1$d"</string>
+    <string name="mtrl_picker_navigate_to_year_description">"Vai all'anno %1$d"</string>
     <string name="mtrl_picker_out_of_range">"Non compresa nell'intervallo: %1$s"</string>
     <string name="mtrl_picker_range_header_only_end_selected">Data di inizio - %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s - Data di fine</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Seleziona intervallo</string>
     <string name="mtrl_picker_range_header_unselected">Data di inizio - Data di fine</string>
     <string name="mtrl_picker_save">Salva</string>
+    <string name="mtrl_picker_start_date_description">Data di inizio: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data di fine</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Data di inizio</string>
     <string name="mtrl_picker_text_input_day_abbr">g</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_today_description">Oggi %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Passa alla modalità di immissione Calendario</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Tocca per passare alla selezione di un giorno</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tocca per passare alla visualizzazione Calendario</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Passa alla modalità di immissione Testo</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Tocca per passare alla selezione di un anno</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tocca per passare alla visualizzazione Anno</string>
+    <string name="mtrl_timepicker_cancel">Annulla</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="network_tip_dialog_cancel">Rifiuta</string>
     <string name="network_tip_dialog_content">Registratore deve connettersi a Internet per funzionare correttamente. Accetti?</string>
     <string name="network_tip_dialog_ok">Accetta</string>
@@ -439,7 +461,10 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="noon">Mezzogiorno</string>
     <string name="not_allowed">Non concesso</string>
     <string name="not_set">Non impostato</string>
+    <string name="notice_btn_stop_ai_recognize">Disattiva</string>
+    <string name="notice_content_no_asr_long_time">Da tempo non viene rilevato alcun parlato.</string>
     <string name="notice_for_ai_search_tips">Dettagli</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Disattivare Riconoscimento vocale AI?</string>
     <string name="notification_message_all_paused">In attesa di una connessione Wi-Fi.</string>
     <string name="notification_pause_playback">Riproduzione in pausa</string>
     <string name="notification_playback">Riproduzione in corso…</string>
@@ -447,11 +472,16 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="notification_recording_ticker">Telefono silenziato</string>
     <string name="notification_save_as_complete">Salvataggio completato</string>
     <string name="notification_stopped">Registrazione interrotta</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Trascrizione completata</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Non è stato possibile riassumere</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Riassunto completato</string>
     <string name="notification_title_all_paused">Download in pausa</string>
+    <string name="nrt_asr_complete">Trascrizione terminata. Tocca per aggiornare.</string>
     <string name="offline_recognize_transfer_format">Trascrizione in corso…</string>
     <string name="online_recognize_progress">Trascrizione %s…</string>
     <string name="open_voice_enhancement">Migliora la voce</string>
     <string name="opened_voice_enhancement">Voce migliorata attiva</string>
+    <string name="pasport_register_dialog_message">Desideri creare uno Xiaomi Account tramite il tuo numero di telefono %s ora?</string>
     <string name="passport_access_denied">Accesso negato</string>
     <string name="passport_account_crop_user_avatar">Ritaglia la foto</string>
     <string name="passport_account_empty_user_name">Inserisci il tuo nome</string>
@@ -468,7 +498,7 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="passport_account_secure_info_pref_title">Informazioni account</string>
     <string name="passport_account_security_info_pref_title">Informazioni di sicurezza</string>
     <string name="passport_account_user_avatar">Foto del profilo</string>
-    <string name="passport_account_user_avatar_from_album">Galleria</string>
+    <string name="passport_account_user_avatar_from_album">Seleziona dalla Galleria</string>
     <string name="passport_account_user_avatar_from_camera">Fotocamera</string>
     <string name="passport_account_user_base_info">Informazioni di base</string>
     <string name="passport_account_user_details">Informazioni personali</string>
@@ -482,7 +512,6 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="passport_agree">Accetta</string>
     <string name="passport_area_code_title">CAP</string>
     <string name="passport_attention">Attenzione</string>
-    <string name="passport_auth_fail_warning">Sessione scaduta. Accedi di nuovo.</string>
     <string name="passport_back">Indietro</string>
     <string name="passport_bad_authentication">Username o password non validi</string>
     <string name="passport_can_not_recevie_verify_code">Non hai ricevuto il codice?</string>
@@ -504,11 +533,9 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="passport_doing_query_account">"Controllo delle informazioni dell'account…"</string>
     <string name="passport_error_auth_fail">Sessione scaduta. Accedi di nuovo.</string>
     <string name="passport_error_device_id">"Impossibile ottenere l'ID del dispositivo"</string>
-    <string name="passport_error_dup_binded_email">Questo indirizzo e-mail è già associato a un altro Xiaomi Account.</string>
     <string name="passport_error_empty_password">Inserisci la tua password</string>
     <string name="passport_error_empty_pwd">La password non può essere vuota</string>
     <string name="passport_error_empty_user_id">Inserisci il tuo nome utente</string>
-    <string name="passport_error_invalid_bind_address">"L'indirizzo email che hai inserito non è valido."</string>
     <string name="passport_error_length_limit">Il testo che hai inserito è troppo lungo</string>
     <string name="passport_error_network">Impossibile connettersi alla rete</string>
     <string name="passport_error_no_password_user">Non hai ancora impostato la password. Accedi con SMS.</string>
@@ -524,17 +551,14 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="passport_error_unknown">Errore sconosciuto</string>
     <string name="passport_error_user_name">Il nome utente che hai inserito non è valido</string>
     <string name="passport_error_user_password">Le password non corrispondono</string>
-    <string name="passport_exceed_binded_phone_times_notice">Questo numero di telefono è già associato a un altro Xiaomi Account.</string>
     <string name="passport_facebook_login_btn_content_description">Accedi con Facebook</string>
     <string name="passport_frequency_try_later">Troppi tentativi. Aspetta un minuto o due e riprova.</string>
     <string name="passport_get_login_type_next">Avanti</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Troppi codici di verifica inviati a questo numero. Attendi 24 ore e riprova.</string>
     <string name="passport_google_login_btn_content_description">Accedi con Google</string>
     <string name="passport_help">Guida</string>
     <string name="passport_i_know">Ho capito</string>
     <string name="passport_identification_expired">Codice di verifica scaduto. Ricomincia.</string>
     <string name="passport_input_captcha_hint">Inserisci il codice</string>
-    <string name="passport_input_email_address_notice">Useremo questo indirizzo e-mail per verificare il tuo account</string>
     <string name="passport_input_password_hint">Inserisci la password</string>
     <string name="passport_input_phone_number_hint">Inserisci il numero di telefono</string>
     <string name="passport_input_verify_code">Inserisci il codice di verifica</string>
@@ -546,7 +570,6 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="passport_login_register_by_local_phone_long_text">Crea un account</string>
     <string name="passport_login_with_sns">Altri modi per accedere</string>
     <string name="passport_logout_account">Esci</string>
-    <string name="passport_mi_account_first_title">Creeremo automaticamente un account se utilizzi il tuo numero di telefono per la prima volta.</string>
     <string name="passport_mi_account_title">Accedi con Xiaomi Account</string>
     <string name="passport_network_error">Si è verificato un errore di rete. Verifica le impostazioni di rete e riprova.</string>
     <string name="passport_network_error_hint">"Controlla l'URL e riprova, oppure copia l'URL e aprilo nel browser."</string>
@@ -555,6 +578,7 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="passport_no_account">Accesso non effettuato</string>
     <string name="passport_open_settings">Impostazioni</string>
     <string name="passport_page_load_failed">Impossibile aprire la pagina</string>
+    <string name="passport_password_hide_show">Nascondi password</string>
     <string name="passport_password_login_btn">Accedi</string>
     <string name="passport_password_not_show">Non mostrare la password</string>
     <string name="passport_password_show">Mostra la password</string>
@@ -566,6 +590,8 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="passport_reging">Creazione account…</string>
     <string name="passport_register_by_local_phone_long_text">Crea un account</string>
     <string name="passport_register_by_local_phone_short_text">Crea un account</string>
+    <string name="passport_register_dialog_positive">Crea</string>
+    <string name="passport_register_dialog_title">Crea Xiaomi Account</string>
     <string name="passport_register_restricted">Troppi account associati a questo numero. Provane uno diverso.</string>
     <string name="passport_relogin_notice">"Devi eseguire di nuovo l'accesso"</string>
     <string name="passport_request_agree">Consenti</string>
@@ -574,40 +600,37 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="passport_request_error_invalid_token">Impossibile verificare</string>
     <string name="passport_request_error_network">Si è verificato un errore di rete. Verifica le impostazioni di rete e riprova.</string>
     <string name="passport_request_error_unknown">Si è verificato un errore di sistema. Torna indietro e riprova.</string>
-    <string name="passport_request_gallery_permission_message">"Consenti l'accesso alla Galleria:&lt;br />Per impostare le foto profilo"</string>
-    <string name="passport_resend_email_reach_limit_message">"Hai richiesto troppe e-mail di verifica. Assicurati che l'e-mail di verifica non sia nella tua cartella Spam."</string>
-    <string name="passport_resend_email_reach_limit_title">Troppi tentativi</string>
+    <string name="passport_request_gallery_permission_message">Questa applicazione deve accedere agli elementi della Galleria selezionati per poter impostare la foto profilo. Rimborsare ora?</string>
+    <string name="passport_request_permission_title">Permessi richiesti</string>
     <string name="passport_resend_ticket">Reinvia il codice</string>
     <string name="passport_retry">Riprova</string>
-    <string name="passport_same_new_and_old_pwd">Non può essere uguale alla password corrente</string>
     <string name="passport_send_sms_to">Codice inviato a %1$s</string>
     <string name="passport_send_too_many_code">Troppi codici di verifica inviati a questo numero. Attendi 24 ore e riprova.</string>
     <string name="passport_sending_vcode">Invio codice in corso…</string>
-    <string name="passport_service_error">Errore del server</string>
     <string name="passport_set_password_no_phone_msg">Aggiungi il tuo numero di telefono per proteggere il tuo account.</string>
     <string name="passport_skip_query_account">Salta</string>
-    <string name="passport_sns_access_token_expired_warning">Sessione scaduta. Accedi di nuovo per riconnettere questo account.</string>
     <string name="passport_sns_bind_limit">Troppi tentativi. Prova altri modi per accedere.</string>
     <string name="passport_system_error">Il sistema è occupato. Aspetta un minuto o due e riprova.</string>
     <string name="passport_talkback_image_captcha">"Codice di verifica dell'immagine"</string>
     <string name="passport_talkback_switch_image_captcha">"Passa al codice di verifica dell'immagine"</string>
     <string name="passport_talkback_switch_voice_captcha">Passa al codice di verifica vocale</string>
     <string name="passport_talkback_voice_captcha">Riproduci codice di verifica vocale</string>
+    <string name="passport_third_sns_service_unavailable">"Il servizio non è disponibile. Assicurati che l'app sia installata e non sia bloccata."</string>
     <string name="passport_ticket_send_by_second">Invia fra %d</string>
     <string name="passport_to_forget_password">Password dimenticata?</string>
     <string name="passport_to_password_login">Accedi con la password</string>
     <string name="passport_to_verify_code_login">Accedi con SMS</string>
     <string name="passport_unknown_error">Errore sconosciuto</string>
     <string name="passport_unknown_host_network_error">Verifica le impostazioni di rete e riprova</string>
-    <string name="passport_user_agreement_hint_3rd_app">"&lt;Data>Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a>, nonché l'&lt;a href=%3$s>Accordo utente&lt;/a> e l'&lt;a href=%4$s>Informativa sulla privacy&lt;/a> di Xiaomi Account.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">"&lt;Data>Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a>, l'&lt;a href=%3$s>Accordo utente&lt;/a> e l'&lt;a href=%4$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%5$s>Termini e condizioni dei servizi di verifica dell'account di China Mobile&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">"&lt;Data>Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a>, l'&lt;a href=%3$s>Accordo utente&lt;/a> e l'&lt;a href=%4$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%5$s>Termini e condizioni dei servizi di verifica dell'account di eSurfing&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">"&lt;Data>Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a>, l'&lt;a href=%3$s>Accordo utente&lt;/a> e l'&lt;a href=%4$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%5$s>Termini e condizioni dei servizi di verifica dell'account di China Unicom&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_default">"&lt;Data>Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a> di Xiaomi Account.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>"Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a>, nonché l'&lt;a href=%3$s>Accordo utente&lt;/a> e l'&lt;a href=%4$s>Informativa sulla privacy&lt;/a> di Xiaomi Account."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>"Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a>, l'&lt;a href=%3$s>Accordo utente&lt;/a> e l'&lt;a href=%4$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%5$s>Termini e condizioni dei servizi di verifica dell'account di China Mobile&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>"Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a>, l'&lt;a href=%3$s>Accordo utente&lt;/a> e l'&lt;a href=%4$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%5$s>Termini e condizioni dei servizi di verifica dell'account di eSurfing&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>"Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a>, l'&lt;a href=%3$s>Accordo utente&lt;/a> e l'&lt;a href=%4$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%5$s>Termini e condizioni dei servizi di verifica dell'account di China Unicom&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>"Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a> di Xiaomi Account."</Data></string>
     <string name="passport_user_agreement_hint_first_login">Creeremo automaticamente un account se utilizzi il tuo numero di telefono per la prima volta.</string>
-    <string name="passport_user_agreement_hint_with_mobile">"&lt;Data>Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%3$s>Termini e condizioni dei servizi di verifica di China Mobile&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_with_telecom">"&lt;Data>Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%3$s>Termini e condizioni dei servizi di verifica dell'account di eSurfing&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_with_unicom">"&lt;Data>Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%3$s>Termini e condizioni dei servizi di verifica dell'account di China Unicom&lt;/a>.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>"Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%3$s>Termini e condizioni dei servizi di verifica di China Mobile&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>"Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%3$s>Termini e condizioni dei servizi di verifica dell'account di eSurfing&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>"Ho letto e accettato l'&lt;a href=%1$s>Accordo utente&lt;/a> e l'&lt;a href=%2$s>Informativa sulla privacy&lt;/a> di Xiaomi Account, e i &lt;a href=%3$s>Termini e condizioni dei servizi di verifica dell'account di China Unicom&lt;/a>."</Data></string>
     <string name="passport_user_avatar_update_title">Cambia la foto del profilo</string>
     <string name="passport_user_avatar_uploading">Solo un secondo…</string>
     <string name="passport_user_id_hint">E-mail/Numero di telefono/ID Xiaomi Account</string>
@@ -627,6 +650,7 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="permission_bluetooth">Accedi allo stato della connessione Bluetooth</string>
     <string name="permission_bluetooth_dialog_description">Consenti a questo dispositivo di connettersi ai dispositivi nelle vicinanze per poter cambiare dispositivo durante la riproduzione delle registrazioni.</string>
     <string name="permission_bluetooth_title">Permessi richiesti</string>
+    <string name="permission_camera_description">Per scattare foto durante la registrazione</string>
     <string name="permission_desc">Dettagli sui permessi</string>
     <string name="permission_dialog_cancel">Annulla</string>
     <string name="permission_dialog_ok">Impostazioni</string>
@@ -659,6 +683,10 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="preference_copied">\"%1$s\"copiato negli appunti.</string>
     <string name="preference_enable_earpiece_summary">"Riproduci l'audio tramite l'altoparlante auricolare"</string>
     <string name="preference_enable_earpiece_title">Modalità auricolare</string>
+    <string name="preference_group_title_for_ai_setting">Funzionalità AI</string>
+    <string name="preference_group_title_for_normal_setting">Generale</string>
+    <string name="preference_key_ai_recognize">Riconoscimento vocale AI</string>
+    <string name="preference_key_intelligent_polishing">Pulitura smart</string>
     <string name="preference_led_indicator">Notifiche schermata di blocco</string>
     <string name="preference_led_indicator_prompt">Mostra un indicatore blu sulla schermata di blocco e la luce LED durante la registrazione</string>
     <string name="preference_record_desktop_indicator_summary">Mostra un indicatore blu sulla schermata Home durante la registrazione</string>
@@ -677,6 +705,7 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="progress">Barra di avanzamento della riproduzione</string>
     <string name="progress_dialog_message">Download...…</string>
     <string name="radio_tips">"Registratore offre trascrizione audio, riassunti audio e altro ancora. Per fornire questi servizi, l'applicazione deve connettersi a Internet."</string>
+    <string name="re_asr_error_tip">Impossibile trascrivere. Ti preghiamo di riprovare.</string>
     <string name="recent_delete">Eliminate di recente</string>
     <string name="recent_delete_delete_all">Eliminare definitivamente tutti gli elementi ora?</string>
     <string name="recognition_button_add_to_queue">Aggiungi alla coda</string>
@@ -706,6 +735,7 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="recognition_process_dialog_title">Attività in corso</string>
     <string name="recognition_stop_current">"Interrompi l'attività in corso"</string>
     <string name="recognize_complete_toast">Trascrizione completa</string>
+    <string name="recognize_data_loading">Solo un attimo…</string>
     <string name="recognize_tip_part_one">"La trascrizione non è terminata. "</string>
     <string name="recognize_tip_part_two">Riprova</string>
     <string name="recognizing_not_rename">Non è possibile rinominare durante la registrazione</string>
@@ -787,6 +817,8 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="search_scenes">Tipo di registrazione</string>
     <string name="search_silent_mode">Silenzia la suoneria durante la registrazione</string>
     <string name="search_tip_rename">Rinomina le registrazioni manualmente</string>
+    <string name="searchview_clear_text_content_description">Cancella testo</string>
+    <string name="searchview_navigation_content_description">Indietro</string>
     <string name="send">Invia</string>
     <string name="settings_ai_record_abstract">Riassumi</string>
     <string name="settings_ai_record_abstract_description">"Riassumi l'argomento e il contenuto di una registrazione e salva il riassunto nelle Note"</string>
@@ -813,6 +845,7 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="shortcut_stop_record">Interrompi la registrazione</string>
     <string name="show_text">Mostra il testo</string>
     <string name="show_wave">"Mostra l'impronta vocale"</string>
+    <string name="side_sheet_accessibility_pane_title">Scheda secondaria</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Impostazioni</string>
     <string name="speaker">"Parlante "</string>
+    <string name="state_wait_recognize_tip">Completamento della trascrizione in corso…</string>
     <string name="status_bar_back">Tocca per tornare al Registratore</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Registrazione…</string>
@@ -855,6 +889,7 @@ Tocca \"%1$s\", e seleziona \"%2$s\"."</string>
     <string name="talkback_traslation_ai_recognize">Nascondi la casella di testo</string>
     <string name="talkback_traslation_close">Smetti di tradurre</string>
     <string name="text_btn_backward_3_seconds">Indietro %d secondi</string>
+    <string name="text_btn_camera">Scatta una foto</string>
     <string name="text_btn_complete">Interrompi</string>
     <string name="text_btn_forward_3_seconds">Avanti %d secondi</string>
     <string name="text_btn_mark">Segna</string>
@@ -927,8 +962,11 @@ Attualmente in pausa. L'analisi riprenderà quando non utilizzerai il dispositiv
     <string name="tips_for_build_database">Tieni il dispositivo collegato al caricabatterie. Questo analizzerà più rapidamente la registrazione quando lo schermo è spento.</string>
     <string name="toast_enter_silent_mode">Registrazione. La Modalità silenziosa è abilitata.</string>
     <string name="toast_exit_silent_mode">Registrazione terminata. La Modalità silenziosa è disabilitata.</string>
+    <string name="toast_for_no_asr_long_time">Nessun parlato rilevato. La funzione Riconoscimento vocale AI si è interrotta.</string>
+    <string name="toast_for_pause_record_long_time">Registrazione in pausa. La funzione Riconoscimento vocale AI si è interrotta.</string>
     <string name="toast_max_record_time">%1$s può registrare per %2$s</string>
     <string name="toast_stop">Registrazione terminata</string>
+    <string name="toast_title_stop_ai_recognize">Riconoscimento vocale AI interrotto</string>
     <string name="toast_uninstall_fileexplorer">Gestore File non installato</string>
     <string name="today">Oggi</string>
     <string name="tomorrow">Domani</string>

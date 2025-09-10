@@ -34,9 +34,13 @@
     <string name="action_notes">Notlara kaydet</string>
     <string name="action_retry">Tekrar dene</string>
     <string name="actionbar_button_up_description">Geri</string>
+    <string name="add_mark">İşaretle</string>
     <string name="afternoon">Öğleden sonra</string>
     <string name="agree_description">Tüm özelliklerini kullanabilmesi için bu uygulamanın internete bağlanmasına izin ver.</string>
     <string name="ai_recognition_other_speaker">(Başka biri konuşuyor)</string>
+    <string name="ai_recognize_fail">Yazıya dökülemedi</string>
+    <string name="ai_recognize_fail_tip">Özetlenemedi. Tekrar deneyin.</string>
+    <string name="ai_recognize_preference_summary">Kaydederken otomatik olarak yazıya dökün</string>
     <string name="ai_summary">AI Özet</string>
     <string name="ai_watermark">Bu içerik AI tarafından oluşturulmuştur ve yalnızca referansınız için sağlanmaktadır.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Mikrofon kullanımdayken kayıt yapılamıyor</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Kaydedici</string>
     <string name="app_record">Uygulama kayıtları</string>
     <string name="app_record_preference_title">Sesli Arama Kaydedici</string>
+    <string name="asr_in_progress">%s Yazıya dökülüyor ve özetleniyor</string>
+    <string name="asr_in_progress_with_polish">%s Parlatılıyor ve özetleniyor</string>
+    <string name="asr_progress">Ses metne dönüştürülüyor %s</string>
     <string name="back">Geri</string>
     <string name="back_playback_position">Mevcut pozisyona geri dön</string>
     <string name="bottomsheet_action_collapse">Alt sayfayı daralt</string>
     <string name="bottomsheet_action_expand">Alt sayfayı genişlet</string>
-    <string name="bottomsheet_action_expand_halfway">Yarıya kadar genişlet</string>
-    <string name="bottomsheet_drag_handle_clicked">Sürükleme koluna çift dokunuldu</string>
-    <string name="bottomsheet_drag_handle_content_description">Sürükleme kolu</string>
+    <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
+    <string name="bottomsheet_drag_handle_clicked">Sürükleme tutamacına iki kez dokunuldu</string>
+    <string name="bottomsheet_drag_handle_content_description">Sürükleme tutamacı</string>
     <string name="btn_continue_record_description">Kayda devam et</string>
     <string name="button_queue_for_wifi">Bekle</string>
     <string name="button_start_now">İndir</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Boş</string>
     <string name="eras_ad">M.S.</string>
     <string name="eras_bc">M.Ö.</string>
+    <string name="error_a11y_label">Hata: geçersiz</string>
     <string name="error_app_internal">Başka bir uygulamanın da kayıt özelliğini kullanıp kullanmadığını kontrol edin.</string>
     <string name="error_app_internal_title">Ses kaydedici hatası</string>
     <string name="error_file_access">Dosya mevcut değil veya hasar görmüş durumda</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Dahili mikrofonu kullanın</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/sa.</string>
     <string name="icon_content_description">İletişim kutusu simgesi</string>
+    <string name="intelligent_polishing_preference_summary">Çince için fazlalıkları kaldırın ve biçimi standartlaştırın</string>
     <string name="invisible_mode_dialog_message">Gizli modda iken mikrofon kullanılamıyor. Önce Gizli modu kapatın.</string>
     <string name="invisible_mode_dialog_negative">İptal</string>
     <string name="invisible_mode_dialog_positive">Kapat</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Tüm dosyalara eriş</string>
     <string name="mark_add_toast">Başarıyla eklendi</string>
     <string name="material_clock_toggle_content_description">"ÖÖ veya ÖS'yi seçin"</string>
+    <string name="material_hour_24h_suffix">%1$s saat</string>
     <string name="material_hour_selection">Saat seçin</string>
     <string name="material_hour_suffix">Saat %1$s</string>
     <string name="material_minute_selection">Dakikayı seçin</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Anahtar noktalar</string>
     <string name="morning">Sabah</string>
     <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
+    <string name="mtrl_checkbox_state_description_checked">İşaretlendi</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Kısmi olarak işaretlendi</string>
+    <string name="mtrl_checkbox_state_description_unchecked">İşaretlenmedi</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d adetten fazla yeni bildirim</string>
     <string name="mtrl_picker_a11y_next_month">Sonraki aya değiştir</string>
     <string name="mtrl_picker_a11y_prev_month">Önceki aya değiştir</string>
+    <string name="mtrl_picker_announce_current_range_selection">Başlangıç tarihi seçimi: %1$s – Bitiş tarihi seçimi: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Geçerli seçim: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">yok</string>
+    <string name="mtrl_picker_cancel">İptal</string>
+    <string name="mtrl_picker_confirm">Tamam</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Tarih Seçin</string>
     <string name="mtrl_picker_date_header_unselected">Seçilen tarih</string>
-    <string name="mtrl_picker_day_of_week_column_header">Gün sütunu: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Bitiş tarihi: %1$s</string>
     <string name="mtrl_picker_invalid_format">Geçersiz biçim.</string>
     <string name="mtrl_picker_invalid_format_example">Örnek: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Tarih biçimi: %1$s</string>
     <string name="mtrl_picker_invalid_range">Geçersiz aralık.</string>
-    <string name="mtrl_picker_navigate_to_year_description">%1$s yılına git</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Geçerli yıla (%1$d) git</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$d yılına git</string>
     <string name="mtrl_picker_out_of_range">İzin verilen aralığın dışında: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Başlangıç tarihi – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – Bitiş tarihi</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Aralık Seçin</string>
     <string name="mtrl_picker_range_header_unselected">Başlangıç tarihi - Bitiş tarihi</string>
     <string name="mtrl_picker_save">Kaydet</string>
+    <string name="mtrl_picker_start_date_description">Başlangıç tarihi: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Tarih</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Bitiş tarihi</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Başlangıç tarihi</string>
     <string name="mtrl_picker_text_input_day_abbr">g</string>
     <string name="mtrl_picker_text_input_month_abbr">a</string>
     <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">Bugün, %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Takvim giriş moduna geç</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Gün seçmeye geçmek için dokunun</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Takvim görünümüne geçmek için dokunun</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Yıl seçmeye geçmek için dokunun</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Yıl görünümüne geçmek için dokunun</string>
+    <string name="mtrl_timepicker_cancel">İptal</string>
+    <string name="mtrl_timepicker_confirm">Tamam</string>
     <string name="network_tip_dialog_cancel">Reddet</string>
     <string name="network_tip_dialog_content">Kaydedici düzgün çalışabilmek için internet bağlantısına ihtiyaç duyar. Kabul ediyor musunuz?</string>
     <string name="network_tip_dialog_ok">Kabul et</string>
@@ -439,7 +461,10 @@ Nasıl izin verilir
     <string name="noon">Gün ortası</string>
     <string name="not_allowed">İzin verilmedi</string>
     <string name="not_set">Ayarlanmadı</string>
+    <string name="notice_btn_stop_ai_recognize">Kapat</string>
+    <string name="notice_content_no_asr_long_time">Uzun bir zamandır konuşma algılanmadı.</string>
     <string name="notice_for_ai_search_tips">Ayrıntılar</string>
+    <string name="notice_title_is_need_stop_ai_recognize">AI Konuşma Tanıma kapatılsın mı?</string>
     <string name="notification_message_all_paused">Wi-Fi bağlantısı için bekleniyor.</string>
     <string name="notification_pause_playback">Oynatma duraklatıldı</string>
     <string name="notification_playback">Oynatılıyor…</string>
@@ -447,11 +472,16 @@ Nasıl izin verilir
     <string name="notification_recording_ticker">Telefon sessiz moda alındı</string>
     <string name="notification_save_as_complete">Başarıyla kaydedildi</string>
     <string name="notification_stopped">Kayıt durduruldu</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Yazıya dökme bitti</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Özetlenemedi</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Özetleme bitti</string>
     <string name="notification_title_all_paused">İndirme işlemi duraklatıldı</string>
+    <string name="nrt_asr_complete">Metne dönüştürme bitti. Yenilemek için dokunun.</string>
     <string name="offline_recognize_transfer_format">Yazıya dökülüyor…</string>
     <string name="online_recognize_progress">%s yazıya dökülüyor…</string>
     <string name="open_voice_enhancement">Sesi geliştir</string>
     <string name="opened_voice_enhancement">Gelişmiş ses açık</string>
+    <string name="pasport_register_dialog_message">Şimdi %s telefon numaranız ile bir Xiaomi Hesabı oluşturulsun mu?</string>
     <string name="passport_access_denied">Erişim engellendi</string>
     <string name="passport_account_crop_user_avatar">Fotoğrafı kırp</string>
     <string name="passport_account_empty_user_name">Adınızı girin</string>
@@ -468,7 +498,7 @@ Nasıl izin verilir
     <string name="passport_account_secure_info_pref_title">Hesap bilgileri</string>
     <string name="passport_account_security_info_pref_title">Güvenlik bilgisi</string>
     <string name="passport_account_user_avatar">Profil fotoğrafı</string>
-    <string name="passport_account_user_avatar_from_album">Galeri</string>
+    <string name="passport_account_user_avatar_from_album">Galeriden seçin</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Temel bilgiler</string>
     <string name="passport_account_user_details">Kişisel bilgiler</string>
@@ -482,7 +512,6 @@ Nasıl izin verilir
     <string name="passport_agree">Kabul et</string>
     <string name="passport_area_code_title">Alan kodu</string>
     <string name="passport_attention">Uyarı</string>
-    <string name="passport_auth_fail_warning">Oturumun süresi doldu. Tekrar oturum açın.</string>
     <string name="passport_back">Geri</string>
     <string name="passport_bad_authentication">Geçersiz kullanıcı adı veya şifre</string>
     <string name="passport_can_not_recevie_verify_code">Kod alamadınız mı?</string>
@@ -504,11 +533,9 @@ Nasıl izin verilir
     <string name="passport_doing_query_account">Hesap bilgileri kontrol ediliyor…</string>
     <string name="passport_error_auth_fail">Oturumun süresi doldu. Tekrar oturum açın.</string>
     <string name="passport_error_device_id">Aygıt kimliğini alınamıyor</string>
-    <string name="passport_error_dup_binded_email">Bu e-posta adresi zaten başka bir Xiaomi Hesabı ile ilişkilendirilmiş durumda.</string>
     <string name="passport_error_empty_password">Şifrenizi girin</string>
     <string name="passport_error_empty_pwd">Şifre boş bırakılamaz</string>
     <string name="passport_error_empty_user_id">Kullanıcı adınızı girin</string>
-    <string name="passport_error_invalid_bind_address">Girmiş olduğunuz e-posta adresi geçersiz.</string>
     <string name="passport_error_length_limit">Girdiğiniz metin çok uzun</string>
     <string name="passport_error_network">Ağa bağlanılamıyor</string>
     <string name="passport_error_no_password_user">Henüz bir şifre oluşturmadınız. SMS ile oturum açın.</string>
@@ -524,17 +551,14 @@ Nasıl izin verilir
     <string name="passport_error_unknown">Bilinmeyen hata</string>
     <string name="passport_error_user_name">Girmiş olduğunuz kullanıcı adı geçersiz</string>
     <string name="passport_error_user_password">Şifreler eşleşmiyor</string>
-    <string name="passport_exceed_binded_phone_times_notice">Bu telefon numarası zaten başka bir Xiaomi Hesabı ile ilişkilendirilmiş durumda.</string>
     <string name="passport_facebook_login_btn_content_description">Facebook ile oturum açın</string>
     <string name="passport_frequency_try_later">Çok fazla deneme yaptınız. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="passport_get_login_type_next">İleri</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Bu numaraya çok fazla sayıda doğrulama kodu gönderildi. 24 saat bekleyin ve tekrar deneyin.</string>
     <string name="passport_google_login_btn_content_description">Google ile oturum açın</string>
     <string name="passport_help">Yardım</string>
     <string name="passport_i_know">Anladım</string>
     <string name="passport_identification_expired">Doğrulama kodunun süresi doldu. Baştan başlayın.</string>
     <string name="passport_input_captcha_hint">Kodu girin</string>
-    <string name="passport_input_email_address_notice">Hesabınızı doğrulamak için bu e-posta adresini kullanacağız</string>
     <string name="passport_input_password_hint">Şifre girin</string>
     <string name="passport_input_phone_number_hint">Telefon numarası girin</string>
     <string name="passport_input_verify_code">Doğrulama kodunu girin</string>
@@ -546,7 +570,6 @@ Nasıl izin verilir
     <string name="passport_login_register_by_local_phone_long_text">Hesap oluştur</string>
     <string name="passport_login_with_sns">Diğer oturum açma yolları</string>
     <string name="passport_logout_account">Oturumu kapat</string>
-    <string name="passport_mi_account_first_title">Telefon numaranızı ilk kez kullanıyorsanız otomatik olarak bir hesap oluşturacağız.</string>
     <string name="passport_mi_account_title">Xiaomi Hesabı ile oturum aç</string>
     <string name="passport_network_error">Bir ağ hatası oluştu. Ağ ayarlarınızı kontrol edin ve tekrar deneyin.</string>
     <string name="passport_network_error_hint">"URL'yi kontrol edin ve tekrar deneyin veya URL'yi kopyalayın ve tarayıcınızda açın."</string>
@@ -555,6 +578,7 @@ Nasıl izin verilir
     <string name="passport_no_account">Giriş yapılmadı</string>
     <string name="passport_open_settings">Ayarlar</string>
     <string name="passport_page_load_failed">Sayfa açılamıyor</string>
+    <string name="passport_password_hide_show">Şifreyi gizle</string>
     <string name="passport_password_login_btn">Oturum aç</string>
     <string name="passport_password_not_show">Şifreyi gösterme</string>
     <string name="passport_password_show">Şifreyi göster</string>
@@ -566,6 +590,8 @@ Nasıl izin verilir
     <string name="passport_reging">Hesap oluşturuluyor…</string>
     <string name="passport_register_by_local_phone_long_text">Hesap oluştur</string>
     <string name="passport_register_by_local_phone_short_text">Hesap oluştur</string>
+    <string name="passport_register_dialog_positive">Oluştur</string>
+    <string name="passport_register_dialog_title">Xiaomi Hesabı oluştur</string>
     <string name="passport_register_restricted">Bu numara ile çok fazla sayıda hesap ilişkilendirildi. Başka bir numara deneyin.</string>
     <string name="passport_relogin_notice">Tekrar oturum açmanız gerekmektedir</string>
     <string name="passport_request_agree">İzin ver</string>
@@ -574,40 +600,37 @@ Nasıl izin verilir
     <string name="passport_request_error_invalid_token">Doğrulanamadı</string>
     <string name="passport_request_error_network">Bir ağ hatası oluştu. Ağ ayarlarınızı kontrol edin ve tekrar deneyin.</string>
     <string name="passport_request_error_unknown">Bir sistem hatası oluştu. Geri gidin ve tekrar deneyin.</string>
-    <string name="passport_request_gallery_permission_message">Galeriye erişim izni ver:&lt;br />Profil fotoğrafı ayarı için</string>
-    <string name="passport_resend_email_reach_limit_message">Çok fazla sayıda doğrulama e-postası talep ettiniz. Doğrulama e-postasının gelen kutunuzun gereksiz klasöründe olup olmadığından emin olun.</string>
-    <string name="passport_resend_email_reach_limit_title">Çok fazla deneme</string>
+    <string name="passport_request_gallery_permission_message">Bu uygulamanın profil fotoğrafınızı ayarlayabilmesi için seçili galeri ögelerine erişmesi gerekir. Şimdi izin verilsin mi?</string>
+    <string name="passport_request_permission_title">İzin gerekli</string>
     <string name="passport_resend_ticket">Tekrar kod gönder</string>
     <string name="passport_retry">Tekrar dene</string>
-    <string name="passport_same_new_and_old_pwd">Mevcut şifre ile aynı olamaz</string>
     <string name="passport_send_sms_to">Kod gönderildi: %1$s</string>
     <string name="passport_send_too_many_code">Bu numaraya çok fazla sayıda doğrulama kodu gönderildi. 24 saat bekleyin ve tekrar deneyin.</string>
     <string name="passport_sending_vcode">Kod gönderiliyor…</string>
-    <string name="passport_service_error">Sunucu hatası</string>
     <string name="passport_set_password_no_phone_msg">Hesabınızı korumak için telefon numaranızı ekleyin.</string>
     <string name="passport_skip_query_account">Atla</string>
-    <string name="passport_sns_access_token_expired_warning">Oturum sona erdi. Bu hesaba yeniden bağlanmak için tekrar oturum açın.</string>
     <string name="passport_sns_bind_limit">Çok fazla sayıda denemede bulundunuz. Diğer oturum açma yöntemlerini deneyin.</string>
     <string name="passport_system_error">Sistem meşgul. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="passport_talkback_image_captcha">Resimli doğrulama kodu</string>
     <string name="passport_talkback_switch_image_captcha">Resimli doğrulama koduna geç</string>
     <string name="passport_talkback_switch_voice_captcha">Sesli doğrulama koduna geç</string>
     <string name="passport_talkback_voice_captcha">Sesli doğrulama kodunu oynat</string>
+    <string name="passport_third_sns_service_unavailable">Servis kullanılamıyor. Uygulamanın yüklü olduğundan ve engellenmiş olmadığından emin olun.</string>
     <string name="passport_ticket_send_by_second">%d içinde gönder</string>
     <string name="passport_to_forget_password">Şifremi unuttum?</string>
     <string name="passport_to_password_login">Şifre kullanarak oturum aç</string>
     <string name="passport_to_verify_code_login">SMS ile oturum aç</string>
     <string name="passport_unknown_error">Bilinmeyen hata</string>
     <string name="passport_unknown_host_network_error">Ağ ayarlarınızı kontrol edin ve tekrar deneyin</string>
-    <string name="passport_user_agreement_hint_3rd_app">"&lt;Data>&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a> okudum ve kabul ettim.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">"&lt;Data>&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>China Mobile doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">"&lt;Data>&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>eSurfing hesabı doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">"&lt;Data>&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>China Unicom doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_default">"&lt;Data>Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> okudum ve kabul ettim.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>"&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>"&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>China Mobile doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>"&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>eSurfing hesabı doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>"&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>China Unicom doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>"Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> okudum ve kabul ettim."</Data></string>
     <string name="passport_user_agreement_hint_first_login">Telefon numaranızı ilk kez kullanıyorsanız otomatik olarak bir hesap oluşturacağız.</string>
-    <string name="passport_user_agreement_hint_with_mobile">"&lt;Data>Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a>, &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>China Mobile doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_with_telecom">"&lt;Data>Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>eSurfing hesabı doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_with_unicom">"&lt;Data>Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>China Unicom doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>"Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a>, &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>China Mobile doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>"Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>eSurfing hesabı doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>"Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>China Unicom doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
     <string name="passport_user_avatar_update_title">Profil resmini değiştir</string>
     <string name="passport_user_avatar_uploading">Yalnızca bir sn.…</string>
     <string name="passport_user_id_hint">E-posta/telefon numarası/Xiaomi Hesabı Kimliği</string>
@@ -627,6 +650,7 @@ Nasıl izin verilir
     <string name="permission_bluetooth">Bluetooth bağlantı durumuna eriş</string>
     <string name="permission_bluetooth_dialog_description">Kayıtlar oynatılıyorken cihazlar arasında geçiş yapabilmek için bu cihazın yakındaki cihazlara bağlanmasına izin verin.</string>
     <string name="permission_bluetooth_title">İzin gerekli</string>
+    <string name="permission_camera_description">Kayıt yaparken fotoğraf çekmek için</string>
     <string name="permission_desc">İzin ayrıntıları</string>
     <string name="permission_dialog_cancel">İptal</string>
     <string name="permission_dialog_ok">Ayarlar</string>
@@ -659,6 +683,10 @@ Nasıl izin verilir
     <string name="preference_copied">\"%1$s\" panoya kopyalandı.</string>
     <string name="preference_enable_earpiece_summary">Kulaklık hoparlörünü kullanarak sesi oynat</string>
     <string name="preference_enable_earpiece_title">Kulaklık modu</string>
+    <string name="preference_group_title_for_ai_setting">AI özellikler</string>
+    <string name="preference_group_title_for_normal_setting">Genel</string>
+    <string name="preference_key_ai_recognize">AI Konuşma Tanıma</string>
+    <string name="preference_key_intelligent_polishing">Akıllı parlatma</string>
     <string name="preference_led_indicator">Kilit ekranı bildirimleri</string>
     <string name="preference_led_indicator_prompt">Kayıt yaparken Kilit ekranında mavi bir gösterge göster ve LED ışığı yakıp söndür</string>
     <string name="preference_record_desktop_indicator_summary">Kayıt yaparken Ana ekranda mavi bir gösterge göster</string>
@@ -677,6 +705,7 @@ Nasıl izin verilir
     <string name="progress">Oynatma ilerleme çubuğu</string>
     <string name="progress_dialog_message">İndiriliyor…</string>
     <string name="radio_tips">Kaydedici, ses transkripsiyonu, ses özetleri ve daha fazlasını sağlar. Bu hizmetleri sağlaması için bu uygulamanın internete bağlanması gerekir.</string>
+    <string name="re_asr_error_tip">Yazıya dökülemedi. Tekrar deneyin.</string>
     <string name="recent_delete">Son silinenler</string>
     <string name="recent_delete_delete_all">Tüm ögeler şimdi kalıcı olarak silinsin mi?</string>
     <string name="recognition_button_add_to_queue">Sıraya ekle</string>
@@ -706,6 +735,7 @@ Nasıl izin verilir
     <string name="recognition_process_dialog_title">Devam eden görevler</string>
     <string name="recognition_stop_current">Geçerli görevi durdur</string>
     <string name="recognize_complete_toast">Transkripsiyon tamamlandı</string>
+    <string name="recognize_data_loading">Yalnızca bir sn.…</string>
     <string name="recognize_tip_part_one">"Metne dönüştürme bitmedi. "</string>
     <string name="recognize_tip_part_two">Tekrar dene</string>
     <string name="recognizing_not_rename">Kaydediliyorken yeniden adlandırılamaz</string>
@@ -787,6 +817,8 @@ Nasıl izin verilir
     <string name="search_scenes">Kayıt türü</string>
     <string name="search_silent_mode">Kayıt esnasında zil sesini kapat</string>
     <string name="search_tip_rename">Kayıtları otomatik olarak adlandır</string>
+    <string name="searchview_clear_text_content_description">Metni temizle</string>
+    <string name="searchview_navigation_content_description">Geri</string>
     <string name="send">Gönder</string>
     <string name="settings_ai_record_abstract">Özetle</string>
     <string name="settings_ai_record_abstract_description">"Bir kaydın konusunu ve içeriğini özetleyin ve özeti Notlar'a kaydedin"</string>
@@ -813,6 +845,7 @@ Nasıl izin verilir
     <string name="shortcut_stop_record">Kaydı durdur</string>
     <string name="show_text">Metni göster</string>
     <string name="show_wave">Ses izini göster</string>
+    <string name="side_sheet_accessibility_pane_title">Yan Sayfa</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@ Nasıl izin verilir
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Ayarlar</string>
     <string name="speaker">"Hoparlör "</string>
+    <string name="state_wait_recognize_tip">Önce mevcut yazıya dökme işlemini bitirin…</string>
     <string name="status_bar_back">Kaydediciye dönmek için dokunun</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Kayıt ediliyor…</string>
@@ -855,6 +889,7 @@ Nasıl izin verilir
     <string name="talkback_traslation_ai_recognize">Metin kutusunu gizle</string>
     <string name="talkback_traslation_close">Çeviriyi durdur</string>
     <string name="text_btn_backward_3_seconds">%d saniye geri</string>
+    <string name="text_btn_camera">Fotoğraf çek</string>
     <string name="text_btn_complete">Durdur</string>
     <string name="text_btn_forward_3_seconds">%d saniye ileri</string>
     <string name="text_btn_mark">İşaretle</string>
@@ -927,8 +962,11 @@ Nasıl izin verilir
     <string name="tips_for_build_database">Cihazınızı şarj cihazına bağlı tutun. Ekran kapalıyken bu kayıt daha hızlı analiz edilecektir.</string>
     <string name="toast_enter_silent_mode">Kaydediliyor. Sessiz mod açık.</string>
     <string name="toast_exit_silent_mode">Kayıt bitti. Sessiz mod kapalı.</string>
+    <string name="toast_for_no_asr_long_time">Konuşma algılanmadı. AI Konuşma Tanıma durduruldu.</string>
+    <string name="toast_for_pause_record_long_time">Kayıt duraklatıldı. AI Konuşma Tanıma durduruldu.</string>
     <string name="toast_max_record_time">%1$s, %2$s dakika civarı kayıt yapabilir</string>
     <string name="toast_stop">Kayıt bitti</string>
+    <string name="toast_title_stop_ai_recognize">AI Konuşma Tanıma durduruldu</string>
     <string name="toast_uninstall_fileexplorer">Dosya Yöneticisi yüklü değil</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>

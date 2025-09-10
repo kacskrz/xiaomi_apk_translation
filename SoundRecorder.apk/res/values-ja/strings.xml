@@ -34,9 +34,13 @@
     <string name="action_notes">メモに保存</string>
     <string name="action_retry">再試行</string>
     <string name="actionbar_button_up_description">戻る</string>
+    <string name="add_mark">マーク</string>
     <string name="afternoon">午後</string>
     <string name="agree_description">このアプリをインターネットに接続して、すべての機能を使用できるようにします。</string>
     <string name="ai_recognition_other_speaker">(他の誰かが話す)</string>
+    <string name="ai_recognize_fail">文字起こしできませんでした</string>
+    <string name="ai_recognize_fail_tip">要約できませんでした。もう一度お試しください。</string>
+    <string name="ai_recognize_preference_summary">録音時に自動的に文字起こしを行う</string>
     <string name="ai_summary">AI サマリー</string>
     <string name="ai_watermark">このコンテンツは AI によって生成され、参考目的でのみ提供されています。</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">マイク使用時は録音できません</string>
@@ -65,13 +69,16 @@
     <string name="app_name">レコーダー</string>
     <string name="app_record">アプリの録音</string>
     <string name="app_record_preference_title">音声通話レコーダー</string>
+    <string name="asr_in_progress">%s 文字起こしと要約を実行中</string>
+    <string name="asr_in_progress_with_polish">%s ブラッシュアップと要約を実行中</string>
+    <string name="asr_progress">音声文字起こし中: %s</string>
     <string name="back">戻る</string>
     <string name="back_playback_position">現在の位置に戻る</string>
-    <string name="bottomsheet_action_collapse">下のシートを折りたたむ</string>
-    <string name="bottomsheet_action_expand">下のシートを展開</string>
-    <string name="bottomsheet_action_expand_halfway">半分まで展開</string>
-    <string name="bottomsheet_drag_handle_clicked">ドラッグハンドルが 2 回タップされました</string>
-    <string name="bottomsheet_drag_handle_content_description">ドラッグハンドル</string>
+    <string name="bottomsheet_action_collapse">ボトムシートを閉じる</string>
+    <string name="bottomsheet_action_expand">ボトムシートを開く</string>
+    <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string name="bottomsheet_drag_handle_clicked">ドラッグ ハンドルをダブルタップしました</string>
+    <string name="bottomsheet_drag_handle_content_description">ドラッグ ハンドル</string>
     <string name="btn_continue_record_description">録音を再開</string>
     <string name="button_queue_for_wifi">待機</string>
     <string name="button_start_now">ダウンロード</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">空です</string>
     <string name="eras_ad">西暦</string>
     <string name="eras_bc">紀元前</string>
+    <string name="error_a11y_label">エラー: 無効</string>
     <string name="error_app_internal">他のアプリが現在録音機能を使用していないか確認してください。</string>
     <string name="error_app_internal_title">録音エラー</string>
     <string name="error_file_access">ファイルが存在しないか、または破損しています</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">内蔵マイクを使用する</string>
     <string name="high_bit_rate">MP3、~%1$d kbps、~%2$d MB/h</string>
     <string name="icon_content_description">ダイアログ アイコン</string>
+    <string name="intelligent_polishing_preference_summary">中国語の冗長性を取り除きフォーマットを標準化するため</string>
     <string name="invisible_mode_dialog_message">シークレットモードではマイクを使用できません。まずシークレットモードをオフにしてください。</string>
     <string name="invisible_mode_dialog_negative">キャンセル</string>
     <string name="invisible_mode_dialog_positive">オフにする</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">すべてのファイルへのアクセス</string>
     <string name="mark_add_toast">正常に追加されました</string>
     <string name="material_clock_toggle_content_description">午前または午後を選択</string>
+    <string name="material_hour_24h_suffix">%1$s 時間</string>
     <string name="material_hour_selection">時刻を選択してください</string>
     <string name="material_hour_suffix">%1$s時</string>
     <string name="material_minute_selection">分を選択</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">要点</string>
     <string name="morning">午前</string>
     <string name="mtrl_badge_numberless_content_description">新しい通知</string>
+    <string name="mtrl_checkbox_state_description_checked">オン</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">一部オン</string>
+    <string name="mtrl_checkbox_state_description_unchecked">オフ</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d 件以上の新しい通知</string>
     <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
     <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
+    <string name="mtrl_picker_announce_current_range_selection">開始日の選択: %1$s – 終了日の選択: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">なし</string>
+    <string name="mtrl_picker_cancel">キャンセル</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">日付を選択してください</string>
     <string name="mtrl_picker_date_header_unselected">選択した日付</string>
-    <string name="mtrl_picker_day_of_week_column_header">曜日の列: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">終了日 %1$s</string>
     <string name="mtrl_picker_invalid_format">形式が無効です。</string>
     <string name="mtrl_picker_invalid_format_example">例: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">使用: %1$s</string>
     <string name="mtrl_picker_invalid_range">範囲が無効です。</string>
-    <string name="mtrl_picker_navigate_to_year_description">%1$s 年に移動</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">現在の年（%1$d）に移動</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$d 年に移動</string>
     <string name="mtrl_picker_out_of_range">範囲外: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">開始日～%1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s～終了日</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">期間を選択してください</string>
     <string name="mtrl_picker_range_header_unselected">開始日～終了日</string>
     <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_start_date_description">開始日 %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">日付</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">終了日</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">開始日</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">今日（%1$s）</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">カレンダー入力モードに切り替え</string>
-    <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
+    <string name="mtrl_picker_toggle_to_day_selection">タップするとカレンダー表示に切り替わります</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
-    <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string name="mtrl_picker_toggle_to_year_selection">タップすると年表示に切り替わります</string>
+    <string name="mtrl_timepicker_cancel">キャンセル</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="network_tip_dialog_cancel">同意しない</string>
     <string name="network_tip_dialog_content">レコーダーが正常に動作するにはインターネットへの接続が必要です。同意しますか？</string>
     <string name="network_tip_dialog_ok">同意</string>
@@ -439,7 +461,10 @@
     <string name="noon">正午</string>
     <string name="not_allowed">未付与</string>
     <string name="not_set">未設定</string>
+    <string name="notice_btn_stop_ai_recognize">オフにする</string>
+    <string name="notice_content_no_asr_long_time">長時間音声を検出していません。</string>
     <string name="notice_for_ai_search_tips">詳細情報</string>
+    <string name="notice_title_is_need_stop_ai_recognize">AI 音声認識をオフにしますか？</string>
     <string name="notification_message_all_paused">Wi-Fi接続を待機しています。</string>
     <string name="notification_pause_playback">再生を停止しました</string>
     <string name="notification_playback">再生中…</string>
@@ -447,11 +472,16 @@
     <string name="notification_recording_ticker">ミュート</string>
     <string name="notification_save_as_complete">正常に保存されました</string>
     <string name="notification_stopped">録音を停止しました</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">文字起こし完了</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">要約できませんでした</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">要約完了</string>
     <string name="notification_title_all_paused">ダウンロードが一時停止しました</string>
+    <string name="nrt_asr_complete">文字起こしが完了しました。タップして更新。</string>
     <string name="offline_recognize_transfer_format">文字起こしを実行中…</string>
     <string name="online_recognize_progress">%sを文字起こし中…</string>
     <string name="open_voice_enhancement">音声強化</string>
     <string name="opened_voice_enhancement">音声強化がオンです</string>
+    <string name="pasport_register_dialog_message">電話番号 %s で Xiaomi アカウントを今すぐ作成しますか？</string>
     <string name="passport_access_denied">アクセスは拒否されました</string>
     <string name="passport_account_crop_user_avatar">写真をトリミング</string>
     <string name="passport_account_empty_user_name">名前を入力してください</string>
@@ -468,7 +498,7 @@
     <string name="passport_account_secure_info_pref_title">アカウント情報</string>
     <string name="passport_account_security_info_pref_title">セキュリティ情報</string>
     <string name="passport_account_user_avatar">プロフィール写真</string>
-    <string name="passport_account_user_avatar_from_album">ギャラリー</string>
+    <string name="passport_account_user_avatar_from_album">ギャラリーから選択</string>
     <string name="passport_account_user_avatar_from_camera">カメラ</string>
     <string name="passport_account_user_base_info">基本情報</string>
     <string name="passport_account_user_details">個人情報</string>
@@ -480,9 +510,8 @@
     <string name="passport_account_user_phone">復旧用の電話番号</string>
     <string name="passport_activity_not_found_notice">アプリが見つかりません</string>
     <string name="passport_agree">同意</string>
-    <string name="passport_area_code_title">地域コード</string>
+    <string name="passport_area_code_title">エリアコード</string>
     <string name="passport_attention">注意</string>
-    <string name="passport_auth_fail_warning">セッションが期限切れです。もう一度サインインしてください。</string>
     <string name="passport_back">戻る</string>
     <string name="passport_bad_authentication">ユーザー名またはパスワードが無効です</string>
     <string name="passport_can_not_recevie_verify_code">コードが届きませんでしたか？</string>
@@ -504,11 +533,9 @@
     <string name="passport_doing_query_account">アカウント情報を確認中…</string>
     <string name="passport_error_auth_fail">セッションが期限切れです。もう一度サインインしてください。</string>
     <string name="passport_error_device_id">デバイスIDを取得できません</string>
-    <string name="passport_error_dup_binded_email">このメールアドレスはすでに他のXiaomi アカウントと関連付けられています。</string>
     <string name="passport_error_empty_password">パスワードを入力してください</string>
     <string name="passport_error_empty_pwd">パスワードは空白にできません</string>
     <string name="passport_error_empty_user_id">ユーザー名を入力してください</string>
-    <string name="passport_error_invalid_bind_address">入力したメールアドレスは無効です。</string>
     <string name="passport_error_length_limit">入力したテキストが長すぎます</string>
     <string name="passport_error_network">ネットワークに接続できません</string>
     <string name="passport_error_no_password_user">パスワードをまだ設定していません。SMSでサインインしてください。</string>
@@ -524,17 +551,14 @@
     <string name="passport_error_unknown">不明なエラー</string>
     <string name="passport_error_user_name">入力したユーザー名が無効です</string>
     <string name="passport_error_user_password">パスワードが一致しません</string>
-    <string name="passport_exceed_binded_phone_times_notice">この電話番号はすでに他のXiaomi アカウントと関連付けられています。</string>
     <string name="passport_facebook_login_btn_content_description">Facebookでサインイン</string>
     <string name="passport_frequency_try_later">試行回数が多すぎます。数分待ってからもう一度お試しください。</string>
     <string name="passport_get_login_type_next">次へ</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">この番号に送信された認証コードが多すぎます。 24時間待ってからもう一度お試しください。</string>
     <string name="passport_google_login_btn_content_description">Googleでサインイン</string>
     <string name="passport_help">ヘルプ</string>
     <string name="passport_i_know">了解</string>
     <string name="passport_identification_expired">認証コードの期限が切れました。やり直してください。</string>
     <string name="passport_input_captcha_hint">コードを入力してください</string>
-    <string name="passport_input_email_address_notice">このメールアドレスを使用してアカウントを認証します</string>
     <string name="passport_input_password_hint">パスワードを入力してください</string>
     <string name="passport_input_phone_number_hint">電話番号を入力してください</string>
     <string name="passport_input_verify_code">認証コードを入力してください</string>
@@ -546,7 +570,6 @@
     <string name="passport_login_register_by_local_phone_long_text">アカウントを作成</string>
     <string name="passport_login_with_sns">その他のサインイン方法</string>
     <string name="passport_logout_account">サインアウト</string>
-    <string name="passport_mi_account_first_title">初めて電話番号を使用する場合は、自動的にアカウントが作成されます。</string>
     <string name="passport_mi_account_title">Xiaomi アカウントでサインイン</string>
     <string name="passport_network_error">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="passport_network_error_hint">URLを確認してもう一度試すか、URLをコピーしてブラウザーで開いてみてください。</string>
@@ -555,6 +578,7 @@
     <string name="passport_no_account">サインインしていません</string>
     <string name="passport_open_settings">設定</string>
     <string name="passport_page_load_failed">ページを開けません</string>
+    <string name="passport_password_hide_show">パスワードを非表示</string>
     <string name="passport_password_login_btn">サインイン</string>
     <string name="passport_password_not_show">パスワードを表示しない</string>
     <string name="passport_password_show">パスワードを表示</string>
@@ -566,6 +590,8 @@
     <string name="passport_reging">アカウントを作成中…</string>
     <string name="passport_register_by_local_phone_long_text">アカウントを作成</string>
     <string name="passport_register_by_local_phone_short_text">アカウントを作成</string>
+    <string name="passport_register_dialog_positive">作成</string>
+    <string name="passport_register_dialog_title">Xiaomi アカウントを作成</string>
     <string name="passport_register_restricted">この番号に関連付けられているアカウントが多すぎます。別のものを試してください。</string>
     <string name="passport_relogin_notice">再度サインインする必要があります</string>
     <string name="passport_request_agree">許可</string>
@@ -574,40 +600,37 @@
     <string name="passport_request_error_invalid_token">認証できませんでした</string>
     <string name="passport_request_error_network">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="passport_request_error_unknown">システムエラーが発生しました。戻ってもう一度やり直してください。</string>
-    <string name="passport_request_gallery_permission_message">ギャラリーへのアクセスを許可する：&lt;br />プロフィール写真を設定するため</string>
-    <string name="passport_resend_email_reach_limit_message">リクエストした認証メールの数が多すぎます。認証メールが受信トレイの迷惑メールフォルダーにないことを確認してください。</string>
-    <string name="passport_resend_email_reach_limit_title">試行回数が多すぎます</string>
+    <string name="passport_request_gallery_permission_message">プロフィール写真を設定するには、このアプリが選択されたギャラリーアイテムにアクセスする必要があります。今すぐ許可しますか？</string>
+    <string name="passport_request_permission_title">アクセス許可が必要です</string>
     <string name="passport_resend_ticket">コードを再送信</string>
     <string name="passport_retry">再試行</string>
-    <string name="passport_same_new_and_old_pwd">現在のパスワードと同じにすることはできません</string>
     <string name="passport_send_sms_to">コードが %1$s に送信されました</string>
     <string name="passport_send_too_many_code">この番号に送信された認証コードが多すぎます。24時間待ってからもう一度お試しください。</string>
     <string name="passport_sending_vcode">コードを送信中…</string>
-    <string name="passport_service_error">サーバーエラー</string>
     <string name="passport_set_password_no_phone_msg">アカウントを保護するために電話番号を追加してください。</string>
     <string name="passport_skip_query_account">スキップ</string>
-    <string name="passport_sns_access_token_expired_warning">セッションの期限が切れました。もう一度サインインしてこのアカウントに再接続してください。</string>
     <string name="passport_sns_bind_limit">試行回数が多すぎます。他の方法でサインインしてください。</string>
     <string name="passport_system_error">システムはビジー状態です。数分待ってからもう一度お試しください。</string>
     <string name="passport_talkback_image_captcha">画像認証コード</string>
     <string name="passport_talkback_switch_image_captcha">画像認証コードに切り替える</string>
     <string name="passport_talkback_switch_voice_captcha">音声認証コードに切り替える</string>
     <string name="passport_talkback_voice_captcha">音声認証コードを再生</string>
+    <string name="passport_third_sns_service_unavailable">サービスが利用できません。アプリがインストールされていて、ブロックされていないことを確認してください。</string>
     <string name="passport_ticket_send_by_second">%d後に送信</string>
     <string name="passport_to_forget_password">パスワードをお忘れですか？</string>
     <string name="passport_to_password_login">パスワードを使用してサインイン</string>
     <string name="passport_to_verify_code_login">SMSでサインイン</string>
     <string name="passport_unknown_error">不明なエラー</string>
     <string name="passport_unknown_host_network_error">ネットワーク設定を確認して、もう一度お試しください</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、およびXiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>を読み、同意しました。&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、およびXiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読み、同意しました。</Data></string>
     <string name="passport_user_agreement_hint_first_login">初めて電話番号を使用する場合は、自動的にアカウントが作成されます。</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
     <string name="passport_user_avatar_update_title">プロフィール写真を変更</string>
     <string name="passport_user_avatar_uploading">お待ちください…</string>
     <string name="passport_user_id_hint">メールアドレス/電話番号/Xiaomi アカウントID</string>
@@ -627,6 +650,7 @@
     <string name="permission_bluetooth">Bluetooth 接続ステータスへのアクセス</string>
     <string name="permission_bluetooth_dialog_description">録音の再生時にデバイスを切り替えるには、このデバイスが付近のデバイスに接続することを許可してください。</string>
     <string name="permission_bluetooth_title">アクセス許可が必要です</string>
+    <string name="permission_camera_description">録画中に写真を撮るため</string>
     <string name="permission_desc">アクセス許可の詳細</string>
     <string name="permission_dialog_cancel">キャンセル</string>
     <string name="permission_dialog_ok">設定</string>
@@ -659,6 +683,10 @@
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
     <string name="preference_enable_earpiece_summary">上部スピーカーを使用してオーディオを再生する</string>
     <string name="preference_enable_earpiece_title">上部スピーカーモード</string>
+    <string name="preference_group_title_for_ai_setting">AI 機能</string>
+    <string name="preference_group_title_for_normal_setting">一般</string>
+    <string name="preference_key_ai_recognize">AI 音声認識</string>
+    <string name="preference_key_intelligent_polishing">スマートポリッシュ</string>
     <string name="preference_led_indicator">ロック画面での通知</string>
     <string name="preference_led_indicator_prompt">録音中にロック画面に青いインジケーターを表示し、LEDライトを点滅させる</string>
     <string name="preference_record_desktop_indicator_summary">録音中にホーム画面に青いインジケーターを表示する</string>
@@ -677,6 +705,7 @@
     <string name="progress">再生プログレスバー</string>
     <string name="progress_dialog_message">ダウンロード中…</string>
     <string name="radio_tips">レコーダーは、音声の書き起こしや要約などを提供します。これらのサービスを提供するにはインターネットへの接続が必要です。</string>
+    <string name="re_asr_error_tip">文字起こしできませんでした。もう一度お試しください。</string>
     <string name="recent_delete">最近削除した録音</string>
     <string name="recent_delete_delete_all">今すぐすべてのアイテムを完全に削除しますか？</string>
     <string name="recognition_button_add_to_queue">キューに追加</string>
@@ -706,6 +735,7 @@
     <string name="recognition_process_dialog_title">進行中のタスク</string>
     <string name="recognition_stop_current">進行中のタスクを停止</string>
     <string name="recognize_complete_toast">文字起こしが完了しました</string>
+    <string name="recognize_data_loading">お待ちください…</string>
     <string name="recognize_tip_part_one">"書き起こしが終了していません。 "</string>
     <string name="recognize_tip_part_two">もう一度お試しください</string>
     <string name="recognizing_not_rename">録音中は名前を変更できません</string>
@@ -787,6 +817,8 @@
     <string name="search_scenes">録音の種類</string>
     <string name="search_silent_mode">録音時は着信を無音にする</string>
     <string name="search_tip_rename">録音に手動で名前を付ける</string>
+    <string name="searchview_clear_text_content_description">テキストを消去</string>
+    <string name="searchview_navigation_content_description">戻る</string>
     <string name="send">送信</string>
     <string name="settings_ai_record_abstract">要約</string>
     <string name="settings_ai_record_abstract_description">録音の話題と内容をを要約し、メモに保存します</string>
@@ -813,6 +845,7 @@
     <string name="shortcut_stop_record">録音を停止</string>
     <string name="show_text">テキストを表示</string>
     <string name="show_wave">声紋を表示</string>
+    <string name="side_sheet_accessibility_pane_title">サイドシート</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">設定</string>
     <string name="speaker">"スピーカー "</string>
+    <string name="state_wait_recognize_tip">先に現在の文字起こしを完了させています…</string>
     <string name="status_bar_back">タップしてレコーダーに戻る</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">録音中…</string>
@@ -855,6 +889,7 @@
     <string name="talkback_traslation_ai_recognize">テキストボックスを非表示</string>
     <string name="talkback_traslation_close">翻訳を停止</string>
     <string name="text_btn_backward_3_seconds">%d秒巻き戻し</string>
+    <string name="text_btn_camera">撮影</string>
     <string name="text_btn_complete">停止</string>
     <string name="text_btn_forward_3_seconds">%d秒早送り</string>
     <string name="text_btn_mark">マーク</string>
@@ -927,8 +962,11 @@
     <string name="tips_for_build_database">デバイスを充電器に接続したままにしてください。画面オフ時の方が、この録音をより速く分析できます。</string>
     <string name="toast_enter_silent_mode">録音中です。サイレントモードがオンになりました。</string>
     <string name="toast_exit_silent_mode">録音を終了しました。サイレントモードはオフです。</string>
+    <string name="toast_for_no_asr_long_time">音声を検出しませんでした。AI 音声認識が停止しました。</string>
+    <string name="toast_for_pause_record_long_time">録音が一時停止しました。AI 音声認識が停止しました。</string>
     <string name="toast_max_record_time">%1$sは約%2$s録音できます</string>
     <string name="toast_stop">録音終了</string>
+    <string name="toast_title_stop_ai_recognize">AI 音声認識を停止しました</string>
     <string name="toast_uninstall_fileexplorer">ファイルマネージャーがインストールされていません</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>

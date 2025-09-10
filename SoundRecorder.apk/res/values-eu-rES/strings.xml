@@ -7,9 +7,13 @@
     <string name="action_notes">Oharretan gorde</string>
     <string name="action_retry">Saiatu berriro</string>
     <string name="actionbar_button_up_description">Atzera</string>
+    <string name="add_mark">Markatu</string>
     <string name="afternoon">Arratsaldea</string>
     <string name="agree_description">Eman aplikazio honi internetera konektatzeko baimena, funtzio guztiak erabili ahal izateko.</string>
     <string name="ai_recognition_other_speaker">(Beste norbait hitz egiten ari da)</string>
+    <string name="ai_recognize_fail">Ezin izan da transkribatu</string>
+    <string name="ai_recognize_fail_tip">Ezin izan da laburbildu. Saiatu berriz.</string>
+    <string name="ai_recognize_preference_summary">Grabatzean automatikoki transkribatu</string>
     <string name="ai_summary">AA Laburpena</string>
     <string name="ai_watermark">Eduki hau AA bidez sortu da eta erreferentzia gisa bakarrik ematen da.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Ezin da grabatu mikrofonoa erabiltzen den bitartean</string>
@@ -38,6 +42,9 @@
     <string name="app_name">Grabagailua</string>
     <string name="app_record">Aplikazio grabaketak</string>
     <string name="app_record_preference_title">Ahots-Dei Grabatzailea</string>
+    <string name="asr_in_progress">%s Transkribatzen eta laburbiltzen</string>
+    <string name="asr_in_progress_with_polish">%s Leuntzen eta laburbiltzen</string>
+    <string name="asr_progress">Audioa transkribatzen %s</string>
     <string name="back">Atzera</string>
     <string name="back_playback_position">Uneko tokira bueltatu</string>
     <string name="bottomsheet_action_collapse">Beheko orria minimizatu</string>
@@ -196,6 +203,7 @@
     <string name="head_set_tip_dialog_ok">Ulertuta</string>
     <string name="head_set_tip_dialog_title">Barnealdeko mikrofonoa erabili</string>
     <string name="high_bit_rate">MP3, ~%1$dkbps, ~%2$dMB/o</string>
+    <string name="intelligent_polishing_preference_summary">Kendu soberakinak eta estandarizatu txinerarako formatua</string>
     <string name="invisible_mode_dialog_message">Ezin duzu mikrofonoa erabili Modu ezezagunean zaudenean. Modu ezezaguna desaktibatu lehenik.</string>
     <string name="invisible_mode_dialog_negative">Bertan behera utzi</string>
     <string name="invisible_mode_dialog_positive">Desaktibatu</string>
@@ -350,7 +358,10 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="no_text_content">Testurik gabe</string>
     <string name="noon">Eguerdia</string>
     <string name="not_allowed">Ez da eman</string>
+    <string name="notice_btn_stop_ai_recognize">Desaktibatu</string>
+    <string name="notice_content_no_asr_long_time">Aspaldi ez da hizketarik detektatu.</string>
     <string name="notice_for_ai_search_tips">Xehetasunak</string>
+    <string name="notice_title_is_need_stop_ai_recognize">AA Ahots-Ezagutzea desaktibatu?</string>
     <string name="notification_message_all_paused">Wi-Fi konexioaren zain.</string>
     <string name="notification_pause_playback">Erreprodukzioa pausatu da</string>
     <string name="notification_playback">Erreproduzitu…</string>
@@ -358,11 +369,16 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="notification_recording_ticker">Telefonoa isilduta</string>
     <string name="notification_save_as_complete">Behar bezala gordeta</string>
     <string name="notification_stopped">Grabaketa gelditua</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Transkribatzen bukatuta</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Ezin izan da laburbildu</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Laburbiltzen bukatuta</string>
     <string name="notification_title_all_paused">Deskarga gelditua</string>
+    <string name="nrt_asr_complete">Transkripzioa amaitu da. Sakatu freskatzeko.</string>
     <string name="offline_recognize_transfer_format">Transkribatzen…</string>
     <string name="online_recognize_progress">Transkribatzen %s…</string>
     <string name="open_voice_enhancement">Hobetu ahotsa</string>
     <string name="opened_voice_enhancement">Ahots hobetua aktibatuta dago</string>
+    <string name="pasport_register_dialog_message">Xiaomi Kontua sortu zure telefono-zenbakia %s erabiliz?</string>
     <string name="passport_access_denied">Sarbidea ukatuta</string>
     <string name="passport_account_crop_user_avatar">Moztu argazkia</string>
     <string name="passport_account_empty_user_name">Zure izena sartu</string>
@@ -379,7 +395,7 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="passport_account_secure_info_pref_title">Kontuaren informazioa</string>
     <string name="passport_account_security_info_pref_title">Segurtasun-informazioa</string>
     <string name="passport_account_user_avatar">Profileko argazkia</string>
-    <string name="passport_account_user_avatar_from_album">Galeria</string>
+    <string name="passport_account_user_avatar_from_album">Galeriatik hautatu</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Oinarrizko informazioa</string>
     <string name="passport_account_user_details">Informazio pertsonala</string>
@@ -390,10 +406,9 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="passport_account_user_name_dialog_title">Izen bat sartu</string>
     <string name="passport_account_user_phone">Berreskuratze telefonoa</string>
     <string name="passport_activity_not_found_notice">Ezin da aplikazioa aurkitu</string>
-    <string name="passport_agree">Ados</string>
+    <string name="passport_agree">Onartu</string>
     <string name="passport_area_code_title">Eremu kodea</string>
     <string name="passport_attention">Kontuz</string>
-    <string name="passport_auth_fail_warning">Saioa iraungi da. Saioa berriro hasi.</string>
     <string name="passport_back">Atzera</string>
     <string name="passport_bad_authentication">Erabiltzaile izena edo pasahitza baliogabeak dira</string>
     <string name="passport_can_not_recevie_verify_code">Ez duzu kode bat jaso?</string>
@@ -415,11 +430,9 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="passport_doing_query_account">Kontuaren informazioa egiaztatzen…</string>
     <string name="passport_error_auth_fail">Saioa iraungi da. Saioa berriro hasi.</string>
     <string name="passport_error_device_id">Ezin da gailuaren identifikazioa lortu</string>
-    <string name="passport_error_dup_binded_email">Posta elektroniko hau jadanik lotuta dago beste Xiaomi Kontu batekin.</string>
     <string name="passport_error_empty_password">Sartu zure pasahitza</string>
     <string name="passport_error_empty_pwd">Pasahitza ezin da hutsik egon</string>
     <string name="passport_error_empty_user_id">Zure erabiltzaile izena sartu</string>
-    <string name="passport_error_invalid_bind_address">Sartu duzun posta elektroniko helbidea baliogabea da.</string>
     <string name="passport_error_length_limit">Sartutako testua luzeegia da</string>
     <string name="passport_error_network">Ezin da sarera konektatu</string>
     <string name="passport_error_no_password_user">Oraindik ez duzu pasahitzik ezarri. Hasi saioa SMS-ekin.</string>
@@ -433,19 +446,16 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="passport_error_unknow_host_network_error">Ezin izan da sarera konektatu</string>
     <string name="passport_error_unknow_network_error">Sare errore bat gertatu da</string>
     <string name="passport_error_unknown">Errore ezezaguna</string>
-    <string name="passport_error_user_name">Sartu duzun erabiltzailearen izena baliogabea da</string>
+    <string name="passport_error_user_name">Sartu duzun erabiltzaile izena baliogabea da</string>
     <string name="passport_error_user_password">Pasahitzak ez datoz bat</string>
-    <string name="passport_exceed_binded_phone_times_notice">Telefono zenbaki hau jadanik lotuta dago beste Xiaomi Kontu batekin.</string>
     <string name="passport_facebook_login_btn_content_description">Saioa hasi Facebook bidez</string>
     <string name="passport_frequency_try_later">Saiakera gehiegi. Minutu bat edo bi itxaron eta berriro saiatu.</string>
     <string name="passport_get_login_type_next">Hurrengoa</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Egiaztatze-kode gehiegi bidali dira zenbaki honetara. 24 ordu itxaron eta berriro saiatu.</string>
     <string name="passport_google_login_btn_content_description">Saioa hasi Google bidez</string>
     <string name="passport_help">Laguntza</string>
     <string name="passport_i_know">Ulertuta</string>
     <string name="passport_identification_expired">Egiaztatze-kodea iraungi egin da. Hasi berriro.</string>
     <string name="passport_input_captcha_hint">Sartu kodea</string>
-    <string name="passport_input_email_address_notice">Posta elektroniko hau erabiliko dugu zure kontua egiaztatzeko</string>
     <string name="passport_input_password_hint">Sartu pasahitza</string>
     <string name="passport_input_phone_number_hint">Sartu telefono zenbakia</string>
     <string name="passport_input_verify_code">Egiaztapen-kodea sartu</string>
@@ -457,15 +467,15 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="passport_login_register_by_local_phone_long_text">Kontua sortu</string>
     <string name="passport_login_with_sns">Saioa hasteko beste modu batzuk</string>
     <string name="passport_logout_account">Saioa itxi</string>
-    <string name="passport_mi_account_first_title">Kontu bat sortuko dugu automatikoki, zure telefono-zenbakia lehen aldiz erabiltzen ari bazara.</string>
     <string name="passport_mi_account_title">Xiaomi Kontuarekin saioa hasi</string>
-    <string name="passport_network_error">Sare akats bat gertatu da. Egiaztatu zure sareko ezarpenak eta berriro saiatu.</string>
+    <string name="passport_network_error">Sare errore bat gertatu da. Egiaztatu zure sareko ezarpenak eta berriro saiatu.</string>
     <string name="passport_network_error_hint">URL-a egiaztatu eta berriro saiatu, edo URL-a kopiatu eta zure nabigatzailean ireki.</string>
     <string name="passport_network_timeout">Ezin izan da sarera konektatu, saiatu berriro.</string>
     <string name="passport_next">Hurrengoa</string>
     <string name="passport_no_account">Ez erregistratuta</string>
     <string name="passport_open_settings">Ezarpenak</string>
     <string name="passport_page_load_failed">Ezin da orrialdea ireki</string>
+    <string name="passport_password_hide_show">Ezkutatu pasahitza</string>
     <string name="passport_password_login_btn">Saioa hasi</string>
     <string name="passport_password_not_show">Pasahitza ez erakutsi</string>
     <string name="passport_password_show">Pasahitza erakutsi</string>
@@ -477,54 +487,53 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="passport_reging">Kontua sortzen…</string>
     <string name="passport_register_by_local_phone_long_text">Kontua sortu</string>
     <string name="passport_register_by_local_phone_short_text">Kontua sortu</string>
+    <string name="passport_register_dialog_positive">Sortu</string>
+    <string name="passport_register_dialog_title">Xiaomi Kontua sortu</string>
     <string name="passport_register_restricted">Zenbaki honekin kontu gehiegi lotu dira. Saiatu beste batekin.</string>
     <string name="passport_relogin_notice">Saioa berriro hasi behar duzu</string>
     <string name="passport_request_agree">Baimendu</string>
     <string name="passport_request_camera_permission_message">Zure informazio pertsonala lege eta erregulazio aipagarrien arabera babestuko dugu. Normalki funtzionatu ahal izateko, aplikazio honek honako baimen hauek behar ditu:&lt;br>&lt;br>&lt;b>Kamera erabili (profileko argazkia ezartzeko)&lt;/b>&lt;br>&lt;br>Ez baduzu onartzen baimen horiek ematea, ezin izango duzu aplikazio horren ezaugarri batzuk erabili; hala ere, oinarrizko funtzionaltasuna oraindik erabilgarri izango duzu. Ezarpenak atalean baimenak mugatzea edo kentzea beti aukera dezakezu.</string>
     <string name="passport_request_cancel">Bertan behera utzi</string>
     <string name="passport_request_error_invalid_token">Ezin izan da egiaztatu</string>
-    <string name="passport_request_error_network">Sare akats bat gertatu da. Egiaztatu zure sareko ezarpenak eta berriro saiatu.</string>
+    <string name="passport_request_error_network">Sare errore bat gertatu da. Egiaztatu zure sareko ezarpenak eta berriro saiatu.</string>
     <string name="passport_request_error_unknown">Sistemaren errore bat gertatu da. Egin atzera eta saiatu berriro.</string>
-    <string name="passport_request_gallery_permission_message">Eman baimena Galeria atzitzeko:&lt;br />profileko argazkiak konfiguratzeko</string>
-    <string name="passport_resend_email_reach_limit_message">Egiaztapen posta elektroniko gehiegi eskatu dituzu. Ziurtatu egiaztapen posta elektronikoa ez dagoela zure Spam sarrera-erretiluan.</string>
-    <string name="passport_resend_email_reach_limit_title">Saiakera gehiegi</string>
+    <string name="passport_request_gallery_permission_message">Aplikazio honek Galerian hautatutako elementuak atzitu behar ditu zure profileko argazkia ezartzeko. Baimena eman orain?</string>
+    <string name="passport_request_permission_title">Baimenak behar dira</string>
     <string name="passport_resend_ticket">Kodea berriro bidali</string>
     <string name="passport_retry">Berriro saiatu</string>
-    <string name="passport_same_new_and_old_pwd">Ezin da oraingo pasahitza bezalakoa izan</string>
     <string name="passport_send_sms_to">Kodea %1$s-ra bidali da</string>
     <string name="passport_send_too_many_code">Egiaztatze-kode gehiegi bidali dira zenbaki honetara. 24 ordu itxaron eta berriro saiatu.</string>
     <string name="passport_sending_vcode">Kodea bidaltzen…</string>
-    <string name="passport_service_error">Zerbitzariaren akatsa</string>
     <string name="passport_set_password_no_phone_msg">Gehitu zure telefono zenbakia kontua babesteko.</string>
     <string name="passport_skip_query_account">Saltatu</string>
-    <string name="passport_sns_access_token_expired_warning">Saioa iraungi da. Saioa berriro hasi kontu honekin berriz konektatzeko.</string>
     <string name="passport_sns_bind_limit">Saiakera gehiegi. Probatu saioa hasteko beste modu batzuk.</string>
     <string name="passport_system_error">Sistema lanpetuta dago. Itxaron minutu bat edo bi eta saiatu berriro.</string>
     <string name="passport_talkback_image_captcha">Irudi egiaztatze-kodea</string>
     <string name="passport_talkback_switch_image_captcha">Aldatu irudi egiaztatze-kodera</string>
     <string name="passport_talkback_switch_voice_captcha">Aldatu ahots egiaztatze-kodera</string>
     <string name="passport_talkback_voice_captcha">Erreproduzitu ahots egiaztatze-kodea</string>
+    <string name="passport_third_sns_service_unavailable">Zerbitzua ez dago erabilgarri. Ziurtatu aplikazioa instalatuta eta blokeatu gabe dagoela.</string>
     <string name="passport_ticket_send_by_second">Sakatu %d barru</string>
     <string name="passport_to_forget_password">Pasahitza ahaztuta?</string>
     <string name="passport_to_password_login">Hasi saioa pasahitzaren bitartez</string>
     <string name="passport_to_verify_code_login">Hasi saioa SMS bitartez</string>
     <string name="passport_unknown_error">Errore ezezaguna</string>
     <string name="passport_unknown_host_network_error">Egiaztatu zure sare konfigurazioa eta saiatu berriro</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>&lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta Xiaomi Kontuaren &lt;a href=%3$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%4$s>Pribatutasun politika&lt;/a> irakurri eta onartu ditut.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>&lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a>, Xiaomi Kontuaren &lt;a href=%3$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%4$s>Pribatutasun politika&lt;/a> eta &lt;a href=%5$s>China Mobile-ren egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>&lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a>, Xiaomi Kontuaren &lt;a href=%3$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%4$s>Pribatutasun politika&lt;/a> eta &lt;a href=%5$s>eSurfing kontuaren egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>&lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a>, Xiaomi Kontuaren &lt;a href=%3$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%4$s>Pribatutasun politika&lt;/a> eta &lt;a href=%5$s>China Unicom-en egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> irakurri eta onartu ditut.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>&lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta Xiaomi Kontuaren &lt;a href=%3$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%4$s>Pribatutasun politika&lt;/a> irakurri eta onartu ditut.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>&lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a>, Xiaomi Kontuaren &lt;a href=%3$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%4$s>Pribatutasun politika&lt;/a> eta &lt;a href=%5$s>China Mobile-ren egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>&lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a>, Xiaomi Kontuaren &lt;a href=%3$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%4$s>Pribatutasun politika&lt;/a> eta &lt;a href=%5$s>eSurfing kontuaren egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>&lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a>, Xiaomi Kontuaren &lt;a href=%3$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%4$s>Pribatutasun politika&lt;/a> eta &lt;a href=%5$s>China Unicom-en egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> irakurri eta onartu ditut.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Kontu bat sortuko dugu automatikoki, zure telefono-zenbakia lehen aldiz erabiltzen ari bazara.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta &lt;a href=%3$s>China Mobile-ren egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta &lt;a href=%3$s>eSurfing kontuaren egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta &lt;a href=%3$s>China Unicom-en egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta &lt;a href=%3$s>China Mobile-ren egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta &lt;a href=%3$s>eSurfing kontuaren egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta &lt;a href=%3$s>China Unicom-en egiaztapen-zerbitzuen Terminoak eta baldintzak&lt;/a> irakurri eta onartu ditut.</Data></string>
     <string name="passport_user_avatar_update_title">Aldatu profileko argazkia</string>
     <string name="passport_user_avatar_uploading">Segundo bat bakarrik…</string>
     <string name="passport_user_id_hint">Email/telefono zenbakia/Xiaomi Kontuaren IDa</string>
     <string name="passport_user_name_phone_number">Telefono zenbakia</string>
     <string name="passport_user_password_hint">Pasahitza</string>
-    <string name="passport_vcode_what_app_send_prompt">Zure WhatsApp egiaztapen-kodea zure berreskuratze-telefonora bidaliko da (&lt;font color=#1F93FF>%s&lt;/font>).</string>
+    <string name="passport_vcode_what_app_send_prompt">Zure WhatsApp egiaztapen-kodea zure berreskuratze telefonora bidaliko da (&lt;font color=#1F93FF>%s&lt;/font>).</string>
     <string name="passport_wechat_not_install">Instalatu WeChat lehenik</string>
     <string name="passport_weibo_login_btn_content_description">Saioa hasi Weibo bidez</string>
     <string name="passport_weixin_login_btn_content_description">Saioa hasi WeChat bidez</string>
@@ -537,6 +546,7 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="permission_bluetooth">Bluetooth konexioaren egoera atzitu</string>
     <string name="permission_bluetooth_dialog_description">Baimena eman gailu honi inguruko gailuetara konektatzeko gailuak aldatu ahal izateko grabazioak erreproduzitzen diren bitartean.</string>
     <string name="permission_bluetooth_title">Baimenak behar dira</string>
+    <string name="permission_camera_description">Grabatzen ari zaren bitartean argazkiak ateratzeko</string>
     <string name="permission_desc">Baimenaren xehetasunak</string>
     <string name="permission_dialog_cancel">Ezeztatu</string>
     <string name="permission_dialog_ok">Ezarpenak</string>
@@ -568,6 +578,10 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="preference_clear_data">Ezabatu datuak</string>
     <string name="preference_enable_earpiece_summary">Erreproduzitu audioa entzungailuaren bozgorailua erabiliz</string>
     <string name="preference_enable_earpiece_title">Entzungailu modua</string>
+    <string name="preference_group_title_for_ai_setting">AA funtzioak</string>
+    <string name="preference_group_title_for_normal_setting">Orokorra</string>
+    <string name="preference_key_ai_recognize">AA Ahots-Ezagutzea</string>
+    <string name="preference_key_intelligent_polishing">Leunketa adimenduna</string>
     <string name="preference_led_indicator">Blokeatutako pantailaren jakinarazpenak</string>
     <string name="preference_led_indicator_prompt">Grabatzen duzun bitartean, adierazle urdin bat erakusten da Blokeatutako pantailan eta LED argiak dardara egiten du</string>
     <string name="preference_record_desktop_indicator_summary">Grabatzen duzun bitartean, adierazle urdin bat erakusten da Hasierako pantailan</string>
@@ -586,6 +600,7 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="progress">Erreprodukzioaren aurrerapen-barra</string>
     <string name="progress_dialog_message">Deskargatzen…</string>
     <string name="radio_tips">Grabagailuak audio transkripzioa, audio laburpenak eta gehiago eskeintzen ditu. Aplikazio honek internetera konektatu behar du zerbitzu hauek eskeintzeko.</string>
+    <string name="re_asr_error_tip">Ezin izan da transkribatu. Saiatu berriro.</string>
     <string name="recent_delete">Duela gutxi ezabatuta</string>
     <string name="recent_delete_delete_all">Behin betirako ezabatu elementu guztiak orain?</string>
     <string name="recognition_button_add_to_queue">Gehitu ilaran</string>
@@ -615,6 +630,7 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="recognition_process_dialog_title">Uneko atazak</string>
     <string name="recognition_stop_current">Gelditu uneko ataza</string>
     <string name="recognize_complete_toast">Transkribatzea burutu da</string>
+    <string name="recognize_data_loading">Segundo bat bakarrik…</string>
     <string name="recognize_tip_part_one">"Ez da transkribatzen bukatu. "</string>
     <string name="recognize_tip_part_two">Saiatu berriz</string>
     <string name="recognizing_not_rename">Ezin da berrizendatu grabatzen den bitartean</string>
@@ -730,6 +746,7 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Ezarpenak</string>
     <string name="speaker">"Bozgorailua "</string>
+    <string name="state_wait_recognize_tip">Uneko transkripzioa lehenik amaitzen…</string>
     <string name="status_bar_back">Ukitu grabagailura itzultzeko</string>
     <string name="status_bar_recording">Grabaketa…</string>
     <string name="status_bar_recording_pause">Grabagailua geldialdian</string>
@@ -761,6 +778,7 @@ Sakatu \"%1$s\", eta gero aukeratu \"%2$s\"."</string>
     <string name="talkback_traslation_ai_recognize">Testu-kaxa ezkutatu</string>
     <string name="talkback_traslation_close">Itzultzeari utzi</string>
     <string name="text_btn_backward_3_seconds">%d segundo atzera</string>
+    <string name="text_btn_camera">Argazkia atera</string>
     <string name="text_btn_complete">Gelditu</string>
     <string name="text_btn_forward_3_seconds">%d segundo aurrera</string>
     <string name="text_btn_mark">Markatu</string>
@@ -833,8 +851,11 @@ Une honetan etenda. Analisia berrekin egingo da zure gailua erabiltzen ari ez za
     <string name="tips_for_build_database">Zure gailua kargagailura konektatuta mantendu. Grabaketa hau azkarrago analizatuko du pantaila itzalita dagoenean.</string>
     <string name="toast_enter_silent_mode">Grabatzen. Isiltasun modua aktibatuta dago.</string>
     <string name="toast_exit_silent_mode">Grabatzen bukatu da. Isiltasun modua desaktibatuta dago.</string>
+    <string name="toast_for_no_asr_long_time">Ez da hizketarik detektatu. AA Ahots-Ezagutzea gelditu da.</string>
+    <string name="toast_for_pause_record_long_time">Grabaketa pausatu da. AA Ahots-Ezagutzea gelditu da.</string>
     <string name="toast_max_record_time">%1$s -ek %2$s denboraz grabatu dezake</string>
     <string name="toast_stop">Grabaketa bukatuta</string>
+    <string name="toast_title_stop_ai_recognize">AA Ahots-Ezagutzea geldituta</string>
     <string name="toast_uninstall_fileexplorer">Fitxategi Kudeatzailea ez dago instalatuta</string>
     <string name="today">Gaur</string>
     <string name="tomorrow">Bihar</string>

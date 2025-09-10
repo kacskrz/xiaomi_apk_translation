@@ -34,9 +34,13 @@
     <string name="action_notes">บันทึกไปยังบันทึกย่อ</string>
     <string name="action_retry">ลองอีกครั้ง</string>
     <string name="actionbar_button_up_description">ย้อนกลับ</string>
+    <string name="add_mark">ทำเครื่องหมาย</string>
     <string name="afternoon">บ่าย</string>
     <string name="agree_description">อนุญาตให้แอปนี้เชื่อมต่ออินเทอร์เน็ตเพื่อให้สามารถใช้คุณสมบัติทั้งหมดได้</string>
     <string name="ai_recognition_other_speaker">(คนอื่นพูด)</string>
+    <string name="ai_recognize_fail">ไม่สามารถถอดความได้</string>
+    <string name="ai_recognize_fail_tip">ไม่สามารถสรุปได้ ลองอีกครั้ง</string>
+    <string name="ai_recognize_preference_summary">ถอดเสียงอัตโนมัติเมื่อบันทึก</string>
     <string name="ai_summary">สรุปด้วย AI</string>
     <string name="ai_watermark">เนื้อหานี้สร้างขึ้นโดย AI และจัดทำขึ้นเพื่อใช้อ้างอิงเท่านั้น</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">ไม่สามารถบันทึกได้ในขณะที่กำลังใช้งานไมโครโฟน</string>
@@ -65,13 +69,16 @@
     <string name="app_name">บันทึกเสียง</string>
     <string name="app_record">บันทึกแอป</string>
     <string name="app_record_preference_title">ตัวบันทึกการโทร</string>
+    <string name="asr_in_progress">การถอดความและการสรุป %s</string>
+    <string name="asr_in_progress_with_polish">การขัดเกลาและการสรุป %s</string>
+    <string name="asr_progress">การถอดเสียง %s</string>
     <string name="back">ย้อนกลับ</string>
     <string name="back_playback_position">กลับสู่ตำแหน่งปัจจุบัน</string>
-    <string name="bottomsheet_action_collapse">ยุบแผ่นด้านล่าง</string>
-    <string name="bottomsheet_action_expand">ขยายแผ่นด้านล่าง</string>
-    <string name="bottomsheet_action_expand_halfway">ขยายครึ่งทาง</string>
-    <string name="bottomsheet_drag_handle_clicked">แตะสองครั้งที่จับลาก</string>
-    <string name="bottomsheet_drag_handle_content_description">ลากที่จับ</string>
+    <string name="bottomsheet_action_collapse">ยุบ Bottom Sheet</string>
+    <string name="bottomsheet_action_expand">ขยาย Bottom Sheet</string>
+    <string name="bottomsheet_action_expand_halfway">ขยายรายการครึ่งหนึ่ง</string>
+    <string name="bottomsheet_drag_handle_clicked">แตะแฮนเดิลการลากสองครั้ง</string>
+    <string name="bottomsheet_drag_handle_content_description">แฮนเดิลการลาก</string>
     <string name="btn_continue_record_description">บันทึกต่อ</string>
     <string name="button_queue_for_wifi">คอย</string>
     <string name="button_start_now">ดาวน์โหลด</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">ว่างเปล่า</string>
     <string name="eras_ad">หลังคริสตกาล</string>
     <string name="eras_bc">ก่อนคริสตกาล</string>
+    <string name="error_a11y_label">ข้อผิดพลาด: ไม่ถูกต้อง</string>
     <string name="error_app_internal">ตรวจสอบว่าแอปใดกำลังใช้งานการบันทึกเสียงอยู่หรือไม่</string>
     <string name="error_app_internal_title">ข้อผิดพลาดของเครื่องบันทึกเสียง</string>
     <string name="error_file_access">ไม่พบไฟล์ดังกล่าวหรือไฟล์เสียหาย</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">ใช้ไมค์ภายใน</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/ชม.</string>
     <string name="icon_content_description">ไอคอนกล่องโต้ตอบ</string>
+    <string name="intelligent_polishing_preference_summary">ลบความซ้ำซ้อนและทำให้รูปแบบมาตรฐานสำหรับภาษาจีน</string>
     <string name="invisible_mode_dialog_message">ไม่สามารถใช้ไมโครโฟนเมื่อคุณอยู่ในโหมดไม่ระบุตัวตน ปิดโหมดไม่ระบุตัวตนก่อน</string>
     <string name="invisible_mode_dialog_negative">ยกเลิก</string>
     <string name="invisible_mode_dialog_positive">ปิดใช้งาน</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">เข้าถึงไฟล์ทั้งหมด</string>
     <string name="mark_add_toast">เพิ่มเรียบร้อย</string>
     <string name="material_clock_toggle_content_description">เลือก AM หรือ PM</string>
+    <string name="material_hour_24h_suffix">%1$s ชั่วโมง</string>
     <string name="material_hour_selection">เลือกชั่วโมง</string>
     <string name="material_hour_suffix">%1$s นาฬิกา</string>
     <string name="material_minute_selection">เลือกนาที</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">จุดสำคัญ</string>
     <string name="morning">เช้า</string>
     <string name="mtrl_badge_numberless_content_description">การแจ้งเตือนใหม่</string>
+    <string name="mtrl_checkbox_state_description_checked">เลือกไว้</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">เลือกบางส่วน</string>
+    <string name="mtrl_checkbox_state_description_unchecked">ไม่ได้เลือก</string>
     <string name="mtrl_chip_close_icon_content_description">นำ %1$s ออก</string>
     <string name="mtrl_exceed_max_badge_number_content_description">การแจ้งเตือนใหม่มากกว่า %1$d รายการ</string>
     <string name="mtrl_picker_a11y_next_month">เปลี่ยนไปที่เดือนถัดไป</string>
     <string name="mtrl_picker_a11y_prev_month">เปลี่ยนไปที่เดือนก่อนหน้า</string>
+    <string name="mtrl_picker_announce_current_range_selection">การเลือกวันที่เริ่มต้น: %1$s – การเลือกวันที่สิ้นสุด: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">การเลือกในปัจจุบัน: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">ไม่มี</string>
+    <string name="mtrl_picker_cancel">ยกเลิก</string>
+    <string name="mtrl_picker_confirm">ตกลง</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">เลือกวันที่</string>
     <string name="mtrl_picker_date_header_unselected">วันที่ที่เลือก</string>
-    <string name="mtrl_picker_day_of_week_column_header">คอลัมน์ของวัน: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">วันที่สิ้นสุด %1$s</string>
     <string name="mtrl_picker_invalid_format">รูปแบบไม่ถูกต้อง</string>
     <string name="mtrl_picker_invalid_format_example">ตัวอย่าง: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">ใช้: %1$s</string>
     <string name="mtrl_picker_invalid_range">ช่วงไม่ถูกต้อง</string>
-    <string name="mtrl_picker_navigate_to_year_description">ไปที่ปี %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">ไปยังปีปัจจุบัน %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">ไปที่ปี %1$d</string>
     <string name="mtrl_picker_out_of_range">วันที่ไม่อยู่ในช่วงที่อนุญาต: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">วันที่เริ่มต้น – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – วันที่สิ้นสุด</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">เลือกช่วง</string>
     <string name="mtrl_picker_range_header_unselected">วันที่เริ่มต้น – วันที่สิ้นสุด</string>
     <string name="mtrl_picker_save">บันทึก</string>
+    <string name="mtrl_picker_start_date_description">วันที่เริ่มต้น %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">วันที่</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">วันที่สิ้นสุด</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">วันที่เริ่มต้น</string>
     <string name="mtrl_picker_text_input_day_abbr">ว</string>
     <string name="mtrl_picker_text_input_month_abbr">ด</string>
     <string name="mtrl_picker_text_input_year_abbr">ป</string>
+    <string name="mtrl_picker_today_description">วันนี้ %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">สลับไปใช้โหมดป้อนข้อมูลปฏิทิน</string>
-    <string name="mtrl_picker_toggle_to_day_selection">แตะเพื่อสลับไปใช้การเลือกวัน</string>
+    <string name="mtrl_picker_toggle_to_day_selection">แตะเพื่อเปลี่ยนเป็นมุมมองปฏิทิน</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">สลับไปใช้โหมดป้อนข้อมูลข้อความ</string>
-    <string name="mtrl_picker_toggle_to_year_selection">แตะเพื่อสลับไปใช้การเลือกปี</string>
+    <string name="mtrl_picker_toggle_to_year_selection">แตะเพื่อเปลี่ยนเป็นมุมมองปี</string>
+    <string name="mtrl_timepicker_cancel">ยกเลิก</string>
+    <string name="mtrl_timepicker_confirm">ตกลง</string>
     <string name="network_tip_dialog_cancel">ไม่เห็นด้วย</string>
     <string name="network_tip_dialog_content">ตัวบันทึกจำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ตเพื่อให้ทำงานได้ปกติ ยอมรับไหม?</string>
     <string name="network_tip_dialog_ok">ยอมรับ</string>
@@ -439,7 +461,10 @@
     <string name="noon">เที่ยงวัน</string>
     <string name="not_allowed">ไม่ได้รับการยินยอม</string>
     <string name="not_set">ไม่ได้ตั้งค่า</string>
+    <string name="notice_btn_stop_ai_recognize">ปิดใช้งาน</string>
+    <string name="notice_content_no_asr_long_time">ไม่ตรวจพบคำพูดใดๆ เป็นเวลานานแล้ว</string>
     <string name="notice_for_ai_search_tips">รายละเอียด</string>
+    <string name="notice_title_is_need_stop_ai_recognize">ปิดใช้งาน การจดจำเสียงพูด AI หรือไม่?</string>
     <string name="notification_message_all_paused">กำลังรอการเชื่อมต่อกับ Wi-Fi</string>
     <string name="notification_pause_playback">การเล่นหยุดชั่วคราว</string>
     <string name="notification_playback">กำลังเล่น…</string>
@@ -447,11 +472,16 @@
     <string name="notification_recording_ticker">ปิดเสียงไมค์</string>
     <string name="notification_save_as_complete">บันทึกเรียบร้อยแล้ว</string>
     <string name="notification_stopped">หยุดการบันทึกแล้ว</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">การถอดเสียงเสร็จสิ้น</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">ไม่สามารถสรุปได้</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">การสรุปเสร็จสิ้น</string>
     <string name="notification_title_all_paused">การดาวน์โหลดถูกพักไว้</string>
+    <string name="nrt_asr_complete">ถอดเสียงเสร็จแล้ว แตะเพื่อรีเฟรช</string>
     <string name="offline_recognize_transfer_format">กำลังคัดสำเนา…</string>
     <string name="online_recognize_progress">กำลังคัดสำเนา %s…</string>
     <string name="open_voice_enhancement">ปรับคุณภาพวีดีโอ</string>
     <string name="opened_voice_enhancement">เพิ่มเสียงร้องเปิดอยู่</string>
+    <string name="pasport_register_dialog_message">สร้างบัญชี Xiaomi ด้วยหมายเลขโทรศัพท์ %s ของคุณเลยตอนนี้?</string>
     <string name="passport_access_denied">ปฏิเสธการเข้าถึง</string>
     <string name="passport_account_crop_user_avatar">ตัดกรอบภาพ</string>
     <string name="passport_account_empty_user_name">ป้อนชื่อของคุณ</string>
@@ -468,7 +498,7 @@
     <string name="passport_account_secure_info_pref_title">ข้อมูลบัญชี</string>
     <string name="passport_account_security_info_pref_title">ข้อมูลความปลอดภัย</string>
     <string name="passport_account_user_avatar">รูปโปรไฟล์</string>
-    <string name="passport_account_user_avatar_from_album">คลังภาพ</string>
+    <string name="passport_account_user_avatar_from_album">เลือกจากคลังภาพ</string>
     <string name="passport_account_user_avatar_from_camera">กล้อง</string>
     <string name="passport_account_user_base_info">ข้อมูลพื้นฐาน</string>
     <string name="passport_account_user_details">ข้อมูลส่วนบุคคล</string>
@@ -479,10 +509,9 @@
     <string name="passport_account_user_name_dialog_title">ป้อนชื่อ</string>
     <string name="passport_account_user_phone">โทรศัพท์ที่ใช้กู้คืนบัญชี</string>
     <string name="passport_activity_not_found_notice">ไม่พบแอป</string>
-    <string name="passport_agree">ตกลง</string>
+    <string name="passport_agree">ยอมรับ</string>
     <string name="passport_area_code_title">รหัสพื้นที่</string>
     <string name="passport_attention">โปรดทราบ</string>
-    <string name="passport_auth_fail_warning">เซสชั่นหมดอายุ ลงชื่อเข้าใช้อีกครั้ง</string>
     <string name="passport_back">ย้อนกลับ</string>
     <string name="passport_bad_authentication">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
     <string name="passport_can_not_recevie_verify_code">ไม่ได้รับรหัส?</string>
@@ -504,11 +533,9 @@
     <string name="passport_doing_query_account">กำลังตรวจสอบข้อมูลบัญชี…</string>
     <string name="passport_error_auth_fail">เซสชันหมดอายุ เข้าสู่ระบบอีกครั้ง</string>
     <string name="passport_error_device_id">ไม่พบรหัสประจำตัวเครื่อง</string>
-    <string name="passport_error_dup_binded_email">ที่อยู่อีเมลนี้ได้ถูกผูกไว้กับบัญชี Xiaomi อื่นอยู่ก่อนแล้ว</string>
     <string name="passport_error_empty_password">ป้อนรหัสผ่านของคุณ</string>
     <string name="passport_error_empty_pwd">รหัสผ่านไม่สามารถเว้นว่างได้</string>
     <string name="passport_error_empty_user_id">ป้อนชื่อผู้ใช้ของคุณ</string>
-    <string name="passport_error_invalid_bind_address">ที่อยู่อีเมล์ที่คุณป้อนไม่ถูกต้อง</string>
     <string name="passport_error_length_limit">ข้อความที่คุณป้อนยาวเกินไป</string>
     <string name="passport_error_network">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
     <string name="passport_error_no_password_user">คุณยังไม่ได้ตั้งรหัสผ่าน ลงชื่อเข้าใช้ด้วย SMS</string>
@@ -524,17 +551,14 @@
     <string name="passport_error_unknown">ข้อผิดพลาดไม่รู้จัก</string>
     <string name="passport_error_user_name">ชื่อผู้ใช้ที่คุณป้อนไม่ถูกต้อง</string>
     <string name="passport_error_user_password">รหัสผ่านไม่ตรงกัน</string>
-    <string name="passport_exceed_binded_phone_times_notice">หมายเลขโทรศัพท์นี้ได้ถูกผูกไว้กับบัญชี Xiaomi อื่นอยู่ก่อนแล้ว</string>
     <string name="passport_facebook_login_btn_content_description">ลงชื่อเข้าใช้ด้วย Facebook</string>
     <string name="passport_frequency_try_later">มีความพยายามมากเกินไป รอสักครู่แล้วลองอีกครั้ง</string>
     <string name="passport_get_login_type_next">ถัดไป</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">มีการส่งรหัสยืนยันไปยังหมายเลขโทรศัพท์นี้เกินจำนวนครั้งที่กำหนด กรุณารอ 24 ชั่วโมงแล้วลองอีกครั้ง</string>
     <string name="passport_google_login_btn_content_description">ลงชื่อเข้าใช้ด้วย Google</string>
     <string name="passport_help">ช่วยเหลือ</string>
     <string name="passport_i_know">รับทราบ</string>
     <string name="passport_identification_expired">รหัสยืนยันหมดอายุ เริ่มต้นใหม่</string>
     <string name="passport_input_captcha_hint">ป้อนรหัส</string>
-    <string name="passport_input_email_address_notice">ระบบจะใช้อีเมลนี้ในการยืนยันบัญชีของคุณ</string>
     <string name="passport_input_password_hint">ป้อนรหัสผ่าน</string>
     <string name="passport_input_phone_number_hint">ใส่หมายเลขโทรศัพท์</string>
     <string name="passport_input_verify_code">ป้อนรหัสยืนยัน</string>
@@ -546,7 +570,6 @@
     <string name="passport_login_register_by_local_phone_long_text">สร้างบัญชี</string>
     <string name="passport_login_with_sns">ลงชื่อเข้าใช้ด้วยวิธีอื่น</string>
     <string name="passport_logout_account">ออกจากระบบ</string>
-    <string name="passport_mi_account_first_title">เราจะสร้างบัญชีโดยอัตโนมัติหากคุณใช้หมายเลขโทรศัพท์ของคุณเป็นครั้งแรก</string>
     <string name="passport_mi_account_title">ลงชื่อเข้าใช้ด้วยบัญชี Xiaomi</string>
     <string name="passport_network_error">เครือข่ายเกิดข้อผิดพลาด ตรวจสอบการตั้งค่าเครือข่ายของคุณแล้วลองอีกครั้ง</string>
     <string name="passport_network_error_hint">ตรวจสอบ URL แล้วลองอีกครั้ง หรือคัดลอก URL แล้วเปิดในเบราว์เซอร์ของคุณ</string>
@@ -555,6 +578,7 @@
     <string name="passport_no_account">ไม่ได้ลงชื่อเข้าใช้</string>
     <string name="passport_open_settings">การตั้งค่า</string>
     <string name="passport_page_load_failed">ไม่สามารถเปิดหน้าเพจได้</string>
+    <string name="passport_password_hide_show">ซ่อนรหัสผ่าน</string>
     <string name="passport_password_login_btn">ลงชื่อเข้าใช้</string>
     <string name="passport_password_not_show">ไม่แสดงรหัสผ่าน</string>
     <string name="passport_password_show">แสดงรหัสผ่าน</string>
@@ -566,6 +590,8 @@
     <string name="passport_reging">กำลังสร้างบัญชีผู้ใช้…</string>
     <string name="passport_register_by_local_phone_long_text">สร้างบัญชี</string>
     <string name="passport_register_by_local_phone_short_text">สร้างบัญชี</string>
+    <string name="passport_register_dialog_positive">สร้าง</string>
+    <string name="passport_register_dialog_title">สร้างบัญชี Xiaomi</string>
     <string name="passport_register_restricted">เลขหมายนี้ได้ถูกผูกไว้กับหลายบัญชี กรุณาลองใช้เลขหมายอื่น.</string>
     <string name="passport_relogin_notice">กรุณาลงชื่อเข้าสู่ระบบอีกครั้ง</string>
     <string name="passport_request_agree">อนุญาต</string>
@@ -574,40 +600,37 @@
     <string name="passport_request_error_invalid_token">ไม่สามารถยืนยันได้</string>
     <string name="passport_request_error_network">เครือข่ายเกิดข้อผิดพลาด ตรวจสอบการตั้งค่าเครือข่ายของคุณแล้วลองอีกครั้ง</string>
     <string name="passport_request_error_unknown">เกิดข้อผิดพลาดของระบบ ย้อนกลับแล้วลองอีกครั้ง</string>
-    <string name="passport_request_gallery_permission_message">อนุญาตให้เข้าถึงคลังภาพ:&lt;br />สำหรับการตั้งค่ารูปโปรไฟล์</string>
-    <string name="passport_resend_email_reach_limit_message">คุณได้ร้องขอให้ส่งอีเมลเกินจำนวนครั้งที่กำหนด ตรวจสอบดูให้แน่ใจว่าอีเมลที่จะใช้ยืนยันตัวตนไม่ถูกจัดเก็บไว้ในกล่องข้อความขยะ</string>
-    <string name="passport_resend_email_reach_limit_title">เกินจำนวนครั้งที่กำหนดแล้ว</string>
+    <string name="passport_request_gallery_permission_message">แอปนี้ต้องเข้าถึงรายการคลังภาพที่เลือกเพื่อให้สามารถตั้งค่ารูปโปรไฟล์ของคุณได้ อนุญาตตอนนี้เลย?</string>
+    <string name="passport_request_permission_title">จำเป็นต้องขออนุญาต</string>
     <string name="passport_resend_ticket">ส่งรหัสอีกครั้ง</string>
     <string name="passport_retry">ลองอีกครั้ง</string>
-    <string name="passport_same_new_and_old_pwd">รหัสผ่านจะต้องไม่ซ้ำกันกับรหัสผ่านที่ใช้อยู่ในปัจจุบัน</string>
     <string name="passport_send_sms_to">รหัสถูกส่งไปที่ %1$s</string>
     <string name="passport_send_too_many_code">มีการส่งรหัสยืนยันไปยังหมายเลขโทรศัพท์นี้เกินจำนวนครั้งที่กำหนด กรุณารอ 24 ชั่วโมงแล้วลองอีกครั้ง</string>
     <string name="passport_sending_vcode">กำลังส่งรหัส…</string>
-    <string name="passport_service_error">ข้อผิดพลาดเซิร์ฟเวอร์</string>
     <string name="passport_set_password_no_phone_msg">เพิ่มหมายเลขโทรศัพท์ของคุณเพื่อปกป้องบัญชีของคุณ</string>
     <string name="passport_skip_query_account">ข้าม</string>
-    <string name="passport_sns_access_token_expired_warning">เซสชันสิ้นสุดลง กรุณาลงชื่อเข้าสู่ระบบอีกครั้งเพื่อเข้าสู่บัญชีนี้</string>
     <string name="passport_sns_bind_limit">มีความพยายามมากเกินไป ลองวิธีอื่นๆ ในการลงชื่อเข้าใช้</string>
     <string name="passport_system_error">ระบบไม่ว่าง รอสักครู่แล้วลองอีกครั้ง</string>
     <string name="passport_talkback_image_captcha">รหัสยืนยันรูปภาพ</string>
     <string name="passport_talkback_switch_image_captcha">สลับเป็นรหัสยืนยันรูปภาพ</string>
     <string name="passport_talkback_switch_voice_captcha">สลับเป็นรหัสยืนยันเสียง</string>
     <string name="passport_talkback_voice_captcha">เปิดรหัสยืนยันเสียง</string>
+    <string name="passport_third_sns_service_unavailable">บริการนี้ใช้งานไม่ได้ โปรดตรวจสอบว่ามีการติดตั้งแอปและไม่ได้ถูกบล็อก</string>
     <string name="passport_ticket_send_by_second">ส่งใน %d</string>
     <string name="passport_to_forget_password">ลืมรหัสผ่าน?</string>
     <string name="passport_to_password_login">ลงชื่อเข้าใช้โดยใช้รหัสผ่าน</string>
     <string name="passport_to_verify_code_login">ลงชื่อเข้าใช้โดยข้อความ SMS</string>
     <string name="passport_unknown_error">ข้อผิดพลาดไม่รู้จัก</string>
     <string name="passport_unknown_host_network_error">ตรวจสอบการตั้งค่าเครือข่ายของคุณแล้วลองใหม่อีกครั้ง</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>ฉันได้อ่านและยอมรับ &lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> และ &lt;a href=%3$s>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=%4$s>นโยบายความเป็นส่วนตัว&lt;/a>ของบัญชี Xiaomi&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a>, &lt;a href=%3$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%4$s>นโยบายความเป็นส่วนตัว&lt;/a>ของบัญชี Xiaomi รวมถึง &lt;a href=%5$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ China Mobile&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a>, &lt;a href=%3$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%4$s>นโยบายความเป็นส่วนตัว&lt;/a>ของบัญชี Xiaomi รวมถึง &lt;a href=%5$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ บัญชี eSurfing&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a>, &lt;a href=%3$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%4$s>นโยบายความเป็นส่วนตัว&lt;/a>ของบัญชี Xiaomi รวมถึง &lt;a href=%5$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ China Unicom&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a>ของ บัญชี Xiaomi แล้ว&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>ฉันได้อ่านและยอมรับ &lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> และ &lt;a href=%3$s>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=%4$s>นโยบายความเป็นส่วนตัว&lt;/a>ของบัญชี Xiaomi</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a>, &lt;a href=%3$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%4$s>นโยบายความเป็นส่วนตัว&lt;/a>ของบัญชี Xiaomi รวมถึง &lt;a href=%5$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ China Mobile&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a>, &lt;a href=%3$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%4$s>นโยบายความเป็นส่วนตัว&lt;/a>ของบัญชี Xiaomi รวมถึง &lt;a href=%5$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ บัญชี eSurfing&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a>, &lt;a href=%3$s>ข้อตกลงการใช้งาน&lt;/a>และ&lt;a href=%4$s>นโยบายความเป็นส่วนตัว&lt;/a>ของบัญชี Xiaomi รวมถึง &lt;a href=%5$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ China Unicom&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a>ของ บัญชี Xiaomi แล้ว</Data></string>
     <string name="passport_user_agreement_hint_first_login">เราจะสร้างบัญชีโดยอัตโนมัติหากคุณใช้หมายเลขโทรศัพท์ของคุณเป็นครั้งแรก</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> ของบัญชี Xiaomi เช่นเดียวกับ&lt;a href=%3$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ China Mobile&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> ของบัญชี Xiaomi เช่นเดียวกับ&lt;a href=%3$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ บัญชี eSurfing&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> ของบัญชี Xiaomi เช่นเดียวกับ&lt;a href=%3$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ China Unicom&lt;/a>&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> ของบัญชี Xiaomi เช่นเดียวกับ&lt;a href=%3$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ China Mobile&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> ของบัญชี Xiaomi เช่นเดียวกับ&lt;a href=%3$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ บัญชี eSurfing&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>ฉันได้อ่านและยอมรับ&lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a>และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> ของบัญชี Xiaomi เช่นเดียวกับ&lt;a href=%3$s>ข้อกำหนดและเงื่อนไขของบริการตรวจสอบความถูกต้องของ China Unicom&lt;/a></Data></string>
     <string name="passport_user_avatar_update_title">เปลี่ยนรูปโปรไฟล์</string>
     <string name="passport_user_avatar_uploading">รอสักครู่…</string>
     <string name="passport_user_id_hint">อีเมล/หมายเลขโทรศัพท์/รหัสบัญชี Xiaomi</string>
@@ -627,6 +650,7 @@
     <string name="permission_bluetooth">เข้าถึงสถานะการเชื่อมต่อบลูทูธ</string>
     <string name="permission_bluetooth_dialog_description">อนุญาตให้อุปกรณ์นี้เชื่อมต่อกับอุปกรณ์ใกล้เคียงเพื่อให้สามารถสลับอุปกรณ์เมื่อเล่นการบันทึก</string>
     <string name="permission_bluetooth_title">ต้องการการอนุญาต</string>
+    <string name="permission_camera_description">สำหรับถ่ายภาพขณะบันทึก</string>
     <string name="permission_desc">รายละเอียดการอนุญาต</string>
     <string name="permission_dialog_cancel">ยกเลิก</string>
     <string name="permission_dialog_ok">การตั้งค่า</string>
@@ -659,6 +683,10 @@
     <string name="preference_copied">คัดลอก \"%1$s\" ไปยังคลิปบอร์ดแล้ว</string>
     <string name="preference_enable_earpiece_summary">เล่นเสียงโดยใช้ลำโพงหูฟังโทรศัพท์</string>
     <string name="preference_enable_earpiece_title">โหมดหูฟังโทรศัพท์</string>
+    <string name="preference_group_title_for_ai_setting">คุณสมบัติ AI</string>
+    <string name="preference_group_title_for_normal_setting">ทั่วไป</string>
+    <string name="preference_key_ai_recognize">การจดจำเสียงพูด AI</string>
+    <string name="preference_key_intelligent_polishing">การขัดเงาอัจฉริยะ</string>
     <string name="preference_led_indicator">การแจ้งเตือนบนหน้าจอล็อก</string>
     <string name="preference_led_indicator_prompt">แสดงตัวแสดงสถานะสีน้ำเงินบนหน้าจอล็อคและไฟแฟลช LED ขณะบันทึก</string>
     <string name="preference_record_desktop_indicator_summary">แสดงตัวแสดงสถานะสีน้ำเงินบนหน้าจอหลักขณะบันทึก</string>
@@ -677,6 +705,7 @@
     <string name="progress">แถบความคืบหน้าการเล่น</string>
     <string name="progress_dialog_message">กำลังดาวน์โหลด…</string>
     <string name="radio_tips">เครื่องบันทึกเสียงให้บริการถอดเสียง สรุปเสียง และอื่นๆ อีกมากมาย แอปนี้ต้องเชื่อมต่อกับอินเทอร์เน็ตเพื่อให้บริการเหล่านี้</string>
+    <string name="re_asr_error_tip">ไม่สามารถถอดเสียงได้ โปรดลองอีกครั้ง</string>
     <string name="recent_delete">ลบออกจากรายการล่าสุดแล้ว</string>
     <string name="recent_delete_delete_all">ลบรายการทั้งหมดอย่างถาวรตอนนี้ใช่ไหม?</string>
     <string name="recognition_button_add_to_queue">เพิ่มลงในคิว</string>
@@ -706,6 +735,7 @@
     <string name="recognition_process_dialog_title">งานที่กำลังดำเนินอยู่</string>
     <string name="recognition_stop_current">หยุดงานที่กำลังดำเนินอยู่</string>
     <string name="recognize_complete_toast">การถอดเสียงเป็นคำเสร็จสมบูรณ์</string>
+    <string name="recognize_data_loading">รอสักครู่…</string>
     <string name="recognize_tip_part_one">"ถอดเสียงไม่เสร็จ "</string>
     <string name="recognize_tip_part_two">ลองอีกครั้ง</string>
     <string name="recognizing_not_rename">ไม่สามารถเปลี่ยนชื่อขณะบันทึกได้</string>
@@ -787,6 +817,8 @@
     <string name="search_scenes">ประเภทไฟล์บันทึก</string>
     <string name="search_silent_mode">ปิดเสียงเตือนสายเรียกเข้าขณะบันทึกเสียง</string>
     <string name="search_tip_rename">ตั้งชื่อไฟล์บันทึกเสียงด้วยตนเอง</string>
+    <string name="searchview_clear_text_content_description">ล้างข้อความ</string>
+    <string name="searchview_navigation_content_description">กลับ</string>
     <string name="send">ส่ง</string>
     <string name="settings_ai_record_abstract">สรุป</string>
     <string name="settings_ai_record_abstract_description">สรุปหัวเรื่องและเนื้อหาของการบันทึกและบันทึกสรุปลงในบันทึก</string>
@@ -813,6 +845,7 @@
     <string name="shortcut_stop_record">หยุดการบันทึก</string>
     <string name="show_text">แสดงข้อความ</string>
     <string name="show_wave">แสดงพิมพ์เสียง</string>
+    <string name="side_sheet_accessibility_pane_title">ชีตด้านข้าง</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">การตั้งค่า</string>
     <string name="speaker">"ผู้พูด "</string>
+    <string name="state_wait_recognize_tip">กำลังถอดเสียงปัจจุบันให้เสร็จสิ้นก่อน…</string>
     <string name="status_bar_back">แตะเพื่อกลับไปยังตัวบันทึกเสียง</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">กำลังบันทึก…</string>
@@ -855,6 +889,7 @@
     <string name="talkback_traslation_ai_recognize">ซ่อนกล่องข้อความ</string>
     <string name="talkback_traslation_close">หยุดการแปล</string>
     <string name="text_btn_backward_3_seconds">%d วินาทีย้อนหลัง</string>
+    <string name="text_btn_camera">ถ่ายรูป</string>
     <string name="text_btn_complete">หยุด</string>
     <string name="text_btn_forward_3_seconds">%d วินาทีข้างหน้า</string>
     <string name="text_btn_mark">ทำเครื่องหมาย</string>
@@ -927,8 +962,11 @@
     <string name="tips_for_build_database">เชื่อมต่ออุปกรณ์ของคุณกับเครื่องชาร์จ อุปกรณ์จะวิเคราะห์การบันทึกนี้ได้เร็วขึ้นเมื่อหน้าจอปิดอยู่</string>
     <string name="toast_enter_silent_mode">กำลังบันทึก โหมดเงียบเปิดอยู่</string>
     <string name="toast_exit_silent_mode">เสร็จสิ้นการบันทึก โหมดเงียบปิดอยู่</string>
+    <string name="toast_for_no_asr_long_time">ไม่พบเสียงพูด ระบบจดจำเสียงพูด AI หยุดทำงานแล้ว</string>
+    <string name="toast_for_pause_record_long_time">การบันทึกหยุดชั่วคราว ระบบจดจำเสียงพูด AI หยุดแล้ว</string>
     <string name="toast_max_record_time">%1$s สามารถบันทึกเสียงได้ประมาณ %2$s</string>
     <string name="toast_stop">การบันทึกเสร็จสิ้น</string>
+    <string name="toast_title_stop_ai_recognize">หยุดการจดจำเสียงพูด AI แล้ว</string>
     <string name="toast_uninstall_fileexplorer">ไม่ได้ติดตั้งตัวจัดการไฟล์</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>

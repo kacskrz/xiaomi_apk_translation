@@ -35,9 +35,13 @@
     <string name="action_notes">保存至笔记</string>
     <string name="action_retry">重新生成</string>
     <string name="actionbar_button_up_description">返回</string>
+    <string name="add_mark">添加标记</string>
     <string name="afternoon">下午</string>
     <string name="agree_description">请您同意应用联网，获取更完整的功能体验。</string>
     <string name="ai_recognition_other_speaker">…其他人发言</string>
+    <string name="ai_recognize_fail">AI转写失败</string>
+    <string name="ai_recognize_fail_tip">智能总结失败，请重试</string>
+    <string name="ai_recognize_preference_summary">录音时自动开启语音转文字</string>
     <string name="ai_summary">AI摘要</string>
     <string name="ai_watermark">内容为AI生成，仅供参考</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">麦克风使用中无法录音</string>
@@ -66,6 +70,9 @@
     <string name="app_name">录音机</string>
     <string name="app_record">应用录音</string>
     <string name="app_record_preference_title">应用通话录音</string>
+    <string name="asr_in_progress">%s AI转写中，精准转写，智能摘要</string>
+    <string name="asr_in_progress_with_polish">%s AI润色中，去除冗余，智能总结</string>
+    <string name="asr_progress">AI转写文本中%s</string>
     <string name="back">返回</string>
     <string name="back_playback_position">回到当前播放位置</string>
     <string name="bottomsheet_action_collapse">收起底部动作条</string>
@@ -122,6 +129,7 @@
     <string name="cloud_status_full_dialog_msg">您的云空间已满，无法继续备份录音。推荐升级云服务会员，获取更大储存空间及其他特权。</string>
     <string name="cloud_status_full_dialog_ok">升级会员</string>
     <string name="cloud_status_full_dialog_title">云空间已满</string>
+    <string name="collect_diagnosis_log">收集诊断日志</string>
     <string name="content_text">内容：%s</string>
     <string name="copy">复制</string>
     <string name="data_connection_body">"温馨提示：
@@ -141,6 +149,10 @@
     <string name="delete_recording_file_dialog_msg">确认删除此录音？</string>
     <string name="delete_recording_file_dialog_title">删除录音</string>
     <string name="deleting_message">正在删除...</string>
+    <string name="diagnosis_log_send_failed">诊断日志发送失败，请稍后重试</string>
+    <string name="diagnosis_log_sent_format">"诊断日志发送成功！
+诊断编号：%s
+请把诊断编号发送给技术人员"</string>
     <string name="dialog_content_storage_full">由于存储空间不足，录音被迫停止，通过文件管理器可以清理不必要的文件，希望现在打开吗？</string>
     <string name="dialog_privacy_revoke_tips">撤回隐私授权后该应用将停止收集并删除存放于服务器上的个人数据。该操作可能会导致应用无法正常使用。您确定要撤回隐私授权么？为保证云服务数据安全，如果希望取消云服务隐私授权，请访问i.mi.com.</string>
     <string name="dialog_title_storage_full">存储空间不足，是否现在清理？</string>
@@ -155,6 +167,7 @@
     <string name="empty_recognition_tip">没有有效文字</string>
     <string name="eras_ad">公元</string>
     <string name="eras_bc">公元前</string>
+    <string name="error_a11y_label">错误：无效</string>
     <string name="error_app_internal">另一个程序可能正在使用录音功能，请检查后再试</string>
     <string name="error_app_internal_title">录音机错误</string>
     <string name="error_file_access">文件已不存在或者文件已损坏</string>
@@ -220,6 +233,7 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">zW T</string>
     <string name="fmt_weekday_timezone">zW</string>
+    <string name="for_diagnosis_usage_only">说明: 日志信息仅作为诊断使用</string>
     <string name="friday">星期五</string>
     <string name="friday_short">周五</string>
     <string name="friday_shortest">五</string>
@@ -239,6 +253,7 @@
     <string name="head_set_tip_dialog_title">提示</string>
     <string name="high_bit_rate">MP3，约%1$dkbit/s %2$dM/小时</string>
     <string name="icon_content_description">对话框图标</string>
+    <string name="intelligent_polishing_preference_summary">针对中文转录内容，精简语句、优化排版</string>
     <string name="invisible_mode_dialog_message">无法使用麦克风，如需使用录音机，请关闭隐身模式</string>
     <string name="invisible_mode_dialog_negative">取消</string>
     <string name="invisible_mode_dialog_positive">去关闭</string>
@@ -262,6 +277,7 @@
     <string name="manage_external_storage">所有文件访问</string>
     <string name="mark_add_toast">已添加</string>
     <string name="material_clock_toggle_content_description">选择上午或下午</string>
+    <string name="material_hour_24h_suffix">%1$s 小时</string>
     <string name="material_hour_selection">选择小时</string>
     <string name="material_hour_suffix">%1$s 点</string>
     <string name="material_minute_selection">选择分钟</string>
@@ -389,21 +405,29 @@
     <string name="more_ai_unit_title">重要总结</string>
     <string name="morning">上午</string>
     <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_checkbox_state_description_checked">已选中</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">部分选中</string>
+    <string name="mtrl_checkbox_state_description_unchecked">未选中</string>
     <string name="mtrl_chip_close_icon_content_description">移除%1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">有 %1$d 条以上的新通知</string>
     <string name="mtrl_picker_a11y_next_month">转到下个月</string>
     <string name="mtrl_picker_a11y_prev_month">转到上个月</string>
+    <string name="mtrl_picker_announce_current_range_selection">开始日期选择：%1$s – 结束日期选择：%2$s</string>
     <string name="mtrl_picker_announce_current_selection">当前的选择是：%1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">无</string>
+    <string name="mtrl_picker_cancel">取消</string>
+    <string name="mtrl_picker_confirm">确定</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">请选择日期</string>
     <string name="mtrl_picker_date_header_unselected">选定的日期</string>
-    <string name="mtrl_picker_day_of_week_column_header">表示周几的列：%1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">结束日期 %1$s</string>
     <string name="mtrl_picker_invalid_format">格式无效。</string>
     <string name="mtrl_picker_invalid_format_example">示例：%1$s</string>
     <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
     <string name="mtrl_picker_invalid_range">范围无效。</string>
-    <string name="mtrl_picker_navigate_to_year_description">转到 %1$s 年</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">转到今年%1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">转到 %1$d 年</string>
     <string name="mtrl_picker_out_of_range">不在允许的范围内：%1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">开始日期 – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – 结束日期</string>
@@ -411,16 +435,20 @@
     <string name="mtrl_picker_range_header_title">请选择范围</string>
     <string name="mtrl_picker_range_header_unselected">开始日期 - 结束日期</string>
     <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_start_date_description">开始日期 %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">日期</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">结束日期</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">开始日期</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">今天%1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">切换到日历输入模式</string>
-    <string name="mtrl_picker_toggle_to_day_selection">点按即可切换到选择某天</string>
+    <string name="mtrl_picker_toggle_to_day_selection">点按即可切换到日历视图</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">切换到文本字段输入模式</string>
-    <string name="mtrl_picker_toggle_to_year_selection">点按即可切换到选择某年</string>
+    <string name="mtrl_picker_toggle_to_year_selection">点按即可切换到年视图</string>
+    <string name="mtrl_timepicker_cancel">取消</string>
+    <string name="mtrl_timepicker_confirm">确定</string>
     <string name="network_tip_dialog_cancel">不同意</string>
     <string name="network_tip_dialog_content">录音机在使用过程中需要连接网络，您是否同意？</string>
     <string name="network_tip_dialog_ok">同意并继续</string>
@@ -447,7 +475,10 @@
     <string name="noon">中午</string>
     <string name="not_allowed">未允许</string>
     <string name="not_set">未设置</string>
+    <string name="notice_btn_stop_ai_recognize">关闭</string>
+    <string name="notice_content_no_asr_long_time">AI识音用于声音转文字，当前长时间无人声</string>
     <string name="notice_for_ai_search_tips">查看详情</string>
+    <string name="notice_title_is_need_stop_ai_recognize">是否需要关闭“AI识音”功能</string>
     <string name="notification_message_all_paused">下载文件过大，需要开启Wi-Fi下载</string>
     <string name="notification_pause_playback">已暂停回放录音</string>
     <string name="notification_playback">正在回放录音...</string>
@@ -455,28 +486,34 @@
     <string name="notification_recording_ticker">手机已静音，调节音量可恢复。正在录音...</string>
     <string name="notification_save_as_complete">录音文件已另存完成</string>
     <string name="notification_stopped">录音已完成</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">AI转写完成</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">智能总结失败</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">智能总结成功</string>
     <string name="notification_title_all_paused">所有下载已暂停</string>
+    <string name="nrt_asr_complete">AI转写完成，点击此消息刷新界面</string>
     <string name="offline_recognize_transfer_format">转码中</string>
+    <string name="ok">好的</string>
     <string name="online_recognize_progress">转文字中%s...</string>
     <string name="open_voice_enhancement">人声增强</string>
     <string name="opened_voice_enhancement">已开启人声增强</string>
+    <string name="pasport_register_dialog_message">确认使用手机号%s注册小米账号？</string>
     <string name="passport_access_denied">访问受限</string>
     <string name="passport_account_crop_user_avatar">裁剪头像</string>
     <string name="passport_account_empty_user_name">名字不能为空</string>
     <string name="passport_account_error_all_space_user_name">名字不能全为空格</string>
-    <string name="passport_account_error_invalid_user_name">名字中不能包含 &lt;, >, / 三类字符</string>
+    <string name="passport_account_error_invalid_user_name">名字中不能包含 &lt;，>，/ 三类字符</string>
     <string name="passport_account_error_longer_user_name">您的名字太长了，请输入%d字以内</string>
     <string name="passport_account_error_shorter_user_name">您的名字太短了，请输入至少%d个字</string>
     <string name="passport_account_error_user_name">昵称不合规,请更换后重试</string>
     <string name="passport_account_invalid_user_avatar">头像不合规,请更换后重试</string>
-    <string name="passport_account_name">"帐号: %1$s "</string>
+    <string name="passport_account_name">"账号： %1$s "</string>
     <string name="passport_account_no_set">未设置</string>
     <string name="passport_account_none_bind_info">未绑定</string>
     <string name="passport_account_none_user_name">请完善</string>
     <string name="passport_account_secure_info_pref_title">登录</string>
     <string name="passport_account_security_info_pref_title">安全</string>
     <string name="passport_account_user_avatar">头像</string>
-    <string name="passport_account_user_avatar_from_album">从手机相册选择</string>
+    <string name="passport_account_user_avatar_from_album">从相册选择</string>
     <string name="passport_account_user_avatar_from_camera">拍照</string>
     <string name="passport_account_user_base_info">基础资料</string>
     <string name="passport_account_user_details">个人信息</string>
@@ -490,13 +527,13 @@
     <string name="passport_agree">同意并继续</string>
     <string name="passport_area_code_title">选择国家/地区号码</string>
     <string name="passport_attention">友情提示</string>
-    <string name="passport_auth_fail_warning">帐号信息已过期，请重试</string>
+    <string name="passport_auth_fail_warning">账号信息已过期，请重试</string>
     <string name="passport_back">返回</string>
     <string name="passport_bad_authentication">用户名密码不匹配</string>
     <string name="passport_can_not_recevie_verify_code">收不到验证码？</string>
     <string name="passport_change_password">修改密码</string>
-    <string name="passport_check_security">正在安全检测中...</string>
-    <string name="passport_checking_account">正在验证...</string>
+    <string name="passport_check_security">正在安全检测中…</string>
+    <string name="passport_checking_account">正在验证…</string>
     <string name="passport_clear_input">清除输入框内容</string>
     <string name="passport_copy_link">复制链接</string>
     <string name="passport_copy_to_clipboard_successful">复制成功</string>
@@ -504,22 +541,22 @@
     <string name="passport_dialog_doing_login">正在登录…</string>
     <string name="passport_dialog_doing_register">正在注册…</string>
     <string name="passport_dialog_is_my_account">是的</string>
-    <string name="passport_dialog_is_your_mi_account">这是你的帐号吗？</string>
+    <string name="passport_dialog_is_your_mi_account">这是您的账号吗？</string>
     <string name="passport_dialog_loading">正在加载…</string>
-    <string name="passport_dialog_nick_name_prefix">昵称:%s</string>
-    <string name="passport_dialog_phone_number_prefix">手机号:%s</string>
-    <string name="passport_dialog_register_other">不是，注册新帐号</string>
-    <string name="passport_doing_query_account">正在查询帐号信息…</string>
-    <string name="passport_error_auth_fail">帐号信息已过期，请重试</string>
+    <string name="passport_dialog_nick_name_prefix">昵称：%s</string>
+    <string name="passport_dialog_phone_number_prefix">手机号：%s</string>
+    <string name="passport_dialog_register_other">不是，注册新账号</string>
+    <string name="passport_doing_query_account">正在查询账号信息…</string>
+    <string name="passport_error_auth_fail">账号信息已过期，请重试</string>
     <string name="passport_error_device_id">无法获取设备号</string>
-    <string name="passport_error_dup_binded_email">此邮箱已经绑定了小米帐号，请换个邮箱或解绑后重试</string>
+    <string name="passport_error_dup_binded_email">此邮箱已经绑定了小米账号，请换个邮箱或解绑后重试</string>
     <string name="passport_error_empty_password">密码不能为空</string>
     <string name="passport_error_empty_pwd">密码不能为空</string>
     <string name="passport_error_empty_user_id">用户名不能为空</string>
     <string name="passport_error_invalid_bind_address">您输入的地址格式不正确</string>
     <string name="passport_error_length_limit">输入内容长度超出限制</string>
     <string name="passport_error_network">当前网络不可用</string>
-    <string name="passport_error_no_password_user">您的帐号暂未绑定密码,请使用手机短信登录</string>
+    <string name="passport_error_no_password_user">您的账号暂未绑定密码,请使用手机短信登录</string>
     <string name="passport_error_phone">请检查手机格式</string>
     <string name="passport_error_server">服务器出错</string>
     <string name="passport_error_sms_limit">已经发送了太多短信，请换个时间再试试</string>
@@ -532,7 +569,7 @@
     <string name="passport_error_unknown">未知错误</string>
     <string name="passport_error_user_name">用户名不存在</string>
     <string name="passport_error_user_password">用户名密码不匹配</string>
-    <string name="passport_exceed_binded_phone_times_notice">此手机在一段时间内绑定了过多的小米帐号，请换个手机号码试试</string>
+    <string name="passport_exceed_binded_phone_times_notice">此手机在一段时间内绑定了过多的小米账号，请换个手机号码试试</string>
     <string name="passport_facebook_login_btn_content_description">Facebook登录</string>
     <string name="passport_frequency_try_later">操作太频繁,请稍后再试</string>
     <string name="passport_get_login_type_next">下一步</string>
@@ -543,39 +580,43 @@
     <string name="passport_identification_expired">验证已过期，请重新开始</string>
     <string name="passport_input_captcha_hint">请输入图片验证码</string>
     <string name="passport_input_email_address_notice">我们将发送一封带有激活链接的邮件到此邮箱</string>
-    <string name="passport_input_password_hint">请输入帐号密码</string>
+    <string name="passport_input_password_hint">请输入账号密码</string>
     <string name="passport_input_phone_number_hint">请输入手机号</string>
     <string name="passport_input_verify_code">请输入短信验证码</string>
     <string name="passport_input_voice_captcha_hint">请输入语音验证码</string>
     <string name="passport_input_voice_hint">请输入语音验证码</string>
     <string name="passport_login_by_local_phone_long_text">本机号码一键登录</string>
     <string name="passport_login_by_local_phone_short_text">登录</string>
-    <string name="passport_login_other">登录其他小米帐号</string>
+    <string name="passport_login_other">登录其他小米账号</string>
     <string name="passport_login_register_by_local_phone_long_text">本机号码一键登录注册</string>
     <string name="passport_login_with_sns">其他登录方式</string>
     <string name="passport_logout_account">退出登录</string>
-    <string name="passport_mi_account_first_title">首次登录会自动创建小米帐号</string>
-    <string name="passport_mi_account_title">小米帐号登录</string>
+    <string name="passport_mi_account_title">小米账号登录</string>
     <string name="passport_network_error">网络异常,请检查网络是否连通</string>
     <string name="passport_network_error_hint">请确认连接后重试，或复制链接到浏览器中打开</string>
     <string name="passport_network_timeout">网络不给力,请重试</string>
     <string name="passport_next">下一步</string>
-    <string name="passport_no_account">未登录帐号</string>
+    <string name="passport_no_account">未登录账号</string>
+    <string name="passport_oauth_actionbar_title">小米帐号</string>
+    <string name="passport_oauth_sucess_tip">授权成功</string>
     <string name="passport_open_settings">去设置</string>
     <string name="passport_page_load_failed">页面无法打开</string>
+    <string name="passport_password_hide_show">隐藏密码</string>
     <string name="passport_password_login_btn">登录</string>
     <string name="passport_password_not_show">不显示密码</string>
     <string name="passport_password_show">显示密码</string>
     <string name="passport_phone_auto_login_register_with_local_number">本机号码一键登录注册</string>
     <string name="passport_photo_picker_not_found">您的相册中没有照片。</string>
     <string name="passport_qq_login_btn_content_description">QQ登录</string>
-    <string name="passport_querying_phone_info">正在查询帐号信息...</string>
-    <string name="passport_quick_login_title">"系统需要验证您的小米帐号，
-请输入您的帐号密码"</string>
+    <string name="passport_querying_phone_info">正在查询账号信息…</string>
+    <string name="passport_quick_login_title">"系统需要验证您的小米账号，
+请输入您的账号密码"</string>
     <string name="passport_reging">正在注册，请稍候…</string>
     <string name="passport_register_by_local_phone_long_text">本机号码一键注册</string>
     <string name="passport_register_by_local_phone_short_text">注册</string>
-    <string name="passport_register_restricted">此手机号码近期注册了太多小米帐号，请换个号码再试试</string>
+    <string name="passport_register_dialog_positive">立即注册</string>
+    <string name="passport_register_dialog_title">注册小米账号</string>
+    <string name="passport_register_restricted">此手机号码近期注册了太多小米账号，请换个号码再试试</string>
     <string name="passport_relogin_notice">登录错误，请重新登录</string>
     <string name="passport_request_agree">同意</string>
     <string name="passport_request_camera_permission_message">本服务需要请求您的如下权限，我们将严格遵守相关法律以保护您的个人信息：&lt;br>&lt;br>&lt;b>访问相机：体验实时拍摄服务，用于设置头像&lt;/b>&lt;br>&lt;br>如果您不同意调用以上权限，将导致该功能无法正常使用，但不影响您使用本应用的基本功能。您可在系统设置中选择关闭以上权限调用以撤回您的同意。</string>
@@ -583,7 +624,8 @@
     <string name="passport_request_error_invalid_token">认证失败</string>
     <string name="passport_request_error_network">网络异常，请检查网络状态</string>
     <string name="passport_request_error_unknown">系统异常，请返回重试</string>
-    <string name="passport_request_gallery_permission_message">需要读取手机相册的内容：&lt;br />从相册中选取图片，用于设置头像</string>
+    <string name="passport_request_gallery_permission_message">需要读取设备相册的内容，用于设置头像。</string>
+    <string name="passport_request_permission_title">权限申请</string>
     <string name="passport_resend_email_reach_limit_message">您短时间内发送了过多邮件。如果长时间没有收到，邮件可能被错误拦截，请检查您的垃圾邮件列表。</string>
     <string name="passport_resend_email_reach_limit_title">重发邮件过多</string>
     <string name="passport_resend_ticket">重新发送</string>
@@ -591,9 +633,9 @@
     <string name="passport_same_new_and_old_pwd">不能与原密码相同</string>
     <string name="passport_send_sms_to">已发送短信验证码至 %1$s</string>
     <string name="passport_send_too_many_code">已经发送了太多短信，请换个时间再试试</string>
-    <string name="passport_sending_vcode">正在发送验证码...</string>
+    <string name="passport_sending_vcode">正在发送验证码…</string>
     <string name="passport_service_error">服务出现错误</string>
-    <string name="passport_set_password_no_phone_msg">为了保护你的数据安全，请先绑定您的手机</string>
+    <string name="passport_set_password_no_phone_msg">为了保护您的数据安全，请先绑定您的手机</string>
     <string name="passport_skip_query_account">跳过</string>
     <string name="passport_sns_access_token_expired_warning">授权已过期，请重新绑定</string>
     <string name="passport_sns_bind_limit">绑定已经超过频次限制,请使用其他方式登录</string>
@@ -602,21 +644,22 @@
     <string name="passport_talkback_switch_image_captcha">切换至图形验证码</string>
     <string name="passport_talkback_switch_voice_captcha">切换至语音验证码</string>
     <string name="passport_talkback_voice_captcha">播放语音验证码</string>
+    <string name="passport_third_sns_service_unavailable">当前服务不可用，请先确认应用已安装且未被禁用</string>
     <string name="passport_ticket_send_by_second">%d秒后发送</string>
     <string name="passport_to_forget_password">忘记密码</string>
     <string name="passport_to_password_login">密码登录</string>
     <string name="passport_to_verify_code_login">手机号登录</string>
     <string name="passport_unknown_error">未知错误</string>
     <string name="passport_unknown_host_network_error">网络连接错误，请检查</string>
-    <string name="passport_user_agreement_hint_3rd_app"><Data>已阅读并同意本应用&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、小米帐号&lt;a href=%3$s>用户协议&lt;/a> &lt;a href=%4$s>隐私政策&lt;/a></Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>已阅读并同意本应用&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、小米帐号&lt;a href=%3$s>用户协议&lt;/a> &lt;a href=%4$s>隐私政策&lt;/a>、&lt;a href=%5$s>中国移动认证服务条款&lt;/a></Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>已阅读并同意本应用&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、小米帐号&lt;a href=%3$s>用户协议&lt;/a> &lt;a href=%4$s>隐私政策&lt;/a>、&lt;a href=%5$s>天翼账号认证服务条款&lt;/a></Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>已阅读并同意本应用&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、小米帐号&lt;a href=%3$s>用户协议&lt;/a> &lt;a href=%4$s>隐私政策&lt;/a>、&lt;a href=%5$s>中国联通认证服务条款&lt;/a></Data></string>
-    <string name="passport_user_agreement_hint_default"><Data>已阅读并同意小米帐号&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a></Data></string>
-    <string name="passport_user_agreement_hint_first_login">首次登录会自动创建小米帐号</string>
-    <string name="passport_user_agreement_hint_with_mobile"><Data>已阅读并同意小米帐号&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、&lt;a href=%3$s>中国移动认证服务条款&lt;/a></Data></string>
-    <string name="passport_user_agreement_hint_with_telecom"><Data>已阅读并同意小米帐号&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、&lt;a href=%3$s>天翼账号认证服务条款&lt;/a></Data></string>
-    <string name="passport_user_agreement_hint_with_unicom"><Data>已阅读并同意小米帐号&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、&lt;a href=%3$s>中国联通认证服务条款&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>已阅读并同意本应用&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、小米账号&lt;a href=%3$s>用户协议&lt;/a> &lt;a href=%4$s>隐私政策&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>已阅读并同意本应用&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、小米账号&lt;a href=%3$s>用户协议&lt;/a> &lt;a href=%4$s>隐私政策&lt;/a>、&lt;a href=%5$s>中国移动认证服务条款&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>已阅读并同意本应用&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、小米账号&lt;a href=%3$s>用户协议&lt;/a> &lt;a href=%4$s>隐私政策&lt;/a>、&lt;a href=%5$s>天翼账号认证服务条款&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>已阅读并同意本应用&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、小米账号&lt;a href=%3$s>用户协议&lt;/a> &lt;a href=%4$s>隐私政策&lt;/a>、&lt;a href=%5$s>中国联通认证服务条款&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>已阅读并同意小米账号&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_first_login">首次登录会自动创建小米账号</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>已阅读并同意小米账号&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、&lt;a href=%3$s>中国移动认证服务条款&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>已阅读并同意小米账号&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、&lt;a href=%3$s>天翼账号认证服务条款&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>已阅读并同意小米账号&lt;a href=%1$s>用户协议&lt;/a> &lt;a href=%2$s>隐私政策&lt;/a>、&lt;a href=%3$s>中国联通认证服务条款&lt;/a></Data></string>
     <string name="passport_user_avatar_update_title">设置头像</string>
     <string name="passport_user_avatar_uploading">正在上传头像…</string>
     <string name="passport_user_id_hint">邮箱/手机号码/小米ID</string>
@@ -636,6 +679,7 @@
     <string name="permission_bluetooth">获取设备蓝牙连接状态</string>
     <string name="permission_bluetooth_dialog_description">用于录音播放过程中音频设备切换</string>
     <string name="permission_bluetooth_title">请打开附近设备权限</string>
+    <string name="permission_camera_description">用于录音时拍照</string>
     <string name="permission_desc">权限说明</string>
     <string name="permission_dialog_cancel">取消</string>
     <string name="permission_dialog_ok">去开启</string>
@@ -668,6 +712,10 @@
     <string name="preference_copied">已将“%1$s”复制到剪贴板。</string>
     <string name="preference_enable_earpiece_summary">开启后将使用听筒播放录音</string>
     <string name="preference_enable_earpiece_title">听筒模式</string>
+    <string name="preference_group_title_for_ai_setting">AI功能设置</string>
+    <string name="preference_group_title_for_normal_setting">常规设置</string>
+    <string name="preference_key_ai_recognize">AI识音</string>
+    <string name="preference_key_intelligent_polishing">智能润色</string>
     <string name="preference_led_indicator">录音锁屏提示</string>
     <string name="preference_led_indicator_prompt">开启后，录音时锁屏将闪烁呼吸灯并显示蓝色状态栏</string>
     <string name="preference_record_desktop_indicator_summary">开启后，录音时桌面将显示蓝色状态栏</string>
@@ -686,6 +734,7 @@
     <string name="progress">进度条</string>
     <string name="progress_dialog_message">正在加载，请稍候…</string>
     <string name="radio_tips">欢迎您使用录音机。本应用支持语音转文字、录音文件摘要翻译等功能。若您同意，我们将联网提供上述功能。</string>
+    <string name="re_asr_error_tip">AI转写失败，请重试</string>
     <string name="recent_delete">最近删除</string>
     <string name="recent_delete_delete_all">当前所有内容将被清空，无法恢复，确认删除？</string>
     <string name="recognition_button_add_to_queue">加入转写队列</string>
@@ -715,6 +764,7 @@
     <string name="recognition_process_dialog_title">转写提示</string>
     <string name="recognition_stop_current">停止正在转写的音频</string>
     <string name="recognize_complete_toast">转录完成</string>
+    <string name="recognize_data_loading">正在加载…</string>
     <string name="recognize_tip_part_one">录音未完整转录，</string>
     <string name="recognize_tip_part_two">重新转录</string>
     <string name="recognizing_not_rename">转录中不支持重命名</string>
@@ -796,7 +846,11 @@
     <string name="search_scenes">场景设置;ChangJingSheZhi</string>
     <string name="search_silent_mode">录音时来电静音;LuYinShiLaiDianJingYin</string>
     <string name="search_tip_rename">录音结束后是否提示重命名;LuYinJieShuHouShiFouTiShiChongMingMing</string>
+    <string name="searchview_clear_text_content_description">清除文字</string>
+    <string name="searchview_navigation_content_description">返回</string>
     <string name="send">发送</string>
+    <string name="send_diagnosis_log">发送诊断日志</string>
+    <string name="sending">发送中…</string>
     <string name="settings_ai_record_abstract">摘要</string>
     <string name="settings_ai_record_abstract_description">录音完智能摘要，总结录音主题和主要内容，支持保存至笔记</string>
     <string name="settings_ai_record_diff_speaker">区分说话人</string>
@@ -822,6 +876,7 @@
     <string name="shortcut_stop_record">完成录音</string>
     <string name="show_text">显示文本</string>
     <string name="show_wave">显示声纹</string>
+    <string name="side_sheet_accessibility_pane_title">侧边动作条</string>
     <string name="solar_term_autumn_begins">立秋</string>
     <string name="solar_term_autumn_equinox">秋分</string>
     <string name="solar_term_clear_and_bright">清明</string>
@@ -848,6 +903,7 @@
     <string name="solar_term_winter_solstice">冬至</string>
     <string name="sound_recorder_settings">设置</string>
     <string name="speaker">说话人</string>
+    <string name="state_wait_recognize_tip">正在处理其他转写任务，请稍候…</string>
     <string name="status_bar_back">点击返回录音</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">正在录音...</string>
@@ -881,7 +937,9 @@
     <string name="talkback_traslation">翻译</string>
     <string name="talkback_traslation_ai_recognize">隐藏文本框</string>
     <string name="talkback_traslation_close">关闭翻译</string>
+    <string name="temporary_not_available">功能暂未开启</string>
     <string name="text_btn_backward_3_seconds">快退%d秒</string>
+    <string name="text_btn_camera">拍照</string>
     <string name="text_btn_complete">完成</string>
     <string name="text_btn_forward_3_seconds">快进%d秒</string>
     <string name="text_btn_mark">打标记</string>
@@ -953,8 +1011,11 @@
     <string name="tips_for_build_database">保持充电状态，手机息屏时将更快分析录音内容</string>
     <string name="toast_enter_silent_mode">录音中，静音模式已开启</string>
     <string name="toast_exit_silent_mode">录音结束，静音模式已关闭</string>
+    <string name="toast_for_no_asr_long_time">检测到长时间无人声，停止AI识音</string>
+    <string name="toast_for_pause_record_long_time">检测到录音暂停，停止AI识音</string>
     <string name="toast_max_record_time">%1$s应用最大支持约%2$s的录音附件</string>
     <string name="toast_stop">录音已完成</string>
+    <string name="toast_title_stop_ai_recognize">停止AI识音</string>
     <string name="toast_uninstall_fileexplorer">未安装文件管理器</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>

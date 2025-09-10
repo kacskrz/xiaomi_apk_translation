@@ -34,9 +34,13 @@
     <string name="action_notes">Shrani v Beležko</string>
     <string name="action_retry">Poskusite ponovno</string>
     <string name="actionbar_button_up_description">Nazaj</string>
+    <string name="add_mark">Označi</string>
     <string name="afternoon">Popoldne</string>
     <string name="agree_description">Dovoli aplikaciji, da se poveže na omrežje, če želite uporabljati vse njene funkcije</string>
     <string name="ai_recognition_other_speaker">(Nekdo drug govori)</string>
+    <string name="ai_recognize_fail">Prepisovanje ni mogoče</string>
+    <string name="ai_recognize_fail_tip">Povzemanje ni uspelo. Poskusite znova.</string>
+    <string name="ai_recognize_preference_summary">Samodejno prepisovanje med snemanjem</string>
     <string name="ai_summary">AI povzetek</string>
     <string name="ai_watermark">Ta vsebina je ustvarjena z umetno inteligenco in je namenjena samo za vašo referenco.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Ko je v uporabi mikrofon, snemanje ni mogoče</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Snemalnik</string>
     <string name="app_record">Posnetki aplikacije</string>
     <string name="app_record_preference_title">Snemalnik glasovnih klicev</string>
+    <string name="asr_in_progress">%s Prepisovanje in povzemanje</string>
+    <string name="asr_in_progress_with_polish">%s Izpopolnjevanje in povzemanje</string>
+    <string name="asr_progress">Prepisovanje zvočnega zapisa %s</string>
     <string name="back">Nazaj</string>
     <string name="back_playback_position">Vrnite se v trenutni položaj</string>
-    <string name="bottomsheet_action_collapse">Strnite spodnjo stran</string>
-    <string name="bottomsheet_action_expand">Razširite spodnjo stran</string>
-    <string name="bottomsheet_action_expand_halfway">Razširi do polovice</string>
-    <string name="bottomsheet_drag_handle_clicked">Dvakrat tapnjena ročica za premikanje</string>
-    <string name="bottomsheet_drag_handle_content_description">Ročica za premikanje</string>
+    <string name="bottomsheet_action_collapse">Strnitev razdelka na dnu zaslona</string>
+    <string name="bottomsheet_action_expand">Razširitev razdelka na dnu zaslona</string>
+    <string name="bottomsheet_action_expand_halfway">Razširjanje na pol višine</string>
+    <string name="bottomsheet_drag_handle_clicked">Dvakrat dotaknjena ročica za vlečenje</string>
+    <string name="bottomsheet_drag_handle_content_description">Ročica za vlečenje</string>
     <string name="btn_continue_record_description">Nadaljuj snemanje</string>
     <string name="button_queue_for_wifi">Čakaj</string>
     <string name="button_start_now">Prenesi</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Prazno</string>
     <string name="eras_ad">n. št.</string>
     <string name="eras_bc">pr. n. št.</string>
+    <string name="error_a11y_label">Napaka: Neveljavno</string>
     <string name="error_app_internal">Preverite če druga aplikacija trenutno uporablja funkcijo snemanja.</string>
     <string name="error_app_internal_title">Napaka pri zvočnem snemanju</string>
     <string name="error_file_access">Datoteka ne obstaja ali pa je bila poškodovana</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Uporabi notranji mikrofon</string>
     <string name="high_bit_rate">MP3, ~%1$dkbit/s, ~%2$d MB/h</string>
     <string name="icon_content_description">Ikona pogovornega okna</string>
+    <string name="intelligent_polishing_preference_summary">Odstranite podvajanja in standardizirajte format za kitajščino</string>
     <string name="invisible_mode_dialog_message">Ni mogoče uporabljati mikrofona, ko ste nevidni. Najprej izklopite Nevidni način.</string>
     <string name="invisible_mode_dialog_negative">Prekliči</string>
     <string name="invisible_mode_dialog_positive">Izklopi</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Dostop do vseh datotek</string>
     <string name="mark_add_toast">Uspešno dodano</string>
     <string name="material_clock_toggle_content_description">Izberite dopoldanski ali popoldanski čas.</string>
+    <string name="material_hour_24h_suffix">%1$s h</string>
     <string name="material_hour_selection">Izberite uro</string>
     <string name="material_hour_suffix">%1$s</string>
     <string name="material_minute_selection">Izberite minute</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Ključne točke</string>
     <string name="morning">Jutro</string>
     <string name="mtrl_badge_numberless_content_description">Novo obvestilo</string>
+    <string name="mtrl_checkbox_state_description_checked">Potrjeno</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Delno potrjeno</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nepotrjeno</string>
     <string name="mtrl_chip_close_icon_content_description">Odstranite %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Več kot toliko novih obvestil: %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Spremeni na naslednji mesec</string>
     <string name="mtrl_picker_a11y_prev_month">Spremeni na prejšnji mesec</string>
+    <string name="mtrl_picker_announce_current_range_selection">Izbira začetnega datuma: %1$s – Izbira končnega datuma: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Trenutna izbira: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">brez</string>
+    <string name="mtrl_picker_cancel">Prekliči</string>
+    <string name="mtrl_picker_confirm">V redu</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Izberite datum</string>
     <string name="mtrl_picker_date_header_unselected">Izbrani datum</string>
-    <string name="mtrl_picker_day_of_week_column_header">Stolpec dni: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Končni datum %1$s</string>
     <string name="mtrl_picker_invalid_format">Neveljavna oblika.</string>
     <string name="mtrl_picker_invalid_format_example">Primer: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Uporabite: %1$s</string>
     <string name="mtrl_picker_invalid_range">Neveljaven razpon.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Pomik na leto %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Pomik na trenutno leto %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Pomik na leto %1$d</string>
     <string name="mtrl_picker_out_of_range">Zunaj razpona: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Začetni datum–%1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s–končni datum</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Izberite obseg</string>
     <string name="mtrl_picker_range_header_unselected">Začetni datum–končni datum</string>
     <string name="mtrl_picker_save">Shrani</string>
+    <string name="mtrl_picker_start_date_description">Začetni datum %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Datum</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Končni datum</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Začetni datum</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">l</string>
+    <string name="mtrl_picker_today_description">Danes %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Preklop na način vnosa v koledar</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Dotik za preklop na izbiro dneva</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Dotaknite se za preklop na pogled koledarja</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Preklop na način vnosa besedila</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Dotik za preklop na izbiro leta</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Dotaknite se za preklop na pogled leta</string>
+    <string name="mtrl_timepicker_cancel">Prekliči</string>
+    <string name="mtrl_timepicker_confirm">V redu</string>
     <string name="network_tip_dialog_cancel">Ne strinjam se</string>
     <string name="network_tip_dialog_content">Snemalnik se mora za normalno delovanje povezati z internetom. Se strinjate?</string>
     <string name="network_tip_dialog_ok">Sprejmem</string>
@@ -439,7 +461,10 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="noon">Opoldne</string>
     <string name="not_allowed">Ni odobreno</string>
     <string name="not_set">Ni nastavljeno</string>
+    <string name="notice_btn_stop_ai_recognize">Izklopi</string>
+    <string name="notice_content_no_asr_long_time">Že dolgo ni bilo zaznati govora.</string>
     <string name="notice_for_ai_search_tips">Podrobnosti</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Želite izklopiti funkcijo AI prepoznavanje govora?</string>
     <string name="notification_message_all_paused">Čakam na povezavo WiFi.</string>
     <string name="notification_pause_playback">Predvajanje zaustavljeno</string>
     <string name="notification_playback">Predvajanje…</string>
@@ -447,11 +472,16 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="notification_recording_ticker">Telefon utišan</string>
     <string name="notification_save_as_complete">Uspešno shranjeno</string>
     <string name="notification_stopped">Snemanje ustavljeno</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Prepisovanje končano</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Ni bilo mogoče povzeti</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Povzemanje končano</string>
     <string name="notification_title_all_paused">Prenos začasno ustavljen</string>
+    <string name="nrt_asr_complete">Prepisovanje končano. Tapnite, da osvežite.</string>
     <string name="offline_recognize_transfer_format">Prepisovanje…</string>
     <string name="online_recognize_progress">Prepisovanje %s…</string>
     <string name="open_voice_enhancement">Izboljšaj glas</string>
     <string name="opened_voice_enhancement">Izboljšan glas je vklopljen</string>
+    <string name="pasport_register_dialog_message">Želite ustvariti Xiaomi Račun preko vaše telefonske številke %s zdaj?</string>
     <string name="passport_access_denied">Dostop zavrnjen</string>
     <string name="passport_account_crop_user_avatar">Obreži sliko</string>
     <string name="passport_account_empty_user_name">Vnesite vaše ime</string>
@@ -468,7 +498,7 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="passport_account_secure_info_pref_title">Podatki računa</string>
     <string name="passport_account_security_info_pref_title">Varnostne informacije</string>
     <string name="passport_account_user_avatar">Profilna slika</string>
-    <string name="passport_account_user_avatar_from_album">Galerija</string>
+    <string name="passport_account_user_avatar_from_album">Izberite iz Galerije</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Osnovne informacije</string>
     <string name="passport_account_user_details">Osebni podatki</string>
@@ -477,12 +507,11 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="passport_account_user_id">ID Xiaomi Računa</string>
     <string name="passport_account_user_name">Vzdevek</string>
     <string name="passport_account_user_name_dialog_title">Vnesite ime</string>
-    <string name="passport_account_user_phone">Telefon za obnovitev</string>
+    <string name="passport_account_user_phone">Telefonska številka za obnovitev</string>
     <string name="passport_activity_not_found_notice">Ni mogoče najti aplikacije</string>
     <string name="passport_agree">Strinjam se</string>
     <string name="passport_area_code_title">Omrežna koda</string>
     <string name="passport_attention">Pozor</string>
-    <string name="passport_auth_fail_warning">Seja je potekla. Prijavite se ponovno.</string>
     <string name="passport_back">Nazaj</string>
     <string name="passport_bad_authentication">Neveljavno uporabniško ime ali geslo</string>
     <string name="passport_can_not_recevie_verify_code">Niste prejeli kode?</string>
@@ -504,11 +533,9 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="passport_doing_query_account">Preverjanje podatkov o računu …</string>
     <string name="passport_error_auth_fail">Seja je potekla. Vpišite se ponovno.</string>
     <string name="passport_error_device_id">Ni mogoče dobiti ID naprave</string>
-    <string name="passport_error_dup_binded_email">Ta e-poštni naslov je že povezan z drugim Xiaomi Računom.</string>
     <string name="passport_error_empty_password">Vnesite vaše geslo</string>
     <string name="passport_error_empty_pwd">Polje za geslo ne sme biti prazno</string>
     <string name="passport_error_empty_user_id">Vnesite vaše uporabniško ime</string>
-    <string name="passport_error_invalid_bind_address">E-poštni naslov, ki ste ga vnesli ni veljaven.</string>
     <string name="passport_error_length_limit">Vneseno besedilo je predolgo</string>
     <string name="passport_error_network">Ni se mogoče povezati na omrežje</string>
     <string name="passport_error_no_password_user">Niste še nastavili gesla. Prijavite se s SMSom.</string>
@@ -524,17 +551,14 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="passport_error_unknown">Neznana napaka</string>
     <string name="passport_error_user_name">Neveljavno uporabniško ime</string>
     <string name="passport_error_user_password">Gesli se ne ujemata</string>
-    <string name="passport_exceed_binded_phone_times_notice">Ta telefonska številka je že povezana z drugim Xiaomi Računom.</string>
     <string name="passport_facebook_login_btn_content_description">Vpis s Facebook računom</string>
     <string name="passport_frequency_try_later">Preveč poskusov. Počakajte minuto ali dve in poskusite ponovno.</string>
     <string name="passport_get_login_type_next">Naprej</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Na to številko je bilo poslano preveč kod za preverjanje. Počakajte 24 ur in poskusite ponovno.</string>
     <string name="passport_google_login_btn_content_description">Vpis z Google računom</string>
     <string name="passport_help">Pomoč</string>
     <string name="passport_i_know">Razumem</string>
     <string name="passport_identification_expired">Koda za preverjanje je potekla. Poskusite ponovno.</string>
     <string name="passport_input_captcha_hint">Vnesite kodo</string>
-    <string name="passport_input_email_address_notice">Ta naslov e-pošte bo uporabljen za potrjevanje vašega računa</string>
     <string name="passport_input_password_hint">Vnesite geslo</string>
     <string name="passport_input_phone_number_hint">Vnesite telefonsko številko</string>
     <string name="passport_input_verify_code">Vnesite kodo za preverjanje</string>
@@ -546,7 +570,6 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="passport_login_register_by_local_phone_long_text">Ustvarite račun</string>
     <string name="passport_login_with_sns">Drugi načini prijave</string>
     <string name="passport_logout_account">Odjava</string>
-    <string name="passport_mi_account_first_title">Če telefonsko številko uporabljate prvič, bomo samodejno ustvarili račun.</string>
     <string name="passport_mi_account_title">Vpis z Xiaomi Računom</string>
     <string name="passport_network_error">Prišlo je do omrežne napake. Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
     <string name="passport_network_error_hint">Preverite povezavo in poskusite ponovno ali kopirajte povezavo in jo odprite v brskalniku.</string>
@@ -555,6 +578,7 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="passport_no_account">Niste vpisani</string>
     <string name="passport_open_settings">Nastavitve</string>
     <string name="passport_page_load_failed">Strani ni mogoče odpreti</string>
+    <string name="passport_password_hide_show">Skrij geslo</string>
     <string name="passport_password_login_btn">Vpis</string>
     <string name="passport_password_not_show">Ne pokaži gesla</string>
     <string name="passport_password_show">Prikaži geslo</string>
@@ -566,6 +590,8 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="passport_reging">Ustvarjanje računa…</string>
     <string name="passport_register_by_local_phone_long_text">Ustvarite račun</string>
     <string name="passport_register_by_local_phone_short_text">Ustvarite račun</string>
+    <string name="passport_register_dialog_positive">Ustvari</string>
+    <string name="passport_register_dialog_title">Ustvarite Xiaomi Račun</string>
     <string name="passport_register_restricted">Preveč računov je povezanih s to številko. Poskusite z drugo.</string>
     <string name="passport_relogin_notice">Ponovno se morate prijaviti</string>
     <string name="passport_request_agree">Dovoli</string>
@@ -574,46 +600,43 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="passport_request_error_invalid_token">Ni mogoče preveriti</string>
     <string name="passport_request_error_network">Prišlo je do omrežne napake. Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
     <string name="passport_request_error_unknown">Prišlo je do sistemske napake. Pojdite nazaj in poskusite ponovno.</string>
-    <string name="passport_request_gallery_permission_message">Dovolite dostop do Galerije:&lt;br />Za nastavljanje fotografije profila</string>
-    <string name="passport_resend_email_reach_limit_message">Zahtevali ste preveč preverjanj po e-pošti. Preverite ali se sporočilo nahaja v mapi Vsiljena pošta.</string>
-    <string name="passport_resend_email_reach_limit_title">Preveč poskusov</string>
+    <string name="passport_request_gallery_permission_message">Ta aplikacija potrebuje dostop do izbranih elementov galerije, da lahko nastavi profilno fotografijo. Dovolite dostop?</string>
+    <string name="passport_request_permission_title">Zahtevana dovoljenja</string>
     <string name="passport_resend_ticket">Ponovno pošlji kodo</string>
     <string name="passport_retry">Poskusite ponovno</string>
-    <string name="passport_same_new_and_old_pwd">Novo geslo ne more biti enako trenutnemu geslu</string>
     <string name="passport_send_sms_to">Koda poslana na %1$s</string>
     <string name="passport_send_too_many_code">Na to številko je bilo poslano preveč kod za preverjanje. Počakajte 24 ur in poskusite ponovno.</string>
     <string name="passport_sending_vcode">Pošiljanje kode…</string>
-    <string name="passport_service_error">Napaka strežnika</string>
     <string name="passport_set_password_no_phone_msg">Dodajte vašo telefonsko številko za zaščito vašega računa.</string>
     <string name="passport_skip_query_account">Preskoči</string>
-    <string name="passport_sns_access_token_expired_warning">Potekel je čas seje. Prijavite se ponovno za ponovno povezovanje s tem računom.</string>
     <string name="passport_sns_bind_limit">Preveč poskusov. Poskusite drugi način prijave.</string>
     <string name="passport_system_error">Sistem je zaseden. Počakajte minuto ali dve in poskusite ponovno.</string>
     <string name="passport_talkback_image_captcha">Slikovna kodo za preverjanje</string>
     <string name="passport_talkback_switch_image_captcha">Preklopi na slikovno kodo za preverjanje</string>
     <string name="passport_talkback_switch_voice_captcha">Preklopi na glasovno kodo za preverjanje</string>
     <string name="passport_talkback_voice_captcha">Predvajaj glasovno kodo za preverjanje</string>
+    <string name="passport_third_sns_service_unavailable">Storitev ni na voljo. Zagotovite, da je aplikacija nameščena in ni blokirana.</string>
     <string name="passport_ticket_send_by_second">Poslano čez %d</string>
     <string name="passport_to_forget_password">Pozabljeno geslo?</string>
     <string name="passport_to_password_login">Vpis z geslom</string>
     <string name="passport_to_verify_code_login">Vpis prek SMS sporočila</string>
     <string name="passport_unknown_error">Neznana napaka</string>
     <string name="passport_unknown_host_network_error">Preverite omrežne nastavitve in poskusite ponovno</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> ter &lt;a href=%3$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%4$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a>, &lt;a href=%3$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%4$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%5$s>Pogoji in določili China Mobile storitvi za preverjanje&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a>, &lt;a href=%3$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%4$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%5$s>Pogoji in določili storitvi za preverjanje računa eSurfing.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a>, &lt;a href=%3$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%4$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%5$s>Pogoji in določili China Unicom storitvi za preverjanje.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> ter &lt;a href=%3$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%4$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a>, &lt;a href=%3$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%4$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%5$s>Pogoji in določili China Mobile storitvi za preverjanje&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a>, &lt;a href=%3$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%4$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%5$s>Pogoji in določili storitvi za preverjanje računa eSurfing.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a>, &lt;a href=%3$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%4$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%5$s>Pogoji in določili China Unicom storitvi za preverjanje.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Če telefonsko številko uporabljate prvič, bomo samodejno ustvarili račun.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%3$s>Pogoji in določili China Mobile storitvi za preverjanje&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%3$s>Pogoji in določili storitvi za preverjanje računa eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%3$s>Pogoji in določili China Unicom storitvi za preverjanje&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%3$s>Pogoji in določili China Mobile storitvi za preverjanje&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%3$s>Pogoji in določili storitvi za preverjanje računa eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Prebral/-a sem in se strinjam z &lt;a href=%1$s>Uporabniškim dogovorom&lt;/a> in &lt;a href=%2$s>Pravilnikom o zasebnosti&lt;/a> za Xiaomi Račun, prav tako s &lt;a href=%3$s>Pogoji in določili China Unicom storitvi za preverjanje&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Zamenjaj fotografijo profila</string>
-    <string name="passport_user_avatar_uploading">Trenutek …</string>
+    <string name="passport_user_avatar_uploading">Trenutek…</string>
     <string name="passport_user_id_hint">E-poštni naslov/telefonska številka/ID Xiaomi Računa</string>
     <string name="passport_user_name_phone_number">Telefonska številka</string>
     <string name="passport_user_password_hint">Geslo</string>
-    <string name="passport_vcode_what_app_send_prompt">Vaša WhatsApp koda za preverjanje bo poslana na vaš telefon za obnovitev (&lt;font color=#1F93FF>%s&lt;/font>).</string>
+    <string name="passport_vcode_what_app_send_prompt">Vaša WhatsApp koda za preverjanje bo poslana na vašo telefonsko številko za obnovitev (&lt;font color=#1F93FF>%s&lt;/font>).</string>
     <string name="passport_wechat_not_install">Najprej namestite WeChat</string>
     <string name="passport_weibo_login_btn_content_description">Vpis z Weibo računom</string>
     <string name="passport_weixin_login_btn_content_description">Vpis z WeChat računom</string>
@@ -627,6 +650,7 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="permission_bluetooth">Dostop do stanja Bluetooth povezave</string>
     <string name="permission_bluetooth_dialog_description">Dovolite tej napravi, da se poveže z bližnjimi napravami, da lahko med predvajanjem posnetkov preklaplja med napravami.</string>
     <string name="permission_bluetooth_title">Zahtevana dovoljenja</string>
+    <string name="permission_camera_description">Za fotografiranje med snemanjem</string>
     <string name="permission_desc">Podrobnosti dovoljenja</string>
     <string name="permission_dialog_cancel">Prekliči</string>
     <string name="permission_dialog_ok">Nastavitve</string>
@@ -659,6 +683,10 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="preference_copied">»%1$s« je bilo kopirano v odložišče.</string>
     <string name="preference_enable_earpiece_summary">Predvajaj zvok preko zvočnika slušalke</string>
     <string name="preference_enable_earpiece_title">Način slušalke</string>
+    <string name="preference_group_title_for_ai_setting">AI funkcije</string>
+    <string name="preference_group_title_for_normal_setting">Splošno</string>
+    <string name="preference_key_ai_recognize">AI prepoznavanje govora</string>
+    <string name="preference_key_intelligent_polishing">Pametno poliranje</string>
     <string name="preference_led_indicator">Obvestila na Zaklenjenem zaslonu</string>
     <string name="preference_led_indicator_prompt">Med snemanjem prikaže modri kazalnik na Zaklenjenem zaslonu ter zabliska LED lučko</string>
     <string name="preference_record_desktop_indicator_summary">Med snemanjem prikaže modri kazalnik na Začetnem zaslonu</string>
@@ -677,6 +705,7 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="progress">Vrstica napredka predvajanja</string>
     <string name="progress_dialog_message">Prenašanje…</string>
     <string name="radio_tips">Snemalnik omogoča zvočni prepis, zvočne povzetke in drugo. Ta aplikacija mora za zagotavljanje teh storitev vzpostaviti povezavo z internetom.</string>
+    <string name="re_asr_error_tip">Prepisovanje ni uspelo. Poskusite ponovno.</string>
     <string name="recent_delete">Nedavno izbrisano</string>
     <string name="recent_delete_delete_all">Želite trajno izbrisati elemente zdaj?</string>
     <string name="recognition_button_add_to_queue">Dodaj v čakalno vrsto</string>
@@ -706,6 +735,7 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="recognition_process_dialog_title">Opravila v teku</string>
     <string name="recognition_stop_current">Ustavi tekoče opravilo</string>
     <string name="recognize_complete_toast">Prepis dokončan</string>
+    <string name="recognize_data_loading">Trenutek…</string>
     <string name="recognize_tip_part_one">"Prepisovanje ni dokončano. "</string>
     <string name="recognize_tip_part_two">Poskusite znova</string>
     <string name="recognizing_not_rename">Med snemanjem ni mogoče preimenovati</string>
@@ -787,6 +817,8 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="search_scenes">Tip posnetka</string>
     <string name="search_silent_mode">Izklopi zvonjenje med snemanjem</string>
     <string name="search_tip_rename">Ročno vnesite naziv posnetka</string>
+    <string name="searchview_clear_text_content_description">Počisti besedilo</string>
+    <string name="searchview_navigation_content_description">Nazaj</string>
     <string name="send">Pošlji</string>
     <string name="settings_ai_record_abstract">Povzemi</string>
     <string name="settings_ai_record_abstract_description">Povzemite temo in vsebino posnetka ter shranite povzetek v Beležke</string>
@@ -813,6 +845,7 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="shortcut_stop_record">Ustavi snemanje</string>
     <string name="show_text">Prikaži besedilo</string>
     <string name="show_wave">Prikaži glasovni odtis</string>
+    <string name="side_sheet_accessibility_pane_title">Stranski list</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Nastavitve</string>
     <string name="speaker">"Zvočnik "</string>
+    <string name="state_wait_recognize_tip">Najprej končaj trenutno transkripcijo…</string>
     <string name="status_bar_back">Dotaknite se za vrnitev na Snemalnik</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Snemanje…</string>
@@ -855,6 +889,7 @@ Tapnite »%1$s«, in potem izberite »%2$s«."</string>
     <string name="talkback_traslation_ai_recognize">Skrij besedilno polje</string>
     <string name="talkback_traslation_close">Ustavi prevajanje</string>
     <string name="text_btn_backward_3_seconds">%d sekunde nazaj</string>
+    <string name="text_btn_camera">Fotografiraj</string>
     <string name="text_btn_complete">Končano</string>
     <string name="text_btn_forward_3_seconds">%d sekunde naprej</string>
     <string name="text_btn_mark">Označi</string>
@@ -927,8 +962,11 @@ Trenutno zaustavljeno. Analiza se bo nadaljevala, ko naprave ne boste uporabljal
     <string name="tips_for_build_database">Naprava naj bo priključena na polnilnik. Ta posnetek bo hitreje analiziran, če bo zaslon izklopljen.</string>
     <string name="toast_enter_silent_mode">Snemanje. Tihi način je vklopljen.</string>
     <string name="toast_exit_silent_mode">Snemanje je končano. Tihi način je izklopljen.</string>
+    <string name="toast_for_no_asr_long_time">Govor ni bil zaznan. AI prepoznavanje govora se je ustavilo.</string>
+    <string name="toast_for_pause_record_long_time">Snemanje je zaustavljeno. AI prepoznavanje govora se je ustavilo.</string>
     <string name="toast_max_record_time">%1$s lahko snema za okoli %2$s</string>
     <string name="toast_stop">Snemanje končano</string>
+    <string name="toast_title_stop_ai_recognize">Ustavljeno AI prepoznavanje govora</string>
     <string name="toast_uninstall_fileexplorer">Upravitelj datotek ni nameščen</string>
     <string name="today">Danes</string>
     <string name="tomorrow">Jutri</string>

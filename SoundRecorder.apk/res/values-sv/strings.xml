@@ -4,7 +4,7 @@
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
     <string name="abc_action_mode_done">Klar</string>
-    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activity_chooser_view_see_all">Se alla</string>
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
@@ -34,9 +34,13 @@
     <string name="action_notes">Spara till Anteckningar</string>
     <string name="action_retry">Försök igen</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
+    <string name="add_mark">Markera</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="agree_description">Tillåt denna app att ansluta till internet för att kunna använda alla dess funktioner.</string>
     <string name="ai_recognition_other_speaker">(Någon annan talar)</string>
+    <string name="ai_recognize_fail">Det gick inte att transkribera</string>
+    <string name="ai_recognize_fail_tip">Kunde inte summera. Försök igen.</string>
+    <string name="ai_recognize_preference_summary">Transkribera automatiskt vid inspelning</string>
     <string name="ai_summary">AI-sammanfattning</string>
     <string name="ai_watermark">Det här innehållet är AI-genererat och är endast till för din referens.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Kan inte spela in medan mikrofonen används</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Diktafon</string>
     <string name="app_record">App-inspelningar</string>
     <string name="app_record_preference_title">Voice Call Recorder</string>
+    <string name="asr_in_progress">%s Transkriberar och sammanfattar</string>
+    <string name="asr_in_progress_with_polish">%s Polerar och sammanfattar</string>
+    <string name="asr_progress">Transkriberar ljud %s</string>
     <string name="back">Tillbaka</string>
     <string name="back_playback_position">Återgå till aktuell position</string>
-    <string name="bottomsheet_action_collapse">Visa inte nedre delen</string>
-    <string name="bottomsheet_action_expand">Expandera nedre delen</string>
-    <string name="bottomsheet_action_expand_halfway">Expandera till hälften</string>
-    <string name="bottomsheet_drag_handle_clicked">Drag-handtaget dubbeltryckt</string>
-    <string name="bottomsheet_drag_handle_content_description">Drag handtag</string>
+    <string name="bottomsheet_action_collapse">Komprimera arket på nedre delen av skärmen</string>
+    <string name="bottomsheet_action_expand">Utöka arket på nedre delen av skärmen</string>
+    <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
+    <string name="bottomsheet_drag_handle_clicked">Du tryckte snabbt två gånger på handtaget</string>
+    <string name="bottomsheet_drag_handle_content_description">Handtag</string>
     <string name="btn_continue_record_description">Återuppta inspelning</string>
     <string name="button_queue_for_wifi">Vänta</string>
     <string name="button_start_now">Ladda ner</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Tom</string>
     <string name="eras_ad">V.T.</string>
     <string name="eras_bc">F.V.T.</string>
+    <string name="error_a11y_label">Fel: ogiltigt</string>
     <string name="error_app_internal">Kontrollera om en annan app för närvarande använder inspelningsfunktionen.</string>
     <string name="error_app_internal_title">Ljudinspelnings fel</string>
     <string name="error_file_access">Filen finns inte eller har blivit skadad</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Använd inbyggd mikrofon</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
     <string name="icon_content_description">Dialogikon</string>
+    <string name="intelligent_polishing_preference_summary">Ta bort överflödigt och standardisera formatet för kinesiska</string>
     <string name="invisible_mode_dialog_message">Kan inte använda mikrofon när du är inkognito. Avaktivera inkognitoläge först.</string>
     <string name="invisible_mode_dialog_negative">Avbryt</string>
     <string name="invisible_mode_dialog_positive">Avaktivera</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Få åtkomst till alla filer</string>
     <string name="mark_add_toast">Lades till framgångsrikt</string>
     <string name="material_clock_toggle_content_description">Välj mellan FM och EM</string>
+    <string name="material_hour_24h_suffix">%1$s timmar</string>
     <string name="material_hour_selection">Ange timme</string>
     <string name="material_hour_suffix">Klockan %1$s</string>
     <string name="material_minute_selection">Välj minuter</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Huvudpunkter</string>
     <string name="morning">Morgon</string>
     <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
+    <string name="mtrl_checkbox_state_description_checked">Markerad</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Delvis markerad</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Inte markerad</string>
     <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Fler än %1$d nya aviseringar</string>
     <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
     <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
+    <string name="mtrl_picker_announce_current_range_selection">Val av startdatum: %1$s – val av slutdatum: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">inget</string>
+    <string name="mtrl_picker_cancel">Avbryt</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Välj datum</string>
     <string name="mtrl_picker_date_header_unselected">Valt datum</string>
-    <string name="mtrl_picker_day_of_week_column_header">Kolumn med dagar: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Slutdatum %1$s</string>
     <string name="mtrl_picker_invalid_format">Ogiltigt format.</string>
     <string name="mtrl_picker_invalid_format_example">Exempel: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Använd %1$s</string>
     <string name="mtrl_picker_invalid_range">Ogiltigt intervall.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Navigera till år %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigera till innevarande år %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigera till år %1$d</string>
     <string name="mtrl_picker_out_of_range">Utanför intervallet: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Startdatum–%1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s–slutdatum</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Välj intervall</string>
     <string name="mtrl_picker_range_header_unselected">Startdatum–slutdatum</string>
     <string name="mtrl_picker_save">Spara</string>
+    <string name="mtrl_picker_start_date_description">Startdatum %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Datum</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Slutdatum</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_today_description">Idag %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Byt till kalender som inmatningsläge</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tryck för att byta till kalendervy</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tryck för att byta till årsvy</string>
+    <string name="mtrl_timepicker_cancel">Avbryt</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="network_tip_dialog_cancel">Godkänn inte</string>
     <string name="network_tip_dialog_content">Inspelaren behöver ansluta till Internet för att den ska kunna fungera korrekt. Godkänn?</string>
     <string name="network_tip_dialog_ok">Godkänn</string>
@@ -439,7 +461,10 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="noon">Middagstid</string>
     <string name="not_allowed">Ej beviljat</string>
     <string name="not_set">Inte angett</string>
+    <string name="notice_btn_stop_ai_recognize">Stäng av</string>
+    <string name="notice_content_no_asr_long_time">Inget talk har detekterats under en längre tid.</string>
     <string name="notice_for_ai_search_tips">Detaljer</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Stäng av AI-röstigenkänning?</string>
     <string name="notification_message_all_paused">Väntar på Wi-Fi nätverk.</string>
     <string name="notification_pause_playback">Uppspelningen pausad</string>
     <string name="notification_playback">Spelar…</string>
@@ -447,18 +472,23 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="notification_recording_ticker">Telefon tystad</string>
     <string name="notification_save_as_complete">Sparad framgångsrikt</string>
     <string name="notification_stopped">Inspelningen stoppad</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Avslutade transkribering</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Kunde inte sammanfatta</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Avslutade sammanfattning</string>
     <string name="notification_title_all_paused">Nedladdning pausad</string>
+    <string name="nrt_asr_complete">Avslutade transkribering. Tryck för att uppdatera.</string>
     <string name="offline_recognize_transfer_format">Transkriberar…</string>
     <string name="online_recognize_progress">Transkriberar %s…</string>
     <string name="open_voice_enhancement">Förstärk</string>
     <string name="opened_voice_enhancement">Förstärkt röst är på</string>
+    <string name="pasport_register_dialog_message">Skapa ett Xiaomi-konto via ditt telefonnummer %s nu?</string>
     <string name="passport_access_denied">Åtkomst nekad</string>
     <string name="passport_account_crop_user_avatar">Beskär bild</string>
     <string name="passport_account_empty_user_name">Ange ditt namn</string>
     <string name="passport_account_error_all_space_user_name">Namn kan inte bara innehålla blanksteg</string>
     <string name="passport_account_error_invalid_user_name">Namn kan inte innehålla &lt;, > eller /</string>
-    <string name="passport_account_error_longer_user_name">"Name can't be longer than %d characters"</string>
-    <string name="passport_account_error_shorter_user_name">Name must be longer than %d characters</string>
+    <string name="passport_account_error_longer_user_name">Namnet får inte vara längre än %d tecken</string>
+    <string name="passport_account_error_shorter_user_name">Namnet måste vara längre än %d tecken</string>
     <string name="passport_account_error_user_name">Smeknamnet är inte giltigt. Försök med ett annat.</string>
     <string name="passport_account_invalid_user_avatar">Fotot är inte giltigt. Försök med ett annat.</string>
     <string name="passport_account_name">"Konto: %1$s "</string>
@@ -468,7 +498,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="passport_account_secure_info_pref_title">Kontoinformation</string>
     <string name="passport_account_security_info_pref_title">Säkerhetsinformation</string>
     <string name="passport_account_user_avatar">Profilbild</string>
-    <string name="passport_account_user_avatar_from_album">Galleri</string>
+    <string name="passport_account_user_avatar_from_album">Välj från Galleri</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Grundläggande information</string>
     <string name="passport_account_user_details">Personlig information</string>
@@ -482,7 +512,6 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="passport_agree">Samtyck</string>
     <string name="passport_area_code_title">Riksnummer</string>
     <string name="passport_attention">Observera</string>
-    <string name="passport_auth_fail_warning">Sessionen löpte ut. Logga in igen.</string>
     <string name="passport_back">Tillbaka</string>
     <string name="passport_bad_authentication">Ogiltigt användarnamn eller lösenord</string>
     <string name="passport_can_not_recevie_verify_code">Fick du inte en kod?</string>
@@ -504,11 +533,9 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="passport_doing_query_account">Kontrollerar kontoinfo…</string>
     <string name="passport_error_auth_fail">Sessionen löpte ut. Logga in igen.</string>
     <string name="passport_error_device_id">Det går inte att hämta enhets-ID</string>
-    <string name="passport_error_dup_binded_email">Denna e-postadress är redan kopplat till ett annat Xiaomi-konto.</string>
     <string name="passport_error_empty_password">Ange ditt lösenord</string>
     <string name="passport_error_empty_pwd">Lösenord får inte vara tomt</string>
     <string name="passport_error_empty_user_id">Ange ditt användarnamn</string>
-    <string name="passport_error_invalid_bind_address">Den e-postadress du angav är ogiltig.</string>
     <string name="passport_error_length_limit">Texten du angav är för lång</string>
     <string name="passport_error_network">Det går inte ansluta till nätverket</string>
     <string name="passport_error_no_password_user">Du har inte angett ett lösenord än. Logga in med SMS.</string>
@@ -524,17 +551,14 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="passport_error_unknown">Okänt fel</string>
     <string name="passport_error_user_name">Angivet användarnamn är inte giltigt</string>
     <string name="passport_error_user_password">Lösenorden matchar inte</string>
-    <string name="passport_exceed_binded_phone_times_notice">Detta telefonnummer är redan kopplat till ett annat Xiaomi-konto.</string>
     <string name="passport_facebook_login_btn_content_description">Logga in med Facebook</string>
     <string name="passport_frequency_try_later">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="passport_get_login_type_next">Nästa</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">För många verifieringskoder har skickats till detta nummer. Vänta 24 timmar och försök igen.</string>
     <string name="passport_google_login_btn_content_description">Logga in med Google</string>
     <string name="passport_help">Hjälp</string>
     <string name="passport_i_know">Jag förstår</string>
     <string name="passport_identification_expired">Verifieringkod har gått ut. Börja om.</string>
     <string name="passport_input_captcha_hint">Ange kod</string>
-    <string name="passport_input_email_address_notice">Vi använder den här e-postadressen för att verifiera ditt konto</string>
     <string name="passport_input_password_hint">Ange lösenord</string>
     <string name="passport_input_phone_number_hint">Ange telefonnummer</string>
     <string name="passport_input_verify_code">Ange verifikationskod</string>
@@ -546,7 +570,6 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="passport_login_register_by_local_phone_long_text">Skapa konto</string>
     <string name="passport_login_with_sns">Andra sätt att logga in</string>
     <string name="passport_logout_account">Logga ut</string>
-    <string name="passport_mi_account_first_title">Vi kommer att skapa ett konto automatiskt om du använder ditt telefonnummer för första gången.</string>
     <string name="passport_mi_account_title">Logga in med Xiaomi-konto</string>
     <string name="passport_network_error">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="passport_network_error_hint">Kontrollera URL:en och försök igen, eller kopiera URL:n och öppna den i din webbläsare.</string>
@@ -555,6 +578,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="passport_no_account">Inte inloggad</string>
     <string name="passport_open_settings">Inställningar</string>
     <string name="passport_page_load_failed">Kan inte öppna sida</string>
+    <string name="passport_password_hide_show">Dölj lösenord</string>
     <string name="passport_password_login_btn">Logga in</string>
     <string name="passport_password_not_show">Visa inte lösenord</string>
     <string name="passport_password_show">Visa lösenord</string>
@@ -566,6 +590,8 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="passport_reging">Skapar konto…</string>
     <string name="passport_register_by_local_phone_long_text">Skapa konto</string>
     <string name="passport_register_by_local_phone_short_text">Skapa konto</string>
+    <string name="passport_register_dialog_positive">Skapa</string>
+    <string name="passport_register_dialog_title">Skapa ett Xiaomi-konto</string>
     <string name="passport_register_restricted">För många konton har associerats med detta nummer. Välj ett annat.</string>
     <string name="passport_relogin_notice">Du måste logga in igen</string>
     <string name="passport_request_agree">Tillåt</string>
@@ -574,40 +600,37 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="passport_request_error_invalid_token">Kunde inte verifiera</string>
     <string name="passport_request_error_network">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
     <string name="passport_request_error_unknown">Ett systemfel uppstod. Gå tillbaka och försök igen.</string>
-    <string name="passport_request_gallery_permission_message">Tillåt åtkomst till Galleri:&lt;br />För angivelse av profilbilder</string>
-    <string name="passport_resend_email_reach_limit_message">Du har begärt för många verifieringsmeddelanden. Kontrollera att verifieringsmeddelandet inte ligger i din e-posts skräpkorg.</string>
-    <string name="passport_resend_email_reach_limit_title">Alltför många försök</string>
+    <string name="passport_request_gallery_permission_message">Den här appen behöver åtkomst till valda galleri-objekt för att kunna lägga till ditt profilbild. Tillåt nu?</string>
+    <string name="passport_request_permission_title">Behörigheter krävs</string>
     <string name="passport_resend_ticket">Skicka koden igen</string>
     <string name="passport_retry">Försök igen</string>
-    <string name="passport_same_new_and_old_pwd">Kan inte vara samma som nuvarande lösenord</string>
     <string name="passport_send_sms_to">Koden skickades till %1$s</string>
     <string name="passport_send_too_many_code">För många verifieringskoder har skickats till detta nummer. Vänta 24 timmar och försök igen.</string>
     <string name="passport_sending_vcode">Skickar kod…</string>
-    <string name="passport_service_error">Serverfel</string>
     <string name="passport_set_password_no_phone_msg">Lägg till ditt telefonnummer för att skydda ditt konto.</string>
     <string name="passport_skip_query_account">Hoppa över</string>
-    <string name="passport_sns_access_token_expired_warning">Sessionen har gått ut. Logga in igen för att återansluta det här kontot.</string>
     <string name="passport_sns_bind_limit">För många försök. Försök att logga in på andra sätt.</string>
     <string name="passport_system_error">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="passport_talkback_image_captcha">Bildverifieringskod</string>
     <string name="passport_talkback_switch_image_captcha">Byt till bildverifieringskod</string>
     <string name="passport_talkback_switch_voice_captcha">Byt till röstverifieringskod</string>
     <string name="passport_talkback_voice_captcha">Spela upp koden för röstverifiering</string>
+    <string name="passport_third_sns_service_unavailable">Tjänsten finns inte tillgänglig. Kontrollera att appen är installerad och inte blockerad.</string>
     <string name="passport_ticket_send_by_second">Skicka om %d</string>
     <string name="passport_to_forget_password">Glömt lösenord?</string>
     <string name="passport_to_password_login">Logga in med lösenord</string>
     <string name="passport_to_verify_code_login">Logga in med SMS</string>
     <string name="passport_unknown_error">Okänt fel</string>
     <string name="passport_unknown_host_network_error">Kontrollera dina nätverksinställningar och försök igen</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a> samt Xiaomi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicy&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a> samt Xiaomi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicy&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>Integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Mobile verifieringstjänster&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för eSurfing kontoverifieringstjänster&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Jag har läst och godkänt &lt;a href=%1$s>användaravtal&lt;/a> och &lt;a href=%2$s>integritetspolicy&lt;/a>, Xiaomi-kontots &lt;a href=%3$s>användaravtal&lt;/a> och &lt;a href=%4$s>integritetspolicy&lt;/a>, likväl som &lt;a href=%5$s>regler och villkor för China Unicom verifieringstjänster&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Vi kommer att skapa ett konto automatiskt om du använder ditt telefonnummer för första gången.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> and &lt;a href=%2$s>Integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Mobile verifikationstjänster&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för e-Surfing-kontots verifieringstjänster&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s> regler och villkor för China Unicom verifieringstjänster&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> and &lt;a href=%2$s>Integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för China Mobile verifikationstjänster&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s>regler och villkor för e-Surfing-kontots verifieringstjänster&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Jag har läst och godkänt Xiaomi-kontots &lt;a href=%1$s>Användaravtal&lt;/a> och &lt;a href=%2$s>Integritetspolicy&lt;/a>, likväl som &lt;a href=%3$s> regler och villkor för China Unicom verifieringstjänster&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Ändra profilbild</string>
     <string name="passport_user_avatar_uploading">Vänta en stund…</string>
     <string name="passport_user_id_hint">E-post/Telefonnummer/Xiaomi-kontoid</string>
@@ -627,6 +650,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="permission_bluetooth">Anslutningsstatus för åtkomst av Bluetooth</string>
     <string name="permission_bluetooth_dialog_description">Tillåt den att den här enheten ansluter till närliggande enheter för att kunna byta enheter när du spelar upp inspelningar.</string>
     <string name="permission_bluetooth_title">Behörigheter krävs</string>
+    <string name="permission_camera_description">För att ta foton vid inspelning</string>
     <string name="permission_desc">Behörighetsuppgifter</string>
     <string name="permission_dialog_cancel">Avbryt</string>
     <string name="permission_dialog_ok">Inställningar</string>
@@ -659,6 +683,10 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="preference_enable_earpiece_summary">Spela ljud med hörlurshögtalaren</string>
     <string name="preference_enable_earpiece_title">Hörlursläge</string>
+    <string name="preference_group_title_for_ai_setting">AI-funktioner</string>
+    <string name="preference_group_title_for_normal_setting">Allmän</string>
+    <string name="preference_key_ai_recognize">AI-röstigenkänning</string>
+    <string name="preference_key_intelligent_polishing">Smart polering</string>
     <string name="preference_led_indicator">Notifikationer på Låsskärmen</string>
     <string name="preference_led_indicator_prompt">Visa en blå indikator på Låsskärmen och blinka med LED-lampan under inspelning</string>
     <string name="preference_record_desktop_indicator_summary">Visa en blå indikator på Hemskärmen under inspelning</string>
@@ -677,6 +705,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="progress">Förloppsindikator för uppspelning</string>
     <string name="progress_dialog_message">Laddar ned…</string>
     <string name="radio_tips">Diktafonen tillhandahåller ljudtranskriptioner, ljudsammanfattningar med mera. Den här appen behöver ansluta till internet för att tillhandahålla dessa tjänster.</string>
+    <string name="re_asr_error_tip">Kunde inte transkribera. Försök igen.</string>
     <string name="recent_delete">Nyligen raderade</string>
     <string name="recent_delete_delete_all">Radera alla objekt permanent nu?</string>
     <string name="recognition_button_add_to_queue">Lägg till i kön</string>
@@ -706,6 +735,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="recognition_process_dialog_title">Pågående aktiviteter</string>
     <string name="recognition_stop_current">Stoppa pågående åtgärd</string>
     <string name="recognize_complete_toast">Transkribering genomförd</string>
+    <string name="recognize_data_loading">Vänta en stund…</string>
     <string name="recognize_tip_part_one">"Avslutade inte transkribering. "</string>
     <string name="recognize_tip_part_two">Försök igen</string>
     <string name="recognizing_not_rename">Kan inte döpa om under inspelning</string>
@@ -787,6 +817,8 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="search_scenes">Inspelningstyp</string>
     <string name="search_silent_mode">Tysta ringsignal under inspelning</string>
     <string name="search_tip_rename">Namnge inspelningar manuellt</string>
+    <string name="searchview_clear_text_content_description">Rensa text</string>
+    <string name="searchview_navigation_content_description">Tillbaka</string>
     <string name="send">Skicka</string>
     <string name="settings_ai_record_abstract">Sammanfatta</string>
     <string name="settings_ai_record_abstract_description">Sammanfattar ämnen och innehåll av en inspelning och spara sammanfattningen till Anteckningar</string>
@@ -813,6 +845,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="shortcut_stop_record">Stoppa inspelningen</string>
     <string name="show_text">Visa text</string>
     <string name="show_wave">Visa röstprofil</string>
+    <string name="side_sheet_accessibility_pane_title">Ark på sidan av skärmen</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Inställningar</string>
     <string name="speaker">"Talare "</string>
+    <string name="state_wait_recognize_tip">Avsluta aktuell transkription först…</string>
     <string name="status_bar_back">Tryck för att återgå till Recorder</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Inspelning…</string>
@@ -855,6 +889,7 @@ Tryck på \"%1$s\", och välj sedan \"%2$s\"."</string>
     <string name="talkback_traslation_ai_recognize">Dölj textruta</string>
     <string name="talkback_traslation_close">Sluta att översätt</string>
     <string name="text_btn_backward_3_seconds">%d sekunder bakåt</string>
+    <string name="text_btn_camera">Ta ett foto</string>
     <string name="text_btn_complete">Stoppa</string>
     <string name="text_btn_forward_3_seconds">%d sekunder framåt</string>
     <string name="text_btn_mark">Markera</string>
@@ -927,8 +962,11 @@ Pausat nu. Analysen kommer att fortsätta när du inte använder din enhet."</st
     <string name="tips_for_build_database">Ha din enhet ansluten till laddaren. Analysen av den här inspelningen går fortare när skärmen är av.</string>
     <string name="toast_enter_silent_mode">Inspelning. Tyst läge är aktiverat.</string>
     <string name="toast_exit_silent_mode">Inspelningen avslutad. Tyst läge är avaktiverat.</string>
+    <string name="toast_for_no_asr_long_time">Inget tal detekterat. AI-röstigenkänning har avslutats.</string>
+    <string name="toast_for_pause_record_long_time">Inspelning pausad. AI-röstigenkänning har avslutats.</string>
     <string name="toast_max_record_time">%1$s kan spela in för ca %2$s</string>
     <string name="toast_stop">Inspelningen slutförd</string>
+    <string name="toast_title_stop_ai_recognize">Avslutade AI-röstigenkänning</string>
     <string name="toast_uninstall_fileexplorer">Utforskaren är inte installerad</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>

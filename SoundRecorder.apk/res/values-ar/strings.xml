@@ -34,9 +34,13 @@
     <string name="action_notes">حفظ في الملاحظات</string>
     <string name="action_retry">حاول مجددا</string>
     <string name="actionbar_button_up_description">رجوع</string>
+    <string name="add_mark">علامة</string>
     <string name="afternoon">بعد الظهر</string>
     <string name="agree_description">اسمح لهذا التطبيق بالاتصال بالإنترنت ليتمكن من استخدام جميع مميزاته.</string>
     <string name="ai_recognition_other_speaker">(شخص آخر تكلم)</string>
+    <string name="ai_recognize_fail">تعذر التحويل إلى نصوص</string>
+    <string name="ai_recognize_fail_tip">لم أتمكن من التلخيص. حاول مرة أخرى.</string>
+    <string name="ai_recognize_preference_summary">نسخ تلقائي عند التسجيل</string>
     <string name="ai_summary">ملخص AI</string>
     <string name="ai_watermark">تم إنشاء هذا المحتوى بواسطة الذكاء الاصطناعي ويعتبر فقط كمرجع لك.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">لا يمكن التسجيل عند استخدام الميكروفون</string>
@@ -65,12 +69,15 @@
     <string name="app_name">المسجل</string>
     <string name="app_record">تسجيلات التطبيق</string>
     <string name="app_record_preference_title">مسجل المكالمات الصوتية</string>
+    <string name="asr_in_progress">%s النسخ والتلخيص</string>
+    <string name="asr_in_progress_with_polish">%s التلميع والتلخيص</string>
+    <string name="asr_progress">نسخ الصوت %s</string>
     <string name="back">رجوع</string>
     <string name="back_playback_position">العودة إلى الوضع الحالي</string>
-    <string name="bottomsheet_action_collapse">أغلاق الورقة السفلية</string>
-    <string name="bottomsheet_action_expand">فتح الورقة السفلية</string>
-    <string name="bottomsheet_action_expand_halfway">توسيع الى المنتصف</string>
-    <string name="bottomsheet_drag_handle_clicked">مقبض السحب يتم النقر عليه مرتين</string>
+    <string name="bottomsheet_action_collapse">تصغير البطاقة السفلية</string>
+    <string name="bottomsheet_action_expand">توسيع البطاقة السفلية</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="bottomsheet_drag_handle_clicked">تم النقر مرّتين على مقبض السحب.</string>
     <string name="bottomsheet_drag_handle_content_description">مقبض السحب</string>
     <string name="btn_continue_record_description">استئناف التسجيل</string>
     <string name="button_queue_for_wifi">انتظر</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">فارغ</string>
     <string name="eras_ad">بعد الميلاد</string>
     <string name="eras_bc">قبل الميلاد</string>
+    <string name="error_a11y_label">خطأ: غير صالح</string>
     <string name="error_app_internal">تحقق إذا كان هناك تطبيق آخر يستخدم ميزة التسجيل.</string>
     <string name="error_app_internal_title">خطأ في مسجل الصوت</string>
     <string name="error_file_access">الملف غير موجود أو تم إتلافه</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">استخدام mic الداخلي</string>
     <string name="high_bit_rate">MP3، ~%1$d كيلوبت/ثانية، ~%2$d ميجابايت/ساعة</string>
     <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="intelligent_polishing_preference_summary">إزالة التكرارات وتوحيد التنسيق للغة الصينية</string>
     <string name="invisible_mode_dialog_message">لا يمكن استخدام الميكروفون وأنت في وضع التصفح المتخفي. قم بإيقاف وضع التصفح المخفي أولاً.</string>
     <string name="invisible_mode_dialog_negative">إلغاء</string>
     <string name="invisible_mode_dialog_positive">إيقاف</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">الوصول إلى جميع الملفات</string>
     <string name="mark_add_toast">تمت الإضافة بنجاح</string>
     <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_24h_suffix">%1$s ساعة</string>
     <string name="material_hour_selection">تحديد الساعة</string>
     <string name="material_hour_suffix">الساعة %1$s</string>
     <string name="material_minute_selection">تحديد الدقائق</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">النقاط الرئيسية</string>
     <string name="morning">الصباح</string>
     <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_checkbox_state_description_checked">تم وضع علامة في المربّع</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">يجوز أنه تم وضع علامة في المربّع</string>
+    <string name="mtrl_checkbox_state_description_unchecked">لم يتم وضع علامة في المربّع</string>
     <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
     <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
     <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_range_selection">اختيار تاريخ البدء: %1$s – اختيار تاريخ الانتهاء: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">بلا</string>
+    <string name="mtrl_picker_cancel">إلغاء</string>
+    <string name="mtrl_picker_confirm">حسنًا</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
     <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
-    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">تاريخ الانتهاء: %1$s</string>
     <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
     <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
     <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
-    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">الانتقال إلى السنة الحالية %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$d</string>
     <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
     <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
     <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_start_date_description">تاريخ البدء: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
     <string name="mtrl_picker_text_input_day_abbr">ي</string>
     <string name="mtrl_picker_text_input_month_abbr">ش</string>
     <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_today_description">اليوم %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
-    <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
+    <string name="mtrl_picker_toggle_to_day_selection">يمكنك النقر للتبديل إلى عرض \"تقويم Google\".</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
-    <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="mtrl_picker_toggle_to_year_selection">يمكنك النقر للتبديل إلى عرض السنة.</string>
+    <string name="mtrl_timepicker_cancel">إلغاء</string>
+    <string name="mtrl_timepicker_confirm">حسنًا</string>
     <string name="network_tip_dialog_cancel">لا أوافق</string>
     <string name="network_tip_dialog_content">يحتاج تطبيق التسجيل الاتصال بالإنترنت ليعمل بشكل طبيعي. هل توافق؟</string>
     <string name="network_tip_dialog_ok">أوافق</string>
@@ -439,7 +461,10 @@
     <string name="noon">الظهر</string>
     <string name="not_allowed">غير ممنوح</string>
     <string name="not_set">لم يتمّ تحديد قيمة.</string>
+    <string name="notice_btn_stop_ai_recognize">إيقاف</string>
+    <string name="notice_content_no_asr_long_time">لم يتم الكشف عن أي خطاب لفترة طويلة.</string>
     <string name="notice_for_ai_search_tips">تفاصيل</string>
+    <string name="notice_title_is_need_stop_ai_recognize">إيقاف تشغيل التعرف على الكلام بواسطة AI؟</string>
     <string name="notification_message_all_paused">جارٍ انتظار الاتصال بشبكة Wi-Fi.</string>
     <string name="notification_pause_playback">تم إيقاف التشغيل مؤقتًا</string>
     <string name="notification_playback">جارٍ التشغيل…</string>
@@ -447,11 +472,16 @@
     <string name="notification_recording_ticker">تم كتم صوت الهاتف</string>
     <string name="notification_save_as_complete">تم الحفظ بنجاح</string>
     <string name="notification_stopped">توقف التسجيل</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">تم الانتهاء من النسخ</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">تعذر التلخيص</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">انتهى التلخيص</string>
     <string name="notification_title_all_paused">تم إيقاف التنزيل مؤقتاً</string>
+    <string name="nrt_asr_complete">تم الانتهاء من النسخ. انقر للتحديث.</string>
     <string name="offline_recognize_transfer_format">جارٍ التحويل إلى نصوص…</string>
     <string name="online_recognize_progress">جارٍ التحويل إلى نصوص%s…</string>
     <string name="open_voice_enhancement">تحسين الصوت</string>
     <string name="opened_voice_enhancement">تم تفعيل الصوت المعزز</string>
+    <string name="pasport_register_dialog_message">هل ترغب في إنشاء حساب Mi باستخدام رقم الهاتف %s الآن؟</string>
     <string name="passport_access_denied">تم رفض الدخول</string>
     <string name="passport_account_crop_user_avatar">قص الصورة</string>
     <string name="passport_account_empty_user_name">أدخل اسمك</string>
@@ -468,7 +498,7 @@
     <string name="passport_account_secure_info_pref_title">معلومات الحساب</string>
     <string name="passport_account_security_info_pref_title">معلومات الحماية</string>
     <string name="passport_account_user_avatar">صورة الملف الشخصي</string>
-    <string name="passport_account_user_avatar_from_album">المعرض</string>
+    <string name="passport_account_user_avatar_from_album">تحديد من المعرض</string>
     <string name="passport_account_user_avatar_from_camera">الكاميرا</string>
     <string name="passport_account_user_base_info">المعلومات الأساسية</string>
     <string name="passport_account_user_details">المعلومات الشخصية</string>
@@ -482,7 +512,6 @@
     <string name="passport_agree">أوافق</string>
     <string name="passport_area_code_title">رمز المنطقة</string>
     <string name="passport_attention">تنبيه</string>
-    <string name="passport_auth_fail_warning">انتهت الجلسة. سجل الدخول مرة أخرى.</string>
     <string name="passport_back">رجوع</string>
     <string name="passport_bad_authentication">اسم المستخدم أو كلمة المرور غير صحيحة</string>
     <string name="passport_can_not_recevie_verify_code">لم استلم إي رمز؟</string>
@@ -504,11 +533,9 @@
     <string name="passport_doing_query_account">جارٍ التحقق من معلومات الحساب…</string>
     <string name="passport_error_auth_fail">انتهت الجلسة. سجل الدخول مرة أخرى.</string>
     <string name="passport_error_device_id">تعذر الحصول على معرف الجهاز</string>
-    <string name="passport_error_dup_binded_email">عنوان البريد الإلكتروني هذا مرتبط مسبقا بحساب Mi آخر.</string>
     <string name="passport_error_empty_password">ادخل كلمة المرور</string>
     <string name="passport_error_empty_pwd">لا يمكن أن تكون كلمة المرور فارغة</string>
     <string name="passport_error_empty_user_id">ادخل اسم المستخدم</string>
-    <string name="passport_error_invalid_bind_address">عنوان البريد الإلكتروني الذي أدخلتة غير صالح.</string>
     <string name="passport_error_length_limit">النص طويل جدا</string>
     <string name="passport_error_network">تعذر الاتصال بالشبكة</string>
     <string name="passport_error_no_password_user">لم تقم بتعيين كلمة المرور حتى الآن. تسجيل الدخول باستخدام SMS.</string>
@@ -524,17 +551,14 @@
     <string name="passport_error_unknown">خطأ غير معروف</string>
     <string name="passport_error_user_name">اسم المستخدم الذي أدخلته غير صالح</string>
     <string name="passport_error_user_password">كلمة المرور غير متطابقة</string>
-    <string name="passport_exceed_binded_phone_times_notice">تم ربط رقم الهاتف هذا مسبقا بحساب Mi آخر.</string>
     <string name="passport_facebook_login_btn_content_description">تسجيل الدخول بالفيسبوك</string>
     <string name="passport_frequency_try_later">محاولات كثيرة. انتظر دقيقة أو دقيقتين ثم حاول مجددا.</string>
     <string name="passport_get_login_type_next">التالي</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">تم إرسال الكثير من رموز التحقق إلى هذا الرقم. انتظر 24 ساعة ثم حاول مرة أخرى.</string>
     <string name="passport_google_login_btn_content_description">تسجيل الدخول بـ Google</string>
     <string name="passport_help">المساعدة</string>
     <string name="passport_i_know">حسنا</string>
     <string name="passport_identification_expired">انتهت صلاحية رمز التحقق، ابدأ من جديد.</string>
     <string name="passport_input_captcha_hint">أدخل الرمز</string>
-    <string name="passport_input_email_address_notice">سيتم استخدام هذا البريد الإلكتروني لتحقق من حسابك</string>
     <string name="passport_input_password_hint">ادخل كلمة المرور</string>
     <string name="passport_input_phone_number_hint">أدخل رقم الهاتف</string>
     <string name="passport_input_verify_code">أدخل رمز التحقق</string>
@@ -546,7 +570,6 @@
     <string name="passport_login_register_by_local_phone_long_text">إنشاء حساب</string>
     <string name="passport_login_with_sns">طرق أخرى لتسجيل الدخول</string>
     <string name="passport_logout_account">تسجيل الخروج</string>
-    <string name="passport_mi_account_first_title">سيتم إنشاء حساب تلقائي في المرة الأولى التي تستخدم فيها رقم هاتفك.</string>
     <string name="passport_mi_account_title">تسجيل الدخول باستخدام حساب Mi</string>
     <string name="passport_network_error">حدث خطأ ما. تحقق من إعدادات الشبكة ثم حاول مجددا.</string>
     <string name="passport_network_error_hint">يرجى التحقق من عنوان URL والمحاولة مرة أخرى، أو نسخ وفتح URL في المتصفح.</string>
@@ -555,6 +578,7 @@
     <string name="passport_no_account">لم تسجل الدخول</string>
     <string name="passport_open_settings">الإعدادات</string>
     <string name="passport_page_load_failed">لا يمكن فتح الصفحة</string>
+    <string name="passport_password_hide_show">إخفاء كلمة المرور</string>
     <string name="passport_password_login_btn">تسجيل الدخول</string>
     <string name="passport_password_not_show">أخفاء كلمة المرور</string>
     <string name="passport_password_show">إظهار كلمة المرور</string>
@@ -566,6 +590,8 @@
     <string name="passport_reging">جارٍ إنشاء الحساب…</string>
     <string name="passport_register_by_local_phone_long_text">إنشاء حساب</string>
     <string name="passport_register_by_local_phone_short_text">إنشاء حساب</string>
+    <string name="passport_register_dialog_positive">إنشاء</string>
+    <string name="passport_register_dialog_title">إنشاء حساب Mi</string>
     <string name="passport_register_restricted">تم ربط الكثير من الحسابات بهذا الرقم، حاول استخدام رقم آخر.</string>
     <string name="passport_relogin_notice">تحتاج إلى تسجيل الدخول مرة أخرى</string>
     <string name="passport_request_agree">سماح</string>
@@ -574,40 +600,37 @@
     <string name="passport_request_error_invalid_token">تعذر التحقق</string>
     <string name="passport_request_error_network">حدث خطأ ما. تحقق من إعدادات الشبكة ثم حاول مجددا.</string>
     <string name="passport_request_error_unknown">حدث خطأ ما في النظام، يرجى الرجوع والمحاولة مجددا.</string>
-    <string name="passport_request_gallery_permission_message">اسمح بالوصول إلى المعرض:&lt;br />لتعيين صورة الملف الشخصي</string>
-    <string name="passport_resend_email_reach_limit_message">لقد قمت بطلب الكثير من رسائل التحقق إلى البريد الإلكتروني. تأكد من أن رسالة التحقق ليست في مجلد البريد المزعج.</string>
-    <string name="passport_resend_email_reach_limit_title">محاولات كثيرة جدا</string>
+    <string name="passport_request_gallery_permission_message">يحتاج هذا التطبيق إلى الوصول إلى عناصر المعرض المحددة ليتمكن من تعيين صورة ملفك الشخصي. السماح الآن؟</string>
+    <string name="passport_request_permission_title">الأذونات المطلوبة</string>
     <string name="passport_resend_ticket">إعادة إرسال</string>
     <string name="passport_retry">حاول مجدداً</string>
-    <string name="passport_same_new_and_old_pwd">لا يمكن أن تكون نفس كلمة المرور الحالية</string>
     <string name="passport_send_sms_to">تم إرسال الرمز إلى %1$s</string>
     <string name="passport_send_too_many_code">تم إرسال الكثير من رموز التحقق إلى هذا الرقم. انتظر ٢٤ ساعة ثم حاول مرة أخرى.</string>
     <string name="passport_sending_vcode">جار إرسال الرمز…</string>
-    <string name="passport_service_error">خطأ في الخادم</string>
     <string name="passport_set_password_no_phone_msg">قم بإضافة رقم هاتفك لحماية حسابك.</string>
     <string name="passport_skip_query_account">تخطي</string>
-    <string name="passport_sns_access_token_expired_warning">انتهت الصلاحية. أعد تسجيل الدخول للاتصال بهذا الحساب.</string>
     <string name="passport_sns_bind_limit">محاولات كثيرة جداً. حاول استخدام طريقة أخرى لتسجيل الدخول.</string>
     <string name="passport_system_error">النظام مشغول. انتظر دقيقة أو دقيقتين ثم حاول مجددا.</string>
     <string name="passport_talkback_image_captcha">رمز التحقق من الصورة</string>
     <string name="passport_talkback_switch_image_captcha">التبديل إلى رمز التحقق من الصورة</string>
     <string name="passport_talkback_switch_voice_captcha">التبديل إلى رمز التحقق الصوتي</string>
     <string name="passport_talkback_voice_captcha">تشغيل رمز التحقق الصوتي</string>
+    <string name="passport_third_sns_service_unavailable">الخدمة غير متوفرة. تأكد من تثبيت التطبيق وعدم حظره.</string>
     <string name="passport_ticket_send_by_second">إرسال في %d</string>
     <string name="passport_to_forget_password">نسيت كلمة المرور؟</string>
     <string name="passport_to_password_login">تسجيل الدخول باستخدام كلمة المرور</string>
     <string name="passport_to_verify_code_login">تسجيل الدخول عبر SMS</string>
     <string name="passport_unknown_error">خطأ غير معروف</string>
     <string name="passport_unknown_host_network_error">تحقق من إعدادات الشبكة ثم حاول مجددا</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a> و&lt;a href=%3$s>اتفاقية مستخدم&lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a>؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%5$s>أحكام وشروط خدمات التحقق لتشاينا موبايل&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a>؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%5$s>أحكام وشروط خدمات التحقق لحساب eSurfing .&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a>؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وكذلك &lt;a href=%5$s>أحكام وشروط خدمات التحقق لتشاينا يونيكوم.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و &lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a> و&lt;a href=%3$s>اتفاقية مستخدم&lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a>؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%5$s>أحكام وشروط خدمات التحقق لتشاينا موبايل&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a>؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%5$s>أحكام وشروط خدمات التحقق لحساب eSurfing .&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a>؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وكذلك &lt;a href=%5$s>أحكام وشروط خدمات التحقق لتشاينا يونيكوم.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و &lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi.</Data></string>
     <string name="passport_user_agreement_hint_first_login">سيتم إنشاء حساب تلقائي في المرة الأولى التي تستخدم فيها رقم هاتفك.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a>؛ وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لتشاينا موبايل.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و&lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi، وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لحساب eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و &lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لتشاينا يونيكوم.&lt;/a>&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a>؛ وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لتشاينا موبايل.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و&lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi، وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لحساب eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>لقد قرأت ووافقت على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و &lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لتشاينا يونيكوم.&lt;/a></Data></string>
     <string name="passport_user_avatar_update_title">تغيير صورة الملف الشخصي</string>
     <string name="passport_user_avatar_uploading">لحظة من فضلك…</string>
     <string name="passport_user_id_hint">البريد الإلكتروني/رقم الهاتف/معرف حساب Mi</string>
@@ -627,6 +650,7 @@
     <string name="permission_bluetooth">الوصول إلى حالة اتصال البلوتوث</string>
     <string name="permission_bluetooth_dialog_description">اسمح لهذا الجهاز بالاتصال بالأجهزة القريبة ليتمكن من تبديل الأجهزة عند تشغيل التسجيلات.</string>
     <string name="permission_bluetooth_title">الأذونات مطلوبة</string>
+    <string name="permission_camera_description">لالتقاط الصور أثناء التسجيل</string>
     <string name="permission_desc">تفاصيل الأذونات</string>
     <string name="permission_dialog_cancel">إلغاء</string>
     <string name="permission_dialog_ok">الإعدادات</string>
@@ -659,6 +683,10 @@
     <string name="preference_copied">تم نسخ \"%1$s\" إلى الحافظة.</string>
     <string name="preference_enable_earpiece_summary">تشغيل الصوت بإستخدام سماعة الأذن</string>
     <string name="preference_enable_earpiece_title">وضع سماعة المكالمات</string>
+    <string name="preference_group_title_for_ai_setting">ميزات AI</string>
+    <string name="preference_group_title_for_normal_setting">عام</string>
+    <string name="preference_key_ai_recognize">التعرف الصوتي AI</string>
+    <string name="preference_key_intelligent_polishing">تلميع ذكي</string>
     <string name="preference_led_indicator">إشعارات قفل الشاشة</string>
     <string name="preference_led_indicator_prompt">إظهار مؤشر أزرق على شاشة القفل ووميض ضوء LED أثناء التسجيل</string>
     <string name="preference_record_desktop_indicator_summary">إظهار مؤشر أزرق على الشاشة الرئيسية أثناء التسجيل</string>
@@ -677,6 +705,7 @@
     <string name="progress">شريط تقدم التشغيل</string>
     <string name="progress_dialog_message">جاري التنزيل…</string>
     <string name="radio_tips">يوفر لك المسجل ميزات الترجمة الصوتية إلى نص وترجمته وتلخيصه والمزيد. يحتاج هذا التطبيق إلى الاتصال بالإنترنت لتوفير هذه الخدمات.</string>
+    <string name="re_asr_error_tip">لم أتمكن من النسخ. حاول مرة أخرى.</string>
     <string name="recent_delete">تم الحذف مؤخرا</string>
     <string name="recent_delete_delete_all">حذف جميع العناصر نهائيًا الآن؟</string>
     <string name="recognition_button_add_to_queue">إضافة إلى قائمة الانتظار</string>
@@ -706,6 +735,7 @@
     <string name="recognition_process_dialog_title">المهام الحالية</string>
     <string name="recognition_stop_current">إيقاف المهام الحالية</string>
     <string name="recognize_complete_toast">اكتمل النسخ</string>
+    <string name="recognize_data_loading">لحظة من فضلك…</string>
     <string name="recognize_tip_part_one">"لم يكتمل نسخ التسجيل. "</string>
     <string name="recognize_tip_part_two">حاول مجدداََ</string>
     <string name="recognizing_not_rename">لا يمكن إعادة التسمية أثناء التسجيل</string>
@@ -787,6 +817,8 @@
     <string name="search_scenes">نوع التسجيل</string>
     <string name="search_silent_mode">كتم الرنين أثناء التسجيل</string>
     <string name="search_tip_rename">تسمية التسجيلات يدوياً</string>
+    <string name="searchview_clear_text_content_description">محو النص</string>
+    <string name="searchview_navigation_content_description">رجوع</string>
     <string name="send">مشاركة</string>
     <string name="settings_ai_record_abstract">تلخيص</string>
     <string name="settings_ai_record_abstract_description">قم بتلخيص موضوع ومحتوى الإدخال واحفظ الملخص تلقائيًا في تطبيق الملاحظات</string>
@@ -813,6 +845,7 @@
     <string name="shortcut_stop_record">إيقاف التسجيل</string>
     <string name="show_text">إظهار النص</string>
     <string name="show_wave">إظهار بصمة الصوت</string>
+    <string name="side_sheet_accessibility_pane_title">ورقة جانبية</string>
     <string name="size_byte">بايت</string>
     <string name="size_giga_byte">جيجابايت</string>
     <string name="size_kilo_byte">كيلوبايت</string>
@@ -822,6 +855,7 @@
     <string name="size_tera_byte">تيرابايت</string>
     <string name="sound_recorder_settings">الإعدادات</string>
     <string name="speaker">"المتكلم "</string>
+    <string name="state_wait_recognize_tip">الانتهاء من النسخ الحالي أولاً…</string>
     <string name="status_bar_back">انقر للعودة إلى المسجل</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">جارٍ التسجيل …</string>
@@ -855,6 +889,7 @@
     <string name="talkback_traslation_ai_recognize">إخفاء مربع النص</string>
     <string name="talkback_traslation_close">إيقاف الترجمة</string>
     <string name="text_btn_backward_3_seconds">رجوع %d ثواني</string>
+    <string name="text_btn_camera">التقاط صورة</string>
     <string name="text_btn_complete">إيقاف</string>
     <string name="text_btn_forward_3_seconds">تقدم %d ثواني</string>
     <string name="text_btn_mark">علامة</string>
@@ -927,8 +962,11 @@
     <string name="tips_for_build_database">تأكد من توصيل الجهاز بالشاحن. سيقوم الجهاز بتحليل هذه التسجيلات بسرعة أكبر عندما تكون الشاشة مغلقة.</string>
     <string name="toast_enter_silent_mode">يتم التسجيل. الوضع الصامت مشغل.</string>
     <string name="toast_exit_silent_mode">انتهى التسجيل. الوضع الصامت متوقف.</string>
+    <string name="toast_for_no_asr_long_time">لم يتم اكتشاف أي كلام. تم إيقاف خاصية التعرف على الكلام بواسطة AI.</string>
+    <string name="toast_for_pause_record_long_time">تم إيقاف التسجيل مؤقتًا. تم إيقاف خاصية التعرف على الكلام بواسطة AI.</string>
     <string name="toast_max_record_time">يمكن ل%1$s تسجيل حوالي %2$s</string>
     <string name="toast_stop">انتهى التسجيل</string>
+    <string name="toast_title_stop_ai_recognize">تم إيقاف التعرف الصوتي AI</string>
     <string name="toast_uninstall_fileexplorer">مدير الملفات غير مثبت</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غدا</string>

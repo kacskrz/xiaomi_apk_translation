@@ -34,9 +34,13 @@
     <string name="action_notes">Uložit do Poznámek</string>
     <string name="action_retry">Zkusit znovu</string>
     <string name="actionbar_button_up_description">Zpět</string>
+    <string name="add_mark">Označit</string>
     <string name="afternoon">Odpoledne</string>
     <string name="agree_description">Pro využití všech funkcí aplikace povolte aplikaci přístup k internetu.</string>
     <string name="ai_recognition_other_speaker">(Hovoří někdo jiný)</string>
+    <string name="ai_recognize_fail">Transkripce se nezdařila</string>
+    <string name="ai_recognize_fail_tip">Shrnutí se nezdařilo. Zkuste to znovu.</string>
+    <string name="ai_recognize_preference_summary">Přepisujte automaticky během záznamu.</string>
     <string name="ai_summary">AI shrnutí</string>
     <string name="ai_watermark">Tento obsah je vygenerovaný pomocí umělé inteligence a slouží pouze pro referenční účely.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Nahrávání není možné, pokud je mikrofon právě používán.</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Záznamník</string>
     <string name="app_record">Nahrávky aplikace</string>
     <string name="app_record_preference_title">Nahrávání hlasových hovorů</string>
+    <string name="asr_in_progress">%s Transkripce a shrnutí</string>
+    <string name="asr_in_progress_with_polish">%s Vyladění a shrnutí</string>
+    <string name="asr_progress">Přepis audia %s</string>
     <string name="back">Zpět</string>
     <string name="back_playback_position">Vrátit se na aktuální pozici</string>
-    <string name="bottomsheet_action_collapse">Sbalit spodní list</string>
-    <string name="bottomsheet_action_expand">Rozbalit spodní list</string>
+    <string name="bottomsheet_action_collapse">Sbalit spodní tabulku</string>
+    <string name="bottomsheet_action_expand">Rozbalit spodní tabulku</string>
     <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
-    <string name="bottomsheet_drag_handle_clicked">Dvojité poklepání na madlo pro tažení</string>
-    <string name="bottomsheet_drag_handle_content_description">Madlo pro tažení</string>
+    <string name="bottomsheet_drag_handle_clicked">Dvakrát jste klepli na úchyt pro přetažení</string>
+    <string name="bottomsheet_drag_handle_content_description">Úchyt pro přetažení</string>
     <string name="btn_continue_record_description">Obnovit nahrávání</string>
     <string name="button_queue_for_wifi">Počkat</string>
     <string name="button_start_now">Stáhnout</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Prázdné</string>
     <string name="eras_ad">n.l.</string>
     <string name="eras_bc">př.n.l.</string>
+    <string name="error_a11y_label">Chyba: neplatné</string>
     <string name="error_app_internal">Zkontrolujte, zda nějaká z aplikací právě nevyužívá funkci nahrávání.</string>
     <string name="error_app_internal_title">Chyba záznamníku</string>
     <string name="error_file_access">Soubor neexistuje nebo je poškozen</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Použití vnitřního mikrofonu</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
     <string name="icon_content_description">Ikona dialogového okna</string>
+    <string name="intelligent_polishing_preference_summary">Odstraňte přebytečná data a standardizujte formát pro čínštinu</string>
     <string name="invisible_mode_dialog_message">V režimu Inkognito nelze využívat mikrofon. Nejprve režim Inkognito vypněte.</string>
     <string name="invisible_mode_dialog_negative">Zrušit</string>
     <string name="invisible_mode_dialog_positive">Vypnout</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Přístup ke všem souborům</string>
     <string name="mark_add_toast">Úspěšně přidáno</string>
     <string name="material_clock_toggle_content_description">Vyberte AM nebo PM</string>
+    <string name="material_hour_24h_suffix">%1$s hodin</string>
     <string name="material_hour_selection">Vyberte hodinu</string>
     <string name="material_hour_suffix">%1$s</string>
     <string name="material_minute_selection">Zvolte minuty</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Hlavní body</string>
     <string name="morning">Dopoledne</string>
     <string name="mtrl_badge_numberless_content_description">Nové oznámení</string>
+    <string name="mtrl_checkbox_state_description_checked">Zaškrtnuto</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Částečně zaškrtnuto</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nezaškrtnuto</string>
     <string name="mtrl_chip_close_icon_content_description">Odstranit položku %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Více než %1$d nových oznámení</string>
     <string name="mtrl_picker_a11y_next_month">Přejít na další měsíc</string>
     <string name="mtrl_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
+    <string name="mtrl_picker_announce_current_range_selection">Výběr data zahájení: %1$s – Výběr data ukončení: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Aktuální výběr: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">prázdné</string>
+    <string name="mtrl_picker_cancel">Zrušit</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vyberte datum</string>
     <string name="mtrl_picker_date_header_unselected">Vybrané datum</string>
-    <string name="mtrl_picker_day_of_week_column_header">Sloupec dnů: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Datum ukončení %1$s</string>
     <string name="mtrl_picker_invalid_format">Neplatný formát.</string>
     <string name="mtrl_picker_invalid_format_example">Příklad: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Použijte: %1$s</string>
     <string name="mtrl_picker_invalid_range">Neplatný rozsah.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Přejít na rok %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Přejít na aktuální rok %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Přejít na rok %1$d</string>
     <string name="mtrl_picker_out_of_range">Mimo rozsah: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Datum zahájení – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – datum ukončení</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Vyberte rozsah</string>
     <string name="mtrl_picker_range_header_unselected">Datum zahájení – datum ukončení</string>
     <string name="mtrl_picker_save">Uložit</string>
+    <string name="mtrl_picker_start_date_description">Datum zahájení %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Datum</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Datum ukončení</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Datum zahájení</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_today_description">Dnes %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Přepnout na režim zadávání do kalendáře</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na výběr dne</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na zobrazení kalendáře</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Přepnout na režim zadávání textu</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na výběr roku</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na zobrazení jednotlivých let</string>
+    <string name="mtrl_timepicker_cancel">Zrušit</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="network_tip_dialog_cancel">Nesouhlasím</string>
     <string name="network_tip_dialog_content">Záznamník vyžaduje pro správné fungování připojení k internetu. Souhlasíte?</string>
     <string name="network_tip_dialog_ok">Souhlasím</string>
@@ -439,7 +461,10 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="noon">Poledne</string>
     <string name="not_allowed">Neuděleno</string>
     <string name="not_set">Nenastaveno</string>
+    <string name="notice_btn_stop_ai_recognize">Vypnout</string>
+    <string name="notice_content_no_asr_long_time">Po delší dobu nebyla zjištěna žádná řeč.</string>
     <string name="notice_for_ai_search_tips">Detaily</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Vypnout AI rozpoznání řeči?</string>
     <string name="notification_message_all_paused">Čekání na připojeník síti Wi-Fi.</string>
     <string name="notification_pause_playback">Přehrávání pozastaveno</string>
     <string name="notification_playback">Přehrávání…</string>
@@ -447,11 +472,16 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="notification_recording_ticker">Telefon ztišen</string>
     <string name="notification_save_as_complete">Úspěšně uloženo</string>
     <string name="notification_stopped">Nahrávání bylo zastaveno</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Transkripce dokončena</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Shrnutí se nezdařilo</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Shrnutí dokončeno</string>
     <string name="notification_title_all_paused">Stahování pozastaveno</string>
+    <string name="nrt_asr_complete">Přepis byl dokončen. Klepněte pro obnovení.</string>
     <string name="offline_recognize_transfer_format">Přepisování…</string>
     <string name="online_recognize_progress">Přepisování %s…</string>
     <string name="open_voice_enhancement">Vylepšení hlasu</string>
     <string name="opened_voice_enhancement">Vylepšení hlasu je zapnuto</string>
+    <string name="pasport_register_dialog_message">Vytvořit Xiaomi účet pomocí telefonního čísla %s nyní?</string>
     <string name="passport_access_denied">Přístup zamítnut</string>
     <string name="passport_account_crop_user_avatar">Oříznout fotografii</string>
     <string name="passport_account_empty_user_name">Zadejte jméno</string>
@@ -468,7 +498,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="passport_account_secure_info_pref_title">Informace o účtu</string>
     <string name="passport_account_security_info_pref_title">Bezpečnostní informace</string>
     <string name="passport_account_user_avatar">Profilová fotografie</string>
-    <string name="passport_account_user_avatar_from_album">Galerie</string>
+    <string name="passport_account_user_avatar_from_album">Vybrat z Galerie</string>
     <string name="passport_account_user_avatar_from_camera">Fotoaparát</string>
     <string name="passport_account_user_base_info">Základní informace</string>
     <string name="passport_account_user_details">Osobní údaje</string>
@@ -482,7 +512,6 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="passport_agree">Souhlasím</string>
     <string name="passport_area_code_title">Kód oblasti</string>
     <string name="passport_attention">Upozornění</string>
-    <string name="passport_auth_fail_warning">Relace vypršela. Přihlaste se znovu.</string>
     <string name="passport_back">Zpět</string>
     <string name="passport_bad_authentication">Neplatné uživ. jméno nebo heslo</string>
     <string name="passport_can_not_recevie_verify_code">Neobdrželi jste kód?</string>
@@ -504,11 +533,9 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="passport_doing_query_account">Kontrola informací o účtu…</string>
     <string name="passport_error_auth_fail">Platnost relace vypršela. Přihlaste se znovu.</string>
     <string name="passport_error_device_id">Nelze získat ID zařízení</string>
-    <string name="passport_error_dup_binded_email">Tato e-mailová adresa je již spojena s jiným Xiaomi účtem.</string>
     <string name="passport_error_empty_password">Zadejte heslo</string>
     <string name="passport_error_empty_pwd">Heslo nesmí být prázdné</string>
     <string name="passport_error_empty_user_id">Zadejte své uživatelské jméno</string>
-    <string name="passport_error_invalid_bind_address">Zadaná e-mailová adresa je neplatná.</string>
     <string name="passport_error_length_limit">Zadaný text je příliš dlouhý</string>
     <string name="passport_error_network">Nelze se připojit k síti</string>
     <string name="passport_error_no_password_user">Ještě jste nenastavili heslo. Přihlaste se pomocí SMS.</string>
@@ -524,17 +551,14 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="passport_error_unknown">Neznámá chyba</string>
     <string name="passport_error_user_name">Zadané uživatelské jméno je neplatné</string>
     <string name="passport_error_user_password">Hesla se neshodují</string>
-    <string name="passport_exceed_binded_phone_times_notice">Toto telefonní číslo je již spojeno s jiným Xiaomi účtem.</string>
     <string name="passport_facebook_login_btn_content_description">Přihlásit se pomocí Facebooku</string>
     <string name="passport_frequency_try_later">Příliš mnoho pokusů. Počkejte chvíli a zkuste to znovu.</string>
     <string name="passport_get_login_type_next">Další</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Na toto číslo bylo zasláno příliš mnoho ověřovacích kódů. Počkejte 24 hodin a zkuste to znovu.</string>
     <string name="passport_google_login_btn_content_description">Přihlásit se pomocí Googlu</string>
     <string name="passport_help">Nápověda</string>
     <string name="passport_i_know">Rozumím</string>
     <string name="passport_identification_expired">Platnost ověřovacího kódu vypršela. Začněte znovu.</string>
     <string name="passport_input_captcha_hint">Zadejte kód</string>
-    <string name="passport_input_email_address_notice">Tato e-mailová adresa bude použita pro ověření vašeho účtu</string>
     <string name="passport_input_password_hint">Zadejte heslo</string>
     <string name="passport_input_phone_number_hint">Zadejte telefonní číslo</string>
     <string name="passport_input_verify_code">Zadejte ověřovací kód</string>
@@ -546,7 +570,6 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="passport_login_register_by_local_phone_long_text">Vytvořit účet</string>
     <string name="passport_login_with_sns">Jiné způsoby přihlášení</string>
     <string name="passport_logout_account">Odhlásit se</string>
-    <string name="passport_mi_account_first_title">Při prvním použití vašeho telefonního čísla bude váš účet vytvořen automaticky.</string>
     <string name="passport_mi_account_title">Přihlaste se pomocí Xiaomi účtu</string>
     <string name="passport_network_error">Došlo k chybě sítě. Zkontrolujte síťové nastavení a zkuste to znovu.</string>
     <string name="passport_network_error_hint">Zkontrolujte URL adresu a zkuste to znovu nebo URL adresu zkopírujte a otevřete ji pomocí prohlížeče.</string>
@@ -555,6 +578,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="passport_no_account">Nepřihlášen(a)</string>
     <string name="passport_open_settings">Nastavení</string>
     <string name="passport_page_load_failed">Stránku nelze otevřít</string>
+    <string name="passport_password_hide_show">Skrýt heslo</string>
     <string name="passport_password_login_btn">Přihlásit se</string>
     <string name="passport_password_not_show">Nezobrazovat heslo</string>
     <string name="passport_password_show">Zobrazit heslo</string>
@@ -566,6 +590,8 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="passport_reging">Vytváření účtu…</string>
     <string name="passport_register_by_local_phone_long_text">Vytvořit účet</string>
     <string name="passport_register_by_local_phone_short_text">Vytvořit účet</string>
+    <string name="passport_register_dialog_positive">Vytvořit</string>
+    <string name="passport_register_dialog_title">Vytvořit Xiaomi účet</string>
     <string name="passport_register_restricted">S tímto číslem je propojeno příliš mnoho účtů. Zkuste jiné telefonní číslo.</string>
     <string name="passport_relogin_notice">Musíte se přihlásit znovu</string>
     <string name="passport_request_agree">Povolit</string>
@@ -574,40 +600,37 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="passport_request_error_invalid_token">Ověření se nezdařilo</string>
     <string name="passport_request_error_network">Došlo k chybě sítě. Zkontrolujte síťové nastavení a zkuste to znovu.</string>
     <string name="passport_request_error_unknown">Došlo k chybě systému. Vraťte se zpět a zkuste to znovu.</string>
-    <string name="passport_request_gallery_permission_message">Přístup do Galerie:&lt;br />Pro nastavení profilové fotografie</string>
-    <string name="passport_resend_email_reach_limit_message">Odeslali jste příliš mnoho žádostí o ověřovací e-mail. Ujistěte se, že ověřovací e-mail není ve složce se spamy.</string>
-    <string name="passport_resend_email_reach_limit_title">Příliš mnoho pokusů</string>
+    <string name="passport_request_gallery_permission_message">Tato aplikace potřebuje za účelem nastavení vaší profilové fotky přístup k vybraným položkám Galerie. Povolit nyní?</string>
+    <string name="passport_request_permission_title">Vyžadována oprávnění</string>
     <string name="passport_resend_ticket">Zaslat kód znovu</string>
     <string name="passport_retry">Opakovat</string>
-    <string name="passport_same_new_and_old_pwd">Nové heslo musí být jiné než současné heslo</string>
     <string name="passport_send_sms_to">Kód zaslán na %1$s</string>
     <string name="passport_send_too_many_code">Na toto číslo bylo zasláno příliš mnoho ověřovacích kódů. Počkejte 24 hodin a zkuste to znovu.</string>
     <string name="passport_sending_vcode">Odesílání kódu…</string>
-    <string name="passport_service_error">Chyba serveru</string>
     <string name="passport_set_password_no_phone_msg">Přidejte své telefonní číslo pro zabezpečení účtu.</string>
     <string name="passport_skip_query_account">Přeskočit</string>
-    <string name="passport_sns_access_token_expired_warning">Relace vypršela. Pro připojení tohoto účtu se přihlaste znovu.</string>
     <string name="passport_sns_bind_limit">Příliš mnoho pokusů. Zkuste jiný způsob přihlášení.</string>
     <string name="passport_system_error">Systém je zaneprázdněn. Počkejte chvíli a zkuste to znovu.</string>
     <string name="passport_talkback_image_captcha">Obrázkový ověřovací kód</string>
     <string name="passport_talkback_switch_image_captcha">Přepnout na obrázkový ověřovací kód</string>
     <string name="passport_talkback_switch_voice_captcha">Přepnout na hlasový ověřovací kód</string>
     <string name="passport_talkback_voice_captcha">Přehrát hlasový ověřovací kód</string>
+    <string name="passport_third_sns_service_unavailable">Služba je nedostupná. Zkontrolujte, zda je aplikace nainstalována a není blokována.</string>
     <string name="passport_ticket_send_by_second">Odeslat za %d</string>
     <string name="passport_to_forget_password">Zapomněli jste heslo?</string>
     <string name="passport_to_password_login">Přihlásit se pomocí hesla</string>
     <string name="passport_to_verify_code_login">Přihlásit se pomocí SMS</string>
     <string name="passport_unknown_error">Neznámá chyba</string>
     <string name="passport_unknown_host_network_error">Zkontrolujte nastavení sítě a zkuste to znovu</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb společnosti China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb účtu eSurfing.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb společnosti China Unicom.&lt;/a>&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> a &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb společnosti China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb účtu eSurfing.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a>, &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a>, &lt;a href=%3$s>Smluvními podmínkami&lt;/a> a &lt;a href=%4$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%5$s>Smluvními podmínkami ověřovacích služeb společnosti China Unicom.&lt;/a></Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Při prvním použití vašeho telefonního čísla bude váš účet vytvořen automaticky.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb společnosti China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb účtu eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb společnosti China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb společnosti China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb účtu eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Přečetl(a) jsem si a souhlasím se &lt;a href=%1$s>Smluvními podmínkami&lt;/a> a &lt;a href=%2$s>Zásadami ochrany osobních údajů&lt;/a> Xiaomi účtu a &lt;a href=%3$s>Smluvními podmínkami ověřovacích služeb společnosti China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Změnit profilovou fotografii</string>
     <string name="passport_user_avatar_uploading">Ještě chvilku…</string>
     <string name="passport_user_id_hint">E-mail/Telefonní číslo/ID Xiaomi účtu</string>
@@ -627,6 +650,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="permission_bluetooth">Přistupovat ke stavu připojení Bluetooth</string>
     <string name="permission_bluetooth_dialog_description">Povolit tomuto zařízení připojit se k zařízením v okolí, aby bylo možné přepínat zařízení během přehrávaní nahrávek.</string>
     <string name="permission_bluetooth_title">Vyžadována oprávnění</string>
+    <string name="permission_camera_description">Pro pořizování fotografování během nahrávání</string>
     <string name="permission_desc">Podrobnosti oprávnění</string>
     <string name="permission_dialog_cancel">Zrušit</string>
     <string name="permission_dialog_ok">Nastavení</string>
@@ -659,6 +683,10 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="preference_copied">Položka %1$s byla zkopírována do schránky.</string>
     <string name="preference_enable_earpiece_summary">Přehrát zvuk pomocí sluchátka telefonu</string>
     <string name="preference_enable_earpiece_title">Sluchátko telefonu</string>
+    <string name="preference_group_title_for_ai_setting">AI funkce</string>
+    <string name="preference_group_title_for_normal_setting">Běžné</string>
+    <string name="preference_key_ai_recognize">AI rozpoznání řeči</string>
+    <string name="preference_key_intelligent_polishing">Chytré vyladění</string>
     <string name="preference_led_indicator">Oznámení na Zamykací obrazovce</string>
     <string name="preference_led_indicator_prompt">Během nahrávání bude na Zamykací obrazovce zobrazen modrý indikátor a světelná kontrolka bude blikat</string>
     <string name="preference_record_desktop_indicator_summary">Během nahrávání zobrazovat na Domovské obrazovce modrý indikátor</string>
@@ -677,6 +705,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="progress">Ukazatel průběhu přehrávání</string>
     <string name="progress_dialog_message">Stahování…</string>
     <string name="radio_tips">Záznamník poskytuje přepis zvuku, shrnutí zvuku a další funkce. Tato aplikace potřebuje k poskytování těchto služeb internet.</string>
+    <string name="re_asr_error_tip">Přepis se nezdařil. Zkuste to znovu.</string>
     <string name="recent_delete">Nedávno smazané</string>
     <string name="recent_delete_delete_all">Chcete nyní trvale odstranit všechny položky?</string>
     <string name="recognition_button_add_to_queue">Přidat do fronty</string>
@@ -706,6 +735,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="recognition_process_dialog_title">Probíhající úlohy</string>
     <string name="recognition_stop_current">Zastavit probíhající přepis</string>
     <string name="recognize_complete_toast">Přepis dokončen</string>
+    <string name="recognize_data_loading">Ještě chvilku…</string>
     <string name="recognize_tip_part_one">"Přepis nebyl dokončen. "</string>
     <string name="recognize_tip_part_two">Zkusit znovu</string>
     <string name="recognizing_not_rename">Nelze přejmenovat během nahrávání</string>
@@ -787,6 +817,8 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="search_scenes">Režim nahrávání</string>
     <string name="search_silent_mode">Při nahrávání ztišit vyzvánění</string>
     <string name="search_tip_rename">Pojmenovat záznamy ručně</string>
+    <string name="searchview_clear_text_content_description">Vymazat text</string>
+    <string name="searchview_navigation_content_description">Zpět</string>
     <string name="send">Odeslat</string>
     <string name="settings_ai_record_abstract">Vytvářejte shrnutí</string>
     <string name="settings_ai_record_abstract_description">Proveďte shrnutí předmětu a obsahu záznamu a shrnutí automaticky uložte do aplikace Poznámky</string>
@@ -813,6 +845,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="shortcut_stop_record">Zastavit nahrávání</string>
     <string name="show_text">Zobrazit text</string>
     <string name="show_wave">Zobrazit hlas</string>
+    <string name="side_sheet_accessibility_pane_title">Postranní list</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Nastavení nahrávání</string>
     <string name="speaker">"Hovořící "</string>
+    <string name="state_wait_recognize_tip">Nejprve dokončení aktuální transkripce…</string>
     <string name="status_bar_back">Pro návrat klepněte sem</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Nahrávání…</string>
@@ -855,6 +889,7 @@ Klepněte na \"%1$s\" a zvolte \"%2$s\"."</string>
     <string name="talkback_traslation_ai_recognize">Skrýt textové pole</string>
     <string name="talkback_traslation_close">Zastavit překládání</string>
     <string name="text_btn_backward_3_seconds">%d sekundy zpět</string>
+    <string name="text_btn_camera">Vyfotit</string>
     <string name="text_btn_complete">Zastavit</string>
     <string name="text_btn_forward_3_seconds">%d sekundy vpřed</string>
     <string name="text_btn_mark">Označit</string>
@@ -927,8 +962,11 @@ Aktuálně pozastaveno. Analýza bude obnovena, jakmile nebudete zařízení pou
     <string name="tips_for_build_database">Zařízení nechte připojené k nabíječce. Tuto nahrávka bude analyzovat rychleji, když je vypnutá obrazovka.</string>
     <string name="toast_enter_silent_mode">Nahrávání. Tichý režim je zapnutý.</string>
     <string name="toast_exit_silent_mode">Nahrávání dokončeno. Tichý režim je vypnutý.</string>
+    <string name="toast_for_no_asr_long_time">Nebyla zjištěna žádná řeč. AI rozpoznání řeči bylo zastaveno.</string>
+    <string name="toast_for_pause_record_long_time">Nahrávání bylo pozastaveno. AI rozpoznání řeči bylo zastaveno.</string>
     <string name="toast_max_record_time">%1$s může nahrát kolem %2$s</string>
     <string name="toast_stop">Nahrávání dokončeno</string>
+    <string name="toast_title_stop_ai_recognize">AI rozpoznání řeči zastaveno</string>
     <string name="toast_uninstall_fileexplorer">Správce souborů není nainstalován</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zítra</string>

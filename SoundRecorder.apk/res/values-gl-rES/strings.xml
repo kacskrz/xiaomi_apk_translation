@@ -7,9 +7,13 @@
     <string name="action_notes">Gardar en Notas</string>
     <string name="action_retry">Téntao de novo</string>
     <string name="actionbar_button_up_description">Atrás</string>
+    <string name="add_mark">Marcar</string>
     <string name="afternoon">Tarde</string>
     <string name="agree_description">Permitir que esta aplicación se conecte a Internet para poder usar tódalas súas funcións</string>
     <string name="ai_recognition_other_speaker">(Fala alguén máis)</string>
+    <string name="ai_recognize_fail">Non se puido transcribir</string>
+    <string name="ai_recognize_fail_tip">Non se puido resumir. Téntao de novo.</string>
+    <string name="ai_recognize_preference_summary">Transcribir automaticamente ao gravar</string>
     <string name="ai_summary">Resumo con IA</string>
     <string name="ai_watermark">Este contido está xerado por IA e só se pfrece para a túa consulta.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Non se pode gravar cando se utiliza o micrófono</string>
@@ -38,6 +42,9 @@
     <string name="app_name">Gravadora</string>
     <string name="app_record">Gravacións da aplicación</string>
     <string name="app_record_preference_title">Voice Call Recorder</string>
+    <string name="asr_in_progress">%s Transcribindo e resumindo</string>
+    <string name="asr_in_progress_with_polish">%s Perfeccionando e resumindo</string>
+    <string name="asr_progress">Transcribindo audio %s</string>
     <string name="back">Volver</string>
     <string name="back_playback_position">Volver á posición actual</string>
     <string name="bottomsheet_action_collapse">Contraer a folla da parte inferior</string>
@@ -196,6 +203,7 @@
     <string name="head_set_tip_dialog_ok">Entendido</string>
     <string name="head_set_tip_dialog_title">Empregar micrófono interno</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
+    <string name="intelligent_polishing_preference_summary">Eliminar repeticións e formato estándar para chinés</string>
     <string name="invisible_mode_dialog_message">Non podes usar o micrófono cando estás de incógnito. Desactiva o Modo incógnito primeiro.</string>
     <string name="invisible_mode_dialog_negative">Cancelar</string>
     <string name="invisible_mode_dialog_positive">Desactivar</string>
@@ -348,7 +356,10 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="no_text_content">Sen texto</string>
     <string name="noon">Mediodía</string>
     <string name="not_allowed">Non concedido</string>
+    <string name="notice_btn_stop_ai_recognize">Desactivar</string>
+    <string name="notice_content_no_asr_long_time">Hai tempo que non se detecta ningún discurso.</string>
     <string name="notice_for_ai_search_tips">Datos</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Desactivar o Recoñecemento de voz con IA?</string>
     <string name="notification_message_all_paused">Agardando pola conexión Wi-Fi.</string>
     <string name="notification_pause_playback">Reprodución en pausa</string>
     <string name="notification_playback">Reproducindo…</string>
@@ -356,18 +367,23 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="notification_recording_ticker">Teléfono silenciado</string>
     <string name="notification_save_as_complete">Gardado con éxito</string>
     <string name="notification_stopped">Gravación detida</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Rematou a transcrición</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Non se puido resumir</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Rematou o resumo</string>
     <string name="notification_title_all_paused">Descarga en pausa</string>
+    <string name="nrt_asr_complete">Rematouse a transcrición. Toca para actualizar.</string>
     <string name="offline_recognize_transfer_format">Transcribindo…</string>
     <string name="online_recognize_progress">Transcribindo %s…</string>
     <string name="open_voice_enhancement">Mellorar voz</string>
     <string name="opened_voice_enhancement">A voz mellorada está activada</string>
+    <string name="pasport_register_dialog_message">Crear unha Conta Xiaomi mediante o teu número de teléfono %s agora?</string>
     <string name="passport_access_denied">Acceso denegado</string>
     <string name="passport_account_crop_user_avatar">Cortar foto</string>
     <string name="passport_account_empty_user_name">Insire o teu nome</string>
     <string name="passport_account_error_all_space_user_name">O nome non pode conte só espazos</string>
     <string name="passport_account_error_invalid_user_name">O nome non pode conter &lt;, >, ou /</string>
-    <string name="passport_account_error_longer_user_name">"Name can't be longer than %d characters"</string>
-    <string name="passport_account_error_shorter_user_name">Name must be longer than %d characters</string>
+    <string name="passport_account_error_longer_user_name">O nome non pode ser máis longo de %d caracteres</string>
+    <string name="passport_account_error_shorter_user_name">O nome debe ser máis longo de %d caracteres</string>
     <string name="passport_account_error_user_name">Este alcume non é válido. Proba cun diferente.</string>
     <string name="passport_account_invalid_user_avatar">Esta foto non é válida. Proba cunha diferente.</string>
     <string name="passport_account_name">"Conta: %1$s "</string>
@@ -377,7 +393,7 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="passport_account_secure_info_pref_title">Información da conta</string>
     <string name="passport_account_security_info_pref_title">Información de seguranza</string>
     <string name="passport_account_user_avatar">Foto de perfil</string>
-    <string name="passport_account_user_avatar_from_album">Galería</string>
+    <string name="passport_account_user_avatar_from_album">Seleccionar dende a Galería</string>
     <string name="passport_account_user_avatar_from_camera">Cámara</string>
     <string name="passport_account_user_base_info">Información básica</string>
     <string name="passport_account_user_details">Información persoal</string>
@@ -391,7 +407,6 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="passport_agree">Aceptar</string>
     <string name="passport_area_code_title">Código de área</string>
     <string name="passport_attention">Atención</string>
-    <string name="passport_auth_fail_warning">Sesión caducada. Volve iniciar sesión.</string>
     <string name="passport_back">Atrás</string>
     <string name="passport_bad_authentication">Nome de usuario ou contrasinal inválidos</string>
     <string name="passport_can_not_recevie_verify_code">Non recibiches un código?</string>
@@ -413,11 +428,9 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="passport_doing_query_account">Comprobando información da conta…</string>
     <string name="passport_error_auth_fail">A sesión caducou. Volva entrar.</string>
     <string name="passport_error_device_id">Non é posible obter ID do dispositivo</string>
-    <string name="passport_error_dup_binded_email">Este enderezo de correo electrónico xa está asociado a outra Conta Xiaomi.</string>
     <string name="passport_error_empty_password">Introduce o teu contrasinal</string>
     <string name="passport_error_empty_pwd">O contrasinal non pode estar baleiro</string>
     <string name="passport_error_empty_user_id">Introduce o teu nome de usuario</string>
-    <string name="passport_error_invalid_bind_address">O enderezo de correo electrónico introducido non é válido.</string>
     <string name="passport_error_length_limit">O texto que introduciches é demasiado longo</string>
     <string name="passport_error_network">Non se pode conectar á rede</string>
     <string name="passport_error_no_password_user">Aínda non definiches un contrasinal. Inicia sesión mediante SMS.</string>
@@ -433,17 +446,14 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="passport_error_unknown">Erro descoñecido</string>
     <string name="passport_error_user_name">O nome de usuario inserido non é válido</string>
     <string name="passport_error_user_password">Os contrasinais non coinciden</string>
-    <string name="passport_exceed_binded_phone_times_notice">Este número de teléfono xa está asociado a outra Conta Xiaomi.</string>
     <string name="passport_facebook_login_btn_content_description">Iniciar sesión con Facebook</string>
     <string name="passport_frequency_try_later">Demasiados intentos. Agarda un minuto ou dous e téntao de novo.</string>
     <string name="passport_get_login_type_next">Seguinte</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Enviados demasiados códigos de verificación a este número. Agarda 24 horas e proba de novo.</string>
     <string name="passport_google_login_btn_content_description">Iniciar sesión con Google</string>
     <string name="passport_help">Axuda</string>
     <string name="passport_i_know">Entendido</string>
     <string name="passport_identification_expired">O código de verificación caducou. Comeza de novo.</string>
     <string name="passport_input_captcha_hint">Introducir código</string>
-    <string name="passport_input_email_address_notice">Empregaremos este correo para verificar a túa conta</string>
     <string name="passport_input_password_hint">Introducir contrasinal</string>
     <string name="passport_input_phone_number_hint">Introducir número de teléfono</string>
     <string name="passport_input_verify_code">Introducir código de verificación</string>
@@ -455,7 +465,6 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="passport_login_register_by_local_phone_long_text">Crear conta</string>
     <string name="passport_login_with_sns">Outras formas de iniciar sesión</string>
     <string name="passport_logout_account">Pechar sesión</string>
-    <string name="passport_mi_account_first_title">Crearemos unha conta automaticamente se utilizas o teu número de teléfono por primeira vez.</string>
     <string name="passport_mi_account_title">Inicia sesión coa Conta Xiaomi</string>
     <string name="passport_network_error">Ocorreu un erro de rede. Comproba os axustes de rede e inténtao de novo.</string>
     <string name="passport_network_error_hint">Comproba a URL e téntao de novo ou copia a URL e ábrea no teu navegador</string>
@@ -464,6 +473,7 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="passport_no_account">Sesión non iniciada</string>
     <string name="passport_open_settings">Axustes</string>
     <string name="passport_page_load_failed">Non é posible abrir a páxina</string>
+    <string name="passport_password_hide_show">Ocultar contrasinal</string>
     <string name="passport_password_login_btn">Iniciar sesión</string>
     <string name="passport_password_not_show">Non amosar contrasinal</string>
     <string name="passport_password_show">Amosar contrasinal</string>
@@ -475,6 +485,8 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="passport_reging">Creando a conta…</string>
     <string name="passport_register_by_local_phone_long_text">Crear conta</string>
     <string name="passport_register_by_local_phone_short_text">Crear conta</string>
+    <string name="passport_register_dialog_positive">Crear</string>
+    <string name="passport_register_dialog_title">Crear Conta Xiaomi</string>
     <string name="passport_register_restricted">Asociáronse demasiadas contas a este número. Proba cunha diferente.</string>
     <string name="passport_relogin_notice">Tes que iniciar sesión de novo</string>
     <string name="passport_request_agree">Permitir</string>
@@ -483,40 +495,37 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="passport_request_error_invalid_token">Non se puido verificar</string>
     <string name="passport_request_error_network">Ocorreu un erro de rede. Comproba os axustes de rede e téntao de novo.</string>
     <string name="passport_request_error_unknown">Houbo un erro do sistema. Volve atrás e téntao de novo.</string>
-    <string name="passport_request_gallery_permission_message">Permitir acceso á Galería:&lt;br />Para definir fotos de perfil</string>
-    <string name="passport_resend_email_reach_limit_message">Solicitaches demasiadas correos de verificación. Asegúrate que o correo non está no cartafol do correo Lixo.</string>
-    <string name="passport_resend_email_reach_limit_title">Demasiados intentos</string>
+    <string name="passport_request_gallery_permission_message">Esta aplicación necesita acceder a elementos da galería seleccionados para poder establecer a túa foto de perfil. Permitir agora?</string>
+    <string name="passport_request_permission_title">Permisos requiridos</string>
     <string name="passport_resend_ticket">Reenviar código</string>
     <string name="passport_retry">Téntao de novo</string>
-    <string name="passport_same_new_and_old_pwd">Non pode ser o mesmo que o contrasinal actual</string>
     <string name="passport_send_sms_to">Código enviado a %1$s</string>
     <string name="passport_send_too_many_code">Enviáronse demasiados códigos de verificación a este número. Agarda 24 horas e proba de novo.</string>
     <string name="passport_sending_vcode">Enviando código…</string>
-    <string name="passport_service_error">Erro de servidor</string>
     <string name="passport_set_password_no_phone_msg">Engade o teu número de teléfono para protexer a túa conta.</string>
     <string name="passport_skip_query_account">Omitir</string>
-    <string name="passport_sns_access_token_expired_warning">A sesión caducou. Inicia sesión de novo para reconectar con esta conta.</string>
     <string name="passport_sns_bind_limit">Demasiados intentos. Proba outras maneiras de iniciar sesión.</string>
     <string name="passport_system_error">O sistema está ocupado. Agarda un minuto ou dous e téntao de novo.</string>
     <string name="passport_talkback_image_captcha">Código de verificación da imaxe</string>
     <string name="passport_talkback_switch_image_captcha">Cambiar a código de verificación de imaxe</string>
     <string name="passport_talkback_switch_voice_captcha">Cambiar a código de verificación de voz</string>
     <string name="passport_talkback_voice_captcha">Reproducir o código de verificación de voz</string>
+    <string name="passport_third_sns_service_unavailable">O servizo non está dispoñible. Asegúrate de que a aplicación está instalada e non bloqueada.</string>
     <string name="passport_ticket_send_by_second">Enviar en %d</string>
     <string name="passport_to_forget_password">Esqueciches o contrasinal?</string>
     <string name="passport_to_password_login">Iniciar sesión con contrasinal</string>
     <string name="passport_to_verify_code_login">Iniciar sesión mediante SMS</string>
     <string name="passport_unknown_error">Erro descoñecido</string>
     <string name="passport_unknown_host_network_error">Comproba os axustes de rede e téntao de novo</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> e o &lt;a href=%3$s>Acordo do usuario&lt;/a> e a &lt;a href=%4$s>Política de privacidade&lt;/a> da Conta Xiaomi.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacdade&lt;/a>, o &lt;a href=%3$s>Acordo do usuario&lt;/a> e a &lt;a href=%4$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%5$s>Termos e condicións dos servizos de verificación de China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacdade&lt;/a>, o &lt;a href=%3$s>Acordo do usuario&lt;/a> e a &lt;a href=%4$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%5$s>Termos e condicións dos servizos de verificación de eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacdade&lt;/a>, o &lt;a href=%3$s>Acordo do usuario&lt;/a> e a &lt;a href=%4$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%5$s>Termos e condicións dos servizos de verificación de China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Lin e aceptei o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> da Conta Xiaomi.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> e o &lt;a href=%3$s>Acordo do usuario&lt;/a> e a &lt;a href=%4$s>Política de privacidade&lt;/a> da Conta Xiaomi.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacdade&lt;/a>, o &lt;a href=%3$s>Acordo do usuario&lt;/a> e a &lt;a href=%4$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%5$s>Termos e condicións dos servizos de verificación de China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacdade&lt;/a>, o &lt;a href=%3$s>Acordo do usuario&lt;/a> e a &lt;a href=%4$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%5$s>Termos e condicións dos servizos de verificación de eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacdade&lt;/a>, o &lt;a href=%3$s>Acordo do usuario&lt;/a> e a &lt;a href=%4$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%5$s>Termos e condicións dos servizos de verificación de China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Lin e aceptei o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> da Conta Xiaomi.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Crearemos unha conta automaticamente se utilizas o teu número de teléfono por primeira vez.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%3$s>Termos e condicións dos servizos de verificación de China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%3$s>Termos e condicións dos servizos de verificación da conta de eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%3$s>Termos e condicións dos servizos de verificación de China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%3$s>Termos e condicións dos servizos de verificación de China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%3$s>Termos e condicións dos servizos de verificación da conta de eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Lin e acepto o &lt;a href=%1$s>Acordo do usuario&lt;/a> e a &lt;a href=%2$s>Política de privacidade&lt;/a> da Conta Xiaomi, así como os &lt;a href=%3$s>Termos e condicións dos servizos de verificación de China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Cambiar foto de perfil</string>
     <string name="passport_user_avatar_uploading">Agarda un segundo…</string>
     <string name="passport_user_id_hint">Correo electrónico/número de teléfono/ID da Conta Xiaomi</string>
@@ -535,6 +544,7 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="permission_bluetooth">Accede ao estado da conexión Bluetooth</string>
     <string name="permission_bluetooth_dialog_description">Permítelle a este dispositivo conectarse a dispositivos próximos para poder cambiar de dispositivo ao reproducir gravacións.</string>
     <string name="permission_bluetooth_title">Permisos requiridos</string>
+    <string name="permission_camera_description">Para facer fotos durante as gravacións</string>
     <string name="permission_desc">Detalles dos permisos</string>
     <string name="permission_dialog_cancel">Cancelar</string>
     <string name="permission_dialog_ok">Axustes</string>
@@ -566,6 +576,10 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="preference_clear_data">Eliminar datos</string>
     <string name="preference_enable_earpiece_summary">Reproducir audio usando o altofalante auricular</string>
     <string name="preference_enable_earpiece_title">Modo auricular</string>
+    <string name="preference_group_title_for_ai_setting">Características de IA</string>
+    <string name="preference_group_title_for_normal_setting">Xeral</string>
+    <string name="preference_key_ai_recognize">Recoñecemento de voz con IA</string>
+    <string name="preference_key_intelligent_polishing">Perfeccionamento intelixente</string>
     <string name="preference_led_indicator">Notificacións na pantalla de bloqueo</string>
     <string name="preference_led_indicator_prompt">Amosar un indicador azul na Pantalla de bloqueo e unha luz flash LED mentres se grava</string>
     <string name="preference_record_desktop_indicator_summary">Amosar un indicador azul na Pantalla de inicio mentres se grava</string>
@@ -584,6 +598,7 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="progress">Barra de progreso da reprodución</string>
     <string name="progress_dialog_message">Descargando…</string>
     <string name="radio_tips">Gravadora proporciona transcrición de son, resumos de son e moito máis. Esta aplicación necesita unha conexión a Internet para proporcionar estes servizos.</string>
+    <string name="re_asr_error_tip">Non se puido transcribir. Téntao de novo.</string>
     <string name="recent_delete">Eliminadas recentemente</string>
     <string name="recent_delete_delete_all">Eliminar permanentemente todos os elementos agora?</string>
     <string name="recognition_button_add_to_queue">Engadir á cola</string>
@@ -613,6 +628,7 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="recognition_process_dialog_title">Tarefas en curso</string>
     <string name="recognition_stop_current">Deter a tarefa en curso</string>
     <string name="recognize_complete_toast">Transcrición completa</string>
+    <string name="recognize_data_loading">Agarda un segundo…</string>
     <string name="recognize_tip_part_one">"Non rematou a transcrición. "</string>
     <string name="recognize_tip_part_two">Téntao de novo</string>
     <string name="recognizing_not_rename">Non é posible renomear mentres se grava</string>
@@ -728,6 +744,7 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Axustes</string>
     <string name="speaker">"Falante "</string>
+    <string name="state_wait_recognize_tip">Rematando a transcrición actual primeiro…</string>
     <string name="status_bar_back">Tocar para volver á Gravadora</string>
     <string name="status_bar_recording">Gravando…</string>
     <string name="status_bar_recording_pause">Gravadora en pausa</string>
@@ -759,6 +776,7 @@ Toca \"%1$s\", e logo selecciona \"%2$s\"."</string>
     <string name="talkback_traslation_ai_recognize">Ocultar cadro de texto</string>
     <string name="talkback_traslation_close">Deixar de traducir</string>
     <string name="text_btn_backward_3_seconds">%d segundos atrás</string>
+    <string name="text_btn_camera">Facer unha foto</string>
     <string name="text_btn_complete">Deter</string>
     <string name="text_btn_forward_3_seconds">%d segundos adiante</string>
     <string name="text_btn_mark">Marca</string>
@@ -831,8 +849,11 @@ Actualmente, está en pausa. A análise continuará cando non esteas utilizando 
     <string name="tips_for_build_database">Mantén o teu dispositivo conectado ao cargador. Analizará esta gravación máis rápido cando a pantalla estea desactivada.</string>
     <string name="toast_enter_silent_mode">Gravando. O modo silencio está activado.</string>
     <string name="toast_exit_silent_mode">Gravación rematada. O modo silencio está desactivado.</string>
+    <string name="toast_for_no_asr_long_time">Non se detectou ningunha voz. Detívose o Recoñecemento de voz con IA.</string>
+    <string name="toast_for_pause_record_long_time">Gravación pausada. Detívose o Recoñecemento de voz con IA.</string>
     <string name="toast_max_record_time">%1$s pode gravar durante %2$s aprox.</string>
     <string name="toast_stop">Gravación terminada</string>
+    <string name="toast_title_stop_ai_recognize">Detívose o Recoñecemento de voz con IA</string>
     <string name="toast_uninstall_fileexplorer">File Manager non instalado</string>
     <string name="today">Hoxe</string>
     <string name="tomorrow">Mañá</string>

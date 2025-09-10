@@ -34,9 +34,13 @@
     <string name="action_notes">Запази в Бележки</string>
     <string name="action_retry">Повторен опит</string>
     <string name="actionbar_button_up_description">Назад</string>
+    <string name="add_mark">Маркирай</string>
     <string name="afternoon">Следобяд</string>
     <string name="agree_description">Разрешете на това приложение достъп до интернет, за да можете да използвате всичките му функции.</string>
     <string name="ai_recognition_other_speaker">(Някой друг говори)</string>
+    <string name="ai_recognize_fail">Неуспешно разпознаване</string>
+    <string name="ai_recognize_fail_tip">Неуспешно обобщаване. Опитайте отново.</string>
+    <string name="ai_recognize_preference_summary">Автоматично транскрибиране при запис</string>
     <string name="ai_summary">AI Обобщение</string>
     <string name="ai_watermark">Това съдържание е генерирано от AI и е предоставено само за Ваша справка.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Не можете да записвате, когато се използва микрофона</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Звукозапис</string>
     <string name="app_record">Записи от приложения</string>
     <string name="app_record_preference_title">Запис на повикания</string>
+    <string name="asr_in_progress">%s Транскрибиране и обобщаване</string>
+    <string name="asr_in_progress_with_polish">%s Обработка и обобщаване</string>
+    <string name="asr_progress">Транскрибиране на аудио %s</string>
     <string name="back">Назад</string>
     <string name="back_playback_position">Връщане към текущата позиция</string>
-    <string name="bottomsheet_action_collapse">Свий долния лист</string>
-    <string name="bottomsheet_action_expand">Разгъни долния лист</string>
-    <string name="bottomsheet_action_expand_halfway">Разшири наполовина</string>
-    <string name="bottomsheet_drag_handle_clicked">Двойно натисната дръжка за плъзгане</string>
-    <string name="bottomsheet_drag_handle_content_description">Дръжка за плъзгане</string>
+    <string name="bottomsheet_action_collapse">Свиване на долния лист</string>
+    <string name="bottomsheet_action_expand">Разгъване на долния лист</string>
+    <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
+    <string name="bottomsheet_drag_handle_clicked">Двукратно докосване на манипулатора за преместване с плъзгане</string>
+    <string name="bottomsheet_drag_handle_content_description">Манипулатор за преместване с плъзгане</string>
     <string name="btn_continue_record_description">Възобнови записа</string>
     <string name="button_queue_for_wifi">Чрез Wi-Fi</string>
     <string name="button_start_now">Изтегляне</string>
@@ -154,6 +161,7 @@
     <string name="empty_recognition_tip">Празно</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
+    <string name="error_a11y_label">Грешка: невалидно</string>
     <string name="error_app_internal">Вътрешна грешка</string>
     <string name="error_app_internal_title">Грешка при звукозапис</string>
     <string name="error_file_access">Файлът не съществува или е повреден</string>
@@ -239,6 +247,7 @@
     <string name="head_set_tip_dialog_title">Използвай вградения микрофон</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/ч</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
+    <string name="intelligent_polishing_preference_summary">Премахване на излишни и стандартизиране на формата за китайски</string>
     <string name="invisible_mode_dialog_message">Не можете да използвате микрофона в режим Инкогнито. Първо изключете този режим.</string>
     <string name="invisible_mode_dialog_negative">Отказ</string>
     <string name="invisible_mode_dialog_positive">Изключване</string>
@@ -262,6 +271,7 @@
     <string name="manage_external_storage">Достъп до всички файлове</string>
     <string name="mark_add_toast">Успешно добавено</string>
     <string name="material_clock_toggle_content_description">Изберете AM или PM</string>
+    <string name="material_hour_24h_suffix">%1$s часа</string>
     <string name="material_hour_selection">Изберете час</string>
     <string name="material_hour_suffix">%1$s часа</string>
     <string name="material_minute_selection">Избиране на минути</string>
@@ -382,21 +392,29 @@
     <string name="more_ai_unit_title">Ключови точки</string>
     <string name="morning">Сутрин</string>
     <string name="mtrl_badge_numberless_content_description">Ново известие</string>
+    <string name="mtrl_checkbox_state_description_checked">С отметка</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Частично отметнато</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Без отметка</string>
     <string name="mtrl_chip_close_icon_content_description">Премахване на %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Повече от %1$d нови известия</string>
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
+    <string name="mtrl_picker_announce_current_range_selection">Избиране на начална дата: %1$s – Избиране на крайна дата: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">няма</string>
+    <string name="mtrl_picker_cancel">Отказ</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
-    <string name="mtrl_picker_day_of_week_column_header">Колона за дни: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Крайна дата: %1$s</string>
     <string name="mtrl_picker_invalid_format">Форматът е невалиден.</string>
     <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Използвайте: %1$s</string>
     <string name="mtrl_picker_invalid_range">Невалиден диапазон.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Навигиране до %1$s г.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Навигиране до текущата година %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Навигиране до %1$d г.</string>
     <string name="mtrl_picker_out_of_range">Извън диапазона: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Начална дата – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – крайна дата</string>
@@ -404,16 +422,20 @@
     <string name="mtrl_picker_range_header_title">Избиране на период от време</string>
     <string name="mtrl_picker_range_header_unselected">Начална дата – крайна дата</string>
     <string name="mtrl_picker_save">Запазване</string>
+    <string name="mtrl_picker_start_date_description">Начална дата: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Дата</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Крайна дата</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Начална дата</string>
     <string name="mtrl_picker_text_input_day_abbr">д</string>
     <string name="mtrl_picker_text_input_month_abbr">м</string>
     <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_today_description">Днес – %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Превключване към режим на въвеждане в календар</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Докоснете, за да превключите към избиране на ден</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Докоснете за превключване към календарен изглед</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Превключване към режим за въвеждане на текст</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Докоснете за превключване към годишен изглед</string>
+    <string name="mtrl_timepicker_cancel">Отказ</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="network_tip_dialog_cancel">Не приемам</string>
     <string name="network_tip_dialog_content">Звукозапис трябва да се свърже с интернет, за да работи нормално. Съгласни ли сте?</string>
     <string name="network_tip_dialog_ok">Приемам</string>
@@ -440,7 +462,10 @@
     <string name="noon">Обед</string>
     <string name="not_allowed">Не е позволено</string>
     <string name="not_set">Не е зададено</string>
+    <string name="notice_btn_stop_ai_recognize">Изключване</string>
+    <string name="notice_content_no_asr_long_time">Отдавна не е засечена реч.</string>
     <string name="notice_for_ai_search_tips">Подробности</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Изключване на AI Разпознаване на реч?</string>
     <string name="notification_message_all_paused">Възможно е повишаване на трафика на мобилни данни.</string>
     <string name="notification_pause_playback">Възпроизвеждането е на пауза</string>
     <string name="notification_playback">Възпроизвеждане…</string>
@@ -448,11 +473,16 @@
     <string name="notification_recording_ticker">Телефонът е заглушен. Записва се…</string>
     <string name="notification_save_as_complete">Успешно запазено</string>
     <string name="notification_stopped">Записът е спрян</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Транскрибирането завърши</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Неуспешно обобщаване</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Обобщаването завърши</string>
     <string name="notification_title_all_paused">Изтеглянето е на пауза</string>
+    <string name="nrt_asr_complete">Транскрипцията е завършена. Докоснете за опресняване.</string>
     <string name="offline_recognize_transfer_format">Разпознаване…</string>
     <string name="online_recognize_progress">Разпознаване %s…</string>
     <string name="open_voice_enhancement">Подобряване на гласа</string>
     <string name="opened_voice_enhancement">Подобреният глас е включен</string>
+    <string name="pasport_register_dialog_message">Желаете ли да създадете Xiaomi Профил чрез своя телефонен номер %s?</string>
     <string name="passport_access_denied">Достъпът е отказан</string>
     <string name="passport_account_crop_user_avatar">Изрязване на снимка</string>
     <string name="passport_account_empty_user_name">Въведете името си</string>
@@ -469,7 +499,7 @@
     <string name="passport_account_secure_info_pref_title">Информация за профила</string>
     <string name="passport_account_security_info_pref_title">Информация за сигурност</string>
     <string name="passport_account_user_avatar">Профилна снимка</string>
-    <string name="passport_account_user_avatar_from_album">Галерия</string>
+    <string name="passport_account_user_avatar_from_album">Изберете от Галерията</string>
     <string name="passport_account_user_avatar_from_camera">Камера</string>
     <string name="passport_account_user_base_info">Основна информация</string>
     <string name="passport_account_user_details">Лична информация</string>
@@ -483,7 +513,6 @@
     <string name="passport_agree">Приемам</string>
     <string name="passport_area_code_title">Код на държава</string>
     <string name="passport_attention">Внимание</string>
-    <string name="passport_auth_fail_warning">Сесията изтече. Влезте отново.</string>
     <string name="passport_back">Назад</string>
     <string name="passport_bad_authentication">Невалидно потребителско име или парола</string>
     <string name="passport_can_not_recevie_verify_code">Не получихте код?</string>
@@ -505,11 +534,9 @@
     <string name="passport_doing_query_account">Проверка на информация за профил…</string>
     <string name="passport_error_auth_fail">Сесията е изтекла. Влезте отново.</string>
     <string name="passport_error_device_id">Не може да се получи ID на устройството</string>
-    <string name="passport_error_dup_binded_email">Този имейл адрес вече е свързан с друг Xiaomi Профил.</string>
     <string name="passport_error_empty_password">Въведете паролата си</string>
     <string name="passport_error_empty_pwd">Полето за парола не може да е празно</string>
     <string name="passport_error_empty_user_id">Въведете потребителското си име</string>
-    <string name="passport_error_invalid_bind_address">Въведеният от Вас имейл адрес е невалиден.</string>
     <string name="passport_error_length_limit">Въведения текст е твърде дълъг</string>
     <string name="passport_error_network">Не може да се направи връзка с мрежата</string>
     <string name="passport_error_no_password_user">Все още не сте задали паролата. Впишете се с SMS.</string>
@@ -525,17 +552,14 @@
     <string name="passport_error_unknown">Неизвестна грешка</string>
     <string name="passport_error_user_name">Въведеното от Вас потребителско име е невалидно</string>
     <string name="passport_error_user_password">Паролите не съвпадат</string>
-    <string name="passport_exceed_binded_phone_times_notice">Този телефонен номер вече е свързан с друг Xiaomi Профил.</string>
     <string name="passport_facebook_login_btn_content_description">Вписване с Facebook</string>
     <string name="passport_frequency_try_later">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
     <string name="passport_get_login_type_next">Напред</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">На този телефонен номер са изпратени прекалено много кодове за потвърждаване. Опитайте отново след 24 часа.</string>
     <string name="passport_google_login_btn_content_description">Вписване с Google</string>
     <string name="passport_help">Помощ</string>
     <string name="passport_i_know">Разбрах</string>
     <string name="passport_identification_expired">Кодът за потвърждаване е изтекъл. Започнете отначало.</string>
     <string name="passport_input_captcha_hint">Въведете код</string>
-    <string name="passport_input_email_address_notice">Ние ще използваме този имейл, за да потвърдим Вашия профил</string>
     <string name="passport_input_password_hint">Въведете парола</string>
     <string name="passport_input_phone_number_hint">Въведете телефонен номер</string>
     <string name="passport_input_verify_code">Въведете код за проверка</string>
@@ -547,7 +571,6 @@
     <string name="passport_login_register_by_local_phone_long_text">Създаване на профил</string>
     <string name="passport_login_with_sns">Други начини за вписване</string>
     <string name="passport_logout_account">Отписване</string>
-    <string name="passport_mi_account_first_title">Ако използвате телефонния си номер за пръв път ние ще създадем профил автоматично.</string>
     <string name="passport_mi_account_title">Вписване с Xiaomi Профил</string>
     <string name="passport_network_error">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="passport_network_error_hint">Проверете URL адреса и опитайте отново, или копирайте URL адреса и го отворете в браузъра си.</string>
@@ -556,6 +579,7 @@
     <string name="passport_no_account">Не сте вписани</string>
     <string name="passport_open_settings">Настройки</string>
     <string name="passport_page_load_failed">Страницата не може да бъде отворена</string>
+    <string name="passport_password_hide_show">Скрий паролата</string>
     <string name="passport_password_login_btn">Вписване</string>
     <string name="passport_password_not_show">Не показвай паролата</string>
     <string name="passport_password_show">Покажи паролата</string>
@@ -567,6 +591,8 @@
     <string name="passport_reging">Създаване на профил…</string>
     <string name="passport_register_by_local_phone_long_text">Създаване на профил</string>
     <string name="passport_register_by_local_phone_short_text">Създаване на профил</string>
+    <string name="passport_register_dialog_positive">Създай</string>
+    <string name="passport_register_dialog_title">Създаване на Xiaomi Профил</string>
     <string name="passport_register_restricted">Твърде много профили са асоциирани с този номер. Опитайте с друг.</string>
     <string name="passport_relogin_notice">Трябва да се впишете отново</string>
     <string name="passport_request_agree">Разреши</string>
@@ -575,40 +601,37 @@
     <string name="passport_request_error_invalid_token">Неуспешно потвърждаване</string>
     <string name="passport_request_error_network">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="passport_request_error_unknown">Възникна системна грешка. Върнете се назад и опитайте отново.</string>
-    <string name="passport_request_gallery_permission_message">Разрешете достъп до Галерия:&lt;br />За настройване на профилни снимки</string>
-    <string name="passport_resend_email_reach_limit_message">Заявихте твърде много имейли за потвърждение. Уверете се, че имейла не е в папката Спам.</string>
-    <string name="passport_resend_email_reach_limit_title">Твърде много опити</string>
+    <string name="passport_request_gallery_permission_message">Това приложение се нуждае от достъп до избрани елементи от Галерията, за да може да зададе Вашата профилна снимка. Желаете ли да дадете разрешение?</string>
+    <string name="passport_request_permission_title">Необходими са разрешения</string>
     <string name="passport_resend_ticket">Повторно изпращане</string>
     <string name="passport_retry">Опитайте отново</string>
-    <string name="passport_same_new_and_old_pwd">Не може да е същата като текущата парола</string>
     <string name="passport_send_sms_to">Беше изпратен код до %1$s</string>
     <string name="passport_send_too_many_code">На този телефонен номер са изпратени прекалено много кодове за потвърждаване. Опитайте отново след 24 часа.</string>
     <string name="passport_sending_vcode">Изпращане на код…</string>
-    <string name="passport_service_error">Грешка в сървъра</string>
     <string name="passport_set_password_no_phone_msg">Добавете телефонния си номер, за да защитите профила си.</string>
     <string name="passport_skip_query_account">Пропусни</string>
-    <string name="passport_sns_access_token_expired_warning">Сесията е изтекла. Впишете се отново, за да добавите този профил.</string>
     <string name="passport_sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
     <string name="passport_system_error">Системата е заета. Изчакайте минута-две и опитайте отново.</string>
     <string name="passport_talkback_image_captcha">Код за потвърждаване с изображение</string>
     <string name="passport_talkback_switch_image_captcha">Превключи на код за потвърждаване с изображение</string>
     <string name="passport_talkback_switch_voice_captcha">Превключи на гласов код за потвърждаване</string>
     <string name="passport_talkback_voice_captcha">Пуснете гласов код за потвърждаване</string>
+    <string name="passport_third_sns_service_unavailable">Услугата не е налична. Уверете се, че приложението е инсталирано и не е блокирано.</string>
     <string name="passport_ticket_send_by_second">Изпращане след %d</string>
     <string name="passport_to_forget_password">Забравена парола?</string>
     <string name="passport_to_password_login">Впишете се с парола</string>
     <string name="passport_to_verify_code_login">Вписване със SMS</string>
     <string name="passport_unknown_error">Неизвестна грешка</string>
     <string name="passport_unknown_host_network_error">Проверете мрежовите си настройки и опитайте отново</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Ако използвате телефонния си номер за пръв път ние ще създадем профил автоматично.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="passport_user_avatar_uploading">Един момент…</string>
     <string name="passport_user_id_hint">Имейл/телефонен номер/Номер на Xiaomi Профил</string>
@@ -628,6 +651,7 @@
     <string name="permission_bluetooth">Достъп до състоянието на Bluetooth връзката</string>
     <string name="permission_bluetooth_dialog_description">Разрешете на това устройство да се свързва с устройства наблизо, за да можете да сменяте устройства при възпроизвеждане на записи.</string>
     <string name="permission_bluetooth_title">Необходими са разрешения</string>
+    <string name="permission_camera_description">За правене на снимки по време на запис</string>
     <string name="permission_desc">Подробности за разрешения</string>
     <string name="permission_dialog_cancel">Отказ</string>
     <string name="permission_dialog_ok">Настройки</string>
@@ -660,6 +684,10 @@
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preference_enable_earpiece_summary">Възпроизвеждайте аудио чрез високоговорителя в слушалката</string>
     <string name="preference_enable_earpiece_title">Режим Слушалки</string>
+    <string name="preference_group_title_for_ai_setting">AI функции</string>
+    <string name="preference_group_title_for_normal_setting">Общи</string>
+    <string name="preference_key_ai_recognize">AI Разпознаване на реч</string>
+    <string name="preference_key_intelligent_polishing">Смарт подобряване</string>
     <string name="preference_led_indicator">Индикатор за записване при заключен екран</string>
     <string name="preference_led_indicator_prompt">Показване на син индикатор на Заключен екран и присветване на LED светлина при записване</string>
     <string name="preference_record_desktop_indicator_summary">Показване на син индикатор на Началния екран при записване</string>
@@ -678,6 +706,7 @@
     <string name="progress">Лента за прогрес на възпроизвеждане</string>
     <string name="progress_dialog_message">Изтегляне…</string>
     <string name="radio_tips">Звукозапис предоставя аудио транскрипция, аудио обобщения и др. Това приложение трябва да се свърже с интернет, за да предостави тези услуги.</string>
+    <string name="re_asr_error_tip">Неуспешно транскрибиране. Опитайте отново.</string>
     <string name="recent_delete">Последно изтрити</string>
     <string name="recent_delete_delete_all">Желаете ли перманентно да изтриете всички елементи?</string>
     <string name="recognition_button_add_to_queue">Добавяне към чакащите</string>
@@ -707,6 +736,7 @@
     <string name="recognition_process_dialog_title">Текущи задачи</string>
     <string name="recognition_stop_current">Спиране на текущите задачи</string>
     <string name="recognize_complete_toast">Транскрибирането приключи</string>
+    <string name="recognize_data_loading">Един момент…</string>
     <string name="recognize_tip_part_one">"Не завърши транскрипцията. "</string>
     <string name="recognize_tip_part_two">Опитайте отново</string>
     <string name="recognizing_not_rename">Не можете да преименувате по време на запис</string>
@@ -788,6 +818,8 @@
     <string name="search_scenes">Тип на звукозапис</string>
     <string name="search_silent_mode">Заглушаване на звъненето, докато трае звукозапис</string>
     <string name="search_tip_rename">Ръчно задаване на име за запис</string>
+    <string name="searchview_clear_text_content_description">Изчистване на текста</string>
+    <string name="searchview_navigation_content_description">Назад</string>
     <string name="send">Изпращане</string>
     <string name="settings_ai_record_abstract">Обобщаване</string>
     <string name="settings_ai_record_abstract_description">Обобщете темата и съдържанието на запис и съхранете обобщението в Бележки</string>
@@ -814,6 +846,7 @@
     <string name="shortcut_stop_record">Спри записа</string>
     <string name="show_text">Показване на текст</string>
     <string name="show_wave">Показване на гласов отпечатък</string>
+    <string name="side_sheet_accessibility_pane_title">Страничен лист</string>
     <string name="size_byte">Б</string>
     <string name="size_giga_byte">ГБ</string>
     <string name="size_kilo_byte">КБ</string>
@@ -823,6 +856,7 @@
     <string name="size_tera_byte">ТБ</string>
     <string name="sound_recorder_settings">Настройки</string>
     <string name="speaker">"Говорител "</string>
+    <string name="state_wait_recognize_tip">Първо завършване на текущата транскрипция …</string>
     <string name="status_bar_back">Натиснете, за да се върнете към Звукозапис</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Записване…</string>
@@ -856,6 +890,7 @@
     <string name="talkback_traslation_ai_recognize">Скриване на текстовото поле</string>
     <string name="talkback_traslation_close">Прекратяване на превода</string>
     <string name="text_btn_backward_3_seconds">%d секунди назад</string>
+    <string name="text_btn_camera">Направи снимка</string>
     <string name="text_btn_complete">Завършени</string>
     <string name="text_btn_forward_3_seconds">%d секунди напред</string>
     <string name="text_btn_mark">Маркиран</string>
@@ -928,8 +963,11 @@
     <string name="tips_for_build_database">Дръж устройството си свързано със зарядното. То ще анализира този запис по-бързо, когато екранът е изключен.</string>
     <string name="toast_enter_silent_mode">Записване. Тихият режим е включен.</string>
     <string name="toast_exit_silent_mode">Записът приключи. Тихият режим е изключен.</string>
+    <string name="toast_for_no_asr_long_time">Не е открита реч. AI Разпознаването на реч е спряло.</string>
+    <string name="toast_for_pause_record_long_time">Записът е поставен на пауза. AI Разпознаването на реч е спряно.</string>
     <string name="toast_max_record_time">App: %1$s максимално време за запис %2$s</string>
     <string name="toast_stop">Записът е завършен</string>
+    <string name="toast_title_stop_ai_recognize">Спряно AI Разпознаване на реч</string>
     <string name="toast_uninstall_fileexplorer">Управление на файлове не е инсталиран</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>

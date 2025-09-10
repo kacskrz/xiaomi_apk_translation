@@ -7,9 +7,13 @@
     <string name="action_notes">"שמירה ב'פתקים'"</string>
     <string name="action_retry">יש לנסות שוב</string>
     <string name="actionbar_button_up_description">הקודם</string>
+    <string name="add_mark">סימון</string>
     <string name="afternoon">אחר הצהריים</string>
     <string name="agree_description">אפשר לאפליקציה זו להתחבר לאינטרנט כדי שתוכל להשתמש בכל המאפיינים שלה.</string>
     <string name="ai_recognition_other_speaker">(מישהו אחר מדבר)</string>
+    <string name="ai_recognize_fail">לא ניתן לתמלל</string>
+    <string name="ai_recognize_fail_tip">לא ניתן לסכם. יש לנסות שוב.</string>
+    <string name="ai_recognize_preference_summary">תמלול אוטומטי בזמן הקלטה</string>
     <string name="ai_summary">סיכום AI</string>
     <string name="ai_watermark">תוכן זה נוצר על-ידי AI ומסופק לעיונכם בלבד.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">לא ניתן להקליט כשהמיקרופון בשימוש</string>
@@ -38,6 +42,9 @@
     <string name="app_name">רשמקול</string>
     <string name="app_record">הקלטות יישום</string>
     <string name="app_record_preference_title">מקליט שיחות קוליות</string>
+    <string name="asr_in_progress">%s מתמלל ומסכם</string>
+    <string name="asr_in_progress_with_polish">%s מלטש ומסכם</string>
+    <string name="asr_progress">מתמלל שמע %s</string>
     <string name="back">חזרה</string>
     <string name="back_playback_position">חזרה למקום הנוכחי</string>
     <string name="bottomsheet_action_collapse">צמצום תחתית הגיליון</string>
@@ -196,6 +203,7 @@
     <string name="head_set_tip_dialog_ok">הבנתי</string>
     <string name="head_set_tip_dialog_title">השתמש במיקרופון הפנימי</string>
     <string name="high_bit_rate">MP3, ~%1$d ק\"ב/שנייה, ~%2$d מ\"ב/שעה</string>
+    <string name="intelligent_polishing_preference_summary">הסרת כפילויות ותקנון הפורמט עבור סינית</string>
     <string name="invisible_mode_dialog_message">לא ניתן להשתמש במיקרופןן בזמן גלישה בפרטיות. קודם יש להשבית את מצב הגלישה בפרטיות.</string>
     <string name="invisible_mode_dialog_negative">ביטול</string>
     <string name="invisible_mode_dialog_positive">להשבית</string>
@@ -350,7 +358,10 @@
     <string name="no_text_content">אין טקסט</string>
     <string name="noon">צהריים</string>
     <string name="not_allowed">לא ניתנה</string>
+    <string name="notice_btn_stop_ai_recognize">להשבית</string>
+    <string name="notice_content_no_asr_long_time">לא זוהה דיבור במשך זמן רב.</string>
     <string name="notice_for_ai_search_tips">פרטים</string>
+    <string name="notice_title_is_need_stop_ai_recognize">להשבית את זיהוי דיבור AI?</string>
     <string name="notification_message_all_paused">ממתין לחיבור רשת אלחוטית.</string>
     <string name="notification_pause_playback">הניגון הושהה</string>
     <string name="notification_playback">מנגן…</string>
@@ -358,18 +369,23 @@
     <string name="notification_recording_ticker">הטלפון הושתק</string>
     <string name="notification_save_as_complete">נשמר בהצלחה</string>
     <string name="notification_stopped">ההקלטה הופסקה</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">התמלול הסתיים</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">לא ניתן לסכם</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">הסיכום הסתיים</string>
     <string name="notification_title_all_paused">ההורדה הופסקה</string>
+    <string name="nrt_asr_complete">התמלול הסתיים. יש להקיש לרענון.</string>
     <string name="offline_recognize_transfer_format">תמלול…</string>
     <string name="online_recognize_progress">תמלול %s…</string>
     <string name="open_voice_enhancement">הגברת הקול</string>
     <string name="opened_voice_enhancement">הגברת הקול מופעלת</string>
+    <string name="pasport_register_dialog_message">ליצור חשבון Xiaomi דרך מספר הטלפון %s עכשיו?</string>
     <string name="passport_access_denied">הגישה נדחתה</string>
     <string name="passport_account_crop_user_avatar">חיתוך תמונה</string>
     <string name="passport_account_empty_user_name">עליך להזין את שמך</string>
     <string name="passport_account_error_all_space_user_name">"השם לא יכול להכיל תווי 'רווח' בלבד"</string>
     <string name="passport_account_error_invalid_user_name">השם אינו יכול להכיל &lt;, > או /</string>
-    <string name="passport_account_error_longer_user_name">"Name can't be longer than %d characters"</string>
-    <string name="passport_account_error_shorter_user_name">Name must be longer than %d characters</string>
+    <string name="passport_account_error_longer_user_name">שם לא יכול להכיל יותר מ-%d תווים</string>
+    <string name="passport_account_error_shorter_user_name">שם חייב להכיל יותר מ-%d תווים</string>
     <string name="passport_account_error_user_name">כינוי זה אינו חוקי. יש לנסות כינוי אחר.</string>
     <string name="passport_account_invalid_user_avatar">תמונה זו אינה חוקית. יש לנסות תמונה אחרת.</string>
     <string name="passport_account_name">"חשבון: %1$s "</string>
@@ -379,7 +395,7 @@
     <string name="passport_account_secure_info_pref_title">פרטי החשבון</string>
     <string name="passport_account_security_info_pref_title">פרטי אבטחה</string>
     <string name="passport_account_user_avatar">תמונת פרופיל</string>
-    <string name="passport_account_user_avatar_from_album">גלריה</string>
+    <string name="passport_account_user_avatar_from_album">לבחור מהגלריה</string>
     <string name="passport_account_user_avatar_from_camera">מצלמה</string>
     <string name="passport_account_user_base_info">מידע בסיסי</string>
     <string name="passport_account_user_details">פרטים אישיים</string>
@@ -393,7 +409,6 @@
     <string name="passport_agree">מסכימ/ה</string>
     <string name="passport_area_code_title">אזור חיוג</string>
     <string name="passport_attention">לתשומת לבך</string>
-    <string name="passport_auth_fail_warning">פג תוקף התהליך. היכנס שוב.</string>
     <string name="passport_back">חזרה</string>
     <string name="passport_bad_authentication">שם משתמש או סיסמה לא חוקיים</string>
     <string name="passport_can_not_recevie_verify_code">לא קיבלת קוד?</string>
@@ -415,11 +430,9 @@
     <string name="passport_doing_query_account">בודק את פרטי החשבון…</string>
     <string name="passport_error_auth_fail">פג תוקף התהליך. היכנס שוב.</string>
     <string name="passport_error_device_id">לא ניתן להשיג את מזהה המכשיר</string>
-    <string name="passport_error_dup_binded_email">כתובת דוא\"ל זו כבר משויכת לחשבון Xiaomi אחר.</string>
     <string name="passport_error_empty_password">נא להזין את סיסמתך</string>
     <string name="passport_error_empty_pwd">שדה הסיסמה לא יכול להישאר ריק</string>
     <string name="passport_error_empty_user_id">נא להזין את שם המשתמש שלך</string>
-    <string name="passport_error_invalid_bind_address">כתובת הדוא\"ל שהזנת אינה חוקית.</string>
     <string name="passport_error_length_limit">הטקסט שהזנת ארוך מדי</string>
     <string name="passport_error_network">לא ניתן להתחבר לרשת</string>
     <string name="passport_error_no_password_user">עדיין לא הגדרת סיסמה. היכנס באמצעות מסרון.</string>
@@ -435,17 +448,14 @@
     <string name="passport_error_unknown">שגיאה לא ידועה</string>
     <string name="passport_error_user_name">שם המשתמש שהזנת אינו חוקי</string>
     <string name="passport_error_user_password">הסיסמאות אינן תואמות</string>
-    <string name="passport_exceed_binded_phone_times_notice">מספר הטלפון הזה כבר משויך לחשבון Xiaomi אחר.</string>
     <string name="passport_facebook_login_btn_content_description">התחברות עם Facebook</string>
     <string name="passport_frequency_try_later">יותר מדי ניסיונות. נא להמתין דקה או שתיים ולנסות שוב.</string>
     <string name="passport_get_login_type_next">הבא</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">נשלחו למספר זה יותר מדי קודי אימות. עליך להמתין 24 שעות ולנסות שוב.</string>
     <string name="passport_google_login_btn_content_description">התחברות עם Google</string>
     <string name="passport_help">עזרה</string>
     <string name="passport_i_know">הבנתי</string>
     <string name="passport_identification_expired">פג התוקף של קוד האימות. התחל מחדש.</string>
     <string name="passport_input_captcha_hint">הזן קוד</string>
-    <string name="passport_input_email_address_notice">אנו נשתמש בכתובת דוא\"ל זו על מנת לאמת את חשבונך</string>
     <string name="passport_input_password_hint">הזן סיסמה</string>
     <string name="passport_input_phone_number_hint">נא להזין מספר טלפון</string>
     <string name="passport_input_verify_code">נא להזין את קוד האימות</string>
@@ -457,7 +467,6 @@
     <string name="passport_login_register_by_local_phone_long_text">יצירת חשבון</string>
     <string name="passport_login_with_sns">דרכים אחרות להתחבר</string>
     <string name="passport_logout_account">התנתקות</string>
-    <string name="passport_mi_account_first_title">אם זה השימוש הראשון שלך במספר הטלפון שלך, אנו ניצור עבורך חשבון באופן אוטומטי.</string>
     <string name="passport_mi_account_title">היכנס באמצעות חשבון Xiaomi</string>
     <string name="passport_network_error">אירעה שגיאת רשת. יש לבדוק את הגדרות הרשת ולנסות שוב.</string>
     <string name="passport_network_error_hint">נא לבדוק את כתובת ה-URL ולנסות שוב, או להעתיק את כתובת ה-URL ולפתוח אותה בדפדפן שלך.</string>
@@ -466,6 +475,7 @@
     <string name="passport_no_account">לא מחובר</string>
     <string name="passport_open_settings">הגדרות</string>
     <string name="passport_page_load_failed">לא ניתן לפתוח את הדף</string>
+    <string name="passport_password_hide_show">הסתרת הסיסמה</string>
     <string name="passport_password_login_btn">התחברות</string>
     <string name="passport_password_not_show">לא להציג את הסיסמה</string>
     <string name="passport_password_show">להציג את הסיסמה</string>
@@ -477,6 +487,8 @@
     <string name="passport_reging">יוצר חשבון…</string>
     <string name="passport_register_by_local_phone_long_text">יצירת חשבון</string>
     <string name="passport_register_by_local_phone_short_text">יצירת חשבון</string>
+    <string name="passport_register_dialog_positive">ליצור</string>
+    <string name="passport_register_dialog_title">יצירת חשבון Xiaomi</string>
     <string name="passport_register_restricted">למספר זה קושרו יותר מדי חשבונות. נסה מספר אחר.</string>
     <string name="passport_relogin_notice">עליך להיכנס שוב</string>
     <string name="passport_request_agree">לאפשר</string>
@@ -485,40 +497,37 @@
     <string name="passport_request_error_invalid_token">לא ניתן היה לאמת</string>
     <string name="passport_request_error_network">אירעה שגיאת רשת. יש לבדוק את הגדרות הרשת ולנסות שוב.</string>
     <string name="passport_request_error_unknown">אירעה שגיאת מערכת. יש לחזור לאחור ולנסות שנית.</string>
-    <string name="passport_request_gallery_permission_message">לאפשר גישה לגלריה:&lt;br />להגדרת תמונות פרופיל</string>
-    <string name="passport_resend_email_reach_limit_message">ביקשת יותר מדי הודעות דוא\"ל לאימות. יש לוודא שהודעות האימות אינן נמצאות בתיקיית דואר הזבל שלך.</string>
-    <string name="passport_resend_email_reach_limit_title">יותר מדי ניסיונות</string>
+    <string name="passport_request_gallery_permission_message">יישום זה זקוק לגישה לתוכן הגלריה כדי להגדיר את תמונת הפרופיל שלך. לתת את ההרשאה עכשיו?</string>
+    <string name="passport_request_permission_title">נדרשות הרשאות</string>
     <string name="passport_resend_ticket">שליחת הקוד מחדש</string>
     <string name="passport_retry">נא לנסות שוב</string>
-    <string name="passport_same_new_and_old_pwd">הסיסמה לא יכולה להיות זהה לסיסמה הנוכחית</string>
     <string name="passport_send_sms_to">הקוד נשלח ל-%1$s</string>
     <string name="passport_send_too_many_code">למספר זה נשלחו יותר מדי קודי אימות. המתן 24 שעות ונסה שוב.</string>
     <string name="passport_sending_vcode">שולח קוד…</string>
-    <string name="passport_service_error">שגיאת שרת</string>
     <string name="passport_set_password_no_phone_msg">הוסף את מספר הטלפון שלך כדי להגן על חשבונך.</string>
     <string name="passport_skip_query_account">לדלג</string>
-    <string name="passport_sns_access_token_expired_warning">פג תוקף התהליך. יש להיכנס שוב כדי לחבר חשבון זה מחדש.</string>
     <string name="passport_sns_bind_limit">יותר מדי ניסיונות. יש לנסות דרכים אחרות להיכנס.</string>
     <string name="passport_system_error">המערכת עסוקה כעת. יש לחכות דקה או שתיים ולנסות שוב.</string>
     <string name="passport_talkback_image_captcha">קוד אימות תמונה</string>
     <string name="passport_talkback_switch_image_captcha">החלף לקוד אימות תמונה</string>
     <string name="passport_talkback_switch_voice_captcha">החלף לקוד אימות קולי</string>
     <string name="passport_talkback_voice_captcha">השמע קוד אימות קולי</string>
+    <string name="passport_third_sns_service_unavailable">השירות אינו זמין. נא לוודא שהיישום הותקן ולא נחסם.</string>
     <string name="passport_ticket_send_by_second">לשלוח בעוד %d</string>
     <string name="passport_to_forget_password">שכחת את הסיסמה?</string>
     <string name="passport_to_password_login">התחברות באמצעות סיסמה</string>
     <string name="passport_to_verify_code_login">התחברות באמצעות מסרון</string>
     <string name="passport_unknown_error">שגיאה לא ידועה</string>
     <string name="passport_unknown_host_network_error">נא לבדוק את הגדרות הרשת ולנסות שוב</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>קראתי והסכמתי ל&lt;a href=%1$s>הסכם המשתמש&lt;/a> ול&lt;a href=%2$s>מדיניות הפרטיות&lt;/a> וכן ל&lt;a href=%3$s>הסכם המשתמש&lt;/a> ול&lt;a href=%4$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>קראתי את &lt;a href=%1$s>הסכם המשתמש&lt;/a> ואת &lt;a href=%2$s>מדיניות הפרטיות&lt;/a>, את &lt;a href=%3$s>הסכם המשתמש&lt;/a> &lt;a href=%4$s>ומדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וגם את &lt;a href=%5$s>התנאים וההגבלות עבור שירותי האימות של China Mobile, והסכמתי איתם&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>קראתי את &lt;a href=%1$s>הסכם המשתמש&lt;/a> ואת &lt;a href=%2$s>מדיניות הפרטיות&lt;/a>, את &lt;a href=%3$s>הסכם המשתמש&lt;/a> &lt;a href=%4$s>ומדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וגם את &lt;a href=%5$s>התנאים וההגבלות עבור שירותי האימות של חשבון eSurfing, והסכמתי איתם&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>קראתי את &lt;a href=%1$s>הסכם המשתמש&lt;/a> ואת &lt;a href=%2$s>מדיניות הפרטיות&lt;/a>, את &lt;a href=%3$s>הסכם המשתמש&lt;/a> &lt;a href=%4$s>ומדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וגם את &lt;a href=%5$s>התנאים וההגבלות עבור שירותי האימות של China Unicom, והסכמתי איתם&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>קראתי את &lt;a href=%1$s>הסכם המשתמש&lt;/a> ואת &lt;a href=%2$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi והסכמתי איתם.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>קראתי והסכמתי ל&lt;a href=%1$s>הסכם המשתמש&lt;/a> ול&lt;a href=%2$s>מדיניות הפרטיות&lt;/a> וכן ל&lt;a href=%3$s>הסכם המשתמש&lt;/a> ול&lt;a href=%4$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>קראתי את &lt;a href=%1$s>הסכם המשתמש&lt;/a> ואת &lt;a href=%2$s>מדיניות הפרטיות&lt;/a>, את &lt;a href=%3$s>הסכם המשתמש&lt;/a> &lt;a href=%4$s>ומדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וגם את &lt;a href=%5$s>התנאים וההגבלות עבור שירותי האימות של China Mobile, והסכמתי איתם&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>קראתי את &lt;a href=%1$s>הסכם המשתמש&lt;/a> ואת &lt;a href=%2$s>מדיניות הפרטיות&lt;/a>, את &lt;a href=%3$s>הסכם המשתמש&lt;/a> &lt;a href=%4$s>ומדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וגם את &lt;a href=%5$s>התנאים וההגבלות עבור שירותי האימות של חשבון eSurfing, והסכמתי איתם&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>קראתי את &lt;a href=%1$s>הסכם המשתמש&lt;/a> ואת &lt;a href=%2$s>מדיניות הפרטיות&lt;/a>, את &lt;a href=%3$s>הסכם המשתמש&lt;/a> &lt;a href=%4$s>ומדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וגם את &lt;a href=%5$s>התנאים וההגבלות עבור שירותי האימות של China Unicom, והסכמתי איתם&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>קראתי את &lt;a href=%1$s>הסכם המשתמש&lt;/a> ואת &lt;a href=%2$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi והסכמתי איתם.</Data></string>
     <string name="passport_user_agreement_hint_first_login">אם זה השימוש הראשון שלך במספר הטלפון שלך, אנו ניצור עבורך חשבון באופן אוטומטי.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>קראתי והסכמתי ל&lt;a href=%1$s>הסכם המשתמש&lt;/a> ול&lt;a href=%2$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וכן ל&lt;a href=%3$s>תנאים ולהגבלות של שירותי האימות של China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>קראתי והסכמתי ל&lt;a href=%1$s>הסכם המשתמש&lt;/a> ול&lt;a href=%2$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וכן ל&lt;a href=%3$s>תנאים ולהגבלות של שירותי האימות של eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>קראתי והסכמתי ל&lt;a href=%1$s>הסכם המשתמש&lt;/a> ול&lt;a href=%2$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וכן ל&lt;a href=%3$s>תנאים ולהגבלות של שירותי האימות של China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>קראתי והסכמתי ל&lt;a href=%1$s>הסכם המשתמש&lt;/a> ול&lt;a href=%2$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וכן ל&lt;a href=%3$s>תנאים ולהגבלות של שירותי האימות של China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>קראתי והסכמתי ל&lt;a href=%1$s>הסכם המשתמש&lt;/a> ול&lt;a href=%2$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וכן ל&lt;a href=%3$s>תנאים ולהגבלות של שירותי האימות של eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>קראתי והסכמתי ל&lt;a href=%1$s>הסכם המשתמש&lt;/a> ול&lt;a href=%2$s>מדיניות הפרטיות&lt;/a> של חשבון Xiaomi, וכן ל&lt;a href=%3$s>תנאים ולהגבלות של שירותי האימות של China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">שינוי תמונת פרופיל</string>
     <string name="passport_user_avatar_uploading">רק רגע…</string>
     <string name="passport_user_id_hint">דוא\"ל/מספר טלפון/מזהה חשבון Xiaomi</string>
@@ -537,6 +546,7 @@
     <string name="permission_bluetooth">גישה לסטטוס חיבור Bluetooth</string>
     <string name="permission_bluetooth_dialog_description">לאפשר למכשיר זה להתחבר למכשירים בסביבה הקרובה כדי לעבור בין מכשירים בזמן ניגון הקלטות.</string>
     <string name="permission_bluetooth_title">נדרשות הרשאות</string>
+    <string name="permission_camera_description">לצילום תמונות בזמן הקלטה</string>
     <string name="permission_desc">פרטי הרשאות</string>
     <string name="permission_dialog_cancel">ביטול</string>
     <string name="permission_dialog_ok">הגדרות</string>
@@ -568,6 +578,10 @@
     <string name="preference_clear_data">נקה נתונים</string>
     <string name="preference_enable_earpiece_summary">השמע שמע באמצעות רמקול האפרכסת</string>
     <string name="preference_enable_earpiece_title">מצב אפרכסת</string>
+    <string name="preference_group_title_for_ai_setting">מאפייני AI</string>
+    <string name="preference_group_title_for_normal_setting">כללי</string>
+    <string name="preference_key_ai_recognize">זיהוי דיבור AI</string>
+    <string name="preference_key_intelligent_polishing">ליטוש חכם</string>
     <string name="preference_led_indicator">"התראות 'מסך הנעילה'"</string>
     <string name="preference_led_indicator_prompt">להציג מחוון כחול על מסך הנעילה והבהוב של תאורת LED בזמן הקלטה</string>
     <string name="preference_record_desktop_indicator_summary">להציג מחוון כחול על מסך הבית בזמן הקלטה</string>
@@ -586,6 +600,7 @@
     <string name="progress">סרגל התקדמות הניגון</string>
     <string name="progress_dialog_message">מוריד…</string>
     <string name="radio_tips">הרשמקול מספק תמלול שמע, תקצירי שמע ועוד. יישום זה צריך להתחבר לאינטרנט כדי לספק את השירותים הללו.</string>
+    <string name="re_asr_error_tip">לא ניתן לתמלל. יש לנסות שוב.</string>
     <string name="recent_delete">נמחקו לאחרונה</string>
     <string name="recent_delete_delete_all">למחוק את כל הפריטים לצמיתות עכשיו?</string>
     <string name="recognition_button_add_to_queue">הוסף לתור</string>
@@ -615,6 +630,7 @@
     <string name="recognition_process_dialog_title">משימות מתמשכות</string>
     <string name="recognition_stop_current">הפסק פעולה נוכחית</string>
     <string name="recognize_complete_toast">התמלול הושלם</string>
+    <string name="recognize_data_loading">רק רגע…</string>
     <string name="recognize_tip_part_one">"התמלול לא הסתיים. "</string>
     <string name="recognize_tip_part_two">יש לנסות שוב</string>
     <string name="recognizing_not_rename">לא ניתן לשנות את השם בזמן הקלטה</string>
@@ -730,6 +746,7 @@
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">הגדרות</string>
     <string name="speaker">"דובר/ת "</string>
+    <string name="state_wait_recognize_tip">מסיים את התמלול הנוכחי לפני השאר…</string>
     <string name="status_bar_back">"לחץ על מנת לחזור ל'רשמקול'"</string>
     <string name="status_bar_recording">מקליט…</string>
     <string name="status_bar_recording_pause">הרשמקול הופסק</string>
@@ -761,6 +778,7 @@
     <string name="talkback_traslation_ai_recognize">הסתרת תיבת הטקסט</string>
     <string name="talkback_traslation_close">להפסיק לתרגם</string>
     <string name="text_btn_backward_3_seconds">הרצה אחורה ב-%d שניות</string>
+    <string name="text_btn_camera">צילום תמונה</string>
     <string name="text_btn_complete">עצירה</string>
     <string name="text_btn_forward_3_seconds">הרצה קדימה ב-%d שניות</string>
     <string name="text_btn_mark">סימון</string>
@@ -833,8 +851,11 @@
     <string name="tips_for_build_database">המכשיר צריך להישאר מחובר למטען. ניתוח ההקלטה יתבצע מהר יותר כאשר המסך כבוי.</string>
     <string name="toast_enter_silent_mode">מקליט. מצב שקט מופעל.</string>
     <string name="toast_exit_silent_mode">ההקלטה הסתיימה. מצב שקט הושבת.</string>
+    <string name="toast_for_no_asr_long_time">לא זוהה דיבור. זיהוי דיבור AI הופסק.</string>
+    <string name="toast_for_pause_record_long_time">ההקלטה הושהתה. זיהוי דיבור AI הופסק.</string>
     <string name="toast_max_record_time">%1$s יכול להקליט למשך כ- %2$s</string>
     <string name="toast_stop">ההקלטה הסתיימה</string>
+    <string name="toast_title_stop_ai_recognize">זיהוי דיבור AI הופסק</string>
     <string name="toast_uninstall_fileexplorer">"'מנהל הקבצים' אינו מותקן"</string>
     <string name="today">היום</string>
     <string name="tomorrow">מחר</string>

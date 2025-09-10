@@ -2,7 +2,7 @@
 <resources>
     <string name="abc_action_bar_home_description">Tunjukkan jalan ke rumah</string>
     <string name="abc_action_bar_up_description">Kembali ke atas</string>
-    <string name="abc_action_menu_overflow_description">Opsi lain</string>
+    <string name="abc_action_menu_overflow_description">Opsi lainnya</string>
     <string name="abc_action_mode_done">Selesai</string>
     <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
     <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
@@ -34,9 +34,13 @@
     <string name="action_notes">Simpan ke Catatan</string>
     <string name="action_retry">Coba lagi</string>
     <string name="actionbar_button_up_description">Kembali</string>
+    <string name="add_mark">Tandai</string>
     <string name="afternoon">Siang</string>
     <string name="agree_description">Izinkan apl ini untuk terhubung ke internet agar dapat menggunakan seluruh fiturnya.</string>
     <string name="ai_recognition_other_speaker">(Orang lain berbicara)</string>
+    <string name="ai_recognize_fail">Tidak dapat mentranskrip</string>
+    <string name="ai_recognize_fail_tip">Tidak dapat meringkas. Coba lagi.</string>
+    <string name="ai_recognize_preference_summary">Transkripsikan secara otomatis saat merekam</string>
     <string name="ai_summary">Ringkasan AI</string>
     <string name="ai_watermark">Konten ini dibuat oleh AI dan disediakan hanya untuk referensi Anda.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Tidak dapat merekam saat mikrofon sedang digunakan</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Perekam</string>
     <string name="app_record">Rekaman apl</string>
     <string name="app_record_preference_title">Perekam Panggilan Suara</string>
+    <string name="asr_in_progress">%s Mentranskripsi dan meringkas</string>
+    <string name="asr_in_progress_with_polish">%s Menyempurnakan dan meringkas</string>
+    <string name="asr_progress">Mentranskrip audio %s</string>
     <string name="back">Kembali</string>
     <string name="back_playback_position">Kembali ke posisi saat ini</string>
-    <string name="bottomsheet_action_collapse">Perkecil lembar bawah</string>
-    <string name="bottomsheet_action_expand">Perlebar lembar bawah</string>
-    <string name="bottomsheet_action_expand_halfway">Perlebar setengahnya</string>
-    <string name="bottomsheet_drag_handle_clicked">Drag handle diketuk 2x</string>
-    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="bottomsheet_action_collapse">Menciutkan sheet bawah</string>
+    <string name="bottomsheet_action_expand">Meluaskan sheet bawah</string>
+    <string name="bottomsheet_action_expand_halfway">Luaskan setengah</string>
+    <string name="bottomsheet_drag_handle_clicked">Handel geser diketuk dua kali</string>
+    <string name="bottomsheet_drag_handle_content_description">Handel geser</string>
     <string name="btn_continue_record_description">Lanjut merekam</string>
     <string name="button_queue_for_wifi">Tunggu</string>
     <string name="button_start_now">Unduh</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Kosong</string>
     <string name="eras_ad">Masehi</string>
     <string name="eras_bc">Sebelum Masehi</string>
+    <string name="error_a11y_label">Error: tidak valid</string>
     <string name="error_app_internal">Periksa apakah apl lain sedang menggunakan fitur rekaman.</string>
     <string name="error_app_internal_title">Perekam suara bermasalah</string>
     <string name="error_file_access">Berkas tak ada atau rusak</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Pakai mikrofon internal</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/j</string>
     <string name="icon_content_description">Ikon Dialog</string>
+    <string name="intelligent_polishing_preference_summary">Hilangkan redundansi dan standarkan format untuk bahasa Mandarin</string>
     <string name="invisible_mode_dialog_message">Tidak dapat menggunakan mikrofon saat dalam penyamaran. Matikan mode Penyamaran terlebih dahulu.</string>
     <string name="invisible_mode_dialog_negative">Batal</string>
     <string name="invisible_mode_dialog_positive">Matikan</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Akses seluruh berkas</string>
     <string name="mark_add_toast">Berhasil ditambahkan</string>
     <string name="material_clock_toggle_content_description">Pilih AM atau PM</string>
+    <string name="material_hour_24h_suffix">%1$s jam</string>
     <string name="material_hour_selection">Pilih jam</string>
     <string name="material_hour_suffix">Pukul %1$s</string>
     <string name="material_minute_selection">Pilih menit</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Poin penting</string>
     <string name="morning">Pagi</string>
     <string name="mtrl_badge_numberless_content_description">Notifikasi baru</string>
+    <string name="mtrl_checkbox_state_description_checked">Dicentang</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Dicentang sebagian</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Tidak dicentang</string>
     <string name="mtrl_chip_close_icon_content_description">Menghapus %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Lebih dari %1$d notifikasi baru</string>
     <string name="mtrl_picker_a11y_next_month">Ubah ke bulan berikutnya</string>
     <string name="mtrl_picker_a11y_prev_month">Ubah ke bulan sebelumnya</string>
+    <string name="mtrl_picker_announce_current_range_selection">Pemilihan tanggal mulai: %1$s – Pemilihan tanggal akhir: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Pilihan saat ini: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">tidak ada</string>
+    <string name="mtrl_picker_cancel">Batal</string>
+    <string name="mtrl_picker_confirm">Oke</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Pilih Tanggal</string>
     <string name="mtrl_picker_date_header_unselected">Tanggal yang dipilih</string>
-    <string name="mtrl_picker_day_of_week_column_header">Kolom hari: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Tanggal akhir %1$s</string>
     <string name="mtrl_picker_invalid_format">Format tidak valid.</string>
     <string name="mtrl_picker_invalid_format_example">Contoh: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Gunakan: %1$s</string>
     <string name="mtrl_picker_invalid_range">Rentang tidak valid.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Buka tahun %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Pilih tahun ini %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Buka tahun %1$d</string>
     <string name="mtrl_picker_out_of_range">Di luar rentang: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Tanggal mulai – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – Tanggal akhir</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Pilih Rentang</string>
     <string name="mtrl_picker_range_header_unselected">Tanggal mulai – Tanggal akhir</string>
     <string name="mtrl_picker_save">Simpan</string>
+    <string name="mtrl_picker_start_date_description">Tanggal mulai %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Tanggal</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Tanggal akhir</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Tanggal mulai</string>
     <string name="mtrl_picker_text_input_day_abbr">h</string>
     <string name="mtrl_picker_text_input_month_abbr">b</string>
     <string name="mtrl_picker_text_input_year_abbr">t</string>
+    <string name="mtrl_picker_today_description">Hari ini %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Beralih ke mode masukan kalender</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Ketuk untuk beralih ke memilih hari</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Ketuk untuk beralih ke tampilan Kalender</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Beralih ke mode masukan teks</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Ketuk untuk beralih ke memilih tahun</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Ketuk untuk beralih ke tampilan tahun</string>
+    <string name="mtrl_timepicker_cancel">Batal</string>
+    <string name="mtrl_timepicker_confirm">Oke</string>
     <string name="network_tip_dialog_cancel">Tidak setuju</string>
     <string name="network_tip_dialog_content">Perekam perlu terhubung ke internet untuk bekerja secara normal. Setuju?</string>
     <string name="network_tip_dialog_ok">Setuju</string>
@@ -439,7 +461,10 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="noon">Tengah hari</string>
     <string name="not_allowed">Tidak diberikan</string>
     <string name="not_set">Belum disetel</string>
+    <string name="notice_btn_stop_ai_recognize">Matikan</string>
+    <string name="notice_content_no_asr_long_time">Tidak ada ucapan yang terdeteksi dalam waktu yang lama</string>
     <string name="notice_for_ai_search_tips">Rincian</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Hidupkan Pengenalan Suara AI?</string>
     <string name="notification_message_all_paused">Menunggu koneksi Wi-Fi.</string>
     <string name="notification_pause_playback">Pemutaran dijeda</string>
     <string name="notification_playback">Memutar…</string>
@@ -447,11 +472,16 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="notification_recording_ticker">Telepon diheningkan</string>
     <string name="notification_save_as_complete">Berhasil disimpan</string>
     <string name="notification_stopped">Berhenti merekam</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Selesai mentranskripsi</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Tidak dapat meringkas</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Selesai meringkas</string>
     <string name="notification_title_all_paused">Unduh dijeda</string>
+    <string name="nrt_asr_complete">Transkripsi selesai. Ketuk untuk segarkan.</string>
     <string name="offline_recognize_transfer_format">Mentranskrip…</string>
     <string name="online_recognize_progress">Mentranskrip %s…</string>
     <string name="open_voice_enhancement">Peningkatan suara</string>
     <string name="opened_voice_enhancement">\"Peningkatan suara\" dihidupkan</string>
+    <string name="pasport_register_dialog_message">Buat Akun Xiaomi via nomor telepon Anda %s?</string>
     <string name="passport_access_denied">Akses ditolak</string>
     <string name="passport_account_crop_user_avatar">Potong foto</string>
     <string name="passport_account_empty_user_name">Masukkan nama Anda</string>
@@ -468,7 +498,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_account_secure_info_pref_title">Info akun</string>
     <string name="passport_account_security_info_pref_title">Info keamanan</string>
     <string name="passport_account_user_avatar">Foto profil</string>
-    <string name="passport_account_user_avatar_from_album">Galeri</string>
+    <string name="passport_account_user_avatar_from_album">Pilih dari Galeri</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Info dasar</string>
     <string name="passport_account_user_details">Info pribadi</string>
@@ -482,7 +512,6 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_agree">Setuju</string>
     <string name="passport_area_code_title">Kode area</string>
     <string name="passport_attention">Perhatian</string>
-    <string name="passport_auth_fail_warning">Sesi berakhir. Coba masuk lagi.</string>
     <string name="passport_back">Kembali</string>
     <string name="passport_bad_authentication">Nama pengguna atau sandi tidak valid</string>
     <string name="passport_can_not_recevie_verify_code">Tidak menerima kode?</string>
@@ -495,7 +524,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_dialog_captcha_title">Kode</string>
     <string name="passport_dialog_doing_login">Memasuki…</string>
     <string name="passport_dialog_doing_register">Membuat akun…</string>
-    <string name="passport_dialog_is_my_account">Iya</string>
+    <string name="passport_dialog_is_my_account">Ya</string>
     <string name="passport_dialog_is_your_mi_account">Apakah ini Akun Xiaomi Anda?</string>
     <string name="passport_dialog_loading">Tunggu sebentar…</string>
     <string name="passport_dialog_nick_name_prefix">Nama panggilan: %s</string>
@@ -504,11 +533,9 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_doing_query_account">Memeriksa info akun…</string>
     <string name="passport_error_auth_fail">Sesi berakhir. Coba masuk lagi.</string>
     <string name="passport_error_device_id">Tidak bisa peroleh ID perangkat</string>
-    <string name="passport_error_dup_binded_email">Alamat email ini telah tertaut dengan Akun Xiaomi lainnya.</string>
     <string name="passport_error_empty_password">Masukkan sandi</string>
     <string name="passport_error_empty_pwd">Sandi tidak boleh kosong</string>
     <string name="passport_error_empty_user_id">Masukkan nama pengguna</string>
-    <string name="passport_error_invalid_bind_address">Alamat email yang dimasukkan tidak valid.</string>
     <string name="passport_error_length_limit">Teks yang dimasukkan terlalu panjang</string>
     <string name="passport_error_network">Tidak dapat terhubung ke jaringan</string>
     <string name="passport_error_no_password_user">Anda belum setel sandi. Masuk dengan SMS.</string>
@@ -524,17 +551,14 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_error_unknown">Kesalahan yang tidak diketahui</string>
     <string name="passport_error_user_name">Nama pengguna yang Anda masukkan tidak valid</string>
     <string name="passport_error_user_password">Sandi tidak cocok</string>
-    <string name="passport_exceed_binded_phone_times_notice">No. telepon ini telah tertaut dengan Akun Xiaomi lainnya.</string>
     <string name="passport_facebook_login_btn_content_description">Masuk dengan Facebook</string>
     <string name="passport_frequency_try_later">Terlalu banyak upaya. Tunggu sebentar dan coba lagi.</string>
     <string name="passport_get_login_type_next">Berikutnya</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Terlalu banyak kode verifikasi yang telah dikirimkan ke nomor ini. Tunggu 24 jam dan coba lagi.</string>
     <string name="passport_google_login_btn_content_description">Masuk dengan Google</string>
     <string name="passport_help">Bantuan</string>
     <string name="passport_i_know">Mengerti</string>
     <string name="passport_identification_expired">Kode verifikasi kedaluwarsa. Mulai dari awal.</string>
     <string name="passport_input_captcha_hint">Masukkan kode</string>
-    <string name="passport_input_email_address_notice">Kami akan menggunakan email ini untuk verifikasi akun Anda</string>
     <string name="passport_input_password_hint">Masukkan sandi</string>
     <string name="passport_input_phone_number_hint">Masukkan nomor telepon</string>
     <string name="passport_input_verify_code">Masukkan kode verifikasi</string>
@@ -546,7 +570,6 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_login_register_by_local_phone_long_text">Buat akun</string>
     <string name="passport_login_with_sns">Metode lain untuk masuk</string>
     <string name="passport_logout_account">Keluar</string>
-    <string name="passport_mi_account_first_title">Kami akan membuat akun secara otomatis jika Anda menggunakan nomor telepon untuk pertama kalinya.</string>
     <string name="passport_mi_account_title">Masuk dengan Akun Xiaomi</string>
     <string name="passport_network_error">Ada masalah dengan jaringan. Periksa setelan jaringan dan coba lagi.</string>
     <string name="passport_network_error_hint">Periksa URL dan coba lagi, atau salin URL dan buka di browser Anda.</string>
@@ -555,6 +578,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_no_account">Belum masuk</string>
     <string name="passport_open_settings">Setelan</string>
     <string name="passport_page_load_failed">Tidak dapat buka halaman</string>
+    <string name="passport_password_hide_show">Sembunyikan sandi</string>
     <string name="passport_password_login_btn">Masuk</string>
     <string name="passport_password_not_show">Jangan tampilkan sandi</string>
     <string name="passport_password_show">Tampilkan sandi</string>
@@ -566,6 +590,8 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_reging">Membuat akun…</string>
     <string name="passport_register_by_local_phone_long_text">Buat akun</string>
     <string name="passport_register_by_local_phone_short_text">Buat akun</string>
+    <string name="passport_register_dialog_positive">Buat</string>
+    <string name="passport_register_dialog_title">Buat Akun Xiaomi</string>
     <string name="passport_register_restricted">Terlalu banyak akun yang tertaut dengan nomor ini. Coba yang lainnya.</string>
     <string name="passport_relogin_notice">Anda perlu masuk lagi</string>
     <string name="passport_request_agree">Izinkan</string>
@@ -574,40 +600,37 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="passport_request_error_invalid_token">Tidak dapat memverifikasi</string>
     <string name="passport_request_error_network">Ada masalah dengan jaringan. Periksa setelan jaringan dan coba lagi.</string>
     <string name="passport_request_error_unknown">Terjadi kesalahan sistem. Kembali ke sebelumnya dan coba lagi.</string>
-    <string name="passport_request_gallery_permission_message">Izinkan akses ke Galeri:&lt;br />Untuk menyetel foto profil</string>
-    <string name="passport_resend_email_reach_limit_message">Terlalu banyak permintaan email verifikasi. Pastikan email verifikasi tidak berada dalam folder Spam inbox Anda.</string>
-    <string name="passport_resend_email_reach_limit_title">Terlalu banyak upaya</string>
+    <string name="passport_request_gallery_permission_message">Apl ini perlu mengakses item Galeri yang dipilih untuk dapat menyetel foto profil. Izinkan?</string>
+    <string name="passport_request_permission_title">Butuh perizinan</string>
     <string name="passport_resend_ticket">Kirim ulang kode</string>
     <string name="passport_retry">Coba lagi</string>
-    <string name="passport_same_new_and_old_pwd">Tidak boleh sama dengan sandi sekarang</string>
     <string name="passport_send_sms_to">Kode dikirimkan ke %1$s</string>
     <string name="passport_send_too_many_code">Terlalu banyak kode verifikasi yang telah dikirimkan ke nomor ini. Tunggu 24 jam dan coba lagi.</string>
     <string name="passport_sending_vcode">Mengirim kode…</string>
-    <string name="passport_service_error">Server bermasalah</string>
     <string name="passport_set_password_no_phone_msg">Tambahkan nomor telepon untuk melindungi akun Anda.</string>
     <string name="passport_skip_query_account">Lewati</string>
-    <string name="passport_sns_access_token_expired_warning">Sesi berakhir. Masuk lagi untuk hubungkan kembali akun ini.</string>
     <string name="passport_sns_bind_limit">Terlalu banyak upaya. Coba metode lain untuk masuk.</string>
     <string name="passport_system_error">Sistem sibuk. Tunggu sebentar dan coba lagi.</string>
     <string name="passport_talkback_image_captcha">Kode verifikasi gambar</string>
     <string name="passport_talkback_switch_image_captcha">Ganti ke kode verifikasi gambar</string>
     <string name="passport_talkback_switch_voice_captcha">Ganti ke kode verifikasi suara</string>
     <string name="passport_talkback_voice_captcha">Putar kode verifikasi suara</string>
+    <string name="passport_third_sns_service_unavailable">Layanan ini tidak tersedia. Pastikan apl terinstal dan tidak diblokir.</string>
     <string name="passport_ticket_send_by_second">Kirim setelah %d</string>
     <string name="passport_to_forget_password">Lupa sandi?</string>
     <string name="passport_to_password_login">Masuk dengan sandi</string>
     <string name="passport_to_verify_code_login">Masuk dengan SMS</string>
     <string name="passport_unknown_error">Kesalahan tidak diketahui</string>
     <string name="passport_unknown_host_network_error">Periksa setelan jaringan dan coba lagi</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> serta &lt;a href=%3$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%4$s>Kebijakan Privasi&lt;/a> Akun Xiaomi.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a>, &lt;a href=%3$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%4$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%5$s>Syarat dan Ketentuan layanan verifikasi China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a>, &lt;a href=%3$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%4$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%5$s>Syarat dan Ketentuan layanan verifikasi akun eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a>, &lt;a href=%3$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%4$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%5$s>Syarat dan Ketentuan layanan verifikasi China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> Akun Xiaomi.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> serta &lt;a href=%3$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%4$s>Kebijakan Privasi&lt;/a> Akun Xiaomi.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a>, &lt;a href=%3$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%4$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%5$s>Syarat dan Ketentuan layanan verifikasi China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a>, &lt;a href=%3$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%4$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%5$s>Syarat dan Ketentuan layanan verifikasi akun eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a>, &lt;a href=%3$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%4$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%5$s>Syarat dan Ketentuan layanan verifikasi China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> Akun Xiaomi.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Kami akan membuat akun secara otomatis jika Anda menggunakan nomor telepon untuk pertama kalinya.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%3$s>Syarat dan Ketentuan Layanan verifikasi China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%3$s>Syarat dan Ketentuan layanan verifikasi akun eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%3$s>Syarat dan Ketentuan layanan verifikasi China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%3$s>Syarat dan Ketentuan Layanan verifikasi China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%3$s>Syarat dan Ketentuan layanan verifikasi akun eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Saya telah membaca dan menyetujui &lt;a href=%1$s>Perjanjian Pengguna&lt;/a> dan &lt;a href=%2$s>Kebijakan Privasi&lt;/a> Akun Xiaomi, serta &lt;a href=%3$s>Syarat dan Ketentuan layanan verifikasi China Unicom&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Ganti foto profil</string>
     <string name="passport_user_avatar_uploading">Tunggu sebentar…</string>
     <string name="passport_user_id_hint">Email/nomor telepon/ID Akun Xiaomi</string>
@@ -627,6 +650,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="permission_bluetooth">Akses status koneksi Bluetooth</string>
     <string name="permission_bluetooth_dialog_description">Izinkan perangkat ini terhubung ke perangkat di sekitar agar dapat berganti perangkat saat memutar rekaman.</string>
     <string name="permission_bluetooth_title">Butuh perizinan</string>
+    <string name="permission_camera_description">Untuk mengambil foto saat merekam</string>
     <string name="permission_desc">Rincian perizinan</string>
     <string name="permission_dialog_cancel">Batal</string>
     <string name="permission_dialog_ok">Setelan</string>
@@ -659,6 +683,10 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="preference_copied">\"%1$s\" disalin ke papan klip.</string>
     <string name="preference_enable_earpiece_summary">Mainkan audio menggunakan speaker earpiece</string>
     <string name="preference_enable_earpiece_title">Mode Earpiece</string>
+    <string name="preference_group_title_for_ai_setting">Fitur AI</string>
+    <string name="preference_group_title_for_normal_setting">Umun</string>
+    <string name="preference_key_ai_recognize">Pengenalan Suara AI</string>
+    <string name="preference_key_intelligent_polishing">Penyempurnaan cerdas</string>
     <string name="preference_led_indicator">Notifikasi layar kunci</string>
     <string name="preference_led_indicator_prompt">Tampilkan indikator biru di Layar kunci dan lampu LED hidup saat merekam</string>
     <string name="preference_record_desktop_indicator_summary">Tampilkan indikator biru di Layar utama saat merekam</string>
@@ -677,6 +705,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="progress">Bilah progres pemutaran</string>
     <string name="progress_dialog_message">Mengunduh…</string>
     <string name="radio_tips">Perekam menyediakan transkripsi audio, ringkasan audio, dan banyak lagi. Apl ini perlu terhubung ke internet untuk menyediakan layanan.</string>
+    <string name="re_asr_error_tip">Tidak dapat mentranskrip. Coba lagi.</string>
     <string name="recent_delete">Baru saja dihapus</string>
     <string name="recent_delete_delete_all">Hapus semua item secara permanen?</string>
     <string name="recognition_button_add_to_queue">Tambah ke antrian</string>
@@ -706,6 +735,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="recognition_process_dialog_title">Tugas yang sedang berjalan</string>
     <string name="recognition_stop_current">Hentikan tugas yang sedang berlangsung</string>
     <string name="recognize_complete_toast">Transkripsi selesai</string>
+    <string name="recognize_data_loading">Tunggu sebentar…</string>
     <string name="recognize_tip_part_one">"Transkripsi tidak selesai. "</string>
     <string name="recognize_tip_part_two">Coba lagi</string>
     <string name="recognizing_not_rename">Tidak dapat ganti nama saat merekam</string>
@@ -787,6 +817,8 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="search_scenes">Tipe rekaman</string>
     <string name="search_silent_mode">Heningkan dering saat rekam</string>
     <string name="search_tip_rename">Beri nama rekaman manual</string>
+    <string name="searchview_clear_text_content_description">Hapus teks</string>
+    <string name="searchview_navigation_content_description">Kembali</string>
     <string name="send">Kirim</string>
     <string name="settings_ai_record_abstract">Meringkas</string>
     <string name="settings_ai_record_abstract_description">Meringkaskan subjek dan konten rekaman lalu simpan ringkasan ke Catatan</string>
@@ -813,6 +845,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="shortcut_stop_record">Hentikan perekaman</string>
     <string name="show_text">Tampilkan teks</string>
     <string name="show_wave">Tampilkan sidik suara</string>
+    <string name="side_sheet_accessibility_pane_title">Sheet Samping</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Setelan</string>
     <string name="speaker">"Pembicara "</string>
+    <string name="state_wait_recognize_tip">Menyelesaikan transkripsi saat ini terlebih dahulu…</string>
     <string name="status_bar_back">Ketuk untuk kembali ke Perekam</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Merekam…</string>
@@ -855,6 +889,7 @@ Ketuk \"%1$s\", dan pilih \"%2$s\"."</string>
     <string name="talkback_traslation_ai_recognize">Sembunyikan kotak teks</string>
     <string name="talkback_traslation_close">Berhenti menerjemahkan</string>
     <string name="text_btn_backward_3_seconds">%d detik sebelumnya</string>
+    <string name="text_btn_camera">Ambil foto</string>
     <string name="text_btn_complete">Hentikan</string>
     <string name="text_btn_forward_3_seconds">%d detik ke depan</string>
     <string name="text_btn_mark">Tandai</string>
@@ -927,8 +962,11 @@ Saat ini sedang dijeda. Analisis akan dilanjutkan saat Anda tidak menggunakan pe
     <string name="tips_for_build_database">Pastikan perangkat terhubung ke pengisi daya. Perangkat akan menganalisis rekaman ini lebih cepat saat layar mati.</string>
     <string name="toast_enter_silent_mode">Sedang merekam. Mode Hening dihidupkan.</string>
     <string name="toast_exit_silent_mode">Perekaman selesai. Mode Hening dimatikan.</string>
+    <string name="toast_for_no_asr_long_time">Tidak ada ucapan yang terdeteksi. Pengenalan Ucapan AI telah berhenti.</string>
+    <string name="toast_for_pause_record_long_time">Perekaman dijeda. Pengenalan Suara AI telah berhenti.</string>
     <string name="toast_max_record_time">%1$s bisa merekam sekitar %2$s</string>
     <string name="toast_stop">Perekaman selesai</string>
+    <string name="toast_title_stop_ai_recognize">Pengenalan Suara AI dihentikan</string>
     <string name="toast_uninstall_fileexplorer">File Manager tidak terinstal</string>
     <string name="today">Hari ini</string>
     <string name="tomorrow">Besok</string>

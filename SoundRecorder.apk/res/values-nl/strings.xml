@@ -34,9 +34,13 @@
     <string name="action_notes">Opslaan in Notities</string>
     <string name="action_retry">Opnieuw proberen</string>
     <string name="actionbar_button_up_description">Terug</string>
+    <string name="add_mark">Teken</string>
     <string name="afternoon">Middag</string>
     <string name="agree_description">Sta toe dat deze app verbinding maakt met internet om alle functies te kunnen gebruiken.</string>
     <string name="ai_recognition_other_speaker">(Iemand anders spreekt)</string>
+    <string name="ai_recognize_fail">Kon niet transcriberen</string>
+    <string name="ai_recognize_fail_tip">Kon niet samenvatten. Probeer het opnieuw.</string>
+    <string name="ai_recognize_preference_summary">Automatisch transcriberen tijdens het opnemen</string>
     <string name="ai_summary">AI-samenvatting</string>
     <string name="ai_watermark">Deze inhoud is door AI gegenereerd en is uitsluitend bedoeld ter referentie.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Kan niet opnemen als de microfoon in gebruik is</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Recorder</string>
     <string name="app_record">App-opnames</string>
     <string name="app_record_preference_title">Spraakoproeprecorder</string>
+    <string name="asr_in_progress">%s Transcriberen en samenvatten</string>
+    <string name="asr_in_progress_with_polish">%s Polijsten en samenvatten</string>
+    <string name="asr_progress">Audio transcriberen %s</string>
     <string name="back">Vorige</string>
     <string name="back_playback_position">Keer terug naar de huidige positie</string>
-    <string name="bottomsheet_action_collapse">Vouw het onderste blad samen</string>
-    <string name="bottomsheet_action_expand">Vouw het onderste blad uit</string>
-    <string name="bottomsheet_action_expand_halfway">Halverwege uitbreiden</string>
-    <string name="bottomsheet_drag_handle_clicked">Dubbeltik op de sleephendel</string>
-    <string name="bottomsheet_drag_handle_content_description">Sleephendel</string>
+    <string name="bottomsheet_action_collapse">Het blad onderaan samenvouwen</string>
+    <string name="bottomsheet_action_expand">Het blad onderaan uitvouwen</string>
+    <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
+    <string name="bottomsheet_drag_handle_clicked">Dubbelgetikt op handgreep voor slepen</string>
+    <string name="bottomsheet_drag_handle_content_description">Handgreep voor slepen</string>
     <string name="btn_continue_record_description">Hervat de opname</string>
     <string name="button_queue_for_wifi">Wacht</string>
     <string name="button_start_now">Downloaden</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Leeg</string>
     <string name="eras_ad">n.C.</string>
     <string name="eras_bc">v.C.</string>
+    <string name="error_a11y_label">Fout: ongeldig</string>
     <string name="error_app_internal">Controleer of een andere app op dit moment de opneemfunctie gebruikt.</string>
     <string name="error_app_internal_title">Fout geluidsopname</string>
     <string name="error_file_access">Bestand bestaat niet of is beschadigd</string>
@@ -165,7 +173,7 @@
     <string name="evening">Middag</string>
     <string name="expand_button_title">Geavanceerd</string>
     <string name="export_to_note">Exporteren</string>
-    <string name="exposed_dropdown_menu_content_description">Dropdownmenu weergeven</string>
+    <string name="exposed_dropdown_menu_content_description">Dropdownmenu tonen</string>
     <string name="flag_list">Merken</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Interne microfoon gebruiken</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/u</string>
     <string name="icon_content_description">Icoon voor dialoogvenster</string>
+    <string name="intelligent_polishing_preference_summary">Verwijder redundanties en standaardiseer het formaat voor Chinees</string>
     <string name="invisible_mode_dialog_message">Kan microfoon niet gebruiken als u incognito bent. Schakel eerst Incognito modus uit.</string>
     <string name="invisible_mode_dialog_negative">Annuleren</string>
     <string name="invisible_mode_dialog_positive">Uitschakelen</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Toegang tot alle bestanden</string>
     <string name="mark_add_toast">Succesvol toegevoegd</string>
     <string name="material_clock_toggle_content_description">Selecteer a.m. of p.m.</string>
+    <string name="material_hour_24h_suffix">%1$s uur</string>
     <string name="material_hour_selection">Selecteer uur</string>
     <string name="material_hour_suffix">%1$s uur</string>
     <string name="material_minute_selection">Minuten selecteren</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Belangrijkste punten</string>
     <string name="morning">Ochtend</string>
     <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
+    <string name="mtrl_checkbox_state_description_checked">Aangevinkt</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Gedeeltelijk aangevinkt</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Niet aangevinkt</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Meer dan %1$d nieuwe meldingen</string>
     <string name="mtrl_picker_a11y_next_month">Naar volgende maand gaan</string>
     <string name="mtrl_picker_a11y_prev_month">Naar vorige maand gaan</string>
+    <string name="mtrl_picker_announce_current_range_selection">Startdatumselectie: %1$s – Einddatumselectie: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Huidige selectie: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">geen</string>
+    <string name="mtrl_picker_cancel">Annuleren</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Selecteer een datum</string>
     <string name="mtrl_picker_date_header_unselected">Geselecteerde datum</string>
-    <string name="mtrl_picker_day_of_week_column_header">Kolom met dagen: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Einddatum %1$s</string>
     <string name="mtrl_picker_invalid_format">Ongeldige indeling.</string>
     <string name="mtrl_picker_invalid_format_example">Voorbeeld: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Gebruik: %1$s</string>
     <string name="mtrl_picker_invalid_range">Ongeldig bereik.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Naar jaar %1$s navigeren</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Naar het huidige jaar %1$d gaan</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naar jaar %1$d navigeren</string>
     <string name="mtrl_picker_out_of_range">Valt buiten bereik: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Startdatum - %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – einddatum</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Selecteer een periode</string>
     <string name="mtrl_picker_range_header_unselected">Startdatum - einddatum</string>
     <string name="mtrl_picker_save">Opslaan</string>
+    <string name="mtrl_picker_start_date_description">Startdatum %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Datum</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Einddatum</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">j</string>
+    <string name="mtrl_picker_today_description">Vandaag %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Overschakelen naar agenda-invoermodus</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Tik om naar dagselectie te schakelen</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tik om over te schakelen naar de agendaweergave</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Overschakelen naar tekstinvoermodus</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Tik om naar jaarselectie te schakelen</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tik om over te schakelen naar de jaarweergave</string>
+    <string name="mtrl_timepicker_cancel">Annuleren</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="network_tip_dialog_cancel">Niet akkoord</string>
     <string name="network_tip_dialog_content">Recorder moet verbinding met het internet maken om normaal te kunnen werken. Akkoord?</string>
     <string name="network_tip_dialog_ok">Akkoord</string>
@@ -439,7 +461,10 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="noon">Tussen de middag</string>
     <string name="not_allowed">Niet toegekend</string>
     <string name="not_set">Niet ingesteld</string>
+    <string name="notice_btn_stop_ai_recognize">Uitschakelen</string>
+    <string name="notice_content_no_asr_long_time">Er is al geruime tijd geen spraak meer waargenomen.</string>
     <string name="notice_for_ai_search_tips">Details</string>
+    <string name="notice_title_is_need_stop_ai_recognize">AI-spraakherkenning uitschakelen?</string>
     <string name="notification_message_all_paused">Wachten op Wi-Fi verbinding.</string>
     <string name="notification_pause_playback">Afspelen gepauzeerd</string>
     <string name="notification_playback">Afspelen…</string>
@@ -447,11 +472,16 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="notification_recording_ticker">Telefoon gedempt</string>
     <string name="notification_save_as_complete">Succesvol opgeslagen</string>
     <string name="notification_stopped">Opname gestopt</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Transcriberen voltooid</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Kon niet samenvatten</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Samenvatten voltooid</string>
     <string name="notification_title_all_paused">Download gepauzeerd</string>
+    <string name="nrt_asr_complete">Transcriberen voltooid. Tik om te vernieuwen.</string>
     <string name="offline_recognize_transfer_format">Omzetten…</string>
     <string name="online_recognize_progress">Omzetten %s…</string>
     <string name="open_voice_enhancement">Spraak verbeteren</string>
     <string name="opened_voice_enhancement">Verbeterde stem is ingeschakeld</string>
+    <string name="pasport_register_dialog_message">Nu een Xiaomi Account aanmaken via uw telefoonnummer %s?</string>
     <string name="passport_access_denied">Toegang geweigerd</string>
     <string name="passport_account_crop_user_avatar">Foto bijsnijden</string>
     <string name="passport_account_empty_user_name">Vul uw naam in</string>
@@ -468,7 +498,7 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_account_secure_info_pref_title">Account info</string>
     <string name="passport_account_security_info_pref_title">Beveiligingsinfo</string>
     <string name="passport_account_user_avatar">Profielfoto</string>
-    <string name="passport_account_user_avatar_from_album">Galerij</string>
+    <string name="passport_account_user_avatar_from_album">Selecteer uit Galerij</string>
     <string name="passport_account_user_avatar_from_camera">Camera</string>
     <string name="passport_account_user_base_info">Basisinfo</string>
     <string name="passport_account_user_details">Persoonlijke info</string>
@@ -482,7 +512,6 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_agree">Akkoord</string>
     <string name="passport_area_code_title">Regiocode</string>
     <string name="passport_attention">Let op</string>
-    <string name="passport_auth_fail_warning">Sessie verlopen. Opnieuw aanmelden.</string>
     <string name="passport_back">Terug</string>
     <string name="passport_bad_authentication">Ongeldige gebruikersnaam of wachtwoord</string>
     <string name="passport_can_not_recevie_verify_code">Geen code ontvangen?</string>
@@ -504,11 +533,9 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_doing_query_account">Accountinformatie controleren…</string>
     <string name="passport_error_auth_fail">Sessie verlopen. Meld u opnieuw aan.</string>
     <string name="passport_error_device_id">Kan geen apparaat-ID ophalen</string>
-    <string name="passport_error_dup_binded_email">Dit e-mailadres is al gekoppeld aan een andere Xiaomi Account.</string>
     <string name="passport_error_empty_password">Voer uw wachtwoord in</string>
     <string name="passport_error_empty_pwd">Wachtwoord mag niet leeg zijn</string>
     <string name="passport_error_empty_user_id">Voer uw gebruikersnaam in</string>
-    <string name="passport_error_invalid_bind_address">Het ingevoerde e-mailadres is ongeldig.</string>
     <string name="passport_error_length_limit">De door u ingevoerde tekst is te lang</string>
     <string name="passport_error_network">Kan geen verbinding maken met het netwerk</string>
     <string name="passport_error_no_password_user">U hebt nog geen wachtwoord ingesteld. Meld aan met sms.</string>
@@ -524,17 +551,14 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_error_unknown">Onbekende fout</string>
     <string name="passport_error_user_name">De ingevoerde gebruikersnaam is ongeldig</string>
     <string name="passport_error_user_password">Wachtwoorden komen niet overeen</string>
-    <string name="passport_exceed_binded_phone_times_notice">Dit telefoonnummer is al gekoppeld aan een andere Xiaomi Account.</string>
     <string name="passport_facebook_login_btn_content_description">Inloggen met Facebook</string>
     <string name="passport_frequency_try_later">Te veel pogingen. Wacht een minuut of twee en probeer het opnieuw.</string>
     <string name="passport_get_login_type_next">Volgende</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Er zijn te veel verificatiecodes verzonden naar dit telefoonnummer. Wacht 24 uur en probeer het opnieuw.</string>
     <string name="passport_google_login_btn_content_description">Aanmelden met Google</string>
     <string name="passport_help">Help</string>
     <string name="passport_i_know">Begrepen</string>
     <string name="passport_identification_expired">Verificatiecode is verlopen. Begin opnieuw.</string>
     <string name="passport_input_captcha_hint">Voer code in</string>
-    <string name="passport_input_email_address_notice">We zullen deze e-mail gebruiken om uw account te verifiëren</string>
     <string name="passport_input_password_hint">Wachtwoord invoeren</string>
     <string name="passport_input_phone_number_hint">Voer telefoonnummer in</string>
     <string name="passport_input_verify_code">Voer verificatiecode in</string>
@@ -546,7 +570,6 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_login_register_by_local_phone_long_text">Account aanmaken</string>
     <string name="passport_login_with_sns">Andere manieren om aan te melden</string>
     <string name="passport_logout_account">Uitloggen</string>
-    <string name="passport_mi_account_first_title">We maken automatisch een account aan als u uw telefoonnummer voor het eerst gebruikt.</string>
     <string name="passport_mi_account_title">Aanmelden met Xiaomi Account</string>
     <string name="passport_network_error">Er is een netwerkfout opgetreden. Controleer uw netwerkinstellingen en probeer het opnieuw.</string>
     <string name="passport_network_error_hint">Controleer de URL en probeer het opnieuw, of kopieer de URL en open deze in uw browser.</string>
@@ -555,6 +578,7 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_no_account">Niet ingelogd</string>
     <string name="passport_open_settings">Instellingen</string>
     <string name="passport_page_load_failed">Kan pagina niet openen</string>
+    <string name="passport_password_hide_show">Wachtwoord verbergen</string>
     <string name="passport_password_login_btn">Inloggen</string>
     <string name="passport_password_not_show">Wachtwoord niet tonen</string>
     <string name="passport_password_show">Wachtwoord weergeven</string>
@@ -566,6 +590,8 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_reging">Account creëren…</string>
     <string name="passport_register_by_local_phone_long_text">Account aanmaken</string>
     <string name="passport_register_by_local_phone_short_text">Account aanmaken</string>
+    <string name="passport_register_dialog_positive">Aanmaken</string>
+    <string name="passport_register_dialog_title">Creëer Xiaomi Account</string>
     <string name="passport_register_restricted">Er zijn te veel accounts gekoppeld aan dit nummer. Probeer een ander nummer.</string>
     <string name="passport_relogin_notice">U moet zich opnieuw aanmelden</string>
     <string name="passport_request_agree">Toestaan</string>
@@ -574,40 +600,37 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_request_error_invalid_token">Kon niet verifiëren</string>
     <string name="passport_request_error_network">Er is een netwerkfout opgetreden. Controleer uw netwerkinstellingen en probeer het opnieuw.</string>
     <string name="passport_request_error_unknown">Er is een systeemfout opgetreden. Ga terug en probeer het opnieuw.</string>
-    <string name="passport_request_gallery_permission_message">"Toegang tot Galerij toestaan:&lt;br />Voor het instellen van profielfoto's"</string>
-    <string name="passport_resend_email_reach_limit_message">U heeft te veel verificatie e-mails aangevraagd. Zorg ervoor dat de verificatie e-mail niet in de map met ongewenste e-mail zit.</string>
-    <string name="passport_resend_email_reach_limit_title">Te veel pogingen</string>
+    <string name="passport_request_gallery_permission_message">Deze app heeft toegang nodig tot geselecteerde Galerij items om uw profielfoto te kunnen instellen. Nu toestaan?</string>
+    <string name="passport_request_permission_title">Toestemmingen vereist</string>
     <string name="passport_resend_ticket">Code opnieuw versturen</string>
     <string name="passport_retry">Opnieuw proberen</string>
-    <string name="passport_same_new_and_old_pwd">Mag niet hetzelfde zijn als het huidige wachtwoord</string>
     <string name="passport_send_sms_to">Code verzonden naar %1$s</string>
     <string name="passport_send_too_many_code">Er zijn te veel verificatiecodes verzonden naar dit telefoonnummer. Wacht 24 uur en probeer het opnieuw.</string>
     <string name="passport_sending_vcode">Code verzenden…</string>
-    <string name="passport_service_error">Serverfout</string>
     <string name="passport_set_password_no_phone_msg">Voeg uw telefoonnummer toe om uw account te beschermen.</string>
     <string name="passport_skip_query_account">Overslaan</string>
-    <string name="passport_sns_access_token_expired_warning">Sessie is verlopen. Meld u opnieuw aan om deze account opnieuw te koppelen.</string>
     <string name="passport_sns_bind_limit">Te veel aanmeldingen. Probeer andere aanmeldingsopties.</string>
     <string name="passport_system_error">Systeem is bezet. Wacht een minuut of twee en probeer het opnieuw.</string>
     <string name="passport_talkback_image_captcha">Verificatiecode afbeelding</string>
     <string name="passport_talkback_switch_image_captcha">Overschakelen naar verificatiecode afbeelding</string>
     <string name="passport_talkback_switch_voice_captcha">Overschakelen naar spraak verificatiecode</string>
     <string name="passport_talkback_voice_captcha">Spraakverificatie code afspelen</string>
+    <string name="passport_third_sns_service_unavailable">De service is niet beschikbaar. Zorg ervoor dat de app is geïnstalleerd en niet is geblokkeerd.</string>
     <string name="passport_ticket_send_by_second">Versturen in %d</string>
     <string name="passport_to_forget_password">Wachtwoord vergeten?</string>
     <string name="passport_to_password_login">Log in met een wachtwoord</string>
     <string name="passport_to_verify_code_login">Log in via sms</string>
     <string name="passport_unknown_error">Onbekende fout</string>
     <string name="passport_unknown_host_network_error">Controleer uw netwerkinstellingen en probeer het opnieuw</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>Ik heb de &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a> en Xiaomi Account &lt;a href=%3$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%4$s>Privacybeleid&lt;/a> gelezen en ga ermee akkoord.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>Ik heb de &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, Xiaomi Account &lt;a href=%3$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%4$s>Privacybeleid&lt;/a>, evenals &lt;a href=%5$s>Algemene voorwaarden van de verificatiediensten van China Mobile&lt;/a> gelezen en ga ermee akkoord.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>Ik heb de &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, Xiaomi Account &lt;a href=%3$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%4$s>Privacybeleid&lt;/a>, evenals &lt;a href=%5$s>Algemene voorwaarden van eSurfing accountverificatiediensten&lt;/a> gelezen en ga ermee akkoord.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>Ik heb de &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, Xiaomi Account &lt;a href=%3$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%4$s>Privacybeleid&lt;/a>, evenals &lt;a href=%5$s>Algemene voorwaarden van de verificatiediensten van China Unicom&lt;/a> gelezen en ga ermee akkoord.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Ik heb Xiaomi Account &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a> gelezen en ga ermee akkoord.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Ik heb de &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a> en Xiaomi Account &lt;a href=%3$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%4$s>Privacybeleid&lt;/a> gelezen en ga ermee akkoord.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Ik heb de &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, Xiaomi Account &lt;a href=%3$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%4$s>Privacybeleid&lt;/a>, evenals &lt;a href=%5$s>Algemene voorwaarden van de verificatiediensten van China Mobile&lt;/a> gelezen en ga ermee akkoord.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Ik heb de &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, Xiaomi Account &lt;a href=%3$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%4$s>Privacybeleid&lt;/a>, evenals &lt;a href=%5$s>Algemene voorwaarden van eSurfing accountverificatiediensten&lt;/a> gelezen en ga ermee akkoord.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Ik heb de &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, Xiaomi Account &lt;a href=%3$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%4$s>Privacybeleid&lt;/a>, evenals &lt;a href=%5$s>Algemene voorwaarden van de verificatiediensten van China Unicom&lt;/a> gelezen en ga ermee akkoord.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Ik heb Xiaomi Account &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a> gelezen en ga ermee akkoord.</Data></string>
     <string name="passport_user_agreement_hint_first_login">We maken automatisch een account aan als u uw telefoonnummer voor het eerst gebruikt.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Ik heb de Xiaomi Account &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, evenals &lt;a href=%3$s>Algemene voorwaarden van de verificatiediensten van China Mobile &lt;/a> gelezen en ga ermee akkoord.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Ik heb de Xiaomi Account &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, evenals &lt;a href=%3$s>Algemene voorwaarden van eSurfing accountverificatiediensten&lt;/a> gelezen en ga ermee akkoord.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Ik heb Xiaomi Account &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, evenals &lt;a href=%3$s>Algemene voorwaarden van de verificatiediensten van China Unicom&lt;/a> gelezen en ga ermee akkoord.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Ik heb de Xiaomi Account &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, evenals &lt;a href=%3$s>Algemene voorwaarden van de verificatiediensten van China Mobile &lt;/a> gelezen en ga ermee akkoord.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Ik heb de Xiaomi Account &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, evenals &lt;a href=%3$s>Algemene voorwaarden van eSurfing accountverificatiediensten&lt;/a> gelezen en ga ermee akkoord.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Ik heb Xiaomi Account &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en &lt;a href=%2$s>Privacybeleid&lt;/a>, evenals &lt;a href=%3$s>Algemene voorwaarden van de verificatiediensten van China Unicom&lt;/a> gelezen en ga ermee akkoord.</Data></string>
     <string name="passport_user_avatar_update_title">Profielfoto wijzigen</string>
     <string name="passport_user_avatar_uploading">Een ogenblik geduld…</string>
     <string name="passport_user_id_hint">E-mail/telefoonnummer/Xiaomi Account ID</string>
@@ -621,12 +644,13 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="passport_wrong_phone_number_format">Het format van het ingevoerde telefoonnummer is ongeldig</string>
     <string name="passport_wrong_vcode">De code die u hebt ingevoerd is incorrect</string>
     <string name="passport_wrong_voice">De code die u hebt ingevoerd is incorrect</string>
-    <string name="password_toggle_content_description">Wachtwoord weergeven</string>
+    <string name="password_toggle_content_description">Wachtwoord tonen</string>
     <string name="path_soundrecorder_setting">Systeem-apps/Recorder</string>
     <string name="pause_status_focus_notification">Opname gepauzeerd</string>
     <string name="permission_bluetooth">Toegang tot de Bluetooth-verbindingsstatus</string>
     <string name="permission_bluetooth_dialog_description">Sta toe dat dit apparaat verbinding maakt met apparaten in de buurt, zodat u van apparaat kunt wisselen tijdens het afspelen van opnames.</string>
     <string name="permission_bluetooth_title">Toestemmingen vereist</string>
+    <string name="permission_camera_description">"Voor het maken van foto's tijdens het opnemen"</string>
     <string name="permission_desc">Toestemmingen details</string>
     <string name="permission_dialog_cancel">Annuleren</string>
     <string name="permission_dialog_ok">Instellingen</string>
@@ -659,6 +683,10 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="preference_copied">"'%1$s' is gekopieerd naar het klembord."</string>
     <string name="preference_enable_earpiece_summary">Speel audio af met de oortelefoonluidspreker</string>
     <string name="preference_enable_earpiece_title">Oortelefoon-modus</string>
+    <string name="preference_group_title_for_ai_setting">AI-functies</string>
+    <string name="preference_group_title_for_normal_setting">Algemeen</string>
+    <string name="preference_key_ai_recognize">AI-spraakherkenning</string>
+    <string name="preference_key_intelligent_polishing">Slim polijsten</string>
     <string name="preference_led_indicator">Vergrendelscherm-meldingen</string>
     <string name="preference_led_indicator_prompt">Het toont een blauwe indicator op het Vergrendelscherm en LED-licht tijdens het registreren</string>
     <string name="preference_record_desktop_indicator_summary">Het toont een blauwe indicator op het Startscherm tijdens het registreren</string>
@@ -677,6 +705,7 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="progress">Voortgangsbalk afspelen</string>
     <string name="progress_dialog_message">Downloaden…</string>
     <string name="radio_tips">Recorder biedt audiotranscriptie, audiosamenvattingen en meer. Deze app moet verbinding maken met het internet om deze services te kunnen bieden.</string>
+    <string name="re_asr_error_tip">Kon niet transcriberen. Probeer het opnieuw.</string>
     <string name="recent_delete">Onlangs verwijderd</string>
     <string name="recent_delete_delete_all">Alle items nu definitief verwijderen?</string>
     <string name="recognition_button_add_to_queue">Aan de wachtrij toevoegen</string>
@@ -706,6 +735,7 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="recognition_process_dialog_title">Taken in uitvoering</string>
     <string name="recognition_stop_current">Stop lopende taak</string>
     <string name="recognize_complete_toast">Transcriptie voltooid</string>
+    <string name="recognize_data_loading">Een ogenblik geduld…</string>
     <string name="recognize_tip_part_one">"Het transcriberen is nog niet voltooid. "</string>
     <string name="recognize_tip_part_two">Opnieuw proberen</string>
     <string name="recognizing_not_rename">Kan de naam niet wijzigen tijdens het opnemen</string>
@@ -787,6 +817,8 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="search_scenes">Opname type</string>
     <string name="search_silent_mode">Demp de beltoon tijdens het opnemen</string>
     <string name="search_tip_rename">Geef opnames handmatig een naam</string>
+    <string name="searchview_clear_text_content_description">Tekst wissen</string>
+    <string name="searchview_navigation_content_description">Terug</string>
     <string name="send">Verzenden</string>
     <string name="settings_ai_record_abstract">Samenvatten</string>
     <string name="settings_ai_record_abstract_description">Vat het onderwerp en de inhoud van een opname samen en sla de samenvatting op in Notities</string>
@@ -813,6 +845,7 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="shortcut_stop_record">Stop opname</string>
     <string name="show_text">Tekst weergeven</string>
     <string name="show_wave">Toon stemafdruk</string>
+    <string name="side_sheet_accessibility_pane_title">Zijblad</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Instellingen</string>
     <string name="speaker">"Luidspreker "</string>
+    <string name="state_wait_recognize_tip">Eerst de huidige transcriptie afronden…</string>
     <string name="status_bar_back">Tik om terug te keren naar Recorder</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Aan het opnemen…</string>
@@ -855,6 +889,7 @@ Tik op \"%1$s\" en selecteer vervolgens \"%2$s\"."</string>
     <string name="talkback_traslation_ai_recognize">Tekstvak verbergen</string>
     <string name="talkback_traslation_close">Stop met vertalen</string>
     <string name="text_btn_backward_3_seconds">%d seconden terug</string>
+    <string name="text_btn_camera">Neem een foto</string>
     <string name="text_btn_complete">Stoppen</string>
     <string name="text_btn_forward_3_seconds">%d seconden vooruit</string>
     <string name="text_btn_mark">Teken</string>
@@ -927,8 +962,11 @@ Momenteel gepauzeerd. Analyse wordt hervat wanneer u uw apparaat niet gebruikt."
     <string name="tips_for_build_database">Houd uw apparaat aangesloten op de oplader. Het zal deze opname sneller analyseren als het scherm uit is.</string>
     <string name="toast_enter_silent_mode">Opnemen. Stille modus is ingeschakeld.</string>
     <string name="toast_exit_silent_mode">Klaar met opnemen. Stille modus is uitgeschakeld.</string>
+    <string name="toast_for_no_asr_long_time">Geen spraak gedetecteerd. AI-spraakherkenning is gestopt.</string>
+    <string name="toast_for_pause_record_long_time">Opname gepauzeerd. AI-spraakherkenning is gestopt.</string>
     <string name="toast_max_record_time">%1$s kan voor ongeveer %2$s opnemen</string>
     <string name="toast_stop">Klaar met opnemen</string>
+    <string name="toast_title_stop_ai_recognize">AI-spraakherkenning gestopt</string>
     <string name="toast_uninstall_fileexplorer">Bestandsbeheer is niet geïnstalleerd</string>
     <string name="today">Vandaag</string>
     <string name="tomorrow">Morgen</string>

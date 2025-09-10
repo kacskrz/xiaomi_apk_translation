@@ -7,9 +7,13 @@
     <string name="action_notes">Qaydlarga saqlash</string>
     <string name="action_retry">Qaytadan ko‘rish</string>
     <string name="actionbar_button_up_description">Orqaga</string>
+    <string name="add_mark">Belgilash</string>
     <string name="afternoon">Kunduzi</string>
     <string name="agree_description">Ushbu ilovaning barcha xusisiyatlaridan foydalanish uchun internetga kirish uchun ruxsat bering.</string>
     <string name="ai_recognition_other_speaker">(Yana kimdir gapiradi)</string>
+    <string name="ai_recognize_fail">Shifrdan ochish xatosi</string>
+    <string name="ai_recognize_fail_tip">Xulosa qilib bo‘lmadi. Qayta urinib ko‘ring.</string>
+    <string name="ai_recognize_preference_summary">Yozishda avtomatik transkripsiya</string>
     <string name="ai_summary">AI Xulosasi</string>
     <string name="ai_watermark">"Ushbu kontent AI tomonidan yaratilgan va faqat ma'lumot uchun taqdim etilgan."</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Mikrofon ishlatilayotganda yozib boʻlmaydi</string>
@@ -38,6 +42,9 @@
     <string name="app_name">Diktofon</string>
     <string name="app_record">Ilova yozuvlari</string>
     <string name="app_record_preference_title">Ovozli Qo‘ng‘iroq Diktofoni</string>
+    <string name="asr_in_progress">%s Transkripsiya va umumlashtirilmoqda</string>
+    <string name="asr_in_progress_with_polish">%s Jilolanmoqda va umumlashtirilmoqda</string>
+    <string name="asr_progress">Audio transkripsiya qilinmoqda %s</string>
     <string name="back">Orqaga</string>
     <string name="back_playback_position">Joriy holatga qaytish</string>
     <string name="bottomsheet_action_collapse">Pastki varaqni yashirish</string>
@@ -196,6 +203,7 @@
     <string name="head_set_tip_dialog_ok">Tushundim</string>
     <string name="head_set_tip_dialog_title">Ichki mikrofonni ishlating</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
+    <string name="intelligent_polishing_preference_summary">Ortiqcha narsalarni olib tashlang va xitoy tili uchun formatni standartlashtiring</string>
     <string name="invisible_mode_dialog_message">"Yashirin rejimida mikrofondan foydalana olmaysiz. Avval yashirin rejimini o'chiring."</string>
     <string name="invisible_mode_dialog_negative">Bekor qilish</string>
     <string name="invisible_mode_dialog_positive">"O'chirish"</string>
@@ -350,7 +358,10 @@ Qanday qilib ruxsat berish kerak
     <string name="no_text_content">Matn yo‘q</string>
     <string name="noon">Peshin</string>
     <string name="not_allowed">Berilmadi</string>
+    <string name="notice_btn_stop_ai_recognize">"O'chirish"</string>
+    <string name="notice_content_no_asr_long_time">Uzoq vaqt davomida hech qanday nutq aniqlanmadi.</string>
     <string name="notice_for_ai_search_tips">Ma‘lumotlar</string>
+    <string name="notice_title_is_need_stop_ai_recognize">AI Nutqni Aniqlash funksiyasi o‘chirilsinmi?</string>
     <string name="notification_message_all_paused">Wi-Fi ulanishi kutilmoqda.</string>
     <string name="notification_pause_playback">Ijro to‘xtatildi</string>
     <string name="notification_playback">Ijro etilmoqda…</string>
@@ -358,11 +369,16 @@ Qanday qilib ruxsat berish kerak
     <string name="notification_recording_ticker">Telefon ovozsiz</string>
     <string name="notification_save_as_complete">Muvaffaqiyatli saqlandi</string>
     <string name="notification_stopped">Yozish to‘xtadi</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Transkripsiya tugallandi</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Xulosa qilib bo‘lmadi</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Xulosa qilish tugallandi</string>
     <string name="notification_title_all_paused">Ko‘chirma to‘xtatildi</string>
+    <string name="nrt_asr_complete">Transkripsiya tugallandi. Yangilash uchun bosing.</string>
     <string name="offline_recognize_transfer_format">Shifrdan ochilmoqda…</string>
     <string name="online_recognize_progress">%s shifrdan ochilmoqda…</string>
     <string name="open_voice_enhancement">Ovozni kengaytirish</string>
     <string name="opened_voice_enhancement">Kuchaytirilgan ovoz yoniq</string>
+    <string name="pasport_register_dialog_message">Endi %s telefon raqamingiz orqali Xiaomi hisobini yaratasizmi?</string>
     <string name="passport_access_denied">Kirish rad etildi</string>
     <string name="passport_account_crop_user_avatar">Rasmni kesish</string>
     <string name="passport_account_empty_user_name">Ismingizni kiriting</string>
@@ -379,7 +395,7 @@ Qanday qilib ruxsat berish kerak
     <string name="passport_account_secure_info_pref_title">Hisob ma’lumoti</string>
     <string name="passport_account_security_info_pref_title">Xavfsizlik ma’lumoti</string>
     <string name="passport_account_user_avatar">Profil rasmi</string>
-    <string name="passport_account_user_avatar_from_album">Galereya</string>
+    <string name="passport_account_user_avatar_from_album">Galereyadan tanlash</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Asosiy ma’lumot</string>
     <string name="passport_account_user_details">Shaxsiy ma’lumot</string>
@@ -393,7 +409,6 @@ Qanday qilib ruxsat berish kerak
     <string name="passport_agree">OK</string>
     <string name="passport_area_code_title">Hudud kodi</string>
     <string name="passport_attention">Diqqat</string>
-    <string name="passport_auth_fail_warning">Sessiya tugadi. Qaytadan kiring.</string>
     <string name="passport_back">Orqaga</string>
     <string name="passport_bad_authentication">Noto‘g‘ri foydalanuvchi nomi yoki parol</string>
     <string name="passport_can_not_recevie_verify_code">Kodni qabul qilmadingizmi?</string>
@@ -415,11 +430,9 @@ Qanday qilib ruxsat berish kerak
     <string name="passport_doing_query_account">Hisob ma’lumoti tekshirilmoqda…</string>
     <string name="passport_error_auth_fail">Sessiya tugadi. Qaytadan kiring.</string>
     <string name="passport_error_device_id">Qurilma ID‘sini olib bo‘lmadi</string>
-    <string name="passport_error_dup_binded_email">Ushbu e-pochta Xiaomi Hisobi bilan bog‘langan.</string>
     <string name="passport_error_empty_password">Parolni kiriting</string>
     <string name="passport_error_empty_pwd">Parol bo‘sh bo‘lishi mumkin emas</string>
     <string name="passport_error_empty_user_id">Laqabingizni kiriting</string>
-    <string name="passport_error_invalid_bind_address">E-pochta manzili noto‘g‘ri.</string>
     <string name="passport_error_length_limit">Matn juda uzun</string>
     <string name="passport_error_network">Tarmoqqa bog‘lanib bo‘lmayapti</string>
     <string name="passport_error_no_password_user">Parol hali o‘rnatilmagan. SMS orqali kiring.</string>
@@ -435,17 +448,14 @@ Qanday qilib ruxsat berish kerak
     <string name="passport_error_unknown">Noma’lum xato</string>
     <string name="passport_error_user_name">Xato foydalanuvchi nomi</string>
     <string name="passport_error_user_password">Parollar mos kelmaydi</string>
-    <string name="passport_exceed_binded_phone_times_notice">Ushbu telefon raqam Xiaomi Hisobi bilan bog‘langan.</string>
     <string name="passport_facebook_login_btn_content_description">Facebook orqali kirish</string>
     <string name="passport_frequency_try_later">Juda ko‘p urinishlar. Birozdan keyin qaytadan ko‘ring.</string>
     <string name="passport_get_login_type_next">Keyingi</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">Ushbu raqamga juda ko‘p tasdiqlash kodlar jo‘natildi. 24 soatdan keyin urinib ko‘ring.</string>
     <string name="passport_google_login_btn_content_description">Google orqali kirish</string>
     <string name="passport_help">Yordam</string>
     <string name="passport_i_know">OK</string>
     <string name="passport_identification_expired">Tasdiqlash kodni muddati tugadi. Qaytadan boshlang.</string>
     <string name="passport_input_captcha_hint">Kodni kiriting</string>
-    <string name="passport_input_email_address_notice">Hisobni tasdiqlash uchun shu e-pochtani ishlatamiz</string>
     <string name="passport_input_password_hint">Parolni kiriting</string>
     <string name="passport_input_phone_number_hint">Telefon raqamini kiritish</string>
     <string name="passport_input_verify_code">Tasdiqlash kodini kiriting</string>
@@ -457,7 +467,6 @@ Qanday qilib ruxsat berish kerak
     <string name="passport_login_register_by_local_phone_long_text">Hisob yaratish</string>
     <string name="passport_login_with_sns">Boshqa kirish yo‘llari</string>
     <string name="passport_logout_account">Chiqish</string>
-    <string name="passport_mi_account_first_title">Agar siz telefon raqamingizni birinchi marta ishlatayotgan bo‘lsangiz, biz avtomatik ravishda hisob yaratamiz.</string>
     <string name="passport_mi_account_title">Xiaomii Hisobi orqali kirish</string>
     <string name="passport_network_error">Tarmoq xatosi ro‘y berdi. Tarmoq sozlamalarini tekshirib qaytadan ko‘ring.</string>
     <string name="passport_network_error_hint">"URL‘ni tekshiring va qayta urinib ko'ring yoki URL‘dan nusxa oling va uni brauzeringizda oching."</string>
@@ -466,6 +475,7 @@ Qanday qilib ruxsat berish kerak
     <string name="passport_no_account">Kirilmadi</string>
     <string name="passport_open_settings">Sozlamalar</string>
     <string name="passport_page_load_failed">Ushbu sahifani ochib bo‘lmaydi</string>
+    <string name="passport_password_hide_show">Parolni yashirish</string>
     <string name="passport_password_login_btn">Kirish</string>
     <string name="passport_password_not_show">Parolni yashirish</string>
     <string name="passport_password_show">Parolni ko‘rsatish</string>
@@ -477,6 +487,8 @@ Qanday qilib ruxsat berish kerak
     <string name="passport_reging">Hisob yaratilmoqda…</string>
     <string name="passport_register_by_local_phone_long_text">Hisob yaratish</string>
     <string name="passport_register_by_local_phone_short_text">Hisob yaratish</string>
+    <string name="passport_register_dialog_positive">Yaratish</string>
+    <string name="passport_register_dialog_title">Xiaomi Hisobini yaratish</string>
     <string name="passport_register_restricted">Ushbu raqam bilan ulangan hisoblar soni juda ko‘p. Boshqasini ko‘ring.</string>
     <string name="passport_relogin_notice">Qaytadan kirishingiz kerak</string>
     <string name="passport_request_agree">Ruxsat berish</string>
@@ -485,40 +497,37 @@ Qanday qilib ruxsat berish kerak
     <string name="passport_request_error_invalid_token">Tasdiqlab bo‘lmadi</string>
     <string name="passport_request_error_network">Tarmoq xatosi ro‘y berdi. Tarmoq sozlamalarini tekshirib qaytadan ko‘ring.</string>
     <string name="passport_request_error_unknown">Tizim xatosi. Orqaga qayting va qaytadan urining.</string>
-    <string name="passport_request_gallery_permission_message">Galereyaga kirishga ruxsat berish:&lt;br />Profil rasmlarini o‘rnatish uchun</string>
-    <string name="passport_resend_email_reach_limit_message">Juda ko‘p tasdiqlash xatlarga so‘roq qildingiz. Tasdiqlash xati Spam papkasida bo‘lmaganligini tekshiring.</string>
-    <string name="passport_resend_email_reach_limit_title">Juda ko‘p urinishlar</string>
+    <string name="passport_request_gallery_permission_message">Bu ilova profil rasmingizni oʻrnatishi uchun tanlangan Galereya elementlariga kirishi kerak. Hozir ruxsat berilsinmi?</string>
+    <string name="passport_request_permission_title">Ruxsat talab etiladi</string>
     <string name="passport_resend_ticket">Kodni qayta jo‘natish</string>
     <string name="passport_retry">Takrorlash</string>
-    <string name="passport_same_new_and_old_pwd">Joriy parol bilan bir xil bo‘lishi mumkin emas</string>
     <string name="passport_send_sms_to">Kod %1$s-ga jo‘natildi</string>
     <string name="passport_send_too_many_code">Ushbu raqamga juda ko‘p tasdiqlash kodlar jo‘natildi. 24 soatdan keyin urinib ko‘ring.</string>
     <string name="passport_sending_vcode">Kod jo‘natilmoqda…</string>
-    <string name="passport_service_error">Server xatosi</string>
     <string name="passport_set_password_no_phone_msg">Hisobingizni himoyalash uchun telefon raqamini qo‘shing.</string>
     <string name="passport_skip_query_account">O‘tkazish</string>
-    <string name="passport_sns_access_token_expired_warning">Seans tugadi. Ushbu hisobni qayta ulash uchun yana tizimga kiring.</string>
     <string name="passport_sns_bind_limit">Juda ko‘p urinishlar. Boshqa yo‘lni ko‘ring.</string>
     <string name="passport_system_error">Tizim band. Birozdan keyin urinib ko‘ring.</string>
     <string name="passport_talkback_image_captcha">Rasmli kodni kiriting</string>
     <string name="passport_talkback_switch_image_captcha">Rasmli tasdiqlash kodiga o‘zgartirish</string>
     <string name="passport_talkback_switch_voice_captcha">Ovozli tasdiqlash kodiga o‘zgartirish</string>
     <string name="passport_talkback_voice_captcha">Ovozli tasdiqlash kodini ijro etish</string>
+    <string name="passport_third_sns_service_unavailable">"Xizmat mavjud emas. Ilova o'rnatilganligiga va bloklanmaganligiga ishonch hosil qiling."</string>
     <string name="passport_ticket_send_by_second">%d son.-da jo‘natish</string>
     <string name="passport_to_forget_password">Parolni unutdingizmi?</string>
     <string name="passport_to_password_login">Parol orqali kirish</string>
     <string name="passport_to_verify_code_login">SMS orqali kirish</string>
     <string name="passport_unknown_error">Noma’lum xato</string>
     <string name="passport_unknown_host_network_error">Tarmoq sozlamalarini tekshirib qaytadan urinib ko‘ring</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>&lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a> va Xiaomi Hisobining &lt;a href=%3$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%4$s>Maxfiylik Siyosati&lt;/a> bilan tanishib chiqdim va roziman.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>&lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, Xiaomi Hisobining &lt;a href=%3$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%4$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%5$s>China Mobile tekshirish xizmatlari shartlari bilan tanishib chiqdim va roziman&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>&lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, Xiaomi Hisobining &lt;a href=%3$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%4$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%5$s>eSurfing hisobini tekshirish xizmatlari shartlari bilan tanishib chiqdim va roziman&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>&lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, Xiaomi Hisobining &lt;a href=%3$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%4$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%5$s>China Unicom tekshirish xizmatlari shartlari bilan tanishib chiqdim va roziman&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>Men Xiaomi Hisobining &lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a> bilan tanishib chiqdim va roziman.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>&lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a> va Xiaomi Hisobining &lt;a href=%3$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%4$s>Maxfiylik Siyosati&lt;/a> bilan tanishib chiqdim va roziman.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>&lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, Xiaomi Hisobining &lt;a href=%3$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%4$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%5$s>China Mobile tekshirish xizmatlari shartlari bilan tanishib chiqdim va roziman&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>&lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, Xiaomi Hisobining &lt;a href=%3$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%4$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%5$s>eSurfing hisobini tekshirish xizmatlari shartlari bilan tanishib chiqdim va roziman&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>&lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, Xiaomi Hisobining &lt;a href=%3$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%4$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%5$s>China Unicom tekshirish xizmatlari shartlari bilan tanishib chiqdim va roziman&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Men Xiaomi Hisobining &lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a> bilan tanishib chiqdim va roziman.</Data></string>
     <string name="passport_user_agreement_hint_first_login">Agar siz telefon raqamingizni birinchi marta ishlatayotgan bo‘lsangiz, biz avtomatik ravishda hisob yaratamiz.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>Xiaomi Hisobining &lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%3$s>China Mobile tekshirish xizmatlari shartlari bilan tanishib chiqdim va roziman&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>Xiaomi Hisobining &lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%3$s>eSurfing hisobini tekshirish xizmatlari shartlari&lt;/a>.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>Xiaomi Hisobining &lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%3$s>China Unicom tekshirish xizmatlari shartlari&lt;/a>.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Xiaomi Hisobining &lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%3$s>China Mobile tekshirish xizmatlari shartlari bilan tanishib chiqdim va roziman&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Xiaomi Hisobining &lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%3$s>eSurfing hisobini tekshirish xizmatlari shartlari&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Xiaomi Hisobining &lt;a href=%1$s>Foydalanuvchi Shartnomasi&lt;/a> va &lt;a href=%2$s>Maxfiylik Siyosati&lt;/a>, shuningdek &lt;a href=%3$s>China Unicom tekshirish xizmatlari shartlari&lt;/a>.</Data></string>
     <string name="passport_user_avatar_update_title">Profil rasmini o‘zgartirish</string>
     <string name="passport_user_avatar_uploading">Bir soniya…</string>
     <string name="passport_user_id_hint">E-pochta/telefon raqami/Xiaomi Hisob ID‘si</string>
@@ -537,6 +546,7 @@ Qanday qilib ruxsat berish kerak
     <string name="permission_bluetooth">Bluetooth ulanish holatiga kirish</string>
     <string name="permission_bluetooth_dialog_description">Yozuvlarni ijro etishda qurilmalarni almashtirish uchun ushbu qurilmaga yaqin-atrofdagi qurilmalarga ulanishiga ruxsat bering.</string>
     <string name="permission_bluetooth_title">Ruxsat talab etiladi</string>
+    <string name="permission_camera_description">Yozish paytida suratga olish uchun</string>
     <string name="permission_desc">Ruxsatlar ma’lumotlari</string>
     <string name="permission_dialog_cancel">Bekor qilish</string>
     <string name="permission_dialog_ok">Sozlamalar</string>
@@ -568,6 +578,10 @@ Qanday qilib ruxsat berish kerak
     <string name="preference_clear_data">Ma’lumotlarni tozalash</string>
     <string name="preference_enable_earpiece_summary">Eshitish vositasi orqali ovozni ijro etish</string>
     <string name="preference_enable_earpiece_title">Eshitish vositasi rejimi</string>
+    <string name="preference_group_title_for_ai_setting">AI xususiyatlari</string>
+    <string name="preference_group_title_for_normal_setting">Umumiy</string>
+    <string name="preference_key_ai_recognize">AI Nutqni Aniqlash</string>
+    <string name="preference_key_intelligent_polishing">Aqlli jilolash</string>
     <string name="preference_led_indicator">Ekran qulfi bildirishnomalari</string>
     <string name="preference_led_indicator_prompt">Qulf ekranida ko‘k indikatorni ko‘rsating va yozish paytida LED chiroqchasi yonadi</string>
     <string name="preference_record_desktop_indicator_summary">Yozib olish paytida Bosh ekranda ko‘k ko‘rsatkichni ko‘rsating</string>
@@ -586,6 +600,7 @@ Qanday qilib ruxsat berish kerak
     <string name="progress">Ijro etish jarayon qatori</string>
     <string name="progress_dialog_message">Yuklab olinmoqda…</string>
     <string name="radio_tips">Diktofon audio transkripsiya, audio xulosalar va boshqalarni taqdim etadi. Ushbu xizmatlarni taqdim etish uchun ushbu ilova internetga ulanishi kerak.</string>
+    <string name="re_asr_error_tip">Transkripsiya qilib bo‘lmadi. Qayta urinib ko‘ring.</string>
     <string name="recent_delete">Yaqinda o‘chirilganlar</string>
     <string name="recent_delete_delete_all">Barcha elementlar hozir butunlay o‘chirilsinmi?</string>
     <string name="recognition_button_add_to_queue">Navbatga qo‘shish</string>
@@ -615,6 +630,7 @@ Qanday qilib ruxsat berish kerak
     <string name="recognition_process_dialog_title">Joriy vazifalar</string>
     <string name="recognition_stop_current">Davom etadigan vazifani to‘xtatish</string>
     <string name="recognize_complete_toast">Transkripsiya tugallandi</string>
+    <string name="recognize_data_loading">Bir soniya…</string>
     <string name="recognize_tip_part_one">"Transkripsiyani tugatmadim. "</string>
     <string name="recognize_tip_part_two">Takrorlang</string>
     <string name="recognizing_not_rename">Yozish paytida nomini o‘zgartirib bo‘lmaydi</string>
@@ -730,6 +746,7 @@ Qanday qilib ruxsat berish kerak
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Sozlamalar</string>
     <string name="speaker">"Karnay "</string>
+    <string name="state_wait_recognize_tip">Avval joriy transkripsiya tugatilmoqda…</string>
     <string name="status_bar_back">Diktofonga qaytish uchun bosing</string>
     <string name="status_bar_recording">Yozilmoqda…</string>
     <string name="status_bar_recording_pause">Diktofon to‘xtatildi</string>
@@ -761,6 +778,7 @@ Qanday qilib ruxsat berish kerak
     <string name="talkback_traslation_ai_recognize">Matn oynasini yashirish</string>
     <string name="talkback_traslation_close">"Tarjima to'xtatilsin"</string>
     <string name="text_btn_backward_3_seconds">%d soniya orqaga</string>
+    <string name="text_btn_camera">Rasmga olish</string>
     <string name="text_btn_complete">To‘xtatish</string>
     <string name="text_btn_forward_3_seconds">%d soniya oldinga</string>
     <string name="text_btn_mark">Belgilash</string>
@@ -833,8 +851,11 @@ Hozir pauza qilingan. Qurilmangizdan foydalanmayotganingizda tahlil davom ettiri
     <string name="tips_for_build_database">Qurilmangizni zaryadlovchiga ulangan holda saqlang. Ekran o‘chiq bo‘lsa, u bu yozuvni tezroq tahlil qiladi.</string>
     <string name="toast_enter_silent_mode">Yozib olish. Ovozsiz rejim yoqilgan.</string>
     <string name="toast_exit_silent_mode">Yozib olish tugallandi. Ovozsiz rejim o‘chirilgan.</string>
+    <string name="toast_for_no_asr_long_time">Hech qanday nutq aniqlanmadi. AI Nutqni Aniqlash to‘xtatildi.</string>
+    <string name="toast_for_pause_record_long_time">Yozib olish pauza qilindi. AI Nutqni Aniqlash to‘xtatildi.</string>
     <string name="toast_max_record_time">%1$s taxminan %2$s yozishi mumkin</string>
     <string name="toast_stop">Yozib olish tugallandi</string>
+    <string name="toast_title_stop_ai_recognize">AI Nutqni Aniqlash to‘xtatildi</string>
     <string name="toast_uninstall_fileexplorer">Fayllar o‘rnatilmagan</string>
     <string name="today">Bugun</string>
     <string name="tomorrow">Ertaga</string>

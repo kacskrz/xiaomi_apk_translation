@@ -34,9 +34,13 @@
     <string name="action_notes">Desa a Notes</string>
     <string name="action_retry">Proveu-ho de nou</string>
     <string name="actionbar_button_up_description">Enrere</string>
+    <string name="add_mark">Marca</string>
     <string name="afternoon">Tarda</string>
     <string name="agree_description">Permet que aquesta aplicació es connecti a internet per a poder fer servir totes les seves funcions.</string>
     <string name="ai_recognition_other_speaker">(Algú més parla)</string>
+    <string name="ai_recognize_fail">"No s'ha pogut transcriure"</string>
+    <string name="ai_recognize_fail_tip">"No s'ha pogut resumir. Proveu-ho de nou."</string>
+    <string name="ai_recognize_preference_summary">Transcripció automàtica en gravar</string>
     <string name="ai_summary">Resum amb IA</string>
     <string name="ai_watermark">Aquest contingut es genera amb IA i només es proporciona com a referència.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">No es pot gravar quan el micròfon està en ús</string>
@@ -65,13 +69,16 @@
     <string name="app_name">Gravadora</string>
     <string name="app_record">"Gravacions d'app"</string>
     <string name="app_record_preference_title">Gravador de trucades de veu</string>
+    <string name="asr_in_progress">%s Transcripció i resum</string>
+    <string name="asr_in_progress_with_polish">%s Polint i resumint</string>
+    <string name="asr_progress">Transcrivint àudio %s</string>
     <string name="back">Enrere</string>
     <string name="back_playback_position">Tornar a la posició actual</string>
     <string name="bottomsheet_action_collapse">Replega el full inferior</string>
-    <string name="bottomsheet_action_expand">Amplieu el full inferior</string>
-    <string name="bottomsheet_action_expand_halfway">Expandeix a la meitat</string>
-    <string name="bottomsheet_drag_handle_clicked">Arrossegueu la maneta fent doble toc</string>
-    <string name="bottomsheet_drag_handle_content_description">Arrossegueu el mànec</string>
+    <string name="bottomsheet_action_expand">Desplega el full inferior</string>
+    <string name="bottomsheet_action_expand_halfway">Desplega fins a la meitat</string>
+    <string name="bottomsheet_drag_handle_clicked">"Has fet doble toc a l'ansa per arrossegar"</string>
+    <string name="bottomsheet_drag_handle_content_description">Ansa per arrossegar</string>
     <string name="btn_continue_record_description">Reprèn la gravació</string>
     <string name="button_queue_for_wifi">Espereu</string>
     <string name="button_start_now">Baixa</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">Buit</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
+    <string name="error_a11y_label">Error: no vàlid</string>
     <string name="error_app_internal">Comproveu que no hi hagi una altra apli utilitzant la funció de gravació.</string>
     <string name="error_app_internal_title">Error de la gravadora</string>
     <string name="error_file_access">El fitxer no existeix o està malmès</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">Utilitza micròfon intern</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
     <string name="icon_content_description">Icona del quadre de diàleg</string>
+    <string name="intelligent_polishing_preference_summary">Elimina les redundàncies i estandarditza el format per al xinès</string>
     <string name="invisible_mode_dialog_message">"No pots utilitzar el micròfon quan estàs d'incògnit. Primer desactiveu el mode incògnit."</string>
     <string name="invisible_mode_dialog_negative">Cancel·la</string>
     <string name="invisible_mode_dialog_positive">Desactiva</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">Accediu a tots els fitxers</string>
     <string name="mark_add_toast">"S'ha afegit amb èxit"</string>
     <string name="material_clock_toggle_content_description">Selecciona a. m. o p. m.</string>
+    <string name="material_hour_24h_suffix">%1$s hores</string>
     <string name="material_hour_selection">"Seleccioneu l'hora"</string>
     <string name="material_hour_suffix">%1$s en punt</string>
     <string name="material_minute_selection">Selecciona els minuts</string>
@@ -381,21 +391,29 @@
     <string name="more_ai_unit_title">Punts clau</string>
     <string name="morning">Matí</string>
     <string name="mtrl_badge_numberless_content_description">Notificació nova</string>
+    <string name="mtrl_checkbox_state_description_checked">Marcat</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Marcat parcialment</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Desmarcat</string>
     <string name="mtrl_chip_close_icon_content_description">Suprimeix %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Més de %1$d notificacions noves</string>
     <string name="mtrl_picker_a11y_next_month">Canvia al mes següent</string>
     <string name="mtrl_picker_a11y_prev_month">Canvia al mes anterior</string>
+    <string name="mtrl_picker_announce_current_range_selection">"Selecció de la data d'inici: %1$s – Selecció de la data de finalització: %2$s"</string>
     <string name="mtrl_picker_announce_current_selection">Selecció actual: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">cap</string>
+    <string name="mtrl_picker_cancel">Cancel·la</string>
+    <string name="mtrl_picker_confirm">D’acord</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Selecciona una data</string>
     <string name="mtrl_picker_date_header_unselected">Data seleccionada</string>
-    <string name="mtrl_picker_day_of_week_column_header">Columna de dies: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Data de finalització: %1$s</string>
     <string name="mtrl_picker_invalid_format">El format no és vàlid.</string>
     <string name="mtrl_picker_invalid_format_example">Exemple: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Utilitza: %1$s</string>
     <string name="mtrl_picker_invalid_range">"L'interval no és vàlid."</string>
-    <string name="mtrl_picker_navigate_to_year_description">"Canvia a l'any %1$s"</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">"Navega fins a l'any actual %1$d"</string>
+    <string name="mtrl_picker_navigate_to_year_description">"Canvia a l'any %1$d"</string>
     <string name="mtrl_picker_out_of_range">"La data està fora de l'interval: %1$s"</string>
     <string name="mtrl_picker_range_header_only_end_selected">"Data d'inici - %1$s"</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s - data de finalització</string>
@@ -403,16 +421,20 @@
     <string name="mtrl_picker_range_header_title">Selecciona un interval</string>
     <string name="mtrl_picker_range_header_unselected">"Data d'inici - data de finalització"</string>
     <string name="mtrl_picker_save">Desa</string>
+    <string name="mtrl_picker_start_date_description">"Data d'inici: %1$s"</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data de finalització</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">"Data d'inici"</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_today_description">Avui, dia %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">"Canvia al mode d'introducció de dades del calendari"</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Toca per canviar a la selecció del dia</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca per canviar a la visualització de calendari</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">"Canvia al mode d'introducció de text"</string>
-    <string name="mtrl_picker_toggle_to_year_selection">"Toca per canviar a la selecció de l'any"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">"Toca per canviar a la visualització d'any"</string>
+    <string name="mtrl_timepicker_cancel">Cancel·la</string>
+    <string name="mtrl_timepicker_confirm">D’acord</string>
     <string name="network_tip_dialog_cancel">No accepto</string>
     <string name="network_tip_dialog_content">"Enregistrador necessita connectar-se a Internet per funcionar amb normalitat. Esteu d'acord?"</string>
     <string name="network_tip_dialog_ok">Accepto</string>
@@ -439,7 +461,10 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="noon">Mig dia</string>
     <string name="not_allowed">Sense concedir</string>
     <string name="not_set">No definit</string>
+    <string name="notice_btn_stop_ai_recognize">Desactiva</string>
+    <string name="notice_content_no_asr_long_time">"No s'ha detectat cap parla durant molt de temps."</string>
     <string name="notice_for_ai_search_tips">Detalls</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Voleu desactivar el reconeixement de veu amb IA?</string>
     <string name="notification_message_all_paused">"S'està esperant el Wi-Fi."</string>
     <string name="notification_pause_playback">Reproducció en pausa</string>
     <string name="notification_playback">"S'està reproduint…"</string>
@@ -447,11 +472,16 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="notification_recording_ticker">Telèfon silenciat</string>
     <string name="notification_save_as_complete">"S'ha desat amb èxit"</string>
     <string name="notification_stopped">"S'ha aturat la gravació"</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">"S'ha acabat de transcriure"</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">"No s'ha pogut resumir"</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">"S'ha acabat de resumir"</string>
     <string name="notification_title_all_paused">Baixada en pausa</string>
+    <string name="nrt_asr_complete">"S'ha acabat de transcribir. Toqueu per actualitzar."</string>
     <string name="offline_recognize_transfer_format">Transcrivint…</string>
     <string name="online_recognize_progress">Transcrivint %s…</string>
     <string name="open_voice_enhancement">Millora la veu</string>
     <string name="opened_voice_enhancement">La veu millorada està activada</string>
+    <string name="pasport_register_dialog_message">Voleu crear un Compte Xiaomi amb el vostre número de telèfon %s?</string>
     <string name="passport_access_denied">Accés denegat</string>
     <string name="passport_account_crop_user_avatar">Escapça la foto</string>
     <string name="passport_account_empty_user_name">Introduïu el vostre sobrenom</string>
@@ -468,7 +498,7 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="passport_account_secure_info_pref_title">Informació del compte</string>
     <string name="passport_account_security_info_pref_title">Informació de seguretat</string>
     <string name="passport_account_user_avatar">Foto del perfil</string>
-    <string name="passport_account_user_avatar_from_album">Galeria</string>
+    <string name="passport_account_user_avatar_from_album">Seleccioneu de la Galeria</string>
     <string name="passport_account_user_avatar_from_camera">Càmera</string>
     <string name="passport_account_user_base_info">Informació bàsica</string>
     <string name="passport_account_user_details">Informació personal</string>
@@ -478,11 +508,10 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="passport_account_user_name">Sobrenom</string>
     <string name="passport_account_user_name_dialog_title">Introduïu el sobrenom</string>
     <string name="passport_account_user_phone">Telèfon de recuperació</string>
-    <string name="passport_activity_not_found_notice">"No es pot trobar l'aplicació"</string>
+    <string name="passport_activity_not_found_notice">"No es pot trobar L'aplicació"</string>
     <string name="passport_agree">Acceptar</string>
     <string name="passport_area_code_title">"Codi d'àrea"</string>
     <string name="passport_attention">Atenció</string>
-    <string name="passport_auth_fail_warning">La sessió ha caducat. Torna a iniciar sessió.</string>
     <string name="passport_back">Enrere</string>
     <string name="passport_bad_authentication">"Nom d'usuari o contrasenya incorrectes"</string>
     <string name="passport_can_not_recevie_verify_code">No has rebut cap codi?</string>
@@ -490,7 +519,7 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="passport_check_security">Comprovació de problemes de seguretat…</string>
     <string name="passport_checking_account">"S'està comprovant la contrasenya…"</string>
     <string name="passport_clear_input">Neteja el contingut introduït</string>
-    <string name="passport_copy_link">"Copia l'URL"</string>
+    <string name="passport_copy_link">"Copia L'URL"</string>
     <string name="passport_copy_to_clipboard_successful">"S'ha copiat amb èxit"</string>
     <string name="passport_dialog_captcha_title">Codi</string>
     <string name="passport_dialog_doing_login">"S'està iniciant sessió…"</string>
@@ -503,12 +532,10 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="passport_dialog_register_other">No, crearé un altre</string>
     <string name="passport_doing_query_account">"S'està comprovant la informació del compte…"</string>
     <string name="passport_error_auth_fail">La sessió ha caducat. Torna a iniciar sessió.</string>
-    <string name="passport_error_device_id">"No es pot obtenir l'ID del dispositiu"</string>
-    <string name="passport_error_dup_binded_email">Aquesta adreça de correu electrònic ja està associada amb un altre Compte Xiaomi.</string>
+    <string name="passport_error_device_id">"No es pot obtenir L'ID del dispositiu"</string>
     <string name="passport_error_empty_password">Introduïu la vostra contrasenya</string>
     <string name="passport_error_empty_pwd">La contrasenya no pot estar buida</string>
     <string name="passport_error_empty_user_id">"Introduïu el vostre nom d'usuari"</string>
-    <string name="passport_error_invalid_bind_address">"L'adreça de correu electrònic que heu introduït no és vàlida."</string>
     <string name="passport_error_length_limit">El text que heu introduït és massa llarg</string>
     <string name="passport_error_network">No ha estat possible connectar-se a la xarxa</string>
     <string name="passport_error_no_password_user">Encara no heu configurat la contrasenya. Inicieu sessió amb un SMS.</string>
@@ -524,17 +551,14 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="passport_error_unknown">Error desconegut</string>
     <string name="passport_error_user_name">"El nom d'usuari que has introduït no és vàlid"</string>
     <string name="passport_error_user_password">Les contrasenyes no coincideixen</string>
-    <string name="passport_exceed_binded_phone_times_notice">Aquest número de telèfon ja està associat a un altre Compte Xiaomi.</string>
     <string name="passport_facebook_login_btn_content_description">Inicia sessió amb Facebook</string>
     <string name="passport_frequency_try_later">Massa intents. Espereu un minut o dos i proveu-ho de nou.</string>
     <string name="passport_get_login_type_next">Següent</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">"S'han enviat massa codis de verificació a aquest número. Espereu 24 hores i proveu-ho de nou."</string>
     <string name="passport_google_login_btn_content_description">Inicia sessió amb Google</string>
     <string name="passport_help">Ajuda</string>
     <string name="passport_i_know">Entesos</string>
     <string name="passport_identification_expired">El codi de verificació ha caducat. Torna a començar.</string>
     <string name="passport_input_captcha_hint">Introduïu el codi</string>
-    <string name="passport_input_email_address_notice">Utilitzarem aquest correu per verificar el vostre compte</string>
     <string name="passport_input_password_hint">Introduïu la contrasenya</string>
     <string name="passport_input_phone_number_hint">Introduïu el número de telèfon</string>
     <string name="passport_input_verify_code">Introduïu el codi de verificació</string>
@@ -546,15 +570,15 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="passport_login_register_by_local_phone_long_text">Crea un compte</string>
     <string name="passport_login_with_sns">"Altres formes d'iniciar sessió"</string>
     <string name="passport_logout_account">Tanca sessió</string>
-    <string name="passport_mi_account_first_title">Crearem un compte automàticament si utilitzeu el vostre número de telèfon per primera vegada.</string>
     <string name="passport_mi_account_title">Inicieu sessió amb el Compte Xiaomi</string>
     <string name="passport_network_error">"S'ha produït un error de xarxa. Comproveu la configuració de la xarxa i proveu-ho de nou."</string>
-    <string name="passport_network_error_hint">"Comproveu l'URL i proveu-ho de nou, o copieu-lo i obriu-lo al vostre navegador."</string>
+    <string name="passport_network_error_hint">"Comproveu L'URL i proveu-ho de nou, o copieu-lo i obriu-lo al vostre navegador."</string>
     <string name="passport_network_timeout">"No s'ha pogut connectar a la xarxa, proveu-ho de nou més tard."</string>
     <string name="passport_next">Següent</string>
     <string name="passport_no_account">"No s'ha iniciat sessió"</string>
     <string name="passport_open_settings">Configuració</string>
     <string name="passport_page_load_failed">No es pot obrir la pàgina</string>
+    <string name="passport_password_hide_show">Oculta la contrasenya</string>
     <string name="passport_password_login_btn">Inicia sessió</string>
     <string name="passport_password_not_show">No mostris la contrasenya</string>
     <string name="passport_password_show">Mostra la contrasenya</string>
@@ -566,6 +590,8 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="passport_reging">Creant compte…</string>
     <string name="passport_register_by_local_phone_long_text">Crea un compte</string>
     <string name="passport_register_by_local_phone_short_text">Crea un compte</string>
+    <string name="passport_register_dialog_positive">Crea</string>
+    <string name="passport_register_dialog_title">Crea Compte Xiaomi</string>
     <string name="passport_register_restricted">"S'han associat massa comptes amb aquest número. Prova amb un altre."</string>
     <string name="passport_relogin_notice">Necessiteu iniciar sessió de nou</string>
     <string name="passport_request_agree">Permet</string>
@@ -574,40 +600,37 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="passport_request_error_invalid_token">"No s'ha pogut verificar"</string>
     <string name="passport_request_error_network">"S'ha produït un error de xarxa. Comproveu la configuració de la xarxa i proveu-ho de nou."</string>
     <string name="passport_request_error_unknown">"S'ha produït un error del sistema. Torneu enrere i proveu-ho de nou."</string>
-    <string name="passport_request_gallery_permission_message">"Permet l'accés a la Galeria:&lt;br />Per configurar fotos de perfil"</string>
-    <string name="passport_resend_email_reach_limit_message">Heu demanat masses cops un correu de comprovació. Assegureu-vos que aquest email de verificació no estigui a la vostra carpeta de Spam.</string>
-    <string name="passport_resend_email_reach_limit_title">Massa intents</string>
+    <string name="passport_request_gallery_permission_message">"Aquesta aplicació ha d'accedir als elements de la Galeria seleccionats per poder configurar la vostra foto de perfil. Voleu permetre-ho ara?"</string>
+    <string name="passport_request_permission_title">Permisos requerits</string>
     <string name="passport_resend_ticket">Reenvia codi</string>
     <string name="passport_retry">Proveu de nou</string>
-    <string name="passport_same_new_and_old_pwd">No pot ser la mateixa que la contrasenya actual</string>
     <string name="passport_send_sms_to">Codi enviat a %1$s</string>
     <string name="passport_send_too_many_code">"S'ha enviat massa codis de verificació a aquest número. Espereu 24 hores i proveu-ho de nou."</string>
     <string name="passport_sending_vcode">Enviant codi…</string>
-    <string name="passport_service_error">Error del servidor</string>
     <string name="passport_set_password_no_phone_msg">Afegiu el tvostre número de telèfon per a protegir el vostre compte.</string>
     <string name="passport_skip_query_account">Ometre</string>
-    <string name="passport_sns_access_token_expired_warning">La sessió ha caducat. Torna a iniciar sessió per a tornar a connectar aquest compte.</string>
     <string name="passport_sns_bind_limit">"Massa intents. Prova altres formes d'iniciar sessió."</string>
     <string name="passport_system_error">El sistema està ocupat. Espereu un minut o dos i proveu-ho de nou.</string>
     <string name="passport_talkback_image_captcha">Codi de verificació de la imatge</string>
     <string name="passport_talkback_switch_image_captcha">"Canvia a codi de verificació a través d'imatges"</string>
     <string name="passport_talkback_switch_voice_captcha">Canvia a codi de verificació per veu</string>
     <string name="passport_talkback_voice_captcha">Reprodueix el codi de verificació de veu</string>
+    <string name="passport_third_sns_service_unavailable">"El servei no està disponible. Assegureu-vos que l'aplicació estigui instal·lada i no bloquejada."</string>
     <string name="passport_ticket_send_by_second">Envia a %d</string>
     <string name="passport_to_forget_password">Contrasenya oblidada?</string>
     <string name="passport_to_password_login">Inicia la sessió amb una contrasenya</string>
     <string name="passport_to_verify_code_login">Inicia sessió amb SMS</string>
     <string name="passport_unknown_error">Error desconegut</string>
     <string name="passport_unknown_host_network_error">Comproveu la configuració de la xarxa i proveu-ho de nou</string>
-    <string name="passport_user_agreement_hint_3rd_app">"&lt;Data>He llegit i he accepto l'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> i l'&lt;a href=%3$s>Acord d'usuari&lt;/a> del Compte Xiaomi i la &lt;a href=%4$s>Política de privadesa&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">"&lt;Data>He llegit i he acceptat l'&lt;a href=%1$s> Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a>, també l'&lt;a href=%3$s>Acord d'usuari&lt;/a> i la &lt;a href=%4$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com &lt;a href=%5$s>Termes i condicions dels serveis de verificació de China Mobile&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">"&lt;Data>He llegit i he acceptat l'&lt;a href=%1$s> Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a>, també l'&lt;a href=%3$s>Acord d'usuari&lt;/a> i la &lt;a href=%4$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com &lt;a href=%5$s>Termes i condicions dels Serveis de verificació de comptes eSurfing&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">"&lt;Data>He llegit i he acceptat l'&lt;a href=%1$s> Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a>, també l'&lt;a href=%3$s>Acord d'usuari&lt;/a> i la &lt;a href=%4$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com &lt;a href=%5$s>Termes i condicions dels serveis de verificació de China Unicom&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_default">"&lt;Data>He llegit i acceptat l'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> del Compte Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>"He llegit i he accepto L'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> i L'&lt;a href=%3$s>Acord d'usuari&lt;/a> del Compte Xiaomi i la &lt;a href=%4$s>Política de privadesa&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>"He llegit i he acceptat L'&lt;a href=%1$s> Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a>, també L'&lt;a href=%3$s>Acord d'usuari&lt;/a> i la &lt;a href=%4$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com &lt;a href=%5$s>Termes i condicions dels serveis de verificació de China Mobile&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>"He llegit i he acceptat L'&lt;a href=%1$s> Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a>, també L'&lt;a href=%3$s>Acord d'usuari&lt;/a> i la &lt;a href=%4$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com &lt;a href=%5$s>Termes i condicions dels Serveis de verificació de comptes eSurfing&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>"He llegit i he acceptat L'&lt;a href=%1$s> Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a>, també L'&lt;a href=%3$s>Acord d'usuari&lt;/a> i la &lt;a href=%4$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com &lt;a href=%5$s>Termes i condicions dels serveis de verificació de China Unicom&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>"He llegit i acceptat L'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> del Compte Xiaomi."</Data></string>
     <string name="passport_user_agreement_hint_first_login">Crearem un compte automàticament si utilitzeu el vostre número de telèfon per primera vegada.</string>
-    <string name="passport_user_agreement_hint_with_mobile">"&lt;Data>He llegit i acceptat l'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com els &lt;a href=%3$s>Termes i condicions dels serveis de verificació mòbil de la Xina&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_with_telecom">"&lt;Data>He llegit i acceptat el l'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com els &lt;a href=%3$s>Termes i condicions dels serveis de verificació del compte Esurfing&lt;/a>.&lt;/Data>"</string>
-    <string name="passport_user_agreement_hint_with_unicom">"&lt;Data>He llegit i acceptat l'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com els &lt;a href=%3$s>Termes i condicions dels serveis de verificació de la Xina unicom&lt;/a>.&lt;/Data>"</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>"He llegit i acceptat L'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com els &lt;a href=%3$s>Termes i condicions dels serveis de verificació mòbil de la Xina&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>"He llegit i acceptat el L'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com els &lt;a href=%3$s>Termes i condicions dels serveis de verificació del compte Esurfing&lt;/a>."</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>"He llegit i acceptat L'&lt;a href=%1$s>Acord d'usuari&lt;/a> i la &lt;a href=%2$s>Política de privadesa&lt;/a> del Compte Xiaomi, així com els &lt;a href=%3$s>Termes i condicions dels serveis de verificació de la Xina unicom&lt;/a>."</Data></string>
     <string name="passport_user_avatar_update_title">Canvia la foto de perfil</string>
     <string name="passport_user_avatar_uploading">Un moment…</string>
     <string name="passport_user_id_hint">Correu/número de telèfon/ID del Compte Xiaomi</string>
@@ -627,6 +650,7 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="permission_bluetooth">"Accediu a l'estat de connexió Bluetooth"</string>
     <string name="permission_bluetooth_dialog_description">Permet que aquest dispositiu es connecti a dispositius propers per poder canviar de dispositiu quan reprodueixin enregistraments.</string>
     <string name="permission_bluetooth_title">Permisos requerits</string>
+    <string name="permission_camera_description">Per fer fotos mentre graveu</string>
     <string name="permission_desc">Detalls dels permisos</string>
     <string name="permission_dialog_cancel">Cancel·la</string>
     <string name="permission_dialog_ok">Configuració</string>
@@ -659,6 +683,10 @@ Premeu \"%1$s\", i més tard seleccioneu \"%2$s\"."</string>
     <string name="preference_copied">"\"%1$s\" s'ha copiat al porta-retalls"</string>
     <string name="preference_enable_earpiece_summary">Reprodueix àudio amb l’altaveu de l’auricular</string>
     <string name="preference_enable_earpiece_title">Mode auricular</string>
+    <string name="preference_group_title_for_ai_setting">Funcions amb IA</string>
+    <string name="preference_group_title_for_normal_setting">General</string>
+    <string name="preference_key_ai_recognize">Reconeixement de veu amb IA</string>
+    <string name="preference_key_intelligent_polishing">Poliment intel·ligent</string>
     <string name="preference_led_indicator">Notificacions a la pantalla de bloqueig</string>
     <string name="preference_led_indicator_prompt">Mostra un indicador blau a la Pantalla de bloqueig y llum LED de flaix durant la gravació</string>
     <string name="preference_record_desktop_indicator_summary">"Mostra un indicador blau a la Pantalla d'inici durant la gravació"</string>
@@ -678,6 +706,7 @@ Com la Gravadora proporciona els seus serveis en funció de la recopilació de l
     <string name="progress">Barra de progrés de la reproducció</string>
     <string name="progress_dialog_message">"S'està baixant…"</string>
     <string name="radio_tips">"La gravadora proporciona transcripcions d'àudio, resums d'àudio i molt més. Aquesta aplicació s'ha de connectar a Internet per oferir aquests serveis."</string>
+    <string name="re_asr_error_tip">"No s'ha pogut transcriure. Proveu-ho de nou."</string>
     <string name="recent_delete">"S'ha afegit recentment"</string>
     <string name="recent_delete_delete_all">Voleu eliminar tots els elements de manera permanent ara?</string>
     <string name="recognition_button_add_to_queue">Afegeix a la cua</string>
@@ -707,6 +736,7 @@ Com la Gravadora proporciona els seus serveis en funció de la recopilació de l
     <string name="recognition_process_dialog_title">Tasques en curs</string>
     <string name="recognition_stop_current">Aturar tasca en marxa</string>
     <string name="recognize_complete_toast">Transcripció completa</string>
+    <string name="recognize_data_loading">Un moment…</string>
     <string name="recognize_tip_part_one">"No s'ha acabat de transcriure. "</string>
     <string name="recognize_tip_part_two">Reintenta</string>
     <string name="recognizing_not_rename">No es pot canviar el nom durant la gravació</string>
@@ -788,6 +818,8 @@ Com la Gravadora proporciona els seus serveis en funció de la recopilació de l
     <string name="search_scenes">Tipus de gravació</string>
     <string name="search_silent_mode">Silencia el timbre durant la gravació</string>
     <string name="search_tip_rename">Anomena les gravacions manualment</string>
+    <string name="searchview_clear_text_content_description">Esborra el text</string>
+    <string name="searchview_navigation_content_description">Enrere</string>
     <string name="send">Envia</string>
     <string name="settings_ai_record_abstract">Resumeix</string>
     <string name="settings_ai_record_abstract_description">"Resumeix el tema i el contingut d'una gravació i desa el resum a Notes"</string>
@@ -814,6 +846,7 @@ Com la Gravadora proporciona els seus serveis en funció de la recopilació de l
     <string name="shortcut_stop_record">"Atureu l'enregistrament"</string>
     <string name="show_text">Mostra text</string>
     <string name="show_wave">"Mostra l'empremta de veu"</string>
+    <string name="side_sheet_accessibility_pane_title">Panell lateral</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -823,6 +856,7 @@ Com la Gravadora proporciona els seus serveis en funció de la recopilació de l
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">Configuració</string>
     <string name="speaker">"Parlant "</string>
+    <string name="state_wait_recognize_tip">"S'està acabant primer la transcripció actual…"</string>
     <string name="status_bar_back">Toqueu per tornar a la gravadora</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">"S'està enregistrant…"</string>
@@ -856,6 +890,7 @@ Com la Gravadora proporciona els seus serveis en funció de la recopilació de l
     <string name="talkback_traslation_ai_recognize">Amaga el quadre de text</string>
     <string name="talkback_traslation_close">Atura la traducció</string>
     <string name="text_btn_backward_3_seconds">%d segons enrere</string>
+    <string name="text_btn_camera">Fes una foto</string>
     <string name="text_btn_complete">Atura</string>
     <string name="text_btn_forward_3_seconds">%d segons endavant</string>
     <string name="text_btn_mark">Marca</string>
@@ -928,8 +963,11 @@ Actualment és en pausa. L'anàlisi es reprendrà quan no feu servir el disposit
     <string name="tips_for_build_database">Mantingueu el dispositiu connectat al carregador. Analitzarà aquesta gravació més ràpidament quan la pantalla estigui apagada.</string>
     <string name="toast_enter_silent_mode">Enregistrant. El Mode silenci està activat.</string>
     <string name="toast_exit_silent_mode">Enregistrament acabat. El Mode silenci està desactivat.</string>
+    <string name="toast_for_no_asr_long_time">"No s'ha detectat cap veu. El reconeixement de veu per IA s'ha aturat."</string>
+    <string name="toast_for_pause_record_long_time">"Gravació en pausa. El reconeixement de veu per IA s'ha aturat."</string>
     <string name="toast_max_record_time">%1$s pot enregistrar durant uns %2$s</string>
     <string name="toast_stop">Gravació finalitzada</string>
+    <string name="toast_title_stop_ai_recognize">Reconeixement de veu per IA aturat</string>
     <string name="toast_uninstall_fileexplorer">El Gestor de fitxers no està instal·lat</string>
     <string name="today">Avui</string>
     <string name="tomorrow">Demà</string>

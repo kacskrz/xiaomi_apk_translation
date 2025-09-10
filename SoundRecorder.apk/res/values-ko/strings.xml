@@ -34,9 +34,13 @@
     <string name="action_notes">메모에 저장</string>
     <string name="action_retry">다시 시도</string>
     <string name="actionbar_button_up_description">뒤로</string>
+    <string name="add_mark">표기</string>
     <string name="afternoon">오후</string>
     <string name="agree_description">해당 앱의 모든 기능을 사용하기 위해 인터넷 연결을 허용해 주세요.</string>
     <string name="ai_recognition_other_speaker">(다른 사람이 말함)</string>
+    <string name="ai_recognize_fail">텍스트 변환을 할 수 없습니다</string>
+    <string name="ai_recognize_fail_tip">요약할 수 없습니다. 다시 시도하세요.</string>
+    <string name="ai_recognize_preference_summary">녹음 중 자동 텍스트 변환</string>
     <string name="ai_summary">AI 요약</string>
     <string name="ai_watermark">이 콘텐츠는 AI로 생성되었으며 참고용으로만 제공됩니다.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">마이크 사용 중에 녹음할 수 없음</string>
@@ -65,12 +69,15 @@
     <string name="app_name">녹음기</string>
     <string name="app_record">앱 녹음</string>
     <string name="app_record_preference_title">음성 통화 녹음기</string>
+    <string name="asr_in_progress">%s 텍스트 변환 및 요약 중</string>
+    <string name="asr_in_progress_with_polish">%s 다듬기 및 요약 중</string>
+    <string name="asr_progress">오디오를 텍스트로 변환 중 %s</string>
     <string name="back">뒤로</string>
     <string name="back_playback_position">현재 위치로 돌아가기</string>
     <string name="bottomsheet_action_collapse">하단 시트 접기</string>
-    <string name="bottomsheet_action_expand">하단 시트 확장</string>
-    <string name="bottomsheet_action_expand_halfway">반쯤 확장</string>
-    <string name="bottomsheet_drag_handle_clicked">드래그 핸들 두 번 탭</string>
+    <string name="bottomsheet_action_expand">하단 시트 펼치기</string>
+    <string name="bottomsheet_action_expand_halfway">반만 펼치기</string>
+    <string name="bottomsheet_drag_handle_clicked">두 번 탭한 드래그 핸들</string>
     <string name="bottomsheet_drag_handle_content_description">드래그 핸들</string>
     <string name="btn_continue_record_description">녹음 계속하기</string>
     <string name="button_queue_for_wifi">대기</string>
@@ -153,6 +160,7 @@
     <string name="empty_recognition_tip">비어있음</string>
     <string name="eras_ad">서기</string>
     <string name="eras_bc">기원전</string>
+    <string name="error_a11y_label">오류: 잘못됨</string>
     <string name="error_app_internal">다른 앱이 현재 녹음 기능을 사용 중인지 확인하세요.</string>
     <string name="error_app_internal_title">음성 녹음기 오류</string>
     <string name="error_file_access">파일이 존재하지 않거나 손상되었습니다</string>
@@ -238,6 +246,7 @@
     <string name="head_set_tip_dialog_title">내장 마이크 사용</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/h</string>
     <string name="icon_content_description">대화상자 아이콘</string>
+    <string name="intelligent_polishing_preference_summary">중복 제거 및 중국어 형식 표준화</string>
     <string name="invisible_mode_dialog_message">익명 모드 상태에서는 마이크를 사용할 수 없습니다. 먼저 익명 모드를 끄세요.</string>
     <string name="invisible_mode_dialog_negative">취소</string>
     <string name="invisible_mode_dialog_positive">끄기</string>
@@ -261,6 +270,7 @@
     <string name="manage_external_storage">모든 파일 접근</string>
     <string name="mark_add_toast">추가 성공</string>
     <string name="material_clock_toggle_content_description">오전 또는 오후를 선택하세요.</string>
+    <string name="material_hour_24h_suffix">%1$s시간</string>
     <string name="material_hour_selection">시간 선택</string>
     <string name="material_hour_suffix">%1$s시 정각</string>
     <string name="material_minute_selection">분 선택</string>
@@ -381,38 +391,50 @@
     <string name="more_ai_unit_title">핵심 사항</string>
     <string name="morning">아침</string>
     <string name="mtrl_badge_numberless_content_description">새 알림</string>
+    <string name="mtrl_checkbox_state_description_checked">선택됨</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">일부 선택됨</string>
+    <string name="mtrl_checkbox_state_description_unchecked">선택되지 않음</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s 삭제</string>
     <string name="mtrl_exceed_max_badge_number_content_description">새 알림 %1$d개 초과</string>
     <string name="mtrl_picker_a11y_next_month">다음 달로 변경</string>
     <string name="mtrl_picker_a11y_prev_month">이전 달로 변경</string>
+    <string name="mtrl_picker_announce_current_range_selection">시작일 선택: %1$s, 종료일 선택: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">현재 %1$s 선택됨</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">없음</string>
+    <string name="mtrl_picker_cancel">취소</string>
+    <string name="mtrl_picker_confirm">확인</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">날짜 선택</string>
     <string name="mtrl_picker_date_header_unselected">선택한 날짜</string>
-    <string name="mtrl_picker_day_of_week_column_header">요일 열: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">종료일: %1$s</string>
     <string name="mtrl_picker_invalid_format">형식이 잘못되었습니다.</string>
     <string name="mtrl_picker_invalid_format_example">예: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">%1$s 사용</string>
+    <string name="mtrl_picker_invalid_format_use">올바른 형식: %1$s</string>
     <string name="mtrl_picker_invalid_range">날짜 범위가 잘못되었습니다.</string>
-    <string name="mtrl_picker_navigate_to_year_description">%1$s년으로 이동</string>
-    <string name="mtrl_picker_out_of_range">%1$s은(는) 범위를 벗어난 날짜입니다.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">현재 연도(%1$d)로 이동</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$d년으로 이동</string>
+    <string name="mtrl_picker_out_of_range">%1$s은 범위를 벗어난 날짜입니다.</string>
     <string name="mtrl_picker_range_header_only_end_selected">시작일~%1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s~종료일</string>
     <string name="mtrl_picker_range_header_selected">%1$s~%2$s</string>
     <string name="mtrl_picker_range_header_title">기간 선택</string>
     <string name="mtrl_picker_range_header_unselected">시작일~종료일</string>
     <string name="mtrl_picker_save">저장</string>
+    <string name="mtrl_picker_start_date_description">시작일: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">날짜</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">종료일</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">시작일</string>
     <string name="mtrl_picker_text_input_day_abbr">일</string>
     <string name="mtrl_picker_text_input_month_abbr">월</string>
     <string name="mtrl_picker_text_input_year_abbr">년</string>
+    <string name="mtrl_picker_today_description">오늘(%1$s)</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">캘린더 입력 모드로 전환</string>
-    <string name="mtrl_picker_toggle_to_day_selection">탭하여 요일 선택으로 전환</string>
+    <string name="mtrl_picker_toggle_to_day_selection">탭하여 캘린더 뷰로 전환</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">텍스트 입력 모드로 전환</string>
-    <string name="mtrl_picker_toggle_to_year_selection">탭하여 연도 선택으로 전환</string>
+    <string name="mtrl_picker_toggle_to_year_selection">탭하여 연도 뷰로 전환</string>
+    <string name="mtrl_timepicker_cancel">취소</string>
+    <string name="mtrl_timepicker_confirm">확인</string>
     <string name="network_tip_dialog_cancel">동의하지 않음</string>
     <string name="network_tip_dialog_content">녹음기의 정상 작동을 위해 인터넷 연결이 요구됩니다. 동의하십니까?</string>
     <string name="network_tip_dialog_ok">동의</string>
@@ -439,7 +461,10 @@
     <string name="noon">정오</string>
     <string name="not_allowed">권한 부여되지 않음</string>
     <string name="not_set">설정되지 않음</string>
+    <string name="notice_btn_stop_ai_recognize">끄기</string>
+    <string name="notice_content_no_asr_long_time">오랫동안 음성이 감지되지 않았습니다.</string>
     <string name="notice_for_ai_search_tips">세부 정보</string>
+    <string name="notice_title_is_need_stop_ai_recognize">AI 음성 인식 기능을 끄시겠습니까?</string>
     <string name="notification_message_all_paused">Wi-Fi 연결을 기다리는 중입니다.</string>
     <string name="notification_pause_playback">재생이 일시 정지됨</string>
     <string name="notification_playback">재생 중…</string>
@@ -447,11 +472,16 @@
     <string name="notification_recording_ticker">휴대전화 음소거</string>
     <string name="notification_save_as_complete">저장 성공</string>
     <string name="notification_stopped">녹음 중단됨</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">텍스트 변환 완료</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">요약할 수 없습니다</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">요약 완료</string>
     <string name="notification_title_all_paused">다운로드 일시정지됨</string>
+    <string name="nrt_asr_complete">오디오를 텍스트로 변환했습니다. 새로고침하려면 탭하세요.</string>
     <string name="offline_recognize_transfer_format">트랜스크라이브 중…</string>
     <string name="online_recognize_progress">%s 트랜스크라이브 중…</string>
     <string name="open_voice_enhancement">음성 강조</string>
     <string name="opened_voice_enhancement">음성 강화 켜짐</string>
+    <string name="pasport_register_dialog_message">전화번호 %s을(를) 통해 Xiaomi 계정을 생성하시겠습니까?</string>
     <string name="passport_access_denied">접근 거부됨</string>
     <string name="passport_account_crop_user_avatar">사진 자르기</string>
     <string name="passport_account_empty_user_name">이름을 입력하십시오</string>
@@ -468,7 +498,7 @@
     <string name="passport_account_secure_info_pref_title">계정 정보</string>
     <string name="passport_account_security_info_pref_title">보안 정보</string>
     <string name="passport_account_user_avatar">프로필 사진</string>
-    <string name="passport_account_user_avatar_from_album">카메라</string>
+    <string name="passport_account_user_avatar_from_album">갤러리에서 선택</string>
     <string name="passport_account_user_avatar_from_camera">카메라</string>
     <string name="passport_account_user_base_info">기본 정보</string>
     <string name="passport_account_user_details">개인 정보</string>
@@ -482,7 +512,6 @@
     <string name="passport_agree">동의</string>
     <string name="passport_area_code_title">지역 코드</string>
     <string name="passport_attention">참고</string>
-    <string name="passport_auth_fail_warning">세션 만료됨, 다시 로그인하십시오.</string>
     <string name="passport_back">뒤로</string>
     <string name="passport_bad_authentication">잘못된 사용자 이름 또는 비밀번호</string>
     <string name="passport_can_not_recevie_verify_code">코드가 수신되지 않았습니까?</string>
@@ -504,11 +533,9 @@
     <string name="passport_doing_query_account">계정 정보 확인 중…</string>
     <string name="passport_error_auth_fail">세션 만료됨, 다시 로그인하십시오.</string>
     <string name="passport_error_device_id">기기 ID를 가져오지 못했습니다</string>
-    <string name="passport_error_dup_binded_email">이 이메일 주소가 이미 다른 Xiaomi 계정과 관련되어 있습니다.</string>
     <string name="passport_error_empty_password">비밀번호를 입력하십시오</string>
     <string name="passport_error_empty_pwd">비밀번호는 비워둘 수 없습니다</string>
     <string name="passport_error_empty_user_id">사용자 이름을 입력하십시오</string>
-    <string name="passport_error_invalid_bind_address">입력한 이메일 주소가 올바르지 않습니다.</string>
     <string name="passport_error_length_limit">입력하신 텍스트가 너무 깁니다</string>
     <string name="passport_error_network">네트워크에 연결 할 수 없음</string>
     <string name="passport_error_no_password_user">아직 비밀번호를 설정하지 않았습니다. SMS로 로그인하십시오.</string>
@@ -524,17 +551,14 @@
     <string name="passport_error_unknown">알 수 없는 오류</string>
     <string name="passport_error_user_name">입력된 사용자 이름이 올바르지 않습니다</string>
     <string name="passport_error_user_password">비밀번호 일치하지 않음</string>
-    <string name="passport_exceed_binded_phone_times_notice">이 전화번호는 이미 다른 Xiaomi 계정과 연결되어 있습니다.</string>
     <string name="passport_facebook_login_btn_content_description">Facebook 로그인</string>
     <string name="passport_frequency_try_later">너무 많은 시도입니다. 1-2분 정도 기다리신 후 다시 시도하십시오.</string>
     <string name="passport_get_login_type_next">다음</string>
-    <string name="passport_get_phone_verifycode_exceed_limit">이 번호로 너무 많은 인증 코드를 전송했습니다. 24시간 뒤에 다시 시도하십시오.</string>
     <string name="passport_google_login_btn_content_description">Google 로그인</string>
     <string name="passport_help">도움말</string>
     <string name="passport_i_know">알겠습니다</string>
     <string name="passport_identification_expired">인증 코드 만료됨, 다시 시작하십시오.</string>
     <string name="passport_input_captcha_hint">코드 입력</string>
-    <string name="passport_input_email_address_notice">이 이메일을 사용하여 귀하의 계정을 인증하게 될 것입니다.</string>
     <string name="passport_input_password_hint">비밀번호 입력</string>
     <string name="passport_input_phone_number_hint">전화번호 입력</string>
     <string name="passport_input_verify_code">인증 코드 입력</string>
@@ -546,7 +570,6 @@
     <string name="passport_login_register_by_local_phone_long_text">계정 생성</string>
     <string name="passport_login_with_sns">다른 방법으로 로그인</string>
     <string name="passport_logout_account">로그아웃</string>
-    <string name="passport_mi_account_first_title">전화번호를 처음 사용하는 경우 자동으로 계정이 생성될 것입니다.</string>
     <string name="passport_mi_account_title">Xiaomi 계정으로 로그인</string>
     <string name="passport_network_error">네트워크 오류가 발생했습니다. 네트워크 설정을 확인하시고 다시 시도하십시오.</string>
     <string name="passport_network_error_hint">URL을 확인하고 다시 시도하시거나, URL을 브라우저에 복사하여 여십시오.</string>
@@ -555,6 +578,7 @@
     <string name="passport_no_account">로그인되지 않음</string>
     <string name="passport_open_settings">설정</string>
     <string name="passport_page_load_failed">페이지를 열 수 없음</string>
+    <string name="passport_password_hide_show">비밀번호 숨기기</string>
     <string name="passport_password_login_btn">로그인</string>
     <string name="passport_password_not_show">비밀번호 표시하지 않기</string>
     <string name="passport_password_show">비밀번호 표시</string>
@@ -566,6 +590,8 @@
     <string name="passport_reging">계정 생성 중…</string>
     <string name="passport_register_by_local_phone_long_text">계정 생성</string>
     <string name="passport_register_by_local_phone_short_text">계정 생성</string>
+    <string name="passport_register_dialog_positive">생성</string>
+    <string name="passport_register_dialog_title">Xiaomi 계정 생성</string>
     <string name="passport_register_restricted">너무 많은 계정이 이 번호에 연결되었습니다. 다른 번호로 시도하십시오.</string>
     <string name="passport_relogin_notice">다시 로그인하셔야 합니다</string>
     <string name="passport_request_agree">허용</string>
@@ -574,40 +600,37 @@
     <string name="passport_request_error_invalid_token">인증 실패</string>
     <string name="passport_request_error_network">네트워크 오류가 발생했습니다. 네트워크 설정을 확인하시고 다시 시도하십시오.</string>
     <string name="passport_request_error_unknown">시스템 오류가 발생했습니다. 뒤로 돌아가신 후 다시 시도하십시오</string>
-    <string name="passport_request_gallery_permission_message">갤러리 접근 허용:&lt;br />프로필 사진 설정을 위해</string>
-    <string name="passport_resend_email_reach_limit_message">요청하신 인증 이메일이 너무 많습니다. 인증 이메일이 스팸 폴더로 이동되지는 않았는지 확인해 주십시오.</string>
-    <string name="passport_resend_email_reach_limit_title">너무 많은 시도입니다</string>
+    <string name="passport_request_gallery_permission_message">프로필 사진을 설정하시려면 이 앱의 갤러리 항목 접근이 요구됩니다. 허용하시겠습니까?</string>
+    <string name="passport_request_permission_title">권한 요구됨</string>
     <string name="passport_resend_ticket">코드 재전송</string>
     <string name="passport_retry">다시 시도</string>
-    <string name="passport_same_new_and_old_pwd">현재 비밀번호와 일치하지 않음</string>
     <string name="passport_send_sms_to">%1$s(으)로 코드 전송됨</string>
     <string name="passport_send_too_many_code">이 번호로 너무 많은 인증 코드를 전송했습니다. 24시간 뒤에 다시 시도하십시오.</string>
     <string name="passport_sending_vcode">코드 전송 중…</string>
-    <string name="passport_service_error">서버 오류</string>
     <string name="passport_set_password_no_phone_msg">계정을 보호하기 위해 전화번호를 추가하십시오.</string>
     <string name="passport_skip_query_account">건너뛰기</string>
-    <string name="passport_sns_access_token_expired_warning">세션 만료됨, 계정에 연결하시려면 다시 로그인하십시오.</string>
     <string name="passport_sns_bind_limit">너무 많은 시도입니다. 다른 방식으로 로그인하십시오.</string>
     <string name="passport_system_error">서버가 과부하 상태입니다. 1-2분 정도 기다리신 후 다시 시도해주십시오.</string>
     <string name="passport_talkback_image_captcha">이미지 인증 코드</string>
     <string name="passport_talkback_switch_image_captcha">이미지 인증 코드로 전환</string>
     <string name="passport_talkback_switch_voice_captcha">음성 인증 코드로 전환</string>
     <string name="passport_talkback_voice_captcha">음성 인증 코드 재생</string>
+    <string name="passport_third_sns_service_unavailable">서비스를 사용할 수 없습니다. 앱이 설치되어 있고 차단되지 않았는지 확인하십시오.</string>
     <string name="passport_ticket_send_by_second">%d 후 전송</string>
     <string name="passport_to_forget_password">비밀번호를 잊으셨습니까?</string>
     <string name="passport_to_password_login">비밀번호로 로그인</string>
     <string name="passport_to_verify_code_login">SMS로 로그인</string>
     <string name="passport_unknown_error">알 수 없는 오류</string>
     <string name="passport_unknown_host_network_error">네트워크 설정을 확인하시고 다시 시도해 주십시오</string>
-    <string name="passport_user_agreement_hint_3rd_app">&lt;Data>저는 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a> 그리고 Xiaomi 계정의 &lt;a href=%3$s>이용자 약관&lt;/a> 및 &lt;a href=%4$s>개인 정보 보호 정책&lt;/a>을 읽었고 동의합니다.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_mobile">&lt;Data>저는 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a> 그리고 Xiaomi 계정의 &lt;a href=%3$s>이용자 약관&lt;/a> 및 &lt;a href=%4$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%5$s>China Mobile 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_telecom">&lt;Data>저는 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a> 그리고 Xiaomi 계정의 &lt;a href=%3$s>이용자 약관&lt;/a> 및 &lt;a href=%4$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%5$s>eSurfing 계정 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_3rd_app_with_unicom">&lt;Data>저는 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a> 그리고 Xiaomi 계정의 &lt;a href=%3$s>이용자 약관&lt;/a> 및 &lt;a href=%4$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%5$s>China Unicom 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_default">&lt;Data>저는 Xiaomi 계정의 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a>을 읽었고 동의합니다.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>저는 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a> 그리고 Xiaomi 계정의 &lt;a href=%3$s>이용자 약관&lt;/a> 및 &lt;a href=%4$s>개인 정보 보호 정책&lt;/a>을 읽었고 동의합니다.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>저는 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a> 그리고 Xiaomi 계정의 &lt;a href=%3$s>이용자 약관&lt;/a> 및 &lt;a href=%4$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%5$s>China Mobile 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>저는 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a> 그리고 Xiaomi 계정의 &lt;a href=%3$s>이용자 약관&lt;/a> 및 &lt;a href=%4$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%5$s>eSurfing 계정 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>저는 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a> 그리고 Xiaomi 계정의 &lt;a href=%3$s>이용자 약관&lt;/a> 및 &lt;a href=%4$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%5$s>China Unicom 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>저는 Xiaomi 계정의 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a>을 읽었고 동의합니다.</Data></string>
     <string name="passport_user_agreement_hint_first_login">전화번호를 처음 사용하는 경우 자동으로 계정이 생성될 것입니다.</string>
-    <string name="passport_user_agreement_hint_with_mobile">&lt;Data>저는 Xiaomi 계정의 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%3$s>China Mobile 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_telecom">&lt;Data>저는 Xiaomi 계정의 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%3$s>eSurfing 계정 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.&lt;/Data></string>
-    <string name="passport_user_agreement_hint_with_unicom">&lt;Data>저는 Xiaomi 계정의 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%3$s>China Unicom 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.&lt;/Data></string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>저는 Xiaomi 계정의 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%3$s>China Mobile 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>저는 Xiaomi 계정의 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%3$s>eSurfing 계정 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>저는 Xiaomi 계정의 &lt;a href=%1$s>이용자 약관&lt;/a> 및 &lt;a href=%2$s>개인 정보 보호 정책&lt;/a>, &lt;a href=%3$s>China Unicom 인증 서비스 이용 약관&lt;/a>을 읽었고 동의합니다.</Data></string>
     <string name="passport_user_avatar_update_title">프로필 사진 변경</string>
     <string name="passport_user_avatar_uploading">잠시만 기다려주십시오…</string>
     <string name="passport_user_id_hint">이메일/전화번호/Xiaomi 계정 ID</string>
@@ -627,6 +650,7 @@
     <string name="permission_bluetooth">블루투스 연결 상태 접근</string>
     <string name="permission_bluetooth_dialog_description">녹음을 재생 중일 시 기기를 전환할 수 있도록 이 기기를 주변의 기기에 연결할 수 있도록 허용하세요.</string>
     <string name="permission_bluetooth_title">권한 요구됨</string>
+    <string name="permission_camera_description">녹화 중 사진 촬영을 위해</string>
     <string name="permission_desc">권한 세부사항</string>
     <string name="permission_dialog_cancel">취소</string>
     <string name="permission_dialog_ok">설정</string>
@@ -659,6 +683,10 @@
     <string name="preference_copied">"'%1$s'이(가) 클립보드에 복사되었습니다."</string>
     <string name="preference_enable_earpiece_summary">수화기 스피커를 사용하여 오디오 재생</string>
     <string name="preference_enable_earpiece_title">수화기 모드</string>
+    <string name="preference_group_title_for_ai_setting">AI 기능</string>
+    <string name="preference_group_title_for_normal_setting">일반</string>
+    <string name="preference_key_ai_recognize">AI 음성 인식</string>
+    <string name="preference_key_intelligent_polishing">스마트 보정</string>
     <string name="preference_led_indicator">잠금화면 알림</string>
     <string name="preference_led_indicator_prompt">녹음 진행 중 잠금화면에 파란색 표시기 표시 및 LED 조명 점멸</string>
     <string name="preference_record_desktop_indicator_summary">녹음 진행 중 홈 화면에 파란색 표시기 표시</string>
@@ -677,6 +705,7 @@
     <string name="progress">재생 진행 표시줄</string>
     <string name="progress_dialog_message">다운로드 중…</string>
     <string name="radio_tips">녹음기는 오디오 전사, 오디오 요약 등을 제공합니다. 이 앱은 해당 서비스를 제공하기 위해 인터넷 연결이 필요합니다.</string>
+    <string name="re_asr_error_tip">텍스트로 변환할 수 없습니다. 다시 시도하세요.</string>
     <string name="recent_delete">최근 삭제됨</string>
     <string name="recent_delete_delete_all">모든 항목을 영구적으로 삭제하시겠습니까?</string>
     <string name="recognition_button_add_to_queue">대기열에 추가</string>
@@ -706,6 +735,7 @@
     <string name="recognition_process_dialog_title">진행 중인 작업</string>
     <string name="recognition_stop_current">진행 중인 작업 중지</string>
     <string name="recognize_complete_toast">필사 완료</string>
+    <string name="recognize_data_loading">잠시만 기다려주세요…</string>
     <string name="recognize_tip_part_one">"전사가 완료되지 않았습니다. "</string>
     <string name="recognize_tip_part_two">다시 시도</string>
     <string name="recognizing_not_rename">녹음 중에는 이름을 변경할 수 없음</string>
@@ -787,6 +817,8 @@
     <string name="search_scenes">녹음 유형</string>
     <string name="search_silent_mode">녹음 중 벨소리 음소거</string>
     <string name="search_tip_rename">녹음 후 파일 이름 직접 입력</string>
+    <string name="searchview_clear_text_content_description">텍스트 삭제</string>
+    <string name="searchview_navigation_content_description">뒤로</string>
     <string name="send">전송</string>
     <string name="settings_ai_record_abstract">요약</string>
     <string name="settings_ai_record_abstract_description">녹화물의 주제와 내용을 요약하고 요약문을 메모에 저장합니다</string>
@@ -813,6 +845,7 @@
     <string name="shortcut_stop_record">녹음 중지</string>
     <string name="show_text">텍스트 표시</string>
     <string name="show_wave">성문 표시</string>
+    <string name="side_sheet_accessibility_pane_title">사이드 시트</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -822,6 +855,7 @@
     <string name="size_tera_byte">TB</string>
     <string name="sound_recorder_settings">설정</string>
     <string name="speaker">"스피커 "</string>
+    <string name="state_wait_recognize_tip">현재 텍스트 변환을 먼저 완료하는 중…</string>
     <string name="status_bar_back">탭하여 녹음기로 돌아가기</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">녹음 중…</string>
@@ -855,6 +889,7 @@
     <string name="talkback_traslation_ai_recognize">텍스트 상자 숨기기</string>
     <string name="talkback_traslation_close">번역 중지</string>
     <string name="text_btn_backward_3_seconds">%d초 뒤로</string>
+    <string name="text_btn_camera">사진 찍기</string>
     <string name="text_btn_complete">중지</string>
     <string name="text_btn_forward_3_seconds">%d초 앞으로</string>
     <string name="text_btn_mark">표기</string>
@@ -927,8 +962,11 @@
     <string name="tips_for_build_database">기기를 충전기에 연결한 상태로 유지하세요. 화면이 꺼져 있을 때 이 녹화본을 더 빠르게 분석합니다.</string>
     <string name="toast_enter_silent_mode">녹음 중입니다. 무음 모드가 켜졌습니다.</string>
     <string name="toast_exit_silent_mode">녹음이 완료되었습니다. 무음 모드가 꺼졌습니다.</string>
+    <string name="toast_for_no_asr_long_time">음성이 감지되지 않았습니다. AI 음성 인식이 중단되었습니다.</string>
+    <string name="toast_for_pause_record_long_time">녹음이 일시 중지되었습니다. AI 음성 인식이 중단되었습니다.</string>
     <string name="toast_max_record_time">%1$s, 약 %2$s 녹음할 수 있음</string>
     <string name="toast_stop">녹음 완료</string>
+    <string name="toast_title_stop_ai_recognize">AI 음성 인식 중단됨</string>
     <string name="toast_uninstall_fileexplorer">파일 관리자가 설치되어 있지 않음</string>
     <string name="today">오늘</string>
     <string name="tomorrow">내일</string>
