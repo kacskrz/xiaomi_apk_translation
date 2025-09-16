@@ -245,6 +245,7 @@
     <string name="album_ai_page_title">스마트 앨범</string>
     <string name="album_already_exists_check">보기</string>
     <string name="album_already_exists_msg">앨범 \"%s\"은(는) 이미 존재합니다.</string>
+    <string name="album_already_forced_common">고정됨</string>
     <string name="album_already_forced_top">이미 가장 윗부분입니다.</string>
     <string name="album_bluetooth">블루투스</string>
     <string name="album_camera_name">카메라</string>
@@ -315,11 +316,15 @@
     <string name="album_show_local_only">로컬 앨범에만 표시</string>
     <string name="album_show_local_only_summary">이 기능이 켜져있을 시 로컬 앨범만 삭제할 수 있는 옵션 사용 가능</string>
     <string name="album_sort_type">정렬 순서</string>
+    <string name="album_sort_type_by_name">이름순으로 정렬</string>
+    <string name="album_sort_type_create_time">생성된 날짜순으로 정렬</string>
     <string name="album_sort_type_create_time_asc">오래된순</string>
     <string name="album_sort_type_create_time_desc">최신순</string>
     <string name="album_sort_type_custom">사용자지정</string>
     <string name="album_sort_type_name_asc">A - Z순</string>
     <string name="album_sort_type_name_desc">Z - A순</string>
+    <string name="album_sort_type_update_time">수정된 날짜순으로 정렬</string>
+    <string name="album_switch_sort_mode_tips">여러 정렬 옵션을 사용할 수 있습니다.</string>
     <string name="album_tab_page_switch_view_style_to_grid">그리드뷰</string>
     <string name="album_tab_page_switch_view_style_to_linear">리스트뷰</string>
     <string name="album_tab_tool_tips">%s MB</string>
@@ -473,6 +478,7 @@
     <string name="backup_pause_title">동기화 일시정지됨</string>
     <string name="backup_pending">자동으로 백업됩니다</string>
     <string name="backup_settings">클라우드와 동기화</string>
+    <string name="backup_settings_banner_msg_error">클라우드 동기화 정보를 표시할 수 없음</string>
     <string name="backup_settings_banner_msg_off">모든 추억들을 안전하게 보관하기 위해 사진 및 동영상을 Google 포토에 백업하세요</string>
     <string name="backup_settings_banner_msg_on">Google 포토에서 백업 상태 보기</string>
     <string name="backup_settings_banner_title_not_allow">Google 포토 백업</string>
@@ -568,6 +574,8 @@
     <string name="card_title_three_month_baby">지나온 시간</string>
     <string name="cast_devices_unavailable_desc">기기와 프로젝터가 같은 Wi-Fi 네트워크에 연결 중인지 확인하세요.</string>
     <string name="cast_devices_unavailable_title">프로젝터 발견 실패</string>
+    <string name="cast_off_talkback">캐스팅 꺼짐</string>
+    <string name="cast_on_talkback">캐스팅 켜짐</string>
     <string name="cd_btn_back">뒤로 버튼</string>
     <string name="change_baby_album_choose_from_photos">갤러리</string>
     <string name="change_baby_album_dialog_title">프로필 사진 변경</string>
@@ -706,8 +714,8 @@
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요.</string>
     <string name="confirm">확인</string>
-    <string name="confirm_cancel_task_files">%1$s(으)로의 파일 전송을 취소하시겠습니까?</string>
-    <string name="confirm_cancel_task_images">%1$s(으)로의 이미지 전송을 취소하시겠습니까?</string>
+    <string name="confirm_cancel_task_files">파일 전송을 취소하시겠습니까?</string>
+    <string name="confirm_cancel_task_images">사진 전송을 취소하시겠습니까?</string>
     <string name="confirm_delete_selected_albums">선택한 앨범을 삭제하시겠습니까?</string>
     <string name="confirm_download_video_message">이 동영상을 보기 전에 다운로드를 완료해야 합니다. Wi-Fi가 사용 가능해지면 다운로드가 다시 시작됩니다.</string>
     <string name="confirm_download_video_title">동영상 다운로드</string>
@@ -717,13 +725,14 @@
     <string name="confirm_hidden_recommend_group_title">추천 항목 표시하지 않기</string>
     <string name="confirm_hide_selected_albums">선택한 앨범을 숨기시겠습니까?</string>
     <string name="confirm_merge_album_title">항목 병합</string>
-    <string name="confirm_merge_face_albums">" "<Data> Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Merge these albums with %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> 이 앨범을 %s 앨범과 합치시겠습니까? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> 이 앨범들을 %s 앨범과 합치시겠습니까? </Data>" "</string>
+    <string name="confirm_no_name_people_merge_tip">이 두 사람의 사진을 병합하면 동일한 사람으로 인식됩니다</string>
     <string name="confirm_not_face">일치하는 항목 없음</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? This person will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Sure this isn't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sure these are &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? These people will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Sure these aren't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>이(가) 확실합니까? 이 사람은 \"%2$s\" 앨범으로 이동됩니다. </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>이(가) 아닌 것이 확실합니까? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>이(가) 확실합니까? 이 사람들은 \"%2$s\" 앨범으로 이동됩니다. </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>이(가) 아닌 것이 확실합니까? </Data>" "</string>
     <string name="contact_tip">연락처</string>
     <string name="context_menu_add_contact">연락처에 추가</string>
     <string name="context_menu_copy">복사</string>
@@ -819,7 +828,7 @@
     <string name="device_list_all">모든 기기</string>
     <string name="device_list_more">더 보기</string>
     <string name="device_name_with_ellipsize">%1$s…</string>
-    <string name="device_offline">다른 기기가 오프라인 상태입니다. 다시 시작하십시오.</string>
+    <string name="device_offline">다른 기기가 오프라인 상태입니다. 다시 시작하세요.</string>
     <string name="device_status_failed">전송 실패</string>
     <string name="device_status_sending">전송 중…</string>
     <string name="device_status_success">전송됨</string>
@@ -906,6 +915,7 @@
     <string name="empty_description_conditions">중요한 순간을 기억하세요</string>
     <string name="empty_description_conditions_new">항목을 더 빨리 나타나게 하시려면 충전기를 연결하고 화면을 끄세요</string>
     <string name="empty_description_no_cards">계속 촬영하세요. 항목이 생성되면 여기에 나타날 것입니다.</string>
+    <string name="empty_description_no_common">고정된 앨범이 여기에 표시됨</string>
     <string name="empty_description_no_pinned">여기에 표시할 항목을 고정</string>
     <string name="empty_query_text_msg">무엇을 검색해야될지 모르겠네요…</string>
     <string name="empty_recommend_back">뒤로</string>
@@ -913,6 +923,7 @@
     <string name="empty_relation">그룹 이름은 공백으로 남겨둘 수 없습니다.</string>
     <string name="empty_tip_btn">사진 찍기</string>
     <string name="empty_title_no_cards">추억</string>
+    <string name="empty_title_no_common">항목 없음</string>
     <string name="empty_title_no_photos">사진 또는 동영상 없음</string>
     <string name="empty_title_no_pinned">고정된 항목 없음</string>
     <string name="enable_auto_upload_tip">이 앨범과 Xiaomi Cloud의 동기화를 켜시겠습니까?</string>
@@ -1047,9 +1058,14 @@
     <string name="fast_share_auto_render">미화</string>
     <string name="fast_share_auto_render_finish">미화 적용됨</string>
     <string name="father_day">어머니의 날</string>
+    <string name="feature_album_empty_subtitle">항목 정리를 위한 앨범 생성</string>
+    <string name="feature_album_empty_title">앨범 없음</string>
+    <string name="feature_create_album">앨범 생성</string>
     <string name="feature_guidance_photo_effects">"새 사진 효과
 사용 가능"</string>
     <string name="feature_guidance_video_editor_smart_effects">새 효과 사용 가능</string>
+    <string name="feature_sticky_empty_subtitle">먼저 사진 및 동영상을 촬영하거나 가져오기</string>
+    <string name="feature_sticky_empty_title">사진 또는 동영상 없음</string>
     <string name="featured_added_to_top_album">추가 성공</string>
     <string name="featured_change_album_cover">앨범 커버 변경</string>
     <string name="featured_customize">사용자지정</string>
@@ -1064,6 +1080,7 @@
     <string name="featured_people_pets_empty_des">클라우드와 동기화를 켜고 더 많은 사진을 찍어 여기에서 추천되는 사람, 반려동물 및 그룹을 확인하세요</string>
     <string name="featured_people_pets_empty_title">여기에 사람 또는 애완동물 없음</string>
     <string name="featured_pin_to_collection">추천 컬렉션에 추가</string>
+    <string name="featured_remove_common_album">고정 해제됨</string>
     <string name="featured_remove_top_album">고정 해제 성공</string>
     <string name="featured_time_empty_des">기기가 충전 중이고 화면이 꺼져 있을 때 추억이 정리됩니다</string>
     <string name="featured_time_empty_title">여기에 아직 추억 항목이 없음</string>
@@ -1142,9 +1159,12 @@
     <string name="friday">금요일</string>
     <string name="friday_short">금</string>
     <string name="friday_shortest">금</string>
-    <string name="functions_are_being_developed">이 기능은 곧 출시될 것입니다. 기다려 주십시오!</string>
+    <string name="functions_are_being_developed">이 기능은 곧 출시될 것입니다. 기다려 주세요!</string>
+    <string name="gallery_common">고정됨</string>
+    <string name="gallery_common_toast_tips">항목을 더 고정할 수 없음</string>
     <string name="gallery_pinned">고정됨</string>
     <string name="gallery_pinned_toast_tips">항목을 더 고정할 수 없음</string>
+    <string name="gallery_remove_common">고정 해제</string>
     <string name="gallery_remove_pinned">고정 해제</string>
     <string name="gallery_setting">설정</string>
     <string name="gallery_sync_disable_toast">갤러리에 대한 동기화 꺼져있음</string>
@@ -1252,18 +1272,21 @@
     <string name="home_menu_video_post">동영상 효과</string>
     <string name="home_page_all_photos">전체</string>
     <string name="home_page_camera">카메라</string>
+    <string name="home_page_checkbox">확인란</string>
     <string name="home_page_custom">사용자지정</string>
     <string name="home_page_custom_drag_description_album">두 번 탭하고 길게 누른 후 드래그하여 \"앨범\"을 다시 정렬하세요.</string>
     <string name="home_page_custom_drag_description_creation">두 번 탭하고 길게 누른 후 드래그하여 \"창작물\"을 다시 정렬하세요.</string>
     <string name="home_page_custom_drag_description_journey">두 번 탭하고 길게 누른 후 드래그하여 \"여행\"을 다시 정렬하세요.</string>
     <string name="home_page_custom_drag_description_more">두 번 탭하고 길게 누른 후 드래그하여 \"더 보기\"를 다시 정렬하세요.</string>
     <string name="home_page_custom_drag_description_people">두 번 탭하고 길게 누른 후 드래그하여 \"사람\"을 다시 정렬하세요.</string>
+    <string name="home_page_custom_drag_description_sticky">"두 번 탭하고 길게 누른 후 드래그하여 '고정됨' 항목을 다시 정렬하세요."</string>
     <string name="home_page_custom_drag_description_time">두 번 탭하고 길게 누른 후 드래그하여 \"추억\"을 다시 정렬하세요.</string>
     <string name="home_page_custom_drag_item_talkback_album">선택한 항목: 앨범. 길게 누르고 위나 아래로 드래그하여 정렬하세요.</string>
     <string name="home_page_custom_drag_item_talkback_creation">선택한 항목: 창작물. 길게 누르고 위나 아래로 드래그하여 정렬하세요.</string>
     <string name="home_page_custom_drag_item_talkback_journey">선택한 항목: 여행. 길게 누르고 위나 아래로 드래그하여 정렬하세요.</string>
     <string name="home_page_custom_drag_item_talkback_more">선택한 항목: 기타. 길게 누르고 위나 아래로 드래그하여 정렬하세요.</string>
     <string name="home_page_custom_drag_item_talkback_people">선택한 항목: 사람. 길게 누르고 위나 아래로 드래그하여 정렬하세요.</string>
+    <string name="home_page_custom_drag_item_talkback_sticky">선택한 항목: 고정됨. 길게 누르고 위나 아래로 드래그하여 다시 정렬하세요.</string>
     <string name="home_page_custom_drag_item_talkback_time">선택한 항목: 추억. 길게 누르고 위나 아래로 드래그하여 정렬하세요.</string>
     <string name="home_page_custom_save">변경 사항 저장</string>
     <string name="home_page_custom_second">항목 재정렬 또는 콘텐츠 숨기기</string>
@@ -1280,6 +1303,8 @@
     <string name="homepage_allphotos_tip_dialog_description_only_camera">카메라에 의해 촬영됨</string>
     <string name="homepage_allphotos_tip_dialog_subtitle">나중에 설정에서도 이 작업을 수행하실 수 있습니다</string>
     <string name="homepage_allphotos_tip_dialog_title">\"사진\"에서 어떤 이미지를 보고 싶으신가요?</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Honor 휴대전화</string>
     <string name="how_to_set_relation">앨범을 길게 &amp; 눌러 그룹 생성</string>
     <string name="hr_preview_108m">108MP 미리보기로 전환됨</string>
     <string name="hr_preview_200m">200MP 미리보기로 전환됨</string>
@@ -1770,6 +1795,7 @@
     <string name="operation_export_video">동영상으로 내보내기</string>
     <string name="operation_failed">작업을 완료할 수 없습니다.</string>
     <string name="operation_favorites">즐겨찾기</string>
+    <string name="operation_force_common">고정</string>
     <string name="operation_force_top">고정</string>
     <string name="operation_google_lens">Google 렌즈</string>
     <string name="operation_hide">숨기기</string>
@@ -1827,6 +1853,8 @@
     <string name="other_album_operation_move_to_rubbish_albums">불필요한 항목 앨범으로 이동</string>
     <string name="other_album_operation_remove_from_other_albums">\"기타 앨범\"에서 제거</string>
     <string name="other_settings">추가 설정</string>
+    <string name="other_three_group_name">%1$s, %2$s, %3$s</string>
+    <string name="other_two_group_name">%1$s, %2$s 외 %3$s명</string>
     <string name="owner_album_subtitle">%1$s명과 공유</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="pasport_register_dialog_message">전화번호 %s을(를) 통해 Xiaomi 계정을 생성하시겠습니까?</string>
@@ -2045,6 +2073,7 @@
     <string name="photo_page_rotate_screen">화면 회전</string>
     <string name="photo_page_save_uri_image_fail">갤러리에 저장할 수 없음</string>
     <string name="photo_page_save_uri_image_ok">갤러리에 사진 저장됨</string>
+    <string name="photo_page_save_uri_image_success">이 이미지는 갤러리에 저장되었습니다.</string>
     <string name="photo_print_menu_loading">플러그인 로딩 중…</string>
     <string name="photo_print_package_finish">인화 플러그인 로드 성공</string>
     <string name="photo_print_package_installing">인화 플러그인 로딩 중…</string>
@@ -2120,12 +2149,17 @@
     <string name="picker_title_specify_format_one">%d개 사진 선택</string>
     <string name="picker_title_unlimit">사진 선택</string>
     <string name="picture_not_support_privacy_watermark">워터마크를 추가할 수 없습니다. 이 이미지는 너무 작습니다.</string>
+    <string name="pinned_introduction_content">‘고정’에는 기본적으로 모든 사진, 카메라 촬영본, 스크린샷이 포함됩니다. 다른 앨범도 추가해 두면 빠르게 열 수 있습니다.</string>
+    <string name="pinned_introduction_negative_button">알겠습니다</string>
+    <string name="pinned_introduction_positive_button">보기</string>
+    <string name="pinned_introduction_title">컬렉션의 고정 항목</string>
     <string name="places_album_empty_title">사진을 위치로 정렬할 수 있습니다.</string>
     <string name="play_gif_desc">GIF 재생</string>
     <string name="play_video_desc">동영상 재생</string>
     <string name="pm">오후</string>
     <string name="pref_today_of_year_summary">몇 년동안 해당 날짜에 촬영한 순간들을 추억하세요. 이 기능을 끄시면 생성된 추억 항목은 사라지지 않을 것입니다.</string>
     <string name="preference_copied">"'%1$s'이(가) 클립보드에 복사되었습니다."</string>
+    <string name="prepare_contains_dolby_convert">파일 준비 중(돌비 비전 변환 포함)…</string>
     <string name="prepare_to_drop">%s에 저장</string>
     <string name="preparing_data">잠시만 기다려주세요…</string>
     <string name="privacy">개인 정보 보호 정책</string>
@@ -3277,6 +3311,7 @@
     <string name="talkback_story_album_playicon">이 추억 재생하기</string>
     <string name="talkback_video_with_time">동영상, %s</string>
     <string name="talkback_video_with_time_and_location">동영상, %1$s, %2$s</string>
+    <string name="tap_share_tips_title">두 기기 뒷면을 맞대면 항목을 공유할 수 있습니다</string>
     <string name="terabyteShort">TB</string>
     <string name="text_recognition">텍스트 인식</string>
     <string name="text_segment">사진 컷아웃</string>

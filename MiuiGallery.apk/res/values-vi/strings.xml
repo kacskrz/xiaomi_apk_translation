@@ -245,6 +245,7 @@ Những ảnh chụp đẹp nhất được chọn tự động. Bạn có thể
     <string name="album_ai_page_title">Album thông minh</string>
     <string name="album_already_exists_check">Xem</string>
     <string name="album_already_exists_msg">Album \"%s\" đã tồn tại</string>
+    <string name="album_already_forced_common">Đã ghim</string>
     <string name="album_already_forced_top">Đã lên đầu</string>
     <string name="album_bluetooth">Bluetooth</string>
     <string name="album_camera_name">Camera</string>
@@ -315,11 +316,15 @@ Những ảnh chụp đẹp nhất được chọn tự động. Bạn có thể
     <string name="album_show_local_only">Chỉ hiển thị album trên máy</string>
     <string name="album_show_local_only_summary">Tùy chọn chỉ xóa album trên máy sẽ khả dụng khi tính năng này được bật</string>
     <string name="album_sort_type">Sắp xếp thứ tự</string>
+    <string name="album_sort_type_by_name">Sắp xếp theo tên</string>
+    <string name="album_sort_type_create_time">Sắp xếp theo ngày tạo</string>
     <string name="album_sort_type_create_time_asc">Từ cũ đến mới</string>
     <string name="album_sort_type_create_time_desc">Từ mới đến cũ</string>
     <string name="album_sort_type_custom">Tùy chỉnh</string>
     <string name="album_sort_type_name_asc">Từ A đến Z</string>
     <string name="album_sort_type_name_desc">Từ Z đến A</string>
+    <string name="album_sort_type_update_time">Sắp xếp theo ngày sửa</string>
+    <string name="album_switch_sort_mode_tips">Nhiều tùy chọn sắp xếp khả dụng</string>
     <string name="album_tab_page_switch_view_style_to_grid">Xem theo ô lưới</string>
     <string name="album_tab_page_switch_view_style_to_linear">Xem theo danh sách</string>
     <string name="album_tab_tool_tips">%s MB</string>
@@ -473,6 +478,7 @@ Kết nối bộ sạc và tắt màn hình để hiển thị kỷ niệm."</st
     <string name="backup_pause_title">Đồng bộ đã tạm dừng</string>
     <string name="backup_pending">Sẽ được sao lưu tự động</string>
     <string name="backup_settings">Đồng bộ với đám mây</string>
+    <string name="backup_settings_banner_msg_error">Không thể hiển thị thông tin đồng bộ đám mây</string>
     <string name="backup_settings_banner_msg_off">Sao lưu ảnh và video bằng Google Ảnh để giữ tất cả kỷ niệm được an toàn</string>
     <string name="backup_settings_banner_msg_on">Xem trạng thái sao lưu trong Google Ảnh</string>
     <string name="backup_settings_banner_title_not_allow">Sao lưu Google Ảnh</string>
@@ -568,6 +574,8 @@ Kết nối bộ sạc và tắt màn hình để hiển thị kỷ niệm."</st
     <string name="card_title_three_month_baby">Thời gian trôi nhanh</string>
     <string name="cast_devices_unavailable_desc">Đảm bảo rằng cả thiết bị này và máy chiếu đều được kết nối với cùng một mạng Wi-Fi</string>
     <string name="cast_devices_unavailable_title">Không tìm thấy máy chiếu</string>
+    <string name="cast_off_talkback">Chiếu đã tắt</string>
+    <string name="cast_on_talkback">Chiếu đã bật</string>
     <string name="cd_btn_back">Phím Quay lại</string>
     <string name="change_baby_album_choose_from_photos">Thư viện</string>
     <string name="change_baby_album_dialog_title">Thay đổi ảnh hồ sơ</string>
@@ -706,8 +714,8 @@ Kết nối bộ sạc và tắt màn hình để hiển thị kỷ niệm."</st
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="common_google_play_services_unknown_issue">%1$s đang gặp sự cố với Dịch vụ Google Play. Hãy thử lại.</string>
     <string name="confirm">OK</string>
-    <string name="confirm_cancel_task_files">Hủy gửi tập tin đến %1$s?</string>
-    <string name="confirm_cancel_task_images">Hủy gửi ảnh đến %1$s?</string>
+    <string name="confirm_cancel_task_files">Hủy gửi tập tin?</string>
+    <string name="confirm_cancel_task_images">Hủy gửi ảnh?</string>
     <string name="confirm_delete_selected_albums">Xóa các album đã chọn?</string>
     <string name="confirm_download_video_message">Hoàn tất tải video này xuống để bắt đầu xem. Tải xuống sẽ tiếp tục khi Wi-Fi khả dụng.</string>
     <string name="confirm_download_video_title">Tải video</string>
@@ -717,13 +725,14 @@ Kết nối bộ sạc và tắt màn hình để hiển thị kỷ niệm."</st
     <string name="confirm_hidden_recommend_group_title">Không hiển thị kiến nghị</string>
     <string name="confirm_hide_selected_albums">Ẩn album đã chọn?</string>
     <string name="confirm_merge_album_title">Hợp nhất các mục</string>
-    <string name="confirm_merge_face_albums">" "<Data> Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Merge these albums with %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> Hợp nhất album này với %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Hợp nhất các album này với %s? </Data>" "</string>
+    <string name="confirm_no_name_people_merge_tip">Khi bạn hợp nhất ảnh của hai người này, họ sẽ được nhận dạng là cùng một người</string>
     <string name="confirm_not_face">Không khớp</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? This person will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Sure this isn't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sure these are &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? These people will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Sure these aren't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Có chắc đây là &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> không? Người này sẽ được chuyển vào album \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Có chắc đây không phải là &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> không? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Có chắc đây là &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> không? Những người này sẽ được chuyển vào album \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Có chắc đây không phải là &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> không? </Data>" "</string>
     <string name="contact_tip">Liên hệ</string>
     <string name="context_menu_add_contact">Thêm vào liên hệ</string>
     <string name="context_menu_copy">Sao chép</string>
@@ -906,6 +915,7 @@ Kết nối bộ sạc và tắt màn hình để hiển thị kỷ niệm."</st
     <string name="empty_description_conditions">Ghi nhớ những sự kiện quan trọng</string>
     <string name="empty_description_conditions_new">Kết nối bộ sạc và tắt màn hình để các mục xuất hiện sớm hơn tại đây</string>
     <string name="empty_description_no_cards">Tiếp tục chụp ảnh. Các mục sẽ xuất hiện ở đây sau khi được tạo.</string>
+    <string name="empty_description_no_common">Album đã ghim sẽ xuất hiện ở đây</string>
     <string name="empty_description_no_pinned">Ghim mục để xuất hiện tại đây</string>
     <string name="empty_query_text_msg">Nội dung tìm kiếm không được để trống…</string>
     <string name="empty_recommend_back">Quay lại</string>
@@ -913,6 +923,7 @@ Kết nối bộ sạc và tắt màn hình để hiển thị kỷ niệm."</st
     <string name="empty_relation">Tên nhóm không được để trống</string>
     <string name="empty_tip_btn">Chụp ảnh</string>
     <string name="empty_title_no_cards">Kỷ niệm</string>
+    <string name="empty_title_no_common">Không có mục nào</string>
     <string name="empty_title_no_photos">Không có ảnh hoặc video</string>
     <string name="empty_title_no_pinned">Không có mục nào được ghim</string>
     <string name="enable_auto_upload_tip">Bật đồng bộ với đám mây cho album này?</string>
@@ -1047,9 +1058,14 @@ Chụp nhiều ảnh bạn của bạn hơn!"</string>
     <string name="fast_share_auto_render">Làm đẹp</string>
     <string name="fast_share_auto_render_finish">Đã làm đẹp</string>
     <string name="father_day">Ngày của Mẹ</string>
+    <string name="feature_album_empty_subtitle">Tạo album để sắp xếp các mục</string>
+    <string name="feature_album_empty_title">Không có album</string>
+    <string name="feature_create_album">Tạo album</string>
     <string name="feature_guidance_photo_effects">"Hiệu ứng ảnh mới 
 khả dụng"</string>
     <string name="feature_guidance_video_editor_smart_effects">Hiệu ứng ảnh mới khả dụng</string>
+    <string name="feature_sticky_empty_subtitle">Chụp hoặc nhập ảnh và video trước</string>
+    <string name="feature_sticky_empty_title">Không có ảnh hoặc video</string>
     <string name="featured_added_to_top_album">Thêm thành công</string>
     <string name="featured_change_album_cover">Thay đổi bìa album</string>
     <string name="featured_customize">Tùy chỉnh</string>
@@ -1064,6 +1080,7 @@ khả dụng"</string>
     <string name="featured_people_pets_empty_des">Bật đồng bộ với đám mây và chụp thêm ảnh để xem người, thú cưng và nhóm nổi bật tại đây</string>
     <string name="featured_people_pets_empty_title">Không có người hoặc thú cưng ở đây</string>
     <string name="featured_pin_to_collection">Thêm vào bộ sưu tập nổi bật</string>
+    <string name="featured_remove_common_album">Đã bỏ ghim</string>
     <string name="featured_remove_top_album">Hủy ghim thành công</string>
     <string name="featured_time_empty_des">Kỷ niệm sẽ được sắp xếp khi thiết bị đang sạc và màn hình tắt</string>
     <string name="featured_time_empty_title">Không có kỷ niệm ở đây</string>
@@ -1143,8 +1160,11 @@ khả dụng"</string>
     <string name="friday_short">Th 6</string>
     <string name="friday_shortest">Th 6</string>
     <string name="functions_are_being_developed">Tính năng này sẽ sớm khả dụng. Hãy theo dõi!</string>
+    <string name="gallery_common">Đã ghim</string>
+    <string name="gallery_common_toast_tips">Không thể ghim nhiều mục</string>
     <string name="gallery_pinned">Đã ghim</string>
     <string name="gallery_pinned_toast_tips">Không thể ghim nhiều mục</string>
+    <string name="gallery_remove_common">Bỏ ghim</string>
     <string name="gallery_remove_pinned">Bỏ ghim</string>
     <string name="gallery_setting">Cài đặt</string>
     <string name="gallery_sync_disable_toast">Đồng bộ Thư viện tắt</string>
@@ -1252,18 +1272,21 @@ khả dụng"</string>
     <string name="home_menu_video_post">Hiệu ứng video</string>
     <string name="home_page_all_photos">Tất cả</string>
     <string name="home_page_camera">Camera</string>
+    <string name="home_page_checkbox">Hộp chọn</string>
     <string name="home_page_custom">Tùy chỉnh</string>
     <string name="home_page_custom_drag_description_album">Chạm đúp và giữ, sau đó kéo để sắp xếp lại \"Album\".</string>
     <string name="home_page_custom_drag_description_creation">Chạm đúp và giữ, sau đó kéo để sắp xếp lại \"Sáng tạo\".</string>
     <string name="home_page_custom_drag_description_journey">Chạm đúp và giữ, sau đó kéo để sắp xếp lại \"Hành trình\".</string>
     <string name="home_page_custom_drag_description_more">Chạm đúp và giữ, sau đó kéo để sắp xếp lại \"Thêm\".</string>
     <string name="home_page_custom_drag_description_people">Chạm đúp và giữ, sau đó kéo để sắp xếp lại \"Mọi người\".</string>
+    <string name="home_page_custom_drag_description_sticky">Chạm đúp và giữ, sau đó kéo để sắp xếp lại \"Đã ghim\".</string>
     <string name="home_page_custom_drag_description_time">Chạm đúp và giữ, sau đó kéo để sắp xếp lại \"Kỷ niệm\".</string>
     <string name="home_page_custom_drag_item_talkback_album">Đã chọn: Album. Nhấn, giữ và kéo lên hoặc xuống để sắp xếp lại.</string>
     <string name="home_page_custom_drag_item_talkback_creation">Đã chọn: Sáng tạo. Nhấn, giữ và kéo lên hoặc xuống để sắp xếp lại.</string>
     <string name="home_page_custom_drag_item_talkback_journey">Đã chọn: Hành trình. Nhấn, giữ và kéo lên hoặc xuống để sắp xếp lại.</string>
     <string name="home_page_custom_drag_item_talkback_more">Đã chọn: Thêm. Nhấn, giữ và kéo lên hoặc xuống để sắp xếp lại.</string>
     <string name="home_page_custom_drag_item_talkback_people">Đã chọn: Người. Nhấn, giữ và kéo lên hoặc xuống để sắp xếp lại.</string>
+    <string name="home_page_custom_drag_item_talkback_sticky">Đã chọn: Đã ghim. Nhấn, giữ và kéo lên hoặc xuống để sắp xếp lại.</string>
     <string name="home_page_custom_drag_item_talkback_time">Đã chọn: Kỷ niệm. Nhấn, giữ và kéo lên hoặc xuống để sắp xếp lại.</string>
     <string name="home_page_custom_save">Lưu thay đổi</string>
     <string name="home_page_custom_second">Sắp xếp lại các mục hoặc ẩn nội dung</string>
@@ -1280,6 +1303,8 @@ khả dụng"</string>
     <string name="homepage_allphotos_tip_dialog_description_only_camera">Chụp bằng Camera</string>
     <string name="homepage_allphotos_tip_dialog_subtitle">Bạn có thể thay đổi trong Cài đặt sau</string>
     <string name="homepage_allphotos_tip_dialog_title">Bạn muốn xem những ảnh nào trong \"Ảnh\"?</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Điện thoại Honor</string>
     <string name="how_to_set_relation">Bấm &amp; giữ một album để tạo nhóm</string>
     <string name="hr_preview_108m">Đã chuyển sang xem trước 108MP</string>
     <string name="hr_preview_200m">Đã chuyển sang xem trước 200MP</string>
@@ -1770,6 +1795,7 @@ Chuyển mã có thể mất một chút thời gian khi bạn sử dụng tính
     <string name="operation_export_video">Xuất dưới dạng video</string>
     <string name="operation_failed">Không thể hoàn thành thao tác</string>
     <string name="operation_favorites">Yêu thích</string>
+    <string name="operation_force_common">Ghim</string>
     <string name="operation_force_top">Ghim</string>
     <string name="operation_google_lens">Google Ống kính</string>
     <string name="operation_hide">Ẩn</string>
@@ -1827,6 +1853,8 @@ Chuyển mã có thể mất một chút thời gian khi bạn sử dụng tính
     <string name="other_album_operation_move_to_rubbish_albums">Chuyển đến album rác</string>
     <string name="other_album_operation_remove_from_other_albums">Xóa khỏi \"Album khác\"</string>
     <string name="other_settings">Cài đặt bổ sung</string>
+    <string name="other_three_group_name">%1$s, %2$s và %3$s</string>
+    <string name="other_two_group_name">%1$s, %2$s và %3$s người khác</string>
     <string name="owner_album_subtitle">Đã chia sẻ với %1$s người</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="pasport_register_dialog_message">Tạo Tài khoản Xiaomi thông qua số điện thoại %s ngay?</string>
@@ -2045,6 +2073,7 @@ Chuyển mã có thể mất một chút thời gian khi bạn sử dụng tính
     <string name="photo_page_rotate_screen">Xoay màn hình</string>
     <string name="photo_page_save_uri_image_fail">Không thể lưu vào Thư viện</string>
     <string name="photo_page_save_uri_image_ok">Ảnh đã lưu vào Thư viện</string>
+    <string name="photo_page_save_uri_image_success">Ảnh này đã được lưu vào Thư viện.</string>
     <string name="photo_print_menu_loading">Đang tải trình cắm…</string>
     <string name="photo_print_package_finish">Tải trình cắm In thành công</string>
     <string name="photo_print_package_installing">Đang tải trình cắm In…</string>
@@ -2120,12 +2149,17 @@ Chuyển mã có thể mất một chút thời gian khi bạn sử dụng tính
     <string name="picker_title_specify_format_one">Chọn %d ảnh</string>
     <string name="picker_title_unlimit">Chọn ảnh</string>
     <string name="picture_not_support_privacy_watermark">Không thể thêm dấu chìm. Ảnh này quá nhỏ.</string>
+    <string name="pinned_introduction_content">“Đã ghim” mặc định bao gồm tất cả ảnh, ảnh chụp camera và ảnh chụp màn hình. Bạn cũng có thể thêm các album khác để truy cập nhanh.</string>
+    <string name="pinned_introduction_negative_button">Tôi biết</string>
+    <string name="pinned_introduction_positive_button">Xem</string>
+    <string name="pinned_introduction_title">Các mục đã ghim trong bộ sưu tập của bạn</string>
     <string name="places_album_empty_title">Ảnh được sắp xếp theo vị trí</string>
     <string name="play_gif_desc">Phát GIF</string>
     <string name="play_video_desc">Phát video</string>
     <string name="pm">CH</string>
     <string name="pref_today_of_year_summary">Nhắc nhở về những khoảnh khắc bạn đã chụp vào ngày này trong suốt nhiều năm. Kỷ niệm đã được tạo sẽ không biến mất nếu bạn tắt tính năng này.</string>
     <string name="preference_copied">Đã sao chép \"%1$s\" vào bảng nhớ tạm.</string>
+    <string name="prepare_contains_dolby_convert">Đang chuẩn bị tập tin (bao gồm chuyển đổi Dolby Vision)…</string>
     <string name="prepare_to_drop">Đang lưu vào %s</string>
     <string name="preparing_data">Vui lòng chờ…</string>
     <string name="privacy">Chính sách Riêng tư</string>
@@ -3277,6 +3311,7 @@ Chuyển mã có thể mất một chút thời gian khi bạn sử dụng tính
     <string name="talkback_story_album_playicon">Phát kỷ niệm này</string>
     <string name="talkback_video_with_time">Video, %s</string>
     <string name="talkback_video_with_time_and_location">Video, %1$s, %2$s</string>
+    <string name="tap_share_tips_title">Chạm mặt sau của hai thiết bị vào nhau để chia sẻ mục</string>
     <string name="terabyteShort">TB</string>
     <string name="text_recognition">Nhận dạng văn bản</string>
     <string name="text_segment">Cắt ảnh</string>

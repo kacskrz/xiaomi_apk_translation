@@ -218,6 +218,7 @@
     <string name="album_ai_page_title">სმარტ ალბომები</string>
     <string name="album_already_exists_check">ნახვა</string>
     <string name="album_already_exists_msg">ალბომი \"%s\" უკვე არსებობს</string>
+    <string name="album_already_forced_common">მიმაგრებულია</string>
     <string name="album_already_forced_top">უკვე თავშია</string>
     <string name="album_bluetooth">Bluetooth</string>
     <string name="album_camera_name">კამერა</string>
@@ -288,11 +289,15 @@
     <string name="album_show_local_only">მხოლოდ ლოკალური ალბომების ჩვენება</string>
     <string name="album_show_local_only_summary">მხოლოდ ადგილობრივი ალბომების წაშლის ვარიანტი ხელმისაწვდომი გახდება, როდესაც ეს ფუნქცია ჩართულია</string>
     <string name="album_sort_type">დაალაგეთ შეკვეთა</string>
+    <string name="album_sort_type_by_name">დალაგება სახელის მიხედვით</string>
+    <string name="album_sort_type_create_time">დალაგება შექმნის თარიღის მიხედვით</string>
     <string name="album_sort_type_create_time_asc">ძელიდან ახლამდე</string>
     <string name="album_sort_type_create_time_desc">ახლიდან ძველამდე</string>
     <string name="album_sort_type_custom">მომხმარებელი</string>
     <string name="album_sort_type_name_asc">ა-დან ჰ-მდე</string>
     <string name="album_sort_type_name_desc">ჰ-დან ა-მდე</string>
+    <string name="album_sort_type_update_time">დალაგება ცვლილების თარიღის მიხედვით</string>
+    <string name="album_switch_sort_mode_tips">ხელმისაწვდომია დახარისხების მრავალი ვარიანტი</string>
     <string name="album_tab_page_switch_view_style_to_grid">ცხრილის ნახვა</string>
     <string name="album_tab_page_switch_view_style_to_linear">იხილეთ სია</string>
     <string name="album_tab_tool_tips">%s MB</string>
@@ -446,6 +451,7 @@
     <string name="backup_pause_title">სინქრონიზაცია დაპაუზდა</string>
     <string name="backup_pending">ავტომატურად დარეზერვდება</string>
     <string name="backup_settings">სინქრონიზებულია cloud-თან</string>
+    <string name="backup_settings_banner_msg_error">Cloud სინქრონიზაციის ინფორმაციის ჩვენება შეუძლებელია</string>
     <string name="backup_settings_banner_msg_off">შექმენით თქვენი ფოტოებისა და ვიდეოების სარეზერვო ასლები Google Photos-ით, რათა დაცული იყოს თქვენი ყველა მეხსიერება</string>
     <string name="backup_settings_banner_msg_on">იხილეთ სარეზერვო სტატუსი Google Photos-ში</string>
     <string name="backup_settings_banner_title_not_allow">Google Photos-ის სარეზერვო ასლები</string>
@@ -541,6 +547,8 @@
     <string name="card_title_three_month_baby">დროის ფაილები</string>
     <string name="cast_devices_unavailable_desc">დარწმუნდით, რომ ორივე მოწყობილობა და პროექტორი დაკავშირებულია იგივე Wi-Fi ქსელთან</string>
     <string name="cast_devices_unavailable_title">პროექტორი ვერ მოიძებნა</string>
+    <string name="cast_off_talkback">მაუწყებლობა გამორთულია</string>
+    <string name="cast_on_talkback">მაუწყებლობა ჩართულია</string>
     <string name="cd_btn_back">უკანა ღილაკი</string>
     <string name="change_baby_album_choose_from_photos">გალერეა</string>
     <string name="change_baby_album_dialog_title">შეცვალეთ პროფილის ფოტო</string>
@@ -678,8 +686,8 @@
     <string name="com.tencent.mm_com.tencent.mm.ui.tools.ShareToTimeLineUI">WeChat მომენტები</string>
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="confirm">OK</string>
-    <string name="confirm_cancel_task_files">გსურთ ფაილების გაგზავნის გაუქმება %1$s?</string>
-    <string name="confirm_cancel_task_images">გსურთ სურათების გაგზავნის გაუქმება %1$s?</string>
+    <string name="confirm_cancel_task_files">გსურთ ფაილების გაგზავნის გაუქმება?</string>
+    <string name="confirm_cancel_task_images">გსურთ ფოტოების გაგზავნის გაუქმება?</string>
     <string name="confirm_delete_selected_albums">წავშალო მონიშნული ალბომები?</string>
     <string name="confirm_download_video_message">ვიდეოს ყურებამდე უნდა დაასრულოთ მისი გადმოწერა. გადმოწერა გაგრძელდება Wi-Fi-ის ხელმისაწვდომობისას.</string>
     <string name="confirm_download_video_title">ვიდეოს გადმოწერა</string>
@@ -689,13 +697,14 @@
     <string name="confirm_hidden_recommend_group_title">არ აჩვენო რეკომენდაციები</string>
     <string name="confirm_hide_selected_albums">დავმალო მონიშნული ალბომები?</string>
     <string name="confirm_merge_album_title">ერთეულების შერწყმა</string>
-    <string name="confirm_merge_face_albums">" "<Data> Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Merge these albums with %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> ალბომის გაერთიანება %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> ალბომების გაერთიანება %s? </Data>" "</string>
+    <string name="confirm_no_name_people_merge_tip">როგორც კი ამ ორი ადამიანის ფოტოებს გააერთიანებთ, ისინი ერთსა და იმავე ადამიანად ამოიცნობა</string>
     <string name="confirm_not_face">არ ემთხვევა</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? This person will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Sure this isn't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sure these are &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? These people will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Sure these aren't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> დარწმუნებული ხართ &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? ეს ადამიანი გადავა \"%2$s\" ალბომში.; </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> დარწმუნებული ხართ რომ არ არის &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>?; </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> დარწმუნებული ხართ &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? ეს ხალხი გადავა \"%2$s\" ალბომში.; </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> დარწმუნებული ხართ რომ არ არიან &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>?; </Data>" "</string>
     <string name="contact_tip">კონტაქტი</string>
     <string name="context_menu_add_contact">კონტაქტებში დამატება</string>
     <string name="context_menu_copy">კოპირება</string>
@@ -877,6 +886,7 @@
     <string name="empty_description_conditions">მნიშვნელოვანი მოვლენების დამახსოვრება</string>
     <string name="empty_description_conditions_new">დააკავშირეთ დამტენი და გამორთეთ ეკრანი, რათა აქ ერთეულები უფრო მალე გამოჩნდეს</string>
     <string name="empty_description_no_cards">განაგრძეთ ფოტოების გადაღება. ერთეულები აქ გამოჩნდება, როგორც კი მოხდება მათი გენერირება.</string>
+    <string name="empty_description_no_common">მიმაგრებული ალბომები აქ გამოჩნდება</string>
     <string name="empty_description_no_pinned">გამოაჩინეთ მიმაგრებული ერთეულები</string>
     <string name="empty_query_text_msg">არ ვიცი რა ვეძებო…</string>
     <string name="empty_recommend_back">უკან</string>
@@ -884,6 +894,7 @@
     <string name="empty_relation">ჯგუფის სახელი ცარიელი ვერ იქნება</string>
     <string name="empty_tip_btn">გადაიღეთ ფოტო</string>
     <string name="empty_title_no_cards">მოგონებები</string>
+    <string name="empty_title_no_common">ერთეულები არ არის</string>
     <string name="empty_title_no_photos">ფოტო/ვიდეო არ არის</string>
     <string name="empty_title_no_pinned">მიმაგრებული ერთეულები არ არის</string>
     <string name="enable_auto_upload_tip">გსურთ ამ ალბომის Cloud-თან სინქრონიზაციის ჩართვა?</string>
@@ -1017,9 +1028,14 @@
     <string name="fast_share_auto_render">გამშვენიერება</string>
     <string name="fast_share_auto_render_finish">Beautify-ი</string>
     <string name="father_day">დედის დღე</string>
+    <string name="feature_album_empty_subtitle">შექმენით ალბომები თქვენი ნივთების ორგანიზებისთვის</string>
+    <string name="feature_album_empty_title">ალბომები არ არის</string>
+    <string name="feature_create_album">ალბომის შექმნა</string>
     <string name="feature_guidance_photo_effects">"ახალი ფოტო ეფექტები
 ხელმისაწვდომია"</string>
     <string name="feature_guidance_video_editor_smart_effects">ახალი ეფექტები ხელმისაწვდომია</string>
+    <string name="feature_sticky_empty_subtitle">პირველ რიგში, გადაიღეთ ან გადაიტანეთ ფოტოები და ვიდეოები</string>
+    <string name="feature_sticky_empty_title">ფოტოები და ვიდეოები არ არის</string>
     <string name="featured_added_to_top_album">დაემატა წარმატებით</string>
     <string name="featured_change_album_cover">ალბომის ქავერის შეცვლა</string>
     <string name="featured_customize">დაყენება</string>
@@ -1034,6 +1050,7 @@
     <string name="featured_people_pets_empty_des">ჩართეთ Cloud-თან სინქრონიზაცია და გადაიღეთ მეტი ფოტო, რათა ნახოთ აქ გამორჩეული ადამიანები, შინაური ცხოველები და ჯგუფები</string>
     <string name="featured_people_pets_empty_title">აქ ჯერ არ არის ხალხი და შინაური ცხოველები</string>
     <string name="featured_pin_to_collection">დაამატეთ გამორჩეულ კოლექციებს</string>
+    <string name="featured_remove_common_album">მიმაგრების მოხსნა</string>
     <string name="featured_remove_top_album">მიმაგრება წარმატებით გაუქმდა</string>
     <string name="featured_time_empty_des">მოგონებები დაორგანიზდება, როდესაც მოწყობილობა იტენება და ეკრანი გამორთულია</string>
     <string name="featured_time_empty_title">აქ ჯერ არანაირი მოგონება არაა</string>
@@ -1113,8 +1130,11 @@
     <string name="friday_short">პარ</string>
     <string name="friday_shortest">პარ</string>
     <string name="functions_are_being_developed">ეს ფუნქცია მალე იქნება ხელმისაწვდომი. დარჩით ჩვენთან!</string>
+    <string name="gallery_common">მიმაგრებულია</string>
+    <string name="gallery_common_toast_tips">მეტი ერთეულის მიმაგრება ვერ ხერხდება</string>
     <string name="gallery_pinned">მიმაგრებულია</string>
     <string name="gallery_pinned_toast_tips">მეტი ერთეულის მიმაგრება ვერ ხერხდება</string>
+    <string name="gallery_remove_common">მიმაგრების მოხსნა</string>
     <string name="gallery_remove_pinned">მიმაგრების მოხსნა</string>
     <string name="gallery_setting">პარამეტრები</string>
     <string name="gallery_sync_disable_toast">გალერეის სინქრონიზაცია გათიშულია</string>
@@ -1222,18 +1242,21 @@
     <string name="home_menu_video_post">ვიდეო ეფექტები</string>
     <string name="home_page_all_photos">ყველა</string>
     <string name="home_page_camera">კამერა</string>
+    <string name="home_page_checkbox">ველი</string>
     <string name="home_page_custom">მომხმარებელი</string>
     <string name="home_page_custom_drag_description_album">ორმაგად შეეხეთ და ხანგრძლივად დააჭირეთ, შემდეგ გადაიტანეთ „ალბომების“ გადასაწყობად.</string>
     <string name="home_page_custom_drag_description_creation">ორმაგად შეეხეთ და ხანგრძლივად დააჭირეთ, შემდეგ გადაიტანეთ „კრეატიულობის“ გადასაწყობად.</string>
     <string name="home_page_custom_drag_description_journey">ორმაგად შეეხეთ და ხანგრძლივად დააჭირეთ, შემდეგ გადაიტანეთ „მოგზაურობების“ გადასაწყობად.</string>
     <string name="home_page_custom_drag_description_more">ორმაგად შეეხეთ და ხანგრძლივად დააჭირეთ, შემდეგ გადაიტანეთ „მეტში“ მათ გადასაწყობად.</string>
     <string name="home_page_custom_drag_description_people">ორმაგად შეეხეთ და ხანგრძლივად დააჭირეთ, შემდეგ გადაიტანეთ „ადამიანების“ გადასაწყობად.</string>
+    <string name="home_page_custom_drag_description_sticky">ორჯერ შეეხეთ და გააჩერეთ, შემდეგ გადაიტანეთ „მიმაგრებულში“ გადასაწყობად.</string>
     <string name="home_page_custom_drag_description_time">ორმაგად შეეხეთ და ხანგრძლივად დააჭირეთ, შემდეგ გადაიტანეთ „მოგონებების“ გადასაწყობად.</string>
     <string name="home_page_custom_drag_item_talkback_album">მონიშნულია: ალბომები. დააჭირეთ, გამართეთ და გადაიტანეთ ზემოთ ან ქვემოთ, რომ გადააკეთოთ.</string>
     <string name="home_page_custom_drag_item_talkback_creation">მონიშნულია: კრეატიულობა. დააჭირეთ, გამართეთ და გადაიტანეთ ზემოთ ან ქვემოთ, რომ გადააკეთოთ.</string>
     <string name="home_page_custom_drag_item_talkback_journey">მონიშნულია: ჟურნალები. დააჭირეთ, გამართეთ და გადაიტანეთ ზემოთ ან ქვემოთ, რომ გადააკეთოთ.</string>
     <string name="home_page_custom_drag_item_talkback_more">მონიშნულია: მეტი. დააჭირეთ, გამართეთ და გადაიტანეთ ზემოთ ან ქვემოთ, რომ გადააკეთოთ.</string>
     <string name="home_page_custom_drag_item_talkback_people">მონიშნულია: ხალხი. დააჭირეთ, გამართეთ და გადაიტანეთ ზემოთ ან ქვემოთ, რომ გადააკეთოთ.</string>
+    <string name="home_page_custom_drag_item_talkback_sticky">მონიშნულია: მიმაგრებულია. დააჭირეთ, გააჩერეთ და გადაიტანეთ ზემოთ ან ქვემოთ, რომ გადააკეთოთ.</string>
     <string name="home_page_custom_drag_item_talkback_time">მონიშნულია: მოგონებები. დააჭირეთ, გამართეთ და გადაიტანეთ ზემოთ ან ქვემოთ, რომ გადააკეთოთ.</string>
     <string name="home_page_custom_save">ცვლილებების შენახვა</string>
     <string name="home_page_custom_second">გადააწყეთ ერთეულები ან დამალეთ შინაარსი</string>
@@ -1250,6 +1273,8 @@
     <string name="homepage_allphotos_tip_dialog_description_only_camera">გადაღებულია კამერის მიერ</string>
     <string name="homepage_allphotos_tip_dialog_subtitle">ამის გაკეთება მოგვიანებით შეგიძლიათ პარამეტრებიდან</string>
     <string name="homepage_allphotos_tip_dialog_title">რომელი სურათების ნახვა გსურთ \"ფოტოებში\"?</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Honor-ის ტელეფონი</string>
     <string name="how_to_set_relation">ჯგუფის შესაქმნელად შეეხეთ და გეჭიროთ ალბომი</string>
     <string name="hr_preview_108m">გადართეთ 108MP-ზე</string>
     <string name="hr_preview_200m">გადართეთ 200MP-ზე</string>
@@ -1739,6 +1764,7 @@
     <string name="operation_export_video">ვიდეოს გადატანა</string>
     <string name="operation_failed">ოპერაციას ვერ ვასრულებ</string>
     <string name="operation_favorites">რჩეულები</string>
+    <string name="operation_force_common">მიმაგრება</string>
     <string name="operation_force_top">მიმაგრება</string>
     <string name="operation_google_lens">Google Lens</string>
     <string name="operation_hide">დამალვა</string>
@@ -1796,6 +1822,8 @@
     <string name="other_album_operation_move_to_rubbish_albums">გადაიტანეთ ზედმეტი ალბომებისთვის</string>
     <string name="other_album_operation_remove_from_other_albums">წაშალეთ \"სხვა ალბომებიდან\"</string>
     <string name="other_settings">დამატებითი პარამეტრები</string>
+    <string name="other_three_group_name">%1$s, %2$s, და %3$s</string>
+    <string name="other_two_group_name">%1$s, %2$s, და %3$s სხვა ადამიანი</string>
     <string name="owner_album_subtitle">გაზიარებულია %1$s ადამიანთან</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="pasport_register_dialog_message">გსურთ შექმნათ Xiaomi-ს ანგარიში თქვენი ტელეფონის ნომრით %s ახლავე?</string>
@@ -2014,6 +2042,7 @@
     <string name="photo_page_rotate_screen">ეკრანის ამობრუნება</string>
     <string name="photo_page_save_uri_image_fail">გალერეაში შენახვა ვერ მოხერხდა</string>
     <string name="photo_page_save_uri_image_ok">ფოტო შენახულია გალერეაში</string>
+    <string name="photo_page_save_uri_image_success">ეს სურათი შენახულია გალერეაში.</string>
     <string name="photo_print_menu_loading">პლაგინი იტვირთება…</string>
     <string name="photo_print_package_finish">Print plug-in–ი ჩაიტვირთა წარმატებით</string>
     <string name="photo_print_package_installing">Print plug-in–ი იტვირთება…</string>
@@ -2089,11 +2118,16 @@
     <string name="picker_title_specify_format_one">მონიშნეთ %d ფოტო</string>
     <string name="picker_title_unlimit">მონიშნეთ ფოტოები</string>
     <string name="picture_not_support_privacy_watermark">წყლის ნიშანების დამატება შეუძლებელია. ეს სურათი ძალიან პატარაა.</string>
+    <string name="pinned_introduction_content">„მიმაგრებული“ სტანდარტულად მოიცავს ყველა ფოტოს, კამერის კადრებს და Screenshot-ებს. ასევე შეგიძლიათ დაამატოთ სხვა ალბომები სწრაფი წვდომისთვის.</string>
+    <string name="pinned_introduction_negative_button">გასაგებია</string>
+    <string name="pinned_introduction_positive_button">იხილეთ</string>
+    <string name="pinned_introduction_title">თქვენს კოლექციებში ჩამაგრებული ერთეულები</string>
     <string name="places_album_empty_title">ფოტოების დალაგება შეგიძლიათ ლოკაციის მიხედვით</string>
     <string name="play_gif_desc">GIF-ის გაშვება</string>
     <string name="play_video_desc">ჩართეთ ვიდეო</string>
     <string name="pm">PM</string>
     <string name="pref_today_of_year_summary">გაიხსენეთ მომენტები, რომლებიც ამ დღეს გადაიღეთ წლების განმავლობაში. უკვე გენერირებული მოგონებები არ გაქრება, თუ ამ ფუნქციას გამორთავთ.</string>
+    <string name="prepare_contains_dolby_convert">ფაილის მომზადება (Dolby Vision-ის კონვერტაციის ჩათვლით)…</string>
     <string name="prepare_to_drop">შენახულია %s</string>
     <string name="preparing_data">ერთი წამით…</string>
     <string name="privacy">კონფიდენციალურობის პოლიტიკა</string>
@@ -3242,6 +3276,7 @@
     <string name="talkback_story_album_playicon">ჩართეთ ეს მოგონება</string>
     <string name="talkback_video_with_time">ვიდეო, %s</string>
     <string name="talkback_video_with_time_and_location">ვიდეო, %1$s,%2$s</string>
+    <string name="tap_share_tips_title">ერთეულების გასაზიარებლად ორი მოწყობილობის უკანა მხარე შეახეთ ერთმანეთს</string>
     <string name="terabyteShort">ტბ</string>
     <string name="text_recognition">ტექსტის ამოცნობა</string>
     <string name="text_segment">ფოტოს ამოჭრა</string>

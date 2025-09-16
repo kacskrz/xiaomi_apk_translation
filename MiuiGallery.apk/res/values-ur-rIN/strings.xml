@@ -218,6 +218,7 @@
     <string name="album_ai_page_title">اسمارٹ البم</string>
     <string name="album_already_exists_check">دیکھیں</string>
     <string name="album_already_exists_msg">البم \"%s\" پہلے سے موجود ہے</string>
+    <string name="album_already_forced_common">پن کیا گیا</string>
     <string name="album_already_forced_top">ہمیشہ سب سے اوپر</string>
     <string name="album_bluetooth">بلوٹوتھ</string>
     <string name="album_camera_name">کیمرا</string>
@@ -288,11 +289,15 @@
     <string name="album_show_local_only">صرف لوکل البمز دکھائیں</string>
     <string name="album_show_local_only_summary">اس فیچر کے آن ہونے پر صرف مقامی البم حذف کرنے کا اختیار دستیاب ہو گا</string>
     <string name="album_sort_type">چھانٹنے کی ترتیب</string>
+    <string name="album_sort_type_by_name">نام کے مطابق ترتیب دیں</string>
+    <string name="album_sort_type_create_time">بنائی گئی تاریخ کے مطابق ترتیب دیں</string>
     <string name="album_sort_type_create_time_asc">پرانے سے نیا</string>
     <string name="album_sort_type_create_time_desc">نئے سے پرانا</string>
     <string name="album_sort_type_custom">کسٹم</string>
     <string name="album_sort_type_name_asc">A سے Z تک</string>
     <string name="album_sort_type_name_desc">Z سے A تک</string>
+    <string name="album_sort_type_update_time">ترمیم کی گئی تاریخ کے مطابق ترتیب دیں</string>
+    <string name="album_switch_sort_mode_tips">ترتیب دینے کے متعدد اختیارات دستیاب ہیں</string>
     <string name="album_tab_page_switch_view_style_to_grid">گرڈ ویو</string>
     <string name="album_tab_page_switch_view_style_to_linear">فہرست ویو</string>
     <string name="album_tab_tool_tips">%s MB</string>
@@ -446,6 +451,7 @@
     <string name="backup_pause_title">مطابقت پذیری موقوف ہے</string>
     <string name="backup_pending">خودکار طور سے بیک اپ لیا جاۓ گا</string>
     <string name="backup_settings">کلاؤڈ کے ساتھ مطابقت پذیر کریں</string>
+    <string name="backup_settings_banner_msg_error">کلاؤڈ مطابقت پذیری کی معلومات نہیں دکھا سکتا</string>
     <string name="backup_settings_banner_msg_off">اپنی تمام یادیں محفوظ رکھنے کے لیے Google Photos کے ساتھ اپنے فوٹوز اور ویڈیوز کا بیک اپ لیں</string>
     <string name="backup_settings_banner_msg_on">Google Photos میں بیک اپ کی حیثیت دیکھیں</string>
     <string name="backup_settings_banner_title_not_allow">Google Photos بیک اپ</string>
@@ -541,6 +547,8 @@
     <string name="card_title_three_month_baby">وقت گزر جاتا ہے</string>
     <string name="cast_devices_unavailable_desc">یقینی بنائیں کہ یہ ڈیوائس اور پروجیکٹر دونوں ایک ہی وائی-فائی نیٹ ورک سے مربوط ہیں</string>
     <string name="cast_devices_unavailable_title">پروجیکٹر نہیں مل سکا</string>
+    <string name="cast_off_talkback">کاسٹنگ آف ہے</string>
+    <string name="cast_on_talkback">کاسٹنگ آن ہے</string>
     <string name="cd_btn_back">واپس بٹن</string>
     <string name="change_baby_album_choose_from_photos">گیلری</string>
     <string name="change_baby_album_dialog_title">پروفائل فوٹو تبدیل کریں</string>
@@ -678,8 +686,8 @@
     <string name="com.tencent.mm_com.tencent.mm.ui.tools.ShareToTimeLineUI">WeChat لمحات</string>
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="confirm">ٹھیک</string>
-    <string name="confirm_cancel_task_files">%1$s کو فائلیں بھیجنا منسوخ کریں؟</string>
-    <string name="confirm_cancel_task_images">%1$s کو تصاویر بھیجنا منسوخ کریں؟</string>
+    <string name="confirm_cancel_task_files">فائلیں بھیجنا منسوخ کریں؟</string>
+    <string name="confirm_cancel_task_images">فوٹوز بھیجنا منسوخ کریں؟</string>
     <string name="confirm_delete_selected_albums">منتخب کردہ البم حذف کریں؟</string>
     <string name="confirm_download_video_message">دیکھنے سے پہلے اس ویڈیو کو ڈاؤن لوڈ کرنا مکمل کریں۔ وائی-فائی دستیاب ہونے پر ڈاؤن لوڈ پھر سے شروع ہوگا۔</string>
     <string name="confirm_download_video_title">ویڈیو ڈاؤن لوڈ کریں</string>
@@ -689,13 +697,14 @@
     <string name="confirm_hidden_recommend_group_title">سفارشات نہ دکھائیں</string>
     <string name="confirm_hide_selected_albums">منتخب کردہ البم چھپائیں؟</string>
     <string name="confirm_merge_album_title">آئٹم کو ضم کریں</string>
-    <string name="confirm_merge_face_albums">" "<Data> Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Merge these albums with %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> اس البم کو %s کے ساتھ ضم کریں؟ </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> ان البمز کو %s کے ساتھ ضم کریں؟ </Data>" "</string>
+    <string name="confirm_no_name_people_merge_tip">ایک بار جب آپ ان دو لوگوں کی تصاویر کو ضم کر لیں گے، تو وہ ایک ہی شخص کے طور پر پہچانے جائیں گے۔</string>
     <string name="confirm_not_face">کوئی مماثلت نہیں</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? This person will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Sure this isn't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sure these are &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? These people will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Sure these aren't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> آپ کو یقین ہے کہ یہ &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> ہے؟ اس شخص کو \"%2$s\" البم میں منتقل کر دیا جائے گا۔ </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> یقین ہے کہ یہ &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>نہیں ہے؟ </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> آپ کو یقین ہے کہ یہ &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> ہیں؟ ان لوگوں کو \"%2$s\" البم میں منتقل کر دیا جائے گا۔ </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> یقین ہے کہ یہ &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> نہیں ہیں؟ </Data>" "</string>
     <string name="contact_tip">راطہ</string>
     <string name="context_menu_add_contact">روابط میں شامل کریں</string>
     <string name="context_menu_copy">کاپی کریں</string>
@@ -877,6 +886,7 @@
     <string name="empty_description_conditions">ضرورت کی باتیں یاد رکھیں</string>
     <string name="empty_description_conditions_new">آئٹم کو یہاں جلد ظاہر کرنے کے لیے چارجر منسلک کریں اور اسکرین آف کریں</string>
     <string name="empty_description_no_cards">فوٹوز لیتے رہیں۔ جنریٹ کیے جاتے ہی آئٹم یہاں نظر آئیں گے۔</string>
+    <string name="empty_description_no_common">پن کیے گئے البم یہاں ظاہر ہوں گے</string>
     <string name="empty_description_no_pinned">یہاں دکھانے کے لیے آئٹمز کو پن کریں</string>
     <string name="empty_query_text_msg">معلوم نہیں کیا تلاش کریں…</string>
     <string name="empty_recommend_back">واپس جائیں</string>
@@ -884,6 +894,7 @@
     <string name="empty_relation">گروپ نام خالی نہیں ہو سکتا ہے</string>
     <string name="empty_tip_btn">ایک فوٹو لیں</string>
     <string name="empty_title_no_cards">یادداشتیں</string>
+    <string name="empty_title_no_common">کوئی آئٹم نہیں</string>
     <string name="empty_title_no_photos">کوئی تصاویر یا ویڈیو نہیں ہیں</string>
     <string name="empty_title_no_pinned">کوئی پن کردہ آئٹم نہیں</string>
     <string name="enable_auto_upload_tip">اس البم کے لیے کلاؤڈ کے ساتھ مطابقت پذیری آن کریں؟</string>
@@ -1017,9 +1028,14 @@
     <string name="fast_share_auto_render">حسن افروزی</string>
     <string name="fast_share_auto_render_finish">حسن افرا</string>
     <string name="father_day">یوم مادر</string>
+    <string name="feature_album_empty_subtitle">اپنے آئٹم منظم کرنے کے لیے البم بنائیں</string>
+    <string name="feature_album_empty_title">کوئی البم نہیں</string>
+    <string name="feature_create_album">البم بنائیں</string>
     <string name="feature_guidance_photo_effects">"نئے فوٹو اثرات
  دستیاب ہیں"</string>
     <string name="feature_guidance_video_editor_smart_effects">نئے اثرات دستیاب ہیں</string>
+    <string name="feature_sticky_empty_subtitle">پہلے فوٹو اور ویڈیو لیں یا امپورٹ کریں</string>
+    <string name="feature_sticky_empty_title">کوئی فوٹو یا ویڈیو نہیں</string>
     <string name="featured_added_to_top_album">کامیابی کے ساتھ شامل کیا گیا</string>
     <string name="featured_change_album_cover">البم کور تبدیل کریں</string>
     <string name="featured_customize">کسٹمائز کریں</string>
@@ -1034,6 +1050,7 @@
     <string name="featured_people_pets_empty_des">یہاں نمایاں لوگوں، پالتو جانوروں اور گروپ کو دیکھنے کے لیے کلاؤڈ کے ساتھ مطابقت پذیری آن کریں اور مزید فوٹوز لیں</string>
     <string name="featured_people_pets_empty_title">یہاں اب تک کوئی لوگ یا پالتو جانور نہیں ہیں</string>
     <string name="featured_pin_to_collection">خاص مجموعوں میں شامل کریں</string>
+    <string name="featured_remove_common_album">پن ہٹایا گیا</string>
     <string name="featured_remove_top_album">کامیابی کے ساتھ ان پن کیا گیا</string>
     <string name="featured_time_empty_des">جب ڈیوائس چارج ہو رہا ہو اور اسکرین آف ہو تو یادوں کا نظم کیا جائے گا</string>
     <string name="featured_time_empty_title">یہاں اب تک کوئی یادیں نہیں ہیں</string>
@@ -1113,8 +1130,11 @@
     <string name="friday_short">جمعہ</string>
     <string name="friday_shortest">جمعہ</string>
     <string name="functions_are_being_developed">یہ فیچر جلد دستیاب ہوگا۔ بنیں رہیں!</string>
+    <string name="gallery_common">پن کیا گیا</string>
+    <string name="gallery_common_toast_tips">مزید آئٹم پن نہیں کیے جا سکتے</string>
     <string name="gallery_pinned">پن کیا گیا</string>
     <string name="gallery_pinned_toast_tips">مزید آئٹم پن نہیں کیے جا سکتے</string>
+    <string name="gallery_remove_common">پن ہٹائیں</string>
     <string name="gallery_remove_pinned">پن ہٹائیں</string>
     <string name="gallery_setting">ترتیبات</string>
     <string name="gallery_sync_disable_toast">گیلری کے لیے سینک آف ہے</string>
@@ -1222,18 +1242,21 @@
     <string name="home_menu_video_post">ویڈیو اثرات</string>
     <string name="home_page_all_photos">تمام</string>
     <string name="home_page_camera">کیمرا</string>
+    <string name="home_page_checkbox">چیک باکس</string>
     <string name="home_page_custom">کسٹم</string>
     <string name="home_page_custom_drag_description_album">دو بار ٹیپ کریں اور ہولڈ کریں، پھر ”البم“ کو دوبارہ ترتیب دینے کے لیے ڈریگ کریں۔</string>
     <string name="home_page_custom_drag_description_creation">دو بار ٹیپ کریں اور ہولڈ کریں، پھر ”تخلیقیت“ کو دوبارہ ترتیب دینے کے لیے ڈریگ کریں۔</string>
     <string name="home_page_custom_drag_description_journey">دو بار ٹیپ کریں اور ہولڈ کریں، پھر ”سفر“ کو دوبارہ ترتیب دینے کے لیے ڈریگ کریں۔</string>
     <string name="home_page_custom_drag_description_more">دو بار ٹیپ کریں اور ہولڈ کریں، پھر ”مزید“ کو دوبارہ ترتیب دینے کے لیے ڈریگ کریں۔</string>
     <string name="home_page_custom_drag_description_people">دو بار ٹیپ کریں اور ہولڈ کریں، پھر ”لوگ“ کو دوبارہ ترتیب دینے کے لیے ڈریگ کریں۔</string>
+    <string name="home_page_custom_drag_description_sticky">دو بار ٹیپ کریں اور ہولڈ کریں، پھر ”پن کردہ“ کو دوبارہ ترتیب دینے کے لیے ڈریگ کریں۔</string>
     <string name="home_page_custom_drag_description_time">دو بار ٹیپ کریں اور ہولڈ کریں، پھر ”یادیں“ کو دوبارہ ترتیب دینے کے لیے ڈریگ کریں۔</string>
     <string name="home_page_custom_drag_item_talkback_album">منتخب: البمز۔ دبائیں، تھامے رکھیں اور دوبارہ ترتیب دینے کے لئے اوپر یا نیچے کھینچ لائیں۔</string>
     <string name="home_page_custom_drag_item_talkback_creation">منتخب: تخلیقیت۔ دبائیں، تھامے رکھیں اور دوبارہ ترتیب دینے کے لئے اوپر یا نیچے کھینچ لائیں۔</string>
     <string name="home_page_custom_drag_item_talkback_journey">منتخب: اسفار۔ دبائیں، تھامے رکھیں اور دوبارہ ترتیب دینے کے لئے اوپر یا نیچے کھینچ لائیں۔</string>
     <string name="home_page_custom_drag_item_talkback_more">منتخب: مزید۔ دبائیں، تھامے رکھیں اور دوبارہ ترتیب دینے کے لئے اوپر یا نیچے کھینچ لائیں۔</string>
     <string name="home_page_custom_drag_item_talkback_people">منتخب: لوگ۔ دبائیں، تھامے رکھیں اور دوبارہ ترتیب دینے کے لئے اوپر یا نیچے کھینچ لائیں۔</string>
+    <string name="home_page_custom_drag_item_talkback_sticky">منتخب: پن کردہ۔ دبائیں، ہولڈ کریں اور دوبارہ ترتیب دینے کے لیے اوپر یا نیچے ڈریگ کریں۔</string>
     <string name="home_page_custom_drag_item_talkback_time">منتخب: یادیں۔ دبائیں، تھامے رکھیں اور دوبارہ ترتیب دینے کے لئے اوپر یا نیچے کھینچ لائیں۔</string>
     <string name="home_page_custom_save">تبدیلیاں محفوظ کریں</string>
     <string name="home_page_custom_second">آئٹم کو دوبارہ ترتیب دیں یا مواد چھپائیں</string>
@@ -1250,6 +1273,8 @@
     <string name="homepage_allphotos_tip_dialog_description_only_camera">کیمرا سے لی گئی</string>
     <string name="homepage_allphotos_tip_dialog_subtitle">آپ اسے بعد میں ترتیبات میں بھی کر سکتے ہیں</string>
     <string name="homepage_allphotos_tip_dialog_title">آپ \"فوٹوز\" میں کن تصاویر کو دیکھنا چاہتے ہیں؟</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Honor فون</string>
     <string name="how_to_set_relation">گروپ بنانے کے لیے البم کو دبا کر رکھیں</string>
     <string name="hr_preview_108m">108MP پری ویو میں سوئچ کیا گیا</string>
     <string name="hr_preview_200m">200MP پری ویو میں سوئچ کیا گیا</string>
@@ -1739,6 +1764,7 @@
     <string name="operation_export_video">ویڈیو کے طور پر ایکسپورٹ کریں</string>
     <string name="operation_failed">کارروئی مکمل نہیں کرسکتا</string>
     <string name="operation_favorites">پسندیدہ</string>
+    <string name="operation_force_common">پن</string>
     <string name="operation_force_top">پن کریں</string>
     <string name="operation_google_lens">Google لینز</string>
     <string name="operation_hide">چھپائیں</string>
@@ -1796,6 +1822,8 @@
     <string name="other_album_operation_move_to_rubbish_albums">بے معنی البم میں منتقل کریں</string>
     <string name="other_album_operation_remove_from_other_albums">\"دوسرے البمز\" سے ہٹائیں</string>
     <string name="other_settings">اضافی ترتیبات</string>
+    <string name="other_three_group_name">%1$s، %2$s، اور %3$s</string>
+    <string name="other_two_group_name">%1$s، %2$s، اور %3$s دیگر شخص</string>
     <string name="owner_album_subtitle">%1$s لوگوں کے ساتھ اشتراک کیا گیا</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="pasport_register_dialog_message">ابھی اپنے فون نمبر %s کے ذریعے Xiaomi اکاؤنٹ بنائیں؟</string>
@@ -2014,6 +2042,7 @@
     <string name="photo_page_rotate_screen">اسکرین گھمائیں</string>
     <string name="photo_page_save_uri_image_fail">گیلری میں محفوظ نہیں کرسکتا</string>
     <string name="photo_page_save_uri_image_ok">فوٹو گیلری میں محفوظ ہوگيا</string>
+    <string name="photo_page_save_uri_image_success">یہ تصویر گیلری میں محفوظ کر دی گئی ہے۔</string>
     <string name="photo_print_menu_loading">پلگ-ان لوڈ کر رہا ہے…</string>
     <string name="photo_print_package_finish">پرنٹ پلگ-ان کامیابی کے ساتھ لوڈ ہوا</string>
     <string name="photo_print_package_installing">پرنٹ پلگ-ان لوڈ کر رہا ہے…</string>
@@ -2089,11 +2118,16 @@
     <string name="picker_title_specify_format_one">%d تصویر منتخب کریں</string>
     <string name="picker_title_unlimit">فوٹو منتخب کریں</string>
     <string name="picture_not_support_privacy_watermark">واٹر مارک شامل نہیں کر سکتے۔ یہ تصویر بہت چھوٹی ہے۔</string>
+    <string name="pinned_introduction_content">”پِن کردہ“ میں ڈیفالٹ طور پر تمام فوٹوز، کیمرہ شاٹ اور اسکرین شاٹ شامل ہوتے ہیں۔ فوری رسائی کے لیے آپ دیگر البم بھی شامل کر سکتے ہیں۔</string>
+    <string name="pinned_introduction_negative_button">سمجھ گئے</string>
+    <string name="pinned_introduction_positive_button">دیکھیں</string>
+    <string name="pinned_introduction_title">آپ کے مجموعے میں پِن کیے گئے آئٹم</string>
     <string name="places_album_empty_title">تصاویر مقام کے لحاظ سے چھانٹی جا سکتی ہیں</string>
     <string name="play_gif_desc">GIF چلائیں</string>
     <string name="play_video_desc">ویڈیو چلائیں</string>
     <string name="pm">PM</string>
     <string name="pref_today_of_year_summary">پورے سال ان لمحات کی یادیں حاصل کریں جو آپ نے اس دن کیپچر کیے تھے۔ اگر آپ اس خصوصیت کو آف کر دیتے ہیں تو پہلے سے تیار کردہ یادیں غائب نہیں ہوں گی۔</string>
+    <string name="prepare_contains_dolby_convert">فائل تیار کی جا رہی ہے (بشمول Dolby Vision کنورژن)…</string>
     <string name="prepare_to_drop">%s میں محفوظ کر رہا ہے</string>
     <string name="preparing_data">بس ایک سیکنڈ…</string>
     <string name="privacy">رازداری پالیسی</string>
@@ -3242,6 +3276,7 @@
     <string name="talkback_story_album_playicon">یہ یادداشت چلائیں</string>
     <string name="talkback_video_with_time">ویڈیو, %s</string>
     <string name="talkback_video_with_time_and_location">ویڈیو, %1$s, %2$s</string>
+    <string name="tap_share_tips_title">آئٹم کا اشتراک کرنے کے لیے دونوں ڈیوائسوں کے پچھلے حصے کو ٹچ کریں</string>
     <string name="terabyteShort">TB</string>
     <string name="text_recognition">متن کی شناخت کریں</string>
     <string name="text_segment">فوٹو کٹ آؤٹ</string>

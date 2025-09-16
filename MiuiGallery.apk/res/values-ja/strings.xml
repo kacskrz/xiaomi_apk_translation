@@ -245,6 +245,7 @@
     <string name="album_ai_page_title">スマートアルバム</string>
     <string name="album_already_exists_check">表示</string>
     <string name="album_already_exists_msg">アルバム \"%s\" は既に存在します</string>
+    <string name="album_already_forced_common">ピン留め済み</string>
     <string name="album_already_forced_top">トップにピン留め済み</string>
     <string name="album_bluetooth">Bluetooth</string>
     <string name="album_camera_name">カメラ</string>
@@ -315,11 +316,15 @@
     <string name="album_show_local_only">ローカルアルバムのみを表示</string>
     <string name="album_show_local_only_summary">この機能をオンにすると、ローカルアルバムのみを削除するオプションが利用可能になります</string>
     <string name="album_sort_type">並べ替えの順序</string>
+    <string name="album_sort_type_by_name">名前で並べ替え</string>
+    <string name="album_sort_type_create_time">作成日で並べ替え</string>
     <string name="album_sort_type_create_time_asc">古い順</string>
     <string name="album_sort_type_create_time_desc">新しい順</string>
     <string name="album_sort_type_custom">カスタム</string>
     <string name="album_sort_type_name_asc">AからZ</string>
     <string name="album_sort_type_name_desc">ZからA</string>
+    <string name="album_sort_type_update_time">更新日で並べ替え</string>
+    <string name="album_switch_sort_mode_tips">複数の並べ替え方法が利用可能</string>
     <string name="album_tab_page_switch_view_style_to_grid">グリッド表示</string>
     <string name="album_tab_page_switch_view_style_to_linear">リスト表示</string>
     <string name="album_tab_tool_tips">%sMB</string>
@@ -473,6 +478,7 @@
     <string name="backup_pause_title">同期が一時停止しました</string>
     <string name="backup_pending">自動的にバックアップされます</string>
     <string name="backup_settings">クラウドとの同期</string>
+    <string name="backup_settings_banner_msg_error">クラウドの同期情報を表示できません</string>
     <string name="backup_settings_banner_msg_off">Google フォトで写真やビデオをバックアップして、すべての思い出を安全に保管しましょう</string>
     <string name="backup_settings_banner_msg_on">Google フォトでバックアップステータスを表示</string>
     <string name="backup_settings_banner_title_not_allow">Google フォトのバックアップ</string>
@@ -568,6 +574,8 @@
     <string name="card_title_three_month_baby">時間が経つのは早い</string>
     <string name="cast_devices_unavailable_desc">このデバイスとプロジェクターが同じWi-Fiネットワークに接続されていることを確認してください</string>
     <string name="cast_devices_unavailable_title">プロジェクターが見つかりませんでした</string>
+    <string name="cast_off_talkback">キャストはオフです</string>
+    <string name="cast_on_talkback">キャストはオンです</string>
     <string name="cd_btn_back">戻るボタン</string>
     <string name="change_baby_album_choose_from_photos">ギャラリー</string>
     <string name="change_baby_album_dialog_title">プロフィール写真を変更</string>
@@ -706,8 +714,8 @@
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
     <string name="confirm">OK</string>
-    <string name="confirm_cancel_task_files">%1$sへのファイル送信をキャンセルしますか？</string>
-    <string name="confirm_cancel_task_images">%1$sへの画像送信をキャンセルしますか？</string>
+    <string name="confirm_cancel_task_files">ファイルの送信をキャンセルしますか？</string>
+    <string name="confirm_cancel_task_images">写真の送信をキャンセルしますか？</string>
     <string name="confirm_delete_selected_albums">選択したアルバムを削除しますか？</string>
     <string name="confirm_download_video_message">視聴を開始するには、このビデオのダウンロードを完了してください。Wi-Fiが利用可能になると、ダウンロードが再開されます。</string>
     <string name="confirm_download_video_title">ビデオをダウンロード</string>
@@ -717,13 +725,14 @@
     <string name="confirm_hidden_recommend_group_title">おすすめを表示しない</string>
     <string name="confirm_hide_selected_albums">選択したアルバムを非表示にしますか？</string>
     <string name="confirm_merge_album_title">アイテムを統合</string>
-    <string name="confirm_merge_face_albums">" "<Data> Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Merge these albums with %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> このアルバムを %s と統合しますか？ </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> これらのアルバムを %s と統合しますか？ </Data>" "</string>
+    <string name="confirm_no_name_people_merge_tip">これら 2 人の写真を統合すると、同一人物として認識されます</string>
     <string name="confirm_not_face">マッチしない</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? This person will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Sure this isn't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sure these are &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? These people will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Sure these aren't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> これは &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> で間違いないですか？この人は \"%2$s\" アルバムに移動されます。 </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> これは確かに &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> ではないですか？ </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> これらは &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> で間違いないですか？これらの人々は \"%2$s\" アルバムに移動されます。 </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> これらは確かに &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> ではないですか？ </Data>" "</string>
     <string name="contact_tip">連絡先</string>
     <string name="context_menu_add_contact">連絡先に登録する</string>
     <string name="context_menu_copy">コピー</string>
@@ -906,6 +915,7 @@
     <string name="empty_description_conditions">重要なことを覚えておく</string>
     <string name="empty_description_conditions_new">充電器を接続して画面をオフにすると、ここでアイテムがすぐに表示されます</string>
     <string name="empty_description_no_cards">写真を撮り続けてください。アイテムは生成され次第、ここに表示されます。</string>
+    <string name="empty_description_no_common">ピン留めしたアルバムはここに表示されます</string>
     <string name="empty_description_no_pinned">ピン留めするとここに表示されます</string>
     <string name="empty_query_text_msg">何を検索するかわからない…</string>
     <string name="empty_recommend_back">戻る</string>
@@ -913,6 +923,7 @@
     <string name="empty_relation">グループ名は空白にできません</string>
     <string name="empty_tip_btn">写真を撮る</string>
     <string name="empty_title_no_cards">思い出</string>
+    <string name="empty_title_no_common">アイテムはありません</string>
     <string name="empty_title_no_photos">写真やビデオはありません</string>
     <string name="empty_title_no_pinned">ピン留めされたものはありません</string>
     <string name="enable_auto_upload_tip">このアルバムのクラウドとの同期をオンにしますか？</string>
@@ -1047,9 +1058,14 @@
     <string name="fast_share_auto_render">簡単補正</string>
     <string name="fast_share_auto_render_finish">補正済み</string>
     <string name="father_day">母の日</string>
+    <string name="feature_album_empty_subtitle">アルバムを作成してアイテムを整理する</string>
+    <string name="feature_album_empty_title">アルバムはありません</string>
+    <string name="feature_create_album">アルバムを作成</string>
     <string name="feature_guidance_photo_effects">"新しい写真エフェクト
 が利用できます"</string>
     <string name="feature_guidance_video_editor_smart_effects">新しいエフェクトが利用できます</string>
+    <string name="feature_sticky_empty_subtitle">まず写真やビデオを撮影またはインポートします</string>
+    <string name="feature_sticky_empty_title">写真やビデオはありません</string>
     <string name="featured_added_to_top_album">正常に追加されました</string>
     <string name="featured_change_album_cover">アルバムカバーを変更</string>
     <string name="featured_customize">カスタマイズ</string>
@@ -1064,6 +1080,7 @@
     <string name="featured_people_pets_empty_des">クラウドとの同期をオンにして、写真を撮影すると、注目の人、ペット、グループが表示されます</string>
     <string name="featured_people_pets_empty_title">まだ人もペットもいません</string>
     <string name="featured_pin_to_collection">注目のコレクションに追加</string>
+    <string name="featured_remove_common_album">ピン留めを解除しました</string>
     <string name="featured_remove_top_album">ピン留めが解除されました</string>
     <string name="featured_time_empty_des">デバイスの充電中や画面オフ時に思い出が整理されます</string>
     <string name="featured_time_empty_title">まだ思い出はありません</string>
@@ -1143,8 +1160,11 @@
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
     <string name="functions_are_being_developed">この機能はまもなく利用可能になります。お楽しみに！</string>
+    <string name="gallery_common">ピン留め済み</string>
+    <string name="gallery_common_toast_tips">これ以上ピン留めできません</string>
     <string name="gallery_pinned">ピン留め済み</string>
     <string name="gallery_pinned_toast_tips">これ以上ピン留めできません</string>
+    <string name="gallery_remove_common">ピン留めを解除</string>
     <string name="gallery_remove_pinned">ピン留めを解除</string>
     <string name="gallery_setting">設定</string>
     <string name="gallery_sync_disable_toast">ギャラリーの同期はオフです</string>
@@ -1252,18 +1272,21 @@
     <string name="home_menu_video_post">ビデオ効果</string>
     <string name="home_page_all_photos">すべて</string>
     <string name="home_page_camera">カメラ</string>
+    <string name="home_page_checkbox">チェックボックス</string>
     <string name="home_page_custom">カスタム</string>
     <string name="home_page_custom_drag_description_album">2 回タップして押したままドラッグすると「アルバム」を並べ替えられます。</string>
     <string name="home_page_custom_drag_description_creation">2 回タップして押したままドラッグすると「クリエイティビティ」を並べ替えられます。</string>
     <string name="home_page_custom_drag_description_journey">2 回タップして押したままドラッグすると「旅」を並べ替えられます。</string>
     <string name="home_page_custom_drag_description_more">2 回タップして押したままドラッグすると「その他」を並べ替えられます。</string>
     <string name="home_page_custom_drag_description_people">2 回タップして押したままドラッグすると「人」を並べ替えられます。</string>
+    <string name="home_page_custom_drag_description_sticky">2 回タップして押したままドラッグすると「ピン留め済み」を並べ替えられます。</string>
     <string name="home_page_custom_drag_description_time">2 回タップして押したままドラッグすると「思い出」を並べ替えられます。</string>
     <string name="home_page_custom_drag_item_talkback_album">アルバムを選択中です。押したまま上下にドラッグすると並べ替えられます。</string>
     <string name="home_page_custom_drag_item_talkback_creation">クリエイティビティを選択中です。押したまま上下にドラッグすると並べ替えられます。</string>
     <string name="home_page_custom_drag_item_talkback_journey">旅を選択中です。押したまま上下にドラッグすると並べ替えられます。</string>
     <string name="home_page_custom_drag_item_talkback_more">「その他」を選択中です。押したまま上下にドラッグすると並べ替えられます。</string>
     <string name="home_page_custom_drag_item_talkback_people">人を選択中です。押したまま上下にドラッグすると並べ替えられます。</string>
+    <string name="home_page_custom_drag_item_talkback_sticky">「ピン留め済み」を選択中です。押したまま上下にドラッグすると並べ替えられます。</string>
     <string name="home_page_custom_drag_item_talkback_time">思い出を選択中です。押したまま上下にドラッグすると並べ替えられます。</string>
     <string name="home_page_custom_save">変更を保存</string>
     <string name="home_page_custom_second">アイテムを並べ替えるか、コンテンツを非表示にする</string>
@@ -1280,6 +1303,8 @@
     <string name="homepage_allphotos_tip_dialog_description_only_camera">カメラで撮った写真</string>
     <string name="homepage_allphotos_tip_dialog_subtitle">後で [設定] から変更できます。</string>
     <string name="homepage_allphotos_tip_dialog_title">\"アイテム\"のタブに何を表示しますか？</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Honor スマートフォン</string>
     <string name="how_to_set_relation">アルバムを長押ししてグループを作成する</string>
     <string name="hr_preview_108m">108MPプレビューに切り替えました</string>
     <string name="hr_preview_200m">200MPプレビューに切り替えました</string>
@@ -1770,6 +1795,7 @@
     <string name="operation_export_video">ビデオとしてエクスポート</string>
     <string name="operation_failed">操作を完了できませんでした</string>
     <string name="operation_favorites">お気に入り</string>
+    <string name="operation_force_common">ピン留め</string>
     <string name="operation_force_top">ピン留め</string>
     <string name="operation_google_lens">Google レンズ</string>
     <string name="operation_hide">隠す</string>
@@ -1827,6 +1853,8 @@
     <string name="other_album_operation_move_to_rubbish_albums">不必要なアルバムに移動</string>
     <string name="other_album_operation_remove_from_other_albums">\"その他のアルバム\"から削除</string>
     <string name="other_settings">追加設定</string>
+    <string name="other_three_group_name">%1$s、%2$s、%3$s</string>
+    <string name="other_two_group_name">%1$s、%2$s、他 %3$s 人</string>
     <string name="owner_album_subtitle">%1$s 人と共有</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="pasport_register_dialog_message">電話番号 %s で Xiaomi アカウントを今すぐ作成しますか？</string>
@@ -2045,6 +2073,7 @@
     <string name="photo_page_rotate_screen">画面を回転</string>
     <string name="photo_page_save_uri_image_fail">ギャラリーに保存できませんでした</string>
     <string name="photo_page_save_uri_image_ok">写真はギャラリーに保存されました</string>
+    <string name="photo_page_save_uri_image_success">この画像はギャラリーに保存されました。</string>
     <string name="photo_print_menu_loading">プラグインを読み込み中…</string>
     <string name="photo_print_package_finish">印刷プラグインを正常に読み込みました</string>
     <string name="photo_print_package_installing">印刷プラグインを読み込み中…</string>
@@ -2120,12 +2149,17 @@
     <string name="picker_title_specify_format_one">%d枚の写真を選択してください</string>
     <string name="picker_title_unlimit">写真を選択</string>
     <string name="picture_not_support_privacy_watermark">透かしを追加できません。この画像は小さすぎます。</string>
+    <string name="pinned_introduction_content">既定値で「ピン止め済み」はすべての写真、カメラで撮った写真、スクリーンショットです。他のアルバムを追加して、素早くアクセスすることができます。</string>
+    <string name="pinned_introduction_negative_button">了解</string>
+    <string name="pinned_introduction_positive_button">表示</string>
+    <string name="pinned_introduction_title">コレクションの中でピン留め済みのアイテム</string>
     <string name="places_album_empty_title">写真は場所ごとに分類できます</string>
     <string name="play_gif_desc">GIFを再生する</string>
     <string name="play_video_desc">ビデオを再生</string>
     <string name="pm">午後</string>
     <string name="pref_today_of_year_summary">この日に撮影した瞬間を、何年にもわたって思い出すことができます。この機能をオフにしても、すでに生成された思い出は消去されません。</string>
     <string name="preference_copied">「%1$s」をクリップボードにコピーしました。</string>
+    <string name="prepare_contains_dolby_convert">ファイルを準備中 (ドルビービジョン変換を含む)…</string>
     <string name="prepare_to_drop">保存先：%s</string>
     <string name="preparing_data">お待ちください…</string>
     <string name="privacy">プライバシーポリシー</string>
@@ -3277,6 +3311,7 @@
     <string name="talkback_story_album_playicon">この思い出を再生</string>
     <string name="talkback_video_with_time">ビデオ、%s</string>
     <string name="talkback_video_with_time_and_location">ビデオ、%1$s、%2$s</string>
+    <string name="tap_share_tips_title">2つのデバイスの裏面を触れさせてアイテムを共有します</string>
     <string name="terabyteShort">TB</string>
     <string name="text_recognition">テキストを認識</string>
     <string name="text_segment">写真の切り抜き</string>
