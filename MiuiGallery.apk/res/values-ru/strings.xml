@@ -245,6 +245,7 @@
     <string name="album_ai_page_title">Смарт-альбомы</string>
     <string name="album_already_exists_check">Просмотреть</string>
     <string name="album_already_exists_msg">Альбом \"%s\" уже существует</string>
+    <string name="album_already_forced_common">Закреплено</string>
     <string name="album_already_forced_top">Альбом закреплен</string>
     <string name="album_bluetooth">Bluetooth</string>
     <string name="album_camera_name">Камера</string>
@@ -315,11 +316,15 @@
     <string name="album_show_local_only">Только локальные альбомы</string>
     <string name="album_show_local_only_summary">После активации этой функции станет доступна возможность удалять только локальные альбомы.</string>
     <string name="album_sort_type">Сортировка</string>
+    <string name="album_sort_type_by_name">Сортировать по имени</string>
+    <string name="album_sort_type_create_time">Сортировать по дате создания</string>
     <string name="album_sort_type_create_time_asc">От старого к новому</string>
     <string name="album_sort_type_create_time_desc">От нового к старому</string>
     <string name="album_sort_type_custom">Особая</string>
     <string name="album_sort_type_name_asc">От А до Я</string>
     <string name="album_sort_type_name_desc">От Я до А</string>
+    <string name="album_sort_type_update_time">Сортировать по дате изменения</string>
+    <string name="album_switch_sort_mode_tips">Доступны несколько вариантов сортировки</string>
     <string name="album_tab_page_switch_view_style_to_grid">Сетка</string>
     <string name="album_tab_page_switch_view_style_to_linear">Список</string>
     <string name="album_tab_tool_tips">%s МБ</string>
@@ -473,6 +478,7 @@
     <string name="backup_pause_title">Синхронизация приостановлена</string>
     <string name="backup_pending">Ожидание выгрузки</string>
     <string name="backup_settings">Синхронизация с облаком</string>
+    <string name="backup_settings_banner_msg_error">Невозможно показать информацию о синхронизации с облаком</string>
     <string name="backup_settings_banner_msg_off">Выгружайте фото и видео в Google Фото, чтобы не потерять важные воспоминания.</string>
     <string name="backup_settings_banner_msg_on">Информация о состоянии резервного копирования доступна в Google Фото.</string>
     <string name="backup_settings_banner_title_not_allow">Резервная копия в Google Фото</string>
@@ -568,6 +574,8 @@
     <string name="card_title_three_month_baby">Время летит</string>
     <string name="cast_devices_unavailable_desc">Убедитесь, что устройство и проектор подключены к одной и той же сети Wi-Fi</string>
     <string name="cast_devices_unavailable_title">Не удалось найти проектор</string>
+    <string name="cast_off_talkback">Трансляция выключена</string>
+    <string name="cast_on_talkback">Трансляция включена</string>
     <string name="cd_btn_back">Кнопка \"Назад\"</string>
     <string name="change_baby_album_choose_from_photos">Галерея</string>
     <string name="change_baby_album_dialog_title">Изменить фото профиля</string>
@@ -706,8 +714,8 @@
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
     <string name="confirm">OK</string>
-    <string name="confirm_cancel_task_files">Отменить отправку файлов на %1$s?</string>
-    <string name="confirm_cancel_task_images">Отменить отправку изображений на%1$s?</string>
+    <string name="confirm_cancel_task_files">Отменить отправку файлов?</string>
+    <string name="confirm_cancel_task_images">Отменить отправку фото?</string>
     <string name="confirm_delete_selected_albums">Удалить выбранные альбомы?</string>
     <string name="confirm_download_video_message">Для просмотра видео необходимо полностью загрузить его. Загрузка возобновится после подключения к Wi-Fi.</string>
     <string name="confirm_download_video_title">Загрузка видео</string>
@@ -717,13 +725,14 @@
     <string name="confirm_hidden_recommend_group_title">Не показывать рекомендации</string>
     <string name="confirm_hide_selected_albums">Скрыть выбранные альбомы?</string>
     <string name="confirm_merge_album_title">Объединить объекты</string>
-    <string name="confirm_merge_face_albums">" "<Data> Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Merge these albums with %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> Объединить этот альбом с %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Объединить эти альбомы с %s? </Data>" "</string>
+    <string name="confirm_no_name_people_merge_tip">Как только вы объедините фото этих двух человек, они будут распознаваться как один и тот же человек</string>
     <string name="confirm_not_face">Нет совпадений</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? This person will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Sure this isn't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sure these are &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? These people will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Sure these aren't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Уверены, что это &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото этого человека будет перемещено в альбом \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Уверены, что это не &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Уверены, что это &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото этих людей будут перемещены в альбом \"%2$s\". </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Уверены, что это не &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
     <string name="contact_tip">Контакты</string>
     <string name="context_menu_add_contact">Добавить в контакты</string>
     <string name="context_menu_copy">Копировать</string>
@@ -906,6 +915,7 @@
     <string name="empty_description_conditions">Помните важные события</string>
     <string name="empty_description_conditions_new">Подключите зарядное устройство и выключите экран, чтобы объекты появились здесь быстрее.</string>
     <string name="empty_description_no_cards">Продолжайте делать снимки. Объекты появятся здесь, как только они будут созданы.</string>
+    <string name="empty_description_no_common">Закрепленные альбомы появятся здесь</string>
     <string name="empty_description_no_pinned">Закрепите объекты, чтобы они отображались здесь</string>
     <string name="empty_query_text_msg">Не заданы условия поиска…</string>
     <string name="empty_recommend_back">Назад</string>
@@ -913,6 +923,7 @@
     <string name="empty_relation">Введите имя группы</string>
     <string name="empty_tip_btn">Сделать фото</string>
     <string name="empty_title_no_cards">Сюжеты</string>
+    <string name="empty_title_no_common">Нет объектов</string>
     <string name="empty_title_no_photos">Нет фото или видео</string>
     <string name="empty_title_no_pinned">Нет закрепленных объектов</string>
     <string name="enable_auto_upload_tip">Включить синхронизацию с облаком для этого альбома?</string>
@@ -1047,9 +1058,14 @@
     <string name="fast_share_auto_render">Улучшение</string>
     <string name="fast_share_auto_render_finish">Улучшено</string>
     <string name="father_day">День матери</string>
+    <string name="feature_album_empty_subtitle">Создайте альбомы для организации ваших объектов</string>
+    <string name="feature_album_empty_title">Нет альбомов</string>
+    <string name="feature_create_album">Создать альбом</string>
     <string name="feature_guidance_photo_effects">"Доступны новые
 фотоэффекты"</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступны новые эффекты</string>
+    <string name="feature_sticky_empty_subtitle">Сначала сделайте или импортируйте фото и видео</string>
+    <string name="feature_sticky_empty_title">Нет фото или видео</string>
     <string name="featured_added_to_top_album">Успешно добавлено</string>
     <string name="featured_change_album_cover">Изменить обложку альбома</string>
     <string name="featured_customize">Настроить</string>
@@ -1064,6 +1080,7 @@
     <string name="featured_people_pets_empty_des">Включите синхронизацию с облаком и делайте больше фото, чтобы увидеть здесь избранных людей, питомцев и группы</string>
     <string name="featured_people_pets_empty_title">Здесь пока нет людей и питомцев</string>
     <string name="featured_pin_to_collection">Добавить в избранные коллекции</string>
+    <string name="featured_remove_common_album">Откреплено</string>
     <string name="featured_remove_top_album">Успешно откреплено</string>
     <string name="featured_time_empty_des">Сюжеты будут упорядочены, когда устройство заряжается и экран выключен</string>
     <string name="featured_time_empty_title">Здесь пока нет сюжетов</string>
@@ -1143,8 +1160,11 @@
     <string name="friday_short">Пт</string>
     <string name="friday_shortest">Пт</string>
     <string name="functions_are_being_developed">Эта функция скоро будет доступна. Следите за обновлениями!</string>
+    <string name="gallery_common">Закреплено</string>
+    <string name="gallery_common_toast_tips">Нельзя закрепить больше объектов</string>
     <string name="gallery_pinned">Закреплено</string>
     <string name="gallery_pinned_toast_tips">Нельзя закрепить больше объектов</string>
+    <string name="gallery_remove_common">Открепить</string>
     <string name="gallery_remove_pinned">Открепить</string>
     <string name="gallery_setting">Настройки</string>
     <string name="gallery_sync_disable_toast">Синхронизация Галереи отключена</string>
@@ -1252,18 +1272,21 @@
     <string name="home_menu_video_post">Видеоэффекты</string>
     <string name="home_page_all_photos">Все</string>
     <string name="home_page_camera">Камера</string>
+    <string name="home_page_checkbox">Флажок</string>
     <string name="home_page_custom">Особые</string>
     <string name="home_page_custom_drag_description_album">Дважды нажмите и удерживайте, а затем перетащите, чтобы изменить порядок в разделе «Альбомы».</string>
     <string name="home_page_custom_drag_description_creation">Дважды нажмите и удерживайте, а затем перетащите, чтобы изменить порядок в разделе «Творчество».</string>
     <string name="home_page_custom_drag_description_journey">Дважды нажмите и удерживайте, а затем перетащите, чтобы изменить порядок в разделе «Путешествия».</string>
     <string name="home_page_custom_drag_description_more">Дважды нажмите и удерживайте, а затем перетащите, чтобы изменить порядок в разделе «Дополнительно».</string>
     <string name="home_page_custom_drag_description_people">Дважды нажмите и удерживайте, а затем перетащите, чтобы изменить порядок в разделе «Люди».</string>
+    <string name="home_page_custom_drag_description_sticky">Дважды нажмите и удерживайте, а затем перетащите, чтобы изменить порядок в разделе «Закрепленное».</string>
     <string name="home_page_custom_drag_description_time">Дважды нажмите и удерживайте, а затем перетащите, чтобы изменить порядок в разделе «Сюжеты».</string>
     <string name="home_page_custom_drag_item_talkback_album">Выбрано: Альбомы. Нажмите, удерживайте и перетащите вверх или вниз, чтобы изменить порядок.</string>
     <string name="home_page_custom_drag_item_talkback_creation">Выбрано: Творчество. Нажмите, удерживайте и перетащите вверх или вниз, чтобы изменить порядок.</string>
     <string name="home_page_custom_drag_item_talkback_journey">Выбрано: Путешествия. Нажмите, удерживайте и перетащите вверх или вниз, чтобы изменить порядок.</string>
     <string name="home_page_custom_drag_item_talkback_more">Выбрано: Другое. Нажмите, удерживайте и перетащите вверх или вниз, чтобы изменить порядок.</string>
     <string name="home_page_custom_drag_item_talkback_people">Выбрано: Люди. Нажмите, удерживайте и перетащите вверх или вниз, чтобы изменить порядок.</string>
+    <string name="home_page_custom_drag_item_talkback_sticky">Выбрано: «Закрепленное». Нажмите, удерживайте и перетащите вверх или вниз, чтобы изменить порядок.</string>
     <string name="home_page_custom_drag_item_talkback_time">Выбрано: Сюжеты. Нажмите, удерживайте и перетащите вверх или вниз, чтобы изменить порядок.</string>
     <string name="home_page_custom_save">Сохранить изменения</string>
     <string name="home_page_custom_second">Переупорядочить объекты или скрыть содержание</string>
@@ -1280,6 +1303,8 @@
     <string name="homepage_allphotos_tip_dialog_description_only_camera">Снято на камеру</string>
     <string name="homepage_allphotos_tip_dialog_subtitle">Вы можете изменить этот параметр позже в Настройках.</string>
     <string name="homepage_allphotos_tip_dialog_title">Какие изображения вы хотите видеть в \"Фото\"?</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Телефон Honor</string>
     <string name="how_to_set_relation">Нажмите и удерживайте альбом для создания группы</string>
     <string name="hr_preview_108m">Переключено на 108MP просмотр</string>
     <string name="hr_preview_200m">Переключено на просмотр 200 Мп</string>
@@ -1770,6 +1795,7 @@
     <string name="operation_export_video">Экспортировать как видео</string>
     <string name="operation_failed">Не удалось завершить операцию</string>
     <string name="operation_favorites">Избранные</string>
+    <string name="operation_force_common">Закрепить</string>
     <string name="operation_force_top">Закрепить</string>
     <string name="operation_google_lens">Google Объектив</string>
     <string name="operation_hide">Скрыть</string>
@@ -1827,6 +1853,8 @@
     <string name="other_album_operation_move_to_rubbish_albums">Переместить в ненужные альбомы</string>
     <string name="other_album_operation_remove_from_other_albums">Переместить из раздела \"Другие альбомы\"</string>
     <string name="other_settings">Дополнительные настройки</string>
+    <string name="other_three_group_name">%1$s, %2$s и %3$s</string>
+    <string name="other_two_group_name">%1$s, %2$s и %3$s другой человек</string>
     <string name="owner_album_subtitle">Пользователей: %1$s</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="pasport_register_dialog_message">Создать аккаунт Xiaomi с помощью вашего номера телефона %s?</string>
@@ -2045,6 +2073,7 @@
     <string name="photo_page_rotate_screen">Поворот экрана</string>
     <string name="photo_page_save_uri_image_fail">Не удалось сохранить в Галерее</string>
     <string name="photo_page_save_uri_image_ok">Фото сохранено в Галерее</string>
+    <string name="photo_page_save_uri_image_success">Это изображение сохранено в Галерее.</string>
     <string name="photo_print_menu_loading">Загрузка плагина…</string>
     <string name="photo_print_package_finish">Плагин Печать успешно загружен</string>
     <string name="photo_print_package_installing">Загрузка плагина Печать…</string>
@@ -2120,12 +2149,17 @@
     <string name="picker_title_specify_format_one">Выберите %d фото</string>
     <string name="picker_title_unlimit">Выберите фото</string>
     <string name="picture_not_support_privacy_watermark">Нельзя добавить водяной знак. Изображение слишком маленькое.</string>
+    <string name="pinned_introduction_content">«Закреплённые» по умолчанию включают все фотографии, снимки с камеры и снимки экрана. Вы также можете добавить другие альбомы для быстрого доступа.</string>
+    <string name="pinned_introduction_negative_button">Понятно</string>
+    <string name="pinned_introduction_positive_button">Просмотр</string>
+    <string name="pinned_introduction_title">Закрепленные предметы в ваших коллекциях</string>
     <string name="places_album_empty_title">Фото можно отсортировать по месту съемки</string>
     <string name="play_gif_desc">Воспроизвести GIF</string>
     <string name="play_video_desc">Воспроизвести видео</string>
     <string name="pm">PM</string>
     <string name="pref_today_of_year_summary">Вспомните моменты, которые вы создавали в этот день на протяжении многих лет. Если вы отключите эту функцию, уже созданные сюжеты не исчезнут.</string>
     <string name="preference_copied">Текст \"%1$s\" скопирован в буфер обмена</string>
+    <string name="prepare_contains_dolby_convert">Подготовка файла (включая конвертацию Dolby Vision) …</string>
     <string name="prepare_to_drop">Сохранение в %s</string>
     <string name="preparing_data">Секунду…</string>
     <string name="privacy">Политика конфиденциальности</string>
@@ -3277,6 +3311,7 @@
     <string name="talkback_story_album_playicon">Воспроизвести этот сюжет</string>
     <string name="talkback_video_with_time">Видео, %s</string>
     <string name="talkback_video_with_time_and_location">Видео, %1$s, %2$s</string>
+    <string name="tap_share_tips_title">Приложите устройства друг к другу задними панелями для передачи объектов</string>
     <string name="terabyteShort">ТБ</string>
     <string name="text_recognition">Распознать текст</string>
     <string name="text_segment">Вырезка фото</string>

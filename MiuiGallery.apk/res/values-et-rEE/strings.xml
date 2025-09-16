@@ -218,6 +218,7 @@ Parimad kaadrid valiti automaatselt. Saate lisada rohkem fotosid käsitsi."</str
     <string name="album_ai_page_title">Targad albumid</string>
     <string name="album_already_exists_check">Vaata</string>
     <string name="album_already_exists_msg">Album \"%s\" eksisteerib juba</string>
+    <string name="album_already_forced_common">Kinnitatud</string>
     <string name="album_already_forced_top">Juba tipus</string>
     <string name="album_bluetooth">Bluetooth</string>
     <string name="album_camera_name">Kaamera</string>
@@ -288,11 +289,15 @@ Parimad kaadrid valiti automaatselt. Saate lisada rohkem fotosid käsitsi."</str
     <string name="album_show_local_only">Näita ainult kohalikke albumeid</string>
     <string name="album_show_local_only_summary">Kui see funktsioon on sees, on saadaval võimalus kustutada ainult kohalikke albumeid.</string>
     <string name="album_sort_type">Sorteerimise järjekord</string>
+    <string name="album_sort_type_by_name">Sorteeri nime järgi</string>
+    <string name="album_sort_type_create_time">Sorteeri loomiskuupäeva alusel</string>
     <string name="album_sort_type_create_time_asc">Vana -> uus</string>
     <string name="album_sort_type_create_time_desc">Uus -> vana</string>
     <string name="album_sort_type_custom">Kohandatud</string>
     <string name="album_sort_type_name_asc">A-st Z-ni</string>
     <string name="album_sort_type_name_desc">Z-st A-ni</string>
+    <string name="album_sort_type_update_time">Sorteeri muutmiskuupäeva alusel</string>
+    <string name="album_switch_sort_mode_tips">Saadaval on mitu sortimisvalikut</string>
     <string name="album_tab_page_switch_view_style_to_grid">Võrguvaade</string>
     <string name="album_tab_page_switch_view_style_to_linear">Nimekirja vaade</string>
     <string name="album_tab_tool_tips">%s MB</string>
@@ -446,6 +451,7 @@ Parimad kaadrid valiti automaatselt. Saate lisada rohkem fotosid käsitsi."</str
     <string name="backup_pause_title">Sünkroonimine on peatatud</string>
     <string name="backup_pending">Varundatakse automaatselt</string>
     <string name="backup_settings">Sünkrooni pilvega</string>
+    <string name="backup_settings_banner_msg_error">Pilvesünkroonimise teavet ei saa kuvada</string>
     <string name="backup_settings_banner_msg_off">Varunda oma fotod ja videod teenusega Google Photos, et hoida kõiki oma mälestusi turvalises kohas</string>
     <string name="backup_settings_banner_msg_on">Vaata varundamise olekut teenuses Google Photos</string>
     <string name="backup_settings_banner_title_not_allow">Google Photos varundamine</string>
@@ -541,6 +547,8 @@ Parimad kaadrid valiti automaatselt. Saate lisada rohkem fotosid käsitsi."</str
     <string name="card_title_three_month_baby">Aeg lendab</string>
     <string name="cast_devices_unavailable_desc">Veenduge, et nii seade kui projektor on ühendatud samasse Wi-Fi võrku</string>
     <string name="cast_devices_unavailable_title">Projektorit ei õnnestunud leida</string>
+    <string name="cast_off_talkback">Edastamine on väljalülitatud</string>
+    <string name="cast_on_talkback">Edastamine on sisselülitatud</string>
     <string name="cd_btn_back">Tagasinupp</string>
     <string name="change_baby_album_choose_from_photos">Galerii</string>
     <string name="change_baby_album_dialog_title">Muuda profiilipilti</string>
@@ -678,8 +686,8 @@ Parimad kaadrid valiti automaatselt. Saate lisada rohkem fotosid käsitsi."</str
     <string name="com.tencent.mm_com.tencent.mm.ui.tools.ShareToTimeLineUI">WeChat Momendid</string>
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="confirm">OK</string>
-    <string name="confirm_cancel_task_files">Tühista failide saatmine sihtkohta %1$s?</string>
-    <string name="confirm_cancel_task_images">Tühista piltide saatmine sihtkohta %1$s?</string>
+    <string name="confirm_cancel_task_files">Kas tühistada failide saatmine?</string>
+    <string name="confirm_cancel_task_images">Kas tühistada fotode saatmine?</string>
     <string name="confirm_delete_selected_albums">Kas kustutada valitud albumid?</string>
     <string name="confirm_download_video_message">Vaatamiseks lõpetage selle video allalaadimine. Kui Wi-Fi on kättesaadav, jätkub allalaadimine.</string>
     <string name="confirm_download_video_title">Laadige video alla</string>
@@ -689,13 +697,14 @@ Parimad kaadrid valiti automaatselt. Saate lisada rohkem fotosid käsitsi."</str
     <string name="confirm_hidden_recommend_group_title">Ära kuva soovitusi</string>
     <string name="confirm_hide_selected_albums">Kas peita valitud albumid?</string>
     <string name="confirm_merge_album_title">Ühenda üksusi</string>
-    <string name="confirm_merge_face_albums">" "<Data> Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Merge these albums with %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> Mesti see album %s albumiga? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Mesti need albumid %s albumiga? </Data>" "</string>
+    <string name="confirm_no_name_people_merge_tip">Pärast nende kahe inimese fotode ühendamist käsitletakse neid kui üht ja sama isikut.</string>
     <string name="confirm_not_face">Kattuvused puuduvad</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? This person will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Sure this isn't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sure these are &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? These people will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Sure these aren't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Olete kindel et see on &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? See inimene liigutatakse \"%2$s\" albumisse.; </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Kas olete kindel, et see ei ole &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>?; </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Olete kindel need on &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Need inimesed liigutatakse \"%2$s\" albumisse.; </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Kas olete kindel, et need ei ole &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>?; </Data>" "</string>
     <string name="contact_tip">Kontakt</string>
     <string name="context_menu_add_contact">Lisa kontaktidesse</string>
     <string name="context_menu_copy">Kopeeri</string>
@@ -877,6 +886,7 @@ Parimad kaadrid valiti automaatselt. Saate lisada rohkem fotosid käsitsi."</str
     <string name="empty_description_conditions">Mäletage asju, mis on olulised</string>
     <string name="empty_description_conditions_new">Ühenda laadija ja lülita ekraan välja, et elemendid siia kiiremini ilmuksid</string>
     <string name="empty_description_no_cards">Jätkake fotode tegemist. Kohe kui olete pildid teinud, kuvatakse need siin.</string>
+    <string name="empty_description_no_common">Kinnitatud albumid kuvatakse siin</string>
     <string name="empty_description_no_pinned">Kinnita üksused, et need ilmuksid siia</string>
     <string name="empty_query_text_msg">Ei tea, mida otsida…</string>
     <string name="empty_recommend_back">Tagasi</string>
@@ -884,6 +894,7 @@ Parimad kaadrid valiti automaatselt. Saate lisada rohkem fotosid käsitsi."</str
     <string name="empty_relation">Rühma nime väli ei saa olla tühi</string>
     <string name="empty_tip_btn">Pildista</string>
     <string name="empty_title_no_cards">Mälestused</string>
+    <string name="empty_title_no_common">Üksuseid ei ole</string>
     <string name="empty_title_no_photos">Fotosid ega videoid ei ole</string>
     <string name="empty_title_no_pinned">Kinnitatud üksused puuduvad</string>
     <string name="enable_auto_upload_tip">Lülitada selle albumi jaoks pilvega sünkroonimine sisse?</string>
@@ -1017,9 +1028,14 @@ Tee rohkem pilte oma sõpradest!"</string>
     <string name="fast_share_auto_render">Ilustaja</string>
     <string name="fast_share_auto_render_finish">Ilustatud</string>
     <string name="father_day">Emadepäev</string>
+    <string name="feature_album_empty_subtitle">Looge oma esemete korraldamiseks albumeid</string>
+    <string name="feature_album_empty_title">Albumeid ei ole</string>
+    <string name="feature_create_album">Loo album</string>
     <string name="feature_guidance_photo_effects">"Saadaval on uued fotoefektid
 "</string>
     <string name="feature_guidance_video_editor_smart_effects">Uued efektid on saadaval</string>
+    <string name="feature_sticky_empty_subtitle">Kõigepealt tehke või importige fotod ja videod</string>
+    <string name="feature_sticky_empty_title">Fotosid ega videoid ei ole</string>
     <string name="featured_added_to_top_album">Lisamine õnnestus</string>
     <string name="featured_change_album_cover">Muuda albumi kaant</string>
     <string name="featured_customize">Kohanda</string>
@@ -1034,6 +1050,7 @@ Tee rohkem pilte oma sõpradest!"</string>
     <string name="featured_people_pets_empty_des">Lülitage sisse sünkroonimine pilvega ja jäädvustage rohkem fotosid, et näha siin esiletõstetud inimesi, lemmikloomi ja gruppe</string>
     <string name="featured_people_pets_empty_title">Siin ei ole veel inimesi ega lemmikloomi</string>
     <string name="featured_pin_to_collection">Lisa esiletoodud kogudesse</string>
+    <string name="featured_remove_common_album">Vabastatud</string>
     <string name="featured_remove_top_album">Edukalt vabastatud</string>
     <string name="featured_time_empty_des">Mälestused korraldatakse siis, kui seade laeb ja ekraan on välja lülitatud</string>
     <string name="featured_time_empty_title">Siin ei ole veel mälestusi</string>
@@ -1113,8 +1130,11 @@ Tee rohkem pilte oma sõpradest!"</string>
     <string name="friday_short">R</string>
     <string name="friday_shortest">R</string>
     <string name="functions_are_being_developed">See funktsioon on varsti saadaval. Olge kursis!</string>
+    <string name="gallery_common">Kinnitatud</string>
+    <string name="gallery_common_toast_tips">Rohkem üksuseid ei saa kinnitada</string>
     <string name="gallery_pinned">Kinnitatud</string>
     <string name="gallery_pinned_toast_tips">Rohkem üksuseid ei saa kinnitada</string>
+    <string name="gallery_remove_common">Vabasta</string>
     <string name="gallery_remove_pinned">Vabasta</string>
     <string name="gallery_setting">Seaded</string>
     <string name="gallery_sync_disable_toast">Sünkroniseerimine Galerii jaoks on väljas</string>
@@ -1222,18 +1242,21 @@ Tee rohkem pilte oma sõpradest!"</string>
     <string name="home_menu_video_post">Videoefektid</string>
     <string name="home_page_all_photos">Kõik</string>
     <string name="home_page_camera">Kaamera</string>
+    <string name="home_page_checkbox">Märkeruut</string>
     <string name="home_page_custom">Kohandatud</string>
     <string name="home_page_custom_drag_description_album">\"Albumite\" ümberkorraldamiseks topeltpuuduta ja hoia all, seejärel lohista.</string>
     <string name="home_page_custom_drag_description_creation">\"Loovuse\" ümberkorraldamiseks topeltpuuduta ja hoia all ning seejärel lohista.</string>
     <string name="home_page_custom_drag_description_journey">\"Teekondade\" ümberkorraldamiseks topeltpuuduta ja hoia all ning seejärel lohista.</string>
     <string name="home_page_custom_drag_description_more">\"Rohkema\" ümberkorraldamiseks topeltpuuduta ja hoia all ning seejärel lohista.</string>
     <string name="home_page_custom_drag_description_people">\"Inimeste\" ümberkorraldamiseks topeltpuuduta ja hoia all ning seejärel lohista.</string>
+    <string name="home_page_custom_drag_description_sticky">\"Kinnitatud\" üksuste ümberkorraldamiseks topeltpuudutage ja hoidke all ning seejärel lohistage.</string>
     <string name="home_page_custom_drag_description_time">\"Mälestuste\" ümberkorraldamiseks topeltpuuduta ja hoia all ning seejärel lohista.</string>
     <string name="home_page_custom_drag_item_talkback_album">Valitud: Albumid. Ümberkorraldamiseks vajutage, hoidke all ja lohistage üles või alla.</string>
     <string name="home_page_custom_drag_item_talkback_creation">Valitud: Loovus. Ümberkorraldamiseks vajutage, hoidke all ja lohistage üles või alla.</string>
     <string name="home_page_custom_drag_item_talkback_journey">Valitud: Reisid. Ümberkorraldamiseks vajutage, hoidke all ja lohistage üles või alla.</string>
     <string name="home_page_custom_drag_item_talkback_more">Valitud: Rohkem. Ümberkorraldamiseks vajutage, hoidke all ja lohistage üles või alla.</string>
     <string name="home_page_custom_drag_item_talkback_people">Valitud: Inimesed. Ümberkorraldamiseks vajutage, hoidke all ja lohistage üles või alla.</string>
+    <string name="home_page_custom_drag_item_talkback_sticky">Valitud: Kinnitatud. Ümberkorraldamiseks vajutage, hoidke all ja lohistage üles või alla.</string>
     <string name="home_page_custom_drag_item_talkback_time">Valitud: Mälestused. Ümberkorraldamiseks vajutage, hoidke all ja lohistage üles või alla.</string>
     <string name="home_page_custom_save">Salvesta muudatused</string>
     <string name="home_page_custom_second">Üksuste ümberkorraldamine või sisu peitmine</string>
@@ -1250,6 +1273,8 @@ Tee rohkem pilte oma sõpradest!"</string>
     <string name="homepage_allphotos_tip_dialog_description_only_camera">Kaameraga tehtud</string>
     <string name="homepage_allphotos_tip_dialog_subtitle">Võid seda teha ka hiljem seadistustes</string>
     <string name="homepage_allphotos_tip_dialog_title">Milliseid pilte sooviksite \"Fotode\" all näha?</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Telefon Honor</string>
     <string name="how_to_set_relation">Vajuta ja hoia albumit et luua rühm</string>
     <string name="hr_preview_108m">Lülitati 108MP eelvaatele</string>
     <string name="hr_preview_200m">Lülitati 200MP eelvaatele</string>
@@ -1739,6 +1764,7 @@ Selle funktsiooni esmakordsel kasutamisel võib ümberkodeerimine võtta aega."<
     <string name="operation_export_video">Ekspordi videona</string>
     <string name="operation_failed">Operatsiooni ei õnnestunud teostada</string>
     <string name="operation_favorites">Lemmikud</string>
+    <string name="operation_force_common">Kinnita</string>
     <string name="operation_force_top">Kinnita</string>
     <string name="operation_google_lens">Google Lens</string>
     <string name="operation_hide">Peida</string>
@@ -1796,6 +1822,8 @@ Selle funktsiooni esmakordsel kasutamisel võib ümberkodeerimine võtta aega."<
     <string name="other_album_operation_move_to_rubbish_albums">Liigutage ülearustesse albumitesse</string>
     <string name="other_album_operation_remove_from_other_albums">Eemalda kaustast \"Muud albumid\"</string>
     <string name="other_settings">Lisaseaded</string>
+    <string name="other_three_group_name">%1$s, %2$s ja %3$s</string>
+    <string name="other_two_group_name">%1$s, %2$s ja %3$s muud isikut</string>
     <string name="owner_album_subtitle">Jagatud %1$s inimesega</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="pasport_register_dialog_message">Kas luua Xiaomi konto teie telefoninumbri %s kaudu kohe?</string>
@@ -2014,6 +2042,7 @@ Selle funktsiooni esmakordsel kasutamisel võib ümberkodeerimine võtta aega."<
     <string name="photo_page_rotate_screen">Ekraani pööramine</string>
     <string name="photo_page_save_uri_image_fail">Salvestamine Galeriisse ebaõnnestus</string>
     <string name="photo_page_save_uri_image_ok">Foto on salvestatud Galeriisse</string>
+    <string name="photo_page_save_uri_image_success">See pilt on salvestatud Galeriisse.</string>
     <string name="photo_print_menu_loading">Plugina laadimine…</string>
     <string name="photo_print_package_finish">Printimise pistikprogramm edukalt laaditud</string>
     <string name="photo_print_package_installing">Laadin printimise pistikprogrammi…</string>
@@ -2089,11 +2118,16 @@ Selle funktsiooni esmakordsel kasutamisel võib ümberkodeerimine võtta aega."<
     <string name="picker_title_specify_format_one">Valige %d foto</string>
     <string name="picker_title_unlimit">Valige fotod</string>
     <string name="picture_not_support_privacy_watermark">Vesimärke ei saa lisada. See pilt on liiga väike.</string>
+    <string name="pinned_introduction_content">„Kinnitatud” hõlmab vaikimisi kõiki fotosid, kaameravõtteid ja ekraanipilte. Kiireks juurdepääsuks saate lisada ka teisi albumeid.</string>
+    <string name="pinned_introduction_negative_button">Sain aru</string>
+    <string name="pinned_introduction_positive_button">Vaata</string>
+    <string name="pinned_introduction_title">Teie kollektsioonidesse kinnitatud üksused</string>
     <string name="places_album_empty_title">Fotosid saab sorteerida asukoha järgi</string>
     <string name="play_gif_desc">Esita GIF</string>
     <string name="play_video_desc">Mängi videot</string>
     <string name="pm">PL</string>
     <string name="pref_today_of_year_summary">Saa meeldetuletusi aastate jooksul sellel päeval jäädvustatud hetkedest. Juba loodud mälestused ei kao, kui selle funktsiooni välja lülitad.</string>
+    <string name="prepare_contains_dolby_convert">Faili ettevalmistamine (sh Dolby Visioni teisendus)…</string>
     <string name="prepare_to_drop">Salvestamine %s</string>
     <string name="preparing_data">Oodake hetk…</string>
     <string name="privacy">Privaatsuspoliitika</string>
@@ -3242,6 +3276,7 @@ Kuni %1$s saad teisaldada oma fotosid teenusesse Google Photos või külastada a
     <string name="talkback_story_album_playicon">Esita see mälestus</string>
     <string name="talkback_video_with_time">Video, %s</string>
     <string name="talkback_video_with_time_and_location">Video, %1$s, %2$s</string>
+    <string name="tap_share_tips_title">Üksuste jagamiseks pange kahe seadme tagaküljed kokku</string>
     <string name="terabyteShort">TB</string>
     <string name="text_recognition">Tuvasta tekst</string>
     <string name="text_segment">Foto väljalõige</string>

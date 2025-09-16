@@ -245,6 +245,7 @@
     <string name="album_ai_page_title">स्मार्ट एल्बम</string>
     <string name="album_already_exists_check">देखें</string>
     <string name="album_already_exists_msg">एल्बम \"%s\" पहले से मौजूद है</string>
+    <string name="album_already_forced_common">पिन किया गया</string>
     <string name="album_already_forced_top">पहले ही शीर्ष पर</string>
     <string name="album_bluetooth">ब्लूटुथ</string>
     <string name="album_camera_name">कैमरा</string>
@@ -315,11 +316,15 @@
     <string name="album_show_local_only">केवल स्थानीय एल्बम दिखाएं</string>
     <string name="album_show_local_only_summary">इस फ़ीचर के चालू होने पर सिर्फ़ स्थानीय एल्बम हटाने का विकल्प उपलब्ध होगा</string>
     <string name="album_sort_type">सॉर्ट करने का ऑर्डर</string>
+    <string name="album_sort_type_by_name">नाम द्वारा सॉर्ट करें</string>
+    <string name="album_sort_type_create_time">बनाए जाने के दिनांक द्वारा सॉर्ट करें</string>
     <string name="album_sort_type_create_time_asc">पुराने से नया</string>
     <string name="album_sort_type_create_time_desc">नए से पुराना</string>
     <string name="album_sort_type_custom">कस्टम</string>
     <string name="album_sort_type_name_asc">A से Z तक</string>
     <string name="album_sort_type_name_desc">Z से A तक</string>
+    <string name="album_sort_type_update_time">बदलाव किए जाने के दिनांक द्वारा सॉर्ट करें</string>
+    <string name="album_switch_sort_mode_tips">सॉर्ट करने के कई विकल्प उपलब्ध हैं</string>
     <string name="album_tab_page_switch_view_style_to_grid">ग्रिड व्यू</string>
     <string name="album_tab_page_switch_view_style_to_linear">सूची व्यू</string>
     <string name="album_tab_tool_tips">%s MB</string>
@@ -473,6 +478,7 @@
     <string name="backup_pause_title">सिंक रोका गया है</string>
     <string name="backup_pending">स्वचालित रूप से बैकअप ले लिया जाएगा</string>
     <string name="backup_settings">क्लाउड से सिंक करें</string>
+    <string name="backup_settings_banner_msg_error">क्लाउड सिंक की जानकारी नहीं दिखाई जा सकती</string>
     <string name="backup_settings_banner_msg_off">अपनी सभी यादें सुरक्षित रखने के लिए Google Photos पर अपनी फ़ोटो और वीडियो का बैकअप बनाएं</string>
     <string name="backup_settings_banner_msg_on">Google Photos में बैकअप की स्थिति देखें</string>
     <string name="backup_settings_banner_title_not_allow">Google Photos बैकअप</string>
@@ -568,6 +574,8 @@
     <string name="card_title_three_month_baby">समय गुज़र जाता है</string>
     <string name="cast_devices_unavailable_desc">सुनिश्चित करें कि यह दोनों डिवाइस और प्रोजेक्टर को एक ही वाई-फाई नेटवर्क से कनेक्ट किया गया है</string>
     <string name="cast_devices_unavailable_title">प्रोजेक्टर नहीं मिला</string>
+    <string name="cast_off_talkback">कास्टिंग बंद है</string>
+    <string name="cast_on_talkback">कास्टिंग चालू है</string>
     <string name="cd_btn_back">वापस बटन</string>
     <string name="change_baby_album_choose_from_photos">गैलरी</string>
     <string name="change_baby_album_dialog_title">प्रोफ़ाइल फ़ोटो बदलें</string>
@@ -706,8 +714,8 @@
     <string name="com.tencent.mobileqq_com.tencent.mobileqq.activity.JumpActivity">QQ</string>
     <string name="common_google_play_services_unknown_issue">%1$s को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें.</string>
     <string name="confirm">ठीक</string>
-    <string name="confirm_cancel_task_files">%1$s को फ़ाइलें भेजना रद्द करें?</string>
-    <string name="confirm_cancel_task_images">%1$s को छवि भेजना रद्द करें?</string>
+    <string name="confirm_cancel_task_files">फ़ाइलें भेजना बंद करें?</string>
+    <string name="confirm_cancel_task_images">फ़ोटो भेजना बंद करें?</string>
     <string name="confirm_delete_selected_albums">चुने गए एल्बमों को हटाएं?</string>
     <string name="confirm_download_video_message">इस वीडियो को देखने से पहले इसे पूरी तरह से डाउनलोड करें. वाई-फाई उपलब्ध होने पर डाउनलोड फिर से शुरू हो जाएगा.</string>
     <string name="confirm_download_video_title">वीडियो डाउनलोड करें</string>
@@ -717,13 +725,14 @@
     <string name="confirm_hidden_recommend_group_title">अनुशंसाएं नहीं दिखाएं</string>
     <string name="confirm_hide_selected_albums">चुने गए एल्बमों को छिपाएं?</string>
     <string name="confirm_merge_album_title">आइटमों को मर्ज करें</string>
-    <string name="confirm_merge_face_albums">" "<Data> Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Merge these albums with %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> इस एल्बम को %s के साथ मर्ज करें? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> इन एल्बमों को %s के साथ मर्ज करें? </Data>" "</string>
+    <string name="confirm_no_name_people_merge_tip">इन दो लोगों के फ़ोटो को मिलाए जाने के बाद, इन्हें एक ही व्यक्ति के रूप में पहचाना जाएगा</string>
     <string name="confirm_not_face">कोई मिलान नहीं</string>
-    <string name="confirm_recommandation_face_is">" "<Data> Sure this is &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? This person will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Sure this isn't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Sure these are &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? These people will be moved to \"%2$s\" album. </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Sure these aren't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_face_is">" "<Data> आश्वस्त हैं कि यह &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> है? इस व्यक्ति को\"%2$s\" एल्बम में रख दिया जाएगा. </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> आश्वस्त हैं कि यह &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> नहीं है? </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> आश्वस्त हैं कि ये &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> हैंं? इन लोगों को \"%2$s\" एल्बम में रख दिया जाएगा. </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> आश्वस्त हैं कि ये &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font> नहीं हैं? </Data>" "</string>
     <string name="contact_tip">संपर्क</string>
     <string name="context_menu_add_contact">संपर्क में जोड़ें</string>
     <string name="context_menu_copy">कॉपी करें</string>
@@ -906,6 +915,7 @@
     <string name="empty_description_conditions">ज़रूरत की बातें याद रखें</string>
     <string name="empty_description_conditions_new">चार्जर कनेक्ट करें और आइटम को जल्द दिखाने के लिए स्क्रीन को बंद करें</string>
     <string name="empty_description_no_cards">फ़ोटो लेते रहेंं. आइटम जनरेट होते ही यहां दिखाई देंगे.</string>
+    <string name="empty_description_no_common">पिन किए गए एल्बम यहां दिखाई देंगे</string>
     <string name="empty_description_no_pinned">आइटम को यहां दिखाने के लिए उन्हें पिन करें</string>
     <string name="empty_query_text_msg">समझ नहीं आ रहा क्या खोजूं…</string>
     <string name="empty_recommend_back">वापस</string>
@@ -913,6 +923,7 @@
     <string name="empty_relation">समूह का नाम खाली नहीं रखा जा सकता</string>
     <string name="empty_tip_btn">फ़ोटो खींचें</string>
     <string name="empty_title_no_cards">यादें</string>
+    <string name="empty_title_no_common">कोई आइटम मौजूद नहीं</string>
     <string name="empty_title_no_photos">कोई फ़ोटो या वीडियो नहीं</string>
     <string name="empty_title_no_pinned">कोई भी आइटम पिन नहीं किया गया है</string>
     <string name="enable_auto_upload_tip">इस एल्बम के लिए Xiaomi Cloud से सिंक करना चालू करें?</string>
@@ -1047,9 +1058,14 @@
     <string name="fast_share_auto_render">सुशोभन</string>
     <string name="fast_share_auto_render_finish">सुशोभित</string>
     <string name="father_day">मातृ दिवस</string>
+    <string name="feature_album_empty_subtitle">अपनी आइटमों को व्यवस्थित करने के लिए एल्बम बनाएं</string>
+    <string name="feature_album_empty_title">कोई एल्बम नहीं</string>
+    <string name="feature_create_album">एल्बम बनाएं</string>
     <string name="feature_guidance_photo_effects">"नए फ़ोटो ईफ़ेक्ट्स
 उपलब्ध हैं"</string>
     <string name="feature_guidance_video_editor_smart_effects">नए ईफ़ेक्ट्स उपलब्ध हैं</string>
+    <string name="feature_sticky_empty_subtitle">पहले फ़ोटो खींचें और वीडियो बनाएं या इंपोर्ट करें</string>
+    <string name="feature_sticky_empty_title">कोई फ़ोटो या वीडियो नहीं</string>
     <string name="featured_added_to_top_album">जोड़ दिया गया है</string>
     <string name="featured_change_album_cover">एल्बम का कवर बदलें</string>
     <string name="featured_customize">कस्टमाइज़ करें</string>
@@ -1064,6 +1080,7 @@
     <string name="featured_people_pets_empty_des">क्लाउड से सिंक करना चालू करें और चुनिंदा लोगों, पालतू पशुओं और समूहों को यहां देखने के लिए और ज़्यादा फ़ोटो खींचें</string>
     <string name="featured_people_pets_empty_title">यहां अब तक कोई व्यक्ति या पालतू पशु नहीं है</string>
     <string name="featured_pin_to_collection">विशेष संग्रह में जोड़ें</string>
+    <string name="featured_remove_common_album">पिन हटाया गया</string>
     <string name="featured_remove_top_album">अनपिन कर दिया गया है</string>
     <string name="featured_time_empty_des">डिवाइस चार्ज होने और स्क्रीन बंद होने पर यादें व्यवस्थित की जाएंगी</string>
     <string name="featured_time_empty_title">कोई यादें नहीं हैं</string>
@@ -1143,8 +1160,11 @@
     <string name="friday_short">शुक्र</string>
     <string name="friday_shortest">शुक्र</string>
     <string name="functions_are_being_developed">यह फ़ीचर जल्द ही उपलब्ध होगा. जुड़े रहें!</string>
+    <string name="gallery_common">पिन किया गया</string>
+    <string name="gallery_common_toast_tips">इससे ज़्यादा आइटम पिन नहीं किए जा सकते</string>
     <string name="gallery_pinned">पिन किए गए</string>
     <string name="gallery_pinned_toast_tips">इससे ज़्यादा आइटम जोड़े नहीं जा सकते</string>
+    <string name="gallery_remove_common">पिन हटाएं</string>
     <string name="gallery_remove_pinned">पिन हटाएं</string>
     <string name="gallery_setting">सेटिंग्स</string>
     <string name="gallery_sync_disable_toast">गैलरी के लिए सिंक बंद है</string>
@@ -1252,18 +1272,21 @@
     <string name="home_menu_video_post">वीडियो ईफेक्ट</string>
     <string name="home_page_all_photos">सभी</string>
     <string name="home_page_camera">कैमरा</string>
+    <string name="home_page_checkbox">चेकबॉक्स</string>
     <string name="home_page_custom">कस्टम</string>
     <string name="home_page_custom_drag_description_album">दो बार टैप करें और दबाए रखें, इसके बाद \"एल्बम\" को फिर से व्यवस्थित करने के लिए खींचें.</string>
     <string name="home_page_custom_drag_description_creation">दो बार टैप करें और दबाए रखें, इसके बाद \"क्रिएटिविटी\" को फिर से व्यवस्थित करने के लिए खींचें.</string>
     <string name="home_page_custom_drag_description_journey">दो बार टैप करें और दबाए रखें, इसके बाद \"यात्रा\" को फिर से व्यवस्थित करने के लिए खींचें.</string>
     <string name="home_page_custom_drag_description_more">दो बार टैप करें और दबाए रखें, इसके बाद \"और भी\" को फिर से व्यवस्थित करने के लिए खींचें.</string>
     <string name="home_page_custom_drag_description_people">दो बार टैप करें और दबाए रखें, इसके बाद \"लोग\" को फिर से व्यवस्थित करने के लिए खींचें.</string>
+    <string name="home_page_custom_drag_description_sticky">दो बार टैप करें और दबाए रखें, इसके बाद \"पिन किए गए\" को फिर से व्यवस्थित करने के लिए खींचें.</string>
     <string name="home_page_custom_drag_description_time">दो बार टैप करें और दबाए रखें, इसके बाद \"यादें\" को फिर से व्यवस्थित करने के लिए खींचें.</string>
     <string name="home_page_custom_drag_item_talkback_album">चयनित: एलबम। फिर से व्यवस्थित करने के लिए दबाकर रखें और ऊपर या नीचे ड्रैग करें।</string>
     <string name="home_page_custom_drag_item_talkback_creation">चयनित: क्रिएटिविटी। फिर से व्यवस्थित करने के लिए दबाकर रखें और ऊपर या नीचे ड्रैग करें।</string>
     <string name="home_page_custom_drag_item_talkback_journey">चयनित: यात्राएं। फिर से व्यवस्थित करने के लिए दबाकर रखें और ऊपर या नीचे ड्रैग करें।</string>
     <string name="home_page_custom_drag_item_talkback_more">चयनित: और अधिक। फिर से व्यवस्थित करने के लिए दबाकर रखें और ऊपर या नीचे ड्रैग करें।</string>
     <string name="home_page_custom_drag_item_talkback_people">चयनित: लोग। फिर से व्यवस्थित करने के लिए दबाकर रखें और ऊपर या नीचे ड्रैग करें।</string>
+    <string name="home_page_custom_drag_item_talkback_sticky">चुने गए: पिन किया गया. फिर से व्यवस्थित करने के लिए दबाएं, होल्ड करें और ऊपर या नीचे खींचें.</string>
     <string name="home_page_custom_drag_item_talkback_time">चयनित: यादें। फिर से व्यवस्थित करने के लिए दबाकर रखें और ऊपर या नीचे ड्रैग करें।</string>
     <string name="home_page_custom_save">बदलाव सेव करें</string>
     <string name="home_page_custom_second">आइटमों को फिर से व्यवस्थित करें या कंटेंट छिपाएं</string>
@@ -1280,6 +1303,8 @@
     <string name="homepage_allphotos_tip_dialog_description_only_camera">कैमरा से लिया गया</string>
     <string name="homepage_allphotos_tip_dialog_subtitle">आप यह सेटिंग्स में जाकर बाद में भी कर सकते हैं</string>
     <string name="homepage_allphotos_tip_dialog_title">आप \"फ़ोटो\" में कौन से इमेज देखना चाहते हैं?</string>
+    <string name="honor">Honor</string>
+    <string name="honor_phone">Honor फ़ोन</string>
     <string name="how_to_set_relation">समूह बनाने के लिए किसी एल्बम को दबाकर रखें</string>
     <string name="hr_preview_108m">108MP प्रीव्यू में स्विच किया गया</string>
     <string name="hr_preview_200m">200MP प्रीव्यू में स्विच किया गया</string>
@@ -1770,6 +1795,7 @@
     <string name="operation_export_video">वीडियो के रूप में एक्सपोर्ट करें</string>
     <string name="operation_failed">संचालन पूरी नहीं की जा सकी</string>
     <string name="operation_favorites">पसंदीदा</string>
+    <string name="operation_force_common">पिन लगाएं</string>
     <string name="operation_force_top">पिन लगाएं</string>
     <string name="operation_google_lens">Google लेंस</string>
     <string name="operation_hide">छिपाएं</string>
@@ -1827,6 +1853,8 @@
     <string name="other_album_operation_move_to_rubbish_albums">अनावश्यक एल्बम में मूव करें</string>
     <string name="other_album_operation_remove_from_other_albums">\"अन्य एल्बम\" से निकालें</string>
     <string name="other_settings">अतिरिक्त सेटिंग्स</string>
+    <string name="other_three_group_name">%1$s, %2$s, और %3$s</string>
+    <string name="other_two_group_name">%1$s, %2$s, और %3$s अन्य व्यक्ति</string>
     <string name="owner_album_subtitle">%1$s लोगों के साथ शेयर किया गया</string>
     <string name="pad_device_model_name">Xiaomi Pad</string>
     <string name="pasport_register_dialog_message">अपने फ़ोन नंबर %s से अभी एक Xiaomi खाता बनाएं?</string>
@@ -2045,6 +2073,7 @@
     <string name="photo_page_rotate_screen">स्क्रीन घुमाएं</string>
     <string name="photo_page_save_uri_image_fail">गैलरी में सेव किया नहीं जा सका</string>
     <string name="photo_page_save_uri_image_ok">गैलरी में फ़ोटो सेव किया गया</string>
+    <string name="photo_page_save_uri_image_success">यह इमेज गैलरी में सेव कर दी गई है.</string>
     <string name="photo_print_menu_loading">प्लग-इन लोड कर रहा है…</string>
     <string name="photo_print_package_finish">प्रिंट प्लग-इन को सफलतापूर्वक लोड किया गया</string>
     <string name="photo_print_package_installing">प्रिंट प्लग-इन लोड कर रहा है…</string>
@@ -2120,12 +2149,17 @@
     <string name="picker_title_specify_format_one">%d फ़ोटो चुनें</string>
     <string name="picker_title_unlimit">फ़ोटो चुनें</string>
     <string name="picture_not_support_privacy_watermark">वॉटरमार्क जोड़े नहीं जा सकते. यह इमेज बहुत छोटी है.</string>
+    <string name="pinned_introduction_content">\"पिन किए गए\" में डिफ़ॉल्ट रूप से सभी फ़ोटो, कैमरा शॉट, और स्क्रीनशॉट शामिल हैं. आप तुरंत एक्सेस करने के लिए अन्य एल्बम भी जोड़ सकते हैं.</string>
+    <string name="pinned_introduction_negative_button">ठीक है</string>
+    <string name="pinned_introduction_positive_button">देखें</string>
+    <string name="pinned_introduction_title">आपके कलेक्शन में पिन किए गए आइटम</string>
     <string name="places_album_empty_title">फ़ोटो को स्थान द्वारा सॉर्ट किया जा सकता है</string>
     <string name="play_gif_desc">GIF चलाएं</string>
     <string name="play_video_desc">वीडियो चलाएं</string>
     <string name="pm">PM</string>
     <string name="pref_today_of_year_summary">उन पलों की याद दिलाएं जो आपने कुछ सालों में इसी दिन कैप्चर किए हैं. अगर आप इस फ़ीचर को बंद कर देते हैं, तो पहले से जनरेट की गई यादें गायब नहीं होंगी.</string>
     <string name="preference_copied">\"%1$s\" क्लिपबोर्ड पर कॉपी किया गया.</string>
+    <string name="prepare_contains_dolby_convert">फ़ाइल (Dolby Vision कनवर्ज़न सहित) तैयार की जा रही है…</string>
     <string name="prepare_to_drop">%s में सेव कर रहा है</string>
     <string name="preparing_data">बस एक सेकंड…</string>
     <string name="privacy">गोपनीयता नीति</string>
@@ -3277,6 +3311,7 @@
     <string name="talkback_story_album_playicon">इस मेमोरी को चलाएं</string>
     <string name="talkback_video_with_time">वीडियो, %s</string>
     <string name="talkback_video_with_time_and_location">वीडियो, %1$s, %2$s</string>
+    <string name="tap_share_tips_title">आइटम शेयर करने के लिए दो डिवाइसों के पिछले हिस्से को छुएं</string>
     <string name="terabyteShort">TB</string>
     <string name="text_recognition">टेक्स्ट पहचानें</string>
     <string name="text_segment">फ़ोटो कटआउट</string>
