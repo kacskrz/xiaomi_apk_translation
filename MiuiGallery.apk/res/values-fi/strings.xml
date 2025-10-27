@@ -45,7 +45,7 @@
     <string name="add_automatically_alert_title">Lisää kuvat automaattisesti</string>
     <string name="add_nomedia_with_move_to_rubbish">Lisää \".nomedia\"-tiedostot valittuihin albumeihin saadakseen ne näkymättömiksi muissa sovelluksissa</string>
     <string name="add_remove_nomedia_dialog_message">Lisätäänkö \".nomedia\"-tiedostot valittuihin albumeihin? Muut sovellukset eivät voi nähdä näitä albumeita tämän jälkeen.</string>
-    <string name="add_secret_ensure_message_new">Jos haluat tarkastella yksityisiksi tekemiäsi kohteita, pyyhkäise alas kohdassa Albumit.</string>
+    <string name="add_secret_ensure_message_new">Jos haluat tarkastella yksityisiksi tekemiäsi kohteita, pyyhkäise alas kohdassa Albumit, kunnes näet erillisen kehotteen.</string>
     <string name="add_secret_ensure_title">Yksityinen albumi</string>
     <string name="add_sharer">Lisää jäsen</string>
     <string name="add_to_album">Lisää albumiin</string>
@@ -563,6 +563,8 @@ Liitä laturi ja sammuta näyttö, jotta muistot tulevat näkyviin."</string>
     <string name="cannot_send_message">Viestiä ei voi lähettää</string>
     <string name="cannot_send_message_reason">Ei kelvollisia vastaanottajia</string>
     <string name="card_delete_description">Tämä muisto ei tule näkymään enää. Poistetaanko siitä huolimatta?</string>
+    <string name="card_delete_negative_text">Peruuta</string>
+    <string name="card_delete_positive_text">Poista</string>
     <string name="card_delete_title">Poista muisto</string>
     <string name="card_description_annual_babys">Kasvu koko vuoden edestä</string>
     <string name="card_description_annual_peoples">Kasvot, tarinat, paikat</string>
@@ -1231,7 +1233,7 @@ saatavilla"</string>
     <string name="grant_permission_storage">Salli tämän sovelluksen käyttää tallennustilaa ensin.</string>
     <string name="grant_permission_storage_unlock">Avaa laitteen lukitus ja anna tämän sovelluksen käyttää tallennustilaa ensin.</string>
     <string name="grant_permission_text">Salli Gallerian käyttää kaikkia laitteellasi olevia valokuvia ja videoita. Voit myöntää tämän luvan asetuksista.</string>
-    <string name="grant_permission_title">Sallia pääsy</string>
+    <string name="grant_permission_title">Salli pääsy</string>
     <string name="grant_permission_unlock_and_set">Avaa ja aseta</string>
     <string name="grant_permission_unlock_and_set_2">Avaa lukitus</string>
     <string name="grant_permission_write_clipboard">Jotta voit kopioida kohteita, anna tämän sovelluksen tallentaa kohteet leikepöydälle.</string>
@@ -2090,7 +2092,7 @@ Transkoodaus voi viedä hetken, kun käytät tätä ominaisuutta ensimmäistä k
     <string name="photodetail_failed_already_exist">Tämä tiedosto on jo olemassa</string>
     <string name="photodetail_rename_failed">Ei voitu nimetä uudelleen</string>
     <string name="photodetail_rename_invalid">Tiedostonimet eivät voi sisältää \"%s\". Voit käyttää tiedostojen nimeämiseen englannin kirjaimia, kiinalaisia merkkejä ja numeroita.</string>
-    <string name="photodetail_rename_invalid_prefix">Tiedostonimet eivät voi alkaa merkillä \".\"</string>
+    <string name="photodetail_rename_invalid_prefix">Nimet eivät voi alkaa \"%1$s\"</string>
     <string name="photodetail_rename_success">Nimetty uudelleen onnistuneesti</string>
     <string name="photodetail_rename_title">Nimeä uudelleen</string>
     <string name="photodetail_rename_too_long">Syöttämäsi tiedostonimi on liian pitkä</string>
@@ -2131,7 +2133,7 @@ Transkoodaus voi viedä hetken, kun käytät tätä ominaisuutta ensimmäistä k
     <string name="picker_download_progress_message">Ladataan %1$d/%2$d</string>
     <string name="picker_exit_dialog_cancel_button">Peruuta</string>
     <string name="picker_exit_dialog_confirm_button">Jatka</string>
-    <string name="picker_exit_dialog_message">Kaikki tallentamattomat muutokset menentetään, jos jatkat. Jatka siitä huolimatta?</string>
+    <string name="picker_exit_dialog_message">Kaikki tallentamattomat muutokset menetetään, jos jatkat. Jatka siitä huolimatta?</string>
     <string name="picker_exit_dialog_title">Hylkää muutokset</string>
     <string name="picker_full_format">Voit valita enintään %d valokuvaa</string>
     <string name="picker_image_need_download">%d valitusta valokuvasta ei ole laitteessa. Ladataanko mobiilidatalla?</string>
@@ -3252,6 +3254,8 @@ Transkoodaus voi viedä hetken, kun käytät tätä ominaisuutta ensimmäistä k
     <string name="story_option_menu_delete">Poista muisto</string>
     <string name="story_photo_downloading">Ladataan kohteita…</string>
     <string name="story_remove_confirm_message">Poistetut kohteet eivät enää näy tässä muistissa.</string>
+    <string name="story_remove_confirm_positive">Poista</string>
+    <string name="story_remove_confirm_title">Poistetaan kuvia</string>
     <string name="story_rename_invalid_char">Muiston nimike ei voi sisältää \"%s\". Käytä kirjaimia, numeroita ja kiinalaisia merkkejä.</string>
     <string name="story_rename_invalid_prefix">Muiston nimike ei voi alkaa merkillä \".\" tai \"_\"</string>
     <string name="str_scan_form">Tunnista taulukko</string>
@@ -3553,7 +3557,7 @@ Transkoodaus voi viedä hetken, kun käytät tätä ominaisuutta ensimmäistä k
     <string name="video_compress_not_with_format">Videon pakkaamista ei tueta tässä formaatissa</string>
     <string name="video_compress_not_with_low_quality">Nykyinen resoluutio on alhaisin</string>
     <string name="video_compress_save_stop_tips">Lopeta pakkaaminen napauttamalla uudelleen</string>
-    <string name="video_compress_size">≈%s pakkaamisen jälkeen</string>
+    <string name="video_compress_size">(≈%s pakkaamisen jälkeen)</string>
     <string name="video_edit_file_not_exits_tip">Lataa video ensin</string>
     <string name="video_editor_component_delete_btn_content_description">Poista segmentti %d</string>
     <string name="video_editor_component_next_step">Seuraava %1$d/%2$d</string>

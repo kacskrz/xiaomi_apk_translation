@@ -45,7 +45,7 @@
     <string name="add_automatically_alert_title">写真を自動的に追加</string>
     <string name="add_nomedia_with_move_to_rubbish">\".nomedia\" ファイルを選択したアルバムに追加して、他のアプリから見えないようにする</string>
     <string name="add_remove_nomedia_dialog_message">\".nomedia\" ファイルを選択したアルバムに追加しますか？追加後、他のアプリはこれらのアルバムを見ることができなくなります。</string>
-    <string name="add_secret_ensure_message_new">プライベートに設定したアイテムを表示するには、\"アルバム\"で下にスワイプします。</string>
+    <string name="add_secret_ensure_message_new">非公開にしたアイテムを表示するには、「アルバム」で専用のプロンプトが表示されるまでスワイプダウンしてください。</string>
     <string name="add_secret_ensure_title">プライベートアルバム</string>
     <string name="add_sharer">メンバーを追加</string>
     <string name="add_to_album">アルバムに追加</string>
@@ -563,6 +563,8 @@
     <string name="cannot_send_message">メッセージを送信できません</string>
     <string name="cannot_send_message_reason">有効な受信者がありません</string>
     <string name="card_delete_description">この思い出は表示されなくなります。削除してもよろしいですか？</string>
+    <string name="card_delete_negative_text">キャンセル</string>
+    <string name="card_delete_positive_text">削除</string>
     <string name="card_delete_title">思い出を削除</string>
     <string name="card_description_annual_babys">成長する一年</string>
     <string name="card_description_annual_peoples">顔、物語、場所</string>
@@ -2090,7 +2092,7 @@
     <string name="photodetail_failed_already_exist">このファイルは既に存在します</string>
     <string name="photodetail_rename_failed">名前を変更できませんでした</string>
     <string name="photodetail_rename_invalid">ファイル名に\"%s\"は使用できません。ファイル名には英字、漢字、数字を使用することができます。</string>
-    <string name="photodetail_rename_invalid_prefix">ファイル名は\".\"で始めることはできません。</string>
+    <string name="photodetail_rename_invalid_prefix">名前を「%1$s」で始めることはできません</string>
     <string name="photodetail_rename_success">名前が変更されました</string>
     <string name="photodetail_rename_title">名前の変更</string>
     <string name="photodetail_rename_too_long">入力したファイル名が長すぎます</string>
@@ -3230,7 +3232,7 @@
     <string name="storage_description_usb">USBストレージ</string>
     <string name="storage_description_xspace">デュアルアプリデータ</string>
     <string name="storage_no_space">空き容量が足りません</string>
-    <string name="story_action_remove">削除</string>
+    <string name="story_action_remove">取り除く</string>
     <string name="story_back_stop_download">もう一度タップすると、ダウンロードを停止します</string>
     <string name="story_cancel_download">キャンセル</string>
     <string name="story_card_title">思い出</string>
@@ -3251,7 +3253,9 @@
     <string name="story_guide_tip_revisit_title">最高の瞬間を思い出す</string>
     <string name="story_option_menu_delete">思い出を削除</string>
     <string name="story_photo_downloading">アイテムをダウンロード中…</string>
-    <string name="story_remove_confirm_message">削除されたアイテムは、このメモリに再び表示されません。</string>
+    <string name="story_remove_confirm_message">取り除かれたアイテムは、このメモリに再び表示されません。</string>
+    <string name="story_remove_confirm_positive">取り除く</string>
+    <string name="story_remove_confirm_title">写真を取り除く</string>
     <string name="story_rename_invalid_char">思い出のタイトルに \"%s\" は使用できません。文字、数字、および漢字を使用してください。</string>
     <string name="story_rename_invalid_prefix">思い出のタイトルは \".\" または \"_\" で開始できません</string>
     <string name="str_scan_form">表を認識</string>
@@ -3553,7 +3557,7 @@
     <string name="video_compress_not_with_format">この形式ではビデオの圧縮はサポートされていません</string>
     <string name="video_compress_not_with_low_quality">現在の解像度は最低です</string>
     <string name="video_compress_save_stop_tips">もう一度タップして圧縮を停止</string>
-    <string name="video_compress_size">圧縮後約%s</string>
+    <string name="video_compress_size">(圧縮後約%s)</string>
     <string name="video_edit_file_not_exits_tip">まずビデオをダウンロードしてください</string>
     <string name="video_editor_component_delete_btn_content_description">セグメント %d を削除</string>
     <string name="video_editor_component_next_step">次へ %1$d/%2$d</string>
