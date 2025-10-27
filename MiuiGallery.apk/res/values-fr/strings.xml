@@ -45,7 +45,7 @@
     <string name="add_automatically_alert_title">Ajouter automatiquement les photos</string>
     <string name="add_nomedia_with_move_to_rubbish">Ajoutez des fichiers \".nomedia\" aux albums sélectionnés pour les rendre invisibles aux autres applications</string>
     <string name="add_remove_nomedia_dialog_message">Ajouter des fichiers \".nomedia\" aux albums sélectionnés? Les autres applications ne pourront plus voir ces albums après cela.</string>
-    <string name="add_secret_ensure_message_new">Pour afficher les éléments que vous avez rendus privés, balayez vers le bas dans « Albums ».</string>
+    <string name="add_secret_ensure_message_new">"Pour afficher les éléments que vous avez rendus privés, balayez vers le bas dans « Albums » jusqu'à ce que vous voyiez un message."</string>
     <string name="add_secret_ensure_title">Album privé</string>
     <string name="add_sharer">Ajouter un membre</string>
     <string name="add_to_album">"Ajouter à l'album"</string>
@@ -563,6 +563,8 @@ le/la %4$s de %3$s partage l'album de %5$s avec vous"</string>
     <string name="cannot_send_message">"Impossible d'envoyer le message."</string>
     <string name="cannot_send_message_reason">Destinataire non valide</string>
     <string name="card_delete_description">"Ce souvenir n'apparaîtra plus. Supprimer quand même?"</string>
+    <string name="card_delete_negative_text">Annuler</string>
+    <string name="card_delete_positive_text">Supprimer</string>
     <string name="card_delete_title">Supprimer le souvenir</string>
     <string name="card_description_annual_babys">Une année entière de croissance</string>
     <string name="card_description_annual_peoples">Visages, histoires, lieux</string>
@@ -1265,7 +1267,7 @@ sont disponibles"</string>
     <string name="home_menu_composite_video">Créer une vidéo</string>
     <string name="home_menu_id_photo">Identifiant</string>
     <string name="home_menu_macarons">Vignette magique</string>
-    <string name="home_menu_magic_matting">Couper</string>
+    <string name="home_menu_magic_matting">Détourage</string>
     <string name="home_menu_photo_movie">Clip</string>
     <string name="home_menu_print">Imprimer des photos</string>
     <string name="home_menu_trash">@string/trash_bin</string>
@@ -1296,7 +1298,7 @@ sont disponibles"</string>
     <string name="home_page_featured_empty_title_second">Personnalisez ci-dessous pour démasquer certains éléments</string>
     <string name="home_page_label">Photos</string>
     <string name="home_sdcard_op_tip_msg">Impossible de terminer cette action pour toutes les images sélectionnées. Démontez et remontez à nouveau votre carte SD.</string>
-    <string name="home_sdcard_tip_msg">Il semble que votre carte SD est en lecture seule. Démontez-la et remontez-la à nouveau dans Paramètres > A propos du téléphone > Stockage.</string>
+    <string name="home_sdcard_tip_msg">Il semble que votre carte SD est en lecture seule. Démontez-la et remontez-la à nouveau dans Paramètres > À propos du téléphone > Stockage.</string>
     <string name="homepage_allphotos_tip_dialog_button_negative">Passer</string>
     <string name="homepage_allphotos_tip_dialog_button_positive">OK</string>
     <string name="homepage_allphotos_tip_dialog_description_all">Toutes</string>
@@ -1463,10 +1465,10 @@ sont disponibles"</string>
     <string name="magic_matting_download_failed_for_notwork">Impossible de télécharger. Vérifiez vos paramètres de réseau et réessayez.</string>
     <string name="magic_matting_download_sdk_without_wifi_msg">"Il semble que votre appareil n'est pas connecté au Wi-Fi. Télécharger le plug-in en utilisant les données mobiles?"</string>
     <string name="magic_matting_download_sdk_without_wifi_msg_china">"Il semble que votre appareil n'est pas connecté au Wi-Fi. Télécharger le plug-in en utilisant les données mobiles ?"</string>
-    <string name="magic_matting_download_sdk_without_wifi_title">Télécharger le plug-in \"Couper\"</string>
+    <string name="magic_matting_download_sdk_without_wifi_title">Télécharger le plug-in \"Détourage\"</string>
     <string name="magic_matting_load_data_fail">Impossible de charger les données</string>
-    <string name="magic_matting_module_finish">Le plug-in \"Couper\" a été téléchargé avec succès</string>
-    <string name="magic_matting_module_loading">Téléchargement du plug-in \"Couper\"…</string>
+    <string name="magic_matting_module_finish">Le plug-in \"Détourage\" a été téléchargé avec succès</string>
+    <string name="magic_matting_module_loading">Téléchargement du plug-in \"Détourage\"…</string>
     <string name="main_save_error_msg">"Impossible d'enregistrer les modifications en raison d'une erreur"</string>
     <string name="manager_backup">Gérer</string>
     <string name="manual_hide_manage">Ajouter des fichiers \".nomedia\"</string>
@@ -2090,7 +2092,7 @@ Le transcodage peut prendre un certain temps lorsque vous utilisez cette fonctio
     <string name="photodetail_failed_already_exist">Ce fichier existe déjà</string>
     <string name="photodetail_rename_failed">Impossible de renommer</string>
     <string name="photodetail_rename_invalid">Les noms de fichiers ne peuvent pas contenir \"%s\". Vous pouvez utiliser des lettres anglaises, des caractères chinois et des chiffres pour nommer des fichiers.</string>
-    <string name="photodetail_rename_invalid_prefix">Les noms de fichiers ne peuvent pas commencer par \".\"</string>
+    <string name="photodetail_rename_invalid_prefix">Les noms ne peuvent pas commencer par « %1$s »</string>
     <string name="photodetail_rename_success">Renommé avec succès</string>
     <string name="photodetail_rename_title">Renommer</string>
     <string name="photodetail_rename_too_long">Le nom du fichier que vous avez entré est trop long</string>
@@ -3252,6 +3254,8 @@ Jusqu'au%1$s, vous pouvez déplacer vos éléments vers Google Photos ou visiter
     <string name="story_option_menu_delete">Supprimer le souvenir</string>
     <string name="story_photo_downloading">"Téléchargement d'éléments…"</string>
     <string name="story_remove_confirm_message">"Les éléments supprimés n'apparaîtront plus dans cette mémoire."</string>
+    <string name="story_remove_confirm_positive">Supprimer</string>
+    <string name="story_remove_confirm_title">Retirer les photos</string>
     <string name="story_rename_invalid_char">"Impossible d'utiliser \"%s\" dans le titre d'un souvenir. Utilisez des lettres, des chiffres et des caractères chinois."</string>
     <string name="story_rename_invalid_prefix">Impossible de démarrer les titres de souvenirs avec \".\" ou \"_\"</string>
     <string name="str_scan_form">Reconnaitre le tableau</string>
@@ -3314,7 +3318,7 @@ Jusqu'au%1$s, vous pouvez déplacer vos éléments vers Google Photos ou visiter
     <string name="tap_share_tips_title">"Touchez l'arrière de deux appareils ensemble pour partager des éléments"</string>
     <string name="terabyteShort">To</string>
     <string name="text_recognition">Reconnaitre le texte</string>
-    <string name="text_segment">Photo découpée</string>
+    <string name="text_segment">Détourage de photo</string>
     <string name="thanksgiving_day">Thanksgiving</string>
     <string name="the_anniversary_of_lifting_martial_law">Anniversaire de la Levée de la Loi Martiale</string>
     <string name="the_anti_aggression_day">Journée Anti-agression</string>
@@ -3553,7 +3557,7 @@ Jusqu'au%1$s, vous pouvez déplacer vos éléments vers Google Photos ou visiter
     <string name="video_compress_not_with_format">"La compression vidéo n'est pas prise en charge pour ce format"</string>
     <string name="video_compress_not_with_low_quality">La résolution actuelle est la plus basse</string>
     <string name="video_compress_save_stop_tips">Appuyez à nouveau pour arrêter la compression</string>
-    <string name="video_compress_size">≈%s après compréssion</string>
+    <string name="video_compress_size">(≈%s après compression)</string>
     <string name="video_edit_file_not_exits_tip">"Télécharger d'abord la vidéo"</string>
     <string name="video_editor_component_delete_btn_content_description">Retirer le segment %d</string>
     <string name="video_editor_component_next_step">Prochain %1$d/%2$d</string>
