@@ -66,7 +66,7 @@
     <string name="catch_full_log_dump_hprof_failed">Nepodarilo sa vygenerovať záznam o laggovaní</string>
     <string name="catch_full_log_item_content_catching">Generujú sa logy…</string>
     <string name="catch_full_log_item_content_need_open">"%1$d. Pre zahájenie generovania logov ťuknite na \"Spustiť\".
-%2$d. Vykonajte kroky vedúce k chybe až po samotnú chybu.
+%2$d. Vykonajte kroky vedúce k problému a problém samotný.
 %3$d.Vráťte sa na túto stránku a ťuknite na \"Dokončiť a nahrať\"."</string>
     <string name="catch_full_log_item_content_title">Ako generovať logy</string>
     <string name="catch_full_log_item_title_audio">Zvuky a nahrávanie hovorov</string>
@@ -82,11 +82,12 @@
     <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_not_show_again">Viac nezobrazovať</string>
     <string name="catch_full_log_note_affect_performance_decription">Zda sa, že proces generovania logov trval dlhšie ako %d hod. Ak sa tento proces dokončil môžete odoslať spätnú väzbu. V opačnom prípade môže proces zrušiť alebo pokračovať, ale pokračovanie môže mať dočasný vplyv na výkon zariadenia.</string>
-    <string name="catch_full_log_note_affect_performance_description">Zdá sa, že ste zaznamenávali protokoly viac ako %d hodinu. Tento proces môže využívať veľa úložného priestoru a ovplyvňovať výkon vášho zariadenia. Ak sa vám nepodarilo problém reprodukovať, zrušte tento proces.</string>
+    <string name="catch_full_log_note_affect_performance_description">Generovanie logov prebieha už viac ako %d hodinu. Dlhodobé vykonávanie tohto procesu môže mať vplyv na úložisko a výkon vášho zariadenia. Tento proces môžete zrušiť, pokračovať v generovaní logov alebo zastaviť a odoslať spätnú väzbu.</string>
     <string name="catch_full_log_note_cancel_catch">Zrušiť</string>
+    <string name="catch_full_log_note_cancel_catch_reason">Zrušiť</string>
     <string name="catch_full_log_note_catch">Generovanie logov</string>
     <string name="catch_full_log_note_decription">Zdá sa, že sa generujú logy. Po dokončení procesu môžete odoslať spätnú väzbu. V opačnom prípade pokračujte alebo proces zrušte.</string>
-    <string name="catch_full_log_note_description">Zdá sa, že stále zachytávate logy. Tento proces môže využívať veľa úložného priestoru a ovplyvňovať výkon vášho zariadenia. Ak sa vám nepodarilo problém reprodukovať, zrušte tento proces.</string>
+    <string name="catch_full_log_note_description">Generovanie logov prebieha už viac ako %d minút. Dlhodobé vykonávanie tohto procesu môže mať vplyv na úložisko a výkon vášho zariadenia. Tento proces môžete zrušiť, pokračovať v generovaní logov alebo zastaviť a odoslať spätnú väzbu.</string>
     <string name="catch_full_log_note_still_catch">Pokračovať</string>
     <string name="catch_full_log_note_title">Služby a spätná väzba</string>
     <string name="catch_full_log_note_to_commit">Odoslať spätnú väzbu</string>
@@ -152,6 +153,11 @@
     <string name="device_not_found">Žiadne pripojené zariadenia</string>
     <string name="device_not_found_tips">Uistite sa, že ostatné zariadenia sú prihlásené do vášho konta Xiaomi</string>
     <string name="device_tips">Výber pripojených zariadení nám pomôže rýchlejšie analyzovať problém. Môžete odosielať logy z tohto zariadenia aj z vybraných zariadení.</string>
+    <string name="dfs_log_catch_dialog_commit">Odoslať spätnú väzbu</string>
+    <string name="dfs_log_catch_dialog_message">V súčasnosti sa generujú logy pre problém, ktorý ste nahlásili zákazníckemu servisu. Chcete zastaviť generovanie týchto logov a odoslať spätnú väzbu k inému problému?</string>
+    <string name="dfs_log_catch_dialog_title">Generovanie logov</string>
+    <string name="dfs_log_catch_note_to_commit">Zastaviť</string>
+    <string name="dfs_log_catch_notification">Ak sa problém už podarilo reprodukovať, zastavte generovanie logov a ťuknutím odošlite spätnú väzbu.</string>
     <string name="discard_draft_dialog_button_cancel">Zostať</string>
     <string name="discard_draft_dialog_button_discard">Zahodiť</string>
     <string name="discard_draft_dialog_content">Akékoľvek vykonané zmeny sa zrušia.</string>
@@ -191,7 +197,7 @@
     <string name="evening">Popoludní</string>
     <string name="expand_button_title">Rozšírené</string>
     <string name="failed_to_fetch_fql">Nie je možné získať informácie o častých otázkach. Skontrolujte sieťové pripojenie</string>
-    <string name="feedback_account_inconsistent_login_hint">Zdá sa, že ste prepli kontá. Prihláste sa do svojho predchádzajúceho Xiaomi konta.</string>
+    <string name="feedback_account_inconsistent_login_hint">Zdá sa, že ste prepli kontá. Prihláste sa do svojho predchádzajúceho Xiaomi Konta.</string>
     <string name="feedback_account_login_hint">Prihláste sa do Xiaomi konta!</string>
     <string name="feedback_answer_detail_feedback_resolved">Áno</string>
     <string name="feedback_answer_detail_feedback_result">Ďakujeme za spätnú väzbu!</string>
@@ -250,7 +256,7 @@
     <string name="feedback_evaluation_success_dialog_content">Ďakujeme za spätnú väzbu!</string>
     <string name="feedback_evaluation_success_dialog_title">Úspešne ohodnotené</string>
     <string name="feedback_guess">Náš tip:</string>
-    <string name="feedback_history_remind_login_desc">Prihláste sa pod svojim Xiaomi kontom pre zobrazenie podrobností a stavu vašich nahlásených chýb</string>
+    <string name="feedback_history_remind_login_desc">Prihláste sa pod svojim Xiaomi kontom pre zobrazenie podrobností a stavu vami nahlásených chýb</string>
     <string name="feedback_id">ID: %d</string>
     <string name="feedback_jira_key">JIRA kľúč: %s</string>
     <string name="feedback_jira_key_place_holder">Vytvára sa Jira…</string>
@@ -293,6 +299,7 @@
     <string name="feedback_status_recorded">Prijatá spätná väzba</string>
     <string name="feedback_status_replyed">Odpovedané</string>
     <string name="feedback_status_reresolved">Vyriešené</string>
+    <string name="feedback_status_reupload_talkback">Nahrať znova</string>
     <string name="feedback_status_save_log_info_failed">URL prílohy nie je možné zmeniť</string>
     <string name="feedback_status_submit_attachment">Príloha úspešne priložená</string>
     <string name="feedback_status_submit_bbs_failed">Nepodarilo sa odoslať obsah spätnej väzby</string>
@@ -377,8 +384,8 @@
     <string name="i_get_it">Rozumiem</string>
     <string name="icon_add_description">Pridať odkaz na Domovskú obrazovku</string>
     <string name="icon_remove_confirm">Odstrániť</string>
-    <string name="icon_remove_description_content">„Služby a spätná väzba\" je systémová aplikácia. Aplikáciu budete môcť stále používať cez Nastavenia aj po tom, ako ju odstránite z domovskej obrazovky.</string>
-    <string name="icon_remove_description_title">Odstrániť \"Služby a spätnú väzbu\" z Domovskej obrazovky?</string>
+    <string name="icon_remove_description_content">„Služby a spätná väzba” je systémová aplikácia. Aplikáciu budete môcť stále používať cez Nastavenia aj po tom, ako ju odstránite z domovskej obrazovky.</string>
+    <string name="icon_remove_description_title">Odstrániť „Služby a spätnú väzbu” z domovskej obrazovky?</string>
     <string name="issue_search">Vyhľadať</string>
     <string name="jump_full_log_dialog_cancel">Zrušiť</string>
     <string name="jump_full_log_dialog_confirm">Generovať</string>
@@ -409,7 +416,7 @@
     <string name="menu_copy">Kopírovať</string>
     <string name="message_label">Správa</string>
     <string name="mi_service_app_name">Služby a spätná väzba</string>
-    <string name="mi_service_back">Naspäť</string>
+    <string name="mi_service_back">Späť</string>
     <string name="mi_service_dialog_cancel">Koniec</string>
     <string name="mi_service_dialog_confirm">Otvoriť</string>
     <string name="mi_service_dialog_content">Všetky funkcie spätnej väzby boli presunuté do novej aplikácie \"Služby a spätná väzba\". Aplikácia Spätnej väzby bude odstránená z Domovskej obrazovky. Ťuknite na \"Otvoriť\" a vyskúšajte aplikáciu \"Služby a spätná väzba\".</string>
@@ -446,7 +453,7 @@
     <string name="miui_feedback_edit_mobile_data_note_dialog_cancel">Čakať na Wi-Fi</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_confirm">Nahrať</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_content">Zdá sa, že ste pripojený k spoplatnenej sieti. Načítavanie záznamov môže generovať dodatočné poplatky.</string>
-    <string name="miui_feedback_edit_mobile_data_note_dialog_title">Upozornenie o využívaní dát</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_title">Upozornenie na spotrebu dát</string>
     <string name="miui_feedback_edit_need_phone_state_permission">Povoliť aplikácii prístup k informáciám o zariadení a povoliť čítať IMEI, čo pomôže lokalizovať problémy. Pre otvorenie Nastavení ťuknite na \"OK\".</string>
     <string name="miui_feedback_edit_need_storage_permission">Povoliť aplikácii prístup k úložisku zariadenia pre možnosť prikladania obrázkov a videí ku vašej spätnej väzbe. Pre otvorenie Nastavení ťuknite na \"OK\".</string>
     <string name="miui_feedback_edit_permission_denied_title">Zakázané oprávnenia: %1$s</string>
@@ -472,8 +479,8 @@
     <string name="miui_feedback_edit_storage_permission_name">Prístup k úložisku zariadenia</string>
     <string name="miui_feedback_edit_submit_dialog_cancel">Nesúhlasím</string>
     <string name="miui_feedback_edit_submit_dialog_confirm">Súhlasím</string>
-    <string name="miui_feedback_edit_submit_dialog_content">"&lt;Data>You must agree to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a> to be able to use Feedback. The issues you report along with the items you attach (might contain personal information, as well as the information about your device and network) will be uploaded to MIUI's servers. This will help us locate and solve the problems you report.&lt;/Data>"</string>
-    <string name="miui_feedback_edit_submit_dialog_content_global">"&lt;Data>Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers. Logs may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a>.&lt;/Data>"</string>
+    <string name="miui_feedback_edit_submit_dialog_content"><Data>Ak chcete používať nástroj Spätná väzba, musíte odsúhlasiť naše &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Podmienky používania&lt;/a>. Problémy, ktoré nahlasujete, spolu s položkami, ktoré priložíte (môžu obsahovať osobné informácie, ako aj informácie o vašom zariadení a sieti), sa nahrajú na severy MIUI. Pomôže nám to nájsť a vyriešiť problémy, ktoré nahlásite.</Data></string>
+    <string name="miui_feedback_edit_submit_dialog_content_global"><Data>Vaša spätná väzba spolu s prílohami (ak ste nejaké priložili) a denníkmi (môžete zrušiť začiarknutie zodpovedajúcich políčok pre položky, ktoré nechcete nahrať) sa odošlú na servery MIUI. Denníky môžu obsahovať osobné informácie a údaje o vašej polohe. Výber možnosti Súhlasím znamená, že ste si prečítali naše &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Zásady ochrany osobných údajov&lt;/a> a &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Podmienky používania&lt;/a> a súhlasíte s nimi.</Data></string>
     <string name="miui_feedback_edit_submit_dialog_not_show_again">Viac nezobrazovať</string>
     <string name="miui_feedback_edit_submit_dialog_title">Odoslať hlásenie</string>
     <string name="miui_feedback_edit_submit_directly">Odoslať</string>
@@ -620,8 +627,8 @@ E-mail: service.jp@xiaomi.com"</string>
     <string name="net_diag_continue">Pokračovať</string>
     <string name="net_diag_diag_fail">Problém sa nepodarilo diagnostikovať. Skontrolujte stav pripojenia siete Wi-Fi.</string>
     <string name="net_diag_diag_fail_china">Problém sa nepodarilo diagnostikovať. Skontrolujte stav pripojenia siete WLAN.</string>
-    <string name="net_diag_dialog_msg">Vykonanie testu Wi-Fi môže pomôcť analyzovať a odstrániť problémy s pripojením. V priebehu testu môže dochádzať k automatickému zapínaniu a vypínaniu Wi-Fi a hotspotov.</string>
-    <string name="net_diag_dialog_msg_china">Vykonanie testu WLAN môže pomôcť analyzovať a odstrániť problémy s pripojením. V priebehu testu môže dochádzať k automatickému zapínaniu a vypínaniu WLAN a hotspotov.</string>
+    <string name="net_diag_dialog_msg">Vykonanie testu Wi-Fi môže pomôcť analyzovať a odstrániť problémy s pripojením. V priebehu testu môže dochádzať k automatickému zapínaniu a vypínaniu siete Wi-Fi a hotspotov.</string>
+    <string name="net_diag_dialog_msg_china">Vykonanie testu WLAN môže pomôcť analyzovať a odstrániť problémy s pripojením. V priebehu testu môže dochádzať k automatickému zapínaniu a vypínaniu siete WLAN a hotspotov.</string>
     <string name="net_diag_dialog_no">Nie</string>
     <string name="net_diag_dialog_title">Otestovať Wi-Fi teraz?</string>
     <string name="net_diag_dialog_title_china">Otestovať WLAN teraz?</string>
@@ -649,9 +656,9 @@ E-mail: service.jp@xiaomi.com"</string>
     <string name="net_diag_title_china">Otestovať WLAN</string>
     <string name="net_diag_toast_cellular_data">Pre testovanie siete najprv vypnite mobilné dáta.</string>
     <string name="net_diag_toast_other_networks">Ak chcete otestovať sieť, najprv sa pripojte k sieti Wi-Fi a odpojte sa od ostatných sietí.</string>
-    <string name="net_diag_toast_other_networks_china">To test network, connect to WLAN and disconnect from other networks first.</string>
+    <string name="net_diag_toast_other_networks_china">Ak chcete otestovať sieť, najprv sa pripojte k sieti WLAN a odpojte sa od ostatných sietí.</string>
     <string name="net_diag_toast_wifi_disconnected">Pre testovanie siete sa najprv pripojte k sieti Wi-Fi.</string>
-    <string name="net_diag_toast_wifi_disconnected_china">To test network, connect to WLAN first.</string>
+    <string name="net_diag_toast_wifi_disconnected_china">Pre testovanie siete sa najprv pripojte k sieti WLAN.</string>
     <string name="net_diag_wlan_basic_functions">Základné funkcie Wi-Fi</string>
     <string name="net_diag_wlan_basic_functions_china">Základné funkcie WLAN</string>
     <string name="net_error_info">Žiadne sieťové pripojenie, ťuknite sem na prechod do Nastavení</string>
@@ -756,7 +763,7 @@ E-mail: service.jp@xiaomi.com"</string>
     <string name="passport_wrong_vcode">Zadaný kód je nesprávny</string>
     <string name="passport_wrong_voice">Zadaný kód je nesprávny</string>
     <string name="permission_agree">Súhlasím</string>
-    <string name="permission_china_version_msg">&lt;Data>Pred používaním \"Služieb a spätnej väzby\" si musíte prečítať a súhlasiť s našimi zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>. Táto aplikácia si tiež pre správne fungovanie vyžaduje pripojenie na internet.&lt;/Data></string>
+    <string name="permission_china_version_msg"><Data>Pred používaním \"Služieb a spätnej väzby\" si musíte prečítať a súhlasiť s našimi zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>. Táto aplikácia si tiež pre správne fungovanie vyžaduje pripojenie na internet.</Data></string>
     <string name="permission_complete">Hotovo</string>
     <string name="permission_contacts_info">Informácie o prístupe ku kontu</string>
     <string name="permission_contacts_introduce">Na prihlasovanie pomocou Xiaomi konta</string>
@@ -768,12 +775,12 @@ E-mail: service.jp@xiaomi.com"</string>
     <string name="permission_imei_disable_desc">Povoľte tejto aplikácii pripojenie na internet.</string>
     <string name="permission_imei_enable_desc">Povoľte tejto aplikácii pripojenie na internet a udeľte povinné povolenia akú sú uvedené vyššie.</string>
     <string name="permission_location_introduce">Pre zobrazovanie servisných centier v okolí</string>
-    <string name="permission_main_purpose">Zobrazovanie demo funkcií systému, odosielanie spätnej väzby a používanie po predajných služieb.</string>
+    <string name="permission_main_purpose">Zobrazovanie demo funkcií systému, odosielanie spätnej väzby a používanie popredajných služieb.</string>
     <string name="permission_privacy">Zásady ochrany osobných údajov (povinné)</string>
-    <string name="permission_region_version_msg">&lt;Data>Pred používaním \"Služieb a spätnej väzby\" si musíte prečítať a súhlasiť s našimi zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>.&lt;/Data></string>
+    <string name="permission_region_version_msg"><Data>Pred používaním \"Služieb a spätnej väzby\" si musíte prečítať a súhlasiť s našimi zmluvami &lt;a href=%1$s>Podmienky používania&lt;/a> a &lt;a href=%2$s>Zásady ochrany osobných údajov&lt;/a>.</Data></string>
     <string name="permission_select_all">Vybrať všetko</string>
     <string name="permission_storage">Úložisko</string>
-    <string name="permission_storage_introduce">Pre ukladanie položiek na vaše zariadenie</string>
+    <string name="permission_storage_introduce">Pre ukladanie položiek do vášho zariadenia</string>
     <string name="permission_user_protocol">Podmienky používania (povinné)</string>
     <string name="please_download_gallery">Pre zobrazenie nainštalujte Galériu</string>
     <string name="pm">pop.</string>
@@ -788,11 +795,11 @@ Pred tým, ako budete pokračovať si prečítajte a vyjadrite váš súhlas s n
     <string name="progressbar_title">Kontrolujú sa problémy so zabezpečením…</string>
     <string name="public_authorize_now">Nastavenia</string>
     <string name="public_loading_text">Malý moment…</string>
-    <string name="public_net_error_retry">Skúste to znovu</string>
-    <string name="public_net_error_sub_title">Skontrolujte nastavenie siete a skúste to znovu</string>
+    <string name="public_net_error_retry">Skúste to znova</string>
+    <string name="public_net_error_sub_title">Skontrolujte nastavenia siete a skúste to znova</string>
     <string name="public_net_error_title">Nepodarilo sa pripojiť k sieti</string>
-    <string name="public_open_feedback_service">Spustiť</string>
-    <string name="public_please_authorize">Pre pokračovanie sú potrebné povolenia</string>
+    <string name="public_open_feedback_service">Štart</string>
+    <string name="public_please_authorize">Na pokračovanie sú potrebné povolenia</string>
     <string name="public_welcome_use_feedback_service">Vitajte v Službách a spätnej väzbe! Túto aplikáciu môžete použiť na odoslanie spätnej väzby, zobrazenie často kladených otázok, žiadosti o vrátenie a výmenu produktov a viac.</string>
     <string name="refresh">Obnoviť</string>
     <string name="related_question_answer_details">Súvisiaci problém</string>
@@ -971,6 +978,6 @@ Veľkosť: %2$s"</string>
     <string name="withdraw_consent_failed_hint">Vyskytla sa chyba servera. Chvíľu počkajte a skúste to znova.</string>
     <string name="withdraw_consent_failed_hint_connect_net">Pre odvolanie súhlasu sa musí vaše zariadenie pripojiť k sieti. Skontrolujte svoje sieťové nastavenia a skúste to znova.</string>
     <string name="withdraw_consent_hint">Ak budete pokračovať, odvoláte svoj súhlas so Zásadami ochrany osobných údajov aplikácie %1$s. Osobné údaje, ktoré už boli zhromaždené a uchované, budú v rámci stanoveného obdobia vymazané v súlade s platnými zákonmi a predpismi, pokiaľ nie je požadované inak. Pretože aplikácia %2$s poskytuje svoje služby na základe zhromažďovania potrebných osobných údajov, vaše odvolanie súhlasu sa bude považovať za odmietnutie prijatia služieb aplikácie %3$s. Odvolať váš súhlas teraz?</string>
-    <string name="withdrawing">Odvoláva sa súhlas…</string>
+    <string name="withdrawing">Odvolávanie súhlasu…</string>
     <string name="yesterday">Včera</string>
 </resources>

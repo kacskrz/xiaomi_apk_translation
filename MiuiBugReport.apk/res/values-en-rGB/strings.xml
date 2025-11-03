@@ -82,11 +82,12 @@
     <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_not_show_again">"Don't show again"</string>
     <string name="catch_full_log_note_affect_performance_decription">It looks like the log generation process has lasted more than %d hour. If this process has finished, you can send feedback. Otherwise, you can cancel the process or continue, but continuing may temporarily affect your device capabilities.</string>
-    <string name="catch_full_log_note_affect_performance_description">"Looks like you've been capturing logs for more than %d hour. This process may use a lot of storage and affect your device's performance. If you haven't been able to reproduce the problem, cancel this process."</string>
+    <string name="catch_full_log_note_affect_performance_description">"You've been generating logs for over %d hour. Performing this process for a long time may affect your device's storage and performance. You can cancel this process, continue generating logs, or stop and send feedback."</string>
     <string name="catch_full_log_note_cancel_catch">Cancel</string>
+    <string name="catch_full_log_note_cancel_catch_reason">Cancel</string>
     <string name="catch_full_log_note_catch">Log generation</string>
     <string name="catch_full_log_note_decription">"It looks like you're generating logs. If this process has finished, you can send feedback. Otherwise, continue or cancel the process."</string>
-    <string name="catch_full_log_note_description">"Looks like you're still capturing logs. This process may use a lot of storage and affect your device's performance. If you haven't been able to reproduce the problem, cancel this process."</string>
+    <string name="catch_full_log_note_description">"You've been generating logs for over %d minutes. Performing this process for a long time may affect your device's storage and performance. You can cancel this process, continue generating logs, or stop and send feedback."</string>
     <string name="catch_full_log_note_still_catch">Continue</string>
     <string name="catch_full_log_note_title">Services &amp; feedback</string>
     <string name="catch_full_log_note_to_commit">Send feedback</string>
@@ -151,7 +152,12 @@
 %2$d. Devices must be connected to WLAN or using mobile data."</string>
     <string name="device_not_found">No connected devices</string>
     <string name="device_not_found_tips">Make sure the other devices are signed in to your Xiaomi Account</string>
-    <string name="device_tips">Selecting connected devices will help us analyze the issue faster. You can upload logs from both this device and the selected devices.</string>
+    <string name="device_tips">Selecting connected devices will help us analyse the issue faster. You can upload logs from both this device and the selected devices.</string>
+    <string name="dfs_log_catch_dialog_commit">Send feedback</string>
+    <string name="dfs_log_catch_dialog_message">Logs are currently being generated for the issue you reported to customer service. Stop generating these logs and submit feedback on another issue now?</string>
+    <string name="dfs_log_catch_dialog_title">Generating logs</string>
+    <string name="dfs_log_catch_note_to_commit">Stop</string>
+    <string name="dfs_log_catch_notification">If the issue has already been reproduced, stop generating logs and tap to submit feedback.</string>
     <string name="discard_draft_dialog_button_cancel">Stay here</string>
     <string name="discard_draft_dialog_button_discard">Discard</string>
     <string name="discard_draft_dialog_content">"Any changes you've made to this report will be lost."</string>
@@ -293,6 +299,7 @@
     <string name="feedback_status_recorded">Received feedback</string>
     <string name="feedback_status_replyed">Replied</string>
     <string name="feedback_status_reresolved">Resolved</string>
+    <string name="feedback_status_reupload_talkback">Upload again</string>
     <string name="feedback_status_save_log_info_failed">"Couldn't change attachment URL"</string>
     <string name="feedback_status_submit_attachment">Submitted attachment successfully</string>
     <string name="feedback_status_submit_bbs_failed">"Couldn't submit feedback content"</string>
@@ -472,8 +479,8 @@
     <string name="miui_feedback_edit_storage_permission_name">Access device storage</string>
     <string name="miui_feedback_edit_submit_dialog_cancel">"Don't agree"</string>
     <string name="miui_feedback_edit_submit_dialog_confirm">Agree</string>
-    <string name="miui_feedback_edit_submit_dialog_content">"&lt;Data>You must agree to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a> to be able to use Feedback. The issues you report along with the items you attach (might contain personal information, as well as the information about your device and network) will be uploaded to MIUI's servers. This will help us locate and solve the problems you report.&lt;/Data>"</string>
-    <string name="miui_feedback_edit_submit_dialog_content_global">"&lt;Data>Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers. Logs may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a>.&lt;/Data>"</string>
+    <string name="miui_feedback_edit_submit_dialog_content"><Data>"You must agree to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a> to be able to use Feedback. The issues you report along with the items you attach (might contain personal information, as well as the information about your device and network) will be uploaded to MIUI's servers. This will help us locate and solve the problems you report."</Data></string>
+    <string name="miui_feedback_edit_submit_dialog_content_global"><Data>"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers. Logs may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a>."</Data></string>
     <string name="miui_feedback_edit_submit_dialog_not_show_again">"Don't show again"</string>
     <string name="miui_feedback_edit_submit_dialog_title">Send report</string>
     <string name="miui_feedback_edit_submit_directly">Submit</string>
@@ -620,8 +627,8 @@ Email: service.jp@xiaomi.com"</string>
     <string name="net_diag_continue">Continue</string>
     <string name="net_diag_diag_fail">"Couldn't diagnose issue. Check your Wi-Fi connection status."</string>
     <string name="net_diag_diag_fail_china">"Couldn't diagnose issue. Check your WLAN connection status."</string>
-    <string name="net_diag_dialog_msg">Testing Wi-Fi can help analyze and troubleshoot connection issues. During the test, Wi-Fi and hotspots may be turned on and off automatically.</string>
-    <string name="net_diag_dialog_msg_china">Testing WLAN can help analyze and troubleshoot connection issues. During the test, WLAN and hotspots may be turned on and off automatically.</string>
+    <string name="net_diag_dialog_msg">Testing Wi-Fi can help analyse and troubleshoot connection issues. During the test, Wi-Fi and hotspots may be turned on and off automatically.</string>
+    <string name="net_diag_dialog_msg_china">Testing WLAN can help analyse and troubleshoot connection issues. During the test, WLAN and hotspots may be turned on and off automatically.</string>
     <string name="net_diag_dialog_no">No</string>
     <string name="net_diag_dialog_title">Test Wi-Fi now?</string>
     <string name="net_diag_dialog_title_china">Test WLAN now?</string>
@@ -633,7 +640,7 @@ Email: service.jp@xiaomi.com"</string>
     <string name="net_diag_entry_network_parameters">Network settings</string>
     <string name="net_diag_entry_network_protocol">Network protocol</string>
     <string name="net_diag_entry_network_rssi">Signal quality</string>
-    <string name="net_diag_entry_router_topology">Network routing</string>
+    <string name="net_diag_entry_router_topology">Network routeing</string>
     <string name="net_diag_fix_guide_window_msg">A network error occurred. Tap to troubleshoot.</string>
     <string name="net_diag_fix_guide_window_msg2">Tap to troubleshoot</string>
     <string name="net_diag_fixing">Repairing network. This might take a minute.</string>
@@ -756,7 +763,7 @@ Email: service.jp@xiaomi.com"</string>
     <string name="passport_wrong_vcode">The code you entered is incorrect</string>
     <string name="passport_wrong_voice">The code you entered is incorrect</string>
     <string name="permission_agree">Agree</string>
-    <string name="permission_china_version_msg">&lt;Data>Before using \"Services &amp;amp; feedback\", you must read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>. This app also needs to connect to the internet to work normally.&lt;/Data></string>
+    <string name="permission_china_version_msg"><Data>Before using \"Services &amp;amp; feedback\", you must read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>. This app also needs to connect to the internet to work normally.</Data></string>
     <string name="permission_complete">Done</string>
     <string name="permission_contacts_info">Access account info</string>
     <string name="permission_contacts_introduce">For signing in using Xiaomi Account</string>
@@ -770,7 +777,7 @@ Email: service.jp@xiaomi.com"</string>
     <string name="permission_location_introduce">For displaying nearby service points</string>
     <string name="permission_main_purpose">Displaying feature demos, submitting feedback, and applying for after-sales services.</string>
     <string name="permission_privacy">Privacy Policy (mandatory)</string>
-    <string name="permission_region_version_msg">&lt;Data>Before using \"Services &amp;amp; feedback\", you must read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>.&lt;/Data></string>
+    <string name="permission_region_version_msg"><Data>Before using \"Services &amp;amp; feedback\", you must read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a>.</Data></string>
     <string name="permission_select_all">Select all</string>
     <string name="permission_storage">Storage</string>
     <string name="permission_storage_introduce">For saving items on your device</string>
@@ -955,7 +962,7 @@ Size: %2$s"</string>
     <string name="verify_link_failed_toast">This URL has expired</string>
     <string name="vip_feedback_content">Your feedback has been recorded. Tap to view.</string>
     <string name="vip_feedback_title">Bug report uploaded</string>
-    <string name="vip_log_canceled_message">Canceled log generation</string>
+    <string name="vip_log_canceled_message">Cancelled log generation</string>
     <string name="vip_log_collecting_message">"Generating logs. They'll be submitted automatically once generated."</string>
     <string name="wearable_all_devices">All devices</string>
     <string name="wearable_bonded_devices">Connected devices</string>
