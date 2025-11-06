@@ -70,6 +70,7 @@
     <string name="ai_dialog_retry_message">Pulse el botón de más abajo para volver a intentarlo.</string>
     <string name="ai_dialog_title">Ahora no se puede utilizar esta función</string>
     <string name="ai_edit_input_end_btn_text">Enviar</string>
+    <string name="ai_experience_text">Comenzar</string>
     <string name="ai_failed">No se pudo generar. Vuelva a intentarlo.</string>
     <string name="ai_feature_disabled">Ha violado nuestras normas de la comunidad varias veces. Esta función ya no está disponible.</string>
     <string name="ai_generate_stop_button">Detener</string>
@@ -84,6 +85,7 @@
     <string name="ai_invitation_text_disagree">No aceptar</string>
     <string name="ai_involve_sensitive_word_title">No se puede generar contenido relacionado con temas sensibles</string>
     <string name="ai_label">Funciones con IA</string>
+    <string name="ai_language_not_support">Este idioma no es compatible</string>
     <string name="ai_layout">Diseño con IA</string>
     <string name="ai_llm_dis_connect_error_message">Se interrumpió la sesión de soporte informático. Compruebe la configuración de tu red y vuelva a intentarlo.</string>
     <string name="ai_local_device_low_battery_title">Batería baja. Cárguela y vuelva a intentarlo.</string>
@@ -120,6 +122,9 @@
     <string name="ai_tag_text_moderate">Medio</string>
     <string name="ai_tag_text_more">Largo</string>
     <string name="ai_tag_words_betweens">%1$s-%2$s caracteres</string>
+    <string name="ai_text_confirm_cancel">Cancelar</string>
+    <string name="ai_text_revoke_modifications">Deshacer cambios</string>
+    <string name="ai_text_watermark">Este contenido es generado por IA y se proporciona únicamente como referencia.</string>
     <string name="ai_text_widget_cancel">Cancelar</string>
     <string name="ai_text_widget_check">Revisión de texto</string>
     <string name="ai_text_widget_copy">Copiar</string>
@@ -140,9 +145,17 @@
     <string name="ai_title_stop_summary">Se dejó de resumir</string>
     <string name="ai_translate">Traducir con IA</string>
     <string name="ai_unsupport_directive_title">No se puede ejecutar este comando</string>
+    <string name="ai_usage_content_text">"%1$d. Abra Notas.
+%2$d. Toque el signo de más en la esquina inferior derecha, cree una nota y luego toque {icon} para empezar."</string>
+    <string name="ai_usage_text_title">Cómo usarlo</string>
     <string name="ai_waiting_generate">Generando…</string>
     <string name="ai_watermark">El contenido generado por IA se proporciona solo como referencia</string>
     <string name="ai_when_mistake_title">Ha ocurrido un error. Vuelva a intentarlo.</string>
+    <string name="ai_writing_content_text">"Escritura con IA le ayuda a organizar y mejorar su texto. Puede usarla de las siguientes maneras:
+%1$d. Resumir el texto para extraer rápidamente información clave de artículos largos.
+%2$d. Expandir el texto para enriquecer notas cortas.
+%3$d. Pulir el texto para lograr expresiones más fluidas.
+%4$d. Revisar la ortografía y la gramática."</string>
     <string name="ai_writing_invite_beta_testing_content">Esta función utiliza las capacidades de un modelo grande para corregir, ampliar, resumir y pulir tu texto. También puede introducir indicaciones y dejar que la IA escriba por usted. ¡Pulse \"Aceptar\" para probarla!</string>
     <string name="ai_writing_invite_beta_testing_title">Prueba beta de Escritura con IA</string>
     <string name="ai_writing_local_message">Utilice modelos en el dispositivo para Escritura con IA</string>
@@ -178,7 +191,6 @@
     <string name="app_widget_name_create_todo">Crear tareas</string>
     <string name="app_widget_name_fast_entry">Accesos directos</string>
     <string name="app_widget_name_new">Notas</string>
-    <string name="apparel_shopping_review">Escriba una reseña sobre una compra de ropa</string>
     <string name="application_icon">Ícono de aplicación</string>
     <string name="audio_btn_mode_meeting">Reunión</string>
     <string name="audio_btn_mode_single">Una persona</string>
@@ -209,11 +221,7 @@
     <string name="audio_toast_network_is_not_available">No se pudo conectar a la red</string>
     <string name="auto_detected">Autodetectar</string>
     <string name="auto_optimize_handwriting_text">Optimizar automáticamente la escritura a mano</string>
-    <string name="beauty_instructional_copywriting">Escriba un tutorial de belleza para principiantes</string>
-    <string name="beauty_shopping_list">Confeccione una lista de compra de artículos de belleza para principiantes</string>
-    <string name="beauty_shopping_review">Escriba una reseña sobre la compra de un producto de belleza</string>
     <string name="blackboard_note">Tablero inteligente</string>
-    <string name="book_reading_guide">Escriba una guía de lectura detallada para un libro</string>
     <string name="bottomsheet_action_collapse">Contraer la hoja inferior</string>
     <string name="bottomsheet_action_expand">Expandir la hoja inferior</string>
     <string name="bottomsheet_action_expand_halfway">Expandir a la mitad</string>
@@ -229,7 +237,6 @@
     <string name="call_notification_incoming_text">Llamada entrante</string>
     <string name="call_notification_ongoing_text">Llamada en curso</string>
     <string name="call_notification_screening_text">Filtrando una llamada entrante</string>
-    <string name="camera_price_analysis">Escriba una reseña sobre la relación precio-calidad de cámaras digitales</string>
     <string name="cancel_alarm_description">Cancelar alarma</string>
     <string name="canvas_is_too_large_to_share">Este elemento es demasiado grande para compartir</string>
     <string name="character_counter_content_description">Caracteres ingresados: %1$d de %2$d</string>
@@ -246,15 +253,11 @@
     <string name="cloud_state_wait_wifi_counts">Esperando Wi-Fi para sincronizar: %1$s, %2$s</string>
     <string name="cloud_state_wait_wifi_counts_china">Esperando WLAN para sincronizar: %1$s</string>
     <string name="cloud_trash_bin_title">Notas eliminadas en la nube</string>
-    <string name="collection_of_the_month_news">Resuma lo más destacado de este mes</string>
     <string name="color_pick_board_talkback">Tabla de colores</string>
     <string name="color_pick_talkback">Fila %1$d, columna %2$d</string>
     <string name="color_picker_popup_straw_talkback">Herramienta de cuentagotas</string>
-    <string name="communicates_positive_feedback">Escriba una reseña positiva sobre la comunicación durante una compra</string>
-    <string name="company_annual_meeting_notice">Escriba un aviso para la reunión anual de la empresa</string>
     <string name="complete_extension">Extensión completada</string>
     <string name="complete_polish">Pulido terminado</string>
-    <string name="concert_experience_review">Escriba sobre cómo fue su experiencia en un concierto</string>
     <string name="confirm_cancel">Rechazar</string>
     <string name="confirm_ok">Aceptar</string>
     <string name="content_text">Escritura con IA proporciona funciones como ampliar, pulir, revisar y resumir sus escritos y crear piezas de escritura basadas en sus indicaciones.</string>
@@ -325,11 +328,9 @@
     <string name="default_update_documents">Hay una actualización disponible. ¿Actualizar ahora?</string>
     <string name="delete_folder_dialog_tile">Eliminar carpeta</string>
     <string name="delete_talkback">Eliminar, botón</string>
-    <string name="delivery_man_review">Escriba una reseña de 5 estrellas para un repartidor</string>
     <string name="desc_paper_black_talkback">Negro</string>
     <string name="desc_paper_white_talkback">Blanco</string>
     <string name="desc_paper_yellow_talkback">Semimate</string>
-    <string name="description_of_a_used_object">Describa la condición de un artículo de segunda mano</string>
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="dialog_button_close">Cerrar</string>
     <string name="dialog_button_confirm">Aceptar</string>
@@ -338,8 +339,10 @@
     <string name="dialog_button_move">Mover</string>
     <string name="dialog_expert_as_markdown">Exportar como Markdown</string>
     <string name="dialog_privacy_revoke_tips">Después de revocar la autorización, la aplicación dejará de recolectar información y todos los datos relacionados se eliminarán de los servidores. Esto podría hacer que la aplicación sea prácticamente inutilizable. ¿Desea revocar la autorización? Para garantizar la seguridad de su cuenta, inicie sesión en i.mi.com antes de revocar la autorización de los servicios de la nube.</string>
+    <string name="dialog_share_as_duplicate">Compartir nota como copia</string>
     <string name="dialog_share_as_pic">Compartir nota como imagen</string>
     <string name="dialog_share_as_text">Compartir nota como texto</string>
+    <string name="dialog_share_title">Compartir nota</string>
     <string name="dialog_tip_title">Atención</string>
     <string name="dlg_btn_set_password">Establecer contraseña</string>
     <string name="dlg_delete_message">Eliminando…</string>
@@ -437,9 +440,6 @@
     <string name="export_select_empty">Seleccionar al menos una página</string>
     <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
     <string name="external_share_to_note">%1$s compartido con Notas</string>
-    <string name="fictional_story">Escriba una historia de ciencia ficción ambientada en un mundo ficticio</string>
-    <string name="film_interpretation">Escriba su interpretación sobre una película nueva que tenga muy buenas críticas</string>
-    <string name="fitness_plan">Elabore un plan de fitness</string>
     <string name="float_note_empty">No hay notas</string>
     <string name="float_note_title">Notas</string>
     <string name="fmt_chinese_date">N e</string>
@@ -499,14 +499,12 @@
     <string name="folder_operation_rename">Renombrar</string>
     <string name="folder_other">Otras carpetas</string>
     <string name="foler_pinned">Carpetas ancladas</string>
-    <string name="food_review">Escriba una reseña gastronómica</string>
     <string name="format_move_note_out_folder">Esta nota fue movida</string>
     <string name="format_move_note_to_folder">Movida a %1$s</string>
     <string name="friday">Viernes</string>
     <string name="friday_short">Vie</string>
     <string name="friday_shortest">Vie</string>
     <string name="generating">Un momento…</string>
-    <string name="generic_praise">Escriba una reseña positiva de 50 palabras</string>
     <string name="gesture_guide_cancel">Omitir</string>
     <string name="gesture_guide_title">Gestos</string>
     <string name="global_ai_action_btn_fail">Se ha producido un error. Inténtalo de nuevo.</string>
@@ -517,13 +515,7 @@
     <string name="handwrite_description_window">Ventana de escritura a mano</string>
     <string name="hear_note">Notas dictadas</string>
     <string name="hidden_notes_fragment_title">Notas ocultas</string>
-    <string name="highlight_headline">Cree un título atrapante</string>
     <string name="hint_cannot_view_hidden_note_content">No puede ver el contenido en notas ocultas</string>
-    <string name="holiday_notice">Escribe un aviso de vacaciones</string>
-    <string name="hot_topic_discussion">Escriba un análisis sobre el tema del día</string>
-    <string name="hot_topic_for_a_cultural_salon_group">Sugiera un tema interesante para una sala cultural</string>
-    <string name="hot_topic_in_society">Escriba sobre un problema social de actualidad</string>
-    <string name="hot_topic_in_the_news">Escriba sobre un tema de actualidad muy comentado</string>
     <string name="hover_bold">MD: **Texto** espacio</string>
     <string name="hover_font_first_level">MD: # espacio</string>
     <string name="hover_font_second_level">MD: ## espacio</string>
@@ -573,7 +565,6 @@
     <string name="material_timepicker_pm">p.m.</string>
     <string name="material_timepicker_select_time">Selecciona una hora</string>
     <string name="material_timepicker_text_input_mode_description">Cambia al modo de entrada de texto para ingresar la hora.</string>
-    <string name="meeting_minutes">Escriba el acta de una reunión</string>
     <string name="menu_add_audio_description">Agregar nota de voz</string>
     <string name="menu_add_description">Agregar nota</string>
     <string name="menu_add_handwrite_description">Agregar una nota escrita a mano</string>
@@ -628,6 +619,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleccionar todo</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleccionar todo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Seleccionar elementos</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Seleccionar</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Más</string>
     <string name="miuix_appcompat_cancel_description">Cancelar</string>
     <string name="miuix_appcompat_cloud_state_disabled">Sincronización con la nube desactivada</string>
@@ -767,9 +759,7 @@
     <string name="multi_page_max_limit_text_toast">No se puede agregar más cuadros de texto</string>
     <string name="multi_page_reach_max_page_count_toast">No se puede agregar más páginas</string>
     <string name="multi_page_release_new_page">Suelte para agregar una nueva página</string>
-    <string name="music_festival_experience_review">Escriba sobre cómo fue su experiencia en un festival de música</string>
     <string name="net_error">Ha ocurrido un error de red</string>
-    <string name="netflix_restaurant_experience">Escriba sobre cómo fue su experiencia en un restaurante en tendencia</string>
     <string name="network_error_info">Se produjo un error de red. Compruebe sus ajustes de red y vuelva a intentarlo.</string>
     <string name="network_timeout_info">No se pudo conectar a la red. Vuelva a intentarlo.</string>
     <string name="new_ai_search_database_building_pause">Las notas se analizarán en su dispositivo para proporcionar resultados más precisos</string>
@@ -815,7 +805,6 @@
     <string name="notice_for_ai_search_tips">Ver detalles</string>
     <string name="notification_content_add_todo_from_other_app">Ha añadido una nueva tarea. Toque para ver.</string>
     <string name="notify_alarm_title">Recordatorio de notas</string>
-    <string name="opinion_piece_on_ai">Escriba un artículo de opinión sobre cómo la IA puede sustituir al ser humano</string>
     <string name="option_menu_delete">Eliminar</string>
     <string name="option_menu_multi_choice">Seleccionar</string>
     <string name="option_menu_new">Crear</string>
@@ -826,7 +815,6 @@
     <string name="option_menu_share">Compartir</string>
     <string name="original_empty_content">Sin contenido en la versión original</string>
     <string name="original_text">Original: \"%1$s\"</string>
-    <string name="outfit_to_share">Escriba una publicación sobre tendencias de moda recientes</string>
     <string name="pad_collpase_navigation">Ocultar panel de navegación</string>
     <string name="pad_dialog_take_photo_by_device">Tomando foto con %1$s</string>
     <string name="pad_dialog_tip_content_take_photo_by_phone">Usando cámara…</string>
@@ -887,7 +875,6 @@
     <string name="permlab_accessNote">Acceso a las notas</string>
     <string name="pm">PM</string>
     <string name="polish_title">Pulido</string>
-    <string name="popular_wearable_copywriter">Escriba un texto sobre un atuendo en tendencia</string>
     <string name="pref_category_title_quick_func">Funciones rápidas</string>
     <string name="pref_excerpt_link_float">Reciba un recordatorio para crear un extracto cada vez que se copie una URL</string>
     <string name="pref_permission_allowed">Otorgado</string>
@@ -914,7 +901,6 @@
     <string name="private_entry_available">Suelte para abrir la carpeta privada</string>
     <string name="private_entry_default">Arrastre hacia abajo para abrir la carpeta privada</string>
     <string name="progressbar_title">Buscando problemas de seguridad…</string>
-    <string name="promotional_copywriter">Escriba un texto promocional</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Las notas rápidas le permiten crear notas y extractos</string>
     <string name="redo">Rehacer</string>
@@ -941,8 +927,6 @@
     <string name="repeat_mode_week">Cada semana</string>
     <string name="repeat_mode_year">Cada año</string>
     <string name="request_alert_window_permission_toast">Permita que esta aplicación muestre elementos sobre otras aplicaciones</string>
-    <string name="restaurant_dining_review">Escriba una reseña positiva sobre una comida en un restaurante</string>
-    <string name="restaurant_review">Escriba una reseña positiva para un restaurante</string>
     <string name="retry">Vuelva a intentarlo</string>
     <string name="revoke_modifications">Deshacer</string>
     <string name="rich_text_bold_description">Negrita</string>
@@ -968,7 +952,6 @@
     <string name="rich_text_tasklist_description">Lista de verificación</string>
     <string name="rich_text_underline_description">Subrayado</string>
     <string name="rich_text_unorderlist_description">Lista con viñetas</string>
-    <string name="romance_film_review">Escriba una reseña sobre una película romántica</string>
     <string name="saturday">Sábado</string>
     <string name="saturday_short">Sab</string>
     <string name="saturday_shortest">Sáb.</string>
@@ -985,7 +968,6 @@
     <string name="searchview_navigation_content_description">Atrás</string>
     <string name="select_account_prompt">Sincronizar notas</string>
     <string name="select_text_before_using">Seleccione texto antes de usar esta función</string>
-    <string name="selfhealing_manual">Escriba una guía de autoayuda para atravesar momentos de estrés</string>
     <string name="send">Enviar</string>
     <string name="send_notifications_for_reminder">Para enviar recordatorios</string>
     <string name="sensitive_content_warn">No se puede resumir contenido sensible</string>
@@ -1004,7 +986,6 @@
     <string name="setting_show_line_talkback">Con líneas</string>
     <string name="setting_show_solid_talkback">Simple</string>
     <string name="shortcut_key_description">El botón más cercano a la punta del stylus es el botón de escritura. Presiónelo para cambiar de pincel, manténgalo presionado para cambiar al borrador y luego manténgalo presionado para borrar. El botón del medio es el botón de captura de pantalla. Presiónelo para cambiar al color usado más recientemente.</string>
-    <string name="show_event_review">Escriba una reseña sobre un espectáculo o evento</string>
     <string name="side_sheet_accessibility_pane_title">Hoja lateral</string>
     <string name="single_link_excerpt_saving">Guardando elementos…</string>
     <string name="single_new_excerpt_title">Extractos</string>
@@ -1022,7 +1003,6 @@
     <string name="sns_content_default">Compartir foto</string>
     <string name="sns_footer_text">Creado con Notas</string>
     <string name="sns_title_edit">Compartir nota</string>
-    <string name="speech_for_the_annual_meeting">Escriba un discurso para la reunión anual</string>
     <string name="splash_note">Stylus</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stealth_mode_tip">Está en incógnito. No puede usar el micrófono ahora.</string>
@@ -1229,7 +1209,6 @@ Permita a Notas grabar audio."</string>
     <string name="trash_folder_name">Basura</string>
     <string name="trash_folder_name_new">Elementos eliminados recientemente</string>
     <string name="trash_folder_reminder_new">Las notas se mantienen en la papelera durante %d días antes de ser eliminadas permanentemente</string>
-    <string name="travel_list">Elabore una lista sobre qué empacar para viajar</string>
     <string name="tuesday">Martes</string>
     <string name="tuesday_short">Mar</string>
     <string name="tuesday_shortest">Mar</string>
@@ -1271,6 +1250,7 @@ Permita a Notas grabar audio."</string>
     <string name="widget_size_item_medium">Mediana</string>
     <string name="widget_size_item_small">Pequeña</string>
     <string name="widget_size_item_super_big">Extra grande</string>
+    <string name="widget_size_item_title">Seleccionar tamaño</string>
     <string name="widget_size_not_support">Los widgets extra grandes no son compatibles con este dispositivo</string>
     <string name="widget_take_notes_title">Notas</string>
     <string name="widget_total_notes">%1$d</string>

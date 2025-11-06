@@ -70,6 +70,7 @@
     <string name="ai_dialog_retry_message">Atingeți butonul de mai jos pentru a încerca din nou.</string>
     <string name="ai_dialog_title">Nu poți folosi această funcție acum</string>
     <string name="ai_edit_input_end_btn_text">Trimite</string>
+    <string name="ai_experience_text">Începeți</string>
     <string name="ai_failed">Nu s-a putut genera. Încercați din nou.</string>
     <string name="ai_feature_disabled">Ai încălcat standardele comunității noastre de mai multe ori. Această funcție nu mai este disponibilă.</string>
     <string name="ai_generate_stop_button">Oprește</string>
@@ -84,6 +85,7 @@
     <string name="ai_invitation_text_disagree">Nu sunt de acord</string>
     <string name="ai_involve_sensitive_word_title">Nu se poate genera conținut legat de subiecte sensibile</string>
     <string name="ai_label">Funcții IA</string>
+    <string name="ai_language_not_support">Această limbă nu este acceptată</string>
     <string name="ai_layout">Aspect IA</string>
     <string name="ai_llm_dis_connect_error_message">Sesiunea de asistență pentru Suport informatic a fost întreruptă. Verificați setările de rețea și încercați din nou.</string>
     <string name="ai_local_device_low_battery_title">Baterie descărcată. Încărcați și încercați din nou.</string>
@@ -120,6 +122,9 @@
     <string name="ai_tag_text_moderate">Mediu</string>
     <string name="ai_tag_text_more">Lung</string>
     <string name="ai_tag_words_betweens">%1$s–%2$s caractere</string>
+    <string name="ai_text_confirm_cancel">Anulează</string>
+    <string name="ai_text_revoke_modifications">Anulați modificările</string>
+    <string name="ai_text_watermark">Acest conținut este generat de inteligență artificială și furnizat doar pentru referință.</string>
     <string name="ai_text_widget_cancel">Anulează</string>
     <string name="ai_text_widget_check">Corectare</string>
     <string name="ai_text_widget_copy">Copiați</string>
@@ -140,9 +145,17 @@
     <string name="ai_title_stop_summary">Rezumat oprit</string>
     <string name="ai_translate">Traducere IA</string>
     <string name="ai_unsupport_directive_title">Nu se poate executa această comandă</string>
+    <string name="ai_usage_content_text">"%1$d. Deschide Note.
+%2$d. Atinge semnul plus din colțul din dreapta jos, creează o notă, apoi atinge {icon} pentru a începe."</string>
+    <string name="ai_usage_text_title">Cum se utilizează</string>
     <string name="ai_waiting_generate">Se generează…</string>
     <string name="ai_watermark">Conținutul generat de IA este oferit doar pentru referință</string>
     <string name="ai_when_mistake_title">A apărut o eroare. Încercați din nou.</string>
+    <string name="ai_writing_content_text">"Scriere IA te ajută să-ți organizezi și să-ți îmbunătățești textul. O poți folosi în următoarele moduri:
+%1$d. Rezumează textul pentru a extrage rapid informații cheie din articole lungi.
+%2$d. Extinde textul pentru a îmbogăți notele scurte.
+%3$d. Îmbunătățește textul pentru expresii mai fluide.
+%4$d. Verifică ortografia și gramatica."</string>
     <string name="ai_writing_invite_beta_testing_content">Această caracteristică folosește capabilități mari de model pentru a corecta, extinde, rezuma și șlefuiește scrisul. De asemenea, puteți introduce solicitări și să lăsați IA să scrie pentru dvs. Atingeți \"De acord\" pentru a-l încerca!</string>
     <string name="ai_writing_invite_beta_testing_title">Testare beta Scriere IA</string>
     <string name="ai_writing_local_message">Utilizați modele pe dispozitiv pentru Scriere IA</string>
@@ -178,7 +191,6 @@
     <string name="app_widget_name_create_todo">Creați sarcini</string>
     <string name="app_widget_name_fast_entry">Comenzi rapide</string>
     <string name="app_widget_name_new">Note</string>
-    <string name="apparel_shopping_review">Scrie o recenzie despre cumpărăturile de haine</string>
     <string name="application_icon">Pictograma aplicației</string>
     <string name="audio_btn_mode_meeting">Întâlnire</string>
     <string name="audio_btn_mode_single">O persoană</string>
@@ -209,11 +221,7 @@
     <string name="audio_toast_network_is_not_available">Nu s-a putut conecta la rețea</string>
     <string name="auto_detected">Detectare automată</string>
     <string name="auto_optimize_handwriting_text">Optimizarea automată a scrisului de mână</string>
-    <string name="beauty_instructional_copywriting">Scrie un tutorial de frumusețe pentru începători</string>
-    <string name="beauty_shopping_list">Faceți o listă de cumpărături pentru produse de înfrumusețare pentru începători</string>
-    <string name="beauty_shopping_review">Scrie o recenzie despre cumpărăturile de produse cosmetice</string>
     <string name="blackboard_note">Tablă inteligentă</string>
-    <string name="book_reading_guide">Scrie un ghid de lectură detaliat pentru o carte</string>
     <string name="bottomsheet_action_collapse">Restrângeți foaia de jos</string>
     <string name="bottomsheet_action_expand">Extindeți foaia de jos</string>
     <string name="bottomsheet_action_expand_halfway">Extindeți-vă la jumătate</string>
@@ -229,7 +237,6 @@
     <string name="call_notification_incoming_text">Apel primit</string>
     <string name="call_notification_ongoing_text">Apel în desfășurare</string>
     <string name="call_notification_screening_text">Se filtrează un apel primit</string>
-    <string name="camera_price_analysis">Scrie o analiză cost-performanță a camerelor digitale</string>
     <string name="cancel_alarm_description">Anulează alarma</string>
     <string name="canvas_is_too_large_to_share">Acest element este prea mare pentru a fi distribuit</string>
     <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
@@ -246,15 +253,11 @@
     <string name="cloud_state_wait_wifi_counts">Se așteaptă sincronizarea rețelei Wi-Fi: %1$s, %2$s</string>
     <string name="cloud_state_wait_wifi_counts_china">Se așteaptă sincronizarea WLAN-ului: %1$s</string>
     <string name="cloud_trash_bin_title">Note șterse din cloud</string>
-    <string name="collection_of_the_month_news">Rezumați știrile importante din această lună</string>
     <string name="color_pick_board_talkback">Diagramă de culori</string>
     <string name="color_pick_talkback">Rândul %1$d, Coloana %2$d</string>
     <string name="color_picker_popup_straw_talkback">Instrument selector de culoare</string>
-    <string name="communicates_positive_feedback">Scrie o recenzie pozitivă despre comunicarea în timpul unei achiziții</string>
-    <string name="company_annual_meeting_notice">Scrie o notificare pentru adunarea generală anuală a companiei</string>
     <string name="complete_extension">Extensie finalizată</string>
     <string name="complete_polish">Rafinare finalizată</string>
-    <string name="concert_experience_review">Scrie despre experiența ta la concert</string>
     <string name="confirm_cancel">Nu sunt de acord</string>
     <string name="confirm_ok">De acord</string>
     <string name="content_text">Scriere IA oferă funcții, inclusiv extinderea, lustruirea, corectarea și rezumarea scrisului dvs. și crearea de fragmente de scris pe baza solicitărilor dvs.</string>
@@ -325,11 +328,9 @@
     <string name="default_update_documents">O actualizare este disponibilă. Actualizați acum?</string>
     <string name="delete_folder_dialog_tile">Șterge dosarul</string>
     <string name="delete_talkback">Șterge, buton</string>
-    <string name="delivery_man_review">Scrie o recenzie de 5 stele pentru un șofer de livrare</string>
     <string name="desc_paper_black_talkback">Negru</string>
     <string name="desc_paper_white_talkback">Alb</string>
     <string name="desc_paper_yellow_talkback">Coajă de ou</string>
-    <string name="description_of_a_used_object">Descrieți starea unui obiect la mâna a doua</string>
     <string name="dialog_button_cancel">Anulează</string>
     <string name="dialog_button_close">Închide</string>
     <string name="dialog_button_confirm">OK</string>
@@ -338,8 +339,10 @@
     <string name="dialog_button_move">Mută</string>
     <string name="dialog_expert_as_markdown">Exportați ca Markdown</string>
     <string name="dialog_privacy_revoke_tips">După ce revocați autorizația, aplicația va opri colectarea datelor și toate datele asociate vor fi șterse de pe servere. Acest lucru poate face aplicația practic inutilizabilă. Anulați oricum autorizația? Pentru a vă asigura securitatea contului dvs. conectați-vă la i.mi.com înainte de a revoca autorizația pentru serviciile cloud.</string>
+    <string name="dialog_share_as_duplicate">Partajează nota ca și copie</string>
     <string name="dialog_share_as_pic">Partajează nota ca și imagine</string>
     <string name="dialog_share_as_text">Partajează nota ca și text</string>
+    <string name="dialog_share_title">Partajează notă</string>
     <string name="dialog_tip_title">Atenție</string>
     <string name="dlg_btn_set_password">Setează parolă</string>
     <string name="dlg_delete_message">Se șterge…</string>
@@ -437,9 +440,6 @@
     <string name="export_select_empty">Selectați cel puțin o pagină</string>
     <string name="exposed_dropdown_menu_content_description">Afișați meniul drop-down</string>
     <string name="external_share_to_note">%1$s partajat la Note</string>
-    <string name="fictional_story">Scrie o poveste SF care are loc într-o lume fictivă</string>
-    <string name="film_interpretation">Scrie o interpretare a unui film nou foarte apreciat</string>
-    <string name="fitness_plan">Faceți un plan de fitness</string>
     <string name="float_note_empty">Fără note aici</string>
     <string name="float_note_title">Note</string>
     <string name="fmt_chinese_date">N e</string>
@@ -499,14 +499,12 @@
     <string name="folder_operation_rename">Redenumiți</string>
     <string name="folder_other">Alte dosare</string>
     <string name="foler_pinned">Dosare fixate</string>
-    <string name="food_review">Scrie o recenzie culinară</string>
     <string name="format_move_note_out_folder">Această notă a fost mutată</string>
     <string name="format_move_note_to_folder">S-a mutat la %1$s</string>
     <string name="friday">Vineri</string>
     <string name="friday_short">Vin</string>
     <string name="friday_shortest">Vin</string>
     <string name="generating">Doar o secundă…</string>
-    <string name="generic_praise">Scrie o recenzie pozitivă de 50 de cuvinte</string>
     <string name="gesture_guide_cancel">Treci peste</string>
     <string name="gesture_guide_title">Gesturi</string>
     <string name="global_ai_action_btn_fail">A apărut o eroare. Încercați din nou.</string>
@@ -517,13 +515,7 @@
     <string name="handwrite_description_window">Fereastră pentru scris de mână</string>
     <string name="hear_note">Note dictate</string>
     <string name="hidden_notes_fragment_title">Note ascunse</string>
-    <string name="highlight_headline">Creați un titlu atrăgător</string>
     <string name="hint_cannot_view_hidden_note_content">Nu poate vedea conținutul în notele ascunse</string>
-    <string name="holiday_notice">Scrieți un anunț de vacanță</string>
-    <string name="hot_topic_discussion">Scrie o discuție despre subiectul în tendințe de azi</string>
-    <string name="hot_topic_for_a_cultural_salon_group">Sugerează un subiect fierbinte pentru un salon cultural</string>
-    <string name="hot_topic_in_society">Scrie despre o problemă socială în vogă</string>
-    <string name="hot_topic_in_the_news">Scrie despre un subiect de știri noi</string>
     <string name="hover_bold">MD: **Text** spațiu</string>
     <string name="hover_font_first_level">MD: # spațiu</string>
     <string name="hover_font_second_level">MD: ## spațiu</string>
@@ -573,7 +565,6 @@
     <string name="material_timepicker_pm">p.m.</string>
     <string name="material_timepicker_select_time">Selectați ora</string>
     <string name="material_timepicker_text_input_mode_description">Pentru a introduce ora, comutați la modul de introducere a textului.</string>
-    <string name="meeting_minutes">Scrie procesul-verbal al ședinței</string>
     <string name="menu_add_audio_description">Adăugați o notă vocală</string>
     <string name="menu_add_description">Adaugă notă</string>
     <string name="menu_add_handwrite_description">Adaugă o notă scrisă de mână</string>
@@ -628,6 +619,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">Deselectează tot</string>
     <string name="miuix_appcompat_action_mode_select_all">Selectează tot</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selectați elementele</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Selectează</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mai multe</string>
     <string name="miuix_appcompat_cancel_description">Anulează</string>
     <string name="miuix_appcompat_cloud_state_disabled">Sincronizarea cu cloud este dezactivată</string>
@@ -767,9 +759,7 @@
     <string name="multi_page_max_limit_text_toast">Nu se pot adăuga mai multe casete text</string>
     <string name="multi_page_reach_max_page_count_toast">Nu se pot adăuga mai multe pagini</string>
     <string name="multi_page_release_new_page">Eliberați pentru a adăuga o pagină nouă</string>
-    <string name="music_festival_experience_review">Scrie despre experiența ta la un festival de muzică</string>
     <string name="net_error">A apărut o eroare de rețea</string>
-    <string name="netflix_restaurant_experience">Scrie despre experiența ta la un restaurant renumit</string>
     <string name="network_error_info">A apărut o eroare de rețea. Verificați setările de rețea și încercați din nou.</string>
     <string name="network_timeout_info">Nu s-a putut conecta la rețea. Încercați din nou.</string>
     <string name="new_ai_search_database_building_pause">Notele vor fi analizate pe dispozitivul dvs. pentru a oferi rezultate mai precise</string>
@@ -815,7 +805,6 @@
     <string name="notice_for_ai_search_tips">Vezi detalii</string>
     <string name="notification_content_add_todo_from_other_app">Ați adăugat o sarcină nouă. Atingeți pentru a vizualiza.</string>
     <string name="notify_alarm_title">Notificare de amintire</string>
-    <string name="opinion_piece_on_ai">Scrie un articol de opinie despre înlocuirea oamenilor de către IA</string>
     <string name="option_menu_delete">Șterge</string>
     <string name="option_menu_multi_choice">Selectează</string>
     <string name="option_menu_new">Creează</string>
@@ -826,7 +815,6 @@
     <string name="option_menu_share">Partajează</string>
     <string name="original_empty_content">Nu există conținut în versiunea originală</string>
     <string name="original_text">Original: \"%1$s\"</string>
-    <string name="outfit_to_share">Scrie o postare despre ultimele tendințe în modă</string>
     <string name="pad_collpase_navigation">Ascunde panoul de navigare</string>
     <string name="pad_dialog_take_photo_by_device">Făcând fotografie cu %1$s</string>
     <string name="pad_dialog_tip_content_take_photo_by_phone">Utilizând aparatul foto…</string>
@@ -887,7 +875,6 @@
     <string name="permlab_accessNote">Note acces</string>
     <string name="pm">PM</string>
     <string name="polish_title">Poloneză</string>
-    <string name="popular_wearable_copywriter">Scrie texte pentru ținute la modă</string>
     <string name="pref_category_title_quick_func">Funcții rapide</string>
     <string name="pref_excerpt_link_float">Primește un memento pentru a crea un extras ori de câte ori este copiată o adresă URL</string>
     <string name="pref_permission_allowed">Acordat</string>
@@ -914,7 +901,6 @@
     <string name="private_entry_available">Eliberați pentru a deschide dosarul privat</string>
     <string name="private_entry_default">Trageți în jos pentru a deschide dosarul privat</string>
     <string name="progressbar_title">Se verifică pentru probleme de securitate…</string>
-    <string name="promotional_copywriter">Scrie texte promoționale</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Notele rapide vă permit să creați note și fragmente</string>
     <string name="redo">Reface</string>
@@ -941,8 +927,6 @@
     <string name="repeat_mode_week">În fiecare săptămână</string>
     <string name="repeat_mode_year">În fiecare an</string>
     <string name="request_alert_window_permission_toast">Permiteți acestei aplicații să afișeze elemente peste alte aplicații</string>
-    <string name="restaurant_dining_review">Scrie o recenzie pozitivă despre o masă la restaurant</string>
-    <string name="restaurant_review">Scrie o recenzie pozitivă pentru un restaurant</string>
     <string name="retry">Încercați din nou</string>
     <string name="revoke_modifications">Anulează</string>
     <string name="rich_text_bold_description">Bold</string>
@@ -968,7 +952,6 @@
     <string name="rich_text_tasklist_description">Lista de verificare</string>
     <string name="rich_text_underline_description">Subliniere</string>
     <string name="rich_text_unorderlist_description">Lista cu marcatori</string>
-    <string name="romance_film_review">Scrie o recenzie de film romantic</string>
     <string name="saturday">Sâmbătă</string>
     <string name="saturday_short">Sâm</string>
     <string name="saturday_shortest">Sâm</string>
@@ -985,7 +968,6 @@
     <string name="searchview_navigation_content_description">Înapoi</string>
     <string name="select_account_prompt">Sincronizează note</string>
     <string name="select_text_before_using">Selectați textul înainte de a utiliza această funcție</string>
-    <string name="selfhealing_manual">Scrie un ghid de auto-ajutorare pentru perioadele stresante</string>
     <string name="send">Trimite</string>
     <string name="send_notifications_for_reminder">Pentru trimiterea memento-urilor</string>
     <string name="sensitive_content_warn">Nu se poate rezuma conținutul sensibil</string>
@@ -1004,7 +986,6 @@
     <string name="setting_show_line_talkback">Aliniat</string>
     <string name="setting_show_solid_talkback">Simplu</string>
     <string name="shortcut_key_description">Butonul cel mai apropiat de vârful stiloului este butonul de scriere. Apăsați-l pentru a schimba pensulele, țineți apăsat pentru a schimba la radieră, apoi țineți apăsat pentru a șterge. Butonul din mijloc este butonul de captură de ecran. Apăsați pentru a schimba la cea mai recentă culoare utilizată.</string>
-    <string name="show_event_review">Scrie o recenzie a unui spectacol sau eveniment</string>
     <string name="side_sheet_accessibility_pane_title">Foaie laterală</string>
     <string name="single_link_excerpt_saving">Se salvează elementele…</string>
     <string name="single_new_excerpt_title">Fragmente</string>
@@ -1022,7 +1003,6 @@
     <string name="sns_content_default">Distribuie poza</string>
     <string name="sns_footer_text">Creat cu Note Mi</string>
     <string name="sns_title_edit">Partajează notă</string>
-    <string name="speech_for_the_annual_meeting">Scrie un discurs pentru adunarea anuală</string>
     <string name="splash_note">Stilou</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stealth_mode_tip">Ești incognito. Nu poți utiliza microfonul acum.</string>
@@ -1229,7 +1209,6 @@ Permiteți ca Note pentru a înregistra audio."</string>
     <string name="trash_folder_name">Coş de gunoi</string>
     <string name="trash_folder_name_new">Elemente șterse recent</string>
     <string name="trash_folder_reminder_new">Notele sunt păstrate în coșul de gunoi pentru %d zile înainte de a fi șterse definitiv</string>
-    <string name="travel_list">Faceți o listă de bagaje pentru călătorie</string>
     <string name="tuesday">Marţi</string>
     <string name="tuesday_short">Mar</string>
     <string name="tuesday_shortest">Mar</string>
@@ -1271,6 +1250,7 @@ Permiteți ca Note pentru a înregistra audio."</string>
     <string name="widget_size_item_medium">Mediu</string>
     <string name="widget_size_item_small">Mic</string>
     <string name="widget_size_item_super_big">Extra mare</string>
+    <string name="widget_size_item_title">Selectează mărime</string>
     <string name="widget_size_not_support">Widget-urile foarte mari nu sunt acceptate pe acest dispozitiv</string>
     <string name="widget_take_notes_title">Note</string>
     <string name="widget_total_notes">%1$d</string>

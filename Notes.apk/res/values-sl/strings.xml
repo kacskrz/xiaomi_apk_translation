@@ -70,6 +70,7 @@
     <string name="ai_dialog_retry_message">Tapnite gumb spodaj za ponovni poskus.</string>
     <string name="ai_dialog_title">Trenutno ne morem uporabiti te storitve</string>
     <string name="ai_edit_input_end_btn_text">Pošlji</string>
+    <string name="ai_experience_text">Začetek</string>
     <string name="ai_failed">Ni bilo mogoče ustvariti. Poskusite ponovno.</string>
     <string name="ai_feature_disabled">Večkrat ste kršili standarde naše skupnosti. Ta funkcija ni več na voljo.</string>
     <string name="ai_generate_stop_button">Ustavi</string>
@@ -84,6 +85,7 @@
     <string name="ai_invitation_text_disagree">Ne strinjam se</string>
     <string name="ai_involve_sensitive_word_title">Ni mogoče ustvariti vsebine, povezane z občutljivimi temami</string>
     <string name="ai_label">AI funkcije</string>
+    <string name="ai_language_not_support">Ta jezik ni podprt</string>
     <string name="ai_layout">AI razporeditev</string>
     <string name="ai_llm_dis_connect_error_message">Seja računalniške podpore je bila prekinjena. Preverite vaše omrežne nastavitve in poskusite ponovno</string>
     <string name="ai_local_device_low_battery_title">Baterija je skoraj prazna. Napolnite in poskusite znova.</string>
@@ -120,6 +122,9 @@
     <string name="ai_tag_text_moderate">Srednje</string>
     <string name="ai_tag_text_more">Dolgo</string>
     <string name="ai_tag_words_betweens">%1$s–%2$s znakov</string>
+    <string name="ai_text_confirm_cancel">Prekliči</string>
+    <string name="ai_text_revoke_modifications">Razveljavi spremembe</string>
+    <string name="ai_text_watermark">Ta vsebina je ustvarjena z umetno inteligenco in je namenjena samo za vašo referenco.</string>
     <string name="ai_text_widget_cancel">Prekliči</string>
     <string name="ai_text_widget_check">Lektura</string>
     <string name="ai_text_widget_copy">Kopiraj</string>
@@ -140,9 +145,17 @@
     <string name="ai_title_stop_summary">Povzemanje ustavljeno</string>
     <string name="ai_translate">AI prevod</string>
     <string name="ai_unsupport_directive_title">Tega ukaza ni mogoče izvesti</string>
+    <string name="ai_usage_content_text">"%1$d.Odprite beležke
+%2$d. Tapnite plus v spodnjem desnem kotu, ustvarite beležko in nato tapnite {icon}, da začnete."</string>
+    <string name="ai_usage_text_title">Navodila za uporabo</string>
     <string name="ai_waiting_generate">Ustvarjanje…</string>
     <string name="ai_watermark">AI ustvarjena vsebina je na voljo samo kot referenca</string>
     <string name="ai_when_mistake_title">Prišlo je do napake. Poskusite ponovno.</string>
+    <string name="ai_writing_content_text">"AI pisanje vam pomaga organizirati in izboljšati besedilo. Uporabite ga lahko na naslednje načine:
+%1$d. Povzemite besedilo za hiter povzetek ključnih informacij iz dolgih člankov.
+%2$d. Razširite besedilo, da bodo kratki zapiski bogatejši.
+%3$d. Izboljšajte besedilo za bolj tekoče izražanje.
+%4$d.Preverite črkovanje in slovnico."</string>
     <string name="ai_writing_invite_beta_testing_content">Ta funkcija uporablja zmožnosti velikega modela za lektoriranje, razširitve, povzemanje in izčiščevanje vašega pisanja. Vnesete lahko tudi pozive in pustite, da umetna inteligenca piše namesto vas. Dotaknite se »Strinjam se«, da jo preizkusite!</string>
     <string name="ai_writing_invite_beta_testing_title">Beta test AI pisanja</string>
     <string name="ai_writing_local_message">Uporaba modelov v napravi za AI pisanje</string>
@@ -178,7 +191,6 @@
     <string name="app_widget_name_create_todo">Ustvari opravila</string>
     <string name="app_widget_name_fast_entry">Bližnjice</string>
     <string name="app_widget_name_new">Beležke</string>
-    <string name="apparel_shopping_review">Napišite oceno nakupovanja oblačil</string>
     <string name="application_icon">Ikona aplikacije</string>
     <string name="audio_btn_mode_meeting">Sestanek</string>
     <string name="audio_btn_mode_single">Ena oseba</string>
@@ -209,11 +221,7 @@
     <string name="audio_toast_network_is_not_available">Povezava z omrežjem ni uspela</string>
     <string name="auto_detected">Samodejno zaznavanje</string>
     <string name="auto_optimize_handwriting_text">Samodejno optimiziraj rokopis</string>
-    <string name="beauty_instructional_copywriting">Napišite lepotni vodnik za začetnike</string>
-    <string name="beauty_shopping_list">Naredite seznam za nakupovanje kozmetičnih izdelkov za začetnike</string>
-    <string name="beauty_shopping_review">Napišite oceno nakupovanja kozmetičnih izdelkov</string>
     <string name="blackboard_note">Pametna tabla</string>
-    <string name="book_reading_guide">Napišite podroben vodnik za branje knjige</string>
     <string name="bottomsheet_action_collapse">Strnite spodnjo stran</string>
     <string name="bottomsheet_action_expand">Razširite spodnjo stran</string>
     <string name="bottomsheet_action_expand_halfway">Razširi do polovice</string>
@@ -229,7 +237,6 @@
     <string name="call_notification_incoming_text">Dohodni klic</string>
     <string name="call_notification_ongoing_text">Aktivni klic</string>
     <string name="call_notification_screening_text">Preverjanje dohodnega klica</string>
-    <string name="camera_price_analysis">Napišite oceno razmerja med ceno in kakovostjo digitalnih fotoaparatov</string>
     <string name="cancel_alarm_description">Prekliči alarm</string>
     <string name="canvas_is_too_large_to_share">Ta predmet je predolg za deljenje</string>
     <string name="character_counter_content_description">Število vnesenih znakov je %1$d od %2$d</string>
@@ -246,15 +253,11 @@
     <string name="cloud_state_wait_wifi_counts">Čakanje na sinhronizacijo omrežja Wi-Fi: %1$s, %2$s</string>
     <string name="cloud_state_wait_wifi_counts_china">Čakanje na sinhronizacijo omrežja WLAN: %1$s</string>
     <string name="cloud_trash_bin_title">Izbrisane beležke v pomnilniku v oblaku</string>
-    <string name="collection_of_the_month_news">Povzemite najpomembnejše novice tega meseca</string>
     <string name="color_pick_board_talkback">Barvna karta</string>
     <string name="color_pick_talkback">Vrstica %1$d, stolpec %2$d</string>
     <string name="color_picker_popup_straw_talkback">Kapalka za barve</string>
-    <string name="communicates_positive_feedback">Napišite pozitivno oceno o komunikaciji med nakupom</string>
-    <string name="company_annual_meeting_notice">Napišite obvestilo za letni sestanek podjetja</string>
     <string name="complete_extension">Podaljšanje je končano</string>
     <string name="complete_polish">Poliranje je končano</string>
-    <string name="concert_experience_review">Opišite svojo izkušnjo na koncertu</string>
     <string name="confirm_cancel">Ne strinjam se</string>
     <string name="confirm_ok">Strinjam se</string>
     <string name="content_text">AI pisanje ponuja funkcije, vključno z razširitvijo, prečiščevanjem, lektoriranjem in povzemanjem vašega pisanja ter ustvarjanjem delov pisanja na podlagi vaših pozivov.</string>
@@ -325,11 +328,9 @@
     <string name="default_update_documents">Posodobitev je na voljo. Želite posodobiti sedaj?</string>
     <string name="delete_folder_dialog_tile">Izbriši mapo</string>
     <string name="delete_talkback">Izbriši, gumb</string>
-    <string name="delivery_man_review">Napišite oceno s 5 zvezdicami za dostavljalca</string>
     <string name="desc_paper_black_talkback">Črna</string>
     <string name="desc_paper_white_talkback">Bela</string>
     <string name="desc_paper_yellow_talkback">Jajčna lupina</string>
-    <string name="description_of_a_used_object">Opišite stanje rabljenega predmeta</string>
     <string name="dialog_button_cancel">Prekliči</string>
     <string name="dialog_button_close">Zapri</string>
     <string name="dialog_button_confirm">V redu</string>
@@ -338,8 +339,10 @@
     <string name="dialog_button_move">Premakni</string>
     <string name="dialog_expert_as_markdown">Izvozi kot Markdown</string>
     <string name="dialog_privacy_revoke_tips">Ko prekličete avtorizacijo bo aplikacija nehala zbirati podatke, zbrani podatki pa bodo izbrisani iz strežnika. To lahko povzroča nestabilnost aplikacije. Želite vseeno preklicati avtorizacijo? Da poskrbite za varnost računa, se pred preklicem avtorizacije za storitve v oblaku, vpišite v i.mi.com.</string>
+    <string name="dialog_share_as_duplicate">Delite beležko kot kopijo</string>
     <string name="dialog_share_as_pic">Deli beležko kot sliko</string>
     <string name="dialog_share_as_text">Deli beležko kot besedilo</string>
+    <string name="dialog_share_title">Deli beležko</string>
     <string name="dialog_tip_title">Pozor</string>
     <string name="dlg_btn_set_password">Nastavi geslo</string>
     <string name="dlg_delete_message">Brisanje…</string>
@@ -437,9 +440,6 @@
     <string name="export_select_empty">Izberite vsaj eno stran</string>
     <string name="exposed_dropdown_menu_content_description">Prikaz spustnega menija</string>
     <string name="external_share_to_note">%1$s deljeno med Zapiske</string>
-    <string name="fictional_story">Napišite znanstvenofantastično zgodbo, ki se dogaja v izmišljenem svetu</string>
-    <string name="film_interpretation">Napišite interpretacijo visoko ocenjenega novega filma</string>
-    <string name="fitness_plan">Ustvarite načrt za telesno pripravljenost</string>
     <string name="float_note_empty">Tukaj ni beležk</string>
     <string name="float_note_title">Beležke</string>
     <string name="fmt_chinese_date">N e</string>
@@ -499,14 +499,12 @@
     <string name="folder_operation_rename">Preimenuj</string>
     <string name="folder_other">Druge mape</string>
     <string name="foler_pinned">Pripete mape</string>
-    <string name="food_review">Napišite oceno hrane</string>
     <string name="format_move_note_out_folder">Ta beležka je bila premaknjena</string>
     <string name="format_move_note_to_folder">Premaknjeno v %1$s</string>
     <string name="friday">Petek</string>
     <string name="friday_short">Pet</string>
     <string name="friday_shortest">Pet</string>
     <string name="generating">Trenutek…</string>
-    <string name="generic_praise">Napišite pozitivno oceno s 50 besedami</string>
     <string name="gesture_guide_cancel">Preskoči</string>
     <string name="gesture_guide_title">Kretnje</string>
     <string name="global_ai_action_btn_fail">Prišlo je do napake. Poskusite ponovno.</string>
@@ -517,13 +515,7 @@
     <string name="handwrite_description_window">Okno za rokopis</string>
     <string name="hear_note">Diktirane opombe</string>
     <string name="hidden_notes_fragment_title">Skrite beležke</string>
-    <string name="highlight_headline">Ustvarite privlačen naslov</string>
     <string name="hint_cannot_view_hidden_note_content">Vsebine skritih beležk ni mogoče prikazati</string>
-    <string name="holiday_notice">Napiši obvestilo o dopustu</string>
-    <string name="hot_topic_discussion">Napišite razpravo o danes priljubljeni temi</string>
-    <string name="hot_topic_for_a_cultural_salon_group">Predlagajte aktualno temo za kulturni salon</string>
-    <string name="hot_topic_in_society">Pišite o aktualni družbeni temi</string>
-    <string name="hot_topic_in_the_news">Pišite o trenutno popularni temi v novicah</string>
     <string name="hover_bold">MD: **Besedilo** presledek</string>
     <string name="hover_font_first_level">MD: # presledek</string>
     <string name="hover_font_second_level">MD: ## presledek</string>
@@ -573,7 +565,6 @@
     <string name="material_timepicker_pm">pop.</string>
     <string name="material_timepicker_select_time">Izberite uro</string>
     <string name="material_timepicker_text_input_mode_description">Preklopite na način za vnašanje besedila, da vnesete čas.</string>
-    <string name="meeting_minutes">Napišite zapisnik sestanka</string>
     <string name="menu_add_audio_description">Dodaj glasovno beležko</string>
     <string name="menu_add_description">Dodaj beležko</string>
     <string name="menu_add_handwrite_description">Dodaj ročno napisano beležko</string>
@@ -628,6 +619,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">Prekliči izbiro</string>
     <string name="miuix_appcompat_action_mode_select_all">Izberi vse</string>
     <string name="miuix_appcompat_action_mode_title_empty">Izberite predmete</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Izberi</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Več</string>
     <string name="miuix_appcompat_cancel_description">Prekliči</string>
     <string name="miuix_appcompat_cloud_state_disabled">Sinhronizacija s pomnilnikom v oblaku je izklopljena</string>
@@ -767,9 +759,7 @@
     <string name="multi_page_max_limit_text_toast">Ni mogoče dodati več besedilnih polj</string>
     <string name="multi_page_reach_max_page_count_toast">Ni mogoče dodati več strani</string>
     <string name="multi_page_release_new_page">Spustite za dodajanje nove strani</string>
-    <string name="music_festival_experience_review">Opišite svojo izkušnjo na glasbenem festivalu</string>
     <string name="net_error">Prišlo je do napake omrežja</string>
-    <string name="netflix_restaurant_experience">Napišite o svoji izkušnji v trendovski restavraciji</string>
     <string name="network_error_info">Prišlo je do omrežne napake. Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
     <string name="network_timeout_info">Povezava z omrežjem ni uspela. Poskusite ponovno.</string>
     <string name="new_ai_search_database_building_pause">Beležke bodo analizirane v vaši napravi za zagotovitev natančnejših rezultatov</string>
@@ -815,7 +805,6 @@
     <string name="notice_for_ai_search_tips">Prikaži podrobnosti</string>
     <string name="notification_content_add_todo_from_other_app">Dodali ste novo opravilo. Tapnite za ogled.</string>
     <string name="notify_alarm_title">Opomnik beležke</string>
-    <string name="opinion_piece_on_ai">Napišite mnenjski članek o tem, kako umetna inteligenca nadomešča ljudi</string>
     <string name="option_menu_delete">Izbriši</string>
     <string name="option_menu_multi_choice">Izberi</string>
     <string name="option_menu_new">Ustvari</string>
@@ -826,7 +815,6 @@
     <string name="option_menu_share">Skupna raba</string>
     <string name="original_empty_content">V izvirni različici ni vsebine</string>
     <string name="original_text">Izvirnik: \"%1$s\"</string>
-    <string name="outfit_to_share">Napišite objavo o zadnjih modnih trendih</string>
     <string name="pad_collpase_navigation">Skrij ploščo za navigacijo</string>
     <string name="pad_dialog_take_photo_by_device">Fotografiranje z napravo %1$s</string>
     <string name="pad_dialog_tip_content_take_photo_by_phone">Uporaba kamere…</string>
@@ -887,7 +875,6 @@
     <string name="permlab_accessNote">Dostop do beležk</string>
     <string name="pm">pop.</string>
     <string name="polish_title">Izpilite</string>
-    <string name="popular_wearable_copywriter">Napišite opis trendovske oprave</string>
     <string name="pref_category_title_quick_func">Hitre funkcije</string>
     <string name="pref_excerpt_link_float">Prejeli boste obvestilo, da ustvarite izvleček vsakič, ko kopirate povezavo</string>
     <string name="pref_permission_allowed">Odobreno</string>
@@ -914,7 +901,6 @@
     <string name="private_entry_available">Spustite, da bi odprli zasebno mapo</string>
     <string name="private_entry_default">Podrsajte navzdol, da bi odprli zasebno mapo</string>
     <string name="progressbar_title">Preverjanje varnostnih težav…</string>
-    <string name="promotional_copywriter">Napišite promocijsko besedilo</string>
     <string name="quick_note_link_default_text">Povezava</string>
     <string name="quick_note_new_user_guide">Hitre beležke vam omogočajo ustvarjanje beležk in izvlečkov</string>
     <string name="redo">Ponovi</string>
@@ -941,8 +927,6 @@
     <string name="repeat_mode_week">Vsak teden</string>
     <string name="repeat_mode_year">Vsako leto</string>
     <string name="request_alert_window_permission_toast">Dovolite tej aplikaciji, da prikaže elemente prek drugih aplikacij</string>
-    <string name="restaurant_dining_review">Napišite pozitivno oceno obroka v restavraciji</string>
-    <string name="restaurant_review">Napišite pozitivno oceno za restavracijo</string>
     <string name="retry">Poskusite znova</string>
     <string name="revoke_modifications">Razveljavi</string>
     <string name="rich_text_bold_description">Krepko</string>
@@ -968,7 +952,6 @@
     <string name="rich_text_tasklist_description">Kontrolni seznam</string>
     <string name="rich_text_underline_description">Podčrtano</string>
     <string name="rich_text_unorderlist_description">Označen seznam</string>
-    <string name="romance_film_review">Napišite oceno romantičnega filma</string>
     <string name="saturday">Sobota</string>
     <string name="saturday_short">Sob</string>
     <string name="saturday_shortest">Sob</string>
@@ -985,7 +968,6 @@
     <string name="searchview_navigation_content_description">Nazaj</string>
     <string name="select_account_prompt">Sinhroniziraj beležke</string>
     <string name="select_text_before_using">Pred uporabo te funkcije izberite besedilo</string>
-    <string name="selfhealing_manual">Napišite vodnik za samopomoč v stresnih časih</string>
     <string name="send">Pošlji</string>
     <string name="send_notifications_for_reminder">Za pošiljanje opomnikov</string>
     <string name="sensitive_content_warn">Občutljive vsebine ni mogoče povzeti</string>
@@ -1004,7 +986,6 @@
     <string name="setting_show_line_talkback">Črtasto</string>
     <string name="setting_show_solid_talkback">Navadno</string>
     <string name="shortcut_key_description">Gumb, ki je najbližje konici pisala, je gumb za pisanje. Pritisnite, da preklopite čopiče, pritisnite in držite, da preklopite na radirko, nato pritisnite in držite, da izbrišete. Srednji gumb je gumb za posnetek zaslona. Pritisnite za preklop na zadnjo uporabljeno barvo.</string>
-    <string name="show_event_review">Napišite oceno predstave ali dogodka</string>
     <string name="side_sheet_accessibility_pane_title">Stranski list</string>
     <string name="single_link_excerpt_saving">Shranjevanje predmetov…</string>
     <string name="single_new_excerpt_title">Izvlečki</string>
@@ -1022,7 +1003,6 @@
     <string name="sns_content_default">Deli sliko</string>
     <string name="sns_footer_text">Ustvarjeno z Mi Beležke</string>
     <string name="sns_title_edit">Deli beležko</string>
-    <string name="speech_for_the_annual_meeting">Napišite govor za letni sestanek podjetja</string>
     <string name="splash_note">Pisalo</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stealth_mode_tip">Nevidni ste. Trenutno ne morete uporabljati mikrofona.</string>
@@ -1229,7 +1209,6 @@ Dovolite Beležki, da snema zvok."</string>
     <string name="trash_folder_name">Koš</string>
     <string name="trash_folder_name_new">Nedavno izbrisani elementi</string>
     <string name="trash_folder_reminder_new">Beležke bodo shranjene v košu za smeti %d dni, preden bodo trajno izbrisane</string>
-    <string name="travel_list">Naredite seznam pakiranja za potovanje</string>
     <string name="tuesday">Torek</string>
     <string name="tuesday_short">Tor</string>
     <string name="tuesday_shortest">Tor</string>
@@ -1271,6 +1250,7 @@ Dovolite Beležki, da snema zvok."</string>
     <string name="widget_size_item_medium">Srednje</string>
     <string name="widget_size_item_small">Majhno</string>
     <string name="widget_size_item_super_big">Zelo veliko</string>
+    <string name="widget_size_item_title">Izberite velikost</string>
     <string name="widget_size_not_support">Naprava ne podpira zelo velikih pripomočkov</string>
     <string name="widget_take_notes_title">Beležke</string>
     <string name="widget_total_notes">%1$d</string>

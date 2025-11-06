@@ -70,6 +70,7 @@
     <string name="ai_dialog_retry_message">未連接至高算力裝置，功能無法使用，可點選「重試」重新嘗試連接。</string>
     <string name="ai_dialog_title">功能無法使用</string>
     <string name="ai_edit_input_end_btn_text">確認</string>
+    <string name="ai_experience_text">即刻體驗</string>
     <string name="ai_failed">產生失敗，請重試</string>
     <string name="ai_feature_disabled">多次違規，功能已被禁用</string>
     <string name="ai_generate_stop_button">停止生成</string>
@@ -84,6 +85,7 @@
     <string name="ai_invitation_text_disagree">不同意</string>
     <string name="ai_involve_sensitive_word_title">涉及敏感內容無法生成</string>
     <string name="ai_label">AI功能</string>
+    <string name="ai_language_not_support">該語言不支援</string>
     <string name="ai_layout">AI排版</string>
     <string name="ai_llm_dis_connect_error_message">「算力共享」中斷，請連接後重試</string>
     <string name="ai_local_device_low_battery_title">電量過低，請充電後重試</string>
@@ -120,6 +122,9 @@
     <string name="ai_tag_text_moderate">適中</string>
     <string name="ai_tag_text_more">較多</string>
     <string name="ai_tag_words_betweens">%1$s ~ %2$s字</string>
+    <string name="ai_text_confirm_cancel">取消</string>
+    <string name="ai_text_revoke_modifications">撤銷修改</string>
+    <string name="ai_text_watermark">內容為AI生成，僅供參考</string>
     <string name="ai_text_widget_cancel">取消</string>
     <string name="ai_text_widget_check">糾錯</string>
     <string name="ai_text_widget_copy">複製</string>
@@ -140,9 +145,17 @@
     <string name="ai_title_stop_summary">摘要停止</string>
     <string name="ai_translate">AI翻譯</string>
     <string name="ai_unsupport_directive_title">暫不支援該指令</string>
+    <string name="ai_usage_content_text">"%1$d. 打開小米筆記。
+%2$d. 點選首頁右下角 「+」，建立新筆記。在編輯欄中點選{icon}開始體驗。"</string>
+    <string name="ai_usage_text_title">使用方法</string>
     <string name="ai_waiting_generate">正在生成內容…</string>
     <string name="ai_watermark">內容為AI生成，僅供參考</string>
     <string name="ai_when_mistake_title">出錯了，請重試</string>
+    <string name="ai_writing_content_text">"AI寫作可幫助您整理和改進文字內容。您可以：
+%1$d. 總結文字內容，更快擷取長文訊息。
+%2$d. 使用擴寫功能，將簡要文字變得更豐富。
+%3$d. 使用潤色功能，進一步優化文字。
+%4$d. 確認拼字和語法正確性。"</string>
     <string name="ai_writing_invite_beta_testing_content">基於大模型能力，使用AI寫作體驗文字摘要、擴充、潤飾、糾錯等功能，還可以輸入寫作需求讓AI幫您創作，點選「同意」即可體驗！</string>
     <string name="ai_writing_invite_beta_testing_title">AI寫作內測邀請</string>
     <string name="ai_writing_local_message">開啟後將使用端側模型進行AI寫作</string>
@@ -178,7 +191,6 @@
     <string name="app_widget_name_create_todo">建立待辦</string>
     <string name="app_widget_name_fast_entry">快速入口</string>
     <string name="app_widget_name_new">筆記卡片</string>
-    <string name="apparel_shopping_review">幫我生成一個服飾類購物評價</string>
     <string name="application_icon">應用圖示</string>
     <string name="audio_btn_mode_meeting">會議模式</string>
     <string name="audio_btn_mode_single">單人語音</string>
@@ -209,11 +221,7 @@
     <string name="audio_toast_network_is_not_available">沒有網路，語音無法轉文字！</string>
     <string name="auto_detected">自動檢測</string>
     <string name="auto_optimize_handwriting_text">自動優化手寫</string>
-    <string name="beauty_instructional_copywriting">幫我生成一篇新手美妝教學文案</string>
-    <string name="beauty_shopping_list">幫我生成一個新手美妝購物清單</string>
-    <string name="beauty_shopping_review">幫我生成一個美妝類購物評價</string>
     <string name="blackboard_note">智慧小黑板</string>
-    <string name="book_reading_guide">幫我生成一份書籍深度閱讀指南</string>
     <string name="bottomsheet_action_collapse">收起底部動作條</string>
     <string name="bottomsheet_action_expand">展開底部動作條</string>
     <string name="bottomsheet_action_expand_halfway">展開到一半高度</string>
@@ -229,7 +237,6 @@
     <string name="call_notification_incoming_text">來電</string>
     <string name="call_notification_ongoing_text">通話中</string>
     <string name="call_notification_screening_text">正在過濾來電</string>
-    <string name="camera_price_analysis">幫我生成一份數碼相機性價比分析</string>
     <string name="cancel_alarm_description">取消鬧鐘</string>
     <string name="canvas_is_too_large_to_share">當前畫布過大，無法分享</string>
     <string name="character_counter_content_description">已輸入 %1$d 個字元 (共 %2$d 個)</string>
@@ -246,15 +253,11 @@
     <string name="cloud_state_wait_wifi_counts">%1$s，%2$s等待Wi-Fi同步至「小米雲服務」</string>
     <string name="cloud_state_wait_wifi_counts_china">%1$s等待WLAN同步至「小米雲服務」</string>
     <string name="cloud_trash_bin_title">筆記雲回收站</string>
-    <string name="collection_of_the_month_news">幫我生成一份本月新聞看點合集</string>
     <string name="color_pick_board_talkback">取色板</string>
     <string name="color_pick_talkback">取色板第%1$d行，第%2$d列</string>
     <string name="color_picker_popup_straw_talkback">取色</string>
-    <string name="communicates_positive_feedback">幫我生成一個交易溝通好評</string>
-    <string name="company_annual_meeting_notice">幫我生成一份公司年會通知</string>
     <string name="complete_extension">擴寫完成</string>
     <string name="complete_polish">潤飾完成</string>
-    <string name="concert_experience_review">幫我生成一個演唱會體驗評價</string>
     <string name="confirm_cancel">不同意</string>
     <string name="confirm_ok">同意</string>
     <string name="content_text">AI写作可帮助您整理和改进文本内容。您可以:</string>
@@ -325,11 +328,9 @@
     <string name="default_update_documents">應用程式預設升級文案</string>
     <string name="delete_folder_dialog_tile">刪除資料夾</string>
     <string name="delete_talkback">刪除，按鈕</string>
-    <string name="delivery_man_review">幫我生成一個配送員五星好評</string>
     <string name="desc_paper_black_talkback">黑色</string>
     <string name="desc_paper_white_talkback">白色</string>
     <string name="desc_paper_yellow_talkback">米黃色</string>
-    <string name="description_of_a_used_object">幫我生成一個二手商品的狀態描述</string>
     <string name="dialog_button_cancel">取消</string>
     <string name="dialog_button_close">關閉</string>
     <string name="dialog_button_confirm">確定</string>
@@ -338,8 +339,10 @@
     <string name="dialog_button_move">移動</string>
     <string name="dialog_expert_as_markdown">以Markdown格式匯出</string>
     <string name="dialog_privacy_revoke_tips">撤回私隱授權後該應用將停止收集並刪除儲存於伺服器上的個人資料。 該操作可能會導致應用無法正常使用。 您確定要撤回私隱授權嗎？為了保證雲服務資料安全，如果希望取消雲服務私隱授權，請瀏覽mi.com.</string>
+    <string name="dialog_share_as_duplicate">以副本形式分享</string>
     <string name="dialog_share_as_pic">以圖片形式分享</string>
     <string name="dialog_share_as_text">以文字形式分享</string>
+    <string name="dialog_share_title">分享筆記</string>
     <string name="dialog_tip_title">提醒</string>
     <string name="dlg_btn_set_password">設定密碼</string>
     <string name="dlg_delete_message">正在刪除中…</string>
@@ -442,9 +445,6 @@
     <string name="export_select_empty">至少選中一頁</string>
     <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
     <string name="external_share_to_note">%1$s分享到筆記</string>
-    <string name="fictional_story">幫我生成一個科幻世界的虛構故事</string>
-    <string name="film_interpretation">幫我生成一份最新高分電影解讀</string>
-    <string name="fitness_plan">幫我生成一個健身計劃</string>
     <string name="float_note_empty">沒有筆記</string>
     <string name="float_note_title">筆記</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -504,14 +504,12 @@
     <string name="folder_operation_rename">重新命名</string>
     <string name="folder_other">其他資料夾</string>
     <string name="foler_pinned">置頂資料夾</string>
-    <string name="food_review">幫我生成一個美食團購好評</string>
     <string name="format_move_note_out_folder">已將當前筆記移出資料夾</string>
     <string name="format_move_note_to_folder">已將當前筆記移到 %1$s</string>
     <string name="friday">星期五</string>
     <string name="friday_short">週五</string>
     <string name="friday_shortest">五</string>
     <string name="generating">正在產生中</string>
-    <string name="generic_praise">幫我生成一個五十字通用好評</string>
     <string name="gesture_guide_cancel">跳過</string>
     <string name="gesture_guide_title">手勢學習</string>
     <string name="global_ai_action_btn_fail">出現錯誤，請重試</string>
@@ -522,13 +520,7 @@
     <string name="handwrite_description_window">手寫筆記視窗</string>
     <string name="hear_note">聞聲筆記</string>
     <string name="hidden_notes_fragment_title">私密筆記</string>
-    <string name="highlight_headline">幫我生成一個吸睛標題</string>
     <string name="hint_cannot_view_hidden_note_content">無法查看私密筆記內容</string>
-    <string name="holiday_notice">幫我生成一份節日假期通知</string>
-    <string name="hot_topic_discussion">幫我生成一個熱搜榜首的看點討論</string>
-    <string name="hot_topic_for_a_cultural_salon_group">幫我生成一個文化沙龍小組的熱門話題</string>
-    <string name="hot_topic_in_society">幫我生成一個社會熱門話題</string>
-    <string name="hot_topic_in_the_news">幫我生成一個新聞熱點話題</string>
     <string name="hover_bold">MD：**文字** 空格</string>
     <string name="hover_font_first_level">MD：# 空格</string>
     <string name="hover_font_second_level">MD：## 空格</string>
@@ -578,7 +570,6 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">選取時間</string>
     <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式即可輸入時間。</string>
-    <string name="meeting_minutes">幫我生成一份會議紀要</string>
     <string name="menu_add_audio_description">新增語音筆記</string>
     <string name="menu_add_description">新增筆記</string>
     <string name="menu_add_handwrite_description">新增手寫筆記</string>
@@ -633,6 +624,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">取消全選</string>
     <string name="miuix_appcompat_action_mode_select_all">全選</string>
     <string name="miuix_appcompat_action_mode_title_empty">選擇</string>
+    <string name="miuix_appcompat_action_sheet_default_message">請選擇</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">更多</string>
     <string name="miuix_appcompat_cancel_description">取消</string>
     <string name="miuix_appcompat_cloud_state_disabled">小米雲同步未開啟</string>
@@ -772,9 +764,7 @@
     <string name="multi_page_max_limit_text_toast">新增的本文框已達上限</string>
     <string name="multi_page_reach_max_page_count_toast">已達到頁面最大數量</string>
     <string name="multi_page_release_new_page">鬆手新增新頁面</string>
-    <string name="music_festival_experience_review">幫我生成一個音樂節體驗評價</string>
     <string name="net_error">網絡錯誤</string>
-    <string name="netflix_restaurant_experience">幫我生成一個網紅餐廳探店體驗</string>
     <string name="network_error_info">網路異常,請檢查網路是否連通</string>
     <string name="network_timeout_info">網路不給力,請重試</string>
     <string name="new_ai_search_database_building_pause">將本機分析筆記以提供更精確結果</string>
@@ -821,7 +811,6 @@
     <string name="notice_for_ai_search_tips">查看詳情</string>
     <string name="notification_content_add_todo_from_other_app">您已新增一條待辦，點擊查看</string>
     <string name="notify_alarm_title">筆記提示</string>
-    <string name="opinion_piece_on_ai">幫我生成一份關於AI取代人類的觀點文章</string>
     <string name="option_menu_delete">刪除</string>
     <string name="option_menu_multi_choice">多選</string>
     <string name="option_menu_new">新增</string>
@@ -832,7 +821,6 @@
     <string name="option_menu_share">分享</string>
     <string name="original_empty_content">原文無內容</string>
     <string name="original_text">原文“%1$s”</string>
-    <string name="outfit_to_share">幫我寫一篇新中式穿搭分享</string>
     <string name="pad_collpase_navigation">收起導航區</string>
     <string name="pad_dialog_take_photo_by_device">使用%1$s拍照中</string>
     <string name="pad_dialog_tip_content_take_photo_by_phone">使用手機拍照中</string>
@@ -893,7 +881,6 @@
     <string name="permlab_accessNote">瀏覽筆記</string>
     <string name="pm">下午</string>
     <string name="polish_title">文字潤飾</string>
-    <string name="popular_wearable_copywriter">幫我生成一個潮流穿搭文案</string>
     <string name="pref_category_title_quick_func">快捷功能</string>
     <string name="pref_excerpt_link_float">每當複製鏈接後，速記條會進行“摘錄”提示</string>
     <string name="pref_permission_allowed">已允許</string>
@@ -920,7 +907,6 @@
     <string name="private_entry_available">鬆開進入私隱空間</string>
     <string name="private_entry_default">下拉進入私隱空間</string>
     <string name="progressbar_title">正在安全檢測中...</string>
-    <string name="promotional_copywriter">幫我生成一個推廣文案</string>
     <string name="quick_note_link_default_text">網頁連結</string>
     <string name="quick_note_new_user_guide">新增\"速記\"功能，快速建立筆記和摘錄</string>
     <string name="redo">恢復</string>
@@ -950,8 +936,6 @@
     <string name="repeat_mode_week">每週</string>
     <string name="repeat_mode_year">每年</string>
     <string name="request_alert_window_permission_toast">請開啟「顯示在其他應用程式的上層」權限，以正常使用本功能</string>
-    <string name="restaurant_dining_review">幫我生成一個餐廳用餐好評</string>
-    <string name="restaurant_review">幫我生成一個商家好評</string>
     <string name="retry">重試</string>
     <string name="revoke_modifications">撤銷修改</string>
     <string name="rich_text_bold_description">粗體</string>
@@ -977,7 +961,6 @@
     <string name="rich_text_tasklist_description">任務清單</string>
     <string name="rich_text_underline_description">底線</string>
     <string name="rich_text_unorderlist_description">無序清單</string>
-    <string name="romance_film_review">幫我生成一個愛情片影評</string>
     <string name="saturday">星期六</string>
     <string name="saturday_short">週六</string>
     <string name="saturday_shortest">六</string>
@@ -994,7 +977,6 @@
     <string name="searchview_navigation_content_description">返回</string>
     <string name="select_account_prompt">開啟筆記雲同步</string>
     <string name="select_text_before_using">請選取文字後再使用該功能</string>
-    <string name="selfhealing_manual">幫我生成一份高壓社會下的自我療癒手冊</string>
     <string name="send">傳送</string>
     <string name="send_notifications_for_reminder">用於傳送提示通知</string>
     <string name="sensitive_content_warn">涉及敏感內容無法進行AI摘要</string>
@@ -1013,7 +995,6 @@
     <string name="setting_show_line_talkback">橫線</string>
     <string name="setting_show_solid_talkback">純色</string>
     <string name="shortcut_key_description">靠近筆尖的第一個鍵位為速記鍵，按一下切換筆刷，長按切換為橡皮，按住擦除，筆身中間鍵位為截圖鍵，單機切換為最近使用顏色</string>
-    <string name="show_event_review">幫我生成一個演出活動評價</string>
     <string name="side_sheet_accessibility_pane_title">側邊工作表</string>
     <string name="single_link_excerpt_saving">內容抓取中</string>
     <string name="single_new_excerpt_title">摘錄剪貼簿</string>
@@ -1048,7 +1029,6 @@
     <string name="solar_term_white_dews">白露</string>
     <string name="solar_term_winter_begins">立冬</string>
     <string name="solar_term_winter_solstice">冬至</string>
-    <string name="speech_for_the_annual_meeting">幫我生成一份年會發言稿</string>
     <string name="splash_note">靈感速記</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stealth_mode_tip">系統已開啟隱身模式，無法使用咪高峰</string>
@@ -1255,7 +1235,6 @@
     <string name="trash_folder_name">廢紙回收桶</string>
     <string name="trash_folder_name_new">最近刪除</string>
     <string name="trash_folder_reminder_new">廢棄筆記保留%d天後自動刪除</string>
-    <string name="travel_list">幫我生成一份旅行出行清單</string>
     <string name="tuesday">星期二</string>
     <string name="tuesday_short">週二</string>
     <string name="tuesday_shortest">二</string>
@@ -1297,6 +1276,7 @@
     <string name="widget_size_item_medium">中尺寸</string>
     <string name="widget_size_item_small">小尺寸</string>
     <string name="widget_size_item_super_big">超大尺寸</string>
+    <string name="widget_size_item_title">請選擇尺寸</string>
     <string name="widget_size_not_support">此裝置不支援該尺寸小工具</string>
     <string name="widget_take_notes_title">隨手記事</string>
     <string name="widget_total_notes">共%1$d篇</string>
