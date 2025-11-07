@@ -96,10 +96,22 @@
     <string name="binded">已綁定</string>
     <string name="binded_description" formatted="false">"已成功綁定%s
 您可以使用%s登入小米帳號"</string>
+    <string name="bottomsheet_action_collapse">收起底部動作條</string>
+    <string name="bottomsheet_action_expand">展開底部動作條</string>
+    <string name="bottomsheet_action_expand_halfway">展開到一半高度</string>
+    <string name="bottomsheet_drag_handle_clicked">拖動手柄被點選兩次</string>
+    <string name="bottomsheet_drag_handle_content_description">拖曳手柄</string>
     <string name="button_agree">同意</string>
     <string name="button_close">關閉</string>
     <string name="button_refuse">不同意</string>
     <string name="button_unbind">解除綁定</string>
+    <string name="call_notification_answer_action">接聽</string>
+    <string name="call_notification_answer_video_action">視訊</string>
+    <string name="call_notification_decline_action">拒接</string>
+    <string name="call_notification_hang_up_action">掛斷</string>
+    <string name="call_notification_incoming_text">來電</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">正在過濾來電</string>
     <string name="cancel">取消</string>
     <string name="change_password">修改密碼</string>
     <string name="check_apk_update">檢查更新</string>
@@ -179,8 +191,6 @@
     <string name="copy">複製</string>
     <string name="copy_link">複製連結</string>
     <string name="copy_to_clipboard_successful">複製成功</string>
-    <string name="cta_privacy_policy">https://account.xiaomi.com/about/protocol/privacy?_locale=zh_TW</string>
-    <string name="cta_user_agreement">https://account.xiaomi.com/about/protocol/agreement?_locale=zh_TW</string>
     <string name="current_account_can_use_pwd_login">目前帳號可使用密碼快速登入</string>
     <string name="data_access_management">資料存取管理</string>
     <string name="date_picker_label_day">日</string>
@@ -198,8 +208,16 @@
     <string name="deny">不同意</string>
     <string name="device_delete_success_message">若此裝置非本人登入，請立即修改密碼</string>
     <string name="device_delete_success_title">此裝置成功退出登入</string>
+    <string name="device_id">裝置ID</string>
+    <string name="device_list_error_tip"><Data>載入失敗，&lt;a href=>重試&lt;/a></Data></string>
     <string name="device_list_title">裝置清單</string>
     <string name="device_name">裝置名稱</string>
+    <string name="device_recent_login_time">最近登入時間</string>
+    <string name="device_status_failed">傳送失敗</string>
+    <string name="device_status_receiver">接受邀請</string>
+    <string name="device_status_reject">拒絕接收</string>
+    <string name="device_status_success">已傳送</string>
+    <string name="device_status_waiting">正在傳送...</string>
     <string name="dind_device_service_not_open">未開啟</string>
     <string name="dind_device_service_opened">已開啟</string>
     <string name="dropdown_menu">下拉式選單</string>
@@ -326,6 +344,7 @@
     <string name="friday_shortest">五</string>
     <string name="get_back_password">找回帳號密碼</string>
     <string name="get_back_pwd">找回密碼</string>
+    <string name="get_device_info_error">裝置資訊取得失敗</string>
     <string name="get_identity_auth_url_failed">取得身份驗證失敗</string>
     <string name="get_phone_bind_exceed_limit">該手機號碼綁定的小米帳號個數已達上限（%d），不能再綁定新的小米帳號</string>
     <string name="get_phone_verifycode_exceed_limit">簡訊條數已達上限</string>
@@ -359,6 +378,12 @@
     <string name="kr_permission_phone_desc">讀取裝置ID用於風險控制</string>
     <string name="kr_permission_sms_desc">用於自動回填驗證碼</string>
     <string name="kr_permission_storage_desc">用於儲存診斷資訊</string>
+    <string name="local_invite_help">找不到裝置</string>
+    <string name="local_invite_prompt_disable_btn">開啟</string>
+    <string name="local_invite_prompt_disable_describe">開啟藍牙後，可掃描附近的裝置，快速邀請家人</string>
+    <string name="local_invite_prompt_disable_title">附近裝置邀請</string>
+    <string name="local_invite_prompt_enable_describe">正在發現附近的裝置，對方需要在「控制中心」開啟藍牙</string>
+    <string name="local_invite_prompt_enable_title">正在透過附近裝置邀請</string>
     <string name="login_3rd_app_with_system_account">登入%s</string>
     <string name="login_check_find_device">正在取得裝置安全資訊…</string>
     <string name="login_check_find_device_failed_title">檢查裝置安全資訊出錯</string>
@@ -399,6 +424,18 @@
     <string name="miuix_appcompat_select_all_description">全選</string>
     <string name="miuix_appcompat_select_item">請選擇項目</string>
     <string name="miuix_appcompat_show_dialog_description">彈出式視窗</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">向下滑動即可關閉</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">向下滑動切換至半螢幕</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">向下滑動切換至最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">向上滑動切換至半螢幕</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">向下滑動切換至最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">半螢幕</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">切換至半螢幕</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">切換至最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">切換至最小化</string>
+    <string name="miuix_popup_window_default_title">彈出式視窗</string>
     <string name="miuix_progressbar_loading">載入中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">下拉重整</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">重整完成</string>
@@ -464,6 +501,7 @@
     <string name="night">晚上</string>
     <string name="no_account_or_forget_password">沒有小米帳號或忘記密碼？</string>
     <string name="no_account_or_skip">沒有小米帳號或跳過</string>
+    <string name="no_device_tip_message">若目前清單未顯示您的裝置，請更新裝置至最新版本</string>
     <string name="no_network_btn">點此重試</string>
     <string name="no_network_refresh_btn">重新整理</string>
     <string name="no_network_title">沒有找到可用網路</string>
@@ -596,7 +634,7 @@
     <string name="passport_error_length_limit">輸入內容長度超出限制</string>
     <string name="passport_error_network">目前網路不可用</string>
     <string name="passport_error_no_password_user">您的帳號暫未綁定密碼，請使用手機簡訊登入</string>
-    <string name="passport_error_phone">請檢查手機格式</string>
+    <string name="passport_error_phone">請輸入正確的手機號碼</string>
     <string name="passport_error_server">伺服器出錯</string>
     <string name="passport_error_server_msg">請檢查網路連接是否正常</string>
     <string name="passport_error_sim_not_ready">SIM卡未就緒</string>
@@ -614,6 +652,8 @@
     <string name="passport_error_user_password">用戶名稱和密碼不匹配</string>
     <string name="passport_facebook_login_btn_content_description">Facebook登入</string>
     <string name="passport_failed_to_send_activate_email">傳送啟用郵件失敗</string>
+    <string name="passport_family_invite_member_sms">家人服務：%1$s邀請您加入TA的「家人服務」。加入後將獲得「雲空間共享」等家人權益，還可以透過「家人守護」守護家中老人和未成年人。連結：%2$s</string>
+    <string name="passport_family_invite_member_wechat_title">%s邀請您加入「家人服務」</string>
     <string name="passport_find_password_on_web_msg">請瀏覽 account.xiaomi.com 找回密碼</string>
     <string name="passport_forget_password"><u>忘記密碼</u></string>
     <string name="passport_forget_password_no_underline">忘記密碼</string>
@@ -645,6 +685,18 @@
     <string name="passport_input_verify_code">請輸入簡訊驗證碼</string>
     <string name="passport_input_voice_captcha_hint">請輸入語音驗證碼</string>
     <string name="passport_input_voice_hint">請輸入語音驗證碼</string>
+    <string name="passport_invite_family_member_ticker">家人邀請</string>
+    <string name="passport_invite_family_member_title">邀請家人</string>
+    <string name="passport_invite_member_accountid_label">小米帳號邀請</string>
+    <string name="passport_invite_member_exceed">家庭成員已達上限，請撤銷已有邀請或移除現有成員後再邀請新成員</string>
+    <string name="passport_invite_member_frequent">操作頻繁，請稍後再試</string>
+    <string name="passport_invite_member_local_describe">%s邀請您加入</string>
+    <string name="passport_invite_member_local_title">家人邀請</string>
+    <string name="passport_invite_member_no_organizer">請聯絡組織者邀請家人</string>
+    <string name="passport_invite_member_overseas_account">中國大陸地區以外帳號暫不支援「家人服務」</string>
+    <string name="passport_invite_member_qrcode_label">二維條碼邀請</string>
+    <string name="passport_invite_member_sms_label">簡訊邀請</string>
+    <string name="passport_invite_member_wechat_label">微信邀請</string>
     <string name="passport_loading">讀取中…</string>
     <string name="passport_login">登入</string>
     <string name="passport_login_by_local_phone_long_text">本機號碼一鍵登入</string>
