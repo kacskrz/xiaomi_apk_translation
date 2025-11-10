@@ -34,9 +34,13 @@
     <string name="action_notes">Enregistrer dans Notes</string>
     <string name="action_retry">Réessayer</string>
     <string name="actionbar_button_up_description">Retour</string>
+    <string name="add_mark">Marquer</string>
     <string name="afternoon">Après midi</string>
     <string name="agree_description">Autorisez cette application à se connecter à internet pour pouvoir utiliser toutes ses fonctionnalités.</string>
     <string name="ai_recognition_other_speaker">"(Quelqu'un d'autre parle)"</string>
+    <string name="ai_recognize_fail">Impossible de transcrire</string>
+    <string name="ai_recognize_fail_tip">Impossible de résumer. Réessayez.</string>
+    <string name="ai_recognize_preference_summary">"Transcrire automatiquement durant l'enregistrement"</string>
     <string name="ai_summary">Résumé IA</string>
     <string name="ai_watermark">Ce contenu est généré par l’IA et fourni à titre de référence uniquement.</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">"Impossible d'enregistrer lorsque le microphone est utilisé"</string>
@@ -65,6 +69,9 @@
     <string name="app_name">Magnéto</string>
     <string name="app_record">"Enregistrements de l'application"</string>
     <string name="app_record_preference_title">"Enregistreur d'Appel Vocal"</string>
+    <string name="asr_in_progress">%s Transcrire et résumer</string>
+    <string name="asr_in_progress_with_polish">%s Polir et résumer</string>
+    <string name="asr_progress">Transcription audio %s</string>
     <string name="back">Retour</string>
     <string name="back_playback_position">Retour à la position actuelle</string>
     <string name="bottomsheet_action_collapse">Réduire la feuille du bas</string>
@@ -114,6 +121,8 @@
     <string name="clear_text_end_icon_content_description">Effacer le texte</string>
     <string name="clearable_edittext_clear_description">Nettoyer</string>
     <string name="close">Fermer</string>
+    <string name="close_voice_enhancement">Désactiver</string>
+    <string name="closed_voice_enhancement">Voix améliorée désactivée</string>
     <string name="cloud_service_state_open_reminder">Activez la synchronisation avec cloud pour synchroniser les enregistrements.</string>
     <string name="cloud_status_full_dialog_cancel">Pas maintenant</string>
     <string name="cloud_status_full_dialog_msg">"Votre stockage cloud est plein, impossible de synchroniser les enregistrements. Mettez à niveau votre compte pour obtenir plus d'espace de stockage."</string>
@@ -236,6 +245,7 @@
     <string name="head_set_tip_dialog_title">Utiliser le microphone interne</string>
     <string name="high_bit_rate">MP3, ~%1$d kbps, ~%2$d Mo/h</string>
     <string name="icon_content_description">Icône de la boîte de dialogue</string>
+    <string name="intelligent_polishing_preference_summary">Supprimer les redondances et normaliser le format pour le chinois</string>
     <string name="invisible_mode_dialog_message">"Impossible d'utiliser le microphone quand vous êtes incognito. Désactivez d'abord le Mode incognito."</string>
     <string name="invisible_mode_dialog_negative">Annuler</string>
     <string name="invisible_mode_dialog_positive">Désactiver</string>
@@ -415,7 +425,7 @@
     <string name="network_tip_dialog_content">Le magnétophone a besoin de se connecter à Internet pour fonctionner normalement. Acceptez-vous?</string>
     <string name="network_tip_dialog_ok">Accepter</string>
     <string name="network_tip_dialog_title">Une connexion Internet est nécessaire</string>
-    <string name="new_ai_summary">"Synthèse par l'IA"</string>
+    <string name="new_ai_summary">Résumé IA</string>
     <string name="new_saf_permission_dialog_content">"Les autorisations du Magnétophone ont été mises à jour. Autorisez Magnétophone à accéder aux enregistrements d'appel.
 
 Comment accorder l'autorisation
@@ -437,16 +447,26 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="noon">Midi</string>
     <string name="not_allowed">Non accordée</string>
     <string name="not_set">Non définie</string>
+    <string name="notice_btn_stop_ai_recognize">Désactiver</string>
+    <string name="notice_content_no_asr_long_time">"Aucune parole n'a été détectée depuis longtemps."</string>
     <string name="notice_for_ai_search_tips">Détails</string>
+    <string name="notice_title_is_need_stop_ai_recognize">Désactiver la reconnaissance vocale IA ?</string>
     <string name="notification_message_all_paused">"En attente d'une connexion Wi-Fi."</string>
+    <string name="notification_pause_playback">Lecture en pause</string>
     <string name="notification_playback">En lecture…</string>
     <string name="notification_recording">Enregistrement…</string>
     <string name="notification_recording_ticker">Téléphone en mode silencieux</string>
     <string name="notification_save_as_complete">Enregistré avec succès</string>
     <string name="notification_stopped">"L'enregistrement s'est arrêté"</string>
+    <string name="notification_title_AI_RECOGNIZE_FINISHED">Transcription terminée</string>
+    <string name="notification_title_AI_SUMMARY_FAILED">Impossible de résumer</string>
+    <string name="notification_title_AI_SUMMARY_SUCCESS">Résumé terminé</string>
     <string name="notification_title_all_paused">Téléchargement en pause</string>
+    <string name="nrt_asr_complete">Transcription terminée. Appuyez pour actualiser.</string>
     <string name="offline_recognize_transfer_format">Transcription en cours…</string>
     <string name="online_recognize_progress">Transcription en cours %s…</string>
+    <string name="open_voice_enhancement">Améliorer la voix</string>
+    <string name="opened_voice_enhancement">Voix améliorée activée</string>
     <string name="passport_access_denied">Accès refusé</string>
     <string name="passport_account_crop_user_avatar">Rogner une photo</string>
     <string name="passport_account_empty_user_name">Saisir votre nom</string>
@@ -622,6 +642,7 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="permission_bluetooth">"Accéder à l'état de la connexion Bluetooth"</string>
     <string name="permission_bluetooth_dialog_description">"Autorisez cet appareil à se connecter à des appareils à proximité pour pouvoir changer d'appareils lors de la lecture des enregistrements."</string>
     <string name="permission_bluetooth_title">Autorisations requises</string>
+    <string name="permission_camera_description">"Pour prendre des photos pendant l'enregistrement"</string>
     <string name="permission_desc">Détails des autorisations</string>
     <string name="permission_dialog_cancel">Annuler</string>
     <string name="permission_dialog_ok">Paramètres</string>
@@ -654,6 +675,10 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="preference_copied">\"%1$s\" copié dans le presse-papier.</string>
     <string name="preference_enable_earpiece_summary">"Écouter de l'audio à l'aide du haut-parleur de l'écouteur"</string>
     <string name="preference_enable_earpiece_title">Mode écouteur</string>
+    <string name="preference_group_title_for_ai_setting">Fonctionnalités IA</string>
+    <string name="preference_group_title_for_normal_setting">Général</string>
+    <string name="preference_key_ai_recognize">Reconnaissance vocale IA</string>
+    <string name="preference_key_intelligent_polishing">Polissage intelligent</string>
     <string name="preference_led_indicator">"Notifications de l'Écran de verrouillage"</string>
     <string name="preference_led_indicator_prompt">"Afficher un indicateur bleu sur l'écran de verrouillage et une lumière LED clignotante pendant l'enregistrement"</string>
     <string name="preference_record_desktop_indicator_summary">"Afficher un indicateur bleu sur l'écran d'accueil pendant l'enregistrement"</string>
@@ -672,6 +697,7 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="progress">Barre de progression de la lecture</string>
     <string name="progress_dialog_message">Téléchargement…</string>
     <string name="radio_tips">Magnétophone fournit la transcription audio, des résumés audio et plus. Cette application doit se connecter à Internet pour fournir ces services.</string>
+    <string name="re_asr_error_tip">Impossible de transcrire. Réessayez.</string>
     <string name="recent_delete">Récemment supprimé</string>
     <string name="recent_delete_delete_all">Supprimer définitivement tous les éléments maintenant ?</string>
     <string name="recognition_button_add_to_queue">Ajouter à la file</string>
@@ -701,6 +727,7 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="recognition_process_dialog_title">Activités en cours</string>
     <string name="recognition_stop_current">Arrêter la tâche en cours</string>
     <string name="recognize_complete_toast">Transcription complète</string>
+    <string name="recognize_data_loading">Un instant…</string>
     <string name="recognize_tip_part_one">"Transcription non terminé. "</string>
     <string name="recognize_tip_part_two">Réessayer</string>
     <string name="recognizing_not_rename">"Impossible de renommer pendant l'enregistrement"</string>
@@ -787,6 +814,8 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="settings_ai_record_abstract_description">Résumer le sujet et le contenu d’un enregistrement et enregistrer le résumé dans les Notes</string>
     <string name="settings_ai_record_diff_speaker">Distinguer les locuteurs</string>
     <string name="settings_ai_record_diff_speaker_description">Si plusieurs locuteurs sont identifiés pendant la transcription, ils seront automatiquement distingués et étiquetés. Une fois la transcription terminée, personnaliser les étiquettes des intervenants pour une lecture claire.</string>
+    <string name="settings_ai_record_in_call">Résumé audio IA</string>
+    <string name="settings_ai_record_in_call_description">Enregistrez les appels effectués dans des applications tierces et générez des résumés</string>
     <string name="settings_ai_record_new_summary">Points clés</string>
     <string name="settings_ai_record_summary_description">Générez des synthèses pour vos enregistrements, visualisez les points clés segmentés et partagez les synthèses</string>
     <string name="settings_ai_record_trans">Transcription</string>
@@ -815,6 +844,7 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="size_tera_byte">To</string>
     <string name="sound_recorder_settings">Paramètres</string>
     <string name="speaker">"Orateur "</string>
+    <string name="state_wait_recognize_tip">"Terminer d'abord la transcription actuelle…"</string>
     <string name="status_bar_back">Appuyez pour revenir au Magnéto</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Enregistrement…</string>
@@ -842,11 +872,14 @@ Appuyez \"%1$s\", puis sélectionnez \"%2$s\"."</string>
     <string name="tab_apps">Applications</string>
     <string name="tab_call">Appels</string>
     <string name="talkback_component_exit_button">Fermez la fenêtre flottante</string>
+    <string name="talkback_return_playback_location">"Retour à l'emplacement de lecture"</string>
     <string name="talkback_return_speak_location">Revenir à la lecture synchronisée</string>
     <string name="talkback_traslation">Traduire</string>
     <string name="talkback_traslation_ai_recognize">Masquer la zone de texte</string>
     <string name="talkback_traslation_close">Arrêter la traduction</string>
+    <string name="tap_share_cloud_file_tip">Download selected items first</string>
     <string name="text_btn_backward_3_seconds">%d secondes en arrière</string>
+    <string name="text_btn_camera">Prendre une photo</string>
     <string name="text_btn_complete">Arrêter</string>
     <string name="text_btn_forward_3_seconds">%d secondes en avant</string>
     <string name="text_btn_mark">Marquer</string>
@@ -919,8 +952,11 @@ En pause. L'analyse reprendra lorsque vous n'utiliserez plus votre appareil."</s
     <string name="tips_for_build_database">"Maintenez votre appareil connecté au chargeur. Il analysera cet enregistrement plus rapidement lorsque l'écran est éteint."</string>
     <string name="toast_enter_silent_mode">Enregistrement. Le mode silencieux est activé.</string>
     <string name="toast_exit_silent_mode">Enregistrement terminé. Le mode silencieux est désactivé.</string>
+    <string name="toast_for_no_asr_long_time">"Aucune parole détectée. La reconnaissance vocale IA s'est arrêtée."</string>
+    <string name="toast_for_pause_record_long_time">"Enregistrement en pause. La reconnaissance vocale IA s'est arrêtée."</string>
     <string name="toast_max_record_time">%1$s peut enregistrer environ %2$s</string>
     <string name="toast_stop">Enregistrement terminé</string>
+    <string name="toast_title_stop_ai_recognize">Reconnaissance vocale IA arrêtée</string>
     <string name="toast_uninstall_fileexplorer">"Le Gestionnaire de fichiers n'est pas installé"</string>
     <string name="today">"Aujourd'hui"</string>
     <string name="tomorrow">Demain</string>
