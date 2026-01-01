@@ -45,7 +45,7 @@
     <string name="accessibility_time_picker_minute">Perc</string>
     <string name="accessibility_time_picker_second">Másodperc</string>
     <string name="accessibility_toolbar_btn_menu">A Google Chrome személyre szabása és beállításai</string>
-    <string name="account_prifix">Fiók:</string>
+    <string name="account_prifix">"Fiók: "</string>
     <string name="action">Bejelentkezés</string>
     <string name="action_menu_account_not_login">Nincs bejelentkezve</string>
     <string name="action_menu_account_not_login_hint">Xiaomi Cloud szinkronizáláshoz jelentkezzen be</string>
@@ -202,9 +202,7 @@
     <string name="bookmark_not_saved">Nem sikerült a könyvjelzőkhöz adni</string>
     <string name="bookmark_rename_group">Csoport átnevezése</string>
     <string name="bookmark_saved">Hozzáadva a könyvjelzőkhöz</string>
-    <string name="bookmark_sync_alert_ok">Szinkronizálás</string>
     <string name="bookmark_sync_alert_title">Szinkronizálandó elemek kiválasztása</string>
-    <string name="bookmark_sync_tip_in_login_activity">A \"Bejelentkezés\" gombra koppintva hozzájárul a könyvjelzők és a böngészési előzmények automatikus szinkronizálásához. Később ki tudja ezt kapcsolni a \"Fiókom\" menüpontban.</string>
     <string name="bookmark_sync_tip_in_profile_page">"Válassza ki a szinkronizálandó elemeket.
 A szinkronizálás leállításához kapcsolja ki."</string>
     <string name="bookmark_sync_tip_logined">A könyvjelzők és a böngészési előzmények szinkronizálása</string>
@@ -216,14 +214,21 @@ A szinkronizálás leállításához kapcsolja ki."</string>
     <string name="bookmark_url_can_not_null">Írja be a webcímet</string>
     <string name="bookmark_url_lable">URL</string>
     <string name="bookmark_url_not_valid">Ez az webcím nem érvényes</string>
+    <string name="bookmarks_add_group_hint">Added successfully</string>
     <string name="bookmarks_content_is_null">Nincs könyvjelző</string>
+    <string name="bookmarks_delete_bookmark_pop_title">Delete bookmark</string>
+    <string name="bookmarks_delete_bookmark_pop_title_content">Delete selected bookmarks permanently?</string>
     <string name="bookmarks_edit">Szerkesztés</string>
+    <string name="bookmarks_edit_title">Edit group</string>
     <string name="bookmarks_folder_name">Csoport neve</string>
     <string name="bookmarks_hint">Könyvjelzõsáv</string>
+    <string name="bookmarks_link_hint">Enter URL</string>
     <string name="bookmarks_management">Könyvjelzők</string>
     <string name="bookmarks_move_position">Áthelyezés</string>
+    <string name="bookmarks_name_hint">Enter name</string>
     <string name="bookmarks_new_bookmark_folder">Csoport hozzáadása</string>
     <string name="bookmarks_new_incognito_traceless_tab">Megnyitás Inkognitó módban</string>
+    <string name="bookmarks_quick_select">Select</string>
     <string name="bookmarks_root_folder">Gyökérkönyvtár</string>
     <string name="bookmarks_search">Böngésző</string>
     <string name="bookmarks_search_bookmarks">Könyvjelzők keresése</string>
@@ -326,7 +331,7 @@ A szinkronizálás leállításához kapcsolja ki."</string>
     <string name="clipboard_title_text">Másolt szöveg</string>
     <string name="clipboard_title_url">Másolt URL</string>
     <string name="close">Bezárás</string>
-    <string name="close_ads_choice_no">Engedélyezés</string>
+    <string name="close_ads_choice_no">Ne tiltsa le</string>
     <string name="close_ads_choice_yes">Letiltás</string>
     <string name="close_ads_message">A letiltott tartalom megtekinthető a Beállítások > Speciális > Letiltott oldalak menüpontban.</string>
     <string name="close_ads_title">Letiltja a tartalmat?</string>
@@ -342,7 +347,7 @@ A szinkronizálás leállításához kapcsolja ki."</string>
     <string name="cloud_sync_failed_toast">Frissítés sikertelen</string>
     <string name="cloud_tab">Felhőlapok</string>
     <string name="cloud_time_tips">Utolsó szinkronizálás</string>
-    <string name="cloud_up_to_loading_tips">Engedje el a szinkronizáláshoz</string>
+    <string name="cloud_up_to_loading_tips">Engedje el a frissítéshez</string>
     <string name="collection_articles">Cikkek</string>
     <string name="collection_videos">Videók</string>
     <string name="color_picker_button_black">Fekete</string>
@@ -415,7 +420,6 @@ A szinkronizálás leállításához kapcsolja ki."</string>
     <string name="columbus_reward_style_speed_confirm">Tovább</string>
     <string name="columbus_skip_ad">Kihagyás</string>
     <string name="columbus_skip_ad_time">Kihagyás (%d)</string>
-    <string name="comment_app_menu">Hozzászólás</string>
     <string name="comment_description">Hozzászólás</string>
     <string name="comment_hint">Hozzászólás</string>
     <string name="comment_menu">Hozzászólás</string>
@@ -459,7 +463,7 @@ A szinkronizálás leállításához kapcsolja ki."</string>
     <string name="contextmenu_add_contact">Új névjegy</string>
     <string name="contextmenu_copy">Másolás</string>
     <string name="contextmenu_copy_image">Kép másolása</string>
-    <string name="contextmenu_copylink">Weboldal linkjének másolása</string>
+    <string name="contextmenu_copylink">URL-cím másolása</string>
     <string name="contextmenu_dial_dot">Tárcsázás…</string>
     <string name="contextmenu_download_image">Kép mentése</string>
     <string name="contextmenu_download_image_as">Kép mentése</string>
@@ -493,15 +497,10 @@ A szinkronizálás leállításához kapcsolja ki."</string>
     <string name="could_not_load_data">Nem sikerült az adatbetöltés, frissítsen és próbálja később</string>
     <string name="crash_page_button">Próbálja újra</string>
     <string name="crash_page_description">A weboldal megjelenítése közben valami hiba történt.</string>
-    <string name="crash_page_title">Ajjaj!</string>
+    <string name="crash_page_title">Hiba történt</string>
     <string name="create_qr_code">QR-kód</string>
-    <string name="current_version_pad">Tablet</string>
-    <string name="current_version_pc">Asztali gép</string>
-    <string name="current_version_phone">Telefon</string>
     <string name="custom">URL megadása</string>
     <string name="custom_head_card_text">Mindig higgyen abban, hogy valami csodálatos dolog fog történni</string>
-    <string name="custom_head_card_text_incognito">"Ön inkognitóban van!
-A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="custom_page_guide_content">A könyvjelzők, a beállítások és az eszközök itt vannak!</string>
     <string name="customize">Testreszabás</string>
     <string name="dark_mode">Sötét mód</string>
@@ -532,7 +531,7 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="delete">Törlés</string>
     <string name="delete_bookmark">Törlés</string>
     <string name="delete_bookmark_group_warning">\"%s\" mappa törlésével a benne lévő összes könyvjelző is törlésre kerül. Törli?</string>
-    <string name="delete_bookmark_warning">Törli \"%s\" könyvjelzőt?</string>
+    <string name="delete_bookmark_warning">Törli a(z) „%s” könyvjelzőt?</string>
     <string name="delete_dialog_button">Törlés</string>
     <string name="delete_file_dialog_msg">Nem fogja tudni visszaállítani a törölt elemeket.</string>
     <string name="delete_file_dialog_title">Kiválasztott fájlok törlése?</string>
@@ -550,8 +549,6 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="dialog_ad_callback_others">Egyéb</string>
     <string name="dialog_ad_callback_title">Hibajelentés</string>
     <string name="dialog_channel_cancel">Mégse</string>
-    <string name="dialog_channel_confirm">OK</string>
-    <string name="dialog_channel_remove_content">Az összes csatorna eltávolításával a Tartalomfolyamot is eltávolítja.</string>
     <string name="dialog_dislike_reason_cancel">Mégse</string>
     <string name="dialog_dislike_reason_not_interested">Nem érdekel</string>
     <string name="dialog_dislike_reason_others">Egyéb ok</string>
@@ -559,7 +556,6 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="dialog_dislike_reason_repetitive">Ismétlődő</string>
     <string name="dialog_dislike_title">Miért nem tetszik Önnek ez a hirdetés?</string>
     <string name="dialog_game_close">Mégse</string>
-    <string name="dialog_game_play">Játék</string>
     <string name="display__quick_entry_of_search">Funkció-parancsikonok megjelenítése az Értesítési felületen</string>
     <string name="doc_viewer_label">Olvasó (Mi Böngésző)</string>
     <string name="doc_viewer_open_out_file_prompt">A külső forrásból kapott fájl megnyitásához és megtekintéséhez az alkalmazásnak először létre kell hoznia egy másolatot a fájlról. Folytatja?</string>
@@ -569,7 +565,7 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="document_download_failed">Sikertelen letöltés</string>
     <string name="document_download_official">Hivatalos verzió letöltése</string>
     <string name="document_download_open_direct">Közvetlen megnyitás</string>
-    <string name="document_download_title">Letöltés</string>
+    <string name="document_download_title">Letöltés…</string>
     <string name="document_open_file">%s megnyitása</string>
     <string name="document_open_message">Az olvasási élmény javítása és a maximális biztonság érdekében használja a WPS módosított verzióját</string>
     <string name="document_open_other">Egyéb alkalmazások</string>
@@ -604,7 +600,7 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="download_dialog_failed_body">Megpróbálja újra később vagy törli ezt a fájlt a letöltési sorból?</string>
     <string name="download_dialog_file_already_exists">Már letöltötte ezt a fájlt</string>
     <string name="download_dialog_file_length_hint_txt">"Fájlméret: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">Kisebb, mint %1$dKB</string>
+    <string name="download_dialog_file_length_lessthan1kb">Kevesebb mint %1$d KB</string>
     <string name="download_dialog_file_length_nolength_error_txt">Sikertelen letöltés</string>
     <string name="download_dialog_file_length_nolength_txt">Egy pillanat…</string>
     <string name="download_dialog_file_missing_body">A fájl nem található. Áthelyezte vagy törölte?</string>
@@ -672,7 +668,7 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="download_retry_download">Próbálja újra</string>
     <string name="download_router_tip">Letöltés a Mi Routerhez</string>
     <string name="download_save_dialog_title">Mentés</string>
-    <string name="download_sdcard_busy_dlg_msg">Az SD-kártya foglalt. A letöltések engedélyezéséhez kapcsolja ki az USB háttértárat az értesítési felületen.</string>
+    <string name="download_sdcard_busy_dlg_msg">Az SD-kártya foglalt. A letöltés engedélyezéséhez kapcsolja ki az USB-tárolót az Értesítési felületen.</string>
     <string name="download_sdcard_busy_dlg_title">Az SD-kártya nem érhető el</string>
     <string name="download_sdcard_no_space">Nem sikerült a letöltés. Nincs elég tárhely.</string>
     <string name="download_secure_download_in_xiaomi_market">Letöltés itt: GetApps</string>
@@ -706,7 +702,7 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="encrypting">Titkosítás…</string>
     <string name="enter_bookmark">Könyvjelzők</string>
     <string name="enter_developer_mode">Belépés a fejlesztői módba</string>
-    <string name="enter_incongnito_mode">Belépés Inkognitó módba</string>
+    <string name="enter_incongnito_mode">Inkognitó mód bekapcsolása</string>
     <string name="enter_news_by_pull_down">Kiadás a Tartalomfolyam megnyitásához</string>
     <string name="eras_ad">I.SZ.</string>
     <string name="eras_bc">I.E.</string>
@@ -727,7 +723,7 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="exit_browser_warning">Kilép a Böngészőből?</string>
     <string name="exit_clear_dialog_always">Választás megjegyzése</string>
     <string name="exit_clear_dialog_btn_cancel">Kilépés</string>
-    <string name="exit_clear_dialog_btn_ok">Törlés &amp; kilépés</string>
+    <string name="exit_clear_dialog_btn_ok">Törlés és kilépés</string>
     <string name="exit_clear_dialog_msg">Törli az előzményeket kilépéskor?</string>
     <string name="exit_game">Bezár</string>
     <string name="exo_controls_cc_disabled_description">Feliratok bekapcsolása</string>
@@ -797,7 +793,6 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="fb_login_tips">Jelentkezzen be videók letöltéséhez Facebookról</string>
     <string name="fb_register_btn">Fiók létrehozása</string>
     <string name="featured_this_week">Kiemelt ezen a héten</string>
-    <string name="feedback_advise_this_app">Ajánlás</string>
     <string name="feedback_advise_your_friends">Mennyire valószínű, hogy ajánlja a Mi böngészőt?</string>
     <string name="feedback_bad">Nem</string>
     <string name="feedback_download_not_necessary">Választható</string>
@@ -925,11 +920,9 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="general__shared__sd_card_unmounted">Tárhely engedélyek szükségesek</string>
     <string name="general__shared__unkown_book_format">Ez a formátum nem támogatott</string>
     <string name="geolocation_permissions_prompt_dont_share">Elutasítás</string>
-    <string name="geolocation_permissions_prompt_message">%s szeretné tudni az Ön tartózkodási helyét</string>
+    <string name="geolocation_permissions_prompt_message">%s szeretné megismerni a tartózkodási helyét</string>
     <string name="geolocation_permissions_prompt_remember">A beállítás megjegyzése</string>
     <string name="geolocation_permissions_prompt_share">Tartózkodási hely megosztása</string>
-    <string name="geolocation_permissions_prompt_toast_allowed">Ez a webhely hozzáfér a tartózkodási helyéhez. Ezt megváltoztathatja a Beállításokban.</string>
-    <string name="geolocation_permissions_prompt_toast_disallowed">Ez a weboldal nem férhet hozzá a tartózkodási helyéhez.</string>
     <string name="geolocation_settings_page_dialog_cancel_button">Mégse</string>
     <string name="geolocation_settings_page_dialog_message">Helyhozzáférés törlése ennél a webhelynél?</string>
     <string name="geolocation_settings_page_dialog_ok_button">OK</string>
@@ -978,7 +971,6 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="home_expand_item_title_common_site">Népszerű</string>
     <string name="home_game_channel">\"Játékok\" megjelenítése a navigációs panelen</string>
     <string name="home_nf">Tartalomfolyam</string>
-    <string name="home_nf_recommend_on">Önnek ajánlott</string>
     <string name="home_page_simple">Egyszerű</string>
     <string name="homepage_currency">Szokásos</string>
     <string name="homepage_delete_card_menu">Törlés</string>
@@ -1037,7 +1029,6 @@ A meglátogatott oldalak nem fognak megjelenni az előzményekben."</string>
     <string name="interest_advise_subtitle">Olyan tartalmakkal kapcsolatos híreket jelenítünk meg Önnek, amelyek érdeklik</string>
     <string name="interest_advise_title">Milyen tartalom érdekli Önt?</string>
     <string name="interest_card_button">Tovább</string>
-    <string name="interest_card_title">Válassza ki érdeklődési köreit</string>
     <string name="into_info_flow_guide">További cikkek megtekintése</string>
     <string name="intrercept_dialog_hint">A weboldal egy felugró párbeszédablakot fog megjeleníteni. Leállítja ezt a műveletet?</string>
     <string name="isReplacePage">A fájl már létezik, lecseréli?</string>
@@ -1154,8 +1145,6 @@ Leave this page now?"</string>
     <string name="midnight">Éjszakai</string>
     <string name="mint_games">Felkapott játékok</string>
     <string name="mint_news_feed">Hírek</string>
-    <string name="mint_news_feed_a">Mi Hírek</string>
-    <string name="mint_news_feed_b">Helyi hírek</string>
     <string name="miui_autologin_bar_error">Nem lehet bejelentkezni</string>
     <string name="miui_autologin_bar_title">Bejelentkezés Xiaomi Fiókkal</string>
     <string name="miui_bookmark_action_bar_add_group_title">Új csoport</string>
@@ -1408,7 +1397,6 @@ Leave this page now?"</string>
     <string name="nav_incognito_sub_title">Inkognitó módban a Mi Böngésző nem menti el a böngészési előzményeket, a webhelyadatokat, a sütiket vagy az űrlapokba beírt adatokat.</string>
     <string name="nav_screen_container_tab_incognito">Inkognitó lap</string>
     <string name="nav_screen_container_tab_normal">Normál lap</string>
-    <string name="nav_screen_incognito_message">Inkognitó üzemmódban a böngészési és keresési előzményeid nem kerülnek elmentésre. Ne feledd, hogy ugyanakkor az általad letöltött fájlok és hozzáadott könyvjelzők el lesznek mentve.</string>
     <string name="nav_screen_incognito_title"> Inkognitó mód</string>
     <string name="nav_tab_guide_text">Itt kezelheti a lapokat</string>
     <string name="navigation_delete_all">Csúsztasson jobbra vagy balra az összes lap bezárásához</string>
@@ -1462,7 +1450,6 @@ Leave this page now?"</string>
     <string name="not_remind_again">Választásom megjegyzése</string>
     <string name="not_set">Nincs beállítva</string>
     <string name="not_show_again">Ne jelenjen meg újra</string>
-    <string name="noti_dialog_agree">Tiltás</string>
     <string name="noti_dialog_cancel">Mégse</string>
     <string name="noti_dialog_content">Értesítések tiltása ennél a weboldalnál?</string>
     <string name="noti_dialog_title">Tiltó értesítések</string>
@@ -1483,8 +1470,6 @@ Leave this page now?"</string>
     <string name="notifications_permission_decline">Tiltás</string>
     <string name="notifications_permission_title">Engedélyezi, hogy az alkalmazás értesítéseket küldjön Önnek?</string>
     <string name="novel_continue_read_popup">Olvasás</string>
-    <string name="novel_tab_popup">Itt tekintheti meg legújabb könyveit</string>
-    <string name="novel_tab_popup_ok">OK</string>
     <string name="offline_dialog_image_description">Ikon</string>
     <string name="offline_dialog_text">"Köszönjük érdeklődését!
 Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
@@ -1651,7 +1636,6 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="pref_extras_reset_default">Alapértelmezett visszaállítása</string>
     <string name="pref_extras_reset_default_dlg">Visszaállítja az alapértelmezett beállításokat?</string>
     <string name="pref_extras_reset_default_summary">Alapsorrend visszaállítása</string>
-    <string name="pref_extras_reset_default_title">Egyéb</string>
     <string name="pref_extras_send_feedback">Visszajelzés küldése</string>
     <string name="pref_extras_title">További lehetőségek</string>
     <string name="pref_extras_title_version">Verzióadatok</string>
@@ -1716,12 +1700,9 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="pref_security_show_security_warning_summary">Biztonsági figyelmeztetés megjelenítése, ha probléma van a weboldal tanúsítványával.</string>
     <string name="pref_set_default_browser">Beállítás alapértelmezett böngészőként</string>
     <string name="pref_set_default_browser_don_ask">Ne kérdezze újra</string>
-    <string name="pref_set_default_browser_msg">A Mi Böngésző gyorsabbá, kényelmesebbé és biztonságosabbá teszi a webes böngészést. Mi Böngésző, mint alapértelmezett böngészőjének beállítása?</string>
     <string name="pref_set_default_browser_no_keep_it">Mi Böngésző megtartása</string>
     <string name="pref_set_default_browser_no_thanks">Nem, köszönöm</string>
     <string name="pref_set_default_browser_set">Beállítás</string>
-    <string name="pref_set_default_browser_set_another">A Mi Böngésző gyorsabbá, kényelmesebbé és biztonságosabbá teszi a webes böngészést. Mégis leváltja böngészőjét?</string>
-    <string name="pref_set_default_browser_sure_to_clear">Böngésző leváltása?</string>
     <string name="pref_set_default_browser_switch">Váltás</string>
     <string name="pref_set_default_browser_tab">Koppintson az „Böngésző” opcióra</string>
     <string name="pref_set_default_browser_toast">Alapértelmezett böngésző sikeresen beállítva</string>
@@ -1776,11 +1757,11 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="privacy_authorize_cannot_revoke_dialog_msg">Ehhez a művelethez fel kell tölteni a teljesítmény-azonosítót, ami inkognitó módban nem végezhető el. Lépjen ki az inkognitó módból, és próbálja újra.</string>
     <string name="privacy_authorize_network_error">Készülékének csatlakoznia kell a hálózathoz, hogy visszavonhassa a hozzájárulását. Ellenőrizze a hálózati beállításokat, és próbálja újra.</string>
     <string name="privacy_authorize_revoke">Visszavonás</string>
-    <string name="privacy_authorize_revoke_dialog_msg">Az engedély visszavonását követően a Mi Böngésző nem gyűjt több adatot, és minden érintett adatot töröl a szerverekről. Ezt követően előfordulhat, hogy a Mi Böngésző virtuálisan nem lesz használható. Biztos, hogy visszavonja az engedélyt?</string>
+    <string name="privacy_authorize_revoke_dialog_msg">A hozzájárulás visszavonása után ez az alkalmazás nem gyűjt többé adatokat, és az összes kapcsolódó adat törlésre kerül a szerverekről. Ez az alkalmazás gyakorlatilag használhatatlanná válhat. Visszavonja a hozzájárulását?</string>
     <string name="privacy_authorize_revoke_dialog_title">Hozzájárulás visszavonása</string>
     <string name="privacy_authorize_revoke_failed">A hozzájárulást nem lehet visszavonni</string>
     <string name="privacy_authorize_revoke_success">Hozzájárulás sikeresen visszavonva</string>
-    <string name="privacy_authorize_revoke_time">Visszavonás (%1$ds)</string>
+    <string name="privacy_authorize_revoke_time">Visszavonás (%1$d)</string>
     <string name="privacy_authorize_revoking">Hozzájárulás visszavonása…</string>
     <string name="privacy_authorize_summary">Állítsa be a kapcsolót a hozzájárulás megadásához vagy visszavonásához</string>
     <string name="privacy_authorize_title">Hozzájárulás visszavonása</string>
@@ -1836,10 +1817,8 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="quicklinks_group_default_subtitle">Üres</string>
     <string name="quicklinks_management">Népszerű</string>
     <string name="quicklinks_most_visited">Hozzáadás a kezdőlaphoz</string>
-    <string name="quicklinks_most_visited_subtitle">A legutóbb meglátogatott oldalak megjelenítése új lapon</string>
     <string name="quicklinks_most_visited_title">Hozzáadás a kezdőlaphoz</string>
     <string name="reading__business_recommend_at_end_more">Továbbiak megtekintése</string>
-    <string name="reading__business_recommend_at_end_other_docs">Egyéb dokumentumok</string>
     <string name="reading__business_recommend_at_end_title">Javasolt</string>
     <string name="reading__cancel">Mégse</string>
     <string name="reading__menu_play">Diavetítés</string>
@@ -1859,7 +1838,6 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="reading__shared__reach_last_page">Ez az utolsó oldal</string>
     <string name="readmode_already_add_to_bookshelf">Hozzáadva a könyvespolchoz</string>
     <string name="readmode_battery">Akkumulátor </string>
-    <string name="readmode_login">Bejelentkezés</string>
     <string name="readmode_login_message">További fejezetek olvasásához bejelentkezés szükséges.</string>
     <string name="readmode_page_load_error">Az oldal betöltése sikertelen</string>
     <string name="readmode_page_loading">Egy pillanat…</string>
@@ -1922,7 +1900,6 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="root_folder_lable">Nincs</string>
     <string name="router_download_exist">Ez a fájl már létezik</string>
     <string name="router_download_failed">Sikertelen letöltés</string>
-    <string name="router_download_success">Sikeresen letöltve</string>
     <string name="s1">Kép mentése</string>
     <string name="s2">Engedélyezi a hirdetés számára a kép tárolását a Képgalériában?</string>
     <string name="s3">Elfogadás</string>
@@ -2002,7 +1979,6 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="secure_download_in_xiaomi_market">Letöltés a Mi Alkalmazás-áruházban</string>
     <string name="security_url_confirm_message">A funkció kikapcsolása biztonsági kockázatot teremthet.</string>
     <string name="security_warning">Biztonsági figyelmeztetés</string>
-    <string name="security_warnings_confirm_message">A funkció kikapcsolása biztonsági kockázatot teremthet.</string>
     <string name="select_all">Összes kijelölése</string>
     <string name="select_dot">Szöveg kijelölése</string>
     <string name="select_download_device">Válasszon készüléket</string>
@@ -2038,7 +2014,6 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="shear_plate_permission_name">Elemek elérése vagy mentése a vágólapra</string>
     <string name="short_cut_name_novel">Ingyenes könyvek</string>
     <string name="shortcut_function">Parancsikonok</string>
-    <string name="sign_in_by_others">Más bejelentkezési módok</string>
     <string name="sign_in_by_xiaommi">Bejelentkezés Xiaomi Fiókkal</string>
     <string name="sign_in_failed">Nem sikerült a bejelentkezés</string>
     <string name="sign_in_to" formatted="false">Bejelentkezés ide: %s1\"%s2\"</string>
@@ -2056,7 +2031,6 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="smart_summary">Okos összefoglaló</string>
     <string name="snapshot">Helyi</string>
     <string name="snapshot_failed">Oldal mentése sikertelen</string>
-    <string name="snapshot_successed">A lap megtekintéséhez nyissa meg ezt: Könyvjelzők és előzmények->HELYI</string>
     <string name="sniff_ask_every_times">Kérdezzen rá minden alkalommal</string>
     <string name="sniff_description">Kérjen értesítést, ha egy weboldal letölthető elemeket tartalmaz</string>
     <string name="sniff_detect_resource">Letölthető tartalmat észleltünk ezen az oldalon. Megtekinti most?</string>
@@ -2077,7 +2051,7 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="ssl_bad_clock_date_settings">A dátum beállítása</string>
     <string name="ssl_bad_clock_warning" formatted="false">%s1 hivatkozáshoz nem lehet privát kapcsolatot létrehozni, mert készülékének dátuma és ideje (%s2) helytelen.</string>
     <string name="ssl_bad_expired_warning">Ezt a csatornát a/z %1$s szolgáltatja. A készülékén beállított dátum és idő (%2$s) azonban nem teszi lehetővé a biztonságos kapcsolat létesítését vele: %1$s. Beállíthatja a helyes dátumot és időt a \"Folytatás\" gombra koppintással, ha mégis használni kívánja ezt a csatornát.</string>
-    <string name="ssl_bad_warning">A csatornát a(z) %1$s biztosítja. A Mi Böngésző azonban nem tudja ellenőrizni, hogy a kiszolgáló a(z) %1$s hoszthoz tartozik-e, mert a tanúsítványa érvénytelen vagy visszavonták. A problémát helytelen konfiguráció vagy blokkolt kapcsolat okozhatja. Koppintson a „Folytatás” gombra, ha továbbra is használni szeretné ezt a csatornát.</string>
+    <string name="ssl_bad_warning">Ezt a csatornát a %1$s biztosítja. A Mi Böngésző azonban nem tudja ellenőrizni, hogy ez a szerver a(z) %1$s kiszolgálóhoz tartozik-e, mert a tanúsítványa érvénytelen, vagy visszavonták. Ez a probléma helytelen konfigurációk vagy letiltott kapcsolat miatt alakulhat ki. Ha továbbra is használni szeretné ezt a csatornát, érintse meg a „Tovább” gombot.</string>
     <string name="ssl_certificate">Biztonsági tanúsítvány</string>
     <string name="ssl_certificate_is_valid">Ez a tanúsítvány érvényes.</string>
     <string name="ssl_continue">Tovább</string>
@@ -2248,7 +2222,6 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="translate_into">Fordítás a következő nyelvre:</string>
     <string name="translate_page">Oldal lefordítása</string>
     <string name="translation_other">Egyéb nyelvek</string>
-    <string name="translation_query_error">A fordítás funkció nem támogatja a kiválasztott nyelvet.</string>
     <string name="translation_query_error_network">Fordítás sikertelen. Ellenőrizze a hálózati beállításokat és próbálja újra.</string>
     <string name="translation_result_empty">Nem sikerült fordítani. Próbálja újra.</string>
     <string name="translation_to">Fordítás a következő nyelvre:</string>
@@ -2288,14 +2261,10 @@ Egyes webhelyek nem használják a korábbi böngészési előzményeket hirdet�
     <string name="user_defined_webpage">Hozzáadás a kezdőlaphoz</string>
     <string name="user_defined_webpage_title">Hozzáadás a kezdőlaphoz</string>
     <string name="user_experience_agree">Csatlakozás</string>
-    <string name="user_experience_content">"A Felhasználói visszajelzés program célzott módon segíti termékeink és szolgáltatásaink javítását, valamint olyan új funkciók és szolgáltatások bevezetését, melyek hasznosak lehetnek neked. A programhoz való csatlakozásod után gyűjteni és elemezni kezdjük releváns adataidat (pl. a termékhasználattal kapcsolatban). Az alábbi \"Csatlakozás\" gombra történő érintéssel elfogadod a &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Felhasználói visszajelzés program&lt;/a>&lt;/font> felhasználási feltételeit.
-A Beállítások > Adatvédelem és biztonság menüben ezt az engedélyt bármikor visszavonhatod."</string>
     <string name="user_experience_disagree">Nem csatlakozok</string>
     <string name="user_experience_title">Felhasználói visszajelzés</string>
     <string name="user_guide_agree">Elfogadás</string>
     <string name="user_guide_color_mode_info">A Világos és a Sötét mód is elérhető</string>
-    <string name="user_guide_color_mode_title">Színséma kiválasztása</string>
-    <string name="user_guide_control_privacy_tips">Tartsa adatait teljes ellenőrzés alatt</string>
     <string name="user_guide_disagree">Elutasítás</string>
     <string name="user_guide_privacy_message">Olvassa el és fogadja el &lt;font color=\"#0a84ff\">&lt;a href=\"%1$s\" style=\"color:#0a84ff;\">Adatvédelmi irányelvünket&lt;/a>&lt;/font> és &lt;font color=\"#0a84ff\">&lt;a href=\"%2$s\" style=\"color:#0a84ff;\">Felhasználói szerződésünket&lt;/a>&lt;/font>.</string>
     <string name="user_guide_provide_service_content">Népszerű videók és hírek</string>
@@ -2303,7 +2272,7 @@ A Beállítások > Adatvédelem és biztonság menüben ezt az engedélyt bármi
     <string name="user_guide_read_info_tips">Ahhoz, hogy alkalmazások is szerepeljenek a keresési eredményekben, a Mi Böngészőnek hozzá kell férnie a készülékére telepített alkalmazások listájához.</string>
     <string name="user_guide_turn_off_feature">A funkció kikapcsolásához koppintson &lt;font color=\"#0a84ff\">&lt;u>ide&lt;/u>&lt;/font>.</string>
     <string name="userguide_talkback_page_index">%1$d. oldal</string>
-    <string name="username">Név</string>
+    <string name="username">Felhasználónév</string>
     <string name="v5_edit_mode_title_empty">Elemek kiválasztása</string>
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>
@@ -2361,7 +2330,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="voice_semantic_analysis">Miután engedélyezte a csatlakozást, a Böngésző képes lesz szemantikai elemzésre.</string>
     <string name="voice_sub_title">Nem tudja, hogy mit mondjon? Próbálja ezt: \"Open mi.com!\"</string>
     <string name="voice_title">Mondjon egy hangutasítást…</string>
-    <string name="voice_title_distinguish">Feldolgozás…</string>
     <string name="voice_title_listening">Hangutasításra vár…</string>
     <string name="voice_title_please">Kezdjen beszélni…</string>
     <string name="voice_title_speech_again">Nem volt érthető</string>
@@ -2405,7 +2373,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="weather_card_wind_direction_southwest">Délnyugati szél</string>
     <string name="weather_card_wind_direction_west">Nyugati szél</string>
     <string name="weather_card_wind_spd">Szélsebesség</string>
-    <string name="weather_location_confirm_message">A funkció kikapcsolása befolyásolhatja a használatot.</string>
     <string name="web_ad_clear_dialog_cancel">Mégse</string>
     <string name="web_ad_clear_dialog_confirm">Törlés</string>
     <string name="web_ad_clear_dialog_msg">Törli most a reklámcímkéket innen: \"%s\"?</string>
@@ -2553,7 +2520,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_permission_protect_permissions_title">A weboldal viselkedése</string>
     <string name="web_permission_protect_pie_title">Védett elemek</string>
     <string name="web_permission_protect_privacy_auto_play_title">Automatikus lejátszás</string>
-    <string name="web_permission_protect_privacy_clip_title">Elemek elérése vagy mentése a vágólapra</string>
     <string name="web_permission_protect_privacy_dialog_title">Új ablakok megnyitása</string>
     <string name="web_permission_protect_privacy_location_title">Hozzáférés a tartózkodási helyhez</string>
     <string name="web_permission_protect_privacy_vibrate_title">Rezgés használata</string>
