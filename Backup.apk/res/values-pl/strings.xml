@@ -95,6 +95,14 @@
     <string name="backup_report">Szczegóły</string>
     <string name="backup_security_tips_message">W przypadku niektórych aplikacji może nie być możliwe wykonanie kopii zapasowej lub przywrócenie.</string>
     <string name="backup_security_tips_title">Kopie zapasowe mogą nie działać</string>
+    <string name="backup_suspend_fail_summary_pad">Połączenie zostało utracone. Gdy tablet połączy się z tą samą siecią co SmartStorage, dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
+    <string name="backup_suspend_fail_summary_phone">Połączenie zostało utracone. Gdy telefon połączy się z tą samą siecią co SmartStorage, dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
+    <string name="backup_suspend_summary_pad">Połączenie zostało utracone. Gdy tablet połączy się z tą samą siecią co SmartStorage, tworzenie kopii zapasowej zostanie wznowione automatycznie.</string>
+    <string name="backup_suspend_summary_phone">Połączenie zostało utracone. Gdy telefon połączy się z tą samą siecią co SmartStorage, tworzenie kopii zapasowej zostanie wznowione automatycznie.</string>
+    <string name="backup_suspend_title">Tworzenie kopii zapasowej zostało wstrzymane. Ponowne łączenie…</string>
+    <string name="backup_tab">Utwórz kopię zapasową</string>
+    <string name="backup_tips_dialog_summary">Sklonowane aplikacje oraz prywatne elementy nie są obsługiwane. Ta kopia zapasowa obejmuje jedynie dane zapisane do tego momentu. Nowe dane nie zostaną zsynchronizowane automatycznie.</string>
+    <string name="backup_tips_dialog_title">Pamiętaj</string>
     <string name="backup_update">Aktualizuj</string>
     <string name="batch_delete_backup_confirm">Usunąć zaznaczone kopie?</string>
     <string name="broken_screen_rescue_service">Tworzenie kopii zapasowych z uszkodzonym ekranem</string>
@@ -179,6 +187,7 @@ https://appleid.apple.com/#!&amp;page=signin, aby wyłączyć"</string>
     <string name="connect_wifi">Połącz z Wi-Fi</string>
     <string name="connect_wifi_tip">Nie udało się podłączyć do sieci. Podłącz się do Wi-Fi, aby zaimportować elementy z iCloud.</string>
     <string name="contact_title">Kontakty</string>
+    <string name="continue_restore_button">Wznów</string>
     <string name="copy">Kopiuj</string>
     <string name="current_account">Witaj %s</string>
     <string name="current_pad_location">Tablet</string>
@@ -492,6 +501,64 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="multi_user_mode_dialog_message">Nie można użyć Przenoszenia danych w Trybie wielu użytkowników. Wyłącz Tryb wielu użytkowników, aby kontynuować.</string>
     <string name="multi_user_mode_dialog_title">Jesteś w Trybie wielu użytkowników</string>
     <string name="name_password_not_consistent">Nazwa użytkownika lub hasło są nieprawidłowe</string>
+    <string name="nas_backup_progress_title">Utwórz kopię zapasową w SmartStorage</string>
+    <string name="nas_backup_resume_button">Wznów</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Połączenie sieciowe zostało przerwane. Upewnij się, że tablet i urządzenie SmartStorage są połączone z tą samą siecią i spróbuj ponownie utworzyć kopię zapasową.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Połączenie sieciowe zostało przerwane. Upewnij się, że telefon i urządzenie SmartStorage są połączone z tą samą siecią i spróbuj ponownie utworzyć kopię zapasową.</string>
+    <string name="nas_backup_task_progress_summary_pad">Podczas tworzenia kopii zapasowej upewnij się, że tablet i urządzenie SmartStorage są połączone z tą samą siecią. Nie uruchamiaj ponownie ani nie wyłączaj tabletu, aby uniknąć utraty danych.</string>
+    <string name="nas_backup_task_progress_summary_phone">Podczas tworzenia kopii zapasowej upewnij się, że telefon i urządzenie SmartStorage są połączone z tą samą siecią. Nie uruchamiaj ponownie ani nie wyłączaj telefonu, aby uniknąć utraty danych.</string>
+    <string name="nas_backup_task_suspend_info_title">Wstrzymano tworzenie kopii zapasowej</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">Anuluj</string>
+    <string name="nas_connecting_progress_dialog">Łącznie ze SmartStorage…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"Aby skorzystać ze SmartStorage do tworzenia kopii zapasowych i przywracania, upewnij się, że:
+%d. Urządzenie SmartStorage jest w trybie online.
+%d. Tablet jest połączony z tą samą siecią Wi-Fi, co SmartStorage.
+%d. Połączenie jest stabilne. (Nie uruchamiaj ponownie ani nie wyłączaj tabletu podczas tworzenia kopii zapasowej lub przywracania)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"Aby skorzystać ze SmartStorage do tworzenia kopii zapasowych i przywracania, upewnij się, że:
+%d. Urządzenie SmartStorage jest w trybie online.
+%d. Telefon jest połączony z tą samą siecią Wi-Fi, co SmartStorage.
+%d. Połączenie jest stabilne. (Nie uruchamiaj ponownie ani nie wyłączaj telefonu podczas tworzenia kopii zapasowej lub przywracania)."</string>
+    <string name="nas_disconnect_dialog_title">Nie udało się połączyć ze SmartStorage</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">Za mało miejsca w SmartStorage. Zwolnij miejsce i dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">Za mało miejsca na tablecie. Zwolnij miejsce i dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">Za mało miejsca w telefonie. Zwolnij miejsce i dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">Za mało miejsca w SmartStorage. Zwolnij miejsce i dotknij „Spróbuj ponownie”, aby kontynuować przywracanie.</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">Za mało miejsca na tablecie. Zwolnij miejsce i dotknij „Spróbuj ponownie”, aby kontynuować przywracanie.</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">Za mało miejsca w telefonie. Zwolnij miejsce i dotknij „Spróbuj ponownie”, aby kontynuować przywracanie.</string>
+    <string name="nas_low_storage">Wybrano %1$s danych. W SmartStorage pozostało %2$s wolnego miejsca. Dostosuj swój wybór lub zwolnij miejsce i spróbuj ponownie.</string>
+    <string name="nas_low_storage_pad_restore_summary">Przywracanie wymaga tymczasowego miejsca na tablecie do buforowania. Zachowaj %s wolnego miejsca. Zostanie ono zwolnione po przywróceniu elementów.</string>
+    <string name="nas_low_storage_pad_summary">Kopie zapasowe wymagają tymczasowego miejsca na tablecie do buforowania. Zachowaj %s wolnego miejsca. Zostanie ono zwolnione po utworzeniu kopii zapasowej elementów.</string>
+    <string name="nas_low_storage_pad_title">Za mało miejsca na tablecie</string>
+    <string name="nas_low_storage_phone_positive_button">Wyczyść</string>
+    <string name="nas_low_storage_phone_restore_summary">Przywracanie wymaga tymczasowego miejsca w telefonie do buforowania. Zachowaj %s wolnego miejsca. Zostanie ono zwolnione po przywróceniu elementów.</string>
+    <string name="nas_low_storage_phone_summary">Kopie zapasowe wymagają tymczasowego miejsca w telefonie do buforowania. Zachowaj %s wolnego miejsca. Zostanie ono zwolnione po utworzeniu kopii zapasowej elementów.</string>
+    <string name="nas_low_storage_phone_title">Za mało miejsca w telefonie</string>
+    <string name="nas_low_storage_title">SmartStorage jest pełny</string>
+    <string name="nas_notification_title">Tworzenie kopii zapasowej wiadomości WeChat w SmartStorage…</string>
+    <string name="nas_restore_progress_title">Przywróć ze SmartStorage</string>
+    <string name="nas_restore_resume_button">Wznów</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Połączenie sieciowe zostało przerwane. Upewnij się, że tablet i urządzenie SmartStorage są połączone z tą samą siecią i spróbuj ponownie przywrócić dane.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Połączenie sieciowe zostało przerwane. Upewnij się, że telefon i urządzenie SmartStorage są połączone z tą samą siecią i spróbuj ponownie przywrócić dane.</string>
+    <string name="nas_restore_task_progress_summary_pad">Podczas przywracania upewnij się, że tablet i urządzenie SmartStorage są połączone z tą samą siecią. Nie uruchamiaj ponownie ani nie wyłączaj tabletu, aby uniknąć utraty danych.</string>
+    <string name="nas_restore_task_progress_summary_phone">Podczas przywracania upewnij się, że telefon i urządzenie SmartStorage są połączone z tą samą siecią. Nie uruchamiaj ponownie ani nie wyłączaj telefonu, aby uniknąć utraty danych.</string>
+    <string name="nas_restore_task_suspend_info_title">Wstrzymano przywracanie</string>
+    <string name="nas_retry_button">Spróbuj ponownie</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">Za mało miejsca na tablecie. Zwolnij miejsce i spróbuj ponownie utworzyć kopię zapasową.</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">Za mało miejsca na tablecie. Zwolnij miejsce i spróbuj ponownie przywrócić dane.</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">Za mało miejsca w telefonie. Zwolnij miejsce i spróbuj ponownie utworzyć kopię zapasową.</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">Za mało miejsca w telefonie. Zwolnij miejsce i spróbuj ponownie przywrócić dane.</string>
+    <string name="nas_task_progress_item_disconnect_eror">Połączenie sieciowe zostało przerwane</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">Za mało miejsca na tablecie</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">Za mało miejsca w telefonie</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorage jest pełny</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">Za mało miejsca w SmartStorage</string>
+    <string name="nas_task_progress_low_memory_summary_backup">SmartStorage jest pełny. Zwolnij miejsce i spróbuj ponownie utworzyć kopię zapasową.</string>
+    <string name="nas_task_progress_low_memory_summary_restore">SmartStorage jest pełny. Zwolnij miejsce i spróbuj ponownie przywrócić dane.</string>
+    <string name="nas_unbind_account_dialog_summary">Twoje konto Xiaomi jest niedostępne. Zaloguj się, aby móc tworzyć kopie zapasowe lub przywracać elementy.</string>
+    <string name="nas_unbind_account_summary_backup">Konto Xiaomi jest niedostępne. Zaloguj się i spróbuj ponownie utworzyć kopię zapasową.</string>
+    <string name="nas_unbind_account_summary_restore">Konto Xiaomi jest niedostępne. Zaloguj się i spróbuj ponownie przywrócić dane.</string>
+    <string name="nas_unbind_device_dialog_title">Urządzenie SmartStorage nie istnieje</string>
     <string name="never">Nigdy</string>
     <string name="new_backup">Kopiuj</string>
     <string name="new_britem_audio">Dźwięk</string>
@@ -591,13 +658,23 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="notif_trans_sending_completed">Pomyślnie wysłano dane</string>
     <string name="notif_trans_sending_failed">Nie udało się wysłać danych</string>
     <string name="notif_trans_wait_for_reconnecting">Połączenie zostało przerwane. Połącz ponownie.</string>
+    <string name="notification_backup_content">Tworzenie kopii zapasowej danych urządzenia…</string>
+    <string name="notification_backup_suspend">Wstrzymano tworzenie kopii zapasowej</string>
+    <string name="notification_device_disconnect_content">Utracono połączenie</string>
+    <string name="notification_low_memory_content">SmartStorage jest pełny</string>
+    <string name="notification_restore_content">Przywracanie danych urządzenia…</string>
+    <string name="notification_restore_suspend">Wstrzymano przywracanie</string>
+    <string name="notification_unbind_account_content">Konto Xiaomi jest niedostępne</string>
+    <string name="notification_wifi_disconnect_content">Połączenie sieciowe zostało przerwane</string>
     <string name="old_soft_name">Połącz za pomocą kodu QR</string>
     <string name="old_way">Możesz także wygenerować kod QR na nowym urządzeniu i zeskanować go za pomocą starego urządzenia.</string>
     <string name="open_compatibility_mode">Włącz</string>
+    <string name="pad_backup_and_restore">Tablet</string>
     <string name="page_loading">Chwileczkę…</string>
     <string name="password">Hasło</string>
     <string name="password_null">Hasło nie może być puste</string>
     <string name="pause">Wstrzymaj</string>
+    <string name="pc_backup_and_restore">Komputer</string>
     <string name="perm_camera">Aparat</string>
     <string name="perm_location">Lokalizacja</string>
     <string name="perm_read_call_log">Odczytywanie historii połączeń</string>
@@ -647,6 +724,7 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="permission_write_contacts">Edytowanie kontaktów</string>
     <string name="permission_write_storage">Zapisz elementy w pamięci</string>
     <string name="permission_write_storage_pad">Zapisz elementy w pamięci</string>
+    <string name="phone_backup_and_restore">Telefon</string>
     <string name="phone_title">Ustawienia telefonu</string>
     <string name="platform_chooser_item_android_mi">Telefon Xiaomi</string>
     <string name="platform_chooser_item_android_others">Inna marka</string>
@@ -682,7 +760,33 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="restore_launcher_layout_hit">Przywróć ustawienia menedżera pulpitu</string>
     <string name="restore_progress">Przywracanie…</string>
     <string name="restore_report">Szczegóły przywracania</string>
+    <string name="restore_suspend_fail_summary_pad">Połączenie zostało utracone. Gdy tablet połączy się z tą samą siecią co SmartStorage, dotknij „Spróbuj ponownie”, aby kontynuować przywracanie.</string>
+    <string name="restore_suspend_fail_summary_phone">Połączenie zostało utracone. Gdy telefon połączy się z tą samą siecią co SmartStorage, dotknij „Spróbuj ponownie”, aby kontynuować przywracanie.</string>
+    <string name="restore_suspend_summary_pad">Połączenie zostało utracone. Gdy tablet połączy się z tą samą siecią co SmartStorage, przywracanie zostanie wznowione automatycznie.</string>
+    <string name="restore_suspend_summary_phone">Połączenie zostało utracone. Gdy telefon połączy się z tą samą siecią co SmartStorage, przywracanie zostanie wznowione automatycznie.</string>
+    <string name="restore_suspend_title">Przywracanie zostało wstrzymane. Ponowne łączenie…</string>
+    <string name="restore_tab">Przywróć</string>
     <string name="restore_telephony_hit">Przywracanie kopii zrestartuje aplikację Telefon.</string>
+    <string name="restore_tips_dialog_summary">Zamierzasz przywrócić dane aplikacji WeChat. Spowoduje to nadpisanie bieżących danych aplikacji WeChat znajdujących się w kopii zapasowej z %s. Tej czynności nie można cofnąć. Zachowaj ostrożność.</string>
+    <string name="restore_tips_dialog_title">Uwaga</string>
+    <string name="resume_backup_nas_task_dialog_title">Niezakończone tworzenie kopii zapasowej</string>
+    <string name="resume_backup_toast">Tworzenie kopii zapasowej na SmartStorage…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"Data utworzenia kopii zapasowej: %1$s
+Rozmiar kopii zapasowej: %2$s
+Wolne miejsce na tablecie: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"Data utworzenia kopii zapasowej: %1$s
+Rozmiar kopii zapasowej: %2$s
+Wolne miejsce w telefonie: %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"Czas tworzenia kopii zapasowej: %1$s
+Rozmiar kopii zapasowej: %2$s
+Dostępnie miejsce w SmartStorage: %3$s
+Dostępne miejsce na tablecie: %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"Czas tworzenia kopii zapasowej: %1$s
+Rozmiar kopii zapasowej: %2$s
+Dostępnie miejsce w SmartStorage: %3$s
+Dostępne miejsce w telefonie: %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">Niezakończone przywracanie</string>
+    <string name="resume_restore_toast">Przywracanie ze SmartStorage…</string>
     <string name="retry">Spróbuj ponownie</string>
     <string name="reverse_all">Wyczyść wszystko</string>
     <string name="revoke_permission_dialog_content">Bez wszystkich obowiązkowych uprawnień nie będzie można tworzyć kopii zapasowych ani przywracać elementów. Wycofać uprawnienia mimo to?</string>
@@ -834,6 +938,7 @@ Zwolnij przynajmniej %s."</string>
     <string name="time_picker_dialog_title">Ustaw czas</string>
     <string name="time_picker_label_hour">G</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tips_date_format">d.MM.yyyy HH:mm</string>
     <string name="title_compatibility_mode">Tryb zgodności aplikacji</string>
     <string name="today">Dzisiaj</string>
     <string name="tomorrow">Jutro</string>
@@ -1028,6 +1133,7 @@ i ma uruchomione Przenoszenie danych"</string>
     <string name="tuesday_shortest">Wt</string>
     <string name="unit_byte">B</string>
     <string name="unknown_hint">Nieznane</string>
+    <string name="usb_backup_and_restore">Nośnik USB</string>
     <string name="usb_backup_select_data_too_large">"Wybrane pliki są duże. Upewnij się, że nośnik USB ma wystarczającą ilość wolnego miejsca.
 Przenieś tylko ważne elementy."</string>
     <string name="usb_restore_select_data_too_large">"Kopia zapasowa zawiera duże pliki. Przywracanie może trochę potrwać.

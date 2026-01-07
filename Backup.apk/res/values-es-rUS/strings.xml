@@ -95,6 +95,14 @@
     <string name="backup_report">Ver detalles</string>
     <string name="backup_security_tips_message">Es posible que algunas aplicaciones no puedan ser respaldadas o restauradas.</string>
     <string name="backup_security_tips_title">Puede ser que los respaldos no funcionen</string>
+    <string name="backup_suspend_fail_summary_pad">Se perdió la conexión. Una vez que su tablet esté en la misma red que SmartStorage, toque \"Reintentar\" para reanudar la copia de seguridad.</string>
+    <string name="backup_suspend_fail_summary_phone">Se perdió la conexión. Una vez que su teléfono esté en la misma red que SmartStorage, toque \"Reintentar\" para reanudar la copia de seguridad.</string>
+    <string name="backup_suspend_summary_pad">Se perdió la conexión. Una vez que su tablet esté en la misma red que SmartStorage, la copia de seguridad se reanudará automáticamente.</string>
+    <string name="backup_suspend_summary_phone">Se perdió la conexión. Una vez que su teléfono esté en la misma red que SmartStorage, la copia de seguridad se reanudará automáticamente.</string>
+    <string name="backup_suspend_title">Copia de seguridad en pausa. Conectándose de nuevo…</string>
+    <string name="backup_tab">Hacer copia de seguridad</string>
+    <string name="backup_tips_dialog_summary">Las aplicaciones duales y los elementos privados no son compatibles. Esta copia de seguridad solo incluye los datos hasta ahora. Los nuevos datos no se sincronizarán automáticamente.</string>
+    <string name="backup_tips_dialog_title">Tenga en cuenta</string>
     <string name="backup_update">Actualizar</string>
     <string name="batch_delete_backup_confirm">¿Eliminar respaldos seleccionados?</string>
     <string name="broken_screen_rescue_service">Copia de seguridad con pantalla dañada</string>
@@ -179,6 +187,7 @@ https://appleid.apple.com/#!&amp;page=signin para cerrar"</string>
     <string name="connect_wifi">Conectar al Wi-Fi</string>
     <string name="connect_wifi_tip">No se pudo conectar a la red. Conéctese al Wi-Fi para importar elementos desde iCloud.</string>
     <string name="contact_title">Contactos</string>
+    <string name="continue_restore_button">Reanudar</string>
     <string name="copy">Copiar</string>
     <string name="current_account">Hola %s</string>
     <string name="current_pad_location">Tablet</string>
@@ -258,7 +267,7 @@ https://appleid.apple.com/#!&amp;page=signin para cerrar"</string>
     <string name="feature_title_call_log">Historial de llamadas</string>
     <string name="feature_title_contacts">Contactos</string>
     <string name="feature_title_mms">MMS</string>
-    <string name="feature_title_mms_setting">Ajustes de mensajes</string>
+    <string name="feature_title_mms_setting">Ajustes de Mensajería</string>
     <string name="feature_title_sms">Mensajes</string>
     <string name="file_uploading">Cargando…</string>
     <string name="files_backup_info">Todos los archivos de la tarjeta SD (incluyendo fotos, canciones, videos, datos de las aplicaciones, etc.)</string>
@@ -492,6 +501,64 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="multi_user_mode_dialog_message">No se puede usar Mi Mudanza en el Modo multiusuario. Desactive el Modo multiusuario para continuar.</string>
     <string name="multi_user_mode_dialog_title">Se encuentra en Modo Multi-usuario</string>
     <string name="name_password_not_consistent">Nombre de usuario o contraseña incorrectos</string>
+    <string name="nas_backup_progress_title">Hacer copia de seguridad en SmartStorage</string>
+    <string name="nas_backup_resume_button">Reanudar</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Red desconectada. Asegúrese de que su tablet y el dispositivo SmartStorage estén conectados a la misma red e intente hacer la copia de seguridad de nuevo.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Red desconectada. Asegúrese de que su teléfono y el dispositivo SmartStorage estén conectados a la misma red e intente hacer la copia de seguridad de nuevo.</string>
+    <string name="nas_backup_task_progress_summary_pad">Durante la copia de seguridad, asegúrese de que su tablet y el dispositivo SmartStorage estén conectados a la misma red. No reinicie ni apague su tablet para evitar la pérdida de datos.</string>
+    <string name="nas_backup_task_progress_summary_phone">Durante la copia de seguridad, asegúrese de que su teléfono y el dispositivo SmartStorage estén conectados a la misma red. No reinicie ni apague su teléfono para evitar la pérdida de datos.</string>
+    <string name="nas_backup_task_suspend_info_title">Copia de seguridad en pausa</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">Cancelar</string>
+    <string name="nas_connecting_progress_dialog">Conectándose a SmartStorage…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"Para usar SmartStorage para copias de seguridad y restauración, asegúrese de los siguiente:
+%d. El dispositivo SmartStorage está conectado.
+%d. Su tablet está conectada a una red Wi-Fi en la misma red que SmartStorage.
+%d. La red es estable. (No reinicie ni apague su tablet durante las copias de seguridad o la restauración)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"Para usar SmartStorage para copias de seguridad y restauración, asegúrese de los siguiente:
+%d. El dispositivo SmartStorage está conectado.
+%d. Su teléfono está conectado a una red Wi-Fi en la misma red que SmartStorage.
+%d. La red es estable. (No reinicie ni apague su teléfono durante las copias de seguridad o la restauración)."</string>
+    <string name="nas_disconnect_dialog_title">No se puede conectar a SmartStorage</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">No hay suficiente espacio en SmartStorage. Libere espacio y toque \"Reintentar\" para reanudar la copia de seguridad.</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">No hay suficiente espacio de almacenamiento en la tablet. Libere espacio y toque \"Reintentar\" para reanudar la copia de seguridad.</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">No hay suficiente espacio de almacenamiento en el teléfono. Libere espacio y toque \"Reintentar\" para reanudar la copia de seguridad.</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">No hay suficiente espacio en SmartStorage. Libere espacio y toque \"Reintentar\" para reanudar la restauración.</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">No hay suficiente espacio de almacenamiento en la tablet. Libere espacio y toque \"Reintentar\" para reanudar la restauración.</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">No hay suficiente espacio de almacenamiento en el teléfono. Libere espacio y toque \"Reintentar\" para reanudar la restauración.</string>
+    <string name="nas_low_storage">Ha seleccionado %1$s de datos. SmartStorage solo tiene %2$s disponibles. Ajuste su selección o libere espacio e inténtelo de nuevo.</string>
+    <string name="nas_low_storage_pad_restore_summary">La restauración requiere almacenamiento temporal en su tablet para el almacenamiento en caché. Reserve %s. Este espacio se liberará después de restaurar los elementos.</string>
+    <string name="nas_low_storage_pad_summary">Las copias de seguridad requieren almacenamiento temporal en su tablet para el almacenamiento en caché. Reserve %s. Este espacio se liberará después de que se haya realizado la copia de seguridad de los elementos.</string>
+    <string name="nas_low_storage_pad_title">No hay suficiente espacio de almacenamiento en la tablet</string>
+    <string name="nas_low_storage_phone_positive_button">Borrar</string>
+    <string name="nas_low_storage_phone_restore_summary">La restauración requiere almacenamiento temporal en su teléfono para el almacenamiento en caché. Reserve %s. Este espacio se liberará después de restaurar los elementos.</string>
+    <string name="nas_low_storage_phone_summary">Las copias de seguridad requieren almacenamiento temporal en su teléfono para el almacenamiento en caché. Reserve %s. Este espacio se liberará después de que se haya realizado la copia de seguridad de los elementos.</string>
+    <string name="nas_low_storage_phone_title">No hay suficiente espacio de almacenamiento en el teléfono</string>
+    <string name="nas_low_storage_title">SmartStorage está lleno</string>
+    <string name="nas_notification_title">Haciendo copia de seguridad de los mensajes de WeChat en SmartStorage…</string>
+    <string name="nas_restore_progress_title">Restaurar desde SmartStorage</string>
+    <string name="nas_restore_resume_button">Reanudar</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Red desconectada. Asegúrese de que su tablet y el dispositivo SmartStorage estén conectados a la misma red e intente restaurar de nuevo.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Red desconectada. Asegúrese de que su teléfono y el dispositivo SmartStorage estén conectados a la misma red e intente restaurar de nuevo.</string>
+    <string name="nas_restore_task_progress_summary_pad">Durante la restauración, asegúrese de que su tablet y el dispositivo SmartStorage estén conectados a la misma red. No reinicie ni apague la tableta para evitar la pérdida de datos.</string>
+    <string name="nas_restore_task_progress_summary_phone">Durante la restauración, asegúrese de que su teléfono y el dispositivo SmartStorage estén conectados a la misma red. No reinicie ni apague el teléfono para evitar la pérdida de datos.</string>
+    <string name="nas_restore_task_suspend_info_title">Restauración en pausa</string>
+    <string name="nas_retry_button">Reintentar</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">No hay suficiente espacio de almacenamiento en la tablet. Libere espacio e intente hacer la copia de seguridad de nuevo.</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">No hay suficiente espacio de almacenamiento en la tablet. Libere espacio e intente restaurar de nuevo.</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">No hay suficiente espacio de almacenamiento en el teléfono. Libere espacio e intente hacer la copia de seguridad de nuevo.</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">No hay suficiente espacio de almacenamiento en el teléfono. Libere espacio e intente restaurar de nuevo.</string>
+    <string name="nas_task_progress_item_disconnect_eror">Red desconectada</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">No hay suficiente espacio de almacenamiento en la tablet</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">No hay suficiente espacio de almacenamiento en el teléfono</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorage está lleno</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">No hay suficiente espacio en SmartStorage</string>
+    <string name="nas_task_progress_low_memory_summary_backup">SmartStorage está lleno. Libere espacio e intente hacer la copia de seguridad de nuevo.</string>
+    <string name="nas_task_progress_low_memory_summary_restore">SmartStorage está lleno. Libere espacio e intente restaurar de nuevo.</string>
+    <string name="nas_unbind_account_dialog_summary">Su Cuenta Mi no está disponible. Inicie sesión para poder hacer una copia de seguridad o restaurar elementos.</string>
+    <string name="nas_unbind_account_summary_backup">La cuenta Xiaomi no está disponible. Inicie sesión e intente hacer la copia de seguridad de nuevo.</string>
+    <string name="nas_unbind_account_summary_restore">La cuenta Xiaomi no está disponible. Inicie sesión e intente restaurar de nuevo.</string>
+    <string name="nas_unbind_device_dialog_title">El dispositivo SmartStorage no existe</string>
     <string name="never">Nunca</string>
     <string name="new_backup">Copia de seguridad</string>
     <string name="new_britem_audio">Audio</string>
@@ -591,13 +658,23 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="notif_trans_sending_completed">Datos enviados correctamente</string>
     <string name="notif_trans_sending_failed">No se pudieron enviar los datos</string>
     <string name="notif_trans_wait_for_reconnecting">Conexión interrumpida. Volver a conectar.</string>
+    <string name="notification_backup_content">Haciendo una copia de seguridad de los datos…</string>
+    <string name="notification_backup_suspend">Copia de seguridad en pausa</string>
+    <string name="notification_device_disconnect_content">Conexión perdida</string>
+    <string name="notification_low_memory_content">SmartStorage está lleno</string>
+    <string name="notification_restore_content">Restaurando los datos del dispositivo…</string>
+    <string name="notification_restore_suspend">Restauración en pausa</string>
+    <string name="notification_unbind_account_content">La Cuenta Mi no está disponible</string>
+    <string name="notification_wifi_disconnect_content">Red desconectada</string>
     <string name="old_soft_name">Conectarse vía código QR</string>
     <string name="old_way">También puede generar un código QR en su nuevo dispositivo y escanearlo con el dispositivo antiguo.</string>
     <string name="open_compatibility_mode">Activar</string>
+    <string name="pad_backup_and_restore">Tablet</string>
     <string name="page_loading">Un momento…</string>
     <string name="password">Contraseña</string>
     <string name="password_null">La contraseña no puede estar vacía</string>
     <string name="pause">Pausar</string>
+    <string name="pc_backup_and_restore">Computadora</string>
     <string name="perm_camera">Cámara</string>
     <string name="perm_location">Ubicación</string>
     <string name="perm_read_call_log">Leer historial de llamadas</string>
@@ -647,6 +724,7 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="permission_write_contacts">Editar contactos</string>
     <string name="permission_write_storage">Guardar elementos en el almacenamiento</string>
     <string name="permission_write_storage_pad">Guardar elementos en el almacenamiento</string>
+    <string name="phone_backup_and_restore">Teléfono</string>
     <string name="phone_title">Ajustes del teléfono</string>
     <string name="platform_chooser_item_android_mi">Teléfono Mi</string>
     <string name="platform_chooser_item_android_others">Otras marcas</string>
@@ -682,7 +760,33 @@ primero deberá crear un respaldo de iCloud."</string>
     <string name="restore_launcher_layout_hit">Recuperar ajustes del iniciador</string>
     <string name="restore_progress">Restaurando…</string>
     <string name="restore_report">Detalles de la restauración</string>
+    <string name="restore_suspend_fail_summary_pad">Se perdió la conexión. Una vez que su tablet esté en la misma red que SmartStorage, toque \"Reintentar\" para reanudar la restauración.</string>
+    <string name="restore_suspend_fail_summary_phone">Se perdió la conexión. Una vez que su teléfono esté en la misma red que SmartStorage, toque \"Reintentar\" para reanudar la restauración.</string>
+    <string name="restore_suspend_summary_pad">Se perdió la conexión. Una vez que su tablet esté en la misma red que SmartStorage, la restauración se reanudará automáticamente.</string>
+    <string name="restore_suspend_summary_phone">Se perdió la conexión. Una vez que su teléfono esté en la misma red que SmartStorage, la restauración se reanudará automáticamente.</string>
+    <string name="restore_suspend_title">Restauración en pausa. Conectándose de nuevo…</string>
+    <string name="restore_tab">Restaurar</string>
     <string name="restore_telephony_hit">Restaurar reiniciará las aplicaciones del teléfono.</string>
+    <string name="restore_tips_dialog_summary">Está a punto de restaurar los datos de WeChat. Esto sobrescribirá los datos actuales de WeChat con la copia de seguridad de %s. Esta acción no se puede deshacer. Proceda con precaución.</string>
+    <string name="restore_tips_dialog_title">Atención</string>
+    <string name="resume_backup_nas_task_dialog_title">Copia de seguridad incompleta</string>
+    <string name="resume_backup_toast">Haciendo una copia de seguridad en SmartStorage…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"Hora de la copia de seguridad: %1$s
+Tamaño de la copia de seguridad: %2$s
+Espacio de almacenamiento disponible en la tablet: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"Hora de la copia de seguridad: %1$s
+Tamaño de la copia de seguridad: %2$s
+Espacio de almacenamiento disponible en el teléfono: %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"Hora de la copia de seguridad: %1$s
+Tamaño de la copia de seguridad: %2$s
+Espacio disponible en SmartStorage: %3$s
+Espacio disponible en la tablet: %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"Hora de la copia de seguridad: %1$s
+Tamaño de la copia de seguridad: %2$s
+Espacio disponible en SmartStorage: %3$s
+Almacenamiento disponible en el teléfono: %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">Restauración incompleta</string>
+    <string name="resume_restore_toast">Restaurando desde SmartStorage…</string>
     <string name="retry">Vuelva a intentarlo</string>
     <string name="reverse_all">Desmarcar todo</string>
     <string name="revoke_permission_dialog_content">No podrá hacer copias de seguridad o restaurar elementos sin todos los permisos obligatorios. ¿Retirar los permisos de todos modos?</string>
@@ -834,6 +938,7 @@ Libere al menos %s."</string>
     <string name="time_picker_dialog_title">Ajustar hora</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tips_date_format">dd/MM/yyyy HH:mm</string>
     <string name="title_compatibility_mode">Modo de compatibilidad de aplicaciones</string>
     <string name="today">Hoy</string>
     <string name="tomorrow">Mañana</string>
@@ -911,7 +1016,7 @@ para descargar e instalar Mi Mudanza."</string>
     <string name="trans_intro_desc_account">Por razones de seguridad debe iniciar sesión de nuevo en sus cuentas (p. ej. Cuenta Mi, Exchange, Google, etc) en un nuevo dispositivo.</string>
     <string name="trans_intro_desc_gms">Debido a la alta probabilidad de error en la transferencia debido a problemas de compatibilidad, Mi Mudanza no soporta la transferencia de datos generados por aplicaciones de Google.</string>
     <string name="trans_intro_desc_multiapp">Mi Mudanza no transfiere datos de aplicaciones duales para evitar conflictos entre archivos.</string>
-    <string name="trans_intro_desc_multiuser">Mi Mudanza no puede acceder a los elementos del segundo espacio. Muévalos al espacio principal y abra Mi Mudanza desde ahí.</string>
+    <string name="trans_intro_desc_multiuser">Mi Mudanza no puede acceder a los elementos del Segundo espacio. Muévalos al Primer espacio y abra Mi Mudanza desde ahí.</string>
     <string name="trans_intro_desc_new">Toque \"Soy destinatario\". Se generará un código QR.</string>
     <string name="trans_intro_desc_old">Toque en \"Soy el remitente\". Escanee el código QR en el teléfono nuevo, espere a que Mi Mudanza averigüe qué archivos enviar y toque \"Enviar\".</string>
     <string name="trans_intro_desc_old_market">Toque \"Iniciar\". Escanee el código QR en el teléfono nuevo, espere a que Mi Mudanza decida que archivos enviar y toque \"Enviar\".</string>
@@ -1028,6 +1133,7 @@ y Mi Mudanza activado"</string>
     <string name="tuesday_shortest">Mar</string>
     <string name="unit_byte">B</string>
     <string name="unknown_hint">Desconocido</string>
+    <string name="usb_backup_and_restore">Unidad USB</string>
     <string name="usb_backup_select_data_too_large">"Los archivos seleccionados son grandes. Asegúrese de que la unidad USB tiene suficiente espacio.
 Transferir solo elementos importantes."</string>
     <string name="usb_restore_select_data_too_large">"Los archivos de respaldo son grandes. Tomará tiempo restaurarlos.

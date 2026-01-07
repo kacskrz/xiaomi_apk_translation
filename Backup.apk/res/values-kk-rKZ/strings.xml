@@ -68,6 +68,14 @@
     <string name="backup_report">Мәліметтерді көрсету</string>
     <string name="backup_security_tips_message">Кейбір қолданбалардың сақтық көшірмесін жасау немесе қалпына келтіру мүмкіндігі жоқ.</string>
     <string name="backup_security_tips_title">Сақтық көшірмелер жұмыс істемеуі мүмкін</string>
+    <string name="backup_suspend_fail_summary_pad">Байланыс үзілді. Планшетіңіз SmartStorage желісімен бір желіде болғанда, сақтық көшірме жасауды жалғастыру үшін \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="backup_suspend_fail_summary_phone">Байланыс үзілді. Телефоныңыз SmartStorage желісімен бір желіде болғанда, сақтық көшірме жасауды жалғастыру үшін \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="backup_suspend_summary_pad">Байланыс үзілді. Планшетіңіз SmartStorage желісімен бір желіде болғанда, сақтық көшірме жасау автоматты түрде жалғасады.</string>
+    <string name="backup_suspend_summary_phone">Байланыс үзілді. Телефоныңыз SmartStorage желісімен бір желіде болғанда, сақтық көшірме жасау автоматты түрде жалғасады.</string>
+    <string name="backup_suspend_title">Сақтық көшірме жасау кідіртілді. Қайта қосылу…</string>
+    <string name="backup_tab">Сақтық көшірмені жасау</string>
+    <string name="backup_tips_dialog_summary">Қосарлы қолданбалар мен жеке элементтерге қолдау көрсетілмейді. Бұл сақтық көшірме тек осы уақытқа дейінгі деректерді қамтиды. Жаңа деректер автоматты түрде үндестірілмейді.</string>
+    <string name="backup_tips_dialog_title">Есте сақтаңыз</string>
     <string name="backup_update">Жаңарту</string>
     <string name="batch_delete_backup_confirm">Таңдалған сақтық көшірмелерді жою керек пе?</string>
     <string name="broken_screen_rescue_service">Экраны зақымдалған сақтық көшірмелер</string>
@@ -152,6 +160,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="connect_wifi">Wi-Fi-ға қосылу</string>
     <string name="connect_wifi_tip">Желіге қосылына алмады. iCloud-тан элементтерді импорттау үшін Wi-Fi-ға қосылыңыз.</string>
     <string name="contact_title">Контактілер</string>
+    <string name="continue_restore_button">Жалғастыру</string>
     <string name="current_account">Сәлем%s</string>
     <string name="current_pad_location">Планшет</string>
     <string name="current_phone_location">Телефон</string>
@@ -463,6 +472,64 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="multi_user_mode_dialog_message">Бірнеше пайдаланушылар режимінде Mi Mover-ды пайдалануға болмайды. Жалғастыру үшін бірнеше пайдаланушылар режимін ажыратыңыз.</string>
     <string name="multi_user_mode_dialog_title">Сіз бірнеше пайдаланушылар режиміндесіз</string>
     <string name="name_password_not_consistent">Пайдаланушы аты немесе құпиясөз дұрыс емес</string>
+    <string name="nas_backup_progress_title">SmartStorage-ге сақтық көшірмені жасау</string>
+    <string name="nas_backup_resume_button">Жалғастыру</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Желі ажыратылды. Планшетіңіз бен SmartStorage құрылғыңыз бір желіде екеніне көз жеткізіп, сақтық көшірмені қайта жасап көріңіз.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Желі ажыратылды. Телефоныңыз бен SmartStorage құрылғыңыз бір желіде екеніне көз жеткізіп, сақтық көшірмені қайта жасап көріңіз.</string>
+    <string name="nas_backup_task_progress_summary_pad">Сақтық көшірме жасау кезінде планшетіңіз бен Smart Storage құрылғыңыз бір желіде екеніне көз жеткізіңіз. Деректердің жоғалуын болдырмау үшін планшетіңізді қайта жүктеңіз немесе өшірмеңіз.</string>
+    <string name="nas_backup_task_progress_summary_phone">Сақтық көшірме жасау кезінде телефоныңыз бен Smart Storage құрылғыңыз бір желіде екеніне көз жеткізіңіз. Деректердің жоғалуын болдырмау үшін телефоныңызды қайта жүктеңіз немесе өшірмеңіз.</string>
+    <string name="nas_backup_task_suspend_info_title">Сақтық көшірме жасау тоқтатылды</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">Болдырмау</string>
+    <string name="nas_connecting_progress_dialog">SmartStorage-ге қосылу…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"SmartStorage қызметін сақтық көшірме жасау және қалпына келтіру үшін пайдалану үшін келесіні тексеріңіз:
+%d. SmartStorage құрылғысы желіде.
+%d. Планшетіңіз SmartStorage қызметімен бір желідегі Wi-Fi желісіне қосылған.
+%d. Желі тұрақты. (Сақтық көшірме жасау немесе қалпына келтіру кезінде планшетіңізді қайта жүктемеңіз немесе өшірмеңіз)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"SmartStorage қызметін сақтық көшірме жасау және қалпына келтіру үшін пайдалану үшін келесіні тексеріңіз:
+%d. SmartStorage құрылғысы желіде.
+%d. Телефоныңыз SmartStorage қызметімен бір желідегі Wi-Fi желісіне қосылған.
+%d. Желі тұрақты. (Сақтық көшірме жасау немесе қалпына келтіру кезінде телефоныңызды қайта жүктемеңіз немесе өшірмеңіз)."</string>
+    <string name="nas_disconnect_dialog_title">SmartStorage-ге қосылу мүмкін болмады</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">SmartStorage орны жеткіліксіз. Сақтық көшірме жасауды жалғастыру үшін орын босатып, \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">Планшет жады жеткіліксіз. Сақтық көшірме жасауды жалғастыру үшін орын босатып, \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">Телефон жады жеткіліксіз. Сақтық көшірме жасауды жалғастыру үшін орын босатып, \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">SmartStorage орны жеткіліксіз. Қалпына келтіруді жалғастыру үшін орын босатып, \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">Планшет жады жеткіліксіз. Қалпына келтіруді жалғастыру үшін орын босатып, \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">Телефон жады жеткіліксіз. Қалпына келтіруді жалғастыру үшін орын босатып, \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="nas_low_storage">Сіз %1$s деректерін таңдадыңыз. SmartStorage-де тек %2$s бос орын бар. Таңдауыңызды реттеңіз немесе орын босатып, қайталап көріңіз.</string>
+    <string name="nas_low_storage_pad_restore_summary">Қалпына келтіруді кэштеу үшін планшетіңізде уақытша сақтау орны қажет. %s сақтаңыз. Бұл орын элементтер қалпына келтірілгеннен кейін босатылады.</string>
+    <string name="nas_low_storage_pad_summary">Сақтық көшірмелерді кэштеу үшін планшетіңізде уақытша сақтау орны қажет. %s сақтаңыз. Бұл орын элементтердің сақтық көшірмесі жасалғаннан кейін босатылады.</string>
+    <string name="nas_low_storage_pad_title">Планшет жады жеткіліксіз</string>
+    <string name="nas_low_storage_phone_positive_button">Жою</string>
+    <string name="nas_low_storage_phone_restore_summary">Қалпына келтіруді кэштеу үшін телефоныңызда уақытша сақтау орны қажет. %s сақтаңыз. Бұл орын элементтер қалпына келтірілгеннен кейін босатылады.</string>
+    <string name="nas_low_storage_phone_summary">Сақтық көшірмелерді кэштеу үшін телефоныңызда уақытша сақтау орны қажет. %s орнын сақтаңыз. Бұл орын элементтердің сақтық көшірмесі жасалғаннан кейін босатылады.</string>
+    <string name="nas_low_storage_phone_title">Телефон жады жеткіліксіз</string>
+    <string name="nas_low_storage_title">SmartStorage толы</string>
+    <string name="nas_notification_title">WeChat хабарларының сақтық көшірмесін SmartStorage-ге сақтау…</string>
+    <string name="nas_restore_progress_title">SmartStorage-ден қалпына келтіру</string>
+    <string name="nas_restore_resume_button">Жалғастыру</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Желі ажыратылды. Планшетіңіз бен SmartStorage құрылғыңыз бір желіде екеніне көз жеткізіп, қалпына келтіруді қайталап көріңіз.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Желі ажыратылды. Телефоныңыз бен SmartStorage құрылғыңыз бір желіде екеніне көз жеткізіп, қалпына келтіруді қайталап көріңіз.</string>
+    <string name="nas_restore_task_progress_summary_pad">Қалпына келтіру кезінде планшетіңіз бен Smart Storage құрылғыңыз бір желіде екеніне көз жеткізіңіз. Деректердің жоғалуын болдырмау үшін планшетіңізді қайта жүктеңіз немесе өшірмеңіз.</string>
+    <string name="nas_restore_task_progress_summary_phone">Қалпына келтіру кезінде телефоныңыз бен Smart Storage құрылғыңыз бір желіде екеніне көз жеткізіңіз. Деректердің жоғалуын болдырмау үшін телефоныңызды қайта жүктеңіз немесе өшірмеңіз.</string>
+    <string name="nas_restore_task_suspend_info_title">Қалпына келтіру тоқтатылды</string>
+    <string name="nas_retry_button">Әрекетті қайталау</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">Планшет жады жеткіліксіз. Орын босатып, сақтық көшірмесін қайта жасап көріңіз.</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">Планшет жады жеткіліксіз. Орын босатып, қалпына келтіруді қайталап көріңіз.</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">Телефон жады жеткіліксіз. Орын босатып, сақтық көшірмесін қайта жасап көріңіз.</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">Телефон жады жеткіліксіз. Орын босатып, қалпына келтіруді қайталап көріңіз.</string>
+    <string name="nas_task_progress_item_disconnect_eror">Желі ажыратылды</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">Планшет жады жеткіліксіз</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">Телефон жады жеткіліксіз</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorage толы</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">SmartStorage жады жеткіліксіз</string>
+    <string name="nas_task_progress_low_memory_summary_backup">SmartStorage толы. Орын босатып, сақтық көшірмесін қайта жасап көріңіз.</string>
+    <string name="nas_task_progress_low_memory_summary_restore">SmartStorage толы. Орын босатып, қалпына келтіруді қайталап көріңіз.</string>
+    <string name="nas_unbind_account_dialog_summary">Сіздің Xiaomi Аккаунтыңыз қолжетімді емес. Элементтердің сақтық көшірмесін жасау немесе қалпына келтіру үшін жүйеге кіріңіз.</string>
+    <string name="nas_unbind_account_summary_backup">Xiaomi Аккаунты қолжетімді емес. Жүйеге кіріп, сақтық көшірмесін қайта жасап көріңіз.</string>
+    <string name="nas_unbind_account_summary_restore">Xiaomi Аккаунты қолжетімді емес. Жүйеге кіріп, қалпына келтіріп көріңіз.</string>
+    <string name="nas_unbind_device_dialog_title">SmartStorage құрылғысы жоқ</string>
     <string name="never">Ешқашан</string>
     <string name="new_backup">Сақтық көшірмесін жасау</string>
     <string name="new_britem_audio">Аудио</string>
@@ -561,13 +628,23 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="notif_trans_sending_completed">Мәліметтер сәтті жіберілді</string>
     <string name="notif_trans_sending_failed">Мәліметтерді жіберу мүмкін болмады</string>
     <string name="notif_trans_wait_for_reconnecting">Байланыс үзілді. Қайта қосылыңыз.</string>
+    <string name="notification_backup_content">Құрылғы деректерінің сақтық көшірмесін жасау…</string>
+    <string name="notification_backup_suspend">Сақтық көшірме жасау тоқтатылды</string>
+    <string name="notification_device_disconnect_content">Байланыс жоғалды</string>
+    <string name="notification_low_memory_content">SmartStorage толы</string>
+    <string name="notification_restore_content">Құрылғы деректерін қалпына келтіру…</string>
+    <string name="notification_restore_suspend">Қалпына келтіру тоқтатылды</string>
+    <string name="notification_unbind_account_content">Xiaomi Аккаунты қолжетімді емес</string>
+    <string name="notification_wifi_disconnect_content">Желі ажыратылды</string>
     <string name="old_soft_name">QR коды арқылы қосылу</string>
     <string name="old_way">Жаңа құрылғыңызда QR кодын жасап, ескі телефоныңыздан сканерлеуіңізге болады.</string>
     <string name="open_compatibility_mode">Қосу</string>
+    <string name="pad_backup_and_restore">Планшет</string>
     <string name="page_loading">Бір секунд…</string>
     <string name="password">Құпиясөз</string>
     <string name="password_null">Құпиясөз бос бола алмайды</string>
     <string name="pause">Үзіліс</string>
+    <string name="pc_backup_and_restore">Компьютер</string>
     <string name="perm_camera">Камера</string>
     <string name="perm_location">Орналасқан жері</string>
     <string name="perm_read_call_log">Қоңыраулар тарихын оқу</string>
@@ -617,6 +694,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="permission_write_contacts">Контактілерді өзгерту</string>
     <string name="permission_write_storage">Элементтерді жадыға сақтаңыз</string>
     <string name="permission_write_storage_pad">Элементтерді жадыға сақтаңыз</string>
+    <string name="phone_backup_and_restore">Телефон</string>
     <string name="phone_title">Телефон баптаулары</string>
     <string name="platform_chooser_item_android_mi">Mi телефоны</string>
     <string name="platform_chooser_item_android_others">Басқа брендтер</string>
@@ -651,7 +729,33 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="restore_launcher_layout_hit">Негізгі экран баптауларын қалпына келтіру</string>
     <string name="restore_progress">Қалпына келтіруде…</string>
     <string name="restore_report">Қалпына келтіру туралы мәліметтер</string>
+    <string name="restore_suspend_fail_summary_pad">Байланыс үзілді. Планшетіңіз SmartStorage желісімен бір желіде болғанда, қалпына келтіруді жалғастыру үшін \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="restore_suspend_fail_summary_phone">Байланыс үзілді. Телефоныңыз SmartStorage желісімен бір желіде болғанда, қалпына келтіруді жалғастыру үшін \"Қайталау\" түймесін түртіңіз.</string>
+    <string name="restore_suspend_summary_pad">Байланыс үзілді. Планшетіңіз SmartStorage желісімен бір желіде болғанда, қалпына келтіру автоматты түрде жалғасады.</string>
+    <string name="restore_suspend_summary_phone">Байланыс үзілді. Телефоныңыз SmartStorage желісімен бір желіде болғанда, қалпына келтіру автоматты түрде жалғасады.</string>
+    <string name="restore_suspend_title">Қалпына келтіру кідіртілді. Қайта қосылу…</string>
+    <string name="restore_tab">Қалпына келтіру</string>
     <string name="restore_telephony_hit">Қалпына келтіру үдерісі \"Телефон\" қолданбасын қайта іске қосады.</string>
+    <string name="restore_tips_dialog_summary">Сіз WeChat деректерін қалпына келтірейін деп жатырсыз. Бұл ағымдағы WeChat деректерін %s сақтық көшірмесімен қайта жазады. Бұл әрекетті кері қайтару мүмкін емес. Сақ болыңыз.</string>
+    <string name="restore_tips_dialog_title">Назар аударыңыз</string>
+    <string name="resume_backup_nas_task_dialog_title">Аяқталмаған сақтық көшірме</string>
+    <string name="resume_backup_toast">SmartStorage-ге сақтық көшірмені жасау…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"Сақтық көшірме уақыты: %1$s
+Сақтық көшірме өлшемі: %2$s
+Қолжетімді планшет сақтау орны: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"Сақтық көшірме уақыты: %1$s
+Сақтық көшірме өлшемі: %2$s
+Қолжетімді телефон сақтау орны: %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"Сақтық көшірме уақыты: %1$s
+Сақтық көшірме өлшемі: %2$s
+Қолжетімді SmartStorage кеңістігі: %3$s
+Қолжетімді планшет жады: %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"Сақтық көшірме уақыты: %1$s
+Сақтық көшірме өлшемі: %2$s
+Қолжетімді SmartStorage кеңістігі: %3$s
+Қолжетімді телефон жады: %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">Аяқталмаған қалпына келтіру</string>
+    <string name="resume_restore_toast">SmartStorage-ден қалпына келтіру…</string>
     <string name="retry">Қайталау</string>
     <string name="reverse_all">Барлығын тазалау</string>
     <string name="revoke_permission_dialog_content">Барлық міндетті рұқсаттарсыз элементтердің сақтық көшірмесін жасай немесе қалпына келтіре алмайсыз. Рұқсаттар бәрібір алынсын ба?</string>
@@ -800,6 +904,7 @@ Wi-Fi-ды өшірмеңіз"</string>
     <string name="time_picker_dialog_title">Уақытты орнату</string>
     <string name="time_picker_label_hour">С</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tips_date_format">dd.MM.yyyy HH:mm</string>
     <string name="title_compatibility_mode">Қолданбаның үйлесімділік режимі</string>
     <string name="today">Бүгін</string>
     <string name="tomorrow">Ертең</string>
@@ -994,6 +1099,7 @@ Wi-Fi-ды өшірмеңіз.
     <string name="tuesday_shortest">Сс</string>
     <string name="unit_byte">Б</string>
     <string name="unknown_hint">Белгісіз</string>
+    <string name="usb_backup_and_restore">USB жинақтауыш</string>
     <string name="usb_backup_select_data_too_large">"Таңдалған файлдар өте үлкен. USB жинақтауыштың жеткілікті сақтау орны бар екендігіне көз жеткізіңіз.
 Тек маңызды файлдарды аударыңыз."</string>
     <string name="usb_restore_select_data_too_large">"Сақтық көшірме файлдары өте үлкен. Оларды қалпына келтіру үшін біраз уақыт қажет.

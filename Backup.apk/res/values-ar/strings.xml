@@ -95,6 +95,14 @@
     <string name="backup_report">عرض التفاصيل</string>
     <string name="backup_security_tips_message">بعض التطبيقات قد لا يمكن نسخها احتياطيا أو استعادتها.</string>
     <string name="backup_security_tips_title">قد لا يعمل النسخ الاحتياطي</string>
+    <string name="backup_suspend_fail_summary_pad">انقطع الاتصال. بمجرد اتصال جهازك اللوحي بنفس شبكة SmartStorage، انقر على \"إعادة المحاولة\" لاستئناف النسخ الاحتياطي.</string>
+    <string name="backup_suspend_fail_summary_phone">انقطع الاتصال. بمجرد اتصال هاتفك بنفس شبكة SmartStorage، انقر على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
+    <string name="backup_suspend_summary_pad">انقطع الاتصال. بمجرد اتصال جهازك اللوحي بنفس الشبكة التي تستخدمها خدمة SmartStorage، سيتم استئناف النسخ الاحتياطي تلقائيًا.</string>
+    <string name="backup_suspend_summary_phone">انقطع الاتصال. بمجرد اتصال هاتفك بنفس الشبكة التي يستخدمها SmartStorage، سيتم استئناف النسخ الاحتياطي تلقائيًا.</string>
+    <string name="backup_suspend_title">تم إيقاف النسخ الاحتياطي مؤقتًا. جارٍ الاتصال مرة أخرى.…</string>
+    <string name="backup_tab">النسخ الاحتياطي</string>
+    <string name="backup_tips_dialog_summary">لا يدعم استخدام التطبيقات المزدوجة والعناصر الخاصة. هذه النسخة الاحتياطية تتضمن البيانات الحالية فقط. لن تتم مزامنة البيانات الجديدة تلقائيًا.</string>
+    <string name="backup_tips_dialog_title">ضع في اعتبارك</string>
     <string name="backup_update">تحديث</string>
     <string name="batch_delete_backup_confirm">حذف النسخ الاحتياطية المحددة؟</string>
     <string name="broken_screen_rescue_service">النسخ الاحتياطي عند تلف الشاشة</string>
@@ -179,6 +187,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="connect_wifi">الإتصال بشبكة Wi-Fi</string>
     <string name="connect_wifi_tip">تعذر الاتصال بالشبكة. اتصل بشبكة Wi-Fi للاستيراد من iCloud.</string>
     <string name="contact_title">جهات الاتصال</string>
+    <string name="continue_restore_button">إستئناف</string>
     <string name="copy">نسخ</string>
     <string name="current_account">مرحباً %s</string>
     <string name="current_pad_location">Pad</string>
@@ -367,7 +376,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="lack_perm_title">يتطلب أذونات</string>
     <string name="list_footer_tip_title">نصائح:</string>
     <string name="loading_data">تحميل البيانات</string>
-    <string name="local_app_name">النسخ الاحتياطي</string>
+    <string name="local_app_name">نسخ احتياطي</string>
     <string name="local_backup_select_activity">إنشاء نسخة احتياطية</string>
     <string name="local_backup_window_title">بيانات النسخ الاحتياطي المحلية</string>
     <string name="local_button_backup_data">نسخ احتياطي</string>
@@ -492,6 +501,64 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="multi_user_mode_dialog_message">لا يمكن استخدام ناقل Mi في وضع تعدد المستخدمين. قم بإيقاف وضع تعدد المستخدمين للمتابعة.</string>
     <string name="multi_user_mode_dialog_title">انت في وضع تعدد المستخدمين</string>
     <string name="name_password_not_consistent">اسم المستخدم او كلمة المرور غير صحيحة</string>
+    <string name="nas_backup_progress_title">النسخ الاحتياطي إلى SmartStorage</string>
+    <string name="nas_backup_resume_button">إستئناف</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">الشبكة غير متصلة. تأكد من اتصال جهازك اللوحي وجهاز SmartStorage بنفس الشبكة، ثم حاول النسخ الاحتياطي مرة أخرى.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">الشبكة غير متصلة. تأكد من اتصال هاتفك وجهاز SmartStorage بنفس الشبكة، ثم حاول النسخ الاحتياطي مرة أخرى.</string>
+    <string name="nas_backup_task_progress_summary_pad">أثناء النسخ الاحتياطي، تأكد من اتصال جهازك اللوحي وجهاز SmartStorage بنفس الشبكة. لا تعيد تشغيل جهازك اللوحي أو تطفئه لتجنب فقدان البيانات.</string>
+    <string name="nas_backup_task_progress_summary_phone">أثناء النسخ الاحتياطي، تأكد من اتصال هاتفك وجهاز SmartStorage بنفس الشبكة. لا تعيد تشغيل هاتفك أو تطفئه لتجنب فقدان البيانات.</string>
+    <string name="nas_backup_task_suspend_info_title">تم إيقاف النسخ الاحتياطي مؤقتًا</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">إلغاء</string>
+    <string name="nas_connecting_progress_dialog">جاري الاتصال بـ SmartStorage…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"للتأكد من إمكانية استخدام SmartStorage للنسخ الاحتياطي والاستعادة، تحقق مما يلي:
+%d. جهاز SmartStorage متصل بالإنترنت.
+%d. جهازك اللوحي متصل بشبكة Wi-Fi نفسها التي يتصل بها SmartStorage.
+%d. الشبكة مستقرة. (لا تقم بإعادة تشغيل الجهاز اللوحي أو إيقاف تشغيله أثناء النسخ الاحتياطي أو الاستعادة)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"للتأكد من إمكانية استخدام SmartStorage للنسخ الاحتياطي والاستعادة، تحقق مما يلي:
+%d. جهاز SmartStorage متصل بالإنترنت.
+%d. هاتفك متصل بشبكة Wi-Fi نفسها التي يتصل بها SmartStorage.
+%d. الشبكة مستقرة. (لا تقم بإعادة تشغيل الهاتف أو إيقاف تشغيله أثناء النسخ الاحتياطي أو الاستعادة)."</string>
+    <string name="nas_disconnect_dialog_title">لا يمكن الاتصال بـ SmartStorage</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">مساحة SmartStorage غير كافية. حرر بعض المساحة وانقر على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">مساحة التخزين على جهازك اللوحي غير كافية. حرر مساحة وانقر على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">مساحة تخزين هاتفك غير كافية. حرر بعض المساحة وانقر على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">مساحة SmartStorage غير كافية. حرر مساحة وانقر على \"حاول مرة أخرى\" لاستئناف الاستعادة.</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">مساحة التخزين على جهازك اللوحي غير كافية. حرر مساحة وانقر على \"حاول مرة أخرى\" لاستئناف عملية الاستعادة.مساحة التخزين على جهازك اللوحي غير كافية. حرر مساحة وانقر على \"حاول مرة أخرى\" لاستئناف عملية الاستعادة.</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">مساحة تخزين الهاتف غير كافية. حرر بعض المساحة وانقر على \"حاول مرة أخرى\" لاستئناف عملية الاستعادة.</string>
+    <string name="nas_low_storage">لقد حددت %1$s من البيانات، بينما تتوفر في SmartStorage مساحة قدرها %2$s فقط. يرجى تعديل اختيارك أو تفريغ بعض المساحة ثم المحاولة مرة أخرى.</string>
+    <string name="nas_low_storage_pad_restore_summary">تتطلب عملية الاستعادة وجود مساحة تخزين مؤقتة على جهازك اللوحي. يرجى تخصيص %s. سيتم تحرير هذه المساحة بعد اكتمال استعادة العناصر.</string>
+    <string name="nas_low_storage_pad_summary">تتطلب عمليات النسخ الاحتياطي وجود مساحة تخزين مؤقتة على جهازك اللوحي. يرجى تخصيص %s. سيتم تحرير هذه المساحة بعد اكتمال نسخ العناصر احتياطيًا.</string>
+    <string name="nas_low_storage_pad_title">لا توجد مساحة تخزين كافية للكمبيوتر اللوحي</string>
+    <string name="nas_low_storage_phone_positive_button">مسح</string>
+    <string name="nas_low_storage_phone_restore_summary">تتطلب عملية الاستعادة وجود مساحة تخزين مؤقتة على هاتفك. يرجى تخصيص %s. سيتم تحرير هذه المساحة بعد اكتمال استعادة العناصر.</string>
+    <string name="nas_low_storage_phone_summary">تتطلب عمليات النسخ الاحتياطي وجود مساحة تخزين مؤقتة على هاتفك. يرجى تخصيص %s. سيتم تحرير هذه المساحة بعد اكتمال نسخ العناصر احتياطيًا.</string>
+    <string name="nas_low_storage_phone_title">لا توجد مساحة تخزين كافية للهاتف</string>
+    <string name="nas_low_storage_title">SmartStorage ممتلئ</string>
+    <string name="nas_notification_title">نسخ رسائل WeChat احتياطيًا إلى SmartStorage…</string>
+    <string name="nas_restore_progress_title">استعادة من SmartStorage</string>
+    <string name="nas_restore_resume_button">إستئناف</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">انقطع الاتصال بالشبكة. تأكد من اتصال جهازك اللوحي وجهاز SmartStorage بنفس الشبكة، ثم حاول استعادة الاتصال مرة أخرى.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">الشبكة غير متصلة. تأكد من اتصال هاتفك وجهاز SmartStorage بنفس الشبكة، ثم حاول استعادة الاتصال مرة أخرى.</string>
+    <string name="nas_restore_task_progress_summary_pad">أثناء عملية الاستعادة، تأكد من اتصال جهازك اللوحي وجهاز SmartStorage بنفس الشبكة. لا تعيد تشغيل جهازك اللوحي أو تطفئه لتجنب فقدان البيانات.</string>
+    <string name="nas_restore_task_progress_summary_phone">أثناء عملية الاستعادة، تأكد من اتصال هاتفك وجهاز SmartStorage بنفس الشبكة. لا تعيد تشغيل هاتفك أو تطفئه لتجنب فقدان البيانات.</string>
+    <string name="nas_restore_task_suspend_info_title">تم إيقاف الاستعادة</string>
+    <string name="nas_retry_button">حاول مجددًا</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">مساحة التخزين على جهازك اللوحي غير كافية. حرر بعض المساحة وحاول النسخ الاحتياطي مرة أخرى.</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">مساحة التخزين على جهازك اللوحي غير كافية. حرر بعض المساحة وحاول استعادة الجهاز مرة أخرى.</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">مساحة تخزين هاتفك غير كافية. حرر بعض المساحة وحاول النسخ الاحتياطي مرة أخرى.</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">مساحة تخزين هاتفك غير كافية. حرر بعض المساحة وحاول استعادة بياناتك مرة أخرى.</string>
+    <string name="nas_task_progress_item_disconnect_eror">تم قطع اتصال الشبكة</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">لا توجد مساحة تخزين كافية للكمبيوتر اللوحي</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">لا توجد مساحة تخزين كافية للهاتف</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorage ممتلئ</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">لا توجد مساحة كافية في SmartStorage</string>
+    <string name="nas_task_progress_low_memory_summary_backup">SmartStorage ممتلئ. حرر مساحة وحاول النسخ الاحتياطي مرة أخرى.</string>
+    <string name="nas_task_progress_low_memory_summary_restore">SmartStorage ممتلئ. حرر بعض المساحة وحاول الاستعادة مرة أخرى.</string>
+    <string name="nas_unbind_account_dialog_summary">حسابك Mi غير متاح. سجل الدخول لتتمكن من نسخ العناصر احتياطيًا أو استعادتها.</string>
+    <string name="nas_unbind_account_summary_backup">حسابك Mi غير متاح. سجل الدخول وحاول النسخ الاحتياطي مرة أخرى.</string>
+    <string name="nas_unbind_account_summary_restore">حسابك Mi غير متاح. سجل الدخول وحاول استعادته مرة أخرى.</string>
+    <string name="nas_unbind_device_dialog_title">جهاز SmartStorage غير موجود</string>
     <string name="never">أبداً</string>
     <string name="new_backup">نسخ احتياطي</string>
     <string name="new_britem_audio">الصوت</string>
@@ -591,13 +658,23 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="notif_trans_sending_completed">تم ارسال البيانات بنجاح</string>
     <string name="notif_trans_sending_failed">تعذر ارسال البيانات</string>
     <string name="notif_trans_wait_for_reconnecting">إنقطع الاتصال. الاتصال مرة أخرى.</string>
+    <string name="notification_backup_content">نسخ بيانات الجهاز احتياطيًا…</string>
+    <string name="notification_backup_suspend">تم إيقاف النسخ الاحتياطي مؤقتًا</string>
+    <string name="notification_device_disconnect_content">تم فقدان الاتصال</string>
+    <string name="notification_low_memory_content">SmartStorage ممتلئ</string>
+    <string name="notification_restore_content">استعادة بيانات الجهاز…</string>
+    <string name="notification_restore_suspend">تم إيقاف الاستعادة</string>
+    <string name="notification_unbind_account_content">حسابك Mi غير متاح</string>
+    <string name="notification_wifi_disconnect_content">تم قطع اتصال الشبكة</string>
     <string name="old_soft_name">الاتصال عبر رمز QR</string>
     <string name="old_way">يمكنك أيضًا إنشاء رمز QR على الجهاز الجديد ومسحه ضوئيًا بإستخدام الجهاز القديم.</string>
     <string name="open_compatibility_mode">تشغيل</string>
+    <string name="pad_backup_and_restore">جهاز لوحي</string>
     <string name="page_loading">لحظة من فضلك…</string>
     <string name="password">كلمة المرور</string>
     <string name="password_null">لا يمكن أن تكون كلمة المرور فارغة</string>
     <string name="pause">إيقاف مؤقت</string>
+    <string name="pc_backup_and_restore">كمبيوتر</string>
     <string name="perm_camera">الكاميرا</string>
     <string name="perm_location">الموقع</string>
     <string name="perm_read_call_log">قراءة سجل المكالمات</string>
@@ -647,6 +724,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="permission_write_contacts">تعديل جهات الاتصال</string>
     <string name="permission_write_storage">حفظ العناصر في تخزين الجهاز</string>
     <string name="permission_write_storage_pad">حفظ العناصر في تخزين الجهاز</string>
+    <string name="phone_backup_and_restore">هاتف</string>
     <string name="phone_title">إعدادات الهاتف</string>
     <string name="platform_chooser_item_android_mi">هاتف Mi</string>
     <string name="platform_chooser_item_android_others">ماركات أخرى</string>
@@ -682,7 +760,33 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="restore_launcher_layout_hit">استعادة إعدادات المشغل</string>
     <string name="restore_progress">جارٍ الاستعادة…</string>
     <string name="restore_report">تفاصيل الاستعادة</string>
+    <string name="restore_suspend_fail_summary_pad">انقطع الاتصال. بمجرد اتصال جهازك اللوحي بنفس الشبكة التي يستخدمها SmartStorage، انقر على \"إعادة المحاولة\" لاستئناف عملية الاستعادة.</string>
+    <string name="restore_suspend_fail_summary_phone">انقطع الاتصال. بمجرد اتصال هاتفك بنفس شبكة SmartStorage، انقر على \"حاول مرة أخرى\" لاستئناف عملية الاستعادة.</string>
+    <string name="restore_suspend_summary_pad">انقطع الاتصال. بمجرد اتصال جهازك اللوحي بنفس الشبكة التي يستخدمها SmartStorage، سيتم أستأنف عملية الاستعادة تلقائيًا.</string>
+    <string name="restore_suspend_summary_phone">انقطع الاتصال. بمجرد اتصال هاتفك بنفس شبكة SmartStorage، ستستأنف عملية الاستعادة تلقائيًا.</string>
+    <string name="restore_suspend_title">تم إيقاف الاستعادة مؤقتًا. جارٍ الاتصال مجددًا.…</string>
+    <string name="restore_tab">استعادة</string>
     <string name="restore_telephony_hit">ستؤدي عملية الاستعادة إلى إعادة تشغيل تطبيق الهاتف.</string>
+    <string name="restore_tips_dialog_summary">أنت على وشك استعادة بيانات WeChat. سيؤدي هذا إلى استبدال بيانات WeChat الحالية بالنسخة الاحتياطية من %s. لا يمكن التراجع عن هذا الإجراء. يرجى المتابعة بحذر.</string>
+    <string name="restore_tips_dialog_title">تنبيه</string>
+    <string name="resume_backup_nas_task_dialog_title">نسخة احتياطية غير مكتملة</string>
+    <string name="resume_backup_toast">النسخ الاحتياطي إلى SmartStorage…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"وقت النسخ الاحتياطي: %1$s
+حجم النسخ الاحتياطي: %2$s
+سعة التخزين المتاحة على الجهاز اللوحي: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"وقت النسخ الاحتياطي: %1$s
+حجم النسخ الاحتياطي: %2$s
+سعة التخزين المتاحة على الهاتف: %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"وقت النسخ الاحتياطي: %1$s
+حجم النسخ الاحتياطي: %2$s
+المساحة المتاحة في SmartStorage: %3$s
+سعة التخزين المتاحة على الجهاز اللوحي: %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"وقت النسخ الاحتياطي: %1$s
+حجم النسخ الاحتياطي: %2$s
+المساحة المتاحة في SmartStorage: %3$s
+سعة التخزين المتاحة على الهاتف: %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">الاستعادة غير مكتملة</string>
+    <string name="resume_restore_toast">الاستعادة من SmartStorage…</string>
     <string name="retry">إعادة المحاولة</string>
     <string name="reverse_all">مسح الكل</string>
     <string name="revoke_permission_dialog_content">لن تتمكن من نسخ العناصر احتياطيًا أو استعادتها دون منح جميع الأذونات المطلوبة. هل ترغب في المتابعة؟</string>
@@ -834,6 +938,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="time_picker_dialog_title">ضبط الوقت</string>
     <string name="time_picker_label_hour">س</string>
     <string name="time_picker_label_minute">دق</string>
+    <string name="tips_date_format">H:mm yyyy/M/d</string>
     <string name="title_compatibility_mode">تطبيق وضع التوافق</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غدا</string>
@@ -1028,6 +1133,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="tuesday_shortest">الثلاثاء</string>
     <string name="unit_byte">بايت</string>
     <string name="unknown_hint">غير معروف</string>
+    <string name="usb_backup_and_restore">محرك أقراص USB</string>
     <string name="usb_backup_select_data_too_large">"الملفات المحددة كبيرة. تأكد من وجود مساحة كافية على محرك أقراص USB.
 وانقل العناصر الهامة."</string>
     <string name="usb_restore_select_data_too_large">"ملفات النسخ الاحتياطي كبيرة. قد يستغرق الأمر بعض الوقت لإستعادتها.

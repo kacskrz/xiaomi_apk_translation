@@ -95,6 +95,14 @@
     <string name="backup_report">Afficher les détails</string>
     <string name="backup_security_tips_message">Certaines applications peuvent ne pas être sauvegardées ou restaurées.</string>
     <string name="backup_security_tips_title">Les sauvegardes peuvent ne pas fonctionner</string>
+    <string name="backup_suspend_fail_summary_pad">La connexion a été perdue. Une fois votre tablette connectée au même réseau que SmartStorage, appuyez sur \"Réessayer\" pour reprendre la sauvegarde.</string>
+    <string name="backup_suspend_fail_summary_phone">La connexion a été perdue. Une fois votre téléphone connecté au même réseau que SmartStorage, appuyez sur \"Réessayer\" pour reprendre la sauvegarde.</string>
+    <string name="backup_suspend_summary_pad">La connexion a été perdue. La sauvegarde reprendra automatiquement dès que votre tablette sera connecté au même réseau que SmartStorage.</string>
+    <string name="backup_suspend_summary_phone">La connexion a été perdue. La sauvegarde reprendra automatiquement dès que votre téléphone sera connecté au même réseau que SmartStorage.</string>
+    <string name="backup_suspend_title">Sauvegarde interrompue. Reconnexion en cours…</string>
+    <string name="backup_tab">Sauvegarder</string>
+    <string name="backup_tips_dialog_summary">"Les applications doubles et les éléments privés ne sont pas pris en charge. Cette sauvegarde inclut uniquement les données jusqu'à présent. Les nouvelles données ne seront pas synchronisées automatiquement."</string>
+    <string name="backup_tips_dialog_title">"Gardez cela à l'esprit"</string>
     <string name="backup_update">Mettre à jour</string>
     <string name="batch_delete_backup_confirm">Supprimer les sauvegardes sélectionnées ?</string>
     <string name="broken_screen_rescue_service">"Sauvegardes avec l'écran endommagé"</string>
@@ -179,6 +187,7 @@ https://appleid.apple.com/#!etpage=signin pour désactiver"</string>
     <string name="connect_wifi">Se connecter au Wi-Fi</string>
     <string name="connect_wifi_tip">Impossible de se connecter au réseau. Connectez-vous au Wi-Fi pour importer les éléments depuis iCloud.</string>
     <string name="contact_title">Contacts</string>
+    <string name="continue_restore_button">Reprendre</string>
     <string name="copy">Copier</string>
     <string name="current_account">Bonjour %s</string>
     <string name="current_pad_location">Tablette</string>
@@ -492,6 +501,64 @@ vous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="multi_user_mode_dialog_message">"Impossible d'utiliser Mi Mover en mode multi-utilisateur. Désactivez le mode multi-utilisateur pour continuer."</string>
     <string name="multi_user_mode_dialog_title">Vous êtes en mode multi-utilisateur</string>
     <string name="name_password_not_consistent">"Le nom d'utilisateur ou le mot de passe est incorrect"</string>
+    <string name="nas_backup_progress_title">Sauvegarder sur SmartStorage</string>
+    <string name="nas_backup_resume_button">Reprendre</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Réseau déconnecté. Assurez-vous que votre tablette et votre appareil SmartStorage sont connectés au même réseau, puis réessayez la sauvegarde.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Réseau déconnecté. Assurez-vous que votre téléphone et votre appareil SmartStorage sont connectés au même réseau, puis réessayez la sauvegarde.</string>
+    <string name="nas_backup_task_progress_summary_pad">"Pendant la sauvegarde, assurez-vous que votre tablette et votre appareil SmartStorage sont connectés au même réseau. Ne redémarrez pas votre tablette et ne l'éteignez pas afin d'éviter toute perte de données."</string>
+    <string name="nas_backup_task_progress_summary_phone">"Pendant la sauvegarde, assurez-vous que votre téléphone et votre appareil SmartStorage sont connectés au même réseau. Ne redémarrez pas votre téléphone et ne l'éteignez pas afin d'éviter toute perte de données."</string>
+    <string name="nas_backup_task_suspend_info_title">La sauvegarde est en pause</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">Annuler</string>
+    <string name="nas_connecting_progress_dialog">Connexion à SmartStorage…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"Pour utiliser SmartStorage pour les sauvegardes et la restauration, assurez-vous que :
+%d. L'appareil SmartStorage est en ligne.
+%d. Votre tablette est connectée au Wi-Fi du même réseau que SmartStorage.
+%d. Le réseau est stable. (Ne redémarrez pas et n'éteignez pas votre tablette pendant les sauvegardes ou la restauration)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"Pour utiliser SmartStorage pour les sauvegardes et la restauration, assurez-vous que :
+%d. L'appareil SmartStorage est en ligne.
+%d. Votre téléphone est connecté au Wi-Fi du même réseau que SmartStorage.
+%d. Le réseau est stable. (Ne redémarrez pas et n'éteignez pas votre téléphone pendant les sauvegardes ou la restauration)."</string>
+    <string name="nas_disconnect_dialog_title">Impossible de se connecter à SmartStorage</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">"Espace de stockage SmartStorage insuffisant. Libérez de l'espace et appuyez sur \"Réessayer\" pour reprendre la sauvegarde."</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">"Espace de stockage tablette insuffisant. Libérez de l'espace et appuyez sur \"Réessayer\" pour reprendre la sauvegarde."</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">"Espace de stockage insuffisant. Libérez de l'espace et appuyez sur \"Réessayer\" pour reprendre la sauvegarde."</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">"Espace de stockage SmartStorage insuffisant. Libérez de l'espace et appuyez sur \"Réessayer\" pour reprendre la restauration."</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">"Espace de stockage tablette insuffisant. Libérez de l'espace et appuyez sur \"Réessayer\" pour reprendre la restauration."</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">"Espace de stockage insuffisant. Libérez de l'espace et appuyez sur \"Réessayer\" pour reprendre la restauration."</string>
+    <string name="nas_low_storage">"Vous avez sélectionné %1$s de données. SmartStorage ne dispose que de %2$s d'espace libre. Modifiez votre sélection ou libérez de l'espace et réessayez."</string>
+    <string name="nas_low_storage_pad_restore_summary">La restauration nécessite un espace de stockage temporaire sur votre tablette pour la mise en cache. Réservez %s. Cet espace sera libéré une fois les éléments sauvegardés.</string>
+    <string name="nas_low_storage_pad_summary">Les sauvegardes nécessitent un espace de stockage temporaire sur votre tablette pour la mise en cache. Réservez %s. Cet espace sera libéré une fois les éléments sauvegardés.</string>
+    <string name="nas_low_storage_pad_title">Espace de stockage tablette insuffisant</string>
+    <string name="nas_low_storage_phone_positive_button">Effacer</string>
+    <string name="nas_low_storage_phone_restore_summary">La restauration nécessite un espace de stockage temporaire sur votre téléphone pour la mise en cache. Réservez %s. Cet espace sera libéré une fois les éléments sauvegardés.</string>
+    <string name="nas_low_storage_phone_summary">Les sauvegardes nécessitent un espace de stockage temporaire sur votre téléphone pour la mise en cache. Réservez %s. Cet espace sera libéré une fois les éléments sauvegardés.</string>
+    <string name="nas_low_storage_phone_title">Espace de stockage insuffisant</string>
+    <string name="nas_low_storage_title">SmartStorage est plein</string>
+    <string name="nas_notification_title">Sauvegarde des messages WeChat sur SmartStorage…</string>
+    <string name="nas_restore_progress_title">Restaurer depuis SmartStorage</string>
+    <string name="nas_restore_resume_button">Reprendre</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Réseau déconnecté. Assurez-vous que votre tablette et votre appareil SmartStorage sont connectés au même réseau, puis réessayez la restauration.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Réseau déconnecté. Assurez-vous que votre téléphone et votre appareil SmartStorage sont connectés au même réseau, puis réessayez la restauration.</string>
+    <string name="nas_restore_task_progress_summary_pad">"Pendant la restauration, assurez-vous que votre tablette et votre appareil SmartStorage sont connectés au même réseau. Ne redémarrez pas votre tablette et ne l'éteignez pas afin d'éviter toute perte de données."</string>
+    <string name="nas_restore_task_progress_summary_phone">"Pendant la restauration, assurez-vous que votre téléphone et votre appareil SmartStorage sont connectés au même réseau. Ne redémarrez pas votre téléphone et ne l'éteignez pas afin d'éviter toute perte de données."</string>
+    <string name="nas_restore_task_suspend_info_title">Restauration en pause</string>
+    <string name="nas_retry_button">Réessayer</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">"Espace de stockage tablette insuffisant. Libérez de l'espace et réessayez la sauvegarde."</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">"Espace de stockage tablette insuffisant. Libérez de l'espace et réessayez la restauration."</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">"Espace de stockage insuffisant. Libérez de l'espace et réessayez la sauvegarde."</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">"Espace de stockage téléphone insuffisant. Libérez de l'espace et réessayez la restauration."</string>
+    <string name="nas_task_progress_item_disconnect_eror">Réseau déconnecté</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">Espace de stockage tablette insuffisant</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">Espace de stockage insuffisant</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorage est plein</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">Espace de stockage SmartStorage insuffisant</string>
+    <string name="nas_task_progress_low_memory_summary_backup">"SmartStorage est plein. Libérez de l'espace et réessayez la sauvegarde."</string>
+    <string name="nas_task_progress_low_memory_summary_restore">"SmartStorage est plein. Libérez de l'espace et réessayez la restauration."</string>
+    <string name="nas_unbind_account_dialog_summary">"Votre Compte Xiaomi n'est pas disponible. Connectez-vous pour pouvoir sauvegarder ou restaurer vos données."</string>
+    <string name="nas_unbind_account_summary_backup">Compte Xiaomi indisponible. Connectez-vous et réessayez la sauvegarde.</string>
+    <string name="nas_unbind_account_summary_restore">Compte Xiaomi indisponible. Connectez-vous et réessayez la restauration.</string>
+    <string name="nas_unbind_device_dialog_title">"L'appareil SmartStorage n'existe pas"</string>
     <string name="never">Jamais</string>
     <string name="new_backup">Sauvegarder</string>
     <string name="new_britem_audio">Audio</string>
@@ -591,13 +658,23 @@ vous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="notif_trans_sending_completed">Données envoyées avec succès</string>
     <string name="notif_trans_sending_failed">"Impossible d'envoyer les données"</string>
     <string name="notif_trans_wait_for_reconnecting">La connexion a été interrompue. Reconnecter.</string>
+    <string name="notification_backup_content">"Sauvegarde des données de l'appareil…"</string>
+    <string name="notification_backup_suspend">La sauvegarde est en pause</string>
+    <string name="notification_device_disconnect_content">Connexion perdue</string>
+    <string name="notification_low_memory_content">SmartStorage est plein</string>
+    <string name="notification_restore_content">"Restauration des données de l'appareil…"</string>
+    <string name="notification_restore_suspend">Restauration en pause</string>
+    <string name="notification_unbind_account_content">Compte Xiaomi indisponible</string>
+    <string name="notification_wifi_disconnect_content">Réseau déconnecté</string>
     <string name="old_soft_name">Se connecter via un code QR</string>
     <string name="old_way">"Vous pouvez également générer un code QR sur votre nouvel appareil et le numériser à l'aide de l'ancien."</string>
     <string name="open_compatibility_mode">Activer</string>
-    <string name="page_loading">Juste un instant…</string>
+    <string name="pad_backup_and_restore">Tablette</string>
+    <string name="page_loading">Un instant…</string>
     <string name="password">Mot de passe</string>
     <string name="password_null">Le champ de mot de passe ne peut être vide</string>
     <string name="pause">Mettre en pause</string>
+    <string name="pc_backup_and_restore">Ordinateur</string>
     <string name="perm_camera">Appareil photo</string>
     <string name="perm_location">Localisation</string>
     <string name="perm_read_call_log">"Voir l'historique des appels"</string>
@@ -647,6 +724,7 @@ vous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="permission_write_contacts">Modifier les contacts</string>
     <string name="permission_write_storage">Enregistrer des éléments dans le stockage</string>
     <string name="permission_write_storage_pad">Enregistrer des éléments dans le stockage</string>
+    <string name="phone_backup_and_restore">Téléphone</string>
     <string name="phone_title">Paramètres de téléphone</string>
     <string name="platform_chooser_item_android_mi">Téléphone Mi</string>
     <string name="platform_chooser_item_android_others">Autres marques</string>
@@ -682,7 +760,33 @@ vous devez d'abord créer une sauvegarde iCloud."</string>
     <string name="restore_launcher_layout_hit">"Restaurer les paramètres du lanceur d'applications"</string>
     <string name="restore_progress">Restauration…</string>
     <string name="restore_report">Détails de la restauration</string>
+    <string name="restore_suspend_fail_summary_pad">La connexion a été perdue. Une fois votre tablette connectée au même réseau que SmartStorage, appuyez sur \"Réessayer\" pour reprendre la restauration.</string>
+    <string name="restore_suspend_fail_summary_phone">La connexion a été perdue. Une fois votre téléphone connecté au même réseau que SmartStorage, appuyez sur \"Réessayer\" pour reprendre la restauration.</string>
+    <string name="restore_suspend_summary_pad">La connexion a été perdue. La restauration reprendra automatiquement dès que votre tablette sera connecté au même réseau que SmartStorage.</string>
+    <string name="restore_suspend_summary_phone">La connexion a été perdue. La restauration reprendra automatiquement dès que votre téléphone sera connecté au même réseau que SmartStorage.</string>
+    <string name="restore_suspend_title">Restauration interrompue. Reconnexion en cours…</string>
+    <string name="restore_tab">Restaurer</string>
     <string name="restore_telephony_hit">La restauration va réinitialiser les applications et leurs données</string>
+    <string name="restore_tips_dialog_summary">Vous êtes sur le point de restaurer les données WeChat. Cette opération écrasera les données WeChat actuelles avec la sauvegarde de %s. Cette action est irréversible. Procédez avec prudence.</string>
+    <string name="restore_tips_dialog_title">Attention</string>
+    <string name="resume_backup_nas_task_dialog_title">Sauvegarde inachevée</string>
+    <string name="resume_backup_toast">Sauvegarde sur SmartStorage…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"Durée de la sauvegarde : %1$s
+Taille de la sauvegarde : %2$s
+Espace de stockage disponible sur la tablette : %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"Durée de la sauvegarde : %1$s
+Taille de la sauvegarde : %2$s
+Espace de stockage disponible sur le téléphone : %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"Durée de la sauvegarde : %1$s
+Taille de la sauvegarde : %2$s
+Espace SmartStorage disponible : %3$s
+Espace de stockage disponible sur la tablette : %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"Durée de la sauvegarde : %1$s
+Taille de la sauvegarde : %2$s
+Espace SmartStorage disponible : %3$s
+Espace de stockage disponible sur le téléphone : %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">Restauration inachevée</string>
+    <string name="resume_restore_toast">Restauration depuis SmartStorage…</string>
     <string name="retry">Réessayer</string>
     <string name="reverse_all">Tout effacer</string>
     <string name="revoke_permission_dialog_content">Vous ne serez pas en mesure de sauvegarder ou de restaurer des éléments sans toutes les autorisations obligatoires. Retirer les autorisations quand même ?</string>
@@ -702,7 +806,7 @@ Veuillez ne pas désactiver le Wi-Fi"</string>
     <string name="sc_network_unavailable">Vérifiez votre connexion puis réessayez.</string>
     <string name="sc_others">"Une erreur s'est produite"</string>
     <string name="sc_precondition_failed">"Vous devez d'abord ajouter une adresse e-mail à votre Compte Xiaomi."</string>
-    <string name="sc_request_timeout">La requête a expiré</string>
+    <string name="sc_request_timeout">La requête a expirée</string>
     <string name="sc_service_unavailable">Xiaomi Cloud est indisponible</string>
     <string name="sc_unaccess_password_file">Impossible de trouver le mot de passe du réseau Wi-Fi</string>
     <string name="sc_unauthorized">Se connecter à nouveau</string>
@@ -740,7 +844,7 @@ Veuillez ne pas désactiver le Wi-Fi"</string>
     <string name="sms_title">SMS</string>
     <string name="soft_ap_create_failed">"Impossible de créer le point d'accès"</string>
     <string name="soft_ap_creating">"Création d'un point d'accès…"</string>
-    <string name="software_backup_info">"Données d'application"</string>
+    <string name="software_backup_info">Applications et données</string>
     <string name="start_backup">Sauvegarder</string>
     <string name="start_restore">Restauration</string>
     <string name="state_mounting">Accès au stockage du routeur…</string>
@@ -760,7 +864,7 @@ Veuillez ne pas désactiver le Wi-Fi"</string>
     <string name="sunday_short">Dim</string>
     <string name="sunday_shortest">Dim</string>
     <string name="system_backup">Sauvegarde</string>
-    <string name="system_backup_info">"Paramètres système et disposition de l'écran d'accueil"</string>
+    <string name="system_backup_info">Paramètres système, agencement de bureaux, etc</string>
     <string name="task_backup_cancel_progress">Arrêt…</string>
     <string name="task_backup_finished_local">"Sauvegardé "</string>
     <string name="task_canceled">Sauvegarde annulée</string>
@@ -834,6 +938,7 @@ Veuillez ne pas désactiver le Wi-Fi"</string>
     <string name="time_picker_dialog_title">"Régler l'heure"</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tips_date_format">dd/MM/yyyy HH:mm</string>
     <string name="title_compatibility_mode">"Mode compatibilité de l'application"</string>
     <string name="today">"Aujourd'hui"</string>
     <string name="tomorrow">Demain</string>
@@ -1026,6 +1131,7 @@ et Mi Mover est activé"</string>
     <string name="tuesday_shortest">Mar</string>
     <string name="unit_byte">o</string>
     <string name="unknown_hint">Inconnu</string>
+    <string name="usb_backup_and_restore">Lecteur USB</string>
     <string name="usb_backup_select_data_too_large">"Les fichiers sélectionnés sont volumineux. Vérifiez que le lecteur USB a suffisamment d'espace de stockage.
 Ne transférez que les éléments importants."</string>
     <string name="usb_restore_select_data_too_large">"Les fichiers de sauvegarde sont volumineux. Cela peut prendre du temps pour les restaurer.

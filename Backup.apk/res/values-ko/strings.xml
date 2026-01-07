@@ -76,12 +76,12 @@
     <string name="backup_empty">백업이 없습니다.</string>
     <string name="backup_empty_info">" 데이터, 설정, 앱 백업"</string>
     <string name="backup_empty_info_onpad">" 데이터, 설정, 앱 백업"</string>
-    <string name="backup_error">백업할 수 없습니다.</string>
+    <string name="backup_error">백업에 실패했습니다.</string>
     <string name="backup_failed">백업하지 못했습니다.</string>
     <string name="backup_file_error">백업에 실패했습니다.</string>
     <string name="backup_finished">성공적으로 백업되었습니다.</string>
     <string name="backup_for_broken_screen">손상된 화면 백업</string>
-    <string name="backup_hint">기기의 전원을 켜진 상태로 유지</string>
+    <string name="backup_hint">기기의 전원을 킨 상태로 두세요.</string>
     <string name="backup_hint_onpad">기기의 전원을 켜진 상태로 유지</string>
     <string name="backup_hint_pad">기기의 전원을 켜진 상태로 유지</string>
     <string name="backup_is_running">기기 백업하기</string>
@@ -91,10 +91,18 @@
     <string name="backup_notice_content">백업은 암호화되지 않으므로 서드파티 앱에서 접근하거나 변조할 수 있으며, 다른 보안 위험이 발생할 수도 있습니다. 백업한 항목은 충분히 보호된 환경에서 보관하셔야 합니다.</string>
     <string name="backup_notice_title">참고</string>
     <string name="backup_notification_title">\"백업\" 작업 중…</string>
-    <string name="backup_progress">백업 중…</string>
+    <string name="backup_progress">…를 백업하는 중</string>
     <string name="backup_report">세부사항 보기</string>
     <string name="backup_security_tips_message">일부 앱은 백업이나 복구가 불가할 수 있습니다.</string>
     <string name="backup_security_tips_title">백업이 작동하지 않을 수 있습니다.</string>
+    <string name="backup_suspend_fail_summary_pad">연결이 끊어졌습니다. 태블릿이 SmartStorage와 동일한 네트워크에 연결되면 \"다시 시도\"를 탭하여 백업을 계속 진행하세요.</string>
+    <string name="backup_suspend_fail_summary_phone">연결이 끊어졌습니다. 휴대전화가 SmartStorage와 동일한 네트워크에 연결되면 \"다시 시도\"를 탭하여 백업을 계속 진행하세요.</string>
+    <string name="backup_suspend_summary_pad">연결이 끊어졌습니다. 태블릿이 SmartStorage와 동일한 네트워크에 연결되면 백업이 자동으로 계속됩니다.</string>
+    <string name="backup_suspend_summary_phone">연결이 끊어졌습니다. 휴대전화가 SmartStorage와 동일한 네트워크에 연결되면 백업이 자동으로 계속됩니다.</string>
+    <string name="backup_suspend_title">백업이 일시정지되었습니다. 다시 연결 중…</string>
+    <string name="backup_tab">백업</string>
+    <string name="backup_tips_dialog_summary">듀얼 앱과 비공개 항목은 지원되지 않습니다. 이 백업본은 현재 시점까지의 데이터만 포함합니다. 신규 데이터는 자동으로 동기화되지 않습니다.</string>
+    <string name="backup_tips_dialog_title">알아두세요.</string>
     <string name="backup_update">업데이트</string>
     <string name="batch_delete_backup_confirm">선택한 백업을 삭제하시겠습니까?</string>
     <string name="broken_screen_rescue_service">손상된 화면 백업</string>
@@ -179,6 +187,7 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="connect_wifi">Wi-Fi 연결</string>
     <string name="connect_wifi_tip">네트워크에 연결할 수 없습니다. Wi-Fi에 연결하여 iCloud의 항목을 가져오세요.</string>
     <string name="contact_title">연락처</string>
+    <string name="continue_restore_button">계속하기</string>
     <string name="copy">복사</string>
     <string name="current_account">안녕하세요 %s</string>
     <string name="current_pad_location">패드</string>
@@ -197,7 +206,7 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="delete_backup_process">삭제 중…</string>
     <string name="delete_backup_title">백업 삭제</string>
     <string name="delete_failed_backup_confirm">이 백업에 오류가 있습니다.</string>
-    <string name="deselect_all">전체 선택 해제</string>
+    <string name="deselect_all">모두 선택 해제</string>
     <string name="dialog_app_upgrade_download">업데이트</string>
     <string name="dialog_app_upgrade_exit">나가기</string>
     <string name="dialog_app_upgrade_message">새로운 버전의 Mi Mover를 사용 가능합니다. 지금 Mi Mover를 업데이트하시겠습니까?</string>
@@ -492,6 +501,64 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="multi_user_mode_dialog_message">다중 사용자 모드에서는 Mi Mover를 사용할 수 없습니다. 다중 사용자 모드를 끄시고 사용해 주세요.</string>
     <string name="multi_user_mode_dialog_title">다중 사용자 모드</string>
     <string name="name_password_not_consistent">사용자 이름 또는 비밀번호가 잘못되었습니다.</string>
+    <string name="nas_backup_progress_title">SmartStorage에 백업</string>
+    <string name="nas_backup_resume_button">계속하기</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">네트워크 연결이 끊어졌습니다. 태블릿과 SmartStorage 기기가 같은 네트워크에 연결되어 있는지 확인한 후 다시 백업을 시도하세요.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">네트워크 연결이 끊어졌습니다. 휴대전화와 SmartStorage 기기가 같은 네트워크에 연결되어 있는지 확인한 후 다시 백업을 시도하세요.</string>
+    <string name="nas_backup_task_progress_summary_pad">백업하는 동안 태블릿과 SmartStorage 기기가 동일한 네트워크에 연결되어 있는지 확인하세요. 데이터 손실을 방지하려면 태블릿을 재부팅하거나 전원을 끄지 마세요.</string>
+    <string name="nas_backup_task_progress_summary_phone">백업하는 동안 휴대전화와 SmartStorage 기기가 동일한 네트워크에 연결되어 있는지 확인하세요. 데이터 손실을 방지하려면 휴대전화를 재부팅하거나 전원을 끄지 마세요.</string>
+    <string name="nas_backup_task_suspend_info_title">백업 일시정지됨</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">취소</string>
+    <string name="nas_connecting_progress_dialog">SmartStorage에 연결 중…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"백업 및 복원을 위해 SmartStorage를 사용하려면 다음 사항을 확인하세요:
+%d. SmartStorage 기기가 온라인 상태여야 합니다.
+%d. 태블릿과 SmartStorage는 동일한 Wi-Fi 네트워크에 연결되어야 합니다.
+%d. 네트워크가 안정적이어야 합니다.(백업 또는 복원 중에 태블릿을 재부팅하거나 전원을 끄지 마세요.)"</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"백업 및 복원을 위해 SmartStorage를 사용하려면 다음 사항을 확인하세요:
+%d. SmartStorage 기기가 온라인 상태여야 합니다.
+%d. 휴대전화와 SmartStorage는 동일한 Wi-Fi 네트워크에 연결되어야 합니다.
+%d. 네트워크가 안정적이어야 합니다.(백업 또는 복원 중에 휴대전화를 재부팅하거나 전원을 끄지 마세요.)"</string>
+    <string name="nas_disconnect_dialog_title">SmartStorage에 연결할 수 없음</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">SmartStorage 저장 공간이 부족합니다. 저장 공간을 확보하고 \"다시 시도\"를 탭하여 백업을 계속 진행하세요.</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">태블릿 공간이 부족합니다. 공간을 확보하고 \"다시 시도\"를 탭하여 백업을 계속 진행하세요.</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">휴대전화 공간이 부족합니다. 공간을 확보하고 \"다시 시도\"를 탭하여 백업을 계속 진행하세요.</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">SmartStorage 저장 공간이 부족합니다. 저장 공간을 확보하고 \"다시 시도\"를 탭하여 복원을 계속 진행하세요.</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">태블릿 공간이 부족합니다. 공간을 확보하고 \"다시 시도\"를 탭하여 복원을 계속 진행하세요.</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">휴대전화 공간이 부족합니다. 공간을 확보하고 \"다시 시도\"를 탭하여 복원을 계속 진행하세요.</string>
+    <string name="nas_low_storage">%1$s의 데이터를 선택했습니다. SmartStorage에서 사용 가능한 저장 공간은 %2$s뿐입니다. 선택한 항목을 조정하거나 저장 공간을 확보한 후 다시 시도하세요.</string>
+    <string name="nas_low_storage_pad_restore_summary">복원을 하려면 캐시 처리를 위해 태블릿에 임시 저장 공간이 필요합니다. %s의 임시 저장 공간을 확보해 주세요. 복원이 끝난 후 해당 공간은 자동으로 반환됩니다.</string>
+    <string name="nas_low_storage_pad_summary">백업을 하려면 캐시 처리를 위해 태블릿에 임시 저장 공간이 필요합니다. %s의 공간을 확보해 주세요. 이 공간은 백업 후 자동으로 반환됩니다.</string>
+    <string name="nas_low_storage_pad_title">태블릿 공간 부족</string>
+    <string name="nas_low_storage_phone_positive_button">지우기</string>
+    <string name="nas_low_storage_phone_restore_summary">복원을 하려면 캐시 처리를 위해 휴대전화에 임시 저장 공간이 필요합니다. %s의 임시 저장 공간을 확보해 주세요. 복원이 끝난 후 해당 공간은 자동으로 반환됩니다.</string>
+    <string name="nas_low_storage_phone_summary">백업을 하려면 캐시 처리를 위해 휴대전화에 임시 저장 공간이 필요합니다. %s의 공간을 확보해 주세요. 이 공간은 백업 후 자동으로 반환됩니다.</string>
+    <string name="nas_low_storage_phone_title">휴대전화 공간 부족</string>
+    <string name="nas_low_storage_title">SmartStorage가 꽉 찼습니다.</string>
+    <string name="nas_notification_title">WeChat 메시지를 SmartStorage에 백업하는 중…</string>
+    <string name="nas_restore_progress_title">SmartStorage에서 복원</string>
+    <string name="nas_restore_resume_button">계속하기</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">네트워크 연결이 끊어졌습니다. 태블릿과 SmartStorage 기기가 같은 네트워크에 연결되어 있는지 확인한 후 다시 복원을 시도하세요.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">네트워크 연결이 끊어졌습니다. 휴대전화와 SmartStorage 기기가 같은 네트워크에 연결되어 있는지 확인한 후 다시 복원을 시도하세요.</string>
+    <string name="nas_restore_task_progress_summary_pad">복원하는 동안 태블릿과 SmartStorage 기기가 동일한 네트워크에 연결되어 있는지 확인하세요. 데이터 손실을 방지하려면 태블릿을 재부팅하거나 전원을 끄지 마세요.</string>
+    <string name="nas_restore_task_progress_summary_phone">복원하는 동안 휴대전화와 SmartStorage 기기가 동일한 네트워크에 연결되어 있는지 확인하세요. 데이터 손실을 방지하려면 휴대전화를 재부팅하거나 전원을 끄지 마세요.</string>
+    <string name="nas_restore_task_suspend_info_title">복원 일시정지됨</string>
+    <string name="nas_retry_button">다시 시도</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">태블릿 공간이 부족합니다. 공간을 확보하고 다시 백업을 시도해 보세요.</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">태블릿 공간이 부족합니다. 공간을 확보하고 다시 복원을 시도해 보세요.</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">휴대전화 공간이 부족합니다. 공간을 확보하고 다시 백업을 시도해 보세요.</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">휴대전화 공간이 부족합니다. 공간을 확보하고 다시 복원을 시도해 보세요.</string>
+    <string name="nas_task_progress_item_disconnect_eror">네트워크 연결 끊김</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">태블릿 공간 부족</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">휴대전화 공간 부족</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorage가 꽉 찼습니다.</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">SmartStorage 저장 공간 부족</string>
+    <string name="nas_task_progress_low_memory_summary_backup">SmartStorage가 꽉 찼습니다. 저장 공간을 확보하고 다시 백업을 시도하세요.</string>
+    <string name="nas_task_progress_low_memory_summary_restore">SmartStorage가 꽉 찼습니다. 저장 공간을 확보하고 다시 복원을 시도하세요.</string>
+    <string name="nas_unbind_account_dialog_summary">Xiaomi 계정을 사용할 수 없습니다. 항목을 백업하거나 복원하려면 로그인하세요.</string>
+    <string name="nas_unbind_account_summary_backup">Xiaomi 계정을 사용할 수 없습니다. 로그인한 후 다시 백업해 보세요.</string>
+    <string name="nas_unbind_account_summary_restore">Xiaomi 계정을 사용할 수 없습니다. 로그인한 후 다시 복원을 시도해 보세요.</string>
+    <string name="nas_unbind_device_dialog_title">SmartStorage 기기가 없습니다.</string>
     <string name="never">안 함</string>
     <string name="new_backup">백업</string>
     <string name="new_britem_audio">오디오</string>
@@ -591,13 +658,23 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="notif_trans_sending_completed">데이터 전송 성공</string>
     <string name="notif_trans_sending_failed">데이터를 전송할 수 없음</string>
     <string name="notif_trans_wait_for_reconnecting">연결 중단됨, 다시 연결하세요.</string>
+    <string name="notification_backup_content">기기 데이터 백업 중…</string>
+    <string name="notification_backup_suspend">백업 일시정지됨</string>
+    <string name="notification_device_disconnect_content">연결 끊김</string>
+    <string name="notification_low_memory_content">SmartStorage가 꽉 찼습니다.</string>
+    <string name="notification_restore_content">기기 데이터 복원 중…</string>
+    <string name="notification_restore_suspend">복원 일시정지됨</string>
+    <string name="notification_unbind_account_content">Xiaomi 계정을 사용할 수 없습니다.</string>
+    <string name="notification_wifi_disconnect_content">네트워크 연결 끊김</string>
     <string name="old_soft_name">QR 코드로 연결</string>
     <string name="old_way">이전 기기에 QR 코드를 생성하여 새 기기로 스캔하실 수도 있습니다.</string>
     <string name="open_compatibility_mode">켜기</string>
+    <string name="pad_backup_and_restore">태블릿</string>
     <string name="page_loading">잠시만 기다려주세요…</string>
     <string name="password">비밀번호</string>
     <string name="password_null">비밀번호는 비워둘 수 없습니다.</string>
     <string name="pause">일시정지</string>
+    <string name="pc_backup_and_restore">컴퓨터</string>
     <string name="perm_camera">카메라</string>
     <string name="perm_location">위치</string>
     <string name="perm_read_call_log">통화 기록 읽기</string>
@@ -647,6 +724,7 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="permission_write_contacts">연락처 편집</string>
     <string name="permission_write_storage">저장소에 항목 저장</string>
     <string name="permission_write_storage_pad">저장소에 항목 저장</string>
+    <string name="phone_backup_and_restore">휴대전화</string>
     <string name="phone_title">전화 설정</string>
     <string name="platform_chooser_item_android_mi">Mi phone</string>
     <string name="platform_chooser_item_android_others">다른 브랜드</string>
@@ -660,9 +738,9 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="private_policy_text">개인 정보 보호 정책</string>
     <string name="progress_backup_hint">백업하는 중…</string>
     <string name="progress_restore_hint">복구 중…</string>
-    <string name="prompt_reading">읽는 중…</string>
-    <string name="prompt_sending">업로드 중…</string>
-    <string name="prompt_writing">저장하는 중…</string>
+    <string name="prompt_reading">…를 불러오는 중</string>
+    <string name="prompt_sending">…를 업로드하는 중</string>
+    <string name="prompt_writing">…를 저장하는 중</string>
     <string name="read_encrypt_fail">암호화 된 백업을 읽지 못했습니다.</string>
     <string name="reconnect">다시 연결</string>
     <string name="recreate_soft_ap_tips">아래의 버튼을 탭하여 다시 시도하세요.</string>
@@ -680,9 +758,35 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="restore_finished">성공적으로 복구되었습니다.</string>
     <string name="restore_is_running">기기 복구하기</string>
     <string name="restore_launcher_layout_hit">런처 설정 복구</string>
-    <string name="restore_progress">복구 중…</string>
+    <string name="restore_progress">… 복구 중</string>
     <string name="restore_report">복구 세부사항</string>
-    <string name="restore_telephony_hit">복구 작업을 위해 폰 앱을 재시작합니다.</string>
+    <string name="restore_suspend_fail_summary_pad">연결이 끊어졌습니다. 태블릿이 SmartStorage와 동일한 네트워크에 연결되면 \"다시 시도\"를 탭하여 복원을 계속 진행하세요.</string>
+    <string name="restore_suspend_fail_summary_phone">연결이 끊어졌습니다. 휴대전화가 SmartStorage와 동일한 네트워크에 연결되면 \"다시 시도\"를 탭하여 복원을 계속 진행하세요.</string>
+    <string name="restore_suspend_summary_pad">연결이 끊어졌습니다. 태블릿이 SmartStorage와 동일한 네트워크에 연결되면 복원이 자동으로 계속됩니다.</string>
+    <string name="restore_suspend_summary_phone">연결이 끊어졌습니다. 휴대전화가 SmartStorage와 동일한 네트워크에 연결되면 복원이 자동으로 계속됩니다.</string>
+    <string name="restore_suspend_title">복원이 일시정지되었습니다. 다시 연결 중…</string>
+    <string name="restore_tab">복원</string>
+    <string name="restore_telephony_hit">복구 작업을 위해 Phone 애플리케이션을 재시작합니다.</string>
+    <string name="restore_tips_dialog_summary">WeChat 데이터를 복원하려고 합니다. 현재 WeChat 데이터를 %s의 백업본으로 덮어쓰게 됩니다. 이 작업은 되돌릴 수 없습니다. 신중히 진행하세요.</string>
+    <string name="restore_tips_dialog_title">참고</string>
+    <string name="resume_backup_nas_task_dialog_title">완료되지 않은 백업</string>
+    <string name="resume_backup_toast">SmartStorage에 백업 중…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"백업 시간: %1$s
+백업 크기: %2$s
+사용 가능한 태블릿 공간: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"백업 시간: %1$s
+백업 크기: %2$s
+사용 가능한 휴대전화 공간: %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"백업 시간: %1$s
+백업 크기: %2$s
+사용 가능한 SmartStorage 저장 공간: %3$s
+사용 가능한 태블릿 저장 공간: %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"백업 시간: %1$s
+백업 크기: %2$s
+사용 가능한 SmartStorage 저장 공간: %3$s
+사용 가능한 휴대전화 저장 공간: %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">완료되지 않은 복원</string>
+    <string name="resume_restore_toast">SmartStorage에서 복원 중…</string>
     <string name="retry">다시 시도</string>
     <string name="reverse_all">모두 지우기</string>
     <string name="revoke_permission_dialog_content">모든 필수 권한이 없으면 항목을 백업하거나 복구할 수 없게 됩니다. 그래도 권한을 철회하시겠습니까?</string>
@@ -714,7 +818,7 @@ Wi-Fi를 끄지마세요."</string>
     <string name="sdcard_unmounted">지금 SD카드를 삽입하세요</string>
     <string name="search_menu_title">검색</string>
     <string name="see_backup_files_on_router">Mi 공유기 %s에서 백업 보기</string>
-    <string name="select_all">전체 선택</string>
+    <string name="select_all">모두 선택</string>
     <string name="select_backup_item">항목 선택</string>
     <string name="select_empty">항목을 선택하여 가져오기</string>
     <string name="select_item_calendar">캘린더</string>
@@ -834,6 +938,7 @@ Wi-Fi를 끄지마세요."</string>
     <string name="time_picker_dialog_title">시간 설정</string>
     <string name="time_picker_label_hour">시</string>
     <string name="time_picker_label_minute">분</string>
+    <string name="tips_date_format">yyyy년M월d일 HH:mm</string>
     <string name="title_compatibility_mode">앱 호환성 모드</string>
     <string name="today">오늘</string>
     <string name="tomorrow">내일</string>
@@ -1028,6 +1133,7 @@ Mi Mover가 마음에 드십니까?"</string>
     <string name="tuesday_shortest">화</string>
     <string name="unit_byte">B</string>
     <string name="unknown_hint">알 수 없음</string>
+    <string name="usb_backup_and_restore">USB 드라이브</string>
     <string name="usb_backup_select_data_too_large">"선택한 파일이 너무 큽니다. USB에 충분한 저장 공간이 남아있는지 확인하세요.
 중요한 항목만 전송하세요."</string>
     <string name="usb_restore_select_data_too_large">"백업 파일이 너무 큽니다. 복구에 시간이 걸릴 것입니다.

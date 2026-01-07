@@ -95,6 +95,14 @@
     <string name="backup_report">Näytä tiedot</string>
     <string name="backup_security_tips_message">Joitakin sovelluksia ei välttämättä pysty varmuuskopioimaan tai palauttamaan niitä.</string>
     <string name="backup_security_tips_title">Varmuuskopiot eivät ehkä toimi</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once your tablet is on the same network as SmartStorage, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once your phone is on the same network as SmartStorage, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once your tablet is on the same network as SmartStorage, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once your phone is on the same network as SmartStorage, backup will resume automatically.</string>
+    <string name="backup_suspend_title">Backup paused. Connecting again…</string>
+    <string name="backup_tab">Back up</string>
+    <string name="backup_tips_dialog_summary">"Dual apps and private items aren't supported. This backup only includes data up to now. New data won't be synced automatically."</string>
+    <string name="backup_tips_dialog_title">Keep in mind</string>
     <string name="backup_update">Päivitä</string>
     <string name="batch_delete_backup_confirm">Poistetaanko valitut varmuuskopiot?</string>
     <string name="broken_screen_rescue_service">Varmuuskopiot vaurioituneella näytöllä</string>
@@ -179,6 +187,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="connect_wifi">Yhdistä Wi-Fi-verkkoon</string>
     <string name="connect_wifi_tip">Ei voitu yhdistää verkkoon. Yhdistä Wi-Fi-verkkoon tuodaksesi iCloud-kohteita.</string>
     <string name="contact_title">Yhteystiedot</string>
+    <string name="continue_restore_button">Resume</string>
     <string name="copy">Kopioi</string>
     <string name="current_account">Hei %s</string>
     <string name="current_pad_location">Tabletti</string>
@@ -492,6 +501,64 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="multi_user_mode_dialog_message">Kohdetta Mi Mover ei voi käyttää Monikäyttötilassa. Laita Monikäyttötila pois päältä jatkaaksesi.</string>
     <string name="multi_user_mode_dialog_title">Olet Monikäyttötilassa</string>
     <string name="name_password_not_consistent">Käyttäjänimi tai salasana on virheellinen</string>
+    <string name="nas_backup_progress_title">Back up to SmartStorage</string>
+    <string name="nas_backup_resume_button">Resume</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure your tablet and SmartStorage device are on the same network, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure your phone and SmartStorage device are on the same network, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure your tablet and SmartStorage device are on the same network. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure your phone and SmartStorage device are on the same network. Don't reboot or power off your phone to avoid data loss."</string>
+    <string name="nas_backup_task_suspend_info_title">Backup paused</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">Cancel</string>
+    <string name="nas_connecting_progress_dialog">Connecting to SmartStorage…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. Your tablet is connected to Wi-Fi on the same network as SmartStorage.
+%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. Your phone is connected to Wi-Fi on the same network as SmartStorage.
+%d. The network is stable. (Don't reboot or power off your phone during backups or restoration)."</string>
+    <string name="nas_disconnect_dialog_title">"Can't connect to SmartStorage"</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">Not enough SmartStorage space. Free up space and tap \"Try again\" to resume backup.</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">Not enough tablet storage. Free up space and tap \"Try again\" to resume backup.</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">Not enough phone storage. Free up space and tap \"Try again\" to resume backup.</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">Not enough SmartStorage space. Free up space and tap \"Try again\" to resume restoration.</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">Not enough tablet storage. Free up space and tap \"Try again\" to resume restoration.</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">Not enough phone storage. Free up space and tap \"Try again\" to resume restoration.</string>
+    <string name="nas_low_storage">"You've selected %1$s of data. SmartStorage only has %2$s available. Adjust your selection or free up space and try again."</string>
+    <string name="nas_low_storage_pad_restore_summary">Restoration requires temporary storage on your tablet for caching. Reserve %s. This space will be released after items are restored.</string>
+    <string name="nas_low_storage_pad_summary">Backups require temporary storage on your tablet for caching. Reserve %s. This space will be released after items are backed up.</string>
+    <string name="nas_low_storage_pad_title">Not enough tablet storage</string>
+    <string name="nas_low_storage_phone_positive_button">Clear</string>
+    <string name="nas_low_storage_phone_restore_summary">Restoration requires temporary storage on your phone for caching. Reserve %s. This space will be released after items are restored.</string>
+    <string name="nas_low_storage_phone_summary">Backups require temporary storage on your phone for caching. Reserve %s. This space will be released after items are backed up.</string>
+    <string name="nas_low_storage_phone_title">Not enough phone storage</string>
+    <string name="nas_low_storage_title">SmartStorage is full</string>
+    <string name="nas_notification_title">Backing up WeChat messages to SmartStorage…</string>
+    <string name="nas_restore_progress_title">Restore from SmartStorage</string>
+    <string name="nas_restore_resume_button">Resume</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure your tablet and SmartStorage device are on the same network, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure your phone and SmartStorage device are on the same network, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure your tablet and SmartStorage device are on the same network. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure your phone and SmartStorage device are on the same network. Don't reboot or power off your phone to avoid data loss."</string>
+    <string name="nas_restore_task_suspend_info_title">Restoration paused</string>
+    <string name="nas_retry_button">Try again</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">Not enough tablet storage. Free up space and try backing up again.</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">Not enough tablet storage. Free up space and try restoring again.</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">Not enough phone storage. Free up space and try backing up again.</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">Not enough phone storage. Free up space and try restoring again.</string>
+    <string name="nas_task_progress_item_disconnect_eror">Network disconnected</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">Not enough tablet storage</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">Not enough phone storage</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorage is full</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">Not enough SmartStorage space</string>
+    <string name="nas_task_progress_low_memory_summary_backup">SmartStorage is full. Free up space and try backing up again.</string>
+    <string name="nas_task_progress_low_memory_summary_restore">SmartStorage is full. Free up space and try restoring again.</string>
+    <string name="nas_unbind_account_dialog_summary">"Your Xiaomi Account isn't available. Sign in to be able to back up or restore items."</string>
+    <string name="nas_unbind_account_summary_backup">"Xiaomi Account isn't available. Sign in and try backing up again."</string>
+    <string name="nas_unbind_account_summary_restore">"Xiaomi Account isn't available. Sign in and try restoring again."</string>
+    <string name="nas_unbind_device_dialog_title">"SmartStorage device doesn't exist"</string>
     <string name="never">Ei koskaan</string>
     <string name="new_backup">Varmuuskopioi</string>
     <string name="new_britem_audio">Ääni</string>
@@ -591,13 +658,23 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="notif_trans_sending_completed">Tiedot lähetettiin onnistuneesti</string>
     <string name="notif_trans_sending_failed">Tietojen lähettäminen epäonnistui</string>
     <string name="notif_trans_wait_for_reconnecting">Yhteys katkesi. Yhdistä uudelleen.</string>
+    <string name="notification_backup_content">Backing up device data…</string>
+    <string name="notification_backup_suspend">Backup paused</string>
+    <string name="notification_device_disconnect_content">Connection lost</string>
+    <string name="notification_low_memory_content">SmartStorage is full</string>
+    <string name="notification_restore_content">Restoring device data…</string>
+    <string name="notification_restore_suspend">Restoration paused</string>
+    <string name="notification_unbind_account_content">"Xiaomi Account isn't available"</string>
+    <string name="notification_wifi_disconnect_content">Network disconnected</string>
     <string name="old_soft_name">Yhdistä QR-koodin kautta</string>
     <string name="old_way">Voit myös laatia QR-koodin uudelle laitteellesi ja skannata se vanhalla laitteella.</string>
     <string name="open_compatibility_mode">Ota käyttöön</string>
+    <string name="pad_backup_and_restore">Tablet</string>
     <string name="page_loading">Hetki vain…</string>
     <string name="password">Salasana</string>
     <string name="password_null">Salasana ei voi olla tyhjä</string>
     <string name="pause">Tauko</string>
+    <string name="pc_backup_and_restore">Computer</string>
     <string name="perm_camera">Kamera</string>
     <string name="perm_location">Sijainti</string>
     <string name="perm_read_call_log">Lue puheluhistoria</string>
@@ -647,6 +724,7 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="permission_write_contacts">Muokkaa yhteystietoja</string>
     <string name="permission_write_storage">Tallenna kohteet tallennustilaan</string>
     <string name="permission_write_storage_pad">Tallenna kohteet tallennustilaan</string>
+    <string name="phone_backup_and_restore">Phone</string>
     <string name="phone_title">Puhelimen asetukset</string>
     <string name="platform_chooser_item_android_mi">Mi-puhelin</string>
     <string name="platform_chooser_item_android_others">Muut brändit</string>
@@ -682,7 +760,33 @@ sinun on luotava ensin iCloud-varmuuskopio."</string>
     <string name="restore_launcher_layout_hit">Palauta käynnistimen asetukset</string>
     <string name="restore_progress">Palautetaan…</string>
     <string name="restore_report">Palauta tiedot</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once your tablet is on the same network as SmartStorage, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once your phone is on the same network as SmartStorage, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Once your tablet is on the same network as SmartStorage, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Once your phone is on the same network as SmartStorage, restoration will resume automatically.</string>
+    <string name="restore_suspend_title">Restoration paused. Connecting again…</string>
+    <string name="restore_tab">Restore</string>
     <string name="restore_telephony_hit">Palauttaminen käynnistää Puhelin-sovelluksen uudelleen.</string>
+    <string name="restore_tips_dialog_summary">"You're about to restore WeChat data. This will overwrite current WeChat data with the backup from %s. This action can't be undone. Proceed with caution."</string>
+    <string name="restore_tips_dialog_title">Attention</string>
+    <string name="resume_backup_nas_task_dialog_title">Unfinished backup</string>
+    <string name="resume_backup_toast">Backing up to SmartStorage…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"Backup time: %1$s
+Backup size: %2$s
+Available tablet storage: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"Backup time: %1$s
+Backup size: %2$s
+Available phone storage: %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"Backup time: %1$s
+Backup size: %2$s
+Available SmartStorage space: %3$s
+Available tablet storage: %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"Backup time: %1$s
+Backup size: %2$s
+Available SmartStorage space: %3$s
+Available phone storage: %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">Unfinished restoration</string>
+    <string name="resume_restore_toast">Restoring from SmartStorage…</string>
     <string name="retry">Yritä uudelleen</string>
     <string name="reverse_all">Tyhjennä kaikki</string>
     <string name="revoke_permission_dialog_content">Et voi varmuuskopioida tai palauttaa kohteita ilman kaikkia pakollisia käyttöoikeuksia. Perutaanko käyttöoikeudet siitä huolimatta?</string>
@@ -834,6 +938,7 @@ Vapauta vähintään %s."</string>
     <string name="time_picker_dialog_title">Aseta aika</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tips_date_format">MM/dd/yyyy HH:mm</string>
     <string name="title_compatibility_mode">Sovelluksen yhteensopivuustila</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
@@ -1028,6 +1133,7 @@ ja Mi Mover on päällä"</string>
     <string name="tuesday_shortest">Ti</string>
     <string name="unit_byte">t</string>
     <string name="unknown_hint">Tuntematon</string>
+    <string name="usb_backup_and_restore">USB drive</string>
     <string name="usb_backup_select_data_too_large">"Valitut tiedostot ovat suuria. Varmista että USB-asemalla on tarpeeksi tallennustilaa.
 Siirrä vain tärkeät kohteet."</string>
     <string name="usb_restore_select_data_too_large">"Varmuuskopiotiedostot ovat suuria. Niiden palauttamisessa saattaa kestää.

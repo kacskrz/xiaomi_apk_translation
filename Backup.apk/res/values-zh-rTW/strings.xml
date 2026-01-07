@@ -95,6 +95,14 @@
     <string name="backup_report">備份報告</string>
     <string name="backup_security_tips_message">部分應用程式不支援本機備份/還原</string>
     <string name="backup_security_tips_title">提醒</string>
+    <string name="backup_suspend_fail_summary_pad">連接已斷開，請確保平板與智慧儲存裝置處於同一網路後，點選「重試」按鈕繼續備份</string>
+    <string name="backup_suspend_fail_summary_phone">連接已斷開，請確保手機與智慧儲存裝置處於同一網路後，點選「重試」按鈕繼續備份</string>
+    <string name="backup_suspend_summary_pad">連接已斷開，請確保平板與智慧儲存裝置處於同一網路後，系統將自動繼續備份</string>
+    <string name="backup_suspend_summary_phone">連接已斷開，請確保手機與智慧儲存裝置處於同一網路後，系統將自動繼續備份</string>
+    <string name="backup_suspend_title">備份已暫停，重新連接中</string>
+    <string name="backup_tab">備份</string>
+    <string name="backup_tips_dialog_summary">不支援雙開應用程式資料及私密資料備份，且本次備份僅包含目前時間點之前的資料，後續新增資料不會自動同步</string>
+    <string name="backup_tips_dialog_title">備份提醒</string>
     <string name="backup_update">修改</string>
     <string name="batch_delete_backup_confirm">確定要刪除所選的備份嗎？</string>
     <string name="broken_screen_rescue_service">碎屏資料備份服務</string>
@@ -184,6 +192,7 @@ https://appleid.apple.com/#!&amp;page=signin進行關閉"</string>
     <string name="connect_wifi">連線Wi-Fi</string>
     <string name="connect_wifi_tip">網路已斷開，從iCloud遷移資料建議連線Wi-Fi</string>
     <string name="contact_title">通訊錄</string>
+    <string name="continue_restore_button">繼續恢復</string>
     <string name="copy">複製</string>
     <string name="current_account">目前帳號：%s</string>
     <string name="current_pad_location">目前平板</string>
@@ -507,6 +516,64 @@ https://appleid.apple.com/#!&amp;page=signin進行關閉"</string>
     <string name="multi_user_mode_dialog_message">目前空間無法使用一鍵換機，請切換到初始空間</string>
     <string name="multi_user_mode_dialog_title">多空間模式</string>
     <string name="name_password_not_consistent">用戶名稱和密碼不一致</string>
+    <string name="nas_backup_progress_title">智慧儲存備份</string>
+    <string name="nas_backup_resume_button">繼續備份</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">網路連接斷開，請確保智慧儲存裝置與平板處於同一網路下，再嘗試重新備份</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">網路連接斷開，請確保智慧儲存裝置與手機處於同一網路下，再嘗試重新備份</string>
+    <string name="nas_backup_task_progress_summary_pad">備份過程中，請確保平板與智慧儲存裝置處於同一網路，且勿重新啟動或關閉平板以免造成資料損壞</string>
+    <string name="nas_backup_task_progress_summary_phone">備份過程中，請確保手機與智慧儲存裝置處於同一網路，且勿重新啟動或關閉手機以免造成資料損壞</string>
+    <string name="nas_backup_task_suspend_info_title">備份已暫停</string>
+    <string name="nas_backup_title">智慧儲存備份恢復</string>
+    <string name="nas_cancel_button">取消</string>
+    <string name="nas_connecting_progress_dialog">正在連接智慧儲存裝置…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"使用「智慧儲存備份恢復」時，需滿足以下條件：
+%d. 智慧儲存裝置保持線上狀態
+%d. 平板連接WLAN，且與智慧儲存裝置處於同一網路
+%d. 備份恢復過程中，請保持網路穩定且勿重新啟動或關閉平板以免造成資料損壞"</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"使用「智慧儲存備份恢復」時，需滿足以下條件：
+%d. 智慧儲存裝置保持線上狀態
+%d. 手機連接WLAN，且與智慧儲存裝置處於同一網路
+%d. 備份恢復過程中，請保持網路穩定且勿重新啟動或關閉手機以免造成資料損壞"</string>
+    <string name="nas_disconnect_dialog_title">無法連接智慧儲存裝置</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">智慧儲存裝置空間不足，請盡快清理出充足的空間後，點選「重試」按鈕繼續備份</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">平板空間不足，請盡快清理出充足的空間後，點選「重試」按鈕繼續備份</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">手機空間不足，請盡快清理出充足的空間後，點選「重試」按鈕繼續備份</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">智慧儲存裝置空間不足，請盡快清理出充足的空間後，點選「重試」按鈕繼續恢復</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">平板空間不足，請盡快清理出充足的空間後，點選「重試」按鈕繼續恢復</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">手機空間不足，請盡快清理出充足的空間後，點選「重試」按鈕繼續恢復</string>
+    <string name="nas_low_storage">目前已選取資料%1$s，智慧儲存裝置空間僅剩%2$s，請重新選擇資料或清理空間後嘗試</string>
+    <string name="nas_low_storage_pad_restore_summary">智慧儲存恢復需要臨時佔用部分空間，用於恢復期間的資料暫存。請預留%s平板空間，臨時空間將在恢復完成後自動釋放。</string>
+    <string name="nas_low_storage_pad_summary">智慧儲存備份需要暫時佔用部分空間，用於備份期間的資料暫存。請預留%s平板空間，臨時空間將在備份完成後自動釋放。</string>
+    <string name="nas_low_storage_pad_title">平板空間不足</string>
+    <string name="nas_low_storage_phone_positive_button">去清理</string>
+    <string name="nas_low_storage_phone_restore_summary">智慧儲存恢復需要臨時佔用部分空間，用於恢復期間的資料暫存。請預留%s手機空間，臨時空間將在恢復完成後自動釋放。</string>
+    <string name="nas_low_storage_phone_summary">智慧儲存備份需要暫時佔用部分空間，用於備份期間的資料暫存。請預留%s手機空間，臨時空間將在備份完成後自動釋放。</string>
+    <string name="nas_low_storage_phone_title">手機空間不足</string>
+    <string name="nas_low_storage_title">智慧儲存裝置空間不足</string>
+    <string name="nas_notification_title">智慧儲存正在備份微信記錄</string>
+    <string name="nas_restore_progress_title">智慧儲存恢復</string>
+    <string name="nas_restore_resume_button">繼續恢復</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">網路連接斷開，請確保智慧儲存裝置與平板處於同一網路下，再嘗試重新恢復</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">網路連接斷開，請確保智慧儲存裝置與手機處於同一網路下，再嘗試重新恢復</string>
+    <string name="nas_restore_task_progress_summary_pad">恢復過程中，請確保平板與智慧儲存裝置處於同一網路，且勿重新啟動或關閉平板以免造成資料損壞</string>
+    <string name="nas_restore_task_progress_summary_phone">恢復過程中，請確保手機與智慧儲存裝置處於同一網路，且勿重新啟動或關閉手機以免造成資料損壞</string>
+    <string name="nas_restore_task_suspend_info_title">恢復已暫停</string>
+    <string name="nas_retry_button">重試</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">平板空間不足，請清理出充足的空間後再嘗試重新備份</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">平板空間不足，請清理出充足的空間後再嘗試重新恢復</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">手機空間不足，請清理出充足的空間後再嘗試重新備份</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">平板空間不足，請清理出充足的空間後再嘗試重新恢復</string>
+    <string name="nas_task_progress_item_disconnect_eror">網路連接中斷</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">平板空間不足</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">手機空間不足</string>
+    <string name="nas_task_progress_item_low_memory_summary">智慧儲存裝置空間不足</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">智慧儲存裝置空間不足</string>
+    <string name="nas_task_progress_low_memory_summary_backup">智慧儲存裝置空間不足，請清理出充足的空間後再嘗試重新備份</string>
+    <string name="nas_task_progress_low_memory_summary_restore">智慧儲存裝置空間不足，請清理出充足的空間後再嘗試重新恢復</string>
+    <string name="nas_unbind_account_dialog_summary">目前小米帳號已離線，請登入後再進行備份恢復操作</string>
+    <string name="nas_unbind_account_summary_backup">小米帳號已離線，請登入後再嘗試重新備份</string>
+    <string name="nas_unbind_account_summary_restore">小米帳號已離線，請登入後再嘗試重新恢復</string>
+    <string name="nas_unbind_device_dialog_title">智慧儲存裝置不存在</string>
     <string name="never">一律不</string>
     <string name="new_backup">建立備份</string>
     <string name="new_britem_audio">音訊</string>
@@ -607,13 +674,23 @@ https://appleid.apple.com/#!&amp;page=signin進行關閉"</string>
     <string name="notif_trans_sending_completed">資料傳送完成</string>
     <string name="notif_trans_sending_failed">資料發送失敗</string>
     <string name="notif_trans_wait_for_reconnecting">連線中斷，請重新連線</string>
+    <string name="notification_backup_content">正在進行本機用戶資料備份</string>
+    <string name="notification_backup_suspend">備份暫停</string>
+    <string name="notification_device_disconnect_content">連接已中斷</string>
+    <string name="notification_low_memory_content">智慧儲存裝置空間不足</string>
+    <string name="notification_restore_content">正在進行本機用戶資料恢復</string>
+    <string name="notification_restore_suspend">恢復暫停</string>
+    <string name="notification_unbind_account_content">小米帳號已離線</string>
+    <string name="notification_wifi_disconnect_content">網路連接已中斷</string>
     <string name="old_soft_name">掃描二維條碼</string>
     <string name="old_way">若舊手機處於掃碼狀態，請點擊此處生成二維條碼</string>
     <string name="open_compatibility_mode">開啟</string>
+    <string name="pad_backup_and_restore">平板備份恢復</string>
     <string name="page_loading">頁面載入中， 請稍候...</string>
     <string name="password">密碼</string>
     <string name="password_null">密碼不能空白</string>
     <string name="pause">暫停</string>
+    <string name="pc_backup_and_restore">電腦備份恢復</string>
     <string name="perm_camera">相機</string>
     <string name="perm_location">地點</string>
     <string name="perm_read_call_log">讀通話記錄</string>
@@ -663,6 +740,7 @@ https://appleid.apple.com/#!&amp;page=signin進行關閉"</string>
     <string name="permission_write_contacts">修改聯絡人</string>
     <string name="permission_write_storage">寫入手機儲存空間</string>
     <string name="permission_write_storage_pad">寫入裝置儲存空間</string>
+    <string name="phone_backup_and_restore">手機備份恢復</string>
     <string name="phone_title">電話設定</string>
     <string name="platform_chooser_item_android_mi">從小米手機匯入</string>
     <string name="platform_chooser_item_android_others">從其他安卓手機匯入（華為、oppo、vivo等）</string>
@@ -697,7 +775,33 @@ https://appleid.apple.com/#!&amp;page=signin進行關閉"</string>
     <string name="restore_launcher_layout_hit">（注意：已刪除程式或桌面小工具的位置為空白）</string>
     <string name="restore_progress">正在恢復...</string>
     <string name="restore_report">恢復報告</string>
+    <string name="restore_suspend_fail_summary_pad">連接已斷開，恢復暫停，請確保平板與智慧儲存裝置處於同一網路後，點選「重試」按鈕繼續恢復</string>
+    <string name="restore_suspend_fail_summary_phone">連接已斷開，恢復暫停，請確保手機與智慧儲存裝置處於同一網路後，點選「重試」按鈕繼續恢復</string>
+    <string name="restore_suspend_summary_pad">連接已斷開，恢復暫停，請確保平板與智慧儲存裝置處於同一網路後，系統將自動繼續恢復</string>
+    <string name="restore_suspend_summary_phone">連接已斷開，恢復暫停，請確保手機與智慧儲存裝置處於同一網路後，系統將自動繼續恢復</string>
+    <string name="restore_suspend_title">恢復已暫停，重新連接中</string>
+    <string name="restore_tab">恢復</string>
     <string name="restore_telephony_hit">（注意：恢復過程中會重新啟動電話應用程式）</string>
+    <string name="restore_tips_dialog_summary">即將進行微信資料恢復，恢復後本裝置的微信資料將被%s備份的資料覆蓋，且操作無法撤銷，請謹慎操作</string>
+    <string name="restore_tips_dialog_title">恢復風險提醒</string>
+    <string name="resume_backup_nas_task_dialog_title">偵測到未完成的備份任務</string>
+    <string name="resume_backup_toast">正在進行智慧儲存備份</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"備份時間：%1$s
+資料大小：%2$s
+平板可用空間：%3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"備份時間：%1$s
+資料大小：%2$s
+手機可用空間：%3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"備份時間：%1$s
+資料大小：%2$s
+智慧儲存裝置可用空間：%3$s
+平板可用空間：%4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"備份時間：%1$s
+資料大小：%2$s
+智慧儲存裝置可用空間：%3$s
+手機可用空間：%4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">偵測到未完成的恢復任務</string>
+    <string name="resume_restore_toast">正在進行智慧儲存恢復</string>
     <string name="retry">重試</string>
     <string name="reverse_all">取消全部</string>
     <string name="revoke_permission_dialog_content">您需要開啟所有的必要權限來使用備份與恢復功能，撤回此權限將導致您無法正常使用備份與恢復功能。</string>
@@ -869,6 +973,7 @@ https://appleid.apple.com/#!&amp;page=signin進行關閉"</string>
     <string name="time_picker_dialog_title">設定時間</string>
     <string name="time_picker_label_hour">時</string>
     <string name="time_picker_label_minute">分</string>
+    <string name="tips_date_format">yyyy-MM-dd HH:mm</string>
     <string name="title_compatibility_mode">應用程式相容模式</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
@@ -1074,6 +1179,7 @@ https://appleid.apple.com/#!&amp;page=signin進行關閉"</string>
     <string name="tuesday_shortest">二</string>
     <string name="unit_byte">B</string>
     <string name="unknown_hint">不明</string>
+    <string name="usb_backup_and_restore">USB備份恢復</string>
     <string name="usb_backup_select_data_too_large">"檔案偏大，請確保USB隨身碟上有足夠的空間
 建議只搬移比較重要的資料"</string>
     <string name="usb_restore_select_data_too_large">"檔案過大，會使還原的時間變長

@@ -95,6 +95,14 @@
     <string name="backup_report">詳細を表示</string>
     <string name="backup_security_tips_message">一部のアプリはバックアップや復元ができない可能性があります。</string>
     <string name="backup_security_tips_title">バックアップが機能しない可能性があります</string>
+    <string name="backup_suspend_fail_summary_pad">接続が切断されました。タブレットがSmartStorageと同じネットワークに接続されたら、「再試行」をタップしてバックアップを再開してください。</string>
+    <string name="backup_suspend_fail_summary_phone">接続が切断されました。スマートフォンがSmartStorageと同じネットワークに接続されたら、「再試行」をタップしてバックアップを再開してください。</string>
+    <string name="backup_suspend_summary_pad">接続が切断されました。タブレットがSmartStorageと同じネットワークに接続されると、バックアップは自動的に再開されます。</string>
+    <string name="backup_suspend_summary_phone">接続が切断されました。スマートフォンがSmartStorageと同じネットワークに接続されると、バックアップは自動的に再開されます。</string>
+    <string name="backup_suspend_title">バックアップが一時停止しました。再接続中…</string>
+    <string name="backup_tab">バックアップ</string>
+    <string name="backup_tips_dialog_summary">デュアルアプリとプライベートアイテムはサポートされていません。このバックアップには現時点までのデータのみが含まれます。新しいデータは自動同期されません。</string>
+    <string name="backup_tips_dialog_title">留意事項</string>
     <string name="backup_update">アップデート</string>
     <string name="batch_delete_backup_confirm">選択したバックアップを削除しますか？</string>
     <string name="broken_screen_rescue_service">破損した画面でのバックアップ</string>
@@ -179,6 +187,7 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="connect_wifi">Wi-Fiに接続</string>
     <string name="connect_wifi_tip">ネットワークに接続できませんでした。iCloudからアイテムをインポートするにはWi-Fiに接続してください。</string>
     <string name="contact_title">連絡先</string>
+    <string name="continue_restore_button">再開</string>
     <string name="copy">コピー</string>
     <string name="current_account">こんにちは %s</string>
     <string name="current_pad_location">パッド</string>
@@ -492,6 +501,64 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="multi_user_mode_dialog_message">マルチユーザーモードではMi Moverを使用できません。続行するにはマルチユーザーモードをオフにしてください。</string>
     <string name="multi_user_mode_dialog_title">マルチユーザーモードです</string>
     <string name="name_password_not_consistent">ユーザー名かパスワードが間違っています</string>
+    <string name="nas_backup_progress_title">SmartStorageにバックアップ</string>
+    <string name="nas_backup_resume_button">再開</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">ネットワークが切断されました。タブレットとSmartStorageデバイスが同じネットワークに接続されていることを確認し、もう一度バックアップを試みてください。</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">ネットワークが切断されました。スマートフォンとSmartStorageデバイスが同じネットワークに接続されていることを確認し、もう一度バックアップを試みてください。</string>
+    <string name="nas_backup_task_progress_summary_pad">バックアップ中は、タブレットとSmartStorageデバイスが同じネットワークに接続されていることを確認してください。データ損失を防ぐため、タブレットの再起動や電源を切らないでください。</string>
+    <string name="nas_backup_task_progress_summary_phone">バックアップ中は、スマートフォンとSmartStorageデバイスが同じネットワークに接続されていることを確認してください。データ損失を防ぐため、スマートフォンの再起動や電源を切らないでください。</string>
+    <string name="nas_backup_task_suspend_info_title">バックアップが一時停止しました</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">キャンセル</string>
+    <string name="nas_connecting_progress_dialog">SmartStorageに接続中…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"SmartStorageをバックアップと復元に使用するには、以下の条件を満たしていることを確認してください:
+%d。SmartStorageデバイスがオンライン状態であること。
+%d。お使いのタブレットがSmartStorageと同じWi-Fiネットワークに接続されていること。
+%d。ネットワークが安定していること。（バックアップや復元中はタブレットの再起動や電源を切らないでください）。"</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"SmartStorageをバックアップと復元に使用するには、以下の条件を満たしていることを確認してください:
+%d。SmartStorageデバイスがオンライン状態であること。
+%d。お使いのスマートフォンがSmartStorageと同じWi-Fiネットワークに接続されていること。
+%d。ネットワークが安定していること。（バックアップや復元中はスマートフォンの再起動や電源を切らないでください）。"</string>
+    <string name="nas_disconnect_dialog_title">SmartStorageに接続できません</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">SmartStorageの空き容量が不足しています。空き容量を確保し、「再試行」をタップしてバックアップを再開してください。</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">タブレットのストレージが不足しています。空き容量を確保し、「再試行」をタップしてバックアップを再開してください。</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">スマートフォンのストレージが不足しています。空き容量を確保し、「再試行」をタップしてバックアップを再開してください。</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">SmartStorageの空き容量が不足しています。空き容量を確保し、「再試行」をタップして復元を再開してください。</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">タブレットのストレージが不足しています。空き容量を確保し、「再試行」をタップして復元を再開してください。</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">スマートフォンのストレージが不足しています。空き容量を確保し、「再試行」をタップして復元を再開してください。</string>
+    <string name="nas_low_storage">選択したデータは %1$s です。SmartStorage で利用可能な容量は %2$s のみです。選択内容を調整するか、空き容量を確保してもう一度お試しください。</string>
+    <string name="nas_low_storage_pad_restore_summary">復元には、キャッシュ用としてタブレットに一時的な保存領域が必要です。%s を確保してください。この領域は、アイテムの復元後に解放されます。</string>
+    <string name="nas_low_storage_pad_summary">バックアップには、キャッシュ用としてタブレット上の一時的な保存領域が必要です。%s を確保してください。この領域は、アイテムのバックアップが完了すると解放されます。</string>
+    <string name="nas_low_storage_pad_title">タブレットのストレージが足りません</string>
+    <string name="nas_low_storage_phone_positive_button">消去</string>
+    <string name="nas_low_storage_phone_restore_summary">復元には、キャッシュ用としてスマートフォンに一時的な保存領域が必要です。%s を確保してください。この領域は、アイテムの復元後に解放されます。</string>
+    <string name="nas_low_storage_phone_summary">バックアップには、キャッシュ用としてスマートフォンに一時的な保存領域が必要です。%s を確保してください。この領域は、アイテムのバックアップが完了すると解放されます。</string>
+    <string name="nas_low_storage_phone_title">スマートフォンのストレージが足りません</string>
+    <string name="nas_low_storage_title">SmartStorageはいっぱいです</string>
+    <string name="nas_notification_title">WeChatメッセージをSmartStorageにバックアップ中…</string>
+    <string name="nas_restore_progress_title">SmartStorageから復元</string>
+    <string name="nas_restore_resume_button">再開</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">ネットワークが切断されました。タブレットとSmartStorageデバイスが同じネットワークに接続されていることを確認し、もう一度復元を試みてください。</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">ネットワークが切断されました。スマートフォンとSmartStorageデバイスが同じネットワークに接続されていることを確認し、もう一度復元を試みてください。</string>
+    <string name="nas_restore_task_progress_summary_pad">復元中は、タブレットとSmartStorageデバイスが同じネットワークに接続されていることを確認してください。データ損失を防ぐため、タブレットの再起動や電源を切らないでください。</string>
+    <string name="nas_restore_task_progress_summary_phone">復元中は、スマートフォンとSmartStorageデバイスが同じネットワークに接続されていることを確認してください。データ損失を防ぐため、スマートフォンの再起動や電源を切らないでください。</string>
+    <string name="nas_restore_task_suspend_info_title">復元が一時停止しました</string>
+    <string name="nas_retry_button">再試行</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">タブレットのストレージが不足しています。空き容量を確保し、もう一度バックアップを試してください。</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">タブレットのストレージが不足しています。空き容量を確保し、もう一度復元を試してください。</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">スマートフォンのストレージが不足しています。空き容量を確保し、もう一度バックアップを試してください。</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">スマートフォンのストレージが不足しています。空き容量を確保し、もう一度復元を試してください。</string>
+    <string name="nas_task_progress_item_disconnect_eror">ネットワークが切断されました</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">タブレットのストレージが足りません</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">スマートフォンのストレージが足りません</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorageはいっぱいです</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">SmartStorageのストレージ容量が足りません</string>
+    <string name="nas_task_progress_low_memory_summary_backup">SmartStorageはいっぱいです。空き容量を確保して、もう一度バックアップを試してください。</string>
+    <string name="nas_task_progress_low_memory_summary_restore">SmartStorageはいっぱいです。空き容量を確保して、もう一度復元を試してください。</string>
+    <string name="nas_unbind_account_dialog_summary">Xiaomi アカウントが利用できません。アイテムのバックアップまたは復元を行うには、サインインしてください。</string>
+    <string name="nas_unbind_account_summary_backup">Xiaomi アカウントが利用できません。サインインしてもう一度バックアップをお試しください。</string>
+    <string name="nas_unbind_account_summary_restore">Xiaomi アカウントが利用できません。サインインしてもう一度復元をお試しください。</string>
+    <string name="nas_unbind_device_dialog_title">SmartStorageデバイスが存在しません</string>
     <string name="never">しない</string>
     <string name="new_backup">バックアップ</string>
     <string name="new_britem_audio">オーディオ</string>
@@ -591,13 +658,23 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="notif_trans_sending_completed">データは正常に送信されました</string>
     <string name="notif_trans_sending_failed">データを送信できませんでした</string>
     <string name="notif_trans_wait_for_reconnecting">接続は中断されました。再度接続してください。</string>
+    <string name="notification_backup_content">デバイスデータをバックアップ中…</string>
+    <string name="notification_backup_suspend">バックアップが一時停止しました</string>
+    <string name="notification_device_disconnect_content">接続が失われました</string>
+    <string name="notification_low_memory_content">SmartStorageはいっぱいです</string>
+    <string name="notification_restore_content">デバイスデータを復元中…</string>
+    <string name="notification_restore_suspend">復元が一時停止しました</string>
+    <string name="notification_unbind_account_content">Xiaomi アカウントは利用できません</string>
+    <string name="notification_wifi_disconnect_content">ネットワークが切断されました</string>
     <string name="old_soft_name">QRコードで接続</string>
     <string name="old_way">新しいデバイスでQRコードを生成し、古いデバイスを使用してスキャンすることもできます。</string>
     <string name="open_compatibility_mode">オンにする</string>
+    <string name="pad_backup_and_restore">タブレット</string>
     <string name="page_loading">お待ちください…</string>
     <string name="password">パスワード</string>
     <string name="password_null">パスワードは空白にできません</string>
     <string name="pause">一時停止</string>
+    <string name="pc_backup_and_restore">パソコン</string>
     <string name="perm_camera">カメラ</string>
     <string name="perm_location">位置</string>
     <string name="perm_read_call_log">通話履歴の読み取り</string>
@@ -647,6 +724,7 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="permission_write_contacts">連絡先の編集</string>
     <string name="permission_write_storage">ストレージへのアイテムの保存</string>
     <string name="permission_write_storage_pad">ストレージへのアイテムの保存</string>
+    <string name="phone_backup_and_restore">スマートフォン</string>
     <string name="phone_title">電話設定</string>
     <string name="platform_chooser_item_android_mi">Mi Phone</string>
     <string name="platform_chooser_item_android_others">他のブランド</string>
@@ -682,7 +760,33 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="restore_launcher_layout_hit">ランチャー設定を復元する</string>
     <string name="restore_progress">復元中…</string>
     <string name="restore_report">復元の詳細</string>
+    <string name="restore_suspend_fail_summary_pad">接続が切断されました。タブレットがSmartStorageと同じネットワークに接続されたら、「再試行」をタップして復元を再開してください。</string>
+    <string name="restore_suspend_fail_summary_phone">接続が切断されました。スマートフォンがSmartStorageと同じネットワークに接続されたら、「再試行」をタップして復元を再開してください。</string>
+    <string name="restore_suspend_summary_pad">接続が切断されました。タブレットがSmartStorageと同じネットワークに接続されると、復元は自動的に再開されます。</string>
+    <string name="restore_suspend_summary_phone">接続が切断されました。スマートフォンがSmartStorageと同じネットワークに接続されると、復元は自動的に再開されます。</string>
+    <string name="restore_suspend_title">復元が一時停止しました。再接続中…</string>
+    <string name="restore_tab">復元</string>
     <string name="restore_telephony_hit">復元プロセス中、電話アプリは再起動されます。</string>
+    <string name="restore_tips_dialog_summary">WeChatデータの復元を実行しようとしています。これにより、現在のWeChatデータが%s時点のバックアップで上書きされます。この操作は元に戻せません。十分にご注意の上、続行してください。</string>
+    <string name="restore_tips_dialog_title">注意</string>
+    <string name="resume_backup_nas_task_dialog_title">未完了のバックアップ</string>
+    <string name="resume_backup_toast">SmartStorageにバックアップ中…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"バックアップ時刻: %1$s
+バックアップサイズ: %2$s
+利用可能なタブレットストレージ: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"バックアップ時刻: %1$s
+バックアップサイズ: %2$s
+利用可能なスマートフォンストレージ: %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"バックアップ時間: %1$s
+バックアップサイズ: %2$s
+利用可能なSmartStorage容量: %3$s
+利用可能なタブレットストレージ容量: %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"バックアップ時間: %1$s
+バックアップサイズ: %2$s
+利用可能なSmartStorage容量: %3$s
+利用可能なスマートフォンストレージ容量: %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">未完成の復元</string>
+    <string name="resume_restore_toast">SmartStorageから復元中…</string>
     <string name="retry">もう一度お試しください</string>
     <string name="reverse_all">すべて消去</string>
     <string name="revoke_permission_dialog_content">すべての必須のアクセス許可が付与されていないと、アイテムのバックアップや復元を実行できません。アクセス許可を撤回してもよろしいですか？</string>
@@ -834,6 +938,7 @@ Wi-Fiをオフにしないでください"</string>
     <string name="time_picker_dialog_title">時刻を設定</string>
     <string name="time_picker_label_hour">時</string>
     <string name="time_picker_label_minute">分</string>
+    <string name="tips_date_format">yyyy/MM/dd HH:mm</string>
     <string name="title_compatibility_mode">アプリ互換モード</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
@@ -1028,6 +1133,7 @@ Mi Moverをオンにしてください"</string>
     <string name="tuesday_shortest">火</string>
     <string name="unit_byte">B</string>
     <string name="unknown_hint">不明</string>
+    <string name="usb_backup_and_restore">USBドライブ</string>
     <string name="usb_backup_select_data_too_large">"選択したファイルは大きいです。USBドライブに十分なストレージ容量があることを確認してください。
 重要なアイテムのみ転送してください。"</string>
     <string name="usb_restore_select_data_too_large">"バックアップファイルは大きいです。これらを復元するにはしばらく時間がかかることがあります。

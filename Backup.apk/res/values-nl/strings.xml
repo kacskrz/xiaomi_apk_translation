@@ -95,6 +95,14 @@
     <string name="backup_report">Details bekijken</string>
     <string name="backup_security_tips_message">Van sommige apps kan mogelijk geen back-up worden gemaakt of worden hersteld.</string>
     <string name="backup_security_tips_title">Back-ups werken mogelijk niet</string>
+    <string name="backup_suspend_fail_summary_pad">Verbinding verbroken. Zodra uw tablet verbinding heeft met hetzelfde netwerk als SmartStorage, tikt u op \"Opnieuw proberen\" om de back-up te hervatten.</string>
+    <string name="backup_suspend_fail_summary_phone">Verbinding verbroken. Zodra uw telefoon verbinding heeft met hetzelfde netwerk als SmartStorage, tikt u op \"Opnieuw proberen\" om de back-up te hervatten.</string>
+    <string name="backup_suspend_summary_pad">Verbinding verbroken. Zodra uw tablet verbinding heeft met hetzelfde netwerk als SmartStorage, wordt de back-up automatisch hervat.</string>
+    <string name="backup_suspend_summary_phone">Verbinding verbroken. Zodra uw telefoon verbinding maakt met hetzelfde netwerk als SmartStorage, wordt de back-up automatisch hervat.</string>
+    <string name="backup_suspend_title">Back-up gepauzeerd. Opnieuw verbinding maken…</string>
+    <string name="backup_tab">Back-up</string>
+    <string name="backup_tips_dialog_summary">Dubbele apps en privé-items worden niet ondersteund. Deze back-up bevat alleen gegevens tot nu toe. Nieuwe gegevens worden niet automatisch gesynchroniseerd.</string>
+    <string name="backup_tips_dialog_title">Houd in gedachten</string>
     <string name="backup_update">Bijwerken</string>
     <string name="batch_delete_backup_confirm">Geselecteerde back-ups verwijderen?</string>
     <string name="broken_screen_rescue_service">Back-ups met beschadigd scherm</string>
@@ -179,6 +187,7 @@ https://appleid.apple.com/#!&amp;page=aanmelden om te sluiten"</string>
     <string name="connect_wifi">Verbinden met wifi</string>
     <string name="connect_wifi_tip">Kon geen verbinding maken met het netwerk. Maak verbinding met wifi om items uit iCloud te importeren.</string>
     <string name="contact_title">Contacten</string>
+    <string name="continue_restore_button">Hervatten</string>
     <string name="copy">Kopiëren</string>
     <string name="current_account">Hallo, %s</string>
     <string name="current_pad_location">Tablet</string>
@@ -492,6 +501,64 @@ moet u eerst een iCloud back-up maken."</string>
     <string name="multi_user_mode_dialog_message">Kan Mi Mover niet gebruiken in Multi-gebruiker modus. Schakel Multi-gebruiker modus uit om door te gaan.</string>
     <string name="multi_user_mode_dialog_title">U bent in Multi-gebruiker modus</string>
     <string name="name_password_not_consistent">Gebruikersnaam of wachtwoord is onjuist</string>
+    <string name="nas_backup_progress_title">Back-up maken naar SmartStorage</string>
+    <string name="nas_backup_resume_button">Hervatten</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Netwerkverbinding verbroken. Zorg ervoor dat uw tablet en SmartStorage-apparaat op hetzelfde netwerk zijn aangesloten en probeer vervolgens opnieuw een back-up te maken.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Netwerkverbinding verbroken. Zorg ervoor dat uw telefoon en SmartStorage-apparaat op hetzelfde netwerk zijn aangesloten en probeer vervolgens opnieuw een back-up te maken.</string>
+    <string name="nas_backup_task_progress_summary_pad">Zorg er tijdens de back-up voor dat uw tablet en uw SmartStorage-apparaat met hetzelfde netwerk verbonden zijn. Herstart of schakel uw tablet niet uit om gegevensverlies te voorkomen.</string>
+    <string name="nas_backup_task_progress_summary_phone">Zorg er tijdens de back-up voor dat uw telefoon en uw SmartStorage-apparaat met hetzelfde netwerk verbonden zijn. Herstart of schakel uw telefoon niet uit om gegevensverlies te voorkomen.</string>
+    <string name="nas_backup_task_suspend_info_title">Back-up gepauzeerd</string>
+    <string name="nas_backup_title">SmartStorage</string>
+    <string name="nas_cancel_button">Annuleren</string>
+    <string name="nas_connecting_progress_dialog">Verbinding maken met SmartStorage…</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"Om SmartStorage te gebruiken voor back-ups en herstel, zorg ervoor dat:
+%d. SmartStorage-apparaat online is.
+%d. Uw tablet verbonden is met wifi op hetzelfde netwerk als SmartStorage.
+%d. Het netwerk stabiel is. (Start uw tablet niet opnieuw op en schakel deze niet uit tijdens back-ups of herstel.)"</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"Om SmartStorage te gebruiken voor back-ups en herstel, zorg ervoor dat:
+%d. SmartStorage-apparaat online is.
+%d. Uw telefoon verbonden is met wifi op hetzelfde netwerk als SmartStorage.
+%d. Het netwerk stabiel is. (Start uw telefoon niet opnieuw op en schakel deze niet uit tijdens back-ups of herstel.)"</string>
+    <string name="nas_disconnect_dialog_title">Kan geen verbinding maken met SmartStorage</string>
+    <string name="nas_low_memory_progress_backup_summary_nas">Onvoldoende SmartStorage-ruimte. Maak ruimte vrij en tik op \"Opnieuw proberen\" om de back-up te hervatten.</string>
+    <string name="nas_low_memory_progress_backup_summary_pad">Onvoldoende opslagruimte op de tablet. Maak ruimte vrij en tik op \"Opnieuw proberen\" om de back-up te hervatten.</string>
+    <string name="nas_low_memory_progress_backup_summary_phone">Onvoldoende opslagruimte op de telefoon. Maak ruimte vrij en tik op \"Opnieuw proberen\" om de back-up te hervatten.</string>
+    <string name="nas_low_memory_progress_restore_summary_nas">Onvoldoende SmartStorage-ruimte. Maak ruimte vrij en tik op \"Opnieuw proberen\" om het herstel te hervatten.</string>
+    <string name="nas_low_memory_progress_restore_summary_pad">Onvoldoende opslagruimte op de tablet. Maak ruimte vrij en tik op \"Opnieuw proberen\" om het herstel te hervatten.</string>
+    <string name="nas_low_memory_progress_restore_summary_phone">Onvoldoende opslagruimte op de telefoon. Maak ruimte vrij en tik op \"Opnieuw proberen\" om het herstel te hervatten.</string>
+    <string name="nas_low_storage">U hebt %1$s aan gegevens geselecteerd. SmartStorage heeft slechts %2$s beschikbaar. Pas uw selectie aan of maak ruimte vrij en probeer het opnieuw.</string>
+    <string name="nas_low_storage_pad_restore_summary">Voor het herstellen is tijdelijke opslag op uw tablet nodig voor caching. Reserveer %s. Deze ruimte wordt vrijgegeven nadat de items zijn hersteld.</string>
+    <string name="nas_low_storage_pad_summary">Back-ups vereisen tijdelijke opslag op uw tablet voor caching. Reserveer %s. Deze ruimte wordt vrijgegeven nadat de items zijn geback-upt.</string>
+    <string name="nas_low_storage_pad_title">Niet genoeg opslagruimte op de tablet</string>
+    <string name="nas_low_storage_phone_positive_button">Opschonen</string>
+    <string name="nas_low_storage_phone_restore_summary">Voor het herstellen is tijdelijke opslag op uw telefoon nodig voor caching. Reserveer %s. Deze ruimte wordt vrijgegeven nadat de items zijn hersteld.</string>
+    <string name="nas_low_storage_phone_summary">Back-ups vereisen tijdelijke opslag op uw telefoon voor caching. Reserveer %s. Deze ruimte wordt vrijgegeven nadat de items zijn geback-upt.</string>
+    <string name="nas_low_storage_phone_title">Niet genoeg telefoonopslag</string>
+    <string name="nas_low_storage_title">SmartStorage is vol</string>
+    <string name="nas_notification_title">WeChat-berichten back-uppen naar SmartStorage…</string>
+    <string name="nas_restore_progress_title">Herstellen vanuit SmartStorage</string>
+    <string name="nas_restore_resume_button">Hervatten</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Netwerkverbinding verbroken. Controleer of uw tablet en SmartStorage-apparaat op hetzelfde netwerk zijn aangesloten en probeer het opnieuw op te starten.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Netwerkverbinding verbroken. Controleer of uw telefoon en SmartStorage-apparaat op hetzelfde netwerk zijn aangesloten en probeer het opnieuw op te starten.</string>
+    <string name="nas_restore_task_progress_summary_pad">Zorg er tijdens het herstel voor dat uw tablet en uw SmartStorage-apparaat met hetzelfde netwerk verbonden zijn. Herstart of schakel uw tablet niet uit om gegevensverlies te voorkomen.</string>
+    <string name="nas_restore_task_progress_summary_phone">Zorg er tijdens het herstel voor dat uw telefoon en uw SmartStorage-apparaat met hetzelfde netwerk verbonden zijn. Herstart of schakel uw telefoon niet uit om gegevensverlies te voorkomen.</string>
+    <string name="nas_restore_task_suspend_info_title">Restauratie gepauzeerd</string>
+    <string name="nas_retry_button">Opnieuw proberen</string>
+    <string name="nas_task_lowmemory_summary_pad_backup">Onvoldoende opslagruimte op de tablet. Maak ruimte vrij en probeer opnieuw een back-up te maken.</string>
+    <string name="nas_task_lowmemory_summary_pad_restore">Onvoldoende opslagruimte op de tablet. Maak ruimte vrij en probeer opnieuw te herstellen.</string>
+    <string name="nas_task_lowmemory_summary_phone_backup">Onvoldoende opslagruimte op de telefoon. Maak ruimte vrij en probeer opnieuw een back-up te maken.</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">Onvoldoende opslagruimte op de telefoon. Maak ruimte vrij en probeer opnieuw te herstellen.</string>
+    <string name="nas_task_progress_item_disconnect_eror">Netwerkverbinding verbroken</string>
+    <string name="nas_task_progress_item_low_memory_error_pad">Niet genoeg opslagruimte op de tablet</string>
+    <string name="nas_task_progress_item_low_memory_error_phone">Niet genoeg telefoonopslag</string>
+    <string name="nas_task_progress_item_low_memory_summary">SmartStorage is vol</string>
+    <string name="nas_task_progress_item_nas_low_memory_error">Niet genoeg SmartStorage-ruimte</string>
+    <string name="nas_task_progress_low_memory_summary_backup">SmartStorage is vol. Maak ruimte vrij en probeer opnieuw een back-up te maken.</string>
+    <string name="nas_task_progress_low_memory_summary_restore">SmartStorage is vol. Maak ruimte vrij en probeer opnieuw te herstellen.</string>
+    <string name="nas_unbind_account_dialog_summary">Uw Xiaomi Account is niet beschikbaar. Meldt u aan om een ​​back-up te kunnen maken van items of deze te kunnen herstellen.</string>
+    <string name="nas_unbind_account_summary_backup">Xiaomi Account is niet beschikbaar. Meld u aan en probeer opnieuw een back-up te maken.</string>
+    <string name="nas_unbind_account_summary_restore">Xiaomi Account is niet beschikbaar. Meld u aan en probeer opnieuw te herstellen.</string>
+    <string name="nas_unbind_device_dialog_title">SmartStorage-apparaat bestaat niet</string>
     <string name="never">Nooit</string>
     <string name="new_backup">Back-uppen</string>
     <string name="new_britem_audio">Audio</string>
@@ -591,13 +658,23 @@ moet u eerst een iCloud back-up maken."</string>
     <string name="notif_trans_sending_completed">Gegevens succesvol verzonden</string>
     <string name="notif_trans_sending_failed">Kon gegevens niet versturen</string>
     <string name="notif_trans_wait_for_reconnecting">Verbinding was onderbroken. Opnieuw verbinden.</string>
+    <string name="notification_backup_content">Een back-up maken van apparaatgegevens…</string>
+    <string name="notification_backup_suspend">Back-up gepauzeerd</string>
+    <string name="notification_device_disconnect_content">Verbinding verbroken</string>
+    <string name="notification_low_memory_content">SmartStorage is vol</string>
+    <string name="notification_restore_content">Apparaatgegevens herstellen…</string>
+    <string name="notification_restore_suspend">Restauratie gepauzeerd</string>
+    <string name="notification_unbind_account_content">Xiaomi Account is niet beschikbaar</string>
+    <string name="notification_wifi_disconnect_content">Netwerkverbinding verbroken</string>
     <string name="old_soft_name">Verbinden met QR-code</string>
     <string name="old_way">U kunt ook een QR-code genereren op uw nieuwe toestel en deze met het oude toestel scannen.</string>
     <string name="open_compatibility_mode">Inschakelen</string>
+    <string name="pad_backup_and_restore">Tablet</string>
     <string name="page_loading">Een ogenblik geduld…</string>
     <string name="password">Wachtwoord</string>
     <string name="password_null">Wachtwoord mag niet leeg zijn</string>
     <string name="pause">Pauze</string>
+    <string name="pc_backup_and_restore">Computer</string>
     <string name="perm_camera">Camera</string>
     <string name="perm_location">Locatie</string>
     <string name="perm_read_call_log">Gespreksgeschiedenis lezen</string>
@@ -647,6 +724,7 @@ moet u eerst een iCloud back-up maken."</string>
     <string name="permission_write_contacts">Contacten bewerken</string>
     <string name="permission_write_storage">Items opslaan in opslag</string>
     <string name="permission_write_storage_pad">Items opslaan in opslag</string>
+    <string name="phone_backup_and_restore">Telefoon</string>
     <string name="phone_title">Telefooninstellingen</string>
     <string name="platform_chooser_item_android_mi">Mi Phone</string>
     <string name="platform_chooser_item_android_others">Andere merken</string>
@@ -682,7 +760,33 @@ moet u eerst een iCloud back-up maken."</string>
     <string name="restore_launcher_layout_hit">Launcher instellingen herstellen</string>
     <string name="restore_progress">Herstellen…</string>
     <string name="restore_report">Herstel details</string>
+    <string name="restore_suspend_fail_summary_pad">Verbinding verbroken. Zodra uw tablet verbinding heeft met hetzelfde netwerk als SmartStorage, tikt u op \"Opnieuw proberen\" om het herstel te hervatten.</string>
+    <string name="restore_suspend_fail_summary_phone">Verbinding verbroken. Zodra uw telefoon verbinding heeft met hetzelfde netwerk als SmartStorage, tikt u op \"Opnieuw proberen\" om het herstel te hervatten.</string>
+    <string name="restore_suspend_summary_pad">Verbinding verbroken. Zodra uw tablet verbinding maakt met hetzelfde netwerk als SmartStorage, wordt het herstel automatisch hervat.</string>
+    <string name="restore_suspend_summary_phone">Verbinding verbroken. Zodra uw telefoon verbinding maakt met hetzelfde netwerk als SmartStorage, wordt het herstel automatisch hervat.</string>
+    <string name="restore_suspend_title">Herstel gepauzeerd. Opnieuw verbinding maken…</string>
+    <string name="restore_tab">Herstellen</string>
     <string name="restore_telephony_hit">Het herstelproces zal de applicatie opnieuw opstarten.</string>
+    <string name="restore_tips_dialog_summary">U staat op het punt WeChat-gegevens te herstellen. Hiermee worden de huidige WeChat-gegevens overschreven met de back-up van %s. Deze actie kan niet ongedaan worden gemaakt. Ga voorzichtig te werk.</string>
+    <string name="restore_tips_dialog_title">Let op</string>
+    <string name="resume_backup_nas_task_dialog_title">Onvoltooide back-up</string>
+    <string name="resume_backup_toast">Back-up maken naar SmartStorage…</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"Back-uptijd: %1$s
+Back-upgrootte: %2$s
+Beschikbare tabletopslag: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"Back-uptijd: %1$s
+Back-upgrootte: %2$s
+Beschikbare telefoonopslag: %3$s"</string>
+    <string name="resume_nas_task_dialog_summary_pad">"Back-uptijd: %1$s
+Back-upgrootte: %2$s
+Beschikbare SmartStorage-ruimte: %3$s
+Beschikbare tabletopslag: %4$s"</string>
+    <string name="resume_nas_task_dialog_summary_phone">"Back-uptijd: %1$s
+Back-upgrootte: %2$s
+Beschikbare SmartStorage-ruimte: %3$s
+Beschikbare telefoonopslag: %4$s"</string>
+    <string name="resume_restore_nas_task_dialog_title">Onvoltooide restauratie</string>
+    <string name="resume_restore_toast">Herstellen vanuit SmartStorage…</string>
     <string name="retry">Opnieuw proberen</string>
     <string name="reverse_all">Alles wissen</string>
     <string name="revoke_permission_dialog_content">U kunt geen back-up maken van items of deze herstellen zonder alle verplichte toestemmingen. Toestemmingen toch intrekken?</string>
@@ -835,6 +939,7 @@ Maak minstens %s vrij."</string>
     <string name="time_picker_dialog_title">Tijd instellen</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tips_date_format">dd-MM-yyyy HH:mm</string>
     <string name="title_compatibility_mode">App-compatibiliteitsmodus</string>
     <string name="today">Vandaag</string>
     <string name="tomorrow">Morgen</string>
@@ -1028,6 +1133,7 @@ en Mi Mover ingeschakeld is"</string>
     <string name="tuesday_shortest">Di</string>
     <string name="unit_byte">B</string>
     <string name="unknown_hint">Onbekend</string>
+    <string name="usb_backup_and_restore">USB-stick</string>
     <string name="usb_backup_select_data_too_large">"Geselecteerde bestanden zijn groot. Zorg dat de USB-stick voldoende opslagruimte heeft.
 Zet alleen belangrijke items over."</string>
     <string name="usb_restore_select_data_too_large">"Back-upbestanden zijn groot. Het kan enige tijd duren om ze te herstellen.
