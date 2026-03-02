@@ -192,10 +192,10 @@
     <string name="ai_action_toast_poor_network_v2">የአውታረ መረብ ስህተት ተፈጥሯል። የአውታረ መረብ ቅንብሮችዎን ይፈትሹ እና እንደገና ይሞክሩ።</string>
     <string name="ai_action_toast_request_time_out">ጥያቄው ጊዜው አልፎ ተዘግቷል። አንድ ደቂቃ ወይም ሁለት ይጠብቁ እና እንደገና ይሞክሩ።</string>
     <string name="ai_action_toast_request_time_out_v2">ጥያቄው ጊዜው አልፎ ተዘግቷል። አንድ ደቂቃ ወይም ሁለት ይጠብቁ እና እንደገና ይሞክሩ።</string>
-    <string name="ai_compliance_bottom_dialog_description">You can choose to add an \"AI-generated\" label to images edited using generative AI features. You can turn this feature on or off in More > Feature settings > Label AI-generated items</string>
-    <string name="ai_compliance_bottom_dialog_video_description">You can choose to add a label to images or videos edited using generative AI features. You can turn this feature on or off in More > Feature settings > Label AI-generated items</string>
-    <string name="ai_compliance_menu_pop_description">You can add an \"AI-generated\" label to images edited using generative AI features</string>
-    <string name="ai_compliance_menu_pop_video_description">Add a label to images or videos edited using generative AI features</string>
+    <string name="ai_compliance_bottom_dialog_description">የAI ፈጠራ ባህሪያትን በመጠቀም ለተስተካከሉ ምስሎች \"በAI-የተፈጠረ\" የሚል መለያ ማከል ይችላሉ። ይህንን ባህሪ በተጨማሪ > የባህሪ ቅንብሮች > በAI-የተፈጠሩ ንጥሎችን ምልክት ያድርጉ ውስጥ ማብራት ወይም ማጥፋት ይችላሉ</string>
+    <string name="ai_compliance_bottom_dialog_video_description">አመንጪ የAI ባህሪዎችን በመጠቀም አርትዕ ወደተደረጉ ምስሎች ወይም ቪዲዮዎች መለያ ለማከል መምረጥ ይችላሉ። ይህንን ባህሪ በተጨማሪ > የባህሪ ቅንብሮች > በAI-የተፈጠሩ ንጥሎችን ምልክት ያድርጉ ውስጥ ማብራት ወይም ማጥፋት ይችላሉ</string>
+    <string name="ai_compliance_menu_pop_description">የAI ፈጠራ ባህሪያትን በመጠቀም ለተስተካከሉ ምስሎች \"በAI-የተፈጠረ\" የሚል መለያ ማከል ይችላሉ</string>
+    <string name="ai_compliance_menu_pop_video_description">አመንጪ የAI ባህሪዎችን በመጠቀም አርትዕ ወደተደረጉ ምስሎች ወይም ቪዲዮዎች መለያ ያክሉ</string>
     <string name="ai_emote_loading_expression_list">አገላለጽ በመፍጠር ላይ…</string>
     <string name="ai_emote_loading_expression_replace">አገላለጽን በመቀየር ላይ…</string>
     <string name="ai_emote_loading_title">አገላለጽ በመፍጠር ላይ…</string>
@@ -520,7 +520,7 @@
     <string name="collage_title_poster">ፖስተር</string>
     <string name="collage_title_stitching">የፊልም ጥቅልል</string>
     <string name="collage_video_export_image">ፎቶ</string>
-    <string name="collage_video_export_livephoto">ተለዋዋጭ እትዮች</string>
+    <string name="collage_video_export_livephoto">Live moments</string>
     <string name="collage_video_export_video">ቪዲዮ</string>
     <string name="collage_video_title">አርትዕ</string>
     <string name="collage_video_video_time_limit">እስከ %d ሰከንዶች ያሉ ቪዲዮዎች ይደገፋሉ</string>
@@ -574,10 +574,10 @@
     <string name="common_open_string">በርቷል</string>
     <string name="common_signin_button_text">ግባ</string>
     <string name="common_signin_button_text_long">በGoogle ይግቡ</string>
-    <string name="convert_livephoto_title">ወደ ተለዋዋጭ ፎቶ ቀይር</string>
-    <string name="convert_livephoto_video_not_support">ይህን ቪዲዮ ወደ ተለዋዋጭ ቀረጻ መቀየር አይቻልም</string>
+    <string name="convert_livephoto_title">Convert to live moment</string>
+    <string name="convert_livephoto_video_not_support">"Can't convert this video to live moment"</string>
     <string name="convert_livephoto_video_not_support_v2">ይህ የቪዲዮ ቅርጸት አይደገፍም። ሌላ ቪዲዮ ይሞክሩ።</string>
-    <string name="convert_livephoto_video_time_limit">እስከ %d ሰከንዶች ርዝመት ያላቸው ቪዲዮዎች ብቻ ወደ ተለዋዋጭ ቀረጻዎች ሊቀየሩ ይችላሉ</string>
+    <string name="convert_livephoto_video_time_limit">Only videos up to %d seconds can be converted to live moments</string>
     <string name="convert_static_photo_hint">ወደ መደበኛ ፎቶ ተቀይሯል</string>
     <string name="copy">ቅዳ</string>
     <string name="crop_label">የተቆረጡ ፎቶዎች</string>
@@ -969,45 +969,30 @@
     <string name="image_with_time">በ%s የተነሳ ፎቶ</string>
     <string name="image_with_time_and_location">በ%1$s የተነሳ ፎቶ። ቦታ፦ %2$s።</string>
     <string name="item_view_role_description">ትር</string>
-    <string name="legendary_confirm">\u0010ጘትቦኋም</string>
-    <string name="legendary_desc_m3">"j዇ቊሧጏ
-ዂቊሢጒጢ
-኿፯፯ሇ
-኏ኹ
-ኇሡመኇ
-ዂ቏ሇ
-኏ሯሧ
-ሒኁሁኺ቟
-ሢሱጧኲ቟
-fOCIK
-oYYOD^CKF
-፤ቜዤ቗ዤ኿
-ዂ፠ሧሷ
-ጧ፠቟\u0007ሱቪኺ቉ቊሀ዁
-቞ኇኸኄ቗኿
-ቊሲጊቪሷ
-዁ሙዟጣፈ"</string>
-    <string name="legendary_desc_m9">\u001bሓኾጞ጖;ቻጸሆ;ጾሲ;዆ሶ዆ሶ;ኾኈ;ሓቫጳሀሱ;ቫፓጾሴዑ፸;ጓሐጶ;ዮሆጥቦ፸;W~rxz;^hh~uorzw;ፕቭዕቦዕ኎;ቻ኶ሐዖዮ;ሐዶ;ዳቫሃሻሳቫ;ዳሆሮሖ;ሀቛኋቸቻሱደ኎;ቻሃጻቛሆ;ደረዮጒ፹</string>
-    <string name="legendary_image_not_support">TWuz3`4df{wqgg4qp}`qp4}yusqg</string>
-    <string name="legendary_info_title">\u000c@ieom,I\u007f\u007fibxem`</string>
-    <string name="legendary_notification_channel_name">vzS_UW\u0016sEESXB_WZ\u0016ርህዾቴዝዸቋ</string>
-    <string name="legendary_notification_complete">vzS_UW\u0016sEESXB_WZ\u0016ሴ዆ቇ\u0016ቆ጖እችሻ</string>
-    <string name="legendary_notification_failed">+gNBHJ\u000bnXXNE_BJG\u000bሩዛ቞ኾ\u000bሰጋኸቫቮ\u000bኋሦቛቐሣሶ</string>
-    <string name="legendary_notification_processing">s\u007fVZPR\u0013v@@V]GZR_\u0013ቓረሆኟ዆\u0013ሸዞ―</string>
-    <string name="legendary_notification_queued">\u0006Jcoeg&amp;Cuuchrogj&amp;ግራ&amp;ሎምሳኪዳ&amp;ቦሞጦብቦቃ&amp;ልያ†</string>
-    <string name="legendary_notification_retry">\u000bኮኞዻጃኘ+ሃሓጋሓሦ+ሓቸ+ዠዾሦጂ</string>
-    <string name="legendary_notification_see_result">qዼጕቀኤ\u0011ሹሩሩሼኙቄ\u0011ሩቂ\u0011ዚዄሜጸ</string>
-    <string name="legendary_poor_network">_Omp|zllvqx?r~f?k~tz?spqxzm?{jz?kp?oppm?qzkhpmt?lvxq~s1?\\wz|t?fpjm?qzkhpmt?lzkkvqxl1</string>
-    <string name="legendary_render_notice">\u000eሌዾቿ.዆ዾ.+?*j.ሾኦኛዸታ.ዥላሃ.ዣ዆ሻዽሃ፬.ኦሖቾጃቮሤዥዃ.ሖዃጭቻ.ዣታህሇ፬\u0004ሼጮኝ቎ቋ.ሕሽ዆ቌዥ.ዣዾሣሻዀችሃ፬</string>
-    <string name="legendary_source_delected">\u001aNrsi:jrunu:r{i:x\u007f\u007ft:~\u007fv\u007fn\u007f~</string>
+    <string name="legendary_confirm">\u0011ጙቴቧኊሜ</string>
+    <string name="legendary_desc_m3">\u001aዷቺሗጿ:ዲቺሒጢጒ:኏፟፟ሷ:኿኉:኷ሑረ኷:ዲቿሷ:኿ሟሗ:ሢ኱ሱኊቯ:ሒሁ጗ኂቯ:V\u007fsy{:_ii\u007ftns{v:ፔቬዔቧዔ኏:ዲፐሗሇ:጗ፐቯ7ሁቚኊቹቺሰዱ:ቮ኷ኈኴቧ኏:ቺሂጺቚሇ:ዱሩዯጓ፸</string>
+    <string name="legendary_desc_m9">[ሓኾጞ጖;ቻጸሆ;ጾሲ;዆ሶ዆ሶ;ኾኈ;ሓቫጳሀሱ;ቫፓጾሴዑ፸;ጓሐጶ;ዮሆጥቦ፸;W~rxz;^hh~uorzw;ፕቭዕቦዕ኎;ቻ኶ሐዖዮ;ሐዶ;ዳቫሃሻሳቫ;ዳሆሮሖ;ሀቛኋቸቻሱደ኎;ቻሃጻቛሆ;ደረዮጒ፹</string>
+    <string name="legendary_image_not_support">3ናሞቆዦ\u0013ዛቃዃማጺ\u0013ሮሆሽ቎ኦ\u0013ረኛአዻኦ\u0013ናዞቈሾሮ</string>
+    <string name="legendary_info_title">"
+Focik*Oyyod~ckf"</string>
+    <string name="legendary_notification_channel_name">fjCOEG\u0006cUUCHROGJ\u0006ሽሕዮቤውየቛ</string>
+    <string name="legendary_notification_complete">/cJFLN\u000fj\\\\JA[FNC\u000fርዟ቞\u000f቟ጏኼቤሢ</string>
+    <string name="legendary_notification_failed">\u000eBkgmo.K}}k`zgob.ሌዾቻኛ.ሕጮኝ቎ቋ.ኮሃቾትሆሓ</string>
+    <string name="legendary_notification_processing">\u001fSzv|~?Zllzqkv~s?ቿሄሪኳዪ?ሔዲ‹</string>
+    <string name="legendary_notification_queued">\u0013_vzpr3V``v}gzr\u007f3ጘሾ3ማለሦ኿ዦ3ታላጳተታቖ3መዾ‵</string>
+    <string name="legendary_notification_retry">2ኗኧዂጺኡ\u0012ሺሪጲሪሟ\u0012ሪቁ\u0012ዙ዇ሟጻ</string>
+    <string name="legendary_notification_see_result">\u0010ዝጴቡኅ0መለለምኸብ0ለባ0ዻዥሽጙ</string>
+    <string name="legendary_poor_network">tቔዄኟሯ\u0014ዜኔዹቇሜ\u0014ሬሜቑ\u0014ሆጹኧሹ\u0014ሩኙኡዟቁ\u0014ሯኜኧዼኡ\u0014ሜዬሩ\u0014ዟሼ\u0014ጾየ\u0014ሾዼሁ዁\u0014ዙ቉ሿሹፖ\u0014ዜኔዹቇሜ\u0014ሬሜቑ\u0014ቱኡቑሚ቉ዺኡ\u0014ዙ፼ቁልፖ</string>
+    <string name="legendary_render_notice">8ሺወ቉\u0018ደወ\u0018\u001d\u0009\u001c\\\u0018ለነክዎቅ\u0018ዓሽስ\u0018ዕደልዋስፚ\u0018ነሠቈጵቘሒዓድ\u0018ሠድጛቍ\u0018ዕቅሳሱፚ2ሊጘካቸች\u0018ሣላደቺዓ\u0018ዕወሕልዶቋስፚ</string>
+    <string name="legendary_source_delected">auIHR\u0001QINUN\u0001I@R\u0001CDDO\u0001EDMDUDE</string>
     <string name="live_convert_static_hint_description">ይህ አርትዖት ምስሉን ወደ መደበኛ ፎቶ ይቀይረዋል። ያም ሆኖ ይቀጥል?</string>
-    <string name="live_convert_static_hint_title">የተለዋዋጭ ቀረጻ ቀይር</string>
-    <string name="live_edit_close_hint_description">ይህ ምስል ወደ መደበኛ ፎቶ ተቀይሯል። ተለዋዋጭ ቀረጻውን ለመመለስ ይህንን ለውጥ ይቀልብሱ ወይም ዋናውን ምስል ይመልሱ።</string>
-    <string name="live_edit_close_hint_title">የተለዋዋጭ ቀረጻ ውጤቶችን ማስተካከል አይቻልም</string>
-    <string name="live_not_support_save_hint">ይህ ተለዋዋጭ ቀረጻ የውጤት ማስተካከያዎችን አይደግፍም እና ወደ መደበኛ ፎቶ ተቀይሯል። እንደ አዲስ ቅጂ ሆኖ ይቀመጣል።</string>
-    <string name="live_not_support_toast_hint">ይህ ተለዋዋጭ ቀረጻ የውጤት ማስተካከያዎችን አይደግፍም እና ወደ መደበኛ ፎቶ ተቀይሯል</string>
-    <string name="live_photo_guide_desc_edit_grade">የመጀመሪያ የእንቅስቃሴ ውጤቶቹን ሳያጡ ተለዋዋጭ ምስሎችን መቁረጥ፣ ማጣሪያዎችን መተግበር እና የሚታዩ ምልክቶችን ማከል ይችላሉ</string>
-    <string name="live_photo_guide_tittle_edit_grade">ለተለዋዋጭ ምስሎች ሙሉ ለሙሉ አዲስ የሆነ አርትዖት</string>
+    <string name="live_convert_static_hint_title">Convert live moment</string>
+    <string name="live_edit_close_hint_description">This image has been converted to a regular photo. Undo this change or restore the original image to bring back the live moment.</string>
+    <string name="live_edit_close_hint_title">"Can't adjust live moment effects"</string>
+    <string name="live_not_support_save_hint">"This live moment doesn't support effect adjustments and has been converted to a regular photo. It will be saved as a new copy."</string>
+    <string name="live_not_support_toast_hint">"This live moment doesn't support effect adjustments and has been converted to a regular photo"</string>
+    <string name="live_photo_guide_desc_edit_grade">You can crop, apply filters, and add watermarks to live moments without losing the original motion effects</string>
+    <string name="live_photo_guide_tittle_edit_grade">All-new editing for live moments</string>
     <string name="loading">ትንሽ ጊዜ ይጠብቁ</string>
     <string name="loading_text_format" formatted="false">ከፎቶዎች የግል መረጃን በመሰረዝ ላይ (%d/%d)…</string>
     <string name="loading_video_compress_lib">የቪዲዮ መጭመቂያ ተሰኪን በማውረድ ላይ…</string>
@@ -1148,9 +1133,9 @@ oYYOD^CKF
     <string name="motion_photo_audio_off">ኦዲዮ ጠፍቷል</string>
     <string name="motion_photo_audio_on">ኦዲዮ በርቷል</string>
     <string name="motion_photo_cancel">ይቅር</string>
-    <string name="motion_photo_decode_failed">ለዚህ ተለዋዋጭ ቀረጻ ሽፋን መቀየር አይቻልም</string>
+    <string name="motion_photo_decode_failed">"Can't change cover for this live moment"</string>
     <string name="motion_photo_export_gif_limit">ከ%d ሰከንዶች በላይ ርዝመት ካላቸው ቪዲዮዎች GIF መፍጠር አይቻልም</string>
-    <string name="motion_photo_re_pick_title">ተለዋዋጭ እትዮች</string>
+    <string name="motion_photo_re_pick_title">Live moments</string>
     <string name="motion_photo_save_fail">ማስቀመጥ አልተቻለም</string>
     <string name="motion_photo_save_fail_v2">ማስቀመጥ አልተቻለም። አንድ ደቂቃ ወይም ሁለት ይጠብቁ እና እንደገና ይሞክሩ።</string>
     <string name="motion_photo_save_gif">እንደ GIF ወደ ውጭ ላክ</string>
@@ -1447,7 +1432,7 @@ oYYOD^CKF
     <string name="photo_editor_gallery_frame_darkmode_white">ነጭ</string>
     <string name="photo_editor_gallery_frame_device_only">ይህ ባህሪ በዚህ መሳሪያ በተነሱ ፎቶዎች ላይ ብቻ ጥቅም ላይ ሊውል ይችላል</string>
     <string name="photo_editor_gallery_frame_dynamic_effects">ተለዋዋጭ ውጤቶች</string>
-    <string name="photo_editor_gallery_frame_dynamic_effects_hint">ተለዋዋጭ ውጤት ከጨመሩ በኋላ፣ በተለዋዋጭ ፎቶዎች ገጽ ላይ ቅድመ እይታውን ይመልከቱ</string>
+    <string name="photo_editor_gallery_frame_dynamic_effects_hint">After adding a dynamic effect, preview it on the live moments page</string>
     <string name="photo_editor_gallery_frame_icon_gps">አቀማመጦች</string>
     <string name="photo_editor_gallery_frame_icon_location">ቦታ</string>
     <string name="photo_editor_gallery_frame_icon_time">ሰዓት</string>
@@ -1655,12 +1640,12 @@ oYYOD^CKF
     <string name="photo_editor_setting_algorithm_info_image_large_model_algorithm_name">ስም፦ 小米图像大模型算法</string>
     <string name="photo_editor_setting_algorithm_info_image_large_model_record_number">የምዝገባ ቁጥር፦ 网信算备110108916280901240029号</string>
     <string name="photo_editor_setting_algorithm_info_image_large_model_subject_name">የሕጋዊ አካል ስም፦ Beijing Xiaomi Mobile Software Co., Ltd.</string>
-    <string name="photo_editor_setting_algorithm_info_name">Name: %1$s</string>
+    <string name="photo_editor_setting_algorithm_info_name">ስም፦ %1$s</string>
     <string name="photo_editor_setting_algorithm_info_pengpai_image_algorithm_name">ስም፦ 小米澎湃影像</string>
     <string name="photo_editor_setting_algorithm_info_pengpai_image_record_number">የምዝገባ ቁጥር፦ Beijing-XiaoMiPengPaiYingXiang-202506250091</string>
     <string name="photo_editor_setting_algorithm_info_pengpai_vision_algorithm_name">ስም፦ 小米澎湃视觉</string>
     <string name="photo_editor_setting_algorithm_info_pengpai_vision_record_number">የምዝገባ ቁጥር፦ Beijing-XiaoMiPengPaiShiJue-202503180057</string>
-    <string name="photo_editor_setting_algorithm_info_record_number">Registration number: %1$s</string>
+    <string name="photo_editor_setting_algorithm_info_record_number">የምዝገባ ቁጥር፦ %1$s</string>
     <string name="photo_editor_setting_revoke_privacy_dialog_confirm_with_countdown">ይውጣ (%1$d)</string>
     <string name="photo_editor_setting_revoke_privacy_dialog_msg">ከቀጠሉ፣ ለጋለሪ ማስተካከያ የግላዊነት ፖሊሲ የሰጡትን ስምምነት ያነሳሉ። የእርስዎን የግል መረጃ መሰብሰብ እናቆማለን፣ አስቀድሞ የተሰበሰበው እና የተያዘው የግል መረጃም በሚመለከታቸው ህጎችና ደንቦች መሠረት በተጠቀሰው የጊዜ ገደብ ውስጥ ይሰረዛል። ጋለሪ ማስተካከያ አገልግሎቶቹን የሚሰጠው አስፈላጊ የግል መረጃዎችን በመሰብሰብ ላይ የተመሠረተ በመሆኑ፣ የእርስዎ የስምምነት ማቋረጥ እነዚህን አገልግሎቶች ለመቀበል እንደ እምቢተኝነት ይቆጠራል። አሁን ስምምነትን ማቋረጥ ይፈልጋሉ?</string>
     <string name="photo_editor_setting_revoke_privacy_dialog_title">የስምምነት ማቋረጥ</string>
@@ -1739,12 +1724,12 @@ oYYOD^CKF
     <string name="photo_editor_video_generation_cache_origin_dialog_title">ትኩረት</string>
     <string name="photo_editor_video_generation_export">ወደ ጋለሪ ያስቀምጡ</string>
     <string name="photo_editor_video_generation_export_again">እንደገና ፍጠር</string>
-    <string name="photo_editor_video_generation_export_live">ከተለዋዋጭ ቀረጻ ጋር አስቀምጥ</string>
+    <string name="photo_editor_video_generation_export_live">Save as live moment</string>
     <string name="photo_editor_video_generation_export_video">ቪዲዮውን ወደ ጋለሪ አስቀምጥ</string>
     <string name="photo_editor_video_generation_loading_page_background">ከበስተጀርባ ጫን</string>
     <string name="photo_editor_video_generation_loading_page_fail">ይህንን ገጽ መጫን አልተቻለም። ድጋሜ ሞክር</string>
     <string name="photo_editor_video_generation_loading_page_retry">ድጋሜ ሞክር</string>
-    <string name="photo_editor_video_generation_loading_page_time_out">"Couldn't load. Check your network settings."</string>
+    <string name="photo_editor_video_generation_loading_page_time_out">መጫን አልተቻለም። የአውታረ መረብ ቅንብሮችዎን ይፈትሹ።</string>
     <string name="photo_editor_video_generation_spring_festival">የቻይና አዲስ ዓመት ውጤት</string>
     <string name="photo_editor_video_generation_spring_festival_blessing_dialog_hint">ግጥም ለማመንጨት እስከ %1$d ቁምፊዎችን ያስገቡ</string>
     <string name="photo_editor_video_generation_spring_festival_blessing_dialog_title">ግጥም አበጅ</string>
@@ -1753,8 +1738,8 @@ oYYOD^CKF
     <string name="photo_editor_video_generation_spring_festival_card_blessing_null">ምንም መልዕክት የለም</string>
     <string name="photo_editor_video_generation_spring_festival_card_blessing_random">የዘፈቀደ መልዕክት</string>
     <string name="photo_editor_video_generation_spring_festival_card_illegal_input_toast">ይህ ይዘት መመሪያዎቻችንን ሊጥስ ይችላል። እንደገና ይሞክሩ።</string>
-    <string name="photo_editor_video_generation_spring_festival_end_toast">"This feature isn't available"</string>
-    <string name="photo_editor_video_generation_spring_festival_exceed_task_limit_toast">Wait for the current task to complete before adding another</string>
+    <string name="photo_editor_video_generation_spring_festival_end_toast">ይህ ባህሪ አይገኘም</string>
+    <string name="photo_editor_video_generation_spring_festival_exceed_task_limit_toast">ሌላ ከማከልዎ በፊት የአሁኑ ተግባር እስኪጠናቀቅ ድረስ ይጠብቁ</string>
     <string name="photo_editor_video_generation_spring_festival_function_invalid_toast">A server error occurred. Check your date and time settings or network settings.</string>
     <string name="photo_editor_video_generation_spring_festival_guide_dialog_correct">Good example</string>
     <string name="photo_editor_video_generation_spring_festival_guide_dialog_cover_face">Face is covered</string>
@@ -1765,21 +1750,21 @@ oYYOD^CKF
     <string name="photo_editor_video_generation_spring_festival_guide_dialog_tip_for_people">For videos or cards, upload a clear, front-facing photo of one person</string>
     <string name="photo_editor_video_generation_spring_festival_guide_dialog_tip_for_pet">For pet-themed greetings, upload a clear, front-facing photo of one pet</string>
     <string name="photo_editor_video_generation_spring_festival_guide_dialog_title">Instructions</string>
-    <string name="photo_editor_video_generation_spring_festival_introduction">Chinese New Year effect is available now. Create festive videos, cards, or pet-themed greetings for the holiday season.</string>
-    <string name="photo_editor_video_generation_spring_festival_introduction_enter">Try</string>
+    <string name="photo_editor_video_generation_spring_festival_introduction">የቻይና አዲስ ዓመት ውጤት አሁን ይገኛል። ለበዓል ወቅት የበዓል ቪዲዮዎችን፣ ካርዶችን ወይም የቤት እንስሳት ገጽታን የሚያካትቱ ሰላምታዎችን ይፍጠሩ።</string>
+    <string name="photo_editor_video_generation_spring_festival_introduction_enter">ሞክር</string>
     <string name="photo_editor_video_generation_spring_festival_no_pet_toast">የቤት እንስሳውን ማወቅ አልተቻለም። እንደገና ይሞክሩ።</string>
-    <string name="photo_editor_video_generation_spring_festival_notification_channel_name">Chinese New Year effect</string>
+    <string name="photo_editor_video_generation_spring_festival_notification_channel_name">የቻይና አዲስ ዓመት ውጤት</string>
     <string name="photo_editor_video_generation_spring_festival_notification_complete_msg">%d የተጠናቀቀ ተግባር አለዎት። ለመመልከት ጠቅ ያድርጉ።</string>
     <string name="photo_editor_video_generation_spring_festival_notification_complete_title">በተሳካ ሁኔታ ተፈጥሯል</string>
-    <string name="photo_editor_video_generation_spring_festival_notification_fail_msg">Tap to generate again</string>
-    <string name="photo_editor_video_generation_spring_festival_notification_fail_title">"Couldn't generate"</string>
+    <string name="photo_editor_video_generation_spring_festival_notification_fail_msg">እንደገና ለማመንጨት መታ ያድርጉ</string>
+    <string name="photo_editor_video_generation_spring_festival_notification_fail_title">ማመንጨት አልተቻለም</string>
     <string name="photo_editor_video_generation_spring_festival_notification_processing_msg">ሂደቱን ለማየት መታ ያድርጉ</string>
     <string name="photo_editor_video_generation_spring_festival_notification_processing_title">የቻይና አዲስ ዓመት ውጤት በመፍጠር ላይ…%s</string>
-    <string name="photo_editor_video_generation_spring_festival_notification_time_out_msg">Check your network settings</string>
-    <string name="photo_editor_video_generation_spring_festival_notification_time_out_title">Generation timed out</string>
+    <string name="photo_editor_video_generation_spring_festival_notification_time_out_msg">የአውታረ መረብ ቅንብሮችዎን ይፈትሹ</string>
+    <string name="photo_editor_video_generation_spring_festival_notification_time_out_title">የማመንጨት ጊዜው አልፎበታል</string>
     <string name="photo_editor_video_generation_spring_festival_pet">የቤት እንስሳ</string>
     <string name="photo_editor_video_generation_spring_festival_single_pet_toast">አንድ የቤት እንስሳ ያለበትን ፎቶ ይስቀሉ እና እንደገና ይሞክሩ</string>
-    <string name="photo_editor_video_generation_spring_festival_tasks_empty_hint">Nothing here yet</string>
+    <string name="photo_editor_video_generation_spring_festival_tasks_empty_hint">እስካሁን እዚህ ምንም የለም</string>
     <string name="photo_editor_video_generation_spring_festival_tasks_notice">"የቻይና አዲስ ዓመት ውጤት ለተወሰነ ጊዜ የሚቆይ ባህሪ ነው።
 ከ%s በኋላ አይገኝም።"</string>
     <string name="photo_editor_video_generation_spring_festival_video">ቪዲዮ</string>
@@ -1826,13 +1811,13 @@ oYYOD^CKF
     <string name="photo_guide_tittle_quality_enhance_new_change">ሙሉ በሙሉ አዲስ Ultra HD</string>
     <string name="photo_guide_tittle_smart_beauty_new_change">AI ማስዋቢያ</string>
     <string name="photo_guide_tittle_watermark_new_change">የተሻሻሉ የሚታዩ ምልክቶች</string>
-    <string name="photo_legendary_go_edit">:ቊጒሡሐ\u001aኚሡሑጔቇ</string>
-    <string name="photo_legendary_render">9ጹሤሔ</string>
-    <string name="photo_legendary_render_background">Mቸችለ-ዀጮ</string>
-    <string name="photo_legendary_render_cancel">cኃሖያጮዖ</string>
-    <string name="photo_legendary_render_done">\u0001ቱኩኒዌኖሌ</string>
-    <string name="photo_legendary_render_pending">\u0003ባመዛገጃቶ#ለዮ‥</string>
-    <string name="photo_legendary_render_retry">[ኾ኎ያጓኈ;ጛሆሶ</string>
+    <string name="photo_legendary_go_edit">9቉጑ሢሓ\u0019ኙሢሒ጗ቄ</string>
+    <string name="photo_legendary_render">\"ጢሿሏ</string>
+    <string name="photo_legendary_render_background">Vባቦሓ6ዛጵ</string>
+    <string name="photo_legendary_render_cancel">Nኮሻ዆ጃዻ</string>
+    <string name="photo_legendary_render_done">Xቨኰኋዕ኏ሕ</string>
+    <string name="photo_legendary_render_pending">6ቖርዮጽጶቃ\u0016ሽዛ‐</string>
+    <string name="photo_legendary_render_retry">\u0009ኬኜዹጁኚ)ጉሔሤ</string>
     <string name="photo_live_photo_effect_bounce">ዝለል</string>
     <string name="photo_live_photo_effect_none">ምንም ውጤት የለም</string>
     <string name="photo_live_photo_effect_reverse">ተገላቢጦሽ</string>
@@ -1860,7 +1845,7 @@ oYYOD^CKF
     <string name="portrait_improving_skin_luster">የቆዳ አንጸባራቂነትን በመጨመር ላይ…</string>
     <string name="portrait_improving_the_texture_of_the_whole_picture">ሸካራነቶችን በማሻሻል ላይ…</string>
     <string name="portrait_optimizing_skin_texture">የቆዳ ሸካራነትን በማሻሻል ላይ…</string>
-    <string name="pref_camera_watermark_on_brief">Yቹሴቮሔ</string>
+    <string name="pref_camera_watermark_on_brief">\u0014ቴሹባሙ</string>
     <string name="pref_privacy_watermark_edit_clear_history">ታሪክ አጽዳ</string>
     <string name="pref_privacy_watermark_edit_history">ታሪክ</string>
     <string name="pref_watermark_preview_title">የሚታይ ምልክት ቅድመ እይታ</string>
@@ -1883,9 +1868,9 @@ oYYOD^CKF
     <string name="pref_wm_custom_text_title">የግል ጽሑፍ</string>
     <string name="pref_wm_default_icon">ነባሪ የሚታይ ምልክት</string>
     <string name="pref_wm_default_signature">ነባሪ የሚታይ ምልክት ፊርማ</string>
-    <string name="pref_wm_dynamic_background_summary_title">ለተለዋዋጭ ፎቶዎች ተለዋዋጭ የፍሬም ዳራ አሳይ</string>
+    <string name="pref_wm_dynamic_background_summary_title">Show dynamic frame background for live moments</string>
     <string name="pref_wm_dynamic_background_title">ተለዋዋጭ ዳራ</string>
-    <string name="pref_wm_dynamic_effect_summary_title">ተለዋዋጭ የሚታይ ምልክት ውጤቶች የሚገኙት ለተለዋዋጭ ፎቶዎች ብቻ ነው። አንድ ከጨመሩ በኋላ፣ በተለዋዋጭ ፎቶዎች ገጽ ላይ ቅድመ እይታውን ማየት ይችላሉ።</string>
+    <string name="pref_wm_dynamic_effect_summary_title">Dynamic watermark effects are only available for live moments. After adding one, you can preview it on the live moments page.</string>
     <string name="pref_wm_dynamic_effect_title">ተለዋዋጭ ውጤቶች</string>
     <string name="pref_wm_frame_background_title">የፍሬም ዳራ</string>
     <string name="pref_wm_frame_image_title">የሚታይ ምልክት ምስል</string>
@@ -1935,10 +1920,10 @@ oYYOD^CKF
     <string name="refocus_desc">እንደገና አተኩር</string>
     <string name="refocus_effect">ድብዝዝ</string>
     <string name="refocus_live_apply_origin">የብዥታ ውጤት በመጀመሪያው ሽፋን ላይ ይተገበራል</string>
-    <string name="refocus_live_disable_hint_content">ይህንን አርትዖት ከተጠቀሙ፣ ብዥታ ማስተካከል አይችሉም እና ይሄ ተለዋዋጭ ቀረጻ ወደ መደበኛ ፎቶ ይቀየራል። ያም ሆኖ ይቀጥል?</string>
+    <string name="refocus_live_disable_hint_content">"If you use this edit, you won't be able to adjust blur, and this live moment will be converted to a regular photo. Continue anyway?"</string>
     <string name="refocus_live_disable_hint_title">ውስን የአርትዖት አማራጮች</string>
     <string name="refocus_live_switch_off">ወደ መደበኛ ፎቶ ተቀይሯል። የብዥታ ማስተካከያ አይገኝም።</string>
-    <string name="refocus_live_switch_on">ተለዋዋጭ ቀረጻ እና የብዥታ ማስተካከያ አማራጮች ተመልሰዋል</string>
+    <string name="refocus_live_switch_on">Restored live moment and blur adjustment options</string>
     <string name="refocus_photo_not_support">በዚህ ፎቶ ላይ ብዥታ ማስተካከል አይቻልም</string>
     <string name="refocus_reset_content">ይህንን አርትዖት ከተጠቀሙ፣ ብዥታ ማስተካከል አይችሉም። ያም ሆኖ ይቀጥል?</string>
     <string name="refocus_reset_title">የብዥታ ማስተካከያን አጥፋ</string>
@@ -1953,7 +1938,7 @@ oYYOD^CKF
     <string name="remover_edit_type_line">መስመሮች</string>
     <string name="remover_erase_aera_too_big">የማጥፊያ ቦታው በጣም ትልቅ ነው</string>
     <string name="remover_menu_processing">በማቀናበር ላይ</string>
-    <string name="return_motion_photo_hint">ወደ ተለዋዋጭ ቀረጻ ተመልሷል</string>
+    <string name="return_motion_photo_hint">Restored to live moment</string>
     <string name="saf_operation_guide_1">"ጋለሪ ማስተካከያ ዳታዎን ለመጠበቅ እና ለማስተዳደር እንዲችል ፈቃድዎን ይፈልጋል። "</string>
     <string name="saf_operation_guide_2">ፈቃዱን ለመስጠት፣ \"%1$s\" የሚለውን መታ ያድርጉ እና ከዚያም \"%2$s\"ን ይምረጡ።</string>
     <string name="saf_operation_guide_param1">ቀጣይ</string>
@@ -2338,7 +2323,7 @@ oYYOD^CKF
     <string name="video_compress_not_with_low_quality">የአሁኑ ጥራት ዝቅተኛው ነው</string>
     <string name="video_compress_save_stop_tips">መጭመቅን ለማስቆም እንደገና መታ ያድርጉ</string>
     <string name="video_compress_size">≈%s ከተጨመቀ በኋላ</string>
-    <string name="video_description_summary_basic_editor_filter">እንደ ፊልም ወይም ጥቁር እና ነጭ ያሉ የተለያዩ የማጣሪያ ስታይሎችን በቪዲዮ ትራክዎ ላይ ይተግብሩ። እንዲሁም የማስተካከያ ማጣሪያዎችን በሎግ ቪዲዮዎች ላይ መተግበር ይችላሉ።</string>
+    <string name="video_description_summary_basic_editor_filter">Apply different filter styles to your video track, such as Film or B&amp;W. You can also download the restore LUT.</string>
     <string name="video_description_summary_basic_editor_filter_link_text">ወደ ነበረበት መላሽ LUTን ያውርዱ</string>
     <string name="video_description_summary_basic_editor_music">የመስመር ላይ ወይም የአካባቢ ሙዚቃን ወደ የእርስዎ ቪዲዮ ትራክ ያክሉ።</string>
     <string name="video_description_summary_basic_editor_ratio">የቪዲዮውን ምጥጥነ ገፅታ ወደ %1$d፦%2$d፣ %3$d፦%4$d፣ %5$d፦%6$d እና ሌሎች ይቀይሩ።</string>
@@ -2441,7 +2426,7 @@ oYYOD^CKF
     <string name="video_editor_template_sports">ሮክ</string>
     <string name="video_editor_text">ጽሑፍ</string>
     <string name="video_editor_text_add">ጽሑፍ አክል</string>
-    <string name="video_editor_text_ai_caption">AI ንዑስ ርዕሶች</string>
+    <string name="video_editor_text_ai_caption">AI የትርጉም ጽሑፎች</string>
     <string name="video_editor_text_audio_to_text">የንግግር-ወደ-ጽሑፍ</string>
     <string name="video_editor_text_default">ነባሪ</string>
     <string name="video_editor_text_edit_all">ሁሉም</string>
