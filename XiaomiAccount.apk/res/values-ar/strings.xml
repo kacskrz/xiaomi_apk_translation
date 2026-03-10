@@ -50,6 +50,8 @@
     <string name="account_none_binded_info">بدون</string>
     <string name="account_none_user_name">لا شيء</string>
     <string name="account_notification_message">انتهت الجلسة. سجل الدخول مرة أخرى.</string>
+    <string name="account_removed_notification_message">تم تسجيل خروجك من حساب Mi. إذا لم تقم بهذا الإجراء، يرجى تغيير كلمة المرور.</string>
+    <string name="account_removed_notification_title">تم تسجيل خروجك من الحساب.</string>
     <string name="account_secure_info_pref_title">معلومات الحساب</string>
     <string name="account_security">حماية الحساب</string>
     <string name="account_security_info_pref_title">معلومات الحماية</string>
@@ -87,6 +89,7 @@
     <string name="area_code_no_search_result">تعذر العثور على نتائج</string>
     <string name="area_code_search_hint">البحث عن دولة أو بلد</string>
     <string name="auth_fail_warning">انتهت الدورة، قم بتسجيل الدخول لاحقاً</string>
+    <string name="auth_phone_available">التحقق من رقم هاتفك</string>
     <string name="auto_fill_not_sport_on_water_mark_version">لا يتم دعم تسجيل الدخول التلقائي في الإصدارات ذات العلامة المائية</string>
     <string name="bind_facebook">ربط حسابك بالفيسبوك</string>
     <string name="bind_google">ربط حساب Google</string>
@@ -209,6 +212,7 @@
     <string name="device_delete_success_message">إذا لم تقم بتسجيل الدخول على هذا الجهاز، فقم بتغيير كلمة المرور على الفور.</string>
     <string name="device_delete_success_title">تسجيل خروج</string>
     <string name="device_id">معرف الجهاز</string>
+    <string name="device_info_title">معلومات الجهاز</string>
     <string name="device_list_error_tip"><Data>فشل التحميل. &lt;a href=>حاول مجددا&lt;/a></Data></string>
     <string name="device_list_title">الأجهزة الخاصة بي</string>
     <string name="device_name">اسم الجهاز</string>
@@ -225,6 +229,7 @@
     <string name="empty" />
     <string name="empty_device_list">لا شيء هنا بعد</string>
     <string name="enable">الإعدادات</string>
+    <string name="enter_verification_code">أدخل الرمز</string>
     <string name="ep_unsupported">لا يمكن تسجيل الدخول إلى حساب Mi على جهازك</string>
     <string name="eras_ad">بعد الميلاد</string>
     <string name="eras_bc">قبل الميلاد</string>
@@ -389,6 +394,7 @@
     <string name="login_check_find_device">جارٍ الحصول على معلومات حماية الجهاز…</string>
     <string name="login_check_find_device_failed_title">تعذر التحقق من معلومات حماية الجهاز</string>
     <string name="login_find_device_bind">هذا الجهاز مرتبط بمعرف حساب Mi آخر (%s).</string>
+    <string name="login_full_agreement">يتيح لك تسجيل الدخول بنقرة واحدة تسجيل الدخول بسرعة إلى المنتجات والخدمات التي يقدمها مطوري الطرف الثالث باستخدام رقم الهاتف المرتبط بحساب Mi الخاص بك. عند استخدام هذه الميزة، سيقوم حساب Mi بمزامنة المعلومات الشخصية التالية مع مطوري الطرف الثالث المعنيين:&lt;br/>&lt;br/>&lt;b>رقم الهاتف المرتبط بحساب Mi&lt;/b>&lt;br/>&lt;b>OpenID (يتم إنشاؤه بناءً على حساب Mi)&lt;/b>&lt;br/>&lt;b>UnionID (يتم إنشاؤه بناءً على حساب Mi)&lt;/b>&lt;br/>&lt;br/>يمكنك إدارة أذوناتك من خلال موقع حساب Mi. عند النقر على \"أوافق\"، فإنك تؤكد أنك على علم بهذه المعالجة لمعلوماتك الشخصية وتوافق عليها.</string>
     <string name="login_notification_button_text">تسجيل الدخول</string>
     <string name="login_notification_desc">استمتع بخدمات Cloud ومساحة تخزين عائلية والمزيد</string>
     <string name="login_notification_title">سجل الدخول لحساب Mi</string>
@@ -528,6 +534,7 @@
     <string name="off">غير مفعّل</string>
     <string name="ok">موافق</string>
     <string name="on">مفعّل</string>
+    <string name="one_step_login">تسجيل الدخول بنقرة واحدة</string>
     <string name="operator_broadnet">China Broadnet</string>
     <string name="operator_mobile">تشينا موبايل</string>
     <string name="operator_mobile_agreement">خدمات التحقق مقدمة من تشينا موبايل</string>
@@ -570,7 +577,7 @@
     <string name="passport_account_user_id">معرف حساب Mi</string>
     <string name="passport_account_user_name">الاسم المستعار</string>
     <string name="passport_account_user_name_dialog_title">أدخل الاسم</string>
-    <string name="passport_account_user_phone">رقم هاتف استرداد الحساب</string>
+    <string name="passport_account_user_phone">هاتف الاسترداد</string>
     <string name="passport_active_email_visit">تحقق من علبة الوارد الخاصة بك في %s</string>
     <string name="passport_activing_account">جارٍ التفعيل…</string>
     <string name="passport_activity_not_found_notice">لا يمكن العثور على التطبيق</string>
@@ -594,14 +601,17 @@
     <string name="passport_close_dialog_hint">إذا أوقفت تشغيل هذه الميزة، فلن تكون هناك حاجة إلى المصادقة الثنائية عند تسجيل الدخول إلى حسابك. وقد يؤدي هذا إلى تقليل أمان حسابك.</string>
     <string name="passport_close_dialog_open_btn">متابعة</string>
     <string name="passport_close_two_factor_auth">إيقاف التحقق بخطوتين</string>
+    <string name="passport_completed">Done</string>
     <string name="passport_confirm_login">تسجيل الدخول</string>
+    <string name="passport_confirm_new_pwd">Confirm new password</string>
     <string name="passport_confirm_recycle_account">نعم</string>
     <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>يبدو انه&lt;/font> تم إعادة استخدام هذا الرقم %s من قِبل شركة الاتصالات، وهناك حساب Mi مرتبط به. هل هذا هو حسابك؟</string>
     <string name="passport_copy_link">نسخ URL</string>
     <string name="passport_copy_message_text_success">تم النسخ بنجاح</string>
     <string name="passport_copy_message_vcode">نسخ الرمز</string>
     <string name="passport_copy_to_clipboard_successful">تم النسخ بنجاح</string>
-    <string name="passport_cta_provision_content">يتيح لك حساب Mi التسجيل وتسجيل الدخول وإدارة حسابات النظام. للعمل بشكل صحيح، تحتاج هذه الخدمة إلى الاتصال بالإنترنت وتتطلب الأذونات التالية: الوصول إلى رقم هاتف هذا الجهاز لتسجيل الدخول السريع.</string>
+    <string name="passport_cta_provision_content">يسمح لك حساب Mi بالوصول إلى جميع خدمات Xiaomi.</string>
+    <string name="passport_cta_provision_required_permissions_desc">للوصول إلى رقم هاتف الجهاز لدعم تسجيل الدخول بنقرة واحدة، وعند استخدام وضع الفقدان في تطبيق \"العثور على الجهاز\" لإجراء مكالمات إلى الرقم الذي تقدمه؛ لإجراء مكالمات إلى رقم الهاتف الذي تقدمه عند استخدام وضع الفقدان في تطبيق \"العثور على الجهاز\"؛ لتحديد موقع جهازك عبر تطبيق \"العثور على الجهاز\"؛ لتحديد موقع جهازك عبر الرسائل النصية القصيرة عندما لا يتوفر اتصال بالشبكة؛ للوصول إلى البيانات المتعلقة بتطبيق \"العثور على الجهاز\" أو تخزينها؛ لطلب تشغيل الصوت من الجهاز في تطبيق \"العثور على الجهاز\".</string>
     <string name="passport_delete_account">تسجيل الخروج</string>
     <string name="passport_device_code_dialog_hint">لا تشارك هذا الرمز مع أي شخص</string>
     <string name="passport_dialog_captcha_title">الرمز</string>
@@ -641,6 +651,7 @@
     <string name="passport_error_sim_not_ready">لا يمكن إيجاد بطاقة SIM</string>
     <string name="passport_error_sms_limit">تم إرسال الكثير من رموز التحقق إلى هذا الرقم. حاول مرة أخرى لاحقا.</string>
     <string name="passport_error_ssl_hand_shake">تعذر الاتصال بالخادم</string>
+    <string name="passport_error_system_datetime">حدث خطأ في الشبكة. يرجى السماح بمزامنة التاريخ والوقت تلقائيًا من الإعدادات > الإعدادات الإضافية > التاريخ والوقت.</string>
     <string name="passport_error_ticket_invalid">هذا الرمز غير صحيح</string>
     <string name="passport_error_timeout_network_error">انتهت مهلة الطلب</string>
     <string name="passport_error_token_expired">انتهت صلاحية الرمز. حاول مجددا.</string>
@@ -677,6 +688,7 @@
     <string name="passport_identification_expired">انتهت صلاحية رمز التحقق، ابدأ من جديد</string>
     <string name="passport_input_captcha_hint">أدخل الرمز</string>
     <string name="passport_input_email_vcode_hint">أدخل الرمز</string>
+    <string name="passport_input_new_pwd">Enter new password</string>
     <string name="passport_input_password_for_login">هذا الرقم مقترن بحساب موجود مسبقا، إدخال كلمة المرور</string>
     <string name="passport_input_password_hint">ادخل كلمة المرور</string>
     <string name="passport_input_phone_hint">أدخل رقم الهاتف</string>
@@ -726,7 +738,7 @@
     <string name="passport_password_login_btn">تسجيل الدخول</string>
     <string name="passport_password_not_show">أخفاء كلمة المرور</string>
     <string name="passport_password_phone_login">تسجيل الدخول باستخدام حساب Mi</string>
-    <string name="passport_password_req_notice">يجب أن تكون كلمة المرور %1$d-%2$d حرف متضمنه أرقام وحروف (حساس لحالة الأحرف).</string>
+    <string name="passport_password_req_notice">يجب أن تكون كلمة المرور بطول %1$d–%2$d من الأحرف وأن تتضمن ما لا يقل عن عنصرين من العناصر التالية: الأرقام، الحروف، والرموز الخاصة.</string>
     <string name="passport_password_show">إظهار كلمة المرور</string>
     <string name="passport_phone_auto_login_register_with_local_number">إنشاء حساب</string>
     <string name="passport_phone_num_hint_text">رقم الهاتف</string>
@@ -788,6 +800,7 @@
     <string name="passport_set">تعيين</string>
     <string name="passport_set_password_hint">قم بتعيين كلمة مرور للحساب لتتمكن من استخدام التحقق بخطوتين</string>
     <string name="passport_set_password_no_phone_msg">قم بإضافة رقم هاتفك لحماية حسابك.</string>
+    <string name="passport_set_password_title">تعيين كلمة المرور</string>
     <string name="passport_setting">جارٍ الإعداد…</string>
     <string name="passport_skip_login">تخطي</string>
     <string name="passport_skip_query_account">تخطي</string>
@@ -817,6 +830,18 @@
     <string name="passport_two_factor_auth_dialog_positive_btn">تشغيل</string>
     <string name="passport_two_factor_auth_dialog_title">تسجيل الخروج من الأجهزة الأخرى</string>
     <string name="passport_two_factor_auth_hint"><Data>أكمل خطوتين من التحقق في كل مرة تسجل فيها الدخول إلى حساب Mi الخاص بك. &lt;a href= >لمعرفة المزيد&lt;/a></Data></string>
+    <string name="passport_two_factor_auth_login_locate_dialog_comment">*الموقع المعروض مُحدد بواسطة الشبكة وليس دقيقًا. إذا طلبت تسجيل الدخول هذا، فانقر على \"سماح\" لعرض رمز التحقق.</string>
+    <string name="passport_two_factor_auth_login_locate_dialog_message">يحاول أحدهم تسجيل الدخول إلى حسابك Mi (%1$s) على %3$s بالقرب من %2$s. هل تريد السماح؟</string>
+    <string name="passport_two_factor_auth_login_locate_dialog_message_without_location">يحاول أحدهم تسجيل الدخول إلى حسابك Mi (%1$s) على %2$s. هل تريد السماح بذلك؟</string>
+    <string name="passport_two_factor_auth_login_locate_dialog_negative_btn">رفض</string>
+    <string name="passport_two_factor_auth_login_locate_dialog_positive_btn">سماح</string>
+    <string name="passport_two_factor_auth_login_locate_dialog_title">طلب تسجيل الدخول إلى حساب Mi</string>
+    <string name="passport_two_factor_auth_push_message">يحاول شخص ما تسجيل الدخول إلى حسابك Mi على %s</string>
+    <string name="passport_two_factor_auth_push_title">التحقق من حساب Mi</string>
+    <string name="passport_two_factor_change_password_dialog_message">إذا لم تقم بتقديم هذا الطلب، فنوصيك بتغيير كلمة المرور الخاصة بك.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">إلغاء</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">تغيير</string>
+    <string name="passport_two_factor_change_password_dialog_title">تغيير كلمة المرور</string>
     <string name="passport_two_factor_set_password_hint">قم بتعيين كلمة مرور للحساب لتتمكن من استخدام التحقق بخطوتين</string>
     <string name="passport_two_factor_set_phone_dialog_desc">قم بتعيين كلمة مرور للحساب لتتمكن من تفعيل التحقق بخطوتين.</string>
     <string name="passport_two_factor_set_phone_dialog_negative_btn">إلغاء</string>
@@ -867,6 +892,11 @@
     <string name="passport_wrong_phone_number_format">تنسيق رقم الهاتف الذي أدخلته غير صالح</string>
     <string name="passport_wrong_vcode">الرمز الذي أدخلته غير صحيح</string>
     <string name="passport_wrong_voice">الرمز الذي أدخلته غير صحيح</string>
+    <string name="password_guessable_pattern">مستوى أمان كلمة المرور منخفض. استخدم مزيجًا من الأرقام والحروف والرموز الخاصة غير المتتالية.</string>
+    <string name="password_inconsistent">كلمتا المرور غير متطابقتين. يرجى التأكيد والمحاولة مرة أخرى.</string>
+    <string name="password_invalid_format_prompt">استخدم على الأقل نوعين من التالي: أرقام، حروف، والرموز الخاصة.</string>
+    <string name="password_length_short_prompt">يجب أن تتكون كلمة المرور من %1$d إلى %2$d حرف.</string>
+    <string name="password_reused_with_in_year">كلمة المرور الجديدة هي نفسها التي استخدمتها في العام الماضي. اختر كلمة مرور جديدة تمامًا.</string>
     <string name="password_view_hide_password">إخفاء كلمة المرور</string>
     <string name="password_view_show_password">إظهار كلمة المرور</string>
     <string name="permission_group_contacts">جهات الاتصال</string>
@@ -904,10 +934,12 @@
     <string name="qrcode_login_load_retry"><Data>فشل التحميل. &lt;a href=>حاول مجددا&lt;/a>.</Data></string>
     <string name="qrcode_login_message">انتقل إلى الإعدادات> حساب Mi على جهاز Xiaomi الخاص بك وقم بمسح رمز QR لتسجيل الدخول، أو استخدم ماسح رمز QR آخر</string>
     <string name="qrcode_login_title">امسح الرمز لتسجيل الدخول</string>
+    <string name="quick_login_privacy_agreement"><Data>لقد قرأت ووافقت على الشروط والأحكام التالية: &lt;a href=%1$s>%2$s&lt;/a>، &lt;a href=%3$s>%4$s&lt;/a>، &lt;a href=%5$s>اتفاقية مستخدم &lt;/a>، و&lt;a href=%6$s>سياسة خصوصية حساب Mi&lt;/a></Data></string>
     <string name="range_end">نهاية النطاق</string>
     <string name="range_start">بداية النطاق</string>
     <string name="recycle_phone_notification_msg">يبدو انه تم إعادة استخدام رقم هاتفك. انقر للتحديث.</string>
     <string name="recycle_phone_notification_title">مخاطر حساب Mi الأمنية</string>
+    <string name="remove_btn">إزالة من الحساب</string>
     <string name="removing_account">جارٍ تسجيل الخروج…</string>
     <string name="reopen">تشغيل</string>
     <string name="request_open_permission">الأذونات مطلوبة</string>
@@ -1078,6 +1110,10 @@
     <string name="wednesday_shortest">الأربعاء</string>
     <string name="weixin">WeChat</string>
     <string name="weixin_login">تسجيل الدخول بإستخدام WeChat</string>
+    <string name="xiaomi_account_auth_login">تسجيل الدخول إلى حساب Mi</string>
+    <string name="xiaomi_account_bind_phone">رقم الهاتف المرتبط</string>
+    <string name="xiaomi_account_login">تسجيل الدخول</string>
+    <string name="xiaomi_account_one_step_login">تسجيل الدخول</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="yesterday">أمس</string>
 </resources>
