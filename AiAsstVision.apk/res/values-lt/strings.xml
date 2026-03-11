@@ -90,7 +90,7 @@
     <string name="all_settings">Visi parametrai</string>
     <string name="am">Priešpiet</string>
     <string name="antonym">Antonimai</string>
-    <string name="app_function_1">Sveiki prisijungę prie DI subtitrų! Galite naudoti šią funkciją, kad sugeneruotumėte subtitrus garsui, verstumėte realiuoju laiku ir generuotumėte išmaniąsias santraukas. Norint, kad DI subtitrai tinkamai veiktų, jie turi galėti prisijungti prie interneto.</string>
+    <string name="app_function_1">Ši programa leidžia jums naudoti DI subtitrus ir versti pokalbius. Šios funkcijos gali transkribuoti kalbą į tekstą, versti, garsiai perskaityti vertimą ir kurti santraukas. Ši programa turi prisijungti prie interneto ir jai reikalinga šie leidimai:</string>
     <string name="app_function_cn">Sveiki atvykę į vertimų programą! Šią programėlę galite naudoti verti tekstą ir garsą, ieškoti žodžių ir dar daugiau. Norint, kad veiktų normaliai, šiai programėlei reikia interneto prieigos. </string>
     <string name="app_function_global">Sveiki atvykę į „Mi“ DI vertimą! Šią programėlę galite naudoti verti tekstą ir garsą, ieškoti žodžių ir dar daugiau. Norint, kad veiktų normaliai, šiai programėlei reikia interneto prieigos. </string>
     <string name="app_name_cn">Versti</string>
@@ -189,6 +189,8 @@
     <string name="date_picker_lunar">Tradicinis kinų kalendorius</string>
     <string name="date_time_picker_dialog_title">Nustatyti datą ir laiką</string>
     <string name="decompression_hint_text">Išarchyvuojama…</string>
+    <string name="default_home_state_floating">Laikinasis langas</string>
+    <string name="default_home_state_full_screen">Visaekranis režimas</string>
     <string name="delete_message">Trinti</string>
     <string name="delete_phrase">Ištrinti frazę</string>
     <string name="desktop_shortcuts">Pagrindinio ekrano nuoroda</string>
@@ -359,8 +361,8 @@ Saugokite subtitrų turinį kaip užrašus"</string>
     <string name="join_improvement_plan_dialog_content_cn">Prisijunkite prie mūsų Naudotojų patirties programos, kad padėtumėte mums geriau suprasti jūsų poreikius ir pagerinti vertimų programos tikslumą bei naudotojų patirtį. Rimtai saugome jūsų privatumą. Prisijungti dabar?</string>
     <string name="join_improvement_plan_dialog_content_global">Prisijunkite prie mūsų Naudotojų patirties programos, kad padėtumėte mums geriau suprasti jūsų poreikius ir pagerinti „Mi“ DI vertimų programos tikslumą bei naudotojų patirtį. Rimtai saugome jūsų privatumą. Prisijungti dabar?</string>
     <string name="know">Supratau</string>
-    <string name="know_ai_translate_content_cn">Išmanieji subtitrai gali transkribuoti ir versti balsus į kelias kalbas realiuoju laiku. Funkcija gali pasitarnauti internetiniams susitikimams ir pamokoms, vaizdo transliacijoms ir toms situacijoms, kai reikia pritaikymo neįgaliesiems. Garsas ir transkribuotas tekstas bus apdoroti tik jūsų įrenginyje. Tai apsaugo informacijos privatumą ir reiškia, kad funkciją gali būti naudojama neprisijungus.</string>
-    <string name="know_ai_translate_content_global">DI subtitrai gali transkribuoti ir versti balsus į kelias kalbas realiuoju laiku. Funkcija gali pasitarnauti internetiniams susitikimams ir pamokoms, vaizdo transliacijoms ir toms situacijoms, kai reikia pritaikymo neįgaliesiems. Garsas ir transkribuotas tekstas bus apdoroti tik jūsų įrenginyje. Tai apsaugo informacijos privatumą ir reiškia, kad funkciją gali būti naudojama neprisijungus.</string>
+    <string name="know_ai_translate_content_cn">Naudojantis šia paslauga, galima transkribuoti, versti ir kurti dvikalbius subtitrus sistemos ir išoriniam garsui telefonuose ir planšetiniuose kompiuteriuose. Tai puikiai tinka internetiniams susitikimams ir pamokoms, tiesioginėms transliacijoms ir situacijoms, kai reikalingas pritaikymas kurtiesiems ar neprigirdintiesiems.</string>
+    <string name="know_ai_translate_content_global">Naudojantis šia paslauga, galima transkribuoti, versti ir kurti dvikalbius subtitrus sistemos ir išoriniam garsui telefonuose ir planšetiniuose kompiuteriuose. Tai puikiai tinka internetiniams susitikimams ir pamokoms, tiesioginėms transliacijoms ir situacijoms, kai reikalingas pritaikymas kurtiesiems ar neprigirdintiesiems.</string>
     <string name="know_ai_translate_title_cn">Kas yra DI subtitrai?</string>
     <string name="know_ai_translate_title_global">Kas yra DI subtitrai?</string>
     <string name="ko_to_cn">Iš korėjiečių į kinų</string>
@@ -644,6 +646,7 @@ Pastaba: iš vaizdo ir garso turinio sugeneruoti subtitrai negali būti išsaugo
     <string name="pref_summary_distinguish_speaker">Automatiškai atskirti tarp garsiakalbių, kai transkribuojama skambučio metu</string>
     <string name="pref_summary_tone_setting">Pasirinkite naudotiną toną, kai naudosite iš teksto į garsą atsakymus</string>
     <string name="pref_title_auto_export_to_notes">Automatiniai eksportai</string>
+    <string name="pref_title_default_home_state">Pradinio puslapio formatas</string>
     <string name="pref_title_distinguish_speaker">Atskirti garsiakalbius</string>
     <string name="pref_title_floating_window_background">Laikinųjų langų fonas</string>
     <string name="pref_title_introduce">DUK</string>
@@ -658,9 +661,11 @@ Pastaba: iš vaizdo ir garso turinio sugeneruoti subtitrai negali būti išsaugo
     <string name="pref_voice_type_male_title">Vyro vardas</string>
     <string name="preference_authorization_title">@string/privacy_policy_text</string>
     <string name="preference_category_function_title">Funkcijos</string>
+    <string name="preference_category_general_title">Bendra</string>
     <string name="preference_category_help_and_feedback_title">Paslaugos ir atsiliepimas</string>
     <string name="preference_category_title_permission_authorization">Privatumas ir teisės</string>
     <string name="preference_copied">Suvestinė „%1$s“ nukopijuota į iškarpinę.</string>
+    <string name="preference_default_home_state_summary">Pasirinkite, kaip bus rodomas pradinis puslapis jį atidarius</string>
     <string name="preference_feedback_title">@string/feedback_txt</string>
     <string name="preference_floating_window_background_summary">Pasirinkite fono spalvą laikinųjų langų subtitrams</string>
     <string name="preference_permission_title">Teisės</string>
