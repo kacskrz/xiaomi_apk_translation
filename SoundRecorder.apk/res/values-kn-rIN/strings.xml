@@ -429,7 +429,7 @@
     <string name="passport_error_length_limit">ನಮೂದಿಸಿದ ಪಠ್ಯ ತುಂಬಾ ಉದ್ದವಾಗಿದೆ</string>
     <string name="passport_error_network">ನೆಟ್‌ವರ್ಕ್‌‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಲಿಲ್ಲ</string>
     <string name="passport_error_no_password_user">ನೀವು ಪಾಸ್‌ವರ್ಡ್‌ ಹೊಂದಿಸಿಲ್ಲ. ಎಸ್ಎಂಎಸ್‌ ಮೂಲಕ ಸೈನ್‌ ಇನ್‌ ಆಗಿ.</string>
-    <string name="passport_error_phone">ಅಮಾನ್ಯ ಫೋನ್ ಸಂಖ್ಯೆ</string>
+    <string name="passport_error_phone">ಮಾನ್ಯವಾದ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
     <string name="passport_error_server">‌ಸರ್ವರ್‌ ದೋಷ</string>
     <string name="passport_error_sms_limit">ಈ ಸಂಖ್ಯೆಗೆ ಸಾಕಷ್ಟು ಪರಿಶೀಲನಾ ಕೋಡ್‌ ಕಳುಹಿಸಲಾಗಿದೆ. ಬಳಿಕ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="passport_error_ticket_invalid">ಈ ಕೋಡ್‌ ತಪ್ಪಾಗಿದೆ</string>
@@ -558,6 +558,7 @@
     <string name="permission_storage_description_for_download">ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು ಕ್ಲೌಡ್‌ನಿಂದ ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಲು</string>
     <string name="permission_storage_description_for_manage_files">ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಲು</string>
     <string name="photo_description">ಚಿತ್ರ</string>
+    <string name="play_settings">Playback settings</string>
     <string name="play_speed">%1$.1fX ವೇಗ</string>
     <string name="play_with_no_record_toast">ರೆಕಾರ್ಡಿಂಗ್ ಕಾಣಿಸುತ್ತಿಲ್ಲ</string>
     <string name="playback_delete_records">ರೆಕಾರ್ಡಿಂಗ್ ಅಳಿಸಿ</string>
@@ -572,7 +573,14 @@
     <string name="playback_tabs_audio">ಆಡಿಯೋ</string>
     <string name="playback_tabs_text">ಪಠ್ಯ</string>
     <string name="pm">PM</string>
+    <string name="preference_ai_recognize_summary">Supports ASR speech recognition, summaries, and translation</string>
+    <string name="preference_category_ai_function">AI</string>
+    <string name="preference_category_model_settings">Model settings</string>
+    <string name="preference_category_recorder_client">Recording source</string>
+    <string name="preference_category_service_scene">Scenarios</string>
+    <string name="preference_category_service_scene_summary">Automatically transcribe and summarize audio after recording</string>
     <string name="preference_clear_data">ಡೇಟಾ ಅಳಿಸಿ</string>
+    <string name="preference_data_recognize_warning_title">On-device processing</string>
     <string name="preference_enable_earpiece_summary">ಇಯರ್‌ಪೀಸ್‌ ಸ್ಪೀಕರ್‌ ಬಳಸಿಕೊಂಡು ಆಡಿಯೊ ಪ್ಲೇ ಮಾಡಿ</string>
     <string name="preference_enable_earpiece_title">ಇಯರ್‌ಪೀಸ್‌ ಮೋಡ್‌</string>
     <string name="preference_group_title_for_ai_setting">AI ಫೀಚರ್‌ಗಳು</string>
@@ -745,6 +753,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_silence">Skip silent segments</string>
     <string name="sound_recorder_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
     <string name="speaker">"ಸ್ಪೀಕರ್‌ "</string>
     <string name="state_decode_recognize_tip">ಲಿಪ್ಯಂತರಕ್ಕಾಗಿ ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ…</string>
@@ -824,9 +833,6 @@
     <string name="today">ಇಂದು</string>
     <string name="tomorrow">ನಾಳೆ</string>
     <string name="translate_complete_toast">ಅನುವಾದಿಸಲಾಗಿದೆ</string>
-    <string name="trash_box">ಇತ್ತೀಚಿಗೆ ಅಳಿಸಿದ ಐಟಂಗಳು</string>
-    <string name="trash_box_close_tip">ಪ್ರಾಂಪ್ಟ್‌ ಮುಚ್ಚಿ</string>
-    <string name="trash_box_delete_all">ಅನುಪಯುಕ್ತದಲ್ಲಿರುವ ಎಲ್ಲಾ ಐಟಂಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಬೇಕೇ?</string>
     <string name="trash_delete">ಅಳಿಸಿ</string>
     <string name="tuesday">ಮಂಗಳವಾರ</string>
     <string name="tuesday_short">ಮಂಗಳ</string>

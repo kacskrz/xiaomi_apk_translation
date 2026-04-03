@@ -249,8 +249,18 @@
     <string name="manage_external_storage">Få adgang til alle filer</string>
     <string name="mark_add_toast">Tilføjet</string>
     <string name="material_clock_toggle_content_description">Vælg AM eller PM</string>
+    <string name="material_hour_24h_suffix">%1$s timer</string>
+    <string name="material_hour_selection">Vælg time</string>
+    <string name="material_hour_suffix">klokken %1$s</string>
+    <string name="material_minute_selection">Vælg minutter</string>
+    <string name="material_minute_suffix">%1$s minutter</string>
     <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Skift til urtilstand for at angive klokkeslæt.</string>
+    <string name="material_timepicker_hour">Time</string>
+    <string name="material_timepicker_minute">Minut</string>
     <string name="material_timepicker_pm">e.m.</string>
+    <string name="material_timepicker_select_time">Vælg tidspunkt</string>
+    <string name="material_timepicker_text_input_mode_description">Skift til teksttilstand for at angive klokkeslæt.</string>
     <string name="message_file_size_error">Optagelsen har nået den maksimale længde, der understøttes af %s</string>
     <string name="middle_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/t</string>
     <string name="midnight">Nat</string>
@@ -359,10 +369,12 @@
     <string name="more_ai_unit_share_text">Del</string>
     <string name="more_ai_unit_title">Vigtige punkter</string>
     <string name="morning">Morgen</string>
+    <string name="mtrl_badge_numberless_content_description">Ny notifikation</string>
     <string name="mtrl_checkbox_state_description_checked">Markeret</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Delvist markeret</string>
     <string name="mtrl_checkbox_state_description_unchecked">Ikke markeret</string>
     <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Flere end %1$d nye notifikationer</string>
     <string name="mtrl_picker_a11y_next_month">Skift til næste måned</string>
     <string name="mtrl_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="mtrl_picker_announce_current_range_selection">Valg af startdato: %1$s – Valg af slutdato: %2$s</string>
@@ -371,6 +383,7 @@
     <string name="mtrl_picker_cancel">Annuller</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vælg dato</string>
     <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
     <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
     <string name="mtrl_picker_end_date_description">Slutdato %1$s</string>
@@ -384,6 +397,7 @@
     <string name="mtrl_picker_range_header_only_end_selected">Startdato – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – slutdato</string>
     <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vælg interval</string>
     <string name="mtrl_picker_range_header_unselected">Startdato – slutdato</string>
     <string name="mtrl_picker_save">Gem</string>
     <string name="mtrl_picker_start_date_description">Startdato %1$s</string>
@@ -398,6 +412,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Tryk for at skifte til kalendervisning</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Skift til input-tilstand for tekst</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tryk for at skifte til årsvisning</string>
+    <string name="mtrl_timepicker_cancel">Annuller</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="network_tip_dialog_cancel">Ikke enig</string>
     <string name="network_tip_dialog_content">Optageren er nødt til at tilslutte til internettet for at fungere normalt. Enig?</string>
     <string name="network_tip_dialog_ok">Godkend</string>
@@ -512,7 +528,7 @@ Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="passport_error_length_limit">Den indtastede tekst er for lang</string>
     <string name="passport_error_network">Kan ikke tilslutte til netværket</string>
     <string name="passport_error_no_password_user">Du har endnu ikke indstillet adgangskoden. Log ind med SMS.</string>
-    <string name="passport_error_phone">Ugyldigt telefonnummer</string>
+    <string name="passport_error_phone">Indtast et gyldigt telefonnummer</string>
     <string name="passport_error_server">Serverfejl</string>
     <string name="passport_error_sms_limit">Der er sendt for mange verifikationskoder til dette nummer. Prøv igen senere.</string>
     <string name="passport_error_ticket_invalid">Denne kode er forkert</string>
@@ -642,6 +658,7 @@ Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="permission_storage_description_for_download">Til at downloade optagelser fra skyen</string>
     <string name="permission_storage_description_for_manage_files">Til administration af optagelser</string>
     <string name="photo_description">Billede</string>
+    <string name="play_settings">Playback settings</string>
     <string name="play_speed">%1$.1fX hastighed</string>
     <string name="play_with_no_record_toast">Kunne ikke finde optagelse</string>
     <string name="playback_delete_records">Slet optagelse</string>
@@ -656,8 +673,15 @@ Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="playback_tabs_audio">Lyd</string>
     <string name="playback_tabs_text">Tekst</string>
     <string name="pm">PM</string>
+    <string name="preference_ai_recognize_summary">Supports ASR speech recognition, summaries, and translation</string>
+    <string name="preference_category_ai_function">AI</string>
+    <string name="preference_category_model_settings">Model settings</string>
+    <string name="preference_category_recorder_client">Recording source</string>
+    <string name="preference_category_service_scene">Scenarios</string>
+    <string name="preference_category_service_scene_summary">Automatically transcribe and summarize audio after recording</string>
     <string name="preference_clear_data">Ryd data</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
+    <string name="preference_data_recognize_warning_title">On-device processing</string>
     <string name="preference_enable_earpiece_summary">Afspil lyd ved hjælp af højttaleren i telefonens øreområde</string>
     <string name="preference_enable_earpiece_title">Ørehøjtaler</string>
     <string name="preference_group_title_for_ai_setting">AI-funktioner</string>
@@ -789,6 +813,8 @@ Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="save_record_data_toast">Gemmer…</string>
     <string name="save_record_dialog_title">Gem optagelse</string>
     <string name="search_empty">Kunne ikke finde resultater</string>
+    <string name="searchview_clear_text_content_description">Ryd tekst</string>
+    <string name="searchview_navigation_content_description">Tilbage</string>
     <string name="send">Send</string>
     <string name="settings_ai_record_abstract">Opsummer</string>
     <string name="settings_ai_record_abstract_description">Opsummer emnet og indholdet af en optagelse og gem opsummeringen i Noter</string>
@@ -830,6 +856,7 @@ Tryk på \"%1$s\" og vælg derefter \"%2$s\"."</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_silence">Skip silent segments</string>
     <string name="sound_recorder_settings">Indstillinger</string>
     <string name="speaker">"Højttaler "</string>
     <string name="state_decode_recognize_tip">Forbereder til transskription…</string>
@@ -911,9 +938,6 @@ Midlertidigt sat på pause. Analysen genoptages, når du ikke bruger din enhed."
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
     <string name="translate_complete_toast">Oversættelse lykkedes</string>
-    <string name="trash_box">For nylig slettede elementer</string>
-    <string name="trash_box_close_tip">Luk straks</string>
-    <string name="trash_box_delete_all">Slet alle elementer fra papirkurven permanent?</string>
     <string name="trash_delete">Slet</string>
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tirs</string>

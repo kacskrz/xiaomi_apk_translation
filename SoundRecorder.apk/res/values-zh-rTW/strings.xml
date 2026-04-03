@@ -250,8 +250,18 @@
     <string name="manage_external_storage">所有檔案瀏覽</string>
     <string name="mark_add_toast">已新增</string>
     <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_24h_suffix">%1$s 小時</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
     <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
     <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
     <string name="message_file_size_error">錄音已經達到%s應用程式所支援的最大錄音度</string>
     <string name="middle_bit_rate">MP3，約%1$dkbit/s %2$dM/小時</string>
     <string name="midnight">半夜</string>
@@ -360,10 +370,12 @@
     <string name="more_ai_unit_share_text">分享</string>
     <string name="more_ai_unit_title">重要總結</string>
     <string name="morning">上午</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
     <string name="mtrl_checkbox_state_description_checked">已勾選</string>
     <string name="mtrl_checkbox_state_description_indeterminate">已勾選部分選項</string>
     <string name="mtrl_checkbox_state_description_unchecked">未勾選</string>
     <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
     <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
     <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
     <string name="mtrl_picker_announce_current_range_selection">所選開始日期：%1$s - 所選結束日期：%2$s</string>
@@ -372,6 +384,7 @@
     <string name="mtrl_picker_cancel">取消</string>
     <string name="mtrl_picker_confirm">確定</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
     <string name="mtrl_picker_date_header_unselected">所選日期</string>
     <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
     <string name="mtrl_picker_end_date_description">結束日期：%1$s</string>
@@ -385,6 +398,7 @@
     <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
     <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
     <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
     <string name="mtrl_picker_save">儲存</string>
     <string name="mtrl_picker_start_date_description">開始日期：%1$s</string>
@@ -399,6 +413,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換至日曆檢視畫面</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
     <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換至年份檢視畫面</string>
+    <string name="mtrl_timepicker_cancel">取消</string>
+    <string name="mtrl_timepicker_confirm">確定</string>
     <string name="network_tip_dialog_cancel">不同意</string>
     <string name="network_tip_dialog_content">答錄機在使用過程中需要連線網路，您是否同意？</string>
     <string name="network_tip_dialog_ok">同意並繼續</string>
@@ -513,7 +529,7 @@
     <string name="passport_error_length_limit">輸入內容長度超出限制</string>
     <string name="passport_error_network">目前網路不可用</string>
     <string name="passport_error_no_password_user">您的帳號暫未綁定密碼，請使用手機簡訊登入</string>
-    <string name="passport_error_phone">請檢查手機格式</string>
+    <string name="passport_error_phone">請輸入正確的手機號碼</string>
     <string name="passport_error_server">伺服器出錯</string>
     <string name="passport_error_sms_limit">已經傳送了太多簡訊，請換個時間再試試</string>
     <string name="passport_error_ticket_invalid">驗證碼錯誤</string>
@@ -644,6 +660,7 @@
     <string name="permission_storage_description_for_download">用於儲存從雲端下載的錄音檔案</string>
     <string name="permission_storage_description_for_manage_files">用於管理通話等錄音檔案</string>
     <string name="photo_description">圖片</string>
+    <string name="play_settings">播放設定</string>
     <string name="play_speed">%1$.1f倍速</string>
     <string name="play_with_no_record_toast">未找到錄音</string>
     <string name="playback_delete_records">刪除此錄音</string>
@@ -658,8 +675,15 @@
     <string name="playback_tabs_audio">音訊</string>
     <string name="playback_tabs_text">文字</string>
     <string name="pm">下午</string>
+    <string name="preference_ai_recognize_summary">支援ASR語音辨識、智慧總結和翻譯等多種AI功能</string>
+    <string name="preference_category_ai_function">AI功能設定</string>
+    <string name="preference_category_model_settings">模型設定</string>
+    <string name="preference_category_recorder_client">錄音來源</string>
+    <string name="preference_category_service_scene">服務場景</string>
+    <string name="preference_category_service_scene_summary">錄音結束後，自動語音轉文字，並智慧總結</string>
     <string name="preference_clear_data">清除資料</string>
     <string name="preference_copied">已將「%1$s」複製到剪貼簿。</string>
+    <string name="preference_data_recognize_warning_title">僅在裝置上處理資料</string>
     <string name="preference_enable_earpiece_summary">開啟後將使用聽筒播放錄音</string>
     <string name="preference_enable_earpiece_title">聽筒模式</string>
     <string name="preference_group_title_for_ai_setting">AI功能設定</string>
@@ -791,6 +815,8 @@
     <string name="save_record_data_toast">正在儲存…</string>
     <string name="save_record_dialog_title">儲存錄音</string>
     <string name="search_empty">無此錄音檔案</string>
+    <string name="searchview_clear_text_content_description">清除文字</string>
+    <string name="searchview_navigation_content_description">返回</string>
     <string name="send">傳送</string>
     <string name="settings_ai_record_abstract">摘要</string>
     <string name="settings_ai_record_abstract_description">錄音完智慧摘要，總結錄音主題和主要內容，支援儲存至筆記</string>
@@ -825,6 +851,7 @@
     <string name="show_text">顯示文字</string>
     <string name="show_wave">顯示聲紋</string>
     <string name="side_sheet_accessibility_pane_title">側邊功能表</string>
+    <string name="skip_silence">跳過靜音片段</string>
     <string name="solar_term_autumn_begins">立秋</string>
     <string name="solar_term_autumn_equinox">秋分</string>
     <string name="solar_term_clear_and_bright">清明</string>
@@ -931,9 +958,6 @@
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
     <string name="translate_complete_toast">翻譯完成</string>
-    <string name="trash_box">回收桶</string>
-    <string name="trash_box_close_tip">隱藏提示資訊</string>
-    <string name="trash_box_delete_all">回收站所有內容將被清空，無法恢復，確定刪除嗎？</string>
     <string name="trash_delete">永久刪除</string>
     <string name="tuesday">星期二</string>
     <string name="tuesday_short">週二</string>

@@ -249,8 +249,18 @@
     <string name="manage_external_storage">เข้าถึงไฟล์ทั้งหมด</string>
     <string name="mark_add_toast">เพิ่มเรียบร้อย</string>
     <string name="material_clock_toggle_content_description">เลือก AM หรือ PM</string>
+    <string name="material_hour_24h_suffix">%1$s ชั่วโมง</string>
+    <string name="material_hour_selection">เลือกชั่วโมง</string>
+    <string name="material_hour_suffix">%1$s นาฬิกา</string>
+    <string name="material_minute_selection">เลือกนาที</string>
+    <string name="material_minute_suffix">%1$s นาที</string>
     <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">สลับไปโหมดนาฬิกาเพื่อป้อนเวลา</string>
+    <string name="material_timepicker_hour">ชั่วโมง</string>
+    <string name="material_timepicker_minute">นาที</string>
     <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">เลือกเวลา</string>
+    <string name="material_timepicker_text_input_mode_description">สลับไปโหมดป้อนข้อความเพื่อป้อนเวลา</string>
     <string name="message_file_size_error">การบันทึกเสียงมาถึงความยาวสูงสุดที่รองรับได้โดย %s แล้ว</string>
     <string name="middle_bit_rate">MP3, ~%1$d kbps, ~%2$d MB/ชม.</string>
     <string name="midnight">กลางคืน</string>
@@ -359,10 +369,12 @@
     <string name="more_ai_unit_share_text">แชร์</string>
     <string name="more_ai_unit_title">จุดสำคัญ</string>
     <string name="morning">เช้า</string>
+    <string name="mtrl_badge_numberless_content_description">การแจ้งเตือนใหม่</string>
     <string name="mtrl_checkbox_state_description_checked">เลือกไว้</string>
     <string name="mtrl_checkbox_state_description_indeterminate">เลือกบางส่วน</string>
     <string name="mtrl_checkbox_state_description_unchecked">ไม่ได้เลือก</string>
     <string name="mtrl_chip_close_icon_content_description">นำ %1$s ออก</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">การแจ้งเตือนใหม่มากกว่า %1$d รายการ</string>
     <string name="mtrl_picker_a11y_next_month">เปลี่ยนไปที่เดือนถัดไป</string>
     <string name="mtrl_picker_a11y_prev_month">เปลี่ยนไปที่เดือนก่อนหน้า</string>
     <string name="mtrl_picker_announce_current_range_selection">การเลือกวันที่เริ่มต้น: %1$s – การเลือกวันที่สิ้นสุด: %2$s</string>
@@ -371,6 +383,7 @@
     <string name="mtrl_picker_cancel">ยกเลิก</string>
     <string name="mtrl_picker_confirm">ตกลง</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">เลือกวันที่</string>
     <string name="mtrl_picker_date_header_unselected">วันที่ที่เลือก</string>
     <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
     <string name="mtrl_picker_end_date_description">วันที่สิ้นสุด %1$s</string>
@@ -384,6 +397,7 @@
     <string name="mtrl_picker_range_header_only_end_selected">วันที่เริ่มต้น – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – วันที่สิ้นสุด</string>
     <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">เลือกช่วง</string>
     <string name="mtrl_picker_range_header_unselected">วันที่เริ่มต้น – วันที่สิ้นสุด</string>
     <string name="mtrl_picker_save">บันทึก</string>
     <string name="mtrl_picker_start_date_description">วันที่เริ่มต้น %1$s</string>
@@ -398,6 +412,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">แตะเพื่อเปลี่ยนเป็นมุมมองปฏิทิน</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">สลับไปใช้โหมดป้อนข้อมูลข้อความ</string>
     <string name="mtrl_picker_toggle_to_year_selection">แตะเพื่อเปลี่ยนเป็นมุมมองปี</string>
+    <string name="mtrl_timepicker_cancel">ยกเลิก</string>
+    <string name="mtrl_timepicker_confirm">ตกลง</string>
     <string name="network_tip_dialog_cancel">ไม่เห็นด้วย</string>
     <string name="network_tip_dialog_content">ตัวบันทึกจำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ตเพื่อให้ทำงานได้ปกติ ยอมรับไหม?</string>
     <string name="network_tip_dialog_ok">ยอมรับ</string>
@@ -512,7 +528,7 @@
     <string name="passport_error_length_limit">ข้อความที่คุณป้อนยาวเกินไป</string>
     <string name="passport_error_network">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
     <string name="passport_error_no_password_user">คุณยังไม่ได้ตั้งรหัสผ่าน ลงชื่อเข้าใช้ด้วย SMS</string>
-    <string name="passport_error_phone">หมายเลขโทรศัพท์ไม่ถูกต้อง</string>
+    <string name="passport_error_phone">ป้อนหมายเลขโทรศัพท์ที่ถูกต้อง</string>
     <string name="passport_error_server">เซิร์ฟเวอร์ขัดข้อง</string>
     <string name="passport_error_sms_limit">มีการส่งรหัสยืนยันไปยังหมายเลขนี้มากเกินไป ลองอีกครั้งในภายหลัง</string>
     <string name="passport_error_ticket_invalid">รหัสนี้ไม่ถูกต้อง</string>
@@ -642,6 +658,7 @@
     <string name="permission_storage_description_for_download">สำหรับการดาวน์โหลดบันทึกจากคลาวด์</string>
     <string name="permission_storage_description_for_manage_files">สำหรับการจัดการบันทึก</string>
     <string name="photo_description">รูปภาพ</string>
+    <string name="play_settings">Playback settings</string>
     <string name="play_speed">ความเร็ว %1$.1fX</string>
     <string name="play_with_no_record_toast">ไม่พบการบันทึก</string>
     <string name="playback_delete_records">ลบบันทึก</string>
@@ -656,8 +673,15 @@
     <string name="playback_tabs_audio">เสียง</string>
     <string name="playback_tabs_text">ข้อความ</string>
     <string name="pm">PM</string>
+    <string name="preference_ai_recognize_summary">Supports ASR speech recognition, summaries, and translation</string>
+    <string name="preference_category_ai_function">AI</string>
+    <string name="preference_category_model_settings">Model settings</string>
+    <string name="preference_category_recorder_client">Recording source</string>
+    <string name="preference_category_service_scene">Scenarios</string>
+    <string name="preference_category_service_scene_summary">Automatically transcribe and summarize audio after recording</string>
     <string name="preference_clear_data">ล้างข้อมูล</string>
     <string name="preference_copied">คัดลอก \"%1$s\" ไปยังคลิปบอร์ดแล้ว</string>
+    <string name="preference_data_recognize_warning_title">On-device processing</string>
     <string name="preference_enable_earpiece_summary">เล่นเสียงโดยใช้ลำโพงหูฟังโทรศัพท์</string>
     <string name="preference_enable_earpiece_title">โหมดหูฟังโทรศัพท์</string>
     <string name="preference_group_title_for_ai_setting">คุณสมบัติ AI</string>
@@ -789,6 +813,8 @@
     <string name="save_record_data_toast">กำลังบันทึก…</string>
     <string name="save_record_dialog_title">บันทึกไฟล์เสียง</string>
     <string name="search_empty">ไม่พบผลลัพธ์การค้นหา</string>
+    <string name="searchview_clear_text_content_description">ล้างข้อความ</string>
+    <string name="searchview_navigation_content_description">กลับ</string>
     <string name="send">ส่ง</string>
     <string name="settings_ai_record_abstract">สรุป</string>
     <string name="settings_ai_record_abstract_description">สรุปหัวเรื่องและเนื้อหาของการบันทึกและบันทึกสรุปลงในบันทึก</string>
@@ -830,6 +856,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_silence">Skip silent segments</string>
     <string name="sound_recorder_settings">การตั้งค่า</string>
     <string name="speaker">"ผู้พูด "</string>
     <string name="state_decode_recognize_tip">กำลังเตรียมการสำหรับการถอดเสียง…</string>
@@ -911,9 +938,6 @@
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>
     <string name="translate_complete_toast">แปลเรียบร้อยแล้ว</string>
-    <string name="trash_box">รายการที่ถูกลบล่าสุด</string>
-    <string name="trash_box_close_tip">ปิดการสอบถามก่อน</string>
-    <string name="trash_box_delete_all">ลบรายการทั้งหมดจากถังขยะอย่างถาวรหรือไม่?</string>
     <string name="trash_delete">ลบ</string>
     <string name="tuesday">วันอังคาร</string>
     <string name="tuesday_short">อังคาร</string>
