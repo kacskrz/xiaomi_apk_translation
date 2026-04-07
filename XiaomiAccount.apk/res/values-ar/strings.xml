@@ -108,6 +108,8 @@
     <string name="button_close">إغلاق</string>
     <string name="button_refuse">لا أوافق</string>
     <string name="button_unbind">قطع الاتصال</string>
+    <string name="calendar_date_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="calendar_date_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
     <string name="call_notification_answer_action">ردّ</string>
     <string name="call_notification_answer_video_action">فيديو</string>
     <string name="call_notification_decline_action">رفض</string>
@@ -418,6 +420,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">الغاء تحديد الكل</string>
     <string name="miuix_appcompat_action_mode_select_all">تحديد الكل</string>
     <string name="miuix_appcompat_action_mode_title_empty">تحديد عناصر</string>
+    <string name="miuix_appcompat_action_sheet_default_message">تحديد</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">المزيد</string>
     <string name="miuix_appcompat_cancel_description">إلغاء</string>
     <string name="miuix_appcompat_confirm_description">تأكيد</string>
@@ -601,9 +604,9 @@
     <string name="passport_close_dialog_hint">إذا أوقفت تشغيل هذه الميزة، فلن تكون هناك حاجة إلى المصادقة الثنائية عند تسجيل الدخول إلى حسابك. وقد يؤدي هذا إلى تقليل أمان حسابك.</string>
     <string name="passport_close_dialog_open_btn">متابعة</string>
     <string name="passport_close_two_factor_auth">إيقاف التحقق بخطوتين</string>
-    <string name="passport_completed">Done</string>
+    <string name="passport_completed">تم</string>
     <string name="passport_confirm_login">تسجيل الدخول</string>
-    <string name="passport_confirm_new_pwd">Confirm new password</string>
+    <string name="passport_confirm_new_pwd">تأكيد كلمة المرور الجديدة</string>
     <string name="passport_confirm_recycle_account">نعم</string>
     <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>يبدو انه&lt;/font> تم إعادة استخدام هذا الرقم %s من قِبل شركة الاتصالات، وهناك حساب Mi مرتبط به. هل هذا هو حسابك؟</string>
     <string name="passport_copy_link">نسخ URL</string>
@@ -611,7 +614,15 @@
     <string name="passport_copy_message_vcode">نسخ الرمز</string>
     <string name="passport_copy_to_clipboard_successful">تم النسخ بنجاح</string>
     <string name="passport_cta_provision_content">يسمح لك حساب Mi بالوصول إلى جميع خدمات Xiaomi.</string>
-    <string name="passport_cta_provision_required_permissions_desc">للوصول إلى رقم هاتف الجهاز لدعم تسجيل الدخول بنقرة واحدة، وعند استخدام وضع الفقدان في تطبيق \"العثور على الجهاز\" لإجراء مكالمات إلى الرقم الذي تقدمه؛ لإجراء مكالمات إلى رقم الهاتف الذي تقدمه عند استخدام وضع الفقدان في تطبيق \"العثور على الجهاز\"؛ لتحديد موقع جهازك عبر تطبيق \"العثور على الجهاز\"؛ لتحديد موقع جهازك عبر الرسائل النصية القصيرة عندما لا يتوفر اتصال بالشبكة؛ للوصول إلى البيانات المتعلقة بتطبيق \"العثور على الجهاز\" أو تخزينها؛ لطلب تشغيل الصوت من الجهاز في تطبيق \"العثور على الجهاز\".</string>
+    <string name="passport_cta_provision_required_all_permissions_desc">للوصول إلى رقم هاتف الجهاز لدعم تسجيل الدخول بنقرة واحدة، وعند استخدام وضع الفقدان في تطبيق \"العثور على الجهاز\" حتى يمكن إجراء مكالمات إلى الرقم الذي تقدمه.;لإجراء مكالمات إلى رقم الهاتف الذي تقدمه عند استخدام وضع الفقدان في تطبيق البحث عن الجهاز;لتحديد موقع جهازك عبر \"العثور على الجهاز\";لتحديد موقع جهازك عبر الرسائل النصية القصيرة عندما لا يتوفر اتصال بالشبكة;لتحسين تحديد الموقع المكاني عند استخدام ميزة العثور على الجهاز;للوصول إلى البيانات المتعلقة بميزة العثور على الجهاز أو تخزينها;لطلب تشغيل الصوت من الجهاز عبر ميزة العثور على الجهاز</string>
+    <string name="passport_cta_provision_required_bluetooth_admin_desc">لطلب تشغيل الصوت من الجهاز عبر ميزة العثور على الجهاز</string>
+    <string name="passport_cta_provision_required_call_phone_permissions_desc">لإجراء مكالمات إلى رقم الهاتف الذي تقدمه عند استخدام وضع الفقدان في تطبيق البحث عن الجهاز</string>
+    <string name="passport_cta_provision_required_camera_desc">لتحسين تحديد الموقع المكاني عند استخدام ميزة العثور على الجهاز</string>
+    <string name="passport_cta_provision_required_location_desc">لتحديد موقع جهازك عبر \"العثور على الجهاز\"</string>
+    <string name="passport_cta_provision_required_permissions">android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE;android.permission-group.LOCATION;android.permission.READ_SMS;android.permission-group.CAMERA;android.permission-group.STORAGE;android.permission.BLUETOOTH_ADMIN</string>
+    <string name="passport_cta_provision_required_read_phone_state_permissions_desc">للوصول إلى رقم هاتف الجهاز لدعم تسجيل الدخول بنقرة واحدة، وعند استخدام وضع الفقدان في تطبيق \"العثور على الجهاز\" حتى يمكن إجراء مكالمات إلى الرقم الذي تقدمه.</string>
+    <string name="passport_cta_provision_required_read_sms_desc">لتحديد موقع جهازك عبر الرسائل النصية القصيرة عندما لا يتوفر اتصال بالشبكة</string>
+    <string name="passport_cta_provision_required_storage_desc">للوصول إلى البيانات المتعلقة بميزة العثور على الجهاز أو تخزينها</string>
     <string name="passport_delete_account">تسجيل الخروج</string>
     <string name="passport_device_code_dialog_hint">لا تشارك هذا الرمز مع أي شخص</string>
     <string name="passport_dialog_captcha_title">الرمز</string>
@@ -688,7 +699,7 @@
     <string name="passport_identification_expired">انتهت صلاحية رمز التحقق، ابدأ من جديد</string>
     <string name="passport_input_captcha_hint">أدخل الرمز</string>
     <string name="passport_input_email_vcode_hint">أدخل الرمز</string>
-    <string name="passport_input_new_pwd">Enter new password</string>
+    <string name="passport_input_new_pwd">ادخل كلمة المرور</string>
     <string name="passport_input_password_for_login">هذا الرقم مقترن بحساب موجود مسبقا، إدخال كلمة المرور</string>
     <string name="passport_input_password_hint">ادخل كلمة المرور</string>
     <string name="passport_input_phone_hint">أدخل رقم الهاتف</string>
@@ -732,6 +743,7 @@
     <string name="passport_network_timeout">لا يمكن الاتصال بالشبكة. حاول مجددا.</string>
     <string name="passport_next">التالي</string>
     <string name="passport_no_account">لم تسجل الدخول</string>
+    <string name="passport_ok_btn">موافق</string>
     <string name="passport_open_settings">الإعدادات</string>
     <string name="passport_page_load_failed">لا يمكن فتح الصفحة</string>
     <string name="passport_password_hide_show">إخفاء كلمة المرور</string>
@@ -910,6 +922,7 @@
     <string name="phone_ticket_register">إنشاء حساب باستخدام رقم الهاتف</string>
     <string name="photoPickerNotFoundText">لا توجد صور متاحة.</string>
     <string name="pm">م</string>
+    <string name="positive_btn">موافق</string>
     <string name="preference_copied">تم نسخ \"%1$s\" إلى الحافظة.</string>
     <string name="privacy_policy_reject_confirm_msg">لن تتمكن من الاستمرار في استخدام حساب Mi ما لم توافق على الإصدار الجديد من سياسة الخصوصية الخاصة به. هل ترغب في الموافقة على تحديث &lt;a href=%1$s>سياسة خصوصية&lt;/a> حساب Mi الآن؟</string>
     <string name="privacy_policy_reject_confirm_title">لا يمكن استخدام حساب Mi</string>
