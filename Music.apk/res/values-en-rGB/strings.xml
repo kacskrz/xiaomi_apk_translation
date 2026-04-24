@@ -242,7 +242,7 @@
     <string name="asm_del_label_setting_notice">Notification settings</string>
     <string name="asm_del_label_setting_play">Playback settings (audio quality preferences, auto resume status)</string>
     <string name="asm_del_label_setting_push">Push notification token</string>
-    <string name="asm_del_pop_no_message">"To protect your membership benefits, you can't submit request to delete your personal data right now. Cancel your subscription or wait until your membership expires to submit a request. View and manage your subscription in Settings > Membership."</string>
+    <string name="asm_del_pop_no_message">"To protect your membership benefits, you can't submit a request to delete your data right now. Wait until your membership expires and try again. View and manage your subscription in Settings > Membership."</string>
     <string name="asm_del_pop_no_title">"Couldn't submit request"</string>
     <string name="asm_del_remind">All data will be permanently deleted</string>
     <string name="asm_del_submit">Submit request</string>
@@ -318,11 +318,11 @@ Once you choose to permanently clear all data, you'll be signed out of the app. 
     <string name="asm_forget_email_verify_toast">Invalid email address</string>
     <string name="asm_forget_pop_logout">Sign out</string>
     <string name="asm_forget_pop_message">After you submit the request, your account will no longer be available. On-device data will be deleted immediately, and other data will be deleted within %d days. Order records will be retained in anonymized form. Continue?</string>
-    <string name="asm_forget_pop_no_message">"To protect your membership benefits, you can't request to forget your data now. Cancel your subscription or wait until your membership expires to submit a request. View and manage your subscription in Settings > Membership."</string>
+    <string name="asm_forget_pop_no_message">"To protect your membership benefits, you can't request to forget your data right now. Wait until your membership expires and try again. View and manage your subscription in Settings > Membership."</string>
     <string name="asm_forget_pop_no_title">"Couldn't submit request"</string>
     <string name="asm_forget_pop_request">Submitted successfully</string>
     <string name="asm_forget_pop_request_cancel">Restore</string>
-    <string name="asm_forget_pop_request_msg">"Your account is suspended because you requested to forget your data, and you can't use any features. Tap \"Restore\" to restore your account and data."</string>
+    <string name="asm_forget_pop_request_msg">"Your account is suspended because you requested to forget your data, and you can't use any features. Tap \"Restore\" to restore your account."</string>
     <string name="asm_forget_pop_title">Forget data?</string>
     <string name="asm_forget_usr_subtitle">"You're submitting a request to forget the following personal data. Some items can't be deleted due to legal requirements or technical reasons (e.g. order records). This action can't be undone."</string>
     <string name="asm_forget_usr_title">Forget your personal data</string>
@@ -378,6 +378,7 @@ tap "<font size="16"><b>here</b></font></string>
     <string name="asm_no_network">"Couldn't connect to the network"</string>
     <string name="asm_no_network_toast">"Couldn't connect to the network. Check your network settings."</string>
     <string name="asm_not_action_is_local_music">"Can't perform this action on local files"</string>
+    <string name="asm_not_found_content_toast">This content is no longer available</string>
     <string name="asm_notify_use_mobile_download">Downloading with mobile data</string>
     <string name="asm_online_all_playlist">All playlists</string>
     <string name="asm_online_favorite">Online favorites</string>
@@ -475,6 +476,7 @@ Streaming music over mobile data may incur charges from your carrier."</string>
     <string name="asm_trial_feel_it_all">Start a free trial to enjoy full songs</string>
     <string name="asm_trial_subscribe_free">&lt;font color=#FFFFFF>Free trial is active. &lt;/font>&lt;font color=#FFD179>&lt;b>Subscribe and get the first month free&lt;/b>&lt;/font>&lt;font color=#FFFFFF> to enjoy full songs&lt;/font>.</string>
     <string name="asm_trial_subscribe_price">&lt;font color=#FFFFFF>Free trial is active. &lt;/font>&lt;font color=#FFD179>&lt;b>Subscribe for &lt;xliff:g id=PRICE example=14.99€>%1$s&lt;/xliff:g>/month&lt;/b>&lt;/font>&lt;font color=#FFFFFF> to enjoy full songs&lt;/font>.</string>
+    <string name="asm_unauthorized_content_toast">"You don't have permission to view this content"</string>
     <string name="asm_unknow_album">Unknown album</string>
     <string name="asm_unknow_artist">Unknown artist</string>
     <string name="asm_unlock_tracks_ad_free">With a membership, you can enjoy high-quality music and downloads without ads or interruptions.</string>
@@ -1002,6 +1004,7 @@ Once you clear all data, you'll exit the app. This data will be cleared permanen
     <string name="google_download_music">Download %1$s with Google</string>
     <string name="goto_local_search">Search on device</string>
     <string name="goto_online_search">Search online</string>
+    <string name="guess_what_you_want">You might like</string>
     <string name="handle_later">Not now</string>
     <string name="hd_quality_audio">HD quality audio</string>
     <string name="headset_and_audio_effect_category">Headphones &amp; audio effects</string>
@@ -1399,9 +1402,6 @@ Once you clear all data, you'll exit the app. This data will be cleared permanen
     <string name="my_playlist_create_self_playlist">Create playlists with your favourite songs</string>
     <string name="my_playlist_set_to_private">Make private</string>
     <string name="my_playlist_set_to_public">Make public</string>
-    <string name="native_body">Body</string>
-    <string name="native_headline">Headline</string>
-    <string name="native_media_view">Media view</string>
     <string name="nav_app_bar_navigate_up_description">Navigate up</string>
     <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
     <string name="nct_privacy_text"><Data>Read and agree to the &lt;font color=#A374F0>&lt;a href=%1$s>Mi Music User Agreement&lt;/a>&lt;/font>, &lt;font color=#A374F0>&lt;a href=%2$s>Mi Music Privacy Policy&lt;/a>&lt;/font>, and &lt;font color=#A374F0>&lt;a href=%3$s>Vansound Privacy Policy&lt;/a>&lt;/font> before you continue.</Data></string>
@@ -1447,9 +1447,6 @@ Once you clear all data, you'll exit the app. This data will be cleared permanen
     <string name="notification_recommend_summary">Learn about new music trends and app promotions</string>
     <string name="notification_recommend_title">Important notifications</string>
     <string name="notification_setting">Notification settings</string>
-    <string name="notifications_permission_confirm">Allow</string>
-    <string name="notifications_permission_decline">"Don't allow"</string>
-    <string name="notifications_permission_title">Allow app to send you notifications?</string>
     <string name="nowplaying_circle_style">Play button style</string>
     <string name="nowplaying_circle_style_rainbow">Rainbow</string>
     <string name="nowplaying_circle_style_wave">Wave</string>
@@ -1457,15 +1454,6 @@ Once you clear all data, you'll exit the app. This data will be cleared permanen
     <string name="nowplaying_menu_item_delete">Remove from queue</string>
     <string name="nowplaying_menu_item_gif_close">Turn on dynamic covers</string>
     <string name="nowplaying_menu_item_gif_open">Turn off dynamic covers</string>
-    <string name="offline_dialog_image_description">Icon</string>
-    <string name="offline_dialog_text">"Thank you for your interest.
-We will share more once you're back online."</string>
-    <string name="offline_notification_title">"You are back online! Let's pick up where we left off"</string>
-    <string name="offline_notification_title_with_advertiser">You are back online! Continue learning about %s</string>
-    <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_decline">No, thanks</string>
-    <string name="offline_opt_in_message">"We'll send you a notification with a link to the advertiser site."</string>
-    <string name="offline_opt_in_title">"Open ad when you're back online."</string>
     <string name="ok">OK</string>
     <string name="one_day_vip">%d-day VIP</string>
     <string name="one_hour_vip">%d-hour VIP</string>
@@ -1696,6 +1684,8 @@ We will share more once you're back online."</string>
     <string name="play_setting">Playback</string>
     <string name="play_video_with_traffic">CONTINUE</string>
     <string name="play_video_with_traffic_toast">"You're using mobile data now."</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="playback_speed_available">Try adjusting playback speed</string>
     <string name="playerui_lyric_dialog_cancel">No</string>
     <string name="playerui_lyric_dialog_hint">I allow Mi Music to access audio files for optimization purposes</string>
     <string name="playerui_lyric_dialog_ok">Yes</string>
@@ -1801,13 +1791,6 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="ringtones_play">Play</string>
     <string name="ringtones_stop">Stop</string>
     <string name="ringtones_successful">Set ringtone successfully</string>
-    <string name="s1">Save image</string>
-    <string name="s2">Allow Ad to store image in Picture gallery?</string>
-    <string name="s3">Accept</string>
-    <string name="s4">Decline</string>
-    <string name="s5">Create calendar event</string>
-    <string name="s6">Allow Ad to create a calendar event?</string>
-    <string name="s7">Test Ad</string>
     <string name="safemode_clear_data_tip">"Clear this app's data now?"</string>
     <string name="safemode_desc">"Mi Music encountered an error. Here's what you can do:"</string>
     <string name="safemode_exit_btn_text">Exit</string>
@@ -2168,7 +2151,6 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="watch_now">Watch</string>
     <string name="watch_video">Watch video</string>
     <string name="watch_video_for_more_songs">Watch a video to play more songs</string>
-    <string name="watermark_label_prefix">AdMob –</string>
     <string name="web_reward_dialog_cancle">Cancel</string>
     <string name="web_reward_dialog_ok">Exit</string>
     <string name="webpage_hot_rank">Popular</string>
@@ -2224,6 +2206,10 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="widget_type_recommend_player">Recommended player widget</string>
     <string name="widget_type_small_player">Small player widget</string>
     <string name="xiaomi_music_privacy_agreement"><Data>Read and agree to the &lt;font color=#A374F0>&lt;a href=%1$s>Mi Music User Agreement&lt;/a>&lt;/font> and &lt;font color=#A374F0>&lt;a href=%2$s>Mi Music Privacy Policy&lt;/a>&lt;/font> before you continue.</Data></string>
+    <string name="xout_dialog_cancle">Cancel</string>
+    <string name="xout_dialog_submit">Submit</string>
+    <string name="xout_dialog_title">"Why don't you like this ad?"</string>
+    <string name="xout_report_issue">Report issue</string>
     <string name="yesterday">Yesterday</string>
     <string name="you_can_switch_mode_in_settings">You can switch between modes in the Settings</string>
     <string name="you_may_like">You may also like</string>
