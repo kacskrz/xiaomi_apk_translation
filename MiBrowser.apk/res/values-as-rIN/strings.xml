@@ -585,7 +585,6 @@
     <string name="download_video_from_social_site">"চচিয়েল মিডিয়াৰ পৰা ভিডিঅ' ডাউনলোড কৰক"</string>
     <string name="download_videos_from_here">"আপুনি এই সেৱাসমূহৰ পৰা ভিডিঅ' ডাউনলোড কৰিব পাৰে"</string>
     <string name="download_wait_connect">সংযোগৰ বাবে অপেক্ষাৰত</string>
-    <string name="downloadable_content">可下载内容</string>
     <string name="downloading">ডাউনলোড হৈ আছে…</string>
     <string name="early_morning">ৰাতিপুৱা</string>
     <string name="edit">সম্পাদনা</string>
@@ -1031,7 +1030,6 @@
     <string name="menu_web_agent_computer">"ডেস্কটপ সংস্কৰণ (ডিফ'ল্ট)"</string>
     <string name="menu_web_agent_ie_compatibility_mode">"IE সুসমতা ম'ড"</string>
     <string name="menu_web_agent_more_ua_setting">অতিৰিক্ত UA ছেটিংছ</string>
-    <string name="menu_web_agent_win_chrome">Win Chrome</string>
     <string name="mi_browser">Mi ব্ৰাউজাৰ</string>
     <string name="mi_browser_clean_up_garbage">Mi ব্ৰাউজাৰে ট্ৰেশ্ব পৰিষ্কাৰ কৰি আছে…</string>
     <string name="mi_browser_is_scanning">Mi ব্ৰাউজাৰ স্কেন কৰি আছে</string>
@@ -1340,7 +1338,6 @@
     <string name="open_bookmark_folder">"ফ'ল্ডাৰ খোলক"</string>
     <string name="open_by_other_app">অন্য এটা এপেৰে খোলক</string>
     <string name="open_desktop">ডেস্কটপ সংস্কৰণলৈ সফলভাৱে সলনি কৰা হৈছে</string>
-    <string name="open_file_explorer_failed_toast">@string/download_open_file_explorer_failed</string>
     <string name="open_google_gaid">"এই বৈশিষ্ট্যটোৰ ব্যৱহাৰত সক্ষম হ'বলৈ, আপুনি ছেটিংছ > Google > বিজ্ঞাপনত বিজ্ঞাপন ব্যক্তিগতকৰণ ত্যাগ নকৰাটো নিশ্চিত কৰক।"</string>
     <string name="open_personalized_services">"এই বৈশিষ্ট্যটোৰ ব্যৱহাৰত সক্ষম হ'বলৈ ব্যক্তিগতকৃত সেৱাসমূহ অন কৰক।"</string>
     <string name="open_private_folder">"লুকুৱাই থোৱা ফ'ল্ডাৰ দৰ্শন কৰিবলৈ এৰক"</string>
@@ -1717,9 +1714,12 @@
     <string name="quicklinks_management">জনপ্ৰিয়</string>
     <string name="quicklinks_most_visited">আৰম্ভণি পৃষ্ঠাত যোগ কৰক</string>
     <string name="quicklinks_most_visited_title">আৰম্ভণি পৃষ্ঠাত যোগ কৰক</string>
+    <string name="reader_recent_title">ব্ৰাউজিং ইতিহাস</string>
     <string name="reading__business_recommend_at_end_more">অধিক দৰ্শন কৰক</string>
     <string name="reading__business_recommend_at_end_title">অনুমোদিত</string>
     <string name="reading__cancel">বাতিল</string>
+    <string name="reading__file_action_save_local">ডিভাইচত সংৰক্ষণ কৰক</string>
+    <string name="reading__file_rename_hint">এটা ফাইল নাম প্ৰবিষ্ট কৰক</string>
     <string name="reading__menu_play">"শ্লাইডশ্ব'"</string>
     <string name="reading__menu_rotate_screen">ঘূৰ্ণন</string>
     <string name="reading__menu_search">অনুসন্ধান</string>
@@ -1735,6 +1735,15 @@
     <string name="reading__shared__no_open_params">"এই কিতাপ লোড কৰিব পৰা নগ'ল। আপোনাৰ নেটৱৰ্ক ছেটিংছ পৰীক্ষা আৰু পুনৰ চেষ্টা কৰক।"</string>
     <string name="reading__shared__reach_first_page">এইটো প্ৰথম পৃষ্ঠা</string>
     <string name="reading__shared__reach_last_page">এইটোৱেই অন্তিম পৃষ্ঠা</string>
+    <string name="reading_rename_exists_toast">এই নামটো ইতিমধ্যে লোৱা হৈছে। এটা পৃথক নাম চেষ্টা কৰক।</string>
+    <string name="reading_rename_failed_toast">"পুনঃনামাংকন নহ'ল। পুনৰ চেষ্টা কৰক।"</string>
+    <string name="reading_rename_illegal_chars_toast">নামে \"%1$s\" বহন কৰিব নোৱাৰে। এটা পৃথক নাম চেষ্টা কৰক।</string>
+    <string name="reading_rename_illegal_start_chars_toast">"নাম এডাল দাড়িৰে আৰম্ভ হ'ব নোৱাৰে। এটা পৃথক নাম চেষ্টা কৰক।"</string>
+    <string name="reading_rename_success_toast">সফলভাৱে পুনঃনামাংকিত হৈছে</string>
+    <string name="reading_save_failed_no_permission_toast">সংগ্ৰহণ অনুমতিৰ প্ৰয়োজন। ছেটিংছত সেইটো অন কৰক।</string>
+    <string name="reading_save_failed_no_space_toast">পৰ্যাপ্ত সংগ্ৰহণ নাই। স্থান খালী কৰক আৰু পুনৰ চেষ্টা কৰক।</string>
+    <string name="reading_save_failed_toast">"সংৰক্ষণ কৰিব পৰা নগ'ল। পুনৰ চেষ্টা কৰক।"</string>
+    <string name="reading_save_success_toast">\"%1$s\"-ত সংৰক্ষিত হৈছে</string>
     <string name="reading_text_action_copy">প্ৰতিলিপি</string>
     <string name="reading_text_action_search_web">অনুসন্ধান</string>
     <string name="reading_text_action_select_all">সকলো চয়ন কৰক</string>
@@ -1855,7 +1864,6 @@
     <string name="search_button_text">যাওক</string>
     <string name="search_description_callback">অনুসন্ধান দণ্ডিকা</string>
     <string name="search_dianping">Cate</string>
-    <string name="search_divider">-</string>
     <string name="search_easou">Easou</string>
     <string name="search_empty_view_hint">"একো বিচাৰি পোৱা নগ'ল"</string>
     <string name="search_engine_title">"ডিফ'ল্ট অনুসন্ধান"</string>
