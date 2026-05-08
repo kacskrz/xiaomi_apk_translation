@@ -585,7 +585,6 @@
     <string name="download_video_from_social_site">ទាញ​យក​វីដេអូពីមេឌៀសង្គម</string>
     <string name="download_videos_from_here">អ្នកអាចទាញយកវីដេអូបានពីសេវាកម្មទាំងនេះ</string>
     <string name="download_wait_connect">កំពុងរងចាំ​ការតភ្ជាប់​</string>
-    <string name="downloadable_content">可下载内容</string>
     <string name="downloading">កំពុងទាញយក…</string>
     <string name="early_morning">ព្រឹក</string>
     <string name="edit">កែសម្រួល</string>
@@ -1031,7 +1030,6 @@
     <string name="menu_web_agent_computer">កំណែជំនាន់កំព្យូទ័រ (លំនាំដើម)</string>
     <string name="menu_web_agent_ie_compatibility_mode">ម៉ូដត្រូវជាមួយនឹង IE</string>
     <string name="menu_web_agent_more_ua_setting">សំណុំកំណត់បន្ថែម UA</string>
-    <string name="menu_web_agent_win_chrome">Win Chrome</string>
     <string name="mi_browser">Mi Browser</string>
     <string name="mi_browser_clean_up_garbage">Mi Browser កំពុងសម្អាតសម្រាម…</string>
     <string name="mi_browser_is_scanning">Mi Browser កំពុងធ្វើការស្កេន</string>
@@ -1340,7 +1338,6 @@
     <string name="open_bookmark_folder">បើកថតឯកសារ</string>
     <string name="open_by_other_app">បើកដោយប្រើកម្មវិធីផ្សេងទៀត</string>
     <string name="open_desktop">បានគ្រប់គ្រងកំណែកុំព្យូទ័រដោយជោគជ័យ</string>
-    <string name="open_file_explorer_failed_toast">@string/download_open_file_explorer_failed</string>
     <string name="open_google_gaid">ដើម្បីអាចប្រើមុខងារពិសេសនេះបាន ត្រូវធ្វើឲ្យប្រាកដថា អ្នកពុំទាន់បានសម្រេចជ្រើសរើសបដិរូបកម្ម ឬយកជម្រើសផ្ទាល់នៃការផ្សាយពាណិជ្ជកម្មក្នុងសំណុំកំណត់ > Google > ការផ្សាយពាណិជ្ជកម្ម។</string>
     <string name="open_personalized_services">បើកសេវាកម្មកំណត់ទីតាំងផ្ទាល់ខ្លួនដែលអាចនឹងប្រើមុខងារពិសេសនេះបាន។</string>
     <string name="open_private_folder">បញ្ចេញដើម្បីមើលថតលាក់</string>
@@ -1717,9 +1714,12 @@
     <string name="quicklinks_management">ប្រជាប្រិយ</string>
     <string name="quicklinks_most_visited">បន្ថែមទៅទំព័រចាប់ផ្តើម</string>
     <string name="quicklinks_most_visited_title">បន្ថែមទៅទំព័រចាប់ផ្តើម</string>
+    <string name="reader_recent_title">រុករកប្រវត្តិស្វែងរក</string>
     <string name="reading__business_recommend_at_end_more">មើលច្រើនទៀត</string>
     <string name="reading__business_recommend_at_end_title">បានណែនាំ</string>
     <string name="reading__cancel">បោះបង់</string>
+    <string name="reading__file_action_save_local">រក្សាទុកទៅឧបករណ៍</string>
+    <string name="reading__file_rename_hint">វាយបញ្ចូលឈ្មោះឯកសារ</string>
     <string name="reading__menu_play">ការបញ្ចាំងស្លាយ</string>
     <string name="reading__menu_rotate_screen">បង្វិល</string>
     <string name="reading__menu_search">ស្វែងរក</string>
@@ -1735,6 +1735,15 @@
     <string name="reading__shared__no_open_params">មិនអាចផ្ទុកសៀវភៅនេះបានទេ។ សូមពិនិត្យសំណុំកំណត់បណ្តាញរបស់អ្នក ហើយព្យាយាមម្តងទៀត។</string>
     <string name="reading__shared__reach_first_page">នេះគឺជាទំព័រទីមួយ</string>
     <string name="reading__shared__reach_last_page">នេះគឺជាទំព័រចុងក្រោយ</string>
+    <string name="reading_rename_exists_toast">ឈ្មោះនេះត្រូវបានគេប្រើប្រាស់រួចហើយ។ សាកល្បងឈ្មោះផ្សេង។</string>
+    <string name="reading_rename_failed_toast">មិនអាចប្តូរឈ្មោះបានទេ។ ព្យាយាមម្តងទៀត។</string>
+    <string name="reading_rename_illegal_chars_toast">ឈ្មោះមិនអាចមាន \"%1$s\" បានទេ។ សាកល្បងឈ្មោះផ្សេង។</string>
+    <string name="reading_rename_illegal_start_chars_toast">ឈ្មោះមិនអាចចាប់ផ្តើមដោយសញ្ញាចុចបានទេ។ សាកល្បងឈ្មោះផ្សេង។</string>
+    <string name="reading_rename_success_toast">បានប្តូរឈ្មោះដោយជោគជ័យ</string>
+    <string name="reading_save_failed_no_permission_toast">តម្រូវ​ឱ្យ​មាន​ការ​អនុញ្ញាត​ទំហំផ្ទុក។ សូម​បើក​នៅ​ក្នុង​ការសំណុំកំណត់។</string>
+    <string name="reading_save_failed_no_space_toast">មិនមានទំហំផ្ទុកគ្រប់គ្រាន់ទេ។ សូមបង្កើនទំហំផ្ទុក ហើយព្យាយាមម្តងទៀត។</string>
+    <string name="reading_save_failed_toast">មិនអាចរក្សាទុកបានទេ។ ព្យាយាមម្តងទៀត។</string>
+    <string name="reading_save_success_toast">បានរក្សាទុកទៅ \"%1$s\"</string>
     <string name="reading_text_action_copy">ចម្លង</string>
     <string name="reading_text_action_search_web">ស្វែងរក</string>
     <string name="reading_text_action_select_all">ជ្រើសរើស​ទាំងអស់</string>
@@ -1855,7 +1864,6 @@
     <string name="search_button_text">ទៅ</string>
     <string name="search_description_callback">របារស្វែងរក</string>
     <string name="search_dianping">Cate</string>
-    <string name="search_divider">-</string>
     <string name="search_easou">Easou</string>
     <string name="search_empty_view_hint">មិនអាចរកឃើញអ្វីឡើយ</string>
     <string name="search_engine_title">ស្វែងរកលំនាំដើម</string>
