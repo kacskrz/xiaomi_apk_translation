@@ -68,10 +68,10 @@
     <string name="backup_report">Мәліметтерді көрсету</string>
     <string name="backup_security_tips_message">Кейбір қолданбалардың сақтық көшірмесін жасау немесе қалпына келтіру мүмкіндігі жоқ.</string>
     <string name="backup_security_tips_title">Сақтық көшірмелер жұмыс істемеуі мүмкін</string>
-    <string name="backup_suspend_fail_summary_pad">Байланыс үзілді. Планшетіңіз SmartStorage желісімен бір желіде болғанда, сақтық көшірме жасауды жалғастыру үшін \"Қайталау\" түймесін түртіңіз.</string>
-    <string name="backup_suspend_fail_summary_phone">Байланыс үзілді. Телефоныңыз SmartStorage желісімен бір желіде болғанда, сақтық көшірме жасауды жалғастыру үшін \"Қайталау\" түймесін түртіңіз.</string>
-    <string name="backup_suspend_summary_pad">Байланыс үзілді. Планшетіңіз SmartStorage желісімен бір желіде болғанда, сақтық көшірме жасау автоматты түрде жалғасады.</string>
-    <string name="backup_suspend_summary_phone">Байланыс үзілді. Телефоныңыз SmartStorage желісімен бір желіде болғанда, сақтық көшірме жасау автоматты түрде жалғасады.</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
     <string name="backup_suspend_title">Сақтық көшірме жасау кідіртілді. Қайта қосылу…</string>
     <string name="backup_tab">Сақтық көшірмені жасау</string>
     <string name="backup_tips_dialog_summary">Қосарлы қолданбалар мен жеке элементтерге қолдау көрсетілмейді. Бұл сақтық көшірме тек осы уақытқа дейінгі деректерді қамтиды. Жаңа деректер автоматты түрде үндестірілмейді.</string>
@@ -400,6 +400,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Таңдауларды шешу</string>
     <string name="miuix_appcompat_action_mode_select_all">Барлығын таңдау</string>
     <string name="miuix_appcompat_action_mode_title_empty">Таңдауды алып тастау</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Таңдау</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Көбірек</string>
     <string name="miuix_appcompat_cancel_description">Болдырмау</string>
     <string name="miuix_appcompat_confirm_description">Растау</string>
@@ -474,22 +475,20 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="name_password_not_consistent">Пайдаланушы аты немесе құпиясөз дұрыс емес</string>
     <string name="nas_backup_progress_title">SmartStorage-ге сақтық көшірмені жасау</string>
     <string name="nas_backup_resume_button">Жалғастыру</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">Желі ажыратылды. Планшетіңіз бен SmartStorage құрылғыңыз бір желіде екеніне көз жеткізіп, сақтық көшірмені қайта жасап көріңіз.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">Желі ажыратылды. Телефоныңыз бен SmartStorage құрылғыңыз бір желіде екеніне көз жеткізіп, сақтық көшірмені қайта жасап көріңіз.</string>
-    <string name="nas_backup_task_progress_summary_pad">Сақтық көшірме жасау кезінде планшетіңіз бен Smart Storage құрылғыңыз бір желіде екеніне көз жеткізіңіз. Деректердің жоғалуын болдырмау үшін планшетіңізді қайта жүктеңіз немесе өшірмеңіз.</string>
-    <string name="nas_backup_task_progress_summary_phone">Сақтық көшірме жасау кезінде телефоныңыз бен Smart Storage құрылғыңыз бір желіде екеніне көз жеткізіңіз. Деректердің жоғалуын болдырмау үшін телефоныңызды қайта жүктеңіз немесе өшірмеңіз.</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_backup_task_suspend_info_title">Сақтық көшірме жасау тоқтатылды</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">Болдырмау</string>
     <string name="nas_connecting_progress_dialog">SmartStorage-ге қосылу…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"SmartStorage қызметін сақтық көшірме жасау және қалпына келтіру үшін пайдалану үшін келесіні тексеріңіз:
-%d. SmartStorage құрылғысы желіде.
-%d. Планшетіңіз SmartStorage қызметімен бір желідегі Wi-Fi желісіне қосылған.
-%d. Желі тұрақты. (Сақтық көшірме жасау немесе қалпына келтіру кезінде планшетіңізді қайта жүктемеңіз немесе өшірмеңіз)."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"SmartStorage қызметін сақтық көшірме жасау және қалпына келтіру үшін пайдалану үшін келесіні тексеріңіз:
-%d. SmartStorage құрылғысы желіде.
-%d. Телефоныңыз SmartStorage қызметімен бір желідегі Wi-Fi желісіне қосылған.
-%d. Желі тұрақты. (Сақтық көшірме жасау немесе қалпына келтіру кезінде телефоныңызды қайта жүктемеңіз немесе өшірмеңіз)."</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your phone during backups or restoration)."</string>
     <string name="nas_disconnect_dialog_title">SmartStorage-ге қосылу мүмкін болмады</string>
     <string name="nas_low_memory_progress_backup_summary_nas">SmartStorage орны жеткіліксіз. Сақтық көшірме жасауды жалғастыру үшін орын босатып, \"Қайталау\" түймесін түртіңіз.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">Планшет жады жеткіліксіз. Сақтық көшірме жасауды жалғастыру үшін орын босатып, \"Қайталау\" түймесін түртіңіз.</string>
@@ -506,13 +505,14 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="nas_low_storage_phone_summary">Сақтық көшірмелерді кэштеу үшін телефоныңызда уақытша сақтау орны қажет. %s орнын сақтаңыз. Бұл орын элементтердің сақтық көшірмесі жасалғаннан кейін босатылады.</string>
     <string name="nas_low_storage_phone_title">Телефон жады жеткіліксіз</string>
     <string name="nas_low_storage_title">SmartStorage толы</string>
-    <string name="nas_notification_title">WeChat хабарларының сақтық көшірмесін SmartStorage-ге сақтау…</string>
+    <string name="nas_notification_title">Backing up WeChat history to Xiaomi SmartStorage…</string>
+    <string name="nas_restore_notification_title">Restoring WeChat history from Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">SmartStorage-ден қалпына келтіру</string>
     <string name="nas_restore_resume_button">Жалғастыру</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">Желі ажыратылды. Планшетіңіз бен SmartStorage құрылғыңыз бір желіде екеніне көз жеткізіп, қалпына келтіруді қайталап көріңіз.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">Желі ажыратылды. Телефоныңыз бен SmartStorage құрылғыңыз бір желіде екеніне көз жеткізіп, қалпына келтіруді қайталап көріңіз.</string>
-    <string name="nas_restore_task_progress_summary_pad">Қалпына келтіру кезінде планшетіңіз бен Smart Storage құрылғыңыз бір желіде екеніне көз жеткізіңіз. Деректердің жоғалуын болдырмау үшін планшетіңізді қайта жүктеңіз немесе өшірмеңіз.</string>
-    <string name="nas_restore_task_progress_summary_phone">Қалпына келтіру кезінде телефоныңыз бен Smart Storage құрылғыңыз бір желіде екеніне көз жеткізіңіз. Деректердің жоғалуын болдырмау үшін телефоныңызды қайта жүктеңіз немесе өшірмеңіз.</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">Қалпына келтіру тоқтатылды</string>
     <string name="nas_retry_button">Әрекетті қайталау</string>
     <string name="nas_task_lowmemory_summary_pad_backup">Планшет жады жеткіліксіз. Орын босатып, сақтық көшірмесін қайта жасап көріңіз.</string>
@@ -542,13 +542,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="new_local_button_backup">Сақтық көшірме жасау</string>
     <string name="new_local_button_restore">Қалпына келтіру</string>
     <string name="new_local_click_to_jump">Толық нұсқауларды көру үшін басыңыз</string>
-    <string name="new_local_detail_description">"Ескерту:
-%1$d. Деректерді жоғалтпау үшін сақтық көшірмелерді компьютерге көшіріңіз. %2$s
-%3$d. Сақтық көшірмелер MIUI > backup > AllBackup орны бойынша сақталады."</string>
-    <string name="new_local_detail_description_global">"Ескерту:
-%1$d. Деректерді жоғалтпау үшін сақтық көшірмелерді компьютерге көшіріңіз. %2$s
-%3$d. Сақтық көшірмелер MIUI > backup > AllBackup орны бойынша сақталады.
-%4$d. Кейбір қолданбалардың сақтық көшірмесін жасау немесе қалпына келтіру мүмкін болмауы мүмкін."</string>
+    <string name="new_local_detail_description">Ескертпе: Деректердің жоғалуын болдырмау үшін сақтық көшірмелерді компьютеріңізге көшіріңіз. (click)Толық нұсқауларды көру үшін түртіңіз (/click). Сақтық көшірмелер MIUI > backup > AllBackup бөліміне сақталады.</string>
+    <string name="new_local_detail_description_global">Ескертпе: Деректердің жоғалуын болдырмау үшін сақтық көшірмелерді компьютеріңізге көшіріңіз. (click)Толық нұсқауларды көру үшін түртіңіз (/click). Сақтық көшірмелер MIUI > backup > AllBackup бөліміне сақталады. Кейбір қолданбалардың сақтық көшірмесін жасау немесе қалпына келтіру мүмкін болмауы мүмкін.</string>
     <string name="new_local_tab_backup">Сақтық көшірме жасау</string>
     <string name="new_local_tab_backup_pad">Сақтық көшірмені жасау</string>
     <string name="new_local_tab_restore">Қалпына келтіру</string>
@@ -641,8 +636,182 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="open_compatibility_mode">Қосу</string>
     <string name="pad_backup_and_restore">Планшет</string>
     <string name="page_loading">Бір секунд…</string>
+    <string name="pasport_register_dialog_message">Xiaomi Аккаунты %s телефон нөміріңізбен тіркелсін бе?</string>
+    <string name="passport_access_denied">Қолжетілмділік рұқсаты жоқ</string>
+    <string name="passport_account_crop_user_avatar">Суретті кесу</string>
+    <string name="passport_account_empty_user_name">Атыңызды енгізіңіз</string>
+    <string name="passport_account_error_all_space_user_name">Аты бос әріптерден ғана құралуы мүмкін емес</string>
+    <string name="passport_account_error_invalid_user_name">Аты &lt;, >, немесе / символдан құралмауы керек</string>
+    <string name="passport_account_error_longer_user_name">Аты %d таңбадан ұзынырақ болмауы керек</string>
+    <string name="passport_account_error_shorter_user_name">Аты %d таңбадан ұзынырақ болуы керек</string>
+    <string name="passport_account_error_user_name">Осы лақап ат жарамсыз. Басқасын көріңіз.</string>
+    <string name="passport_account_invalid_user_avatar">Осы сурет жарамсыз. Басқасын көріңіз.</string>
+    <string name="passport_account_name">"Аккаунт: %1$s "</string>
+    <string name="passport_account_no_set">Жоқ</string>
+    <string name="passport_account_none_bind_info">Жоқ</string>
+    <string name="passport_account_none_user_name">Жоқ</string>
+    <string name="passport_account_secure_info_pref_title">Аккаунт туралы ақпарат</string>
+    <string name="passport_account_security_info_pref_title">Қауіпсіздік мәліметтері</string>
+    <string name="passport_account_user_avatar">Профиль суреті</string>
+    <string name="passport_account_user_avatar_from_album">Галереядан таңдаңыз</string>
+    <string name="passport_account_user_avatar_from_camera">Камера</string>
+    <string name="passport_account_user_base_info">Негізгі ақпарат</string>
+    <string name="passport_account_user_details">Жеке ақпарат</string>
+    <string name="passport_account_user_email">Қалпына келтіру электрондық поштасы</string>
+    <string name="passport_account_user_gender">Жынысы</string>
+    <string name="passport_account_user_id">Xiaomi Аккаунт ID-і</string>
+    <string name="passport_account_user_name">Лақап аты</string>
+    <string name="passport_account_user_name_dialog_title">Атын енгізіңіз</string>
+    <string name="passport_account_user_phone">Қалпына келтіру телефоны</string>
+    <string name="passport_activity_not_found_notice">Қолданбаны табу мүмкін емес</string>
+    <string name="passport_agree">Келісу</string>
+    <string name="passport_area_code_title">Аймақ коды</string>
+    <string name="passport_attention">Назар аударыңыз</string>
+    <string name="passport_back">Артқа</string>
+    <string name="passport_bad_authentication">Пайдаланушының аты немесе құпиясөзі дұрыс емес</string>
+    <string name="passport_can_not_recevie_verify_code">Кодты алмадыңыз ба?</string>
+    <string name="passport_change_password">Құпиясөзді өзгерту</string>
+    <string name="passport_check_security">Қауіпсіздік мәселелерін тексеру…</string>
+    <string name="passport_checking_account">Құпиясөзді тексеру…</string>
+    <string name="passport_clear_input">Енгізілген мазмұнды тазарту</string>
+    <string name="passport_completed">Дайын</string>
+    <string name="passport_confirm_new_pwd">Жаңа құпиясөзді растаңыз</string>
+    <string name="passport_copy_link">URL-ды көшіру</string>
+    <string name="passport_copy_to_clipboard_successful">Сәтті көшірілген</string>
+    <string name="passport_dialog_captcha_title">Код</string>
+    <string name="passport_dialog_doing_login">Кіру…</string>
+    <string name="passport_dialog_doing_register">Mi аккаунтты құруда…</string>
+    <string name="passport_dialog_is_my_account">Иә</string>
+    <string name="passport_dialog_is_your_mi_account">Бұл сіздің Xiaomi аккаунтыңыз ба?</string>
+    <string name="passport_dialog_loading">Бір секунд…</string>
+    <string name="passport_dialog_nick_name_prefix">Лақап ат: %s</string>
+    <string name="passport_dialog_phone_number_prefix">Телефон нөмірі: %s</string>
+    <string name="passport_dialog_register_other">Жоқ, жаңасын жасаймын</string>
+    <string name="passport_doing_query_account">Аккаунт ақпаратын тексеру…</string>
+    <string name="passport_error_auth_fail">Сессия уақыты асты. Қайтадан кіріңіз.</string>
+    <string name="passport_error_device_id">Құрылғының ID-ін алу мүмкін емес</string>
+    <string name="passport_error_empty_password">Құпиясөзді енгізіңіз</string>
+    <string name="passport_error_empty_pwd">Құпиясөз бос болауы керек</string>
+    <string name="passport_error_empty_user_id">Пайдаланушы атыңызды енгізіңіз</string>
+    <string name="passport_error_illegal_pwd">Жарамсыз құпиясөз форматы</string>
+    <string name="passport_error_length_limit">Енгізген мәтініңіз тым ұзын</string>
+    <string name="passport_error_network">Желіге қосылу мүмкін емес</string>
+    <string name="passport_error_no_password_user">Сіз әлі құпиясөзді орнатқан жоқсыз. SMS арқылы кіріңіз.</string>
+    <string name="passport_error_phone">Жарамды телефон нөмірін енгізіңіз</string>
+    <string name="passport_error_server">Сервер қатесі</string>
+    <string name="passport_error_sms_limit">Осы нөмірге растау коды тым көп жіберілген. Кейінірек қайталаңыз.</string>
+    <string name="passport_error_ticket_invalid">Бұл код дұрыс емес</string>
+    <string name="passport_error_timeout_network_error">Күту уақыты аяқталды</string>
+    <string name="passport_error_token_expired">Кодтың жарамдылық мерзімі өтті. Қайталаңыз.</string>
+    <string name="passport_error_unknow_error">Қате пайда болды</string>
+    <string name="passport_error_unknow_host_network_error">Желіге қосылу мүмкін болмады</string>
+    <string name="passport_error_unknow_network_error">Желі қателігі пайда болды</string>
+    <string name="passport_error_unknown">Белгісіз қате</string>
+    <string name="passport_error_user_name">Сіз енгізген пайдаланушы аты жарамсыз</string>
+    <string name="passport_error_user_password">Құпиясөздер сәйкес келмейді</string>
+    <string name="passport_facebook_login_btn_content_description">Facebook арқылы кіру</string>
+    <string name="passport_frequency_try_later">Тым көп әрекет жасалды. Бір-екі минут күтіп, әрекетті қайталаңыз.</string>
+    <string name="passport_get_login_type_next">Келесі</string>
+    <string name="passport_google_login_btn_content_description">Google арқылы кіру</string>
+    <string name="passport_help">Көмек</string>
+    <string name="passport_i_know">Түсінікті</string>
+    <string name="passport_identification_expired">Растау кодының мерзімі аяқталды. Басынан бастаңыз.</string>
+    <string name="passport_input_captcha_hint">Кодты енгізіңіз</string>
+    <string name="passport_input_new_pwd">Жаңа құпиясөзді енгізіңіз</string>
+    <string name="passport_input_password_hint">Құпиясөзді енгізіңіз</string>
+    <string name="passport_input_phone_number_hint">Телефон нөмірін енгізіңіз</string>
+    <string name="passport_input_verify_code">Растау кодын енгізіңіз</string>
+    <string name="passport_input_voice_captcha_hint">Дауыс растау кодын енгізіңіз</string>
+    <string name="passport_input_voice_hint">Дауыс кодын енгізіңіз</string>
+    <string name="passport_login_by_local_phone_long_text">Қазір кіру</string>
+    <string name="passport_login_by_local_phone_short_text">Кіру</string>
+    <string name="passport_login_other">Басқа Xiaomi Аккаунты</string>
+    <string name="passport_login_register_by_local_phone_long_text">Аккаунтты тіркеу</string>
+    <string name="passport_login_with_sns">Кірудің басқа жолдары</string>
+    <string name="passport_logout_account">Аккаунттан шығу</string>
+    <string name="passport_mi_account_title">Xiaomi Аккаунты арқылы кіру</string>
+    <string name="passport_network_error">Желі қатесі пайда болды. Желі баптауларын тексеріңіз және қайталаңыз.</string>
+    <string name="passport_network_error_hint">URL-ды тексеріп, қайталап көріңіз, немесе URL-ды көшіріп, браузеріңізде ашыңыз.</string>
+    <string name="passport_network_timeout">Желіге қосылу мүмкін болмады. Қайталаңыз.</string>
+    <string name="passport_next">Келесі</string>
+    <string name="passport_no_account">Кіру орындалмады</string>
+    <string name="passport_open_settings">Баптаулар</string>
+    <string name="passport_page_load_failed">Бетті ашу мүмкін емес</string>
+    <string name="passport_password_hide_show">Құпиясөзді жасыру</string>
+    <string name="passport_password_login_btn">Кіру</string>
+    <string name="passport_password_not_show">Құпиясөзді көрсетпеу</string>
+    <string name="passport_password_req_notice">Құпиясөз ұзындығы %1$d–%2$d таңбадан тұруы керек, және келесілерден кем кегенде 2 элемент болуы керек: сандар, әріптер, және арнайы таңбалар</string>
+    <string name="passport_password_show">Құпиясөзді көрсету</string>
+    <string name="passport_phone_auto_login_register_with_local_number">Аккаунтты тіркеу</string>
+    <string name="passport_photo_picker_not_found">Қолжетімді сурет жоқ.</string>
+    <string name="passport_qq_login_btn_content_description">QQ арқылы кіру</string>
+    <string name="passport_querying_phone_info">Аккаунт мәліметтерін сұрау…</string>
+    <string name="passport_quick_login_title">Құпиясөзді енгізіңіз</string>
+    <string name="passport_reging">Аккаунтты тіркеу…</string>
+    <string name="passport_register_by_local_phone_long_text">Аккаунтты тіркеу</string>
+    <string name="passport_register_by_local_phone_short_text">Аккаунтты тіркеу</string>
+    <string name="passport_register_dialog_positive">Тіркеу</string>
+    <string name="passport_register_dialog_title">Xiaomi Аккаунтын тіркеу</string>
+    <string name="passport_register_restricted">Осы нөмірмен байланысқан аккаунт тым көп. Басқасын таңдаңыз.</string>
+    <string name="passport_relogin_notice">Сіз қайтадан кіру керексіз</string>
+    <string name="passport_request_agree">Рұқсат беру</string>
+    <string name="passport_request_camera_permission_message">Біз тиісті заңдарға, ережелерге және құпиялылық саясатқа сәйкес сіздің жеке ақпаратыңызды қорғаймыз. Қолданбаға қалыпты жұмыс істеу үшін келесі рұқсаттар керек:&lt;br>&lt;br>&lt;b>Камераны пайдалану (профиль суретін орнату үшін)&lt;/b>&lt;br>&lt;br>Егер сіз осындай рұқсаттарды беруге келіспесеңіз, осы қолданбаның кейбір қызметтерін пайдалана алмайсыз; алайда, оның негізгі функциялары сізге әлі қол жетімді болады. Сіз кез-келген уақытта баптауларда рұқсаттарды шектей аласыз немесе авторизациядан бас тарта аласыз.</string>
+    <string name="passport_request_cancel">Болдырмау</string>
+    <string name="passport_request_error_invalid_token">Растау мүмкін болмады</string>
+    <string name="passport_request_error_network">Желі қатесі пайда болды. Желі баптауларын тексеріңіз және қайталаңыз.</string>
+    <string name="passport_request_error_unknown">Жүйе қатесі пайда болды. Артқа қайтып, әрекетті қайталаңыз.</string>
+    <string name="passport_request_gallery_permission_message">Бұл қолдаңба профиль суретіңізді орнату үшін таңдалған Галерея элементтеріне кіру керек. Қазір рұқсат етесіз бе?</string>
+    <string name="passport_request_permission_title">Рұқсаттар талап етіледі</string>
+    <string name="passport_resend_ticket">Кодты қайта жіберу</string>
+    <string name="passport_retry">Қайталау</string>
+    <string name="passport_send_sms_to">Код %1$s нөміріне жіберілді</string>
+    <string name="passport_send_too_many_code">Осы нөмірге жіберілген растау кодтары тым көп. 24 сағат күтіп, әрекетті қайталаңыз.</string>
+    <string name="passport_sending_vcode">Кодты жіберу…</string>
+    <string name="passport_set_password_no_phone_msg">Аккаунтыңызды қорғау үшін телефон нөміріңізді қосыңыз.</string>
+    <string name="passport_set_password_title">Құпиясөзді орнату</string>
+    <string name="passport_skip_query_account">Өткізіп жіберу</string>
+    <string name="passport_sns_bind_limit">Тым көп әрекет жасалды. Кірудің басқа жолдарын көріңіз.</string>
+    <string name="passport_system_error">Жүйе бос емес. Бір-екі минут күтіп, әрекетті қайталаңыз.</string>
+    <string name="passport_talkback_image_captcha">Сурет растау коды</string>
+    <string name="passport_talkback_switch_image_captcha">Сурет растау кодына ауысу</string>
+    <string name="passport_talkback_switch_voice_captcha">Дауыс растау кодына ауысу</string>
+    <string name="passport_talkback_voice_captcha">Дауыс растау кодын ойнату</string>
+    <string name="passport_third_sns_service_unavailable">Қызмет қолжетімсіз. Қолданба орнатылғанына және бұғатталмағанына көз жеткізіңіз.</string>
+    <string name="passport_ticket_send_by_second">%d жіберіледі</string>
+    <string name="passport_to_forget_password">Құпиясөзді ұмыттыңыз ба?</string>
+    <string name="passport_to_password_login">Құпия сөз арқылы кіріңіз</string>
+    <string name="passport_to_verify_code_login">SMS арқылы кіру</string>
+    <string name="passport_unknown_error">Белгісіз қате</string>
+    <string name="passport_unknown_host_network_error">Желі баптауларын тексеріп, әрекетті қайталаңыз</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a> және Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a> оқыдым және оларға келісемін.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>China Mobile растау қызметтерінің Ережелері мен Шарттарын оқыдым және оларға келісемін&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>eSurfing аккаунтының растау қызметтерінің Ережелері мен Шарттарын оқыдым және оған келісемін&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Мен &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, Xiaomi Аккаунтының &lt;a href=%3$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%4$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%5$s>China Unicom растау қызметтерінің Ережелері мен Шарттарын оқыдым және оларға келісемін&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімі&lt;/a> мен &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a> оқыдым және оларға келісемін.</Data></string>
+    <string name="passport_user_agreement_hint_first_login">Егер сіз телефон нөміріңізді бірінші рет қолдансаңыз, біз автоматты түрде аккаунт тіркейміз.</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>China Mobile растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>eSurfing аккаунты растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Мен Xiaomi Аккаунтының &lt;a href=%1$s>Пайдаланушы Келісімін&lt;/a> және &lt;a href=%2$s>Құпиялылық Саясатын&lt;/a>, сондай-ақ &lt;a href=%3$s>China Unicom растау қызметтерінің Ережелері мен Шарттарын&lt;/a> оқыдым және келісемін.</Data></string>
+    <string name="passport_user_avatar_update_title">Профиль суретін өзгерту</string>
+    <string name="passport_user_avatar_uploading">Бір секунд…</string>
+    <string name="passport_user_id_hint">Эл. пошта/телефон нөмірі/Xiaomi Аккаунт ID</string>
+    <string name="passport_user_name_phone_number">Телефон нөмірі</string>
+    <string name="passport_user_password_hint">Құпиясөз</string>
+    <string name="passport_vcode_what_app_send_prompt">Сіздің WhatsApp растау кодыңыз қалпына келтіру телефоныңызға жіберіледі (&lt;font color=#1F93FF>%s&lt;/font>).</string>
+    <string name="passport_wechat_not_install">Алдымен WeChat-ты орнатыңыз</string>
+    <string name="passport_weibo_login_btn_content_description">Weibo арқылы кіру</string>
+    <string name="passport_weixin_login_btn_content_description">WeChat арқылы кіру</string>
+    <string name="passport_wrong_captcha">Сіз енгізген код дұрыс емес</string>
+    <string name="passport_wrong_phone_number_format">Сіз енгізген телефон нөмірі жарамсыз</string>
+    <string name="passport_wrong_vcode">Сіз енгізген код дұрыс емес</string>
+    <string name="passport_wrong_voice">Сіз енгізген код дұрыс емес</string>
     <string name="password">Құпиясөз</string>
+    <string name="password_guessable_pattern">Құпиясөз қауіпсіздігі төмен. Бірінен соң бірі келетін сандарды, әріптерді және арнайы таңбаларды араластырып пайдаланыңыз.</string>
+    <string name="password_inconsistent">Екі құпиясөз сәйкес емес. Растап, әрекетті қайталаңыз.</string>
+    <string name="password_invalid_format_prompt">Құпиясөздерде келесілерден кем кегенде 2 элемент болуы керек: сандар, әріптер, және арнайы таңбалар</string>
+    <string name="password_length_short_prompt">Құпиясөз ұзындығы дұрыс емес. %1$d–%2$d таңбадан тұратын құпиясөз орнатыңыз.</string>
     <string name="password_null">Құпиясөз бос бола алмайды</string>
+    <string name="password_reused_with_in_year">Жаңа құпиясөз өткен жылы қолданылған құпиясөзбен бірдей. Толығымен жаңа құпиясөз таңдаңыз.</string>
     <string name="pause">Үзіліс</string>
     <string name="pc_backup_and_restore">Компьютер</string>
     <string name="perm_camera">Камера</string>
@@ -729,10 +898,10 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="restore_launcher_layout_hit">Негізгі экран баптауларын қалпына келтіру</string>
     <string name="restore_progress">Қалпына келтіруде…</string>
     <string name="restore_report">Қалпына келтіру туралы мәліметтер</string>
-    <string name="restore_suspend_fail_summary_pad">Байланыс үзілді. Планшетіңіз SmartStorage желісімен бір желіде болғанда, қалпына келтіруді жалғастыру үшін \"Қайталау\" түймесін түртіңіз.</string>
-    <string name="restore_suspend_fail_summary_phone">Байланыс үзілді. Телефоныңыз SmartStorage желісімен бір желіде болғанда, қалпына келтіруді жалғастыру үшін \"Қайталау\" түймесін түртіңіз.</string>
-    <string name="restore_suspend_summary_pad">Байланыс үзілді. Планшетіңіз SmartStorage желісімен бір желіде болғанда, қалпына келтіру автоматты түрде жалғасады.</string>
-    <string name="restore_suspend_summary_phone">Байланыс үзілді. Телефоныңыз SmartStorage желісімен бір желіде болғанда, қалпына келтіру автоматты түрде жалғасады.</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
     <string name="restore_suspend_title">Қалпына келтіру кідіртілді. Қайта қосылу…</string>
     <string name="restore_tab">Қалпына келтіру</string>
     <string name="restore_telephony_hit">Қалпына келтіру үдерісі \"Телефон\" қолданбасын қайта іске қосады.</string>

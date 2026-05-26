@@ -68,10 +68,10 @@
     <string name="backup_report">বিস্তারিত দেখুন</string>
     <string name="backup_security_tips_message">কিছু অ্যাপের ব্যাকআপ নেওয়া যায় না বা ফিরিয়ে আনা যায় না।</string>
     <string name="backup_security_tips_title">ব্যাকআপ কাজ নাও করতে পারে</string>
-    <string name="backup_suspend_fail_summary_pad">কানেকশন কেটে গিয়েছে। SmartStorage ও আপনার ট্যাবলেট একই নেটওয়ার্কে এলে, ব্যাকআপ আবার শুরু করতে \"আবার চেষ্টা করুন\" ট্যাপ করুন।</string>
-    <string name="backup_suspend_fail_summary_phone">কানেকশন কেটে গিয়েছে। SmartStorage ও আপনার ফোন একই নেটওয়ার্কে এলে, ব্যাকআপ আবার শুরু করতে \"আবার চেষ্টা করুন\" ট্যাপ করুন।</string>
-    <string name="backup_suspend_summary_pad">কানেকশন কেটে গিয়েছে। SmartStorage ও আপনার ট্যাবলেট একই নেটওয়ার্কে চালু করা হলে, অটোমেটিক ব্যাকআপ আবার শুরু হয়ে যাবে।</string>
-    <string name="backup_suspend_summary_phone">কানেকশন কেটে গিয়েছে। SmartStorage ও আপনার ফোন একই নেটওয়ার্কে চালু করা হলে, অটোমেটিক ব্যাকআপ আবার শুরু হয়ে যাবে।</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
     <string name="backup_suspend_title">ব্যাকআপ পজ করা হয়েছে। আবার কানেক্ট করুন…</string>
     <string name="backup_tab">ব্যাকআপ নিন</string>
     <string name="backup_tips_dialog_summary">ডুয়াল অ্যাপ এবং ব্যক্তিগত আইটেম সমর্থিত নয়। এই ব্যাকআপে কেবল এখনও পর্যন্ত থাকা ডেটা অন্তর্ভুক্ত। নতুন ডেটা অটোমেটিক সিঙ্ক হবে না।</string>
@@ -400,6 +400,7 @@ https://appleid.apple.com/#!&amp;page=signin বন্ধ করার জন্
     <string name="miuix_appcompat_action_mode_deselect_all">কিছুই বাছবেন না</string>
     <string name="miuix_appcompat_action_mode_select_all">সব নির্বাচন করুন</string>
     <string name="miuix_appcompat_action_mode_title_empty">আইটেমগুলি নির্বাচন করুন</string>
+    <string name="miuix_appcompat_action_sheet_default_message">বেছে নিন</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">আরো</string>
     <string name="miuix_appcompat_cancel_description">বাতিল করুন</string>
     <string name="miuix_appcompat_confirm_description">নিশ্চিত করুন</string>
@@ -474,22 +475,20 @@ https://appleid.apple.com/#!&amp;page=signin বন্ধ করার জন্
     <string name="name_password_not_consistent">ব্যবহারকারীর নাম অথবা পাসওয়ার্ড ভুল</string>
     <string name="nas_backup_progress_title">SmartStorage-এ ব্যাকআপ নিন</string>
     <string name="nas_backup_resume_button">আবার শুরু করুন</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">নেটওয়ার্ক ডিস্কানেক্ট হয়ে গিয়েছে। আপনার ট্যাবলেট এবং SmartStorage ডিভাইস একই নেটওয়ার্কে আছে কিনা তা নিশ্চিত করুন, তারপর আবার ব্যাকআপ নেওয়ার চেষ্টা করুন।</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">নেটওয়ার্ক ডিস্কানেক্ট হয়ে গিয়েছে। আপনার ফোন এবং SmartStorage ডিভাইস একই নেটওয়ার্কে আছে কিনা তা নিশ্চিত করুন, তারপর আবার ব্যাকআপ নেওয়ার চেষ্টা করুন।</string>
-    <string name="nas_backup_task_progress_summary_pad">ব্যাকআপ নেওয়ার সময় খেয়াল রাখবেন আপনার ট্যাবলেট ও SmartStorage ডিভাইস একই নেটওয়ার্কে আছে। ডেটা লস যাতে না হয় তার জন্য আপনার ট্যাবলেট রিবুট বা পাওয়ার বন্ধ করবেন না।</string>
-    <string name="nas_backup_task_progress_summary_phone">ব্যাকআপ নেওয়ার সময় খেয়াল রাখবেন আপনার ফোন ও SmartStorage ডিভাইস একই নেটওয়ার্কে আছে। ডেটা লস যাতে না হয় তার জন্য আপনার ফোন রিবুট বা পাওয়ার বন্ধ করবেন না।</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_backup_task_suspend_info_title">ব্যাকআপ পজ করা হয়েছে</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">বাতিল করুন</string>
     <string name="nas_connecting_progress_dialog">SmartStorage এর সাথে কানেক্ট করা হচ্ছে…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"SmartStorage ব্যবহার করে আইটেমের ব্যাকআপ নেওয়া ও ফিরিয়ে আনার জন্য, দেখে নিন:
-%d। SmartStorage ডিভাইস অনলাইন আছে।
-%d। আপনার ট্যাবলেট SmartStorage-এর মতন একই ওয়াই ফাই-এর সাথে কানেক্ট করে আছে।
-%d। নেটওয়ার্ক স্থির আছে। (ব্যাকআপ নেওয়া ও ফিরিয়ে আনার সময় ট্যাবলেট রিবুট বা পাওয়ার বন্ধ করবেন না)।"</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"SmartStorage ব্যবহার করে আইটেমের ব্যাকআপ নেওয়া ও ফিরিয়ে আনার জন্য, দেখে নিন:
-%d। SmartStorage ডিভাইস অনলাইন আছে।
-%d। আপনার ফোন SmartStorage-এর মতন একই ওয়াই ফাই-এর সাথে কানেক্ট করে আছে।
-%d। নেটওয়ার্ক স্থির আছে। (ব্যাকআপ নেওয়া ও ফিরিয়ে আনার সময় ফোন রিবুট বা পাওয়ার বন্ধ করবেন না)।"</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your phone during backups or restoration)."</string>
     <string name="nas_disconnect_dialog_title">SmartStorage এর সাথে কানেক্ট করা যাচ্ছে না</string>
     <string name="nas_low_memory_progress_backup_summary_nas">পর্যাপ্ত SmartStorage স্টোরেজ নেই। ব্যাকআপ চালু করতে জায়গা খালি করুন এবং \"আবার চেষ্টা করুন\" ট্যাপ করুন।</string>
     <string name="nas_low_memory_progress_backup_summary_pad">পর্যাপ্ত ট্যাবলেট স্টোরেজ নেই। ব্যাকআপ চালু করতে জায়গা খালি করুন এবং \"আবার চেষ্টা করুন\" ট্যাপ করুন।</string>
@@ -506,13 +505,14 @@ https://appleid.apple.com/#!&amp;page=signin বন্ধ করার জন্
     <string name="nas_low_storage_phone_summary">ব্যাকআপ ক্যাশ করার জন্য আপনার ফোনে অস্থায়ী স্টোরেজের প্রয়োজন হয়। %s রিজার্ভ করুন। আইটেমের ব্যাকআপ রাখার পর এই জায়গাটা খালি করা হবে।</string>
     <string name="nas_low_storage_phone_title">পর্যাপ্ত ফোন স্টোরেজ নেই</string>
     <string name="nas_low_storage_title">SmartStorage ভর্তি</string>
-    <string name="nas_notification_title">WeChat মেসেজের ব্যাকআপ SmartStorage এ নেওয়া হবে…</string>
+    <string name="nas_notification_title">Backing up WeChat history to Xiaomi SmartStorage…</string>
+    <string name="nas_restore_notification_title">Restoring WeChat history from Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">SmartStorage থেকে ফিরিয়ে আনুন</string>
     <string name="nas_restore_resume_button">আবার শুরু করুন</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">নেটওয়ার্ক ডিস্কানেক্ট হয়ে গিয়েছে। আপনার ট্যাবলেট এবং SmartStorage ডিভাইস একই নেটওয়ার্কে আছে কিনা তা নিশ্চিত করুন, তারপর আবার ব্যাকআপ নেওয়ার চেষ্টা করুন।</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">নেটওয়ার্ক ডিস্কানেক্ট হয়ে গিয়েছে। আপনার ফোন এবং SmartStorage ডিভাইস একই নেটওয়ার্কে আছে কিনা তা নিশ্চিত করুন, তারপর আবার ব্যাকআপ নেওয়ার চেষ্টা করুন।</string>
-    <string name="nas_restore_task_progress_summary_pad">আইটেম ফিরিয়ে আনার সময় খেয়াল রাখবেন আপনার ট্যাবলেট ও SmartStorage ডিভাইস একই নেটওয়ার্কে আছে। ডেটা লস যাতে না হয় তার জন্য আপনার ট্যাবলেট রিবুট বা পাওয়ার বন্ধ করবেন না।</string>
-    <string name="nas_restore_task_progress_summary_phone">আইটেম ফিরিয়ে আনার সময় খেয়াল রাখবেন আপনার ফোন ও SmartStorage ডিভাইস একই নেটওয়ার্কে আছে। ডেটা লস যাতে না হয় তার জন্য আপনার ফোন রিবুট বা পাওয়ার বন্ধ করবেন না।</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">রেস্টোরেশন পজ করা হয়েছে</string>
     <string name="nas_retry_button">আবার চেষ্টা করুন</string>
     <string name="nas_task_lowmemory_summary_pad_backup">পর্যাপ্ত ট্যাবলেট স্টোরেজ নেই। জায়গা খালি করুন এবং ব্যাকআপ নিন।</string>
@@ -542,13 +542,8 @@ https://appleid.apple.com/#!&amp;page=signin বন্ধ করার জন্
     <string name="new_local_button_backup">ব্যাকআপ</string>
     <string name="new_local_button_restore">ফিরিয়ে আনুন</string>
     <string name="new_local_click_to_jump">বিস্তারিত বিবরণ দেখতে ট্যাপ করুন</string>
-    <string name="new_local_detail_description">"দ্রষ্টব্য:
-%1$d। ডেটা লস এড়াতে আপনার কম্পিউটারে ব্যাকআপ কপি করুন। %2$s
-%3$d। ব্যাকআপ MIUI > backup > AllBackup -এ সেভ করা হবে।"</string>
-    <string name="new_local_detail_description_global">"দ্রষ্টব্য:
-%1$d। ডেটা লস এড়াতে আপনার কম্পিউটারে ব্যাকআপ কপি করুন। %2$s
-%3$d। MIUI > backup > AllBackup-এ ব্যাকআপ সেভ করা হবে।
-%4$d। কিছু অ্যাপে ব্যাকআপ কাজ নাও করতে পারে।"</string>
+    <string name="new_local_detail_description">দ্রষ্টব্য: ডেটা হারানো এড়াতে ব্যাকআপগুলো আপনার কম্পিউটারে কপি করে রাখুন। (click)বিস্তারিত নির্দেশনা দেখতে ট্যাপ করুন(/click)। ব্যাকআপগুলো MIUI > backup > AllBackup-এ সেভ হবে।</string>
+    <string name="new_local_detail_description_global">দ্রষ্টব্য: ডেটা হারানো এড়াতে ব্যাকআপগুলো আপনার কম্পিউটারে কপি করে রাখুন। (click)বিস্তারিত নির্দেশনা দেখতে ট্যাপ করুন(/click)। ব্যাকআপগুলো MIUI > backup > AllBackup-এ সেভ হবে।কিছু অ্যাপ ব্যাকআপ করা অথবা রিস্টোর করা নাও যেতে পারে।</string>
     <string name="new_local_tab_backup">ব্যাকআপ</string>
     <string name="new_local_tab_backup_pad">ব্যাক আপ</string>
     <string name="new_local_tab_restore">ফিরিয়ে আনুন</string>
@@ -641,8 +636,182 @@ https://appleid.apple.com/#!&amp;page=signin বন্ধ করার জন্
     <string name="open_compatibility_mode">চালু করুন</string>
     <string name="pad_backup_and_restore">ট্যাবলেট</string>
     <string name="page_loading">এক মুহূর্ত অপেক্ষা করুন…</string>
+    <string name="pasport_register_dialog_message">আপনার ফোন নম্বর ব্যবহার করে এখই একটি Xiaomi অ্যাকাউন্ট %s তৈরি করতে চান?</string>
+    <string name="passport_access_denied">অ্যাকসেস অস্বীকৃত</string>
+    <string name="passport_account_crop_user_avatar">ছবি ক্রপ করুন</string>
+    <string name="passport_account_empty_user_name">আপনার নাম লিখুন</string>
+    <string name="passport_account_error_all_space_user_name">নামে শুধু বিশেষ অক্ষর থাকতে পারে না</string>
+    <string name="passport_account_error_invalid_user_name">নামে &lt;, >, বা / থাকতে পারে না</string>
+    <string name="passport_account_error_longer_user_name">নামে %d অক্ষরের থেকে বেশি থাকতে পারে না</string>
+    <string name="passport_account_error_shorter_user_name">নামে %d অক্ষরের থেকে বেশি থাকতে হবে</string>
+    <string name="passport_account_error_user_name">এই ডাকনামটা ভুল। অন্য় একটা নাম দিয়ে চেষ্টা করে দেখুন।</string>
+    <string name="passport_account_invalid_user_avatar">ফটোটি ঠিক নেই। অন্য একটা দিয়ে চেষ্টা করে দেখুন।</string>
+    <string name="passport_account_name">"অ্যাকাউন্ট: %1$s "</string>
+    <string name="passport_account_no_set">কোনওটাই নয়</string>
+    <string name="passport_account_none_bind_info">একটিও নয়</string>
+    <string name="passport_account_none_user_name">কোনওটাই নয়</string>
+    <string name="passport_account_secure_info_pref_title">অ্যাকাউন্টের তথ্য</string>
+    <string name="passport_account_security_info_pref_title">নিরাপত্তা তথ্য</string>
+    <string name="passport_account_user_avatar">প্রোফাইল ফটো</string>
+    <string name="passport_account_user_avatar_from_album">গ্যালারি থেকে ছবি বেছে নিন</string>
+    <string name="passport_account_user_avatar_from_camera">ক্য়ামেরা</string>
+    <string name="passport_account_user_base_info">বেসিক তথ্য</string>
+    <string name="passport_account_user_details">ব্যক্তিগত তথ্য</string>
+    <string name="passport_account_user_email">অ্যাকাউন্ট ফিরে পাওয়ার ইমেল</string>
+    <string name="passport_account_user_gender">লিঙ্গ</string>
+    <string name="passport_account_user_id">Xiaomi অ্যাকাউন্ট আই ডি</string>
+    <string name="passport_account_user_name">ডাকনাম</string>
+    <string name="passport_account_user_name_dialog_title">নাম লিখুন</string>
+    <string name="passport_account_user_phone">অ্যাকাউন্ট ফিরে পাওয়ার ফোন</string>
+    <string name="passport_activity_not_found_notice">এই অ্যাপটি খুঁজে পাওয়া গেল না</string>
+    <string name="passport_agree">রাজি</string>
+    <string name="passport_area_code_title">এলাকা কোড</string>
+    <string name="passport_attention">খেয়াল রাখুন</string>
+    <string name="passport_back">পেছনে</string>
+    <string name="passport_bad_authentication">ভুল ব্যবহারকারী নাম বা পাসওয়ার্ড।</string>
+    <string name="passport_can_not_recevie_verify_code">কোড পান নি?</string>
+    <string name="passport_change_password">পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="passport_check_security">নিরাপত্তা সমস্যার জন্য চেক করা হচ্ছে…</string>
+    <string name="passport_checking_account">পাসওয়ার্ড চেক করা হচ্ছে …</string>
+    <string name="passport_clear_input">কনটেন্ট সরিয়ে ফেলুন</string>
+    <string name="passport_completed">হয়ে গিয়েছে</string>
+    <string name="passport_confirm_new_pwd">নতুন পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="passport_copy_link">URL কপি করুন</string>
+    <string name="passport_copy_to_clipboard_successful">সফলভাবে কপি করা হয়েছে</string>
+    <string name="passport_dialog_captcha_title">কোড</string>
+    <string name="passport_dialog_doing_login">সাইন ইন করা হচ্ছে…</string>
+    <string name="passport_dialog_doing_register">অ্যাকাউন্ট তৈরি হচ্ছে…</string>
+    <string name="passport_dialog_is_my_account">হ্যাঁ</string>
+    <string name="passport_dialog_is_your_mi_account">এটি কি আপনার Xiaomi অ্যাকাউন্ট?</string>
+    <string name="passport_dialog_loading">এক মুহূর্ত অপেক্ষা করুন…</string>
+    <string name="passport_dialog_nick_name_prefix">ডাকনাম: %s</string>
+    <string name="passport_dialog_phone_number_prefix">ফোন নম্বর: %s</string>
+    <string name="passport_dialog_register_other">না,আমি নিজেই একটা তৈরি করে নেব</string>
+    <string name="passport_doing_query_account">অ্যাকাউন্ট তথ্য চেক করা হচ্ছে…</string>
+    <string name="passport_error_auth_fail">সেসনের মেয়াদ উত্তীর্ণ হয়েছে। আবার সাইন ইন করুন।</string>
+    <string name="passport_error_device_id">ডিভাইস আই ডি পাওয়া যাচ্ছে না</string>
+    <string name="passport_error_empty_password">আপনার পাসওয়ার্ড লিখুন</string>
+    <string name="passport_error_empty_pwd">পাসওয়ার্ড খালি রাখা যাবে না</string>
+    <string name="passport_error_empty_user_id">ব্যবহাকারির নাম লিখুন</string>
+    <string name="passport_error_illegal_pwd">ভুল পাসওয়ার্ড ফর্ম্যাট</string>
+    <string name="passport_error_length_limit">আপনি যে টেকস্ট লিখেছেন সেটা খুব বড়</string>
+    <string name="passport_error_network">নেটওয়ার্কের সাথে যোগাযোগ করা যায়নি।</string>
+    <string name="passport_error_no_password_user">আপনি এখনও কোনো পাসওয়ার্ড সেট করেন নি।এসএমএস দিয়ে সাইন ইন করুন।</string>
+    <string name="passport_error_phone">একটি বৈধ ফোন নম্বর লিখুন।</string>
+    <string name="passport_error_server">সার্ভারের সমস্যা</string>
+    <string name="passport_error_sms_limit">অনেকগুলি যাচাইকরণ কোড এই নাম্বারে পাঠানো হয়েছে। পরে আবার চেষ্টা করুন।</string>
+    <string name="passport_error_ticket_invalid">এই কোডটি সঠিক নয়।</string>
+    <string name="passport_error_timeout_network_error">অনুরোধ সম্পূর্ণ হওয়ার সময় শেষ হয়েছে।</string>
+    <string name="passport_error_token_expired">কোডের মেয়াদ শেষ হয়েগিয়েছে। আবার চেষ্টা করুন।</string>
+    <string name="passport_error_unknow_error">একটি সমস্যা হয়েছে</string>
+    <string name="passport_error_unknow_host_network_error">নেটওয়ার্কে সাথে কানেক্ট করা গেল না।</string>
+    <string name="passport_error_unknow_network_error">একটি নেটওয়ার্ক সমস্যা হয়েছে</string>
+    <string name="passport_error_unknown">অজানা সমস্যা</string>
+    <string name="passport_error_user_name">আপনার লেখা ব্যবহারকারীর নাম ভুল।</string>
+    <string name="passport_error_user_password">পাসওয়ার্ড মিলছে না</string>
+    <string name="passport_facebook_login_btn_content_description">Facebook দিয়ে সাইন ইন করুন</string>
+    <string name="passport_frequency_try_later">অনেকবার চেষ্টা করেছেন। দু এক মিনিট অপেক্ষা করে আবার চেষ্টা করুন।</string>
+    <string name="passport_get_login_type_next">পরবর্তী</string>
+    <string name="passport_google_login_btn_content_description">Google দিয়ে সাইন ইন করুন</string>
+    <string name="passport_help">সহায়তা</string>
+    <string name="passport_i_know">বুঝেছি</string>
+    <string name="passport_identification_expired">যাচাইকরণ কোডের মেয়াদ শেষ,আবার শুরু করুন।</string>
+    <string name="passport_input_captcha_hint">কোড লিখুন</string>
+    <string name="passport_input_new_pwd">নতুন পাসওয়ার্ড লিখুন</string>
+    <string name="passport_input_password_hint">পাসওয়ার্ড লিখুন</string>
+    <string name="passport_input_phone_number_hint">ফোন নম্বর লিখুন</string>
+    <string name="passport_input_verify_code">যাচাইকরণ কোড লিখুন</string>
+    <string name="passport_input_voice_captcha_hint">ভয়েস যাচাইকরণের কোড লিখুন</string>
+    <string name="passport_input_voice_hint">ভয়েস কোড লিখুন</string>
+    <string name="passport_login_by_local_phone_long_text">এখন সাইন ইন করুন</string>
+    <string name="passport_login_by_local_phone_short_text">সাইন ইন</string>
+    <string name="passport_login_other">অন্য় Mi অ্যাকাউন্ট</string>
+    <string name="passport_login_register_by_local_phone_long_text">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="passport_login_with_sns">সাইন ইন করার জন্য অন্য পদ্ধতি</string>
+    <string name="passport_logout_account">সাইন আউট করুন</string>
+    <string name="passport_mi_account_title">Xiaomi অ্যাকাউন্ট দিয়ে সাইন ইন করুন</string>
+    <string name="passport_network_error">একটি নেটওয়ার্ক সমস্যা হয়েছে। আপনার নেটওয়ার্ক সেটিংস চেক করে আবার চেষ্টা করুন।</string>
+    <string name="passport_network_error_hint">URL ঠিক আছে কিনা চেক করে আবার চেষ্টা করুন অথবা URLটি কপি করে আপনার ব্রাউজারে খুলুন।</string>
+    <string name="passport_network_timeout">নেটওয়ার্কের সাথে কানেক্ট করা যাচ্ছে না। আবার চেষ্টা করুন।</string>
+    <string name="passport_next">পরবর্তী</string>
+    <string name="passport_no_account">সাইন ইন করা নেই</string>
+    <string name="passport_open_settings">সেটিংস</string>
+    <string name="passport_page_load_failed">পেজটি খোলা যাবে না</string>
+    <string name="passport_password_hide_show">পাসওয়ার্ড লুকান</string>
+    <string name="passport_password_login_btn">সাইন ইন করুন</string>
+    <string name="passport_password_not_show">পাসওয়ার্ড দেখাবেন না</string>
+    <string name="passport_password_req_notice">পাসওয়ার্ডে অন্তত %1$d–%2$d টি লম্বা অক্ষর থাকতে হবে এবং দুটি থাকতে হবে: নম্বর, অক্ষর, এবং বিশেষ চিহ্ন</string>
+    <string name="passport_password_show">পাসওয়ার্ড দেখুন</string>
+    <string name="passport_phone_auto_login_register_with_local_number">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="passport_photo_picker_not_found">কোনও ফটো নেই।</string>
+    <string name="passport_qq_login_btn_content_description">QQ দিয়ে সাইন ইন করুন</string>
+    <string name="passport_querying_phone_info">অ্যাকাউন্টের তথ্যের জন্য অনুরোধ করা হচ্ছে…</string>
+    <string name="passport_quick_login_title">আপনার পাসওয়ার্ড লিখুন</string>
+    <string name="passport_reging">অ্যাকাউন্ট তৈরি হচ্ছে…</string>
+    <string name="passport_register_by_local_phone_long_text">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="passport_register_by_local_phone_short_text">অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="passport_register_dialog_positive">তৈরি করুন</string>
+    <string name="passport_register_dialog_title">একটি Xiaomi অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="passport_register_restricted">এই নাম্বারটির সাথে অনেকগুলি অ্যাকাউন্ট যুক্ত করা হয়েছে, অন্য একটি নাম্বার দিয়ে চেষ্টা করে দেখুন।</string>
+    <string name="passport_relogin_notice">আপনাকে আবার সাইন ইন করতে হবে না</string>
+    <string name="passport_request_agree">অনুমতি দিন</string>
+    <string name="passport_request_camera_permission_message">স্থানীয় আইন ও নিয়ম অনুযায়ী আমরা আপনার ব্যক্তিগত তথ্য সুরক্ষিত রাখব। এই অ্যাপ ঠিক করে কাজ করার জন্য এই অনুমতিগুলি প্রয়োজন: &lt;br>&lt;br>&lt;b> ক্যামেরা ব্যবহার করা (আপনার প্রোফাইল সেট করার জন্য)&lt;/b>&lt;br>&lt;br> যদি আপনি অনুমতি দিতে রাজি না হন তাহলে আপনি কিছু ফিচার ব্যবহার করতে পারবেন না যদিও এই অ্যাপের বেসিক ফাংশানালিটি কাজ করবে। আপনি সেটিংস থেকে যেকোনও সময় অনুমতি তুলে নিতে বা সীমাবদ্ধ করতে পারবেন।</string>
+    <string name="passport_request_cancel">বাতিল করুন</string>
+    <string name="passport_request_error_invalid_token">যাচাই করা যায়নি</string>
+    <string name="passport_request_error_network">একটি নেটওয়ার্ক সমস্যা হয়েছে। আপনার নেটওয়ার্ক সেটিংস চেক করে আবার চেষ্টা করুন।</string>
+    <string name="passport_request_error_unknown">একটি সিস্টেম সমস্যা ঘটেছে। ফিরে গিয়ে আবার চেষ্টা করুন।</string>
+    <string name="passport_request_gallery_permission_message">আপনার প্রোফাইল ফটো সেট করার জন্য অ্যাপ গ্যালারি আইটেম অ্যাকসেস করবে। এখনই অনুমতি দেবেন?</string>
+    <string name="passport_request_permission_title">অনুমতি প্রয়োজন</string>
+    <string name="passport_resend_ticket">কোড আবার পাঠান</string>
+    <string name="passport_retry">আবার চেষ্টা করুন</string>
+    <string name="passport_send_sms_to">কোড এখানে পাঠানো হয়েছে %1$s</string>
+    <string name="passport_send_too_many_code">অনেকগুলি যাচাইকরণ কোড এই নাম্বারে পাঠানো হয়েছে। 24 ঘণ্টা অপেক্ষা করে আবার চেষ্টা করুন।</string>
+    <string name="passport_sending_vcode">কোড পাঠানো হচ্ছে…</string>
+    <string name="passport_set_password_no_phone_msg">আপনার অ্যাকাউন্ট সুরক্ষিত করতে ফোন নাম্বার যোগ করুন</string>
+    <string name="passport_set_password_title">পাসওয়ার্ড সেট করুন</string>
+    <string name="passport_skip_query_account">এড়িয়ে যান</string>
+    <string name="passport_sns_bind_limit">অনেক বার চেষ্টা করেছেন। অন্যভাবে সাইন ইন করে দেখুন।</string>
+    <string name="passport_system_error">সিস্টেম ব্যস্ত। দুই এক মিনিট অপেক্ষা করে আবার চেষ্টা করুন।</string>
+    <string name="passport_talkback_image_captcha">ছবি যাচাইকরণ কোড</string>
+    <string name="passport_talkback_switch_image_captcha">ছবি যাচাইকরণের কোডে যান</string>
+    <string name="passport_talkback_switch_voice_captcha">ভয়েস যাচাইকরণের কোডে যান</string>
+    <string name="passport_talkback_voice_captcha">ভয়েস যাচাইকরণের কোড প্লে করুন</string>
+    <string name="passport_third_sns_service_unavailable">এই সার্ভিস এখন উপলভ্য নেই। দেখে নিন অ্যাপটি ইনস্টল করা আছে এবং বল্ক করা নেই</string>
+    <string name="passport_ticket_send_by_second">%d এ পাঠান</string>
+    <string name="passport_to_forget_password">পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="passport_to_password_login">পাসওয়ার্ড দিয়ে সাইন ইন করুন</string>
+    <string name="passport_to_verify_code_login">এসএমএস দিয়ে সাইন ইন করুন</string>
+    <string name="passport_unknown_error">অজানা সমস্য়া</string>
+    <string name="passport_unknown_host_network_error">আপনার নেটওয়ার্ক সেটিংস দেখুন আর চেষ্টা করুন</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>আমি &lt;a href=%1$s>ব্যবহারকারীর চুক্তি&lt;/a> এবং &lt;a href=%2$s>গোপনীয়তা নীতি&lt;/a> এবং Xiaomi অ্যাকাউন্টের &lt;a href=%3$s>ব্যবহারকারীর চুক্তি&lt;/a> এবং &lt;a href=%4$s>গোপনীয়তা নীতি&lt;/a>পড়েছি ও রাজি হয়েছি।</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>আমি &lt;a href=%1$s>ব্যবহারকারীর চুক্তি&lt;/a> ও &lt;a href=%2$s>গোপনীয়তা নীতি&lt;/a>, Xiaomi অ্যাকাউন্টের &lt;a href=%3$s>ব্যবহারকারীর চুক্তি&lt;/a> ও &lt;a href=%4$s>গোপনীয়তা নীতি&lt;/a> এবং &lt;a href=%5$s>China Mobile যাচাইকরণ সার্ভিসের চুক্তি ও শর্ত&lt;/a>পড়েছি ও রাজি হয়েছি।</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>আমি &lt;a href=%1$s>ব্যবহারকারীর চুক্তি&lt;/a> ও &lt;a href=%2$s>গোপনীয়তা নীতি&lt;/a>, Xiaomi অ্যাকাউন্টের &lt;a href=%3$s>ব্যবহারকারীর চুক্তি&lt;/a> ও &lt;a href=%4$s>গোপনীয়তা নীতি&lt;/a> এবং &lt;a href=%5$s>eSurfing অ্যাকাউন্টের যাচাইকরণ সার্ভিসের চুক্তি ও শর্ত&lt;/a>পড়েছি ও রাজি হয়েছি।</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>আমি &lt;a href=%1$s>ব্যবহারকারীর চুক্তি&lt;/a> এবং &lt;a href=%2$s>গোপনীয়তা নীতি&lt;/a>, Xiaomi অ্যাকাউন্টের &lt;a href=%3$s>ব্যবহারকারীর চুক্তি&lt;/a> এবং &lt;a href=%4$s>গোপনীয়তা নীতি&lt;/a>, তার সাথে &lt;a href=%5$s>China Unicom যাচাউকরণ সার্ভিসের চুক্তি ও শর্ত&lt;/a>পড়েছি ও রাজি হয়েছি।</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>আমি Xiaomi অ্যাকাউন্টের &lt;a href=%1$s>ব্যবহারকারীর চুক্তি&lt;/a> ও &lt;a href=%2$s>গোপনীয়তা নীতি&lt;/a>পড়েছি ও রাজি হয়েছি।</Data></string>
+    <string name="passport_user_agreement_hint_first_login">আপনি প্রথম বার ফোন নম্বর ব্যবহার করলে আমরা একটি অ্য়াকাউন্ট অটেমেটিক তৈরি করে দেব।</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>আমি Xiaomi অ্যাকাউন্টের &lt;a href=%1$s>ব্যবহারকারীর চুক্তি&lt;/a> ও &lt;a href=%2$s>গোপনীয়তা নীতি&lt;/a>, তার সাথে &lt;a href=%3$s>China Mobile যাচাইকরণ সার্ভিসের চুক্তি ও শর্ত&lt;/a>পড়েছি ও রাজি হয়েছি।</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>আমি Xiaomi অ্যাকাউন্টের &lt;a href=%1$s>ব্যবহারকারীর চুক্তি&lt;/a> এবং &lt;a href=%2$s>গোপনীয়তা নীতি&lt;/a>, তার সাথে &lt;a href=%3$s>eSurfing অ্যাকাউন্ট যাচাইকরণ সার্ভিসের চুক্তি ও শর্ত&lt;/a>পড়েছি ও রাজি হয়েছি।</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>আমি Xiaomi অ্যাকাউন্টের &lt;a href=%1$s>ব্যবহারকারীর চুক্তি&lt;/a> এবং &lt;a href=%2$s>গোপনীয়তা নীতি&lt;/a>, তার সাথে &lt;a href=%3$s>China Unicom যাচাইকরণ সার্ভিসের চুক্তি ও শর্ত&lt;/a>পড়েছি ও রাজি হয়েছি।</Data></string>
+    <string name="passport_user_avatar_update_title">প্রোফাইল ফটো পরিবর্তন করুন</string>
+    <string name="passport_user_avatar_uploading">এক মুহূর্ত অপেক্ষা করুন…</string>
+    <string name="passport_user_id_hint">ইমেল/ফোন নম্বর/ Xiaomi অ্যাকাউন্ট আইডি</string>
+    <string name="passport_user_name_phone_number">ফোন নম্বর</string>
+    <string name="passport_user_password_hint">পাসওয়ার্ড</string>
+    <string name="passport_vcode_what_app_send_prompt">আপনার WhatsApp যাচাইকরণ কোড আপনার অ্যাকাউন্ট ফেরত পাওয়ার ফোনে পাঠানো হবে(&lt;font color=#1F93FF>%s&lt;/font>)।</string>
+    <string name="passport_wechat_not_install">প্রথমে WeChat ইনস্টল করুন</string>
+    <string name="passport_weibo_login_btn_content_description">Weibo দিয়ে সাইন ইন করুন</string>
+    <string name="passport_weixin_login_btn_content_description">WeChat দিয়ে সাইন ইন করুন</string>
+    <string name="passport_wrong_captcha">আপনি যে কোডটি লিখেছেন সেটি ভুল।</string>
+    <string name="passport_wrong_phone_number_format">আপনি যে ফোন নম্বর ফরম্যাটটি লিখেছেন সেটি সঠিক নয়</string>
+    <string name="passport_wrong_vcode">আপনি যে কোডটি লিখেছেন সেটি ভুল।</string>
+    <string name="passport_wrong_voice">আপনি যে কোডটি লিখেছেন সেটি ভুল।</string>
     <string name="password">পাসওয়ার্ড</string>
+    <string name="password_guessable_pattern">পাসওয়ার্ড ও নিরাপত্তা খুবই কম। অবিচ্ছিন্ন সংখ্যা, অক্ষর এবং বিশেষ চিহ্নের মিশ্রণ ব্যবহার করুন।</string>
+    <string name="password_inconsistent">দুটি পাসওয়ার্ড মিলছে না। নিশ্চিত করে আবার চেষ্টা করুন।</string>
+    <string name="password_invalid_format_prompt">পাসওয়ার্ডে অন্তত এই দুটি থাকতে হবে: নম্বর, অক্ষর, এবং বিশেষ চিহ্ন</string>
+    <string name="password_length_short_prompt">ভুল পাসওয়ার্ড। %1$d–%2$dঅক্ষরের পাসওয়ার্ড সেট করুন।</string>
     <string name="password_null">পাসওয়ার্ড খালি রাখা যাবে না</string>
+    <string name="password_reused_with_in_year">নতুন পাসওয়ার্ড গত বছর ব্যবহার করেছেন। একদম নতুন পাসওয়ার্ড ব্যবহার করুন।</string>
     <string name="pause">কিছুক্ষনের জন্য থামান</string>
     <string name="pc_backup_and_restore">কম্পিউটার</string>
     <string name="perm_camera">ক্যামেরা</string>
@@ -729,10 +898,10 @@ https://appleid.apple.com/#!&amp;page=signin বন্ধ করার জন্
     <string name="restore_launcher_layout_hit">লঞ্চার সেটিংস ফিরিয়ে আনুন</string>
     <string name="restore_progress">ফিরিয়ে আনা হচ্ছে…</string>
     <string name="restore_report">বিস্তারিত ফিরিয়ে আনুন</string>
-    <string name="restore_suspend_fail_summary_pad">কানেকশন কেটে গিয়েছে। SmartStorage ও আপনার ট্যাবলেট একই নেটওয়ার্কে এলে, আইটেম ফিরিয়ে আনানর সুবিধে আবার শুরু করতে \"আবার চেষ্টা করুন\" ট্যাপ করুন।</string>
-    <string name="restore_suspend_fail_summary_phone">কানেকশন কেটে গিয়েছে। SmartStorage ও আপনার ফোন একই নেটওয়ার্কে এলে, আইটেম ফিরিয়ে আনানর সুবিধে আবার শুরু করতে \"আবার চেষ্টা করুন\" ট্যাপ করুন।</string>
-    <string name="restore_suspend_summary_pad">কানেকশন কেটে গিয়েছে। SmartStorage ও আপনার ট্যাবলেট একই নেটওয়ার্কে চালু করা হলে, অটোমেটিক আইটেম ফিরিয়ে আনানর সুবিধে আবার শুরু হয়ে যাবে।</string>
-    <string name="restore_suspend_summary_phone">কানেকশন কেটে গিয়েছে। SmartStorage ও আপনার ফোন একই নেটওয়ার্কে চালু করা হলে, অটোমেটিক আইটেম ফিরিয়ে আনানর সুবিধে আবার শুরু হয়ে যাবে।</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
     <string name="restore_suspend_title">আইটেম ফিরিয়ে আনা পজ করা হয়েছে। আবার কানেক্ট করুন…</string>
     <string name="restore_tab">ফিরিয়ে আনুন</string>
     <string name="restore_telephony_hit">ফিরিয়ে আনার সময়ে ফোন অ্যাপটির পুনর্সূচনা হবে।</string>

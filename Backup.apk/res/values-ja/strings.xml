@@ -95,10 +95,10 @@
     <string name="backup_report">詳細を表示</string>
     <string name="backup_security_tips_message">一部のアプリはバックアップや復元ができない可能性があります。</string>
     <string name="backup_security_tips_title">バックアップが機能しない可能性があります</string>
-    <string name="backup_suspend_fail_summary_pad">接続が切断されました。タブレットがSmartStorageと同じネットワークに接続されたら、「再試行」をタップしてバックアップを再開してください。</string>
-    <string name="backup_suspend_fail_summary_phone">接続が切断されました。スマートフォンがSmartStorageと同じネットワークに接続されたら、「再試行」をタップしてバックアップを再開してください。</string>
-    <string name="backup_suspend_summary_pad">接続が切断されました。タブレットがSmartStorageと同じネットワークに接続されると、バックアップは自動的に再開されます。</string>
-    <string name="backup_suspend_summary_phone">接続が切断されました。スマートフォンがSmartStorageと同じネットワークに接続されると、バックアップは自動的に再開されます。</string>
+    <string name="backup_suspend_fail_summary_pad">接続が切断されました。SmartStorage がオンラインになったら、「再試行」をタップしてバックアップを再開してください。</string>
+    <string name="backup_suspend_fail_summary_phone">接続が切断されました。SmartStorage がオンラインになったら、「再試行」をタップしてバックアップを再開してください。</string>
+    <string name="backup_suspend_summary_pad">接続が切断されました。SmartStorage がオンラインになると、バックアップは自動的に再開されます。</string>
+    <string name="backup_suspend_summary_phone">接続が切断されました。SmartStorage がオンラインになると、バックアップは自動的に再開されます。</string>
     <string name="backup_suspend_title">バックアップが一時停止しました。再接続中…</string>
     <string name="backup_tab">バックアップ</string>
     <string name="backup_tips_dialog_summary">デュアルアプリとプライベートアイテムはサポートされていません。このバックアップには現時点までのデータのみが含まれます。新しいデータは自動同期されません。</string>
@@ -139,6 +139,8 @@
     <string name="button_return">戻る</string>
     <string name="button_select">選択</string>
     <string name="button_send">送信</string>
+    <string name="calendar_date_picker_a11y_next_month">翌月に変更</string>
+    <string name="calendar_date_picker_a11y_prev_month">前月に変更</string>
     <string name="call_title">通話履歴</string>
     <string name="camera_summary">カメラ設定（写真を除く）</string>
     <string name="camera_summary_for_cta">カメラ設定</string>
@@ -429,6 +431,7 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
+    <string name="miuix_appcompat_action_sheet_default_message">選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
@@ -503,22 +506,20 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="name_password_not_consistent">ユーザー名かパスワードが間違っています</string>
     <string name="nas_backup_progress_title">SmartStorageにバックアップ</string>
     <string name="nas_backup_resume_button">再開</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">ネットワークが切断されました。タブレットとSmartStorageデバイスが同じネットワークに接続されていることを確認し、もう一度バックアップを試みてください。</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">ネットワークが切断されました。スマートフォンとSmartStorageデバイスが同じネットワークに接続されていることを確認し、もう一度バックアップを試みてください。</string>
-    <string name="nas_backup_task_progress_summary_pad">バックアップ中は、タブレットとSmartStorageデバイスが同じネットワークに接続されていることを確認してください。データ損失を防ぐため、タブレットの再起動や電源を切らないでください。</string>
-    <string name="nas_backup_task_progress_summary_phone">バックアップ中は、スマートフォンとSmartStorageデバイスが同じネットワークに接続されていることを確認してください。データ損失を防ぐため、スマートフォンの再起動や電源を切らないでください。</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">ネットワークが切断されました。SmartStorage がオンライン状態であることを確認してから、もう一度バックアップをお試しください。</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">ネットワークが切断されました。SmartStorage がオンライン状態であることを確認してから、もう一度バックアップをお試しください。</string>
+    <string name="nas_backup_task_progress_summary_pad">バックアップ中は、SmartStorage がオンライン状態であることを確認してください。データの損失を防ぐため、タブレットを再起動したり電源を切ったりしないでください。</string>
+    <string name="nas_backup_task_progress_summary_phone">バックアップ中は、SmartStorage がオンライン状態であることを確認してください。データの損失を防ぐため、スマートフォンを再起動したり電源を切ったりしないでください。</string>
     <string name="nas_backup_task_suspend_info_title">バックアップが一時停止しました</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">キャンセル</string>
     <string name="nas_connecting_progress_dialog">SmartStorageに接続中…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"SmartStorageをバックアップと復元に使用するには、以下の条件を満たしていることを確認してください:
-%d。SmartStorageデバイスがオンライン状態であること。
-%d。お使いのタブレットがSmartStorageと同じWi-Fiネットワークに接続されていること。
-%d。ネットワークが安定していること。（バックアップや復元中はタブレットの再起動や電源を切らないでください）。"</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"SmartStorageをバックアップと復元に使用するには、以下の条件を満たしていることを確認してください:
-%d。SmartStorageデバイスがオンライン状態であること。
-%d。お使いのスマートフォンがSmartStorageと同じWi-Fiネットワークに接続されていること。
-%d。ネットワークが安定していること。（バックアップや復元中はスマートフォンの再起動や電源を切らないでください）。"</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"SmartStorage をバックアップおよび復元に使用する際、以下の点にご注意ください。
+%d。SmartStorage デバイスがオンライン状態であること。
+%d。ネットワークが安定していること。（バックアップ中または復元中は、タブレットを再起動したり電源を切ったりしないでください）。"</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"SmartStorage をバックアップおよび復元に使用する際、以下の点にご注意ください。
+%d。SmartStorage デバイスがオンライン状態であること。
+%d。ネットワークが安定していること。（バックアップ中または復元中は、スマートフォンを再起動したり電源を切ったりしないでください）。"</string>
     <string name="nas_disconnect_dialog_title">SmartStorageに接続できません</string>
     <string name="nas_low_memory_progress_backup_summary_nas">SmartStorageの空き容量が不足しています。空き容量を確保し、「再試行」をタップしてバックアップを再開してください。</string>
     <string name="nas_low_memory_progress_backup_summary_pad">タブレットのストレージが不足しています。空き容量を確保し、「再試行」をタップしてバックアップを再開してください。</string>
@@ -535,13 +536,14 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="nas_low_storage_phone_summary">バックアップには、キャッシュ用としてスマートフォンに一時的な保存領域が必要です。%s を確保してください。この領域は、アイテムのバックアップが完了すると解放されます。</string>
     <string name="nas_low_storage_phone_title">スマートフォンのストレージが足りません</string>
     <string name="nas_low_storage_title">SmartStorageはいっぱいです</string>
-    <string name="nas_notification_title">WeChatメッセージをSmartStorageにバックアップ中…</string>
+    <string name="nas_notification_title">WeChat 履歴を Xiaomi SmartStorage にバックアップ中…</string>
+    <string name="nas_restore_notification_title">WeChat 履歴を Xiaomi SmartStorage に復元中…</string>
     <string name="nas_restore_progress_title">SmartStorageから復元</string>
     <string name="nas_restore_resume_button">再開</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">ネットワークが切断されました。タブレットとSmartStorageデバイスが同じネットワークに接続されていることを確認し、もう一度復元を試みてください。</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">ネットワークが切断されました。スマートフォンとSmartStorageデバイスが同じネットワークに接続されていることを確認し、もう一度復元を試みてください。</string>
-    <string name="nas_restore_task_progress_summary_pad">復元中は、タブレットとSmartStorageデバイスが同じネットワークに接続されていることを確認してください。データ損失を防ぐため、タブレットの再起動や電源を切らないでください。</string>
-    <string name="nas_restore_task_progress_summary_phone">復元中は、スマートフォンとSmartStorageデバイスが同じネットワークに接続されていることを確認してください。データ損失を防ぐため、スマートフォンの再起動や電源を切らないでください。</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">ネットワークが切断されました。SmartStorage がオンライン状態であることを確認してから、もう一度復元をお試しください。</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">ネットワークが切断されました。SmartStorage がオンライン状態であることを確認してから、もう一度復元をお試しください。</string>
+    <string name="nas_restore_task_progress_summary_pad">復元中は、SmartStorage がオンライン状態であることを確認してください。データの損失を防ぐため、タブレットを再起動したり電源を切ったりしないでください。</string>
+    <string name="nas_restore_task_progress_summary_phone">復元中は、SmartStorage がオンライン状態であることを確認してください。データの損失を防ぐため、スマートフォンを再起動したり電源を切ったりしないでください。</string>
     <string name="nas_restore_task_suspend_info_title">復元が一時停止しました</string>
     <string name="nas_retry_button">再試行</string>
     <string name="nas_task_lowmemory_summary_pad_backup">タブレットのストレージが不足しています。空き容量を確保し、もう一度バックアップを試してください。</string>
@@ -571,13 +573,8 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="new_local_button_backup">バックアップ</string>
     <string name="new_local_button_restore">復元</string>
     <string name="new_local_click_to_jump">タップして詳細な説明を表示する</string>
-    <string name="new_local_detail_description">"注意:
-%1$d. データの損失を防ぐため、バックアップをパソコンにコピーしてください。%2$s
-%3$d. バックアップは、MIUI > backup > AllBackup に保存されます。"</string>
-    <string name="new_local_detail_description_global">"注意:
-%1$d. データの損失を防ぐため、バックアップをパソコンにコピーしてください。%2$s
-%3$d. バックアップは、MIUI > backup > AllBackup に保存されます。
-%4$d. 一部のアプリはバックアップまたは復元できない場合があります。"</string>
+    <string name="new_local_detail_description">注意：データの損失を防ぐため、バックアップをパソコンにコピーしてください。(click)タップすると詳細な説明が表示されます(/click)。バックアップはMIUI > backup > AllBackupに保存されます。</string>
+    <string name="new_local_detail_description_global">注意：データの損失を防ぐため、バックアップをパソコンにコピーしてください。(click)タップすると詳細は説明が表示されます(/click)。バックアップは、MIUI > backup > AllBackup に保存されます。一部のアプリはバックアップまたは復元できない場合があります。</string>
     <string name="new_local_tab_backup">バックアップ</string>
     <string name="new_local_tab_backup_pad">バックアップ</string>
     <string name="new_local_tab_restore">復元</string>
@@ -671,8 +668,182 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="open_compatibility_mode">オンにする</string>
     <string name="pad_backup_and_restore">タブレット</string>
     <string name="page_loading">お待ちください…</string>
+    <string name="pasport_register_dialog_message">電話番号 %s で Xiaomi アカウントを今すぐ作成しますか？</string>
+    <string name="passport_access_denied">アクセスは拒否されました</string>
+    <string name="passport_account_crop_user_avatar">写真をトリミング</string>
+    <string name="passport_account_empty_user_name">名前を入力してください</string>
+    <string name="passport_account_error_all_space_user_name">名前にスペースのみを使用することはできません</string>
+    <string name="passport_account_error_invalid_user_name">名前には次の記号を含めることはできません：&lt;、>、/</string>
+    <string name="passport_account_error_longer_user_name">名前は%d文字以内で入力してください</string>
+    <string name="passport_account_error_shorter_user_name">名前は%d文字以上で入力してください</string>
+    <string name="passport_account_error_user_name">このニックネームは無効です。別の名前を試してください。</string>
+    <string name="passport_account_invalid_user_avatar">この写真は無効です。別の写真を試してください。</string>
+    <string name="passport_account_name">"アカウント: %1$s "</string>
+    <string name="passport_account_no_set">なし</string>
+    <string name="passport_account_none_bind_info">なし</string>
+    <string name="passport_account_none_user_name">なし</string>
+    <string name="passport_account_secure_info_pref_title">アカウント情報</string>
+    <string name="passport_account_security_info_pref_title">セキュリティ情報</string>
+    <string name="passport_account_user_avatar">プロフィール写真</string>
+    <string name="passport_account_user_avatar_from_album">ギャラリーから選択</string>
+    <string name="passport_account_user_avatar_from_camera">カメラ</string>
+    <string name="passport_account_user_base_info">基本情報</string>
+    <string name="passport_account_user_details">個人情報</string>
+    <string name="passport_account_user_email">復旧用のメールアドレス</string>
+    <string name="passport_account_user_gender">性別</string>
+    <string name="passport_account_user_id">Xiaomi アカウントID</string>
+    <string name="passport_account_user_name">ニックネーム</string>
+    <string name="passport_account_user_name_dialog_title">名前を入力</string>
+    <string name="passport_account_user_phone">復旧用の電話番号</string>
+    <string name="passport_activity_not_found_notice">アプリが見つかりません</string>
+    <string name="passport_agree">同意</string>
+    <string name="passport_area_code_title">エリアコード</string>
+    <string name="passport_attention">注意</string>
+    <string name="passport_back">戻る</string>
+    <string name="passport_bad_authentication">ユーザー名またはパスワードが無効です</string>
+    <string name="passport_can_not_recevie_verify_code">コードが届きませんでしたか？</string>
+    <string name="passport_change_password">パスワードを変更</string>
+    <string name="passport_check_security">セキュリティの問題を確認中…</string>
+    <string name="passport_checking_account">パスワードを確認中…</string>
+    <string name="passport_clear_input">入力内容を消去</string>
+    <string name="passport_completed">完了</string>
+    <string name="passport_confirm_new_pwd">新しいパスワードを確認</string>
+    <string name="passport_copy_link">URLをコピー</string>
+    <string name="passport_copy_to_clipboard_successful">正常にコピーされました</string>
+    <string name="passport_dialog_captcha_title">コード</string>
+    <string name="passport_dialog_doing_login">サインイン中…</string>
+    <string name="passport_dialog_doing_register">アカウントを作成中…</string>
+    <string name="passport_dialog_is_my_account">はい</string>
+    <string name="passport_dialog_is_your_mi_account">これはあなたのXiaomi アカウントですか？</string>
+    <string name="passport_dialog_loading">お待ちください…</string>
+    <string name="passport_dialog_nick_name_prefix">ネックネーム：%s</string>
+    <string name="passport_dialog_phone_number_prefix">電話番号：%s</string>
+    <string name="passport_dialog_register_other">いいえ、新規作成する</string>
+    <string name="passport_doing_query_account">アカウント情報を確認中…</string>
+    <string name="passport_error_auth_fail">セッションが期限切れです。もう一度サインインしてください。</string>
+    <string name="passport_error_device_id">デバイスIDを取得できません</string>
+    <string name="passport_error_empty_password">パスワードを入力してください</string>
+    <string name="passport_error_empty_pwd">パスワードは空白にできません</string>
+    <string name="passport_error_empty_user_id">ユーザー名を入力してください</string>
+    <string name="passport_error_illegal_pwd">パスワード形式が無効です</string>
+    <string name="passport_error_length_limit">入力したテキストが長すぎます</string>
+    <string name="passport_error_network">ネットワークに接続できません</string>
+    <string name="passport_error_no_password_user">パスワードをまだ設定していません。SMSでサインインしてください。</string>
+    <string name="passport_error_phone">有効な電話番号を入力してください</string>
+    <string name="passport_error_server">サーバーエラー</string>
+    <string name="passport_error_sms_limit">この番号に送信された認証コードが多すぎます。後でもう一度お試しください。</string>
+    <string name="passport_error_ticket_invalid">このコードは正しくありません</string>
+    <string name="passport_error_timeout_network_error">リクエストはタイムアウトしました</string>
+    <string name="passport_error_token_expired">コードの有効期限が切れています。もう一度お試しください。</string>
+    <string name="passport_error_unknow_error">エラーが発生しました</string>
+    <string name="passport_error_unknow_host_network_error">ネットワークに接続できませんでした</string>
+    <string name="passport_error_unknow_network_error">ネットワークエラーが発生しました</string>
+    <string name="passport_error_unknown">不明なエラー</string>
+    <string name="passport_error_user_name">入力したユーザー名が無効です</string>
+    <string name="passport_error_user_password">パスワードが一致しません</string>
+    <string name="passport_facebook_login_btn_content_description">Facebookでサインイン</string>
+    <string name="passport_frequency_try_later">試行回数が多すぎます。数分待ってからもう一度お試しください。</string>
+    <string name="passport_get_login_type_next">次へ</string>
+    <string name="passport_google_login_btn_content_description">Googleでサインイン</string>
+    <string name="passport_help">ヘルプ</string>
+    <string name="passport_i_know">了解</string>
+    <string name="passport_identification_expired">認証コードの期限が切れました。やり直してください。</string>
+    <string name="passport_input_captcha_hint">コードを入力してください</string>
+    <string name="passport_input_new_pwd">新しいパスワードを入力してください</string>
+    <string name="passport_input_password_hint">パスワードを入力してください</string>
+    <string name="passport_input_phone_number_hint">電話番号を入力してください</string>
+    <string name="passport_input_verify_code">認証コードを入力してください</string>
+    <string name="passport_input_voice_captcha_hint">音声認証コードを入力してください</string>
+    <string name="passport_input_voice_hint">音声コードを入力してください</string>
+    <string name="passport_login_by_local_phone_long_text">今すぐサインイン</string>
+    <string name="passport_login_by_local_phone_short_text">サインイン</string>
+    <string name="passport_login_other">別のXiaomi アカウント</string>
+    <string name="passport_login_register_by_local_phone_long_text">アカウントを作成</string>
+    <string name="passport_login_with_sns">その他のサインイン方法</string>
+    <string name="passport_logout_account">サインアウト</string>
+    <string name="passport_mi_account_title">Xiaomi アカウントでサインイン</string>
+    <string name="passport_network_error">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="passport_network_error_hint">URLを確認してもう一度試すか、URLをコピーしてブラウザーで開いてみてください。</string>
+    <string name="passport_network_timeout">ネットワークに接続できませんでした。もう一度お試しください。</string>
+    <string name="passport_next">次へ</string>
+    <string name="passport_no_account">サインインしていません</string>
+    <string name="passport_open_settings">設定</string>
+    <string name="passport_page_load_failed">ページを開けません</string>
+    <string name="passport_password_hide_show">パスワードを非表示</string>
+    <string name="passport_password_login_btn">サインイン</string>
+    <string name="passport_password_not_show">パスワードを表示しない</string>
+    <string name="passport_password_req_notice">パスワードは%1$d～%2$d文字の長さであり、次の要素のうち少なくとも2つを含める必要があります: 数字、英字、特殊記号</string>
+    <string name="passport_password_show">パスワードを表示</string>
+    <string name="passport_phone_auto_login_register_with_local_number">アカウントを作成</string>
+    <string name="passport_photo_picker_not_found">利用可能な写真はありません。</string>
+    <string name="passport_qq_login_btn_content_description">QQでサインイン</string>
+    <string name="passport_querying_phone_info">アカウント情報をリクエスト中…</string>
+    <string name="passport_quick_login_title">パスワードを入力</string>
+    <string name="passport_reging">アカウントを作成中…</string>
+    <string name="passport_register_by_local_phone_long_text">アカウントを作成</string>
+    <string name="passport_register_by_local_phone_short_text">アカウントを作成</string>
+    <string name="passport_register_dialog_positive">作成</string>
+    <string name="passport_register_dialog_title">Xiaomi アカウントを作成</string>
+    <string name="passport_register_restricted">この番号に関連付けられているアカウントが多すぎます。別のものを試してください。</string>
+    <string name="passport_relogin_notice">再度サインインする必要があります</string>
+    <string name="passport_request_agree">許可</string>
+    <string name="passport_request_camera_permission_message">当社は、ご利用者の個人情報を関係法令に基づき保護します。このアプリが正常に動作するには、以下の権限が必要です。&lt;br>&lt;br>&lt;b>カメラの使用（プロフィール写真を設定するため）&lt;/b>&lt;br>&lt;br>上記権限を付与することに同意しない場合、このアプリの一部機能を使用できなくなります。ただし、このアプリの基本的な機能は引き続き使用できます。設定でいつでもアクセス許可を制限したり、承認を撤回したりすることができます。</string>
+    <string name="passport_request_cancel">キャンセル</string>
+    <string name="passport_request_error_invalid_token">認証できませんでした</string>
+    <string name="passport_request_error_network">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="passport_request_error_unknown">システムエラーが発生しました。戻ってもう一度やり直してください。</string>
+    <string name="passport_request_gallery_permission_message">プロフィール写真を設定するには、このアプリが選択されたギャラリーアイテムにアクセスする必要があります。今すぐ許可しますか？</string>
+    <string name="passport_request_permission_title">アクセス許可が必要です</string>
+    <string name="passport_resend_ticket">コードを再送信</string>
+    <string name="passport_retry">再試行</string>
+    <string name="passport_send_sms_to">コードが %1$s に送信されました</string>
+    <string name="passport_send_too_many_code">この番号に送信された認証コードが多すぎます。24時間待ってからもう一度お試しください。</string>
+    <string name="passport_sending_vcode">コードを送信中…</string>
+    <string name="passport_set_password_no_phone_msg">アカウントを保護するために電話番号を追加してください。</string>
+    <string name="passport_set_password_title">パスワードを設定</string>
+    <string name="passport_skip_query_account">スキップ</string>
+    <string name="passport_sns_bind_limit">試行回数が多すぎます。他の方法でサインインしてください。</string>
+    <string name="passport_system_error">システムはビジー状態です。数分待ってからもう一度お試しください。</string>
+    <string name="passport_talkback_image_captcha">画像認証コード</string>
+    <string name="passport_talkback_switch_image_captcha">画像認証コードに切り替える</string>
+    <string name="passport_talkback_switch_voice_captcha">音声認証コードに切り替える</string>
+    <string name="passport_talkback_voice_captcha">音声認証コードを再生</string>
+    <string name="passport_third_sns_service_unavailable">サービスが利用できません。アプリがインストールされていて、ブロックされていないことを確認してください。</string>
+    <string name="passport_ticket_send_by_second">%d後に送信</string>
+    <string name="passport_to_forget_password">パスワードをお忘れですか？</string>
+    <string name="passport_to_password_login">パスワードを使用してサインイン</string>
+    <string name="passport_to_verify_code_login">SMSでサインイン</string>
+    <string name="passport_unknown_error">不明なエラー</string>
+    <string name="passport_unknown_host_network_error">ネットワーク設定を確認して、もう一度お試しください</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、およびXiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、Xiaomi アカウントの&lt;a href=%3$s>利用規約&lt;/a>と&lt;a href=%4$s>プライバシーポリシー&lt;/a>、および&lt;a href=%5$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_first_login">初めて電話番号を使用する場合は、自動的にアカウントが作成されます。</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・モバイル認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>eSurfingアカウント認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Xiaomi アカウントの&lt;a href=%1$s>利用規約&lt;/a>と&lt;a href=%2$s>プライバシーポリシー&lt;/a>、&lt;a href=%3$s>チャイナ・ユニコム認証サービスの使用条件&lt;/a>を読み、同意しました。</Data></string>
+    <string name="passport_user_avatar_update_title">プロフィール写真を変更</string>
+    <string name="passport_user_avatar_uploading">お待ちください…</string>
+    <string name="passport_user_id_hint">メールアドレス/電話番号/Xiaomi アカウントID</string>
+    <string name="passport_user_name_phone_number">電話番号</string>
+    <string name="passport_user_password_hint">パスワード</string>
+    <string name="passport_vcode_what_app_send_prompt">WhatsApp 認証コードが復旧用の電話番号 (&lt;font color=#1F93FF>%s&lt;/font>) に送信されます。</string>
+    <string name="passport_wechat_not_install">まず、WeChatをインストールしてください</string>
+    <string name="passport_weibo_login_btn_content_description">Weiboでサインイン</string>
+    <string name="passport_weixin_login_btn_content_description">WeChatでサインイン</string>
+    <string name="passport_wrong_captcha">入力したコードが正しくありません</string>
+    <string name="passport_wrong_phone_number_format">入力した電話番号の形式が無効です</string>
+    <string name="passport_wrong_vcode">入力したコードが正しくありません</string>
+    <string name="passport_wrong_voice">入力したコードが正しくありません</string>
     <string name="password">パスワード</string>
+    <string name="password_guessable_pattern">パスワードのセキュリティが低いです。連続しない数字、文字、特殊記号を組み合わせてください。</string>
+    <string name="password_inconsistent">2つのパスワードが一致しません。確認してもう一度お試しください。</string>
+    <string name="password_invalid_format_prompt">パスワードには、数字、文字、特殊記号のうち少なくとも2種類を含める必要があります</string>
+    <string name="password_length_short_prompt">パスワードの長さが不適切です。パスワードは%1$d～%2$d文字で設定してください。</string>
     <string name="password_null">パスワードは空白にできません</string>
+    <string name="password_reused_with_in_year">新しいパスワードは過去1年間に使用したものと同じです。完全に新しいパスワードを選択してください。</string>
     <string name="pause">一時停止</string>
     <string name="pc_backup_and_restore">パソコン</string>
     <string name="perm_camera">カメラ</string>
@@ -760,10 +931,10 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="restore_launcher_layout_hit">ランチャー設定を復元する</string>
     <string name="restore_progress">復元中…</string>
     <string name="restore_report">復元の詳細</string>
-    <string name="restore_suspend_fail_summary_pad">接続が切断されました。タブレットがSmartStorageと同じネットワークに接続されたら、「再試行」をタップして復元を再開してください。</string>
-    <string name="restore_suspend_fail_summary_phone">接続が切断されました。スマートフォンがSmartStorageと同じネットワークに接続されたら、「再試行」をタップして復元を再開してください。</string>
-    <string name="restore_suspend_summary_pad">接続が切断されました。タブレットがSmartStorageと同じネットワークに接続されると、復元は自動的に再開されます。</string>
-    <string name="restore_suspend_summary_phone">接続が切断されました。スマートフォンがSmartStorageと同じネットワークに接続されると、復元は自動的に再開されます。</string>
+    <string name="restore_suspend_fail_summary_pad">接続が切断されました。SmartStorage がオンラインになったら、「再試行」をタップして復元を再開してください。</string>
+    <string name="restore_suspend_fail_summary_phone">接続が切断されました。SmartStorage がオンラインになったら、「再試行」をタップして復元を再開してください。</string>
+    <string name="restore_suspend_summary_pad">接続が切断されました。SmartStorage がオンラインになると、復元は自動的に再開されます。</string>
+    <string name="restore_suspend_summary_phone">接続が切断されました。SmartStorage がオンラインになると、復元は自動的に再開されます。</string>
     <string name="restore_suspend_title">復元が一時停止しました。再接続中…</string>
     <string name="restore_tab">復元</string>
     <string name="restore_telephony_hit">復元プロセス中、電話アプリは再起動されます。</string>

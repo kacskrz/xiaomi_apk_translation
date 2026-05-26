@@ -95,10 +95,10 @@
     <string name="backup_report">Detayları görüntüle</string>
     <string name="backup_security_tips_message">Bazı uygulamalar yedeklenemeyebilir veya geri yüklenemeyebilir.</string>
     <string name="backup_security_tips_title">Yedekler çalışmayabilir</string>
-    <string name="backup_suspend_fail_summary_pad">"Bağlantı koptu. Tabletiniz SmartStorage ile aynı ağda olduğunda yedeklemeyi devam ettirmek için ''Tekrar dene'' seçeneğine dokunun."</string>
-    <string name="backup_suspend_fail_summary_phone">"Bağlantı koptu. Telefonunuz SmartStorage ile aynı ağda olduğunda yedeklemeyi devam ettirmek için ''Tekrar dene'' seçeneğine dokunun."</string>
-    <string name="backup_suspend_summary_pad">Bağlantı koptu. Tabletiniz SmartStorage ile aynı ağda olduğunda yedekleme otomatik olarak devam ettirilecek.</string>
-    <string name="backup_suspend_summary_phone">Bağlantı koptu. Telefonunuz SmartStorage ile aynı ağda olduğunda yedekleme otomatik olarak devam ettirilecek.</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
     <string name="backup_suspend_title">Yedekleme duraklatıldı. Tekrar bağlanılıyor…</string>
     <string name="backup_tab">Yedekle</string>
     <string name="backup_tips_dialog_summary">Çift uygulamalar ve özel ögeler desteklenmiyor. Bu yedekleme yalnızca şimdiye kadar olan verileri içerir. Yeni veriler otomatik olarak senkronize edilmeyecektir.</string>
@@ -139,6 +139,8 @@
     <string name="button_return">Geri</string>
     <string name="button_select">Seç</string>
     <string name="button_send">Gönder</string>
+    <string name="calendar_date_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="calendar_date_picker_a11y_prev_month">Önceki aya değiştir</string>
     <string name="call_title">Arama geçmişi</string>
     <string name="camera_summary">Kamera ayarları (fotoğrafları içermez)</string>
     <string name="camera_summary_for_cta">Kamera ayarları</string>
@@ -429,6 +431,7 @@ Yedekleme dosyalarını değiştirmeyin veya yeniden adlandırmayın."</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tüm seçimleri kaldır</string>
     <string name="miuix_appcompat_action_mode_select_all">Tümünü seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Ögeleri seç</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Seç</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daha fazla</string>
     <string name="miuix_appcompat_cancel_description">İptal</string>
     <string name="miuix_appcompat_confirm_description">Onayla</string>
@@ -503,22 +506,20 @@ Yedekleme dosyalarını değiştirmeyin veya yeniden adlandırmayın."</string>
     <string name="name_password_not_consistent">Kullanıcı adı veya şifre yanlış</string>
     <string name="nas_backup_progress_title">"SmartStorage'e yedekle"</string>
     <string name="nas_backup_resume_button">Devam et</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">Ağ bağlantısı kesildi. Tabletinizin ve SmartStorage cihazın aynı ağda olduğundan emin olun ve tekrar yedeklemeyi deneyin.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">Ağ bağlantısı kesildi. Telefonunuzun ve SmartStorage cihazın aynı ağda olduğundan emin olun ve tekrar yedeklemeyi deneyin.</string>
-    <string name="nas_backup_task_progress_summary_pad">Yedekleme sırasında tabletinizin ve SmartStorage cihazının aynı ağda olduğundan emin olun. Veri kaybını önlemek için tabletinizi yeniden başlatmayın veya kapatmayın.</string>
-    <string name="nas_backup_task_progress_summary_phone">Yedekleme sırasında telefonunuzun ve SmartStorage cihazının aynı ağda olduğundan emin olun. Veri kaybını önlemek için telefonunuzu yeniden başlatmayın veya kapatmayın.</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_backup_task_suspend_info_title">Yedekleme duraklatıldı</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">İptal</string>
     <string name="nas_connecting_progress_dialog">"SmartStorage'e bağlanılıyor…"</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"Yedekleme ve geri yükleme için SmartStorage'i kullanmak için şunlardan emin olun:
-%d. SmartStorage cihazı çevrim içi:
-%d. Tabletiniz SmartStorage ile aynı Wi-Fi ağına bağlı.
-%d. Ağ kararlı. (Yedekleme veya geri yükleme sırasında tabletinizi yeniden başlatmayın veya kapatmayın)."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"Yedekleme ve geri yükleme için SmartStorage'i kullanmak için şunlardan emin olun:
-%d. SmartStorage cihazı çevrim içi:
-%d. Telefonunuz SmartStorage ile aynı Wi-Fi ağına bağlı.
-%d. Ağ kararlı. (Yedekleme veya geri yükleme sırasında telefonunuzu yeniden başlatmayın veya kapatmayın)."</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your phone during backups or restoration)."</string>
     <string name="nas_disconnect_dialog_title">"SmartStorage'e bağlanılamıyor"</string>
     <string name="nas_low_memory_progress_backup_summary_nas">"Yeterli SmartStorage alanı yok. Yedeklemeyi devam ettirmek için yer açın ve ''Tekrar dene'' seçeneğine dokunun."</string>
     <string name="nas_low_memory_progress_backup_summary_pad">"Yeterli tablet depolama alanı yok. Yedeklemeyi devam ettirmek için yer açın ve ''Tekrar dene'' seçeneğine dokunun."</string>
@@ -535,13 +536,14 @@ Yedekleme dosyalarını değiştirmeyin veya yeniden adlandırmayın."</string>
     <string name="nas_low_storage_phone_summary">Yedekleme telefonunuzda önbellek için geçici depolama gerektirir. %s yer ayırın. Bu alan, ögeler yedeklendikten sonra serbest bırakılacaktır.</string>
     <string name="nas_low_storage_phone_title">Yeterli telefon depolama alanı yok</string>
     <string name="nas_low_storage_title">SmartStorage dolu</string>
-    <string name="nas_notification_title">"WeChat mesajları SmartStorage'e yedekleniyor…"</string>
+    <string name="nas_notification_title">Backing up WeChat history to Xiaomi SmartStorage…</string>
+    <string name="nas_restore_notification_title">Restoring WeChat history from Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">"SmartStorage'den geri yükle"</string>
     <string name="nas_restore_resume_button">Devam et</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">Ağ bağlantısı kesildi. Tabletinizin ve SmartStorage cihazın aynı ağda olduğundan emin olun ve tekrar geri yüklemeyi deneyin.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">Ağ bağlantısı kesildi. Telefonunuzun ve SmartStorage cihazın aynı ağda olduğundan emin olun ve tekrar geri yüklemeyi deneyin.</string>
-    <string name="nas_restore_task_progress_summary_pad">Geri yükleme sırasında tabletinizin ve SmartStorage cihazının aynı ağda olduğundan emin olun. Veri kaybını önlemek için tabletinizi yeniden başlatmayın veya kapatmayın.</string>
-    <string name="nas_restore_task_progress_summary_phone">Geri yükleme sırasında telefonunuzun ve SmartStorage cihazının aynı ağda olduğundan emin olun. Veri kaybını önlemek için telefonunuzu yeniden başlatmayın veya kapatmayın.</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">Geri yükleme duraklatıldı</string>
     <string name="nas_retry_button">Tekrar dene</string>
     <string name="nas_task_lowmemory_summary_pad_backup">Yeterli tablet depolama alanı yok. Yer açın ve tekrar yedeklemeyi deneyin.</string>
@@ -571,13 +573,8 @@ Yedekleme dosyalarını değiştirmeyin veya yeniden adlandırmayın."</string>
     <string name="new_local_button_backup">Yedekle</string>
     <string name="new_local_button_restore">Geri yükle</string>
     <string name="new_local_click_to_jump">Detaylı talimatları görüntülemek için dokunun</string>
-    <string name="new_local_detail_description">"Not:
-%1$d. Veri kaybını önlemek için yedekleri bilgisayarınıza kopyalayın.%2$s
-%3$d. Yedeklemeler MIUI > backup > AllBackup konumuna kaydedilecek."</string>
-    <string name="new_local_detail_description_global">"Not:
-%1$d. Veri kaybını önlemek için yedeklemeleri bilgisayarınıza kopyalayın.%2$s
-%3$d. Yedeklemeler MIUI > backup > AllBackup konumuna kaydedilecek.
-%4$d. Bazı uygulamalar yedeklemeleri veya geri yüklemeyi desteklemeyebilir."</string>
+    <string name="new_local_detail_description">Not: Veri kaybını önlemek için yedeklemeleri bilgisayarınıza kopyalayın. (click)Detaylı talimatları görüntülemek için dokunun(/click). Yedeklemeler MIUI > backup > AllBackup konumuna kaydedilecek.</string>
+    <string name="new_local_detail_description_global">Not: Veri kaybını önlemek için yedeklemeleri bilgisayarınıza kopyalayın. (click)Detaylı talimatları görüntülemek için dokunun(/click). Yedeklemeler MIUI > backup > AllBackup konumuna kaydedilecek. Bazı uygulamalar yedeklemeleri veya geri yüklemeyi desteklemeyebilir.</string>
     <string name="new_local_tab_backup">Yedekle</string>
     <string name="new_local_tab_backup_pad">Yedekle</string>
     <string name="new_local_tab_restore">Geri yükle</string>
@@ -671,8 +668,182 @@ Yedekleme dosyalarını değiştirmeyin veya yeniden adlandırmayın."</string>
     <string name="open_compatibility_mode">Aç</string>
     <string name="pad_backup_and_restore">Tablet</string>
     <string name="page_loading">Yalnızca bir sn…</string>
+    <string name="pasport_register_dialog_message">Şimdi %s telefon numaranız ile bir Xiaomi Hesabı oluşturulsun mu?</string>
+    <string name="passport_access_denied">Erişim engellendi</string>
+    <string name="passport_account_crop_user_avatar">Fotoğrafı kırp</string>
+    <string name="passport_account_empty_user_name">Adınızı girin</string>
+    <string name="passport_account_error_all_space_user_name">İsmin tamamı boşluk karakterinden oluşamaz</string>
+    <string name="passport_account_error_invalid_user_name">İsim &lt;, >, veya / karakterlerini içeremez</string>
+    <string name="passport_account_error_longer_user_name">İsim %d karakterden uzun olamaz</string>
+    <string name="passport_account_error_shorter_user_name">İsim %d karakterden uzun olmalıdır</string>
+    <string name="passport_account_error_user_name">Bu takma ad geçersiz. Başka bir tane deneyin.</string>
+    <string name="passport_account_invalid_user_avatar">Bu fotoğraf geçersiz. Başka bir tane deneyin.</string>
+    <string name="passport_account_name">Hesap: %1$s     </string>
+    <string name="passport_account_no_set">Yok</string>
+    <string name="passport_account_none_bind_info">Yok</string>
+    <string name="passport_account_none_user_name">Yok</string>
+    <string name="passport_account_secure_info_pref_title">Hesap bilgileri</string>
+    <string name="passport_account_security_info_pref_title">Güvenlik bilgisi</string>
+    <string name="passport_account_user_avatar">Profil fotoğrafı</string>
+    <string name="passport_account_user_avatar_from_album">Galeriden seçin</string>
+    <string name="passport_account_user_avatar_from_camera">Kamera</string>
+    <string name="passport_account_user_base_info">Temel bilgiler</string>
+    <string name="passport_account_user_details">Kişisel bilgiler</string>
+    <string name="passport_account_user_email">Kurtarma e-postası</string>
+    <string name="passport_account_user_gender">Cinsiyet</string>
+    <string name="passport_account_user_id">Xiaomi Hesabı Kimliği</string>
+    <string name="passport_account_user_name">Takma ad</string>
+    <string name="passport_account_user_name_dialog_title">Adı girin</string>
+    <string name="passport_account_user_phone">Kurtarma telefonu</string>
+    <string name="passport_activity_not_found_notice">Uygulama bulunamıyor</string>
+    <string name="passport_agree">Kabul et</string>
+    <string name="passport_area_code_title">Alan kodu</string>
+    <string name="passport_attention">Uyarı</string>
+    <string name="passport_back">Geri</string>
+    <string name="passport_bad_authentication">Geçersiz kullanıcı adı veya şifre</string>
+    <string name="passport_can_not_recevie_verify_code">Kod alamadınız mı?</string>
+    <string name="passport_change_password">Şifreyi değiştir</string>
+    <string name="passport_check_security">Güvenlik sorunları kontrol ediliyor…</string>
+    <string name="passport_checking_account">Şifre kontrol ediliyor…</string>
+    <string name="passport_clear_input">Girilen içeriği temizle</string>
+    <string name="passport_completed">Bitti</string>
+    <string name="passport_confirm_new_pwd">Yeni şifreyi onaylayın</string>
+    <string name="passport_copy_link">"URL'yi kopyala"</string>
+    <string name="passport_copy_to_clipboard_successful">Başarıyla kopyalandı</string>
+    <string name="passport_dialog_captcha_title">Kod</string>
+    <string name="passport_dialog_doing_login">Oturum açılıyor…</string>
+    <string name="passport_dialog_doing_register">Hesap oluşturuluyor…</string>
+    <string name="passport_dialog_is_my_account">Evet</string>
+    <string name="passport_dialog_is_your_mi_account">Bu sizin Xiaomi Hesabınız mı?</string>
+    <string name="passport_dialog_loading">Yalnızca bir sn.…</string>
+    <string name="passport_dialog_nick_name_prefix">Takma ad: %s</string>
+    <string name="passport_dialog_phone_number_prefix">Telefon numarası: %s</string>
+    <string name="passport_dialog_register_other">Hayır, bir hesap oluşturacağım</string>
+    <string name="passport_doing_query_account">Hesap bilgileri kontrol ediliyor…</string>
+    <string name="passport_error_auth_fail">Oturumun süresi doldu. Tekrar oturum açın.</string>
+    <string name="passport_error_device_id">Aygıt kimliğini alınamıyor</string>
+    <string name="passport_error_empty_password">Şifrenizi girin</string>
+    <string name="passport_error_empty_pwd">Şifre boş bırakılamaz</string>
+    <string name="passport_error_empty_user_id">Kullanıcı adınızı girin</string>
+    <string name="passport_error_illegal_pwd">Geçersiz şifre biçimi</string>
+    <string name="passport_error_length_limit">Girdiğiniz metin çok uzun</string>
+    <string name="passport_error_network">Ağa bağlanılamıyor</string>
+    <string name="passport_error_no_password_user">Henüz bir şifre oluşturmadınız. SMS ile oturum açın.</string>
+    <string name="passport_error_phone">Geçerli bir telefon numarası girin</string>
+    <string name="passport_error_server">Sunucu hatası</string>
+    <string name="passport_error_sms_limit">Bu numaraya çok fazla sayıda doğrulama kodu gönderildi. Daha sonra tekrar deneyin.</string>
+    <string name="passport_error_ticket_invalid">Bu kod yanlış</string>
+    <string name="passport_error_timeout_network_error">İstek zaman aşımına uğradı</string>
+    <string name="passport_error_token_expired">Kodun süresi doldu. Tekrar deneyin.</string>
+    <string name="passport_error_unknow_error">Bir hata oluştu</string>
+    <string name="passport_error_unknow_host_network_error">Ağa bağlanılamadı</string>
+    <string name="passport_error_unknow_network_error">Bir ağ hatası oluştu</string>
+    <string name="passport_error_unknown">Bilinmeyen hata</string>
+    <string name="passport_error_user_name">Girmiş olduğunuz kullanıcı adı geçersiz</string>
+    <string name="passport_error_user_password">Şifreler eşleşmiyor</string>
+    <string name="passport_facebook_login_btn_content_description">Facebook ile oturum açın</string>
+    <string name="passport_frequency_try_later">Çok fazla deneme yaptınız. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
+    <string name="passport_get_login_type_next">İleri</string>
+    <string name="passport_google_login_btn_content_description">Google ile oturum açın</string>
+    <string name="passport_help">Yardım</string>
+    <string name="passport_i_know">Anladım</string>
+    <string name="passport_identification_expired">Doğrulama kodunun süresi doldu. Baştan başlayın.</string>
+    <string name="passport_input_captcha_hint">Kodu girin</string>
+    <string name="passport_input_new_pwd">Yeni şifreyi girin</string>
+    <string name="passport_input_password_hint">Şifre girin</string>
+    <string name="passport_input_phone_number_hint">Telefon numarası girin</string>
+    <string name="passport_input_verify_code">Doğrulama kodunu girin</string>
+    <string name="passport_input_voice_captcha_hint">Sesli doğrulama kodunu girin</string>
+    <string name="passport_input_voice_hint">Sesli kodu girin</string>
+    <string name="passport_login_by_local_phone_long_text">Şimdi oturum açın</string>
+    <string name="passport_login_by_local_phone_short_text">Oturum aç</string>
+    <string name="passport_login_other">Başka bir Xiaomi Hesabı</string>
+    <string name="passport_login_register_by_local_phone_long_text">Hesap oluştur</string>
+    <string name="passport_login_with_sns">Diğer oturum açma yolları</string>
+    <string name="passport_logout_account">Oturumu kapat</string>
+    <string name="passport_mi_account_title">Xiaomi Hesabı ile oturum aç</string>
+    <string name="passport_network_error">Bir ağ hatası oluştu. Ağ ayarlarınızı kontrol edin ve tekrar deneyin.</string>
+    <string name="passport_network_error_hint">"URL'yi kontrol edin ve tekrar deneyin veya URL'yi kopyalayın ve tarayıcınızda açın."</string>
+    <string name="passport_network_timeout">Ağa bağlanılamadı. Tekrar deneyin.</string>
+    <string name="passport_next">İleri</string>
+    <string name="passport_no_account">Giriş yapılmadı</string>
+    <string name="passport_open_settings">Ayarlar</string>
+    <string name="passport_page_load_failed">Sayfa açılamıyor</string>
+    <string name="passport_password_hide_show">Şifreyi gizle</string>
+    <string name="passport_password_login_btn">Oturum aç</string>
+    <string name="passport_password_not_show">Şifreyi gösterme</string>
+    <string name="passport_password_req_notice">Şifre %1$d–%2$d karakter uzunluğunda olmalı ve aşağıdakilerden en az ikisini içermeli: sayılar, harfler ve özel semboller</string>
+    <string name="passport_password_show">Şifreyi göster</string>
+    <string name="passport_phone_auto_login_register_with_local_number">Hesap oluştur</string>
+    <string name="passport_photo_picker_not_found">Kullanılabilir fotoğraf yok.</string>
+    <string name="passport_qq_login_btn_content_description">QQ ile oturum açın</string>
+    <string name="passport_querying_phone_info">Hesap bilgileri isteniyor…</string>
+    <string name="passport_quick_login_title">Şifrenizi girin</string>
+    <string name="passport_reging">Hesap oluşturuluyor…</string>
+    <string name="passport_register_by_local_phone_long_text">Hesap oluştur</string>
+    <string name="passport_register_by_local_phone_short_text">Hesap oluştur</string>
+    <string name="passport_register_dialog_positive">Oluştur</string>
+    <string name="passport_register_dialog_title">Xiaomi Hesabı oluştur</string>
+    <string name="passport_register_restricted">Bu numara ile çok fazla sayıda hesap ilişkilendirildi. Başka bir numara deneyin.</string>
+    <string name="passport_relogin_notice">Tekrar oturum açmanız gerekmektedir</string>
+    <string name="passport_request_agree">İzin ver</string>
+    <string name="passport_request_camera_permission_message">İlgili yasalara ve düzenlemelere göre kişisel bilgilerinizi koruyacağız. Bu uygulamanın normal çalışabilmesi için şu izinlere ihtiyacı vardır: &lt;br>&lt;br>&lt;b>Kamerayı kullanma (profil fotoğrafınızı ayarlamak için)&lt;/b>&lt;br>&lt;br>Eğer bu izinleri vermeyi onaylamıyorsanız bu uygulamanın bazı özelliklerini kullanamayacaksınız; bununla birlikte temel fonksiyonlarını kullanabilirsiniz. Her zaman Ayarlar menüsünden izinleri kısıtlayabilir veya yetkilendirmeyi geri alabilirsiniz.</string>
+    <string name="passport_request_cancel">İptal</string>
+    <string name="passport_request_error_invalid_token">Doğrulanamadı</string>
+    <string name="passport_request_error_network">Bir ağ hatası oluştu. Ağ ayarlarınızı kontrol edin ve tekrar deneyin.</string>
+    <string name="passport_request_error_unknown">Bir sistem hatası oluştu. Geri gidin ve tekrar deneyin.</string>
+    <string name="passport_request_gallery_permission_message">Bu uygulamanın profil fotoğrafınızı ayarlayabilmesi için seçili galeri ögelerine erişmesi gerekir. Şimdi izin verilsin mi?</string>
+    <string name="passport_request_permission_title">İzin gerekli</string>
+    <string name="passport_resend_ticket">Tekrar kod gönder</string>
+    <string name="passport_retry">Tekrar dene</string>
+    <string name="passport_send_sms_to">Kod gönderildi: %1$s</string>
+    <string name="passport_send_too_many_code">Bu numaraya çok fazla sayıda doğrulama kodu gönderildi. 24 saat bekleyin ve tekrar deneyin.</string>
+    <string name="passport_sending_vcode">Kod gönderiliyor…</string>
+    <string name="passport_set_password_no_phone_msg">Hesabınızı korumak için telefon numaranızı ekleyin.</string>
+    <string name="passport_set_password_title">Şifre oluştur</string>
+    <string name="passport_skip_query_account">Atla</string>
+    <string name="passport_sns_bind_limit">Çok fazla sayıda denemede bulundunuz. Diğer oturum açma yöntemlerini deneyin.</string>
+    <string name="passport_system_error">Sistem meşgul. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
+    <string name="passport_talkback_image_captcha">Resimli doğrulama kodu</string>
+    <string name="passport_talkback_switch_image_captcha">Resimli doğrulama koduna geç</string>
+    <string name="passport_talkback_switch_voice_captcha">Sesli doğrulama koduna geç</string>
+    <string name="passport_talkback_voice_captcha">Sesli doğrulama kodunu oynat</string>
+    <string name="passport_third_sns_service_unavailable">Servis kullanılamıyor. Uygulamanın yüklü olduğundan ve engellenmiş olmadığından emin olun.</string>
+    <string name="passport_ticket_send_by_second">%d içinde gönder</string>
+    <string name="passport_to_forget_password">Şifremi unuttum?</string>
+    <string name="passport_to_password_login">Şifre kullanarak oturum aç</string>
+    <string name="passport_to_verify_code_login">SMS ile oturum aç</string>
+    <string name="passport_unknown_error">Bilinmeyen hata</string>
+    <string name="passport_unknown_host_network_error">Ağ ayarlarınızı kontrol edin ve tekrar deneyin</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>"&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>"&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>China Mobile doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>"&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>eSurfing hesabı doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>"&lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve Xiaomi Hesabı &lt;a href=%3$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%4$s>Gizlilik Politikası'nı&lt;/a>, ayrıca &lt;a href=%5$s>China Unicom doğrulama hizmetleri şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>"Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_first_login">Telefon numaranızı ilk kez kullanıyorsanız otomatik olarak bir hesap oluşturacağız.</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>"Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a>, &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>China Mobile doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>"Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>eSurfing hesabı doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>"Xiaomi Hesabı &lt;a href=%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=%2$s>Gizlilik Politikası'nı&lt;/a> ve &lt;a href=%3$s>China Unicom doğrulama hizmetlerinin Şartlar ve koşullarını&lt;/a> okudum ve kabul ettim."</Data></string>
+    <string name="passport_user_avatar_update_title">Profil resmini değiştir</string>
+    <string name="passport_user_avatar_uploading">Yalnızca bir sn.…</string>
+    <string name="passport_user_id_hint">E-posta/telefon numarası/Xiaomi Hesabı Kimliği</string>
+    <string name="passport_user_name_phone_number">Telefon numarası</string>
+    <string name="passport_user_password_hint">Şifre</string>
+    <string name="passport_vcode_what_app_send_prompt">WhatsApp doğrulama kodunuz (&lt;font color=#1F93FF>%s&lt;/font>) kurtarma telefonunuza gönderilecektir.</string>
+    <string name="passport_wechat_not_install">"Öncelikle WeChat'i yükleyin"</string>
+    <string name="passport_weibo_login_btn_content_description">Weibo ile oturum açın</string>
+    <string name="passport_weixin_login_btn_content_description">WeChat ile oturum açın</string>
+    <string name="passport_wrong_captcha">Girdiğiniz kod yanlış</string>
+    <string name="passport_wrong_phone_number_format">Girmiş olduğunuz telefon numarası biçimi geçersiz</string>
+    <string name="passport_wrong_vcode">Girdiğiniz kod hatalı</string>
+    <string name="passport_wrong_voice">Girdiğiniz kod yanlış</string>
     <string name="password">Şifre</string>
+    <string name="password_guessable_pattern">Şifreler güvenliği düşük. Ardışık olmayan rakamlar, harfler ve özel sembollerin karışımını kullanın.</string>
+    <string name="password_inconsistent">İki şifre eşleşmiyor. Doğrulayın ve tekrar deneyin.</string>
+    <string name="password_invalid_format_prompt">Şifre aşağıdakilerden en az ikisini içermeli: sayılar, harfler ve özel semboller</string>
+    <string name="password_length_short_prompt">Yanlış şifre uzunluğu. %1$d–%2$d karakterlik bir şifre ayarlayın.</string>
     <string name="password_null">Şifre boş bırakılamaz</string>
+    <string name="password_reused_with_in_year">Yeni şifre geçen yıl kullanılanla aynı. Tamamen yeni bir şifre seçin.</string>
     <string name="pause">Duraklat</string>
     <string name="pc_backup_and_restore">Bilgisayar</string>
     <string name="perm_camera">Kamera</string>
@@ -760,10 +931,10 @@ Yedekleme dosyalarını değiştirmeyin veya yeniden adlandırmayın."</string>
     <string name="restore_launcher_layout_hit">Başlatıcı ayarlarını geri yükle</string>
     <string name="restore_progress">Geri yükleniyor…</string>
     <string name="restore_report">Geri yükleme detayları</string>
-    <string name="restore_suspend_fail_summary_pad">"Bağlantı koptu. Tabletiniz SmartStorage ile aynı ağda olduğunda geri yüklemeyi devam ettirmek için ''Tekrar dene'' seçeneğine dokunun."</string>
-    <string name="restore_suspend_fail_summary_phone">"Bağlantı koptu. Telefonunuz SmartStorage ile aynı ağda olduğunda geri yüklemeyi devam ettirmek için ''Tekrar dene'' seçeneğine dokunun."</string>
-    <string name="restore_suspend_summary_pad">Bağlantı koptu. Tabletiniz SmartStorage ile aynı ağda olduğunda geri yükleme otomatik olarak devam ettirilecek.</string>
-    <string name="restore_suspend_summary_phone">Bağlantı koptu. Telefonunuz SmartStorage ile aynı ağda olduğunda geri yükleme otomatik olarak devam ettirilecek.</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
     <string name="restore_suspend_title">Geri yükleme duraklatıldı. Tekrar bağlanılıyor…</string>
     <string name="restore_tab">Geri yükle</string>
     <string name="restore_telephony_hit">Geri yükleme işlemi telefonu uygulamasını yeniden başlatacaktır.</string>

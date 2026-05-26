@@ -95,10 +95,10 @@
     <string name="backup_report">Звіт</string>
     <string name="backup_security_tips_message">Можливо, що деякі програми неможливо зарезервувати або відновити.</string>
     <string name="backup_security_tips_title">Резервні копії можуть не працювати</string>
-    <string name="backup_suspend_fail_summary_pad">Підключення було втрачено. Коли ваш планшет підключиться до тієї ж мережі, що і SmartStorage, натисніть \"Повторити спробу\", щоб відновити резервне копіювання.</string>
-    <string name="backup_suspend_fail_summary_phone">Підключення було втрачено. Коли ваш телефон підключиться до тієї ж мережі, що і SmartStorage, натисніть \"Повторити спробу\", щоб відновити резервне копіювання.</string>
-    <string name="backup_suspend_summary_pad">Підключення було втрачено. Як тільки ваш планшет підключиться до тієї ж мережі, що і SmartStorage, резервне копіювання відновиться автоматично.</string>
-    <string name="backup_suspend_summary_phone">Підключення було втрачено. Як тільки ваш телефон підключиться до тієї ж мережі, що і SmartStorage, резервне копіювання відновиться автоматично.</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
     <string name="backup_suspend_title">Резервне копіювання призупинено. Повторне підключення…</string>
     <string name="backup_tab">Створити резервну копію</string>
     <string name="backup_tips_dialog_summary">"Клоновані програми та приватні об'єкти не підтримуються. Ця резервна копія включає тільки поточні дані. Нові дані не будуть синхронізовані автоматично."</string>
@@ -139,6 +139,8 @@
     <string name="button_return">Назад</string>
     <string name="button_select">Вибрати</string>
     <string name="button_send">Відправити</string>
+    <string name="calendar_date_picker_a11y_next_month">Перейти до наступного місяця</string>
+    <string name="calendar_date_picker_a11y_prev_month">Перейти до попереднього місяця</string>
     <string name="call_title">Журнал викликів</string>
     <string name="camera_summary">Налаштування камери (без фотографій)</string>
     <string name="camera_summary_for_cta">Налаштування камери</string>
@@ -429,6 +431,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняти вибір</string>
     <string name="miuix_appcompat_action_mode_select_all">Вибрати все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Вибрати</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Вибрати</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Ще</string>
     <string name="miuix_appcompat_cancel_description">Скасувати</string>
     <string name="miuix_appcompat_confirm_description">Підтвердити</string>
@@ -503,22 +506,20 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="name_password_not_consistent">"Неправильне ім'я користувача або пароль"</string>
     <string name="nas_backup_progress_title">Створити резервну копію до SmartStorage</string>
     <string name="nas_backup_resume_button">Продовжити</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">Мережа відключена. Переконайтеся, що ваш планшет і пристрій SmartStorage підключені до однієї мережі, а потім спробуйте створити резервну копію ще раз.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">Мережа відключена. Переконайтеся, що ваш телефон і пристрій SmartStorage підключені до однієї мережі, а потім спробуйте створити резервну копію ще раз.</string>
-    <string name="nas_backup_task_progress_summary_pad">Під час резервного копіювання переконайтеся, що ваш планшет і пристрій SmartStorage підключені до однієї мережі. Не перезавантажуйте та не вимикайте планшет, щоб уникнути втрати даних.</string>
-    <string name="nas_backup_task_progress_summary_phone">Під час резервного копіювання переконайтеся, що ваш телефон і пристрій SmartStorage підключені до однієї мережі. Не перезавантажуйте та не вимикайте телефон, щоб уникнути втрати даних.</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_backup_task_suspend_info_title">Створення резервної копії призупинено</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">Скасувати</string>
     <string name="nas_connecting_progress_dialog">Підключення до SmartStorage…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"Щоб використовувати SmartStorage для резервного копіювання та відновлення, переконайтеся:
-%d. Пристрій SmartStorage підключено до інтернету.
-%d. Ваш планшет підключений до тієї ж мережі Wi-Fi, що і SmartStorage.
-%d. Мережа стабільна. (Не перезавантажуйте та не вимикайте планшет під час резервного копіювання чи відновлення)."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"Щоб використовувати SmartStorage для резервного копіювання та відновлення, переконайтеся:
-%d. Пристрій SmartStorage підключено до інтернету.
-%d. Ваш телефон підключений до тієї ж мережі Wi-Fi, що і SmartStorage.
-%d. Мережа стабільна. (Не перезавантажуйте та не вимикайте телефон під час резервного копіювання чи відновлення)."</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your phone during backups or restoration)."</string>
     <string name="nas_disconnect_dialog_title">Не вдається підключитися до SmartStorage</string>
     <string name="nas_low_memory_progress_backup_summary_nas">"Недостатньо місця в пам'яті SmartStorage. Звільніть місце, натисніть \"Повторити спробу\", щоб відновити резервне копіювання."</string>
     <string name="nas_low_memory_progress_backup_summary_pad">"Недостатньо місця в пам'яті планшета. Звільніть місце, натисніть \"Повторити спробу\", щоб відновити резервне копіювання."</string>
@@ -535,13 +536,14 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="nas_low_storage_phone_summary">"Для резервного копіювання потрібне тимчасове місце на вашому телефоні для кешування. Зарезервуйте %s. Це місце буде звільнено після резервного копіювання об'єктів."</string>
     <string name="nas_low_storage_phone_title">"Недостатньо пам'яті на телефоні"</string>
     <string name="nas_low_storage_title">SmartStorage заповнено</string>
-    <string name="nas_notification_title">Резервне копіювання повідомлень WeChat до SmartStorage…</string>
+    <string name="nas_notification_title">Backing up WeChat history to Xiaomi SmartStorage…</string>
+    <string name="nas_restore_notification_title">Restoring WeChat history from Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">Відновити із SmartStorage</string>
     <string name="nas_restore_resume_button">Продовжити</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">Мережа відключена. Переконайтеся, що ваш планшет і пристрій SmartStorage підключені до однієї мережі, а потім спробуйте повторити відновлення ще раз.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">Мережа відключена. Переконайтеся, що ваш телефон і пристрій SmartStorage підключені до однієї мережі, а потім спробуйте повторити відновлення ще раз.</string>
-    <string name="nas_restore_task_progress_summary_pad">Під час відновлення переконайтеся, що ваш планшет і пристрій SmartStorage підключені до однієї мережі. Не перезавантажуйте та не вимикайте планшет, щоб уникнути втрати даних.</string>
-    <string name="nas_restore_task_progress_summary_phone">Під час відновлення переконайтеся, що ваш телефон і пристрій SmartStorage підключені до однієї мережі. Не перезавантажуйте та не вимикайте телефон, щоб уникнути втрати даних.</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">Відновлення призупинено</string>
     <string name="nas_retry_button">Повторити спробу</string>
     <string name="nas_task_lowmemory_summary_pad_backup">"Недостатньо місця в пам'яті планшета. Звільніть місце та спробуйте створити резервну копію ще раз."</string>
@@ -571,13 +573,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="new_local_button_backup">Резервне копіювання</string>
     <string name="new_local_button_restore">Відновити</string>
     <string name="new_local_click_to_jump">Натисніть, щоб переглянути детальні інструкції</string>
-    <string name="new_local_detail_description">"Примітка:
-%1$d. Скопіюйте резервні копії на ваш комп'ютер, щоб уникнути втрати даних. %2$s.
-%3$d. Резервні копії будуть збережені до MIUI > backup > AllBackup."</string>
-    <string name="new_local_detail_description_global">"Примітка:
-%1$d. Скопіюйте резервні копії на ваш комп'ютер, щоб уникнути втрати даних. %2$s
-%3$d. Резервні копії будуть збережені до MIUI > backup > AllBackup.
-%4$d. Для деяких програм може бути неможливо створити резервну копію або відновити їх."</string>
+    <string name="new_local_detail_description">"Примітка: скопіюйте резервні копії на комп'ютер, щоб уникнути втрати даних. (click)Натисніть, щоб переглянути детальні інструкції(/click). Резервні копії будуть збережені в розділі \"MIUI\" > \"backup\" > \"AllBackup\"."</string>
+    <string name="new_local_detail_description_global">"Примітка: скопіюйте резервні копії на комп'ютер, щоб уникнути втрати даних. (click)Натисніть, щоб переглянути детальні інструкції(/click). Резервні копії будуть збережені в розділі \"MIUI\" > \"backup\" > \"AllBackup\". Деякі програми можуть не копіюватися або не відновлюватися."</string>
     <string name="new_local_tab_backup">Створити резервну копію</string>
     <string name="new_local_tab_backup_pad">Створити резервну копію</string>
     <string name="new_local_tab_restore">Відновити</string>
@@ -671,8 +668,182 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="open_compatibility_mode">Увімкнути</string>
     <string name="pad_backup_and_restore">Планшет</string>
     <string name="page_loading">Секунду…</string>
+    <string name="pasport_register_dialog_message">Створити Xiaomi акаунт за допомогою вашого номера телефону %s?</string>
+    <string name="passport_access_denied">Доступ заборонений</string>
+    <string name="passport_account_crop_user_avatar">Обрізати фото</string>
+    <string name="passport_account_empty_user_name">"Введіть ваше ім'я"</string>
+    <string name="passport_account_error_all_space_user_name">Нік не може містити тільки пробіли</string>
+    <string name="passport_account_error_invalid_user_name">Нік не може містити &lt;, > або /</string>
+    <string name="passport_account_error_longer_user_name">"Ім'я повинно містити не більше %d символів"</string>
+    <string name="passport_account_error_shorter_user_name">"Ім'я повинно містити не більше %d символів"</string>
+    <string name="passport_account_error_user_name">Цей нік недійсний, спробуйте інший.</string>
+    <string name="passport_account_invalid_user_avatar">Недійсне фото. Спробуйте інше.</string>
+    <string name="passport_account_name">"Акаунт: %1$s "</string>
+    <string name="passport_account_no_set">Немає</string>
+    <string name="passport_account_none_bind_info">Порожньо</string>
+    <string name="passport_account_none_user_name">Немає</string>
+    <string name="passport_account_secure_info_pref_title">Інформація про акаунт</string>
+    <string name="passport_account_security_info_pref_title">Дані безпеки</string>
+    <string name="passport_account_user_avatar">Фото профілю</string>
+    <string name="passport_account_user_avatar_from_album">Виберіть з Галереї</string>
+    <string name="passport_account_user_avatar_from_camera">Камера</string>
+    <string name="passport_account_user_base_info">Основна інформація</string>
+    <string name="passport_account_user_details">Особиста інформація</string>
+    <string name="passport_account_user_email">Ел.пошта для відновлення</string>
+    <string name="passport_account_user_gender">Стать</string>
+    <string name="passport_account_user_id">Ідентифікатор Xiaomi акаунту</string>
+    <string name="passport_account_user_name">Нік</string>
+    <string name="passport_account_user_name_dialog_title">"Введіть ім'я"</string>
+    <string name="passport_account_user_phone">Номер телефону для відновлення</string>
+    <string name="passport_activity_not_found_notice">Не вдається знайти програму</string>
+    <string name="passport_agree">Погодитися</string>
+    <string name="passport_area_code_title">Регіон коду</string>
+    <string name="passport_attention">Увага</string>
+    <string name="passport_back">Назад</string>
+    <string name="passport_bad_authentication">"Неправильне ім'я користувача або пароль"</string>
+    <string name="passport_can_not_recevie_verify_code">Не отримали код?</string>
+    <string name="passport_change_password">Змінити пароль</string>
+    <string name="passport_check_security">Перевірка проблем безпеки…</string>
+    <string name="passport_checking_account">Перевірка пароля…</string>
+    <string name="passport_clear_input">Очистити введені дані</string>
+    <string name="passport_completed">Готово</string>
+    <string name="passport_confirm_new_pwd">Підтвердіть новий пароль</string>
+    <string name="passport_copy_link">Скопіювати URL</string>
+    <string name="passport_copy_to_clipboard_successful">Скопійовано успішно</string>
+    <string name="passport_dialog_captcha_title">Код</string>
+    <string name="passport_dialog_doing_login">Вхід…</string>
+    <string name="passport_dialog_doing_register">Створення акаунту…</string>
+    <string name="passport_dialog_is_my_account">Так</string>
+    <string name="passport_dialog_is_your_mi_account">Це ваш Xiaomi акаунт?</string>
+    <string name="passport_dialog_loading">Хвилинку…</string>
+    <string name="passport_dialog_nick_name_prefix">Нік: %s</string>
+    <string name="passport_dialog_phone_number_prefix">Номер телефону: %s</string>
+    <string name="passport_dialog_register_other">Ні, я сворю свій</string>
+    <string name="passport_doing_query_account">Перевірка інформації акаунту…</string>
+    <string name="passport_error_auth_fail">Час сесії закінчився. Увійдіть ще раз.</string>
+    <string name="passport_error_device_id">Не вдалося отримати ID пристрою</string>
+    <string name="passport_error_empty_password">Введіть пароль</string>
+    <string name="passport_error_empty_pwd">Пароль не може бути порожнім</string>
+    <string name="passport_error_empty_user_id">"Введіть ваше ім'я користувача"</string>
+    <string name="passport_error_illegal_pwd">Неправильний формат пароля</string>
+    <string name="passport_error_length_limit">Ви ввели занадто довгий текст</string>
+    <string name="passport_error_network">Неможливо підключитися до мережі</string>
+    <string name="passport_error_no_password_user">Ви ще не встановили пароль. Увійдіть через SMS.</string>
+    <string name="passport_error_phone">Введіть дійсний номер телефону</string>
+    <string name="passport_error_server">Помилка сервера</string>
+    <string name="passport_error_sms_limit">На цей номер було відправлено забагато кодів підтвердження. Повторіть спробу пізніше.</string>
+    <string name="passport_error_ticket_invalid">Неправильний код</string>
+    <string name="passport_error_timeout_network_error">Час запиту минув</string>
+    <string name="passport_error_token_expired">Термін дії коду закінчився. Повторіть спробу.</string>
+    <string name="passport_error_unknow_error">Сталася помилка</string>
+    <string name="passport_error_unknow_host_network_error">Не вдалося підключитися до мережі</string>
+    <string name="passport_error_unknow_network_error">Сталася помилка мережі</string>
+    <string name="passport_error_unknown">Невідома помилка</string>
+    <string name="passport_error_user_name">"Недійсне ім'я користувача"</string>
+    <string name="passport_error_user_password">Паролі не збігаються</string>
+    <string name="passport_facebook_login_btn_content_description">Увійти через акаунт Facebook</string>
+    <string name="passport_frequency_try_later">Забагато спроб. Зачекайте хвилинку або дві та повторіть спробу.</string>
+    <string name="passport_get_login_type_next">Далі</string>
+    <string name="passport_google_login_btn_content_description">Увійти через акаунт Google</string>
+    <string name="passport_help">Довідка</string>
+    <string name="passport_i_know">Зрозуміло</string>
+    <string name="passport_identification_expired">Термін дії коду закінчився, почніть спочатку.</string>
+    <string name="passport_input_captcha_hint">Введіть код</string>
+    <string name="passport_input_new_pwd">Введіть новий пароль</string>
+    <string name="passport_input_password_hint">Введіть пароль</string>
+    <string name="passport_input_phone_number_hint">Введіть номер телефону</string>
+    <string name="passport_input_verify_code">Введіть код підтвердження</string>
+    <string name="passport_input_voice_captcha_hint">Введіть голосовий код перевірки</string>
+    <string name="passport_input_voice_hint">Введіть голосовий код</string>
+    <string name="passport_login_by_local_phone_long_text">Увійти зараз</string>
+    <string name="passport_login_by_local_phone_short_text">Увійти</string>
+    <string name="passport_login_other">Інший Xiaomi акаунт</string>
+    <string name="passport_login_register_by_local_phone_long_text">Створити акаунт</string>
+    <string name="passport_login_with_sns">Інші способи авторизації</string>
+    <string name="passport_logout_account">Вийти</string>
+    <string name="passport_mi_account_title">Вхід через акаунт Xiaomi</string>
+    <string name="passport_network_error">Сталася помилка мережі. Підключіться до іншої мережі та повторіть спробу.</string>
+    <string name="passport_network_error_hint">Перевірте посилання та повторіть спробу або скопіюйте посилання та відкрийте його у браузері.</string>
+    <string name="passport_network_timeout">Не вдалося підключитися до мережі, повторіть спробу пізніше.</string>
+    <string name="passport_next">Далі</string>
+    <string name="passport_no_account">Вхід не здійснено</string>
+    <string name="passport_open_settings">Налаштування</string>
+    <string name="passport_page_load_failed">Неможливо відкрити сторінку</string>
+    <string name="passport_password_hide_show">Приховати пароль</string>
+    <string name="passport_password_login_btn">Увійти</string>
+    <string name="passport_password_not_show">Не показувати пароль</string>
+    <string name="passport_password_req_notice">Пароль повинен містити %1$d–%2$d символів та включати як мінімум два з наступних елементів: цифри, літери та спеціальні символи</string>
+    <string name="passport_password_show">Показати пароль</string>
+    <string name="passport_phone_auto_login_register_with_local_number">Створити акаунт</string>
+    <string name="passport_photo_picker_not_found">Немає доступних фото.</string>
+    <string name="passport_qq_login_btn_content_description">Увійти через акаунт QQ</string>
+    <string name="passport_querying_phone_info">Запит на інформацію про акаунт…</string>
+    <string name="passport_quick_login_title">Введіть пароль</string>
+    <string name="passport_reging">Створення акаунту…</string>
+    <string name="passport_register_by_local_phone_long_text">Створити акаунт</string>
+    <string name="passport_register_by_local_phone_short_text">Створити акаунт</string>
+    <string name="passport_register_dialog_positive">Створити</string>
+    <string name="passport_register_dialog_title">Створити Xiaomi акаунт</string>
+    <string name="passport_register_restricted">"З цим номером пов'язано занадто багато акаунтів, виберіть інший."</string>
+    <string name="passport_relogin_notice">Необхідно авторизуватися ще раз</string>
+    <string name="passport_request_agree">Дозволити</string>
+    <string name="passport_request_camera_permission_message">Ми будемо захищати вашу особисту інформацію відповідно до чинного законодавства та норм. Для правильної роботи програмі необхідні наступні дозволи:&lt;br>&lt;br>&lt;b>Доступ до камери (для налаштування фото профіля)&lt;/b>&lt;br>&lt;br>Якщо ви не погодитеся надати ці дозволи, ви не зможете користуватися деякими функціями цієї програми. Проте її основні функції залишаться доступними. Ви в будь-який момент можете відкликати дозвіл в Налаштуваннях.</string>
+    <string name="passport_request_cancel">Скасувати</string>
+    <string name="passport_request_error_invalid_token">Не вдалося підтвердити</string>
+    <string name="passport_request_error_network">Сталася помилка мережі. Підключіться до іншої мережі та повторіть спробу.</string>
+    <string name="passport_request_error_unknown">Системна помилка. Поверніться назад та повторіть спробу.</string>
+    <string name="passport_request_gallery_permission_message">"Ця програма потребує доступу до вибраних об'єктів Галереї, щоб встановити вашу фотографію профілю. Надати доступ?"</string>
+    <string name="passport_request_permission_title">Необхідні дозволи</string>
+    <string name="passport_resend_ticket">Відправити код ще раз</string>
+    <string name="passport_retry">Повторити спробу</string>
+    <string name="passport_send_sms_to">Код відправлено на %1$s</string>
+    <string name="passport_send_too_many_code">На цей номер було відправлено забагато кодів підтвердження. Зачекайте 24 години та повторіть спробу.</string>
+    <string name="passport_sending_vcode">Надсилання коду…</string>
+    <string name="passport_set_password_no_phone_msg">Додайте ваш номер телефону для захисту акаунту.</string>
+    <string name="passport_set_password_title">Встановити пароль</string>
+    <string name="passport_skip_query_account">Пропустити</string>
+    <string name="passport_sns_bind_limit">Забагато спроб. Спробуйте інші способи входу.</string>
+    <string name="passport_system_error">Система зайнята. Зачекайте хвилинку або дві та повторіть спробу.</string>
+    <string name="passport_talkback_image_captcha">Захисний код із зображення</string>
+    <string name="passport_talkback_switch_image_captcha">Переключитися на захисний код із зображення</string>
+    <string name="passport_talkback_switch_voice_captcha">Переключитися на голосовий захисний код</string>
+    <string name="passport_talkback_voice_captcha">Голосовий захисний код</string>
+    <string name="passport_third_sns_service_unavailable">Ця послуга недоступна. Переконайтеся, що програма встановлена та незаблокована.</string>
+    <string name="passport_ticket_send_by_second">Відправити через %d</string>
+    <string name="passport_to_forget_password">Забули пароль?</string>
+    <string name="passport_to_password_login">Увійти за допомогою пароля</string>
+    <string name="passport_to_verify_code_login">Увійти через SMS</string>
+    <string name="passport_unknown_error">Невідома помилка</string>
+    <string name="passport_unknown_host_network_error">Перевірте налаштування мережі та повторіть спробу</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Я ознайомився(-лась) та приймаю &lt;a href=%1$s>Угоду користувача&lt;/a> та &lt;a href=%2$s>Політику конфіденційності&lt;/a>, а також &lt;a href=%3$s>Угоду користувача&lt;/a> та &lt;a href=%4$s>Політику конфіденційності&lt;/a> Xiaomi акаунту.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Я ознайомився(-лась) та приймаю &lt;a href=%1$s>Угоду користувача&lt;/a> та &lt;a href=%2$s>Політику конфіденційності&lt;/a>, &lt;a href=%3$s>Угоду користувача&lt;/a> та &lt;a href=%4$s>Політику конфіденційності&lt;/a> Xiaomi акаунту, а також &lt;a href=%5$s>Умови використання послуг перевірки China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Я ознайомився(-лась) та приймаю &lt;a href=%1$s>Угоду користувача&lt;/a> та &lt;a href=%2$s>Політику конфіденційності&lt;/a>, &lt;a href=%3$s>Угоду користувача&lt;/a> та &lt;a href=%4$s>Політику конфіденційності&lt;/a> Xiaomi акаунту, а також &lt;a href=%5$s>Умови використання послуг перевірки eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Я ознайомився(-лась) та приймаю &lt;a href=%1$s>Угоду користувача&lt;/a> та &lt;a href=%2$s>Політику конфіденційності&lt;/a>, &lt;a href=%3$s>Угоду користувача&lt;/a> та &lt;a href=%4$s>Політику конфіденційності&lt;/a> Xiaomi акаунту, а також &lt;a href=%5$s>Умови використання послуг перевірки China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Я ознайомився(-лась) та приймаю &lt;a href=%1$s>Угоду користувача&lt;/a> та &lt;a href=%2$s>Політику конфіденційності&lt;/a> Xiaomi акаунту.</Data></string>
+    <string name="passport_user_agreement_hint_first_login">Ми створемо акаунт автоматично, якщо ви використовуєте номер телефону в перший раз.</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Я ознайомився(-лась) та приймаю &lt;a href=%1$s>Угоду користувача&lt;/a> та &lt;a href=%2$s>Політику конфіденційності&lt;/a> Xiaomi акаунту, а також &lt;a href=%3$s>Умови використання послуг перевірки China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Я ознайомився(-лась) та приймаю &lt;a href=%1$s>Угоду користувача&lt;/a> та &lt;a href=%2$s>Політику конфіденційності&lt;/a> Xiaomi акаунту, а також &lt;a href=%3$s>Умови використання послуг перевірки eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Я ознайомився(-лась) та приймаю &lt;a href=%1$s>Угоду користувача&lt;/a> та &lt;a href=%2$s>Політику конфіденційності&lt;/a> Xiaomi акаунту, а також &lt;a href=%3$s>Умови використання послуг перевірки China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_avatar_update_title">Змінити фото профілю</string>
+    <string name="passport_user_avatar_uploading">Секунду…</string>
+    <string name="passport_user_id_hint">Ел.пошта/Номер телефону/ID Xiaomi акаунту</string>
+    <string name="passport_user_name_phone_number">Номер телефону</string>
+    <string name="passport_user_password_hint">Пароль</string>
+    <string name="passport_vcode_what_app_send_prompt">Ваш код підтвердження WhatsApp буде відправлений на резервний номер телефону (&lt;font color=#1F93FF>%s&lt;/font>).</string>
+    <string name="passport_wechat_not_install">Спочатку встановіть WeChat</string>
+    <string name="passport_weibo_login_btn_content_description">Увійти через акаунт Weibo</string>
+    <string name="passport_weixin_login_btn_content_description">Увійти через акаунт WeChat</string>
+    <string name="passport_wrong_captcha">Неправильний код</string>
+    <string name="passport_wrong_phone_number_format">Неправильний формат номера телефону</string>
+    <string name="passport_wrong_vcode">Неправильний код</string>
+    <string name="passport_wrong_voice">Неправильний код</string>
     <string name="password">Пароль</string>
+    <string name="password_guessable_pattern">Низька надійність пароля. Використовуйте поєднання непослідовних цифр, літер та спеціальних символів.</string>
+    <string name="password_inconsistent">Два паролі не збігаються. Підтвердіть та повторіть спробу.</string>
+    <string name="password_invalid_format_prompt">Паролі повинні містити принаймні два з наступних елементів: цифри, літери та спеціальні символи</string>
+    <string name="password_length_short_prompt">Неправильна довжина пароля. Встановіть пароль від %1$d до %2$dсимволів.</string>
     <string name="password_null">Пароль не може бути порожнім</string>
+    <string name="password_reused_with_in_year">Новий пароль такий самий, як і минулого року. Виберіть абсолютно новий пароль.</string>
     <string name="pause">Пауза</string>
     <string name="pc_backup_and_restore">"Комп'ютер"</string>
     <string name="perm_camera">Камера</string>
@@ -760,10 +931,10 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="restore_launcher_layout_hit">Відновити налаштування робочого столу</string>
     <string name="restore_progress">Відновлення…</string>
     <string name="restore_report">Журнал відновлення</string>
-    <string name="restore_suspend_fail_summary_pad">Підключення було втрачено. Коли ваш планшет підключиться до тієї ж мережі, що і SmartStorage, натисніть \"Повторити спробу\", щоб продовжити відновлення.</string>
-    <string name="restore_suspend_fail_summary_phone">Підключення було втрачено. Коли ваш телефон підключиться до тієї ж мережі, що і SmartStorage, натисніть \"Повторити спробу\", щоб продовжити відновлення.</string>
-    <string name="restore_suspend_summary_pad">Підключення було втрачено. Як тільки ваш планшет підключиться до тієї ж мережі, що і SmartStorage, відновлення продовжиться автоматично.</string>
-    <string name="restore_suspend_summary_phone">Підключення було втрачено. Як тільки ваш телефон підключиться до тієї ж мережі, що і SmartStorage, відновлення продовжиться автоматично.</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
     <string name="restore_suspend_title">Відновлення призупинено. Повторне підключення…</string>
     <string name="restore_tab">Відновити</string>
     <string name="restore_telephony_hit">Процес відновлення перезавантажить програму \"Телефон\"</string>

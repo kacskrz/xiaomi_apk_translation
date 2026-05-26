@@ -95,10 +95,10 @@
     <string name="backup_report">Szczegóły</string>
     <string name="backup_security_tips_message">W przypadku niektórych aplikacji może nie być możliwe wykonanie kopii zapasowej lub przywrócenie.</string>
     <string name="backup_security_tips_title">Kopie zapasowe mogą nie działać</string>
-    <string name="backup_suspend_fail_summary_pad">Połączenie zostało utracone. Gdy tablet połączy się z tą samą siecią co SmartStorage, dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
-    <string name="backup_suspend_fail_summary_phone">Połączenie zostało utracone. Gdy telefon połączy się z tą samą siecią co SmartStorage, dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
-    <string name="backup_suspend_summary_pad">Połączenie zostało utracone. Gdy tablet połączy się z tą samą siecią co SmartStorage, tworzenie kopii zapasowej zostanie wznowione automatycznie.</string>
-    <string name="backup_suspend_summary_phone">Połączenie zostało utracone. Gdy telefon połączy się z tą samą siecią co SmartStorage, tworzenie kopii zapasowej zostanie wznowione automatycznie.</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
     <string name="backup_suspend_title">Tworzenie kopii zapasowej zostało wstrzymane. Ponowne łączenie…</string>
     <string name="backup_tab">Utwórz kopię zapasową</string>
     <string name="backup_tips_dialog_summary">Sklonowane aplikacje oraz prywatne elementy nie są obsługiwane. Ta kopia zapasowa obejmuje jedynie dane zapisane do tego momentu. Nowe dane nie zostaną zsynchronizowane automatycznie.</string>
@@ -139,6 +139,8 @@
     <string name="button_return">Wyjdź</string>
     <string name="button_select">Wybierz</string>
     <string name="button_send">Wyślij</string>
+    <string name="calendar_date_picker_a11y_next_month">Zmień na następny miesiąc</string>
+    <string name="calendar_date_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
     <string name="call_title">Historia połączeń</string>
     <string name="camera_summary">Ustawienia Aparatu (bez zdjęć)</string>
     <string name="camera_summary_for_cta">Ustawienia Aparatu</string>
@@ -287,7 +289,7 @@ Nie zmieniaj plików i nazw kopii zapasowych."</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">d MMMM yyyy</string>
+    <string name="fmt_date_long_year_month_day">d MMMM, yyyy</string>
     <string name="fmt_date_numeric_day">d</string>
     <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d.MM</string>
@@ -297,7 +299,7 @@ Nie zmieniaj plików i nazw kopii zapasowych."</string>
     <string name="fmt_date_short_month">MMM</string>
     <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
+    <string name="fmt_date_short_year_month_day">d MMM, yyyy</string>
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
@@ -334,8 +336,8 @@ Nie zmieniaj plików i nazw kopii zapasowych."</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Piątek</string>
-    <string name="friday_short">Pt</string>
-    <string name="friday_shortest">Pt</string>
+    <string name="friday_short">Pt.</string>
+    <string name="friday_shortest">Pt.</string>
     <string name="gallery_summary">Ustawienia Galerii (bez zdjęć)</string>
     <string name="grant_all_permission_content">Przyznaj wszystkie obowiązkowe uprawnienia, aby móc przywracać i tworzyć kopie zapasowe elementów.</string>
     <string name="grant_all_permission_title">Wymagane uprawnienia</string>
@@ -429,6 +431,7 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Odznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_title_empty">Zaznacz elementy</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Wybierz</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Więcej</string>
     <string name="miuix_appcompat_cancel_description">Anuluj</string>
     <string name="miuix_appcompat_confirm_description">Potwierdź</string>
@@ -456,44 +459,44 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="miuix_stretchablewidget_expanded">Rozwinięto</string>
     <string name="mms_title">Wiadomości MMS</string>
     <string name="monday">Poniedziałek</string>
-    <string name="monday_short">Pon</string>
-    <string name="monday_shortest">Pon</string>
-    <string name="month_april">Kwiecień</string>
-    <string name="month_april_short">Kwi</string>
-    <string name="month_april_shortest">Kwi</string>
-    <string name="month_august">Sierpień</string>
-    <string name="month_august_short">Sie</string>
-    <string name="month_august_shortest">Sie</string>
-    <string name="month_december">Grudzień</string>
-    <string name="month_december_short">Gru</string>
-    <string name="month_december_shortest">Gru</string>
-    <string name="month_february">Luty</string>
-    <string name="month_february_short">Lut</string>
-    <string name="month_february_shortest">Lut</string>
-    <string name="month_january">Styczeń</string>
-    <string name="month_january_short">Sty</string>
-    <string name="month_january_shortest">Sty</string>
-    <string name="month_july">Lipiec</string>
-    <string name="month_july_short">Lip</string>
-    <string name="month_july_shortest">Lip</string>
-    <string name="month_june">Czerwiec</string>
-    <string name="month_june_short">Cze</string>
-    <string name="month_june_shortest">Cze</string>
-    <string name="month_march">Marzec</string>
-    <string name="month_march_short">Mar</string>
-    <string name="month_march_shortest">Mar</string>
-    <string name="month_may">Maj</string>
-    <string name="month_may_short">Maj</string>
-    <string name="month_may_shortest">Maj</string>
-    <string name="month_november">Listopad</string>
-    <string name="month_november_short">Lis</string>
-    <string name="month_november_shortest">Lis</string>
-    <string name="month_october">Październik</string>
-    <string name="month_october_short">Paź</string>
-    <string name="month_october_shortest">Paź</string>
-    <string name="month_september">Wrzesień</string>
-    <string name="month_september_short">Wrz</string>
-    <string name="month_september_shortest">Wrz</string>
+    <string name="monday_short">Pon.</string>
+    <string name="monday_shortest">Pon.</string>
+    <string name="month_april">kwietnia</string>
+    <string name="month_april_short">Kwi.</string>
+    <string name="month_april_shortest">Kwi.</string>
+    <string name="month_august">sierpnia</string>
+    <string name="month_august_short">Sier.</string>
+    <string name="month_august_shortest">Sier.</string>
+    <string name="month_december">grudnia</string>
+    <string name="month_december_short">Gru.</string>
+    <string name="month_december_shortest">Gru.</string>
+    <string name="month_february">lutego</string>
+    <string name="month_february_short">Lut.</string>
+    <string name="month_february_shortest">Lut.</string>
+    <string name="month_january">stycznia</string>
+    <string name="month_january_short">Sty.</string>
+    <string name="month_january_shortest">Sty.</string>
+    <string name="month_july">lipca</string>
+    <string name="month_july_short">Lip.</string>
+    <string name="month_july_shortest">Lip.</string>
+    <string name="month_june">czerwca</string>
+    <string name="month_june_short">Czer.</string>
+    <string name="month_june_shortest">Czer.</string>
+    <string name="month_march">marca</string>
+    <string name="month_march_short">Mar.</string>
+    <string name="month_march_shortest">Mar.</string>
+    <string name="month_may">maja</string>
+    <string name="month_may_short">Maj.</string>
+    <string name="month_may_shortest">Maj.</string>
+    <string name="month_november">listopada</string>
+    <string name="month_november_short">Lis.</string>
+    <string name="month_november_shortest">Lis.</string>
+    <string name="month_october">października</string>
+    <string name="month_october_short">Paź.</string>
+    <string name="month_october_shortest">Paź.</string>
+    <string name="month_september">września</string>
+    <string name="month_september_short">Wrz.</string>
+    <string name="month_september_shortest">Wrz.</string>
     <string name="more">Więcej</string>
     <string name="morning">Poranek</string>
     <string name="multi_select_title">Wybranych %1$s</string>
@@ -503,22 +506,20 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="name_password_not_consistent">Nazwa użytkownika lub hasło są nieprawidłowe</string>
     <string name="nas_backup_progress_title">Utwórz kopię zapasową w SmartStorage</string>
     <string name="nas_backup_resume_button">Wznów</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">Połączenie sieciowe zostało przerwane. Upewnij się, że tablet i urządzenie SmartStorage są połączone z tą samą siecią i spróbuj ponownie utworzyć kopię zapasową.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">Połączenie sieciowe zostało przerwane. Upewnij się, że telefon i urządzenie SmartStorage są połączone z tą samą siecią i spróbuj ponownie utworzyć kopię zapasową.</string>
-    <string name="nas_backup_task_progress_summary_pad">Podczas tworzenia kopii zapasowej upewnij się, że tablet i urządzenie SmartStorage są połączone z tą samą siecią. Nie uruchamiaj ponownie ani nie wyłączaj tabletu, aby uniknąć utraty danych.</string>
-    <string name="nas_backup_task_progress_summary_phone">Podczas tworzenia kopii zapasowej upewnij się, że telefon i urządzenie SmartStorage są połączone z tą samą siecią. Nie uruchamiaj ponownie ani nie wyłączaj telefonu, aby uniknąć utraty danych.</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_backup_task_suspend_info_title">Wstrzymano tworzenie kopii zapasowej</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">Anuluj</string>
     <string name="nas_connecting_progress_dialog">Łącznie ze SmartStorage…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"Aby skorzystać ze SmartStorage do tworzenia kopii zapasowych i przywracania, upewnij się, że:
-%d. Urządzenie SmartStorage jest w trybie online.
-%d. Tablet jest połączony z tą samą siecią Wi-Fi, co SmartStorage.
-%d. Połączenie jest stabilne. (Nie uruchamiaj ponownie ani nie wyłączaj tabletu podczas tworzenia kopii zapasowej lub przywracania)."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"Aby skorzystać ze SmartStorage do tworzenia kopii zapasowych i przywracania, upewnij się, że:
-%d. Urządzenie SmartStorage jest w trybie online.
-%d. Telefon jest połączony z tą samą siecią Wi-Fi, co SmartStorage.
-%d. Połączenie jest stabilne. (Nie uruchamiaj ponownie ani nie wyłączaj telefonu podczas tworzenia kopii zapasowej lub przywracania)."</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration)."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your phone during backups or restoration)."</string>
     <string name="nas_disconnect_dialog_title">Nie udało się połączyć ze SmartStorage</string>
     <string name="nas_low_memory_progress_backup_summary_nas">Za mało miejsca w SmartStorage. Zwolnij miejsce i dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">Za mało miejsca na tablecie. Zwolnij miejsce i dotknij „Spróbuj ponownie”, aby kontynuować tworzenie kopii zapasowej.</string>
@@ -535,13 +536,14 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="nas_low_storage_phone_summary">Kopie zapasowe wymagają tymczasowego miejsca w telefonie do buforowania. Zachowaj %s wolnego miejsca. Zostanie ono zwolnione po utworzeniu kopii zapasowej elementów.</string>
     <string name="nas_low_storage_phone_title">Za mało miejsca w telefonie</string>
     <string name="nas_low_storage_title">SmartStorage jest pełny</string>
-    <string name="nas_notification_title">Tworzenie kopii zapasowej wiadomości WeChat w SmartStorage…</string>
+    <string name="nas_notification_title">Backing up WeChat history to Xiaomi SmartStorage…</string>
+    <string name="nas_restore_notification_title">Restoring WeChat history from Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">Przywróć ze SmartStorage</string>
     <string name="nas_restore_resume_button">Wznów</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">Połączenie sieciowe zostało przerwane. Upewnij się, że tablet i urządzenie SmartStorage są połączone z tą samą siecią i spróbuj ponownie przywrócić dane.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">Połączenie sieciowe zostało przerwane. Upewnij się, że telefon i urządzenie SmartStorage są połączone z tą samą siecią i spróbuj ponownie przywrócić dane.</string>
-    <string name="nas_restore_task_progress_summary_pad">Podczas przywracania upewnij się, że tablet i urządzenie SmartStorage są połączone z tą samą siecią. Nie uruchamiaj ponownie ani nie wyłączaj tabletu, aby uniknąć utraty danych.</string>
-    <string name="nas_restore_task_progress_summary_phone">Podczas przywracania upewnij się, że telefon i urządzenie SmartStorage są połączone z tą samą siecią. Nie uruchamiaj ponownie ani nie wyłączaj telefonu, aby uniknąć utraty danych.</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">Wstrzymano przywracanie</string>
     <string name="nas_retry_button">Spróbuj ponownie</string>
     <string name="nas_task_lowmemory_summary_pad_backup">Za mało miejsca na tablecie. Zwolnij miejsce i spróbuj ponownie utworzyć kopię zapasową.</string>
@@ -571,13 +573,8 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="new_local_button_backup">Utwórz kopię zapasową</string>
     <string name="new_local_button_restore">Przywróć</string>
     <string name="new_local_click_to_jump">Dotknij, aby wyświetlić szczegółowe instrukcje</string>
-    <string name="new_local_detail_description">"Uwaga:
-%1$d. Skopiuj kopie zapasowe na komputer, aby uniknąć utraty danych. %2$s
-%3$d. Kopie zapasowe zostaną zapisane w MIUI > backup > AllBackup."</string>
-    <string name="new_local_detail_description_global">"Uwaga:
-%1$d. Skopiuj kopie zapasowe na komputer, aby uniknąć utraty danych. %2$s
-%3$d. Kopie zapasowe zostaną zapisane w MIUI > backup > AllBackup.
-%4$d. W przypadku niektórych aplikacji nie ma możliwości utworzenia ani odtworzenia kopii zapasowej."</string>
+    <string name="new_local_detail_description">Uwaga: Skopiuj kopie zapasowe na komputer, aby uniknąć utraty danych. (click)Dotknij, aby wyświetlić szczegółowe instrukcje(/click). Kopie zapasowe zostaną zapisane w MIUI > backup > AllBackup.</string>
+    <string name="new_local_detail_description_global">Uwaga: Skopiuj kopie zapasowe na komputer, aby uniknąć utraty danych. (click)Dotknij, aby wyświetlić szczegółowe instrukcje(/click). Kopie zapasowe zostaną zapisane w MIUI > backup > AllBackup. W przypadku niektórych aplikacji nie ma możliwości utworzenia ani przywrócenia kopii zapasowej.</string>
     <string name="new_local_tab_backup">Utwórz kopię zapasową</string>
     <string name="new_local_tab_backup_pad">Utwórz kopię zapasową</string>
     <string name="new_local_tab_restore">Przywróć</string>
@@ -671,8 +668,182 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="open_compatibility_mode">Włącz</string>
     <string name="pad_backup_and_restore">Tablet</string>
     <string name="page_loading">Chwileczkę…</string>
+    <string name="pasport_register_dialog_message">Utworzyć konto Xiaomi za pomocą numeru telefonu %s?</string>
+    <string name="passport_access_denied">Odmowa dostępu</string>
+    <string name="passport_account_crop_user_avatar">Przytnij zdjęcie</string>
+    <string name="passport_account_empty_user_name">Wpisz swoją nazwę</string>
+    <string name="passport_account_error_all_space_user_name">Nazwa nie może zawierać tylko spacji</string>
+    <string name="passport_account_error_invalid_user_name">Nazwa nie może zawierać &lt;, >, lub /</string>
+    <string name="passport_account_error_longer_user_name">Nazwa nie może zawierać więcej niż %d znaków</string>
+    <string name="passport_account_error_shorter_user_name">Nazwa musi zawierać więcej niż %d znaki</string>
+    <string name="passport_account_error_user_name">Nazwa jest nieprawidłowa. Spróbuj wybrać inną.</string>
+    <string name="passport_account_invalid_user_avatar">To zdjęcie jest nieprawidłowe. Wybierz inne.</string>
+    <string name="passport_account_name">"Konto: %1$s "</string>
+    <string name="passport_account_no_set">Brak</string>
+    <string name="passport_account_none_bind_info">Brak</string>
+    <string name="passport_account_none_user_name">Brak</string>
+    <string name="passport_account_secure_info_pref_title">Informacje o koncie</string>
+    <string name="passport_account_security_info_pref_title">Informacje o bezpieczeństwie</string>
+    <string name="passport_account_user_avatar">Zdjęcie profilowe</string>
+    <string name="passport_account_user_avatar_from_album">Wybierz z Galerii</string>
+    <string name="passport_account_user_avatar_from_camera">Aparat</string>
+    <string name="passport_account_user_base_info">Podstawowe informacje</string>
+    <string name="passport_account_user_details">Dane osobowe</string>
+    <string name="passport_account_user_email">Pomocniczy adres e-mail</string>
+    <string name="passport_account_user_gender">Płeć</string>
+    <string name="passport_account_user_id">ID konta Xiaomi</string>
+    <string name="passport_account_user_name">Nazwa</string>
+    <string name="passport_account_user_name_dialog_title">Wpisz nazwę</string>
+    <string name="passport_account_user_phone">Pomocniczy numer telefonu</string>
+    <string name="passport_activity_not_found_notice">Nie można znaleźć aplikacji</string>
+    <string name="passport_agree">Akceptuję</string>
+    <string name="passport_area_code_title">Numer kierunkowy</string>
+    <string name="passport_attention">Uwaga</string>
+    <string name="passport_back">Wstecz</string>
+    <string name="passport_bad_authentication">Nieprawidłowa nazwa użytkownika lub hasło</string>
+    <string name="passport_can_not_recevie_verify_code">Nie otrzymano kodu?</string>
+    <string name="passport_change_password">Zmień hasło</string>
+    <string name="passport_check_security">Sprawdzanie problemów bezpieczeństwa…</string>
+    <string name="passport_checking_account">Sprawdzanie hasła…</string>
+    <string name="passport_clear_input">Usuń wprowadzoną treść</string>
+    <string name="passport_completed">Gotowe</string>
+    <string name="passport_confirm_new_pwd">Potwierdź nowe hasło</string>
+    <string name="passport_copy_link">Kopiuj adres URL</string>
+    <string name="passport_copy_to_clipboard_successful">Pomyślnie skopiowano</string>
+    <string name="passport_dialog_captcha_title">Kod</string>
+    <string name="passport_dialog_doing_login">Logowanie…</string>
+    <string name="passport_dialog_doing_register">Tworzenie konta…</string>
+    <string name="passport_dialog_is_my_account">Tak</string>
+    <string name="passport_dialog_is_your_mi_account">Czy to jest Twoje konto Xiaomi?</string>
+    <string name="passport_dialog_loading">Chwileczkę…</string>
+    <string name="passport_dialog_nick_name_prefix">Nazwa użytkownika: %s</string>
+    <string name="passport_dialog_phone_number_prefix">Numer telefonu: %s</string>
+    <string name="passport_dialog_register_other">Nie, chcę utworzyć nowe</string>
+    <string name="passport_doing_query_account">Sprawdzanie informacji o koncie…</string>
+    <string name="passport_error_auth_fail">Sesja wygasła. Zaloguj się ponownie.</string>
+    <string name="passport_error_device_id">Nie można uzyskać ID urządzenia</string>
+    <string name="passport_error_empty_password">Wprowadź swoje hasło</string>
+    <string name="passport_error_empty_pwd">Hasło nie może być puste</string>
+    <string name="passport_error_empty_user_id">Wprowadź swoją nazwę użytkownika</string>
+    <string name="passport_error_illegal_pwd">Nieprawidłowy format hasła</string>
+    <string name="passport_error_length_limit">Wprowadzony tekst jest za długi</string>
+    <string name="passport_error_network">Nie można połączyć z siecią</string>
+    <string name="passport_error_no_password_user">Hasło nie zostało jeszcze ustawione. Zaloguj się za pomocą SMS.</string>
+    <string name="passport_error_phone">Wprowadź prawidłowy numer telefonu</string>
+    <string name="passport_error_server">Błąd serwera</string>
+    <string name="passport_error_sms_limit">Za dużo kodów weryfikacyjnych zostało wysłanych na ten numer. Spróbuj ponownie później.</string>
+    <string name="passport_error_ticket_invalid">Kod jest niepoprawny</string>
+    <string name="passport_error_timeout_network_error">Upłynął limit czasu żądania</string>
+    <string name="passport_error_token_expired">Kod wygasł. Spróbuj ponownie.</string>
+    <string name="passport_error_unknow_error">Wystąpił błąd</string>
+    <string name="passport_error_unknow_host_network_error">Nie udało się połączyć z siecią</string>
+    <string name="passport_error_unknow_network_error">Wystąpił błąd sieci</string>
+    <string name="passport_error_unknown">Nieznany błąd</string>
+    <string name="passport_error_user_name">Podana nazwa użytkownika jest nieprawidłowa</string>
+    <string name="passport_error_user_password">Hasła nie pasują do siebie</string>
+    <string name="passport_facebook_login_btn_content_description">Zaloguj się przez Facebook</string>
+    <string name="passport_frequency_try_later">Zbyt wiele prób. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
+    <string name="passport_get_login_type_next">Dalej</string>
+    <string name="passport_google_login_btn_content_description">Zaloguj się przez Google</string>
+    <string name="passport_help">Pomoc</string>
+    <string name="passport_i_know">Rozumiem</string>
+    <string name="passport_identification_expired">Kod weryfikacyjny stracił ważność. Rozpocznij ponownie.</string>
+    <string name="passport_input_captcha_hint">Wprowadź kod</string>
+    <string name="passport_input_new_pwd">Wprowadź nowe hasło</string>
+    <string name="passport_input_password_hint">Wprowadź hasło</string>
+    <string name="passport_input_phone_number_hint">Wprowadź numer telefonu</string>
+    <string name="passport_input_verify_code">Wpisz kod weryfikacyjny</string>
+    <string name="passport_input_voice_captcha_hint">Wpisz dźwiękowy kod weryfikacyjny</string>
+    <string name="passport_input_voice_hint">Wprowadź kod głosowy</string>
+    <string name="passport_login_by_local_phone_long_text">Zaloguj się teraz</string>
+    <string name="passport_login_by_local_phone_short_text">Zaloguj się</string>
+    <string name="passport_login_other">Inne konto Xiaomi</string>
+    <string name="passport_login_register_by_local_phone_long_text">Utwórz konto</string>
+    <string name="passport_login_with_sns">Inne sposoby logowania</string>
+    <string name="passport_logout_account">Wyloguj</string>
+    <string name="passport_mi_account_title">Zaloguj się za pomocą konta Xiaomi</string>
+    <string name="passport_network_error">Wystąpił błąd sieci. Sprawdź ustawienia sieci i spróbuj ponownie.</string>
+    <string name="passport_network_error_hint">Sprawdź adres URL i spróbuj ponownie lub skopiuj go i otwórz go w przeglądarce.</string>
+    <string name="passport_network_timeout">Nie udało się połączyć z siecią. Spróbuj ponownie.</string>
+    <string name="passport_next">Dalej</string>
+    <string name="passport_no_account">Niezalogowano</string>
+    <string name="passport_open_settings">Ustawienia</string>
+    <string name="passport_page_load_failed">Nie można otworzyć strony</string>
+    <string name="passport_password_hide_show">Ukryj hasło</string>
+    <string name="passport_password_login_btn">Zaloguj się</string>
+    <string name="passport_password_not_show">Nie pokazuj hasła</string>
+    <string name="passport_password_req_notice">Hasło musi być o długości %1$d–%2$d znaków oraz zawierać co najmniej dwa z następujących znaków: cyfry, litery i znaki specjalne</string>
+    <string name="passport_password_show">Pokaż hasło</string>
+    <string name="passport_phone_auto_login_register_with_local_number">Utwórz konto</string>
+    <string name="passport_photo_picker_not_found">Brak dostępnych zdjęć.</string>
+    <string name="passport_qq_login_btn_content_description">Zaloguj się przez QQ</string>
+    <string name="passport_querying_phone_info">Żądanie informacji o koncie…</string>
+    <string name="passport_quick_login_title">Wprowadź swoje hasło</string>
+    <string name="passport_reging">Tworzenie konta…</string>
+    <string name="passport_register_by_local_phone_long_text">Utwórz konto</string>
+    <string name="passport_register_by_local_phone_short_text">Utwórz konto</string>
+    <string name="passport_register_dialog_positive">Utwórz</string>
+    <string name="passport_register_dialog_title">Utwórz konto Xiaomi</string>
+    <string name="passport_register_restricted">Zbyt wiele kont zostało powiązanych z tym numerem. Spróbuj innego.</string>
+    <string name="passport_relogin_notice">Musisz zalogować się ponownie</string>
+    <string name="passport_request_agree">Zezwól</string>
+    <string name="passport_request_camera_permission_message">Będziemy chronić Twoje dane osobowe zgodnie z obowiązującymi przepisami. Ta aplikacja wymaga następujących uprawnień do normalnego działania:&lt;br>&lt;br>&lt;b>Używanie aparatu (do ustawiania zdjęcia profilowego)&lt;/b>&lt;br>&lt;br>Jeśli nie zgadzasz się na udzielenie takich uprawnień, nie będziesz mógł korzystać z niektórych funkcji tej aplikacji; jednak jego podstawowa funkcjonalność będzie nadal dostępna. W Ustawieniach zawsze możesz ograniczyć uprawnienia lub cofnąć autoryzację.</string>
+    <string name="passport_request_cancel">Anuluj</string>
+    <string name="passport_request_error_invalid_token">Nie udało się zweryfikować</string>
+    <string name="passport_request_error_network">Wystąpił błąd sieci. Sprawdź ustawienia sieci i spróbuj ponownie.</string>
+    <string name="passport_request_error_unknown">Wystąpił błąd serwera. Wróć i spróbuj ponownie.</string>
+    <string name="passport_request_gallery_permission_message">Aplikacja musi mieć dostęp do wybranych plików w Galerii, aby ustawić zdjęcie profilowe. Udzielić dostępu?</string>
+    <string name="passport_request_permission_title">Wymagane uprawnienia</string>
+    <string name="passport_resend_ticket">Wyślij ponownie kod</string>
+    <string name="passport_retry">Spróbuj ponownie</string>
+    <string name="passport_send_sms_to">Wysłano kod do %1$s</string>
+    <string name="passport_send_too_many_code">Osiągnięto maksymalną ilość wiadomości weryfikacyjnych wysłanych pod ten numer. Musisz odczekać 24 godziny i spróbować ponownie.</string>
+    <string name="passport_sending_vcode">Wysyłanie kodu…</string>
+    <string name="passport_set_password_no_phone_msg">Dodaj swój numer telefonu, aby chronić swoje konto.</string>
+    <string name="passport_set_password_title">Ustaw hasło</string>
+    <string name="passport_skip_query_account">Pomiń</string>
+    <string name="passport_sns_bind_limit">Zbyt wiele prób. Wypróbuj inne sposoby logowania się.</string>
+    <string name="passport_system_error">System jest zajęty. Zaczekaj minutę lub dwie i spróbuj ponownie.</string>
+    <string name="passport_talkback_image_captcha">Obrazkowy kod weryfikacyjny</string>
+    <string name="passport_talkback_switch_image_captcha">Przełącz na obrazkowy kod weryfikacyjny</string>
+    <string name="passport_talkback_switch_voice_captcha">Przełącz na dźwiękowy kod weryfikacyjny</string>
+    <string name="passport_talkback_voice_captcha">Odtwórz dźwiękowo kod weryfikacyjny</string>
+    <string name="passport_third_sns_service_unavailable">Usługa nie jest dostępna. Upewnij się, że aplikacja jest zainstalowana i nie jest zablokowana.</string>
+    <string name="passport_ticket_send_by_second">Wysyłanie wiadomości za %d</string>
+    <string name="passport_to_forget_password">Nie pamiętasz hasła?</string>
+    <string name="passport_to_password_login">Zaloguj za pomocą hasła</string>
+    <string name="passport_to_verify_code_login">Zaloguj za pomocą SMS</string>
+    <string name="passport_unknown_error">Nieznany błąd</string>
+    <string name="passport_unknown_host_network_error">Sprawdź swoje ustawienia sieciowe i spróbuj ponownie</string>
+    <string name="passport_user_agreement_hint_3rd_app"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> oraz &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_mobile"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_telecom"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych konta eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_3rd_app_with_unicom"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a>, &lt;a href=%3$s>Umowę Użytkownika&lt;/a> i &lt;a href=%4$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%5$s>Warunki użytkowania usług weryfikacyjnych China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_default"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi.</Data></string>
+    <string name="passport_user_agreement_hint_first_login">Stworzymy automatycznie konto, jeśli używasz swojego numeru telefonu po raz pierwszy.</string>
+    <string name="passport_user_agreement_hint_with_mobile"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych China Mobile&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_telecom"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych konta eSurfing&lt;/a>.</Data></string>
+    <string name="passport_user_agreement_hint_with_unicom"><Data>Przeczytałem i akceptuję &lt;a href=%1$s>Umowę Użytkownika&lt;/a> i &lt;a href=%2$s>Politykę Prywatności&lt;/a> konta Xiaomi, a także &lt;a href=%3$s>Warunki użytkowania usług weryfikacyjnych China Unicom&lt;/a>.</Data></string>
+    <string name="passport_user_avatar_update_title">Zmień zdjęcie profilowe</string>
+    <string name="passport_user_avatar_uploading">Chwileczkę…</string>
+    <string name="passport_user_id_hint">E-mail/numer telefonu/ID konta Xiaomi</string>
+    <string name="passport_user_name_phone_number">Numer telefonu</string>
+    <string name="passport_user_password_hint">Hasło</string>
+    <string name="passport_vcode_what_app_send_prompt">Kod weryfikacyjny WhatsApp zostanie wysłany na pomocniczy numer telefonu (&lt;font color=#1F93FF>%s&lt;/font>).</string>
+    <string name="passport_wechat_not_install">Najpierw zainstaluj WeChat</string>
+    <string name="passport_weibo_login_btn_content_description">Zaloguj się przez Weibo</string>
+    <string name="passport_weixin_login_btn_content_description">Zaloguj się przez WeChat</string>
+    <string name="passport_wrong_captcha">Wpisany kod jest nieprawidłowy</string>
+    <string name="passport_wrong_phone_number_format">Format numeru telefonu jest nieprawidłowy</string>
+    <string name="passport_wrong_vcode">Wpisane hasło jest nieprawidłowe</string>
+    <string name="passport_wrong_voice">Wpisany kod jest nieprawidłowy</string>
     <string name="password">Hasło</string>
+    <string name="password_guessable_pattern">Niskie zabezpieczenie hasła. Użyj kombinacji nienastępujących po sobie cyfr, liter i znaków specjalnych.</string>
+    <string name="password_inconsistent">Oba hasła nie pasują do siebie. Potwierdź zgodność i spróbuj ponownie.</string>
+    <string name="password_invalid_format_prompt">Hasła muszą zawierać co najmniej dwa z następujących znaków: cyfry, litery i znaki specjalne</string>
+    <string name="password_length_short_prompt">Nieprawidłowa długość hasła. Ustaw hasło o długości %1$d–%2$d znaków.</string>
     <string name="password_null">Hasło nie może być puste</string>
+    <string name="password_reused_with_in_year">Nowe hasło jest takie samo, jak hasło używane w zeszłym roku. Wybierz zupełnie nowe hasło.</string>
     <string name="pause">Wstrzymaj</string>
     <string name="pc_backup_and_restore">Komputer</string>
     <string name="perm_camera">Aparat</string>
@@ -760,10 +931,10 @@ musisz najpierw utworzyć kopię zapasową iCloud."</string>
     <string name="restore_launcher_layout_hit">Przywróć ustawienia menedżera pulpitu</string>
     <string name="restore_progress">Przywracanie…</string>
     <string name="restore_report">Szczegóły przywracania</string>
-    <string name="restore_suspend_fail_summary_pad">Połączenie zostało utracone. Gdy tablet połączy się z tą samą siecią co SmartStorage, dotknij „Spróbuj ponownie”, aby kontynuować przywracanie.</string>
-    <string name="restore_suspend_fail_summary_phone">Połączenie zostało utracone. Gdy telefon połączy się z tą samą siecią co SmartStorage, dotknij „Spróbuj ponownie”, aby kontynuować przywracanie.</string>
-    <string name="restore_suspend_summary_pad">Połączenie zostało utracone. Gdy tablet połączy się z tą samą siecią co SmartStorage, przywracanie zostanie wznowione automatycznie.</string>
-    <string name="restore_suspend_summary_phone">Połączenie zostało utracone. Gdy telefon połączy się z tą samą siecią co SmartStorage, przywracanie zostanie wznowione automatycznie.</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
     <string name="restore_suspend_title">Przywracanie zostało wstrzymane. Ponowne łączenie…</string>
     <string name="restore_tab">Przywróć</string>
     <string name="restore_telephony_hit">Przywracanie kopii zrestartuje aplikację Telefon.</string>
@@ -792,8 +963,8 @@ Dostępne miejsce w telefonie: %4$s"</string>
     <string name="revoke_permission_dialog_content">Bez wszystkich obowiązkowych uprawnień nie będzie można tworzyć kopii zapasowych ani przywracać elementów. Wycofać uprawnienia mimo to?</string>
     <string name="router_backup_hint">Nie wyłączaj urządzenia</string>
     <string name="saturday">Sobota</string>
-    <string name="saturday_short">Sob</string>
-    <string name="saturday_shortest">Sob</string>
+    <string name="saturday_short">Sob.</string>
+    <string name="saturday_shortest">Sob.</string>
     <string name="save_finish_with_failing_items">"Przesyłania zostało przerwane.r
 Dane, które nie zostały zaimportowane muszą zostać przesłane jeszcze raz."</string>
     <string name="saving_data">"Importowanie danych z iCloud…r
@@ -861,8 +1032,8 @@ Zwolnij przynajmniej %s."</string>
     <string name="summary_err_restore_encrypting">Nie udało się przywrócić. Upewnij się, że kopia została wykonana za pomocą Twojego konta Xiaomi.</string>
     <string name="summary_err_restore_no_network">Nie udało się połączyć z siecią</string>
     <string name="sunday">Niedziela</string>
-    <string name="sunday_short">Ndz</string>
-    <string name="sunday_shortest">Ndz</string>
+    <string name="sunday_short">Niedz.</string>
+    <string name="sunday_shortest">Niedz.</string>
     <string name="system_backup">Kopia zapasowa</string>
     <string name="system_backup_info">Ustawienia systemowe i układ ekranu głównego</string>
     <string name="task_backup_cancel_progress">Anulowanie…</string>
@@ -933,8 +1104,8 @@ Zwolnij przynajmniej %s."</string>
     <string name="the_valentines_day">Walentynki</string>
     <string name="the_water_lantern_festival">Festiwal Latarni Wodnych</string>
     <string name="thursday">Czwartek</string>
-    <string name="thursday_short">Czw</string>
-    <string name="thursday_shortest">Czw</string>
+    <string name="thursday_short">Czw.</string>
+    <string name="thursday_shortest">Czw.</string>
     <string name="time_picker_dialog_title">Ustaw czas</string>
     <string name="time_picker_label_hour">G</string>
     <string name="time_picker_label_minute">M</string>
@@ -1129,8 +1300,8 @@ i ma uruchomione Przenoszenie danych"</string>
     <string name="trans_wlan_tips_message">Nie wyłączaj Wi-Fi lub nie przełączaj sieci Wi-Fi podczas przesyłania. W przeciwnym wypadku, Przenoszenie danych nie będzie w stanie pracować poprawnie.</string>
     <string name="trans_wlan_tips_title">Nie wyłączaj Wi-Fi</string>
     <string name="tuesday">Wtorek</string>
-    <string name="tuesday_short">Wt</string>
-    <string name="tuesday_shortest">Wt</string>
+    <string name="tuesday_short">Wt.</string>
+    <string name="tuesday_shortest">Wt.</string>
     <string name="unit_byte">B</string>
     <string name="unknown_hint">Nieznane</string>
     <string name="usb_backup_and_restore">Nośnik USB</string>
@@ -1159,8 +1330,8 @@ dotknij \"Jestem nadawcą\" i wybierz hotspot, aby się połączyć.
 Nie zamykaj tej strony, dopóki połączenie nie zostanie nawiązane."</string>
     <string name="waiting">Chwileczkę…</string>
     <string name="wednesday">Środa</string>
-    <string name="wednesday_short">Śr</string>
-    <string name="wednesday_shortest">Śr</string>
+    <string name="wednesday_short">Śr.</string>
+    <string name="wednesday_shortest">Śr.</string>
     <string name="wifi_title">Ustawienia Wi-Fi</string>
     <string name="xiaomi_router">Mi Router</string>
     <string name="xiaomi_router_location">Mi Router %s</string>
