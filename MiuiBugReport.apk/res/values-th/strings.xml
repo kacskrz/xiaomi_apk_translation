@@ -762,6 +762,8 @@
     <string name="passport_check_security">กำลังตรวจสอบปัญหาด้านความปลอดภัย…</string>
     <string name="passport_checking_account">กำลังตรวจสอบรหัสผ่าน…</string>
     <string name="passport_clear_input">ล้างเนื้อหาที่ป้อน</string>
+    <string name="passport_completed">เสร็จสิ้น</string>
+    <string name="passport_confirm_new_pwd">ยืนยันรหัสผ่านใหม่</string>
     <string name="passport_copy_link">คัดลอก URL</string>
     <string name="passport_copy_to_clipboard_successful">คัดลอกเรียบร้อยแล้ว</string>
     <string name="passport_dialog_captcha_title">รหัส</string>
@@ -779,6 +781,7 @@
     <string name="passport_error_empty_password">ป้อนรหัสผ่านของคุณ</string>
     <string name="passport_error_empty_pwd">รหัสผ่านไม่สามารถเว้นว่างได้</string>
     <string name="passport_error_empty_user_id">ป้อนชื่อผู้ใช้ของคุณ</string>
+    <string name="passport_error_illegal_pwd">รูปแบบไม่ถูกต้อง</string>
     <string name="passport_error_length_limit">ข้อความที่คุณป้อนยาวเกินไป</string>
     <string name="passport_error_network">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
     <string name="passport_error_no_password_user">คุณยังไม่ได้ตั้งรหัสผ่าน ลงชื่อเข้าใช้ด้วย SMS</string>
@@ -802,6 +805,7 @@
     <string name="passport_i_know">รับทราบ</string>
     <string name="passport_identification_expired">รหัสยืนยันหมดอายุ เริ่มต้นใหม่</string>
     <string name="passport_input_captcha_hint">ป้อนรหัส</string>
+    <string name="passport_input_new_pwd">ป้อนรหัสผ่านใหม่</string>
     <string name="passport_input_password_hint">ป้อนรหัสผ่าน</string>
     <string name="passport_input_phone_number_hint">ใส่หมายเลขโทรศัพท์</string>
     <string name="passport_input_verify_code">ป้อนรหัสยืนยัน</string>
@@ -824,6 +828,7 @@
     <string name="passport_password_hide_show">ซ่อนรหัสผ่าน</string>
     <string name="passport_password_login_btn">ลงชื่อเข้าใช้</string>
     <string name="passport_password_not_show">ไม่แสดงรหัสผ่าน</string>
+    <string name="passport_password_req_notice">รหัสผ่านต้องมีความยาว %1$d ถึง %2$d ตัวอักษร และต้องประกอบด้วยอย่างน้อยสองอย่างต่อไปนี้: ตัวเลข ตัวอักษร และสัญลักษณ์พิเศษ</string>
     <string name="passport_password_show">แสดงรหัสผ่าน</string>
     <string name="passport_phone_auto_login_register_with_local_number">สร้างบัญชี</string>
     <string name="passport_photo_picker_not_found">ไม่มีรูปภาพที่พร้อมใช้งาน</string>
@@ -851,6 +856,7 @@
     <string name="passport_send_too_many_code">มีการส่งรหัสยืนยันไปยังหมายเลขโทรศัพท์นี้เกินจำนวนครั้งที่กำหนด กรุณารอ 24 ชั่วโมงแล้วลองอีกครั้ง</string>
     <string name="passport_sending_vcode">กำลังส่งรหัส…</string>
     <string name="passport_set_password_no_phone_msg">เพิ่มหมายเลขโทรศัพท์ของคุณเพื่อปกป้องบัญชีของคุณ</string>
+    <string name="passport_set_password_title">ตั้งรหัสผ่าน</string>
     <string name="passport_skip_query_account">ข้าม</string>
     <string name="passport_sns_bind_limit">มีความพยายามมากเกินไป ลองวิธีอื่นๆ ในการลงชื่อเข้าใช้</string>
     <string name="passport_system_error">ระบบไม่ว่าง รอสักครู่แล้วลองอีกครั้ง</string>
@@ -887,6 +893,11 @@
     <string name="passport_wrong_phone_number_format">รูปแบบของหมายเลขโทรศัพท์ที่คุณป้อนไม่ถูกต้อง</string>
     <string name="passport_wrong_vcode">รหัสที่คุณป้อนไม่ถูกต้อง</string>
     <string name="passport_wrong_voice">รหัสที่คุณป้อนไม่ถูกต้อง</string>
+    <string name="password_guessable_pattern">ความปลอดภัยของรหัสผ่านอยู่ในระดับต่ำ ควรใช้ทั้งตัวเลข ตัวอักษร และสัญลักษณ์พิเศษที่ไม่ต่อเนื่องกัน</string>
+    <string name="password_inconsistent">รหัสผ่านทั้งสองไม่ตรงกัน โปรดยืนยันและลองใหม่อีกครั้ง</string>
+    <string name="password_invalid_format_prompt">รหัสผ่านต้องประกอบด้วยอย่างน้อยสองอย่างต่อไปนี้: ตัวเลข ตัวอักษร และสัญลักษณ์พิเศษ</string>
+    <string name="password_length_short_prompt">ความยาวรหัสผ่านไม่ถูกต้อง โปรดตั้งรหัสผ่านที่มีความยาว %1$d–%2$d ตัวอักษร</string>
+    <string name="password_reused_with_in_year">รหัสผ่านใหม่ของคุณเหมือนกับรหัสผ่านที่คุณใช้มาตลอดปีที่ผ่านมา โปรดเลือกใช้รหัสผ่านใหม่ทั้งหมด</string>
     <string name="permission_agree">ยอมรับ</string>
     <string name="permission_china_version_msg"><Data>ก่อนที่จะใช้ \"บริการและข้อเสนอแนะ\", คุณต้องอ่านและยอมรับใน &lt;a href=%1$s>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=%2$s>นโยบายความเป็นส่วนตัว&lt;/a> ของเรา แอปนี้ต้องเชื่อมต่อกับอินเทอร์เน็ตเพื่อให้ทำงานได้ตามปกติ</Data></string>
     <string name="permission_complete">เสร็จสิ้น</string>
