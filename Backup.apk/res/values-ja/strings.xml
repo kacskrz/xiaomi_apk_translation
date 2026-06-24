@@ -80,7 +80,7 @@
     <string name="backup_failed">バックアップできませんでした</string>
     <string name="backup_file_error">バックアップできませんでした</string>
     <string name="backup_finished">正常にバックアップしました</string>
-    <string name="backup_for_broken_screen">破損した画面でのバックアップ</string>
+    <string name="backup_for_broken_screen">画面破損時のバックアップ</string>
     <string name="backup_hint">デバイスの電源を切らないでください</string>
     <string name="backup_hint_onpad">デバイスの電源を切らないでください</string>
     <string name="backup_hint_pad">デバイスの電源を切らないでください</string>
@@ -105,10 +105,10 @@
     <string name="backup_tips_dialog_title">留意事項</string>
     <string name="backup_update">アップデート</string>
     <string name="batch_delete_backup_confirm">選択したバックアップを削除しますか？</string>
-    <string name="broken_screen_rescue_service">破損した画面でのバックアップ</string>
+    <string name="broken_screen_rescue_service">画面破損時のバックアップ</string>
     <string name="broken_screen_rescue_service_content">この機能は、デバイスの画面が破損したときや反応しないときに、USBケーブルを使用してアイテムをバックアップできます。画面が反応しないときにバックアップするには、画面が正常に動作しているときにこの機能をオンにする必要があります。</string>
-    <string name="broken_screen_rescue_service_disable">破損した画面でのバックアップをオフにする</string>
-    <string name="broken_screen_rescue_service_enable">破損した画面でのバックアップをオンにする</string>
+    <string name="broken_screen_rescue_service_disable">画面破損時のバックアップをオフにする</string>
+    <string name="broken_screen_rescue_service_enable">画面破損時のバックアップをオンにする</string>
     <string name="broken_screen_rescue_service_learn_subcontent1">連絡先の誰かに、文字部分をお使いの画面ロックに置き換えた次の形式のSMSメッセージを送信するように依頼してください: *#*#画面ロック#*#*。</string>
     <string name="broken_screen_rescue_service_learn_subcontent2">メッセージの送信が完了したら、このデバイスをUSBでパソコンに接続し、アイテムのバックアップを開始します。</string>
     <string name="broken_screen_rescue_service_learn_subtitle1">この機能をアクティブ化</string>
@@ -122,9 +122,9 @@
     <string name="broken_screen_rescue_service_tips_6">%1$d. アイテムをパソコンにバックアップできない場合は、ヘルプドキュメントで解決方法をご確認ください。</string>
     <string name="broken_screen_rescue_service_tips_title">ヒント</string>
     <string name="broken_screen_rescue_service_turn_off">オフにする</string>
-    <string name="broken_screen_rescue_service_turn_off_confirm">破損した画面でのバックアップを今すぐオフにしますか？</string>
+    <string name="broken_screen_rescue_service_turn_off_confirm">画面破損時のバックアップを今すぐオフにしますか？</string>
     <string name="broken_screen_rescue_service_turn_on">オンにする</string>
-    <string name="broken_screen_rescue_service_turn_on_confirm">破損した画面でのバックアップを今すぐオンにしますか？</string>
+    <string name="broken_screen_rescue_service_turn_on_confirm">画面破損時のバックアップを今すぐオンにしますか？</string>
     <string name="btn_got_it">了解</string>
     <string name="button_backup">バックアップ</string>
     <string name="button_cancel">キャンセル</string>
@@ -514,12 +514,14 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">キャンセル</string>
     <string name="nas_connecting_progress_dialog">SmartStorageに接続中…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"SmartStorage をバックアップおよび復元に使用する際、以下の点にご注意ください。
-%d。SmartStorage デバイスがオンライン状態であること。
-%d。ネットワークが安定していること。（バックアップ中または復元中は、タブレットを再起動したり電源を切ったりしないでください）。"</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"SmartStorage をバックアップおよび復元に使用する際、以下の点にご注意ください。
-%d。SmartStorage デバイスがオンライン状態であること。
-%d。ネットワークが安定していること。（バックアップ中または復元中は、スマートフォンを再起動したり電源を切ったりしないでください）。"</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration).
+%d. Make sure Interconnectivity is turned on on both your tablet and SmartStorage device."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
+%d. SmartStorage device is online.
+%d. The network is stable. (Don't reboot or power off your phone during backups or restoration).
+%d. Make sure Interconnectivity is turned on on both your phone and SmartStorage device."</string>
     <string name="nas_disconnect_dialog_title">SmartStorageに接続できません</string>
     <string name="nas_low_memory_progress_backup_summary_nas">SmartStorageの空き容量が不足しています。空き容量を確保し、「再試行」をタップしてバックアップを再開してください。</string>
     <string name="nas_low_memory_progress_backup_summary_pad">タブレットのストレージが不足しています。空き容量を確保し、「再試行」をタップしてバックアップを再開してください。</string>
@@ -546,6 +548,8 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="nas_restore_task_progress_summary_phone">復元中は、SmartStorage がオンライン状態であることを確認してください。データの損失を防ぐため、スマートフォンを再起動したり電源を切ったりしないでください。</string>
     <string name="nas_restore_task_suspend_info_title">復元が一時停止しました</string>
     <string name="nas_retry_button">再試行</string>
+    <string name="nas_split_check_fail">認証できませんでした。もう一度バックアップしてください。</string>
+    <string name="nas_split_check_item_fail">認証できませんでした</string>
     <string name="nas_task_lowmemory_summary_pad_backup">タブレットのストレージが不足しています。空き容量を確保し、もう一度バックアップを試してください。</string>
     <string name="nas_task_lowmemory_summary_pad_restore">タブレットのストレージが不足しています。空き容量を確保し、もう一度復元を試してください。</string>
     <string name="nas_task_lowmemory_summary_phone_backup">スマートフォンのストレージが不足しています。空き容量を確保し、もう一度バックアップを試してください。</string>
@@ -583,7 +587,7 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="new_more_settings_label">追加設定</string>
     <string name="new_pc_backup_content1">%1$d. \"%2$s\"を開きます。</string>
     <string name="new_pc_backup_content2">%d. すべてのアイテムがバックアップされるまで待ちます。</string>
-    <string name="new_pc_backup_content3">%d. MIUI > backup > AllBackup を開き、名前の日付で探しているバックアップフォルダーまたは *.zip ファイルを見つけます。</string>
+    <string name="new_pc_backup_content3">%d. MIUI > backup > AllBackup を開き、名前に含まれる日付で復元したいバックアップフォルダまたはzipファイルを探します。</string>
     <string name="new_pc_backup_content4">%d. ファイルをパソコンにコピーします。</string>
     <string name="new_pc_backup_restore_link">モバイルデバイス</string>
     <string name="new_pc_backup_restore_link_pad">モバイルデバイス</string>
@@ -853,7 +857,7 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="perm_read_phone_state">デバイスの状態の読み取り</string>
     <string name="perm_read_sms">SMSの読み取り</string>
     <string name="perm_storage">外部ストレージの読み取りと書き込み</string>
-    <string name="permission_admitted">付与済み</string>
+    <string name="permission_admitted">許可済み</string>
     <string name="permission_backup_calendar">カレンダーのイベントをバックアップするため</string>
     <string name="permission_backup_calendar_desc">カレンダーのイベントをバックアップするには、まずこのアプリがカレンダーのイベントを編集することを許可してください。</string>
     <string name="permission_backup_calllog">通話履歴をバックアップするため</string>
@@ -867,10 +871,10 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="permission_dialog_positive_btn">設定</string>
     <string name="permission_intro">アクセス許可の詳細</string>
     <string name="permission_management_entrance">アクセス許可を管理</string>
-    <string name="permission_not_admit">未付与</string>
+    <string name="permission_not_admit">未許可</string>
     <string name="permission_purpose">この機能により、モバイルデバイスやパソコン、USBメモリを使用してアイテムのバックアップや復元を行うことができます。</string>
     <string name="permission_purpose_pad">この機能により、モバイルデバイスやパソコン、USBメモリを使用してアイテムのバックアップや復元を行うことができます。</string>
-    <string name="permission_read_apps">このデバイスにインストールされているアプリのリストへのアクセス</string>
+    <string name="permission_read_apps">インストール済みアプリ一覧へのアクセス</string>
     <string name="permission_read_calendar">カレンダーのイベントへのアクセス</string>
     <string name="permission_read_calllog">通話履歴へのアクセス</string>
     <string name="permission_read_contacts">連絡先へのアクセス</string>
@@ -942,10 +946,10 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスして閉じてく�
     <string name="restore_tips_dialog_title">注意</string>
     <string name="resume_backup_nas_task_dialog_title">未完了のバックアップ</string>
     <string name="resume_backup_toast">SmartStorageにバックアップ中…</string>
-    <string name="resume_nas_restore_task_dialog_summary_pad">"バックアップ時刻: %1$s
+    <string name="resume_nas_restore_task_dialog_summary_pad">"復元時刻: %1$s
 バックアップサイズ: %2$s
 利用可能なタブレットストレージ: %3$s"</string>
-    <string name="resume_nas_restore_task_dialog_summary_phone">"バックアップ時刻: %1$s
+    <string name="resume_nas_restore_task_dialog_summary_phone">"復元時刻: %1$s
 バックアップサイズ: %2$s
 利用可能なスマートフォンストレージ: %3$s"</string>
     <string name="resume_nas_task_dialog_summary_pad">"バックアップ時間: %1$s

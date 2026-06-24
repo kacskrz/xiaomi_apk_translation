@@ -101,8 +101,8 @@
     <string name="backup_suspend_summary_phone">연결이 끊어졌습니다. SmartStorage가 온라인 상태가 되면 백업이 자동으로 재개됩니다.</string>
     <string name="backup_suspend_title">백업이 일시정지되었습니다. 다시 연결 중…</string>
     <string name="backup_tab">백업</string>
-    <string name="backup_tips_dialog_summary">듀얼 앱과 비공개 항목은 지원되지 않습니다. 이 백업본은 현재 시점까지의 데이터만 포함합니다. 신규 데이터는 자동으로 동기화되지 않습니다.</string>
-    <string name="backup_tips_dialog_title">알아두세요.</string>
+    <string name="backup_tips_dialog_summary">듀얼 앱 및 비공개 항목은 백업 대상에서 제외됩니다. 지금까지 저장된 데이터만 백업본에 포함됩니다. 새로 추가되는 데이터는 자동으로 동기화되지 않습니다.</string>
+    <string name="backup_tips_dialog_title">주의 사항</string>
     <string name="backup_update">업데이트</string>
     <string name="batch_delete_backup_confirm">선택한 백업을 삭제하시겠습니까?</string>
     <string name="broken_screen_rescue_service">손상된 화면 백업</string>
@@ -514,12 +514,14 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">취소</string>
     <string name="nas_connecting_progress_dialog">SmartStorage에 연결 중…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"백업 및 복원을 위해 SmartStorage를 사용하려면 다음 사항을 확인하세요:
-%d. SmartStorage 기기가 온라인 상태여야 합니다.
-%d. 네트워크가 안정적이어야 합니다(백업 또는 복원 중에 태블릿을 재부팅하거나 끄지 마세요)."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"백업 및 복원을 위해 SmartStorage를 사용하려면 다음 사항을 확인하세요:
-%d. SmartStorage 기기가 온라인 상태여야 합니다.
-%d. 네트워크가 안정적이어야 합니다(백업 또는 복원 중에 휴대전화를 재부팅하거나 끄지 마세요)."</string>
+    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"SmartStorage를 사용해 백업 및 복원을 수행하려면 다음 사항을 확인하세요:
+&lt;&lt;xliff:g id=count refersto=1>%d&lt;/xliff:g>. SmartStorage 기기가 온라인 상태여야 합니다.
+&lt;xliff:g id=count refersto=2>%d&lt;/xliff:g>. 네트워크 연결이 안정적이어야 합니다(백업 또는 복원 중에는 태블릿을 재부팅하거나 전원을 끄지 마세요).
+&lt;xliff:g id=count refersto=3>%d&lt;/xliff:g>. 태블릿과 SmartStorage 기기에서 상호 연결이 켜져 있어야 합니다."</string>
+    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"SmartStorage를 사용해 백업 및 복원을 수행하려면 다음 사항을 확인하세요:
+&lt;&lt;xliff:g id=count refersto=1>%d&lt;/xliff:g>. SmartStorage 기기가 온라인 상태여야 합니다.
+&lt;xliff:g id=count refersto=2>%d&lt;/xliff:g>. 네트워크 연결이 안정적이어야 합니다(백업 또는 복원 중에는 휴대전화를 재부팅하거나 전원을 끄지 마세요).
+&lt;xliff:g id=count refersto=3>%d&lt;/xliff:g>. 휴대전화와 SmartStorage 기기에서 상호 연결이 켜져 있어야 합니다."</string>
     <string name="nas_disconnect_dialog_title">SmartStorage에 연결할 수 없음</string>
     <string name="nas_low_memory_progress_backup_summary_nas">SmartStorage 저장 공간이 부족합니다. 저장 공간을 확보하고 \"다시 시도\"를 탭하여 백업을 계속 진행하세요.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">태블릿 공간이 부족합니다. 공간을 확보하고 \"다시 시도\"를 탭하여 백업을 계속 진행하세요.</string>
@@ -546,6 +548,8 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="nas_restore_task_progress_summary_phone">복원하는 동안 SmartStorage는 온라인 상태여야 합니다. 데이터 손실을 방지하려면 휴대전화를 재부팅하거나 끄지 마세요.</string>
     <string name="nas_restore_task_suspend_info_title">복원 일시정지됨</string>
     <string name="nas_retry_button">다시 시도</string>
+    <string name="nas_split_check_fail">인증할 수 없습니다. 다시 백업하세요.</string>
+    <string name="nas_split_check_item_fail">인증할 수 없음</string>
     <string name="nas_task_lowmemory_summary_pad_backup">태블릿 공간이 부족합니다. 공간을 확보하고 다시 백업을 시도해 보세요.</string>
     <string name="nas_task_lowmemory_summary_pad_restore">태블릿 공간이 부족합니다. 공간을 확보하고 다시 복원을 시도해 보세요.</string>
     <string name="nas_task_lowmemory_summary_phone_backup">휴대전화 공간이 부족합니다. 공간을 확보하고 다시 백업을 시도해 보세요.</string>
@@ -942,12 +946,12 @@ https://appleid.apple.com/#!&amp;page=signin에서 끄세요."</string>
     <string name="restore_tips_dialog_title">참고</string>
     <string name="resume_backup_nas_task_dialog_title">완료되지 않은 백업</string>
     <string name="resume_backup_toast">SmartStorage에 백업 중…</string>
-    <string name="resume_nas_restore_task_dialog_summary_pad">"백업 시간: %1$s
+    <string name="resume_nas_restore_task_dialog_summary_pad">"복원 시간: %1$s
 백업 크기: %2$s
-사용 가능한 태블릿 공간: %3$s"</string>
-    <string name="resume_nas_restore_task_dialog_summary_phone">"백업 시간: %1$s
+사용 가능한 태블릿 저장 공간: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"복원 시간: %1$s
 백업 크기: %2$s
-사용 가능한 휴대전화 공간: %3$s"</string>
+사용 가능한 휴대전화 저장 공간: %3$s"</string>
     <string name="resume_nas_task_dialog_summary_pad">"백업 시간: %1$s
 백업 크기: %2$s
 사용 가능한 SmartStorage 저장 공간: %3$s

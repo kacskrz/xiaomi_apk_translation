@@ -485,10 +485,12 @@ https://appleid.apple.com/#!&amp;page=signin ಮುಚ್ಚಲು"</string>
     <string name="nas_connecting_progress_dialog">SmartStorage ಗೆ ಕನೆಕ್ಟ್‌ ಆಗುತ್ತಿದೆ…</string>
     <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
 %d. SmartStorage device is online.
-%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration)."</string>
+%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration).
+%d. Make sure Interconnectivity is turned on on both your tablet and SmartStorage device."</string>
     <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
 %d. SmartStorage device is online.
-%d. The network is stable. (Don't reboot or power off your phone during backups or restoration)."</string>
+%d. The network is stable. (Don't reboot or power off your phone during backups or restoration).
+%d. Make sure Interconnectivity is turned on on both your phone and SmartStorage device."</string>
     <string name="nas_disconnect_dialog_title">SmartStorageಗೆ ಕನೆಕ್ಟ್ ಆಗುತ್ತಿಲ್ಲ</string>
     <string name="nas_low_memory_progress_backup_summary_nas">SmartStorage ಸ್ಥಳ ಸಾಕಷ್ಟಿಲ್ಲ. ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ ಹಾಗೂ ಬ್ಯಾಕಪ್‌ ಮರುಪ್ರಾರಂಭಿಸಲು \"ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ\" ಟ್ಯಾಪ್‌ ಮಾಡಿ.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">ಸಾಕಷ್ಟು ಟ್ಯಾಬ್ಲೆಟ್‌ ಸಂಗ್ರಹಣೆ ಇಲ್ಲ. ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ ಹಾಗೂ ಬ್ಯಾಕಪ್‌ ಮರುಪ್ರಾರಂಭಿಸಲು \"ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ\" ಟ್ಯಾಪ್‌ ಮಾಡಿ.</string>
@@ -515,6 +517,8 @@ https://appleid.apple.com/#!&amp;page=signin ಮುಚ್ಚಲು"</string>
     <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">ಮರುಸ್ಥಾಪಿಸುವಿಕೆ ವಿರಾಮಗೊಂಡಿದೆ</string>
     <string name="nas_retry_button">ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="nas_split_check_fail">ಪರಿಶೀಲಿಸಲಾಗಲಿಲ್ಲ, ಮತ್ತೆ ಬ್ಯಾಕಪ್‌ ಮಾಡಿ.</string>
+    <string name="nas_split_check_item_fail">ಪರಿಶೀಲಿಸಲಾಗಲಿಲ್ಲ</string>
     <string name="nas_task_lowmemory_summary_pad_backup">ಸಾಕಷ್ಟು ಟ್ಯಾಬ್ಲೆಟ್‌ ಸಂಗ್ರಹಣೆ ಇಲ್ಲ. ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ ಹಾಗೂ ಮತ್ತೊಮ್ಮೆ ಬ್ಯಾಕಪ್‌ ಮಾಡಿ.</string>
     <string name="nas_task_lowmemory_summary_pad_restore">ಸಾಕಷ್ಟು ಟ್ಯಾಬ್ಲೆಟ್‌ ಸಂಗ್ರಹಣೆ ಇಲ್ಲ. ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ ಹಾಗೂ ಮತ್ತೊಮ್ಮೆ ಮರುಸ್ಥಾಪಿಸಿ.</string>
     <string name="nas_task_lowmemory_summary_phone_backup">ಸಾಕಷ್ಟು ಫೋನ್ ಸಂಗ್ರಹಣೆ ಇಲ್ಲ. ಸ್ಥಳ ಖಾಲಿ ಮಾಡಿ ಹಾಗೂ ಮತ್ತೊಮ್ಮೆ ಬ್ಯಾಕಪ್‌ ಮಾಡಿ.</string>
@@ -909,12 +913,12 @@ https://appleid.apple.com/#!&amp;page=signin ಮುಚ್ಚಲು"</string>
     <string name="restore_tips_dialog_title">ಎಚ್ಚರಿಕೆ</string>
     <string name="resume_backup_nas_task_dialog_title">ಅಪೂರ್ಣ ಬ್ಯಾಕಪ್‌</string>
     <string name="resume_backup_toast">SmartStorage ಗೆ ಬ್ಯಾಕಪ್ ಆಗುತ್ತಿದೆ…</string>
-    <string name="resume_nas_restore_task_dialog_summary_pad">"ಬ್ಯಾಕಪ್‌ ಸಮಯ: %1$s
-ಬ್ಯಾಕಪ್‌ ಗಾತ್ರ: %2$s
-ಲಭ್ಯವಿರುವ ಟ್ಯಾಬ್ಲೆಟ್‌ ಸಂಗ್ರಹಣೆ: %3$s"</string>
-    <string name="resume_nas_restore_task_dialog_summary_phone">"ಬ್ಯಾಕಪ್‌ ಸಮಯ: %1$s
-ಬ್ಯಾಕಪ್‌ ಗಾತ್ರ: %2$s
-ಲಭ್ಯವಿರುವ ಫೋನ್ ಸಂಗ್ರಹಣೆ: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_pad">"Restoration time: %1$s
+Backup size: %2$s
+Available tablet storage: %3$s"</string>
+    <string name="resume_nas_restore_task_dialog_summary_phone">"Restoration time: %1$s
+Backup size: %2$s
+Available phone storage: %3$s"</string>
     <string name="resume_nas_task_dialog_summary_pad">"ಬ್ಯಾಕಪ್‌ ಸಮಯ: %1$s
 ಬ್ಯಾಕಪ್‌ ಗಾತ್ರ: %2$s
 ಲಭ್ಯವಿರುವ SmartStorage ಸ್ಥಳ: %3$s
