@@ -96,13 +96,15 @@
     <string name="backup_report">备份报告</string>
     <string name="backup_security_tips_message">部分应用不支持本地备份/恢复</string>
     <string name="backup_security_tips_title">提示</string>
-    <string name="backup_suspend_fail_summary_pad">连接已断开，请确保智能存储设备处于在线状态，再点击“重试”继续备份</string>
-    <string name="backup_suspend_fail_summary_phone">连接已断开，请确保智能存储设备处于在线状态，再点击“重试”继续备份</string>
-    <string name="backup_suspend_summary_pad">连接已断开，请确保智能存储设备处于在线状态，系统将自动继续备份</string>
-    <string name="backup_suspend_summary_phone">连接已断开，请确保智能存储设备处于在线状态，系统将自动继续备份</string>
+    <string name="backup_suspend_fail_summary_pad">连接已断开，请确保平板与智能存储设备处于同一网络后，再点击“重试”按钮继续备份</string>
+    <string name="backup_suspend_fail_summary_phone">连接已断开，请确保手机与智能存储设备处于同一网络后，再点击“重试”按钮继续备份</string>
+    <string name="backup_suspend_summary_pad">连接已断开，请确保平板与智能存储设备处于同一网络后，系统将自动继续备份</string>
+    <string name="backup_suspend_summary_phone">连接已断开，请确保手机与智能存储设备处于同一网络后，系统将自动继续备份</string>
     <string name="backup_suspend_title">备份已暂停，重新连接中</string>
     <string name="backup_tab">备份</string>
-    <string name="backup_tips_dialog_summary">不支持双开应用数据及私密数据备份，且本次备份仅包含当前时间点之前的数据，后续新增数据不会自动同步</string>
+    <string name="backup_tips_dialog_summary" formatted="false">"%d. 不支持双开应用数据及私密数据备份。
+%d. 本次备份仅包含当前时间点之前的数据，后续新增数据不涉及。
+%d. 当前已选择备份数据%s。恢复时需预留至少2倍空间，恢复结束后将自动释放。"</string>
     <string name="backup_tips_dialog_title">备份提示</string>
     <string name="backup_update">修改</string>
     <string name="batch_delete_backup_confirm">确定要删除所选的备份吗？</string>
@@ -525,23 +527,25 @@ https://appleid.apple.com/#!&amp;page=signin进行关闭"</string>
     <string name="name_password_not_consistent">用户名密码不匹配</string>
     <string name="nas_backup_progress_title">智能存储备份</string>
     <string name="nas_backup_resume_button">继续备份</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">网络连接断开，请确保智能存储设备处于在线状态，再尝试重新备份</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">网络连接断开，请确保智能存储设备处于在线状态，再尝试重新备份</string>
-    <string name="nas_backup_task_progress_summary_pad">备份过程中，请确保智能存储设备处于在线状态，且勿重启或关闭平板以免造成数据损坏</string>
-    <string name="nas_backup_task_progress_summary_phone">备份过程中，请确保智能存储设备处于在线状态，且勿重启或关闭手机以免造成数据损坏</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">网络连接断开，请确保智能存储设备与平板处于同一网络下，再尝试重新备份</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">网络连接断开，请确保智能存储设备与手机处于同一网络下，再尝试重新备份</string>
+    <string name="nas_backup_task_progress_summary_pad">备份过程中，请确保平板与智能存储设备处于同一网络，且勿重启或关闭平板以免造成数据损坏</string>
+    <string name="nas_backup_task_progress_summary_phone">备份过程中，请确保手机与智能存储设备处于同一网络，且勿重启或关闭手机以免造成数据损坏</string>
     <string name="nas_backup_task_suspend_info_title">备份已暂停</string>
     <string name="nas_backup_title">智能存储备份恢复</string>
     <string name="nas_cancel_button">取消</string>
     <string name="nas_connecting_progress_dialog">正在连接智能存储设备…</string>
     <string name="nas_disconnect_dialog_summary_pad" formatted="false">"使用“智能存储备份恢复”时，需满足以下条件：
 %d. 智能存储设备保持在线状态
+%d. 平板连接WLAN，且与智能存储设备处于同一网络
 %d. 备份恢复过程中，请保持网络稳定且勿重启或关闭平板以免造成数据损坏
 %d. 请确保智能存储与平板均已开启设备互联"</string>
     <string name="nas_disconnect_dialog_summary_phone" formatted="false">"使用“智能存储备份恢复”时，需满足以下条件：
 %d. 智能存储设备保持在线状态
+%d. 手机连接WLAN，且与智能存储设备处于同一网络
 %d. 备份恢复过程中，请保持网络稳定且勿重启或关闭手机以免造成数据损坏
 %d. 请确保智能存储与手机均已开启设备互联"</string>
-    <string name="nas_disconnect_dialog_title">无法连接智能存储设备</string>
+    <string name="nas_disconnect_dialog_title">连接异常</string>
     <string name="nas_low_memory_progress_backup_summary_nas">智能存储设备空间不足，请尽快清理出充足的空间，再点击“重试”继续备份</string>
     <string name="nas_low_memory_progress_backup_summary_pad">平板空间不足，请尽快清理出充足的空间，再点击“重试”继续备份</string>
     <string name="nas_low_memory_progress_backup_summary_phone">手机空间不足，请尽快清理出充足的空间，再点击“重试”继续备份</string>
@@ -561,10 +565,10 @@ https://appleid.apple.com/#!&amp;page=signin进行关闭"</string>
     <string name="nas_restore_notification_title">“小米智能存储”正在恢复微信记录</string>
     <string name="nas_restore_progress_title">智能存储恢复</string>
     <string name="nas_restore_resume_button">继续恢复</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">网络连接断开，请确保智能存储设备处于在线状态，再尝试重新恢复</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">网络连接断开，请确保智能存储设备处于在线状态，再尝试重新恢复</string>
-    <string name="nas_restore_task_progress_summary_pad">恢复过程中，请确保智能存储设备处于在线状态，且勿重启或关闭平板以免造成数据损坏</string>
-    <string name="nas_restore_task_progress_summary_phone">恢复过程中，请确保智能存储设备处于在线状态，且勿重启或关闭手机以免造成数据损坏</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">网络连接断开，请确保智能存储设备与平板处于同一网络下，再尝试重新恢复</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">网络连接断开，请确保智能存储设备与手机处于同一网络下，再尝试重新恢复</string>
+    <string name="nas_restore_task_progress_summary_pad">恢复过程中，请确保平板与智能存储设备处于同一网络，且勿重启或关闭平板以免造成数据损坏</string>
+    <string name="nas_restore_task_progress_summary_phone">恢复过程中，请确保手机与智能存储设备处于同一网络，且勿重启或关闭手机以免造成数据损坏</string>
     <string name="nas_restore_task_suspend_info_title">恢复已暂停</string>
     <string name="nas_retry_button">重试</string>
     <string name="nas_split_check_fail">校验失败，请尝试重新备份</string>
@@ -572,7 +576,7 @@ https://appleid.apple.com/#!&amp;page=signin进行关闭"</string>
     <string name="nas_task_lowmemory_summary_pad_backup">平板空间不足，请清理出充足的空间后再尝试重新备份</string>
     <string name="nas_task_lowmemory_summary_pad_restore">平板空间不足，请清理出充足的空间后再尝试重新恢复</string>
     <string name="nas_task_lowmemory_summary_phone_backup">手机空间不足，请清理出充足的空间后再尝试重新备份</string>
-    <string name="nas_task_lowmemory_summary_phone_restore">平板空间不足，请清理出充足的空间后再尝试重新恢复</string>
+    <string name="nas_task_lowmemory_summary_phone_restore">手机空间不足，请清理出充足的空间后再尝试重新恢复</string>
     <string name="nas_task_progress_item_disconnect_eror">网络连接断开</string>
     <string name="nas_task_progress_item_low_memory_error_pad">平板空间不足</string>
     <string name="nas_task_progress_item_low_memory_error_phone">手机空间不足</string>
@@ -942,6 +946,10 @@ https://appleid.apple.com/#!&amp;page=signin进行关闭"</string>
     <string name="privacy_policy_link"><Data>"请阅读并同意我们的&lt;a href='%1s'>《隐私政策》&lt;/a>，以了解您的用户权利和相关的使用数据处理方式。"</Data></string>
     <string name="privacy_settings">隐私设置</string>
     <string name="privacy_settings_title">隐私政策</string>
+    <string name="privacy_update_dialog_title">隐私政策更新</string>
+    <string name="privacy_update_link_text">《隐私政策》</string>
+    <string name="privacy_update_message_template">如您阅读并同意%1$s如下更新内容，请点击下方同意按钮进入服务：</string>
+    <string name="privacy_update_note_placeholder">为提供更好的备份体验，新增通过小米智能存储进行备份与恢复功能。当您使用备份与恢复应用时，我们将通过小米智能存储提供数据的备份和恢复服务。</string>
     <string name="private_policy_text">《隐私政策》</string>
     <string name="progress_backup_hint">正在备份</string>
     <string name="progress_restore_hint">正在恢复</string>
@@ -966,14 +974,16 @@ https://appleid.apple.com/#!&amp;page=signin进行关闭"</string>
     <string name="restore_launcher_layout_hit">（注意：已删除程序或桌面小工具的位置为空位）</string>
     <string name="restore_progress">正在恢复...</string>
     <string name="restore_report">恢复报告</string>
-    <string name="restore_suspend_fail_summary_pad">连接已断开，请确保智能存储设备处于在线状态，再点击“重试”继续恢复</string>
-    <string name="restore_suspend_fail_summary_phone">连接已断开，请确保智能存储设备处于在线状态，再点击“重试”继续恢复</string>
-    <string name="restore_suspend_summary_pad">连接已断开，请确保智能存储设备处于在线状态，系统将自动继续恢复</string>
-    <string name="restore_suspend_summary_phone">连接已断开，请确保智能存储设备处于在线状态，系统将自动继续恢复</string>
+    <string name="restore_suspend_fail_summary_pad">连接已断开，请确保平板与智能存储设备处于同一网络后，再点击“重试”按钮继续恢复</string>
+    <string name="restore_suspend_fail_summary_phone">连接已断开，请确保手机与智能存储设备处于同一网络后，再点击“重试”按钮继续恢复</string>
+    <string name="restore_suspend_summary_pad">连接已断开，恢复暂停，请确保平板与智能存储设备处于同一网络后，系统将自动继续恢复</string>
+    <string name="restore_suspend_summary_phone">连接已断开，恢复暂停，请确保手机与智能存储设备处于同一网络后，系统将自动继续恢复</string>
     <string name="restore_suspend_title">恢复已暂停，重新连接中</string>
     <string name="restore_tab">恢复</string>
     <string name="restore_telephony_hit">（注意：恢复过程中会重启电话应用）</string>
     <string name="restore_tips_dialog_summary">即将进行微信数据恢复，恢复后本设备的微信数据将被%s备份的数据覆盖，且操作无法撤销，请谨慎操作</string>
+    <string name="restore_tips_dialog_summary_qq">即将进行QQ数据恢复，恢复后本设备的QQ数据将被%s备份的数据覆盖，且操作无法撤销，请谨慎操作</string>
+    <string name="restore_tips_dialog_summary_qq_wechat">即将进行QQ、微信数据恢复，恢复后本设备的QQ、微信数据将被%s备份的数据覆盖，且操作无法撤销，请谨慎操作</string>
     <string name="restore_tips_dialog_title">恢复风险提示</string>
     <string name="resume_backup_nas_task_dialog_title">检测到未完成的备份任务</string>
     <string name="resume_backup_toast">正在进行智能存储备份</string>
