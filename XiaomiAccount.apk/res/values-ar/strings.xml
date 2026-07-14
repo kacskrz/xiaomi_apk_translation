@@ -61,7 +61,7 @@
     <string name="account_user_avatar">صورة الملف الشخصي</string>
     <string name="account_user_avatar_activity_not_found">تعذر فتح المعرض</string>
     <string name="account_user_avatar_from_album">اختر صورة</string>
-    <string name="account_user_avatar_from_camera">أخذ صورة</string>
+    <string name="account_user_avatar_from_camera">التقاط صورة</string>
     <string name="account_user_base_info">المعلومات الشخصية</string>
     <string name="account_user_email">البريد الإلكتروني لاسترداد الحساب</string>
     <string name="account_user_gender">نوع الجنس</string>
@@ -117,6 +117,10 @@
     <string name="call_notification_incoming_text">مكالمة واردة</string>
     <string name="call_notification_ongoing_text">مكالمة جارية</string>
     <string name="call_notification_screening_text">يتم فحص المكالمة الواردة</string>
+    <string name="camera_permission_dialog_message_for_avatar">اسمح بالوصول إلى الكاميرا لتتمكن من تغيير صورة ملفك الشخصي.</string>
+    <string name="camera_permission_dialog_message_for_h5face">اسمح بالوصول إلى الكاميرا لكي تتمكن من التعرف على وجهك.</string>
+    <string name="camera_permission_dialog_title">الأذونات مطلوبة</string>
+    <string name="camera_permission_go_settings">إعدادات</string>
     <string name="cancel">إلغاء</string>
     <string name="change_password">تغيير كلمة المرور</string>
     <string name="check_apk_update">تحقق من وجود تحديثات</string>
@@ -196,6 +200,8 @@
     <string name="copy">نسخ</string>
     <string name="copy_link">نسخ URL</string>
     <string name="copy_to_clipboard_successful">تم النسخ بنجاح</string>
+    <string name="cta_privacy_policy">https://account.xiaomi.com/about/protocol/privacy?_locale=ar_EG</string>
+    <string name="cta_user_agreement">https://account.xiaomi.com/about/protocol/agreement?_locale=ar_EG</string>
     <string name="current_account_can_use_pwd_login">أدخل كلمة المرور لتسجيل الدخول</string>
     <string name="data_access_management">إدارة الوصول للبيانات</string>
     <string name="date_picker_label_day" />
@@ -257,7 +263,7 @@
     <string name="fido2_err_service_exception">حدث خطأ في الخادم، انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
     <string name="fido2_err_timeout">انتهت مهلة الطلب. انتظر دقيقة أو دقيقتين وحاول مجددا.</string>
     <string name="fido2_fingerprint_auth">التحقق ببصمة الإصبع</string>
-    <string name="fido2_fingerprint_auth_desc"><Data>استخدم بصمة إصبعك لتسجيل الدخول إلى حساب Mi والتحقق من هويتك&lt;a href=>معرفة المزيد&lt;/a></Data></string>
+    <string name="fido2_fingerprint_auth_desc"><Data>استخدم بصمة إصبعك لتسجيل الدخول إلى حساب Mi والتحقق من هويتك. &lt;a href=>معرفة المزيد&lt;/a></Data></string>
     <string name="fido2_fingerprint_changed_and_afresh_register">لقد تغيرت بصمة جهازك. قم بتأكيد حسابك مرة أخرى لتتمكن من تشغيل التحقق من بصمة الإصبع.</string>
     <string name="fido2_fingerprint_verify">التحقق ببصمة الإصبع</string>
     <string name="fido2_psw_changed_and_afresh_register">لقد تم تغيير كلمة المرور. تحقق من بصمة إصبعك مرة أخرى.</string>
@@ -509,8 +515,24 @@
     <string name="network_error_hint">يرجى التحقق من عنوان URL والمحاولة مرة أخرى، أو نسخ وفتح URL في المتصفح.</string>
     <string name="new_version">اصدار جديد</string>
     <string name="night">المساء</string>
+    <string name="no_account_desc">حسابك Mi هو هويتك الموحدة لجميع خدمات Xiaomi. سجل الدخول للوصول إلى أي خدمة من خدمات Xiaomi على جميع منتجات Xiaomi.</string>
+    <string name="no_account_forgot_password">نسيت كلمة المرور</string>
+    <string name="no_account_login_later">قم بتسجيل الدخول لاحقًا في الإعدادات</string>
     <string name="no_account_or_forget_password">هل ترغب في إنشاء حساب أم نسيت كلمة المرور؟</string>
+    <string name="no_account_or_forget_password_or_login_later">إنشاء حساب، أو استعادة كلمة المرور، أو تخطي تسجيل الدخول</string>
     <string name="no_account_or_skip">ليس لدي حساب Mi، أو تخطي تسجيل الدخول</string>
+    <string name="no_account_page_title">حساب Mi</string>
+    <string name="no_account_register">إنشاء حساب Mi</string>
+    <string name="no_account_service_cloud">Xiaomi Cloud</string>
+    <string name="no_account_service_cloud_desc">قم بتخزين بياناتك المهمة بشكل آمن في السحابة وقم بمزامنتها عبر جميع أجهزتك</string>
+    <string name="no_account_service_find_device">العثور على الجهاز</string>
+    <string name="no_account_service_find_device_desc">تحديد موقع بيانات جهازك وحمايتها عن بُعد</string>
+    <string name="no_account_service_gallery">ألبومات السحابة</string>
+    <string name="no_account_service_gallery_desc">يمكنك الوصول إلى جميع صورك وفيديوهاتك عبر جميع أجهزتك</string>
+    <string name="no_account_service_market">GetApps</string>
+    <string name="no_account_service_market_desc">اكتشف التطبيقات والألعاب المميزة، بالإضافة إلى مكافآت حصرية.</string>
+    <string name="no_account_service_theme">الثيمات</string>
+    <string name="no_account_service_theme_desc">قم بتخصيص جهازك بمجموعة واسعة من السمات والخلفيات</string>
     <string name="no_device_tip_message">إذا لم يظهر جهازك هنا، قم بتحديثه إلى أحدث إصدار.</string>
     <string name="no_network_btn">تحديث</string>
     <string name="no_network_refresh_btn">تحديث</string>
@@ -539,13 +561,13 @@
     <string name="on">مفعّل</string>
     <string name="one_step_login">تسجيل الدخول بنقرة واحدة</string>
     <string name="operator_broadnet">China Broadnet</string>
-    <string name="operator_mobile">تشينا موبايل</string>
-    <string name="operator_mobile_agreement">خدمات التحقق مقدمة من تشينا موبايل</string>
+    <string name="operator_mobile">China Mobile</string>
+    <string name="operator_mobile_agreement">خدمات التحقق مقدمة من China Mobile</string>
     <string name="operator_other">رقم الهاتف</string>
-    <string name="operator_telecom">تشينا تيلكوم</string>
+    <string name="operator_telecom">China Telecom</string>
     <string name="operator_telecom_agreement">خدمات التحقق مقدمة من حساب eSurfing</string>
-    <string name="operator_unicom">تشينا يونيكوم</string>
-    <string name="operator_unicom_agreement">خدمات التحقق مقدمة من تشينا يونيكوم</string>
+    <string name="operator_unicom">China Unicom</string>
+    <string name="operator_unicom_agreement">خدمات التحقق مقدمة من China Telecom</string>
     <string name="optional_permissions">الأذونات الاختيارية</string>
     <string name="page_load_failed">لا يمكن فتح الصفحة</string>
     <string name="pasport_register_dialog_message">هل ترغب في إنشاء حساب Mi باستخدام رقم الهاتف %s الآن؟</string>
@@ -760,6 +782,7 @@
     <string name="passport_privacy_policy_required">سياسة الخصوصية (إلزامي)</string>
     <string name="passport_provision_input_email_register_prompt">سيتم تخزين بياناتك الشخصية وفقاً لقوانين ولوائح المنطقة التي تختارها.</string>
     <string name="passport_provision_password_req_notice"><xliff refersto="8" id="min_pwd_len">%1$d</xliff>-<xliff refersto="16" id="max_pwd_len">%2$d</xliff>حرف على الأقل<xliff refersto="2" id="min_pwd_type">%3$d</xliff>من الأنواع الآتية:حروف أو أرقام أو رموز خاصة</string>
+    <string name="passport_provision_user_agreement_link"><Data>اقرأ ووافق على &lt;a href=%1$s>اتفاقية مستخدم حساب Mi&lt;/a> و&lt;a href=%2$s>سياسة خصوصية حساب Mi&lt;/a></Data></string>
     <string name="passport_qq_login_btn_content_description">تسجيل الدخول بـ QQ</string>
     <string name="passport_querying_phone_info">جارٍ طلب معلومات الحساب…</string>
     <string name="passport_quick_login">تسجيل الدخول</string>
@@ -841,9 +864,10 @@
     <string name="passport_two_factor_auth_dialog_negative_btn">إلغاء</string>
     <string name="passport_two_factor_auth_dialog_positive_btn">تشغيل</string>
     <string name="passport_two_factor_auth_dialog_title">تسجيل الخروج من الأجهزة الأخرى</string>
-    <string name="passport_two_factor_auth_hint"><Data>أكمل خطوتين من التحقق في كل مرة تسجل فيها الدخول إلى حساب Mi الخاص بك. &lt;a href= >لمعرفة المزيد&lt;/a></Data></string>
+    <string name="passport_two_factor_auth_hint"><Data>أكمل التحقق بخطوتين في كل مرة تسجل فيها الدخول إلى حساب Mi الخاص بك. &lt;a href= >معرفة المزيد&lt;/a></Data></string>
     <string name="passport_two_factor_auth_login_locate_dialog_comment">*الموقع المعروض مُحدد بواسطة الشبكة وليس دقيقًا. إذا طلبت تسجيل الدخول هذا، فانقر على \"سماح\" لعرض رمز التحقق.</string>
     <string name="passport_two_factor_auth_login_locate_dialog_message">يحاول أحدهم تسجيل الدخول إلى حسابك Mi (%1$s) على %3$s بالقرب من %2$s. هل تريد السماح؟</string>
+    <string name="passport_two_factor_auth_login_locate_dialog_message_outside_mainland_china">يقوم شخص ما بتسجيل الدخول إلى حساب Xiaomi الخاص بك (%1$s) على الجهاز %2$s من خارج البر الرئيسي للصين. هل تسمح بذلك؟</string>
     <string name="passport_two_factor_auth_login_locate_dialog_message_without_location">يحاول أحدهم تسجيل الدخول إلى حسابك Mi (%1$s) على %2$s. هل تريد السماح بذلك؟</string>
     <string name="passport_two_factor_auth_login_locate_dialog_negative_btn">رفض</string>
     <string name="passport_two_factor_auth_login_locate_dialog_positive_btn">سماح</string>
@@ -1000,6 +1024,8 @@
     <string name="sim_card">بطاقة SIM</string>
     <string name="sim_changed_notification_msg">انقر لتحديث رقم الاسترداد.</string>
     <string name="sim_changed_notification_title">هل غيرت رقم هاتفك؟</string>
+    <string name="skip_login_confirm_msg">إذا لم تقم بتسجيل الدخول، فلن تتمكن من استخدام Xiaomi Cloud و العثور على الجهاز والمحفظة والخدمات الأخرى.</string>
+    <string name="skip_login_confirm_title">ألا يمكنك تسجيل الدخول إلى حساب Mi؟</string>
     <string name="skip_query_account">تخطي</string>
     <string name="sms_send_success">تم الارسال</string>
     <string name="sns_access_token_expired_warning">انتهت صلاحية تسجيل الدخول في الحساب.أعد تسجيل الدخول للاتصال بالحساب.</string>
@@ -1102,7 +1128,7 @@
 "</Data></string>
     <string name="user_license_with_3rd_app_telcom"><Data>"لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a> لهذا التطبيق؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وكذلك &lt;a href=%5$s>أحكام وشروط خدمات التحقق لتشاينا تيلكوم&lt;/a>.
 "</Data></string>
-    <string name="user_license_with_3rd_app_unicom"><Data>"لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a> لهذا التطبيق؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وكذلك &lt;a href=%5$s>أحكام وشروط خدمات التحقق لتشاينا يونيكوم&lt;/a>.
+    <string name="user_license_with_3rd_app_unicom"><Data>"لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية المستخدم&lt;/a> و&lt;a href=%2$s>سياسة الخصوصية&lt;/a> لهذا التطبيق؛ و&lt;a href=%3$s>اتفاقية مستخدم &lt;/a> و&lt;a href=%4$s>سياسة خصوصية&lt;/a> حساب Mi؛ وكذلك &lt;a href=%5$s>أحكام وشروط خدمات التحقق لChina Unicom&lt;/a>.
 "</Data></string>
     <string name="user_license_with_out_3rd_app_no_operator"><Data>"لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و&lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi.
 "</Data></string>
@@ -1111,7 +1137,7 @@
 "</Data></string>
     <string name="user_license_without_3rd_telcom"><Data>"لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و&lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لتشاينا تيلكوم&lt;/a>.
 "</Data></string>
-    <string name="user_license_without_3rd_unicom"><Data>"لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و&lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لتشاينا يونيكوم&lt;/a>.
+    <string name="user_license_without_3rd_unicom"><Data>"لقد قرأت وأوافق على &lt;a href=%1$s>اتفاقية مستخدم&lt;/a> و&lt;a href=%2$s>سياسة خصوصية&lt;/a> حساب Mi؛ وايضا &lt;a href=%3$s>أحكام وشروط خدمات التحقق لChina Unicom&lt;/a>.
 "</Data></string>
     <string name="v7_preference_off">إيقاف</string>
     <string name="v7_preference_on">مفعّلة</string>
