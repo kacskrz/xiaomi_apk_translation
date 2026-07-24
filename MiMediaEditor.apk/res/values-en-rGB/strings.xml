@@ -197,6 +197,8 @@ to adjust the dispersion area"</string>
     <string name="ai_action_toast_poor_network_v2">A network error occurred. Check your network settings and try again.</string>
     <string name="ai_action_toast_request_time_out">Request timed out. Wait a minute or two and try again.</string>
     <string name="ai_action_toast_request_time_out_v2">Request timed out. Wait a minute or two and try again.</string>
+    <string name="ai_compliance_bottom_dialog_button_not_show">"Don't add"</string>
+    <string name="ai_compliance_bottom_dialog_button_show">Add</string>
     <string name="ai_compliance_bottom_dialog_description">You can choose to add an \"AI-generated\" label to images edited using generative AI features. You can turn this feature on or off in More > Feature settings > Label AI-generated items</string>
     <string name="ai_compliance_bottom_dialog_video_description">You can choose to add a label to images or videos edited using generative AI features. You can turn this feature on or off in More > Feature settings > Label AI-generated items</string>
     <string name="ai_compliance_menu_pop_description">You can add an \"AI-generated\" label to images edited using generative AI features</string>
@@ -378,6 +380,7 @@ For best results, use this feature on clear, forward-facing photos."</string>
     <string name="bokeh_talkback_item_region_auto">Auto-selected area</string>
     <string name="bokeh_talkback_item_region_circle">Circular selected area</string>
     <string name="bokeh_talkback_item_region_line">Selected area between parallel lines</string>
+    <string name="bokeh_talkback_seekbar_progress">%1$s %2$d</string>
     <string name="bokeh_tips_alg_error">"Bokeh isn't supported"</string>
     <string name="bokeh_tips_alg_error_v2">"Bokeh isn't supported. Try another photo."</string>
     <string name="bokeh_user_guide_description">Use AI-powered background blur effects to make your subject stand out</string>
@@ -1042,26 +1045,27 @@ For best results, use this feature on clear, forward-facing photos."</string>
     <string name="image_with_time">Photo taken on %s</string>
     <string name="image_with_time_and_location">Photo taken on %1$s. Location: %2$s.</string>
     <string name="item_view_role_description">Tab</string>
-    <string name="legendary_confirm">AFnu!hu</string>
-    <string name="legendary_desc_m3">"'bIOFIDB\u0007^HRU\u0007kBNDF\u0007bTTBISNFK\u0007WOHSHT\u0007RTNI@\u0007ANKJ\u0007WRTO
-WUHDBTTNI@\u0007SBDOINVRBT\u0007SH\u0007@BS\u0007UNDOBU\u0007DHISUFTS\u0007FIC\u0007DKFTTND\u0007TNKQBU\u0007@UFNI\u0007SB_SRUB\u0009"</string>
-    <string name="legendary_desc_m9">\u001e[pv\u007fp}{>gqkl>R{w}\u007f>[mm{pjw\u007fr>nvqjqm>kmwpy>}rqkz3|\u007fm{z>ws\u007fy{>nlq}{mmwpy>xql>krjl\u007f3xwp{>z{j\u007fwr>\u007fpz>sql{>p\u007fjkl\u007fr2>{fnl{mmwh{>jqp{m0</string>
-    <string name="legendary_image_not_support">\u0004Gej#p$tvkgaww$a`mpa`$miecaw</string>
-    <string name="legendary_info_title">r~W[QS\u0012wAAW\\F[S^</string>
-    <string name="legendary_notification_channel_name">nbKGMO\u000ek]]K@ZGOB\u000e@AZGHGMOZGA@]</string>
-    <string name="legendary_notification_complete">vzS_UW\u0016sEESXB_WZ\u0016FDYUSEE_XQ\u0016UY[FZSBS</string>
-    <string name="legendary_notification_failed">}~RHQYS\u001aI\u001d^RPMQXIX\u001dqXT^\\\u001dxNNXSIT\\Q\u001dMOR^XNNTSZ</string>
-    <string name="legendary_notification_processing">"GWuhdbttni`'pnso'Kbndf'Bttbisnfk‡"</string>
-    <string name="legendary_notification_queued">H_ia|afo(|g(xzgkm{{(\u007fa|`(Dmaki(M{{mf|aid‮</string>
-    <string name="legendary_notification_retry">CWbs#wl#pwbqw#lufq</string>
-    <string name="legendary_notification_see_result">WCvg7cx7a~r`7erdb{c</string>
-    <string name="legendary_poor_network">AQsnbdrrhof!l`x!u`jd!mnofds!etd!un!qnns!oduvnsj!rhfo`m/!Bidbj!xnts!oduvnsj!rduuhofr/</string>
-    <string name="legendary_render_notice">\u0019Ikvz|jjpw~9npuu9mxr|9x{vlm9&lt;(=}9j|zvw}j79_||u9\u007fk||9mv9u|xo|9mq|9xii7\u0013@vl>uu9~|m9x9wvmp\u007fpzxmpvw9nq|w9pm>j9}vw|7</string>
-    <string name="legendary_source_delected">"GSont'wohsh'oft'ebbi'cbkbsbc"</string>
+    <string name="legendary_confirm">Got it</string>
+    <string name="legendary_desc_m3">Enhance your Leica Essential photos using film push-processing techniques to get richer contrast and classic silver grain texture.</string>
+    <string name="legendary_desc_m9">Enhance your Leica Essential photos using cloud-based image processing for ultra-fine detail and more natural, expressive tones.</string>
+    <string name="legendary_image_not_support">"Can't process edited images"</string>
+    <string name="legendary_info_title">Leica Essential</string>
+    <string name="legendary_notification_channel_name">Leica Essential notifications</string>
+    <string name="legendary_notification_complete">Leica Essential processing complete</string>
+    <string name="legendary_notification_failed">"Couldn't complete Leica Essential processing"</string>
+    <string name="legendary_notification_processing">Processing with Leica Essential…</string>
+    <string name="legendary_notification_queued">Waiting to process with Leica Essential…</string>
+    <string name="legendary_notification_retry">Tap to start over</string>
+    <string name="legendary_notification_see_result">Tap to view result</string>
+    <string name="legendary_poor_network">Processing may take longer due to poor network signal. Check your network settings.</string>
+    <string name="legendary_render_notice">"Processing will take about %1$d seconds. Feel free to leave the app.
+You'll get a notification when it's done."</string>
+    <string name="legendary_source_delected">This photo has been deleted</string>
     <string name="live_convert_static_hint_description">This edit will convert the image to a regular photo. Continue anyway?</string>
     <string name="live_convert_static_hint_title">Convert live moment</string>
     <string name="live_edit_close_hint_description">This image has been converted to a regular photo. Undo this change or restore the original image to bring back the live moment.</string>
     <string name="live_edit_close_hint_title">"Can't adjust live moment effects"</string>
+    <string name="live_is_corrupted_toast">This live moment is corrupted and has been converted to a regular photo</string>
     <string name="live_not_support_save_hint">"This live moment doesn't support effect adjustments and has been converted to a regular photo. It will be saved as a new copy."</string>
     <string name="live_not_support_toast_hint">"This live moment doesn't support effect adjustments and has been converted to a regular photo"</string>
     <string name="live_photo_guide_desc_edit_grade">You can crop, apply filters, and add watermarks to live moments without losing the original motion effects</string>
@@ -1267,6 +1271,7 @@ WUHDBTTNI@\u0007SBDOINVRBT\u0007SH\u0007@BS\u0007UNDOBU\u0007DHISUFTS\u0007FIC\u
     <string name="more_menu_plugin_management">Manage plug-ins</string>
     <string name="more_menu_restore_to_original_image">Restore original</string>
     <string name="more_menu_save_as_copy">Duplicate</string>
+    <string name="more_menu_save_as_copy_v2">Duplicate</string>
     <string name="morning">Morning</string>
     <string name="mosaic_item_talkback_effect1">Lattice</string>
     <string name="mosaic_item_talkback_effect10">Hexagons</string>
@@ -1470,6 +1475,7 @@ WUHDBTTNI@\u0007SBDOINVRBT\u0007SH\u0007@BS\u0007UNDOBU\u0007DHISUFTS\u0007FIC\u
     <string name="photo_crop_talkback_right_bottom_corner">Bottom right corner of crop box</string>
     <string name="photo_crop_talkback_right_top_corner">Top right corner of crop box</string>
     <string name="photo_crop_talkback_stop_bottom">Stop</string>
+    <string name="photo_editor_PNG_save_hint_dialog_msg">PNG image will be saved as a duplicate.</string>
     <string name="photo_editor_adjust">Adjust</string>
     <string name="photo_editor_ai_beautify">AI Beautify</string>
     <string name="photo_editor_ai_beautify_new_upgrade">All-new AI Beautify</string>
@@ -1520,6 +1526,8 @@ Elevate your photography with one tap"</string>
     <string name="photo_editor_bokeh">Bokeh</string>
     <string name="photo_editor_bokeh_download_failed">"Couldn't download bokeh plug-in. Check your network settings and try again."</string>
     <string name="photo_editor_burst_shooting_save_dialog_msg">Burst shots will be saved as duplicates.</string>
+    <string name="photo_editor_burst_shooting_save_dialog_msg_v2">Burst shots will be saved as duplicates.</string>
+    <string name="photo_editor_common_ai_frequent_requests">Too many attempts. Wait a minute or two and try again.</string>
     <string name="photo_editor_common_download_failed">"Couldn't download plug-in. Check your network settings and try again."</string>
     <string name="photo_editor_common_download_finish">Downloaded plug-in successfully</string>
     <string name="photo_editor_common_download_sdk_without_wifi_msg">"Looks like you aren't connected to Wi-Fi. Download plug-in (%1$d MB) using mobile data?"</string>
@@ -1575,6 +1583,7 @@ Keep the original aspect ratio, choose your own, or let AI decide."</string>
     <string name="photo_editor_eliminate_done">Reflection removed</string>
     <string name="photo_editor_eliminate_notice_desc">Easily remove reflections caused by glass in windows, exhibition cases, and more</string>
     <string name="photo_editor_eliminate_progress">Removing reflection…</string>
+    <string name="photo_editor_enhancer_ultra_hd_completed">Ultra HD is on</string>
     <string name="photo_editor_enhancer_user_guide_desc">Our new large model algorithm can improve image clarity with just one tap</string>
     <string name="photo_editor_estimate_size">Estimated size: %1$s - %2$d × %3$d px</string>
     <string name="photo_editor_filter">Filter</string>
@@ -1608,6 +1617,10 @@ Keep the original aspect ratio, choose your own, or let AI decide."</string>
     <string name="photo_editor_leica_frame">Leica watermark</string>
     <string name="photo_editor_long_crop">Crop</string>
     <string name="photo_editor_low">Low</string>
+    <string name="photo_editor_low_quality_hint_continue_save">Save</string>
+    <string name="photo_editor_low_quality_hint_go_settings">Settings</string>
+    <string name="photo_editor_low_quality_hint_message">The selected quality is too low or image is too small. Adjust settings for better image quality?</string>
+    <string name="photo_editor_low_quality_hint_title">Attention</string>
     <string name="photo_editor_matting">Cutout</string>
     <string name="photo_editor_matting_ai_background">AI Background</string>
     <string name="photo_editor_matting_ai_create_bg">Generating background…</string>
@@ -1691,11 +1704,13 @@ Keep the original aspect ratio, choose your own, or let AI decide."</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">"Looks like you aren't connected to WLAN. Use %1$d MB of mobile data to download the plug-in?"</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">Download plug-in</string>
     <string name="photo_editor_navigator_tab_title_ai">Create</string>
+    <string name="photo_editor_navigator_tab_title_ai_editor">AI</string>
     <string name="photo_editor_navigator_tab_title_ai_pro">AI</string>
     <string name="photo_editor_navigator_tab_title_basic">Basic</string>
     <string name="photo_editor_navigator_tab_title_beauty">Beautify</string>
     <string name="photo_editor_navigator_tab_title_document">Document</string>
     <string name="photo_editor_no_permission_save_dialog_msg">"Can't save to this folder. This photo will be saved as a duplicate instead."</string>
+    <string name="photo_editor_no_permission_save_dialog_msg_v2">"Can't save to this folder. This photo will be saved as a duplicate instead."</string>
     <string name="photo_editor_outpaint_progress">Expanding…%s</string>
     <string name="photo_editor_paste_cancel_text">Cancelling…</string>
     <string name="photo_editor_perspective">Perspective</string>
@@ -1779,12 +1794,15 @@ Tap \"Pro\" to use."</string>
     <string name="photo_editor_restore_image_button_text">Revert</string>
     <string name="photo_editor_restore_image_dialog_title">Revert to original</string>
     <string name="photo_editor_rotate">Rotate</string>
+    <string name="photo_editor_save_option_ask_every_time">Always ask</string>
+    <string name="photo_editor_save_option_dialog_checkbox">Remember this choice</string>
     <string name="photo_editor_save_option_dialog_cover_origin">Replace</string>
     <string name="photo_editor_save_option_dialog_description_cover_origin">"Duplicate: Creates a new photo, but edit points won't be saved."</string>
     <string name="photo_editor_save_option_dialog_description_cover_origin_v2">Replace: Replace the original image and restore it later.</string>
     <string name="photo_editor_save_option_dialog_description_save_as_copy">Replace: Some edits can be kept, and you can restore the original image later.</string>
     <string name="photo_editor_save_option_dialog_description_save_as_copy_v2">Duplicate: Create a new photo without edit points.</string>
     <string name="photo_editor_save_option_dialog_description_setting_path">You can change your preferences in More > Feature settings > Save options.</string>
+    <string name="photo_editor_save_option_dialog_message">After you select \"Replace\", you can still restore the original photo. After you select \"Remember this choice\", you can still change the default save method at any time in More > Feature settings.</string>
     <string name="photo_editor_save_option_dialog_title">Choose how to save</string>
     <string name="photo_editor_saving">Saving…</string>
     <string name="photo_editor_setting_algorithm_info_image_large_model_1_algorithm_name">Name: 小米影像大模型算法-1</string>
@@ -1828,6 +1846,7 @@ Tap \"Pro\" to use."</string>
     <string name="photo_editor_talkback_crop_4_3">Four to three</string>
     <string name="photo_editor_talkback_crop_9_16">Nine to sixteen</string>
     <string name="photo_editor_talkback_crop_9_18">Nine by eighteen</string>
+    <string name="photo_editor_talkback_crop_counterclockwise_rotate">Rotate %d degrees counterclockwise</string>
     <string name="photo_editor_talkback_crop_free">Free</string>
     <string name="photo_editor_talkback_crop_landscape_screen">Full screen aspect ratio. Horizontal orientation.</string>
     <string name="photo_editor_talkback_crop_mirror">Mirror</string>
@@ -1868,6 +1887,7 @@ Tap \"Pro\" to use."</string>
     <string name="photo_editor_talkback_undo">Undo</string>
     <string name="photo_editor_text">Text</string>
     <string name="photo_editor_timing_burst_shooting_save_dialog_msg">Timed burst photos will be saved as duplicates.</string>
+    <string name="photo_editor_timing_burst_shooting_save_dialog_msg_v2">Timed burst photos will be saved as duplicates.</string>
     <string name="photo_editor_tips_copy_error">"Couldn't copy"</string>
     <string name="photo_editor_tips_no_copy_points">No valid edit points</string>
     <string name="photo_editor_tips_paste_error">"Couldn't paste"</string>
@@ -1964,14 +1984,13 @@ It'll become unavailable on %s."</string>
     <string name="photo_guide_tittle_quality_enhance_new_change">All-new Ultra HD</string>
     <string name="photo_guide_tittle_smart_beauty_new_change">AI Beautify</string>
     <string name="photo_guide_tittle_watermark_new_change">Upgraded watermarks</string>
-    <string name="photo_legendary_go_edit">"'jHUB\u0007HWSNHIT"</string>
-    <string name="photo_legendary_render">{hOZIO</string>
-    <string name="photo_legendary_render_background">_Sz~iz</string>
-    <string name="photo_legendary_render_cancel">"
-Ncyikxn"</string>
-    <string name="photo_legendary_render_done">=yRSX</string>
-    <string name="photo_legendary_render_pending">wgERGVE^YP‑</string>
-    <string name="photo_legendary_render_retry">ZIn{hn:ul\u007fh</string>
+    <string name="photo_legendary_go_edit">More options</string>
+    <string name="photo_legendary_render">Start</string>
+    <string name="photo_legendary_render_background">Leave</string>
+    <string name="photo_legendary_render_cancel">Discard</string>
+    <string name="photo_legendary_render_done">Done</string>
+    <string name="photo_legendary_render_pending">Preparing…</string>
+    <string name="photo_legendary_render_retry">Start over</string>
     <string name="photo_live_photo_effect_bounce">Bounce</string>
     <string name="photo_live_photo_effect_none">No effect</string>
     <string name="photo_live_photo_effect_reverse">Reverse</string>
@@ -2000,7 +2019,7 @@ Ncyikxn"</string>
     <string name="portrait_improving_skin_luster">Boosting skin radiance…</string>
     <string name="portrait_improving_the_texture_of_the_whole_picture">Optimising textures…</string>
     <string name="portrait_optimizing_skin_texture">Optimising skin texture…</string>
-    <string name="pref_camera_watermark_on_brief">zuT</string>
+    <string name="pref_camera_watermark_on_brief">On</string>
     <string name="pref_privacy_watermark_edit_clear_history">Clear history</string>
     <string name="pref_privacy_watermark_edit_history">History</string>
     <string name="pref_watermark_preview_title">Watermark preview</string>
@@ -2051,6 +2070,7 @@ Ncyikxn"</string>
     <string name="pref_wm_mix_text_entry_2">Coordinates</string>
     <string name="pref_wm_mix_text_entry_3">Custom text</string>
     <string name="pref_wm_mix_text_entry_4">Parameters</string>
+    <string name="pref_wm_mix_text_title">Text</string>
     <string name="pref_wm_model_title">Model</string>
     <string name="pref_wm_off_icon">Turn off watermark</string>
     <string name="pref_wm_off_signature">Turn off watermark signature</string>
@@ -2163,12 +2183,16 @@ Ncyikxn"</string>
     <string name="settings_ai_editor_emoji_change_description_new">Replace expressions using AI. Multiple styles available for different scenes. Upload a clear front-facing photo for best results.</string>
     <string name="settings_ai_editor_emoji_change_guide_new">"1. Open a clear portrait photo in Gallery, then tap \"Edit\", \"Portrait\" and \"Change expression\".
 2. Select an expression and confirm."</string>
+    <string name="settings_ai_editor_emoji_change_guide_v2">"%1$d. Open a clear portrait photo in Gallery, then tap \"Edit\", \"AI\" and \"Change expression\".
+%2$d. Select an expression and confirm."</string>
     <string name="settings_ai_editor_emoji_change_new">Change expression</string>
     <string name="settings_ai_editor_expand">AI Image Expansion</string>
     <string name="settings_ai_editor_expand_description">New, AI-supported image expansion. Keep the original aspect ratio, choose your own, or let AI decide.</string>
     <string name="settings_ai_editor_expand_description_new">Intelligently expand images in multiple ratios. Adjust the composition freely to extend your canvas.</string>
     <string name="settings_ai_editor_expand_guide_new">"1. Open a photo in Gallery, then tap \"Edit\", \"Create\", and \"Expand\".
 2. Select a ratio and adjust position, then tap \"Start\"."</string>
+    <string name="settings_ai_editor_expand_guide_v2">"%1$d. Open a photo in Gallery, then tap \"Edit\", \"AI\", and \"Expand\".
+%2$d. Select a ratio and adjust position, then tap \"Start\"."</string>
     <string name="settings_ai_editor_expand_new">AI Image Expansion</string>
     <string name="settings_ai_editor_gudie_new">How to use</string>
     <string name="settings_ai_editor_image_beautiy_decription_new">Automatically detect image features and optimise colour and tone. Improve portraits, landscapes, and food shots for a natural, cinematic look.</string>
@@ -2180,22 +2204,30 @@ Ncyikxn"</string>
     <string name="settings_ai_editor_image_restoration_description_new">Enhance image clarity and restore fine details with one tap. Bring blurry photos back to life effortlessly.</string>
     <string name="settings_ai_editor_image_restoration_guide_new">"1. Open a photo in Gallery, then tap \"Edit\" and \"Adjust\".
 2. Tap \"Ultra HD\" to enhance the image."</string>
+    <string name="settings_ai_editor_image_restoration_guide_v2">"%1$d. Open a photo in Gallery, then tap \"Edit\" and \"AI\".
+%2$d. Tap \"Ultra HD\" to enhance the image."</string>
     <string name="settings_ai_editor_image_restoration_new">Ultra HD</string>
     <string name="settings_ai_editor_intelligent_filming">AI Film</string>
     <string name="settings_ai_editor_intelligent_filming_description">Upload photos and videos to automatically generate videos with the power of AI, or enter prompts to create something totally new</string>
     <string name="settings_ai_editor_intelligent_filming_description_new">Create cinematic AI videos with multiple atmospheric styles, including hair highlights and blue-hour effects. Upload clear facial photos for best results.</string>
     <string name="settings_ai_editor_intelligent_filming_guide_new">"1. Open a clear portrait photo in Gallery, then tap \"Edit\", \"Portrait\", and \"AI Image\".
 2. Select a style and confirm."</string>
+    <string name="settings_ai_editor_intelligent_filming_guide_v2">"%1$d. Open a clear portrait photo in Gallery, then tap \"Edit\", \"AI\", and \"AI Image\".
+%2$d. Select a style and confirm."</string>
     <string name="settings_ai_editor_intelligent_filming_new">AI Film</string>
     <string name="settings_ai_editor_matting_description_new">Automatically identify subjects and separate them from the background. Easily cut out, move, or replace backgrounds for fun and creative edits.</string>
     <string name="settings_ai_editor_matting_guide_new">"1. Open a photo in Gallery, then tap \"Edit\", \"Create\", and \"Cutout\".
 2. Drag the subject to a new spot, select a new background, or simply tap \"Start\"."</string>
+    <string name="settings_ai_editor_matting_guide_v2">"%1$d. Open a photo in Gallery, then tap \"Edit\", \"AI\", and \"Cutout\".
+%2$d. Drag the subject to a new spot, select a new background, or simply tap \"Start\"."</string>
     <string name="settings_ai_editor_matting_new">Cutout</string>
     <string name="settings_ai_editor_remover">AI Erase Pro</string>
     <string name="settings_ai_editor_remover_description">Erase without a trace with upgraded AI Erase Pro features</string>
     <string name="settings_ai_editor_remover_description_new">Accurately remove passersby or unwanted objects while intelligently repairing background textures and lighting for a cleaner image.</string>
     <string name="settings_ai_editor_remover_guide_new">"1. Open a photo in Gallery, then tap \"Edit\", \"Create\", and \"Erase\".
 2. Select whether you want to remove objects, people, or reflections, then tap \"Start\"."</string>
+    <string name="settings_ai_editor_remover_guide_v2">"%1$d. Open a photo in Gallery, then tap \"Edit\", \"AI\", and \"Erase\".
+%2$d. Select whether you want to remove objects, people, or reflections, then tap \"Start\"."</string>
     <string name="settings_ai_editor_remover_new">AI Erase Pro</string>
     <string name="settings_ai_editor_summary">Create and edit photos and videos</string>
     <string name="settings_ai_editor_title">AI Creativity Assistant</string>
@@ -2478,6 +2510,7 @@ Ncyikxn"</string>
     <string name="toast_aigc_request_time_limit">"Can't make more requests today. Try again tomorrow."</string>
     <string name="toast_aigc_server_error">A server error occurred. Wait a minute or two and try again.</string>
     <string name="toast_aigc_server_error_v2">A network error occurred. Check your network settings and try again.</string>
+    <string name="toast_current_page_not_support_split">"Can't show this page in Split screen"</string>
     <string name="toast_custom_shutter_style_desc_delete_title">Delete this style now?</string>
     <string name="toast_download_with_metered_network_btn_continue">Download</string>
     <string name="toast_download_with_metered_network_msg">"Looks like your device isn't connected to Wi-Fi. Download items using mobile data?"</string>
@@ -2543,6 +2576,7 @@ Ncyikxn"</string>
     <string name="video_beauty_whitening">Tone</string>
     <string name="video_beauty_wrinkles">Wrinkles</string>
     <string name="video_clip_crop">Crop</string>
+    <string name="video_close_origin_sound">Turn off original sound</string>
     <string name="video_compress_download_failed_for_notwork">"Couldn't download. Check your network settings and try again."</string>
     <string name="video_compress_encode_video">Compressing video…</string>
     <string name="video_compress_lib_download">Download video compression plug-in</string>
@@ -2684,6 +2718,7 @@ Ncyikxn"</string>
     <string name="video_guide_tittle_new_draft">New drafts</string>
     <string name="video_more_talkback">More</string>
     <string name="video_music_add">Add music</string>
+    <string name="video_open_origin_sound">Turn on original sound</string>
     <string name="video_post_cancel_download">Cancel</string>
     <string name="video_post_cut_auto">Effects will be applied to the first %1$d minutes of the video</string>
     <string name="video_post_download">Download</string>
@@ -3301,6 +3336,7 @@ Upload photos with clear facial features for best results."</string>
     <string name="wm_background_white">White</string>
     <string name="wm_custom_image_add_upper_limit">You can add up to %d images</string>
     <string name="wm_custom_signature_add_upper_limit">You can add up to %d signatures</string>
+    <string name="wm_custom_text_clear_history_title">Clear</string>
     <string name="wm_film_16_custom_text">"Let's remember this moment"</string>
     <string name="wm_film_16_custom_text_v2">Always believe that something wonderful is about to happen</string>
     <string name="wm_group_classic_name">Classic</string>
@@ -3318,8 +3354,11 @@ Upload photos with clear facial features for best results."</string>
     <string name="wm_orientation_outer_border_left">Single-side border, border on the left side of the image</string>
     <string name="wm_orientation_outer_border_right">Single-side border, border on the right side of the image</string>
     <string name="wm_orientation_outer_border_top">Single-side border, border on the top of the image</string>
+    <string name="wm_picture_load_failed_tip">"Couldn't load image"</string>
+    <string name="wm_picture_ratio_banned_tip">"The image ratio isn't compatible with this watermark. Select another image."</string>
     <string name="wm_pref_setting_icon_item_desc">%1$s, item %2$d</string>
     <string name="wm_signature_clear_content">Clear</string>
+    <string name="wm_signature_crop_ratio_banned_tip">"The crop ratio isn't compatible with this watermark. Try again."</string>
     <string name="wm_signature_crop_tip">Avoid using dark backgrounds and crop to show only the signature</string>
     <string name="wm_signature_crop_title">Crop</string>
     <string name="wm_signature_preview_tip">Signature extraction preview</string>

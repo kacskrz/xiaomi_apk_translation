@@ -198,6 +198,8 @@
     <string name="ai_action_toast_poor_network_v2">网络异常，请检查网络后重试</string>
     <string name="ai_action_toast_request_time_out">请求超时，请稍后重试</string>
     <string name="ai_action_toast_request_time_out_v2">请求超时，请稍后重试</string>
+    <string name="ai_compliance_bottom_dialog_button_not_show">不显示</string>
+    <string name="ai_compliance_bottom_dialog_button_show">显示</string>
     <string name="ai_compliance_bottom_dialog_description">支持对生成式AI功能处理的图片增加“AI生成”标识。您可以在更多 > 功能设置 > AI生成标识中进行开关</string>
     <string name="ai_compliance_bottom_dialog_video_description">支持对生成式AI功能处理的图片或视频增加AI生成标识，您可以在更多 > 功能设置 > AI生成标识中进行开关</string>
     <string name="ai_compliance_menu_pop_description">支持对生成式AI功能处理的图片增加“AI生成”标识</string>
@@ -378,6 +380,7 @@
     <string name="bokeh_talkback_item_region_auto">智能选区</string>
     <string name="bokeh_talkback_item_region_circle">圆形选区</string>
     <string name="bokeh_talkback_item_region_line">直线选区</string>
+    <string name="bokeh_talkback_seekbar_progress">%1$s%2$d</string>
     <string name="bokeh_tips_alg_error">暂不支持背景虚化</string>
     <string name="bokeh_tips_alg_error_v2">图片不支持背景虚化，请更换图片后重试</string>
     <string name="bokeh_user_guide_description">AI模拟专业镜头的虚化光斑，突出照片主体</string>
@@ -417,7 +420,7 @@
     <string name="clip_menu_speedx">变速</string>
     <string name="clip_speedX_0.25x">0.25X</string>
     <string name="clip_speedX_0.5x">0.5X</string>
-    <string name="clip_speedX_1x">1X</string>
+    <string name="clip_speedX_1.0x">1.0X</string>
     <string name="clip_speedX_2.0x">2.0X</string>
     <string name="clip_speedX_3.0x">3.0X</string>
     <string name="close">关闭</string>
@@ -1044,25 +1047,27 @@
     <string name="image_with_time">拍摄于%s的图片</string>
     <string name="image_with_time_and_location">拍摄于%1$s的图片，拍摄地点位于%2$s</string>
     <string name="item_view_role_description">标签页</string>
-    <string name="legendary_confirm">\u000c矩遟亊</string>
-    <string name="legendary_desc_m3">}佂甕‡徨卜丽瞑†拰摹皹煚牺攒挼亱欜墣弇Ｑ逧迺庨牺迖冏抽朒Ｑ煚牺叒呵玍曉弇烵皹台巓咱曉不寱皹铋盭颪粯贕愢</string>
-    <string name="legendary_desc_m9">\u0004佻甬‘徑卥丄瞨’拉摀皀煣牃攫挅予欥墚弾（逞迃井竫固僋弑擊抄末（煣牃叫呌玴趁渁僋紤皀临寈绂芆咈曰逸眛劬亾皀彵谇衬玴</string>
-    <string name="legendary_image_not_support">H棈浃券语囶牏巺织迏缞辙＄暊丅攧按夌琎</string>
-    <string name="legendary_info_title">b德千丢瞎</string>
-    <string name="legendary_notification_channel_name">\?‣循卞丿瞓•逥矚</string>
-    <string name="legendary_notification_complete">=‡徨卜丽瞑†夹琻宱戭</string>
-    <string name="legendary_notification_failed">4 御单临瞘 夰琲夅贑</string>
-    <string name="legendary_notification_processing">u 徠協丵瞙 失琳丘–</string>
-    <string name="legendary_notification_queued">v‫徣南丶瞚‫掤阩丛‐</string>
-    <string name="legendary_notification_retry">c炚凘釮斓大琥</string>
-    <string name="legendary_notification_see_result">\u0001炸出柤眊我牆</string>
-    <string name="legendary_poor_network">~罯绢俟叉丳位Ｒ夺琸耩旈廈镁Ｒ诉棾柛罯绢犈怿</string>
-    <string name="legendary_render_notice">"\u0003颇订备琅&amp;2'g科／逃凹名右与彲哎国牄甜戓／\u0009宏戓名伙圫‟這矦丮忀„揓醑"</string>
-    <string name="legendary_source_delected">f厹囘巔分陂Ｊ夢琠夗贃</string>
+    <string name="legendary_confirm">知道了</string>
+    <string name="legendary_desc_m3">使用“徕卡一瞬”拍摄的照片支持二次增强，通过底片迫冲技术，照片可呈现更强烈的反差和更丰富的银盐颗粒质感</string>
+    <string name="legendary_desc_m9">使用“徕卡一瞬”拍摄的照片支持二次增强，通过云端图像引擎技术，照片可呈现超清像素的丰富细节和更逼真动人的影调表现</string>
+    <string name="legendary_image_not_support">检测到该图片已经过编辑，暂不支持处理</string>
+    <string name="legendary_info_title">徕卡一瞬</string>
+    <string name="legendary_notification_channel_name">“徕卡一瞬”通知</string>
+    <string name="legendary_notification_complete">“徕卡一瞬”处理完成</string>
+    <string name="legendary_notification_failed">“徕卡一瞬”处理失败</string>
+    <string name="legendary_notification_processing">“徕卡一瞬”处理中…</string>
+    <string name="legendary_notification_queued">”徕卡一瞬”排队中…</string>
+    <string name="legendary_notification_retry">点击重新处理</string>
+    <string name="legendary_notification_see_result">点击查看成片</string>
+    <string name="legendary_poor_network">网络信号不佳，处理耗时延长，请检查网络状态</string>
+    <string name="legendary_render_notice">"预计处理%1$d秒，退出后台不影响图片生成，
+完成后会在“通知中心”提醒"</string>
+    <string name="legendary_source_delected">原图已删除，处理失败</string>
     <string name="live_convert_static_hint_description">此编辑功能会将动态照片转为静态照片，确认继续编辑？</string>
     <string name="live_convert_static_hint_title">关闭动态照片</string>
     <string name="live_edit_close_hint_description">此照片已转为静态照片，可通过“撤销”或“恢复为原图”恢复为动态照片</string>
     <string name="live_edit_close_hint_title">无法调整动态照片效果</string>
+    <string name="live_is_corrupted_toast">该动态照片已损坏，已转为静态照片进行编辑</string>
     <string name="live_not_support_save_hint">此动态照片暂不支持动态效果调整，已转为静态照片，将以另存为副本方式保存</string>
     <string name="live_not_support_toast_hint">此动态照片暂不支持动态效果调整，已转为静态照片</string>
     <string name="live_photo_guide_desc_edit_grade">动态照片支持裁切、滤镜和水印等更多编辑功能操作，可轻松完成创作且不丢失原有动态效果</string>
@@ -1271,6 +1276,7 @@
     <string name="more_menu_plugin_management">插件管理</string>
     <string name="more_menu_restore_to_original_image">恢复为原图</string>
     <string name="more_menu_save_as_copy">另存为副本</string>
+    <string name="more_menu_save_as_copy_v2">另存新图</string>
     <string name="morning">上午</string>
     <string name="mosaic_item_talkback_effect1">晶格</string>
     <string name="mosaic_item_talkback_effect10">六边形</string>
@@ -1475,6 +1481,7 @@
     <string name="photo_crop_talkback_right_bottom_corner">裁切框右下角</string>
     <string name="photo_crop_talkback_right_top_corner">裁切框右上角</string>
     <string name="photo_crop_talkback_stop_bottom">停止</string>
+    <string name="photo_editor_PNG_save_hint_dialog_msg">PNG照片将以另存为副本方式保存</string>
     <string name="photo_editor_adjust">增强</string>
     <string name="photo_editor_ai_beautify">智能美化</string>
     <string name="photo_editor_ai_beautify_new_upgrade">全新大模型智能美化</string>
@@ -1525,6 +1532,8 @@
     <string name="photo_editor_bokeh">背景虚化</string>
     <string name="photo_editor_bokeh_download_failed">虚化组件下载失败，请检查网络连接</string>
     <string name="photo_editor_burst_shooting_save_dialog_msg">连拍照片将以另存为副本方式保存</string>
+    <string name="photo_editor_burst_shooting_save_dialog_msg_v2">连拍照片将以另存新图方式保存</string>
+    <string name="photo_editor_common_ai_frequent_requests">操作较频繁，请稍后重试</string>
     <string name="photo_editor_common_download_failed">组件下载失败，请检查网络连接</string>
     <string name="photo_editor_common_download_failed_msg">@string/filter_sky_download_failed_msg</string>
     <string name="photo_editor_common_download_finish">组件加载完成</string>
@@ -1580,6 +1589,7 @@
     <string name="photo_editor_eliminate_done">反光已消除</string>
     <string name="photo_editor_eliminate_notice_desc">一键智能反光消除，适用于挡风玻璃、展览玻璃等类型反光</string>
     <string name="photo_editor_eliminate_progress">反光消除功能应用中…</string>
+    <string name="photo_editor_enhancer_ultra_hd_completed">已为您应用超清画质</string>
     <string name="photo_editor_enhancer_user_guide_desc">全新大模型超清算法，一键提升图片清晰度</string>
     <string name="photo_editor_estimate_size">预估大小：%1$s - %2$d × %3$d px</string>
     <string name="photo_editor_filter">滤镜</string>
@@ -1613,6 +1623,10 @@
     <string name="photo_editor_leica_frame">徕卡水印</string>
     <string name="photo_editor_long_crop">裁切</string>
     <string name="photo_editor_low">低</string>
+    <string name="photo_editor_low_quality_hint_continue_save">继续保存</string>
+    <string name="photo_editor_low_quality_hint_go_settings">去设置</string>
+    <string name="photo_editor_low_quality_hint_message">当前所选择的保存画质较低或图像尺寸较小，调整当前设置以获得更好的保存图像质量？</string>
+    <string name="photo_editor_low_quality_hint_title">保存提示</string>
     <string name="photo_editor_matting">魔法抠图</string>
     <string name="photo_editor_matting_ai_background">AI背景</string>
     <string name="photo_editor_matting_ai_create_bg">正在生成背景…</string>
@@ -1696,11 +1710,13 @@
     <string name="photo_editor_navigator_sticker_download_without_wifi_msg_china">无法连接到WLAN，您也可以选择用数据流量下载素材（%1$dMB）</string>
     <string name="photo_editor_navigator_sticker_download_without_wifi_title">素材下载</string>
     <string name="photo_editor_navigator_tab_title_ai">创作</string>
+    <string name="photo_editor_navigator_tab_title_ai_editor">AI修图</string>
     <string name="photo_editor_navigator_tab_title_ai_pro">AI</string>
     <string name="photo_editor_navigator_tab_title_basic">基础</string>
     <string name="photo_editor_navigator_tab_title_beauty">美颜</string>
     <string name="photo_editor_navigator_tab_title_document">文档</string>
     <string name="photo_editor_no_permission_save_dialog_msg">图片所在文件夹目录没有权限，将以另存为副本方式保存</string>
+    <string name="photo_editor_no_permission_save_dialog_msg_v2">图片所在文件夹目录没有权限，将以另存新图方式保存</string>
     <string name="photo_editor_outpaint_progress">正在智能扩图…%s</string>
     <string name="photo_editor_paste_cancel_text">正在取消…</string>
     <string name="photo_editor_perspective">透视</string>
@@ -1784,12 +1800,15 @@
     <string name="photo_editor_restore_image_button_text">复原</string>
     <string name="photo_editor_restore_image_dialog_title">确认复原？</string>
     <string name="photo_editor_rotate">旋转</string>
+    <string name="photo_editor_save_option_ask_every_time">每次询问</string>
+    <string name="photo_editor_save_option_dialog_checkbox">记住选择</string>
     <string name="photo_editor_save_option_dialog_cover_origin">覆盖原图</string>
     <string name="photo_editor_save_option_dialog_description_cover_origin">另存为副本：另存为新的图片，编辑点无法保留</string>
     <string name="photo_editor_save_option_dialog_description_cover_origin_v2">覆盖原图：覆盖原始图片，并支持还原修改</string>
     <string name="photo_editor_save_option_dialog_description_save_as_copy">覆盖原图：部分功能支持保留编辑点，并支持恢复为原图</string>
     <string name="photo_editor_save_option_dialog_description_save_as_copy_v2">另存为副本：另存为新图片，但无法还原修改</string>
     <string name="photo_editor_save_option_dialog_description_setting_path">可前往更多 > 功能设置 > 保存方式，修改保存方式</string>
+    <string name="photo_editor_save_option_dialog_message">选择“覆盖原图”后，仍可将图片恢复为原始状态。选择“记住选择”后，仍可随时前往更多 > 功能设置，修改默认保存方式。</string>
     <string name="photo_editor_save_option_dialog_title">保存方式选择</string>
     <string name="photo_editor_saving">正在保存…</string>
     <string name="photo_editor_setting_algorithm_info_image_large_model_1_algorithm_name">名称：小米影像大模型算法-1</string>
@@ -1833,6 +1852,7 @@
     <string name="photo_editor_talkback_crop_4_3">四比三</string>
     <string name="photo_editor_talkback_crop_9_16">九比十六</string>
     <string name="photo_editor_talkback_crop_9_18">九比十八</string>
+    <string name="photo_editor_talkback_crop_counterclockwise_rotate">逆时针旋转%d度</string>
     <string name="photo_editor_talkback_crop_free">自由比例</string>
     <string name="photo_editor_talkback_crop_landscape_screen">横向全屏比例</string>
     <string name="photo_editor_talkback_crop_mirror">镜像</string>
@@ -1873,6 +1893,7 @@
     <string name="photo_editor_talkback_undo">撤销</string>
     <string name="photo_editor_text">文字</string>
     <string name="photo_editor_timing_burst_shooting_save_dialog_msg">定时连拍照片将以另存为副本方式保存</string>
+    <string name="photo_editor_timing_burst_shooting_save_dialog_msg_v2">定时连拍照片将以另存新图方式保存</string>
     <string name="photo_editor_tips_copy_error">复制失败</string>
     <string name="photo_editor_tips_no_copy_points">无有效编辑点</string>
     <string name="photo_editor_tips_paste_error">粘贴失败</string>
@@ -1969,13 +1990,13 @@
     <string name="photo_guide_tittle_quality_enhance_new_change">全新画质超清</string>
     <string name="photo_guide_tittle_smart_beauty_new_change">智能美化</string>
     <string name="photo_guide_tittle_watermark_new_change">水印升级</string>
-    <string name="photo_legendary_go_edit">Z曮夀缌辋</string>
-    <string name="photo_legendary_render">6弶姽夲琰</string>
-    <string name="photo_legendary_render_background">\u0015君句筜徐</string>
-    <string name="photo_legendary_render_cancel">,叺涤夨琪</string>
-    <string name="photo_legendary_render_done">N宂戞</string>
-    <string name="photo_legendary_render_pending">{歘圓函夼Ｗ诌稶倢”</string>
-    <string name="photo_legendary_render_retry">\u0001里斱夅琇</string>
+    <string name="photo_legendary_go_edit">更多编辑</string>
+    <string name="photo_legendary_render">开始处理</string>
+    <string name="photo_legendary_render_background">后台等待</string>
+    <string name="photo_legendary_render_cancel">取消处理</string>
+    <string name="photo_legendary_render_done">完成</string>
+    <string name="photo_legendary_render_pending">正在准备，请稍候…</string>
+    <string name="photo_legendary_render_retry">重新处理</string>
     <string name="photo_live_photo_effect_bounce">往复</string>
     <string name="photo_live_photo_effect_none">无效果</string>
     <string name="photo_live_photo_effect_reverse">倒放</string>
@@ -2004,7 +2025,7 @@
     <string name="portrait_improving_skin_luster">正在提升皮肤光泽…</string>
     <string name="portrait_improving_the_texture_of_the_whole_picture">正在提升全图质感…</string>
     <string name="portrait_optimizing_skin_texture">正在优化肌肤纹理…</string>
-    <string name="pref_camera_watermark_on_brief">E弅</string>
+    <string name="pref_camera_watermark_on_brief">开</string>
     <string name="pref_privacy_watermark_edit_clear_history">清空历史记录</string>
     <string name="pref_privacy_watermark_edit_history">历史记录</string>
     <string name="pref_watermark_preview_title">水印预览图</string>
@@ -2055,6 +2076,7 @@
     <string name="pref_wm_mix_text_entry_2">经纬度</string>
     <string name="pref_wm_mix_text_entry_3">自定义文字</string>
     <string name="pref_wm_mix_text_entry_4">参数</string>
+    <string name="pref_wm_mix_text_title">文本</string>
     <string name="pref_wm_model_title">机型</string>
     <string name="pref_wm_off_icon">关闭水印图像</string>
     <string name="pref_wm_off_signature">关闭水印签名</string>
@@ -2167,12 +2189,16 @@
     <string name="settings_ai_editor_emoji_change_description_new">全新AI表情替换，支持生成多款表情，轻松适配不同场景的表达需求，上传五官清晰正面照效果更佳</string>
     <string name="settings_ai_editor_emoji_change_guide_new">"1. 打开相册 > 选择清晰人像大图 > 编辑 > 人像 > 表情替换
 2. 选择对应表情后即可替换"</string>
+    <string name="settings_ai_editor_emoji_change_guide_v2">"%1$d. 打开相册 > 选择清晰人像大图 > 编辑 > AI修图 > 表情替换
+%2$d. 选择对应表情后即可替换"</string>
     <string name="settings_ai_editor_emoji_change_new">表情替换</string>
     <string name="settings_ai_editor_expand">AI扩图</string>
     <string name="settings_ai_editor_expand_description">全新大模型智能扩图，支持等比、自由扩展和自动构图功能</string>
     <string name="settings_ai_editor_expand_description_new">支持多种比例智能扩图，自由拓展画面边界，灵活调整画面构图</string>
     <string name="settings_ai_editor_expand_guide_new">"1. 打开相册 > 选择大图 > 编辑 > 创作 > AI扩图
 2. 选择比例/调整位置 > 点击“开始生成”后即可"</string>
+    <string name="settings_ai_editor_expand_guide_v2">"%1$d. 打开相册 > 选择大图 > 编辑 > AI修图 > AI扩图
+%2$d. 选择比例并调整位置后，点击“开始生成”后即可"</string>
     <string name="settings_ai_editor_expand_new">AI扩图</string>
     <string name="settings_ai_editor_gudie_new">使用方法</string>
     <string name="settings_ai_editor_image_beautiy_decription_new">智能识别图片特征，一键优化影调色彩，轻松拍出自然有氛围的大片。人像自动调优肤色光影，风光增强色彩层次，美食凸显新鲜美味加倍</string>
@@ -2184,22 +2210,30 @@
     <string name="settings_ai_editor_image_restoration_description_new">一键提升图片清晰度、细腻还原图像，让模糊画面重获细节质感，轻松拯救糊片</string>
     <string name="settings_ai_editor_image_restoration_guide_new">"1. 打开相册 > 选择大图 > 编辑 > 调节
 2. 点击“画质超清”后即可"</string>
+    <string name="settings_ai_editor_image_restoration_guide_v2">"%1$d. 打开相册 > 选择大图 > 编辑 > AI修图
+%2$d. 点击“画质超清”后即可"</string>
     <string name="settings_ai_editor_image_restoration_new">画质超清</string>
     <string name="settings_ai_editor_intelligent_filming">智能成片</string>
     <string name="settings_ai_editor_intelligent_filming_description">一键智能成片，简单导入视频和图片素材便可自动生成视频，您也可以输入自己的想法进行灵感成片</string>
     <string name="settings_ai_editor_intelligent_filming_description_new">全新AI虚拟形象，支持生成发丝光、蓝调时刻等多样氛围感风格大片，上传五官清晰照片效果更佳</string>
     <string name="settings_ai_editor_intelligent_filming_guide_new">"1. 打开相册 > 选择清晰人像大图 > 编辑 > 人像 > AI形象
 2. 选择形象后即可生成 > 完成"</string>
+    <string name="settings_ai_editor_intelligent_filming_guide_v2">"%1$d. 打开相册 > 选择清晰人像大图 > AI修图 > AI形象
+%2$d. 选择形象后即可生成"</string>
     <string name="settings_ai_editor_intelligent_filming_new">智能成片</string>
     <string name="settings_ai_editor_matting_description_new">智能识别单个或多个主体，精准分割主体背景，轻松实现抠图、移图换景，让图片更有趣好玩</string>
     <string name="settings_ai_editor_matting_guide_new">"1. 打开相册 > 选择大图 > 编辑 > 创作 > 魔法抠图
 2. 拖动主体 > 点击“开始生成”或选择新背景图即可"</string>
+    <string name="settings_ai_editor_matting_guide_v2">"%1$d. 打开相册 > 选择大图 > 编辑 > AI修图 > 魔法抠图
+%2$d. 拖动主体后，点击“开始生成”或选择新背景图即可"</string>
     <string name="settings_ai_editor_matting_new">魔法抠图</string>
     <string name="settings_ai_editor_remover">魔法消除</string>
     <string name="settings_ai_editor_remover_description">魔法消除Pro升级大模型，消除更无痕</string>
     <string name="settings_ai_editor_remover_description_new">精准识别去除路人、杂物等，同时智能修复背景纹理与光影，让画面更美观</string>
     <string name="settings_ai_editor_remover_guide_new">"1. 打开相册 > 选择大图 > 编辑 > 创作 > 魔法消除
 2. 选择智能去物/去人/反光消除等模式 > 点击“开始消除”后即可"</string>
+    <string name="settings_ai_editor_remover_guide_v2">"%1$d. 打开相册 > 选择大图 > 编辑 > AI修图 > 魔法消除
+%2$d. 选择智能去物、去人或反光消除等模式后，点击“开始消除”后即可"</string>
     <string name="settings_ai_editor_remover_new">魔法消除</string>
     <string name="settings_ai_editor_summary">实现图片或视频的创意编辑</string>
     <string name="settings_ai_editor_title">AI相册编辑</string>
@@ -2499,6 +2533,7 @@
     <string name="toast_aigc_request_time_limit">已超过当天的最大请求次数，请明天重试</string>
     <string name="toast_aigc_server_error">服务端异常，请稍后重试</string>
     <string name="toast_aigc_server_error_v2">网络异常，请检查网络后重试</string>
+    <string name="toast_current_page_not_support_split">此页面不支持分屏</string>
     <string name="toast_custom_shutter_style_desc_delete_title">确认删除此样式？</string>
     <string name="toast_download_with_metered_network_btn_cancel">@string/base_btn_cancel</string>
     <string name="toast_download_with_metered_network_btn_continue">继续下载</string>
@@ -2565,6 +2600,7 @@
     <string name="video_beauty_whitening">美白</string>
     <string name="video_beauty_wrinkles">祛法令纹</string>
     <string name="video_clip_crop">裁切</string>
+    <string name="video_close_origin_sound">关闭原声</string>
     <string name="video_compress_download_failed_for_notwork">下载失败，请检查网络连接</string>
     <string name="video_compress_encode_video">正在生成压缩视频</string>
     <string name="video_compress_lib_download">压缩组件下载</string>
@@ -2574,7 +2610,7 @@
     <string name="video_compress_not_with_low_quality">已是最低画质</string>
     <string name="video_compress_save_stop_tips">再按一次停止压缩</string>
     <string name="video_compress_size">压缩后约%s</string>
-    <string name="video_description_summary_basic_editor_filter">支持在视频轨道中添加不同的滤镜风格，如胶片、黑白等风格，也可以对Log视频添加还原滤镜</string>
+    <string name="video_description_summary_basic_editor_filter">支持在视频轨道中添加不同的滤镜风格，如胶片、黑白等风格，同时支持下载还原LUT滤镜文件</string>
     <string name="video_description_summary_basic_editor_filter_link_text">点击下载还原LUT</string>
     <string name="video_description_summary_basic_editor_music">支持在视频轨道中添加线上音乐和本地音乐</string>
     <string name="video_description_summary_basic_editor_ratio">支持修改视频轨道的画幅，如%1$d:%2$d、%3$d:%4$d、%5$d:%6$d等画幅比例</string>
@@ -2706,6 +2742,7 @@
     <string name="video_guide_tittle_new_draft">全新草稿箱</string>
     <string name="video_more_talkback">更多</string>
     <string name="video_music_add">添加音乐</string>
+    <string name="video_open_origin_sound">开启原声</string>
     <string name="video_post_cancel_download">取消下载</string>
     <string name="video_post_cut_auto">已自动选取前%1$d分钟视频</string>
     <string name="video_post_download">开始下载</string>
@@ -3336,6 +3373,7 @@
     <string name="wm_background_white">白色</string>
     <string name="wm_custom_image_add_upper_limit">最多支持%d个图像</string>
     <string name="wm_custom_signature_add_upper_limit">最多支持%d个签名</string>
+    <string name="wm_custom_text_clear_history_title">清空</string>
     <string name="wm_film_16_custom_text">这一刻我们彼此相爱</string>
     <string name="wm_film_16_custom_text_v2">永远相信美好的事情即将发生</string>
     <string name="wm_group_classic_name">经典</string>
@@ -3353,8 +3391,11 @@
     <string name="wm_orientation_outer_border_left">单边边框，边框在图片左侧</string>
     <string name="wm_orientation_outer_border_right">单边边框，边框在图片右侧</string>
     <string name="wm_orientation_outer_border_top">单边边框，边框在图片上方</string>
+    <string name="wm_picture_load_failed_tip">图片加载失败</string>
+    <string name="wm_picture_ratio_banned_tip">图片比例无法适配水印，请重新选择</string>
     <string name="wm_pref_setting_icon_item_desc">%1$s第%2$d个</string>
     <string name="wm_signature_clear_content">清除</string>
+    <string name="wm_signature_crop_ratio_banned_tip">裁切比例无法适配水印，请重新裁切</string>
     <string name="wm_signature_crop_tip">避免使用深色背景图，并裁剪至仅保留签名区域</string>
     <string name="wm_signature_crop_title">修剪照片</string>
     <string name="wm_signature_preview_tip">签名提取效果</string>
