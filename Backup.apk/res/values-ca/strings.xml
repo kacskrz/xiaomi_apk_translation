@@ -95,13 +95,16 @@
     <string name="backup_report">Veure detalls</string>
     <string name="backup_security_tips_message">"És possible que d'algunes aplicacions no es puguin fer còpies de seguretat o restaurar-les."</string>
     <string name="backup_security_tips_title">Pot ser que les còpies de seguretat no funcionin</string>
-    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
-    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
-    <string name="backup_suspend_summary_pad">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
-    <string name="backup_suspend_summary_phone">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Make sure your tablet is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Make sure your phone is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once your tablet is on the same network as the SmartStorage device, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once your phone is on the same network as the SmartStorage device, backup will resume automatically.</string>
     <string name="backup_suspend_title">"Còpia de seguretat en pausa. S'està connectant de nou…"</string>
     <string name="backup_tab">Feu còpia</string>
     <string name="backup_tips_dialog_summary">"No s'admeten aplicacions duals ni elements privats. Aquesta còpia de seguretat només inclou les dades fins ara. Les dades noves no es sincronitzaran automàticament."</string>
+    <string name="backup_tips_dialog_summary_nas">"%1$d. Dual apps and private items aren't supported.
+%2$d. This backup only includes data created before the backup started. New data added later won't be included.
+%3$d. You've selected %4$s of data to back up. Restoration requires at least %5$d times as much free space, which will be released automatically after restoration is complete."</string>
     <string name="backup_tips_dialog_title">Tingueu en compte</string>
     <string name="backup_update">Actualizeu</string>
     <string name="batch_delete_backup_confirm">Voleu eliminar les còpies de seguretat seleccionades?</string>
@@ -506,23 +509,25 @@ primer heu de crear una còpia de seguretat d'iCloud."</string>
     <string name="name_password_not_consistent">"El nom d'usuari o la contrasenya són incorrectes"</string>
     <string name="nas_backup_progress_title">Feu una còpia de seguretat a SmartStorage</string>
     <string name="nas_backup_resume_button">Reprèn</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
-    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
-    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure the SmartStorage device is on the same network as your tablet, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure the SmartStorage device is on the same network as your phone, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure your tablet is on the same network as the SmartStorage device. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure your phone is on the same network as the SmartStorage device. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_backup_task_suspend_info_title">Còpia de seguretat aturada</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">Cancel·la</string>
     <string name="nas_connecting_progress_dialog">"S'està connectant a SmartStorage…"</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
-%d. SmartStorage device is online.
-%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration).
-%d. Make sure Interconnectivity is turned on on both your tablet and SmartStorage device."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
-%d. SmartStorage device is online.
-%d. The network is stable. (Don't reboot or power off your phone during backups or restoration).
-%d. Make sure Interconnectivity is turned on on both your phone and SmartStorage device."</string>
-    <string name="nas_disconnect_dialog_title">No es pot connectar al SmartStorage</string>
+    <string name="nas_disconnect_dialog_summary_pad">"To use SmartStorage for backups and restoration, make sure:
+%1$d. SmartStorage device is online.
+%2$d. Your tablet is connected to Wi-Fi and on the same network as the SmartStorage device.
+%3$d. The network is stable. (Don't reboot or power off your tablet during backups or restoration).
+%4$d. Make sure Interconnectivity is turned on on both your tablet and SmartStorage device."</string>
+    <string name="nas_disconnect_dialog_summary_phone">"To use SmartStorage for backups and restoration, make sure:
+%1$d. SmartStorage device is online.
+%2$d. Your phone is connected to Wi-Fi and on the same network as the SmartStorage device.
+%3$d. The network is stable. (Don't reboot or power off your phone during backups or restoration).
+%4$d. Make sure Interconnectivity is turned on on both your phone and SmartStorage device."</string>
+    <string name="nas_disconnect_dialog_title">"Couldn't connect"</string>
     <string name="nas_low_memory_progress_backup_summary_nas">No hi ha prou emmagatzematge a SmartStorage. Allibereu espai i toqueu \"Torneu-ho a provar\" per reprendre la còpia de seguretat.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">No hi ha prou emmagatzematge a la tauleta. Allibereu espai i toqueu \"Torneu-ho a provar\" per reprendre la còpia de seguretat.</string>
     <string name="nas_low_memory_progress_backup_summary_phone">No hi ha prou emmagatzematge al telèfon. Allibereu espai i toqueu \"Torneu-ho a provar\" per reprendre la còpia de seguretat.</string>
@@ -542,10 +547,10 @@ primer heu de crear una còpia de seguretat d'iCloud."</string>
     <string name="nas_restore_notification_title">Restoring WeChat history from Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">Restaura de SmartStorage</string>
     <string name="nas_restore_resume_button">Reprèn</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
-    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
-    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure the SmartStorage device is on the same network as your tablet, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure the SmartStorage device is on the same network as your phone, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure your tablet is on the same network as the SmartStorage device. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure your phone is on the same network as the SmartStorage device. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">Restauració aturada</string>
     <string name="nas_retry_button">Reintenta</string>
     <string name="nas_split_check_fail">"No s'ha pogut verificar. Feu una còpia de seguretat."</string>
@@ -910,6 +915,10 @@ primer heu de crear una còpia de seguretat d'iCloud."</string>
     <string name="privacy_policy_link"><Data>"Per obtenir més informació sobre les nostres pràctiques de tractament de dades i els vostres drets com a usuari, llegiu i accepteu la nostra &lt;a href='%1s'>Política de privadesa&lt;/a> abans de continuar."</Data></string>
     <string name="privacy_settings">Privadesa</string>
     <string name="privacy_settings_title">Política de privadesa</string>
+    <string name="privacy_update_dialog_title">Privacy Policy update</string>
+    <string name="privacy_update_link_text">Privacy Policy</string>
+    <string name="privacy_update_message_template">Read and agree to the updated %1$s below to continue using Backup:</string>
+    <string name="privacy_update_note_placeholder">To provide a better backup experience, we have added the function of backup and recovery through Xiaomi Smart Storage. When you use the backup and recovery application, we will provide data backup and recovery services through Xiaomi Smart Storage.</string>
     <string name="private_policy_text">Política de privadesa</string>
     <string name="progress_backup_hint">"S'està fent una còpia de seguretat…"</string>
     <string name="progress_restore_hint">"S'està restaurant…"</string>
@@ -935,14 +944,16 @@ primer heu de crear una còpia de seguretat d'iCloud."</string>
     <string name="restore_launcher_layout_hit">Restaura la configuració del llançador</string>
     <string name="restore_progress">"S'està restaurant…"</string>
     <string name="restore_report">Detalls de la restauració</string>
-    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
-    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
-    <string name="restore_suspend_summary_pad">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
-    <string name="restore_suspend_summary_phone">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Make sure your tablet is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Make sure your phone is on the same network as the SmartStorage device, then tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Restoration paused. Once your tablet is on the same network as the SmartStorage device, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Restoration paused. Once your phone is on the same network as the SmartStorage device, restoration will resume automatically.</string>
     <string name="restore_suspend_title">"Restauració en pausa. S'està connectant de nou…"</string>
     <string name="restore_tab">Restaura</string>
     <string name="restore_telephony_hit">"La restauració reiniciarà l'aplicació Telèfon."</string>
     <string name="restore_tips_dialog_summary">Esteu a punt de restaurar les dades de WeChat. Això sobreescriurà les dades actuals de WeChat amb la còpia de seguretat de %s. Aquesta acció no es pot desfer. Procediu amb precaució.</string>
+    <string name="restore_tips_dialog_summary_qq">"You're about to restore QQ data. This will overwrite current QQ data with the backup from %s. This action can't be undone. Proceed with caution."</string>
+    <string name="restore_tips_dialog_summary_qq_wechat">"You're about to restore QQ and WeChat data. This will overwrite current QQ and WeChat data with the backup from %s. This action can't be undone. Proceed with caution."</string>
     <string name="restore_tips_dialog_title">Atenció</string>
     <string name="resume_backup_nas_task_dialog_title">Còpia de seguretat inacabada</string>
     <string name="resume_backup_toast">"S'està fent una còpia de seguretat a SmartStorage…"</string>

@@ -95,13 +95,16 @@
     <string name="backup_report">Skatīt informāciju</string>
     <string name="backup_security_tips_message">Dažas lietotnes, iespējams, nevar dublēt vai atjaunot.</string>
     <string name="backup_security_tips_title">Dublējumi var nedarboties</string>
-    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
-    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
-    <string name="backup_suspend_summary_pad">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
-    <string name="backup_suspend_summary_phone">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Make sure your tablet is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Make sure your phone is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once your tablet is on the same network as the SmartStorage device, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once your phone is on the same network as the SmartStorage device, backup will resume automatically.</string>
     <string name="backup_suspend_title">Dublēšana pārtraukta. Savienojas…</string>
     <string name="backup_tab">Dublēt</string>
     <string name="backup_tips_dialog_summary">Duālas lietotnes un privātie vienumi netiek atbalstīti. Šī dublējuma versija ietver tikai līdz šim brīdim uzkrātos datus. Jauni dati netiks sinhronizēti automātiski.</string>
+    <string name="backup_tips_dialog_summary_nas">"%1$d. Dual apps and private items aren't supported.
+%2$d. This backup only includes data created before the backup started. New data added later won't be included.
+%3$d. You've selected %4$s of data to back up. Restoration requires at least %5$d times as much free space, which will be released automatically after restoration is complete."</string>
     <string name="backup_tips_dialog_title">Paturiet prātā</string>
     <string name="backup_update">Atjaunināt</string>
     <string name="batch_delete_backup_confirm">Vai izdzēst izvēlētos dublējumus?</string>
@@ -506,23 +509,25 @@ Nemainiet vai nepārdēvējiet dublējuma datnes."</string>
     <string name="name_password_not_consistent">Nepareizs lietotājvārds vai parole</string>
     <string name="nas_backup_progress_title">Dublēt uz SmartStorage</string>
     <string name="nas_backup_resume_button">Atsākt</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
-    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
-    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure the SmartStorage device is on the same network as your tablet, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure the SmartStorage device is on the same network as your phone, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure your tablet is on the same network as the SmartStorage device. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure your phone is on the same network as the SmartStorage device. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_backup_task_suspend_info_title">Dublēšana apturēta</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">Atcelt</string>
     <string name="nas_connecting_progress_dialog">Savienojas ar SmartStorage…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
-%d. SmartStorage device is online.
-%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration).
-%d. Make sure Interconnectivity is turned on on both your tablet and SmartStorage device."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
-%d. SmartStorage device is online.
-%d. The network is stable. (Don't reboot or power off your phone during backups or restoration).
-%d. Make sure Interconnectivity is turned on on both your phone and SmartStorage device."</string>
-    <string name="nas_disconnect_dialog_title">Nevar saviennot ar SmartStorage</string>
+    <string name="nas_disconnect_dialog_summary_pad">"To use SmartStorage for backups and restoration, make sure:
+%1$d. SmartStorage device is online.
+%2$d. Your tablet is connected to Wi-Fi and on the same network as the SmartStorage device.
+%3$d. The network is stable. (Don't reboot or power off your tablet during backups or restoration).
+%4$d. Make sure Interconnectivity is turned on on both your tablet and SmartStorage device."</string>
+    <string name="nas_disconnect_dialog_summary_phone">"To use SmartStorage for backups and restoration, make sure:
+%1$d. SmartStorage device is online.
+%2$d. Your phone is connected to Wi-Fi and on the same network as the SmartStorage device.
+%3$d. The network is stable. (Don't reboot or power off your phone during backups or restoration).
+%4$d. Make sure Interconnectivity is turned on on both your phone and SmartStorage device."</string>
+    <string name="nas_disconnect_dialog_title">"Couldn't connect"</string>
     <string name="nas_low_memory_progress_backup_summary_nas">Nepietiekama SmartStorage vieta. Atbrīvojiet vietu un pieskarieties \"Mēģināt atkārtoti\", lai turpinātu dublējumu.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">Nepietiekama planšetdatora atmiņa. Atbrīvojiet vietu un pieskarieties \"Mēģināt vēlreiz\", lai turpinātu dublējumu.</string>
     <string name="nas_low_memory_progress_backup_summary_phone">Nepietiekama tālruņa atmiņa. Atbrīvojiet vietu un pieskarieties \"Mēģināt vēlreiz\", lai turpinātu dublējumu.</string>
@@ -542,10 +547,10 @@ Nemainiet vai nepārdēvējiet dublējuma datnes."</string>
     <string name="nas_restore_notification_title">Restoring WeChat history from Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">Atjaunot no SmartStorage</string>
     <string name="nas_restore_resume_button">Atsākt</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
-    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
-    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure the SmartStorage device is on the same network as your tablet, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure the SmartStorage device is on the same network as your phone, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure your tablet is on the same network as the SmartStorage device. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure your phone is on the same network as the SmartStorage device. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">Atjaunošana apturēta</string>
     <string name="nas_retry_button">Mēģināt vēlreiz</string>
     <string name="nas_split_check_fail">Neizdevās verificēt. Dublējiet vēlreiz.</string>
@@ -910,6 +915,10 @@ Nemainiet vai nepārdēvējiet dublējuma datnes."</string>
     <string name="privacy_policy_link"><Data>"Lai uzzinātu vairāk par mūsu datu apstrādes procesu un jūsu lietotāja tiesībām, izlasiet un piekrītiet mūsu &lt;a href='%1s'>Konfidencialitātes politikai&lt;/a> pirms turpināt."</Data></string>
     <string name="privacy_settings">Konfidencialitāte</string>
     <string name="privacy_settings_title">Konfidencialitātes politika</string>
+    <string name="privacy_update_dialog_title">Privacy Policy update</string>
+    <string name="privacy_update_link_text">Privacy Policy</string>
+    <string name="privacy_update_message_template">Read and agree to the updated %1$s below to continue using Backup:</string>
+    <string name="privacy_update_note_placeholder">To provide a better backup experience, we have added the function of backup and recovery through Xiaomi Smart Storage. When you use the backup and recovery application, we will provide data backup and recovery services through Xiaomi Smart Storage.</string>
     <string name="private_policy_text">Konfidencialitātes politika</string>
     <string name="progress_backup_hint">Tiek dublēts…</string>
     <string name="progress_restore_hint">Atjauno…</string>
@@ -935,14 +944,16 @@ Nemainiet vai nepārdēvējiet dublējuma datnes."</string>
     <string name="restore_launcher_layout_hit">Atjaunot palaidēja iestatījumus</string>
     <string name="restore_progress">Atjauno…</string>
     <string name="restore_report">Atjaunot detaļas</string>
-    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
-    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
-    <string name="restore_suspend_summary_pad">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
-    <string name="restore_suspend_summary_phone">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Make sure your tablet is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Make sure your phone is on the same network as the SmartStorage device, then tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Restoration paused. Once your tablet is on the same network as the SmartStorage device, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Restoration paused. Once your phone is on the same network as the SmartStorage device, restoration will resume automatically.</string>
     <string name="restore_suspend_title">Atjaunošana pārtraukta. Savienojas…</string>
     <string name="restore_tab">Atjaunot</string>
     <string name="restore_telephony_hit">Atjaunošana pārstartēs tālruņa lietotni.</string>
     <string name="restore_tips_dialog_summary">Jūs gatavojaties atjaunot WeChat datus. Tas pārrakstīs pašreizējos WeChat datus ar dublējumu no %s. Šo darbību nevar atcelt. Rīkojieties ar piesardzību.</string>
+    <string name="restore_tips_dialog_summary_qq">"You're about to restore QQ data. This will overwrite current QQ data with the backup from %s. This action can't be undone. Proceed with caution."</string>
+    <string name="restore_tips_dialog_summary_qq_wechat">"You're about to restore QQ and WeChat data. This will overwrite current QQ and WeChat data with the backup from %s. This action can't be undone. Proceed with caution."</string>
     <string name="restore_tips_dialog_title">Uzmanību</string>
     <string name="resume_backup_nas_task_dialog_title">Nepabeigti dublējumi</string>
     <string name="resume_backup_toast">Dublē uz SmartStorage…</string>

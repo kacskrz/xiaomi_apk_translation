@@ -95,13 +95,16 @@
     <string name="backup_report">Ver detalhes</string>
     <string name="backup_security_tips_message">Pode não ser possível fazer o backup ou restaurar alguns apps.</string>
     <string name="backup_security_tips_title">Backups podem não funcionar</string>
-    <string name="backup_suspend_fail_summary_pad">A conexão foi perdida. Assim que o SmartStorage estiver online, toque em \"Tentar novamente\" para retomar o backup.</string>
-    <string name="backup_suspend_fail_summary_phone">A conexão foi perdida. Assim que o SmartStorage estiver online, toque em \"Tentar novamente\" para retomar o backup.</string>
-    <string name="backup_suspend_summary_pad">A conexão foi perdida. Assim que o SmartStorage estiver online, o backup será retomado automaticamente.</string>
-    <string name="backup_suspend_summary_phone">A conexão foi perdida. Assim que o SmartStorage estiver online, o backup será retomado automaticamente.</string>
+    <string name="backup_suspend_fail_summary_pad">A conexão foi perdida. Certifique-se de que o seu tablet esteja na mesma rede que o dispositivo SmartStorage, e então toque em \"Tentar novamente\" para retomar o backup.</string>
+    <string name="backup_suspend_fail_summary_phone">A conexão foi perdida. Certifique-se de que o seu telefone esteja na mesma rede que o dispositivo SmartStorage, e então toque em \"Tentar novamente\" para retomar o backup.</string>
+    <string name="backup_suspend_summary_pad">A conexão foi perdida. Assim que o seu tablet estiver na mesma rede que o dispositivo SmartStorage, o backup continuará automaticamente.</string>
+    <string name="backup_suspend_summary_phone">A conexão foi perdida. Assim que o seu telefone estiver na mesma rede que o dispositivo SmartStorage, o backup continuará automaticamente.</string>
     <string name="backup_suspend_title">Backup pausado. Conectando novamente…</string>
     <string name="backup_tab">Fazer backup</string>
     <string name="backup_tips_dialog_summary">Dual apps e itens privados não são compatíveis. Este backup inclui apenas os dados atuais. Novos dados não serão sincronizados automaticamente.</string>
+    <string name="backup_tips_dialog_summary_nas">"%1$d. Dual apps e itens privados não são suportados.
+%2$d. Este backup só inclui dados criados antes do início do backup. Novos dados adicionados posteriormente não serão incluídos.
+%3$d. Você selecionou %4$s de dados para o backup. A restuaração requer pelo menoss %5$d vezes deste total como espaço livre, que será liberado automaticamente após a resstauração ser concluída."</string>
     <string name="backup_tips_dialog_title">Lembre-se</string>
     <string name="backup_update">Atualizar</string>
     <string name="batch_delete_backup_confirm">Excluir os backups selecionados?</string>
@@ -506,23 +509,25 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="name_password_not_consistent">Usuário ou senha incorretos</string>
     <string name="nas_backup_progress_title">Fazer backup para o SmartStorage</string>
     <string name="nas_backup_resume_button">Continuar</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">A rede está desconectada. Verifique se o SmartStorage está conectado e tente fazer o backup novamente.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">A rede está desconectada. Verifique se o SmartStorage está conectado e tente fazer o backup novamente.</string>
-    <string name="nas_backup_task_progress_summary_pad">Durante o backup, certifique-se de que o SmartStorage esteja conectado. Não reinicie nem desligue o tablet para evitar a perda de dados.</string>
-    <string name="nas_backup_task_progress_summary_phone">Durante o backup, certifique-se de que o SmartStorage esteja conectado. Não reinicie nem desligue o celular para evitar a perda de dados.</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Rede desconectada. Certifique-se de que o dispositivo SmartStorage e o seu tablet estejam na mesma rede, e tente fazer o backup novamente.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Rede desconectada. Certifique-se de que o dispositivo SmartStorage e o seu telefone estejam na mesma rede, e tente fazer o backup novamente.</string>
+    <string name="nas_backup_task_progress_summary_pad">Durante o backup, certifique-se de que o seu tablet e o dispositivo SmartStorage estejam na mesma rede. Não reinicie ou desligue o seu telefone para evitar a perda de dados.</string>
+    <string name="nas_backup_task_progress_summary_phone">Durante o backup, certifique-se de que o seu telefone e o dispositivo SmartStorage estejam na mesma rede. Não reinicie ou desligue o seu telefone para evitar a perda de dados.</string>
     <string name="nas_backup_task_suspend_info_title">Backup pausado</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">Cancelar</string>
     <string name="nas_connecting_progress_dialog">Conectando ao SmartStorage…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"Para utilizar o SmartStorage para backups e restauração, certifique-se de que:
-%d. O dispositivo SmartStorage está online.
-%d. A rede é estável. (Não reinicie ou desligue o seu tablet durante backups ou restaurações).
-%d. Certifique-se de que a Interconectividade está ativada no seu tablet e dispositivo SmartStorage."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"Para utilizar o SmartStorage para backups e restauração, certifique-se de que:
-%d. O dispositivo SmartStorage está online.
-%d. A rede é estável. (Não reinicie ou desligue o seu telefone durante backups ou restaurações).
-%d. Certifique-se de que a Interconectividade está ativada no seu telefone e dispositivo SmartStorage."</string>
-    <string name="nas_disconnect_dialog_title">Não é possível conectar ao SmartStorage</string>
+    <string name="nas_disconnect_dialog_summary_pad">"Para usar o SmartStorage para backups e restauração, certifique-se de que:
+%1$d. O Dispositivo SmartStorage está online.
+%2$d. Seu tablet está conectado ao Wi-Fi e na mesma rede que o dispositivo SmartStorage.
+%3$d. A rede está estável. (Não reinicie ou desligue o seu tablet durante backups ou restaurações.).
+%4$d. Certifique-se de que a Interconectividade está ativada tanto no seu tablet quanto no dispositivo SmartStorage."</string>
+    <string name="nas_disconnect_dialog_summary_phone">"Para usar o SmartStorage para backups e restauração, certifique-se de que:
+%1$d. O Dispositivo SmartStorage está online.
+%2$d. Seu telefone está conectado ao Wi-Fi e na mesma rede que o dispositivo SmartStorage.
+%3$d. A rede está estável. (Não reinicie ou desligue o seu telefone durante backups ou restaurações.).
+%4$d. Certifique-se de que a Interconectividade está ativada tanto no seu telefone quanto no dispositivo SmartStorage."</string>
+    <string name="nas_disconnect_dialog_title">Não foi possível conectar</string>
     <string name="nas_low_memory_progress_backup_summary_nas">Espaço insuficiente no SmartStorage. Libere espaço e toque em “Repetir” para continuar o backup.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">Armazenamento insuficiente no tablet. Libere espaço e toque em “Repetir” para continuar o backup.</string>
     <string name="nas_low_memory_progress_backup_summary_phone">Armazenamento insuficiente no telefone. Libere espaço e toque em “Repetir” para continuar o backup.</string>
@@ -542,10 +547,10 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="nas_restore_notification_title">Restaurando o histórico do WeChat do Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">Restaurar a partir do SmartStorage</string>
     <string name="nas_restore_resume_button">Continuar</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">Rede desconectada. Verifique se o SmartStorage está conectado à Internet e tente restaurar novamente.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">Rede desconectada. Verifique se o SmartStorage está conectado à Internet e tente restaurar novamente.</string>
-    <string name="nas_restore_task_progress_summary_pad">Durante a restauração, certifique-se de que o SmartStorage esteja conectado. Não reinicie nem desligue o tablet para evitar a perda de dados.</string>
-    <string name="nas_restore_task_progress_summary_phone">Durante a restauração, certifique-se de que o SmartStorage esteja conectado. Não reinicie nem desligue o celular para evitar a perda de dados.</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Rede desconectada. Certifique-se de que o dispositivo SmartStorage e o seu tablet estejam na mesma rede, e tente restaurar novamente.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Rede desconectada. Certifique-se de que o dispositivo SmartStorage e o seu telefone estejam na mesma rede, e tente restaurar novamente.</string>
+    <string name="nas_restore_task_progress_summary_pad">Durante a restauração, certifique-se de que o seu tablet e o dispositivo SmartStorage estejam na mesma rede. Não reinicie ou desligue o seu telefone para evitar a perda de dados.</string>
+    <string name="nas_restore_task_progress_summary_phone">Durante a restauração, certifique-se de que o seu telefone e o dispositivo SmartStorage estejam na mesma rede. Não reinicie ou desligue o seu telefone para evitar a perda de dados.</string>
     <string name="nas_restore_task_suspend_info_title">Restauração pausada</string>
     <string name="nas_retry_button">Repetir</string>
     <string name="nas_split_check_fail">Não foi possível verificar. Faça o backup novamente.</string>
@@ -910,6 +915,10 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="privacy_policy_link"><Data>"Para saber mais sobre nossa prática de processamento de dados e seus direitos como um usuário, leia e aceite a nossa &lt;a href='%1s'>Política de Privacidade&lt;/a> antes de continuar."</Data></string>
     <string name="privacy_settings">Privacidade</string>
     <string name="privacy_settings_title">Política de Privacidade</string>
+    <string name="privacy_update_dialog_title">Atualização da Política de Privacidade</string>
+    <string name="privacy_update_link_text">Política de Privacidade</string>
+    <string name="privacy_update_message_template">Leia e aceite a %1$s atualizada abaixo antes de continuar utilizando o Backup:</string>
+    <string name="privacy_update_note_placeholder">Para oferecer uma experiência de backup melhor, adicionamos a função de backup e recuperação por meio do Xiaomi Smart Storage. Ao utilizar o app de backup e restauração, forneceremos serviços de backup e restauração de dados por meio do Xiaomi Smart Storage.</string>
     <string name="private_policy_text">Política de Privacidade</string>
     <string name="progress_backup_hint">Fazendo backup…</string>
     <string name="progress_restore_hint">Restaurando…</string>
@@ -935,14 +944,16 @@ você precisa criar um backup na iCloud primeiro."</string>
     <string name="restore_launcher_layout_hit">Restaura as configurações da Tela Inicial</string>
     <string name="restore_progress">Restaurando…</string>
     <string name="restore_report">Detalhes da restauração</string>
-    <string name="restore_suspend_fail_summary_pad">A conexão foi perdida. Assim que o SmartStorage estiver online, toque em \"Tentar novamente\" para retomar a restauração.</string>
-    <string name="restore_suspend_fail_summary_phone">A conexão foi perdida. Assim que o SmartStorage estiver online, toque em \"Tentar novamente\" para retomar a restauração.</string>
-    <string name="restore_suspend_summary_pad">A conexão foi perdida. Assim que o SmartStorage estiver online, a restauração será retomada automaticamente.</string>
-    <string name="restore_suspend_summary_phone">A conexão foi perdida. Assim que o SmartStorage estiver online, a restauração será retomada automaticamente.</string>
+    <string name="restore_suspend_fail_summary_pad">A conexão foi perdida. Certifique-se de que o seu tablet esteja na mesma rede que o dispositivo SmartStorage, e então toque em \"Tentar novamente\" para retomar o backup.</string>
+    <string name="restore_suspend_fail_summary_phone">A conexão foi perdida. Certifique-se de que o seu telefone esteja na mesma rede que o dispositivo SmartStorage, e então toque em \"Tentar novamente\" para retomar a restauração.</string>
+    <string name="restore_suspend_summary_pad">A conexão foi perdida. Restauração em pausa. Assim que o seu tablet estiver na mesma rede que o dispositivo SmartStorage, a restauração continuará automaticamente.</string>
+    <string name="restore_suspend_summary_phone">A conexão foi perdida. Restauração em pausa. Assim que o seu telefone estiver na mesma rede que o dispositivo SmartStorage, a restauração continuará automaticamente.</string>
     <string name="restore_suspend_title">Restauração pausada. Conectando novamente…</string>
     <string name="restore_tab">Restaurar</string>
     <string name="restore_telephony_hit">A restauração reiniciará o app Telefone.</string>
     <string name="restore_tips_dialog_summary">Você está prestes a restaurar os dados do WeChat. Isso substituirá os dados atuais do WeChat pelo backup de %s. Esta ação não pode ser desfeita. Proceda com cuidado.</string>
+    <string name="restore_tips_dialog_summary_qq">Você está prestes a restaurar os dados do QQ. Isso substituirá os dados atuais do QQ pelo backup de %s. Esta ação não pode ser desfeita. Proceda com cuidado.</string>
+    <string name="restore_tips_dialog_summary_qq_wechat">Você está prestes a restaurar os dados do QQ e do WeChat. Isso substituirá os dados atuais do QQ e do WeChat pelo backup de %s. Esta ação não pode ser desfeita. Proceda com cuidado.</string>
     <string name="restore_tips_dialog_title">Atenção</string>
     <string name="resume_backup_nas_task_dialog_title">Backup não concluído</string>
     <string name="resume_backup_toast">Fazendo backup no SmartStorage…</string>

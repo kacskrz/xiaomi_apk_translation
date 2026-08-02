@@ -95,13 +95,16 @@
     <string name="backup_report">عرض التفاصيل</string>
     <string name="backup_security_tips_message">بعض التطبيقات قد لا يمكن نسخها احتياطيا أو استعادتها.</string>
     <string name="backup_security_tips_title">قد لا يعمل النسخ الاحتياطي</string>
-    <string name="backup_suspend_fail_summary_pad">تم فقدان الاتصال. بمجرد أن يصبح SmartStorage متصلًا بالإنترنت، اضغط على \"حاول مجدداً\" لاستئناف النسخ الاحتياطي.</string>
-    <string name="backup_suspend_fail_summary_phone">تم فقدان الاتصال. بمجرد أن يصبح SmartStorage متصلًا بالإنترنت، اضغط على \"المحاولة مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
-    <string name="backup_suspend_summary_pad">تم فقدان الاتصال. بمجرد أن يصبح SmartStorage متصلًا بالإنترنت، سيستأنف النسخ الاحتياطي تلقائيًا.</string>
-    <string name="backup_suspend_summary_phone">تم فقدان الاتصال. بمجرد أن يصبح SmartStorage متصلاً بالإنترنت، سيستأنف النسخ الاحتياطي تلقائيًا.</string>
+    <string name="backup_suspend_fail_summary_pad">انقطع الاتصال. تأكد من أن جهازك اللوحي متصل بنفس الشبكة التي يتصل بها جهاز SmartStorage، ثم اضغط على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
+    <string name="backup_suspend_fail_summary_phone">انقطع الاتصال. تأكد من اتصال هاتفك بنفس الشبكة المتصل بها جهاز SmartStorage، ثم اضغط على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
+    <string name="backup_suspend_summary_pad">انقطع الاتصال. ستستأنف عملية النسخ الاحتياطي تلقائياً بمجرد اتصال جهازك اللوحي بنفس الشبكة التي يتصل بها جهاز SmartStorage.</string>
+    <string name="backup_suspend_summary_phone">انقطع الاتصال. ستستأنف عملية النسخ الاحتياطي تلقائياً بمجرد اتصال هاتفك بنفس الشبكة التي يتصل بها جهاز SmartStorage.</string>
     <string name="backup_suspend_title">تم إيقاف النسخ الاحتياطي مؤقتًا. جارٍ الاتصال مرة أخرى.…</string>
     <string name="backup_tab">النسخ الاحتياطي</string>
     <string name="backup_tips_dialog_summary">لا يدعم استخدام التطبيقات المزدوجة والعناصر الخاصة. هذه النسخة الاحتياطية تتضمن البيانات الحالية فقط. لن تتم مزامنة البيانات الجديدة تلقائيًا.</string>
+    <string name="backup_tips_dialog_summary_nas">"%1$d. لا يدعم التطبيقات المزدوجة أو العناصر الخاصة.
+%2$d. يتضمن هذا النسخ الاحتياطي فقط البيانات التي أُنشئت قبل بدء عملية النسخ الاحتياطي. ولن تضمن أي بيانات جديدة تُضاف بعد ذلك.
+%3$d. لقد حددت %4$s من البيانات للنسخ الاحتياطي. تتطلب الاستعادة مساحة خالية لا تقل عن %5$d أضعاف حجم البيانات، وسيتم تحرير هذه المساحة تلقائيًا بعد اكتمال الاستعادة."</string>
     <string name="backup_tips_dialog_title">ضع في اعتبارك</string>
     <string name="backup_update">تحديث</string>
     <string name="batch_delete_backup_confirm">حذف النسخ الاحتياطية المحددة؟</string>
@@ -506,23 +509,25 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="name_password_not_consistent">اسم المستخدم او كلمة المرور غير صحيحة</string>
     <string name="nas_backup_progress_title">النسخ الاحتياطي إلى SmartStorage</string>
     <string name="nas_backup_resume_button">إستئناف</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">انقطع اتصال الشبكة. تأكد من أن SmartStorage متصل بالإنترنت، ثم حاول إجراء النسخ الاحتياطي مرة أخرى.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">انقطع اتصال الشبكة. تأكد من أن SmartStorage متصل بالإنترنت، ثم حاول النسخ الاحتياطي مرة أخرى.</string>
-    <string name="nas_backup_task_progress_summary_pad">أثناء النسخ الاحتياطي، تأكد من أن SmartStorage متصل بالإنترنت. لا تعد تشغيل جهازك اللوحي أو تطفئه لتجنب فقدان البيانات.</string>
-    <string name="nas_backup_task_progress_summary_phone">أثناء النسخ الاحتياطي، تأكد من أن SmartStorage متصل بالإنترنت. لا تعد تشغيل هاتفك أو تطفئه لتجنب فقدان البيانات.</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">تم فصل الشبكة. تأكد من أن جهاز SmartStorage متصل بنفس الشبكة التي يتصل بها جهازك اللوحي، ثم حاول إجراء النسخ الاحتياطي مرة أخرى.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">تم فصل الشبكة. تأكد من أن جهاز SmartStorage متصل بنفس الشبكة التي يتصل بها هاتفك، ثم حاول إجراء النسخ الاحتياطي مرة أخرى.</string>
+    <string name="nas_backup_task_progress_summary_pad">أثناء إجراء النسخ الاحتياطي، تأكد من اتصال جهازك اللوحي بنفس الشبكة المتصل بها جهاز SmartStorage. تجنب إعادة تشغيل الجهاز اللوحي أو إيقاف تشغيله لتفادي فقدان البيانات.</string>
+    <string name="nas_backup_task_progress_summary_phone">أثناء إجراء النسخ الاحتياطي، تأكد من اتصال هاتفك بنفس الشبكة المتصل بها جهاز SmartStorage. تجنَّب إعادة تشغيل الهاتف أو إيقاف تشغيله لتفادي فقدان البيانات.</string>
     <string name="nas_backup_task_suspend_info_title">تم إيقاف النسخ الاحتياطي مؤقتًا</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">إلغاء</string>
     <string name="nas_connecting_progress_dialog">جاري الاتصال بـ SmartStorage…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"لاستخدام SmartStorage للنسخ الاحتياطي والاستعادة، تأكد مما يلي:
-%d. جهاز SmartStorage متصل بالإنترنت.
-%d. اتصال الشبكة مستقر. (لا تعيد تشغيل جهازك اللوحي أو تطفئه أثناء النسخ الاحتياطي أو الاستعادة).
-%d. تأكد من تفعيل ميزة الربط بين الأجهزة على جهازك اللوحي وجهاز SmartStorage."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"لاستخدام SmartStorage للنسخ الاحتياطي والاستعادة، تأكد مما يلي:
-%d. جهاز SmartStorage متصل بالإنترنت.
-%d. اتصال الشبكة مستقر. (لا تعيد تشغيل هاتفك أو تطفئه أثناء النسخ الاحتياطي أو الاستعادة).
-%d. تأكد من تفعيل ميزة الربط بين الأجهزة على هاتفك وجهاز SmartStorage."</string>
-    <string name="nas_disconnect_dialog_title">لا يمكن الاتصال بـ SmartStorage</string>
+    <string name="nas_disconnect_dialog_summary_pad">"لاستخدام SmartStorage للنسخ الاحتياطي والاستعادة، تأكد مما يلي:
+%1$d. جهاز SmartStorage متصل بالإنترنت.
+%2$d. جهازك اللوحي متصل بشبكة Wi-Fi نفسها التي يتصل بها جهاز SmartStorage.
+%3$d. اتصال الشبكة مستقر. (لا تعد تشغيل جهازك اللوحي أو تطفئه أثناء النسخ الاحتياطي أو الاستعادة).
+%4$d. تأكد من تفعيل ميزة الربط بين الأجهزة على كل من جهازك اللوحي وجهاز SmartStorage."</string>
+    <string name="nas_disconnect_dialog_summary_phone">"لاستخدام SmartStorage للنسخ الاحتياطي والاستعادة، تأكد مما يلي:
+%1$d. جهاز SmartStorage متصل بالإنترنت.
+%2$d. هاتفك متصل بشبكة Wi-Fi نفسها التي يتصل بها جهاز SmartStorage.
+%3$d. اتصال الشبكة مستقر. (لا تُعِد تشغيل هاتفك أو تطفئه أثناء النسخ الاحتياطي أو الاستعادة).
+%4$d. تأكد من تفعيل ميزة الربط بين الأجهزة على كلٍ من هاتفك وجهاز SmartStorage."</string>
+    <string name="nas_disconnect_dialog_title">لم أتمكن من الاتصال</string>
     <string name="nas_low_memory_progress_backup_summary_nas">مساحة SmartStorage غير كافية. حرر بعض المساحة وانقر على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">مساحة التخزين على جهازك اللوحي غير كافية. حرر مساحة وانقر على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
     <string name="nas_low_memory_progress_backup_summary_phone">مساحة تخزين هاتفك غير كافية. حرر بعض المساحة وانقر على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
@@ -542,10 +547,10 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="nas_restore_notification_title">استعادة سجل WeChat من Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">استعادة من SmartStorage</string>
     <string name="nas_restore_resume_button">إستئناف</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">انقطع اتصال الشبكة. تأكد من أن SmartStorage متصل بالإنترنت، ثم حاول الاستعادة مرة أخرى.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">انقطع اتصال الشبكة. تأكد من أن SmartStorage متصل بالإنترنت، ثم حاول الاستعادة مرة أخرى.</string>
-    <string name="nas_restore_task_progress_summary_pad">أثناء الاستعادة، تأكد من أن SmartStorage متصل بالإنترنت. لا تعد تشغيل جهازك اللوحي أو تطفئه لتجنب فقدان البيانات.</string>
-    <string name="nas_restore_task_progress_summary_phone">أثناء الاستعادة، تأكد من أن SmartStorage متصل بالإنترنت. لا تعد تشغيل هاتفك أو تطفئه لتجنب فقدان البيانات.</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">تم فصل الشبكة. تأكد من أن جهاز SmartStorage متصل بنفس الشبكة التي يتصل بها جهازك اللوحي، ثم حاول إجراء الاستعادة مرة أخرى.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">تم فصل الشبكة. تأكد من أن جهاز SmartStorage متصل بنفس الشبكة التي يتصل بها هاتفك، ثم حاول إجراء الاستعادة مرة أخرى.</string>
+    <string name="nas_restore_task_progress_summary_pad">أثناء عملية الاستعادة، تأكد من أن جهازك اللوحي متصل بنفس الشبكة التي يتصل بها جهاز SmartStorage. لا تقم بإعادة تشغيل الجهاز اللوحي أو إيقاف تشغيله لتجنب فقدان البيانات.</string>
+    <string name="nas_restore_task_progress_summary_phone">أثناء عملية الاستعادة، تأكد من اتصال هاتفك بنفس الشبكة المتصل بها جهاز SmartStorage. تجنب إعادة تشغيل الهاتف أو إيقاف تشغيله لتفادي فقدان البيانات.</string>
     <string name="nas_restore_task_suspend_info_title">تم إيقاف الاستعادة</string>
     <string name="nas_retry_button">حاول مجددًا</string>
     <string name="nas_split_check_fail">تعذر التحقق. سأقوم بإعادة المحاولة.</string>
@@ -910,6 +915,10 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="privacy_policy_link"><Data>"لمزيد من المعلومات حول كيفية معالجتنا لبياناتك وفهم حقوقك كمستخدم، يرجى القراءة والموافقة على &lt;a href='%1s'>سياسة الخصوصية&lt;/a> قبل المتابعة."</Data></string>
     <string name="privacy_settings">الخصوصية</string>
     <string name="privacy_settings_title">سياسة الخصوصية</string>
+    <string name="privacy_update_dialog_title">تحديث سياسة الخصوصية</string>
+    <string name="privacy_update_link_text">سياسة الخصوصية</string>
+    <string name="privacy_update_message_template">اقرأ %1$s المحدَّث أدناه ووافق عليه لمواصلة استخدام ميزة \"النسخ الاحتياطي\":</string>
+    <string name="privacy_update_note_placeholder">لتقديم تجربة نسخ احتياطي أفضل، أضفنا ميزة النسخ الاحتياطي والاستعادة عبر Xiaomi Smart Storage. وعند استخدامك لتطبيق النسخ الاحتياطي والاستعادة، سنقدم لك خدمات النسخ الاحتياطي للبيانات واستعادتها من خلال Xiaomi Smart Storage.</string>
     <string name="private_policy_text">سياسة الخصوصية</string>
     <string name="progress_backup_hint">جارٍ النسخ الاحتياطي…</string>
     <string name="progress_restore_hint">جارٍ الاستعادة…</string>
@@ -935,14 +944,16 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق بخطو�
     <string name="restore_launcher_layout_hit">استعادة إعدادات المشغل</string>
     <string name="restore_progress">جارٍ الاستعادة…</string>
     <string name="restore_report">تفاصيل الاستعادة</string>
-    <string name="restore_suspend_fail_summary_pad">تم فقدان الاتصال. بمجرد أن يصبح SmartStorage متصلًا بالإنترنت، اضغط على \"حاول مجدداً\" لاستئناف عملية الاستعادة.</string>
-    <string name="restore_suspend_fail_summary_phone">تم فقدان الاتصال. بمجرد أن يصبح SmartStorage متصلًا بالإنترنت، اضغط على \"حاول مجدداً\" لاستئناف الاستعادة.</string>
-    <string name="restore_suspend_summary_pad">تم فقدان الاتصال. بمجرد أن يصبح SmartStorage متصلًا بالإنترنت، ستستأنف عملية الاستعادة تلقائيًا.</string>
-    <string name="restore_suspend_summary_phone">تم فقدان الاتصال. بمجرد أن يصبح SmartStorage متصلًا بالإنترنت، ستستأنف الاستعادة تلقائيًا.</string>
+    <string name="restore_suspend_fail_summary_pad">انقطع الاتصال. تأكد من أن جهازك اللوحي متصل بنفس الشبكة التي يتصل بها جهاز SmartStorage، ثم اضغط على \"حاول مرة أخرى\" لاستئناف النسخ الاحتياطي.</string>
+    <string name="restore_suspend_fail_summary_phone">انقطع الاتصال. تأكد من أن هاتفك متصل بنفس الشبكة التي يتصل بها جهاز SmartStorage، ثم اضغط على \"المحاولة مرة أخرى\" لاستئناف عملية الاستعادة.</string>
+    <string name="restore_suspend_summary_pad">انقطع الاتصال وتوقفت عملية الاستعادة مؤقتاً. ستستأنف عملية الاستعادة تلقائياً بمجرد اتصال جهازك اللوحي بنفس الشبكة التي يتصل بها جهاز SmartStorage.</string>
+    <string name="restore_suspend_summary_phone">انقطع الاتصال وتوقفت عملية الاستعادة مؤقتاً. ستستأنف العملية تلقائياً بمجرد اتصال هاتفك بنفس الشبكة المتصل بها جهاز SmartStorage.</string>
     <string name="restore_suspend_title">تم إيقاف الاستعادة مؤقتًا. جارٍ الاتصال مجددًا.…</string>
     <string name="restore_tab">استعادة</string>
     <string name="restore_telephony_hit">ستؤدي عملية الاستعادة إلى إعادة تشغيل تطبيق الهاتف.</string>
     <string name="restore_tips_dialog_summary">أنت على وشك استعادة بيانات WeChat. سيؤدي هذا إلى استبدال بيانات WeChat الحالية بالنسخة الاحتياطية من %s. لا يمكن التراجع عن هذا الإجراء. يرجى المتابعة بحذر.</string>
+    <string name="restore_tips_dialog_summary_qq">أنت على وشك استعادة بيانات QQ. سيؤدي ذلك إلى استبدال بيانات QQ الحالية بالنسخة الاحتياطية المؤرخة %s. لا يمكن التراجع عن هذا الإجراء. يرجى المتابعة بحذر.</string>
+    <string name="restore_tips_dialog_summary_qq_wechat">أنت على وشك استعادة بيانات QQ وWeChat. سيؤدي ذلك إلى استبدال بيانات QQ وWeChat الحالية بالنسخة الاحتياطية المؤرخة %s. لا يمكن التراجع عن هذا الإجراء. يُرجى المتابعة بحذر.</string>
     <string name="restore_tips_dialog_title">تنبيه</string>
     <string name="resume_backup_nas_task_dialog_title">نسخة احتياطية غير مكتملة</string>
     <string name="resume_backup_toast">النسخ الاحتياطي إلى SmartStorage…</string>

@@ -95,13 +95,16 @@
     <string name="backup_report">Прикажи детаље</string>
     <string name="backup_security_tips_message">Неке апликације можда неће моћи бити бекаповане или враћене.</string>
     <string name="backup_security_tips_title">Бекапи можда неће радити</string>
-    <string name="backup_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
-    <string name="backup_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume backup.</string>
-    <string name="backup_suspend_summary_pad">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
-    <string name="backup_suspend_summary_phone">Connection was lost. Once SmartStorage is online, backup will resume automatically.</string>
+    <string name="backup_suspend_fail_summary_pad">Connection was lost. Make sure your tablet is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_fail_summary_phone">Connection was lost. Make sure your phone is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="backup_suspend_summary_pad">Connection was lost. Once your tablet is on the same network as the SmartStorage device, backup will resume automatically.</string>
+    <string name="backup_suspend_summary_phone">Connection was lost. Once your phone is on the same network as the SmartStorage device, backup will resume automatically.</string>
     <string name="backup_suspend_title">Прављење резервне копије је паузирано. Поново се повезује…</string>
     <string name="backup_tab">Бекапуј</string>
     <string name="backup_tips_dialog_summary">Двојне апликације и приватне ставке нису подржане. Овај бекап укључује само податке до сада. Нови подаци се неће аутоматски синхронизовати.</string>
+    <string name="backup_tips_dialog_summary_nas">"%1$d. Dual apps and private items aren't supported.
+%2$d. This backup only includes data created before the backup started. New data added later won't be included.
+%3$d. You've selected %4$s of data to back up. Restoration requires at least %5$d times as much free space, which will be released automatically after restoration is complete."</string>
     <string name="backup_tips_dialog_title">Имајте на уму</string>
     <string name="backup_update">Ажурирај</string>
     <string name="batch_delete_backup_confirm">Обрисати изабране бекапе?</string>
@@ -506,23 +509,25 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="name_password_not_consistent">Погрешно корисничко име или лозинка</string>
     <string name="nas_backup_progress_title">Бекапуј у SmartStorage</string>
     <string name="nas_backup_resume_button">Настави</string>
-    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
-    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try backing up again.</string>
-    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
-    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
+    <string name="nas_backup_task_progress_failed_summary_pad">Network disconnected. Make sure the SmartStorage device is on the same network as your tablet, then try backing up again.</string>
+    <string name="nas_backup_task_progress_failed_summary_phone">Network disconnected. Make sure the SmartStorage device is on the same network as your phone, then try backing up again.</string>
+    <string name="nas_backup_task_progress_summary_pad">"During the backup, make sure your tablet is on the same network as the SmartStorage device. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_backup_task_progress_summary_phone">"During the backup, make sure your phone is on the same network as the SmartStorage device. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_backup_task_suspend_info_title">Бекап паузиран</string>
     <string name="nas_backup_title">SmartStorage</string>
     <string name="nas_cancel_button">Откажи</string>
     <string name="nas_connecting_progress_dialog">Повезивање са SmartStorage-ом…</string>
-    <string name="nas_disconnect_dialog_summary_pad" formatted="false">"To use SmartStorage for backups and restoration, make sure:
-%d. SmartStorage device is online.
-%d. The network is stable. (Don't reboot or power off your tablet during backups or restoration).
-%d. Make sure Interconnectivity is turned on on both your tablet and SmartStorage device."</string>
-    <string name="nas_disconnect_dialog_summary_phone" formatted="false">"To use SmartStorage for backups and restoration, make sure:
-%d. SmartStorage device is online.
-%d. The network is stable. (Don't reboot or power off your phone during backups or restoration).
-%d. Make sure Interconnectivity is turned on on both your phone and SmartStorage device."</string>
-    <string name="nas_disconnect_dialog_title">Онемогућено повезивање са SmartStorage-ом</string>
+    <string name="nas_disconnect_dialog_summary_pad">"To use SmartStorage for backups and restoration, make sure:
+%1$d. SmartStorage device is online.
+%2$d. Your tablet is connected to Wi-Fi and on the same network as the SmartStorage device.
+%3$d. The network is stable. (Don't reboot or power off your tablet during backups or restoration).
+%4$d. Make sure Interconnectivity is turned on on both your tablet and SmartStorage device."</string>
+    <string name="nas_disconnect_dialog_summary_phone">"To use SmartStorage for backups and restoration, make sure:
+%1$d. SmartStorage device is online.
+%2$d. Your phone is connected to Wi-Fi and on the same network as the SmartStorage device.
+%3$d. The network is stable. (Don't reboot or power off your phone during backups or restoration).
+%4$d. Make sure Interconnectivity is turned on on both your phone and SmartStorage device."</string>
+    <string name="nas_disconnect_dialog_title">"Couldn't connect"</string>
     <string name="nas_low_memory_progress_backup_summary_nas">Нема довољно складишног простора. Ослободите простор и додирните „Покушај опет“ да бисте наставили прављење резервне копије.</string>
     <string name="nas_low_memory_progress_backup_summary_pad">Нема довољно складишног простора на таблету. Ослободите простор и додирните „Покушај опет“ да бисте наставили прављење резервне копије.</string>
     <string name="nas_low_memory_progress_backup_summary_phone">Нема довољно складишног простора на телефону. Ослободите простор и додирните „Покушај опет“ да бисте наставили прављење резервне копије.</string>
@@ -542,10 +547,10 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="nas_restore_notification_title">Restoring WeChat history from Xiaomi SmartStorage…</string>
     <string name="nas_restore_progress_title">Врати из SmartStorage</string>
     <string name="nas_restore_resume_button">Настави</string>
-    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
-    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure SmartStorage is online, then try restoring again.</string>
-    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your tablet to avoid data loss."</string>
-    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure SmartStorage is online. Don't reboot or power off your phone to avoid data loss."</string>
+    <string name="nas_restore_task_progress_failed_summary_pad">Network disconnected. Make sure the SmartStorage device is on the same network as your tablet, then try restoring again.</string>
+    <string name="nas_restore_task_progress_failed_summary_phone">Network disconnected. Make sure the SmartStorage device is on the same network as your phone, then try restoring again.</string>
+    <string name="nas_restore_task_progress_summary_pad">"During the restoration, make sure your tablet is on the same network as the SmartStorage device. Don't reboot or power off your tablet to avoid data loss."</string>
+    <string name="nas_restore_task_progress_summary_phone">"During the restoration, make sure your phone is on the same network as the SmartStorage device. Don't reboot or power off your phone to avoid data loss."</string>
     <string name="nas_restore_task_suspend_info_title">Враћање је паузирано</string>
     <string name="nas_retry_button">Покушај опет</string>
     <string name="nas_split_check_fail">Потврђивање није успело. Бекапујте опет.</string>
@@ -910,6 +915,10 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="privacy_policy_link"><Data>"Да бисте сазнали више о начинима обрађивања података и вашим корисничким правима, потребно је да прочитате и прихватите наша &lt;a href='%1s'>Правила о приватности&lt;/a> пре него што наставите."</Data></string>
     <string name="privacy_settings">Приватност</string>
     <string name="privacy_settings_title">Правила о приватности</string>
+    <string name="privacy_update_dialog_title">Privacy Policy update</string>
+    <string name="privacy_update_link_text">Privacy Policy</string>
+    <string name="privacy_update_message_template">Read and agree to the updated %1$s below to continue using Backup:</string>
+    <string name="privacy_update_note_placeholder">To provide a better backup experience, we have added the function of backup and recovery through Xiaomi Smart Storage. When you use the backup and recovery application, we will provide data backup and recovery services through Xiaomi Smart Storage.</string>
     <string name="private_policy_text">Правила о приватности</string>
     <string name="progress_backup_hint">Бекаповање…</string>
     <string name="progress_restore_hint">Враћање…</string>
@@ -935,14 +944,16 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="restore_launcher_layout_hit">Врати поставке покретача</string>
     <string name="restore_progress">Враћање…</string>
     <string name="restore_report">Вратити детаље</string>
-    <string name="restore_suspend_fail_summary_pad">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
-    <string name="restore_suspend_fail_summary_phone">Connection was lost. Once SmartStorage is online, tap \"Try again\" to resume restoration.</string>
-    <string name="restore_suspend_summary_pad">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
-    <string name="restore_suspend_summary_phone">Connection was lost. Once SmartStorage is online, restoration will resume automatically.</string>
+    <string name="restore_suspend_fail_summary_pad">Connection was lost. Make sure your tablet is on the same network as the SmartStorage device, then tap \"Try again\" to resume backup.</string>
+    <string name="restore_suspend_fail_summary_phone">Connection was lost. Make sure your phone is on the same network as the SmartStorage device, then tap \"Try again\" to resume restoration.</string>
+    <string name="restore_suspend_summary_pad">Connection was lost. Restoration paused. Once your tablet is on the same network as the SmartStorage device, restoration will resume automatically.</string>
+    <string name="restore_suspend_summary_phone">Connection was lost. Restoration paused. Once your phone is on the same network as the SmartStorage device, restoration will resume automatically.</string>
     <string name="restore_suspend_title">Враћање је паузирано. Поново се повезује…</string>
     <string name="restore_tab">Врати</string>
     <string name="restore_telephony_hit">Враћање ће рестартовати апликацију телефона.</string>
     <string name="restore_tips_dialog_summary">Биће враћени WeChat подаци. Ово ће пребрисати тренутне WeChat податке резервном копијом из %s. Ова радња се не може поништити. Будите опрезни.</string>
+    <string name="restore_tips_dialog_summary_qq">"You're about to restore QQ data. This will overwrite current QQ data with the backup from %s. This action can't be undone. Proceed with caution."</string>
+    <string name="restore_tips_dialog_summary_qq_wechat">"You're about to restore QQ and WeChat data. This will overwrite current QQ and WeChat data with the backup from %s. This action can't be undone. Proceed with caution."</string>
     <string name="restore_tips_dialog_title">Пажња</string>
     <string name="resume_backup_nas_task_dialog_title">Недовршени бекап</string>
     <string name="resume_backup_toast">Бекаповање на SmartStorage…</string>
