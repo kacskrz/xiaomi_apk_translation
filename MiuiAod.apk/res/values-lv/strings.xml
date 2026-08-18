@@ -42,6 +42,7 @@
     <string name="add_custom_image">Pielāgots attēls</string>
     <string name="add_from_local">Izvēlēt attēlu</string>
     <string name="afternoon">Pēcpusdiena</string>
+    <string name="air_quality_index_abbreviation">GKI</string>
     <string name="align_center_horizontally">Horizontāli un izlīdzināts centrā</string>
     <string name="align_center_vertically">Grupēts un izlīdzināts centrā</string>
     <string name="align_left_horizontally">Horizontāli un pa kreisi izlīdzināts</string>
@@ -64,6 +65,9 @@
     <string name="aod_app_name">Aktīvās matricas displejs un Bloķēšanas ekrāna rediģētājs</string>
     <string name="aod_close_color_inversion">Šo funkciju nevar apvienot ar krāsu inversiju. No sākuma izslēdziet krāsu inversiju.</string>
     <string name="aod_component">Parādītie vienumi</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Vairāk iespēju</string>
     <string name="aod_gradient_1">Gaiši zils un zilganzaļš gradients</string>
     <string name="aod_gradient_10">Rozā, oranžs un violets gradients</string>
@@ -115,6 +119,7 @@ dd.MM"</string>
     <string name="aod_resting_screen_define">Personalizēt</string>
     <string name="aod_resting_screen_same_to_lock">Tāds pats kā Bloķēšanas ekrāns</string>
     <string name="aod_resting_screen_style_title">Motīvs</string>
+    <string name="aod_setting_fold_full_aod_summary">Šo stilu var izmantot tikai ārējā ekrānā</string>
     <string name="aod_setting_pad_des2">Pulksteņa krāsa atbildīs jūsu ekrāna tapetes krāsai</string>
     <string name="aod_show_date_and_time">Rādīt laiku un datumu</string>
     <string name="aod_show_mode_title_des_pad">Vienmēr rādīt uzlādes laikā</string>
@@ -139,6 +144,8 @@ dd.MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Tika veikts dubultskāriens uz vilkšanas tura</string>
     <string name="bottomsheet_drag_handle_content_description">Vilkšanas turis</string>
     <string name="btn_know">Sapratu</string>
+    <string name="calendar_date_picker_a11y_next_month">Pāriet uz nākamo mēnesi</string>
+    <string name="calendar_date_picker_a11y_prev_month">Pāriet uz iepriekšējo mēnesi</string>
     <string name="call_notification_answer_action">Atbildēt</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Noraidīt</string>
@@ -186,6 +193,10 @@ dd.MM"</string>
     <string name="deep_space_planet_des">Šis motīvs atspoguļo izmaiņas gaismā, kas notiek ap jums dienas laikā. Saullēkti un saulrieti šajā motīvā arī ir sinhronizēti ar jūsu atrašanās vietu.</string>
     <string name="default_clock_style">Nezināms zvans</string>
     <string name="delete">Dzēst</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Ciparu</string>
     <string name="disable_aod_in_power_save_mode">Izslēgt, kad Baterijas taupītājs ir ieslēgts</string>
     <string name="disable_aod_in_power_save_mode_summary">Nerādīt vienumus, lai taupītu enerģiju</string>
@@ -290,6 +301,13 @@ dd.MM"</string>
     <string name="health_chart_step_count_unit">Soļi</string>
     <string name="health_no_data">Nav veselības datu</string>
     <string name="health_sleep_desc">Miega ilgums %1$s, miega kvalitāte: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horizontāls pulkstenis</string>
     <string name="humidity_format">Mitrums %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +320,23 @@ dd.MM"</string>
     <string name="keyguard_shortcut_tab_right">Labā</string>
     <string name="keyguard_shortcut_title">Saīsnes</string>
     <string name="kg_activity_label">Rediģēt Bloķēšanas ekrānu</string>
+    <string name="kg_allinone_drag_bottom">Velciet pulksteņa apakšējo malu, lai pielāgotu tā augstumu</string>
+    <string name="kg_allinone_drag_corner">Pavelciet pulksteņa apakšējo labo stūri, lai mainītu izmēru</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (noapaļots)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (kvadrātveida)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Šis fonts neatbalsta kontūru stilus</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Pašreizējais fontu stils, izmērs un biezums neatbalsta kontūru stilus</string>
+    <string name="kg_allinone_hollow_style_both">Stundas un minūtes: izceltas</string>
+    <string name="kg_allinone_hollow_style_hour">Stundas: izceltas. Minūtes: nepārtrauktas.</string>
+    <string name="kg_allinone_hollow_style_minute">Stundas: nepārtrauktas. Minūtes: izceltas.</string>
+    <string name="kg_allinone_hollow_style_none">Stundas un minūtes: nepārtraukts</string>
+    <string name="kg_allinone_hollow_style_title">Kontūru stils</string>
+    <string name="kg_allinone_transparency_name">Pulksteņa caurspīdīgums</string>
+    <string name="kg_allinone_transparency_title">Caurspīdīgums</string>
+    <string name="kg_allinone_weight_title">Fonta biezums</string>
     <string name="kg_aod_settings_depth_video_toast">Izmantojot dziļuma efektu, tiek atbalstīts tikai pielāgotais Aktīvās matricas displejs</string>
     <string name="kg_apply">Piemērot</string>
     <string name="kg_apply_dialog_desktop_preview">Sākuma ekrāna priekšskatījums</string>
@@ -374,9 +409,13 @@ dd.MM"</string>
     <string name="kg_color_value_editor_lightness">Vieglums</string>
     <string name="kg_color_value_editor_saturation">Piesātinājums</string>
     <string name="kg_color_value_editor_title">Rediģēt krāsu</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Labi</string>
     <string name="kg_continue_editing">Turpināt rediģēšanu</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Personalizēt</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Vai dzēst šo komplektu?</string>
     <string name="kg_delete_this_collocation_desc">Šī komplekta Bloķēšanas ekrāna un Sākuma ekrāna iestatījumi tiks dzēsti. Vai dzēst komplektu?</string>
     <string name="kg_depth_preset_button_download">Lejupielādēt dinamisku tapeti</string>
@@ -457,6 +496,7 @@ dd.MM"</string>
     <string name="kg_effects_tip_button">Sapratu</string>
     <string name="kg_effects_tip_desc">Lauka dziļuma efektu nevar apvienot ar filtriem. Izmantojot vienu no tiem, tiks aizstāts otrs.</string>
     <string name="kg_effects_tip_not_support">Dinamiskām fona tapetēm nevar lietot efektus</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Stikla pulkstenis neatbalsta efektus</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Trešo pušu tapetes neatbalsta efektus</string>
     <string name="kg_effects_tip_title">Lauka dziļums un filtri</string>
     <string name="kg_enable_blur">Matēts efekts</string>
@@ -481,6 +521,8 @@ dd.MM"</string>
     <string name="kg_font_filter_color_white">Balts</string>
     <string name="kg_font_filter_doodle_primary_label">Skice</string>
     <string name="kg_font_filter_doodle_secondary_label">Fons</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Izpludināt un sapludināt</string>
+    <string name="kg_font_filter_group_label_glass">Stikls</string>
     <string name="kg_font_filter_group_label_glow">Spīdums</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradients</string>
     <string name="kg_font_filter_group_label_obscure">Sajaukums</string>
@@ -574,6 +616,8 @@ dd.MM"</string>
     <string name="kg_oversize_clock_type_bold">Trekns</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Kontūra</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Izvēlēties vēlreiz</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Trekns serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Ota</string>
@@ -623,15 +667,19 @@ dd.MM"</string>
     <string name="kg_talkback_pick_wallpaper">Ekrāna tapete, izvēlieties no bibliotēkas</string>
     <string name="kg_talkback_select_all">Izvēlēt visus</string>
     <string name="kg_talkback_selected">Izvēlēti</string>
+    <string name="kg_talkback_slide_up_or_down">Pavelciet uz augšu vai uz leju, lai pielāgotu</string>
     <string name="kg_talkback_unselect_all">Neizvēlēt nevienu</string>
     <string name="kg_template_description_car">Kur tehnoloģija satiekas ar skaistumu: izbaudiet nākotnes ātrumu ar katru atbloķēšanu.</string>
     <string name="kg_template_description_classic">Klasika nekad neiziet no modes.</string>
     <string name="kg_template_description_eastern_art">Mūsdienīga austrumu elementu interpretācija, izmantojot klasisko šķērssimetriju, izteiktu vertikālo izkārtojumu un kaligrāfisko izteiksmi</string>
     <string name="kg_template_description_magazine">Pārvērtiet savu Bloķēšanas ekrānu par žurnāla vāku.</string>
+    <string name="kg_template_description_magazine_natural">Pulksteņa stils, kas apvieno dabas ainavas ar daudzslāņainiem vizuāliem efektiem, radot izsmalcinātu un izteiksmīgu izskatu</string>
     <string name="kg_template_description_rhombus">Laiks ir svarīgs. Ņemiet to vērā.</string>
     <string name="kg_template_preview_content_description">Priekšskatīt</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Lielais pulkstenis A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Lielais pulkstenis B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Lielais pulkstenis C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Lielais pulkstenis D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klasisks</string>
     <string name="kg_template_title_classic_max_talkback">Klasisks Bloķēšanas ekrāns MAX</string>
@@ -651,6 +699,7 @@ dd.MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Žurnāls B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Žurnāls C, iezīmēts</string>
     <string name="kg_template_title_magazine_c_three_talkback">Žurnāls C, trīskārša līnija</string>
+    <string name="kg_template_title_magazine_natural">Dabas vizuālie elementi</string>
     <string name="kg_template_title_magazine_phone">Cilvēki</string>
     <string name="kg_template_title_mine">Bloķēt ekrānu</string>
     <string name="kg_template_title_mine_collocation">Mani komplekti</string>
@@ -804,6 +853,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Pārslēgt uz pusekrānu</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Palielināt</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Samazināt</string>
+    <string name="miuix_popup_show_description">Uznirstošais logs</string>
     <string name="miuix_popup_window_default_title">Uznirstošais logs</string>
     <string name="miuix_progressbar_loading">Ielādē</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pavelciet uz leju, lai atsvaidzinātu</string>
@@ -907,6 +957,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">Labi</string>
     <string name="my_style_title">Mans motīvs</string>
     <string name="night">Vakars</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Pusdienlaiks</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Nav iestatīts</string>
@@ -945,6 +996,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktīvais periods: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Ieplānots</string>
     <string name="scheduled_style_summary">Iestatīt pielāgotu laiku</string>
     <string name="scope_des">Kaleidoskopā ir 5 dažādas kombinācijas, kas tiks parādītas pēc kārtas katru reizi, kad ekrāns iedegsies.</string>
@@ -956,6 +1008,7 @@ mm"</string>
     <string name="select_notification_animation_style">Izvēlieties īpašo efektu</string>
     <string name="select_notification_notify_style">Izvēlēt paziņojumu efekts</string>
     <string name="send">Sūtīt</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Izsl.</string>
     <string name="settings_view_btn_check_on">Iesl.</string>
     <string name="settings_view_btn_stoped">Izslēgts</string>
@@ -995,7 +1048,7 @@ brīnišķīgs"</string>
     <string name="sunset_time_format">Saulriets %s</string>
     <string name="sunset_time_format_desc">Saulrieta laiks: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd.M."</string>
+M/dd"</string>
     <string name="talkback_invert_color">Krāsu inversija</string>
     <string name="temporary_style">10 sekundes pēc pieskaršanās</string>
     <string name="temporary_style_5">5 sekundes pēc pieskaršanās</string>

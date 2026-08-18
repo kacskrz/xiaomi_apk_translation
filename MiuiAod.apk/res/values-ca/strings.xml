@@ -42,6 +42,7 @@
     <string name="add_custom_image">Imatge personalitzada</string>
     <string name="add_from_local">Selecciona imatge</string>
     <string name="afternoon">Tarda</string>
+    <string name="air_quality_index_abbreviation">IQA</string>
     <string name="align_center_horizontally">Horitzontal i alineat al centre</string>
     <string name="align_center_vertically">Apilat i alineat al centre</string>
     <string name="align_left_horizontally">"Horitzontal i alineat a L'esquerra"</string>
@@ -64,6 +65,9 @@
     <string name="aod_app_name">Pantalla sempre encesa i editor de la Pantalla de bloqueig</string>
     <string name="aod_close_color_inversion">Aquesta característica no es pot combinar amb la inversió del color. Desactiveu la inversió de color primer.</string>
     <string name="aod_component">Elements mostrats</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Més opcions</string>
     <string name="aod_gradient_1">Degradat de blau clar i verd blavós</string>
     <string name="aod_gradient_10">Degradat de rosa, taronja i morat</string>
@@ -115,6 +119,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">Personalitza</string>
     <string name="aod_resting_screen_same_to_lock">Igual que la Pantalla de bloqueig</string>
     <string name="aod_resting_screen_style_title">Tema</string>
+    <string name="aod_setting_fold_full_aod_summary">Aquest estil només es pot utilitzar a la pantalla exterior</string>
     <string name="aod_setting_pad_des2">El color del rellotge coincidirà amb el del vostre fons de pantalla</string>
     <string name="aod_show_date_and_time">Mostrar data i hora</string>
     <string name="aod_show_mode_title_des_pad">Mostra sempre quan es carrega</string>
@@ -139,6 +144,8 @@ dd/MM"</string>
     <string name="bottomsheet_drag_handle_clicked">"Has fet doble toc a l'ansa per arrossegar"</string>
     <string name="bottomsheet_drag_handle_content_description">Ansa per arrossegar</string>
     <string name="btn_know">Entesos</string>
+    <string name="calendar_date_picker_a11y_next_month">Canvia al mes següent</string>
+    <string name="calendar_date_picker_a11y_prev_month">Canvia al mes anterior</string>
     <string name="call_notification_answer_action">Respon</string>
     <string name="call_notification_answer_video_action">Vídeo</string>
     <string name="call_notification_decline_action">Rebutja</string>
@@ -186,6 +193,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">Aquest tema reflecteix els canvis de llum que hi ha al teu voltant durant el dia. Les sortides i postes de sol també estan sincronitzades amb la teva ubicació.</string>
     <string name="default_clock_style">Esfera desconeguda</string>
     <string name="delete">Esborra</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digital</string>
     <string name="disable_aod_in_power_save_mode">"Apaga-ho quan estigui activat l'estalvi de bateria"</string>
     <string name="disable_aod_in_power_save_mode_summary">No mostrar els elements, per a estalviar bateria</string>
@@ -290,6 +301,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">Passes</string>
     <string name="health_no_data">Sense dades de salut</string>
     <string name="health_sleep_desc">Durada del son %1$s, qualitat del son: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Rellotge horitzontal</string>
     <string name="humidity_format">Humitat %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +320,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">Dreta</string>
     <string name="keyguard_shortcut_title">Dreceres</string>
     <string name="kg_activity_label">Editeu la Pantalla de bloqueig</string>
+    <string name="kg_allinone_drag_bottom">"Arrossegueu la part inferior del rellotge per ajustar-ne l'alçada"</string>
+    <string name="kg_allinone_drag_corner">Arrossegueu la cantonada inferior dreta del rellotge per canviar-ne la mida</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Arrodonit)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Quadrat)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Aquesta font no admet estils de contorn</string>
+    <string name="kg_allinone_hollow_not_support_current_style">"L'estil, la mida i el gruix de la lletra actuals no admeten estils de contorn"</string>
+    <string name="kg_allinone_hollow_style_both">Hores i minuts: Esbossat</string>
+    <string name="kg_allinone_hollow_style_hour">Hores: Esbossat. Minuts: Sòlid.</string>
+    <string name="kg_allinone_hollow_style_minute">Hores: Sòlid. Minuts: Esbossat.</string>
+    <string name="kg_allinone_hollow_style_none">Hores i minuts: Sòlid</string>
+    <string name="kg_allinone_hollow_style_title">Estil de contorn</string>
+    <string name="kg_allinone_transparency_name">Transparència del rellotge</string>
+    <string name="kg_allinone_transparency_title">Transparència</string>
+    <string name="kg_allinone_weight_title">Densitat de la font</string>
     <string name="kg_aod_settings_depth_video_toast">"Només s'admet la visualització personalitzada de la Pantalla sempre encesa quan s'utilitza l'efecte de profunditat"</string>
     <string name="kg_apply">Aplica</string>
     <string name="kg_apply_dialog_desktop_preview">"Vista prèvia de la Pantalla d'inici"</string>
@@ -374,9 +409,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">Claritat</string>
     <string name="kg_color_value_editor_saturation">Saturació</string>
     <string name="kg_color_value_editor_title">Editar color</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">"D'acord"</string>
     <string name="kg_continue_editing">Seguiu editant</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Personalitza</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Voleu suprimir aquest conjunt?</string>
     <string name="kg_delete_this_collocation_desc">"S'eliminarà la configuració de la Pantalla de bloqueig i la Pantalla d'inici d'aquest conjunt. Voleu eliminar el conjunt ara?"</string>
     <string name="kg_depth_preset_button_download">Baixeu fons de pantalla dinàmic</string>
@@ -457,6 +496,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">Entesos</string>
     <string name="kg_effects_tip_desc">"L'efecte de profunditat de camp no es pot combinar amb filtres. L'ús d'un d'ells substituirà l'altre."</string>
     <string name="kg_effects_tip_not_support">No es poden aplicar efectes als fons de pantalla dinàmics</string>
+    <string name="kg_effects_tip_not_support_glass_filter">El rellotge de vidre no admet efectes</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Els fons de pantalla de tercers no admeten efectes</string>
     <string name="kg_effects_tip_title">Profunditat de camp i filtres</string>
     <string name="kg_enable_blur">Efecte mat</string>
@@ -481,6 +521,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">Blanc</string>
     <string name="kg_font_filter_doodle_primary_label">Gargot</string>
     <string name="kg_font_filter_doodle_secondary_label">Fons</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Desenfoca i barreja</string>
+    <string name="kg_font_filter_group_label_glass">Vidre</string>
     <string name="kg_font_filter_group_label_glow">Lluentor</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradient</string>
     <string name="kg_font_filter_group_label_obscure">Barreja</string>
@@ -574,6 +616,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">Negreta</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Contorn</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Seleccioneu de nou</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif en negreta</string>
     <string name="kg_rhombus_clock_type_brush_font">Pinzell</string>
@@ -623,15 +667,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">Fons de pantalla, seleccioneu de la biblioteca</string>
     <string name="kg_talkback_select_all">Seleccioneu-ho tot</string>
     <string name="kg_talkback_selected">Seleccionat</string>
+    <string name="kg_talkback_slide_up_or_down">Llisqueu cap amunt o cap avall per ajustar</string>
     <string name="kg_talkback_unselect_all">Desseleccioneu-ho tot</string>
     <string name="kg_template_description_car">On la tecnologia es troba amb la bellesa: captura la velocitat del futur amb cada desbloqueig.</string>
     <string name="kg_template_description_classic">El que és clàssic mai passa de moda.</string>
     <string name="kg_template_description_eastern_art">"Mostrant una interpretació contemporània dels elements orientals utilitzant la simetria creuada clàssica, la disposició vertical distintiva i l'expressió cal·ligràfica"</string>
     <string name="kg_template_description_magazine">Converteix la Pantalla de bloqueig en una portada de revista.</string>
+    <string name="kg_template_description_magazine_natural">Un estil de rellotge que combina paisatges naturals amb imatges en capes per a un aspecte refinat i expressiu</string>
     <string name="kg_template_description_rhombus">El temps és important. Fes que valgui la pena.</string>
     <string name="kg_template_preview_content_description">Vista prèvia</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Rellotge gran A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Rellotge gran B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Rellotge gran C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Rellotge gran D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Clàssic</string>
     <string name="kg_template_title_classic_max_talkback">Pantalla de bloqueig clàssica MAX</string>
@@ -651,6 +699,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Revista B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Revista C, esbossada</string>
     <string name="kg_template_title_magazine_c_three_talkback">Revista C, triple línia</string>
+    <string name="kg_template_title_magazine_natural">Visuals de la natura</string>
     <string name="kg_template_title_magazine_phone">Persones</string>
     <string name="kg_template_title_mine">Pantalla de bloqueig</string>
     <string name="kg_template_title_mine_collocation">Els meus conjunts</string>
@@ -804,6 +853,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Canvia a mitja pantalla</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximitza</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimitza</string>
+    <string name="miuix_popup_show_description">Finestra emergent</string>
     <string name="miuix_popup_window_default_title">Finestra emergent</string>
     <string name="miuix_progressbar_loading">Carregant</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tira cap avall per a refrescar</string>
@@ -907,6 +957,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">D’acord</string>
     <string name="my_style_title">El meu tema</string>
     <string name="night">Nit</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Mig dia</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">No definit</string>
@@ -945,6 +996,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Període actiu: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Programat</string>
     <string name="scheduled_style_summary">Estableix l’hora personalitzada</string>
     <string name="scope_des">"Cada caleidoscopi conté 5 patrons diferents que es mostraran al seu torn cada vegada que s'il·lumini la pantalla."</string>
@@ -956,6 +1008,7 @@ mm"</string>
     <string name="select_notification_animation_style">"Selecciona l'efecte especial"</string>
     <string name="select_notification_notify_style">Selecciona efecte de notificació</string>
     <string name="send">Envia</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Desactiva</string>
     <string name="settings_view_btn_check_on">Activa</string>
     <string name="settings_view_btn_stoped">Desactivat</string>
@@ -995,7 +1048,7 @@ alguna cosa meravellosa"</string>
     <string name="sunset_time_format">Posta de sol %s</string>
     <string name="sunset_time_format_desc">Hora de posta de sol: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Invertir colors</string>
     <string name="temporary_style">Durant 10 segons després de tocar</string>
     <string name="temporary_style_5">Durant 5 segons després de tocar</string>
@@ -1061,6 +1114,7 @@ dd/M"</string>
     <string name="tuesday">dimarts</string>
     <string name="tuesday_short">dm.</string>
     <string name="tuesday_shortest">dm.</string>
+    <string name="ultraviolet_rays_abbreviation">UV</string>
     <string name="uvi_format">UVI %1$s %2$s</string>
     <string name="uvi_format_desc">Índex ultraviolat: %1$s, %2$s</string>
     <string name="v7_preference_off">DESACTIVAT</string>

@@ -64,6 +64,9 @@
     <string name="aod_app_name">Aktívny displej a editor zamknutej obrazovky</string>
     <string name="aod_close_color_inversion">Táto funkcia nemôže byť kombinovaná s inverziou farieb. Najskôr vypnite inverziu farieb.</string>
     <string name="aod_component">Zobrazené položky</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Viac možností</string>
     <string name="aod_gradient_1">Svetlomodrý a teal gradient</string>
     <string name="aod_gradient_10">Ružový, oranžový a fialový gradient</string>
@@ -115,6 +118,7 @@ d.M."</string>
     <string name="aod_resting_screen_define">Prispôsobiť</string>
     <string name="aod_resting_screen_same_to_lock">Rovnako ako Zamknutá obrazovka</string>
     <string name="aod_resting_screen_style_title">Motív</string>
+    <string name="aod_setting_fold_full_aod_summary">Tento štýl je možné použiť len na vonkajšej obrazovke</string>
     <string name="aod_setting_pad_des2">Farba hodín bude zodpovedať farbe tapety</string>
     <string name="aod_show_date_and_time">Zobraziť dátum a čas</string>
     <string name="aod_show_mode_title_des_pad">Vždy zobraziť pri nabíjaní</string>
@@ -139,6 +143,8 @@ d.M."</string>
     <string name="bottomsheet_drag_handle_clicked">Dvojité klepnutie na presúvadlo</string>
     <string name="bottomsheet_drag_handle_content_description">Presúvadlo</string>
     <string name="btn_know">Rozumiem</string>
+    <string name="calendar_date_picker_a11y_next_month">Ďalší mesiac</string>
+    <string name="calendar_date_picker_a11y_prev_month">Predchádzajúci mesiac</string>
     <string name="call_notification_answer_action">Prijať</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Odmietnuť</string>
@@ -186,6 +192,10 @@ d.M."</string>
     <string name="deep_space_planet_des">Tento motív reaguje na zmeny vonkajšieho svetla počas dňa. Východy a západy slnka sa budú tiež synchr. na základe vašej polohy.</string>
     <string name="default_clock_style">Neznámy číselník</string>
     <string name="delete">Vymazať</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digitálne</string>
     <string name="disable_aod_in_power_save_mode">Vypnúť, keď je spustené Šetrenie batérie</string>
     <string name="disable_aod_in_power_save_mode_summary">Nezobrazovať položky z dôvodu úspory batérie</string>
@@ -290,6 +300,13 @@ d.M."</string>
     <string name="health_chart_step_count_unit">Kroky</string>
     <string name="health_no_data">Žiadne údaje o zdraví</string>
     <string name="health_sleep_desc">Dĺžka spánku %1$s, kvalita spánku: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horizontálne hodiny</string>
     <string name="humidity_format">Vlhkosť %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ d.M."</string>
     <string name="keyguard_shortcut_tab_right">Doprava</string>
     <string name="keyguard_shortcut_title">Odkazy</string>
     <string name="kg_activity_label">Upraviť zamknutú obrazovku</string>
+    <string name="kg_allinone_drag_bottom">Pre nastavenie výšky hodín potiahnite ich spodnú časť</string>
+    <string name="kg_allinone_drag_corner">Pre zmenu veľkosti potiahnite pravý dolný roh hodín</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (zaoblené)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (hranaté)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Toto písmo nepodporuje štýly obrysov</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Súčasný štýl, veľkosť a hrúbka písma nepodporujú štýly obrysov</string>
+    <string name="kg_allinone_hollow_style_both">Hodiny a minúty: Obrys</string>
+    <string name="kg_allinone_hollow_style_hour">Hodiny: Obrys. Minúty: Plné.</string>
+    <string name="kg_allinone_hollow_style_minute">Hodiny: Plné. Minúty: Obrys.</string>
+    <string name="kg_allinone_hollow_style_none">Hodiny a minúty: Plné</string>
+    <string name="kg_allinone_hollow_style_title">Štýl obrysu</string>
+    <string name="kg_allinone_transparency_name">Prehľadnosť hodín</string>
+    <string name="kg_allinone_transparency_title">Priehľadnosť</string>
+    <string name="kg_allinone_weight_title">Hrúbka písma</string>
     <string name="kg_aod_settings_depth_video_toast">Pri použití efektu hĺbky je podporovaný len vlastný Aktívny displej.</string>
     <string name="kg_apply">Použiť</string>
     <string name="kg_apply_dialog_desktop_preview">Náhľad Domovskej obrazovky</string>
@@ -374,9 +408,13 @@ d.M."</string>
     <string name="kg_color_value_editor_lightness">Svetlosť</string>
     <string name="kg_color_value_editor_saturation">Sýtosť</string>
     <string name="kg_color_value_editor_title">Upraviť farbu</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Pokračovať v úprave</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Prispôsobiť</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Vymazať túto sadu?</string>
     <string name="kg_delete_this_collocation_desc">Nastavenia Zamknutej a Domovskej obrazovky tejto série sa odstránia. Odstrániť sériu teraz?</string>
     <string name="kg_depth_preset_button_download">Stiahnuť dynamickú tapetu</string>
@@ -457,6 +495,7 @@ d.M."</string>
     <string name="kg_effects_tip_button">Rozumiem</string>
     <string name="kg_effects_tip_desc">Efekt hĺbky ostrosti nie je možné kombinovať s filtrami. Použitie jedného z nich nahradí druhý.</string>
     <string name="kg_effects_tip_not_support">Efekty nie je možné použiť na dynamické tapety</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Sklenené hodiny nepodporujú efekty</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Efekty nie sú podporované tapetami tretích strán</string>
     <string name="kg_effects_tip_title">Hĺbka ostrosti a filtre</string>
     <string name="kg_enable_blur">Matný efekt</string>
@@ -481,6 +520,8 @@ d.M."</string>
     <string name="kg_font_filter_color_white">Biela</string>
     <string name="kg_font_filter_doodle_primary_label">Pero</string>
     <string name="kg_font_filter_doodle_secondary_label">Pozadie</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Rozmazanie a prelínanie</string>
+    <string name="kg_font_filter_group_label_glass">Sklo</string>
     <string name="kg_font_filter_group_label_glow">Žiara</string>
     <string name="kg_font_filter_group_label_gradient_blur">Prechod</string>
     <string name="kg_font_filter_group_label_obscure">Zmes</string>
@@ -574,6 +615,8 @@ d.M."</string>
     <string name="kg_oversize_clock_type_bold">Tučné</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Obrys</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Vybrať znova</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Bold serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Štetec</string>
@@ -623,15 +666,19 @@ d.M."</string>
     <string name="kg_talkback_pick_wallpaper">Tapeta, vyberte z knižnice</string>
     <string name="kg_talkback_select_all">Vybrať všetko</string>
     <string name="kg_talkback_selected">Vybrané</string>
+    <string name="kg_talkback_slide_up_or_down">Potiahnite prstom nahor alebo nadol na upravenie</string>
     <string name="kg_talkback_unselect_all">Zrušiť výber</string>
     <string name="kg_template_description_car">Kde sa technológia stretáva s krásou: zachyťte rýchlosť budúcnosti pri každom odomknutí.</string>
     <string name="kg_template_description_classic">Klasika nikdy nevyjde z módy.</string>
     <string name="kg_template_description_eastern_art">Ukážka súčasného tlmočenia východných prvkov s využitím klasickej krížovej symetrie, výrazného vertikálneho usporiadania a kaligrafického výrazu</string>
     <string name="kg_template_description_magazine">Zmeňte svoju zamknutú obrazovku na obálku časopisu.</string>
+    <string name="kg_template_description_magazine_natural">Štýl hodín, ktorý spája prírodné krajiny s viacvrstvovými vizuálmi a vytvára tak kultivovaný a výrazný vzhľad</string>
     <string name="kg_template_description_rhombus">Čas je dôležitý. Nech to stojí zato.</string>
     <string name="kg_template_preview_content_description">Náhľad</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Veľké hodiny A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Veľké hodiny B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Veľké hodiny C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Veľké hodiny D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klasické</string>
     <string name="kg_template_title_classic_max_talkback">Klasická zamknutá obrazovka MAX</string>
@@ -651,6 +698,7 @@ d.M."</string>
     <string name="kg_template_title_magazine_b_talkback">Časopis B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Časopis C, načrt</string>
     <string name="kg_template_title_magazine_c_three_talkback">Časopis C, trojvrstvový</string>
+    <string name="kg_template_title_magazine_natural">Prírodný motív</string>
     <string name="kg_template_title_magazine_phone">Ľudia</string>
     <string name="kg_template_title_mine">Zamknutá obrazovka</string>
     <string name="kg_template_title_mine_collocation">Moje sady</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Prepnúť na polovičnú obrazovku</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizovať</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizovať</string>
+    <string name="miuix_popup_show_description">Vyskakovacie okno</string>
     <string name="miuix_popup_window_default_title">Vyskakovacie okno</string>
     <string name="miuix_progressbar_loading">Načítanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potiahnite pre obnovenie</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Môj motív</string>
     <string name="night">Večer</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Poludnie</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Nenastavené</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktívna doba: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Naplánované</string>
     <string name="scheduled_style_summary">Nastaviť prispôsobený čas</string>
     <string name="scope_des">Každý kaleidoskop obsahuje 5 rôznych vzorov, ktoré sa zobrazia vždy, keď sa rozsvieti obrazovka.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">Vyberte špeciálny efekt</string>
     <string name="select_notification_notify_style">Vyberte efekt upozornenia</string>
     <string name="send">Odoslať</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Vyp.</string>
     <string name="settings_view_btn_check_on">Zap.</string>
     <string name="settings_view_btn_stoped">Vypnuté</string>
@@ -995,7 +1047,7 @@ stane niečo výnimočné"</string>
     <string name="sunset_time_format">Západ slnka %s</string>
     <string name="sunset_time_format_desc">Západ slnka: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-d. M."</string>
+M/dd"</string>
     <string name="talkback_invert_color">Vymeniť farby</string>
     <string name="temporary_style">Na 10 sekúnd po ťuknutí</string>
     <string name="temporary_style_5">Na 5 sekúnd po ťuknutí</string>

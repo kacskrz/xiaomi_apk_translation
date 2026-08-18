@@ -37,6 +37,9 @@
     <string name="aod_app_name">ყოველთვის ჩართული ეკრანი და დაბლოკილი ეკრანის რედაქტორი</string>
     <string name="aod_close_color_inversion">ეს ფუნქცია შეუთავსებელია ფერთა ინვერსიის რეჟიმთან. პირველ რიგში გამორთეთ ფერთა ინვერსია.</string>
     <string name="aod_component">გამოსახული ერთეულები</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">მეტი პარამეტრი</string>
     <string name="aod_gradient_1">ღია ცისფერი და ჩაისფერი გრადიენტი</string>
     <string name="aod_gradient_10">ვარდისფერი, ნარინჯისფერი და მეწამული გრადიენტი</string>
@@ -88,6 +91,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">სამომხმარებლო</string>
     <string name="aod_resting_screen_same_to_lock">იგივე, როგორც დაბლოკილი ეკრანი</string>
     <string name="aod_resting_screen_style_title">თემა</string>
+    <string name="aod_setting_fold_full_aod_summary">ამ სტილის გამოყენება მხოლოდ გარე ეკრანზეა შესაძლებელი</string>
     <string name="aod_setting_pad_des2">საათის ფერი ემთხვევა თქვენი უკანა ფონის ფერს</string>
     <string name="aod_show_date_and_time">თარიღის და დროის ჩვენება</string>
     <string name="aod_show_mode_title_des_pad">ყოველთვის აჩვენეთ დამუხტვისას</string>
@@ -148,6 +152,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">ეს თემა ასახავს განათების ცვლილებებს დღის განმავლობაში. მზის ამოსვლისა და მზის ჩასვლის თემები სინქრონიზებულია თქვენს ადგილმებარეობასთან.</string>
     <string name="default_clock_style">უცნობი ნომერი</string>
     <string name="delete">წაშლა</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">ციფრული</string>
     <string name="disable_aod_in_power_save_mode">გამორთეთ, როდესაც ბატარეის დამზოგი ჩართულია</string>
     <string name="disable_aod_in_power_save_mode_summary">ენერგიის დასაზოგად არ აჩვენოთ ერთეულები</string>
@@ -248,6 +256,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">ნაბიჯები</string>
     <string name="health_no_data">ჯანმრთელობის მონაცემები არ არის</string>
     <string name="health_sleep_desc">ძილის ხანგრძლივობა %1$s, ძილის ხარისხი: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">ჰორიზონტალური საათი</string>
     <string name="humidity_format">ტენიანობა %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">მარჯვენა</string>
     <string name="keyguard_shortcut_title">მალხმობები</string>
     <string name="kg_activity_label">დაბლოკილი ეკრანის რედაქტირება</string>
+    <string name="kg_allinone_drag_bottom">საათის სიმაღლის რეგულირებისთვის გადაიტანეთ მისი ქვედა ნაწილი</string>
+    <string name="kg_allinone_drag_corner">ზომის შესაცვლელად გადაიტანეთ საათის ქვედა მარჯვენა კუთხე</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (მომრგვალებული)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (კვადრატული)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">ეს შრიფტი არ უჭერს მხარს კონტურის სტილს</string>
+    <string name="kg_allinone_hollow_not_support_current_style">მიმდინარე შრიფტის სტილი, ზომა და სისქე არ უჭერს მხარს კონტურის სტილს</string>
+    <string name="kg_allinone_hollow_style_both">საათები და წუთები: უწყვეტი</string>
+    <string name="kg_allinone_hollow_style_hour">საათები: კონტურით. წუთები: სრული.</string>
+    <string name="kg_allinone_hollow_style_minute">საათები: სრული. წუთები: უწყვეტი.</string>
+    <string name="kg_allinone_hollow_style_none">საათები და წუთები: უწყვეტი</string>
+    <string name="kg_allinone_hollow_style_title">კონტურის სტილი</string>
+    <string name="kg_allinone_transparency_name">საათის გამჭვირვალობა</string>
+    <string name="kg_allinone_transparency_title">გამჭვირვალობა</string>
+    <string name="kg_allinone_weight_title">ფონტის ზომა</string>
     <string name="kg_aod_settings_depth_video_toast">სიღრმის ეფექტის გამოყენებისას მხარდაჭერილია მხოლოდ მორგებული ყოველთვის ჩართული ეკრანი</string>
     <string name="kg_apply">გამოყენება</string>
     <string name="kg_apply_dialog_desktop_preview">მთავარი ეკრანის წინასწარი ჩვენება</string>
@@ -330,9 +362,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">სიმსუბუქე</string>
     <string name="kg_color_value_editor_saturation">ინტენსივობა</string>
     <string name="kg_color_value_editor_title">ფერის რედაქტირება</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">რედაქტირების გაგრძელება</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">დაყენება</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">გსურთ ამ ნაკრების წაშლა?</string>
     <string name="kg_delete_this_collocation_desc">ამ ნაკრების დაბლოკილი ეკრანის და მთავარი ეკრანის პარამეტრები წაიშლება. გსურთ ნაკრების ახლავე წაშლა?</string>
     <string name="kg_depth_preset_button_download">ჩამოტვირთეთ დინამიური უკანა ფონი</string>
@@ -413,6 +449,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">გასაგებია</string>
     <string name="kg_effects_tip_desc">ველის სიღრმის ეფექტი არ შეიძლება გაერთიანდეს ფილტრებთან. ერთი მათგანის გამოყენება მეორეს ჩაანაცვლებს.</string>
     <string name="kg_effects_tip_not_support">დინამიურ უკანა ფონებზე ეფექტების გამოყენება შეუძლებელია</string>
+    <string name="kg_effects_tip_not_support_glass_filter">შუშის საათი მხარს არ უჭერს ეფექტებს</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">მესამე მხარის უკანა ფონებს არ აქვს ეფექტების მხარდაჭერა</string>
     <string name="kg_effects_tip_title">ველის სიღრმე და ფილტრები</string>
     <string name="kg_enable_blur">მატე ეფექტი</string>
@@ -437,6 +474,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">თეთრი</string>
     <string name="kg_font_filter_doodle_primary_label">ჩანახატი</string>
     <string name="kg_font_filter_doodle_secondary_label">უკანა ფონი</string>
+    <string name="kg_font_filter_group_label_BlurObscure">დაბინდვა და შერევა</string>
+    <string name="kg_font_filter_group_label_glass">შუშა</string>
     <string name="kg_font_filter_group_label_glow">ნათება</string>
     <string name="kg_font_filter_group_label_gradient_blur">გრადიენტი</string>
     <string name="kg_font_filter_group_label_obscure">ნაზავი</string>
@@ -530,6 +569,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">მუქი</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">კონტური</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">მონიშეთ ხელახლა</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">მუქი serif</string>
     <string name="kg_rhombus_clock_type_brush_font">ფუნჯი</string>
@@ -579,15 +620,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">უკანა ფონი, მონიშნეთ ბიბლიოთეკიდან</string>
     <string name="kg_talkback_select_all">მონიშნეთ ყველა</string>
     <string name="kg_talkback_selected">მონიშნულია</string>
+    <string name="kg_talkback_slide_up_or_down">მოცულობის შესწორების მიზნით გაუსვით თითი ზემოთ ან ქვემოთ</string>
     <string name="kg_talkback_unselect_all">ყველა მონიშნვნის გაუქმება</string>
     <string name="kg_template_description_car">სადაც ტექნოლოგია ხვდება სილამაზეს: დაიჭირეთ მომავლის სიჩქარე ყოველი მომდევნო განბლოკვით.</string>
     <string name="kg_template_description_classic">ის რაც კლასიკურია არასოდეს გადადის მოდიდან.</string>
     <string name="kg_template_description_eastern_art">აღმოსავლური ელემენტების თანამედროვე ინტერპრეტაციის ჩვენება კლასიკური ჯვარედინი სიმეტრიის, გამორჩეული ვერტიკალური განლაგებისა და კალიგრაფიული გამოხატვის გამოყენებით</string>
     <string name="kg_template_description_magazine">გადააქციეთ თქვენი დაბლოკილი ეკრანი ჟურნალის ყდად.</string>
+    <string name="kg_template_description_magazine_natural">საათის სტილი, რომელიც აერთიანებს ბუნებრივ პეიზაჟებს მრავალშრიან ვიზუალთან დახვეწილი, ექსპრესიული იერსახისთვის.</string>
     <string name="kg_template_description_rhombus">დრო მნიშვნელოვანია. დაიწყეთ ათვლა.</string>
     <string name="kg_template_preview_content_description">გადახედვა</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">დიდი საათი A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">დიდი საათი B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">დიდი საათი C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">დიდი საათი D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">კლასიკური</string>
     <string name="kg_template_title_classic_max_talkback">კლასიკური დაბლოკილი ეკრანი MAX</string>
@@ -607,6 +652,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">ჟურნალი B</string>
     <string name="kg_template_title_magazine_c_one_talkback">ჟურნალი C, ხაზგასმული</string>
     <string name="kg_template_title_magazine_c_three_talkback">ჟურნალი C, სამმაგი ხაზით</string>
+    <string name="kg_template_title_magazine_natural">ბუნების ვიზუალები</string>
     <string name="kg_template_title_magazine_phone">ადამიანი</string>
     <string name="kg_template_title_mine">დაბლოკილი ეკრანი</string>
     <string name="kg_template_title_mine_collocation">ჩემი ნაკრებები</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">გადადით ნახევარ ეკრანზე</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">მაქსიმალური</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">მინიმუმზე დაყვანა</string>
+    <string name="miuix_popup_show_description">ამომხტარი ფანჯარა</string>
     <string name="miuix_popup_window_default_title">ამომხტარი ფანჯარა</string>
     <string name="miuix_progressbar_loading">ჩატვირთვა</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ჩამოქაჩე გასანახლებლად</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">დილა</string>
     <string name="my_style_title">ჩემი თემები</string>
     <string name="night">საღამო</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">შუადღე</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">პულსი (წითელი)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">აქტიური პერიოდი: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">დაგეგმილი</string>
     <string name="scheduled_style_summary">დააყენეთ სამომხმარებლო დრო</string>
     <string name="scope_des">ყველა კალეიდოსკოპი შეიცავს 5 განსხვავებულ შაბლონს, რომელიც თავის მხრივ გამოჩნდება ყველა დროს, როდესაც ეკრანი განათდება.</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">მონიშეთ სპეციალური ეფექტი</string>
     <string name="select_notification_notify_style">მონიშნეთ შეტყობინების ეფექტი</string>
     <string name="send">გაგზავნა</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">გამორთვა</string>
     <string name="settings_view_btn_check_on">ჩართვა</string>
     <string name="settings_view_btn_stoped">გამორთულია</string>
@@ -884,7 +934,7 @@ mm"</string>
     <string name="sunset_time_format">მზის ჩასვლა %s</string>
     <string name="sunset_time_format_desc">მზის ჩასვლის დრო: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">ფერების ინვერტირება</string>
     <string name="temporary_style">10 წამი დაწკაპუნების შემდეგ</string>
     <string name="temporary_style_5">5 წამი დაწკაპუნების შემდეგ</string>

@@ -42,6 +42,7 @@
     <string name="add_custom_image">Pasirinktinis vaizdas</string>
     <string name="add_from_local">Pasirinkti vaizdą</string>
     <string name="afternoon">Popietė</string>
+    <string name="air_quality_index_abbreviation">OKI</string>
     <string name="align_center_horizontally">Horizontalu ir sulygiuota centre</string>
     <string name="align_center_vertically">Sudėta ir sulygiuota centre</string>
     <string name="align_left_horizontally">Horizontalu ir sulygiuota kairėje</string>
@@ -64,6 +65,9 @@
     <string name="aod_app_name">„Visada ekrane“ ir užrakto ekrano redaktorius</string>
     <string name="aod_close_color_inversion">Ši funkcija negali būti derinama su spalvų keitimu. Pirmiausia išjunkite spalvų keitimą.</string>
     <string name="aod_component">Rodomi elementai</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Daugiau parinkčių</string>
     <string name="aod_gradient_1">Šviesiai mėlynos ir žalsvos spalvos gradientas</string>
     <string name="aod_gradient_10">Rožinės, oranžinės ir violetinės spalvos gradientas</string>
@@ -115,6 +119,7 @@ MM-dd 'd.'"</string>
     <string name="aod_resting_screen_define">Tinkinta</string>
     <string name="aod_resting_screen_same_to_lock">Tokia pati kaip užrakto ekrane</string>
     <string name="aod_resting_screen_style_title">Tema</string>
+    <string name="aod_setting_fold_full_aod_summary">Šis stilius gali būti naudojamas tik išoriniame ekrane</string>
     <string name="aod_setting_pad_des2">Laikrodžio spalva atitiks jūsų fono paveikslėlio spalvą</string>
     <string name="aod_show_date_and_time">Rodyti datą ir laiką</string>
     <string name="aod_show_mode_title_des_pad">Visada rodyti kraunant</string>
@@ -139,6 +144,8 @@ MM-dd 'd.'"</string>
     <string name="bottomsheet_drag_handle_clicked">Vilkimo rankenėlė dukart paliesta</string>
     <string name="bottomsheet_drag_handle_content_description">Vilkimo rankenėlė</string>
     <string name="btn_know">Supratau</string>
+    <string name="calendar_date_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
+    <string name="calendar_date_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="call_notification_answer_action">Atsakyti</string>
     <string name="call_notification_answer_video_action">Vaizdo įrašas</string>
     <string name="call_notification_decline_action">Atmesti</string>
@@ -186,6 +193,10 @@ MM-dd 'd.'"</string>
     <string name="deep_space_planet_des">Ši tema atspindi šviesos pokyčius vykstančius dienos metu aplink jus. Saulėtekiai ir saulėlydžiai šioje temoje sinchronizuojami su jūsų vietove.</string>
     <string name="default_clock_style">Nežinomas ciferblatas</string>
     <string name="delete">Trinti</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Skaitmeninis</string>
     <string name="disable_aod_in_power_save_mode">Išjungti, kai energijos taupymas įjungtas</string>
     <string name="disable_aod_in_power_save_mode_summary">Nerodyti elementų, kad būtų tausojama energija</string>
@@ -290,6 +301,13 @@ MM-dd 'd.'"</string>
     <string name="health_chart_step_count_unit">Žingsniai</string>
     <string name="health_no_data">Sveikatos duomenų nėra</string>
     <string name="health_sleep_desc">Miego trukmė %1$s, miego kokybė: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horizontalus laikrodis</string>
     <string name="humidity_format">Drėgmė %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +320,23 @@ MM-dd 'd.'"</string>
     <string name="keyguard_shortcut_tab_right">Dešinė</string>
     <string name="keyguard_shortcut_title">Nuorodos</string>
     <string name="kg_activity_label">Redaguoti užrakto ekraną</string>
+    <string name="kg_allinone_drag_bottom">Norėdami sureguliuoti laikrodžio aukštį, tempkite jo apačią</string>
+    <string name="kg_allinone_drag_corner">Norėdami pakeisti laikrodžio dydį, tempkite jo apatinį dešinįjį kampą</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (suapvalintas)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (kvadratas)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Šis šriftas nepalaiko kontūro stilių</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Dabartinis šrifto stilius, dydis ir storis nepalaiko struktūros stilių</string>
+    <string name="kg_allinone_hollow_style_both">Valandos ir minutės: pabrėžtos</string>
+    <string name="kg_allinone_hollow_style_hour">Valandos: pabrėžtos. Minutės: vientisos.</string>
+    <string name="kg_allinone_hollow_style_minute">Valandos: vientisos. Minutės: pabrėžtos.</string>
+    <string name="kg_allinone_hollow_style_none">Valandos ir minutės: vientisos</string>
+    <string name="kg_allinone_hollow_style_title">Kontūro stilius</string>
+    <string name="kg_allinone_transparency_name">Laikrodžio aiškumas</string>
+    <string name="kg_allinone_transparency_title">Skaidrumas</string>
+    <string name="kg_allinone_weight_title">Šrifto storis</string>
     <string name="kg_aod_settings_depth_video_toast">Naudojant gylio efektą, palaikoma tik tinkinta funkcija „Visada ekrane“</string>
     <string name="kg_apply">Taikyti</string>
     <string name="kg_apply_dialog_desktop_preview">Pagrindinio ekrano peržiūra</string>
@@ -374,9 +409,13 @@ MM-dd 'd.'"</string>
     <string name="kg_color_value_editor_lightness">Šviesumas</string>
     <string name="kg_color_value_editor_saturation">Sodrumas</string>
     <string name="kg_color_value_editor_title">Redaguoti spalvą</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Gerai</string>
     <string name="kg_continue_editing">Tęsti redagavimą</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Tinkinti</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Ištrinti šį rinkinį?</string>
     <string name="kg_delete_this_collocation_desc">Tai nustato užrakto ekraną, o pagrindinio ekrano parametrai bus ištrinti. Ištrinti rinkinį dabar?</string>
     <string name="kg_depth_preset_button_download">Atsisiųsti dinamišką foną</string>
@@ -457,6 +496,7 @@ MM-dd 'd.'"</string>
     <string name="kg_effects_tip_button">Supratau</string>
     <string name="kg_effects_tip_desc">Lauko gylio efekto negalima derinti su filtrais. Naudojant vieną iš jų, bus pakeistas kitas.</string>
     <string name="kg_effects_tip_not_support">Nepavyko pritaikyti efektų dinaminiams fono paveikslėliams</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Stiklinis laikrodis nepalaiko efektų</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Trečiųjų šalių ekrano užsklandos nepalaiko efektų</string>
     <string name="kg_effects_tip_title">Lauko gylis ir filtrai</string>
     <string name="kg_enable_blur">Matinis efektas</string>
@@ -481,6 +521,8 @@ MM-dd 'd.'"</string>
     <string name="kg_font_filter_color_white">Balta</string>
     <string name="kg_font_filter_doodle_primary_label">Piešinys</string>
     <string name="kg_font_filter_doodle_secondary_label">Fonas</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Švelnus suliejimas</string>
+    <string name="kg_font_filter_group_label_glass">Stiklas</string>
     <string name="kg_font_filter_group_label_glow">Švytėjimas</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradientas</string>
     <string name="kg_font_filter_group_label_obscure">Sulietas</string>
@@ -574,6 +616,8 @@ MM-dd 'd.'"</string>
     <string name="kg_oversize_clock_type_bold">Paryškintas</string>
     <string name="kg_oversize_clock_type_serif_font">„Serif“</string>
     <string name="kg_oversize_clock_type_stroke">Kontūras</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Pasirinkti iš naujo</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Ryškus „Serif“</string>
     <string name="kg_rhombus_clock_type_brush_font">Teptukas</string>
@@ -623,15 +667,19 @@ MM-dd 'd.'"</string>
     <string name="kg_talkback_pick_wallpaper">Fono paveikslėlis, pasirinkite iš bibliotekos</string>
     <string name="kg_talkback_select_all">Pasirinkti viską</string>
     <string name="kg_talkback_selected">Pasirinkta</string>
+    <string name="kg_talkback_slide_up_or_down">Norėdami reguliuoti, perbraukite aukštyn arba žemyn</string>
     <string name="kg_talkback_unselect_all">Atžymėti viską</string>
     <string name="kg_template_description_car">Kur technologija susilieja su grožiu: pajuskite ateities greitį kiekvieną kartą atrakindami.</string>
     <string name="kg_template_description_classic">Klasika niekada neišeina iš mados.</string>
     <string name="kg_template_description_eastern_art">Šiuolaikinė rytietiškų elementų interpretacija naudojant klasikinę kryžminę simetriją, savitą vertikalų išdėstymą ir kaligrafiją</string>
     <string name="kg_template_description_magazine">Paverskite savo užrakto foną žurnalo viršeliu.</string>
+    <string name="kg_template_description_magazine_natural">Laikrodžio stilius, kuriame gamtos peizažai derinami su daugiasluoksniais vaizdais, suteikiant išskirtinį ir išraiškingą įvaizdį</string>
     <string name="kg_template_description_rhombus">Laikas svarbus. Išnaudoj jį prasmingai.</string>
     <string name="kg_template_preview_content_description">Peržiūrėti</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Didelis laikrodis A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Didelis laikrodis B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Didelis laikrodis C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Didelis laikrodis D</string>
     <string name="kg_template_title_car">„Xiaomi EV“</string>
     <string name="kg_template_title_classic">Klasikinis</string>
     <string name="kg_template_title_classic_max_talkback">Klasikinis užrakto ekranas MAX</string>
@@ -651,6 +699,7 @@ MM-dd 'd.'"</string>
     <string name="kg_template_title_magazine_b_talkback">Žurnalas B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Žurnalas C, linija</string>
     <string name="kg_template_title_magazine_c_three_talkback">Žurnalas C, triguba linija</string>
+    <string name="kg_template_title_magazine_natural">Gamtos vaizdai</string>
     <string name="kg_template_title_magazine_phone">Žmonės</string>
     <string name="kg_template_title_mine">Užrakinti ekraną</string>
     <string name="kg_template_title_mine_collocation">Mano rinkiniai</string>
@@ -804,6 +853,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Perjungti į pusę ekrano</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Padidinti</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Sumažintas</string>
+    <string name="miuix_popup_show_description">Laikinasis langas</string>
     <string name="miuix_popup_window_default_title">Laikinasis langas</string>
     <string name="miuix_progressbar_loading">Įkeliama</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Atnaujinimui braukite žemyn</string>
@@ -907,6 +957,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">Gerai</string>
     <string name="my_style_title">Mano tema</string>
     <string name="night">Vakaras</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Vidurdienis</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Nenustatyta</string>
@@ -945,6 +996,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktyvus laikotarpis: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Suplanuotas</string>
     <string name="scheduled_style_summary">Nustatyti pasrinktinį laiką</string>
     <string name="scope_des">Kiekvieną kaleidoskopą sudaro 5 skirtingi raštai, kurie gali būti rodomi kiekvieną kartą ekranui nušvitus.</string>
@@ -956,6 +1008,7 @@ mm"</string>
     <string name="select_notification_animation_style">Pasirinkite specialųjį efektą</string>
     <string name="select_notification_notify_style">Pasirinkite pranešimų efektą</string>
     <string name="send">Siųsti</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Išjungta</string>
     <string name="settings_view_btn_check_on">Įjungta</string>
     <string name="settings_view_btn_stoped">Išjungta</string>
@@ -994,8 +1047,8 @@ kažkas nuostabaus"</string>
     <string name="sunrise_time_format_tomorrow_desc">Saulėtekis rytoj: %s</string>
     <string name="sunset_time_format">Saulėlydis %s</string>
     <string name="sunset_time_format_desc">Saulėlydžio laikas: %s</string>
-    <string name="super_wallpaper_date_inter">"MM-dd
-EEEE"</string>
+    <string name="super_wallpaper_date_inter">"EEEE
+M/dd"</string>
     <string name="talkback_invert_color">Invertuoti spalvas</string>
     <string name="temporary_style">10 sekundžių po bakstelėjimo</string>
     <string name="temporary_style_5">5 sekundes po bakstelėjimo</string>

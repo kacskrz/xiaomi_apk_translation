@@ -64,6 +64,9 @@
     <string name="aod_app_name">Skärm alltid på och Låsskärmsredigerare</string>
     <string name="aod_close_color_inversion">Denna funktion kan inte kombineras med färginversion. Avaktivera färginversion först.</string>
     <string name="aod_component">Visade objekt</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Fler alternativ</string>
     <string name="aod_gradient_1">Ljusblå och grönblå lutning</string>
     <string name="aod_gradient_10">Rosa, orange och lila lutning</string>
@@ -115,6 +118,7 @@ dd MM"</string>
     <string name="aod_resting_screen_define">Anpassa</string>
     <string name="aod_resting_screen_same_to_lock">Samma som låsskärm</string>
     <string name="aod_resting_screen_style_title">Tema</string>
+    <string name="aod_setting_fold_full_aod_summary">Den här stilen kan bara användas på yttre skärmen</string>
     <string name="aod_setting_pad_des2">Klockans färg kommer att matcha din bakgrund</string>
     <string name="aod_show_date_and_time">Visa datum och tid</string>
     <string name="aod_show_mode_title_des_pad">Visa alltid när laddning pågår</string>
@@ -139,6 +143,8 @@ dd MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Du tryckte snabbt två gånger på handtaget</string>
     <string name="bottomsheet_drag_handle_content_description">Handtag</string>
     <string name="btn_know">Jag förstår</string>
+    <string name="calendar_date_picker_a11y_next_month">Ändra till nästa månad</string>
+    <string name="calendar_date_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="call_notification_answer_action">Svara</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Avvisa</string>
@@ -186,6 +192,10 @@ dd MM"</string>
     <string name="deep_space_planet_des">Detta tema återspeglar de ljusförändringar som sker omkring dig under dagen. Soluppgångar och solnedgångar synkroniseras också med din plats.</string>
     <string name="default_clock_style">Okänd siffra</string>
     <string name="delete">Radera</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digial</string>
     <string name="disable_aod_in_power_save_mode">Stäng av när Batterispararen är på</string>
     <string name="disable_aod_in_power_save_mode_summary">Visa inte objekt för att spara ström</string>
@@ -290,6 +300,13 @@ dd MM"</string>
     <string name="health_chart_step_count_unit">Steg</string>
     <string name="health_no_data">Ingen hälsodata</string>
     <string name="health_sleep_desc">Steg-varaktighet: %1$s, steg-kvalité: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horisontell klocka</string>
     <string name="humidity_format">Luftfuktighet %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ dd MM"</string>
     <string name="keyguard_shortcut_tab_right">Höger</string>
     <string name="keyguard_shortcut_title">Genvägar</string>
     <string name="kg_activity_label">Redigera Låsskärm</string>
+    <string name="kg_allinone_drag_bottom">Justera klockans höjd genom att dra i klockans nederkant</string>
+    <string name="kg_allinone_drag_corner">Ändra storlek på klockan genom att dra i det nedre högra hörnet</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">Misan (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">Misan (avrundad)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">Misan (fyrkant)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Det här teckensnittet stöder inte konturstil</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Aktuell teckenstil, teckenstorlek och teckenbredd stöder inte konturstilar</string>
+    <string name="kg_allinone_hollow_style_both">Timmar och minuter: Konturer</string>
+    <string name="kg_allinone_hollow_style_hour">Timmar: Disposition. Minuter: Heldragen.</string>
+    <string name="kg_allinone_hollow_style_minute">Timmar: Heldragen. Minuter: Konturer.</string>
+    <string name="kg_allinone_hollow_style_none">Timmar och minuter: Heldragen</string>
+    <string name="kg_allinone_hollow_style_title">Kontorsstil</string>
+    <string name="kg_allinone_transparency_name">Klocktransparens</string>
+    <string name="kg_allinone_transparency_title">Transparens</string>
+    <string name="kg_allinone_weight_title">Teckensnitts-tjocklek</string>
     <string name="kg_aod_settings_depth_video_toast">Endast anpassad \"Skärm alltid på\" stöds när djupeffekten används</string>
     <string name="kg_apply">Tillämpa</string>
     <string name="kg_apply_dialog_desktop_preview">Förhandsgranska Hemskärm</string>
@@ -374,9 +408,13 @@ dd MM"</string>
     <string name="kg_color_value_editor_lightness">Ljusstyrka</string>
     <string name="kg_color_value_editor_saturation">Mättnad</string>
     <string name="kg_color_value_editor_title">Redigera färg</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Fortsätt redigera</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Anpassa</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Radera det här setet?</string>
     <string name="kg_delete_this_collocation_desc">Det här setets inställningar för låsskärm och hemskärm kommer att raderas. Radera set nu?</string>
     <string name="kg_depth_preset_button_download">Ladda ner dynamisk bakgrund</string>
@@ -457,6 +495,7 @@ dd MM"</string>
     <string name="kg_effects_tip_button">Jag förstår</string>
     <string name="kg_effects_tip_desc">Effekten fördjupning av fält kan inte kombineras med filter. Att använda en av dem kommer att ersätta den andra.</string>
     <string name="kg_effects_tip_not_support">Kan inte tillämpa effekter på dynamiska bakgrunder</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Glasklockan stöder inte effekter</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Tredjeparts bakgrunder stöder inte effekter</string>
     <string name="kg_effects_tip_title">Fördjupning av fält och filter</string>
     <string name="kg_enable_blur">Matt effekt</string>
@@ -481,6 +520,8 @@ dd MM"</string>
     <string name="kg_font_filter_color_white">Vit</string>
     <string name="kg_font_filter_doodle_primary_label">Klotter</string>
     <string name="kg_font_filter_doodle_secondary_label">Bakgrund</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Oskärpa och blandning</string>
+    <string name="kg_font_filter_group_label_glass">Glas</string>
     <string name="kg_font_filter_group_label_glow">Glöd</string>
     <string name="kg_font_filter_group_label_gradient_blur">Lutande</string>
     <string name="kg_font_filter_group_label_obscure">Blanda</string>
@@ -574,6 +615,8 @@ dd MM"</string>
     <string name="kg_oversize_clock_type_bold">Fetstil</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Konturera</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Välj igen</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Fetstilt serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Pensel</string>
@@ -623,15 +666,19 @@ dd MM"</string>
     <string name="kg_talkback_pick_wallpaper">Bakgrund, vald från bibliotek</string>
     <string name="kg_talkback_select_all">Markera alla</string>
     <string name="kg_talkback_selected">Valda</string>
+    <string name="kg_talkback_slide_up_or_down">Svep uppåt eller neråt för att justera</string>
     <string name="kg_talkback_unselect_all">Avmarkera alla</string>
     <string name="kg_template_description_car">Där teknik möter skönhet: fånga framtidens hastighet med varje upplåsning.</string>
     <string name="kg_template_description_classic">Klassiskt blir aldrig omodernt.</string>
     <string name="kg_template_description_eastern_art">Visar samtida tolkning av österländska miljöer med hjälp av klassisk korssymetrisk, distinkt vertikal layout, och kalligrafiskt uttryck</string>
     <string name="kg_template_description_magazine">Gör din Låsskärm till ett magasin-omslag.</string>
+    <string name="kg_template_description_magazine_natural">En klockstil som kombinerar naturliga landskap med skiktad grafik för en raffinerad, uttrycksfull look</string>
     <string name="kg_template_description_rhombus">Tid är viktigt. Ta vara på den.</string>
     <string name="kg_template_preview_content_description">Förhandsgranska</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Stor klocka A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Stor klocka B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Stor klocka C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Stor klocka D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klassisk</string>
     <string name="kg_template_title_classic_max_talkback">Klassisk låssskärm MAX</string>
@@ -651,6 +698,7 @@ dd MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Magasin B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Magasin C, konturer</string>
     <string name="kg_template_title_magazine_c_three_talkback">Magasin C, trippellinjer</string>
+    <string name="kg_template_title_magazine_natural">Naturbilder</string>
     <string name="kg_template_title_magazine_phone">Människor</string>
     <string name="kg_template_title_mine">Låsskärm</string>
     <string name="kg_template_title_mine_collocation">Mina set</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Byt till halvskärm</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximera</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimera</string>
+    <string name="miuix_popup_show_description">Dialogruta</string>
     <string name="miuix_popup_window_default_title">Dialogruta</string>
     <string name="miuix_progressbar_loading">Laddar</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Mitt tema</string>
     <string name="night">Kväll</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Middagstid</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Inte angett</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktiv period: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Schemalagd</string>
     <string name="scheduled_style_summary">Ange anpassad tid</string>
     <string name="scope_des">Varje kalejdoskop består av fem olika mönster som visas efter varandra när skärmen tänds.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">Välj specialeffekt</string>
     <string name="select_notification_notify_style">Välj aviseringseffekt</string>
     <string name="send">Skicka</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Av</string>
     <string name="settings_view_btn_check_on">På</string>
     <string name="settings_view_btn_stoped">Avaktiverad</string>
@@ -995,7 +1047,7 @@ underbart är på väg att hända"</string>
     <string name="sunset_time_format">Solnedgång %s</string>
     <string name="sunset_time_format_desc">Solnedgång: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-d/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Invertera färger</string>
     <string name="temporary_style">Under 10 sekunder efter att du rört den</string>
     <string name="temporary_style_5">I 5 sekunder efter att tryck</string>

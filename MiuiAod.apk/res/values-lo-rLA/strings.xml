@@ -37,6 +37,9 @@
     <string name="aod_app_name">ໜ້າຈໍສະແດງຜົນແບບເປີດຕະຫຼອດແລະຕົວແກ້ໄຂໜ້າຈໍລັອກ</string>
     <string name="aod_close_color_inversion">ຄຸນສົມບັດນີ້ບໍ່ສາມາດລວມເຂົ້າກັບການປີ້ນກັບສີ. ປິດໃຊ້ງານການປີ້ນກັບສີກ່ອນ.</string>
     <string name="aod_component">ລາຍການທີ່ສະແດງ</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">ຕົວ​ເລືອກ​ເພີ່ມ​ເຕີມ</string>
     <string name="aod_gradient_1">ໄລ່ໂທນສີຟ້າອ່ອນແລະສີຂຽວອົມຟ້າ</string>
     <string name="aod_gradient_10">ໄລ່ໂທນສີບົວ, ສີສົ້ມແລະສີມ່ວງ</string>
@@ -88,6 +91,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">​ກຳ​ນົດ​ເອງ</string>
     <string name="aod_resting_screen_same_to_lock">ຄືກັນກັບໜ້າຈໍລັອກ</string>
     <string name="aod_resting_screen_style_title">ຊຸດຮູບແບບ</string>
+    <string name="aod_setting_fold_full_aod_summary">ຮູບແບບນີ້ສາມາດໃຊ້ໄດ້ສະເພາະໜ້າຈໍດ້ານນອກເທົ່ານັ້ນ</string>
     <string name="aod_setting_pad_des2">ສີໂມງຈະກົງກັບພາບພື້ນຫຼັງຂອງທ່ານ</string>
     <string name="aod_show_date_and_time">ສະແດງ​​ວັນ​ທີແລະເວ​ລາ</string>
     <string name="aod_show_mode_title_des_pad">ສະແດງສະເໝີເມື່ອສາກໄຟ</string>
@@ -148,6 +152,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">ຊຸດຮູບແບບນີ້ສະທ້ອນການປ່ຽນແປງແສງສະຫວ່າງອ້ອມຕົວທ່ານໃນລະຫວ່າງມື້. ຕາເວັນຂຶ້ນແລະຕາເວັນຕົກຈະຖືກຊິ້ງຂໍ້ມູນກັບຕຳແໜ່ງທີ່ຕັ້ງຂອງທ່ານ.</string>
     <string name="default_clock_style">ໜ້າປັດ​ທີ່​ບໍ່​ຮູ້​ຈັກ</string>
     <string name="delete">ລົບ</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">ດິຈິຕອລ</string>
     <string name="disable_aod_in_power_save_mode">ປິດເມື່ອຕົວປະຢັດແບັດເຕີຣີຖືກເປີດ</string>
     <string name="disable_aod_in_power_save_mode_summary">ບໍ່ສະແດງລາຍການເພື່ອປະຢັດພະລັງງານ</string>
@@ -248,6 +256,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">ບາດກ້າວ</string>
     <string name="health_no_data">ບໍ່ມີຂໍ້ມູນສຸຂະພາບ</string>
     <string name="health_sleep_desc">ໄລຍະເວລາການນອນ %1$s, ຄຸນນະພາບການນອນ: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">ໂມງລວງນອນ</string>
     <string name="humidity_format">ຄວາມຊຶ້ນ %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">ຂວາ</string>
     <string name="keyguard_shortcut_title">ປຸ່ມລັດ</string>
     <string name="kg_activity_label">ແກ້ໄຂໜ້າຈໍລັອກ</string>
+    <string name="kg_allinone_drag_bottom">ລາກສ່ວນລຸ່ມຂອງໂມງເພື່ອປັບຄວາມສູງ</string>
+    <string name="kg_allinone_drag_corner">ລາກມຸມຂວາລຸ່ມຂອງໂມງເພື່ອປັບຂະໜາດ</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (ເຮຕິ)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (ມົນ)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (ຈະຕຸລັດ)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">ຟອນຕົວອັກສອນນີ້ບໍ່ຮອງຮັບຮູບແບບໂຄງຮ່າງ</string>
+    <string name="kg_allinone_hollow_not_support_current_style">ຟອນຕົວອັກສອນ, ຂະໜາດແລະນ້ຳໜັກປັດຈຸບັນບໍ່ຮອງຮັບຮູບແບບໂຄງຮ່າງ</string>
+    <string name="kg_allinone_hollow_style_both">ຊົ່ວໂມງແລະນາທີ: ເສັ້ນຂອບ</string>
+    <string name="kg_allinone_hollow_style_hour">ຊົ່ວໂມງ: ເສັ້ນຂອບ. ນາທີ: Solid.</string>
+    <string name="kg_allinone_hollow_style_minute">ຊົ່ວໂມງ: Solid. ນາທີ: ເສັ້ນຂອບ.</string>
+    <string name="kg_allinone_hollow_style_none">ຊົ່ວໂມງແລະນາທີ: Solid</string>
+    <string name="kg_allinone_hollow_style_title">ຮູບແບບໂຄງຮ່າງ</string>
+    <string name="kg_allinone_transparency_name">ຄວາມໂປ່ງໃສຂອງໂມງ</string>
+    <string name="kg_allinone_transparency_title">ໂປ່ງໃສ</string>
+    <string name="kg_allinone_weight_title">ຄວາມໜາຟອນຕົວອັກສອນ</string>
     <string name="kg_aod_settings_depth_video_toast">ຮອງຮັບສະເພາະໜ້າຈໍສະແດງຜົນແບບເປີດຕະຫຼອດແບບກຳນົດເອງເມື່ອໃຊ້ເອັບເຟັກຄວາມເລິກ</string>
     <string name="kg_apply">ໃຊ້ງານ</string>
     <string name="kg_apply_dialog_desktop_preview">ສະແດງຕົວຢ່າງໜ້າຈໍຫຼັກ</string>
@@ -330,9 +362,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">ຄວາມສະຫວ່າງ</string>
     <string name="kg_color_value_editor_saturation">ຄວາມອີ່ມສີ</string>
     <string name="kg_color_value_editor_title">ແກ້ໄຂສີ</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">​ຕົກລົງ</string>
     <string name="kg_continue_editing">ແກ້ໄຂຕໍ່</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">ປັບແຕ່ງ</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">ລົບເຊັດນີ້?</string>
     <string name="kg_delete_this_collocation_desc">ການຕັ້ງຄ່າໜ້າຈໍລັອກແລະໜ້າຈໍຫຼັກຂອງເຊັດນີ້ຈະຖືກລົບອອກ. ລົບເຊັດຕອນນີ້ບໍ່?</string>
     <string name="kg_depth_preset_button_download">ດາວໂຫຼດພາບພື້ນຫຼັງໄດນາມິກ</string>
@@ -413,6 +449,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">ຮັບຊາບ</string>
     <string name="kg_effects_tip_desc">ເອັບເຟັກຄວາມເລິກບໍ່ສາມາດປະສົມກັບຟິວເຕີໄດ້. ການນໍາໃຊ້ໜຶ່ງໃນນັ້ນຈະແທນທີ່ອີກອັນໜຶ່ງ.</string>
     <string name="kg_effects_tip_not_support">ບໍ່ສາມາດນຳໃຊ້ເອັບເຟັກພາບພື້ນຫຼັງໄດນາມິກໄດ້</string>
+    <string name="kg_effects_tip_not_support_glass_filter">ໂມງແກ້ວບໍ່ຮອງຮັບເອັບເຟັກ</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">ພາບພື້ນຫຼັງພາກສ່ວນທີສາມບໍ່ຮອງຮັບເອັບເຟັກ</string>
     <string name="kg_effects_tip_title">ຄວາມເລິກແລະຟິວເຕີ</string>
     <string name="kg_enable_blur">ເອັບເຟັກ Matte</string>
@@ -437,6 +474,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">​ສີ​ຂາວ</string>
     <string name="kg_font_filter_doodle_primary_label">ລາຍເສັ້ນ</string>
     <string name="kg_font_filter_doodle_secondary_label">ພື້ນຫຼັງ</string>
+    <string name="kg_font_filter_group_label_BlurObscure">ມົວແລະປະສົມ</string>
+    <string name="kg_font_filter_group_label_glass">ແກ້ວ</string>
     <string name="kg_font_filter_group_label_glow">ແສງແວວວາວ</string>
     <string name="kg_font_filter_group_label_gradient_blur">ການໄລ່ສີ</string>
     <string name="kg_font_filter_group_label_obscure">ປະສົມ</string>
@@ -530,6 +569,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">ຕົວໜາ</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">ໂຄງຮ່າງ</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">ເລືອກອີກຄັ້ງ</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif ຕົວໜາ</string>
     <string name="kg_rhombus_clock_type_brush_font">ແປງ</string>
@@ -579,15 +620,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">ພາບພື້ນຫຼັງ, ເລືອກຈາກຄັງຮູບພາບ</string>
     <string name="kg_talkback_select_all">​ເລືອກ​ທັງ​ໝົດ</string>
     <string name="kg_talkback_selected">ເລືອກແລ້ວ</string>
+    <string name="kg_talkback_slide_up_or_down">ປັດຂຶ້ນຫຼືລົງເພື່ອປັບ</string>
     <string name="kg_talkback_unselect_all">​ຍົກ​ເລີກ​ການ​ເລືອກ​ທັງ​ໝົດ</string>
     <string name="kg_template_description_car">ບ່ອນທີ່ເຕັກໂນໂລຊີພົບກັບຄວາມງາມ: ບັນທຶກຄວາມໄວຂອງອະນາຄົດດ້ວຍທຸກໆການປົດລັອກ.</string>
     <string name="kg_template_description_classic">ສິ່ງທີ່ຄລາສສິກບໍ່ເຄີຍອອກຈາກເທຣນ.</string>
     <string name="kg_template_description_eastern_art">ສະ​ແດງ​ໃຫ້​ເຫັນ​ການ​ຕີ​ຄວາມ​ທັນ​ສະ​ໄໝ​ຂອງ​ອົງ​ປະ​ກອບ​ຕາ​ເວັນ​ອອກ​ໂດຍ​ການ​ນໍາ​ໃຊ້​ຄວາມ​ສົມ​ມາດ​ຂ້າມ​ແບບຄລາ​ສ​ສິກ​, ຮູບ​ແບບ​ແນວຕັ້ງ​ທີ່​ໂດດເດັ່ນແລະ​ການ​ສະ​ແດງ​ອອກທາງອັກສອນວິຈິດສິນ</string>
     <string name="kg_template_description_magazine">ປ່ຽນໜ້າຈໍລັອກຂອງທ່ານໃຫ້ເປັນໜ້າປົກວາລະສານ.</string>
+    <string name="kg_template_description_magazine_natural">ສະໄຕລ໌ໂມງທີ່ຈັບຄູ່ພູມສັນຖານທຳມະຊາດກັບຮູບພາບຫຼາຍຊັ້ນເພື່ອໃຫ້ໄດ້ຮູບລັກສະນະທີ່ງົດງາມແລະເອກະລັກ</string>
     <string name="kg_template_description_rhombus">ເວລາເປັນສິ່ງສໍາຄັນ. ໃຊ້ມັນໃຫ້ຄຸ້ມຄ່າ.</string>
     <string name="kg_template_preview_content_description">ສະແດງຕົວຢ່າງ</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">ໂມງຂະໜາດໃຫຍ່ ກ</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">ໂມງຂະໜາດໃຫຍ່ ຂ</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">ໂມງຂະໜາດໃຫຍ່ ຄ</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">ໂມງຂະໜາດໃຫຍ່ ງ</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">ຄລາສສິກ</string>
     <string name="kg_template_title_classic_max_talkback">ໜ້າຈໍລັອກແບບຄລາສສິກ MAX</string>
@@ -607,6 +652,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">ວາລະສານ ຂ</string>
     <string name="kg_template_title_magazine_c_one_talkback">ວາລະສານ ຄ, ໂຄງຮ່າງ</string>
     <string name="kg_template_title_magazine_c_three_talkback">ວາລະສານ ຄ, ລາຍເສັ້ນສາມຊັ້ນ</string>
+    <string name="kg_template_title_magazine_natural">ພາບທຳມະຊາດ</string>
     <string name="kg_template_title_magazine_phone">ຄົນ</string>
     <string name="kg_template_title_mine">ໜ້າຈໍລັອກ</string>
     <string name="kg_template_title_mine_collocation">ເຊັດຂອງຂ້ອຍ</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">ສັບປ່ຽນເປັນເຄິ່ງໜ້າຈໍ</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">ຂະຫຍາຍ</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">ຫຍໍ້</string>
+    <string name="miuix_popup_show_description">ໜ້າຕ່າງປັອບອັບ</string>
     <string name="miuix_popup_window_default_title">ໜ້າຕ່າງປັອບອັບ</string>
     <string name="miuix_progressbar_loading">ກຳລັງໂຫຼດ</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">​ລາກ​ລົງ​ເພື່ອ​ຣີ​ເຟຣັຊ</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">ຕອນເຊົ້າ</string>
     <string name="my_style_title">ຊຸດຮູບແບບຂອງຂ້ອຍ</string>
     <string name="night">ຕອນຄ່ຳ</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">ຕອນກາງເວັນ</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">ຊີພະຈອນ (ສີແດງ)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">ໄລຍະເວລາໃຊ້ງານ: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">ກຳນົດເວລາ</string>
     <string name="scheduled_style_summary">ຕັ້ງເວລາທີ່ກຳນົດເອງ</string>
     <string name="scope_des">Kaleidoscope ທຸກອັນມີ 5 ຮູບແບບທີ່ແຕກຕ່າງກັນເຊິ່ງຈະຖືກສະແດງທຸກຄັ້ງເມື່ອໜ້າຈໍສ່ອງແສງຂຶ້ນ.</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">ເລືອກເອັບເຟັກພິເສດ</string>
     <string name="select_notification_notify_style">ເລືອກເອັບເຟັກການແຈ້ງເຕືອນ</string>
     <string name="send">​ສົ່ງ</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">​ປິດ</string>
     <string name="settings_view_btn_check_on">​ເປີດ</string>
     <string name="settings_view_btn_stoped">ປິດ</string>
@@ -884,7 +934,7 @@ mm"</string>
     <string name="sunset_time_format">ຕາເວັນຕົກ %s</string>
     <string name="sunset_time_format_desc">ເວລາຕາເວັນຕົກ: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">ປີ້ນສີ</string>
     <string name="temporary_style">ເປັນເວລາ 10 ວິນາທີຫຼັງຈາກແຕະ</string>
     <string name="temporary_style_5">ເປັນເວລາ 5 ວິນາທີຫຼັງຈາກແຕະ</string>

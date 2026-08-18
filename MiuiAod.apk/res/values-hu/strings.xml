@@ -64,6 +64,9 @@
     <string name="aod_app_name">Always-on display funkció és Képernyőzár-szerkesztő</string>
     <string name="aod_close_color_inversion">Ez a funkció nem kombinálható az invertált színekkel. Előbb kapcsolja ki a színek invertálását.</string>
     <string name="aod_component">Elemek megjelenítése</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">További lehetőségek</string>
     <string name="aod_gradient_1">Világoskék és pávakék átmenetes</string>
     <string name="aod_gradient_10">Rózsaszín, narancssárga és lila átmenetes</string>
@@ -115,6 +118,7 @@ MM.dd."</string>
     <string name="aod_resting_screen_define">Egyéni</string>
     <string name="aod_resting_screen_same_to_lock">Ugyanaz, mint a képernyőzár</string>
     <string name="aod_resting_screen_style_title">Téma</string>
+    <string name="aod_setting_fold_full_aod_summary">Ez a stílus csak a külső képernyőn használható</string>
     <string name="aod_setting_pad_des2">Az óra színe megegyezik a háttérkép színével</string>
     <string name="aod_show_date_and_time">Dátum és idő megjelenítése</string>
     <string name="aod_show_mode_title_des_pad">Mindig jelenítse meg töltéskor</string>
@@ -139,6 +143,8 @@ MM.dd."</string>
     <string name="bottomsheet_drag_handle_clicked">Duplán koppintott a csúszkára</string>
     <string name="bottomsheet_drag_handle_content_description">Csúszka</string>
     <string name="btn_know">Értem</string>
+    <string name="calendar_date_picker_a11y_next_month">Váltás a következő hónapra</string>
+    <string name="calendar_date_picker_a11y_prev_month">Váltás az előző hónapra</string>
     <string name="call_notification_answer_action">Fogadás</string>
     <string name="call_notification_answer_video_action">Videó</string>
     <string name="call_notification_decline_action">Elutasítás</string>
@@ -186,6 +192,10 @@ MM.dd."</string>
     <string name="deep_space_planet_des">Ez a téma azt tükrözi, ahogy a napszakok során a fények változnak. A napkelte és napnyugta időpontja a helyadatok alapján is szinkronizálódik.</string>
     <string name="default_clock_style">Ismeretlen tárcsázás</string>
     <string name="delete">Törlés</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digitális</string>
     <string name="disable_aod_in_power_save_mode">Kikapcsolás, amikor az Akkumulátorkímélő be van kapcsolva</string>
     <string name="disable_aod_in_power_save_mode_summary">Ne jelenítse meg az elemeket energiatakarékosság miatt</string>
@@ -290,6 +300,13 @@ MM.dd."</string>
     <string name="health_chart_step_count_unit">Lépések</string>
     <string name="health_no_data">Nincs egészségügyi adat</string>
     <string name="health_sleep_desc">Alvás időtartama %1$s, alvásminőség: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Vízszintes óra</string>
     <string name="humidity_format">Páratartalom %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ MM.dd."</string>
     <string name="keyguard_shortcut_tab_right">Jobb</string>
     <string name="keyguard_shortcut_title">Parancsikonok</string>
     <string name="kg_activity_label">Képernyőzár szerkesztése</string>
+    <string name="kg_allinone_drag_bottom">A magasság beállításához húzza az óra alsó sarkát</string>
+    <string name="kg_allinone_drag_corner">Az átméretezéshez húzza az óra jobb alsó sarkát</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Lekerekített)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Square)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Ez a betűtípus nem támogatja a körvonalstílusokat</string>
+    <string name="kg_allinone_hollow_not_support_current_style">A jelenlegi betűtípus, méret és vastagság nem támogatja a körvonalstílusokat</string>
+    <string name="kg_allinone_hollow_style_both">Óra és perc: folyamatos</string>
+    <string name="kg_allinone_hollow_style_hour">Óra: körvonalazott. Perc: folyamatos.</string>
+    <string name="kg_allinone_hollow_style_minute">Óra: folyamatos. Perc: körvonalazott.</string>
+    <string name="kg_allinone_hollow_style_none">Óra és perc: folyamatos</string>
+    <string name="kg_allinone_hollow_style_title">Körvonalstílus</string>
+    <string name="kg_allinone_transparency_name">Óra-átlátszóság</string>
+    <string name="kg_allinone_transparency_title">Átlátszóság</string>
+    <string name="kg_allinone_weight_title">Betűvastagság</string>
     <string name="kg_aod_settings_depth_video_toast">A mélységhatás használatakor csak az egyéni always-on display funkció támogatott.</string>
     <string name="kg_apply">Alkalmaz</string>
     <string name="kg_apply_dialog_desktop_preview">Kezdőképernyő előnézete</string>
@@ -374,9 +408,13 @@ MM.dd."</string>
     <string name="kg_color_value_editor_lightness">Világosság</string>
     <string name="kg_color_value_editor_saturation">Telítettség (Saturation)</string>
     <string name="kg_color_value_editor_title">Szín szerkesztése</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Szerkesztés folytatása</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Testreszabás</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Törli ezt az készletet?</string>
     <string name="kg_delete_this_collocation_desc">A készlet Képernyőzár és kezdőképernyő beállításai törlésre kerülnek. Törli most a készletet?</string>
     <string name="kg_depth_preset_button_download">Dinamikus háttérkép letöltése</string>
@@ -457,6 +495,7 @@ MM.dd."</string>
     <string name="kg_effects_tip_button">Értem</string>
     <string name="kg_effects_tip_desc">A mélységélesség effektus nem kombinálható szűrőkkel. Az egyik használata helyettesíti a másikat.</string>
     <string name="kg_effects_tip_not_support">Nem lehet effektusokat alkalmazni dinamikus háttérképekre</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Az üvegóra nem támogatja az effekteket</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">A harmadik féltől származó háttérképek nem támogatják az effektusokat</string>
     <string name="kg_effects_tip_title">Mélységélesség és szűrők</string>
     <string name="kg_enable_blur">Matt effektus</string>
@@ -481,6 +520,8 @@ MM.dd."</string>
     <string name="kg_font_filter_color_white">Fehér</string>
     <string name="kg_font_filter_doodle_primary_label">Firkák</string>
     <string name="kg_font_filter_doodle_secondary_label">Háttér</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Elmosás</string>
+    <string name="kg_font_filter_group_label_glass">Üveg</string>
     <string name="kg_font_filter_group_label_glow">Csillogó</string>
     <string name="kg_font_filter_group_label_gradient_blur">Átmenetes</string>
     <string name="kg_font_filter_group_label_obscure">Keverés</string>
@@ -574,6 +615,8 @@ MM.dd."</string>
     <string name="kg_oversize_clock_type_bold">Félkövér</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Körvonal</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Újra kiválasztás</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Félkövér serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Ecset</string>
@@ -623,15 +666,19 @@ MM.dd."</string>
     <string name="kg_talkback_pick_wallpaper">Háttérkép, könyvtárból kiválasztva</string>
     <string name="kg_talkback_select_all">Összes kijelölése</string>
     <string name="kg_talkback_selected">Kijelölve</string>
+    <string name="kg_talkback_slide_up_or_down">Csúsztassa le vagy fel a beállításhoz</string>
     <string name="kg_talkback_unselect_all">Kijelölések törlése</string>
     <string name="kg_template_description_car">Ahol a technológia és a szépség találkozik: minden feloldással megragadja a jövő sebességét.</string>
     <string name="kg_template_description_classic">Ami klasszikus, soha nem megy ki a divatból.</string>
     <string name="kg_template_description_eastern_art">A keleti elemek kortárs értelmezését mutatja be a klasszikus kereszt-szimmetria, a jellegzetes függőleges elrendezés és a kalligrafikus kifejezőeszközök segítségével</string>
     <string name="kg_template_description_magazine">Változtasd a Képernyőzárad magazinborítóvá.</string>
+    <string name="kg_template_description_magazine_natural">Egy órastílus, amely a természeti tájakat réteges vizuális elemekkel ötvözi, kifinomult, kifejező megjelenést kölcsönözve</string>
     <string name="kg_template_description_rhombus">Az idő fontos. Használd ki!</string>
     <string name="kg_template_preview_content_description">Előnézet</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Nagy óra A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Nagy óra B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Nagy óra C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Nagy óra D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klasszikus</string>
     <string name="kg_template_title_classic_max_talkback">Klasszikus képernyőzár MAX</string>
@@ -651,6 +698,7 @@ MM.dd."</string>
     <string name="kg_template_title_magazine_b_talkback">Magazin B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Magazin C, körvonalas</string>
     <string name="kg_template_title_magazine_c_three_talkback">Magazin C, háromvonalas</string>
+    <string name="kg_template_title_magazine_natural">Természetképek</string>
     <string name="kg_template_title_magazine_phone">Személyek</string>
     <string name="kg_template_title_mine">Képernyő zárolása</string>
     <string name="kg_template_title_mine_collocation">Készleteim</string>
@@ -763,7 +811,7 @@ dd"</string>
     <string name="miui_rhombus_clock_date">MMMM. dd.</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">M. d.</string>
+    <string name="miui_smart_frame_clock_date">MM. dd.</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Váltás fél képernyőre</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximalizálás</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalizálás</string>
+    <string name="miuix_popup_show_description">Felugró ablak</string>
     <string name="miuix_popup_window_default_title">Felugró ablak</string>
     <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Témám</string>
     <string name="night">Este</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Dél</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Nincs beállítva</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktív időszak: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Ütemezett</string>
     <string name="scheduled_style_summary">Egyéni idő beállítása</string>
     <string name="scope_des">Minden kaleidoszkó 5 különböző mintát tartalmaz, amelyek váltakozva jelennek meg minden alkalommal, amikor a képernyője felvillan.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">Speciális effektus kiválasztása</string>
     <string name="select_notification_notify_style">Válassza ki az értesítési effektet</string>
     <string name="send">Küldés</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Ki</string>
     <string name="settings_view_btn_check_on">Be</string>
     <string name="settings_view_btn_stoped">Kikapcsolva</string>
@@ -994,8 +1046,8 @@ csodálatos dolog fog történni"</string>
     <string name="sunrise_time_format_tomorrow_desc">A holnapi napfelkelte: %s</string>
     <string name="sunset_time_format">Napnyugta %s</string>
     <string name="sunset_time_format_desc">Napnyugta ideje: %s</string>
-    <string name="super_wallpaper_date_inter">"MM. dd.
-EEEE"</string>
+    <string name="super_wallpaper_date_inter">"EEEE
+M/dd"</string>
     <string name="talkback_invert_color">A színek invertálása</string>
     <string name="temporary_style">Koppintás után 10 másodpercig</string>
     <string name="temporary_style_5">Koppintás után 5 másodpercig</string>

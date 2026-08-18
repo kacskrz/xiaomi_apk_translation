@@ -15,6 +15,7 @@
     <string name="add_custom_image">Xüsusi şəkil</string>
     <string name="add_from_local">Şəkil seçin</string>
     <string name="afternoon">Günortadan sonra</string>
+    <string name="air_quality_index_abbreviation">HKİ</string>
     <string name="align_center_horizontally">Üfüqi və mərkəzə düzülmüş</string>
     <string name="align_center_vertically">Yığılmış və mərkəzə düzülmüş</string>
     <string name="align_left_horizontally">Üfüqi və sola düzülmüş</string>
@@ -37,6 +38,9 @@
     <string name="aod_app_name">Həmişə açıq ekran və Kilid ekranı redaktoru</string>
     <string name="aod_close_color_inversion">Bu xüsusiyyət rəng inversiyası ilə birləşdirilə bilməz. Əvvəlcə rəng inversiyasını söndürün.</string>
     <string name="aod_component">Göstərilən elementlər</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Daha çox seçim</string>
     <string name="aod_gradient_1">Açıq mavi və firuzəyi qradiyent</string>
     <string name="aod_gradient_10">Çəhrayı, narıncı və bənövşəyi qradiyent</string>
@@ -88,6 +92,7 @@ EE"</string>
     <string name="aod_resting_screen_define">Fərdi</string>
     <string name="aod_resting_screen_same_to_lock">Kilid ekranı ilə eyni</string>
     <string name="aod_resting_screen_style_title">Tema</string>
+    <string name="aod_setting_fold_full_aod_summary">Bu üslub yalnız xarici ekranda istifadə oluna bilər</string>
     <string name="aod_setting_pad_des2">Saat rəngi divar kağızınızın rənginə uyğun olacaq</string>
     <string name="aod_show_date_and_time">Tarix və saatı göstər</string>
     <string name="aod_show_mode_title_des_pad">Şarj olunarkən həmişə göstər</string>
@@ -148,6 +153,10 @@ EE"</string>
     <string name="deep_space_planet_des">Bu tema gün ərzində ətrafınızda baş verən işıq dəyişikliklərini əks etdirir. Gün doğuşları və gün batışları da məkanınız ilə sinxronlaşdırılır.</string>
     <string name="default_clock_style">Naməlum siferblat</string>
     <string name="delete">Sil</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Rəqəmsal</string>
     <string name="disable_aod_in_power_save_mode">Batareya qənaəti açıq olduqda söndür</string>
     <string name="disable_aod_in_power_save_mode_summary">Enerji qənaəti etmək üçün elementləri göstərməyin</string>
@@ -248,6 +257,13 @@ EE"</string>
     <string name="health_chart_step_count_unit">Addımlar</string>
     <string name="health_no_data">Sağlamlıq məlumatları yoxdur</string>
     <string name="health_sleep_desc">Yuxu müddəti %1$s, yuxu keyfiyyəti: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Üfüqi saat</string>
     <string name="humidity_format">Rütubət %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +274,23 @@ EE"</string>
     <string name="keyguard_shortcut_tab_right">Sağ</string>
     <string name="keyguard_shortcut_title">Qısayollar</string>
     <string name="kg_activity_label">Kilid ekranını düzəlt</string>
+    <string name="kg_allinone_drag_bottom">Hündürlüyünü tənzimləmək üçün saatın alt hissəsini dartın</string>
+    <string name="kg_allinone_drag_corner">Ölçüsünü dəyişdirmək üçün saatın sağ alt küncünü dartın</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Dairəvi)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Kvadrat)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Bu şrift kontur üslublarını dəstəkləmir</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Hazırkı şrift üslubu, ölçüsü və qalınlığı kontur üslublarını dəstəkləmir</string>
+    <string name="kg_allinone_hollow_style_both">Saatlar və dəqiqələr: Konturlu</string>
+    <string name="kg_allinone_hollow_style_hour">Saatlar: Konturlu. Dəqiqələr: Bərk.</string>
+    <string name="kg_allinone_hollow_style_minute">Saatlar: Bərk. Dəqiqələr: Konturlu.</string>
+    <string name="kg_allinone_hollow_style_none">Saatlar və dəqiqələr: Bərk</string>
+    <string name="kg_allinone_hollow_style_title">Kontur üslubu</string>
+    <string name="kg_allinone_transparency_name">Saat şəffaflığı</string>
+    <string name="kg_allinone_transparency_title">Şəffaflıq</string>
+    <string name="kg_allinone_weight_title">Şrift ağırlığı</string>
     <string name="kg_aod_settings_depth_video_toast">Dərinlik effektindən istifafə edərkən, yalnız fərdiləşdirilmiş Həmişə açıq ekran dəstəklənir.</string>
     <string name="kg_apply">Tətbiq et</string>
     <string name="kg_apply_dialog_desktop_preview">Əsas ekran önizləməsi</string>
@@ -330,9 +363,13 @@ EE"</string>
     <string name="kg_color_value_editor_lightness">Açıqlıq</string>
     <string name="kg_color_value_editor_saturation">Doyğunluq</string>
     <string name="kg_color_value_editor_title">Rəngi düzəlt</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Oldu</string>
     <string name="kg_continue_editing">Redaktəyə davam et</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Xüsusiləşdir</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Bu dəst silinsin?</string>
     <string name="kg_delete_this_collocation_desc">Bu dəstin Kilid ekranı və Əsas ekran tənzimləmələri silinəcək. Dəst indi silinsin?</string>
     <string name="kg_depth_preset_button_download">Dinamik divar kağızı endir</string>
@@ -413,6 +450,7 @@ EE"</string>
     <string name="kg_effects_tip_button">Başa düşdüm</string>
     <string name="kg_effects_tip_desc">Sahənin dərinliyi effekti filtrlərlə birləşdirilə bilməz. Onlardan birinin istifadəsi digərini əvəz edəcəkdir.</string>
     <string name="kg_effects_tip_not_support">Dinamik divar kağızlarına effektlər tətbiq edilə bilməz</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Şüşə saat effektləri dəstəkləmir</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Üçüncü tərəf divar kağızları effektləri dəstəkləmir</string>
     <string name="kg_effects_tip_title">Sahənin dərinliyi və filtrlər</string>
     <string name="kg_enable_blur">Mat effekti</string>
@@ -437,6 +475,8 @@ EE"</string>
     <string name="kg_font_filter_color_white">Ağ</string>
     <string name="kg_font_filter_doodle_primary_label">Cızma-qara</string>
     <string name="kg_font_filter_doodle_secondary_label">Fon</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Bulanıqlıq və qarışdırma</string>
+    <string name="kg_font_filter_group_label_glass">Şüşə</string>
     <string name="kg_font_filter_group_label_glow">Parıltı</string>
     <string name="kg_font_filter_group_label_gradient_blur">Maillik</string>
     <string name="kg_font_filter_group_label_obscure">Qarışdır</string>
@@ -530,6 +570,8 @@ EE"</string>
     <string name="kg_oversize_clock_type_bold">Qalın</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Kontur</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Yenidən seç</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Qalın serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Fırça</string>
@@ -579,15 +621,19 @@ EE"</string>
     <string name="kg_talkback_pick_wallpaper">Divar kağızı, kitabxanadan seç</string>
     <string name="kg_talkback_select_all">Hamısını seç</string>
     <string name="kg_talkback_selected">Seçildi</string>
+    <string name="kg_talkback_slide_up_or_down">Tənzimləmək üçün yuxarı və ya aşağı sürüşdürün</string>
     <string name="kg_talkback_unselect_all">Bütün seçimləri ləğv et</string>
     <string name="kg_template_description_car">Texnologiyanın gözəlliklə görüşdüyü yer: hər kilidi açanda gələcəyin sürətini tutun.</string>
     <string name="kg_template_description_classic">Klassik olan heç vaxt dəbdən düşmür.</string>
     <string name="kg_template_description_eastern_art">Klassik çarpaz simmetriya, seçilən şaqulu tərtibat və kalliqrafik ifadədən istifadə edərək Şərq elementlərinin çağdaş təfsirinin nümayişi</string>
     <string name="kg_template_description_magazine">Kilid ekranınızı jurnalın üz qabığına çevirin.</string>
+    <string name="kg_template_description_magazine_natural">Zərif və ifadəli görünüş üçün təbii mənzərələri çoxqatlı vizuallarla birləşdirən saat üslubu</string>
     <string name="kg_template_description_rhombus">Vaxt vacibdir. Hesab edin.</string>
     <string name="kg_template_preview_content_description">Önbaxış</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Böyük saat A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Böyük saat B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Böyük saat C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Böyük saat D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klassik</string>
     <string name="kg_template_title_classic_max_talkback">Klassik Kilid ekranı MAX</string>
@@ -607,6 +653,7 @@ EE"</string>
     <string name="kg_template_title_magazine_b_talkback">Jurnal B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Jurnal C, konturlu</string>
     <string name="kg_template_title_magazine_c_three_talkback">Jurnal C, üçqat xəttli</string>
+    <string name="kg_template_title_magazine_natural">Təbiət vizualları</string>
     <string name="kg_template_title_magazine_phone">İnsanlar</string>
     <string name="kg_template_title_mine">Kilid ekranı</string>
     <string name="kg_template_title_mine_collocation">Mənim dəstlərim</string>
@@ -706,7 +753,7 @@ MM"</string>
     <string name="miui_rhombus_clock_date">d MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d.M</string>
+    <string name="miui_smart_frame_clock_date">dd.MM</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -747,6 +794,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Yarım ekrana keç</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Böyüt</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Kiçilt</string>
+    <string name="miuix_popup_show_description">Açılan pəncərə</string>
     <string name="miuix_popup_window_default_title">Açılan pəncərə</string>
     <string name="miuix_progressbar_loading">Yüklənir</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yeniləmək üşün aşağıya çəkin</string>
@@ -805,6 +853,7 @@ mm"</string>
     <string name="morning">Səhər</string>
     <string name="my_style_title">Temalarım</string>
     <string name="night">Axşam</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Günorta</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Nəbz (Qırmızı)</string>
@@ -840,6 +889,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktiv müddət: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Planlaşdırılmış</string>
     <string name="scheduled_style_summary">Xüsusi vaxt təyin et</string>
     <string name="scope_des">Hər bir kaleydoskopda 5 fərqli naxış vardır, bunlar hər dəfə ekran işıqlandıqda növbə ilə göstəriləcəkdir.</string>
@@ -848,6 +898,7 @@ mm"</string>
     <string name="select_notification_animation_style">Xüsusi effekt seçin</string>
     <string name="select_notification_notify_style">Bildiriş effekti seçin</string>
     <string name="send">Göndər</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Bağlı</string>
     <string name="settings_view_btn_check_on">Açıq</string>
     <string name="settings_view_btn_stoped">Söndürüldü</string>
@@ -883,8 +934,8 @@ baş verəcəyinə inanın"</string>
     <string name="sunrise_time_format_tomorrow_desc">Sabah günəşin doğuşu: %s</string>
     <string name="sunset_time_format">Gün batımı %s</string>
     <string name="sunset_time_format_desc">Gün batımı vaxtı: %s</string>
-    <string name="super_wallpaper_date_inter">"dd.MM
-EEEE"</string>
+    <string name="super_wallpaper_date_inter">"EEEE
+M/dd"</string>
     <string name="talkback_invert_color">Rəngləri tərs çevir</string>
     <string name="temporary_style">Toxunduqdan sonra 10 saniyə</string>
     <string name="temporary_style_5">Toxunduqdan sonra 5 saniyə</string>
@@ -950,6 +1001,7 @@ EEEE"</string>
     <string name="tuesday">Çərşənbə axşamı</string>
     <string name="tuesday_short">Ç.a.</string>
     <string name="tuesday_shortest">Ç.a.</string>
+    <string name="ultraviolet_rays_abbreviation">UBİ</string>
     <string name="uvi_format">UVI %1$s %2$s</string>
     <string name="uvi_format_desc">Ultraviyole indeksi: %1$s, %2$s</string>
     <string name="vertical_clock">Şaquli saat</string>

@@ -15,6 +15,7 @@
     <string name="add_custom_image">Прилагодена слика</string>
     <string name="add_from_local">Изберете слика</string>
     <string name="afternoon">Попладне</string>
+    <string name="air_quality_index_abbreviation">ИКВ</string>
     <string name="align_center_horizontally">Хоризонтално и поместено во центар</string>
     <string name="align_center_vertically">Наредено и поместено во центар</string>
     <string name="align_left_horizontally">Хоризонтално и поместено налево</string>
@@ -37,6 +38,9 @@
     <string name="aod_app_name">Секогаш вклучен екран и Уредник Заклучен екран</string>
     <string name="aod_close_color_inversion">Функцијата не може да се користи заедно со смена на боја. Прво исклучете ја функцијата смена на боја.</string>
     <string name="aod_component">Прикажани ставки</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Повеќе опции</string>
     <string name="aod_gradient_1">Градиент на светлосина и светлозелена</string>
     <string name="aod_gradient_10">Градиент на розова, портокалова и виолетова</string>
@@ -88,6 +92,7 @@
     <string name="aod_resting_screen_define">Приспособена</string>
     <string name="aod_resting_screen_same_to_lock">Иста како Заклучениот екран</string>
     <string name="aod_resting_screen_style_title">Тема</string>
+    <string name="aod_setting_fold_full_aod_summary">Овој стил може да се користи само на надворешeн екран</string>
     <string name="aod_setting_pad_des2">Бојата на часоникот ќе одговара на заднината</string>
     <string name="aod_show_date_and_time">Прикажете датум и време</string>
     <string name="aod_show_mode_title_des_pad">Секога да покажува кога се полни</string>
@@ -148,6 +153,10 @@
     <string name="deep_space_planet_des">Оваа тема ги рефлектира светлосните промени кои се случуваат околу вас за време на денот. Изгрејсонцата и зајдисонцата се исто така синхронизирани со вашата локација.</string>
     <string name="default_clock_style">Непознат бирач</string>
     <string name="delete">Избришете</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Дигитален</string>
     <string name="disable_aod_in_power_save_mode">Исклучете кога Штедачот на батерија е вклучен</string>
     <string name="disable_aod_in_power_save_mode_summary">Не прикажувајте ставки за да заштедите батерија</string>
@@ -248,6 +257,13 @@
     <string name="health_chart_step_count_unit">Чекори</string>
     <string name="health_no_data">Нема податоци за здравје</string>
     <string name="health_sleep_desc">Времетраење на сон %1$s, sleep quality: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Хоризонтален часовник</string>
     <string name="humidity_format">Влажност %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +274,23 @@
     <string name="keyguard_shortcut_tab_right">Десно</string>
     <string name="keyguard_shortcut_title">Кратенки</string>
     <string name="kg_activity_label">Уреди Заклучен екран</string>
+    <string name="kg_allinone_drag_bottom">Повлечете го долниот дел на часовникот за да ја приспособите неговата висина</string>
+    <string name="kg_allinone_drag_corner">Влечете го долниот десен агол на часовникот за да ја смените големината</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (заоблена)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (квадратна)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Овој фонт не поддржува стилови на контура</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Тековните стил, големина и тежина на фонт не поддржуваат стилови на кнтура</string>
+    <string name="kg_allinone_hollow_style_both">Часови и минути: со контура</string>
+    <string name="kg_allinone_hollow_style_hour">Часови: со контура. Минути: полн.</string>
+    <string name="kg_allinone_hollow_style_minute">Часови: полн. Минути: со контура.</string>
+    <string name="kg_allinone_hollow_style_none">Часови и минути: полн</string>
+    <string name="kg_allinone_hollow_style_title">Стил на контура</string>
+    <string name="kg_allinone_transparency_name">Проѕирност на часовникот</string>
+    <string name="kg_allinone_transparency_title">Транспарентност</string>
+    <string name="kg_allinone_weight_title">Дебелина на фонт</string>
     <string name="kg_aod_settings_depth_video_toast">Само приспособен Секогаш вклучен екран се поддржува кога користите ефект на длабочина</string>
     <string name="kg_apply">Примени</string>
     <string name="kg_apply_dialog_desktop_preview">Преглед на Почетен екран</string>
@@ -330,9 +363,13 @@
     <string name="kg_color_value_editor_lightness">Светлина</string>
     <string name="kg_color_value_editor_saturation">Заситеност</string>
     <string name="kg_color_value_editor_title">Уреди боја</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Во ред</string>
     <string name="kg_continue_editing">Продолжи да уредуваш</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Приспособете</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Да се избрише овој збир?</string>
     <string name="kg_delete_this_collocation_desc">Заклучениот екран и поставките на Почетен екран на овој збир ќе се избришат. Да се избрише овој збир сега?</string>
     <string name="kg_depth_preset_button_download">Преземете динамичен тапет</string>
@@ -413,6 +450,7 @@
     <string name="kg_effects_tip_button">Јасно</string>
     <string name="kg_effects_tip_desc">Ефектот длабочина на поле не може да се комбинира со филтри. Користењето на еден од нив ќе го замени другиот.</string>
     <string name="kg_effects_tip_not_support">Не може да се применат ефекти на динамичните позадини</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Стаклениот часоник не поддржува ефекти</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Позадините од трети страни не поддржуваат ефекти</string>
     <string name="kg_effects_tip_title">Длабочина на поле и и филтри</string>
     <string name="kg_enable_blur">Мат ефект</string>
@@ -437,6 +475,8 @@
     <string name="kg_font_filter_color_white">Бела</string>
     <string name="kg_font_filter_doodle_primary_label">Чкртаница</string>
     <string name="kg_font_filter_doodle_secondary_label">Позадина</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Заматување и мешање</string>
+    <string name="kg_font_filter_group_label_glass">Стакло</string>
     <string name="kg_font_filter_group_label_glow">Сјај</string>
     <string name="kg_font_filter_group_label_gradient_blur">Прелевање</string>
     <string name="kg_font_filter_group_label_obscure">Мешана</string>
@@ -530,6 +570,8 @@
     <string name="kg_oversize_clock_type_bold">Задебелено</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Контура</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Одбери повторно</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Bold serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Четка</string>
@@ -579,15 +621,19 @@
     <string name="kg_talkback_pick_wallpaper">Позадина, избери од библиотеката</string>
     <string name="kg_talkback_select_all">Избери ги сите</string>
     <string name="kg_talkback_selected">Избрано</string>
+    <string name="kg_talkback_slide_up_or_down">Лизхајте нагоре или надолу за да приспособите</string>
     <string name="kg_talkback_unselect_all">Отселектирај ги сите</string>
     <string name="kg_template_description_car">Каде технологијата се среќава со иднината: доловете ја брзината на иднината со секое отклучување.</string>
     <string name="kg_template_description_classic">Класиката никогаш не излегува од мода.</string>
     <string name="kg_template_description_eastern_art">Се прикажува современо толкување на источни елементи користејќи класична вкрстена симетрија, карактеристичен вертикален распоред и калиграфско изразување</string>
     <string name="kg_template_description_magazine">Претворете го Заклучениот екран во насловна страница на списание.</string>
+    <string name="kg_template_description_magazine_natural">Стил на часовник што спојува природни пејзажи со слоевити визуелни елементи за префинет, експресивен изглед</string>
     <string name="kg_template_description_rhombus">Времето е важно. Искористете го паметно.</string>
     <string name="kg_template_preview_content_description">Преглед</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Голем часовник А</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Голем часовник Б</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Голем часовник В</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Голем часовник Д</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Класично</string>
     <string name="kg_template_title_classic_max_talkback">Класичен заклучен екран MAX</string>
@@ -607,6 +653,7 @@
     <string name="kg_template_title_magazine_b_talkback">Списание Б</string>
     <string name="kg_template_title_magazine_c_one_talkback">Списание В</string>
     <string name="kg_template_title_magazine_c_three_talkback">Списание В, со три линии</string>
+    <string name="kg_template_title_magazine_natural">Природни визуелни елементи</string>
     <string name="kg_template_title_magazine_phone">Луѓе</string>
     <string name="kg_template_title_mine">Заклучен екран</string>
     <string name="kg_template_title_mine_collocation">Моите збирови</string>
@@ -706,7 +753,7 @@ MM"</string>
     <string name="miui_rhombus_clock_date">d MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d.M</string>
+    <string name="miui_smart_frame_clock_date">dd.MM</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -747,6 +794,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Префрлете се на половина екран</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Максимизирај</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Минимизирај</string>
+    <string name="miuix_popup_show_description">Скок-прозорец</string>
     <string name="miuix_popup_window_default_title">Скок-прозорец</string>
     <string name="miuix_progressbar_loading">Се вчитува</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Повлечете надолу за освежување</string>
@@ -805,6 +853,7 @@ mm"</string>
     <string name="morning">Утро</string>
     <string name="my_style_title">Моја тема</string>
     <string name="night">Вечер</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Пладне</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Пулс (црвено)</string>
@@ -840,6 +889,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Активен период: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Закажано</string>
     <string name="scheduled_style_summary">Постави прилагодено времетраење</string>
     <string name="scope_des">Секој калеидоскоп содржи 5 различни шаблони кои ќе бидат прикажани по редослед секој пат при активирање на екранот.</string>
@@ -848,6 +898,7 @@ mm"</string>
     <string name="select_notification_animation_style">Одбери посебен ефект</string>
     <string name="select_notification_notify_style">Изберете ефект за известувања</string>
     <string name="send">Испрати</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Исклучено</string>
     <string name="settings_view_btn_check_on">Вклучено</string>
     <string name="settings_view_btn_stoped">Исклучено</string>
@@ -884,7 +935,7 @@ mm"</string>
     <string name="sunset_time_format">Зајдисонце %s</string>
     <string name="sunset_time_format_desc">Време на зајдисонце: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd.MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Измени бои</string>
     <string name="temporary_style">За 10 секунди после допирот</string>
     <string name="temporary_style_5">За 5 секунди после кликнувањето</string>

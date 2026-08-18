@@ -37,6 +37,9 @@
     <string name="aod_app_name">Skrin dejjem mixgħul u Editur tal-iskrin imsakkar</string>
     <string name="aod_close_color_inversion">Din il-karatteristika ma tistax tkun amalgamata mal-inverżjoni tal-kulur. L-ewwel Itfi l-inverżatur tal-kulur.</string>
     <string name="aod_component">Oġġetti li jidhru</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Aktar għażliet</string>
     <string name="aod_gradient_1">"Sfumantura ta' ikħal ċar u teal"</string>
     <string name="aod_gradient_10">"Sfumatura ta' roża, oranġjo u vjola"</string>
@@ -88,6 +91,7 @@ EE"</string>
     <string name="aod_resting_screen_define">Personalizzat</string>
     <string name="aod_resting_screen_same_to_lock">L-istess bħal l-iskrin imsakkar</string>
     <string name="aod_resting_screen_style_title">Tema</string>
+    <string name="aod_setting_fold_full_aod_summary">"Dal-istil jista' jintuża biss fuq l-iskrin ta' barra"</string>
     <string name="aod_setting_pad_des2">"Lewn l-arloġġ se jaqbel ma' lewn il-wallpaper"</string>
     <string name="aod_show_date_and_time">Uri d-data u l-ħin</string>
     <string name="aod_show_mode_title_des_pad">Uri dejjem int u tiċċarġja t-tagħmir</string>
@@ -148,6 +152,10 @@ EE"</string>
     <string name="deep_space_planet_des">Dit-tema tirrifletti l-bidliet fid-dawl li jseħħu madwarek tul il-jum. Tlugħ u nżul ix-xemx jiġu ssinkronizzati wkoll mal-post fejn tinsab.</string>
     <string name="default_clock_style">Wiċċ mhux magħruf</string>
     <string name="delete">Ħassar</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Diġitali</string>
     <string name="disable_aod_in_power_save_mode">Itfi meta l-Ekonomizzatur tal-batterija jkun mixgħul</string>
     <string name="disable_aod_in_power_save_mode_summary">Turix l-affarijiet biex tiffranka l-enerġija</string>
@@ -248,6 +256,13 @@ EE"</string>
     <string name="health_chart_step_count_unit">Passi</string>
     <string name="health_no_data">L-ebda dejta dwar is-saħħa</string>
     <string name="health_sleep_desc">Tul tal-ħin tal-irqad %1$s, kwalità tal-irqad: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">"Arloġġ għall-wisa'"</string>
     <string name="humidity_format">Umdità %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@ EE"</string>
     <string name="keyguard_shortcut_tab_right">Lemin</string>
     <string name="keyguard_shortcut_title">Shortcuts</string>
     <string name="kg_activity_label">Ibdel l-Iskrin imsakkar</string>
+    <string name="kg_allinone_drag_bottom">Kaxkar isfel tal-arloġġ biex tirranġa l-għoli tiegħu</string>
+    <string name="kg_allinone_drag_corner">"Kaxkar il-kantuniera ta' isfel fuq il-lemin tal-arloġġ biex tbiddel id-daqs"</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Fit-tond)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Kwadru)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">"Din it-tipa ma tappoġġjax stili ta' kontorn"</string>
+    <string name="kg_allinone_hollow_not_support_current_style">"L-istil, id-daqs, u l-piż tat-tipa attwali ma tappoġġjax stili ta' kontorn"</string>
+    <string name="kg_allinone_hollow_style_both">Sigħat u minuti: Kontorn</string>
+    <string name="kg_allinone_hollow_style_hour">Sigħat: Kontorn. Minuti: Solidi.</string>
+    <string name="kg_allinone_hollow_style_minute">Sigħat: Solidi. Minuti: Kontorn.</string>
+    <string name="kg_allinone_hollow_style_none">Sigħat u minuti: Solidu</string>
+    <string name="kg_allinone_hollow_style_title">"Stil ta' kontorn"</string>
+    <string name="kg_allinone_transparency_name">Trasparenza tal-arloġġ</string>
+    <string name="kg_allinone_transparency_title">Trasparenza</string>
+    <string name="kg_allinone_weight_title">Ħxuna tat-tipa</string>
     <string name="kg_aod_settings_depth_video_toast">L-unika Displej dejjem mixgħul kompatibbli mal-effett tal-fond huwa Displej dejjem mixgħul personalizzat</string>
     <string name="kg_apply">Uża</string>
     <string name="kg_apply_dialog_desktop_preview">Wirjiet minn qabel tal-iskrin ewlieni</string>
@@ -330,9 +362,13 @@ EE"</string>
     <string name="kg_color_value_editor_lightness">Dija</string>
     <string name="kg_color_value_editor_saturation">Saturazzjoni</string>
     <string name="kg_color_value_editor_title">Ibdel il-lewn</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Kompli ibdel</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Ippersonalizza</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Tixtieq tħassar dil-ġabra?</string>
     <string name="kg_delete_this_collocation_desc">"Se tħassar l-għażliet ta' dal-Katnazz tal-iskrin u tal-Iskrin ewlieni. Tixtieq tħassar il-ġabra issa?"</string>
     <string name="kg_depth_preset_button_download">Niżżel il-wallpaper dinamika</string>
@@ -413,6 +449,7 @@ EE"</string>
     <string name="kg_effects_tip_button">Fhimt</string>
     <string name="kg_effects_tip_desc">Il-fond ma jistax jintuża mal-filtri. Waħda tieħu post l-oħra.</string>
     <string name="kg_effects_tip_not_support">Ma jistax iżid l-effetti mal-wallpapers dinamiċi</string>
+    <string name="kg_effects_tip_not_support_glass_filter">L-arloġġ tal-ħġieġ ma jappoġġjax effetti</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Il-wallpapers magħmula minn ħaddieħor mhux kompatibbli mal-effetti</string>
     <string name="kg_effects_tip_title">Fond u filtri</string>
     <string name="kg_enable_blur">Effett matt</string>
@@ -437,6 +474,8 @@ EE"</string>
     <string name="kg_font_filter_color_white">Abjad</string>
     <string name="kg_font_filter_doodle_primary_label">Taħżiż</string>
     <string name="kg_font_filter_doodle_secondary_label">Sfond</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Sfuma u ħallat</string>
+    <string name="kg_font_filter_group_label_glass">Ħġieġ</string>
     <string name="kg_font_filter_group_label_glow">Dija</string>
     <string name="kg_font_filter_group_label_gradient_blur">Sfumatura</string>
     <string name="kg_font_filter_group_label_obscure">Ħallat</string>
@@ -530,6 +569,8 @@ EE"</string>
     <string name="kg_oversize_clock_type_bold">Skura</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Xifer</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">"Erġa' agħżel"</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif skura</string>
     <string name="kg_rhombus_clock_type_brush_font">Pinzell</string>
@@ -579,15 +620,19 @@ EE"</string>
     <string name="kg_talkback_pick_wallpaper">Wallpaper, agħżel mill-ġabra</string>
     <string name="kg_talkback_select_all">Agħżel kollox</string>
     <string name="kg_talkback_selected">Magħżula</string>
+    <string name="kg_talkback_slide_up_or_down">"Żerżaq subgħajk 'il fuq jew 'l isfel biex tirranġa"</string>
     <string name="kg_talkback_unselect_all">Neħħi l-għażliet kollha</string>
     <string name="kg_template_description_car">"Fejn it-teknoloġija u s-sbuħija jiltaqgħu: il-ġejjieni f'idek kull darba li tiftaħ it-tagħmir."</string>
     <string name="kg_template_description_classic">"Il-klassiku dejjem jibqa' mfittex."</string>
     <string name="kg_template_description_eastern_art">"Wirja ta' interpretazzjoni kontemporanja ta' elementi tal-Lvant bl-użu ta' simetrija trasversali klassika, tqassim vertikali distintiv, u espressjoni kaligrafika"</string>
     <string name="kg_template_description_magazine">"Ibdel il-Katnazz tal-iskrin tiegħek f'qoxra ta' ġurnal."</string>
+    <string name="kg_template_description_magazine_natural">"Dehra tal-arloġġ li tiġbor flimkien ir-ritratti tan-natura u għadd ta' grafika għal dehra sofistikata u espressiva"</string>
     <string name="kg_template_description_rhombus">Iż-żmien ma jerġax lura. Użah sew.</string>
     <string name="kg_template_preview_content_description">Ħarsa minn qabel</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Arloġġ kbir A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Arloġġ kbir B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Arloġġ kbir Ċ</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Arloġġ kbir D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klassiku</string>
     <string name="kg_template_title_classic_max_talkback">Katnazz tal-iskrin klassiku MAX</string>
@@ -607,6 +652,7 @@ EE"</string>
     <string name="kg_template_title_magazine_b_talkback">Rivista B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Rivista Ċ, bil-linji</string>
     <string name="kg_template_title_magazine_c_three_talkback">Rivista Ċ, bil-linji tripli</string>
+    <string name="kg_template_title_magazine_natural">Dehra tan-natura</string>
     <string name="kg_template_title_magazine_phone">Nies</string>
     <string name="kg_template_title_mine">Skin imsakkar</string>
     <string name="kg_template_title_mine_collocation">Il-ġabriet tiegħi</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Aqleb għal nofs l-iskrin</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Kabbar</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Ċekken</string>
+    <string name="miuix_popup_show_description">Tieqa popup</string>
     <string name="miuix_popup_window_default_title">Tieqa popup</string>
     <string name="miuix_progressbar_loading">Biex jilġib</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">"Iġbed 'l isfel biex tiffriska"</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">Filgħodu</string>
     <string name="my_style_title">It-tema tiegħi</string>
     <string name="night">Filgħaxija</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Nofsinhar</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Teptip (Aħmar)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Perjodu attiv: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Skedat/a</string>
     <string name="scheduled_style_summary">Agħżel ħin personalizzat</string>
     <string name="scope_des">Kull kalejdoskopju fih 5 disinnji differenti li se jintwerew wara xulxin kull darba li l-iskrin jinxtgħel.</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">Agħżel effett speċjali</string>
     <string name="select_notification_notify_style">Agħżel effett tan-notifikazzjonijiet</string>
     <string name="send">Ibgħat</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Mitfija</string>
     <string name="settings_view_btn_check_on">Mixgħula</string>
     <string name="settings_view_btn_stoped">Mitfija</string>
@@ -884,7 +934,7 @@ xi ħaġa sabiħa"</string>
     <string name="sunset_time_format">Inżul ix-xemx %s</string>
     <string name="sunset_time_format_desc">"Ħin ta' nżul ix-xemx: %s"</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Aqleb il-kuluri</string>
     <string name="temporary_style">Għal 10 sekondi wara li tagħfas</string>
     <string name="temporary_style_5">Għal 5 sekondi wara li tagħfas</string>

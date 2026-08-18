@@ -15,6 +15,7 @@
     <string name="add_custom_image">Kohandatud pilt</string>
     <string name="add_from_local">Vali pilt</string>
     <string name="afternoon">Pärastlõuna</string>
+    <string name="air_quality_index_abbreviation">ÕKI</string>
     <string name="align_center_horizontally">Horisontaalne ja keskjoondatud</string>
     <string name="align_center_vertically">Virnastatud ja keskjoondatud</string>
     <string name="align_left_horizontally">Horisontaalne ja vasakjoondatud</string>
@@ -37,6 +38,9 @@
     <string name="aod_app_name">Alati-sees ekraan ja lukustuskuva redaktor</string>
     <string name="aod_close_color_inversion">Seda funktsiooni ei saa kombineerida värviinversiooniga. Esmalt lülita värviinversioon välja.</string>
     <string name="aod_component">Kuvatavad üksused</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Veel valikuid</string>
     <string name="aod_gradient_1">Helesinine ja sinine gradient</string>
     <string name="aod_gradient_10">Roosa, oranž ja lilla gradient</string>
@@ -88,6 +92,7 @@ d. MM"</string>
     <string name="aod_resting_screen_define">Kohandatud</string>
     <string name="aod_resting_screen_same_to_lock">Sama, mis lukustusekraan</string>
     <string name="aod_resting_screen_style_title">Teemad</string>
+    <string name="aod_setting_fold_full_aod_summary">Seda laadi saab kasutada ainult välisel ekraanil</string>
     <string name="aod_setting_pad_des2">Kella värv ühtib teie taustapildi värviga</string>
     <string name="aod_show_date_and_time">Näita kuupäeva ja kellaaega</string>
     <string name="aod_show_mode_title_des_pad">Näita alati laadimise ajal</string>
@@ -148,6 +153,10 @@ d. MM"</string>
     <string name="deep_space_planet_des">See teema kajastab päeval teie ümber toimuvaid valguse muutusi. Päikesetõusud ja päikeseloojangud on samuti teie asukohaga sünkroonis.</string>
     <string name="default_clock_style">Tundmatu sihverplaat</string>
     <string name="delete">Kustuta</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digitaalne</string>
     <string name="disable_aod_in_power_save_mode">Lülitage välja, kui akusäästja on sisse lülitatud</string>
     <string name="disable_aod_in_power_save_mode_summary">Energia säästmiseks ärge kuvage elemente</string>
@@ -248,6 +257,13 @@ d. MM"</string>
     <string name="health_chart_step_count_unit">Sammud</string>
     <string name="health_no_data">Terviseandmed puuduvad</string>
     <string name="health_sleep_desc">Une kestus %1$s, unekvaliteet: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horisontaalne kell</string>
     <string name="humidity_format">Niiskus %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +274,23 @@ d. MM"</string>
     <string name="keyguard_shortcut_tab_right">Parem</string>
     <string name="keyguard_shortcut_title">Otseteed</string>
     <string name="kg_activity_label">Ekraaniluku muutmine</string>
+    <string name="kg_allinone_drag_bottom">Kella kõrguse reguleerimiseks lohistage kella allserva</string>
+    <string name="kg_allinone_drag_corner">Suuruse muutmiseks lohistage kella alumist paremat nurka</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Rounded)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Square)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">See font ei toeta liigenduslaade</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Praegune fondi laad, suurus ja paksus ei toeta liigenduslaade</string>
+    <string name="kg_allinone_hollow_style_both">Tunnid ja minutid: liigendatud</string>
+    <string name="kg_allinone_hollow_style_hour">Tunnid: liigendatud. Minutid: täidetud.</string>
+    <string name="kg_allinone_hollow_style_minute">Tunnid: täidetud. Minutid: liigendatud.</string>
+    <string name="kg_allinone_hollow_style_none">Tunnid ja minutid: täidetud</string>
+    <string name="kg_allinone_hollow_style_title">Liigenduslaad</string>
+    <string name="kg_allinone_transparency_name">Kella läbipaistvus</string>
+    <string name="kg_allinone_transparency_title">Läbipaistvus</string>
+    <string name="kg_allinone_weight_title">Fondi paksus</string>
     <string name="kg_aod_settings_depth_video_toast">Sügavusefekti kasutamisel toetatakse ainult kohandatud Alati-sees ekraani</string>
     <string name="kg_apply">Rakenda</string>
     <string name="kg_apply_dialog_desktop_preview">Avakuva eelvaade</string>
@@ -330,9 +363,13 @@ d. MM"</string>
     <string name="kg_color_value_editor_lightness">Heledus</string>
     <string name="kg_color_value_editor_saturation">Küllastus</string>
     <string name="kg_color_value_editor_title">Muuda värvi</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Jätka redigeerimist</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Kohanda</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Kustutada see komplekt?</string>
     <string name="kg_delete_this_collocation_desc">Selle komplekti lukustuskuva ja avaekraani sätted kustutatakse. Kustutada kohe?</string>
     <string name="kg_depth_preset_button_download">Laadige alla dünaamiline taustpilt</string>
@@ -413,6 +450,7 @@ d. MM"</string>
     <string name="kg_effects_tip_button">Sain aru</string>
     <string name="kg_effects_tip_desc">Teravussügavuse efekti ei saa filtritega kombineerida. Ühe kasutamine tühistab teise.</string>
     <string name="kg_effects_tip_not_support">Dünaamilistele taustapiltidele ei saa efekte rakendada</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Klaaskell ei toeta efekte</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Kolmanda osapoole taustapildid ei toeta efekte</string>
     <string name="kg_effects_tip_title">Teravussügavus ja filtrid</string>
     <string name="kg_enable_blur">Mattefekt</string>
@@ -437,6 +475,8 @@ d. MM"</string>
     <string name="kg_font_filter_color_white">Valge</string>
     <string name="kg_font_filter_doodle_primary_label">Kritselda</string>
     <string name="kg_font_filter_doodle_secondary_label">Taust</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Hägusta ja sulanda</string>
+    <string name="kg_font_filter_group_label_glass">Klaas</string>
     <string name="kg_font_filter_group_label_glow">Helendav</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradient</string>
     <string name="kg_font_filter_group_label_obscure">Segu</string>
@@ -530,6 +570,8 @@ d. MM"</string>
     <string name="kg_oversize_clock_type_bold">Rasvane</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Kontuur</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Vali uuesti</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Rasvane serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Pintsel</string>
@@ -579,15 +621,19 @@ d. MM"</string>
     <string name="kg_talkback_pick_wallpaper">Taustapilt, vali teegist</string>
     <string name="kg_talkback_select_all">Vali kõik</string>
     <string name="kg_talkback_selected">Valitud</string>
+    <string name="kg_talkback_slide_up_or_down">Pühkige kohandamiseks üles või alla</string>
     <string name="kg_talkback_unselect_all">Tühista kõikide valik</string>
     <string name="kg_template_description_car">Kus tehnoloogia kohtub iluga: jäädvustage tuleviku kiirus iga avamisega.</string>
     <string name="kg_template_description_classic">Klassika ei lähe kunagi moest välja.</string>
     <string name="kg_template_description_eastern_art">Idamaiste elementide kaasaegse tõlgenduse tutvustamine, kasutades klassikalist ristsümmeetriat, iseloomulikku vertikaalset paigutust ja kalligraafilist väljendust</string>
     <string name="kg_template_description_magazine">Muutke ekraanilukk ajakirja kaaneks.</string>
+    <string name="kg_template_description_magazine_natural">Kellalaad, mis seob loodusmaastikud kihiliste visuaalidega, andes neile rafineeritud ja väljendusrikka ilme</string>
     <string name="kg_template_description_rhombus">Aeg on oluline. Andke sellele tähendus.</string>
     <string name="kg_template_preview_content_description">Eelvaade</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Suur kell A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Suur kell B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Suur kell C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Suur kell D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klassikaline</string>
     <string name="kg_template_title_classic_max_talkback">Klassikaline lukustusekraan MAX</string>
@@ -607,6 +653,7 @@ d. MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Ajakiri B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Ajakiri C, kontuuriga</string>
     <string name="kg_template_title_magazine_c_three_talkback">Ajakiri C, kolmekordse joonega</string>
+    <string name="kg_template_title_magazine_natural">Loodusvaated</string>
     <string name="kg_template_title_magazine_phone">Inimesed</string>
     <string name="kg_template_title_mine">Lukustusekraan</string>
     <string name="kg_template_title_mine_collocation">Minu komplektid</string>
@@ -706,7 +753,7 @@ MM"</string>
     <string name="miui_rhombus_clock_date">d. MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d.M</string>
+    <string name="miui_smart_frame_clock_date">dd.MM</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -747,6 +794,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Lülita poolele ekraanile</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimeeri</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimeeri</string>
+    <string name="miuix_popup_show_description">Hüpikaken</string>
     <string name="miuix_popup_window_default_title">Hüpikaken</string>
     <string name="miuix_progressbar_loading">Laenamine</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tõmmake värskendamiseks alla</string>
@@ -805,6 +853,7 @@ mm"</string>
     <string name="morning">Hommik</string>
     <string name="my_style_title">Minu teema</string>
     <string name="night">Õhtu</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Keskpäev</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Pulss (punane)</string>
@@ -840,6 +889,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh.mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktiivne aeg: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Planeeritud</string>
     <string name="scheduled_style_summary">Määra kohandatud aeg</string>
     <string name="scope_des">Igas kaleidoskoobis on 5 erinevat mustrit, mida kuvatakse iga kord ekraani käivitades.</string>
@@ -848,6 +898,7 @@ mm"</string>
     <string name="select_notification_animation_style">Valige eriefekt</string>
     <string name="select_notification_notify_style">Valige teatise efekt</string>
     <string name="send">Saada</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Väljas</string>
     <string name="settings_view_btn_check_on">Sees</string>
     <string name="settings_view_btn_stoped">Välja lülitatud</string>
@@ -884,7 +935,7 @@ et juhtub midagi imelist"</string>
     <string name="sunset_time_format">Päikeseloojang %s</string>
     <string name="sunset_time_format_desc">Päikeseloojangu aeg: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd.MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Vaheta värvid omavahel</string>
     <string name="temporary_style">10 sekundit pärast puudutamist</string>
     <string name="temporary_style_5">5 sekundit pärast koputamist</string>

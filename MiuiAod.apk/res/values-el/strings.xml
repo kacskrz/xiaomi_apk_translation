@@ -42,6 +42,7 @@
     <string name="add_custom_image">Προσαρμοσμένη εικόνα</string>
     <string name="add_from_local">Επιλογή εικόνας</string>
     <string name="afternoon">Απόγευμα</string>
+    <string name="air_quality_index_abbreviation">ΔΠΑ</string>
     <string name="align_center_horizontally">Οριζόντια και κεντρική στοίχιση</string>
     <string name="align_center_vertically">Κατακόρυφη και κεντρική στοίχιση</string>
     <string name="align_left_horizontally">Οριζόντια και αριστερή στοίχιση</string>
@@ -64,6 +65,9 @@
     <string name="aod_app_name">Πάντα ενεργή οθόνη και Επεξεργαστής οθόνης κλειδώματος</string>
     <string name="aod_close_color_inversion">Αυτή η λειτουργία δεν μπορεί να συνδυαστεί με την αναστροφή χρώματος. Απενεργοποιήστε πρώτα την αναστροφή χρώματος.</string>
     <string name="aod_component">Εμφανιζόμενα στοιχεία</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Περισσότερες επιλογές</string>
     <string name="aod_gradient_1">Ανοιχτή μπλε και γαλαζοπράσινη διαβάθμιση</string>
     <string name="aod_gradient_10">Ροζ, πορτοκαλί, και μωβ διαβάθμιση</string>
@@ -115,6 +119,7 @@ dd MM"</string>
     <string name="aod_resting_screen_define">Προσαρμογή</string>
     <string name="aod_resting_screen_same_to_lock">Το ίδιο με την Οθόνη κλειδώματος</string>
     <string name="aod_resting_screen_style_title">Θέμα</string>
+    <string name="aod_setting_fold_full_aod_summary">Αυτό το στυλ μπορεί να χρησιμοποιηθεί μόνο σε εξωτερική οθόνη</string>
     <string name="aod_setting_pad_des2">Το χρώμα της ώρας θα ταιριάζει με αυτό του ταπετσαρίας σας</string>
     <string name="aod_show_date_and_time">Προβολή ημερομηνίας και ώρας</string>
     <string name="aod_show_mode_title_des_pad">Εμφάνιση πάντα κατά τη φόρτιση</string>
@@ -139,6 +144,8 @@ dd MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Η λαβή μεταφοράς πατήθηκε δύο φορές</string>
     <string name="bottomsheet_drag_handle_content_description">Λαβή μεταφοράς</string>
     <string name="btn_know">Κατανοητό</string>
+    <string name="calendar_date_picker_a11y_next_month">Αλλαγή στον επόμενο μήνα</string>
+    <string name="calendar_date_picker_a11y_prev_month">Αλλαγή στον προηγούμενο μήνα</string>
     <string name="call_notification_answer_action">Απάντηση</string>
     <string name="call_notification_answer_video_action">Βίντεο</string>
     <string name="call_notification_decline_action">Απόρριψη</string>
@@ -186,6 +193,10 @@ dd MM"</string>
     <string name="deep_space_planet_des">Αυτό το θέμα αντικατοπτρίζει τις αλλαγές του φωτός που συμβαίνουν γύρω σας κατά τη διάρκεια της ημέρας. Οι ανατολές και δύσεις συγχρονίζονται επίσης με την τοποθεσία σας.</string>
     <string name="default_clock_style">Άγνωστη όψη</string>
     <string name="delete">Διαγραφή</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Ψηφιακό</string>
     <string name="disable_aod_in_power_save_mode">Απενεργοποίηση όταν η Εξοικονόμηση μπαταρίας είναι ενεργή</string>
     <string name="disable_aod_in_power_save_mode_summary">Να μην εμφανίζονται στοιχεία για εξοικονόμηση μπαταρίας</string>
@@ -290,6 +301,13 @@ dd MM"</string>
     <string name="health_chart_step_count_unit">Βήματα</string>
     <string name="health_no_data">Δεν υπάρχουν δεδομένα υγείας</string>
     <string name="health_sleep_desc">Διάρκεια ύπνου %1$s, ποιότητα ύπνου: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Οριζόντιο ρολόι</string>
     <string name="humidity_format">Υγρασία %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +320,23 @@ dd MM"</string>
     <string name="keyguard_shortcut_tab_right">Δεξιά</string>
     <string name="keyguard_shortcut_title">Συντομεύσεις</string>
     <string name="kg_activity_label">Επεξεργασία Οθόνης κλειδώματος</string>
+    <string name="kg_allinone_drag_bottom">Σύρετε το κάτω μέρος του ρολογιού για να ρυθμίσετε το ύψος του</string>
+    <string name="kg_allinone_drag_corner">Σύρετε την κάτω δεξιά γωνία του ρολογιού για να αλλάξετε το μέγεθος</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Rounded)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Square)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Αυτή η γραμματοσειρά δεν υποστηρίζει στυλ περιγράμματος</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Το τρέχον στυλ γραμματοσειράς, το μέγεθος και το πάχος δεν υποστηρίζουν στυλ περιγράμματος</string>
+    <string name="kg_allinone_hollow_style_both">Ώρες και λεπτά: Με περίγραμμα</string>
+    <string name="kg_allinone_hollow_style_hour">Ώρες: Με περίγραμμα. Λεπτά: Συμπαγή.</string>
+    <string name="kg_allinone_hollow_style_minute">Ώρες: Συμπαγείς. Λεπτά: Με περίγραμμα.</string>
+    <string name="kg_allinone_hollow_style_none">Ώρες και λεπτά: Συμπαγή</string>
+    <string name="kg_allinone_hollow_style_title">Στυλ περιγράμματος</string>
+    <string name="kg_allinone_transparency_name">Διαφάνεια ρολογιού</string>
+    <string name="kg_allinone_transparency_title">Διαφάνεια</string>
+    <string name="kg_allinone_weight_title">Πάχος γραμματοσειράς</string>
     <string name="kg_aod_settings_depth_video_toast">Μόνο η προσαρμοσμένη Πάντα ενεργή οθόνη υποστηρίζεται όταν χρησιμοποιείται το εφέ βάθους</string>
     <string name="kg_apply">Εφαρμογή</string>
     <string name="kg_apply_dialog_desktop_preview">Προεπισκόπηση Αρχικής οθόνης</string>
@@ -374,9 +409,13 @@ dd MM"</string>
     <string name="kg_color_value_editor_lightness">Φωτεινότητα</string>
     <string name="kg_color_value_editor_saturation">Κορεσμός</string>
     <string name="kg_color_value_editor_title">Επεξεργασία χρώματος</string>
+    <string name="kg_common_home_screen_summary">Μπείτε στη λειτουργία επεξεργασίας αρχικής οθόνης για να προσαρμόσετε την ταπετσαρία της αρχικής οθόνης και το εφέ θολώματος.</string>
+    <string name="kg_common_lock_screen_summary">Εισέλθετε στη λειτουργία επεξεργασίας οθόνης κλειδώματος. Ανοίξτε το πρόγραμμα επεξεργασίας εξατομίκευσης οθόνης κλειδώματος του συστήματος MiuiAod για να προσαρμόσετε την ταπετσαρία της οθόνης κλειδώματος, το στυλ ρολογιού, τις γραμματοσειρές, τις συντομεύσεις και τα γραφικά στοιχεία.</string>
     <string name="kg_confirm">ΟΚ</string>
     <string name="kg_continue_editing">Συνέχεια επεξεργασίας</string>
+    <string name="kg_cross_building_summary">Αποκτήστε πρόσβαση στο στυλ κλειδώματος για να εμφανίσετε τα προκαθορισμένα στυλ οθόνης κλειδώματος στο διαγώνιο πλέγμα.</string>
     <string name="kg_customize">Προσαρμογή</string>
+    <string name="kg_customize_lock_screen_summary">Αποκτήστε πρόσβαση στο πρόγραμμα επεξεργασίας οθόνης κλειδώματος. Ανοίξτε τη σελίδα στυλ οθόνης κλειδώματος MiuiAod και εισέλθετε στο πρόγραμμα επεξεργασίας στυλ οθόνης κλειδώματος για να προσαρμόσετε την ταπετσαρία, το ρολόι, τις γραμματοσειρές, τις συντομεύσεις και τα γραφικά στοιχεία.</string>
     <string name="kg_delete_this_collocation">Διαγραφή αυτού του σετ;</string>
     <string name="kg_delete_this_collocation_desc">Οι ρυθμίσεις της Οθόνης κλειδώματος και της Αρχικής οθόνης αυτού του σετ θα διαγραφούν. Διαγραφή σετ τώρα;</string>
     <string name="kg_depth_preset_button_download">Λήψη δυναμικής ταπετσαρίας</string>
@@ -457,6 +496,7 @@ dd MM"</string>
     <string name="kg_effects_tip_button">Κατανοητό</string>
     <string name="kg_effects_tip_desc">Το εφέ βάθους πεδίου δεν μπορεί να συνδυαστεί με φίλτρα. Η χρήση ενός από αυτά θα αντικαταστήσει το άλλο.</string>
     <string name="kg_effects_tip_not_support">Δεν είναι δυνατή η εφαρμογή εφέ σε δυναμικές ταπετσαρίες</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Το γυάλινο ρολόι δεν υποστηρίζει εφέ</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Οι ταπετσαρίες τρίτων δεν υποστηρίζουν εφέ</string>
     <string name="kg_effects_tip_title">Βάθος πεδίου και φίλτρα</string>
     <string name="kg_enable_blur">Ματ εφέ</string>
@@ -481,6 +521,8 @@ dd MM"</string>
     <string name="kg_font_filter_color_white">Άσπρο</string>
     <string name="kg_font_filter_doodle_primary_label">Σκιτσογραφία</string>
     <string name="kg_font_filter_doodle_secondary_label">Παρασκήνιο</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Θόλωμα και μείγμα</string>
+    <string name="kg_font_filter_group_label_glass">Γυαλί</string>
     <string name="kg_font_filter_group_label_glow">Λάμψη</string>
     <string name="kg_font_filter_group_label_gradient_blur">Βαθμίδα</string>
     <string name="kg_font_filter_group_label_obscure">Μείγμα</string>
@@ -574,6 +616,8 @@ dd MM"</string>
     <string name="kg_oversize_clock_type_bold">Έντονα</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Περίγραμμα</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Αποκτήστε πρόσβαση στο παράθυρο διαλόγου φίλτρου γραμματοσειράς ταπετσαρίας για να αλλάξετε τη γραμματοσειρά του ρολογιού της οθόνης κλειδώματος.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Αποκτήστε πρόσβαση στο παράθυρο διαλόγου ταπετσαρίας για να αλλάξετε την ταπετσαρία της οθόνης κλειδώματος.</string>
     <string name="kg_resource_re_choose">Επιλογή ξανά</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Bold serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Πινέλο</string>
@@ -623,15 +667,19 @@ dd MM"</string>
     <string name="kg_talkback_pick_wallpaper">Ταπετσαρία, επιλέξτε από τη βιβλιοθήκη</string>
     <string name="kg_talkback_select_all">Επιλογή όλων</string>
     <string name="kg_talkback_selected">Επιλεγμένα</string>
+    <string name="kg_talkback_slide_up_or_down">Σύρετε προς τα επάνω ή κάτω για προσαρμογή</string>
     <string name="kg_talkback_unselect_all">Αποεπιλογή όλων</string>
     <string name="kg_template_description_car">Εκεί όπου η τεχνολογία συναντά την ομορφιά: αποτυπώστε την ταχύτητα του μέλλοντος με κάθε ξεκλείδωμα.</string>
     <string name="kg_template_description_classic">Ό,τι είναι κλασικό δεν είναι ποτέ εκτός μόδας.</string>
     <string name="kg_template_description_eastern_art">Παρουσιάζεται μια σύγχρονη ερμηνεία των ανατολικών στοιχείων χρησιμοποιώντας κλασική διασταυρούμενη συμμετρία, χαρακτηριστική κάθετη διάταξη και καλλιγραφική έκφραση</string>
     <string name="kg_template_description_magazine">Μετατρέψτε την Οθόνη κλειδώματος σε εξώφυλλο περιοδικού.</string>
+    <string name="kg_template_description_magazine_natural">Ένα στυλ ρολογιού που συνδυάζει φυσικά τοπία με πολυεπίπεδα γραφικά για μια εκλεπτυσμένη, εκφραστική εμφάνιση</string>
     <string name="kg_template_description_rhombus">Ο χρόνος είναι σημαντικός. Αξιοποιήστε τον.</string>
     <string name="kg_template_preview_content_description">Προβολή</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Μεγάλο ρολόι Α</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Μεγάλο ρολόι Β</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Μεγάλο ρολόι Γ</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Μεγάλο ρολόι Δ</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Κλασσική</string>
     <string name="kg_template_title_classic_max_talkback">Κλασσική Οθόνη κλειδώματος MAX</string>
@@ -651,6 +699,7 @@ dd MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Περιοδικό Β</string>
     <string name="kg_template_title_magazine_c_one_talkback">Περιοδικό Γ, με περίγραμμα</string>
     <string name="kg_template_title_magazine_c_three_talkback">Περιοδικό Γ, με τριπλή γραμμή</string>
+    <string name="kg_template_title_magazine_natural">Φυσικά τοπία</string>
     <string name="kg_template_title_magazine_phone">Πρόσωπα</string>
     <string name="kg_template_title_mine">Κλείδωμα οθόνης</string>
     <string name="kg_template_title_mine_collocation">Τα σετ μου</string>
@@ -804,6 +853,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Εναλλαγή σε μισή οθόνη</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Μεγιστοποίηση</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Ελαχιστοποίηση</string>
+    <string name="miuix_popup_show_description">Αναδυόμενο παράθυρο</string>
     <string name="miuix_popup_window_default_title">Αναδυόμενο παράθυρο</string>
     <string name="miuix_progressbar_loading">Φόρτωση</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Τραβήξτε προς τα κάτω για ανανέωση</string>
@@ -907,6 +957,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">ΟΚ</string>
     <string name="my_style_title">Το θέμα μου</string>
     <string name="night">Βράδυ</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Μεσημέρι</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Δεν έχει οριστεί</string>
@@ -945,6 +996,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Ενεργή περίοδος: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Προγραμματισμένο</string>
     <string name="scheduled_style_summary">Ορισμός προσαρμοσμένης ώρας</string>
     <string name="scope_des">Κάθε καλειδοσκόπιο περιέχει 5 διαφορετικά μοτίβα που θα εμφανίζονται με τη σειρά κάθε φορά που ανάβει η οθόνη.</string>
@@ -956,6 +1008,7 @@ mm"</string>
     <string name="select_notification_animation_style">Επιλέξτε ειδικό εφέ</string>
     <string name="select_notification_notify_style">Επιλογή εφέ ειδοποίησης</string>
     <string name="send">Αποστολή</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Απενεργοποίηση</string>
     <string name="settings_view_btn_check_on">Ενεργοποίηση</string>
     <string name="settings_view_btn_stoped">Απενεργοποιήθηκε</string>
@@ -995,7 +1048,7 @@ mm"</string>
     <string name="sunset_time_format">Δύση %s</string>
     <string name="sunset_time_format_desc">Ώρα ηλιοβασιλέματος: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Αντιστροφή χρωμάτων</string>
     <string name="temporary_style">Για 10 δευτερόλεπτα μετά το πάτημα</string>
     <string name="temporary_style_5">Για 5 δευτερόλεπτα μετά το πάτημα</string>

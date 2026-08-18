@@ -64,6 +64,9 @@
     <string name="aod_app_name">常時表示とロック画面エディター</string>
     <string name="aod_close_color_inversion">この機能は、色反転と同時に利用することはできません。まず、色反転をオフにしてください。</string>
     <string name="aod_component">表示されたアイテム</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">その他のオプション</string>
     <string name="aod_gradient_1">ライトブルーとティールのグラデーション</string>
     <string name="aod_gradient_10">ピンク、オレンジ、紫のグラデーション</string>
@@ -115,6 +118,7 @@ EE"</string>
     <string name="aod_resting_screen_define">カスタム</string>
     <string name="aod_resting_screen_same_to_lock">ロック画面と同じ</string>
     <string name="aod_resting_screen_style_title">テーマ</string>
+    <string name="aod_setting_fold_full_aod_summary">このスタイルは外側の画面でのみ使用できます</string>
     <string name="aod_setting_pad_des2">時計の色は壁紙の色と同じになります</string>
     <string name="aod_show_date_and_time">日付と時刻を表示</string>
     <string name="aod_show_mode_title_des_pad">充電中は常に表示</string>
@@ -139,6 +143,8 @@ EE"</string>
     <string name="bottomsheet_drag_handle_clicked">ドラッグ ハンドルをダブルタップしました</string>
     <string name="bottomsheet_drag_handle_content_description">ドラッグ ハンドル</string>
     <string name="btn_know">了解</string>
+    <string name="calendar_date_picker_a11y_next_month">翌月に変更</string>
+    <string name="calendar_date_picker_a11y_prev_month">前月に変更</string>
     <string name="call_notification_answer_action">応答</string>
     <string name="call_notification_answer_video_action">ビデオ</string>
     <string name="call_notification_decline_action">拒否</string>
@@ -186,6 +192,10 @@ EE"</string>
     <string name="deep_space_planet_des">このテーマは、日中の周囲の光の変化を反映しています。日の出と日の入りも現在地と同期されます。</string>
     <string name="default_clock_style">不明なダイヤル</string>
     <string name="delete">削除</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">デジタル</string>
     <string name="disable_aod_in_power_save_mode">バッテリーセーバーがオンの時はオフにする</string>
     <string name="disable_aod_in_power_save_mode_summary">節電のためにアイテムを表示しない</string>
@@ -290,6 +300,13 @@ EE"</string>
     <string name="health_chart_step_count_unit">歩数</string>
     <string name="health_no_data">健康データがありません</string>
     <string name="health_sleep_desc">睡眠時間 %1$s、睡眠の質: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">横型時計</string>
     <string name="humidity_format">湿度 %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ EE"</string>
     <string name="keyguard_shortcut_tab_right">右</string>
     <string name="keyguard_shortcut_title">ショートカット</string>
     <string name="kg_activity_label">ロック画面を編集</string>
+    <string name="kg_allinone_drag_bottom">時計の下部をドラッグして高さを調整</string>
+    <string name="kg_allinone_drag_corner">時計の右下隅をドラッグしてサイズを変更</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (黒体)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (円体)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (方体)</string>
+    <string name="kg_allinone_font_type_MiSerif">セリフ</string>
+    <string name="kg_allinone_hollow_not_support_current_font">このフォントはアウトラインスタイルに対応していません</string>
+    <string name="kg_allinone_hollow_not_support_current_style">現在のフォントのスタイル、サイズ、および太さは、アウトラインスタイルに対応していません</string>
+    <string name="kg_allinone_hollow_style_both">時・分：輪郭線</string>
+    <string name="kg_allinone_hollow_style_hour">時：輪郭線。分：実線。</string>
+    <string name="kg_allinone_hollow_style_minute">時：実線。分：点線。</string>
+    <string name="kg_allinone_hollow_style_none">時・分：実線</string>
+    <string name="kg_allinone_hollow_style_title">アウトラインスタイル</string>
+    <string name="kg_allinone_transparency_name">時計の透過性</string>
+    <string name="kg_allinone_transparency_title">透明度</string>
+    <string name="kg_allinone_weight_title">フォントの太さ</string>
     <string name="kg_aod_settings_depth_video_toast">深度効果を使用する場合は、カスタムの常時表示のみがサポートされます</string>
     <string name="kg_apply">適用</string>
     <string name="kg_apply_dialog_desktop_preview">ホーム画面のプレビュー</string>
@@ -374,9 +408,13 @@ EE"</string>
     <string name="kg_color_value_editor_lightness">明度</string>
     <string name="kg_color_value_editor_saturation">彩度</string>
     <string name="kg_color_value_editor_title">色を編集</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OК</string>
     <string name="kg_continue_editing">編集を続ける</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">カスタマイズ</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">このセットを削除しますか？</string>
     <string name="kg_delete_this_collocation_desc">このセットのロック画面とホーム画面の設定が削除されます。今すぐセットを削除しますか？</string>
     <string name="kg_depth_preset_button_download">ダイナミック壁紙をダウンロード</string>
@@ -457,6 +495,7 @@ EE"</string>
     <string name="kg_effects_tip_button">了解</string>
     <string name="kg_effects_tip_desc">被写界深度効果はフィルターと組み合わせることはできません。いずれかを使用すると、もう一方が置き換えられます。</string>
     <string name="kg_effects_tip_not_support">ダイナミック壁紙には効果を適用できません</string>
+    <string name="kg_effects_tip_not_support_glass_filter">ガラス製の時計はエフェクトに対応していません</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">サードパーティの壁紙は効果をサポートしていません</string>
     <string name="kg_effects_tip_title">被写界深度とフィルター</string>
     <string name="kg_enable_blur">マット効果</string>
@@ -481,6 +520,8 @@ EE"</string>
     <string name="kg_font_filter_color_white">白</string>
     <string name="kg_font_filter_doodle_primary_label">落書き</string>
     <string name="kg_font_filter_doodle_secondary_label">背景</string>
+    <string name="kg_font_filter_group_label_BlurObscure">ぼかしと合成</string>
+    <string name="kg_font_filter_group_label_glass">ガラス</string>
     <string name="kg_font_filter_group_label_glow">グロー</string>
     <string name="kg_font_filter_group_label_gradient_blur">グラディエント</string>
     <string name="kg_font_filter_group_label_obscure">ブレンド</string>
@@ -574,6 +615,8 @@ EE"</string>
     <string name="kg_oversize_clock_type_bold">太字</string>
     <string name="kg_oversize_clock_type_serif_font">セリフ</string>
     <string name="kg_oversize_clock_type_stroke">アウトライン</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">もう一度選択</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">セリフ太字</string>
     <string name="kg_rhombus_clock_type_brush_font">ブラシ</string>
@@ -623,15 +666,19 @@ EE"</string>
     <string name="kg_talkback_pick_wallpaper">壁紙、ライブラリから選択</string>
     <string name="kg_talkback_select_all">すべて選択</string>
     <string name="kg_talkback_selected">選択済み</string>
+    <string name="kg_talkback_slide_up_or_down">上下にスワイプして調整</string>
     <string name="kg_talkback_unselect_all">すべて選択解除</string>
     <string name="kg_template_description_car">技術と美が交わる場所: ロック解除のたびに未来のスピードを体感せよ。</string>
     <string name="kg_template_description_classic">クラシックなものに流行り廃りはありません。</string>
     <string name="kg_template_description_eastern_art">古典的な十字対称性、特徴的な縦のレイアウト、書道表現を用いた東洋の要素の現代的な解釈を示します。</string>
     <string name="kg_template_description_magazine">ロック画面を雑誌の表紙に変身させましょう。</string>
+    <string name="kg_template_description_magazine_natural">自然の風景の上に日時や通知が重ねて表示される、洗練された表現力豊かなクロックデザイン</string>
     <string name="kg_template_description_rhombus">時間は重要です。大切にしましょう。</string>
     <string name="kg_template_preview_content_description">プレビュー</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">大時計 A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">大時計 B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">大きな時計 C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">大きな時計 D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">クラシック</string>
     <string name="kg_template_title_classic_max_talkback">クラシック ロック画面 MAX</string>
@@ -651,6 +698,7 @@ EE"</string>
     <string name="kg_template_title_magazine_b_talkback">雑誌 B</string>
     <string name="kg_template_title_magazine_c_one_talkback">雑誌 C (一行)</string>
     <string name="kg_template_title_magazine_c_three_talkback">雑誌 C (三行)</string>
+    <string name="kg_template_title_magazine_natural">自然の写真</string>
     <string name="kg_template_title_magazine_phone">人</string>
     <string name="kg_template_title_mine">画面ロック中</string>
     <string name="kg_template_title_mine_collocation">マイ セット</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">半画面に切り替える</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">最大化</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">最小化</string>
+    <string name="miuix_popup_show_description">ポップアップウィンドウ</string>
     <string name="miuix_popup_window_default_title">ポップアップウィンドウ</string>
     <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">マイ テーマ</string>
     <string name="night">夜</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">正午</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">未設定</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">aa hh:mm</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">アクティブ時間：%s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">スケジュール</string>
     <string name="scheduled_style_summary">カスタム時間を設定</string>
     <string name="scope_des">万華鏡には5種類の模様があり、画面が点灯するたびに順番に表示されます。</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">特殊効果を選択</string>
     <string name="select_notification_notify_style">通知効果を選択</string>
     <string name="send">送信</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">オフ</string>
     <string name="settings_view_btn_check_on">オン</string>
     <string name="settings_view_btn_stoped">オフにしました</string>
@@ -994,8 +1046,8 @@ mm"</string>
     <string name="sunrise_time_format_tomorrow_desc">明日の日の出時刻: %s</string>
     <string name="sunset_time_format">日の入り %s</string>
     <string name="sunset_time_format_desc">日の入り時刻: %s</string>
-    <string name="super_wallpaper_date_inter">"M月d日
-EEEE"</string>
+    <string name="super_wallpaper_date_inter">"EEEE
+M/dd"</string>
     <string name="talkback_invert_color">色反転</string>
     <string name="temporary_style">タップ後10秒間</string>
     <string name="temporary_style_5">タップ後5秒間</string>

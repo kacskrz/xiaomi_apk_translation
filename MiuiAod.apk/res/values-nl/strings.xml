@@ -64,6 +64,9 @@
     <string name="aod_app_name">Altijd-aan-display en Vergrendelscherm-editor</string>
     <string name="aod_close_color_inversion">Deze functie kan niet worden gecombineerd met kleurinversie. Schakel kleurinversie eerst uit.</string>
     <string name="aod_component">Items weergegeven</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Meer opties</string>
     <string name="aod_gradient_1">Lichtblauw en blauwgroen kleurovergang</string>
     <string name="aod_gradient_10">Roze, oranje en paarse kleurovergang</string>
@@ -115,6 +118,7 @@ dd.MM"</string>
     <string name="aod_resting_screen_define">Aangepast</string>
     <string name="aod_resting_screen_same_to_lock">Hetzelfde als Vergrendelscherm</string>
     <string name="aod_resting_screen_style_title">Thema</string>
+    <string name="aod_setting_fold_full_aod_summary">Deze stijl kan alleen op het buitenste scherm worden gebruikt</string>
     <string name="aod_setting_pad_des2">De kleur van de klok komt overeen met die van uw achtergrond</string>
     <string name="aod_show_date_and_time">Datum en tijd weergeven</string>
     <string name="aod_show_mode_title_des_pad">Altijd weergeven tijdens het opladen</string>
@@ -139,6 +143,8 @@ dd.MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Dubbelgetikt op handgreep voor slepen</string>
     <string name="bottomsheet_drag_handle_content_description">Handgreep voor slepen</string>
     <string name="btn_know">Begrepen</string>
+    <string name="calendar_date_picker_a11y_next_month">Naar volgende maand gaan</string>
+    <string name="calendar_date_picker_a11y_prev_month">Naar vorige maand gaan</string>
     <string name="call_notification_answer_action">Beantwoorden</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Weigeren</string>
@@ -186,6 +192,10 @@ dd.MM"</string>
     <string name="deep_space_planet_des">Dit thema geeft de lichtveranderingen gedurende de dag om u heen weer. Zonsopgangen en zonsondergangen worden ook gesynchroniseerd met uw locatie.</string>
     <string name="default_clock_style">Onbekende wijzerplaat</string>
     <string name="delete">Verwijderen</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digitaal</string>
     <string name="disable_aod_in_power_save_mode">Schakel uit wanneer Batterijbesparing is ingeschakeld</string>
     <string name="disable_aod_in_power_save_mode_summary">Geen items weergeven om energie te besparen</string>
@@ -290,6 +300,13 @@ dd.MM"</string>
     <string name="health_chart_step_count_unit">Stappen</string>
     <string name="health_no_data">Geen gezondheidsgegevens</string>
     <string name="health_sleep_desc">Slaapduur %1$s, slaapkwaliteit: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horizontale klok</string>
     <string name="humidity_format">Vochtigheid %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ dd.MM"</string>
     <string name="keyguard_shortcut_tab_right">Rechts</string>
     <string name="keyguard_shortcut_title">Snelkoppelingen</string>
     <string name="kg_activity_label">Vergrendelscherm bewerken</string>
+    <string name="kg_allinone_drag_bottom">Sleep de onderkant van de klok om de hoogte aan te passen</string>
+    <string name="kg_allinone_drag_corner">Sleep de rechteronderhoek van de klok om het formaat aan te passen</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Afgerond)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Vierkant)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Dit lettertype ondersteunt geen contourstijlen</string>
+    <string name="kg_allinone_hollow_not_support_current_style">De huidige letterstijl, -grootte en -dikte ondersteunen geen contourstijlen</string>
+    <string name="kg_allinone_hollow_style_both">Uren en minuten: Omlijnd</string>
+    <string name="kg_allinone_hollow_style_hour">Uren: Omlijnd. Minuten: Solide.</string>
+    <string name="kg_allinone_hollow_style_minute">Uren: Solide. Minuten: Omlijnd.</string>
+    <string name="kg_allinone_hollow_style_none">Uren en minuten: Solide</string>
+    <string name="kg_allinone_hollow_style_title">Contourstijl</string>
+    <string name="kg_allinone_transparency_name">Kloktransparantie</string>
+    <string name="kg_allinone_transparency_title">Transparantie</string>
+    <string name="kg_allinone_weight_title">Lettertype dikte</string>
     <string name="kg_aod_settings_depth_video_toast">Alleen aangepast Altijd-aan-display wordt ondersteund bij gebruik van diepte-effect</string>
     <string name="kg_apply">Toepassen</string>
     <string name="kg_apply_dialog_desktop_preview">Voorbeeld van startscherm</string>
@@ -374,9 +408,13 @@ dd.MM"</string>
     <string name="kg_color_value_editor_lightness">Lichtheid</string>
     <string name="kg_color_value_editor_saturation">Verzadiging</string>
     <string name="kg_color_value_editor_title">Kleur bewerken</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OК</string>
     <string name="kg_continue_editing">Blijf bewerken</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Aanpassen</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Deze set verwijderen?</string>
     <string name="kg_delete_this_collocation_desc">De instellingen voor het vergrendelscherm en het startscherm van deze set worden verwijderd. Wilt u de set nu verwijderen?</string>
     <string name="kg_depth_preset_button_download">Dynamische achtergrond downloaden</string>
@@ -457,6 +495,7 @@ dd.MM"</string>
     <string name="kg_effects_tip_button">Begrepen</string>
     <string name="kg_effects_tip_desc">Scherptediepte-effect kan niet worden gecombineerd met filters. Door de ene te gebruiken, wordt de andere vervangen.</string>
     <string name="kg_effects_tip_not_support">Kan geen effecten toepassen op dynamische achtergronden</string>
+    <string name="kg_effects_tip_not_support_glass_filter">De glazen klok ondersteunt geen effecten</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Achtergronden van derden ondersteunen geen effecten</string>
     <string name="kg_effects_tip_title">Scherptediepte en filters</string>
     <string name="kg_enable_blur">Mat effect</string>
@@ -481,6 +520,8 @@ dd.MM"</string>
     <string name="kg_font_filter_color_white">Wit</string>
     <string name="kg_font_filter_doodle_primary_label">Doodle</string>
     <string name="kg_font_filter_doodle_secondary_label">Achtergrond</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Vervagen en mengen</string>
+    <string name="kg_font_filter_group_label_glass">Glas</string>
     <string name="kg_font_filter_group_label_glow">Gloed</string>
     <string name="kg_font_filter_group_label_gradient_blur">Kleurovergang</string>
     <string name="kg_font_filter_group_label_obscure">Mengen</string>
@@ -574,6 +615,8 @@ dd.MM"</string>
     <string name="kg_oversize_clock_type_bold">Vet</string>
     <string name="kg_oversize_clock_type_serif_font">Schreef</string>
     <string name="kg_oversize_clock_type_stroke">Contour</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Selecteer opnieuw</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Bold serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Kwast</string>
@@ -623,15 +666,19 @@ dd.MM"</string>
     <string name="kg_talkback_pick_wallpaper">Achtergrond, selecteer uit bibliotheek</string>
     <string name="kg_talkback_select_all">Alles selecteren</string>
     <string name="kg_talkback_selected">Geselecteerd</string>
+    <string name="kg_talkback_slide_up_or_down">Veeg omhoog of omlaag om aan te passen</string>
     <string name="kg_talkback_unselect_all">Alles deselecteren</string>
     <string name="kg_template_description_car">Waar technologie en schoonheid samenkomen: beleef de snelheid van de toekomst met elke ontgrendeling.</string>
     <string name="kg_template_description_classic">Wat klassiek is, raakt nooit uit de mode.</string>
     <string name="kg_template_description_eastern_art">Presentatie van een eigentijdse interpretatie van oosterse elementen met behulp van klassieke kruissymmetrie, onderscheidende verticale lay-out en kalligrafische expressie</string>
     <string name="kg_template_description_magazine">Verander uw Vergrendelscherm in een tijdschriftomslag.</string>
+    <string name="kg_template_description_magazine_natural">Een klokontwerp dat natuurlijke landschappen combineert met gelaagde beelden voor een verfijnde, expressieve uitstraling</string>
     <string name="kg_template_description_rhombus">Tijd is belangrijk. Laat het meetellen.</string>
     <string name="kg_template_preview_content_description">Voorbeeld</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Grote klok A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Grote klok B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Grote klok C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Grote klok D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klassiek</string>
     <string name="kg_template_title_classic_max_talkback">Klassiek Vergrendelscherm MAX</string>
@@ -651,6 +698,7 @@ dd.MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Tijdschrift B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Tijdschrift C, geschetst</string>
     <string name="kg_template_title_magazine_c_three_talkback">Tijdschrift C, drievoudig gelijnd</string>
+    <string name="kg_template_title_magazine_natural">Natuurbeelden</string>
     <string name="kg_template_title_magazine_phone">Mensen</string>
     <string name="kg_template_title_mine">Scherm vergrendelen</string>
     <string name="kg_template_title_mine_collocation">Mijn sets</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Overschakelen naar half scherm</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximaliseren</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimaliseren</string>
+    <string name="miuix_popup_show_description">Pop-upvenster</string>
     <string name="miuix_popup_window_default_title">Pop-upvenster</string>
     <string name="miuix_progressbar_loading">laden</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Sleep omlaag om te vernieuwen</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Mijn thema</string>
     <string name="night">Avond</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Tussen de middag</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Niet ingesteld</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Actieve periode: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Gepland</string>
     <string name="scheduled_style_summary">Stel een aangepaste duur in</string>
     <string name="scope_des">Elke Caleidoscoop bevat 5 verschillende patronen die na elkaar weergegeven zullen worden wanneer het scherm oplicht.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">Selecteer special effect</string>
     <string name="select_notification_notify_style">Selecteer meldingseffect</string>
     <string name="send">Verzenden</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Uit</string>
     <string name="settings_view_btn_check_on">Aan</string>
     <string name="settings_view_btn_stoped">Uitgeschakeld</string>
@@ -995,7 +1047,7 @@ moois staat te gebeuren"</string>
     <string name="sunset_time_format">Zonsondergang %s</string>
     <string name="sunset_time_format_desc">Zonsondergang tijd: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Kleuren omkeren</string>
     <string name="temporary_style">Gedurende 10 seconden na het tikken</string>
     <string name="temporary_style_5">Gedurende 5 seconden na het tikken</string>

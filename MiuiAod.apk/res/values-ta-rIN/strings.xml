@@ -37,6 +37,9 @@
     <string name="aod_app_name">தொடர்ந்து இயங்கும் திரை மற்றும் பூட்டுத் திரை எடிட்டர்</string>
     <string name="aod_close_color_inversion">நிறம் தலைகீழாக்குதல் செயல்பாட்டுடன் இந்த அம்சத்தைச் சேர்த்து பயன்படுத்த முடியாது. முதலில் நிறம் தலைகீழாக்குதலை அணைக்கவும்.</string>
     <string name="aod_component">காட்டும் உருப்படிகள்</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">மேலும் விருப்பங்கள்</string>
     <string name="aod_gradient_1">வெளிர் நீலம் மற்றும் டீல் கிரேடியண்ட்</string>
     <string name="aod_gradient_10">பிங்க், ஆரஞ்சு மற்றும் பர்ப்பிள் கிரேடியண்ட்</string>
@@ -88,6 +91,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">தனிப்பயன்</string>
     <string name="aod_resting_screen_same_to_lock">பூட்டுத் திரையைப் போன்றது</string>
     <string name="aod_resting_screen_style_title">தீம்</string>
+    <string name="aod_setting_fold_full_aod_summary">இந்த ஸ்டைலை வெளிப்புற ஸ்க்ரீனில் மட்டுமே பயன்படுத்த முடியும்</string>
     <string name="aod_setting_pad_des2">உங்கள் வால்பேப்பர் கலருக்கு ஏற்ப கிளாக்கின் கலர் மாற்றப்படும்</string>
     <string name="aod_show_date_and_time">தேதி மற்றும் நேரம் காட்டு</string>
     <string name="aod_show_mode_title_des_pad">சார்ஜ் செய்யும்போது எப்போதும் காட்டு</string>
@@ -148,6 +152,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">இந்தத் தீம் உங்களைச் சுற்றிலும் நாள் முழுவதும் ஏற்படும் ஒளி மாற்றங்களைப் பிரதிபலிக்கும். சூரிய உதயங்களும் சூரிய அஸ்தமனங்களும் உங்கள் இருப்பிடத்திற்கு ஏற்ப ஒத்திசைக்கப்படும்.</string>
     <string name="default_clock_style">தெரியாத டயல்</string>
     <string name="delete">நீக்கு</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">டிஜிட்டல்</string>
     <string name="disable_aod_in_power_save_mode">பேட்டரி சேமிப்பு இயங்கும்போது அணைக்கவும்</string>
     <string name="disable_aod_in_power_save_mode_summary">ஆற்றலைச் சேமிக்க, உருப்படிகளைக் காண்பிக்காதே</string>
@@ -248,6 +256,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">அடிகள்</string>
     <string name="health_no_data">உடல்நலத் தரவு இல்லை</string>
     <string name="health_sleep_desc">உறக்க நேரம் %1$s, உறக்கத்தின் தரம்: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">கிடைமட்ட கிளாக்</string>
     <string name="humidity_format">ஈரப்பதம் %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">வலது</string>
     <string name="keyguard_shortcut_title">ஷார்ட்கட்கள்</string>
     <string name="kg_activity_label">பூட்டுத் திரையைத் திருத்து</string>
+    <string name="kg_allinone_drag_bottom">கிளாக்கின் உயரத்தை அட்ஜஸ்ட் செய்ய அதன் கீழ் பகுதியை இழுத்திடுங்கள்</string>
+    <string name="kg_allinone_drag_corner">கிளாக்கின் அளவை மாற்ற கீழே வலது மூலையை இழுத்திடுங்கள்</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (ஹைட்டி)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (ரவுண்டாட்)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (ஸ்குவயர்)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">இந்த எழுத்துருவானது அவுட்லைன் ஸ்டைல்களை ஆதரிக்காது</string>
+    <string name="kg_allinone_hollow_not_support_current_style">தற்போதைய எழுத்துரு ஸ்டைல், அளவு மற்றும் எடை அவுட்லைன் ஸ்டைல்களை ஆதரிக்காது</string>
+    <string name="kg_allinone_hollow_style_both">மணி நேரங்கள் மற்றும் நிமிடங்கள்: அவுட்லைன்டு</string>
+    <string name="kg_allinone_hollow_style_hour">மணிநேரங்கள்: அவுட்லைன்டு. நிமிடங்கள்: சாலிட்.</string>
+    <string name="kg_allinone_hollow_style_minute">மணிநேரங்கள்: சாலிட். நிமிடங்கள்: அவுட்லைன்டு</string>
+    <string name="kg_allinone_hollow_style_none">மணிநேரங்கள் மற்றும் நிமிடங்கள்: சாலிட்</string>
+    <string name="kg_allinone_hollow_style_title">அவுட்லைன் ஸ்டைல்</string>
+    <string name="kg_allinone_transparency_name">கிளாக் ட்ரான்ஸ்பேரன்சி</string>
+    <string name="kg_allinone_transparency_title">டிரான்ஸ்பேரன்சி</string>
+    <string name="kg_allinone_weight_title">எழுத்துருவின் தடிமன்</string>
     <string name="kg_aod_settings_depth_video_toast">டெப்த் எஃபெக்டைப் பயன்படுத்தும் போது தனிப்பயன் தொடர்ந்து இயங்கும் திரை மட்டுமே ஆதரிக்கப்படும்</string>
     <string name="kg_apply">பயன்படுத்து</string>
     <string name="kg_apply_dialog_desktop_preview">ஹோம் ஸ்க்ரீன் முன்னோட்டம்</string>
@@ -330,9 +362,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">ஒளிர்வு</string>
     <string name="kg_color_value_editor_saturation">செறிவாக்கம்</string>
     <string name="kg_color_value_editor_title">நிறத்தை மாற்று</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">சரி</string>
     <string name="kg_continue_editing">தொடர்ந்து திருத்துங்கள்</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">தனிப்பயனாக்கு</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">இந்தச் செட்டை நீக்கவா?</string>
     <string name="kg_delete_this_collocation_desc">இந்த செட்டின் லாக் ஸ்க்ரீன் மற்றும் ஹோம் ஸ்க்ரீன் அமைப்புகளை நீக்கப்படும். இப்போது செட்டை நீக்கவா?</string>
     <string name="kg_depth_preset_button_download">டைனமிக் வால்பேப்பரைப் பதிவிறக்கு</string>
@@ -413,6 +449,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">புரிந்தது</string>
     <string name="kg_effects_tip_desc">காட்சிப்புல ஆழ விளைவுகளை வடிப்பான்களுடன் இணைக்க முடியாது. அவற்றில் ஒன்றைப் பயன்படுத்துவது மற்றொன்றை மாற்றிவிடும்.</string>
     <string name="kg_effects_tip_not_support">டைனமிக் வால்பேப்பர்களில் விளைவுகளைப் பயன்படுத்த முடியாது</string>
+    <string name="kg_effects_tip_not_support_glass_filter">கண்ணாடி கிளாக்குகள் எஃபெக்ட்டுகளை ஆதரிக்காது</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">மூன்றாம் தரப்பு வால்பேப்பர்களில் விளைவுகள் ஆதரிக்கப்படாது</string>
     <string name="kg_effects_tip_title">காட்சிப்புலத்தின் ஆழமும் வடிப்பான்களும்</string>
     <string name="kg_enable_blur">மேட் விளைவு</string>
@@ -437,6 +474,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">வெள்ளை</string>
     <string name="kg_font_filter_doodle_primary_label">டூடில்</string>
     <string name="kg_font_filter_doodle_secondary_label">பின்னணி</string>
+    <string name="kg_font_filter_group_label_BlurObscure">பிள்ர் மற்றும் பிளெண்ட்</string>
+    <string name="kg_font_filter_group_label_glass">கண்ணாடிகள்</string>
     <string name="kg_font_filter_group_label_glow">க்ளோ</string>
     <string name="kg_font_filter_group_label_gradient_blur">கிரேடியன்ட்</string>
     <string name="kg_font_filter_group_label_obscure">ப்ளெண்டு</string>
@@ -530,6 +569,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">போல்ட்</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">அவுட்லைன்</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">மீண்டும் தேர்ந்தெடு</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">போல்ட் serif</string>
     <string name="kg_rhombus_clock_type_brush_font">பிரஷ்</string>
@@ -579,15 +620,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">வால்பேப்பர், லைப்ரரியிலிருந்து தேர்ந்தெடு</string>
     <string name="kg_talkback_select_all">அனைத்தையும் தேர்ந்தெடு</string>
     <string name="kg_talkback_selected">தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="kg_talkback_slide_up_or_down">அட்ஜஸ்ட் செய்வதற்கு மேல் அல்லது கீழ் நோக்கி ஸ்வைப் செய்யுங்கள்</string>
     <string name="kg_talkback_unselect_all">அனைத்தையும் தேர்வு நீக்கு</string>
     <string name="kg_template_description_car">தொழில்நுட்பமும் அழகும் ஒருங்கிணையும் புள்ளி: ஒவ்வொரு அன்லாக் உடனும் வருங்காலத்தை நிஜமாக்குங்கள்</string>
     <string name="kg_template_description_classic">கிளாசிக்கிற்கு ஒருபோது அவுட் ஆஃப் ஸ்டைல் ஆவதே கிடையாது.</string>
     <string name="kg_template_description_eastern_art">கிளாசிக்கல் குறுக்கு சமச்சீர், தனித்துவமான செங்குத்து அமைப்பு மற்றும் கையெழுத்து வெளிப்பாடு ஆகியவற்றைப் பயன்படுத்தி கிழக்கத்திய கூறுகளின் சமகால விளக்கத்தைக் காண்பிக்கிறது</string>
     <string name="kg_template_description_magazine">பூட்டுத் திரையை இதழின் கவராக மாற்றுங்கள்.</string>
+    <string name="kg_template_description_magazine_natural">இந்தக் கிளாக்கானது இயற்கை எழில்மிகு இடங்களுடன் பல அடுக்குகளுடனும் இருக்கும் விஷுவல் ஸ்டைலில் காட்சியளிக்கிறது</string>
     <string name="kg_template_description_rhombus">நேரம் முக்கியம், அதை வீணாக்காதீர்கள்.</string>
     <string name="kg_template_preview_content_description">முன்னோட்டம்</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">பெரிய கிளாக் அ</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">பெரிய கிளாக் ஆ</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">பெரிய கிளாக் C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">பெரிய கிளாக் D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">கிளாசிக்</string>
     <string name="kg_template_title_classic_max_talkback">கிளாசிக் லாக் ஸ்க்ரீன் மாக்ஸ்</string>
@@ -607,6 +652,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">மேகசின் ஆ</string>
     <string name="kg_template_title_magazine_c_one_talkback">மேகசின் இ. அவுட்லைன் செய்யப்பட்டது</string>
     <string name="kg_template_title_magazine_c_three_talkback">மேகசின் இ, முக்கோடு இடப்பட்டது</string>
+    <string name="kg_template_title_magazine_natural">நேச்சர் விஷுவல்கள்</string>
     <string name="kg_template_title_magazine_phone">மக்கள்</string>
     <string name="kg_template_title_mine">பூட்டுத் திரை</string>
     <string name="kg_template_title_mine_collocation">எனது செட்கள்</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">பாதி ஸ்க்ரீனிற்கு மாறுக</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">அதிகரித்திடு</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">குறைத்திடு</string>
+    <string name="miuix_popup_show_description">பாப்-அப் விண்டோ</string>
     <string name="miuix_popup_window_default_title">பாப்-அப் விண்டோ</string>
     <string name="miuix_progressbar_loading">லோட் செய்யுது</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">புதுப்பிக்க, கீழே இழுக்கவும்</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">காலை</string>
     <string name="my_style_title">எனது தீம்</string>
     <string name="night">மாலை</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">மதியம்</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">பல்ஸ் (சிவப்பு)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">செயல்படும் காலம்: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">திட்டமிடப்பட்டப்படி</string>
     <string name="scheduled_style_summary">தனிப்பயன் கால அளவை அமைக்கவும்</string>
     <string name="scope_des">ஒவ்வொரு கலைடாஸ்கோப்பிலும் 5 வெவ்வேறு பேட்டர்ன்கள் இருக்கும், அவை திரை விளக்குகள் ஒளிரும் ஒவ்வொரு முறையும் காண்பிக்கப்படும்.</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">விசேஷ விளைவைத் தேர்ந்தெடு</string>
     <string name="select_notification_notify_style">அறிவிப்பு விளைவைத் தேர்ந்த்டு</string>
     <string name="send">அனுப்பு</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">ஆஃப்</string>
     <string name="settings_view_btn_check_on">ஆன்</string>
     <string name="settings_view_btn_stoped">ஆஃப் செய்யப்பட்டது</string>
@@ -884,7 +934,7 @@ mm"</string>
     <string name="sunset_time_format">%sஅஸ்தமனம்</string>
     <string name="sunset_time_format_desc">அஸ்தமன நேரம்: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">வண்ணங்களை புரட்டு</string>
     <string name="temporary_style">தட்டிய பிறகு 10 வினாடிகள் கழித்து</string>
     <string name="temporary_style_5">தட்டிய பிறகு 5 வினாடிகள் கழித்து</string>

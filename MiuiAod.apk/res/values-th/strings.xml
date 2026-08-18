@@ -64,6 +64,9 @@
     <string name="aod_app_name">จอแสดงผลแบบเปิดตลอดและตัวแก้ไขหน้าจอล็อก</string>
     <string name="aod_close_color_inversion">คุณลักษณะนี้ไม่สามารถรวมกันด้วยการกลับสีได้ ปิดการกลับสีก่อน</string>
     <string name="aod_component">รายการที่แสดง</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">ตัวเลือกเพิ่มเติม</string>
     <string name="aod_gradient_1">ไล่สีฟ้าอ่อนและสีเขียวน้ำทะเล</string>
     <string name="aod_gradient_10">ไล่สีชมพู สีส้ม และสีม่วง</string>
@@ -115,6 +118,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">กำหนดเอง</string>
     <string name="aod_resting_screen_same_to_lock">เหมือนกับหน้าจอล็อก</string>
     <string name="aod_resting_screen_style_title">ธีม</string>
+    <string name="aod_setting_fold_full_aod_summary">รูปแบบนี้สามารถใช้ได้กับหน้าจอด้านนอกเท่านั้น</string>
     <string name="aod_setting_pad_des2">สีนาฬิกาจะเข้ากับสีวอลเปเปอร์ของคุณ</string>
     <string name="aod_show_date_and_time">แสดงวันและเวลา</string>
     <string name="aod_show_mode_title_des_pad">แสดงผลเสมอขณะชาร์จ</string>
@@ -139,6 +143,8 @@ dd/MM"</string>
     <string name="bottomsheet_drag_handle_clicked">แตะแฮนเดิลการลากสองครั้ง</string>
     <string name="bottomsheet_drag_handle_content_description">แฮนเดิลการลาก</string>
     <string name="btn_know">รับทราบ</string>
+    <string name="calendar_date_picker_a11y_next_month">เปลี่ยนไปที่เดือนถัดไป</string>
+    <string name="calendar_date_picker_a11y_prev_month">เปลี่ยนไปที่เดือนก่อนหน้า</string>
     <string name="call_notification_answer_action">รับสาย</string>
     <string name="call_notification_answer_video_action">วิดีโอ</string>
     <string name="call_notification_decline_action">ปฏิเสธ</string>
@@ -186,6 +192,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">ธีมนี้สะท้อนการเปลี่ยนแปลงของแสงรอบตัวคุณในระหว่างวัน พระอาทิตย์ขึ้นและพระอาทิตย์ตกจะถูกซิงค์กับตำแหน่งของคุณด้วย</string>
     <string name="default_clock_style">หน้าปัดที่ไม่รู้จัก</string>
     <string name="delete">ลบ</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">ดิจิตอล</string>
     <string name="disable_aod_in_power_save_mode">ปิดเมื่อตัวประหยัดแบตเตอรี่เปิดอยู่</string>
     <string name="disable_aod_in_power_save_mode_summary">ไม่แสดงรายการเพื่อประหยัดพลังงาน</string>
@@ -290,6 +300,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">ก้าว</string>
     <string name="health_no_data">ไม่มีข้อมูลด้านสุขภาพ</string>
     <string name="health_sleep_desc">ระยะเวลาการนอนหลับ %1$sคุณภาพการนอนหลับ: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">นาฬิกาแนวนอน</string>
     <string name="humidity_format">ความชื้น %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">ขวา</string>
     <string name="keyguard_shortcut_title">ปุ่มลัด</string>
     <string name="kg_activity_label">แก้ไขหน้าจอล็อค</string>
+    <string name="kg_allinone_drag_bottom">ลากด้านล่างของนาฬิกาเพื่อปรับความสูง</string>
+    <string name="kg_allinone_drag_corner">ลากมุมล่างขวาของนาฬิกาเพื่อปรับขนาด</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (กลม)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (สี่เหลี่ยม)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">ฟอนต์นี้ไม่รองรับรูปแบบเส้นขอบ</string>
+    <string name="kg_allinone_hollow_not_support_current_style">รูปแบบตัวอักษร ขนาด และน้ำหนักปัจจุบันไม่รองรับรูปแบบเส้นขอบ</string>
+    <string name="kg_allinone_hollow_style_both">ชั่วโมงและนาที: คร่าวๆ</string>
+    <string name="kg_allinone_hollow_style_hour">ชั่วโมง: คร่าวๆ นาที: ชัดเจน</string>
+    <string name="kg_allinone_hollow_style_minute">ชั่วโมง: ชัดเจน นาที: คร่าวๆ</string>
+    <string name="kg_allinone_hollow_style_none">ชั่วโมงและนาที: ชัดเจน</string>
+    <string name="kg_allinone_hollow_style_title">รูปแบบโครงร่าง</string>
+    <string name="kg_allinone_transparency_name">ความโปร่งใสของนาฬิกา</string>
+    <string name="kg_allinone_transparency_title">ความโปร่งใส</string>
+    <string name="kg_allinone_weight_title">น้ำหนักฟอนต์</string>
     <string name="kg_aod_settings_depth_video_toast">รองรับการแสดงผลแบบเปิดตลอดเวลาแบบกำหนดเองเท่านั้นเมื่อใช้เอฟเฟกต์ความลึก</string>
     <string name="kg_apply">นำไปใช้</string>
     <string name="kg_apply_dialog_desktop_preview">การแสดงตัวอย่างหน้าจอหลัก</string>
@@ -374,9 +408,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">ความสว่าง</string>
     <string name="kg_color_value_editor_saturation">ความอิ่มสี</string>
     <string name="kg_color_value_editor_title">แก้ไขสี</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">ตกลง</string>
     <string name="kg_continue_editing">แก้ไขต่อ</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">ปรับแต่ง</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">ลบเซ็ตนี้หรือเปล่า?</string>
     <string name="kg_delete_this_collocation_desc">การตั้งค่าหน้าจอล็อคและหน้าจอหลักชุดนี้จะถูกลบออก ลบชุดนี้หรือไม่?</string>
     <string name="kg_depth_preset_button_download">ดาวน์โหลดภาพพื้นหลังไดนามิก</string>
@@ -457,6 +495,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">รับทราบ</string>
     <string name="kg_effects_tip_desc">ไม่สามารถรวมเอฟเฟ็กต์ระยะชัดลึก กับฟิลเตอร์ได้ การใช้หนึ่งในนั้นจะแทนที่อีกอันหนึ่ง</string>
     <string name="kg_effects_tip_not_support">ไม่สามารถใช้เอฟเฟ็กต์กับวอลเปเปอร์แบบไดนามิกได้</string>
+    <string name="kg_effects_tip_not_support_glass_filter">นาฬิกาแก้วไม่รองรับเอฟเฟกต์</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">ภาพพื้นหลังของบริษัทอื่นไม่รองรับเอฟเฟกต์</string>
     <string name="kg_effects_tip_title">ความชัดลึกและฟิลเตอร์</string>
     <string name="kg_enable_blur">เอฟเฟ็กต์ Matte</string>
@@ -481,6 +520,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">สีขาว</string>
     <string name="kg_font_filter_doodle_primary_label">ลายเส้น</string>
     <string name="kg_font_filter_doodle_secondary_label">พื้นหลัง</string>
+    <string name="kg_font_filter_group_label_BlurObscure">เบลอและผสมผสาน</string>
+    <string name="kg_font_filter_group_label_glass">กระจก</string>
     <string name="kg_font_filter_group_label_glow">เปล่งปลั่ง</string>
     <string name="kg_font_filter_group_label_gradient_blur">การไล่ระดับสี</string>
     <string name="kg_font_filter_group_label_obscure">ผสมผสาน</string>
@@ -574,6 +615,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">ตัวหนา</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">เค้าโครง</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">เลือกอีกครั้ง</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">serif ตัวหนา</string>
     <string name="kg_rhombus_clock_type_brush_font">แปรง</string>
@@ -623,15 +666,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">ภาพพื้นหลัง เลือกจากห้องสมุด</string>
     <string name="kg_talkback_select_all">เลือกทั้งหมด</string>
     <string name="kg_talkback_selected">เลือกแล้ว</string>
+    <string name="kg_talkback_slide_up_or_down">ปัดขึ้นหรือลงเพื่อปรับ</string>
     <string name="kg_talkback_unselect_all">ไม่เลือกทั้งหมด</string>
     <string name="kg_template_description_car">เมื่อเทคโนโลยีพบกับความสวยงาม: จับภาพความเร็วแห่งอนาคตด้วยการปลดล็อคทุกครั้ง</string>
     <string name="kg_template_description_classic">ความคลาสสิกไม่เคยล้าสมัย</string>
     <string name="kg_template_description_eastern_art">จัดแสดงการตีความร่วมสมัยขององค์ประกอบตะวันออกโดยใช้สมมาตรข้ามแบบคลาสสิก เค้าโครงแนวตั้งที่โดดเด่น และการแสดงออกทางอักษรวิจิตร</string>
     <string name="kg_template_description_magazine">เปลี่ยนหน้าจอล็อกของคุณให้เป็นปกนิตยสาร</string>
+    <string name="kg_template_description_magazine_natural">นาฬิกาดีไซน์ที่ผสานภาพทิวทัศน์ธรรมชาติเข้ากับภาพซ้อนหลายชั้น ให้ความรู้สึกหรูหราและมีเอกลักษณ์</string>
     <string name="kg_template_description_rhombus">เวลาเป็นสิ่งสำคัญ ใช้มันให้คุ้มค่า</string>
     <string name="kg_template_preview_content_description">ตัวอย่าง</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">นาฬิกาขนาดใหญ่ A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">นาฬิกาขนาดใหญ่ B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">นาฬิกาขนาดใหญ่ C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">นาฬิกาขนาดใหญ่ D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">คลาสสิก</string>
     <string name="kg_template_title_classic_max_talkback">หน้าจอล็อคคลาสสิก MAX</string>
@@ -651,6 +698,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">นิตยสาร B</string>
     <string name="kg_template_title_magazine_c_one_talkback">นิตยสาร C, โครงร่าง</string>
     <string name="kg_template_title_magazine_c_three_talkback">นิตยสาร C, 3 ชั้น</string>
+    <string name="kg_template_title_magazine_natural">ภาพธรรมชาติ</string>
     <string name="kg_template_title_magazine_phone">คน</string>
     <string name="kg_template_title_mine">หน้าจอล็อก</string>
     <string name="kg_template_title_mine_collocation">ชุดของฉัน</string>
@@ -678,7 +726,7 @@ dd/MM"</string>
     <string name="kg_title_ai_generating">กำลังสร้าง…</string>
     <string name="kg_title_clock_name">นาฬิกา</string>
     <string name="kg_title_content">เนื้อหา</string>
-    <string name="kg_title_effect_name">เอฟเฟ็กต์</string>
+    <string name="kg_title_effect_name">เอฟเฟกต์</string>
     <string name="kg_title_font_name">ฟอนต์</string>
     <string name="kg_title_fonts_and_content">ฟอนต์และเนื้อหา</string>
     <string name="kg_title_typography_name">แผนผัง</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">สลับไปยังครึ่งหน้าจอ</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">ขยายใหญ่สุด</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">ย่อเล็กสุด</string>
+    <string name="miuix_popup_show_description">หน้าต่างป๊อปอัป</string>
     <string name="miuix_popup_window_default_title">หน้าต่างป๊อปอัป</string>
     <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">ตกลง</string>
     <string name="my_style_title">ธีมของฉัน</string>
     <string name="night">เย็น</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">เที่ยงวัน</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">ไม่ได้ตั้งค่า</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">ระยะเวลาใช้งาน: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">กำหนดเวลา</string>
     <string name="scheduled_style_summary">ตั้งเวลาที่กำหนดเอง</string>
     <string name="scope_des">ภาพลานตาทุกอันมี 5 รูปแบบที่แตกต่างกันซึ่งจะปรากฏขึ้นทุกครั้งเมื่อหน้าจอสว่างขึ้น</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">เลือกเอฟเฟคพิเศษ</string>
     <string name="select_notification_notify_style">เลือกเอฟเฟ็กต์การแจ้งเตือน</string>
     <string name="send">ส่ง</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">ปิด</string>
     <string name="settings_view_btn_check_on">เปิด</string>
     <string name="settings_view_btn_stoped">ปิดใช้งานแล้ว</string>
@@ -995,7 +1047,7 @@ mm"</string>
     <string name="sunset_time_format">พระอาทิตย์ตก %s</string>
     <string name="sunset_time_format_desc">เวลาพระอาทิตย์ตก: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">กลับสี</string>
     <string name="temporary_style">เป็นเวลา 10 วินาทีหลังจากแตะ</string>
     <string name="temporary_style_5">เป็นเวลา 5 วินาทีหลังจากแตะ</string>

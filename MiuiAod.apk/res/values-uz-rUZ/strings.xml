@@ -15,6 +15,7 @@
     <string name="add_custom_image">Shaxsiy rasm</string>
     <string name="add_from_local">Suratni tanlang</string>
     <string name="afternoon">Kunduzi</string>
+    <string name="air_quality_index_abbreviation">HSI</string>
     <string name="align_center_horizontally">Gorizontal va markazga tekislangan</string>
     <string name="align_center_vertically">Yig‘ilgan va markazga tekislangan</string>
     <string name="align_left_horizontally">Gorizontal va chapga tekislangan</string>
@@ -37,6 +38,9 @@
     <string name="aod_app_name">Har doim yoniq displey va Bloklangan ekran muharriri</string>
     <string name="aod_close_color_inversion">Bu xususiyatni rangni o‘zgartirish bilan birlashtirish mumkin emas. Avval rangni o‘zgartirishni o‘chirib qo‘ying.</string>
     <string name="aod_component">Elementlar ko‘rsatildi</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Qo‘shimcha tanlamalar</string>
     <string name="aod_gradient_1">"Ochiq ko'k va ko'k rangli gradient"</string>
     <string name="aod_gradient_10">"Pushti, to'q sariq va binafsha rangdagi gradient"</string>
@@ -88,6 +92,7 @@ EE"</string>
     <string name="aod_resting_screen_define">Maxsus</string>
     <string name="aod_resting_screen_same_to_lock">Qulf ekrani bilan bir xil</string>
     <string name="aod_resting_screen_style_title">Mavzu</string>
+    <string name="aod_setting_fold_full_aod_summary">Bu uslub faqat tashqi ekranda ishlatilishi mumkin</string>
     <string name="aod_setting_pad_des2">Soat rangi fon rasmi rangiga mos keladi</string>
     <string name="aod_show_date_and_time">Sana va vaqtni ko‘rsatish</string>
     <string name="aod_show_mode_title_des_pad">Zaryadlaganda har doim ko‘rsatish</string>
@@ -148,6 +153,10 @@ EE"</string>
     <string name="deep_space_planet_des">Ushbu mavzu kun davomida atrofingizda sodir bo‘layotgan yorug‘lik o‘zgarishlarini aks ettiradi. Quyosh chiqishi va quyosh botishi ham manzilingiz bilan sinxronlashtiriladi.</string>
     <string name="default_clock_style">Noma‘lum soat yuzi</string>
     <string name="delete">O‘chirish</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Raqamli</string>
     <string name="disable_aod_in_power_save_mode">Quvvat tejagich yoniq paytda o‘chirish</string>
     <string name="disable_aod_in_power_save_mode_summary">Quvvatni tejash uchun elementlarni ko‘rsatmang</string>
@@ -248,6 +257,13 @@ EE"</string>
     <string name="health_chart_step_count_unit">Qadamlar</string>
     <string name="health_no_data">Sog‘liq ma‘lumotlari yo‘q</string>
     <string name="health_sleep_desc">Uxlash vaqti %1$s, uxlash sifati: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Gorizontal soat</string>
     <string name="humidity_format">Namlik %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +274,23 @@ EE"</string>
     <string name="keyguard_shortcut_tab_right">O‘ng</string>
     <string name="keyguard_shortcut_title">Yorliqlar</string>
     <string name="kg_activity_label">Bloklash ekranini tahrirlash</string>
+    <string name="kg_allinone_drag_bottom">Soat balandligini sozlash uchun uning pastki qismini torting</string>
+    <string name="kg_allinone_drag_corner">Soatning pastki o‘ng burchagini o‘lchamini o‘zgartirish uchun torting</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (MiSans (Geyiti))</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Yumaloq)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Kvadrat)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Bu shrift kontur uslublarini qo‘llab-quvvatlamaydi</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Joriy shrift uslubi, o‘lchami va qalinligi kontur uslublarini qo‘llab-quvvatlamaydi</string>
+    <string name="kg_allinone_hollow_style_both">Soatlar va daqiqalar: Belgilangan</string>
+    <string name="kg_allinone_hollow_style_hour">Soatlar: Belgilangan. Daqiqalar: To‘liq.</string>
+    <string name="kg_allinone_hollow_style_minute">Soatlar: To‘liq. Daqiqalar: Belgilangan.</string>
+    <string name="kg_allinone_hollow_style_none">Soatlar va daqiqalar: To‘liq</string>
+    <string name="kg_allinone_hollow_style_title">Kontur uslubi</string>
+    <string name="kg_allinone_transparency_name">Soat shaffofligi</string>
+    <string name="kg_allinone_transparency_title">Shaffoflik</string>
+    <string name="kg_allinone_weight_title">Shrift og‘irligi</string>
     <string name="kg_aod_settings_depth_video_toast">Chuqurlik effektidan foydalanilganda faqat maxsus Doim yoqilgan displey qo‘llab-quvvatlanadi</string>
     <string name="kg_apply">O‘rnatish</string>
     <string name="kg_apply_dialog_desktop_preview">Bosh ekranni oldindan ko‘rish</string>
@@ -330,9 +363,13 @@ EE"</string>
     <string name="kg_color_value_editor_lightness">Nur</string>
     <string name="kg_color_value_editor_saturation">To‘yinish</string>
     <string name="kg_color_value_editor_title">Rangni tahrirlash</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Davom ettirish</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Moslashtirish</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">To‘plam o‘chirilsinmi?</string>
     <string name="kg_delete_this_collocation_desc">Bu to‘plamning Ekran qulfi va Bosh ekran sozlamalari o‘chiriladi. To‘plam hozir o‘chirilsinmi?</string>
     <string name="kg_depth_preset_button_download">Dinamik fon rasmini yuklab olish</string>
@@ -413,6 +450,7 @@ EE"</string>
     <string name="kg_effects_tip_button">Tushundim</string>
     <string name="kg_effects_tip_desc">Maydon chuqurligi effektini filtrlar bilan birlashtirib bo‘lmaydi. Ulardan birini ishlatish boshqasini almashtiradi.</string>
     <string name="kg_effects_tip_not_support">Dinamik fon rasmlariga effektlarni qo‘llab bo‘lmaydi</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Shisha soat effektlarni qo‘llab-quvvatlamaydi</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">"Uchinchi tomon fon rasmlari effektlarni qo'llab-quvvatlamaydi"</string>
     <string name="kg_effects_tip_title">Maydon chuqurligi va filtrlar</string>
     <string name="kg_enable_blur">Mat effekti</string>
@@ -437,6 +475,8 @@ EE"</string>
     <string name="kg_font_filter_color_white">Oq</string>
     <string name="kg_font_filter_doodle_primary_label">Chizma</string>
     <string name="kg_font_filter_doodle_secondary_label">Fon</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Xiralashtirish va aralashtirish</string>
+    <string name="kg_font_filter_group_label_glass">Shisha</string>
     <string name="kg_font_filter_group_label_glow">Nur sochish</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradient</string>
     <string name="kg_font_filter_group_label_obscure">Aralashtiring</string>
@@ -530,6 +570,8 @@ EE"</string>
     <string name="kg_oversize_clock_type_bold">Qalin</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Kontur</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Qayta tanlang</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Qalin serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Cho‘tka</string>
@@ -579,15 +621,19 @@ EE"</string>
     <string name="kg_talkback_pick_wallpaper">Fon rasmi, kutubxonadan tanlang</string>
     <string name="kg_talkback_select_all">Barchasini tanlash</string>
     <string name="kg_talkback_selected">Tanlandi</string>
+    <string name="kg_talkback_slide_up_or_down">Sozlash uchun yuqoriga yoki pastga suring</string>
     <string name="kg_talkback_unselect_all">Barchasini olib tashlash</string>
     <string name="kg_template_description_car">Texnologiya go‘zallik bilan uchrashadigan joyda: har bir qulfni ochish bilan kelajak tezligini qo‘lga kiriting.</string>
     <string name="kg_template_description_classic">Klassik narsa hech qachon modadan chiqib ketmaydi.</string>
     <string name="kg_template_description_eastern_art">Klassik oʻzaro simmetriya, oʻziga xos vertikal joylashuv va kalligrafik ifoda yordamida Sharqiy elementlarning zamonaviy talqinini namoyish qilish</string>
     <string name="kg_template_description_magazine">Bloklangan ekranni jurnal muqovasiga aylantiring.</string>
+    <string name="kg_template_description_magazine_natural">Nafis va ifodali ko‘rinish uchun tabiiy landshaftlarni qatlamli vizuallar bilan uyg‘unlashtirgan soat uslubi</string>
     <string name="kg_template_description_rhombus">Vaqt muhim. Hisoblang.</string>
     <string name="kg_template_preview_content_description">Ko‘rib chiqish</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Katta soat A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Katta soat B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Katta soat C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Katta soat D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klassik</string>
     <string name="kg_template_title_classic_max_talkback">Klassik Qulflangan ekran MAX</string>
@@ -607,6 +653,7 @@ EE"</string>
     <string name="kg_template_title_magazine_b_talkback">Jurnal B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Jurnal C, tasvirlangan</string>
     <string name="kg_template_title_magazine_c_three_talkback">Jurnal C, uch qatorli</string>
+    <string name="kg_template_title_magazine_natural">Tabiat tasvirlari</string>
     <string name="kg_template_title_magazine_phone">Odamlar</string>
     <string name="kg_template_title_mine">Ekranni qulflash</string>
     <string name="kg_template_title_mine_collocation">Mening to‘plamlarim</string>
@@ -747,6 +794,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Yarim ekranga o‘tish</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Kattalashtirish</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Kichraytirish</string>
+    <string name="miuix_popup_show_description">Suzuvchi oyna</string>
     <string name="miuix_popup_window_default_title">Suzuvchi oyna</string>
     <string name="miuix_progressbar_loading">Yuklanmoqda</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yangilash uchun pastga torting</string>
@@ -805,6 +853,7 @@ mm"</string>
     <string name="morning">Ertalab</string>
     <string name="my_style_title">Mening mavzuyim</string>
     <string name="night">Oqshom</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Peshin</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Puls (Qizil)</string>
@@ -840,6 +889,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Faol davr: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Rejalashtirilgan</string>
     <string name="scheduled_style_summary">Maxsus vaqtni o‘rnating</string>
     <string name="scope_des">Har bir kaleydoskopda 5 xil grafik qulfi mavjud, ular ekran har safar yonib turganda paydo bo‘ladi.</string>
@@ -848,6 +898,7 @@ mm"</string>
     <string name="select_notification_animation_style">Maxsus effektni tanlang</string>
     <string name="select_notification_notify_style">Bildirishnoma effektini tanlang</string>
     <string name="send">Jo‘natish</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">O‘chiq</string>
     <string name="settings_view_btn_check_on">Yoniq</string>
     <string name="settings_view_btn_stoped">O‘chirildi</string>
@@ -883,8 +934,8 @@ ajoyib narsa ro‘y berishiga ishoning"</string>
     <string name="sunrise_time_format_tomorrow_desc">Ertaga quyosh chiqishi: %s</string>
     <string name="sunset_time_format">Quyosh botishi %s</string>
     <string name="sunset_time_format_desc">Quyosh botishi vaqti: %s</string>
-    <string name="super_wallpaper_date_inter">"dd/M
-EEEE"</string>
+    <string name="super_wallpaper_date_inter">"EEEE
+M/dd"</string>
     <string name="talkback_invert_color">Ranglarni o‘zgartirish</string>
     <string name="temporary_style">Bosgandan so‘ng 10 soniya</string>
     <string name="temporary_style_5">Bosgandan so‘ng 5 soniya</string>

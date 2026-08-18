@@ -42,6 +42,7 @@
     <string name="add_custom_image">Imagine personalizată</string>
     <string name="add_from_local">Selectați imagine</string>
     <string name="afternoon">După-amiază</string>
+    <string name="air_quality_index_abbreviation">ICA</string>
     <string name="align_center_horizontally">Orizontal și aliniat la centru</string>
     <string name="align_center_vertically">Grupate și aliniate la centru</string>
     <string name="align_left_horizontally">Orizontal și aliniat la stânga</string>
@@ -64,6 +65,9 @@
     <string name="aod_app_name">Întotdeauna pe ecran și Editor de ecran de blocare</string>
     <string name="aod_close_color_inversion">Această funcție nu poate fi combinată cu inversarea culorii. Dezactivați mai întâi inversarea culorilor.</string>
     <string name="aod_component">Elemente afișate</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Mai multe opțiuni</string>
     <string name="aod_gradient_1">Albastru deschis și verziu-albastru gradient</string>
     <string name="aod_gradient_10">Roz, portocaliu și mov gradient</string>
@@ -115,6 +119,7 @@ dd.MM"</string>
     <string name="aod_resting_screen_define">Personalizează</string>
     <string name="aod_resting_screen_same_to_lock">La fel ca și Ecran de blocare</string>
     <string name="aod_resting_screen_style_title">Temă</string>
+    <string name="aod_setting_fold_full_aod_summary">Acest stil poate fi folosit doar pe ecranul exterior</string>
     <string name="aod_setting_pad_des2">Culoarea ceasului se va potrivi cu cea a imaginii de fundal</string>
     <string name="aod_show_date_and_time">Afișați data și ora</string>
     <string name="aod_show_mode_title_des_pad">Afișează întotdeauna când se încarcă</string>
@@ -139,6 +144,8 @@ dd.MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Ghidaj de tragere atins de două ori</string>
     <string name="bottomsheet_drag_handle_content_description">Ghidaj de tragere</string>
     <string name="btn_know">Am înțeles</string>
+    <string name="calendar_date_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="calendar_date_picker_a11y_prev_month">Treceți la luna anterioară</string>
     <string name="call_notification_answer_action">Răspunde</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Respinge</string>
@@ -186,6 +193,10 @@ dd.MM"</string>
     <string name="deep_space_planet_des">Această temă reflectă schimbările ușoare care se petrec în jurul tău în timpul zilei. Răsăriturile și apusurile de soare sunt de asemenea sincronizate cu locația dvs.</string>
     <string name="default_clock_style">Cadran necunoscut</string>
     <string name="delete">Șterge</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digital</string>
     <string name="disable_aod_in_power_save_mode">Dezactivează când Economizator baterie este pornit</string>
     <string name="disable_aod_in_power_save_mode_summary">Nu afișați elemente pentru a economisi energie</string>
@@ -290,6 +301,13 @@ dd.MM"</string>
     <string name="health_chart_step_count_unit">Pași</string>
     <string name="health_no_data">Fără date despre sănătate</string>
     <string name="health_sleep_desc">Durata somnului %1$s, calitatea somnului: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Ceas orizontal</string>
     <string name="humidity_format">Umiditate %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +320,23 @@ dd.MM"</string>
     <string name="keyguard_shortcut_tab_right">Dreapta</string>
     <string name="keyguard_shortcut_title">Comenzi rapide</string>
     <string name="kg_activity_label">Editați Ecranul de blocare</string>
+    <string name="kg_allinone_drag_bottom">Trageți partea de jos a ceasului pentru a-i ajusta înălțimea</string>
+    <string name="kg_allinone_drag_corner">Trageți colțul din dreapta jos al ceasului pentru a-l redimensiona</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Rotunjit)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Pătrat)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Acest font nu acceptă stiluri de contur</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Stilul, dimensiunea și grosimea actuală a fontului nu acceptă stiluri de contur</string>
+    <string name="kg_allinone_hollow_style_both">Ore și minute: Conturat</string>
+    <string name="kg_allinone_hollow_style_hour">Ore: Conturat. Minute: Solid.</string>
+    <string name="kg_allinone_hollow_style_minute">Ore: Solid. Minute: Conturat.</string>
+    <string name="kg_allinone_hollow_style_none">Ore și minute: Solid</string>
+    <string name="kg_allinone_hollow_style_title">Stilul conturului</string>
+    <string name="kg_allinone_transparency_name">Transparența ceasului</string>
+    <string name="kg_allinone_transparency_title">Transparență</string>
+    <string name="kg_allinone_weight_title">Grosime font</string>
     <string name="kg_aod_settings_depth_video_toast">Numai afișajul personalizat Întotdeauna pe ecran este acceptat când se utilizează efectul de adâncime</string>
     <string name="kg_apply">Aplică</string>
     <string name="kg_apply_dialog_desktop_preview">Previzualizare Ecran principal</string>
@@ -374,9 +409,13 @@ dd.MM"</string>
     <string name="kg_color_value_editor_lightness">Luminozitate</string>
     <string name="kg_color_value_editor_saturation">Saturație</string>
     <string name="kg_color_value_editor_title">Editează culoarea</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Editați în continuare</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Personalizează</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Ştergeți acest set?</string>
     <string name="kg_delete_this_collocation_desc">Setările pentru Ecranul de blocare și Ecranul principal ale acestui set vor fi șterse. Ștergeți setul acum?</string>
     <string name="kg_depth_preset_button_download">Descărcați imagine de fundal dinamic</string>
@@ -457,6 +496,7 @@ dd.MM"</string>
     <string name="kg_effects_tip_button">Am înțeles</string>
     <string name="kg_effects_tip_desc">Efectul de adâncime a câmpului nu poate fi combinat cu filtre. Utilizarea unuia dintre ele îl va înlocui pe celălalt.</string>
     <string name="kg_effects_tip_not_support">Nu se pot aplica efecte pentru imagini de fundal dinamice</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Ceasul de sticlă nu acceptă efecte</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Imaginile de fundal de la terțe părți nu acceptă efecte</string>
     <string name="kg_effects_tip_title">Adâncimea câmpului și filtrele</string>
     <string name="kg_enable_blur">Efect mat</string>
@@ -481,6 +521,8 @@ dd.MM"</string>
     <string name="kg_font_filter_color_white">Alb</string>
     <string name="kg_font_filter_doodle_primary_label">Mâzgălitură</string>
     <string name="kg_font_filter_doodle_secondary_label">Fundal</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Estompează și amestecă</string>
+    <string name="kg_font_filter_group_label_glass">Sticlă</string>
     <string name="kg_font_filter_group_label_glow">Strălucire</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradient</string>
     <string name="kg_font_filter_group_label_obscure">Amestec</string>
@@ -574,6 +616,8 @@ dd.MM"</string>
     <string name="kg_oversize_clock_type_bold">Aldin</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Contur</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Selectați din nou</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif aldin</string>
     <string name="kg_rhombus_clock_type_brush_font">Pensulă</string>
@@ -623,15 +667,19 @@ dd.MM"</string>
     <string name="kg_talkback_pick_wallpaper">Imagine de fundal, selectează din librărie</string>
     <string name="kg_talkback_select_all">Selectează tot</string>
     <string name="kg_talkback_selected">Selectat</string>
+    <string name="kg_talkback_slide_up_or_down">Glisați în sus sau în jos pentru a ajusta</string>
     <string name="kg_talkback_unselect_all">Deselectează tot</string>
     <string name="kg_template_description_car">Acolo unde tehnologia întâlneşte frumuseţea: capturează viteza viitorului cu fiecare deblocare.</string>
     <string name="kg_template_description_classic">Ceea ce este clasic nu se demodează niciodată.</string>
     <string name="kg_template_description_eastern_art">Prezentarea unei interpretări contemporane a elementelor estice folosind simetria încrucișată clasică, aspectul vertical distinctiv și expresia caligrafică</string>
     <string name="kg_template_description_magazine">Transformați Ecranul de blocare într-o copertă de revistă.</string>
+    <string name="kg_template_description_magazine_natural">Un stil de ceas care combină peisaje naturale cu elemente vizuale stratificate pentru un aspect rafinat și expresiv</string>
     <string name="kg_template_description_rhombus">Timpul este important. Fă-l să conteze.</string>
     <string name="kg_template_preview_content_description">Previzualizare</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Ceas mare A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Ceas mare B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Ceas mare C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Ceas mare D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Clasic</string>
     <string name="kg_template_title_classic_max_talkback">Ecran de blocare clasic MAX</string>
@@ -651,6 +699,7 @@ dd.MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Revista B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Revista C, conturat</string>
     <string name="kg_template_title_magazine_c_three_talkback">Revista C, triplu liniat</string>
+    <string name="kg_template_title_magazine_natural">Imagini din natură</string>
     <string name="kg_template_title_magazine_phone">Persoane</string>
     <string name="kg_template_title_mine">Blocare ecran</string>
     <string name="kg_template_title_mine_collocation">Seturile mele</string>
@@ -763,7 +812,7 @@ MM"</string>
     <string name="miui_rhombus_clock_date">dd MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d.M</string>
+    <string name="miui_smart_frame_clock_date">dd.MM</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -804,6 +853,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Schimbă la jumătate de ecran</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximizați</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimizați</string>
+    <string name="miuix_popup_show_description">Fereastră pop-up</string>
     <string name="miuix_popup_window_default_title">Fereastră pop-up</string>
     <string name="miuix_progressbar_loading">Încărcare</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Trage în jos pentru a reîmprospăta</string>
@@ -907,6 +957,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Tema mea</string>
     <string name="night">Seara</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">La amiază</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Nesetată</string>
@@ -945,6 +996,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Perioadă activă: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Programat</string>
     <string name="scheduled_style_summary">Setează ora personalizată</string>
     <string name="scope_des">Fiecare caleidoscop conține 5 modele diferite care vor fi afișate pe rând de fiecare dată când ecranul se aprinde.</string>
@@ -956,6 +1008,7 @@ mm"</string>
     <string name="select_notification_animation_style">Selectați efectul special</string>
     <string name="select_notification_notify_style">Selectați efectul pentru notificare</string>
     <string name="send">Trimite</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Oprit</string>
     <string name="settings_view_btn_check_on">Pornit</string>
     <string name="settings_view_btn_stoped">Dezactivat</string>
@@ -995,7 +1048,7 @@ va întâmpla ceva minunat"</string>
     <string name="sunset_time_format">Apus %s</string>
     <string name="sunset_time_format_desc">Ora apusului: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-d.MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Inversați culorile</string>
     <string name="temporary_style">Timp de 10 secunde după atingere</string>
     <string name="temporary_style_5">Timp de 5 secunde după atingere</string>
@@ -1061,6 +1114,7 @@ d.MM"</string>
     <string name="tuesday">Marţi</string>
     <string name="tuesday_short">Mar</string>
     <string name="tuesday_shortest">Mar</string>
+    <string name="ultraviolet_rays_abbreviation">UV</string>
     <string name="uvi_format">UVI %1$s %2$s</string>
     <string name="uvi_format_desc">Indicele ultraviolet: %1$s, %2$s</string>
     <string name="v7_preference_off">DEZACTIVAT</string>

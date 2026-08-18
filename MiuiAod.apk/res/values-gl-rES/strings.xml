@@ -15,6 +15,7 @@
     <string name="add_custom_image">Imaxe personalizada</string>
     <string name="add_from_local">Seleccionar imaxe</string>
     <string name="afternoon">Tarde</string>
+    <string name="air_quality_index_abbreviation">ICA</string>
     <string name="align_center_horizontally">Horizontal e aliñado no centro</string>
     <string name="align_center_vertically">Vertical e aliñado no centro</string>
     <string name="align_left_horizontally">Horizontal e aliñado á esquerda</string>
@@ -37,6 +38,9 @@
     <string name="aod_app_name">Editor de Pantalla sempre acendida e Pantalla de bloqueo</string>
     <string name="aod_close_color_inversion">Esta característica non pode ser combinada coa inversión de cor. Primeiro desactivar a inversión de cor.</string>
     <string name="aod_component">Elementos amosados</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Máis opcións</string>
     <string name="aod_gradient_1">Degradado azul claro e verde azulado</string>
     <string name="aod_gradient_10">Degradado rosa, laranxa e púrpura</string>
@@ -88,6 +92,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">Personalizar</string>
     <string name="aod_resting_screen_same_to_lock">Igual que a Pantalla de bloqueo</string>
     <string name="aod_resting_screen_style_title">Tema</string>
+    <string name="aod_setting_fold_full_aod_summary">Este estilo só se pode utilizar na pantalla exterior</string>
     <string name="aod_setting_pad_des2">A cor do reloxo coincidirá coa do teu fondo de pantalla</string>
     <string name="aod_show_date_and_time">Amosar data e hora</string>
     <string name="aod_show_mode_title_des_pad">Amosar sempre ao cargar</string>
@@ -148,6 +153,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">Este tema reflicte os cambios de luz que hai ao teu arredor durante o día. O amencer e o solpor tamén están sincronizados coa túa ubicación.</string>
     <string name="default_clock_style">Dial descoñecido</string>
     <string name="delete">Eliminar</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Dixital</string>
     <string name="disable_aod_in_power_save_mode">Apagar cando o aforrador da batería estea activado</string>
     <string name="disable_aod_in_power_save_mode_summary">Non amosar elementos para aforrar enerxía</string>
@@ -248,6 +257,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">Pasos</string>
     <string name="health_no_data">Non hai datos de saúde</string>
     <string name="health_sleep_desc">Duración do sono %1$s, calidade do sono: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Reloxo horizontal</string>
     <string name="humidity_format">Humidade %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +274,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">Dereita</string>
     <string name="keyguard_shortcut_title">Atallos</string>
     <string name="kg_activity_label">Editar a pantalla de bloqueo</string>
+    <string name="kg_allinone_drag_bottom">Arrastra a parte inferior do reloxo para axustar a altura</string>
+    <string name="kg_allinone_drag_corner">Arrastra a esquina inferior dereita do reloxo para cambiar o tamaño</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (arredondado)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (cadrado)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Esta fonte non é compatible cos estilos de contorno</string>
+    <string name="kg_allinone_hollow_not_support_current_style">O estilo, o tamaño e o peso da fonte actual non son compatibles cos estilos de contorno</string>
+    <string name="kg_allinone_hollow_style_both">Horas e minutos: perfilado</string>
+    <string name="kg_allinone_hollow_style_hour">Horas: perfilado. Minutos: sólido.</string>
+    <string name="kg_allinone_hollow_style_minute">Horas: sólido. Minutos: perfilado.</string>
+    <string name="kg_allinone_hollow_style_none">Horas e minutos: sólido</string>
+    <string name="kg_allinone_hollow_style_title">Estilo de contorno</string>
+    <string name="kg_allinone_transparency_name">Transparencia do reloxo</string>
+    <string name="kg_allinone_transparency_title">Transparencia</string>
+    <string name="kg_allinone_weight_title">Peso da fonte</string>
     <string name="kg_aod_settings_depth_video_toast">Só se admite a Pantalla sempre acendida personalizada ao utilizar o efecto de profundidade</string>
     <string name="kg_apply">Aplicar</string>
     <string name="kg_apply_dialog_desktop_preview">Vista previa da pantalla de inicio</string>
@@ -330,9 +363,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">Claridade</string>
     <string name="kg_color_value_editor_saturation">Saturación</string>
     <string name="kg_color_value_editor_title">Editar cor</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Aceptar</string>
     <string name="kg_continue_editing">Continuar editando</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Personalizar</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Eliminar este conxunto?</string>
     <string name="kg_delete_this_collocation_desc">Os axustes da Pantalla de bloqueo e da Pantalla de inicio deste conxunto eliminaranse. Eliminar conxunto agora?</string>
     <string name="kg_depth_preset_button_download">Descargar fondo de pantalla dinámico</string>
@@ -413,6 +450,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">Entendido</string>
     <string name="kg_effects_tip_desc">O efecto de profundidade de campo non se pode combinar con filtros. Usar un deles substituirá ao outro.</string>
     <string name="kg_effects_tip_not_support">Non é posible aplicar os efectos aos fondos dinámicos</string>
+    <string name="kg_effects_tip_not_support_glass_filter">O reloxo de vidro non admite efectos</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Os fondos de pantalla de terceiros non son compatibles con efectos</string>
     <string name="kg_effects_tip_title">Profundidade de campo e filtros</string>
     <string name="kg_enable_blur">Efecto mate</string>
@@ -437,6 +475,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">Branco</string>
     <string name="kg_font_filter_doodle_primary_label">Borrancho</string>
     <string name="kg_font_filter_doodle_secondary_label">Fondo</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Desenfoque e mestura</string>
+    <string name="kg_font_filter_group_label_glass">Vidro</string>
     <string name="kg_font_filter_group_label_glow">Brillo</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradiente</string>
     <string name="kg_font_filter_group_label_obscure">Mesturar</string>
@@ -530,6 +570,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">Groso</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Contorno</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Seleccionar de novo</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Grosa serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Pincel</string>
@@ -579,15 +621,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">Fondo de pantalla, seleccionar dende a biblioteca</string>
     <string name="kg_talkback_select_all">Seleccionar todo</string>
     <string name="kg_talkback_selected">Seleccionado</string>
+    <string name="kg_talkback_slide_up_or_down">Esvara cara arriba ou cara abaixo para axustar</string>
     <string name="kg_talkback_unselect_all">Desmarcar todo</string>
     <string name="kg_template_description_car">Onde a tecnoloxía se xunta coa beleza: captura a velocidade do futuro con cada desbloqueo.</string>
     <string name="kg_template_description_classic">O que é clásico nunca pasa de moda.</string>
     <string name="kg_template_description_eastern_art">Amosa unha interpretación contemporánea de elementos orientais empregando a simetría cruzada clásica, o deseño vertical distintivo e a expresión caligráfica</string>
     <string name="kg_template_description_magazine">Converte a túa pantalla de bloqueo nunha portada de revista.</string>
+    <string name="kg_template_description_magazine_natural">Un estilo de reloxo que combina paisaxes naturais con imaxes superpostas para obter un aspecto refinado e expresivo</string>
     <string name="kg_template_description_rhombus">O tempo é importante. Aprovéitao.</string>
     <string name="kg_template_preview_content_description">Vista previa</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Reloxo grande A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Reloxo grande B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Reloxo grande C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Reloxo grande D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Clásico</string>
     <string name="kg_template_title_classic_max_talkback">Pantalla de bloqueo clásica MAX</string>
@@ -607,6 +653,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Revista B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Revista C, perfilada</string>
     <string name="kg_template_title_magazine_c_three_talkback">Revista C, con liña tripla</string>
+    <string name="kg_template_title_magazine_natural">Imaxes da natureza</string>
     <string name="kg_template_title_magazine_phone">Persoas</string>
     <string name="kg_template_title_mine">Bloquear pantalla</string>
     <string name="kg_template_title_mine_collocation">Os meus conxuntos</string>
@@ -747,6 +794,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Cambiar a media pantalla</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximizar</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimizar</string>
+    <string name="miuix_popup_show_description">Xanela emerxente</string>
     <string name="miuix_popup_window_default_title">Xanela emerxente</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Esvarar cara abaixo para actualizar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualizado correctamente</string>
@@ -803,6 +851,7 @@ mm"</string>
     <string name="morning">Mañá</string>
     <string name="my_style_title">O meu tema</string>
     <string name="night">Tardiña</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Mediodía</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Pulso (vermello)</string>
@@ -838,6 +887,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Período activo: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Programado</string>
     <string name="scheduled_style_summary">Axustar tempo personalizado</string>
     <string name="scope_des">Cada calidoscopio contén 5 patróns diferentes que se amosarán en turnos de cada vez que a pantalla acéndese.</string>
@@ -846,6 +896,7 @@ mm"</string>
     <string name="select_notification_animation_style">Seleccionar efecto especial</string>
     <string name="select_notification_notify_style">Seleccionar efecto da notificación</string>
     <string name="send">Enviar</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Desactivado</string>
     <string name="settings_view_btn_check_on">Activado</string>
     <string name="settings_view_btn_stoped">Desactivado</string>
@@ -882,7 +933,7 @@ marabilloso vai ocorrer"</string>
     <string name="sunset_time_format">Posta de Sol %s</string>
     <string name="sunset_time_format_desc">Hora do solpor: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Invertir cores</string>
     <string name="temporary_style">Durante 10 segundos despois de tocar</string>
     <string name="temporary_style_5">Durante 5 segundos despois de tocar</string>

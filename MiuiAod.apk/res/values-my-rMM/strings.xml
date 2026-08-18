@@ -37,6 +37,9 @@
     <string name="aod_app_name">အမြဲပြသမျက်နှာပြင်နှင့် သော့ခတ်မျက်နှာပြင်အယ်ဒီတာ</string>
     <string name="aod_close_color_inversion">ဤအင်္ဂါရပ်သည် အရောင်ပြောင်းပြန်လှန်ခြင်းနှင့် တွဲသုံး၍ မရပါ။ အရောင်ပြောင်းပြန်လှန်ခြင်းကို ဦးစွာ ပိတ်ပါ။</string>
     <string name="aod_component">ပြသထားသော အိုင်တမ်များ</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">အခြားရွေးစရာများ</string>
     <string name="aod_gradient_1">အပြာနုနှင့် စိမ်းပြာ ရောင်စဉ်လှိုင်း</string>
     <string name="aod_gradient_10">ပန်းရောင်၊ လိမ္မော်နှင့် ခရမ်း ရောင်စဉ်လှိုင်း</string>
@@ -88,6 +91,7 @@ EE"</string>
     <string name="aod_resting_screen_define">စိတ်ကြိုက်</string>
     <string name="aod_resting_screen_same_to_lock">သော့ခတ်မျက်နှာပြင်နှင့်တူသည်</string>
     <string name="aod_resting_screen_style_title">သင်း(မ်)</string>
+    <string name="aod_setting_fold_full_aod_summary">ဤစတိုင်ကို အပြင်မျက်နှာပြင်၌သာ သုံးနိုင်သည်</string>
     <string name="aod_setting_pad_des2">နာရီအရောင်က နောက်ခံပုံအရောင်နှင့် လိုက်ဖက်ပါမည်</string>
     <string name="aod_show_date_and_time">ရက်စွဲနှင့် အချိန်ပြပါ</string>
     <string name="aod_show_mode_title_des_pad">အားသွင်းချိန် အမြဲပြရန်</string>
@@ -148,6 +152,10 @@ EE"</string>
     <string name="deep_space_planet_des">ဤအပြင်အဆင်သည် သင့်အနီးနားရှိ နေ့ဘက်အလင်းရောင်အပေါ်မူတည်ပြီး အရောင်ပြောင်းပါသည်။ ဤအပြင်အဆင်၏ နေထွက်ချိန်နှင့် နေဝင်ချိန်တို့ကို သင့်တည်နေရာနှင့် ချိတ်ထားပါသည်။</string>
     <string name="default_clock_style">အမည်မသိ ဒိုင်ယယ်</string>
     <string name="delete">ဖျက်ရန်</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">ဒစ်ဂျစ်တယ်</string>
     <string name="disable_aod_in_power_save_mode">ဓာတ်ခဲချွေတာစနစ် ဖွင့်ထားစဉ် ပိတ်ရန်</string>
     <string name="disable_aod_in_power_save_mode_summary">ဓာတ်ခဲချွေတာရန် ဟိုဟိုသည်သည်များ မဖော်ပြပါနှင့်</string>
@@ -248,6 +256,13 @@ EE"</string>
     <string name="health_chart_step_count_unit">ခြေလှမ်းများ</string>
     <string name="health_no_data">ကျန်းမာရေးဒေတာမရှိပါ</string>
     <string name="health_sleep_desc">အိပ်စက်ချိန် %1$s၊ အိပ်စက်မှုအရည်အသွေး - %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">အလျားလိုက်နာရီ</string>
     <string name="humidity_format">စိုထိုင်းဆ %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@ EE"</string>
     <string name="keyguard_shortcut_tab_right">ညာ</string>
     <string name="keyguard_shortcut_title">ရှော့ကတ်များ</string>
     <string name="kg_activity_label">သော့ခတ်မျက်နှာပြင်ကို ပြင်ရန်</string>
+    <string name="kg_allinone_drag_bottom">အရွယ်အမြင့်ပြောင်းရန် နာရီ၏ အောက်ဘက်ကို ဆွဲယူပါ</string>
+    <string name="kg_allinone_drag_corner">အရွယ်အစားပြောင်းရန် နာရီ၏ ညာအောက်ထောင့်ကို ဆွဲယူပါ</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (ဟေးတီ)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (အဝိုင်း)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (လေးထောင့်)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">ဤဖောင့်တွင် အောက်လိုင်းစတိုင်များ မပံ့ပိုးပါ</string>
+    <string name="kg_allinone_hollow_not_support_current_style">လက်ရှိဖောင့်စတိုင်၊ အရွယ်အစားနှင့် အထူးအပါးတွင် အောက်လိုင်းစတိုင် မပံ့ပိုးပါ</string>
+    <string name="kg_allinone_hollow_style_both">နာရီများနှင့် မိနစ်များ - အောက်မျဉ်းသား</string>
+    <string name="kg_allinone_hollow_style_hour">နာရီများ - အောက်မျဉ်းသား။ မိနစ်များ - အရောင်ပိတ်။</string>
+    <string name="kg_allinone_hollow_style_minute">နာရီများ - အရောင်ပိတ်။ မိနစ်များ - အောက်မျဉ်းသား။</string>
+    <string name="kg_allinone_hollow_style_none">နာရီများနှင့် မိနစ်များ - အရောင်ပိတ်</string>
+    <string name="kg_allinone_hollow_style_title">အောက်လိုင်းစတိုင်</string>
+    <string name="kg_allinone_transparency_name">နာရီအကြည်</string>
+    <string name="kg_allinone_transparency_title">အကြည်</string>
+    <string name="kg_allinone_weight_title">ဖောင့်အထူအပါး</string>
     <string name="kg_aod_settings_depth_video_toast">အတိမ်အနက် အထူးပြုလုပ်ချက်သုံးချိန် စိတ်ကြိုက် အမြဲပြသမျက်နှာပြင်သာ ပံ့ပိုးသည်</string>
     <string name="kg_apply">သုံးရန်</string>
     <string name="kg_apply_dialog_desktop_preview">ပင်မမျက်နှာပြင် အစမ်းကြည့်</string>
@@ -330,9 +362,13 @@ EE"</string>
     <string name="kg_color_value_editor_lightness">ဖျော့အား</string>
     <string name="kg_color_value_editor_saturation">တောက်ပမှုပြင်းအား</string>
     <string name="kg_color_value_editor_title">အရောင်ပြင်ရန်</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">အိုကေ</string>
     <string name="kg_continue_editing">ဆက်ပြင်ရန်</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">စိတ်ကြိုက်လုပ်ရန်</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">ဤအတွဲဆက်ကို ဖျက်လိုသလား။</string>
     <string name="kg_delete_this_collocation_desc">ဤအတွဲဆက်၏ သော့ခတ်မျက်နှာပြင်နှင့် ပင်မမျက်နှာပြင်ဆက်တင်ကို ဖျက်ပါမည်။ အတွဲဆက်ကို ယခုဖျက်လိုသလား။</string>
     <string name="kg_depth_preset_button_download">ဒိုင်းနမစ်နောက်ခံပုံ ဒေါင်းလုဒ်လုပ်ရန်</string>
@@ -413,6 +449,7 @@ EE"</string>
     <string name="kg_effects_tip_button">ရပါပြီ</string>
     <string name="kg_effects_tip_desc">ဖိ(ဒ်)အတိမ်အနက် အထူးပြုလုပ်ချက်ကို စစ်ထုတ်မှုများနှင့် ပေါင်းမရပါ။ တစ်ခုကိုသုံးလျှင် ကျန်တစ်ခုကို အစားထိုးလိုက်ပါမည်။</string>
     <string name="kg_effects_tip_not_support">ဒိုင်းနမိုက်နောက်ခံပုံများတွင် အထူးပြုလုပ်ချက်များသုံးမရပါ</string>
+    <string name="kg_effects_tip_not_support_glass_filter">ဖန်နာရီတွင် အထူးပြုလုပ်ချက်များ မပံ့ပိုးပါ</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">ပြင်ပပါတီနောက်ခံပုံများတွင် အထူးပြုလုပ်ချက်များ မပံ့ပိုးပါ</string>
     <string name="kg_effects_tip_title">ဖိ(ဒ်)အတိမ်အနက်နှင့် စစ်ထုတ်မှုများ</string>
     <string name="kg_enable_blur">အရောင်မွဲအထူးပြုလုပ်ချက်</string>
@@ -437,6 +474,8 @@ EE"</string>
     <string name="kg_font_filter_color_white">အဖြူ</string>
     <string name="kg_font_filter_doodle_primary_label">လက်ရေးခြစ်</string>
     <string name="kg_font_filter_doodle_secondary_label">နောက်ခံ</string>
+    <string name="kg_font_filter_group_label_BlurObscure">အဝါးနှင့် ရောစပ်</string>
+    <string name="kg_font_filter_group_label_glass">ဖန်</string>
     <string name="kg_font_filter_group_label_glow">တောက်ပ</string>
     <string name="kg_font_filter_group_label_gradient_blur">ရောင်စဉ်လှိုင်း</string>
     <string name="kg_font_filter_group_label_obscure">ရောစပ်</string>
@@ -530,6 +569,8 @@ EE"</string>
     <string name="kg_oversize_clock_type_bold">အထူ</string>
     <string name="kg_oversize_clock_type_serif_font">ဆာရစ်</string>
     <string name="kg_oversize_clock_type_stroke">ကောက်ကြောင်း</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">ပြန်ရွေးရန်</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">ဆာရစ်အထူ</string>
     <string name="kg_rhombus_clock_type_brush_font">စုတ်တံ</string>
@@ -579,15 +620,19 @@ EE"</string>
     <string name="kg_talkback_pick_wallpaper">နောက်ခံပုံ၊ လိုင်ဘရီမှရွေးရန်</string>
     <string name="kg_talkback_select_all">အားလုံးရွေးရန်</string>
     <string name="kg_talkback_selected">ရွေးထားသည်</string>
+    <string name="kg_talkback_slide_up_or_down">ချိန်ရန် အပေါ်အောက်ပွတ်ဆွဲပါ</string>
     <string name="kg_talkback_unselect_all">အားလုံးဖြုတ်ရန်</string>
     <string name="kg_template_description_car">နည်းပညာနှင့် အလှတရားတို့ ဆုံစည်းရာ - အနာဂတ်နှုန်းကို ဘက်ပေါင်းစုံသော့ဖွင့်ပြီး ဖမ်းယူပါ။</string>
     <string name="kg_template_description_classic">ဂန္ထဝင်သည် ဘယ်တော့မျှမရိုးသွားပါ။</string>
     <string name="kg_template_description_eastern_art">အရှေ့တိုင်းဗေဒ ခေတ်ပြိုင်ဘာသာပြန်များကို ဂန္ထဝင်အချိုးအစား၊ ထင်ရှားသောဒေါင်လိုက်အပြင်အဆင်နှင့် လက်ရေးလှတို့ကိုသုံးပြီး ပြသခြင်း</string>
     <string name="kg_template_description_magazine">သော့ခတ်မျက်နှာပြင်ကို မဂ္ဂဇင်းမျက်နှာဖုံးသို့ ပြောင်းရန်။</string>
+    <string name="kg_template_description_magazine_natural">သန့်စင်ပေါ်လွင်သော အသွင်အပြင်အတွက် သဘာဝရှုခင်းများနှင့် လိုက်ဖက်သည့် ပုံရိပ်လွှာများပါဝင်သော နာရီစတိုင်</string>
     <string name="kg_template_description_rhombus">အချိန်ကအရေးကြီးသည်။ ၎င်းကိုထည့်တွက်ပါ။</string>
     <string name="kg_template_preview_content_description">အစမ်းကြည့်</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">နာရီအကြီး A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">နာရီအကြီး B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">နာရီအကြီး C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">နာရီအကြီး D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">ဂန္ထဝင်</string>
     <string name="kg_template_title_classic_max_talkback">ဂန္ထဝင်သော့ခတ်မျက်နှာပြင် MAX</string>
@@ -607,6 +652,7 @@ EE"</string>
     <string name="kg_template_title_magazine_b_talkback">မဂ္ဂဇင်း B</string>
     <string name="kg_template_title_magazine_c_one_talkback">မဂ္ဂဇင်း C၊ အောက်လိုင်း</string>
     <string name="kg_template_title_magazine_c_three_talkback">မဂ္ဂဇင်း C၊ သုံးလိုင်း</string>
+    <string name="kg_template_title_magazine_natural">သဘာဝပုံရိပ်များ</string>
     <string name="kg_template_title_magazine_phone">လူများ</string>
     <string name="kg_template_title_mine">မျက်နှာပြင် သော့ခတ်ရန်</string>
     <string name="kg_template_title_mine_collocation">ကျွန်ုပ်၏အတွဲဆက်များ</string>
@@ -706,7 +752,7 @@ M"</string>
     <string name="miui_rhombus_clock_date">MMMM dd</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">M/d</string>
+    <string name="miui_smart_frame_clock_date">d/M</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">မျက်နှာပြင်ထက်ဝက်သို့ ပြောင်းရန်</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">ချဲ့ရန်</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">ချုံ့ရန်</string>
+    <string name="miuix_popup_show_description">ပေါ်တက်အကွက်</string>
     <string name="miuix_popup_window_default_title">ပေါ်တက်အကွက်</string>
     <string name="miuix_progressbar_loading">ဖိတ်ဆိုခြင်း</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ပြန်ဖွင့်ရန် အောက်သို့ဆွဲချပါ</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">နံနက်</string>
     <string name="my_style_title">ကျွန်ုပ်၏ အပြင်အဆင်များ</string>
     <string name="night">ညနေ</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">မွန်းတည့်</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">လိုင်း (အနီ)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">အသုံးပြုကာလ - %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">သတ်မှတ်ထားသော အချိန်အလိုက်</string>
     <string name="scheduled_style_summary">စိတ်ကြိုက်အချိန် သတ်မှတ်ပါ</string>
     <string name="scope_des">ရောင်စုံမှန်ပြောင်းတိုင်းတွင် ပုံစံကွဲ ၅ ခု ပါရှိပြီး မျက်နှာပြင် ဖွင့်ချိန်တိုင်း အလှည့်ကျ ပြသသည်။</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">အထူးပြုလုပ်ချက်ရွေးရန်</string>
     <string name="select_notification_notify_style">အသိပေးချက်အထူးပြုလုပ်ချက်ရွေးပါ</string>
     <string name="send">ပို့ပါ</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">ပိတ်ရန်</string>
     <string name="settings_view_btn_check_on">ဖွင့်ရန်</string>
     <string name="settings_view_btn_stoped">ပိတ်ထားသည်</string>
@@ -884,7 +934,7 @@ mm"</string>
     <string name="sunset_time_format">နေဝင်ချိန် %s</string>
     <string name="sunset_time_format_desc">နေဝင်ချိန် - %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">နောက်ပြန် အရောင်</string>
     <string name="temporary_style">မျက်နှာပြင်အား ထိနှိပ်ပြီးနောက် ၁၀ စက္ကန့် လင်းမည်</string>
     <string name="temporary_style_5">တို့ပြီး ၅ စက္ကန့်ခန့်</string>

@@ -64,6 +64,9 @@
     <string name="aod_app_name">Aina päällä oleva näyttö ja lukitusnäytön editori</string>
     <string name="aod_close_color_inversion">Tätä toimintoa ei voi yhdistää käänteisiin väreihin. Poista käänteiset värit ensin käytöstä.</string>
     <string name="aod_component">Esillä olevat kohteet</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Lisää vaihtoehtoja</string>
     <string name="aod_gradient_1">Vaaleansininen ja sinivihreä liukuväri</string>
     <string name="aod_gradient_10">Vaaleanpunainen, oranssi ja violetti liukuväri</string>
@@ -115,6 +118,7 @@ d.M"</string>
     <string name="aod_resting_screen_define">Mukautettu</string>
     <string name="aod_resting_screen_same_to_lock">Sama kuin lukitusnäyttö</string>
     <string name="aod_resting_screen_style_title">Teema</string>
+    <string name="aod_setting_fold_full_aod_summary">Tätä tyyliä voi käyttää vain ulkoisessa näytössä</string>
     <string name="aod_setting_pad_des2">Kellon väri vastaa taustakuvasi väriä</string>
     <string name="aod_show_date_and_time">Näytä päivä ja aika</string>
     <string name="aod_show_mode_title_des_pad">Näytä aina latauksen aikana</string>
@@ -139,6 +143,8 @@ d.M"</string>
     <string name="bottomsheet_drag_handle_clicked">Vetokahvaa kaksoisnapautettu</string>
     <string name="bottomsheet_drag_handle_content_description">Vetokahva</string>
     <string name="btn_know">Selvä</string>
+    <string name="calendar_date_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
+    <string name="calendar_date_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="call_notification_answer_action">Vastaa</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Hylkää</string>
@@ -186,6 +192,10 @@ d.M"</string>
     <string name="deep_space_planet_des">Tämä teema kuvastaa ympärilläsi päivän aikana tapahtuvia valomuutoksia. Auringonnousut ja -laskut synkronoidaan myös sijaintisi kanssa.</string>
     <string name="default_clock_style">Tuntematon kellotaulu</string>
     <string name="delete">Poista</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digitaalinen</string>
     <string name="disable_aod_in_power_save_mode">Sammuta, kun virransäästö on käytössä</string>
     <string name="disable_aod_in_power_save_mode_summary">Älä näytä kohteita virran säästämiseksi</string>
@@ -290,6 +300,13 @@ d.M"</string>
     <string name="health_chart_step_count_unit">Askeleet</string>
     <string name="health_no_data">Ei terveystietoja</string>
     <string name="health_sleep_desc">Unenkesto %1$s, unenlaatu: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Vaakasuora kello</string>
     <string name="humidity_format">Ilmankosteus %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ d.M"</string>
     <string name="keyguard_shortcut_tab_right">Oikea</string>
     <string name="keyguard_shortcut_title">Pikavalinnat</string>
     <string name="kg_activity_label">Muokkaa lukitusnäyttöä</string>
+    <string name="kg_allinone_drag_bottom">Säädä kellon korkeutta vetämällä kellon pohjaa</string>
+    <string name="kg_allinone_drag_corner">Muuta kokoa vetämällä kellon oikeaa alakulmaa</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (pyöristetty)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (neliö)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Tämä fontti ei tue ääriviivan tyylejä</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Nykyisen fontin tyyli, koko ja paino eivät tue ääriviivan tyylejä</string>
+    <string name="kg_allinone_hollow_style_both">Tunnit ja minuutit: Jäsennetty</string>
+    <string name="kg_allinone_hollow_style_hour">Tunnit: Jäsennetty. Minuutit: Yhtenäinen.</string>
+    <string name="kg_allinone_hollow_style_minute">Tunnit: Yhtenäinen. Minuutit: Jäsennetty.</string>
+    <string name="kg_allinone_hollow_style_none">Tunnit ja minuutit: Yhtenäinen</string>
+    <string name="kg_allinone_hollow_style_title">Ääriviivan tyyli</string>
+    <string name="kg_allinone_transparency_name">Kellon läpinäkyvyys</string>
+    <string name="kg_allinone_transparency_title">Läpinäkyvyys</string>
+    <string name="kg_allinone_weight_title">Fontin paino</string>
     <string name="kg_aod_settings_depth_video_toast">Vain mukautettua Aina päällä olevaa näyttöä tuetaan käytettäessä syvyystehostetta</string>
     <string name="kg_apply">Ota käyttöön</string>
     <string name="kg_apply_dialog_desktop_preview">Aloitusnäytön esikatselu</string>
@@ -374,9 +408,13 @@ d.M"</string>
     <string name="kg_color_value_editor_lightness">Valoisuus</string>
     <string name="kg_color_value_editor_saturation">Kylläisyys</string>
     <string name="kg_color_value_editor_title">Muokkaa väriä</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Jatka muokkaamista</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Muokkaa</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Poistetaanko tämä kokoelma?</string>
     <string name="kg_delete_this_collocation_desc">Tämän kokoelman lukitusnäytön ja aloitusnäytön asetukset poistetaan. Poistetaanko kokoelma nyt?</string>
     <string name="kg_depth_preset_button_download">Lataa dynaaminen taustakuva</string>
@@ -457,6 +495,7 @@ d.M"</string>
     <string name="kg_effects_tip_button">Selvä</string>
     <string name="kg_effects_tip_desc">Syvyysterävyystehostetta ei voi yhdistää suodattimiin. Toisen käyttö korvaa toisen.</string>
     <string name="kg_effects_tip_not_support">Tehosteita ei voi käyttää dynaamisiin taustakuviin</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Lasikello ei tue tehosteita</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Kolmannen osapuolen taustakuvat eivät tue tehosteita</string>
     <string name="kg_effects_tip_title">Syvyysterävyys ja suodattimet</string>
     <string name="kg_enable_blur">Mattavaikutus</string>
@@ -481,6 +520,8 @@ d.M"</string>
     <string name="kg_font_filter_color_white">Valkoinen</string>
     <string name="kg_font_filter_doodle_primary_label">Piirustus</string>
     <string name="kg_font_filter_doodle_secondary_label">Tausta</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Sumenna ja sekoita</string>
+    <string name="kg_font_filter_group_label_glass">Lasi</string>
     <string name="kg_font_filter_group_label_glow">Hehku</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradientti</string>
     <string name="kg_font_filter_group_label_obscure">Sekoitus</string>
@@ -574,6 +615,8 @@ d.M"</string>
     <string name="kg_oversize_clock_type_bold">Lihavoitu</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Ääriviiva</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Valitse uudelleen</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Lihavoitu serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Sivellin</string>
@@ -623,15 +666,19 @@ d.M"</string>
     <string name="kg_talkback_pick_wallpaper">Taustakuva, valitse kirjastosta</string>
     <string name="kg_talkback_select_all">Valitse kaikki</string>
     <string name="kg_talkback_selected">Valittu</string>
+    <string name="kg_talkback_slide_up_or_down">Säädä pyyhkäisemällä ylös tai alas</string>
     <string name="kg_talkback_unselect_all">Kumoa kaikkien valinta</string>
     <string name="kg_template_description_car">Missä teknologia kohtaa kauneuden: vangitse tulevaisuuden nopeus jokaisella avauksella.</string>
     <string name="kg_template_description_classic">Klassinen ei koskaan mene pois muodista.</string>
     <string name="kg_template_description_eastern_art">Esittelee itämaisten elementtien modernia tulkintaa käyttäen klassista ristisimmetriaa, tunnistettavaa pystysuoraa asettelua ja kalligrafista ilmaisua</string>
     <string name="kg_template_description_magazine">Tee lukitusnäytöstäsi aikakausilehden kansi.</string>
+    <string name="kg_template_description_magazine_natural">Kellotyyli, jossa yhdistyvät luonnonmaisemat ja kerrostetut visuaaliset elementit ja joka luo hienostuneen ja ilmeikkään ulkoasun</string>
     <string name="kg_template_description_rhombus">Aika on tärkeä. Ota se huomioon.</string>
     <string name="kg_template_preview_content_description">Esikatselu</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Iso kello A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Iso kello B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Iso kello C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Iso kello D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klassinen</string>
     <string name="kg_template_title_classic_max_talkback">Klassinen lukitusnäyttö MAX</string>
@@ -651,6 +698,7 @@ d.M"</string>
     <string name="kg_template_title_magazine_b_talkback">Aikakausilehti B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Aikakausilehti C, hahmoteltu</string>
     <string name="kg_template_title_magazine_c_three_talkback">Aikakausilehti C, kolmiviivainen</string>
+    <string name="kg_template_title_magazine_natural">Luontokuvat</string>
     <string name="kg_template_title_magazine_phone">Ihmiset</string>
     <string name="kg_template_title_mine">Lukitse näyttö</string>
     <string name="kg_template_title_mine_collocation">Omat kokoelmat</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Vaihda puolinäyttöön</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Suurenna</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimoi</string>
+    <string name="miuix_popup_show_description">Ponnahdusikkuna</string>
     <string name="miuix_popup_window_default_title">Ponnahdusikkuna</string>
     <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Teemani</string>
     <string name="night">Ilta</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Keskipäivä</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Ei asetettu</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh.mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH.mm</string>
     <string name="scheduled_mode_msg">Aktiivinen aika: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Suunniteltu</string>
     <string name="scheduled_style_summary">Aseta mukautettu aika</string>
     <string name="scope_des">Jokainen kaleidoskooppi sisältää 5 erilaista kuviota, jotka näytetään vuorotellen joka kerta, kun näyttö aktivoituu.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">Valitse erikoistehoste</string>
     <string name="select_notification_notify_style">Valitse ilmoitusvaikutus</string>
     <string name="send">Lähetä</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Pois</string>
     <string name="settings_view_btn_check_on">Päällä</string>
     <string name="settings_view_btn_stoped">Poistettu käytöstä</string>
@@ -995,7 +1047,7 @@ upeaa tapahtuu"</string>
     <string name="sunset_time_format">Auringonlasku %s</string>
     <string name="sunset_time_format_desc">Auringonlaskun aika: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-d.M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Käännä värit</string>
     <string name="temporary_style">10 sekunnin ajan napautuksen jälkeen</string>
     <string name="temporary_style_5">5 sekunnin ajan napautuksen jälkeen</string>

@@ -37,6 +37,9 @@
     <string name="aod_app_name">सधैं चालू स्क्रिन र लक स्क्रिन सम्पादक</string>
     <string name="aod_close_color_inversion">यस सुविधा लाई कलर इनवर्जनसंग जोड्न सकिँदैन। पहिले कलर इनवर्जन बन्द गर्नुहोस्।</string>
     <string name="aod_component">टेखाइएको आइटमहरू</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">थप विकल्पहरू</string>
     <string name="aod_gradient_1">हल्का नीलो र निलो रङको ग्रेडियन्ट</string>
     <string name="aod_gradient_10">गुलाबी, सुन्तले र बैजनी ग्रेडियन्ट</string>
@@ -88,6 +91,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">चाहिए अनुसारको बनाउनुहोस्</string>
     <string name="aod_resting_screen_same_to_lock">लक स्क्रिन जस्तै</string>
     <string name="aod_resting_screen_style_title">थीम्स</string>
+    <string name="aod_setting_fold_full_aod_summary">यो शैली बाहिरको स्क्रिनमा मात्र प्रयोग गर्न सकिन्छ।</string>
     <string name="aod_setting_pad_des2">घडीको रङ तपाईंको वालपेपरसँग मिल्नेछ</string>
     <string name="aod_show_date_and_time">मिति र समय देखाउनुहोस्</string>
     <string name="aod_show_mode_title_des_pad">चार्ज गर्दा सधैं देखाउनुहोस्</string>
@@ -148,6 +152,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">यस थिमले तपाईंको वरिपरि दिनभरि भइरहेको प्रकाश परिवर्तनहरू झल्काउँछ। सनराइजहरू र सुर्यास्त पनि तपाईंको स्थानसंग सिंक गर्छ।</string>
     <string name="default_clock_style">अज्ञात डायल</string>
     <string name="delete">मेटाउनुहोस्</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">डिजिटल</string>
     <string name="disable_aod_in_power_save_mode">ब्याट्री सेभर अन हुँदा बन्द गर्नुहोस्</string>
     <string name="disable_aod_in_power_save_mode_summary">पावर सेभ गर्न वस्तुहरू प्रदर्शन नगर्नुहोस्</string>
@@ -248,6 +256,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">कदम</string>
     <string name="health_no_data">कुनै स्वास्थ्य डाटा छैन</string>
     <string name="health_sleep_desc">निन्द्रा अवधि %1$s, निद्राको गुणवत्ता: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">तेर्सो घडी</string>
     <string name="humidity_format">ह्युमिडिटी %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">दायाँ</string>
     <string name="keyguard_shortcut_title">सर्टकट</string>
     <string name="kg_activity_label">लक स्क्रिन सम्पादन गर्नुहोस्</string>
+    <string name="kg_allinone_drag_bottom">घडीको उचाइ समायोजन गर्न घडीको तलको भाग तान्नुहोस्</string>
+    <string name="kg_allinone_drag_corner">घडीको आकार परिवर्तन गर्न तलपट्टिको दायाँ कुना तान्नुहोस्</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">मिसान्स (हेइटी)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">मिसान्स (गोलाकार)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">मिसान्स (वर्गाकार)</string>
+    <string name="kg_allinone_font_type_MiSerif">सेरिफ</string>
+    <string name="kg_allinone_hollow_not_support_current_font">यो फन्टले रूपरेखाको शैलीहरू समर्थन गर्दैन</string>
+    <string name="kg_allinone_hollow_not_support_current_style">हालको फन्ट शैली, आकार र तौलले रूपरेखाको शैलीहरू समर्थन गर्दैन</string>
+    <string name="kg_allinone_hollow_style_both">घण्टा र मिनेट: रूपरेखा दिइएको</string>
+    <string name="kg_allinone_hollow_style_hour">घण्टा: रूपरेखा दिइएको। मिनेट: ठोस.</string>
+    <string name="kg_allinone_hollow_style_minute">घण्टा: ठोस। मिनेट: रूपरेखा दिइएको.</string>
+    <string name="kg_allinone_hollow_style_none">घण्टा र मिनेट: ठोस</string>
+    <string name="kg_allinone_hollow_style_title">रूपरेखाको शैली</string>
+    <string name="kg_allinone_transparency_name">घडीको पारदर्शीता</string>
+    <string name="kg_allinone_transparency_title">पारदर्शिता</string>
+    <string name="kg_allinone_weight_title">फन्टको तौल</string>
     <string name="kg_aod_settings_depth_video_toast">भिडियो डेप्थ इफेक्ट प्रयोग गर्दा मात्र सधैं चालू स्क्रिन समर्थित छ</string>
     <string name="kg_apply">लागू गर्नुहोस्</string>
     <string name="kg_apply_dialog_desktop_preview">होम स्क्रिन प्रिभ्यु</string>
@@ -330,9 +362,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">लाइटनेस</string>
     <string name="kg_color_value_editor_saturation">स्याचुरेसन</string>
     <string name="kg_color_value_editor_title">रङ सम्पादन गर्नुहोस्</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">ठिक छ</string>
     <string name="kg_continue_editing">सम्पादन जारी राख्नुहोस्</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">रूची अनुसार बनाउनुहोस्</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">यो सेट मेटाउनु हुन्छ?</string>
     <string name="kg_delete_this_collocation_desc">यो सेटको लक स्क्रिन र होम स्क्रिन सेटिंग्स मेटाइनेछन्। अहिले सेट मेटाउने हो?</string>
     <string name="kg_depth_preset_button_download">डायनामिक वालपेपर डाउनलोड गर्नुहोस्</string>
@@ -413,6 +449,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">बुझें</string>
     <string name="kg_effects_tip_desc">फिल्ड इफेक्टको गहिराईलाई फिल्टरसँग जोड्न सकिँदैन। ती मध्ये एउटा प्रयोग गर्दा अर्कोलाई प्रतिस्थापन गर्नेछ।</string>
     <string name="kg_effects_tip_not_support">गतिशील वालपेपरहरूमा प्रभावहरू लागू गर्न सकिँदैन</string>
+    <string name="kg_effects_tip_not_support_glass_filter">काँचको घडीले प्रभावहरूलाई समर्थन गर्दैन</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">तेस्रो-पक्ष वालपेपरले प्रभावहरूलाई समर्थन गर्दैन</string>
     <string name="kg_effects_tip_title">फिल्ड र फिल्टरहरूको गहिराइ</string>
     <string name="kg_enable_blur">म्याट प्रभाव</string>
@@ -437,6 +474,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">सेतो</string>
     <string name="kg_font_filter_doodle_primary_label">डुडल</string>
     <string name="kg_font_filter_doodle_secondary_label">पृष्ठभूमि</string>
+    <string name="kg_font_filter_group_label_BlurObscure">अस्पष्ट र समिश्रण गर्नुहोस्</string>
+    <string name="kg_font_filter_group_label_glass">काँच</string>
     <string name="kg_font_filter_group_label_glow">चमक</string>
     <string name="kg_font_filter_group_label_gradient_blur">ग्रेडिएन्ट</string>
     <string name="kg_font_filter_group_label_obscure">ब्लेन्ड</string>
@@ -530,6 +569,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">बोल्ड</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">आउटलाइन</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">फेरि चयन गर्नुहोस्</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Bold serif</string>
     <string name="kg_rhombus_clock_type_brush_font">ब्रस</string>
@@ -579,15 +620,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">वालपेपर, पुस्तकालयबाट चयन गर्नुहोस्</string>
     <string name="kg_talkback_select_all">सबै चयन गर्नुहोस्</string>
     <string name="kg_talkback_selected">चयन गरिएको</string>
+    <string name="kg_talkback_slide_up_or_down">समायोजन गर्न माथि वा तल स्वाइप गर्नुहोस्</string>
     <string name="kg_talkback_unselect_all">सबै चयन रद्द गर्नुहोस्</string>
     <string name="kg_template_description_car">जहाँ प्रविधिले सुन्दरतालाई भेट्छ: प्रत्येक अनलकको साथ भविष्यको गति कैद गर्नुहोस्।</string>
     <string name="kg_template_description_classic">के क्लासिक हो कहिल्यै शैली बाहिर जाँदैन।</string>
     <string name="kg_template_description_eastern_art">शास्त्रीय क्रस-सममिति, विशिष्ट ठाडो लेआउट, र सुलेख अभिव्यक्ति प्रयोग गरेर पूर्वी तत्वहरूको समकालीन व्याख्या प्रदर्शन गर्दैछ</string>
     <string name="kg_template_description_magazine">आफ्नो लक स्क्रिनलाई पत्रिकाको आवरणमा बदल्नुहोस्।</string>
+    <string name="kg_template_description_magazine_natural">परिष्कृत, अभिव्यक्त लुकको लागि स्तरित दृश्यहरूसँग प्राकृतिक परिदृश्यहरू जोड्ने घडी शैली</string>
     <string name="kg_template_description_rhombus">समय महत्त्वपूर्ण छ। यसलाई गणना गर्नुहोस्।</string>
     <string name="kg_template_preview_content_description">पूर्वावलोकन</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">ठूलो घडी A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">ठूलो घडी B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">ठूलो घडी C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">ठूलो घडी D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">क्लासिक</string>
     <string name="kg_template_title_classic_max_talkback">क्लासिक लक स्क्रिन MAX</string>
@@ -607,6 +652,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">पत्रिका B</string>
     <string name="kg_template_title_magazine_c_one_talkback">पत्रिका C, रेखाङ्कित</string>
     <string name="kg_template_title_magazine_c_three_talkback">पत्रिका C, तीन रेखा भएको</string>
+    <string name="kg_template_title_magazine_natural">प्रकृति दृश्यहरू</string>
     <string name="kg_template_title_magazine_phone">मानिस</string>
     <string name="kg_template_title_mine">स्क्रिन बन्द गर्नुहोस्</string>
     <string name="kg_template_title_mine_collocation">मेरो सेट</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">आधा स्क्रिनमा स्विच गर्नुहोस्</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">बढाउनुहोस्</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">कम गर्नुहोस्</string>
+    <string name="miuix_popup_show_description">पप-अप विन्डो</string>
     <string name="miuix_popup_window_default_title">पप-अप विन्डो</string>
     <string name="miuix_progressbar_loading">लोडिङ हुनुहुन्छ</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ताजा गर्नको लागि तल तान्नुहोस्</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">बिहान</string>
     <string name="my_style_title">मेरा थीमहरू</string>
     <string name="night">साँझ</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">मध्य दिन</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">पल्स (रातो)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">सक्रिय अवधि: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">निर्धारित गरियो</string>
     <string name="scheduled_style_summary">अनुकुल समय सेट गर्नुहोस्</string>
     <string name="scope_des">प्रत्येक क्यालिडोस्कोपमा 5 बिभिन्न नमूनाहरू हुन्छन् जुन प्रत्येक पटक स्क्रिन उज्यालो हुँदा देखा पर्नेछ।</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">विशेष प्रभाव चयन गर्नुहोस्</string>
     <string name="select_notification_notify_style">सूचना प्रभाव चयन गर्नुहोस्</string>
     <string name="send">पठाउनुहोस्</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">अफ गर्नुहोस्</string>
     <string name="settings_view_btn_check_on">अन गर्नुहोस्</string>
     <string name="settings_view_btn_stoped">अफ गरेियो</string>
@@ -884,7 +934,7 @@ mm"</string>
     <string name="sunset_time_format">%s मा घाम अस्ताउने</string>
     <string name="sunset_time_format_desc">घाम अस्ताउने समय: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">रंगहरू उल्टाउनुहोस्</string>
     <string name="temporary_style">ट्याप गरेपछि 10 सेकेन्डका लागि</string>
     <string name="temporary_style_5">ट्याप गरेपछि 5 सेकेन्डका लागि</string>

@@ -15,6 +15,7 @@
     <string name="add_custom_image">Жеке сурет</string>
     <string name="add_from_local">Суретті таңдаңыз</string>
     <string name="afternoon">Түстен кейін</string>
+    <string name="air_quality_index_abbreviation">АСИ</string>
     <string name="align_center_horizontally">Көлденеңінен ортаға тураланған</string>
     <string name="align_center_vertically">Тігінен ортаға тураланған</string>
     <string name="align_left_horizontally">Көлденеңінен сол жағалауымен тураланған</string>
@@ -37,6 +38,9 @@
     <string name="aod_app_name">Әрқашан қосулы экран және Бұғаттау экраны редакторы</string>
     <string name="aod_close_color_inversion">Бұл функция «Түсті инверсия» режимімен үйлеспейді. Алдымен оны өшіріңіз.</string>
     <string name="aod_component">Көрсетілген элементтер</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Қосымша баптаулар</string>
     <string name="aod_gradient_1">Ашық көк және көкшіл градиент</string>
     <string name="aod_gradient_10">Қызғылт, қызғылт сары және күлгін градиент</string>
@@ -88,6 +92,7 @@ dd.MM"</string>
     <string name="aod_resting_screen_define">Айрықша</string>
     <string name="aod_resting_screen_same_to_lock">Бұғаттау экранына сай</string>
     <string name="aod_resting_screen_style_title">Тақырып</string>
+    <string name="aod_setting_fold_full_aod_summary">Бұл стильді тек сыртқы экранда пайдалануға болады</string>
     <string name="aod_setting_pad_des2">Сағаттың түсі тұсқағазыңыздың түсімен сәйкес келеді</string>
     <string name="aod_show_date_and_time">Күн мен уақытты көрсету</string>
     <string name="aod_show_mode_title_des_pad">Зарядтау кезінде әрқашан көрсету</string>
@@ -148,6 +153,10 @@ dd.MM"</string>
     <string name="deep_space_planet_des">Осы тақырып күн жарығының өзгеруін көрсетеді. Сонымен қатар күннің атуы мен батуы сіз тұратын жеріңізбен синхрондалады.</string>
     <string name="default_clock_style">Белгісіз циферблат</string>
     <string name="delete">Жою</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Сандық</string>
     <string name="disable_aod_in_power_save_mode">Батарея үнемдегіш қосылған кезде өшіру</string>
     <string name="disable_aod_in_power_save_mode_summary">Қуатты үнемдеу үшін элементтерді көрсетпеу</string>
@@ -248,6 +257,13 @@ dd.MM"</string>
     <string name="health_chart_step_count_unit">Қадамдар</string>
     <string name="health_no_data">Денсаулық деректері жоқ</string>
     <string name="health_sleep_desc">Ұйқы ұзақтығы %1$s, ұйқы сапасы: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Көлденең сағат</string>
     <string name="humidity_format">Ылғалдылық %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +274,23 @@ dd.MM"</string>
     <string name="keyguard_shortcut_tab_right">Оң</string>
     <string name="keyguard_shortcut_title">Таңбашалар</string>
     <string name="kg_activity_label">Бұғаттау экранын баптау</string>
+    <string name="kg_allinone_drag_bottom">Сағаттың биіктігін реттеу үшін оның төменгі жағын сүйреңіз</string>
+    <string name="kg_allinone_drag_corner">Сағаттың өлшемін өзгерту үшін төменгі оң жақ бұрышын сүйреңіз</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Дөңгелектелген)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Шаршы)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Бұл қаріп контур стильдерін қолдамайды</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Ағымдағы қаріп стилі, өлшемі және қалыңдығы контур стильдерін қолдамайды</string>
+    <string name="kg_allinone_hollow_style_both">Сағат және минут: Контур</string>
+    <string name="kg_allinone_hollow_style_hour">Сағат: Контур. Минут: Біріңғай.</string>
+    <string name="kg_allinone_hollow_style_minute">Сағат: Біріңғай. Минут: Контур.</string>
+    <string name="kg_allinone_hollow_style_none">Сағат және минут: Біріңғай</string>
+    <string name="kg_allinone_hollow_style_title">Контур стилі</string>
+    <string name="kg_allinone_transparency_name">Сағат мөлдірлігі</string>
+    <string name="kg_allinone_transparency_title">Мөлдірлік</string>
+    <string name="kg_allinone_weight_title">Қаріптің қалыңдығы</string>
     <string name="kg_aod_settings_depth_video_toast">Тереңдік әсерін тек бапталатын \"Әрқашан қосулы экран\" қолдайды</string>
     <string name="kg_apply">Қолдану</string>
     <string name="kg_apply_dialog_desktop_preview">Бастапқы экран көрінісі</string>
@@ -330,9 +363,13 @@ dd.MM"</string>
     <string name="kg_color_value_editor_lightness">Жарықтық</string>
     <string name="kg_color_value_editor_saturation">Қанықтық</string>
     <string name="kg_color_value_editor_title">Түсін өзгерту</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Өңдеуді жалғастыру</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Баптау</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Осы жинақ жойылсын ба?</string>
     <string name="kg_delete_this_collocation_desc">Бұл жинақтың Бұғаттау экраны және Басты экран параметрлері жойылады. Жиын қазір жойылсын ба?</string>
     <string name="kg_depth_preset_button_download">Динамикалық тұсқағазды жүктеу</string>
@@ -413,6 +450,7 @@ dd.MM"</string>
     <string name="kg_effects_tip_button">Түсінікті</string>
     <string name="kg_effects_tip_desc">Өріс тереңдігінің әсерін сүзгілермен біріктіру мүмкін емес. Олардың біреуін пайдалану екіншісін ауыстырады.</string>
     <string name="kg_effects_tip_not_support">Динамикалық тұсқағаздарға әсерлерді қолдану мүмкін емес</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Шыны сағат эффектілерді қолдамайды</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Үшінші тарап тұсқағаздары әсерлерді қолдамайды</string>
     <string name="kg_effects_tip_title">Өріс тереңдігі және сүзгілер</string>
     <string name="kg_enable_blur">Мат әсері</string>
@@ -437,6 +475,8 @@ dd.MM"</string>
     <string name="kg_font_filter_color_white">Ақ</string>
     <string name="kg_font_filter_doodle_primary_label">Нобай</string>
     <string name="kg_font_filter_doodle_secondary_label">Фон</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Бұлыңғырлау және араластыру</string>
+    <string name="kg_font_filter_group_label_glass">Әйнек</string>
     <string name="kg_font_filter_group_label_glow">Жарқыл</string>
     <string name="kg_font_filter_group_label_gradient_blur">Градиент</string>
     <string name="kg_font_filter_group_label_obscure">Аралас</string>
@@ -530,6 +570,8 @@ dd.MM"</string>
     <string name="kg_oversize_clock_type_bold">Қалың</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Контур</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Қайтадан таңдау</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Қалың serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Қылқалам</string>
@@ -579,15 +621,19 @@ dd.MM"</string>
     <string name="kg_talkback_pick_wallpaper">Түсқағаз, кітапханадан таңдаңыз</string>
     <string name="kg_talkback_select_all">Барлығын таңдау</string>
     <string name="kg_talkback_selected">Таңдалды</string>
+    <string name="kg_talkback_slide_up_or_down">Реттеу үшін саусақпен жоғары немесе төмен қарай жүргізіңіз</string>
     <string name="kg_talkback_unselect_all">Таңдауды алып тастау</string>
     <string name="kg_template_description_car">Технология сұлулықпен тоғысатын жерде: әрбір құлыпты ашу арқылы болашақтың жылдамдығын сезініңіз.</string>
     <string name="kg_template_description_classic">Классикалық нәрсе ешқашан сәнден кетпейді.</string>
     <string name="kg_template_description_eastern_art">Классикалық кросс-симметрия, ерекше тік жоспары және каллиграфиялық өрнек арқылы шығыс элементтерінің заманауи интерпретациясын көрсетілімі</string>
     <string name="kg_template_description_magazine">Бұғаттау экранын журнал мұқабасына айналдырыңыз.</string>
+    <string name="kg_template_description_magazine_natural">Нәзік, мәнерлі көрініс үшін табиғи ландшафттарды көп қабатты визуалды элементтермен үйлестіретін сағат стилі</string>
     <string name="kg_template_description_rhombus">Уақыт маңызды. Оны мағыналы етіңіз.</string>
     <string name="kg_template_preview_content_description">Алдын ала көру</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">A үлкен сағаты</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">B үлкен сағаты</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Үлкен сағат C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Үлкен сағат D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Классикалық</string>
     <string name="kg_template_title_classic_max_talkback">Классикалық Бұғаттау экраны MAX</string>
@@ -607,6 +653,7 @@ dd.MM"</string>
     <string name="kg_template_title_magazine_b_talkback">B журналы</string>
     <string name="kg_template_title_magazine_c_one_talkback">C журналы, сызылған</string>
     <string name="kg_template_title_magazine_c_three_talkback">C журналы, үш қатарлы</string>
+    <string name="kg_template_title_magazine_natural">Табиғат көріністері</string>
     <string name="kg_template_title_magazine_phone">Адамдар</string>
     <string name="kg_template_title_mine">Экранды бұғаттау</string>
     <string name="kg_template_title_mine_collocation">Менің жинақтарым</string>
@@ -747,6 +794,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Жарты экранға ауыстыру</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Үлкейту</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Кішірейту</string>
+    <string name="miuix_popup_show_description">Қалқымалы терезе</string>
     <string name="miuix_popup_window_default_title">Қалқымалы терезе</string>
     <string name="miuix_progressbar_loading">Жүктелуде</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Жаңарту үшін төмен қарай тартыңыз</string>
@@ -805,6 +853,7 @@ mm"</string>
     <string name="morning">Таң</string>
     <string name="my_style_title">Менің тақырыбым</string>
     <string name="night">Кеш</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Күн ортасы</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Пульс (Қызыл)</string>
@@ -840,6 +889,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Белсенді кезең: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Кесте бойынша</string>
     <string name="scheduled_style_summary">Жеке уақытты орнатыңыз</string>
     <string name="scope_des">Әрбір калейдоскоптың ішінде 5 әр-түрлі өрнек бар, олар экран жанған сайын кезек бойынша көрсетіледі.</string>
@@ -848,6 +898,7 @@ mm"</string>
     <string name="select_notification_animation_style">Арнайы әсерді таңдаңыз</string>
     <string name="select_notification_notify_style">Ескертпе әсерін таңдаңыз</string>
     <string name="send">Жөнелту</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Өшіру</string>
     <string name="settings_view_btn_check_on">Қосу</string>
     <string name="settings_view_btn_stoped">Өшірілді</string>
@@ -883,8 +934,8 @@ mm"</string>
     <string name="sunrise_time_format_tomorrow_desc">Ертеңгі күн шығу уақыты: %s</string>
     <string name="sunset_time_format">Күннің батуы %s</string>
     <string name="sunset_time_format_desc">Күн бату уақыты: %s</string>
-    <string name="super_wallpaper_date_inter">"dd.M
-EEEE"</string>
+    <string name="super_wallpaper_date_inter">"EEEE
+M/dd"</string>
     <string name="talkback_invert_color">Түстерді керілеу</string>
     <string name="temporary_style">Басқаннан соң 10 секундта</string>
     <string name="temporary_style_5">Басқаннан соң 5 секундта</string>
@@ -950,6 +1001,7 @@ EEEE"</string>
     <string name="tuesday">Сейсенбі</string>
     <string name="tuesday_short">Сс</string>
     <string name="tuesday_shortest">Сс</string>
+    <string name="ultraviolet_rays_abbreviation">УФИ</string>
     <string name="uvi_format">Ультракүлгін сәулелену %1$s %2$s</string>
     <string name="uvi_format_desc">Ультра-күлгін индексі: %1$s, %2$s</string>
     <string name="vertical_clock">Тік сағат</string>

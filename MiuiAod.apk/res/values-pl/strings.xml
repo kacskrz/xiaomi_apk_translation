@@ -64,6 +64,9 @@
     <string name="aod_app_name">Ekran zawsze włączony i edytor Ekranu blokady</string>
     <string name="aod_close_color_inversion">Funkcja nie może być łączona z inwersją kolorów. Najpierw wyłącz inwersję kolorów.</string>
     <string name="aod_component">Wyświetlone elementy</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Więcej opcji</string>
     <string name="aod_gradient_1">Jasnoniebiesko-turkusowy gradient</string>
     <string name="aod_gradient_10">Różowo-pomarańczowo-fioletowy gradient</string>
@@ -115,6 +118,7 @@ d/MM"</string>
     <string name="aod_resting_screen_define">Personalizuj</string>
     <string name="aod_resting_screen_same_to_lock">Taki sam jak ekran blokady</string>
     <string name="aod_resting_screen_style_title">Motyw</string>
+    <string name="aod_setting_fold_full_aod_summary">Ten styl może być używany wyłącznie na ekranie zewnętrznym</string>
     <string name="aod_setting_pad_des2">Kolor zegara dopasuje się do tapety</string>
     <string name="aod_show_date_and_time">Pokaż datę i godzinę</string>
     <string name="aod_show_mode_title_des_pad">Zawsze wyświetlaj podczas ładowania</string>
@@ -139,6 +143,8 @@ d/MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Dwukrotnie kliknięto uchwyt do przeciągania</string>
     <string name="bottomsheet_drag_handle_content_description">Uchwyt do przeciągania</string>
     <string name="btn_know">Rozumiem</string>
+    <string name="calendar_date_picker_a11y_next_month">Zmień na następny miesiąc</string>
+    <string name="calendar_date_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
     <string name="call_notification_answer_action">Odbierz</string>
     <string name="call_notification_answer_video_action">Wideo</string>
     <string name="call_notification_decline_action">Odrzuć</string>
@@ -186,6 +192,10 @@ d/MM"</string>
     <string name="deep_space_planet_des">Ten motyw odzwierciedla zmiany oświetlenia zachodzące wokół Ciebie w ciągu dnia. Wschody i zachody słońca są również zsynchronizowane z Twoją lokalizacją.</string>
     <string name="default_clock_style">Nieznana tarcza</string>
     <string name="delete">Usuń</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Cyfrowy</string>
     <string name="disable_aod_in_power_save_mode">Wyłącz, gdy włączone jest Oszczędzanie baterii</string>
     <string name="disable_aod_in_power_save_mode_summary">Nie wyświetlaj elementów, aby oszczędzić energię</string>
@@ -205,7 +215,7 @@ d/MM"</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">d MMMM yyyy</string>
+    <string name="fmt_date_long_year_month_day">d MMMM, yyyy</string>
     <string name="fmt_date_numeric_day">d</string>
     <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d.MM</string>
@@ -215,7 +225,7 @@ d/MM"</string>
     <string name="fmt_date_short_month">MMM</string>
     <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
+    <string name="fmt_date_short_year_month_day">d MMM, yyyy</string>
     <string name="fmt_date_time">D T</string>
     <string name="fmt_date_time_timezone">D T z</string>
     <string name="fmt_date_timezone">D z</string>
@@ -290,6 +300,13 @@ d/MM"</string>
     <string name="health_chart_step_count_unit">Kroki</string>
     <string name="health_no_data">Brak danych o zdrowiu</string>
     <string name="health_sleep_desc">Czas trwania snu: %1$s, jakość snu: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Zegar poziomy</string>
     <string name="humidity_format">Wilgotność: %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ d/MM"</string>
     <string name="keyguard_shortcut_tab_right">Prawo</string>
     <string name="keyguard_shortcut_title">Skróty</string>
     <string name="kg_activity_label">Edytuj Ekran blokady</string>
+    <string name="kg_allinone_drag_bottom">Przeciągnij dolną część zegara, aby dostosować jego wysokość</string>
+    <string name="kg_allinone_drag_corner">Przeciągnij prawy dolny róg zegara, aby zmienić jego rozmiar</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (zaokrąglona)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (kwadratowa)</string>
+    <string name="kg_allinone_font_type_MiSerif">Czcionka szeryfowa</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Ta czcionka nie obsługuje stylów konturu</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Obecny styl, rozmiar i grubość czcionki nie obsługują stylów konturu</string>
+    <string name="kg_allinone_hollow_style_both">Godziny i minuty: Kontur</string>
+    <string name="kg_allinone_hollow_style_hour">Godziny: Kontur. Minuty: Jednolity</string>
+    <string name="kg_allinone_hollow_style_minute">Godziny: Jednolity. Minuty: Kontur</string>
+    <string name="kg_allinone_hollow_style_none">Godziny i minuty: Jednolity</string>
+    <string name="kg_allinone_hollow_style_title">Styl konturu</string>
+    <string name="kg_allinone_transparency_name">Przezroczystość zegara</string>
+    <string name="kg_allinone_transparency_title">Przezroczystość</string>
+    <string name="kg_allinone_weight_title">Grubość czcionki</string>
     <string name="kg_aod_settings_depth_video_toast">Podczas korzystania z efektu głębi można używać jedynie niestandardowego Ekranu zawsze włączonego.</string>
     <string name="kg_apply">Zastosuj</string>
     <string name="kg_apply_dialog_desktop_preview">Podgląd ekranu głównego</string>
@@ -374,9 +408,13 @@ d/MM"</string>
     <string name="kg_color_value_editor_lightness">Jasność</string>
     <string name="kg_color_value_editor_saturation">Nasycenie</string>
     <string name="kg_color_value_editor_title">Edytuj kolor</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Kontynuuj edycję</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Dostosuj</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Usunąć zestaw?</string>
     <string name="kg_delete_this_collocation_desc">Zestaw ustawień Ekranu blokady i Ekranu głównego zostanie usunięty. Usunąć?</string>
     <string name="kg_depth_preset_button_download">Pobierz tapetę dynamiczną</string>
@@ -457,6 +495,7 @@ d/MM"</string>
     <string name="kg_effects_tip_button">Rozumiem</string>
     <string name="kg_effects_tip_desc">Efektu głębi ostrości nie można łączyć z filtrami. Użycie jednego z nich spowoduje zastąpienie drugiego.</string>
     <string name="kg_effects_tip_not_support">Nie można zastosować efektów do dynamicznych tapet</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Szklany zegar nie obsługuje efektów</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Tapety firm zewnętrznych nie obsługują efektów</string>
     <string name="kg_effects_tip_title">Głębia ostrości i filtry</string>
     <string name="kg_enable_blur">Efekt matujący</string>
@@ -481,6 +520,8 @@ d/MM"</string>
     <string name="kg_font_filter_color_white">Biały</string>
     <string name="kg_font_filter_doodle_primary_label">Gryzmoły</string>
     <string name="kg_font_filter_doodle_secondary_label">Tło</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Rozmycie i łączenie</string>
+    <string name="kg_font_filter_group_label_glass">Szkło</string>
     <string name="kg_font_filter_group_label_glow">Poświata</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradient</string>
     <string name="kg_font_filter_group_label_obscure">Mieszanka</string>
@@ -574,6 +615,8 @@ d/MM"</string>
     <string name="kg_oversize_clock_type_bold">Pogrubienie</string>
     <string name="kg_oversize_clock_type_serif_font">Czcionka szeryfowa</string>
     <string name="kg_oversize_clock_type_stroke">Kontur</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Wybierz ponownie</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Pogrubienie, czcionka szeryfowa</string>
     <string name="kg_rhombus_clock_type_brush_font">Pędzel</string>
@@ -623,15 +666,19 @@ d/MM"</string>
     <string name="kg_talkback_pick_wallpaper">Tapeta, wybierz z biblioteki</string>
     <string name="kg_talkback_select_all">Zaznacz wszystko</string>
     <string name="kg_talkback_selected">Wybrano</string>
+    <string name="kg_talkback_slide_up_or_down">Przesuń w górę lub w dół, aby dostosować</string>
     <string name="kg_talkback_unselect_all">Odznacz wszystko</string>
     <string name="kg_template_description_car">Tam, gdzie technologia spotyka się z pięknem: doświadcz prędkość przyszłości przy każdym odblokowaniu</string>
     <string name="kg_template_description_classic">Klasyka nigdy nie wychodzi z mody.</string>
     <string name="kg_template_description_eastern_art">Współczesna interpretacja wschodnich motywów wykorzystująca klasyczną symetrię krzyżową, charakterystyczny układ pionowy i kaligraficzną ekspresję</string>
     <string name="kg_template_description_magazine">Zmień swój ekran blokady w okładkę magazynu.</string>
+    <string name="kg_template_description_magazine_natural">Styl zegara, który łączy naturę z wielowarstwowymi efektami wizualnymi, tworząc wyrafinowany i wyrazisty wygląd</string>
     <string name="kg_template_description_rhombus">Czas jest ważny. Spraw, aby to się liczyło.</string>
     <string name="kg_template_preview_content_description">Podgląd</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Duży zegar A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Duży zegar B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Duży zegar C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Duży zegar D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klasyczny</string>
     <string name="kg_template_title_classic_max_talkback">Klasyczny Ekran blokady MAX</string>
@@ -651,6 +698,7 @@ d/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Magazyn B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Magazyn C, kontur</string>
     <string name="kg_template_title_magazine_c_three_talkback">Magazyn C, trzy linie</string>
+    <string name="kg_template_title_magazine_natural">Motyw natury</string>
     <string name="kg_template_title_magazine_phone">Portrety</string>
     <string name="kg_template_title_mine">Ekran blokady</string>
     <string name="kg_template_title_mine_collocation">Moje zestawy</string>
@@ -763,7 +811,7 @@ MM"</string>
     <string name="miui_rhombus_clock_date">d MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d.M</string>
+    <string name="miui_smart_frame_clock_date">d.MM</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Przełącz na połowę ekranu</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Zmaksymalizuj</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Zminimalizuj</string>
+    <string name="miuix_popup_show_description">Wyskakujące okno</string>
     <string name="miuix_popup_window_default_title">Wyskakujące okno</string>
     <string name="miuix_progressbar_loading">Wczytywanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Przeciągnij w dół, aby odświeżyć</string>
@@ -821,40 +870,40 @@ mm"</string>
     <string name="monday">Poniedziałek</string>
     <string name="monday_short">Pon.</string>
     <string name="monday_shortest">Pon.</string>
-    <string name="month_april">Kwiecień</string>
+    <string name="month_april">kwietnia</string>
     <string name="month_april_short">Kwi.</string>
     <string name="month_april_shortest">Kwi.</string>
-    <string name="month_august">Sierpień</string>
+    <string name="month_august">sierpnia</string>
     <string name="month_august_short">Sier.</string>
     <string name="month_august_shortest">Sier.</string>
-    <string name="month_december">Grudzień</string>
+    <string name="month_december">grudnia</string>
     <string name="month_december_short">Gru.</string>
     <string name="month_december_shortest">Gru.</string>
-    <string name="month_february">Luty</string>
+    <string name="month_february">lutego</string>
     <string name="month_february_short">Lut.</string>
     <string name="month_february_shortest">Lut.</string>
-    <string name="month_january">Styczeń</string>
+    <string name="month_january">stycznia</string>
     <string name="month_january_short">Sty.</string>
     <string name="month_january_shortest">Sty.</string>
-    <string name="month_july">Lipiec</string>
+    <string name="month_july">lipca</string>
     <string name="month_july_short">Lip.</string>
     <string name="month_july_shortest">Lip.</string>
-    <string name="month_june">Czerwiec</string>
+    <string name="month_june">czerwca</string>
     <string name="month_june_short">Czer.</string>
     <string name="month_june_shortest">Czer.</string>
-    <string name="month_march">Marzec</string>
+    <string name="month_march">marca</string>
     <string name="month_march_short">Mar.</string>
     <string name="month_march_shortest">Mar.</string>
-    <string name="month_may">Maj</string>
+    <string name="month_may">maja</string>
     <string name="month_may_short">Maj.</string>
     <string name="month_may_shortest">Maj.</string>
-    <string name="month_november">Listopad</string>
+    <string name="month_november">listopada</string>
     <string name="month_november_short">Lis.</string>
     <string name="month_november_shortest">Lis.</string>
-    <string name="month_october">Październik</string>
+    <string name="month_october">października</string>
     <string name="month_october_short">Paź.</string>
     <string name="month_october_shortest">Paź.</string>
-    <string name="month_september">Wrzesień</string>
+    <string name="month_september">września</string>
     <string name="month_september_short">Wrz.</string>
     <string name="month_september_shortest">Wrz.</string>
     <string name="more">Więcej</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Mój motyw</string>
     <string name="night">Wieczór</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Południe</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Nie ustawiono</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Okres aktywności: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Zaplanowany</string>
     <string name="scheduled_style_summary">Ustaw niestandardowy czas</string>
     <string name="scope_des">Każdy kalejdoskop zawiera 5 różnych wzorów, które będą wyświetlane kolejno za każdym razem, gdy ekran się zaświeci.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">Wybierz efekt specjalny</string>
     <string name="select_notification_notify_style">Wybierz efekt powiadomienia</string>
     <string name="send">Wyślij</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Wył.</string>
     <string name="settings_view_btn_check_on">Wł.</string>
     <string name="settings_view_btn_stoped">Wyłączono</string>
@@ -995,7 +1047,7 @@ mm"</string>
     <string name="sunset_time_format">Zachód słońca: %s</string>
     <string name="sunset_time_format_desc">Zachód słońca: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-d.M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Odwróć kolory</string>
     <string name="temporary_style">Przez 10 sekund po dotknięciu</string>
     <string name="temporary_style_5">Przez 5 sekund po dotknięciu</string>

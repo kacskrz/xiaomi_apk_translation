@@ -37,6 +37,9 @@
     <string name="aod_app_name">Gjithmonë në ekran dhe Redaktuesi i ekranit kyçës</string>
     <string name="aod_close_color_inversion">Ky funksion nuk mund të kombinohet me ndryshimin e ngjyrave. Fik së pari ndryshimin e ngjyrave.</string>
     <string name="aod_component">Artikujt e shfaqur</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Më shumë opsione</string>
     <string name="aod_gradient_1">Gradient blu e lehtë dhe teal</string>
     <string name="aod_gradient_10">Gradient rozë, portokalli dhe vjollcë</string>
@@ -88,6 +91,7 @@ dd.MM"</string>
     <string name="aod_resting_screen_define">Personalizimi</string>
     <string name="aod_resting_screen_same_to_lock">Njësoj si ekrani kyçës</string>
     <string name="aod_resting_screen_style_title">Motivi</string>
+    <string name="aod_setting_fold_full_aod_summary">Ky stil mund të përdoret vetëm në ekranin e jashtëm</string>
     <string name="aod_setting_pad_des2">Ngjyra e orës do të përputhet me atë të sfondit tuaj</string>
     <string name="aod_show_date_and_time">Vendos datën dhe orën</string>
     <string name="aod_show_mode_title_des_pad">Shfaq gjithmonë kur karikohet</string>
@@ -148,6 +152,10 @@ dd.MM"</string>
     <string name="deep_space_planet_des">Kjo temë pasqyron ndryshimet e dritës që ndodhin rreth jush gjatë ditës. Dielli dhe perëndimi i diellit sinkronizohen gjithashtu me vendndodhjen tuaj.</string>
     <string name="default_clock_style">Thirrës i panjohur</string>
     <string name="delete">Fshije</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digjital</string>
     <string name="disable_aod_in_power_save_mode">Fikni kur Kursyes i baterisë shtë i ndezur</string>
     <string name="disable_aod_in_power_save_mode_summary">Mos shfaq artikuj për të kursyer energji</string>
@@ -248,6 +256,13 @@ dd.MM"</string>
     <string name="health_chart_step_count_unit">Hapat</string>
     <string name="health_no_data">Nuk ka të dhëna shëndetësore</string>
     <string name="health_sleep_desc">Kohëzgjatja e gjumit %1$s, cilësia e gjumit: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Ora horizontale</string>
     <string name="humidity_format">Lagështia %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@ dd.MM"</string>
     <string name="keyguard_shortcut_tab_right">Djathtas</string>
     <string name="keyguard_shortcut_title">Shkurtore</string>
     <string name="kg_activity_label">Redakto Ekrani kyçës</string>
+    <string name="kg_allinone_drag_bottom">Zvarrit pjesën e poshtme të orës për të rregulluar lartësinë e saj</string>
+    <string name="kg_allinone_drag_corner">Zvarrit këndin e poshtëm të djathtë të orës për të ndryshuar madhësinë</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Rounded)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Square)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Ky font nuk mbështet stilet e konturit</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Stili, madhësia dhe trashësia aktuale e shkronjave nuk mbështesin stilet e konturit</string>
+    <string name="kg_allinone_hollow_style_both">Orë dhe minuta: Të përcaktuara</string>
+    <string name="kg_allinone_hollow_style_hour">Orë: Të përcaktuara. Minuta: Të plota.</string>
+    <string name="kg_allinone_hollow_style_minute">Orë: Të plota. Minuta: Të përcaktuara</string>
+    <string name="kg_allinone_hollow_style_none">Orë dhe minuta: I plotë</string>
+    <string name="kg_allinone_hollow_style_title">Stili i konturit</string>
+    <string name="kg_allinone_transparency_name">Transparenca e orës</string>
+    <string name="kg_allinone_transparency_title">Transparencë</string>
+    <string name="kg_allinone_weight_title">Pesha e modelit te shkrimit</string>
     <string name="kg_aod_settings_depth_video_toast">Vetëm ekrani i personalizuar Gjithmonë në ekran mbështetet kur përdoret efekti i thellësisë</string>
     <string name="kg_apply">Apliko</string>
     <string name="kg_apply_dialog_desktop_preview">Shikime paraprak i Ekranit bazë</string>
@@ -330,9 +362,13 @@ dd.MM"</string>
     <string name="kg_color_value_editor_lightness">Drrite</string>
     <string name="kg_color_value_editor_saturation">Ngopje</string>
     <string name="kg_color_value_editor_title">Redakto ngjyrën</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Në rregull</string>
     <string name="kg_continue_editing">Vazhdo me redaktimin</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Përshtatje</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Do ta fshish këtë set?</string>
     <string name="kg_delete_this_collocation_desc">Cilësimet e ekranit të kyçjes dhe ekranit bazë të këtij seti do të fshihen. Të fshihet seti tani?</string>
     <string name="kg_depth_preset_button_download">Shkarkoni sfondin dinamik</string>
@@ -413,6 +449,7 @@ dd.MM"</string>
     <string name="kg_effects_tip_button">E kuptova</string>
     <string name="kg_effects_tip_desc">Efekti i thellësisë së fushës nuk mund të kombinohet me filtra. Përdorimi i njërit prej tyre do të zëvendësojë tjetrin.</string>
     <string name="kg_effects_tip_not_support">Nuk mund të aplikohen efekte në sfondet dinamike</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Ora prej qelqi nuk mbështet efektet</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Imazhet e sfondit të palëve të treta nuk mbështesin efektet</string>
     <string name="kg_effects_tip_title">Thellësia e fushës dhe filtrat</string>
     <string name="kg_enable_blur">Efekti mat</string>
@@ -437,6 +474,8 @@ dd.MM"</string>
     <string name="kg_font_filter_color_white">E bardhë</string>
     <string name="kg_font_filter_doodle_primary_label">Shkarravit</string>
     <string name="kg_font_filter_doodle_secondary_label">Sfondi</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Turbullojeni dhe përzieni</string>
+    <string name="kg_font_filter_group_label_glass">Xhami</string>
     <string name="kg_font_filter_group_label_glow">Ndriçuese</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradient</string>
     <string name="kg_font_filter_group_label_obscure">Përzierje</string>
@@ -530,6 +569,8 @@ dd.MM"</string>
     <string name="kg_oversize_clock_type_bold">I trashë</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Kontur</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Zgjidh përsëri</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif i trashë</string>
     <string name="kg_rhombus_clock_type_brush_font">Brush</string>
@@ -579,15 +620,19 @@ dd.MM"</string>
     <string name="kg_talkback_pick_wallpaper">Sfondi, zgjidni nga libraria</string>
     <string name="kg_talkback_select_all">Zgjidh të gjitha</string>
     <string name="kg_talkback_selected">Të zgjedhura</string>
+    <string name="kg_talkback_slide_up_or_down">Rrëshqit lart ose poshtë për të përshtatur</string>
     <string name="kg_talkback_unselect_all">"Ç'zgjidh të gjitha"</string>
     <string name="kg_template_description_car">Aty ku teknologjia takon bukurinë: kapni shpejtësinë e të ardhmes me çdo shkyçje.</string>
     <string name="kg_template_description_classic">Klasikja nuk del kurrë nga moda.</string>
     <string name="kg_template_description_eastern_art">Shfaqja e një interpretimi bashkëkohor të elementeve lindore duke përdorur simetri të kryqëzuar klasike, plan urbanistik të veçantë vertikal dhe shprehje kaligrafike</string>
     <string name="kg_template_description_magazine">Kthejeni ekranin tuaj të kyçjes në një kopertinë reviste.</string>
+    <string name="kg_template_description_magazine_natural">Një stil ore që kombinon peizazhet natyrore me pamje të shtresuara për një pamje të rafinuar dhe ekspresive</string>
     <string name="kg_template_description_rhombus">Koha është e rëndësishme. Bëje të vlefshme.</string>
     <string name="kg_template_preview_content_description">Shikim paraprak</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Orë e madhe A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Orë e madhe B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Ora e madhe C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Ora e madhe D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klasik</string>
     <string name="kg_template_title_classic_max_talkback">Klasik Ekrani kyçës MAX</string>
@@ -607,6 +652,7 @@ dd.MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Revista B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Revista C, e përvijuar</string>
     <string name="kg_template_title_magazine_c_three_talkback">Revista C, me rreshta të trefishta</string>
+    <string name="kg_template_title_magazine_natural">Pamje të natyrës</string>
     <string name="kg_template_title_magazine_phone">Njerëz</string>
     <string name="kg_template_title_mine">Kyç ekranin</string>
     <string name="kg_template_title_mine_collocation">Setet e mia</string>
@@ -706,7 +752,7 @@ MM"</string>
     <string name="miui_rhombus_clock_date">d MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d/M</string>
+    <string name="miui_smart_frame_clock_date">d.M</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Ndërro te Ekrani gjysmë</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimizo</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimizo</string>
+    <string name="miuix_popup_show_description">Dritarja njoftuese</string>
     <string name="miuix_popup_window_default_title">Dritarja njoftuese</string>
     <string name="miuix_progressbar_loading">Po ngarkohet</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tërhiq poshtë për të rifreskuar</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">Mëngjes</string>
     <string name="my_style_title">Motivi im</string>
     <string name="night">Mbrëmje</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Mesditë</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Pulsi (E kuqe)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Periudha aktive: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Planifikuar</string>
     <string name="scheduled_style_summary">Cakto kohën e personalizuar</string>
     <string name="scope_des">Çdo kaledioskop përmban 5 modele të ndryshme që do të shfaqen në kthim sa herë që ekrani ndriçon.</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">Përzgjidh efektin special</string>
     <string name="select_notification_notify_style">Zgjidh efektin e njoftimeve</string>
     <string name="send">Dërgo</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Fikur</string>
     <string name="settings_view_btn_check_on">Ndezur</string>
     <string name="settings_view_btn_stoped">"Ç'aktivizuar"</string>
@@ -884,7 +934,7 @@ mm"</string>
     <string name="sunset_time_format">Perendimi %s</string>
     <string name="sunset_time_format_desc">Koha e perëndimit të diellit: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd.MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Anasill ngjyrat</string>
     <string name="temporary_style">Për 10 sekonda mbas prekjes</string>
     <string name="temporary_style_5">Për 5 sekonda mbas prekjes</string>

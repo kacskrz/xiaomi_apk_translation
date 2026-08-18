@@ -37,6 +37,9 @@
     <string name="aod_app_name">Միշտ միացված էկրան և կողպեք էկրանի խմբագիր</string>
     <string name="aod_close_color_inversion">Այս ֆունկցիան չի կարող համակցվել գույնի փոփոխման հետ: Սկզբում անջատեք գույնի փոփոխման ռեժիմը:</string>
     <string name="aod_component">Ցուցադրված նյութեր</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Ավելի շատ ընտրանքներ</string>
     <string name="aod_gradient_1">Բաց կապույտ և փիրուզագույն գրադիենտ</string>
     <string name="aod_gradient_10">Վարդագույն, նարնջագույն և մանուշակագույն գրադիենտ</string>
@@ -88,6 +91,7 @@
     <string name="aod_resting_screen_define">Սովորություն</string>
     <string name="aod_resting_screen_same_to_lock">Նույնը, ինչ Արգելափակման էկրանին</string>
     <string name="aod_resting_screen_style_title">Թեմա</string>
+    <string name="aod_setting_fold_full_aod_summary">Այս ոճը կարող է օգտագործվել միայն արտաքին էկրանին</string>
     <string name="aod_setting_pad_des2">Ժամացույցի գույնը կհամապատասխանի ձեր պաստառի գույնին</string>
     <string name="aod_show_date_and_time">Ցուցադրել ամսաթիվն ու ժամանակը</string>
     <string name="aod_show_mode_title_des_pad">Միշտ ցուցադրվում է լիցքավորման ժամանակ</string>
@@ -148,6 +152,10 @@
     <string name="deep_space_planet_des">Այս թեման արտացոլում է օրվա ընթացքում ձեր շուրջը եղած լույսի փոփոխությունները: Արևածագ և մայրամուտը նույնպես համաժամանակեցված են ձեր գտնվելու վայրի հետ:</string>
     <string name="default_clock_style">Անհայտ թվատախտակ</string>
     <string name="delete">Ջնջել</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Թվային</string>
     <string name="disable_aod_in_power_save_mode">Անջատել, երբ Մարտկոցի խնայումը միացվում է</string>
     <string name="disable_aod_in_power_save_mode_summary">Էլեկտրաէներգիա խնայելու համար մի ցուցադրեք տարրեր</string>
@@ -248,6 +256,13 @@
     <string name="health_chart_step_count_unit">Քայլեր</string>
     <string name="health_no_data">Առողջական տվյալներ չկան</string>
     <string name="health_sleep_desc">Քնի տևողությունը %1$s, քնի որակը՝ %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Հորիզոնական ժամացույց</string>
     <string name="humidity_format">Խոնավություն %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@
     <string name="keyguard_shortcut_tab_right">Աջ</string>
     <string name="keyguard_shortcut_title">Դյուրանցումներ</string>
     <string name="kg_activity_label">Խմբագրել կողպեքի էկրանը</string>
+    <string name="kg_allinone_drag_bottom">Քաշեք ժամացույցի ներքևի մասը՝ բարձրությունը կարգավորելու համար</string>
+    <string name="kg_allinone_drag_corner">Չափը փոխելու համար քաշեք ժամացույցի ստորին աջ անկյունը</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Կլորացված)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Քառակուսի)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Այս տառատեսակը չի աջակցում ուրվագծային ոճերը</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Ընթացիկ տառատեսակի ոճը, չափը և հաստությունը չեն աջակցում ուրվագծային ոճերը</string>
+    <string name="kg_allinone_hollow_style_both">Ժամեր և րոպեներ՝ ուրվագծված</string>
+    <string name="kg_allinone_hollow_style_hour">Ժամեր՝ ուրվագծված։ Րոպեներ՝ ամբողջական։</string>
+    <string name="kg_allinone_hollow_style_minute">Ժամեր՝ ամբողջական։ Րոպեներ՝ ուրվագծված։</string>
+    <string name="kg_allinone_hollow_style_none">Ժամեր և րոպեներ՝ ամբողջական</string>
+    <string name="kg_allinone_hollow_style_title">Ուրվագծի ոճ</string>
+    <string name="kg_allinone_transparency_name">Ժամացույցի թափանցիկություն</string>
+    <string name="kg_allinone_transparency_title">Թափանցիկություն</string>
+    <string name="kg_allinone_weight_title">Տառատեսակի հաստությունը</string>
     <string name="kg_aod_settings_depth_video_toast">Խորության էֆեկտ օգտագործելիս աջակցվում է միայն անհատականացված Միշտ միացված էկրանը</string>
     <string name="kg_apply">Կիրառել</string>
     <string name="kg_apply_dialog_desktop_preview">Գլխավոր էկրանի նախադիտում</string>
@@ -330,9 +362,13 @@
     <string name="kg_color_value_editor_lightness">Թեթևություն</string>
     <string name="kg_color_value_editor_saturation">Հագեցվածություն</string>
     <string name="kg_color_value_editor_title">Խմբագրել գույնը</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Լավ</string>
     <string name="kg_continue_editing">Շարունակել խմբագրել</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Կարգավորել</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Ջնջե՞լ այս հավաքածուն:</string>
     <string name="kg_delete_this_collocation_desc">Այս հավաքածուի Կողպել էկրանի և Գլխավոր էկրանի կարգավորումները կջնջվեն։ Ջնջե՞լ հավաքածուն հիմա:</string>
     <string name="kg_depth_preset_button_download">Ներբեռնեք դինամիկ պաստառ</string>
@@ -413,6 +449,7 @@
     <string name="kg_effects_tip_button">Հասկանալի է</string>
     <string name="kg_effects_tip_desc">Դաշտի խորության էֆեկտը չի կարող համակցվել զտիչների հետ: Դրանցից մեկի օգտագործումը կփոխարինի մյուսին:</string>
     <string name="kg_effects_tip_not_support">Հնարավոր չէ էֆեկտներ կիրառել դինամիկ պաստառների վրա</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Ապակե ժամացույցը չի աջակցում էֆեկտներին</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Երրորդ կողմի պաստառները չեն աջակցում էֆեկտներին</string>
     <string name="kg_effects_tip_title">Դաշտի խորություն և զտիչներ</string>
     <string name="kg_enable_blur">Փայլատ էֆեկտ</string>
@@ -437,6 +474,8 @@
     <string name="kg_font_filter_color_white">Սպիտակ</string>
     <string name="kg_font_filter_doodle_primary_label">Նկարչություն</string>
     <string name="kg_font_filter_doodle_secondary_label">Ֆոնային</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Մշուշոտ և միախառնված</string>
+    <string name="kg_font_filter_group_label_glass">Ապակե</string>
     <string name="kg_font_filter_group_label_glow">Պայծառ</string>
     <string name="kg_font_filter_group_label_gradient_blur">Գրադիենտ</string>
     <string name="kg_font_filter_group_label_obscure">Խառնել</string>
@@ -530,6 +569,8 @@
     <string name="kg_oversize_clock_type_bold">Հաստ</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Ուրվագիծ</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Ընտրել կրկին</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Հաստ Serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Խոզանակ</string>
@@ -579,15 +620,19 @@
     <string name="kg_talkback_pick_wallpaper">Պաստառի` ընտրել գրադարանից</string>
     <string name="kg_talkback_select_all">Ընտրել բոլորը</string>
     <string name="kg_talkback_selected">Ընտրված</string>
+    <string name="kg_talkback_slide_up_or_down">Սահեցրեք վերև կամ ներքև՝ կարգավորելու համար</string>
     <string name="kg_talkback_unselect_all">Հանել բոլորը</string>
     <string name="kg_template_description_car">Որտեղ տեխնոլոգիան զուգորդվում է գեղեցկության հետ. յուրաքանչյուր ապակողպման միջոցով բացահայտեք ապագայի արագությունը։</string>
     <string name="kg_template_description_classic">Այն, ինչ դասական է, երբեք դուրս չի գալիս նորաձեւությունից:</string>
     <string name="kg_template_description_eastern_art">Արևելյան տարրերի ժամանակակից մեկնաբանության ցուցադրում, օգտագործելով դասական խաչաձև համաչափություն, տարբերակիչ ուղղահայաց դասավորություն և գեղագրական արտահայտություն</string>
     <string name="kg_template_description_magazine">Ձեր կողպեքի էկրանը վերածեք ամսագրի շապիկի:</string>
+    <string name="kg_template_description_magazine_natural">Ժամացույցի ոճ, որը զուգորդում է բնական լանդշաֆտները շերտավոր վիզուալների հետ՝ նուրբ, արտահայտիչ տեսք ունենալու համար</string>
     <string name="kg_template_description_rhombus">Ժամանակը կարևոր է. Հաշվի առեք:</string>
     <string name="kg_template_preview_content_description">Նախադիտում</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Մեծ ժամացույց A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Մեծ ժամացույց Բ</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Մեծ ժամացույց C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Մեծ ժամացույց D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Դասական</string>
     <string name="kg_template_title_classic_max_talkback">Դասական Կողպել էկրանը MAX</string>
@@ -607,6 +652,7 @@
     <string name="kg_template_title_magazine_b_talkback">Ամսագիր Բ</string>
     <string name="kg_template_title_magazine_c_one_talkback">Ամսագիր C` ամփոփ նկարագրությամբ</string>
     <string name="kg_template_title_magazine_c_three_talkback">Ամսագիր C՝ եռակի գծանշմամբ</string>
+    <string name="kg_template_title_magazine_natural">Բնապատկերներ</string>
     <string name="kg_template_title_magazine_phone">Մարդիկ</string>
     <string name="kg_template_title_mine">Արգելափակել էկրանը</string>
     <string name="kg_template_title_mine_collocation">Իմ հավաքածուները</string>
@@ -706,7 +752,7 @@ MM"</string>
     <string name="miui_rhombus_clock_date">dd MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d.M</string>
+    <string name="miui_smart_frame_clock_date">dd.MM</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Անցնել կես էկրանին</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Ընդլայնել</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Փոքրացնել</string>
+    <string name="miuix_popup_show_description">Լողացող պատուհան</string>
     <string name="miuix_popup_window_default_title">Լողացող պատուհան</string>
     <string name="miuix_progressbar_loading">Բեռնվում է</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Սահեցրեք ներքև թարմացման համար</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">Առավոտ</string>
     <string name="my_style_title">Իմ թեման</string>
     <string name="night">Երեկո</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Կեսօր</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Զարկերակ (Կարմիր)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Ակտիվ ժամանակահատված․ %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Պլանավորված</string>
     <string name="scheduled_style_summary">Սահմանեք հարմարեցված ժամանակը</string>
     <string name="scope_des">Յուրաքանչյուր կալեիդոսկոպ պարունակում է 5 տարբեր նախշեր, որը հերթով կցուցադրվի էկրանին միացնելուց յուրաքանչյուր անգամ:</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">Ընտրել հատուկ էֆեկտ</string>
     <string name="select_notification_notify_style">Ընտրեք ծանուցման էֆեկտը</string>
     <string name="send">Ուղարկել</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Անջատել</string>
     <string name="settings_view_btn_check_on">Միացնել</string>
     <string name="settings_view_btn_stoped">Անջատված է</string>
@@ -884,7 +934,7 @@ mm"</string>
     <string name="sunset_time_format">Մայրամուտ %s</string>
     <string name="sunset_time_format_desc">Մայրամուտի ժամը՝ %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd.MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Շրջել գույները</string>
     <string name="temporary_style">10 վայրկյանի ընթացքում թակելուց հետո</string>
     <string name="temporary_style_5">5 վայրկյանի ընթացքում թակելուց հետո</string>

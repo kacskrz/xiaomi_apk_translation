@@ -64,6 +64,9 @@
     <string name="aod_app_name">Immer eingeschaltetes Display und Sperrbildschirm-Editor</string>
     <string name="aod_close_color_inversion">Diese Funktion kann nicht mit der Farbumkehrung kombiniert werden. Diese zuerst ausschalten.</string>
     <string name="aod_component">Angezeigte Elemente</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Weitere Optionen</string>
     <string name="aod_gradient_1">Hellblauer und türkisfarbener Farbverlauf</string>
     <string name="aod_gradient_10">Rosafarbener, orangefarbener und violetter Farbverlauf</string>
@@ -115,6 +118,7 @@ dd. MM"</string>
     <string name="aod_resting_screen_define">Benutzerdefiniert</string>
     <string name="aod_resting_screen_same_to_lock">Gleich mit Sperrbildschirm</string>
     <string name="aod_resting_screen_style_title">Themen</string>
+    <string name="aod_setting_fold_full_aod_summary">Dieser Stil kann nur auf dem äußeren Bildschirm verwendet werden</string>
     <string name="aod_setting_pad_des2">Die Farbe der Uhr entspricht der Farbe deines Hintergrundbildes</string>
     <string name="aod_show_date_and_time">Datum und Uhrzeit anzeigen</string>
     <string name="aod_show_mode_title_des_pad">Beim Aufladen immer anzeigen</string>
@@ -139,6 +143,8 @@ dd. MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Auf Ziehpunkt doppelt getippt</string>
     <string name="bottomsheet_drag_handle_content_description">Ziehpunkt</string>
     <string name="btn_know">Verstanden</string>
+    <string name="calendar_date_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="calendar_date_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
     <string name="call_notification_answer_action">Annehmen</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Ablehnen</string>
@@ -186,6 +192,10 @@ dd. MM"</string>
     <string name="deep_space_planet_des">Dieses Design spiegelt die Lichtveränderungen wider, die sich während des Tages um dich herum abspielen. Sonnenauf- und -untergänge werden auch mit deinem Standort synchronisiert.</string>
     <string name="default_clock_style">Unbekanntes Ziffernblatt</string>
     <string name="delete">Löschen</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digital</string>
     <string name="disable_aod_in_power_save_mode">Ausgeschaltet, wenn der Energiesparmodus an ist</string>
     <string name="disable_aod_in_power_save_mode_summary">Elemente nicht anzeigen, um Energie zu sparen</string>
@@ -290,6 +300,13 @@ dd. MM"</string>
     <string name="health_chart_step_count_unit">Schritte</string>
     <string name="health_no_data">Keine Gesundheitsdaten</string>
     <string name="health_sleep_desc">Schlafdauer %1$s, Schlafqualität: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horizontale Uhr</string>
     <string name="humidity_format">Luftfeuchtigkeit %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ dd. MM"</string>
     <string name="keyguard_shortcut_tab_right">Rechts</string>
     <string name="keyguard_shortcut_title">Verknüpfungen</string>
     <string name="kg_activity_label">Sperrbildschirm bearbeiten</string>
+    <string name="kg_allinone_drag_bottom">Ziehe den unteren Rand der Uhr, um die Höhe anzupassen</string>
+    <string name="kg_allinone_drag_corner">Ziehe die untere reche Ecke der Uhr, um die Größe zu ändern</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (abgerundet)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (quadratisch)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Diese Schriftart unterstützt keine Umrissstile</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Der aktuelle Schriftstil, die Schriftgröße und die Schriftstärke unterstützen keine Umrissstile</string>
+    <string name="kg_allinone_hollow_style_both">Stunden und Minuten: Umriss</string>
+    <string name="kg_allinone_hollow_style_hour">Stunden: Umrisse. Minuten: Solide.</string>
+    <string name="kg_allinone_hollow_style_minute">Stunden: Solide. Minuten: Umriss.</string>
+    <string name="kg_allinone_hollow_style_none">Stunden und Minuten: Solide</string>
+    <string name="kg_allinone_hollow_style_title">Umrissstil</string>
+    <string name="kg_allinone_transparency_name">Uhr-Transparenz</string>
+    <string name="kg_allinone_transparency_title">Transparenz</string>
+    <string name="kg_allinone_weight_title">Schriftstärke</string>
     <string name="kg_aod_settings_depth_video_toast">Bei Verwendung des Tiefeneffekts wird nur das benutzerdefinierte „Immer eingeschaltetes Display“ unterstützt</string>
     <string name="kg_apply">Anwenden</string>
     <string name="kg_apply_dialog_desktop_preview">Startbildschirm-Vorschau</string>
@@ -374,9 +408,13 @@ dd. MM"</string>
     <string name="kg_color_value_editor_lightness">Helligkeit</string>
     <string name="kg_color_value_editor_saturation">Sättigung</string>
     <string name="kg_color_value_editor_title">Farbe bearbeiten</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Weiter bearbeiten</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Anpassen</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Dieses Set löschen?</string>
     <string name="kg_delete_this_collocation_desc">Die Sperrbildschirm- und Startbildschirmseinstellungen dieses Sets werden gelöscht. Dieses Set jetzt löschen?</string>
     <string name="kg_depth_preset_button_download">Dynamisches Hintergrundbild herunterladen</string>
@@ -457,6 +495,7 @@ dd. MM"</string>
     <string name="kg_effects_tip_button">Verstanden</string>
     <string name="kg_effects_tip_desc">Der Tiefenschärfe-Effekt kann nicht mit Filtern kombiniert werden. Die Verwendung eines von ihnen ersetzt den anderen.</string>
     <string name="kg_effects_tip_not_support">Effekte können nicht auf dynamische Hintergrundbilder angewendet werden</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Glasuhr unterstützt keine Effekte</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Hintergrundbilder von Drittanbietern unterstützen keine Effekte</string>
     <string name="kg_effects_tip_title">Schärfentiefe und Filter</string>
     <string name="kg_enable_blur">Matteffekt</string>
@@ -481,6 +520,8 @@ dd. MM"</string>
     <string name="kg_font_filter_color_white">Weiß</string>
     <string name="kg_font_filter_doodle_primary_label">Zeichnen</string>
     <string name="kg_font_filter_doodle_secondary_label">Hintergrund</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Weichzeichnen und verwischen</string>
+    <string name="kg_font_filter_group_label_glass">Glas</string>
     <string name="kg_font_filter_group_label_glow">Leuchtend</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradient</string>
     <string name="kg_font_filter_group_label_obscure">Mischen</string>
@@ -574,6 +615,8 @@ dd. MM"</string>
     <string name="kg_oversize_clock_type_bold">Fett</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Umriss</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Erneut auswählen</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif fett</string>
     <string name="kg_rhombus_clock_type_brush_font">Pinsel</string>
@@ -623,15 +666,19 @@ dd. MM"</string>
     <string name="kg_talkback_pick_wallpaper">Hintergrundbild, von Bibliothek ausgewählt</string>
     <string name="kg_talkback_select_all">Alle auswählen</string>
     <string name="kg_talkback_selected">Ausgewählt</string>
+    <string name="kg_talkback_slide_up_or_down">Wische zum Anpassen nach oben oder unten</string>
     <string name="kg_talkback_unselect_all">Auswahl aufheben</string>
     <string name="kg_template_description_car">Wo Technologie auf Schönheit trifft: Erlebe die Geschwindigkeit der Zukunft bei jedem Entsperren.</string>
     <string name="kg_template_description_classic">Was klassisch ist, kommt nie aus der Mode.</string>
     <string name="kg_template_description_eastern_art">Eine zeitgemäße Interpretation östlicher Elemente mit klassischer Kreuzsymmetrie, ausgeprägter vertikaler Anordnung und kalligraphischem Ausdruck</string>
     <string name="kg_template_description_magazine">Verwandle deinen Sperrbildschirm in ein Zeitschriftencover.</string>
+    <string name="kg_template_description_magazine_natural">Ein Uhrenstil, der Naturlandschaften mit vielschichtigen Bildern kombiniert und so einen raffinierten, ausdrucksstarken Look erzeugt.</string>
     <string name="kg_template_description_rhombus">Zeit ist wichtig. Mache sie nutzbar.</string>
     <string name="kg_template_preview_content_description">Vorschau</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Große Uhr A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Große Uhr B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Große Uhr C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Große Uhr D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klassisch</string>
     <string name="kg_template_title_classic_max_talkback">Klassischer Sperrbildschirm MAX</string>
@@ -651,6 +698,7 @@ dd. MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Zeitschrift B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Zeitschrift C, skizziert</string>
     <string name="kg_template_title_magazine_c_three_talkback">Zeitschrift C, dreifach liniert</string>
+    <string name="kg_template_title_magazine_natural">Naturbilder</string>
     <string name="kg_template_title_magazine_phone">Personen</string>
     <string name="kg_template_title_mine">Sperrbildschirm</string>
     <string name="kg_template_title_mine_collocation">Meine Sets</string>
@@ -774,15 +822,15 @@ mm"</string>
     <string name="miuix_accessibility_title">Titel</string>
     <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
     <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
-    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus verlassen</string>
     <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
-    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus aufrufen</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
-    <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
-    <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
+    <string name="miuix_appcompat_action_mode_select_all">Alle auswählen</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Gegenstände auswählen</string>
     <string name="miuix_appcompat_action_sheet_default_message">Auswählen</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Mehr</string>
-    <string name="miuix_appcompat_cancel_description">Abbruch</string>
+    <string name="miuix_appcompat_cancel_description">Abbrechen</string>
     <string name="miuix_appcompat_confirm_description">Bestätigen</string>
     <string name="miuix_appcompat_delete_description">Löschen</string>
     <string name="miuix_appcompat_deselect_all">Auswahl aufheben</string>
@@ -790,8 +838,8 @@ mm"</string>
     <string name="miuix_appcompat_edit">Bearbeiten</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Abbrechen</string>
     <string name="miuix_appcompat_search_input_description">Suchen</string>
-    <string name="miuix_appcompat_select_all">Alles auswählen</string>
-    <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
+    <string name="miuix_appcompat_select_all">Alle auswählen</string>
+    <string name="miuix_appcompat_select_all_description">Alle auswählen</string>
     <string name="miuix_appcompat_select_item">Elemente auswählen</string>
     <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
     <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Zum Schließen nach unten wischen</string>
@@ -805,6 +853,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Zum halben Bildschirm wechseln</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximieren</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimieren</string>
+    <string name="miuix_popup_show_description">Pop-up-Fenster</string>
     <string name="miuix_popup_window_default_title">Pop-up-Fenster</string>
     <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
@@ -908,6 +957,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Mein Motiv</string>
     <string name="night">Abend</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Mittag</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Nicht festgelegt</string>
@@ -946,6 +996,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktiver Zeitraum: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Geplant</string>
     <string name="scheduled_style_summary">Individuelle Zeit einstellen</string>
     <string name="scope_des">Jedes Kaleidoskop enthält 5 verschiedene Muster, die abwechseln jedes Mal gezeigt werden, wenn das Bildschirmlicht aufleuchtet.</string>
@@ -957,6 +1008,7 @@ mm"</string>
     <string name="select_notification_animation_style">Wähle den Spezialeffekt</string>
     <string name="select_notification_notify_style">Wähle Benachrichtigungseffekt</string>
     <string name="send">Senden</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Aus</string>
     <string name="settings_view_btn_check_on">Ein</string>
     <string name="settings_view_btn_stoped">Ausgeschaltet</string>
@@ -996,7 +1048,7 @@ Wunderbares bevorsteht"</string>
     <string name="sunset_time_format">Sonnenuntergang %s</string>
     <string name="sunset_time_format_desc">Sonnenuntergang um: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-d.M."</string>
+M/dd"</string>
     <string name="talkback_invert_color">Farben umkehren</string>
     <string name="temporary_style">10 Sekunden lang nach dem Tippen</string>
     <string name="temporary_style_5">5 Sekunden lang nach dem Tippen</string>
@@ -1049,7 +1101,7 @@ d.M."</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">Do</string>
     <string name="time_location">Uhr-Position</string>
-    <string name="time_picker_dialog_title">Uhrzeit einstellen</string>
+    <string name="time_picker_dialog_title">Zeit einstellen</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min.</string>
     <string name="time_style">Style</string>

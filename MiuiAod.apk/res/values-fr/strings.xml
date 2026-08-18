@@ -42,6 +42,7 @@
     <string name="add_custom_image">"Personnaliser l'image"</string>
     <string name="add_from_local">"Sélectionnez l'image"</string>
     <string name="afternoon">Après midi</string>
+    <string name="air_quality_index_abbreviation">IQA</string>
     <string name="align_center_horizontally">Horizontal et aligné au centre</string>
     <string name="align_center_vertically">Empilé et aligné au centre</string>
     <string name="align_left_horizontally">Horizontal et aligné à gauche</string>
@@ -64,6 +65,9 @@
     <string name="aod_app_name">"Toujours afficher et Éditeur d'écran de verrouillage"</string>
     <string name="aod_close_color_inversion">"Cette fonctionnalité ne peut pas être combinée avec l'inversion de couleur. Désactivez d'abord l'inversion de couleur."</string>
     <string name="aod_component">Éléments affichés</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">"Plus d'options"</string>
     <string name="aod_gradient_1">Dégradé bleu clair et turquoise</string>
     <string name="aod_gradient_10">Dégradé orange, rose et violet</string>
@@ -115,6 +119,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">Personnaliser</string>
     <string name="aod_resting_screen_same_to_lock">"Pareil que l'Écran de verrouillage"</string>
     <string name="aod_resting_screen_style_title">Thème</string>
+    <string name="aod_setting_fold_full_aod_summary">"Ce style ne peut être utilisé que sur l'écran externe"</string>
     <string name="aod_setting_pad_des2">"La couleur de l'horloge correspondra à celle de votre fond d'écran"</string>
     <string name="aod_show_date_and_time">"Afficher la date et l'heure"</string>
     <string name="aod_show_mode_title_des_pad">Toujours montrer lors de la charge</string>
@@ -139,6 +144,8 @@ dd/MM"</string>
     <string name="bottomsheet_drag_handle_clicked">A appuyé deux fois sur la poignée de déplacement</string>
     <string name="bottomsheet_drag_handle_content_description">Poignée de déplacement</string>
     <string name="btn_know">Compris</string>
+    <string name="calendar_date_picker_a11y_next_month">Passer au mois suivant</string>
+    <string name="calendar_date_picker_a11y_prev_month">Passer au mois précédent</string>
     <string name="call_notification_answer_action">Répondre</string>
     <string name="call_notification_answer_video_action">Vidéo</string>
     <string name="call_notification_decline_action">Refuser</string>
@@ -186,6 +193,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">Ce thème reflète les changements de lumière qui se produisent autour de vous pendant la journée. Les levers et couchers de soleil sont également synchronisés avec votre position.</string>
     <string name="default_clock_style">Cadran inconnu</string>
     <string name="delete">Supprimer</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digital</string>
     <string name="disable_aod_in_power_save_mode">"Désactiver lorsque l'économiseur de batterie est activé"</string>
     <string name="disable_aod_in_power_save_mode_summary">Ne pas afficher les éléments pour économiser la batterie</string>
@@ -290,6 +301,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">Pas</string>
     <string name="health_no_data">Aucune donnée sur la santé</string>
     <string name="health_sleep_desc">Durée du sommeil %1$s, qualité du sommeil : %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horloge horizontale</string>
     <string name="humidity_format">Humidité %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +320,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">Droit</string>
     <string name="keyguard_shortcut_title">Raccourcis</string>
     <string name="kg_activity_label">Modifier Écran de verrouillage</string>
+    <string name="kg_allinone_drag_bottom">"Faites glisser le bas de l'horloge pour ajuster sa hauteur"</string>
+    <string name="kg_allinone_drag_corner">"Faites glisser le coin inférieur droit de l'horloge pour la redimensionner"</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Arrondi)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Carré)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Cette police ne prend pas en charge les styles de contour</string>
+    <string name="kg_allinone_hollow_not_support_current_style">"Le style, la taille et l'épaisseur de police actuels ne prennent pas en charge les styles de contour"</string>
+    <string name="kg_allinone_hollow_style_both">Heures et minutes : Délimitées</string>
+    <string name="kg_allinone_hollow_style_hour">Heures : Délimitées. Minutes : Solides.</string>
+    <string name="kg_allinone_hollow_style_minute">Heures : Solides. Minutes : Précises.</string>
+    <string name="kg_allinone_hollow_style_none">Heures et minutes : Solide</string>
+    <string name="kg_allinone_hollow_style_title">Style contour</string>
+    <string name="kg_allinone_transparency_name">"Transparence de l'horloge"</string>
+    <string name="kg_allinone_transparency_title">Transparence</string>
+    <string name="kg_allinone_weight_title">Poids de la police</string>
     <string name="kg_aod_settings_depth_video_toast">"Seul Toujours afficher personnalisé est pris en charge lors de l'utilisation de l'effet de profondeur"</string>
     <string name="kg_apply">Appliquer</string>
     <string name="kg_apply_dialog_desktop_preview">"Aperçu de l'écran d'accueil"</string>
@@ -374,9 +409,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">Clarté</string>
     <string name="kg_color_value_editor_saturation">Saturation</string>
     <string name="kg_color_value_editor_title">Modifier la couleur</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Continuer à éditer</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Personnaliser</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Supprimer cette série ?</string>
     <string name="kg_delete_this_collocation_desc">"Les paramètres de l'écran de verrouillage et de l'écran d'accueil de cet ensemble seront supprimés. Supprimer la série maintenant ?"</string>
     <string name="kg_depth_preset_button_download">"Télécharger le fond d'écran dynamique"</string>
@@ -457,6 +496,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">Compris</string>
     <string name="kg_effects_tip_desc">"L'effet de profondeur de champ ne peut pas être combiné avec des filtres. L'utilisation de l'un d'eux remplacera l'autre."</string>
     <string name="kg_effects_tip_not_support">"Impossible d'appliquer des effets aux fonds d'écran dynamiques"</string>
+    <string name="kg_effects_tip_not_support_glass_filter">"L'horloge en verre ne prend pas en charge les effets"</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">"Les fonds d'écran tiers ne prennent pas en charge les effets"</string>
     <string name="kg_effects_tip_title">Profondeur de champ et filtres</string>
     <string name="kg_enable_blur">Effet matte</string>
@@ -481,6 +521,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">Blanc</string>
     <string name="kg_font_filter_doodle_primary_label">Gribouiller</string>
     <string name="kg_font_filter_doodle_secondary_label">Arrière-plan</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Flouter et mélanger</string>
+    <string name="kg_font_filter_group_label_glass">Verre</string>
     <string name="kg_font_filter_group_label_glow">Éclat</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradient</string>
     <string name="kg_font_filter_group_label_obscure">Mélange</string>
@@ -574,6 +616,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">Gras</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Souligner</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Sélectionnez à nouveau</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif gras</string>
     <string name="kg_rhombus_clock_type_brush_font">Pinceau</string>
@@ -623,15 +667,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">"Fond d'écran, sélectionnez dans la bibliothèque"</string>
     <string name="kg_talkback_select_all">Tout sélectionner</string>
     <string name="kg_talkback_selected">Sélectionné</string>
+    <string name="kg_talkback_slide_up_or_down">Balayez vers le haut ou vers le bas pour ajuster</string>
     <string name="kg_talkback_unselect_all">Tout désélectionner</string>
     <string name="kg_template_description_car">"Là où la technologie rencontre la beauté : capturez la vitesse de l'avenir à chaque déverrouillage."</string>
     <string name="kg_template_description_classic">Ce qui est classique ne se démode jamais.</string>
     <string name="kg_template_description_eastern_art">"Présentation d'une interprétation contemporaine des éléments orientaux en utilisant la symétrie croisée classique, la disposition verticale distinctive et l'expression calligraphique"</string>
     <string name="kg_template_description_magazine">Transformez votre écran de verrouillage en couverture de revue.</string>
+    <string name="kg_template_description_magazine_natural">"Un style d'horloge qui associe des paysages naturels à des visuels superposés pour une apparence raffinée et expressive"</string>
     <string name="kg_template_description_rhombus">"Le temps est important. Faites en sorte qu'il compte."</string>
     <string name="kg_template_preview_content_description">Aperçu</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Grosse horloge A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Grosse horloge B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Grosse horloge C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Grosse horloge D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Classique</string>
     <string name="kg_template_title_classic_max_talkback">"Verrouillage d'écran classique MAX"</string>
@@ -651,6 +699,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Revue B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Revue C, surligné</string>
     <string name="kg_template_title_magazine_c_three_talkback">Revue C, triple ligne</string>
+    <string name="kg_template_title_magazine_natural">Images de la nature</string>
     <string name="kg_template_title_magazine_phone">Personnes</string>
     <string name="kg_template_title_mine">"Verrouiller l'écran"</string>
     <string name="kg_template_title_mine_collocation">Mes séries</string>
@@ -763,7 +812,7 @@ M"</string>
     <string name="miui_rhombus_clock_date">d MMMM</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
-    <string name="miui_smart_frame_clock_date">d/M</string>
+    <string name="miui_smart_frame_clock_date">dd/MM</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
@@ -804,6 +853,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">"Passer à la moitié de l'écran"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maximiser</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimiser</string>
+    <string name="miuix_popup_show_description">Fenêtre contextuelle</string>
     <string name="miuix_popup_window_default_title">Fenêtre contextuelle</string>
     <string name="miuix_progressbar_loading">Chargement</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
@@ -907,6 +957,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Mon thème</string>
     <string name="night">Soirée</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Midi</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Non définie</string>
@@ -945,6 +996,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Période active: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Programmé</string>
     <string name="scheduled_style_summary">Définir une heure personnalisée</string>
     <string name="scope_des">"Tous les kaléidoscopes contiennent 5 différents modèles qui seront affichés à chaque fois que l'écran s'allume."</string>
@@ -956,6 +1008,7 @@ mm"</string>
     <string name="select_notification_animation_style">Sélectionnez un effet spécial</string>
     <string name="select_notification_notify_style">"Sélectionnez l'effet de la notification"</string>
     <string name="send">Envoyer</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Désactivé</string>
     <string name="settings_view_btn_check_on">Activé</string>
     <string name="settings_view_btn_stoped">Désactivé</string>
@@ -995,7 +1048,7 @@ de merveilleux va se produire"</string>
     <string name="sunset_time_format">Coucher de soleil %s</string>
     <string name="sunset_time_format_desc">"Heure du coucher du soleil : %s "</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/MM"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Inverser les couleurs</string>
     <string name="temporary_style">Pendant 10 secondes après avoir tapé</string>
     <string name="temporary_style_5">Pendant 5 secondes après avoir appuyé</string>

@@ -64,6 +64,9 @@
     <string name="aod_app_name">Uvijek uključen ekran i editor Zaključanog ekrana</string>
     <string name="aod_close_color_inversion">Ova opcija se ne može kombinirati sa inverzijom boja. Prvo isključite inverziju boja.</string>
     <string name="aod_component">Prikazane stavke</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Više opcija</string>
     <string name="aod_gradient_1">Svijetloplavi i grimizni gradijent</string>
     <string name="aod_gradient_10">Rozi, narandžasti i ljubičasti gradijent</string>
@@ -115,6 +118,7 @@ d. MM."</string>
     <string name="aod_resting_screen_define">Prilagođeno</string>
     <string name="aod_resting_screen_same_to_lock">Isto kao Zaključani ekran</string>
     <string name="aod_resting_screen_style_title">Tema</string>
+    <string name="aod_setting_fold_full_aod_summary">Ovaj stil može biti korišten samo na vanjskom ekranu</string>
     <string name="aod_setting_pad_des2">Boja sata će se podudariti sa bojom vaše pozadine</string>
     <string name="aod_show_date_and_time">Prikazati datum i vrijeme</string>
     <string name="aod_show_mode_title_des_pad">Uvijek prikaži pri punjenju</string>
@@ -139,6 +143,8 @@ d. MM."</string>
     <string name="bottomsheet_drag_handle_clicked">Ručica za prevlačenje je dvaput dodirnuta</string>
     <string name="bottomsheet_drag_handle_content_description">Ručica za prevlačenje</string>
     <string name="btn_know">Shvatam</string>
+    <string name="calendar_date_picker_a11y_next_month">Promijeni na sljedeći mjesec</string>
+    <string name="calendar_date_picker_a11y_prev_month">Promijeni na prethodni mjesec</string>
     <string name="call_notification_answer_action">Odgovori</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Odbaci</string>
@@ -186,6 +192,10 @@ d. MM."</string>
     <string name="deep_space_planet_des">Ova tema prikazuje promjene svjetlosti u toku dana. Izlasci i zalasci sunca su također sinhronizirani sa Vašom lokacijom.</string>
     <string name="default_clock_style">Nepoznati brojčanik</string>
     <string name="delete">Obriši</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digitalno</string>
     <string name="disable_aod_in_power_save_mode">Isključiti kada je Štednja baterije uključena</string>
     <string name="disable_aod_in_power_save_mode_summary">Ne prikazuj stavke zbog čuvanja baterije</string>
@@ -290,6 +300,13 @@ d. MM."</string>
     <string name="health_chart_step_count_unit">Koraci</string>
     <string name="health_no_data">Nema podataka zdravlja</string>
     <string name="health_sleep_desc">Trajanje spavanja %1$s, kvaliteta spavanja: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Horizontalni sat</string>
     <string name="humidity_format">Vlažnost %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ d. MM."</string>
     <string name="keyguard_shortcut_tab_right">Desna</string>
     <string name="keyguard_shortcut_title">Prečice</string>
     <string name="kg_activity_label">Uredi Zaključani ekran</string>
+    <string name="kg_allinone_drag_bottom">Prevucite donji dio sata za prilagodbu visine</string>
+    <string name="kg_allinone_drag_corner">Prevucite donji desni ugao sata za promjenu veličine</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (zaokruženo)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (kvadrat)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Ovaj font ne podržava stilove vanjskih linija</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Trenutni stil fonta, veličina i debljina ne podržavaju stilove vanjskih linija</string>
+    <string name="kg_allinone_hollow_style_both">Sati i minute: ocrtano</string>
+    <string name="kg_allinone_hollow_style_hour">Sati: ocrtano. Minute: neprekidno.</string>
+    <string name="kg_allinone_hollow_style_minute">Sati: neprekidno. Minute: ocrtano.</string>
+    <string name="kg_allinone_hollow_style_none">Sati i minute: neprekidno</string>
+    <string name="kg_allinone_hollow_style_title">Stil vanjske linije</string>
+    <string name="kg_allinone_transparency_name">Providnost sata</string>
+    <string name="kg_allinone_transparency_title">Prozirnost</string>
+    <string name="kg_allinone_weight_title">Debljina fonta</string>
     <string name="kg_aod_settings_depth_video_toast">Samo prilagođeni Ekran uvijek uključen je podržan pri korištenju efekta dubine</string>
     <string name="kg_apply">Primijeni</string>
     <string name="kg_apply_dialog_desktop_preview">Pregled Početnog ekrana</string>
@@ -374,9 +408,13 @@ d. MM."</string>
     <string name="kg_color_value_editor_lightness">Svjetlina</string>
     <string name="kg_color_value_editor_saturation">Zasićenje</string>
     <string name="kg_color_value_editor_title">Uredi boju</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Nastavi uređivanje</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Prilagodi</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Obriši ovaj set?</string>
     <string name="kg_delete_this_collocation_desc">Set ovog Zaključanog ekrana i postavke Početnog ekrana će biti obrisani. Obriši set sada?</string>
     <string name="kg_depth_preset_button_download">Preuzmi dinamičnu pozadinu</string>
@@ -457,6 +495,7 @@ d. MM."</string>
     <string name="kg_effects_tip_button">Shvatam</string>
     <string name="kg_effects_tip_desc">Efekt dubine polja ne može biti kombiniran sa filterima. Korištenje jednog će zamijeniti drugi.</string>
     <string name="kg_effects_tip_not_support">Ne mogu primijeniti efekte na dinamične pozadine</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Stakleni sat ne podržava efekte</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Pozadine trećih strana ne podržavaju efekte</string>
     <string name="kg_effects_tip_title">Dubina polja i filtera</string>
     <string name="kg_enable_blur">Mat efekat</string>
@@ -481,6 +520,8 @@ d. MM."</string>
     <string name="kg_font_filter_color_white">Bijela</string>
     <string name="kg_font_filter_doodle_primary_label">Škrabotine</string>
     <string name="kg_font_filter_doodle_secondary_label">Pozadina</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Zamućeno i pomiješano</string>
+    <string name="kg_font_filter_group_label_glass">Staklo</string>
     <string name="kg_font_filter_group_label_glow">Sjaj</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradijent</string>
     <string name="kg_font_filter_group_label_obscure">Mješavina</string>
@@ -574,6 +615,8 @@ d. MM."</string>
     <string name="kg_oversize_clock_type_bold">Podebljano</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Kontura</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Odaberi ponovo</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Podebljano serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Četka</string>
@@ -623,15 +666,19 @@ d. MM."</string>
     <string name="kg_talkback_pick_wallpaper">Pozadina, odaberite iz biblioteke</string>
     <string name="kg_talkback_select_all">Odaberi sve</string>
     <string name="kg_talkback_selected">Odabrano</string>
+    <string name="kg_talkback_slide_up_or_down">Prevucite nadolje ili nagore za prilagođavanje</string>
     <string name="kg_talkback_unselect_all">Poništi odabir</string>
     <string name="kg_template_description_car">Gdje tehnologija sreće ljepotu: uhvatite brzinu budućnosti svakim otključavanjem.</string>
     <string name="kg_template_description_classic">Ono što je klasično nikada ne zastari.</string>
     <string name="kg_template_description_eastern_art">Prikazivanje savremene interpretacije istočnjačkih elemenata koristeći klasičnu kros-simetriju, posebni vertikalni raspored i kaligrafsku ekspresiju</string>
     <string name="kg_template_description_magazine">Pretvorite vaš Zaključani ekran u naslovnicu magazina.</string>
+    <string name="kg_template_description_magazine_natural">Stil sata koji uparuje prirodne pejzaže sa slojevitim vizualima za rafiniran, ekspresivan izgled</string>
     <string name="kg_template_description_rhombus">Vrijeme je važno. Iskoristite ga.</string>
     <string name="kg_template_preview_content_description">Pregledaj</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Veliki sat A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Veliki sat B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Veliki sat C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Veliki sat D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klasik</string>
     <string name="kg_template_title_classic_max_talkback">Klasični Zaključani ekran MAX</string>
@@ -651,6 +698,7 @@ d. MM."</string>
     <string name="kg_template_title_magazine_b_talkback">Magazin B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Magazin C, vanjska linija</string>
     <string name="kg_template_title_magazine_c_three_talkback">Magazin C, trostruka linija</string>
+    <string name="kg_template_title_magazine_natural">Vizuali prirode</string>
     <string name="kg_template_title_magazine_phone">Ljudi</string>
     <string name="kg_template_title_mine">Zaključani ekran</string>
     <string name="kg_template_title_mine_collocation">Moji setovi</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Promijeni na pola ekrana</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimiziraj</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimiziraj</string>
+    <string name="miuix_popup_show_description">Iskačući prozor</string>
     <string name="miuix_popup_window_default_title">Iskačući prozor</string>
     <string name="miuix_progressbar_loading">Učitavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Prevucite nadolje za osvježavanje</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">Uredu</string>
     <string name="my_style_title">Moje teme</string>
     <string name="night">Veče</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Podne</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Nije postavljeno</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Aktivni period: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Zakazano</string>
     <string name="scheduled_style_summary">Postavi prilagođeno vrijeme</string>
     <string name="scope_des">Svaki kaleidoskop sadrži 5 različitih uzoraka koji će biti prikazani nasumično svaki put kada se ekran uključi.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">Odaberite posebne efekte</string>
     <string name="select_notification_notify_style">Odaberite efekt obavještenja</string>
     <string name="send">Pošalji</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Isk</string>
     <string name="settings_view_btn_check_on">Uk</string>
     <string name="settings_view_btn_stoped">Isključeno</string>
@@ -995,7 +1047,7 @@ sjajno dogoditi"</string>
     <string name="sunset_time_format">Suton %s</string>
     <string name="sunset_time_format_desc">Vrijeme sumraka: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-d. M."</string>
+M/dd"</string>
     <string name="talkback_invert_color">Inverzija boja</string>
     <string name="temporary_style">10 sekundi nakon dodira</string>
     <string name="temporary_style_5">5 sekundi nakon dodira</string>

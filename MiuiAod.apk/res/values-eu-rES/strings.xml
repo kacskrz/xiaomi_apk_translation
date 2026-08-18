@@ -15,6 +15,7 @@
     <string name="add_custom_image">Irudi pertsonalizatua</string>
     <string name="add_from_local">Aukeratu irudia</string>
     <string name="afternoon">Arratsaldea</string>
+    <string name="air_quality_index_abbreviation">AKI</string>
     <string name="align_center_horizontally">Horizontala eta erdian lerrokatuta</string>
     <string name="align_center_vertically">Multzokatuta eta erdian lerrokatuta</string>
     <string name="align_left_horizontally">Horizontala eta ezkerrean lerrokatuta</string>
@@ -37,6 +38,9 @@
     <string name="aod_app_name">Beti aktibatutako pantaila eta Blokeatutako pantailaren editorea</string>
     <string name="aod_close_color_inversion">Funtzio hau ezin da kolore alderantzikatzearekin erabili. Lehenik kolore alderantzikatzea desaktibatu.</string>
     <string name="aod_component">Bistaratutako elementuak</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Aukera gehiago</string>
     <string name="aod_gradient_1">Urdin argia eta berde urdinxka gradientea</string>
     <string name="aod_gradient_10">Arrosa, laranja eta purpura koloreko gradientea</string>
@@ -88,6 +92,7 @@ EE"</string>
     <string name="aod_resting_screen_define">Pertsonalizatua</string>
     <string name="aod_resting_screen_same_to_lock">Blokeo Pantaila bezalakoa</string>
     <string name="aod_resting_screen_style_title">Gaia</string>
+    <string name="aod_setting_fold_full_aod_summary">Estilo hau kanpoko pantailan bakarrik erabil daiteke</string>
     <string name="aod_setting_pad_des2">Erlojuaren kolorea zure horma-paperaren antzekoa izango da</string>
     <string name="aod_show_date_and_time">Erakutsi data eta ordua</string>
     <string name="aod_show_mode_title_des_pad">Beti erakutsi kargatzerakoan</string>
@@ -148,6 +153,10 @@ EE"</string>
     <string name="deep_space_planet_des">Gai honek egunean zehar zure inguruan gertatzen diren argi aldaketak erakusten ditu. Egunsentiak eta ilunabarrak zure kokapenarekin sinkronizatuta daude ere.</string>
     <string name="default_clock_style">Borobil ezezaguna</string>
     <string name="delete">Ezabatu</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digitala</string>
     <string name="disable_aod_in_power_save_mode">Desaktibatu Bateria-aurrezlea aktibatuta dagoenean</string>
     <string name="disable_aod_in_power_save_mode_summary">Ez erakutsi energia aurrezteko elementurik</string>
@@ -248,6 +257,13 @@ EE"</string>
     <string name="health_chart_step_count_unit">Pausoak</string>
     <string name="health_no_data">Osasun-daturik ez</string>
     <string name="health_sleep_desc">Loaldiaren iraupena %1$s, loaldiaren kalitatea: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Erloju horizontala</string>
     <string name="humidity_format">Hezetasuna %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +274,23 @@ EE"</string>
     <string name="keyguard_shortcut_tab_right">Eskuina</string>
     <string name="keyguard_shortcut_title">Lasterbideak</string>
     <string name="kg_activity_label">Blokeo pantaila editatu</string>
+    <string name="kg_allinone_drag_bottom">Arrastatu erlojuaren behealdea altuera doitzeko</string>
+    <string name="kg_allinone_drag_corner">Arrastatu erlojuaren beheko eskuineko izkina tamaina aldatzeko</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Biribildua)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Karratua)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Letra-tipo honek ez ditu eskema-estiloak onartzen</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Uneko letra-tipoaren estiloak, tamainak eta lodierak ez dituzte eskema-estiloak onartzen</string>
+    <string name="kg_allinone_hollow_style_both">Orduak eta minutuak: Azalduta</string>
+    <string name="kg_allinone_hollow_style_hour">Orduak: Marraztuta. Minutuak: Finkoa.</string>
+    <string name="kg_allinone_hollow_style_minute">Orduak: Finkoa. Minutuak: Marraztuta.</string>
+    <string name="kg_allinone_hollow_style_none">Orduak eta minutuak: Finkoa</string>
+    <string name="kg_allinone_hollow_style_title">Eskema estiloa</string>
+    <string name="kg_allinone_transparency_name">Erlojuaren gardentasuna</string>
+    <string name="kg_allinone_transparency_title">Gardentasuna</string>
+    <string name="kg_allinone_weight_title">Letra-tipoaren lodiera</string>
     <string name="kg_aod_settings_depth_video_toast">Pertsonalizaturiko Beti aktibatutako pantaila sakontasun efektua erabiltzen denean bakarrik dago onartuta</string>
     <string name="kg_apply">Ezarri</string>
     <string name="kg_apply_dialog_desktop_preview">Hasierako pantailaren aurrebista</string>
@@ -330,9 +363,13 @@ EE"</string>
     <string name="kg_color_value_editor_lightness">Distira</string>
     <string name="kg_color_value_editor_saturation">Saturazioa</string>
     <string name="kg_color_value_editor_title">Kolorea editatu</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Ados</string>
     <string name="kg_continue_editing">Editatzen jarraitu</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Pertsonalizatu</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Multzo hau ezabatu?</string>
     <string name="kg_delete_this_collocation_desc">Multzo honen Blokeo pantaila eta Hasierako pantailaren ezarpenak ezabatuko dira. Multzoa ezabatu?</string>
     <string name="kg_depth_preset_button_download">Horma-paper dinamikoa deskargatu</string>
@@ -413,6 +450,7 @@ EE"</string>
     <string name="kg_effects_tip_button">Ulertuta</string>
     <string name="kg_effects_tip_desc">Eremuaren sakontasuna ezin da filtroekin konbinatu. Bat erabiltzeak bestea ordezkatuko du.</string>
     <string name="kg_effects_tip_not_support">Ezin zaizkie efektuak ezarri horma-paper dinamikoei</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Kristalezko erlojuak ez ditu efektuak onartzen</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Hirugarrenen horma-paperek ez dituzte efektuak onartzen</string>
     <string name="kg_effects_tip_title">Eremuaren sakontasuna eta filtroak</string>
     <string name="kg_enable_blur">Mate efektua</string>
@@ -437,6 +475,8 @@ EE"</string>
     <string name="kg_font_filter_color_white">Zuria</string>
     <string name="kg_font_filter_doodle_primary_label">Zirriborroa</string>
     <string name="kg_font_filter_doodle_secondary_label">Atzeko planoa</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Lausotu eta nahastu</string>
+    <string name="kg_font_filter_group_label_glass">Kristala</string>
     <string name="kg_font_filter_group_label_glow">Distira</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradientea</string>
     <string name="kg_font_filter_group_label_obscure">Nahasia</string>
@@ -530,6 +570,8 @@ EE"</string>
     <string name="kg_oversize_clock_type_bold">Lodia</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Ingerada</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Aukeratu berriz</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif lodia</string>
     <string name="kg_rhombus_clock_type_brush_font">Brotxa</string>
@@ -579,15 +621,19 @@ EE"</string>
     <string name="kg_talkback_pick_wallpaper">Horma papera, liburutegitik aukeratu</string>
     <string name="kg_talkback_select_all">Hautatu guztiak</string>
     <string name="kg_talkback_selected">Aukeratuta</string>
+    <string name="kg_talkback_slide_up_or_down">Irristatu gora edo behera doitzeko</string>
     <string name="kg_talkback_unselect_all">Desaukeratu guztiak</string>
     <string name="kg_template_description_car">Teknologiak edertasuna elkartzen duen lekua: harrapatu etorkizunaren abiadura desblokeo bakoitzarekin.</string>
     <string name="kg_template_description_classic">Klasikoak beti egongo dira modan.</string>
     <string name="kg_template_description_eastern_art">Ekialdeko elementuen interpretazio garaikidea erakustea, simetria klasikoa, maketazio bertikal bereizgarria eta adierazpen kaligrafikoa erabiliz</string>
     <string name="kg_template_description_magazine">Zure Blokeo pantailari aldizkari itxura eman iezaiozu.</string>
+    <string name="kg_template_description_magazine_natural">Paisaia naturalak geruza anitzeko ikusmenekin uztartzen dituen erloju estiloa, itxura findu eta adierazkorra lortzeko.</string>
     <string name="kg_template_description_rhombus">Denbora garrantzitsua da. Aprobetxa ezazu.</string>
     <string name="kg_template_preview_content_description">Aurrebista</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Erloju handia A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Erloju handia B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Erloju handia C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Erloju handia D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klasikoa</string>
     <string name="kg_template_title_classic_max_talkback">Blokeo pantaila Klasikoa MAX</string>
@@ -607,6 +653,7 @@ EE"</string>
     <string name="kg_template_title_magazine_b_talkback">B Aldizkaria</string>
     <string name="kg_template_title_magazine_c_one_talkback">C aldizkaria, eskematua</string>
     <string name="kg_template_title_magazine_c_three_talkback">C aldizkaria, hiru lerrokoa</string>
+    <string name="kg_template_title_magazine_natural">Naturaren bisualak</string>
     <string name="kg_template_title_magazine_phone">Jendea</string>
     <string name="kg_template_title_mine">Pantaila blokeatu</string>
     <string name="kg_template_title_mine_collocation">Nire sortak</string>
@@ -747,6 +794,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Pantaila erdira aldatu</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Handiagotu</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Txikiagotu</string>
+    <string name="miuix_popup_show_description">Pop-up leihoa</string>
     <string name="miuix_popup_window_default_title">Pop-up leihoa</string>
     <string name="miuix_progressbar_loading">Kargatzen</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Egin behera freskatzeko</string>
@@ -805,6 +853,7 @@ mm"</string>
     <string name="morning">Goiza</string>
     <string name="my_style_title">Nire gaia</string>
     <string name="night">Eguzki-sarrera</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Eguerdia</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Pultsua (Gorria)</string>
@@ -840,6 +889,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Denboraldi aktiboa: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Antolatua</string>
     <string name="scheduled_style_summary">Ezarri iraupen pertsonalizatua</string>
     <string name="scope_des">Kaleidoskopio bakoitzak 5 patroi ezberdinak ditu, pantaila aktibatzerakoan segidan erakusten direnak.</string>
@@ -848,6 +898,7 @@ mm"</string>
     <string name="select_notification_animation_style">Aukeratu efektu espezial bat</string>
     <string name="select_notification_notify_style">Aukeratu jakinarazpen efektua</string>
     <string name="send">Bidali</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Desaktibatuta</string>
     <string name="settings_view_btn_check_on">Aktibatuta</string>
     <string name="settings_view_btn_stoped">Desaktibatuta</string>

@@ -37,6 +37,9 @@
     <string name="aod_app_name">Nunawa na kullum kunne da Editan allon kulle</string>
     <string name="aod_close_color_inversion">Wannan siffan bai iya hadawa da canzawar kala. Kashe canzawar kala da farko.</string>
     <string name="aod_component">Abubuwan da aka nuna</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Ƙarin zaɓuɓɓuka</string>
     <string name="aod_gradient_1">Launin shuɗi mai haske da til na gangara</string>
     <string name="aod_gradient_10">Ruwan hoda, da gangara ta launin shuni</string>
@@ -88,6 +91,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">Tsara</string>
     <string name="aod_resting_screen_same_to_lock">Daidai da Allon Kulle</string>
     <string name="aod_resting_screen_style_title">Jigo</string>
+    <string name="aod_setting_fold_full_aod_summary">Ana iya amfani da wannan salon ne kawai a allon waje</string>
     <string name="aod_setting_pad_des2">Launin agogo zai yi daidai da na takardar allo waya</string>
     <string name="aod_show_date_and_time">Nuna rana da lokaci</string>
     <string name="aod_show_mode_title_des_pad">Ko da yaushe ya nuna lokacin caji</string>
@@ -148,6 +152,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">Wannan jigon na nuna canjin fitila kusa da kai a yini. An daidaita jigon fitowar rana da faduwar rana tare wurin da kake.</string>
     <string name="default_clock_style">Kiran da ba a sani ba</string>
     <string name="delete">Share</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Lambobi</string>
     <string name="disable_aod_in_power_save_mode">Kashe idan tanadin batir na kashe</string>
     <string name="disable_aod_in_power_save_mode_summary">Kar a nuna abubuwa don tananda karfin batir</string>
@@ -248,6 +256,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">Takawa</string>
     <string name="health_no_data">Babu bayanan lafiya</string>
     <string name="health_sleep_desc">Tsawon lokacin bacci %1$s, kyaun bacci: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Agogon kwance</string>
     <string name="humidity_format">Danshi %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -258,6 +273,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">Dama</string>
     <string name="keyguard_shortcut_title">Gajerar hanya</string>
     <string name="kg_activity_label">Gyara Allon kule</string>
+    <string name="kg_allinone_drag_bottom">Ja ƙasan agogon don daidaita tsayinsa</string>
+    <string name="kg_allinone_drag_corner">Ja kusurwar dama ta ƙasan agogon don gyara girman agogon</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Zagaye)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">"MiSans (Murabba'i)"</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Wannan rubutun ba ya goyan bayan salon zane</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Salon rubutu na yanzu, girmansa, da nauyinsa ba sa goyon bayan salon zane</string>
+    <string name="kg_allinone_hollow_style_both">Awowi da Mintuna: An tsara</string>
+    <string name="kg_allinone_hollow_style_hour">Awowi: An tsara. Mintuna: Mai ƙarfi.</string>
+    <string name="kg_allinone_hollow_style_minute">Awowi: Mai ƙarfi. Mintuna: An tsara.</string>
+    <string name="kg_allinone_hollow_style_none">Awowi da Mintuna: Mai ƙarfi</string>
+    <string name="kg_allinone_hollow_style_title">Salon zane</string>
+    <string name="kg_allinone_transparency_name">Bayyanar agogo</string>
+    <string name="kg_allinone_transparency_title">Bayyana gaskiya</string>
+    <string name="kg_allinone_weight_title">Nauyin rubutu</string>
     <string name="kg_aod_settings_depth_video_toast">Nunawa na kullum kunne da aka tsara ne kawai ake tallafawa lokacin amfani da yanayin zurfin</string>
     <string name="kg_apply">Sanya</string>
     <string name="kg_apply_dialog_desktop_preview">Duban farko na Allon farko</string>
@@ -330,9 +362,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">Mai haske</string>
     <string name="kg_color_value_editor_saturation">Jikewa</string>
     <string name="kg_color_value_editor_title">Kalan edita</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Ci gaba da gyaran rubutun</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Tsara</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">A share wannan saiti?</string>
     <string name="kg_delete_this_collocation_desc">Wannan saitin Allon kulle da Saittunan Allon farko za a share. A share saitin yanzu?</string>
     <string name="kg_depth_preset_button_download">Sauke takardun allon waya na dainamik</string>
@@ -413,6 +449,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">Na fahimta</string>
     <string name="kg_effects_tip_desc">Ba za a iya haɗa zurfin tasirin filin tare da masu tacewa ba. Yin amfani da ɗaya daga cikinsu zai maye gurbin ɗayan.</string>
     <string name="kg_effects_tip_not_support">Ba za a iya amfani da tasiri zuwa takardun allo na dainamik ba</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Agogon gilashi baya goyan bayan tasirin</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Takardun allo na ɓangare na uku basa goyan bayan tasiri</string>
     <string name="kg_effects_tip_title">Zurfin filin da tacewa</string>
     <string name="kg_enable_blur">Tasirin matte</string>
@@ -437,6 +474,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">Fari</string>
     <string name="kg_font_filter_doodle_primary_label">Zana</string>
     <string name="kg_font_filter_doodle_secondary_label">Bangon waya</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Duhu da Haɗawa</string>
+    <string name="kg_font_filter_group_label_glass">Gilashi</string>
     <string name="kg_font_filter_group_label_glow">Haska</string>
     <string name="kg_font_filter_group_label_gradient_blur">Hawa hawa</string>
     <string name="kg_font_filter_group_label_obscure">Saje</string>
@@ -530,6 +569,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">Kauri</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Shaci</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Sak zaɓi</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif mai kauri</string>
     <string name="kg_rhombus_clock_type_brush_font">Buroshi</string>
@@ -579,15 +620,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">Hoton allo, zaɓi daga ɗakin karatu</string>
     <string name="kg_talkback_select_all">Zabi duka</string>
     <string name="kg_talkback_selected">An zaɓa</string>
+    <string name="kg_talkback_slide_up_or_down">Ja zuwa sama ko ta kasa domin ka daidaita</string>
     <string name="kg_talkback_unselect_all">Cire zabi ma duka</string>
     <string name="kg_template_description_car">Inda fasaha ta haɗu da kyau: kasance daidai da saurin ci gaba a kowace buɗewa.</string>
     <string name="kg_template_description_classic">Abin da ke na gargajiya bai taba fita daga salo ba.</string>
     <string name="kg_template_description_eastern_art">Nuna fassarar zamani na abubuwan Gabas ta amfani da giciye-symmetry na gargajiya, shimfidar wuri na musamman, da maganganun kira</string>
     <string name="kg_template_description_magazine">Juya Allon ku zuwa murfin mujallu.</string>
+    <string name="kg_template_description_magazine_natural">Salon agogo wanda ke haɗa shimfidar wurare na halitta tare da zane-zane masu layi don kyakkyawan kallo mai bayyanawa</string>
     <string name="kg_template_description_rhombus">Lokaci yana da mahimmanci. Sa a cikin kirga.</string>
     <string name="kg_template_preview_content_description">Duban farko</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Babban agogo A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Babban agogo B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Babban agogo C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Babban agogo D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Gargajiya</string>
     <string name="kg_template_title_classic_max_talkback">Allon kulle kilasik MAX</string>
@@ -607,6 +652,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Mujallar B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Mujallar C, an haskaka</string>
     <string name="kg_template_title_magazine_c_three_talkback">Mujallar C, mai layi uku</string>
+    <string name="kg_template_title_magazine_natural">Abubuwan gani na yanayi</string>
     <string name="kg_template_title_magazine_phone">Mutane</string>
     <string name="kg_template_title_mine">Kulle allon</string>
     <string name="kg_template_title_mine_collocation">Saiti na</string>
@@ -747,6 +793,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Canza zuwa allon da aka raba</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Kara girma</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Rage grima</string>
+    <string name="miuix_popup_show_description">Bullowar taga</string>
     <string name="miuix_popup_window_default_title">Bullowar taga</string>
     <string name="miuix_progressbar_loading">A ɗauki</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Jawo zuwa kasa ka wartsake</string>
@@ -805,6 +852,7 @@ mm"</string>
     <string name="morning">Safiya</string>
     <string name="my_style_title">Jigo na</string>
     <string name="night">Maraice</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Da rana</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="notification_anim_pulse">Manuni (ja)</string>
@@ -840,6 +888,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Lokaci mai aiki: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">An tsara</string>
     <string name="scheduled_style_summary">Saita tsara lokaci</string>
     <string name="scope_des">"Dukan kaleidoscope na kunshe da samfur wanda za'a nuna a koda yaushe idan fitilan allo ya haska."</string>
@@ -848,6 +897,7 @@ mm"</string>
     <string name="select_notification_animation_style">Zabi yanayi na musamman</string>
     <string name="select_notification_notify_style">Zabi yanayin sanarwa</string>
     <string name="send">Aika</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Kashe</string>
     <string name="settings_view_btn_check_on">Kunna</string>
     <string name="settings_view_btn_stoped">An kashe</string>
@@ -885,7 +935,7 @@ zai faru"</string>
     <string name="sunset_time_format">Faɗuwar rana %s</string>
     <string name="sunset_time_format_desc">Lokacin faduwar rana: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Juya launi</string>
     <string name="temporary_style">Ma sakan bayan tabawa</string>
     <string name="temporary_style_5">Ma sakan 5 bayan tabawa</string>

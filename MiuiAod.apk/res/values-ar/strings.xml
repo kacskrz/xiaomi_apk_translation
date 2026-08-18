@@ -64,6 +64,9 @@
     <string name="aod_app_name">الشاشة الدائمة ومحرر قفل الشاشة</string>
     <string name="aod_close_color_inversion">لا يمكن دمج هذه الميزة مع عكس الألوان. قم بإيقاف تشغيل عكس الألوان أولاً.</string>
     <string name="aod_component">العناصر المعروضة</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">مزيد من الخيارات</string>
     <string name="aod_gradient_1">تدرج اللون الأزرق الفاتح والأزرق المخضر</string>
     <string name="aod_gradient_10">تدرج اللون الوردي والبرتقالي والأرجواني</string>
@@ -115,6 +118,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">تخصيص</string>
     <string name="aod_resting_screen_same_to_lock">نفس نمط شاشة القفل</string>
     <string name="aod_resting_screen_style_title">الثيمات</string>
+    <string name="aod_setting_fold_full_aod_summary">لا يمكن استخدام هذا النمط إلا على الشاشة الخارجية</string>
     <string name="aod_setting_pad_des2">سوف يتطابق لون الساعة مع لون ورق الحائط الخاص بك</string>
     <string name="aod_show_date_and_time">عرض التاريخ والوقت</string>
     <string name="aod_show_mode_title_des_pad">إظهار دائمًا عند الشحن</string>
@@ -139,6 +143,8 @@ dd/MM"</string>
     <string name="bottomsheet_drag_handle_clicked">تم النقر مرّتين على مقبض السحب.</string>
     <string name="bottomsheet_drag_handle_content_description">مقبض السحب</string>
     <string name="btn_know">حسنا</string>
+    <string name="calendar_date_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="calendar_date_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
     <string name="call_notification_answer_action">ردّ</string>
     <string name="call_notification_answer_video_action">فيديو</string>
     <string name="call_notification_decline_action">رفض</string>
@@ -186,6 +192,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">يعكس هذا الثيم التغيرات في الإضاءة التي تحدث خلال اليوم. تتم مزامنة شروق الشمس وغروبها ايضا في هذا الثيم مع موقعك.</string>
     <string name="default_clock_style">قرص غير معروف</string>
     <string name="delete">حذف</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">ساعات رقمية</string>
     <string name="disable_aod_in_power_save_mode">أوقف التشغيل عندما يكون موفر البطارية مشغل</string>
     <string name="disable_aod_in_power_save_mode_summary">عدم عرض العناصر لتوفير الطاقة</string>
@@ -290,6 +300,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">الخطوات</string>
     <string name="health_no_data">لا توجد بيانات صحية</string>
     <string name="health_sleep_desc">مدة النوم: %1$s | جودة النوم: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">الساعة الأفقية</string>
     <string name="humidity_format">الرطوبة %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">يمين</string>
     <string name="keyguard_shortcut_title">الاختصارات</string>
     <string name="kg_activity_label">تعديل شاشة القفل</string>
+    <string name="kg_allinone_drag_bottom">اسحب الجزء السفلي من الساعة لضبط ارتفاعها</string>
+    <string name="kg_allinone_drag_corner">اسحب الزاوية السفلية اليمنى من الساعة لتغيير حجمها</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (هيتي)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (مستدير)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (مربع)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">لا يدعم هذا الخط أنماط الخطوط الخارجية</string>
+    <string name="kg_allinone_hollow_not_support_current_style">لا يدعم نمط الخط وحجمه ووزنه الحالي أنماط الخطوط الخارجية</string>
+    <string name="kg_allinone_hollow_style_both">الساعات والدقائق: مفصلة</string>
+    <string name="kg_allinone_hollow_style_hour">الساعات: محددة. الدقائق: متصلة.</string>
+    <string name="kg_allinone_hollow_style_minute">الساعات: متصلة. الدقائق: محددة.</string>
+    <string name="kg_allinone_hollow_style_none">الساعات والدقائق: ثابتة</string>
+    <string name="kg_allinone_hollow_style_title">نمط الخطوط العريضة</string>
+    <string name="kg_allinone_transparency_name">شفافية الساعة</string>
+    <string name="kg_allinone_transparency_title">شفافية الصوت</string>
+    <string name="kg_allinone_weight_title">سمك الخط</string>
     <string name="kg_aod_settings_depth_video_toast">يتم دعم الشاشة الدائمة المخصصة فقط عند استخدام تأثير العمق</string>
     <string name="kg_apply">تطبيق</string>
     <string name="kg_apply_dialog_desktop_preview">معاينة الشاشة الرئيسية</string>
@@ -374,9 +408,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">السطوع</string>
     <string name="kg_color_value_editor_saturation">صفاء اللون</string>
     <string name="kg_color_value_editor_title">تعديل اللون</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">موافق</string>
     <string name="kg_continue_editing">الاستمرار بالتعديل</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">تخصيص</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">هل تريد حذف هذه المجموعة؟</string>
     <string name="kg_delete_this_collocation_desc">سيتم حذف إعدادات شاشة القفل والشاشة الرئيسية لهذه المجموعة. هل تريد حذف المجموعة الآن؟</string>
     <string name="kg_depth_preset_button_download">تحميل خلفية ديناميكية</string>
@@ -457,6 +495,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">حسنا</string>
     <string name="kg_effects_tip_desc">لا يمكن دمج تأثير عمق المجال مع الفلاتر. استخدام أحدهما سيؤدي إلى استبدال الآخر.</string>
     <string name="kg_effects_tip_not_support">لا يمكن تطبيق التأثيرات على الخلفيات الديناميكية</string>
+    <string name="kg_effects_tip_not_support_glass_filter">لا تدعم الساعة الزجاجية المؤثرات</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">لا تدعم خلفيات الجهات الخارجية التأثير</string>
     <string name="kg_effects_tip_title">عمق المجال والمرشحات</string>
     <string name="kg_enable_blur">تأثير مطفي</string>
@@ -481,6 +520,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">أبيض</string>
     <string name="kg_font_filter_doodle_primary_label">رسم</string>
     <string name="kg_font_filter_doodle_secondary_label">الخلفية</string>
+    <string name="kg_font_filter_group_label_BlurObscure">طمس ومزج</string>
+    <string name="kg_font_filter_group_label_glass">زجاج</string>
     <string name="kg_font_filter_group_label_glow">متوهج</string>
     <string name="kg_font_filter_group_label_gradient_blur">منحنيات</string>
     <string name="kg_font_filter_group_label_obscure">مزيج</string>
@@ -574,6 +615,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">غامق</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">إطار</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">حدد مجدداً</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">سميك serif</string>
     <string name="kg_rhombus_clock_type_brush_font">فرشاة</string>
@@ -623,15 +666,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">اختيار خلفية من المعرض</string>
     <string name="kg_talkback_select_all">تحديد الكل</string>
     <string name="kg_talkback_selected">محدد</string>
+    <string name="kg_talkback_slide_up_or_down">اسحب لأعلى أو لأسفل لضبط الإعدادات</string>
     <string name="kg_talkback_unselect_all">إلغاء تحديد الكل</string>
     <string name="kg_template_description_car">حيث تلتقي التكنولوجيا بالجمال: التقط سرعة المستقبل مع كل عملية فتح.</string>
     <string name="kg_template_description_classic">الكلاسيكي ابدا لا تنتهي موضته.</string>
     <string name="kg_template_description_eastern_art">عرض تفسير معاصر للعناصر الشرقية باستخدام التناظر المتقاطع الكلاسيكي والتخطيط الرأسي المميز والتعبير الخطي</string>
     <string name="kg_template_description_magazine">تحويل شاشة القفل إلى غلاف مجلة.</string>
+    <string name="kg_template_description_magazine_natural">تصميم ساعة يجمع بين المناظر الطبيعية والصور المتراكبة لإطلالة راقية ومعبرة.</string>
     <string name="kg_template_description_rhombus">الوقت مهم. اجعلها ذات قيمة.</string>
     <string name="kg_template_preview_content_description">معاينة</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">الساعة الكبيرة A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">ساعة كبيرة</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">ساعة كبيرة C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">ساعة كبيرة D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">كلاسيكي</string>
     <string name="kg_template_title_classic_max_talkback">شاشة القفل الكلاسيكية MAX</string>
@@ -651,6 +698,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">مجلة B</string>
     <string name="kg_template_title_magazine_c_one_talkback">مجلة C، الموضحة</string>
     <string name="kg_template_title_magazine_c_three_talkback">مجلة C، ذات خطوط ثلاثية</string>
+    <string name="kg_template_title_magazine_natural">صور الطبيعة</string>
     <string name="kg_template_title_magazine_phone">الأشخاص</string>
     <string name="kg_template_title_mine">قفل الشاشة</string>
     <string name="kg_template_title_mine_collocation">مجموعاتي</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">التبديل إلى نصف الشاشة</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">تكبير</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">تصغير</string>
+    <string name="miuix_popup_show_description">نافذة منبثقة</string>
     <string name="miuix_popup_window_default_title">نافذة منبثقة</string>
     <string name="miuix_progressbar_loading">تحميل</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">اسحب لأسفل للتحديث</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">حسنًا</string>
     <string name="my_style_title">مكتبتي</string>
     <string name="night">المساء</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">الظهر</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">لم يتمّ تحديد قيمة.</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">H:mm</string>
     <string name="scheduled_mode_msg">وقت العرض: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">مجدول</string>
     <string name="scheduled_style_summary">تعيين وقت مخصص</string>
     <string name="scope_des">كل مشكال يحتوي على ٥ أنماط مختلفة، حيث سيتم عرضها في كل مرة عندما تضيء الشاشة.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">تحديد تأثير خاص</string>
     <string name="select_notification_notify_style">حدد تأثير الإشعار</string>
     <string name="send">مشاركة</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">متوقف</string>
     <string name="settings_view_btn_check_on">مشغل</string>
     <string name="settings_view_btn_stoped">تم إيقافه</string>
@@ -995,7 +1047,7 @@ mm"</string>
     <string name="sunset_time_format">الغروب %s</string>
     <string name="sunset_time_format_desc">وقت الغروب: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">عكس الألوان</string>
     <string name="temporary_style">لمدة ١٠ ثواني بعد نقر الشاشة</string>
     <string name="temporary_style_5">لمدة ٥ ثواني بعد نقر الشاشة</string>

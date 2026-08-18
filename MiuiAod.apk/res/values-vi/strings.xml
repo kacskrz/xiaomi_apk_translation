@@ -64,6 +64,9 @@
     <string name="aod_app_name">Luôn luôn hiển thị và trình chỉnh sửa Màn hình khóa</string>
     <string name="aod_close_color_inversion">Tính năng này không thể kết hợp với đảo màu. Tắt đảo màu trước.</string>
     <string name="aod_component">Mục hiển thị</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Thêm tùy chọn</string>
     <string name="aod_gradient_1">Dốc màu xanh lam nhạt và xanh mòng két</string>
     <string name="aod_gradient_10">Dốc màu hồng, cam và tím</string>
@@ -115,6 +118,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">Tùy chỉnh</string>
     <string name="aod_resting_screen_same_to_lock">Giống như Màn hình khóa</string>
     <string name="aod_resting_screen_style_title">Chủ đề</string>
+    <string name="aod_setting_fold_full_aod_summary">Kiểu này chỉ có thể được sử dụng trên màn hình ngoài</string>
     <string name="aod_setting_pad_des2">Màu sắc của đồng hồ sẽ khớp với hình nền của bạn</string>
     <string name="aod_show_date_and_time">Hiển thị ngày và giờ</string>
     <string name="aod_show_mode_title_des_pad">Luôn hiển thị khi sạc</string>
@@ -139,6 +143,8 @@ dd/MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Đã nhấn đúp nút kéo</string>
     <string name="bottomsheet_drag_handle_content_description">Nút kéo</string>
     <string name="btn_know">Tôi biết</string>
+    <string name="calendar_date_picker_a11y_next_month">Chuyển sang tháng tiếp theo</string>
+    <string name="calendar_date_picker_a11y_prev_month">Chuyển về tháng trước</string>
     <string name="call_notification_answer_action">Trả lời</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Từ chối</string>
@@ -186,6 +192,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">Chủ đề này phản ánh những thay đổi ánh sáng xảy ra xung quanh bạn vào ban ngày. Bình minh và hoàng hôn được đồng bộ với vị trí của bạn.</string>
     <string name="default_clock_style">Quay số không xác định</string>
     <string name="delete">Xóa</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Kỹ thuật số</string>
     <string name="disable_aod_in_power_save_mode">Tắt khi Tiết kiệm pin bật</string>
     <string name="disable_aod_in_power_save_mode_summary">Không hiển thị các mục để tiết kiệm pin</string>
@@ -290,6 +300,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">Bước</string>
     <string name="health_no_data">Không có dữ liệu sức khỏe</string>
     <string name="health_sleep_desc">Thời lượng ngủ %1$s, chất lượng giấc ngủ: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Đồng hồ ngang</string>
     <string name="humidity_format">Độ ẩm %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +319,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">Phải</string>
     <string name="keyguard_shortcut_title">Lối tắt</string>
     <string name="kg_activity_label">Sửa Màn hình khóa</string>
+    <string name="kg_allinone_drag_bottom">Kéo phần dưới của đồng hồ để điều chỉnh chiều cao</string>
+    <string name="kg_allinone_drag_corner">Kéo góc dưới bên phải của đồng hồ để thay đổi kích thước.</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Bo tròn)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Vuông)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Phông chữ này không hỗ trợ kiểu đường viền</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Kiểu phông chữ, kích thước và độ đậm nhạt hiện tại không hỗ trợ kiểu đường viền</string>
+    <string name="kg_allinone_hollow_style_both">Giờ và phút: Đường viền</string>
+    <string name="kg_allinone_hollow_style_hour">Giờ: Đường viền. Phút: Đặc.</string>
+    <string name="kg_allinone_hollow_style_minute">Giờ: Đặc. Phút: Đường viền.</string>
+    <string name="kg_allinone_hollow_style_none">Giờ và phút: Đặc</string>
+    <string name="kg_allinone_hollow_style_title">Kiểu đường viền</string>
+    <string name="kg_allinone_transparency_name">Độ trong suốt của đồng hồ</string>
+    <string name="kg_allinone_transparency_title">Trong suốt</string>
+    <string name="kg_allinone_weight_title">Độ đậm nhạt</string>
     <string name="kg_aod_settings_depth_video_toast">Chỉ hỗ trợ Luôn luôn hiển thị tùy chỉnh khi sử dụng hiệu ứng chiều sâu</string>
     <string name="kg_apply">Áp dụng</string>
     <string name="kg_apply_dialog_desktop_preview">Xem trước Màn hình chính</string>
@@ -374,9 +408,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">Độ sáng</string>
     <string name="kg_color_value_editor_saturation">Độ bão hòa</string>
     <string name="kg_color_value_editor_title">Sửa màu</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_continue_editing">Tiếp tục chỉnh sửa</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Tùy chỉnh</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Xóa bộ này?</string>
     <string name="kg_delete_this_collocation_desc">Cài đặt Màn hình khóa và Màn hình chính của bộ này sẽ bị xóa. Xóa bộ ngay?</string>
     <string name="kg_depth_preset_button_download">Tải xuống hình nền động</string>
@@ -457,6 +495,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">Tôi biết</string>
     <string name="kg_effects_tip_desc">Không thể kết hợp độ sâu trường ảnh với bộ lọc. Sử dụng cái này sẽ thay thế cái kia.</string>
     <string name="kg_effects_tip_not_support">Không thể áp dụng hiệu ứng cho hình nền động</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Đồng hồ kính không hỗ trợ hiệu ứng</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Hình nền của bên thứ ba không hỗ trợ hiệu ứng</string>
     <string name="kg_effects_tip_title">Độ sâu trường ảnh và bộ lọc</string>
     <string name="kg_enable_blur">Hiệu ứng mờ</string>
@@ -481,6 +520,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">Trắng</string>
     <string name="kg_font_filter_doodle_primary_label">Vẽ nguệch ngoạc</string>
     <string name="kg_font_filter_doodle_secondary_label">Nền</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Nhòe và pha trộn</string>
+    <string name="kg_font_filter_group_label_glass">Kính</string>
     <string name="kg_font_filter_group_label_glow">Rực sáng</string>
     <string name="kg_font_filter_group_label_gradient_blur">Dốc màu</string>
     <string name="kg_font_filter_group_label_obscure">Pha trộn</string>
@@ -574,6 +615,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">Đậm</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Đường viền</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Chọn lại</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Serif đậm</string>
     <string name="kg_rhombus_clock_type_brush_font">Cọ vẽ</string>
@@ -623,15 +666,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">Hình nền, chọn từ thư viện</string>
     <string name="kg_talkback_select_all">Chọn tất cả</string>
     <string name="kg_talkback_selected">Đã chọn</string>
+    <string name="kg_talkback_slide_up_or_down">Trượt lên hoặc xuống để điều chỉnh</string>
     <string name="kg_talkback_unselect_all">Bỏ chọn tất cả</string>
     <string name="kg_template_description_car">Nơi công nghệ giao thoa với vẻ đẹp: nắm bắt tốc độ của tương lai với mỗi lần mở khóa.</string>
     <string name="kg_template_description_classic">Cổ điển không bao giờ lỗi mốt.</string>
     <string name="kg_template_description_eastern_art">Thể hiện cách diễn giải đương đại về các yếu tố phương Đông bằng cách sử dụng đối xứng giao thoa cổ điển, bố cục dọc đặc trưng và biểu hiện thư pháp</string>
     <string name="kg_template_description_magazine">Biến Màn hình khóa của bạn thành bìa tạp chí.</string>
+    <string name="kg_template_description_magazine_natural">Một kiểu đồng hồ kết hợp phong cảnh thiên nhiên với các lớp hình ảnh tạo nên vẻ ngoài tinh tế và đầy biểu cảm</string>
     <string name="kg_template_description_rhombus">Thời gian là quan trọng. Hãy để mỗi khoảnh khắc đều có giá trị.</string>
     <string name="kg_template_preview_content_description">Xem trước</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Đồng hồ lớn A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Đồng hồ lớn B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Đồng hồ lớn C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Đồng hồ lớn D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Cổ điển</string>
     <string name="kg_template_title_classic_max_talkback">Màn hình khóa cổ điển MAX</string>
@@ -651,6 +698,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Tạp chí B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Tạp chí C, phác thảo</string>
     <string name="kg_template_title_magazine_c_three_talkback">Tạp chí C, ba dòng</string>
+    <string name="kg_template_title_magazine_natural">Hình ảnh thiên nhiên</string>
     <string name="kg_template_title_magazine_phone">Người</string>
     <string name="kg_template_title_mine">Màn hình khóa</string>
     <string name="kg_template_title_mine_collocation">Bộ của tôi</string>
@@ -804,6 +852,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Chuyển sang nửa màn hình</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Phóng to</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Thu nhỏ</string>
+    <string name="miuix_popup_show_description">Cửa sổ nổi</string>
     <string name="miuix_popup_window_default_title">Cửa sổ nổi</string>
     <string name="miuix_progressbar_loading">Đang tải</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Kéo xuống để làm mới</string>
@@ -907,6 +956,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Chủ đề của tôi</string>
     <string name="night">Buổi tối</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Buổi trưa</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Chưa đặt</string>
@@ -945,6 +995,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Thời gian hoạt động: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Theo lịch trình</string>
     <string name="scheduled_style_summary">Đặt thời gian tùy chỉnh</string>
     <string name="scope_des">Mỗi kính vạn hoa chứa 5 mẫu khác nhau sẽ được hiển thị lần lượt mỗi khi màn hình sáng lên.</string>
@@ -956,6 +1007,7 @@ mm"</string>
     <string name="select_notification_animation_style">Chọn hiệu ứng đặc biệt</string>
     <string name="select_notification_notify_style">Chọn hiệu ứng thông báo</string>
     <string name="send">Gửi</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Tắt</string>
     <string name="settings_view_btn_check_on">Bật</string>
     <string name="settings_view_btn_stoped">Đã tắt</string>
@@ -995,7 +1047,7 @@ mm"</string>
     <string name="sunset_time_format">Hoàng hôn %s</string>
     <string name="sunset_time_format_desc">Thời gian mặt trời lặn: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Đảo màu</string>
     <string name="temporary_style">Khoảng 10 giây sau khi chạm</string>
     <string name="temporary_style_5">Khoảng 5 giây sau khi chạm</string>

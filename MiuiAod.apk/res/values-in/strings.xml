@@ -42,6 +42,7 @@
     <string name="add_custom_image">Gambar kustom</string>
     <string name="add_from_local">Pilih gambar</string>
     <string name="afternoon">Siang</string>
+    <string name="air_quality_index_abbreviation">IKU</string>
     <string name="align_center_horizontally">Horizontal dan tengah</string>
     <string name="align_center_vertically">Vertikal dan tengah</string>
     <string name="align_left_horizontally">Horizontal dan rata kiri</string>
@@ -64,6 +65,9 @@
     <string name="aod_app_name">Tampilan selalu aktif (AOD) dan Editor Layar kunci</string>
     <string name="aod_close_color_inversion">Fitur ini tidak dapat digabungkan dengan inversi warna. Matikan inversi warna terlebih dahulu.</string>
     <string name="aod_component">Item yang ditampilkan</string>
+    <string name="aod_failure_reason_invalid_value">Invalid value</string>
+    <string name="aod_failure_reason_not_support">The current device model does not support theme switching.</string>
+    <string name="aod_failure_reason_precondition_not_met">Requirements not met.</string>
     <string name="aod_find_more">Pilihan lainnya</string>
     <string name="aod_gradient_1">Gradien biru muda dan teal</string>
     <string name="aod_gradient_10">Gradien merah muda, jingga dan ungu</string>
@@ -115,6 +119,7 @@ dd/MM"</string>
     <string name="aod_resting_screen_define">Kustom</string>
     <string name="aod_resting_screen_same_to_lock">Sama seperti Layar kunci</string>
     <string name="aod_resting_screen_style_title">Tema</string>
+    <string name="aod_setting_fold_full_aod_summary">Gaya ini hanya dapat digunakan pada layar luar</string>
     <string name="aod_setting_pad_des2">Warna jam akan disesuaikan dengan wallpaper Anda</string>
     <string name="aod_show_date_and_time">Tampilkan tanggal dan waktu</string>
     <string name="aod_show_mode_title_des_pad">Selalu tampilkan saat mengisi daya</string>
@@ -139,6 +144,8 @@ dd/MM"</string>
     <string name="bottomsheet_drag_handle_clicked">Handel geser diketuk dua kali</string>
     <string name="bottomsheet_drag_handle_content_description">Handel geser</string>
     <string name="btn_know">Mengerti</string>
+    <string name="calendar_date_picker_a11y_next_month">Ubah ke bulan berikutnya</string>
+    <string name="calendar_date_picker_a11y_prev_month">Ubah ke bulan sebelumnya</string>
     <string name="call_notification_answer_action">Jawab</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Tolak</string>
@@ -186,6 +193,10 @@ dd/MM"</string>
     <string name="deep_space_planet_des">Tema ini menampilkan perubahan cahaya yang terjadi di sekitar Anda di siang hari. Matahari terbit dan terbenam juga disinkronkan dengan lokasi Anda.</string>
     <string name="default_clock_style">Penunjuk tidak diketahui</string>
     <string name="delete">Hapus</string>
+    <string name="description_aod_display_mode">AOD display mode: style selection, scheduled time range, and battery saver.</string>
+    <string name="description_aod_notification">AOD notification light effect animation style settings.</string>
+    <string name="description_aod_state">AOD main settings: global AOD switch and full-screen theme mode.</string>
+    <string name="description_aod_state_pad">"AOD main settings for this tablet: the global AOD on/off switch and an 'always show when charging' toggle. This tablet has NO separate AOD display-mode page (no style selection / scheduled time); requests to open or jump to an AOD display-mode page are NOT supported on this device."</string>
     <string name="digital_clock">Digital</string>
     <string name="disable_aod_in_power_save_mode">Matikan saat Penghemat baterai dihidupkan</string>
     <string name="disable_aod_in_power_save_mode_summary">Jangan tampilkan item agar dapat menghemat baterai</string>
@@ -290,6 +301,13 @@ dd/MM"</string>
     <string name="health_chart_step_count_unit">Langkah</string>
     <string name="health_no_data">Tidak ada data kesehatan</string>
     <string name="health_sleep_desc">Durasi tidur %1$s, kualitas tidur: %2$s</string>
+    <string name="hint_text_aod_battery_saver">Boolean. When true, AOD is automatically disabled during Battery Saver mode.</string>
+    <string name="hint_text_aod_charging_always">"Boolean (tablet only). The 'always show when charging' toggle. When true, AOD stays on while charging; when false, AOD shows only when looking at the screen. Requires AOD_SWITCH enabled. This is NOT a display-mode page and does not support jumping to one."</string>
+    <string name="hint_text_aod_display_items_scheduled">Schedule time range for AOD.Format: startTime:HH:mm,endTime:HH:mm. Omit value to keep current. Range: 00:00 to 23:59. Requires AOD enabled and scheduled mode active.</string>
+    <string name="hint_text_aod_display_items_style">AOD display mode. Values: 0=temporary(10s after tap), 1=scheduled, 2=always, 3=smart. Requires AOD_SWITCH enabled.</string>
+    <string name="hint_text_aod_fullscreen">AOD fullscreen theme style. Values: 0=custom, 1=same as lock screen.</string>
+    <string name="hint_text_aod_notification">It contains animation effect for AOD.</string>
+    <string name="hint_text_aod_switch">Boolean. Global AOD toggle. All other AOD settings depend on this being enabled.</string>
     <string name="horizontal_clock">Jam horizontal</string>
     <string name="humidity_format">Kelembapan %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -302,6 +320,23 @@ dd/MM"</string>
     <string name="keyguard_shortcut_tab_right">Kanan</string>
     <string name="keyguard_shortcut_title">Pintasan</string>
     <string name="kg_activity_label">Ubah Layar kunci</string>
+    <string name="kg_allinone_drag_bottom">Seret bagian bawah jam untuk menyesuaikan tingginya</string>
+    <string name="kg_allinone_drag_corner">Seret sudut kanan bawah jam untuk mengubah ukuran</string>
+    <string name="kg_allinone_font_type_MiHaus">MiHaus</string>
+    <string name="kg_allinone_font_type_MiSans_RC">MiSans (Heiti)</string>
+    <string name="kg_allinone_font_type_MiSans_Rounded">MiSans (Bulat)</string>
+    <string name="kg_allinone_font_type_MiSans_Square">MiSans (Kotak)</string>
+    <string name="kg_allinone_font_type_MiSerif">Serif</string>
+    <string name="kg_allinone_hollow_not_support_current_font">Font ini tidak mendukung gaya outline</string>
+    <string name="kg_allinone_hollow_not_support_current_style">Gaya, ukuran, dan ketebalan font saat ini tidak mendukung gaya outline</string>
+    <string name="kg_allinone_hollow_style_both">Jam dan menit: Outline</string>
+    <string name="kg_allinone_hollow_style_hour">Jam: Outline. Menit: Solid</string>
+    <string name="kg_allinone_hollow_style_minute">Jam: Solid. Menit: Outline.</string>
+    <string name="kg_allinone_hollow_style_none">Jam dan menit: Solid</string>
+    <string name="kg_allinone_hollow_style_title">Gaya outline</string>
+    <string name="kg_allinone_transparency_name">Transparansi jam</string>
+    <string name="kg_allinone_transparency_title">Transparansi</string>
+    <string name="kg_allinone_weight_title">Tebal tipis huruf</string>
     <string name="kg_aod_settings_depth_video_toast">Hanya Tampilan selalu aktif (AOD) kustom yang didukung saat menggunakan efek kedalaman</string>
     <string name="kg_apply">Terapkan</string>
     <string name="kg_apply_dialog_desktop_preview">Pratinjau Layar utama</string>
@@ -374,9 +409,13 @@ dd/MM"</string>
     <string name="kg_color_value_editor_lightness">Kecerahan</string>
     <string name="kg_color_value_editor_saturation">Saturasi</string>
     <string name="kg_color_value_editor_title">Ubah warna</string>
+    <string name="kg_common_home_screen_summary">Enter the home screen edit mode to customize the home screen wallpaper and blur effect.</string>
+    <string name="kg_common_lock_screen_summary">Enter the lock screen edit mode. Open the MiuiAod system personalization lock screen editor to customize lock screen wallpaper, clock style, fonts, shortcuts, and widgets.</string>
     <string name="kg_confirm">Oke</string>
     <string name="kg_continue_editing">Terus mengubah</string>
+    <string name="kg_cross_building_summary">Access the lock style to display preset lock screen styles in the cross grid.</string>
     <string name="kg_customize">Kustomisasi</string>
+    <string name="kg_customize_lock_screen_summary">Access the lock screen editor. Open the MiuiAod lock screen style page and enter the lock screen style editor for customizing wallpaper, clock, fonts, shortcuts, and widgets.</string>
     <string name="kg_delete_this_collocation">Hapus set ini?</string>
     <string name="kg_delete_this_collocation_desc">Setelan Layar utama dan Layar kunci set ini akan dihapus. Hapus set sekarang?</string>
     <string name="kg_depth_preset_button_download">Unduh wallpaper dinamis</string>
@@ -457,6 +496,7 @@ dd/MM"</string>
     <string name="kg_effects_tip_button">Mengerti</string>
     <string name="kg_effects_tip_desc">Efek kedalaman bidang tidak dapat digabungkan dengan filter. Menggunakan salah satunya akan menggantikan yang lain.</string>
     <string name="kg_effects_tip_not_support">Tidak dapat menerapkan efek ke wallpaper dinamis</string>
+    <string name="kg_effects_tip_not_support_glass_filter">Jam kaca tidak mendukung efek</string>
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Wallpaper pihak ketiga tidak mendukung efek</string>
     <string name="kg_effects_tip_title">Kedalaman bidang dan filter</string>
     <string name="kg_enable_blur">Efek matte</string>
@@ -481,6 +521,8 @@ dd/MM"</string>
     <string name="kg_font_filter_color_white">Putih</string>
     <string name="kg_font_filter_doodle_primary_label">Corat-coret</string>
     <string name="kg_font_filter_doodle_secondary_label">Latar belakang</string>
+    <string name="kg_font_filter_group_label_BlurObscure">Blur dan campur</string>
+    <string name="kg_font_filter_group_label_glass">Kaca</string>
     <string name="kg_font_filter_group_label_glow">Bersinar</string>
     <string name="kg_font_filter_group_label_gradient_blur">Gradien</string>
     <string name="kg_font_filter_group_label_obscure">Campuran</string>
@@ -574,6 +616,8 @@ dd/MM"</string>
     <string name="kg_oversize_clock_type_bold">Tebal</string>
     <string name="kg_oversize_clock_type_serif_font">Serif</string>
     <string name="kg_oversize_clock_type_stroke">Outline</string>
+    <string name="kg_pop_clock_font_filter_dialog_summary">Access the wallpaper font filter dialog for changing the lock screen clock font.</string>
+    <string name="kg_pop_wall_paper_dialog_summary">Access the wallpaper dialog for changing the lock screen wallpaper.</string>
     <string name="kg_resource_re_choose">Pilih lagi</string>
     <string name="kg_rhombus_clock_type_bold_serif_font">Bold serif</string>
     <string name="kg_rhombus_clock_type_brush_font">Brush</string>
@@ -623,15 +667,19 @@ dd/MM"</string>
     <string name="kg_talkback_pick_wallpaper">Wallpaper, pilih dari library</string>
     <string name="kg_talkback_select_all">Pilih semua</string>
     <string name="kg_talkback_selected">Terpilih</string>
+    <string name="kg_talkback_slide_up_or_down">Geser ke atas atau ke bawah untuk mengatur</string>
     <string name="kg_talkback_unselect_all">Batal pilih semua</string>
     <string name="kg_template_description_car">Ketika teknologi berpadu dengan keindahan: rasakan kecepatan masa depan setiap kali perangkat dibuka.</string>
     <string name="kg_template_description_classic">Apapun yang klasik tidak lekang oleh waktu.</string>
     <string name="kg_template_description_eastern_art">Menampilkan interpretasi kontemporer elemen Timur menggunakan simetri silang klasik, susunan vertikal yang khas, dan ekspresi kaligrafi</string>
     <string name="kg_template_description_magazine">Ubah Layar kunci menjadi sampul majalah.</string>
+    <string name="kg_template_description_magazine_natural">Gaya jam yang memadukan lanskap alam dengan visual berlapis untuk tampilan yang elegan dan ekspresif</string>
     <string name="kg_template_description_rhombus">Waktu itu penting. Hargai tiap detiknya.</string>
     <string name="kg_template_preview_content_description">Pratinjau</string>
     <string name="kg_template_title_Ultra_longtime_a_talkback">Jam besar A</string>
     <string name="kg_template_title_Ultra_longtime_b_talkback">Jam besar B</string>
+    <string name="kg_template_title_Ultra_longtime_c_talkback">Jam besar C</string>
+    <string name="kg_template_title_Ultra_longtime_d_talkback">Jam besar D</string>
     <string name="kg_template_title_car">Xiaomi EV</string>
     <string name="kg_template_title_classic">Klasik</string>
     <string name="kg_template_title_classic_max_talkback">Layar kunci Klasik MAX</string>
@@ -651,6 +699,7 @@ dd/MM"</string>
     <string name="kg_template_title_magazine_b_talkback">Majalah B</string>
     <string name="kg_template_title_magazine_c_one_talkback">Majalah C, outline</string>
     <string name="kg_template_title_magazine_c_three_talkback">Majalah C, tiga garis</string>
+    <string name="kg_template_title_magazine_natural">Pemandangan alam</string>
     <string name="kg_template_title_magazine_phone">Orang</string>
     <string name="kg_template_title_mine">Kunci layar</string>
     <string name="kg_template_title_mine_collocation">Set saya</string>
@@ -804,6 +853,7 @@ mm"</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Beralih ke setengah layar</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimalkan</string>
     <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimalkan</string>
+    <string name="miuix_popup_show_description">Jendela pop-up</string>
     <string name="miuix_popup_window_default_title">Jendela pop-up</string>
     <string name="miuix_progressbar_loading">Memuat</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tarik ke bawah untuk segarkan</string>
@@ -907,6 +957,7 @@ mm"</string>
     <string name="mtrl_timepicker_confirm">Oke</string>
     <string name="my_style_title">Tema saya</string>
     <string name="night">Malam</string>
+    <string name="no_sensitivity">No Sensitivity</string>
     <string name="noon">Tengah hari</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
     <string name="not_set">Belum disetel</string>
@@ -945,6 +996,7 @@ mm"</string>
     <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
     <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
     <string name="scheduled_mode_msg">Periode aktif: %s</string>
+    <string name="scheduled_possible">startTime:HH:mm,endTime:HH:mm</string>
     <string name="scheduled_style">Terjadwal</string>
     <string name="scheduled_style_summary">Setel waktu kustom</string>
     <string name="scope_des">Setiap kaledoskop terdiri dari 5 pola yang berbeda yang mana akan ditampilkan secara bergilir setiap kali lampu layar hidup.</string>
@@ -956,6 +1008,7 @@ mm"</string>
     <string name="select_notification_animation_style">Pilih efek spesial</string>
     <string name="select_notification_notify_style">Pilih efek notifikasi</string>
     <string name="send">Kirim</string>
+    <string name="sensitivity">Sensitivity</string>
     <string name="settings_view_btn_check_off">Mati</string>
     <string name="settings_view_btn_check_on">Hidup</string>
     <string name="settings_view_btn_stoped">Dimatikan</string>
@@ -995,7 +1048,7 @@ luar biasa akan segera terjadi"</string>
     <string name="sunset_time_format">Terbenam %s</string>
     <string name="sunset_time_format_desc">Terbenam: %s</string>
     <string name="super_wallpaper_date_inter">"EEEE
-dd/M"</string>
+M/dd"</string>
     <string name="talkback_invert_color">Membalikkan warna</string>
     <string name="temporary_style">Selama 10 detik setelah mengetuk</string>
     <string name="temporary_style_5">Selama 5 detik setelah mengetuk</string>
