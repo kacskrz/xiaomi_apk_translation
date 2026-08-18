@@ -35,9 +35,6 @@
     <string name="agree_description">請您同意應用程式連網，取得更完整的功能體驗。</string>
     <string name="ai_recognition_other_speaker">…其他人發言</string>
     <string name="ai_recognize_fail">AI轉寫失敗</string>
-    <string name="ai_recognize_fail_tip">智能總結失敗，請重試</string>
-    <string name="ai_recognize_preference_summary">錄音時自動開啟語音轉文字</string>
-    <string name="ai_watermark">內容為AI生成，僅供參考</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">咪高峰使用中無法錄音</string>
     <string name="airecorder_month_day_hour_minute_format">M月d日 aaah點mm分</string>
     <string name="airecorder_notification_channel_name">錄音</string>
@@ -98,14 +95,12 @@
     <string name="cancel_dialog_negative_button">退出</string>
     <string name="cancel_dialog_positive_button">確定</string>
     <string name="cancel_send">取消傳送？</string>
-    <string name="cant_generate_new_summary_by_account_un_login1">登入小米帳號後可產生摘要，</string>
     <string name="cant_generate_new_summary_by_block_list_error">多次違規，無法產生摘要</string>
     <string name="cant_generate_new_summary_by_language_type_limit">當前語言暫不支援摘要</string>
     <string name="cant_generate_new_summary_by_network_error2">重新生成摘要</string>
     <string name="cant_generate_new_summary_by_sensitive_content">涉及敏感內容，無法產生摘要</string>
     <string name="cant_generate_new_summary_by_unknown_error">生成摘要時發生未知錯誤</string>
     <string name="cant_generate_new_summary_by_word_limit">字數過多或過少，無法產生摘要</string>
-    <string name="cant_generate_summary_by_account_un_login2">去登錄</string>
     <string name="cant_generate_summary_by_network_error1">發生網絡錯誤，</string>
     <string name="character_counter_content_description">已輸入 %1$d 個字元 (共 %2$d 個)</string>
     <string name="character_counter_overflowed_content_description">超出字元限制 %1$d 個字元 (上限 %2$d 個字元)</string>
@@ -125,6 +120,10 @@
     <string name="cloud_status_full_dialog_title">雲空間已滿</string>
     <string name="content_text">內容：%s</string>
     <string name="copy">複製</string>
+    <string name="cta_os4_enable_ai_recognize_positive">開啟</string>
+    <string name="cta_os4_enable_ai_recognize_summary">支援ASR語音識别、智能總結和翻譯等多種AI功能</string>
+    <string name="cta_os4_enable_ai_recognize_title">開啟「AI 識音」？</string>
+    <string name="cta_os4_net_summary">歡迎您使用「錄音機」。本應用程式支援雲端同步錄音、語音轉文字和錄音檔案摘要翻譯等功能。在使用本應用程式的過程中，我們將連網提供必要服務</string>
     <string name="data_connection_body">"溫馨提醒：
 目前處於電信業者網路，下載內容將產生流量費用。"</string>
     <string name="data_connection_button_text">知道了</string>
@@ -223,7 +222,6 @@
     <string name="friday">星期五</string>
     <string name="friday_short">週五</string>
     <string name="friday_shortest">五</string>
-    <string name="generate_new_summary">正在產生摘要…</string>
     <string name="head_set_tip_dialog_msg">插耳機錄音將使用耳機MIC錄音，選擇的場景模式都將失效，建議拔掉耳機錄音。</string>
     <string name="head_set_tip_dialog_ok">我知道了</string>
     <string name="head_set_tip_dialog_title">提醒</string>
@@ -237,7 +235,6 @@
     <string name="invisible_mode_dialog_title">隱身模式已開啟</string>
     <string name="invisible_mode_error_tip">系統已開啟隱身模式，無法使用咪高峰</string>
     <string name="item_view_role_description">分頁</string>
-    <string name="jump_to_more_ai_unit_page">查看更多總結</string>
     <string name="keyguard_shotcuts">建立錄音</string>
     <string name="korea_permission_phone">電話</string>
     <string name="korea_permission_phone_resc">取得電話狀態，用於錄音情況下來電時的交互</string>
@@ -311,6 +308,7 @@
     <string name="miuix_navigator_multiple_choice">多選</string>
     <string name="miuix_navigator_navigator_switch_description">收起側邊欄</string>
     <string name="miuix_navigator_toolbar_screen_bottom">工具列在螢幕底部</string>
+    <string name="miuix_popup_show_description">彈出式視窗</string>
     <string name="miuix_popup_window_default_title">彈出式視窗</string>
     <string name="miuix_progressbar_loading">載入中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">下拉重整</string>
@@ -456,7 +454,6 @@
     <string name="notification_title_AI_SUMMARY_SUCCESS">智能總結成功</string>
     <string name="notification_title_SUMMARY_SUCCESS">智能摘要完成</string>
     <string name="notification_title_all_paused">所有下載已暫停</string>
-    <string name="nrt_asr_complete">AI轉寫完成，點選此訊息重新整理界面</string>
     <string name="offline_data_recognize_content">可進行ASR語音識别、智能摘要和翻譯，您的資料不會被上傳至雲端，但可能對耗電速度、溫度和運作流暢度有影響</string>
     <string name="offline_data_recognize_title">使用端側大模型</string>
     <string name="offline_data_recognize_warning_content">僅在裝置上處理資料，此功能不再可用</string>
@@ -754,10 +751,12 @@
     <string name="recognize_retry_dialog_title">重新轉寫</string>
     <string name="recognize_tip_dialog_message">此功能需語音轉文字後使用</string>
     <string name="recognize_tip_dialog_title">是否進行語音轉文字</string>
+    <string name="recognize_tip_mark_account_un_login">登入小米帳號後，可智能總結標記，(click)去登入(/click)</string>
     <string name="recognize_tip_part_one">錄音未完整轉錄，</string>
     <string name="recognize_tip_part_two">重新轉錄</string>
     <string name="recognize_tip_re_recognize_with_polish">點選(click)重新轉寫(/click)，進行智能潤飾</string>
     <string name="recognize_tip_re_recognize_without_polish">點選(click)重新轉寫(/click)，生成高精度文字</string>
+    <string name="recognize_tip_summary_page_account_un_login">登入小米帳號後可產生要點總結</string>
     <string name="recognize_tip_summary_page_default">轉錄完成後將自動生成要點總結</string>
     <string name="recognize_tip_summary_page_fail">總結生成失敗，請重試</string>
     <string name="recognize_tip_summary_page_login_btn">去登入</string>
@@ -847,9 +846,19 @@
     <string name="saturday_short">週六</string>
     <string name="saturday_shortest">六</string>
     <string name="save_as">另存為</string>
-    <string name="save_record_data_toast">正在儲存…</string>
     <string name="save_record_dialog_title">儲存錄音</string>
+    <string name="search_app">錄音機; LuYinJi</string>
     <string name="search_empty">無此錄音檔案</string>
+    <string name="search_enable_earpiece_title">聽筒模式; TingTongMoShi</string>
+    <string name="search_led_indicator">錄音鎖屏提示; LuYinSuoPingTiShi</string>
+    <string name="search_led_indicator_prompt">鎖屏時是否閃爍呼吸燈和顯示紅色狀態列; SuoPingShiShiFouShanShuoHuXiDengHeXianShiHongSeZhuangTaiLan</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="search_quliaty_title">錄音音質; LuYinYinZhi</string>
+    <string name="search_scenes">場景設定; ChangJingSheZhi</string>
+    <string name="search_silent_mode">錄音時來電靜音; LuYinShiLaiDianJingYin</string>
+    <string name="search_tip_rename">錄音結束後是否提示重新命名; LuYinJieShuHouShiFouTiShiChongMingMing</string>
+    <string name="searchview_clear_text_content_description">清除文字</string>
+    <string name="searchview_navigation_content_description">返回</string>
     <string name="send">傳送</string>
     <string name="settings_ai_record_abstract">摘要</string>
     <string name="settings_ai_record_abstract_description">錄音完智能摘要，總結錄音主題和主要內容，支援儲存至筆記</string>
@@ -877,6 +886,7 @@
     <string name="settings_ai_recorder_title">AI識音</string>
     <string name="settings_saf_permission">授權管理通話等錄音檔案</string>
     <string name="share">分享</string>
+    <string name="share_current_speaker_content">分享當前說話者內容</string>
     <string name="share_dialog_title">分享方式</string>
     <string name="share_origin_text">分享原文</string>
     <string name="share_summary">分享總結</string>
@@ -922,6 +932,15 @@
     <string name="stop_status_focus_notification">錄音已完成</string>
     <string name="storage_permission_dialog_title">請打開裝置儲存空間權限</string>
     <string name="summary">AI摘要</string>
+    <string name="summary_action_add_note">新增筆記待辦</string>
+    <string name="summary_action_assignee_label">責任人</string>
+    <string name="summary_action_deadline_label">截至</string>
+    <string name="summary_action_deliverable_label">交付</string>
+    <string name="summary_basic_info_duration">會議時長</string>
+    <string name="summary_basic_info_location">會議地點</string>
+    <string name="summary_basic_info_participants">與會人</string>
+    <string name="summary_basic_info_time">會議時間</string>
+    <string name="summary_basic_info_title">會議資訊</string>
     <string name="summary_collapsed_preference_list">%1$s、%2$s</string>
     <string name="summary_content_need_deal">待辦</string>
     <string name="summary_content_result_content">主要內容</string>
@@ -929,12 +948,14 @@
     <string name="summary_copy">已複製到剪貼板</string>
     <string name="summary_error_limit_tip">多次違規，功能已被禁用</string>
     <string name="summary_error_tip">涉及敏感內容無法進行AI摘要</string>
+    <string name="summary_golden_moment_speaker_prefix">——%s</string>
     <string name="summary_information_tip">以上由AI大模型生成，可能包含不準確的資料。</string>
     <string name="summary_information_tip_below">以下由AI大模型生成，可能包含不準確的資訊</string>
     <string name="summary_is_generating">正在生成摘要…</string>
     <string name="summary_notification_completed">智能總結完成</string>
     <string name="summary_size_max_tip">超字數上限，無法摘要</string>
     <string name="summary_size_min_tip">字數過少，無法摘要</string>
+    <string name="summary_topic_prefix">議題%s</string>
     <string name="sunday">星期日</string>
     <string name="sunday_short">週日</string>
     <string name="sunday_shortest">日</string>
@@ -989,6 +1010,7 @@
     <string name="toast_exit_silent_mode">錄音結束，靜音模式已關閉</string>
     <string name="toast_for_no_asr_long_time">偵測到長時間無人聲，停止AI識音</string>
     <string name="toast_for_pause_record_long_time">偵測到錄音暫停，停止AI識音</string>
+    <string name="toast_mark_added">已標記%s</string>
     <string name="toast_max_record_time">%1$s應用最大支持約%2$s的錄音附件</string>
     <string name="toast_stop">錄音已完成</string>
     <string name="toast_title_stop_ai_recognize">停止AI識音</string>
@@ -1008,6 +1030,7 @@
     <string name="v7_preference_off">關閉</string>
     <string name="v7_preference_on">開啟</string>
     <string name="view_privacy">檢視私隱政策</string>
+    <string name="voice_enhance_subtitle">功能開啟可能會導致耗電增加</string>
     <string name="wave">聲紋%s</string>
     <string name="webview_data_error">抱歉，目前服務不可用，請稍後重試</string>
     <string name="webview_locating_fail">定位失敗，請檢查位置服務或稍後重試</string>
