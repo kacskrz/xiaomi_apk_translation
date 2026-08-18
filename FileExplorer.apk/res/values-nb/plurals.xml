@@ -64,6 +64,22 @@
         <item quantity="other">" og %1$d mapper?"</item>
         <item quantity="one">" og %1$d mapper?"</item>
     </plurals>
+    <plurals name="delete_message_content">
+        <item quantity="other">Slettede elementer bevares i \"Nylig slettede elementer\" i %1$d dager</item>
+        <item quantity="one">Slettede elementer bevares i \"Nylig slettede elementer\" i %1$d dag</item>
+    </plurals>
+    <plurals name="delete_message_file">
+        <item quantity="other">Slettede filer bevares i \"Nylig slettede elementer\" i %1$d dager</item>
+        <item quantity="one">Slettede filer bevares i \"Nylig slettede elementer\" i %1$d dag</item>
+    </plurals>
+    <plurals name="delete_message_folder">
+        <item quantity="other">Slettede mapper bevares i \"Nylig slettede elementer\" i %1$d dager</item>
+        <item quantity="one">Slettede mapper bevares i \"Nylig slettede elementer\" i %1$d dag</item>
+    </plurals>
+    <plurals name="delete_message_system">
+        <item quantity="other">De slettede elementene inneholder systemfiler. De vil bli flyttet til Nylig slettede elementer og kan gjenopprettes i %1$d dager.</item>
+        <item quantity="one">De slettede elementene inneholder systemfiler. De vil bli flyttet til Nylig slettede elementer og kan gjenopprettes i %1$d dag.</item>
+    </plurals>
     <plurals name="delete_nas_files">
         <item quantity="other">Slette %1$d valgte elementer fra alle enheter og Xiaomi SmartStorage? Du kan gjenopprette nylig slettede elementer i Xiaomi SmartStorage-appen.</item>
         <item quantity="one">Slette %1$d valgt element fra alle enheter og Xiaomi SmartStorage? Du kan gjenopprette nylig slettede elementer i Xiaomi SmartStorage-appen.</item>
@@ -71,6 +87,18 @@
     <plurals name="delete_pc_files">
         <item quantity="other">Slette %2$d filer permanent fra %1$s nå?</item>
         <item quantity="one">Slette %2$d fil permanent fra %1$s nå?</item>
+    </plurals>
+    <plurals name="delete_title_cloud_files">
+        <item quantity="other">Slette %1$d elementer?</item>
+        <item quantity="one">Slette %1$d element?</item>
+    </plurals>
+    <plurals name="delete_title_file">
+        <item quantity="other">Slette %1$d fil?</item>
+        <item quantity="one">Slette %1$d fil?</item>
+    </plurals>
+    <plurals name="delete_title_folder">
+        <item quantity="other">Slette %1$d mapper?</item>
+        <item quantity="one">Slette %1$d mappe?</item>
     </plurals>
     <plurals name="directory_item_count">
         <item quantity="other">%d element</item>
@@ -91,10 +119,6 @@
     <plurals name="file_success_count">
         <item quantity="other">Overførte %s elementer</item>
         <item quantity="one">Overførte %s element</item>
-    </plurals>
-    <plurals name="follow_count">
-        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> følgere</item>
-        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> følger</item>
     </plurals>
     <plurals name="found_new_files">
         <item quantity="other">Fant %1$d nye filer</item>
@@ -164,6 +188,14 @@
         <item quantity="other">%1$s kommentarer</item>
         <item quantity="one">%1$s kommentar</item>
     </plurals>
+    <plurals name="number_of_files">
+        <item quantity="other">%1$d filer</item>
+        <item quantity="one">%1$d fil</item>
+    </plurals>
+    <plurals name="number_of_folders">
+        <item quantity="other">%1$d mapper</item>
+        <item quantity="one">%1$d mappe</item>
+    </plurals>
     <plurals name="original_user_days">
         <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font> dager"</item>
         <item quantity="one">" • &lt;font color=#fc7050>%1$d&lt;/font> dag"</item>
@@ -227,6 +259,38 @@
     <plurals name="total_user_num">
         <item quantity="other">%1$s personer</item>
         <item quantity="one">%1$s person</item>
+    </plurals>
+    <plurals name="trash_file_delete_message">
+        <item quantity="other">%1$s filer vil bli slettet permanent. Slette nå?</item>
+        <item quantity="one">%1$s fil vil bli slettet permanent. Slette nå?</item>
+    </plurals>
+    <plurals name="trash_file_delete_surplus_day">
+        <item quantity="other">%1$d dager</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
+    <plurals name="trash_message">
+        <item quantity="other">Filer beholdes i %1$d dager og slettes deretter permanent</item>
+        <item quantity="one">Filer beholdes i %1$d dag og slettes deretter permanent</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_android">
+        <item quantity="other">Hvis du sletter mappen %1$s, vil alle systemappfilene flyttes til Nylig slettede elementer. De kan gjenopprettes i %2$d dager. Slette nå?</item>
+        <item quantity="one">Hvis du sletter mappen %1$s, vil alle systemappfilene flyttes til Nylig slettede elementer. De kan gjenopprettes i %2$d dag. Slette nå?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_dcim">
+        <item quantity="other">Hvis du sletter mappen %1$s, vil alle Galleri-filer flyttes til Nylig slettede elementer. De kan gjenopprettes innen %2$d dag. Slette nå?</item>
+        <item quantity="one">Hvis du sletter mappen %1$s, vil alle Galleri-elementer flyttes til Nylig slettede elementer. De kan gjenopprettes innen %2$d dag. Slette nå?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_miui">
+        <item quantity="other">Hvis du sletter mappen %1$s, vil alle systemappfilene flyttes til Nylig slettede elementer. De kan gjenopprettes i %2$d dager. Slette nå?</item>
+        <item quantity="one">Hvis du sletter mappen %1$s, vil alle systemappfilene flyttes til Nylig slettede elementer. De kan gjenopprettes i %2$d dag. Slette nå?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_other">
+        <item quantity="other">Hvis du sletter mappen %1$s, vil filene flyttes til Nylig slettede elementer. De kan gjenopprettes i %2$d dager. Slette nå?</item>
+        <item quantity="one">Hvis du sletter mappen %1$s, vil filene flyttes til Nylig slettede elementer. De kan gjenopprettes i %2$d dag. Slette nå?</item>
+    </plurals>
+    <plurals name="trash_restore_error_dilog_message">
+        <item quantity="other">Mappen er utilgjengelig. Kunne ikke gjenopprette %1$d filer.</item>
+        <item quantity="one">Mappen er utilgjengelig. Kunne ikke gjenopprette %1$d fil.</item>
     </plurals>
     <plurals name="user_sign_limt">
         <item quantity="other">Du kan skrive inn %d tegn</item>

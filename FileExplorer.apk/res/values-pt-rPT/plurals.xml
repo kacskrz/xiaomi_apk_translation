@@ -64,6 +64,22 @@
         <item quantity="other">" e %1$d pastas?"</item>
         <item quantity="one">" e %1$d pasta?"</item>
     </plurals>
+    <plurals name="delete_message_content">
+        <item quantity="other">Os itens eliminados serão retidos em \"Itens eliminados recentemente\" por %1$d dias</item>
+        <item quantity="one">Os itens eliminados serão retidos em \"Itens eliminados recentemente\" por %1$d dia</item>
+    </plurals>
+    <plurals name="delete_message_file">
+        <item quantity="other">Os ficheiros eliminados serão retidos em \"Itens eliminados recentemente\" por %1$d dias</item>
+        <item quantity="one">Os ficheiros eliminados serão retidos em \"Itens eliminados recentemente\" por %1$d dia</item>
+    </plurals>
+    <plurals name="delete_message_folder">
+        <item quantity="other">As pastas eliminadas serão retidas em \"Itens eliminados recentemente\" por %1$d dias</item>
+        <item quantity="one">As pastas eliminadas serão retidas em \"Itens eliminados recentemente\" por %1$d dia</item>
+    </plurals>
+    <plurals name="delete_message_system">
+        <item quantity="other">Os itens selecionados contém ficheiros do sistema. Eles serão movidos para os Itens eliminados recentemente e podem ser repostos por %1$d dias.</item>
+        <item quantity="one">Os itens selecionados contém ficheiros do sistema. Eles serão movidos para os Itens eliminados recentemente e podem ser repostos por %1$d dia.</item>
+    </plurals>
     <plurals name="delete_nas_files">
         <item quantity="other">Eliminar %1$d itens selecionados de todos os dispositivos e do Xiaomi SmartStorage? Poderá repor os itens recentemente eliminados na aplicação Xiaomi SmartStorage.</item>
         <item quantity="one">Eliminar %1$d item selecionado de todos os dispositivos e do Xiaomi SmartStorage? Poderá repor os itens recentemente eliminados na aplicação Xiaomi SmartStorage.</item>
@@ -71,6 +87,18 @@
     <plurals name="delete_pc_files">
         <item quantity="other">Eliminar permanentemente %2$d ficheiros de %1$s agora?</item>
         <item quantity="one">Eliminar permanentemente %2$d ficheiro de %1$s agora?</item>
+    </plurals>
+    <plurals name="delete_title_cloud_files">
+        <item quantity="other">Eliminar %1$d itens?</item>
+        <item quantity="one">Eliminar %1$d item?</item>
+    </plurals>
+    <plurals name="delete_title_file">
+        <item quantity="other">Eliminar %1$d ficheiros?</item>
+        <item quantity="one">Eliminar %1$d ficheiro?</item>
+    </plurals>
+    <plurals name="delete_title_folder">
+        <item quantity="other">Eliminar %1$d pastas?</item>
+        <item quantity="one">Eliminar %1$d pasta?</item>
     </plurals>
     <plurals name="directory_item_count">
         <item quantity="other">%d itens</item>
@@ -91,10 +119,6 @@
     <plurals name="file_success_count">
         <item quantity="other">%s itens transferidos</item>
         <item quantity="one">%s item transferido</item>
-    </plurals>
-    <plurals name="follow_count">
-        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> seguidores</item>
-        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> seguidor</item>
     </plurals>
     <plurals name="found_new_files">
         <item quantity="other">%1$d novos ficheiros encontrados</item>
@@ -164,6 +188,14 @@
         <item quantity="other">%1$s comentários</item>
         <item quantity="one">%1$s comentário</item>
     </plurals>
+    <plurals name="number_of_files">
+        <item quantity="other">%1$d ficheiros</item>
+        <item quantity="one">%1$d ficheiro</item>
+    </plurals>
+    <plurals name="number_of_folders">
+        <item quantity="other">%1$d pastas</item>
+        <item quantity="one">%1$d pasta</item>
+    </plurals>
     <plurals name="original_user_days">
         <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font> dias"</item>
         <item quantity="one">" • &lt;font color=#fc7050>%1$d&lt;/font> dia"</item>
@@ -227,6 +259,38 @@
     <plurals name="total_user_num">
         <item quantity="other">%1$s pessoas</item>
         <item quantity="one">%1$s pessoa</item>
+    </plurals>
+    <plurals name="trash_file_delete_message">
+        <item quantity="other">%1$s ficheiros serão eliminados permanentemente. Eliminar agora?</item>
+        <item quantity="one">%1$s ficheiro será eliminado permanentemente. Eliminar agora?</item>
+    </plurals>
+    <plurals name="trash_file_delete_surplus_day">
+        <item quantity="other">%1$d dias</item>
+        <item quantity="one">%1$d dia</item>
+    </plurals>
+    <plurals name="trash_message">
+        <item quantity="other">Os ficheiros serão retidos por %1$d dias e então serão eliminados permanentemente</item>
+        <item quantity="one">Os ficheiros serão retidos por %1$d dia e então serão eliminados permanentemente</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_android">
+        <item quantity="other">Se eliminar a pasta %1$s, todos os ficheiros de sistema serão movidos para os Itens eliminados recentemente e poderão ser repostos por %2$d dias. Eliminar agora?</item>
+        <item quantity="one">Se eliminar a pasta %1$s, todos os ficheiros de sistema serão movidos para os Itens eliminados recentemente e poderão ser repostos por %2$d dia. Eliminar agora?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_dcim">
+        <item quantity="other">Se eliminar a pasta %1$s, todos os itens da Galeria serão movidos para os Itens eliminados recentemente e poderão ser repostos por %2$d dias. Eliminar agora?</item>
+        <item quantity="one">Se eliminar a pasta %1$s, todos os itens da Galeria serão movidos para os Itens eliminados recentemente e poderão ser repostos por %2$d dia. Eliminar agora?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_miui">
+        <item quantity="other">Se eliminar a pasta %1$s, todos os ficheiros de aplicações do sistema serão movidos para os Itens eliminados recentemente e poderão ser repostos por %2$d dias. Eliminar agora?</item>
+        <item quantity="one">Se eliminar a pasta %1$s, todos os ficheiros de aplicações do sistema serão movidos para os Itens eliminados recentemente e poderão ser repostos por %2$d dia. Eliminar agora?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_other">
+        <item quantity="other">Se eliminar a pasta %1$s, todos os ficheiros serão movidos para os Itens eliminados recentemente e poderão ser repostos por %2$d dias. Eliminar agora?</item>
+        <item quantity="one">Se eliminar a pasta %1$s, todos os ficheiros serão movidos para os Itens eliminados recentemente e poderão ser repostos por %2$d dia. Eliminar agora?</item>
+    </plurals>
+    <plurals name="trash_restore_error_dilog_message">
+        <item quantity="other">A pasta não está disponível. Não foi possível repor %1$d ficheiros.</item>
+        <item quantity="one">A pasta não está disponível. Não foi possível repor %1$d ficheiro.</item>
     </plurals>
     <plurals name="user_sign_limt">
         <item quantity="other">Pode introduzir %d caracteres</item>

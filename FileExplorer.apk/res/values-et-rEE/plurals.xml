@@ -64,6 +64,22 @@
         <item quantity="other">" ja %1$d kausta?"</item>
         <item quantity="one">" ja %1$d kausta?"</item>
     </plurals>
+    <plurals name="delete_message_content">
+        <item quantity="other">Kustutatud üksusi säilitatakse jaotises „Hiljuti kustutatud üksused” %1$d päeva</item>
+        <item quantity="one">Kustutatud üksusi säilitatakse jaotises „Hiljuti kustutatud üksused” %1$d päev</item>
+    </plurals>
+    <plurals name="delete_message_file">
+        <item quantity="other">Kustutatud faile säilitatakse jaotises „Hiljuti kustutatud üksused” %1$d päeva</item>
+        <item quantity="one">Kustutatud faile säilitatakse jaotises „Hiljuti kustutatud üksused” %1$d päeva</item>
+    </plurals>
+    <plurals name="delete_message_folder">
+        <item quantity="other">Kustutatud kaustu säilitatakse jaotises „Hiljuti kustutatud üksused” %1$d päeva</item>
+        <item quantity="one">Kustutatud kaustu säilitatakse jaotises „Hiljuti kustutatud üksused” %1$d päev</item>
+    </plurals>
+    <plurals name="delete_message_system">
+        <item quantity="other">Valitud üksused sisaldavad süsteemifaile. Need teisaldatakse jaotisesse \"Hiljuti kustutatud üksused\" ja neid saab taastada %1$d päeva jooksul.</item>
+        <item quantity="one">Valitud üksused sisaldavad süsteemifaile. Need teisaldatakse jaotisesse \"Hiljuti kustutatud üksused\" ja neid saab taastada %1$d päeva jooksul.</item>
+    </plurals>
     <plurals name="delete_nas_files">
         <item quantity="other">Kas kustutada %1$d valitud üksust kõigist seadmetest ja rakendusest Xiaomi SmartStorage? Hiljuti kustutatud üksusi saate taastada rakenduses Xiaomi SmartStorage.</item>
         <item quantity="one">Kas kustutada %1$d valitud üksus kõigist seadmetest ja rakendusest Xiaomi SmartStorage? Hiljuti kustutatud üksusi saate taastada rakenduses Xiaomi SmartStorage.</item>
@@ -71,6 +87,18 @@
     <plurals name="delete_pc_files">
         <item quantity="other">Kas kustutada %2$d faili jäädavalt kaustast %1$s kohe?</item>
         <item quantity="one">Kas kustutada %2$d fail jäädavalt kaustast %1$s kohe?</item>
+    </plurals>
+    <plurals name="delete_title_cloud_files">
+        <item quantity="other">Kas kustutada %1$d üksust?</item>
+        <item quantity="one">Kas kustutada %1$d üksus?</item>
+    </plurals>
+    <plurals name="delete_title_file">
+        <item quantity="other">Kas kustutada %1$d faili?</item>
+        <item quantity="one">Kas kustutada %1$d fail?</item>
+    </plurals>
+    <plurals name="delete_title_folder">
+        <item quantity="other">Kas kustutada %1$d kausta?</item>
+        <item quantity="one">Kas kustutada %1$d kaust?</item>
     </plurals>
     <plurals name="directory_item_count">
         <item quantity="other">%d kirjet</item>
@@ -91,10 +119,6 @@
     <plurals name="file_success_count">
         <item quantity="other">Edastati %s üksust</item>
         <item quantity="one">Edastati %s üksus</item>
-    </plurals>
-    <plurals name="follow_count">
-        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> jälgijat</item>
-        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> jälgija</item>
     </plurals>
     <plurals name="found_new_files">
         <item quantity="other">Leitud %1$d uut faili</item>
@@ -164,6 +188,14 @@
         <item quantity="other">%1$s kommentaari</item>
         <item quantity="one">%1$s kommentaar</item>
     </plurals>
+    <plurals name="number_of_files">
+        <item quantity="other">%1$d faili</item>
+        <item quantity="one">%1$d fail</item>
+    </plurals>
+    <plurals name="number_of_folders">
+        <item quantity="other">%1$d kausta</item>
+        <item quantity="one">%1$d kaust</item>
+    </plurals>
     <plurals name="original_user_days">
         <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font> päeva"</item>
         <item quantity="one">" • &lt;font color=#fc7050>%1$d&lt;/font> päev"</item>
@@ -227,6 +259,38 @@
     <plurals name="total_user_num">
         <item quantity="other">%1$s isikut</item>
         <item quantity="one">%1$s isik</item>
+    </plurals>
+    <plurals name="trash_file_delete_message">
+        <item quantity="other">%1$s faili kustutatakse jäädavalt. Kas kustutada kohe?</item>
+        <item quantity="one">%1$s fail kustutatakse jäädavalt. Kas kustutada kohe?</item>
+    </plurals>
+    <plurals name="trash_file_delete_surplus_day">
+        <item quantity="other">%1$d päeva</item>
+        <item quantity="one">%1$d päev</item>
+    </plurals>
+    <plurals name="trash_message">
+        <item quantity="other">Faile säilitatakse %1$d päeva ja seejärel kustutatakse jäädavalt</item>
+        <item quantity="one">Faile säilitatakse %1$d päev ja seejärel kustutatakse jäädavalt</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_android">
+        <item quantity="other">Kui kustutate kausta %1$s, teisaldatakse kõik süsteemifailid kausta \"Hiljuti kustutatud üksused\" ja neid saab taastada %2$d päeva jooksul. Kas kustutada kohe?</item>
+        <item quantity="one">Kui kustutate kausta %1$s, teisaldatakse kõik süsteemifailid kausta \"Hiljuti kustutatud üksused\" ja neid saab taastada %2$d päeva jooksul. Kas kustutada kohe?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_dcim">
+        <item quantity="other">Kui kustutate kausta %1$s, teisaldatakse kõik galerii failid kausta \"Hiljuti kustutatud üksused\" ja neid saab taastada %2$d päeva jooksul. Kas kustutada kohe?</item>
+        <item quantity="one">Kui kustutate kausta %1$s, teisaldatakse kõik galerii üksused kausta \"Hiljuti kustutatud üksused\" ja neid saab taastada %2$d päev. Kas kustutada kohe?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_miui">
+        <item quantity="other">Kui kustutate kausta %1$s, teisaldatakse kõik süsteemirakenduse failid kausta \"Hiljuti kustutatud üksused\" ja neid saab taastada %2$d päeva jooksul. Kas kustutada kohe?</item>
+        <item quantity="one">Kui kustutate kausta %1$s, teisaldatakse kõik süsteemirakenduste failid kausta \"Hiljuti kustutatud üksused\" ja neid saab taastada %2$d päeva jooksul. Kas kustutada kohe?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_other">
+        <item quantity="other">Kui kustutate kausta %1$s, teisaldatakse kõik selle failid kausta \"Hiljuti kustutatud üksused\" ja neid saab taastada %2$d päeva jooksul. Kas kustutada kohe?</item>
+        <item quantity="one">Kui kustutate kausta %1$s, teisaldatakse kõik selle failid kausta \"Hiljuti kustutatud üksused\" ja neid saab taastada %2$d päeva jooksul. Kas kustutada kohe?</item>
+    </plurals>
+    <plurals name="trash_restore_error_dilog_message">
+        <item quantity="other">Kaust pole saadaval. %1$d faili taastamine ebaõnnestus.</item>
+        <item quantity="one">Kaust pole saadaval. %1$d faili taastamine ebaõnnestus.</item>
     </plurals>
     <plurals name="user_sign_limt">
         <item quantity="other">Võid sisestada %d tähemärki</item>

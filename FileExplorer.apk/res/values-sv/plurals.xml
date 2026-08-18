@@ -64,6 +64,22 @@
         <item quantity="other">" och %1$d mappar?"</item>
         <item quantity="one">" och %1$d mappar?"</item>
     </plurals>
+    <plurals name="delete_message_content">
+        <item quantity="other">Raderade objekt kommer att behållas i \"Nyligen borttagna objekt\" i %1$d dagar</item>
+        <item quantity="one">Raderade objekt kommer att behållas i \"Nyligen borttagna objekt\" i %1$d dag</item>
+    </plurals>
+    <plurals name="delete_message_file">
+        <item quantity="other">Raderade filer kommer att behållas i \"Nyligen borttagna objekt\" i %1$d dagar</item>
+        <item quantity="one">Raderade filer kommer att behållas i \"Nyligen borttagna objekt\" i %1$d dag</item>
+    </plurals>
+    <plurals name="delete_message_folder">
+        <item quantity="other">Raderade mappar kommer att behållas i \"Nyligen borttagna objekt\" i %1$d dagar</item>
+        <item quantity="one">Raderade mappar kommer att behållas i \"Nyligen borttagna objekt\" i %1$d dag</item>
+    </plurals>
+    <plurals name="delete_message_system">
+        <item quantity="other">De valda objekten innehåller systemfiler. De kommer att flyttas till Nyligen borttagna objekt och kan återställas i %1$d dagar.</item>
+        <item quantity="one">De valda objekten innehåller systemfiler. De kommer att flyttas till Nyligen borttagna objekt och kan återställas i %1$d dag.</item>
+    </plurals>
     <plurals name="delete_nas_files">
         <item quantity="other">Radera %1$d valt objekt från alla enheter och Xiaomi SmartStorage? Du kommer att kunna återställa nyligen raderade objekt i appen Xiaomi SmartStorage.</item>
         <item quantity="one">Radera %1$d valt objekt från alla enheter och Xiaomi SmartStorage? Du kommer att kunna återställa nyligen raderade objekt i appen Xiaomi SmartStorage.</item>
@@ -71,6 +87,18 @@
     <plurals name="delete_pc_files">
         <item quantity="other">Radera %2$d filer permanent från %1$s nu?</item>
         <item quantity="one">Radera %2$d fil permanent från %1$s nu?</item>
+    </plurals>
+    <plurals name="delete_title_cloud_files">
+        <item quantity="other">Radera %1$d objekt?</item>
+        <item quantity="one">Radera %1$d objekt?</item>
+    </plurals>
+    <plurals name="delete_title_file">
+        <item quantity="other">Radera %1$d filer?</item>
+        <item quantity="one">Radera %1$d fil?</item>
+    </plurals>
+    <plurals name="delete_title_folder">
+        <item quantity="other">Radera %1$d mappar?</item>
+        <item quantity="one">Radera %1$d mapp?</item>
     </plurals>
     <plurals name="directory_item_count">
         <item quantity="other">%d objekt</item>
@@ -91,10 +119,6 @@
     <plurals name="file_success_count">
         <item quantity="other">Överförde %s objekt</item>
         <item quantity="one">Överförde %s objekt</item>
-    </plurals>
-    <plurals name="follow_count">
-        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> följare</item>
-        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> följare</item>
     </plurals>
     <plurals name="found_new_files">
         <item quantity="other">Hittade %1$d nya filer</item>
@@ -164,6 +188,14 @@
         <item quantity="other">%1$s kommentarer</item>
         <item quantity="one">%1$s kommentar</item>
     </plurals>
+    <plurals name="number_of_files">
+        <item quantity="other">%1$d filer</item>
+        <item quantity="one">%1$d fil</item>
+    </plurals>
+    <plurals name="number_of_folders">
+        <item quantity="other">%1$d mappar</item>
+        <item quantity="one">%1$d mapp</item>
+    </plurals>
     <plurals name="original_user_days">
         <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font> dagar"</item>
         <item quantity="one">" • &lt;font color=#fc7050>%1$d&lt;/font> dag"</item>
@@ -227,6 +259,38 @@
     <plurals name="total_user_num">
         <item quantity="other">%1$s människor</item>
         <item quantity="one">%1$s person</item>
+    </plurals>
+    <plurals name="trash_file_delete_message">
+        <item quantity="other">%1$s filer kommer att raderas permanent. Radera nu?</item>
+        <item quantity="one">%1$s fil kommer att raderas permanent. Radera nu?</item>
+    </plurals>
+    <plurals name="trash_file_delete_surplus_day">
+        <item quantity="other">%1$d dagar</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
+    <plurals name="trash_message">
+        <item quantity="other">Filerna kommer att behållas i %1$d dagar och sedan raderas permanent</item>
+        <item quantity="one">Filerna kommer att behållas i %1$d dag och sedan raderas permanent</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_android">
+        <item quantity="other">Om du raderar mappen %1$s, kommer alla systemfiler att flyttas till Nyligen borttagna objekt och kan återställas i %2$d dagar. Radera nu?</item>
+        <item quantity="one">Om du raderar mappen %1$s, kommer alla systemfiler att flyttas till Nyligen borttagna objekt och kan återställas i %2$d dag. Radera nu?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_dcim">
+        <item quantity="other">Om du raderar mappen %1$s kommer alla objekt i Galleri att flyttas till Nyligen borttagna objekt, och kan återställas i %2$d dagar. Radera nu?</item>
+        <item quantity="one">Om du raderar mappen %1$s kommer alla objekt i Galleri att flyttas till Nyligen borttagna objekt, och kan återställas i %2$d dag. Radera nu?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_miui">
+        <item quantity="other">Om du raderar %1$s mappen kommer alla systemappfiler att flyttas till Nyligen borttagna objekt och kan återställas i %2$d dagar. Radera nu?</item>
+        <item quantity="one">Om du raderar %1$s mappen kommer alla systemappfiler att flyttas till Nyligen borttagna objekt och kan återställas i %2$d dag. Radera nu?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_other">
+        <item quantity="other">Om du raderar mappen %1$s, kommer dess filer att flyttas till Nyligen borttagna objekt och kan återställas i %2$d dagar. Radera nu?</item>
+        <item quantity="one">Om du raderar mappen %1$s, kommer dess filer att flyttas till Nyligen borttagna objekt och kan återställas i %2$d dag. Radera nu?</item>
+    </plurals>
+    <plurals name="trash_restore_error_dilog_message">
+        <item quantity="other">Den här mappen är inte tillgänglig. Kunde inte återställa %1$d filer.</item>
+        <item quantity="one">Den här mappen är inte tillgänglig. Kunde inte återställa %1$d fil.</item>
     </plurals>
     <plurals name="user_sign_limt">
         <item quantity="other">Du kan ange %d tecken</item>

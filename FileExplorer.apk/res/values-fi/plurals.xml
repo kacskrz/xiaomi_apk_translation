@@ -64,6 +64,22 @@
         <item quantity="other">" ja %1$d kansiota?"</item>
         <item quantity="one">" ja %1$d kansio?"</item>
     </plurals>
+    <plurals name="delete_message_content">
+        <item quantity="other">Poistetut kohteet säilytetään \"Äskettäin poistetut kohteet\" -kansiossa %1$d päivän ajan</item>
+        <item quantity="one">Poistetut kohteet säilytetään \"Äskettäin poistetut kohteet\" -kansiossa %1$d päivän ajan</item>
+    </plurals>
+    <plurals name="delete_message_file">
+        <item quantity="other">Poistetut tiedostot säilytetään \"Äskettäin poistetut kohteet\" -kansiossa %1$d päivän ajan</item>
+        <item quantity="one">Poistetut tiedostot säilytetään \"Äskettäin poistetut kohteet\" -kansiossa %1$d päivän ajan</item>
+    </plurals>
+    <plurals name="delete_message_folder">
+        <item quantity="other">Poistetut kansiot säilytetään \"Äskettäin poistetut kohteet\" -kansiossa %1$d päivän ajan</item>
+        <item quantity="one">Poistetut kansiot säilytetään \"Äskettäin poistetut kohteet\" -kansiossa %1$d päivän ajan</item>
+    </plurals>
+    <plurals name="delete_message_system">
+        <item quantity="other">Valitut kohteet sisältävät järjestelmätiedostoja. Ne siirretään Äskettäin poistettuihin kohteisiin, ja ne voidaan palauttaa %1$d päivän ajan.</item>
+        <item quantity="one">Valitut kohteet sisältävät järjestelmätiedostoja. Ne siirretään Äskettäin poistettuihin kohteisiin, ja ne voidaan palauttaa %1$d päivän ajan.</item>
+    </plurals>
     <plurals name="delete_nas_files">
         <item quantity="other">Poistetaanko %1$d valittua kohdetta kaikista laitteista ja Xiaomi SmartStoragesta? Voit palauttaa äskettäin poistetut kohteet Xiaomi SmartStorage -sovelluksessa.</item>
         <item quantity="one">Poistetaanko %1$d valittu kohde kaikista laitteista ja Xiaomi SmartStoragesta? Voit palauttaa äskettäin poistetut kohteet Xiaomi SmartStorage -sovelluksessa.</item>
@@ -71,6 +87,18 @@
     <plurals name="delete_pc_files">
         <item quantity="other">Poistetaanko %2$d tiedostoa pysyvästi kohteesta %1$s nyt?</item>
         <item quantity="one">Poistetaanko %2$d tiedosto pysyvästi kohteesta %1$s nyt?</item>
+    </plurals>
+    <plurals name="delete_title_cloud_files">
+        <item quantity="other">Poista %1$d kohdetta?</item>
+        <item quantity="one">Poista %1$d kohde?</item>
+    </plurals>
+    <plurals name="delete_title_file">
+        <item quantity="other">Poista %1$d tiedostoa?</item>
+        <item quantity="one">Poista %1$d tiedosto?</item>
+    </plurals>
+    <plurals name="delete_title_folder">
+        <item quantity="other">Poista %1$d kansiota?</item>
+        <item quantity="one">Poista %1$d kansio?</item>
     </plurals>
     <plurals name="directory_item_count">
         <item quantity="other">%d kohdetta</item>
@@ -91,10 +119,6 @@
     <plurals name="file_success_count">
         <item quantity="other">%s kohdetta siirretty</item>
         <item quantity="one">%s kohde siirretty</item>
-    </plurals>
-    <plurals name="follow_count">
-        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> seuraajaa</item>
-        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> seuraaja</item>
     </plurals>
     <plurals name="found_new_files">
         <item quantity="other">Löytyi %1$d uutta tiedostoa</item>
@@ -164,6 +188,14 @@
         <item quantity="other">%1$s kommenttia</item>
         <item quantity="one">%1$s kommentti</item>
     </plurals>
+    <plurals name="number_of_files">
+        <item quantity="other">%1$d tiedostoa</item>
+        <item quantity="one">%1$d tiedosto</item>
+    </plurals>
+    <plurals name="number_of_folders">
+        <item quantity="other">%1$d kansiota</item>
+        <item quantity="one">%1$d kansio</item>
+    </plurals>
     <plurals name="original_user_days">
         <item quantity="other">" • &lt;font color=#fc7050>%1$d&lt;/font> päivää"</item>
         <item quantity="one">" • &lt;font color=#fc7050>%1$d&lt;/font> päivä"</item>
@@ -227,6 +259,38 @@
     <plurals name="total_user_num">
         <item quantity="other">%1$s henkilöä</item>
         <item quantity="one">%1$s henkilö</item>
+    </plurals>
+    <plurals name="trash_file_delete_message">
+        <item quantity="other">%1$s tiedostoa poistetaan pysyvästi. Poistetaanko nyt?</item>
+        <item quantity="one">%1$s tiedosto poistetaan pysyvästi. Poistetaanko nyt?</item>
+    </plurals>
+    <plurals name="trash_file_delete_surplus_day">
+        <item quantity="other">%1$d päivää</item>
+        <item quantity="one">%1$d päivä</item>
+    </plurals>
+    <plurals name="trash_message">
+        <item quantity="other">Tiedostot säilytetään %1$d päivän ajan, minkä jälkeen ne poistetaan pysyvästi</item>
+        <item quantity="one">Tiedostot säilytetään %1$d päivän ajan, minkä jälkeen ne poistetaan pysyvästi</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_android">
+        <item quantity="other">Jos poistat kansion %1$s, kaikki järjestelmätiedostot siirretään Äskettäin poistettuihin kohteisiin ja ne voidaan palauttaa %2$d päivän ajan. Poistetaanko nyt?</item>
+        <item quantity="one">Jos poistat kansion %1$s, kaikki järjestelmätiedostot siirretään Äskettäin poistettuihin kohteisiin ja ne voidaan palauttaa %2$d päivän ajan. Poistetaanko nyt?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_dcim">
+        <item quantity="other">Jos poistat kansion %1$s, kaikki Galleria-kohteet siirretään Äskettäin poistettuihin kohteisiin ja ne voidaan palauttaa %2$d päivän ajan. Poistetaanko nyt?</item>
+        <item quantity="one">Jos poistat kansion %1$s, kaikki Galleria-kohteet siirretään Äskettäin poistettuihin kohteisiin ja ne voidaan palauttaa %2$d päivän ajan. Poistetaanko nyt?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_miui">
+        <item quantity="other">Jos poistat kansion %1$s, kaikki järjestelmäsovellustiedostot siirretään Äskettäin poistettuihin kohteisiin ja ne voidaan palauttaa %2$d päivän ajan. Poistetaanko nyt?</item>
+        <item quantity="one">Jos poistat kansion %1$s, kaikki järjestelmäsovellustiedostot siirretään Äskettäin poistettuihin kohteisiin ja ne voidaan palauttaa %2$d päivän ajan. Poistetaanko nyt?</item>
+    </plurals>
+    <plurals name="trash_operation_delete_confirm_other">
+        <item quantity="other">Jos poistat kansion %1$s, sen tiedostot siirretään Äskettäin poistettuihin kohteisiin ja ne voidaan palauttaa %2$d päivän ajan. Poistetaanko nyt?</item>
+        <item quantity="one">Jos poistat kansion %1$s, sen tiedostot siirretään Äskettäin poistettuihin kohteisiin ja ne voidaan palauttaa %2$d päivän ajan. Poistetaanko nyt?</item>
+    </plurals>
+    <plurals name="trash_restore_error_dilog_message">
+        <item quantity="other">Kansio ei ole käytettävissä. %1$d tiedoston palauttaminen epäonnistui.</item>
+        <item quantity="one">Kansio ei ole käytettävissä. %1$d tiedoston palauttaminen epäonnistui.</item>
     </plurals>
     <plurals name="user_sign_limt">
         <item quantity="other">Voit syöttää enintään %d merkkiä</item>
