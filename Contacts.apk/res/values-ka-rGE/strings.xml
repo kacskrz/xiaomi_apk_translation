@@ -38,6 +38,7 @@
     <string name="all_list_empty">კონტაქტები არ არის</string>
     <string name="all_selected">ყველა მონიშნულია</string>
     <string name="already_answered">პასუხი გაცემულია iPhone-ზე</string>
+    <string name="already_xiaomi_answered">პასუხი თქვენს სხვა Xiaomi-ს ტელეფონზე</string>
     <string name="am">AM</string>
     <string name="antispam_mark_my_contribution">ვაზიარებ დროშის ინფოს</string>
     <string name="attach_photo_dialog_title">კონტაქტის ფოტო</string>
@@ -101,6 +102,7 @@
     <string name="call_work_pager">სამსახურის პეიჯერზე დარეკვა</string>
     <string name="calllog_call_note_menu">ზარების ჩანაწერები</string>
     <string name="calllog_call_record_menu">ჩაწერილი ზარები</string>
+    <string name="calllog_loading_all_data">\u1c96არების ისტორიის ჩატვირთვა...</string>
     <string name="calllog_menu_blacklist">დაბლოკვა</string>
     <string name="calllog_menu_edit_before_call">რედაქტირება</string>
     <string name="calllog_menu_send_sms">შეტყობინების გაგზავნა</string>
@@ -198,6 +200,9 @@
     <string name="contact_detail_calllog_call_record_tips">ჩაწერილი ზარი</string>
     <string name="contact_detail_calllog_correct_yellow_page">გასწორება ან დარეპორტება</string>
     <string name="contact_detail_calllog_empty">ისტორია არ არის</string>
+    <string name="contact_detail_entry_pay">ფულის გაგზავნა</string>
+    <string name="contact_detail_entry_pay_dialog_title">აირჩიეთ ტელეფონის ნომერი</string>
+    <string name="contact_detail_entry_pay_request">ფულის მოთხოვნა</string>
     <string name="contact_detail_menu_delete_miprofile">ბარათის წაშლა</string>
     <string name="contact_detail_miprofile_subtitle">ბარათები უკვე გაცვლილია</string>
     <string name="contact_detail_more_calllog">მეტის ჩვენება</string>
@@ -214,6 +219,7 @@
     <string name="contact_is_deleted">ეს კონტაქტი წაშლილია</string>
     <string name="contact_is_readOnly">ვერ ვახდენ read-only კონტაქტის რედაქტირებას</string>
     <string name="contact_loading_dialog_text">ვამატებ…</string>
+    <string name="contact_pick_photo">სურათი</string>
     <string name="contact_search_history">ისტორია</string>
     <string name="contact_status_update_attribution">დან %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$sდან %2$s</string>
@@ -224,6 +230,8 @@
     <string name="contactsList">კონტაქტები</string>
     <string name="contacts_default_notification_channel">შეტყობინებები</string>
     <string name="contacts_hybrid_activity_label">კონტაქტების აღდგენა</string>
+    <string name="contacts_menu_filter">ფილტრი</string>
+    <string name="contacts_menu_settings">პარამეტრები</string>
     <string name="contacts_trash_activity_hint">მონიშნეთ აღსადგენი კონტაქტები</string>
     <string name="contacts_trash_activity_title">ახლახანს წაშლილი კონტაქტები</string>
     <string name="contacts_trash_delete">წაშლა</string>
@@ -331,6 +339,7 @@
     <string name="dialer_empty_text_no_search_result">კონტაქტი ვერ იქნა ნაპოვნი</string>
     <string name="dialer_firewall_entry_name">დაბლოკილი ზარების ჟურნალი</string>
     <string name="dialer_menu_description">მენიუს ჩვენება</string>
+    <string name="dialer_menu_filter">ფილტრი</string>
     <string name="dialer_menu_title">მენიუს პარამეტრები</string>
     <string name="dialer_title_divider">" ｜ "</string>
     <string name="dialog_delete_contact_button_delete">წაშლა</string>
@@ -653,6 +662,7 @@
     <string name="miuix_navigator_multiple_choice">მონიშნეთ</string>
     <string name="miuix_navigator_navigator_switch_description">დამალეთ გვერდითი ზოლი</string>
     <string name="miuix_navigator_toolbar_screen_bottom">ინსტრუმენტთა პანელი ეკრანის ბოლოში</string>
+    <string name="miuix_popup_show_description">ამომხტარი ფანჯარა</string>
     <string name="miuix_popup_window_default_title">ამომხტარი ფანჯარა</string>
     <string name="miuix_progressbar_loading">ჩატვირთვა</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ჩამოქაჩე გასანახლებლად</string>
@@ -742,6 +752,7 @@
     <string name="night">საღამო</string>
     <string name="nine_letter">WXYZ</string>
     <string name="noAccounts">ჯგუფების შესაქმნელად უნდა გქონდეთ ანგარიში.</string>
+    <string name="no_call_log_selected">დეტალების სანახავად აირჩიეთ ზარების ისტორიის ჩანაწერი</string>
     <string name="no_contact_selected">დეტალების სანახავად მონიშეთ კონტაქტები</string>
     <string name="no_contacts_dialog_message">კონტაქტები შეიძლება თქვენს SIM ბარათზეა. გადაიტანეთ ისინი ტელეფონის შიდა მეხსიერებაზე და კიდევ სცადეთ.</string>
     <string name="no_contacts_dialog_title">კონტაქტები ვერ მოიძებნა</string>
@@ -799,16 +810,11 @@
     <string name="phone_number_too_long_toast">ნომერი მეტისმეტად გრძელია</string>
     <string name="phone_primary">ძირითადი</string>
     <string name="photoPickerNotFoundText">მოწყობილობაზე სურათები არ არის.</string>
-    <string name="pick_new_photo">სურათის არჩევა %s-დან</string>
     <string name="pick_photo">მონიშნეთ გალერეიდან</string>
     <string name="pickerNewContactHeader">ახალი კონტაქტის შექმნა</string>
     <string name="picker_all_list_empty">კონტაქტები არ არის</string>
     <string name="picker_contact_title">აირჩიე კონტაქტი</string>
-    <string name="picker_email_title">აირჩიეთ ელ. ფოსტის მისამართი</string>
     <string name="picker_groups_list_empty">ჯგუფები არ არის</string>
-    <string name="picker_join_title">გაერთიანება %s</string>
-    <string name="picker_number_title">აირჩიე ნომერი</string>
-    <string name="picker_postal_title">საფოსტო კოდის არჩევა</string>
     <string name="picker_recent_list_empty">ხშირი კონტაქტები არ არის</string>
     <string name="pkgLabel">კონტაქტები და დაკავშირება</string>
     <string name="pm">PM</string>
@@ -966,9 +972,9 @@
     <string name="search_results_searching">ვეძებ…</string>
     <string name="search_settings_description">თქვენი კონტაქტების სახელები</string>
     <string name="searching_vcard_message">ვეძებ vCard მონაცემებს მეხსიერებაში…</string>
-    <string name="select_all">მონიშნეთ ყველა</string>
     <string name="select_groups">ჯგუფების მონიშვნა</string>
     <string name="select_vcard_title">აირჩიეთ vCard ფაილი</string>
+    <string name="send">გაგზავნა</string>
     <string name="send_contact_shortcut_todesktop_duplicate">ეს მალსახმობი უკვე არსებობს</string>
     <string name="send_contact_shortcut_todesktop_failed">მთავარ ეკრანზე მალსახმობის განთავსება შეუძლებელია</string>
     <string name="send_contact_shortcut_todesktop_overflow">მთავარ ეკრანზე მეტი მალსახმობების განთავსება შეუძლებელია</string>
@@ -998,6 +1004,8 @@
     <string name="sim_account_name">SIM</string>
     <string name="sim_capacity">სიმ ბარათზე სივრცის ხილვა</string>
     <string name="sim_capacity_content">%1$d ჯამში | %2$d გამოყენებული</string>
+    <string name="sim_card_1">SIM ბარათის %d ზარები</string>
+    <string name="sim_card_2">SIM ბარათის %d ზარები</string>
     <string name="sim_card_no_free_space_message">არ არის საკმარისი სივრცე</string>
     <string name="sim_card_no_free_space_title">SIM ბარათი სავსეა</string>
     <string name="sim_contact_existing">კონტაქტი უკვე არსებობს</string>
