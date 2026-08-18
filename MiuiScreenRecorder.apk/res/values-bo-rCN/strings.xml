@@ -11,6 +11,7 @@
     <string name="app_notification_info">འཆར་ངོས་བརྙན་འཇུག་བྱེད་བཞིན་ཡོད།</string>
     <string name="app_notification_record_saved">འཆར་ངོས་བརྙན་ཕབ་ཉར་འཇོག་བྱས་ཟིན།</string>
     <string name="app_notification_title">བརྙན་ཤེལ་བརྙན་འཇུག</string>
+    <string name="auto_stop_record_when_screen_off_long_desc">སྒོ་བརྒྱབ་རྗེས། འཆར་ངོས་སྐར་མ་%1$dལས་བརྒལ་ན། རང་འགུལ་གྱིས་ཕབ་ལེན་མཇུག་སྒྲིལ་རྒྱུ་རེད།</string>
     <string name="auto_stop_title">བརྙན་ཟློས་ཉར་ཚགས་བྱས་ཟིན།</string>
     <string name="battery_not_allowed_warning">གློག་ཚད་%1$sལས་དམའ་སྐབས་བརྙན་འཇུག་བྱེད་མི་ཐུབ། གློག་ཚད%2$sཡན་བསགས་ན་འོས།</string>
     <string name="bit_rate">བརྙན་ཟློས་བརྙན་པར་གྱི་སྤུས་ཀ</string>
@@ -28,10 +29,14 @@
     <string name="clearable_edittext_clear_description">གཙང་སེལ།</string>
     <string name="close">ཁ་རྒྱག</string>
     <string name="close_screen_record">སྒྲ་འབེབས་ནས་ཕྱིར་ཐོན།</string>
+    <string name="date_day">ཚེས།</string>
+    <string name="date_month">ཟླ།</string>
     <string name="date_picker_label_day">ཉི་མ།</string>
     <string name="date_picker_label_month">ཟླ།</string>
     <string name="date_picker_label_year">ལོ།</string>
     <string name="date_picker_lunar">ལུགས་རྙིང་ལོ་ཐོ།</string>
+    <string name="date_time_picker_dialog_title">ཟླ་ཚེས་དང་ཚུ་ཚོད་སྒྲིག་འགོད།</string>
+    <string name="date_year">ལོ།</string>
     <string name="description_content">བརྙན་ཤེལ་བརྙན་འཇུག་ནས་བརྒྱུད་ཁོངས་རིམ་པའི་བརྙན་ཤེལ་བརྙན་འཇུག་བྱེད་ནུས་འདོན་སྤྲོད་བྱེད། བཀོལ་སྤྱོད་དེས་ཁྱེད་ནས་བརྙན་ཤེལ་བརྙན་འཇུག་བྱེད་ནུས་བློས་གཏོང་རྒྱུ་ཡིན་པ་མཚོན། གཏན་འཁེལ་ནས་མུ་མཐུད།</string>
     <string name="description_title">བརྙན་ཤེལ་བརྙན་འཇུག་ངོ་སྤྲོད།</string>
     <string name="early_morning">ཐོ་རངས།</string>
@@ -129,6 +134,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">ཡོངས་འདེམས་རྩིས་མེད།</string>
     <string name="miuix_appcompat_action_mode_select_all">ཡོངས་འདེམས།</string>
     <string name="miuix_appcompat_action_mode_title_empty">གདམ་གསེས།</string>
+    <string name="miuix_appcompat_action_sheet_default_message">འདེམ་རོགས།</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">དེ་ལས་མང་བ།</string>
     <string name="miuix_appcompat_cancel_description">རྩིས་མེད།</string>
     <string name="miuix_appcompat_confirm_description">གཏན་འཁེལ།</string>
@@ -142,6 +148,7 @@
     <string name="miuix_appcompat_select_all_description">ཡོངས་འདེམ།</string>
     <string name="miuix_appcompat_select_item">རྣམ་གྲངས་འདེམས་རོགས།</string>
     <string name="miuix_appcompat_show_dialog_description">འཕར་ཐོན་རང་བཞིན་གྱི་སྒེའུ་ཁུང་།</string>
+    <string name="miuix_popup_show_description">འཕར་ཐོན་རང་བཞིན་གྱི་སྒེའུ་ཁུང་།</string>
     <string name="miuix_progressbar_loading">བཀྲུ་བསྐྱེད་བཞག</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">མར་འཐེན་གསར་འཇུག</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">གསར་འདོན་བྱས་ཚར།</string>
@@ -265,7 +272,6 @@
     <string name="start_recording">ནང་འཇུག་ལ་འཛུལ་བ།</string>
     <string name="stop_by_second_space">ཁ་པར་ཆ་བགོས་བརྗེ་བའི་སྐབས་བརྙན་འཇུག་བྱེད་མི་ཐུབ། བརྙན་ཟློས་ནི་རང་འགུལ་གྱིས་ཉར་ཚགས་བྱ་ངེས།</string>
     <string name="stop_record_while_locking">བརྙན་ཤེལ་སྒོ་ལྕགས་རྒྱག་སྐབས་བརྙན་འཇུག་མཚམས་འཇོག</string>
-    <string name="stop_record_while_locking_summary">བརྙན་ཤེལ་སྒོ་ལྕགས་པར་ངོས་ལ་འཛུལ་སྐབས་བརྙན་ཤེལ་བརྙན་འཇུག་མཇུག་སྒྲིལ་ནས་ཉར་ཚགས།</string>
     <string name="stop_recording">བརྙན་འཇུག་མཚམས་འཇོག</string>
     <string name="storage_location">གསོག་ཉར་ས་གནས།</string>
     <string name="storage_location_summary">ཕྱི་སྒྲིག་SDཁཱའམ་རང་སྟེང་གསོག་ཉར་བྱེད་པར་འདེམ་པ།</string>
@@ -276,6 +282,7 @@
     <string name="thursday">གཟའ་ཕུར་བུ།</string>
     <string name="thursday_short">གཟའ་ཕུར་བུ།</string>
     <string name="thursday_shortest">ཕུར་བུ།</string>
+    <string name="time_picker_dialog_title">དུས་ཚོད་སྒྲིག་འགོད།</string>
     <string name="time_picker_label_hour">ཆུ་ཚོད།</string>
     <string name="time_picker_label_minute">སྐར་</string>
     <string name="timer_format">%s</string>
