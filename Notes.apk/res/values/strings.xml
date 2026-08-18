@@ -108,6 +108,8 @@
     <string name="ai_cta_agree_desc">同意以上权限声明并开始使用</string>
     <string name="ai_cta_dialog_message">欢迎使用笔记AI功能。本功能将向您提供语音转文字、图片文字提取、AI写作、AI语音速记、AI问答、智能导入、智能通话笔记、智能设备录音、文件夹自动归纳等功能，本功能需要联网进行使用，可能收集您的录音音频、笔记内容等数据，部分功能将委托给三方进行处理。</string>
     <string name="ai_cta_dialog_message_gl">欢迎使用笔记AI功能。本功能将向您提供语音转文字、AI写作、AI语音速记、AI问答、智能导入、文件夹自动归纳等功能，本功能需要联网进行使用，可能收集您的录音音频、笔记内容等数据，部分功能将委托给三方进行处理。</string>
+    <string name="ai_default_title_voice_note">语音笔记</string>
+    <string name="ai_default_title_voice_quick_note">语音速记</string>
     <string name="ai_device_recording_desc">开启后，智能设备录音同步后，自动生成AI笔记</string>
     <string name="ai_device_recording_title">智能设备录音笔记</string>
     <string name="ai_dialog_cancel_message">Try turning off Computing support to be able to use AI Writing in the cloud.</string>
@@ -141,6 +143,7 @@
     <string name="ai_involve_sensitive_word_title">"Can't generate content related to sensitive topics"</string>
     <string name="ai_label">AI features</string>
     <string name="ai_language_not_support">"This language isn't supported"</string>
+    <string name="ai_language_not_supported">当前语言暂不支持 AI 功能</string>
     <string name="ai_layout">AI Layout</string>
     <string name="ai_llm_dis_connect_error_message">Computing support session was interrupted. Check your network settings and try again.</string>
     <string name="ai_loading_ocr">Extracting text in the cloud…</string>
@@ -167,6 +170,7 @@
     <string name="ai_privacy_revoke_dialog_title">撤回同意隐私政策？</string>
     <string name="ai_progress_dialog_message">Connecting device…</string>
     <string name="ai_recommend_send_icon_talkback_text">Send</string>
+    <string name="ai_response_truncated_by_length">[回答因长度限制被截断，可尝试缩小问题范围重新提问]</string>
     <string name="ai_result_warn">The content above is AI-generated. Accuracy may vary.</string>
     <string name="ai_search_chat_history">对话记录</string>
     <string name="ai_search_database_building_progress">Analyzing notes to provide more accurate results…</string>
@@ -182,6 +186,9 @@
     <string name="ai_setting_device_recording_desc">穿戴设备录音后自动识别关键内容，云端AI自动整理录音内容，生成结构化笔记</string>
     <string name="ai_setting_voice_memo_desc">语音实时转写成文字稿，云端AI自动整理语音内容，生成结构化笔记</string>
     <string name="ai_settings_quick_note_title">摘录</string>
+    <string name="ai_settings_wearable_device_settings_summary">穿戴设备录音后自动识别关键内容，云端AI自动整理录音内容，生成结构化笔记</string>
+    <string name="ai_settings_wearable_device_settings_title">智能设备录音笔记</string>
+    <string name="ai_settings_wearable_device_summary">开启后，智能设备录音同步后，自动生成AI笔记</string>
     <string name="ai_smart_folder_login_btn_login">去登录</string>
     <string name="ai_smart_folder_login_dialog_message">登录小米账号后即可体验文件夹自动归纳笔记功能，取消登录将创建普通文件夹</string>
     <string name="ai_smart_folder_login_dialog_title">登录小米账号？</string>
@@ -393,7 +400,7 @@
     <string name="call_notification_incoming_text">Incoming call</string>
     <string name="call_notification_ongoing_text">Ongoing call</string>
     <string name="call_notification_screening_text">Screening an incoming call</string>
-    <string name="camera_permission_required">需要相机权限才能拍照</string>
+    <string name="camera_permission_required">Grant camera permissions to be able to take photos</string>
     <string name="cancel">取消</string>
     <string name="cancel_alarm_description">Cancel alarm</string>
     <string name="canvas_is_too_large_to_share">This item is too big to share</string>
@@ -576,6 +583,24 @@
     <string name="color_pick_pen_talkback">Eyedropper tool</string>
     <string name="color_pick_talkback">Row %1$d, Column %2$d</string>
     <string name="color_picker_popup_straw_talkback">Eyedropper tool</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="complete_extension">Extension complete</string>
     <string name="complete_polish">Finished polishing</string>
     <string name="confirm">确定</string>
@@ -587,6 +612,7 @@
     <string name="confirm_delete_title">确认删除</string>
     <string name="confirm_ok">Agree</string>
     <string name="content_desc_close">关闭</string>
+    <string name="content_desc_create_note">新建笔记</string>
     <string name="content_preview_ratio">1:1</string>
     <string name="content_text">AI Writing provides features including expanding, polishing, proofreading, and summarizing your writing and creating pieces of writing based on your prompts.</string>
     <string name="continuous_default_hint">Copy text, save images and screenshots as excerpts</string>
@@ -669,7 +695,7 @@
     <string name="creation_more_tool_insert_shape">Insert shape</string>
     <string name="creation_more_tool_insert_star">Star</string>
     <string name="creation_more_tool_insert_triangle">Triangle</string>
-    <string name="creation_more_tool_math_recognition">Handwriting calculation</string>
+    <string name="creation_more_tool_math_recognition">Math solver</string>
     <string name="creation_more_tool_pencil_hotkey">Stylus shortcut buttons</string>
     <string name="creation_more_tool_take_photo_failed">"Couldn't take photo. Try again."</string>
     <string name="creation_no_shape_talkback">No outline</string>
@@ -1136,6 +1162,7 @@
     <string name="folder_action_unpin">取消置顶</string>
     <string name="folder_all_content">全部内容</string>
     <string name="folder_back">返回</string>
+    <string name="folder_batch_delete_message_with_notes">确认删除所选的%1$s和%2$s？</string>
     <string name="folder_delete_confirm">删除</string>
     <string name="folder_delete_title">删除文件夹</string>
     <string name="folder_empty">暂无文件夹</string>
@@ -1753,13 +1780,15 @@
     <string name="not_set">Not set</string>
     <string name="note_ai_search_database_building_progress">Analyzing notes… (%s)</string>
     <string name="note_ai_search_database_building_tip">"Keep your device connected to the charger. It'll analyze notes faster when the screen is off."</string>
-    <string name="note_asr_api_key_debug">vqprwwO3uSvJRPV0wG4rUg9q7ojpGtK3MSA62Zmmxf8</string>
-    <string name="note_asr_api_key_release">TF4dBTngGtrbaFja6C02hYc2pL1pqt11q9ZeD2kgVeU</string>
+    <string name="note_asr_api_key">TF4dBTngGtrbaFja6C02hYc2pL1pqt11q9ZeD2kgVeU</string>
+    <string name="note_asr_api_key_intl">YDlBdL3Wc71epUvFHkbgkjVWVinL1_zIl3AC16i34eo</string>
     <string name="note_asr_client_id">1353384676173025280</string>
+    <string name="note_asr_client_id_intl">476338648271290368</string>
     <string name="note_asr_request_origin">RECORD</string>
     <string name="note_asr_sign_secret">Db7mmwEUl78yZGKR5PwtrHKHDJXdHSq8_wzcAhdAKUkPyrF68nSeL4jVGxvR2GvHd_vMAjDa7d-WNJAZYk47ng</string>
+    <string name="note_asr_sign_secret_intl">bSLpWa34fX-H952F8PtcndtPDcpJ7dQ2SFwi_LUya12SBdLEFcJtRhmXGbFics9x6MXMPQfQ2JAjcuIhwRlt4A</string>
     <string name="note_asr_url_cn">https://ai.engine.miui.com</string>
-    <string name="note_asr_url_global">https://ai.engine.intl.miui.com</string>
+    <string name="note_asr_url_global">aHR0cHM6Ly9haS5lbmdpbmUuaW50bC5taXVpLmNvbQ==</string>
     <string name="note_asr_url_test">https://staging-ai.engine.miui.com</string>
     <string name="note_attachment_add_audio">Add audio</string>
     <string name="note_attachment_add_document">Add documents</string>
@@ -1782,6 +1811,7 @@
     <string name="note_not_text_stub">No text</string>
     <string name="note_select_all_talkback">All selected</string>
     <string name="note_sort_way">Sort</string>
+    <string name="note_source_gemini_display_name">来自 Gemini</string>
     <string name="note_source_label">%1$s · 来源于%2$s</string>
     <string name="note_source_miclaw_display_name">来自超级小爱</string>
     <string name="note_source_prefix">来自%1$s</string>
@@ -1991,6 +2021,7 @@
     <string name="playback_play">播放</string>
     <string name="playback_retranscribe">重新转录</string>
     <string name="playback_show_text">显示文本</string>
+    <string name="playback_speed_default">1.0x</string>
     <string name="playback_summary_content_empty_toast">暂无总结内容</string>
     <string name="playback_summary_empty">暂无总结</string>
     <string name="playback_summary_not_generated">总结未生成</string>
@@ -2136,6 +2167,15 @@
     <string name="save_to_local_icon_name">Save</string>
     <string name="save_to_local_success_message">Saved successfully</string>
     <string name="save_to_pictures">Save to Gallery</string>
+    <string name="scan_cls_wechat_favorite">com.tencent.mm.ui.tools.AddFavoriteUI</string>
+    <string name="scan_cls_wechat_share_img">com.tencent.mm.ui.tools.ShareImgUI</string>
+    <string name="scan_cls_wechat_share_timeline">com.tencent.mm.ui.tools.ShareToTimeLineUI</string>
+    <string name="scan_cls_wechat_status">com.tencent.mm.ui.tools.ShareToStatusUI</string>
+    <string name="scan_pkg_wechat">com.tencent.mm</string>
+    <string name="scan_pkg_wps">cn.wps.moffice_eng</string>
+    <string name="scan_pkg_wps_lite">cn.wps.moffice_eng.lite</string>
+    <string name="scan_pkg_wps_xiaomi_lite">cn.wps.moffice_eng.xiaomi.lite</string>
+    <string name="scan_uri_wps_xiaomi_lite_market">http://app.xiaomi.com/details?id=cn.wps.moffice_eng.xiaomi.lite&amp;back=true</string>
     <string name="schedule_card_title">行程计划</string>
     <string name="search_chip_arrow">›</string>
     <string name="search_chip_indicator">🟢</string>
@@ -2348,6 +2388,7 @@
     <string name="speech_release_cancel">松手取消</string>
     <string name="speech_release_edit">松手编辑文字</string>
     <string name="speech_release_send">松手发送</string>
+    <string name="speech_volc_token_api_url">https://imapi.hyperos.xiaomi.com/api/v1/identified/token/refresh-v2</string>
     <string name="splash_note">Stylus</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_completed">✅笔记分类执行完成</string>
@@ -2482,6 +2523,9 @@
     <string name="time_picker_dialog_title">Set time</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="time_placeholder_hh_mm_ss">00:00:00</string>
+    <string name="time_placeholder_mm_ss">00:00</string>
+    <string name="time_placeholder_mm_ss_ms">00:00.00</string>
     <string name="title_mindmap">思维导图</string>
     <string name="title_notes">笔记</string>
     <string name="title_private_note">私密笔记</string>
@@ -2511,6 +2555,7 @@
     <string name="toast_refuse_to_use_external_storage">"Storage permissions are restricted.
 Allow Notes to read the contents of your SD card."</string>
     <string name="toast_refuse_to_use_photos_in_excerpt">Allow this app to access your photos to be able to add images to notes</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt_new">Allow this app to access photos</string>
     <string name="toast_refuse_to_use_record_audio">"Microphone permissions are restricted.
 Allow Notes to record audio."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Allow Notes to access storage to be able to add images to your notes</string>
