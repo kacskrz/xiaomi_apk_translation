@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">منذ ساعة واحدة</item>
-        <item quantity="zero">منذ ساعة واحدة</item>
-        <item quantity="one">منذ ساعة واحدة</item>
-        <item quantity="two">منذ ساعة واحدة</item>
-        <item quantity="few">منذ ساعة واحدة</item>
-        <item quantity="many">منذ ساعة واحدة</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">قبل %d ساعة</item>
         <item quantity="zero">قبل %d ساعة</item>
@@ -120,6 +112,14 @@
         <item quantity="few">لا يمكن إنشاء محتوى يزيد عن %1$s أحرف</item>
         <item quantity="many">لا يمكن إنشاء محتوى يزيد عن %1$s أحرف</item>
     </plurals>
+    <plurals name="alert_message_batch_delete">
+        <item quantity="other">هل تريد حذف %1$d ملاحظة محددة؟</item>
+        <item quantity="zero">هل تريد حذف %1$d ملاحظة محددة؟</item>
+        <item quantity="one">هل تريد حذف %1$d ملاحظة محددة؟</item>
+        <item quantity="two">هل تريد حذف %1$d ملاحظتين محددتين؟</item>
+        <item quantity="few">هل تريد حذف %1$d ملاحظات محددة؟</item>
+        <item quantity="many">هل تريد حذف %1$d ملاحظة محددة؟</item>
+    </plurals>
     <plurals name="alert_message_delete">
         <item quantity="other">حذف %1$s عنصر؟</item>
         <item quantity="zero">حذف %1$s عنصر؟</item>
@@ -127,6 +127,150 @@
         <item quantity="two">حذف %1$s عناصر؟</item>
         <item quantity="few">حذف %1$s عناصر؟</item>
         <item quantity="many">حذف %1$s عنصر؟</item>
+    </plurals>
+    <plurals name="batch_pin_success">
+        <item quantity="other">تم تثبيت %1$d ملاحظة</item>
+        <item quantity="zero">تم تثبيت %1$d ملاحظة</item>
+        <item quantity="one">تم تثبيت %1$d ملاحظة</item>
+        <item quantity="two">تم تثبيت %1$d ملاحظتين</item>
+        <item quantity="few">تم تثبيت %1$d ملاحظات</item>
+        <item quantity="many">تم تثبيت %1$d ملاحظة</item>
+    </plurals>
+    <plurals name="batch_unpin_success">
+        <item quantity="other">تم إلغاء تثبيت %1$d ملاحظة</item>
+        <item quantity="zero">تم إلغاء تثبيت %1$d ملاحظة</item>
+        <item quantity="one">تم إلغاء تثبيت %1$d ملاحظة</item>
+        <item quantity="two">تم إلغاء تثبيت %1$d ملاحظتين</item>
+        <item quantity="few">تم إلغاء تثبيت %1$d ملاحظات</item>
+        <item quantity="many">تم إلغاء تثبيت %1$d ملاحظة</item>
+    </plurals>
+    <plurals name="cd_folder_note_count">
+        <item quantity="other">%d ملاحظة</item>
+        <item quantity="zero">%d ملاحظة</item>
+        <item quantity="one">%d ملاحظة</item>
+        <item quantity="two">%d ملاحظة</item>
+        <item quantity="few">%d ملاحظات</item>
+        <item quantity="many">%d ملاحظة</item>
+    </plurals>
+    <plurals name="cd_photo_index">
+        <item quantity="other">الصورة %d</item>
+        <item quantity="zero">الصورة %d</item>
+        <item quantity="one">الصورة %d</item>
+        <item quantity="two">الصورة %d</item>
+        <item quantity="few">الصور %d</item>
+        <item quantity="many">الصورة %d</item>
+    </plurals>
+    <plurals name="cd_photo_total">
+        <item quantity="other">إجمالي %d صورة</item>
+        <item quantity="zero">إجمالي %d صورة</item>
+        <item quantity="one">إجمالي %d صورة</item>
+        <item quantity="two">إجمالي %d صورة</item>
+        <item quantity="few">إجمالي %d صور</item>
+        <item quantity="many">إجمالي %d صورة</item>
+    </plurals>
+    <plurals name="cd_playback_forward">
+        <item quantity="other">تقديم سريع %d ثانية</item>
+        <item quantity="zero">تقديم سريع %d ثانية</item>
+        <item quantity="one">تقديم سريع %d ثانية</item>
+        <item quantity="two">تقديم سريع %d ثانية</item>
+        <item quantity="few">تقديم سريع %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع %d ثانية</item>
+    </plurals>
+    <plurals name="cd_playback_rewind">
+        <item quantity="other">إرجاع%d ثانية</item>
+        <item quantity="zero">إرجاع%d ثانية</item>
+        <item quantity="one">إرجاع%d ثانية</item>
+        <item quantity="two">إرجاع%d ثانية</item>
+        <item quantity="few">إرجاع%d ثوانِ</item>
+        <item quantity="many">إرجاع%d ثانية</item>
+    </plurals>
+    <plurals name="cd_playback_speed_float">
+        <item quantity="other">سرعة التشغيل %.1fX</item>
+        <item quantity="zero">سرعة التشغيل %.1fX</item>
+        <item quantity="one">سرعة التشغيل %.1fX</item>
+        <item quantity="two">سرعة التشغيل %.1fX</item>
+        <item quantity="few">سرعة التشغيل %.1fX</item>
+        <item quantity="many">سرعة التشغيل %.1fX</item>
+    </plurals>
+    <plurals name="cd_playback_speed_int">
+        <item quantity="other">سرعة التشغيل %dX</item>
+        <item quantity="zero">سرعة التشغيل %dX</item>
+        <item quantity="one">سرعة التشغيل %dX</item>
+        <item quantity="two">سرعة التشغيل %dX</item>
+        <item quantity="few">سرعة التشغيل %dX</item>
+        <item quantity="many">سرعة التشغيل %dX</item>
+    </plurals>
+    <plurals name="cd_time_hours">
+        <item quantity="other">%d ساعة</item>
+        <item quantity="zero">%d ساعة</item>
+        <item quantity="one">%d ساعة</item>
+        <item quantity="two">%d ساعة</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعة</item>
+    </plurals>
+    <plurals name="cd_time_minutes">
+        <item quantity="other">%d دقيقة</item>
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="two">%d دقيقة</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+    </plurals>
+    <plurals name="cd_time_seconds">
+        <item quantity="other">%d ثانية</item>
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">%d ثانية</item>
+        <item quantity="two">%d ثانية</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانية</item>
+    </plurals>
+    <plurals name="chat_history_batch_delete_message">
+        <item quantity="other">لن تتمكن من استعادة %1$d عنصرًا محددًا بعد حذفها. هل تريد حذفها على أي حال؟</item>
+        <item quantity="zero">لن تتمكن من استعادة %1$d عنصر محدد بعد حذفه. هل تريد حذفه على أي حال؟</item>
+        <item quantity="one">لن تتمكن من استعادة %1$d عنصر محدد بعد حذفه. هل تريد حذفه على أي حال؟</item>
+        <item quantity="two">لن تتمكن من استعادة %1$d عنصرين محددين بعد حذفهما. هل تريد حذفهما على أي حال؟</item>
+        <item quantity="few">لن تتمكن من استعادة %1$d عناصر محددة بعد حذفها. هل تريد حذفها على أي حال؟</item>
+        <item quantity="many">لن تتمكن من استعادة %1$d عنصرًا محددًا بعد حذفها. هل تريد حذفها على أي حال؟</item>
+    </plurals>
+    <plurals name="chat_history_message_count">
+        <item quantity="other">%1$d إشعارًا</item>
+        <item quantity="zero">%1$d إشعار</item>
+        <item quantity="one">%1$d إشعار</item>
+        <item quantity="two">%1$d إشعاران</item>
+        <item quantity="few">%1$d إشعارات</item>
+        <item quantity="many">%1$d إشعارًا</item>
+    </plurals>
+    <plurals name="cloud_banner_notes_unsync">
+        <item quantity="other">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+        <item quantity="zero">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+        <item quantity="one">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+        <item quantity="two">لم تتم مزامنة %1$d ملاحظات مع Xiaomi Cloud</item>
+        <item quantity="few">لم تتم مزامنة %1$d ملاحظات مع Xiaomi Cloud</item>
+        <item quantity="many">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+    </plurals>
+    <plurals name="cloud_banner_sync_done_notes">
+        <item quantity="other">%d ملاحظة</item>
+        <item quantity="zero">%d ملاحظة</item>
+        <item quantity="one">%d ملاحظة</item>
+        <item quantity="two">%d ملاحظات</item>
+        <item quantity="few">%d ملاحظات</item>
+        <item quantity="many">%d ملاحظة</item>
+    </plurals>
+    <plurals name="cloud_banner_sync_done_todos">
+        <item quantity="other">%d مهمة</item>
+        <item quantity="zero">%d مهمة</item>
+        <item quantity="one">%d مهمة</item>
+        <item quantity="two">%d مهام</item>
+        <item quantity="few">%d مهام</item>
+        <item quantity="many">%d مهمة</item>
+    </plurals>
+    <plurals name="cloud_banner_todos_unsync">
+        <item quantity="other">لم تتم مزامنة %1$d مهمة مع Xiaomi Cloud</item>
+        <item quantity="zero">لم تتم مزامنة %1$d مهمة مع Xiaomi Cloud</item>
+        <item quantity="one">لم تتم مزامنة %1$d مهمة مع Xiaomi Cloud</item>
+        <item quantity="two">لم تتم مزامنة %1$d مهام مع Xiaomi Cloud</item>
+        <item quantity="few">لم تتم مزامنة %1$d مهام مع Xiaomi Cloud</item>
+        <item quantity="many">لم تتم مزامنة %1$d مهمة مع Xiaomi Cloud</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">لم تتم مزامنة %1$s عنصر</item>
@@ -224,6 +368,22 @@
         <item quantity="few">قبل %1$d أيام</item>
         <item quantity="many">قبل %1$d يوم</item>
     </plurals>
+    <plurals name="folder_batch_delete_message">
+        <item quantity="other">هل تريد حذف %1$d مجلدًا محددًا؟</item>
+        <item quantity="zero">هل تريد حذف %1$d مجلد محدد؟</item>
+        <item quantity="one">هل تريد حذف %1$d مجلد محدد؟</item>
+        <item quantity="two">هل تريد حذف %1$d مجلدين محددين؟</item>
+        <item quantity="few">هل تريد حذف %1$d مجلدات محددة؟</item>
+        <item quantity="many">هل تريد حذف %1$d مجلدًا محددًا؟</item>
+    </plurals>
+    <plurals name="folder_selected_count">
+        <item quantity="other">تم تحديد %d عنصرًا</item>
+        <item quantity="zero">تم تحديد %d عنصر</item>
+        <item quantity="one">تم تحديد %d عنصر</item>
+        <item quantity="two">تم تحديد %d عنصرين</item>
+        <item quantity="few">تم تحديد %d عناصر</item>
+        <item quantity="many">تم تحديد %d عنصرًا</item>
+    </plurals>
     <plurals name="format_move_notes_out_folder">
         <item quantity="other">تم حذف %1$s ملاحظة من المجلد</item>
         <item quantity="zero">تم حذف %1$s ملاحظة من المجلد</item>
@@ -288,6 +448,38 @@
         <item quantity="few">الآن</item>
         <item quantity="many">الآن</item>
     </plurals>
+    <plurals name="migration_banner_sync_text">
+        <item quantity="other">تم اكتشاف %d ملاحظة. حوّلها إلى التنسيق الجديد لعرضها والاستفادة من ميزات الذكاء الاصطناعي.</item>
+        <item quantity="zero">تم اكتشاف %d ملاحظة. حوّلها إلى التنسيق الجديد لعرضها والاستفادة من ميزات الذكاء الاصطناعي.</item>
+        <item quantity="one">تم اكتشاف %d ملاحظة. حوّلها إلى التنسيق الجديد لعرضها والاستفادة من ميزات الذكاء الاصطناعي.</item>
+        <item quantity="two">تم اكتشاف %d ملاحظتين. حوّلهما إلى التنسيق الجديد لعرضهما والاستفادة من ميزات الذكاء الاصطناعي.</item>
+        <item quantity="few">تم اكتشاف %d ملاحظات. حوّلها إلى التنسيق الجديد لعرضها والاستفادة من ميزات الذكاء الاصطناعي.</item>
+        <item quantity="many">تم اكتشاف %d ملاحظة. حوّلها إلى التنسيق الجديد لعرضها والاستفادة من ميزات الذكاء الاصطناعي.</item>
+    </plurals>
+    <plurals name="migration_completed">
+        <item quantity="other">تم نقل %1$d عنصرًا بنجاح</item>
+        <item quantity="zero">تم نقل %1$d عنصر بنجاح</item>
+        <item quantity="one">تم نقل %1$d عنصر بنجاح</item>
+        <item quantity="two">تم نقل %1$d عنصرين بنجاح</item>
+        <item quantity="few">تم نقل %1$d عناصر بنجاح</item>
+        <item quantity="many">تم نقل %1$d عنصرًا بنجاح</item>
+    </plurals>
+    <plurals name="migration_completed_fail_count">
+        <item quantity="other">تعذر نقل %d عنصرًا</item>
+        <item quantity="zero">تعذر نقل %d عنصر</item>
+        <item quantity="one">تعذر نقل %d عنصر</item>
+        <item quantity="two">تعذر نقل %d عنصرين</item>
+        <item quantity="few">تعذر نقل %d عناصر</item>
+        <item quantity="many">تعذر نقل %d عنصرًا</item>
+    </plurals>
+    <plurals name="migration_completed_success_count">
+        <item quantity="other">تم نقل %d عنصرًا بنجاح</item>
+        <item quantity="zero">تم نقل %d عنصر بنجاح</item>
+        <item quantity="one">تم نقل %d عنصر بنجاح</item>
+        <item quantity="two">تم نقل %d عنصرين بنجاح</item>
+        <item quantity="few">تم نقل %d عناصر بنجاح</item>
+        <item quantity="many">تم نقل %d عنصرًا بنجاح</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d عنصر محدد</item>
         <item quantity="zero">%d عنصر محدد</item>
@@ -296,13 +488,21 @@
         <item quantity="few">%d عناصر محددة</item>
         <item quantity="many">%d عنصر محدد</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d إشعار جديد</item>
-        <item quantity="zero">%d إشعار جديد</item>
-        <item quantity="one">إشعار جديد واحد (%d)</item>
-        <item quantity="two">إشعاران جديدان (%d)</item>
-        <item quantity="few">%d إشعارات جديدة</item>
-        <item quantity="many">%d إشعارًا جديدًا</item>
+    <plurals name="move_to_folder_success">
+        <item quantity="other">تمّ نقل %1$d ملاحظة إلى \"%2$s\"</item>
+        <item quantity="zero">تمّ نقل %1$d ملاحظة إلى \"%2$s\"</item>
+        <item quantity="one">تمّ نقل %1$d ملاحظة إلى \"%2$s\"</item>
+        <item quantity="two">تمّ نقل %1$d ملاحظتين إلى \"%2$s\"</item>
+        <item quantity="few">تمّ نقل %1$d ملاحظات إلى \"%2$s\"</item>
+        <item quantity="many">تمّ نقل %1$d ملاحظة إلى \"%2$s\"</item>
+    </plurals>
+    <plurals name="multi_select_count">
+        <item quantity="other">تم تحديد %d عنصرًا</item>
+        <item quantity="zero">تم تحديد %d عنصر</item>
+        <item quantity="one">تم تحديد %d عنصر</item>
+        <item quantity="two">تم تحديد %d عنصرين</item>
+        <item quantity="few">تم تحديد %d عناصر</item>
+        <item quantity="many">تم تحديد %d عنصرًا</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">منذ %d دق</item>
@@ -312,14 +512,6 @@
         <item quantity="few">منذ %d دق</item>
         <item quantity="many">منذ %d دق</item>
     </plurals>
-    <plurals name="pc_notes_search_result">
-        <item quantity="other">تم العثور على %1$s ملاحظة</item>
-        <item quantity="zero">تم العثور على %1$s ملاحظة</item>
-        <item quantity="one">تم العثور على %1$s ملاحظة</item>
-        <item quantity="two">تم العثور على %1$s ملاحظات</item>
-        <item quantity="few">تم العثور على %1$s ملاحظات</item>
-        <item quantity="many">تم العثور على %1$s ملاحظة</item>
-    </plurals>
     <plurals name="pc_todo_search_result">
         <item quantity="other">تم العثور على %1$s مهمة</item>
         <item quantity="zero">تم العثور على %1$s مهمة</item>
@@ -328,6 +520,38 @@
         <item quantity="few">تم العثور على %1$s مهام</item>
         <item quantity="many">تم العثور على %1$s مهمة</item>
     </plurals>
+    <plurals name="private_notes_selected_count">
+        <item quantity="other">تم تحديد %d عنصرًا</item>
+        <item quantity="zero">تم تحديد %d عنصر</item>
+        <item quantity="one">تم تحديد %d عنصر</item>
+        <item quantity="two">تم تحديد %d عنصرين</item>
+        <item quantity="few">تم تحديد %d عناصر</item>
+        <item quantity="many">تم تحديد %d عنصرًا</item>
+    </plurals>
+    <plurals name="recently_deleted_confirm_delete_message">
+        <item quantity="other">هل تريد حذف %1$d ملاحظة نهائيًا؟</item>
+        <item quantity="zero">هل تريد حذف %1$d ملاحظة نهائيًا؟</item>
+        <item quantity="one">هل تريد حذف %1$d ملاحظة نهائيًا؟</item>
+        <item quantity="two">هل تريد حذف %1$d ملاحظتين نهائيًا؟</item>
+        <item quantity="few">هل تريد حذف %1$d ملاحظات نهائيًا؟</item>
+        <item quantity="many">هل تريد حذف %1$d ملاحظة نهائيًا؟</item>
+    </plurals>
+    <plurals name="recently_deleted_selected_count">
+        <item quantity="other">تم تحديد%d عنصرًا</item>
+        <item quantity="zero">تم تحديد%d عنصر</item>
+        <item quantity="one">تم تحديد%d عنصر</item>
+        <item quantity="two">تم تحديد%d عنصرين</item>
+        <item quantity="few">تم تحديد%d عناصر</item>
+        <item quantity="many">تم تحديد%d عنصرًا</item>
+    </plurals>
+    <plurals name="recently_deleted_subtitle">
+        <item quantity="other">يمكن استعادة العناصر المحذوفة لمدة %d يوم.</item>
+        <item quantity="zero">يمكن استعادة العناصر المحذوفة لمدة %d يوم.</item>
+        <item quantity="one">يمكن استعادة العناصر المحذوفة لمدة %d يوم.</item>
+        <item quantity="two">يمكن استعادة العناصر المحذوفة لمدة %d أيام.</item>
+        <item quantity="few">يمكن استعادة العناصر المحذوفة لمدة %d أيام.</item>
+        <item quantity="many">يمكن استعادة العناصر المحذوفة لمدة %d يوم.</item>
+    </plurals>
     <plurals name="record_last_ten_seconds_reminder">
         <item quantity="other">%d ثانية متبقية</item>
         <item quantity="zero">%d ثواني متبقية</item>
@@ -335,6 +559,70 @@
         <item quantity="two">%d ثواني متبقية</item>
         <item quantity="few">%d ثواني متبقية</item>
         <item quantity="many">%d ثانية متبقية</item>
+    </plurals>
+    <plurals name="search_found_notes">
+        <item quantity="other">تم العثور على %1$d نتيجة</item>
+        <item quantity="zero">تم العثور على %1$d نتيجة</item>
+        <item quantity="one">تم العثور على %1$d نتيجة</item>
+        <item quantity="two">تم العثور على %1$d نتيجتين</item>
+        <item quantity="few">تم العثور على %1$d نتائج</item>
+        <item quantity="many">تم العثور على %1$d نتيجة</item>
+    </plurals>
+    <plurals name="search_match_count">
+        <item quantity="other">تم العثور على %1$d نتيجة</item>
+        <item quantity="zero">تم العثور على %1$d نتيجة</item>
+        <item quantity="one">تم العثور على %1$d نتيجة</item>
+        <item quantity="two">تم العثور على %1$d نتيجتين</item>
+        <item quantity="few">تم العثور على %1$d نتائج</item>
+        <item quantity="many">تم العثور على %1$d نتيجة</item>
+    </plurals>
+    <plurals name="sync_all_done_1">
+        <item quantity="other">%d ملاحظة</item>
+        <item quantity="zero">%d ملاحظة</item>
+        <item quantity="one">%d ملاحظة</item>
+        <item quantity="two">%d ملاحظات</item>
+        <item quantity="few">%d ملاحظات</item>
+        <item quantity="many">%d ملاحظة</item>
+    </plurals>
+    <plurals name="sync_all_done_2">
+        <item quantity="other">%d مهمة</item>
+        <item quantity="zero">%d مهمة</item>
+        <item quantity="one">%d مهمة</item>
+        <item quantity="two">%d مهام</item>
+        <item quantity="few">%d مهام</item>
+        <item quantity="many">%d مهمة</item>
+    </plurals>
+    <plurals name="sync_notes_and_todos_unsync_1">
+        <item quantity="other">%d ملاحظة</item>
+        <item quantity="zero">%d ملاحظة</item>
+        <item quantity="one">%d ملاحظة</item>
+        <item quantity="two">%d ملاحظات</item>
+        <item quantity="few">%d ملاحظات</item>
+        <item quantity="many">%d ملاحظة</item>
+    </plurals>
+    <plurals name="sync_notes_and_todos_unsync_2">
+        <item quantity="other">%d مهمة</item>
+        <item quantity="zero">%d مهمة</item>
+        <item quantity="one">%d مهمة</item>
+        <item quantity="two">%d مهام</item>
+        <item quantity="few">%d مهام</item>
+        <item quantity="many">%d مهمة</item>
+    </plurals>
+    <plurals name="sync_notes_unsync">
+        <item quantity="other">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+        <item quantity="zero">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+        <item quantity="one">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+        <item quantity="two">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+        <item quantity="few">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+        <item quantity="many">لم تتم مزامنة %1$d ملاحظة مع Xiaomi Cloud</item>
+    </plurals>
+    <plurals name="sync_todos_unsync">
+        <item quantity="other">لم تتم مزامنة %1$d مهمة مع Xiaomi Cloud</item>
+        <item quantity="zero">لم تتم مزامنة %1$d مهمة مع Xiaomi Cloud</item>
+        <item quantity="one">لم تتم مزامنة %1$d مهمة مع Xiaomi Cloud</item>
+        <item quantity="two">لم تتم مزامنة %1$d مهام مع Xiaomi Cloud</item>
+        <item quantity="few">لم تتم مزامنة %1$d مهام مع Xiaomi Cloud</item>
+        <item quantity="many">لم تتم مزامنة %1$d مهمة مع Xiaomi Cloud</item>
     </plurals>
     <plurals name="toast_notes_unhidden_count">
         <item quantity="other">تم إلغاء إخفاء %1$s ملاحظة بنجاح</item>
@@ -368,6 +656,14 @@
         <item quantity="few">حذف %1$s مهام؟</item>
         <item quantity="many">حذف %1$s مهمة؟</item>
     </plurals>
+    <plurals name="todo_count_format">
+        <item quantity="other">%1$d مهمة</item>
+        <item quantity="zero">%1$d مهمة</item>
+        <item quantity="one">%1$d مهمة</item>
+        <item quantity="two">%1$d مهمتان</item>
+        <item quantity="few">%1$d مهام</item>
+        <item quantity="many">%1$d مهمة</item>
+    </plurals>
     <plurals name="todo_event_description_days_ago">
         <item quantity="other">قبل %1$d يوم</item>
         <item quantity="zero">قبل %1$d يوم</item>
@@ -392,6 +688,14 @@
         <item quantity="few">%1$s مهام</item>
         <item quantity="many">%1$s مهمة</item>
     </plurals>
+    <plurals name="wearable_completion_title">
+        <item quantity="other">تم إنشاء %d ملاحظة</item>
+        <item quantity="zero">تم إنشاء %d ملاحظة</item>
+        <item quantity="one">تم إنشاء %d ملاحظة</item>
+        <item quantity="two">تم إنشاء %d ملاحظات</item>
+        <item quantity="few">تم إنشاء %d ملاحظات</item>
+        <item quantity="many">تم إنشاء %d ملاحظة</item>
+    </plurals>
     <plurals name="word_count">
         <item quantity="other">%d حرف</item>
         <item quantity="zero">%d حرف</item>
@@ -399,5 +703,13 @@
         <item quantity="two">%d أحرف</item>
         <item quantity="few">%d أحرف</item>
         <item quantity="many">%d حرف</item>
+    </plurals>
+    <plurals name="wv_note_editor_word_count">
+        <item quantity="other">%1$d حرف</item>
+        <item quantity="zero">%1$d حرف</item>
+        <item quantity="one">%1$d حرف</item>
+        <item quantity="two">%1$d حروف</item>
+        <item quantity="few">%1$d حروف</item>
+        <item quantity="many">%1$d حرف</item>
     </plurals>
 </resources>

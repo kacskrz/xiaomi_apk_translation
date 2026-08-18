@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">Il y a 1 heure</item>
-        <item quantity="one">Il y a 1 heure</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">Il y a %d heures</item>
         <item quantity="one">Il y a %d heure</item>
@@ -60,9 +56,85 @@
         <item quantity="other">Impossible de générer du contenu au-dessus de %1$s caractères</item>
         <item quantity="one">Impossible de générer du contenu au-dessus de %1$s caractère</item>
     </plurals>
+    <plurals name="alert_message_batch_delete">
+        <item quantity="other">Supprimer les %1$d notes sélectionnées ?</item>
+        <item quantity="one">Supprimer la (%1$d) note sélectionnée ?</item>
+    </plurals>
     <plurals name="alert_message_delete">
         <item quantity="other">Supprimer %1$s éléments ?</item>
         <item quantity="one">Supprimer %1$s élément ?</item>
+    </plurals>
+    <plurals name="batch_pin_success">
+        <item quantity="other">%1$d notes épinglées</item>
+        <item quantity="one">%1$d note épinglée</item>
+    </plurals>
+    <plurals name="batch_unpin_success">
+        <item quantity="other">%1$d notes désépinglées</item>
+        <item quantity="one">%1$d note désépinglée</item>
+    </plurals>
+    <plurals name="cd_folder_note_count">
+        <item quantity="other">%d notes</item>
+        <item quantity="one">%d note</item>
+    </plurals>
+    <plurals name="cd_photo_index">
+        <item quantity="other">Image %d</item>
+        <item quantity="one">Image %d</item>
+    </plurals>
+    <plurals name="cd_photo_total">
+        <item quantity="other">%d images au total</item>
+        <item quantity="one">%d image au total</item>
+    </plurals>
+    <plurals name="cd_playback_forward">
+        <item quantity="other">Avance rapide %d secondes</item>
+        <item quantity="one">Avance rapide %d seconde</item>
+    </plurals>
+    <plurals name="cd_playback_rewind">
+        <item quantity="other">Rembobiner %d secondes</item>
+        <item quantity="one">Rembobiner %d seconde</item>
+    </plurals>
+    <plurals name="cd_playback_speed_float">
+        <item quantity="other">Vitesse de lecture %.1fX</item>
+        <item quantity="one">Vitesse de lecture %.1fX</item>
+    </plurals>
+    <plurals name="cd_playback_speed_int">
+        <item quantity="other">Vitesse de lecture %dX</item>
+        <item quantity="one">Vitesse de lecture %dX</item>
+    </plurals>
+    <plurals name="cd_time_hours">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="cd_time_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="cd_time_seconds">
+        <item quantity="other">%d secondes</item>
+        <item quantity="one">%d seconde</item>
+    </plurals>
+    <plurals name="chat_history_batch_delete_message">
+        <item quantity="other">Si vous supprimez les %1$d éléments sélectionnés, vous ne pourrez plus les récupérer. Voulez-vous tout de même les supprimer ?</item>
+        <item quantity="one">"Si vous supprimez l'élément sélectionné (%1$d), vous ne pourrez plus le récupérer. Voulez-vous tout de même le supprimer ?"</item>
+    </plurals>
+    <plurals name="chat_history_message_count">
+        <item quantity="other">%1$d notifications</item>
+        <item quantity="one">%1$d notification</item>
+    </plurals>
+    <plurals name="cloud_banner_notes_unsync">
+        <item quantity="other">%1$d notes ne sont pas synchronisées avec Xiaomi Cloud</item>
+        <item quantity="one">"%1$d note n'est pas synchronisée avec Xiaomi Cloud"</item>
+    </plurals>
+    <plurals name="cloud_banner_sync_done_notes">
+        <item quantity="other">%d notes</item>
+        <item quantity="one">%d note</item>
+    </plurals>
+    <plurals name="cloud_banner_sync_done_todos">
+        <item quantity="other">%d tâches</item>
+        <item quantity="one">%d tâche</item>
+    </plurals>
+    <plurals name="cloud_banner_todos_unsync">
+        <item quantity="other">%1$d tâches ne sont pas synchronisées avec Xiaomi Cloud</item>
+        <item quantity="one">"%1$d tâche n'est pas synchronisée avec Xiaomi Cloud"</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">"%1$s éléments n'ont pas été synchronisé"</item>
@@ -112,6 +184,14 @@
         <item quantity="other">%1$d jours avant</item>
         <item quantity="one">%1$d jour avant</item>
     </plurals>
+    <plurals name="folder_batch_delete_message">
+        <item quantity="other">Supprimer %1$d dossiers sélectionnés ?</item>
+        <item quantity="one">Supprimer %1$d dossier sélectionné ?</item>
+    </plurals>
+    <plurals name="folder_selected_count">
+        <item quantity="other">%d éléments sélectionnés</item>
+        <item quantity="one">%d élément sélectionné</item>
+    </plurals>
     <plurals name="format_move_notes_out_folder">
         <item quantity="other">%1$s notes ont été retiré du dossier</item>
         <item quantity="one">%1$s note a été retiré du dossier</item>
@@ -144,29 +224,93 @@
         <item quantity="other">"À l'instant"</item>
         <item quantity="one">"À l'instant"</item>
     </plurals>
+    <plurals name="migration_banner_sync_text">
+        <item quantity="other">"%d notes ont été détectées. Convertissez-les au nouveau format pour les consulter et débloquer les fonctionnalités d'IA."</item>
+        <item quantity="one">"%d note a été détectée. Convertissez-la au nouveau format pour la consulter et débloquer les fonctionnalités d'IA."</item>
+    </plurals>
+    <plurals name="migration_completed">
+        <item quantity="other">%1$d éléments ont bien été transférés</item>
+        <item quantity="one">%1$d élément a bien été transféré</item>
+    </plurals>
+    <plurals name="migration_completed_fail_count">
+        <item quantity="other">Impossible de transférer %d éléments</item>
+        <item quantity="one">Impossible de transférer %d élément</item>
+    </plurals>
+    <plurals name="migration_completed_success_count">
+        <item quantity="other">%d éléments ont bien été transférés</item>
+        <item quantity="one">%d élément a bien été transféré</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d éléments sélectionnés</item>
         <item quantity="one">%d élément sélectionné</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d nouvelles notifications</item>
-        <item quantity="one">%d nouvelle notification</item>
+    <plurals name="move_to_folder_success">
+        <item quantity="other">%1$d notes déplacées dans « %2$s »</item>
+        <item quantity="one">%1$d note déplacée dans « %2$s »</item>
+    </plurals>
+    <plurals name="multi_select_count">
+        <item quantity="other">%d éléments sélectionnés</item>
+        <item quantity="one">%d élément sélectionné</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Il y a %d minutes</item>
         <item quantity="one">Il y a 1 minute</item>
     </plurals>
-    <plurals name="pc_notes_search_result">
-        <item quantity="other">%1$s note trouvées</item>
-        <item quantity="one">%1$s note trouvée</item>
-    </plurals>
     <plurals name="pc_todo_search_result">
         <item quantity="other">%1$s tâches trouvées</item>
         <item quantity="one">%1$s tâche trouvée</item>
     </plurals>
+    <plurals name="private_notes_selected_count">
+        <item quantity="other">%d éléments sélectionnés</item>
+        <item quantity="one">%d élément sélectionné</item>
+    </plurals>
+    <plurals name="recently_deleted_confirm_delete_message">
+        <item quantity="other">Supprimer définitivement %1$d notes ?</item>
+        <item quantity="one">Supprimer définitivement %1$d note ?</item>
+    </plurals>
+    <plurals name="recently_deleted_selected_count">
+        <item quantity="other">%d éléments sélectionnés</item>
+        <item quantity="one">%d élément sélectionné</item>
+    </plurals>
+    <plurals name="recently_deleted_subtitle">
+        <item quantity="other">Les éléments supprimés peuvent être restaurés pendant %d jours</item>
+        <item quantity="one">Les éléments supprimés peuvent être restaurés pendant %d jour</item>
+    </plurals>
     <plurals name="record_last_ten_seconds_reminder">
         <item quantity="other">%d secondes restantes</item>
         <item quantity="one">%d seconde restante</item>
+    </plurals>
+    <plurals name="search_found_notes">
+        <item quantity="other">%1$d résultats trouvés</item>
+        <item quantity="one">%1$d résultat trouvé</item>
+    </plurals>
+    <plurals name="search_match_count">
+        <item quantity="other">%1$d résultats trouvés</item>
+        <item quantity="one">%1$d résultat trouvé</item>
+    </plurals>
+    <plurals name="sync_all_done_1">
+        <item quantity="other">%d notes</item>
+        <item quantity="one">%d note</item>
+    </plurals>
+    <plurals name="sync_all_done_2">
+        <item quantity="other">%d tâches</item>
+        <item quantity="one">%d tâche</item>
+    </plurals>
+    <plurals name="sync_notes_and_todos_unsync_1">
+        <item quantity="other">%d notes</item>
+        <item quantity="one">%d note</item>
+    </plurals>
+    <plurals name="sync_notes_and_todos_unsync_2">
+        <item quantity="other">%d tâches</item>
+        <item quantity="one">%d tâche</item>
+    </plurals>
+    <plurals name="sync_notes_unsync">
+        <item quantity="other">%1$d notes ne sont pas synchronisées avec Xiaomi Cloud</item>
+        <item quantity="one">"%1$d note n'est pas synchronisée avec Xiaomi Cloud"</item>
+    </plurals>
+    <plurals name="sync_todos_unsync">
+        <item quantity="other">%1$d tâches ne sont pas synchronisées avec Xiaomi Cloud</item>
+        <item quantity="one">"%1$d tâche n'est pas synchronisée avec Xiaomi Cloud"</item>
     </plurals>
     <plurals name="toast_notes_unhidden_count">
         <item quantity="other">%1$s notes démasquées avec succès</item>
@@ -184,6 +328,10 @@
         <item quantity="other">Supprimer %1$s tâches ?</item>
         <item quantity="one">Supprimer %1$s tâche ?</item>
     </plurals>
+    <plurals name="todo_count_format">
+        <item quantity="other">%1$d tâches</item>
+        <item quantity="one">%1$d tâche</item>
+    </plurals>
     <plurals name="todo_event_description_days_ago">
         <item quantity="other">il y a %1$d jours</item>
         <item quantity="one">il y a %1$d jour</item>
@@ -196,8 +344,16 @@
         <item quantity="other">%1$s tâches</item>
         <item quantity="one">%1$s tâche</item>
     </plurals>
+    <plurals name="wearable_completion_title">
+        <item quantity="other">%d notes créées</item>
+        <item quantity="one">%d note créée</item>
+    </plurals>
     <plurals name="word_count">
         <item quantity="other">%d caractères</item>
         <item quantity="one">%d caractère</item>
+    </plurals>
+    <plurals name="wv_note_editor_word_count">
+        <item quantity="other">%1$d caractères</item>
+        <item quantity="one">%1$d caractère</item>
     </plurals>
 </resources>
