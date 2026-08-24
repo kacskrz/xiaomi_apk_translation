@@ -296,7 +296,7 @@
     <string name="audio_analysis_failed_retry">再試行</string>
     <string name="audio_btn_mode_meeting">会議</string>
     <string name="audio_btn_mode_single">一人</string>
-    <string name="audio_btn_trans">中英翻訳</string>
+    <string name="audio_btn_trans">中国語・英語翻訳</string>
     <string name="audio_create_normal_state">指を離して作成します。上にスライドするとキャンセルされます。</string>
     <string name="audio_create_will_cancel_state">指を離してキャンセル</string>
     <string name="audio_default_name">録音</string>
@@ -1017,6 +1017,7 @@
     <string name="import_audio_queue_waiting">待機中…</string>
     <string name="import_audio_size_exceeded">%1$s 未満の音声ファイルのみサポートしています</string>
     <string name="import_audio_transcribing">文字起こし中: %s</string>
+    <string name="import_blocked_while_recording">録音中です。数分待ってからもう一度お試しください。</string>
     <string name="import_document_size_exceeded">%1$s 未満の添付ファイルのみサポートしています</string>
     <string name="import_file_failed">選択したファイルを開けませんでした</string>
     <string name="import_file_too_large">ファイルは最大 %s MB までです</string>
@@ -1090,7 +1091,7 @@
     <string name="menu_filter_user_created">自分で作成したもの</string>
     <string name="menu_folders">フォルダー</string>
     <string name="menu_group">フォルダーを作成</string>
-    <string name="menu_hide">隠す</string>
+    <string name="menu_hide">非表示にする</string>
     <string name="menu_hide_talkback">プライベートに設定、ボタン</string>
     <string name="menu_import_file">文書をインポート</string>
     <string name="menu_import_url">ウェブページをインポート</string>
@@ -1130,6 +1131,17 @@
     <string name="migration_later">今はしない</string>
     <string name="migration_legacy_click_message">メモの内容を表示するには新しい形式に変換してください。変換すると新しいAI機能が利用できますが、古い形式は利用できなくなります。</string>
     <string name="migration_legacy_click_title">まずメモを変換してください</string>
+    <string name="migration_lite_banner_text">メモが新しくなりました。すべての機能を使用するには、古いメモを新しい形式に変換してください。</string>
+    <string name="migration_lite_confirm_message">"内容は保存され、新バージョンの機能をすべて使用できます。
+変換後のメモは旧バージョンでは表示できません。"</string>
+    <string name="migration_lite_confirm_title">新しい形式に変換しますか？</string>
+    <string name="migration_lite_convert_all">変換</string>
+    <string name="migration_lite_convert_now">変換</string>
+    <string name="migration_lite_later">今はしない</string>
+    <string name="migration_lite_legacy_click_message">一部のメモが古い形式のようです。表示・編集を行うには新しい形式に変換してください。内容は保存されます。変換後のメモは旧バージョンでは表示できません。</string>
+    <string name="migration_lite_legacy_click_title">まずメモを変換してください</string>
+    <string name="migration_lite_toast_completed">正常に変換されました</string>
+    <string name="migration_lite_toast_converting">変換中…</string>
     <string name="migration_migrate_now">変換</string>
     <string name="migration_welcome_description">メモは、整理機能、音声メモ、AI 機能、要約機能を備えた新しいバージョンにアップグレードされました。すべての機能を使用するには、古いメモを新しい形式に変換する必要があります。変換されたメモは、古いバージョンでは表示・同期できません。</string>
     <string name="migration_welcome_description_pad">このバージョンは、整理、音声メモ、AI 機能、要約をサポートしています。すべての機能を使用するには、古いメモを新しい形式に変換する必要があります。</string>
@@ -1338,6 +1350,7 @@
     <string name="net_error">ネットワークエラーが発生しました</string>
     <string name="network_error_info">ネットワークエラーが発生しました。ネットワーク設定を確認して、もう一度お試しください。</string>
     <string name="network_timeout_info">ネットワークに接続できませんでした。もう一度お試しください。</string>
+    <string name="new_ai_cta_dialog_message">メモでは、音声の文字起こし、画像からのテキストの抽出、AIによるメモの作成と整理、質問に対する回答の取得、通話や録音の要約などが行えます。このサービスが正常に機能するには、ネットワークへの接続が必要です。録音、メモの内容、およびその他のデータが収集され、一部の機能が第三者サービスによって処理される可能性があります。</string>
     <string name="new_ai_search_database_building_pause">メモはより正確な結果を提供するためにデバイス上で分析されます</string>
     <string name="new_alert_title_delete">メモを削除</string>
     <string name="new_app_name">Mi メモ</string>
@@ -1744,11 +1757,13 @@
     <string name="settings_filing_info">登録情報</string>
     <string name="settings_font_size_title">文字サイズ</string>
     <string name="settings_icp_summary">京ICP备10046444号-74A</string>
-    <string name="settings_icp_title">ICP filing number</string>
+    <string name="settings_icp_title">ICP 登録番号</string>
     <string name="settings_micloud_summary">クラウドとアイテムを自動的に同期する</string>
     <string name="settings_micloud_title">クラウド同期</string>
     <string name="settings_note_sort_way_title">並べ替え</string>
-    <string name="settings_permission">Permissions</string>
+    <string name="settings_open_source_declaration">オープンソースに関する免責事項</string>
+    <string name="settings_open_source_declaration_about_note">メモについて</string>
+    <string name="settings_permission">アクセス許可</string>
     <string name="settings_privacy_policy">プライバシーポリシー</string>
     <string name="settings_privacy_settings">プライバシー</string>
     <string name="settings_quick_note_title">クイックメモ</string>
@@ -2119,6 +2134,7 @@
     <string name="tuesday_short">火</string>
     <string name="tuesday_shortest">火</string>
     <string name="turn_on_the_recorder_talkback">レコーダーを開く</string>
+    <string name="unable_summary_with_sensitive_content">センシティブな内容は要約できません</string>
     <string name="unclassfied_folder_name">未分類</string>
     <string name="undo">元に戻す</string>
     <string name="unknown_error">エラーが発生しました</string>
@@ -2251,7 +2267,7 @@
     <string name="xiaomi_login_dialog_positive">サインイン</string>
     <string name="xiaomi_login_dialog_title">Xiaomi アカウントにサインイン</string>
     <string name="xiaomi_overlay_agree_confirm_ok">同意</string>
-    <string name="xiaomi_overlay_agree_desc">AI ライティングの機能を使用するには、AI ライティングの使用条件に同意してください。</string>
+    <string name="xiaomi_overlay_agree_desc">AI ライティングの機能を使用するには、AI ライティングの利用規約に同意してください。</string>
     <string name="xiaomi_overlay_agree_title">メモは他のアプリでポップアップを表示できません</string>
     <string name="yesterday">昨日</string>
 </resources>

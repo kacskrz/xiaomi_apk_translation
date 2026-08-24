@@ -371,7 +371,7 @@
     <string name="camera_permission_required">Engedélyezze a kamerát, hogy fényképeket készíthessen</string>
     <string name="cancel_alarm_description">Riasztás megszakítása</string>
     <string name="canvas_is_too_large_to_share">Ez az elem túl nagy a megosztáshoz</string>
-    <string name="cd_bookmark_add">Jelölés</string>
+    <string name="cd_bookmark_add">Kijelölés</string>
     <string name="cd_bookmark_added">Sikeresen megjelölve</string>
     <string name="cd_bookmark_time">Jelölések</string>
     <string name="cd_btn_ai">Kérdezzen az AI-tól</string>
@@ -1017,6 +1017,7 @@ Köszönjük megértését és támogatását!"</string>
     <string name="import_audio_queue_waiting">Várakozás…</string>
     <string name="import_audio_size_exceeded">Csak a %1$s-nél kisebb hangfájlok támogatottak</string>
     <string name="import_audio_transcribing">%s átírása</string>
+    <string name="import_blocked_while_recording">Felvétel. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="import_document_size_exceeded">Csak a %1$s-nél kisebb mellékletek támogatottak</string>
     <string name="import_file_failed">Nem sikerült megnyitni a kiválasztott fájlt</string>
     <string name="import_file_too_large">A fájl nem lehet nagyobb mint %s MB</string>
@@ -1130,6 +1131,17 @@ Köszönjük megértését és támogatását!"</string>
     <string name="migration_later">Nem most</string>
     <string name="migration_legacy_click_message">A jegyzetek új formátumra konvertálásával megtekintheti őket. A konvertálás után új AI-funkciókat használhat, de a régi formátum már nem lesz elérhető.</string>
     <string name="migration_legacy_click_title">Először konvertálja a jegyzeteket</string>
+    <string name="migration_lite_banner_text">Megújult Jegyzetek. Az összes funkció használatához alakítsa át régi jegyzeteit az új formátumra.</string>
+    <string name="migration_lite_confirm_message">"A tartalma megmarad, és az új verzió összes funkcióját használhatja.
+Az átalakított jegyzetek a régebbi verziókban nem tekinthetők meg."</string>
+    <string name="migration_lite_confirm_title">Az új formátumra konvertálja?</string>
+    <string name="migration_lite_convert_all">Konvertálás</string>
+    <string name="migration_lite_convert_now">Konvertálás</string>
+    <string name="migration_lite_later">Most nem</string>
+    <string name="migration_lite_legacy_click_message">Egyes jegyzetei régebbi formátumot használnak. Alakítsa át őket az új formátumra, hogy megtekinthesse és szerkeszthesse őket. A tartalmuk megmarad. Az átalakított jegyzetek a régebbi verziókban nem tekinthetők meg.</string>
+    <string name="migration_lite_legacy_click_title">Először konvertálja a jegyzeteket</string>
+    <string name="migration_lite_toast_completed">Sikeresen konvertálva</string>
+    <string name="migration_lite_toast_converting">Konvertálás…</string>
     <string name="migration_migrate_now">Konvertálás</string>
     <string name="migration_welcome_description">A Jegyzetek új verzióra frissült, amely rendszerezési funkciókat, hangjegyzeteket, AI-funkciókat és összefoglalókat tartalmaz. A funkciók teljes körű használatához konvertálja a régi jegyzeteit az új formátumra. A konvertált jegyzeteket a régebbi verziókban nem lehet megtekinteni vagy szinkronizálni.</string>
     <string name="migration_welcome_description_pad">Ez a verzió támogatja a jegyzetek rendszerezését, a hangjegyzeteket, az AI-funkciókat és az összefoglalókat. Konvertálja át régi jegyzeteit az új formátumra, hogy az összes funkciót kihasználhassa.</string>
@@ -1338,6 +1350,7 @@ Köszönjük megértését és támogatását!"</string>
     <string name="net_error">Hálózati hiba történt</string>
     <string name="network_error_info">Hálózati hiba történt. Ellenőrizze hálózati beállításait és próbálja újra.</string>
     <string name="network_timeout_info">Nem sikerült kapcsolódni a hálózathoz. Próbálja újra.</string>
+    <string name="new_ai_cta_dialog_message">A Jegyzetek segítségével átírhat beszédet, kivonatolhat szövegeket a képekből, jegyzeteket írhat és rendezhet AI-val, válaszokat kaphat kérdéseire, összefoglalhatja a hívásokat és a felvételeket, és még sok mást. A megfelelő működéshez a szolgáltatásnak csatlakoznia kell a hálózathoz. A felvételek, jegyzetek tartalmát és egyéb adatait gyűjthetjük, és egyes funkciókat harmadik fél szolgáltatásai kezelhetnek.</string>
     <string name="new_ai_search_database_building_pause">A pontosabb eredmények biztosításához elemezzük a jegyzeteket a készülékén</string>
     <string name="new_alert_title_delete">Jegyzetek törlése</string>
     <string name="new_app_name">Mi Jegyzetek</string>
@@ -1540,7 +1553,7 @@ Köszönjük megértését és támogatását!"</string>
     <string name="pk_tool_undo_talkback">Mégse</string>
     <string name="pk_tool_watercolor_talkback">Akvarell ecset</string>
     <string name="placeholder_no_search_results">Nincs találat</string>
-    <string name="playback_add_mark">Megjelölés</string>
+    <string name="playback_add_mark">Kijelölés</string>
     <string name="playback_ai_analyzing">Hangtartalom elemzése…</string>
     <string name="playback_ai_content_disclaimer">AI-generált</string>
     <string name="playback_ai_generated_short">AI-val generált</string>
@@ -1744,11 +1757,13 @@ Köszönjük megértését és támogatását!"</string>
     <string name="settings_filing_info">Regisztrációs információ</string>
     <string name="settings_font_size_title">Szövegméret</string>
     <string name="settings_icp_summary">京ICP备10046444号-74A</string>
-    <string name="settings_icp_title">ICP filing number</string>
+    <string name="settings_icp_title">ICP-regisztrációs szám</string>
     <string name="settings_micloud_summary">Elemek automatikus szinkronizálása a felhővel</string>
     <string name="settings_micloud_title">Felhőszinkronizálás</string>
     <string name="settings_note_sort_way_title">Rendezés</string>
-    <string name="settings_permission">Permissions</string>
+    <string name="settings_open_source_declaration">Nyílt forráskódú felelősségkizáró nyilatkozat</string>
+    <string name="settings_open_source_declaration_about_note">A Jegyzetekről</string>
+    <string name="settings_permission">Engedélyek</string>
     <string name="settings_privacy_policy">Adatvédelmi irányelvek</string>
     <string name="settings_privacy_settings">Adatvédelem</string>
     <string name="settings_quick_note_title">Gyors jegyzetek</string>
@@ -2119,6 +2134,7 @@ Hang felvételéhez engedélyezze a Jegyzeteket."</string>
     <string name="tuesday_short">Kedd</string>
     <string name="tuesday_shortest">Kedd</string>
     <string name="turn_on_the_recorder_talkback">Hangrögzítő megnyitása</string>
+    <string name="unable_summary_with_sensitive_content">Érzékeny tartalmat nem lehet összefoglalni</string>
     <string name="unclassfied_folder_name">Nem kategorizált</string>
     <string name="undo">Visszavon</string>
     <string name="unknown_error">Hiba történt</string>

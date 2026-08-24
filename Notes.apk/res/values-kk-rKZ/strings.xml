@@ -956,6 +956,7 @@
     <string name="import_audio_queue_waiting">Күту…</string>
     <string name="import_audio_size_exceeded">Тек %1$s өлшемінен кіші аудиоға ғана қолдау көрсетіледі</string>
     <string name="import_audio_transcribing">Транскрипциялануда %s</string>
+    <string name="import_blocked_while_recording">Жазу. Бір-екі минут күтіп, әрекетті қайталаңыз.</string>
     <string name="import_document_size_exceeded">Тек %1$s өлшемінен кішірек салымдарға ғана қолдау көрсетіледі</string>
     <string name="import_file_failed">Таңдалған файлды ашу мүмкін болмады</string>
     <string name="import_file_too_large">Файлдар %s МБ-тан үлкен болмауы керек</string>
@@ -1055,6 +1056,17 @@
     <string name="migration_later">Қазір емес</string>
     <string name="migration_legacy_click_message">Жазбаларды көру үшін оларды жаңа форматқа қайта жасақтаңыз. Қайта жасақталғаннан кейін сіз жаңа ЖИ мүмкіндіктерін пайдалана аласыз, бірақ ескі формат одан кейін қолжетімді болмайды.</string>
     <string name="migration_legacy_click_title">Алдымен жазбаларды түрлендіріңіз</string>
+    <string name="migration_lite_banner_text">Жаңа Жазбалар. Барлық мүмкіндіктерді пайдалану үшін ескі жазбаларыңызды жаңа форматқа түрлендіріңіз.</string>
+    <string name="migration_lite_confirm_message">"Мазмұныңыз сақталады және сіз жаңа нұсқадағы барлық мүмкіндіктерді пайдалана аласыз.
+Түрлендірілген жазбаларды ескі нұсқаларда көру мүмкін емес."</string>
+    <string name="migration_lite_confirm_title">Жаңа форматқа түрлендіру керек пе?</string>
+    <string name="migration_lite_convert_all">Түрлендіру</string>
+    <string name="migration_lite_convert_now">Түрлендіру</string>
+    <string name="migration_lite_later">Қазір емес</string>
+    <string name="migration_lite_legacy_click_message">Кейбір жазбаларыңыз ескі форматты пайдаланады. Оларды көру және өңдеу үшін жаңа форматқа түрлендіріңіз. Мазмұныңыз сақталады. Түрлендірілген жазбаларды ескі нұсқаларда көру мүмкін емес.</string>
+    <string name="migration_lite_legacy_click_title">Алдымен жазбаларды түрлендіріңіз</string>
+    <string name="migration_lite_toast_completed">Сәтті түрлендірілді</string>
+    <string name="migration_lite_toast_converting">Түрлендіру…</string>
     <string name="migration_migrate_now">Түрлендіру</string>
     <string name="migration_welcome_description">Жазбалар ұйымдастыру, дауыстық жазбалар, AI мүмкіндіктері және қорытындылар сияқты жаңа нұсқаға жаңартылды. Барлық мүмкіндіктерді пайдалану үшін ескі жазбаларыңызды жаңа форматқа түрлендіріңіз. Түрлендірілген жазбаларды ескі нұсқаларда көру немесе үндестіру мүмкін емес.</string>
     <string name="migration_welcome_description_pad">Бұл нұсқа ұйымдастыруды, дауыстық жазбаларды, AI мүмкіндіктерін және қорытындыларды қолдайды. Барлық мүмкіндіктерді пайдалану үшін ескі жазбаларыңызды жаңа форматқа түрлендіріңіз.</string>
@@ -1218,6 +1230,7 @@
     <string name="net_error">Желі қатесі пайда болды</string>
     <string name="network_error_info">Желі қатесі пайда болды. Желі баптауларын тексеріңіз және қайталаңыз.</string>
     <string name="network_timeout_info">Желіге қосылу мүмкін болмады. Қайталаңыз.</string>
+    <string name="new_ai_cta_dialog_message">Жазбалар көмегімен сіз сөйлеуді транскрипциялай аласыз, суреттерден мәтінді шығара аласыз, AI көмегімен жазбалар жаза және ұйымдастыра аласыз, сұрақтарыңызға жауап ала аласыз, қоңыраулар мен жазбаларды қорытындылай аласыз және т.б. Бұл қызмет қалыпты жұмыс істеуі үшін желіге қосылуы керек. Сіздің жазбаларыңыз, жазбаларыңыздың мазмұны және басқа да деректер жиналуы мүмкін, ал кейбір мүмкіндіктерді үшінші тарап қызметтері өңдеуі мүмкін.</string>
     <string name="new_ai_search_database_building_pause">Нәтижелерді дәлірек қамтамасыз ету үшін жазбалар құрылғыңызда талданады</string>
     <string name="new_alert_title_delete">Жазбаларды жою</string>
     <string name="new_app_name">Mi Жазбалар</string>
@@ -1618,11 +1631,13 @@
     <string name="settings_filing_info">Тіркеу ақпараты</string>
     <string name="settings_font_size_title">Мәтін өлшемі</string>
     <string name="settings_icp_summary">京ICP备10046444号-74A</string>
-    <string name="settings_icp_title">ICP filing number</string>
+    <string name="settings_icp_title">ICP тіркеу нөмірі</string>
     <string name="settings_micloud_summary">Элементтерді cloud-пен автоматты түрде үндестіру</string>
     <string name="settings_micloud_title">Cloud үндестіру</string>
     <string name="settings_note_sort_way_title">Сұрыптау</string>
-    <string name="settings_permission">Permissions</string>
+    <string name="settings_open_source_declaration">Ашық кодтың жауапкершіліктен бас тарту мәлімдемесі</string>
+    <string name="settings_open_source_declaration_about_note">Жазбалар жайлы</string>
+    <string name="settings_permission">Рұқсаттар</string>
     <string name="settings_privacy_policy">Құпиялылық Саясаты</string>
     <string name="settings_privacy_settings">Құпиялылық</string>
     <string name="settings_quick_note_title">Тез жазбалар</string>
@@ -1990,6 +2005,7 @@
     <string name="tuesday_short">Сс</string>
     <string name="tuesday_shortest">Сс</string>
     <string name="turn_on_the_recorder_talkback">Диктофонды ашу</string>
+    <string name="unable_summary_with_sensitive_content">Сезімтал мазмұнды қорытындылау мүмкін емес</string>
     <string name="unclassfied_folder_name">Санатталмаған</string>
     <string name="undo">Бас тарту</string>
     <string name="unknown_error">Қате пайда болды</string>
