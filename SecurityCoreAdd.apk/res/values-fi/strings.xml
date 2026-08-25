@@ -73,9 +73,14 @@
     <string name="back_tap">Takaisinnapautus</string>
     <string name="back_triple_tap">Kolmoisnapautus takaisin</string>
     <string name="backtap_gesture_prompt">Napauta laitteen takaosaa takanäyttöä välttäen</string>
+    <string name="backtap_gesture_prompt_for_fold">Käytä pikatoimintoja napauttamalla taitetun puhelimen takaosaa</string>
     <string name="bottom_bar_smallwindow_drag_text">Vedä tänne kiinnittääksesi</string>
     <string name="bottom_bar_smallwindow_text">Vapauta kiinnittääksesi ylös</string>
+    <string name="bottomsheet_action_collapse">Tiivistä ala-arkki</string>
+    <string name="bottomsheet_action_expand">Laajenna ala-arkki</string>
     <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
+    <string name="bottomsheet_drag_handle_clicked">Kaksoisnapauta vetokahvaa</string>
+    <string name="bottomsheet_drag_handle_content_description">Vetokahva</string>
     <string name="button_text_next_step">Seuraava</string>
     <string name="button_text_next_step_timer">Seuraava vaihe (%d)</string>
     <string name="calendar_date_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
@@ -742,6 +747,9 @@ Voit myös ladata ne erikseen."</string>
     <string name="launch_smarthome">Xiaomi Magic Control</string>
     <string name="launch_sound_recorder">Ääninauhuri</string>
     <string name="launch_voice_assistant">Avaa ääniavustaja</string>
+    <string name="launch_wallet_non_nfc_summary">Maksa Google Walletilla</string>
+    <string name="launch_wallet_summary">Maksa oletuslompakolla</string>
+    <string name="launch_wallet_title">Lompakko</string>
     <string name="launch_wechat_bus_code">WeChat-siirtokoodi</string>
     <string name="launch_wechat_bus_code_failed_need_install_title">WeChat-siirtokoodia ei voitu avata</string>
     <string name="launch_wechat_code_failed_need_install_summary">WeChat-sovellusta ei ole asennettu. Asenna sovellus tai muuta asetuksia.</string>
@@ -821,7 +829,19 @@ Jos pidät painiketta painettuna %s sekuntia, avaat sen sijaan sammutusvalikon."
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
     <string name="miuix_appcompat_show_dialog_description">Ponnahdusikkuna</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Sulje pyyhkäisemällä alas</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Vaihda puolinäyttöön pyyhkäisemällä alas</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Pienennä pyyhkäisemällä alas</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Pyyhkäise ylös vaihtaaksesi puolinäyttöön</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Pyyhkäise ylös suurentaaksesi</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Puolinäyttö</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Suurennettu</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Pienennetty</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Vaihda puolinäyttöön</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Suurenna</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimoi</string>
     <string name="miuix_popup_show_description">Ponnahdusikkuna</string>
+    <string name="miuix_popup_window_default_title">Ponnahdusikkuna</string>
     <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
@@ -1238,6 +1258,12 @@ siirtyäksesi Toiseen näkymään Lukitusnäytöltä"</string>
     <string name="stylus_shortcut_title_note">Kirjoitus</string>
     <string name="stylus_shortcut_title_screenshot">Kuvakaappaus</string>
     <string name="stylus_show_brush_parameters">Näytä siveltimen asetukset</string>
+    <string name="stylus_slide_ota_update">Laiteohjelmiston päivitys</string>
+    <string name="stylus_slide_ota_update_fail">Ei voitu päivittää. Yritä uudelleen.</string>
+    <string name="stylus_slide_ota_update_message">Päivitä kirjoituspuikon laiteohjelmisto voidaksesi käyttää tätä ominaisuutta. Päivitetäänkö nyt?</string>
+    <string name="stylus_slide_ota_update_success">Päivitys onnistui. Pyyhkäisyeleet ovat pois käytöstä.</string>
+    <string name="stylus_slide_summary">"Jos poistat tämän ominaisuuden käytöstä, et voi säätää siveltimen paksuutta tai kääntää sivuja liu'uttamalla kirjoituspuikkoa ylös tai alas."</string>
+    <string name="stylus_slide_title">"Liu'uta"</string>
     <string name="stylus_slide_up_down_summary">"Liu'uta kirjoituspuikkoa ylös tai alas kääntääksesi sivuja etänä tai säätääksesi siveltimen paksuutta"</string>
     <string name="stylus_slide_up_down_title">"Liu'uta ylös tai alas"</string>
     <string name="stylus_success">Valmis</string>
@@ -1359,6 +1385,7 @@ siirtyäksesi Toiseen näkymään Lukitusnäytöltä"</string>
     <string name="voice_assist_super_ai">Xiaomi Hyper XiaoAi</string>
     <string name="wake_suppression_summary">Laitteesi reagoi herkemmin vahingossa tapahtuvaan kosketukseen, mutta se reagoi myös reunojen lähellä oleviin eleiden säätimiin</string>
     <string name="wake_suppression_title">Pieni alue</string>
+    <string name="wallet_nfc_guide_html"><Data>Aseta oletuslompakko kohdassa &lt;font color=%1$s>&lt;a href=%2$s>Asetukset > Lisää yhteysasetuksia > NFC > Valitse oletuskortti&lt;/a>&lt;/font></Data></string>
     <string name="wating">Hetki vain…</string>
     <string name="wednesday">Keskiviikko</string>
     <string name="wednesday_short">Ke</string>
