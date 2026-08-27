@@ -820,6 +820,8 @@
     <string name="excerpting">Ustvarjanje izvlečka…</string>
     <string name="expand_button_title">Dodatno</string>
     <string name="expand_search_history">Razširi zgodovino iskanja</string>
+    <string name="export_filename_illegal_chars">Imena datotek ne smejo vsebovati naslednjih znakov: /\\:*?&lt;>|</string>
+    <string name="export_hidden_file_warning">Če spremenite končnico, bo datoteka skrita.</string>
     <string name="export_markdown_saved_at">Izvoženo v %1$s</string>
     <string name="export_pdf_file_name_hint">Vnesite ime datoteke</string>
     <string name="export_select_empty">Izberite vsaj eno stran</string>
@@ -1017,7 +1019,7 @@ Hvala za razumevanje in podporo!"</string>
     <string name="import_audio_queue_waiting">Čakanje …</string>
     <string name="import_audio_size_exceeded">Podprt je samo zvok, manjši od %1$s</string>
     <string name="import_audio_transcribing">Prepisovanje %s</string>
-    <string name="import_blocked_while_recording">Snemanje. Počakajte minuto ali dve in poskusite ponovno.</string>
+    <string name="import_blocked_while_recording">Recording. Wait a minute or two and try again.</string>
     <string name="import_document_size_exceeded">Podprte so samo priloge, manjše od %1$s</string>
     <string name="import_file_failed">Izbrane datoteke ni bilo mogoče odpreti</string>
     <string name="import_file_too_large">Datoteke ne smejo biti večje od %s MB</string>
@@ -1131,17 +1133,17 @@ Hvala za razumevanje in podporo!"</string>
     <string name="migration_later">Ne zdaj</string>
     <string name="migration_legacy_click_message">Pretvorite beležke v novo obliko zapisa, če si jih želite ogledati. Ko pretvorite, boste lahko uporabljali nove funkcije umetne inteligence, vendar stara oblika zapisa ne bo več na voljo.</string>
     <string name="migration_legacy_click_title">Najprej pretvorite beležke</string>
-    <string name="migration_lite_banner_text">Novi zapiski. Pretvorite stare zapiske v novo obliko zapisa, če želite uporabiti vse funkcije.</string>
-    <string name="migration_lite_confirm_message">"Vaša vsebina bo ohranjena, vse funkcije pa lahko uporabljate v novi različici.
-Pretvorjenih zapiskov si v starejših različicah ni mogoče ogledati."</string>
-    <string name="migration_lite_confirm_title">Ali želite pretvoriti v novo obliko?</string>
-    <string name="migration_lite_convert_all">Pretvori</string>
-    <string name="migration_lite_convert_now">Pretvori</string>
-    <string name="migration_lite_later">Ne zdaj</string>
-    <string name="migration_lite_legacy_click_message">Nekateri vaši zapiski uporabljajo starejšo obliko zapisa. Pretvorite jih v novo obliko, da si jih boste lahko ogledali in jih urejali. Vaša vsebina bo ohranjena. Pretvorjenih zapiskov si ni mogoče ogledati v starejših različicah.</string>
-    <string name="migration_lite_legacy_click_title">Najprej pretvorite beležke</string>
-    <string name="migration_lite_toast_completed">Uspešno pretvorjeno</string>
-    <string name="migration_lite_toast_converting">Pretvarjanje…</string>
+    <string name="migration_lite_banner_text">All-new Notes. Convert your old notes to the new format to use all features.</string>
+    <string name="migration_lite_confirm_message">"Your content will be preserved, and you can use all features in the new version.
+Converted notes can't be viewed in older versions."</string>
+    <string name="migration_lite_confirm_title">Convert to the new format?</string>
+    <string name="migration_lite_convert_all">Convert</string>
+    <string name="migration_lite_convert_now">Convert</string>
+    <string name="migration_lite_later">Not now</string>
+    <string name="migration_lite_legacy_click_message">"Some of your notes use an older format. Convert them to the new format to be able to view and edit. Your content will be preserved. Converted notes can't be viewed in older versions."</string>
+    <string name="migration_lite_legacy_click_title">Convert notes first</string>
+    <string name="migration_lite_toast_completed">Converted successfully</string>
+    <string name="migration_lite_toast_converting">Converting…</string>
     <string name="migration_migrate_now">Pretvori</string>
     <string name="migration_welcome_description">Aplikacija Beležke je posodobljena na novo različico, ki prinaša organizacijo, glasovne zapiske, funkcije umetne inteligence in povzetke. Če želite uporabljati vse funkcije, pretvorite svoje stare beležke v novo obliko. Pretvorjenih beležk si v starejših različicah ni mogoče ogledati ali jih sinhronizirati.</string>
     <string name="migration_welcome_description_pad">Ta različica podpira organiziranje, glasovne beležke, funkcije UI in povzetke. Pretvorite stare beležke v novo obliko zapisa, če želite uporabiti vse funkcije.</string>
@@ -1350,7 +1352,7 @@ Pretvorjenih zapiskov si v starejših različicah ni mogoče ogledati."</string>
     <string name="net_error">Prišlo je do napake omrežja</string>
     <string name="network_error_info">Prišlo je do omrežne napake. Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
     <string name="network_timeout_info">Povezava z omrežjem ni uspela. Poskusite ponovno.</string>
-    <string name="new_ai_cta_dialog_message">Z Beležkami lahko prepisujete govor, izvlečete besedilo iz slik, pišete in organizirate zapiske z umetno inteligenco, dobite odgovore na vaša vprašanja, povzemate klice in posnetke in še več. Ta storitev se mora povezati z omrežjem, da lahko deluje normalno. Vaši posnetki, vsebina beležk in drugi podatki se lahko zbirajo, nekatere funkcije pa lahko obdelujejo storitve tretjih oseb.</string>
+    <string name="new_ai_cta_dialog_message">With Notes, you can transcribe speech, extract text from images, write and organize notes with AI, get answers to your questions, summarize calls and recordings, and more. This service needs to connect to the network to be able to work normally. Your recordings, note content, and other data may be collected, and some features may be processed by third party services.</string>
     <string name="new_ai_search_database_building_pause">Beležke bodo analizirane v vaši napravi za zagotovitev natančnejših rezultatov</string>
     <string name="new_alert_title_delete">Izbriši beležke</string>
     <string name="new_app_name">Mi Beležke</string>
@@ -1757,12 +1759,12 @@ Pretvorjenih zapiskov si v starejših različicah ni mogoče ogledati."</string>
     <string name="settings_filing_info">Podatki o registraciji</string>
     <string name="settings_font_size_title">Velikost besedila</string>
     <string name="settings_icp_summary">京ICP备10046444号-74A</string>
-    <string name="settings_icp_title">Registrska številka ICP</string>
+    <string name="settings_icp_title">ICP registration number</string>
     <string name="settings_micloud_summary">Samodejno sinhroniziraj elemente z oblakom</string>
     <string name="settings_micloud_title">Sinhronizacija v oblaku</string>
     <string name="settings_note_sort_way_title">Razvrsti</string>
-    <string name="settings_open_source_declaration">Odpri zavrnitev odgovornosti</string>
-    <string name="settings_open_source_declaration_about_note">O Beležki</string>
+    <string name="settings_open_source_declaration">Open source disclaimer</string>
+    <string name="settings_open_source_declaration_about_note">About Notes</string>
     <string name="settings_permission">Dovoljenja</string>
     <string name="settings_privacy_policy">Pravilnik o zasebnosti</string>
     <string name="settings_privacy_settings">Zasebnost</string>
@@ -2134,11 +2136,12 @@ Dovolite Beležki, da snema zvok."</string>
     <string name="tuesday_short">Tor</string>
     <string name="tuesday_shortest">Tor</string>
     <string name="turn_on_the_recorder_talkback">Odpri snemalnik</string>
-    <string name="unable_summary_with_sensitive_content">Občutljive vsebine ni mogoče povzeti</string>
+    <string name="unable_summary_with_sensitive_content">"Can't summarize sensitive content"</string>
     <string name="unclassfied_folder_name">Nerazvrščeno</string>
     <string name="undo">Razveljavi</string>
     <string name="unknown_error">Prišlo je do napake</string>
     <string name="unknown_error_info">Neznana napaka</string>
+    <string name="unlimited_canvas_not_support_editing">Ni mogoče urediti slike</string>
     <string name="untitled">Brez naslova</string>
     <string name="upgrade_remind">To funkcijo nadgrajujemo. Ostanite z nami!</string>
     <string name="upload_summary">Modeli v napravi bodo uporabljeni za zagotavljanje funkcij AI pisanja, vaši podatki pa ne bodo naloženi v oblak</string>

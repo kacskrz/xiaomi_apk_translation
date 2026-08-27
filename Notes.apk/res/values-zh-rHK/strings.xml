@@ -828,6 +828,8 @@
     <string name="excerpting">摘錄中</string>
     <string name="expand_button_title">進階</string>
     <string name="expand_search_history">展開搜尋歷史</string>
+    <string name="export_filename_illegal_chars">文件名不能包含/\\:*？&lt;>|特殊字符</string>
+    <string name="export_hidden_file_warning">重命名后文件将被隐藏</string>
     <string name="export_markdown_saved_at">已匯出至%1$s</string>
     <string name="export_pdf_file_name_hint">輸入PDF檔案名</string>
     <string name="export_select_empty">至少選中一頁</string>
@@ -1026,7 +1028,7 @@
     <string name="import_audio_queue_waiting">轉寫排隊中，請稍候…</string>
     <string name="import_audio_size_exceeded">僅支援%1$s以內的音訊</string>
     <string name="import_audio_transcribing">AI轉寫中…%s</string>
-    <string name="import_blocked_while_recording">錄音中，請稍後再試</string>
+    <string name="import_blocked_while_recording">录音中，请稍后再试</string>
     <string name="import_document_size_exceeded">僅支援%1$s以內的附件</string>
     <string name="import_file_failed">無法開啟所選檔案</string>
     <string name="import_file_too_large">檔案大小超出限制（最大%s MB）</string>
@@ -1140,17 +1142,17 @@
     <string name="migration_later">暫不轉換</string>
     <string name="migration_legacy_click_message">您的筆記中存在舊版格式，需要轉換為新格式方可查看。轉換後將不再支援舊版查看，同時解鎖全新AI能力。</string>
     <string name="migration_legacy_click_title">請先轉換筆記格式</string>
-    <string name="migration_lite_banner_text">筆記已全新升級，將舊筆記轉換為新格式，獲得完整體驗</string>
-    <string name="migration_lite_confirm_message">"轉換後內容將保持不變，可使用新版筆記的所有功能
-同時，轉換後的筆記，不再兼容於舊版筆記應用程式查看"</string>
-    <string name="migration_lite_confirm_title">轉換格式？</string>
-    <string name="migration_lite_convert_all">轉換</string>
-    <string name="migration_lite_convert_now">即刻轉換</string>
-    <string name="migration_lite_later">稍後再說</string>
-    <string name="migration_lite_legacy_click_message">您的筆記中存在舊版格式，需要轉換為新格式方可查看和編輯。轉換後所有內容完整保留，不在兼容舊版筆記應用程式查看。</string>
-    <string name="migration_lite_legacy_click_title">請先轉換筆記格式</string>
-    <string name="migration_lite_toast_completed">已完成舊筆記格式轉換</string>
-    <string name="migration_lite_toast_converting">舊筆記格式轉換中</string>
+    <string name="migration_lite_banner_text">笔记已全新升级，将旧笔记转换为新格式，获得完整体验</string>
+    <string name="migration_lite_confirm_message">"转换后内容将保持不变，可使用新版笔记的所有功能
+同时，转换后的笔记，不再兼容旧版笔记应用查看"</string>
+    <string name="migration_lite_confirm_title">转换格式？</string>
+    <string name="migration_lite_convert_all">转换</string>
+    <string name="migration_lite_convert_now">即刻转换</string>
+    <string name="migration_lite_later">稍后再说</string>
+    <string name="migration_lite_legacy_click_message">您的笔记中存在旧版格式，需要转换为新格式方可查看和编辑。转换后所有内容完整保留，不在兼容旧版笔记应用查看。</string>
+    <string name="migration_lite_legacy_click_title">请先转换笔记格式</string>
+    <string name="migration_lite_toast_completed">已完成旧笔记格式转换</string>
+    <string name="migration_lite_toast_converting">旧笔记格式转化中</string>
     <string name="migration_migrate_now">即刻轉換</string>
     <string name="migration_welcome_description">"「筆記」已升級為全新版本，支援自動整理、語音速記、AI問答和總結，將舊筆記轉換至新格式，以獲得完整體驗
 提示：轉換後的筆記暫不支援在舊版本內查看和同步"</string>
@@ -1360,7 +1362,7 @@
     <string name="net_error">網絡錯誤</string>
     <string name="network_error_info">網路異常,請檢查網路是否連通</string>
     <string name="network_timeout_info">網路不給力,請重試</string>
-    <string name="new_ai_cta_dialog_message">歡迎使用筆記功能，包括但不限於AI功能。本功能將向您提供語音轉文字、圖片文字擷取、AI寫作、AI語音速記、AI問答、智能匯入、智能通話筆記、智能裝置錄音、資料夾自動歸納等功能，本功能需要連網進行使用，可能蒐集您的錄音音訊、筆記內容等資料，部分功能將委託給三方進行處理。</string>
+    <string name="new_ai_cta_dialog_message">欢迎使用笔记功能，包括但不限于AI功能。本功能将向您提供语音转文字、图片文字提取、AI写作、AI语音速记、AI问答、智能导入、智能通话笔记、智能设备录音、文件夹自动归纳等功能，本功能需要联网进行使用，可能收集您的录音音频、笔记内容等数据，部分功能将委托给三方进行处理。</string>
     <string name="new_ai_search_database_building_pause">將本機分析筆記以提供更精確結果</string>
     <string name="new_alert_title_delete">刪除確認</string>
     <string name="new_app_name">小米筆記</string>
@@ -1778,8 +1780,8 @@
     <string name="settings_micloud_summary">開啟後資料將自動同步</string>
     <string name="settings_micloud_title">雲同步</string>
     <string name="settings_note_sort_way_title">排序方式</string>
-    <string name="settings_open_source_declaration">開源元件聲明</string>
-    <string name="settings_open_source_declaration_about_note">關於筆記</string>
+    <string name="settings_open_source_declaration">开源组件声明</string>
+    <string name="settings_open_source_declaration_about_note">关于笔记</string>
     <string name="settings_permission">權限說明</string>
     <string name="settings_privacy_policy">私隱政策</string>
     <string name="settings_privacy_settings">私隱設定</string>
@@ -2170,11 +2172,12 @@
     <string name="tuesday_short">週二</string>
     <string name="tuesday_shortest">二</string>
     <string name="turn_on_the_recorder_talkback">開啟錄音機</string>
-    <string name="unable_summary_with_sensitive_content">涉及敏感內容，無法生成總結</string>
+    <string name="unable_summary_with_sensitive_content">涉及敏感内容，无法生成总结</string>
     <string name="unclassfied_folder_name">未分類</string>
     <string name="undo">撤銷</string>
     <string name="unknown_error">未知錯誤</string>
     <string name="unknown_error_info">未知錯誤</string>
+    <string name="unlimited_canvas_not_support_editing">无边画布不支持编辑</string>
     <string name="untitled">無標題</string>
     <string name="upgrade_remind">系統正在升級維護，請耐心等待</string>
     <string name="upload_summary">開啟後，將使用端側大模型進行AI寫作，您的資料不會被上傳到雲端</string>

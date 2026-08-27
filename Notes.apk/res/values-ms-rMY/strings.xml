@@ -759,6 +759,8 @@
     <string name="excerpted_to_note">Menyimpan petikan ke Nota</string>
     <string name="excerpting">Mencipta petikan…</string>
     <string name="expand_search_history">Kembangkan sejarah carian</string>
+    <string name="export_filename_illegal_chars">Nama fail tidak boleh mengandungi aksara ini: /\\:*?&lt;>|</string>
+    <string name="export_hidden_file_warning">Fail akan disembunyikan selepas anda mengubah sambungannya.</string>
     <string name="export_markdown_saved_at">Dieksport ke %1$s</string>
     <string name="export_pdf_file_name_hint">Masukkan nama fail</string>
     <string name="export_select_empty">Pilih sekurang-kurangnya satu halaman</string>
@@ -954,7 +956,7 @@ Terima kasih atas pemahaman dan sokongan anda!"</string>
     <string name="import_audio_queue_waiting">Menunggu…</string>
     <string name="import_audio_size_exceeded">Hanya audio yang lebih kecil daripada %1$s disokong</string>
     <string name="import_audio_transcribing">Mentranskripsi %s</string>
-    <string name="import_blocked_while_recording">Merakam. Tunggu satu atau dua minit dan cuba lagi</string>
+    <string name="import_blocked_while_recording">Recording. Wait a minute or two and try again.</string>
     <string name="import_document_size_exceeded">Hanya lampiran yang lebih kecil daripada %1$s disokong.</string>
     <string name="import_file_failed">Tidak dapat membuka fail yang dipilih</string>
     <string name="import_file_too_large">Saiz fail tidak boleh melebihi %s MB</string>
@@ -1054,17 +1056,17 @@ Terima kasih atas pemahaman dan sokongan anda!"</string>
     <string name="migration_later">Bukan sekarang</string>
     <string name="migration_legacy_click_message">Tukar nota menjadi format baharu untuk melihatnya. Setelah ditukar, anda akan dapat menggunakan ciri AI baharu tetapi format lama tidak lagi akan tersedia.</string>
     <string name="migration_legacy_click_title">Tukarkan nota dahulu</string>
-    <string name="migration_lite_banner_text">Nota serba baharu. Tukar nota lama anda kepada format baharu untuk menggunakan semua ciri.</string>
-    <string name="migration_lite_confirm_message">"Kandungan anda akan dikekalkan, dan anda boleh menggunakan semua ciri dalam versi baharu.
-Nota yang telah ditukar tidak boleh dilihat dalam versi lama."</string>
-    <string name="migration_lite_confirm_title">Tukar kepada format baharu?</string>
-    <string name="migration_lite_convert_all">Tukar</string>
-    <string name="migration_lite_convert_now">Tukar</string>
-    <string name="migration_lite_later">Bukan sekarang</string>
-    <string name="migration_lite_legacy_click_message">Sesetengah nota anda menggunakan format lama. Tukarkannya kepada format baharu untuk melihat dan mengeditnya. Kandungan anda akan dikekalkan. Nota yang telah ditukar tidak boleh dilihat dalam versi lama.</string>
-    <string name="migration_lite_legacy_click_title">Tukarkan nota dahulu</string>
-    <string name="migration_lite_toast_completed">Berjaya ditukar</string>
-    <string name="migration_lite_toast_converting">Menukar…</string>
+    <string name="migration_lite_banner_text">All-new Notes. Convert your old notes to the new format to use all features.</string>
+    <string name="migration_lite_confirm_message">"Your content will be preserved, and you can use all features in the new version.
+Converted notes can't be viewed in older versions."</string>
+    <string name="migration_lite_confirm_title">Convert to the new format?</string>
+    <string name="migration_lite_convert_all">Convert</string>
+    <string name="migration_lite_convert_now">Convert</string>
+    <string name="migration_lite_later">Not now</string>
+    <string name="migration_lite_legacy_click_message">"Some of your notes use an older format. Convert them to the new format to be able to view and edit. Your content will be preserved. Converted notes can't be viewed in older versions."</string>
+    <string name="migration_lite_legacy_click_title">Convert notes first</string>
+    <string name="migration_lite_toast_completed">Converted successfully</string>
+    <string name="migration_lite_toast_converting">Converting…</string>
     <string name="migration_migrate_now">Tukar</string>
     <string name="migration_welcome_description">Notes telah dinaik taraf kepada versi baharu yang menampilkan fungsi penyusunan, nota suara, ciri AI dan ringkasan. Tukar nota lama anda kepada format baharu untuk menggunakan semua ciri tersebut. Nota yang telah ditukar tidak boleh dilihat atau disegerakkan dalam versi lama.</string>
     <string name="migration_welcome_description_pad">Versi ini menyokong penyusunan, nota suara, ciri AI dan ringkasan. Tukar nota lama anda kepada format baharu untuk menggunakan semua ciri tersebut.</string>
@@ -1226,7 +1228,7 @@ Nota yang telah ditukar tidak boleh dilihat dalam versi lama."</string>
     <string name="net_error">Ralat rangkaian berlaku</string>
     <string name="network_error_info">Ralat rangkaian berlaku. Semak tetapan rangkaian anda dan cuba lagi.</string>
     <string name="network_timeout_info">Tidak dapat menyambung ke rangkaian. Cuba lagi.</string>
-    <string name="new_ai_cta_dialog_message">Dengan Nota, anda boleh menukar pertuturan kepada teks, mengekstrak teks daripada imej, menulis dan menyusun nota menggunakan AI, mendapatkan jawapan kepada soalan anda, meringkaskan panggilan serta rakaman, dan banyak lagi. Perkhidmatan ini memerlukan sambungan rangkaian untuk berfungsi seperti biasa. Rakaman, kandungan nota, dan data lain anda mungkin dikumpulkan, dan sesetengah ciri mungkin diproses oleh perkhidmatan pihak ketiga.</string>
+    <string name="new_ai_cta_dialog_message">With Notes, you can transcribe speech, extract text from images, write and organize notes with AI, get answers to your questions, summarize calls and recordings, and more. This service needs to connect to the network to be able to work normally. Your recordings, note content, and other data may be collected, and some features may be processed by third party services.</string>
     <string name="new_ai_search_database_building_pause">Nota akan dianalisis pada peranti anda untuk memberikan hasil yang lebih tepat</string>
     <string name="new_alert_title_delete">Padam nota</string>
     <string name="new_app_name">Nota Mi</string>
@@ -1627,12 +1629,12 @@ Nota yang telah ditukar tidak boleh dilihat dalam versi lama."</string>
     <string name="settings_filing_info">Maklumat pendaftaran</string>
     <string name="settings_font_size_title">Saiz teks</string>
     <string name="settings_icp_summary">京ICP备10046444号-74A</string>
-    <string name="settings_icp_title">No pendaftaran ICP</string>
+    <string name="settings_icp_title">ICP registration number</string>
     <string name="settings_micloud_summary">Segerakkan item secara automatik dengan cloud</string>
     <string name="settings_micloud_title">Penyegerakan cloud</string>
     <string name="settings_note_sort_way_title">Susun</string>
-    <string name="settings_open_source_declaration">Penafian sumber terbuka</string>
-    <string name="settings_open_source_declaration_about_note">Mengenai Nota</string>
+    <string name="settings_open_source_declaration">Open source disclaimer</string>
+    <string name="settings_open_source_declaration_about_note">About Notes</string>
     <string name="settings_permission">Kebenaran</string>
     <string name="settings_privacy_policy">Dasar Privasi</string>
     <string name="settings_privacy_settings">Privasi</string>
@@ -2001,11 +2003,12 @@ Benarkan Nota untuk merakam audio."</string>
     <string name="tuesday_short">Sel</string>
     <string name="tuesday_shortest">Sel</string>
     <string name="turn_on_the_recorder_talkback">Buka Perakam</string>
-    <string name="unable_summary_with_sensitive_content">Tidak dapat meringkaskan kandungan sensitif</string>
+    <string name="unable_summary_with_sensitive_content">"Can't summarize sensitive content"</string>
     <string name="unclassfied_folder_name">Tidak Dikategorikan</string>
     <string name="undo">Buat asal</string>
     <string name="unknown_error">Ralat wujud</string>
     <string name="unknown_error_info">Ralat tidak diketahui</string>
+    <string name="unlimited_canvas_not_support_editing">Tidak dapat mengedit kanvas</string>
     <string name="untitled">Tiada tajuk</string>
     <string name="upgrade_remind">Kami sedang menaikkan taraf ciri ini. Nantikan!</string>
     <string name="upload_summary">Model pada peranti akan digunakan untuk menyediakan ciri Penulisan AI dan data anda tidak akan dimuat naik ke cloud</string>

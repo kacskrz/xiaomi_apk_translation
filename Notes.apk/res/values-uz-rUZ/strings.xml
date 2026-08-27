@@ -759,6 +759,8 @@
     <string name="excerpted_to_note">Ko‘chirma Qaydlarga saqlandi</string>
     <string name="excerpting">Ko‘chirma yaratilmoqda…</string>
     <string name="expand_search_history">Qidiruvlar tarixini kengaytirish</string>
+    <string name="export_filename_illegal_chars">Fayl nomlarida ushbu belgilar bo‘lmasligi kerak: /\\:*?&lt;>|</string>
+    <string name="export_hidden_file_warning">Siz faylning kengaytmasini o‘zgartirganingizdan keyin fayl yashirin holatda bo‘ladi.</string>
     <string name="export_markdown_saved_at">%1$s ga eksport qilindi</string>
     <string name="export_pdf_file_name_hint">Fayl nomini kiriting</string>
     <string name="export_select_empty">Kamida bitta ilovani saqlang</string>
@@ -954,7 +956,7 @@ Tushunganingiz va qo‘llab-quvvatlaganingiz uchun tashakkur!"</string>
     <string name="import_audio_queue_waiting">Kutilmoqda…</string>
     <string name="import_audio_size_exceeded">Faqat %1$s dan kichikroq audio fayllar qo‘llab-quvvatlanadi</string>
     <string name="import_audio_transcribing">Transkripsiyasi amalga oshirilmoqda %s</string>
-    <string name="import_blocked_while_recording">Yozib olinmoqda. Bir yoki ikki daqiqa kutib turing va qaytadan urinib ko‘ring.</string>
+    <string name="import_blocked_while_recording">Recording. Wait a minute or two and try again.</string>
     <string name="import_document_size_exceeded">Faqat %1$s dan kichikroq fayllar qo‘llab-quvvatlanadi</string>
     <string name="import_file_failed">"Tanlangan faylni ochib bo'lmadi"</string>
     <string name="import_file_too_large">Fayllar %s MB dan katta bo‘lmasligi kerak</string>
@@ -1054,17 +1056,17 @@ Tushunganingiz va qo‘llab-quvvatlaganingiz uchun tashakkur!"</string>
     <string name="migration_later">Hozir emas</string>
     <string name="migration_legacy_click_message">Qaydlarni ko‘rish uchun ularni yangi formatga aylantiring. Aylantirilgandan keyin siz yangi AI funksiyalaridan foydalanish imkoniyatiga ega bo‘lasiz, biroq eski formatdan boshqa foydalanib bo‘lmaydi.</string>
     <string name="migration_legacy_click_title">Avval notalarni o‘zgartiring</string>
-    <string name="migration_lite_banner_text">Mutlaqo yangi Qaydlar. Barcha funksiyalardan foydalanish uchun eski qaydlaringizni yangi formatga o‘zgartiring.</string>
-    <string name="migration_lite_confirm_message">"Kontentingiz saqlanib qoladi va siz yangi versiyadagi barcha funksiyalardan foydalanishingiz mumkin.
-O‘zgartirilgan eslatmalarni eski versiyalarda ko‘rib bo‘lmaydi."</string>
-    <string name="migration_lite_confirm_title">Yangi formatga o‘tkazilsinmi?</string>
-    <string name="migration_lite_convert_all">Aylantirish</string>
-    <string name="migration_lite_convert_now">Aylantirish</string>
-    <string name="migration_lite_later">Hozir emas</string>
-    <string name="migration_lite_legacy_click_message">Ba‘zi qaydlaringiz eski formatdan foydalanadi. Ko‘rish va tahrirlash uchun ularni yangi formatga o‘tkazing. Kontentingiz saqlanib qoladi. O‘zgartirilgan qaydlarni eski versiyalarda ko‘rib bo‘lmaydi.</string>
-    <string name="migration_lite_legacy_click_title">Avval notalarni o‘zgartiring</string>
-    <string name="migration_lite_toast_completed">Muvaffaqiyatli aylantirildi</string>
-    <string name="migration_lite_toast_converting">Aylantirilmoqda…</string>
+    <string name="migration_lite_banner_text">All-new Notes. Convert your old notes to the new format to use all features.</string>
+    <string name="migration_lite_confirm_message">"Your content will be preserved, and you can use all features in the new version.
+Converted notes can't be viewed in older versions."</string>
+    <string name="migration_lite_confirm_title">Convert to the new format?</string>
+    <string name="migration_lite_convert_all">Convert</string>
+    <string name="migration_lite_convert_now">Convert</string>
+    <string name="migration_lite_later">Not now</string>
+    <string name="migration_lite_legacy_click_message">"Some of your notes use an older format. Convert them to the new format to be able to view and edit. Your content will be preserved. Converted notes can't be viewed in older versions."</string>
+    <string name="migration_lite_legacy_click_title">Convert notes first</string>
+    <string name="migration_lite_toast_completed">Converted successfully</string>
+    <string name="migration_lite_toast_converting">Converting…</string>
     <string name="migration_migrate_now">Aylantirish</string>
     <string name="migration_welcome_description">Eslatmalar yangi versiyaga yangilandi, bunda tartibga solish, ovozli qaydlar, AI xususiyatlari va xulosalar mavjud. Barcha funksiyalardan foydalanish uchun eski eslatmalaringizni yangi formatga o‘tkazing. O‘zgartirilgan eslatmalarni eski versiyalarda ko‘rish yoki sinxronlashtirish mumkin emas.</string>
     <string name="migration_welcome_description_pad">Ushbu versiya tashkil qilish, ovozli yozuvlar, AI xususiyatlari va xulosalarni qo‘llab-quvvatlaydi. Barcha funksiyalardan foydalanish uchun eski yozuvlaringizni yangi formatga o‘zgartiring.</string>
@@ -1228,7 +1230,7 @@ O‘zgartirilgan eslatmalarni eski versiyalarda ko‘rib bo‘lmaydi."</string>
     <string name="net_error">Tarmoq xatosi ro‘y berdi</string>
     <string name="network_error_info">Tarmoq xatosi ro‘y berdi. Tarmoq sozlamalarini tekshirib qaytadan ko‘ring.</string>
     <string name="network_timeout_info">Tarmoqqa bog‘lanib bo‘lmadi. Takrorlang.</string>
-    <string name="new_ai_cta_dialog_message">Qaydlar yordamida siz nutqni transkripsiya qilishingiz, rasmlardan matn ajratib olishingiz, AI yordamida eslatmalar yozishingiz va tartibga solishingiz, savollaringizga javob olishingiz, qo‘ng‘iroqlar va yozuvlarni umumlashtirishingiz va boshqa ko‘p narsalarni amalga oshirishingiz mumkin. Ushbu xizmat normal ishlashi uchun tarmoqqa ulanishi kerak. Sizning yozuvlaringiz, eslatmalaringiz tarkibi va boshqa ma‘lumotlar to‘planishi mumkin va ba‘zi funksiyalar uchinchi tomon xizmatlari tomonidan qayta ishlanishi mumkin.</string>
+    <string name="new_ai_cta_dialog_message">With Notes, you can transcribe speech, extract text from images, write and organize notes with AI, get answers to your questions, summarize calls and recordings, and more. This service needs to connect to the network to be able to work normally. Your recordings, note content, and other data may be collected, and some features may be processed by third party services.</string>
     <string name="new_ai_search_database_building_pause">Aniqroq natijalar berish uchun qaydlar qurilmangizda tahlil qilinadi</string>
     <string name="new_alert_title_delete">Qaydlarni o‘chirish</string>
     <string name="new_app_name">Mi Qaydlar</string>
@@ -1629,12 +1631,12 @@ O‘zgartirilgan eslatmalarni eski versiyalarda ko‘rib bo‘lmaydi."</string>
     <string name="settings_filing_info">Ro‘yxatdan o‘tish ma‘lumotlari</string>
     <string name="settings_font_size_title">Shrift kattaligi</string>
     <string name="settings_icp_summary">京ICP备10046444号-74A</string>
-    <string name="settings_icp_title">"ICP ro'yxatga olish raqami"</string>
+    <string name="settings_icp_title">ICP registration number</string>
     <string name="settings_micloud_summary">Elementlarni bulut bilan avtomatik sinxronlashtiring</string>
     <string name="settings_micloud_title">Bulutli sinxronlash</string>
     <string name="settings_note_sort_way_title">Saralash</string>
-    <string name="settings_open_source_declaration">Ochiq kodli ogohlantirish</string>
-    <string name="settings_open_source_declaration_about_note">Qaydlar haqida</string>
+    <string name="settings_open_source_declaration">Open source disclaimer</string>
+    <string name="settings_open_source_declaration_about_note">About Notes</string>
     <string name="settings_permission">Ruxsatlar</string>
     <string name="settings_privacy_policy">Maxfiylik Siyosati</string>
     <string name="settings_privacy_settings">Maxfiylik</string>
@@ -2003,11 +2005,12 @@ Qaydlarga ovozni yozish uchun ruxsat bering."</string>
     <string name="tuesday_short">Se</string>
     <string name="tuesday_shortest">Ssh</string>
     <string name="turn_on_the_recorder_talkback">Diktofonni ochish</string>
-    <string name="unable_summary_with_sensitive_content">Maxfiy kontentni umumlashtirib bo‘lmaydi</string>
+    <string name="unable_summary_with_sensitive_content">"Can't summarize sensitive content"</string>
     <string name="unclassfied_folder_name">Kategoriyasiz</string>
     <string name="undo">Bekor qilish</string>
     <string name="unknown_error">Xato ro‘y berdi</string>
     <string name="unknown_error_info">Noma’lum xato</string>
+    <string name="unlimited_canvas_not_support_editing">Xolstni tahrirlab bo‘lmaydi</string>
     <string name="untitled">Nomi yo‘q</string>
     <string name="upgrade_remind">Biz bu xususiyatni yangilayapmiz. Yangiliklarni kuzatib boring!</string>
     <string name="upload_summary">Qurilmadagi modellar AI Yozish funksiyalarini taʼminlash uchun ishlatiladi va maʼlumotlaringiz bulutga yuklanmaydi</string>

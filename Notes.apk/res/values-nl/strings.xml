@@ -820,6 +820,8 @@
     <string name="excerpting">Een fragment aanmaken…</string>
     <string name="expand_button_title">Geavanceerd</string>
     <string name="expand_search_history">Zoekgeschiedenis uitbreiden</string>
+    <string name="export_filename_illegal_chars">Bestandsnamen mogen niet deze tekens bevatten: /\\:*?&lt;>|</string>
+    <string name="export_hidden_file_warning">Het bestand wordt verborgen nadat u de extensie hebt gewijzigd.</string>
     <string name="export_markdown_saved_at">Geëxporteerd naar %1$s</string>
     <string name="export_pdf_file_name_hint">Bestandsnaam kan niet leeg zijn</string>
     <string name="export_select_empty">Selecteer minimaal één pagina</string>
@@ -1017,7 +1019,7 @@ Hartelijk dank voor uw begrip en ondersteuning!"</string>
     <string name="import_audio_queue_waiting">Aan het wachten…</string>
     <string name="import_audio_size_exceeded">Alleen audio die kleiner is dan %1$s wordt ondersteund</string>
     <string name="import_audio_transcribing">%s getranscribeerd</string>
-    <string name="import_blocked_while_recording">Bezig met opnemen. Wacht een minuut of twee en probeer het opnieuw.</string>
+    <string name="import_blocked_while_recording">Recording. Wait a minute or two and try again.</string>
     <string name="import_document_size_exceeded">Alleen bijlagen die kleiner zijn dan %1$s worden ondersteund</string>
     <string name="import_file_failed">Het geselecteerde bestand kon niet worden geopend</string>
     <string name="import_file_too_large">Bestanden mogen niet groter zijn dan %s MB</string>
@@ -1131,17 +1133,17 @@ Hartelijk dank voor uw begrip en ondersteuning!"</string>
     <string name="migration_later">Niet nu</string>
     <string name="migration_legacy_click_message">Zet notities om naar de nieuwe indeling om ze te bekijken. Nadar ze omgezet zijn, kunt u nieuwe AI-functies gebruiken, maar is de oude indeling niet meer beschikbaar.</string>
     <string name="migration_legacy_click_title">Zet de notities eerst om</string>
-    <string name="migration_lite_banner_text">Volledig vernieuwde Notities. Zet uw oude notities om naar de nieuwe indeling om alle functies te kunnen gebruiken.</string>
-    <string name="migration_lite_confirm_message">"Uw inhoud blijft behouden en u kunt alle functies in de nieuwe versie gebruiken.
-Omgezette notities kunnen niet worden bekeken in oudere versies."</string>
-    <string name="migration_lite_confirm_title">Omzetten naar het nieuwe formaat?</string>
-    <string name="migration_lite_convert_all">Omzetten</string>
-    <string name="migration_lite_convert_now">Omzetten</string>
-    <string name="migration_lite_later">Niet nu</string>
-    <string name="migration_lite_legacy_click_message">Sommige van uw notities gebruiken een ouder formaat. Converteer ze naar het nieuwe formaat om ze te kunnen bekijken en bewerken. Uw inhoud blijft behouden. Geconverteerde notities kunnen niet in oudere versies worden bekeken.</string>
-    <string name="migration_lite_legacy_click_title">Zet de notities eerst om</string>
-    <string name="migration_lite_toast_completed">Succesvol omgezet</string>
-    <string name="migration_lite_toast_converting">Omzetten…</string>
+    <string name="migration_lite_banner_text">All-new Notes. Convert your old notes to the new format to use all features.</string>
+    <string name="migration_lite_confirm_message">"Your content will be preserved, and you can use all features in the new version.
+Converted notes can't be viewed in older versions."</string>
+    <string name="migration_lite_confirm_title">Convert to the new format?</string>
+    <string name="migration_lite_convert_all">Convert</string>
+    <string name="migration_lite_convert_now">Convert</string>
+    <string name="migration_lite_later">Not now</string>
+    <string name="migration_lite_legacy_click_message">"Some of your notes use an older format. Convert them to the new format to be able to view and edit. Your content will be preserved. Converted notes can't be viewed in older versions."</string>
+    <string name="migration_lite_legacy_click_title">Convert notes first</string>
+    <string name="migration_lite_toast_completed">Converted successfully</string>
+    <string name="migration_lite_toast_converting">Converting…</string>
     <string name="migration_migrate_now">Omzetten</string>
     <string name="migration_welcome_description">Notities zijn geüpgraded naar een nieuwe versie met organisatie, gesproken notities, AI-functies en samenvattingen. Zet uw oude notities om naar het nieuwe formaat om alle functies te gebruiken. Omgezette notities kunnen niet worden bekeken of gesynchroniseerd in oudere versies.</string>
     <string name="migration_welcome_description_pad">Deze versie ondersteunt organiseren, gesproken notities, AI-functies en samenvattingen. Zet uw oude notities om naar het nieuwe formaat om alle functies te gebruiken.</string>
@@ -1350,7 +1352,7 @@ Omgezette notities kunnen niet worden bekeken in oudere versies."</string>
     <string name="net_error">Er is een netwerkfout opgetreden</string>
     <string name="network_error_info">Er is een netwerkfout opgetreden. Controleer uw netwerkinstellingen en probeer het opnieuw.</string>
     <string name="network_timeout_info">Kan geen verbinding met het netwerk maken. Probeer het opnieuw.</string>
-    <string name="new_ai_cta_dialog_message">Met Notities kunt u spraak transcriberen, tekst uit afbeeldingen extraheren, notities schrijven en organiseren met AI, antwoorden op uw vragen krijgen, oproepen en opnames samenvatten en meer. Deze service moet verbinding maken met het netwerk om normaal te kunnen werken. Uw opnames, inhoud van notities en andere gegevens kunnen worden verzameld en sommige functies worden mogelijk verwerkt door services van derden.</string>
+    <string name="new_ai_cta_dialog_message">With Notes, you can transcribe speech, extract text from images, write and organize notes with AI, get answers to your questions, summarize calls and recordings, and more. This service needs to connect to the network to be able to work normally. Your recordings, note content, and other data may be collected, and some features may be processed by third party services.</string>
     <string name="new_ai_search_database_building_pause">Notities worden op uw apparaat geanalyseerd om nauwkeurigere resultaten te leveren</string>
     <string name="new_alert_title_delete">Notities verwijderen</string>
     <string name="new_app_name">Mi Notities</string>
@@ -1757,12 +1759,12 @@ Omgezette notities kunnen niet worden bekeken in oudere versies."</string>
     <string name="settings_filing_info">Registratie-info</string>
     <string name="settings_font_size_title">Tekstgrootte</string>
     <string name="settings_icp_summary">京ICP备10046444号-74A</string>
-    <string name="settings_icp_title">ICP-registratienummer</string>
+    <string name="settings_icp_title">ICP registration number</string>
     <string name="settings_micloud_summary">Automatisch items synchroniseren met de cloud</string>
     <string name="settings_micloud_title">Cloudsynchronisatie</string>
     <string name="settings_note_sort_way_title">Sorteren</string>
-    <string name="settings_open_source_declaration">Disclaimer voor open source</string>
-    <string name="settings_open_source_declaration_about_note">Over Notities</string>
+    <string name="settings_open_source_declaration">Open source disclaimer</string>
+    <string name="settings_open_source_declaration_about_note">About Notes</string>
     <string name="settings_permission">Toestemmingen</string>
     <string name="settings_privacy_policy">Privacybeleid</string>
     <string name="settings_privacy_settings">Privacy</string>
@@ -2134,11 +2136,12 @@ Sta Notities toe om audio op te nemen."</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">Di</string>
     <string name="turn_on_the_recorder_talkback">Open Recorder</string>
-    <string name="unable_summary_with_sensitive_content">Kan gevoelige inhoud niet samenvatten</string>
+    <string name="unable_summary_with_sensitive_content">"Can't summarize sensitive content"</string>
     <string name="unclassfied_folder_name">Ongecategoriseerd</string>
     <string name="undo">Ongedaan maken</string>
     <string name="unknown_error">Er is een fout opgetreden</string>
     <string name="unknown_error_info">Onbekende fout</string>
+    <string name="unlimited_canvas_not_support_editing">Kan canvas niet bewerken</string>
     <string name="untitled">Geen titel</string>
     <string name="upgrade_remind">We zijn deze functie aan het upgraden. Blijf op de hoogte!</string>
     <string name="upload_summary">Er worden on-device modellen gebruikt om AI-schrijven functies te bieden, en uw gegevens worden niet naar de cloud geüpload</string>
