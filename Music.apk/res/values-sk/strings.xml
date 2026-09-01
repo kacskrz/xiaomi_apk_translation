@@ -493,7 +493,7 @@ Za streamovanie hudby cez mobilné dáta môže váš operátor účtovať popla
     <string name="asm_subscribe_now">Začíname</string>
     <string name="asm_subscription_free">Vyskúšať zadarmo</string>
     <string name="asm_subscription_premium">Prihlásiť na odber</string>
-    <string name="asm_subscription_privacy"><Data>Ťuknutím na „Prihlásiť k odberu“ vyjadrujete súhlas s dokumentmi &lt;font color=#3482FF>&lt;a href=%1$s>Zmluva o prémiových službách Vansound&lt;/a>&lt;/font> a &lt;font color=#3482FF>&lt;a href=%2$s>Všeobecné podmienky používania a predaja Qobuz&lt;/a>&lt;/font></Data></string>
+    <string name="asm_subscription_privacy">" "<Data>Prihlásením k odberu vyjadrujete svoj súhlas s dokumentmi &lt;font color=#3482FF>&lt;a href=%1$s>Zmluva o prémiových službách Vansound&lt;/a>&lt;/font> a &lt;font color=#3482FF>&lt;a href=%2$s>Všeobecné podmienky používania a predaja Qobuz&lt;/a>&lt;/font></Data></string>
     <string name="asm_subscription_title">Je aktívna skúšobná verzia. Prihláste sa na odber a vychutnajte si celé skladby.</string>
     <string name="asm_system_message">Systémové správy</string>
     <string name="asm_tips_cannot_download_disable_songs">Túto skladbu nie je možné stiahnuť</string>
@@ -554,7 +554,11 @@ Za streamovanie hudby cez mobilné dáta môže váš operátor účtovať popla
     <string name="best_experience">Najlepší zážitok</string>
     <string name="billion_char">%s B</string>
     <string name="bluetooth_device">Nepomenované zariadenie Bluetooth</string>
+    <string name="bottomsheet_action_collapse">Zbaliť dolný hárok</string>
+    <string name="bottomsheet_action_expand">Rozbaliť dolný hárok</string>
     <string name="bottomsheet_action_expand_halfway">Rozbaliť napoly</string>
+    <string name="bottomsheet_drag_handle_clicked">Dvojité klepnutie na presúvadlo</string>
+    <string name="bottomsheet_drag_handle_content_description">Presúvadlo</string>
     <string name="btn_text_edit">Upraviť</string>
     <string name="btn_text_view_all">Zobraziť všetko</string>
     <string name="buffering">Načítavanie…</string>
@@ -673,6 +677,14 @@ Za streamovanie hudby cez mobilné dáta môže váš operátor účtovať popla
     <string name="create_playlist_failure">Zoznam nebol vytvorený</string>
     <string name="create_playlist_input_hint">Zadajte názov zoznamu</string>
     <string name="create_shortcut_for_playlist">Vytvoriť odkaz na plochu pre zoznam?</string>
+    <string name="creative_login_credit">Prihláste sa a získajte body</string>
+    <string name="creative_privacy_agree_content_and_live"><Data>Ťuknutím na \"Pokračovať\"vyjadrujete súhlas so &lt;font color=#3482FF>&lt;a href=%1$s>Zásadami ochrany osobných údajov online obsahu&lt;/a>&lt;/font> a &lt;font color=#3482FF>&lt;a href=%2$s>Zásadami ochrany osobných údajov živého online vysielania&lt;/a>&lt;/font>.</Data></string>
+    <string name="creative_privacy_agree_content_only">&lt;Data>Ťuknutím na \"Pokračovať\"vyjadrujete súhlas so &lt;font color=#3482FF>&lt;a href=%1$s>Zásadami ochrany osobných údajov online obsahu&lt;/a>&lt;/font>.&lt;/Data>&lt;/string></string>
+    <string name="creative_privacy_device_network_desc">Táto služba potrebuje prístup k vášmu zariadeniu a sieti, aby mohla fungovať normálne.</string>
+    <string name="creative_tab_create">Kreativita</string>
+    <string name="creative_tab_live">Naživo</string>
+    <string name="creative_tab_local">Lokálne</string>
+    <string name="creative_tab_mine">Profil</string>
     <string name="current_album">Aktuálny obal albumu</string>
     <string name="current_lyric">Aktuálny text piesne</string>
     <string name="current_version">Aktuálna verzia</string>
@@ -828,6 +840,7 @@ Po vymazaní všetkých údajov aplikáciu ukončíte. Tieto údaje budú natrva
     <string name="equalizer">Ekvalizér</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">p.n.l.</string>
+    <string name="error_a11y_label">Chyba: neplatné</string>
     <string name="error_icon_content_description">Chyba</string>
     <string name="error_not_support">Nepodporované</string>
     <string name="evening">Popoludní</string>
@@ -1044,9 +1057,7 @@ Po vymazaní všetkých údajov aplikáciu ukončíte. Tieto údaje budú natrva
     <string name="headset_auto_play_disable_title">Vypnúť automatické prehrávanie hudby</string>
     <string name="headset_auto_play_intro_message">Po pripojení slúchadiel sa automaticky spustí skladba, ktorú ste počúvali naposledy. Túto funkciu môžete kedykoľvek zapnúť alebo vypnúť v ponuke Nastavenia > Ďalšie nastavenia > Automatické prehrávanie hudby. Zmeny nadobudnú platnosť pri najbližšom spustení aplikácie.</string>
     <string name="headset_auto_play_intro_title">Automatické prehrávanie hudby</string>
-    <string name="hgm_failed_to_connect_hint">Skontrolujte nastavenia siete a skúste to znova. Ak je problémom chyba servera hungama, chybu odstránime hneď, ako to bude možné.</string>
     <string name="hgm_has_offline">Nie je možné prehrávať hudbu poskytovanú hungama</string>
-    <string name="hgm_network_request_error_toast">Nepodarilo sa pripojiť k serverom hungama. Skúste to znova.</string>
     <string name="hgm_vip_btn_desc">Vyskúšať zadarmo</string>
     <string name="hgm_vip_high_quality">Vo vysokej kvalite</string>
     <string name="hgm_vip_no_ads">Bez reklám a obmedzení</string>
@@ -1126,46 +1137,9 @@ Po vymazaní všetkých údajov aplikáciu ukončíte. Tieto údaje budú natrva
     <string name="is_scanning_support_online">"Kontrola úložiska…
 (Zatiaľ môžete môžete streamovať hudbu online)"</string>
     <string name="item_view_role_description">Tabulátor</string>
-    <string name="joox_account_bind_mi_account">Pridať Xiaomi konto</string>
-    <string name="joox_account_cancel_login">Zrušiť</string>
-    <string name="joox_account_continue_login">Prihlásiť sa</string>
-    <string name="joox_account_fans_center">Centrum fanúšikov</string>
-    <string name="joox_account_login_conflict_message">Zdá sa, že ste prihlásený na inom zariadení. Prihlásiť sa tu?</string>
-    <string name="joox_account_login_exception">Znova sa prihláste</string>
-    <string name="joox_account_multi_device_login">Viaceré zariadenia</string>
-    <string name="joox_area_check_failed">Zdá sa, že ste v oblasti, kde naše služby nie sú dostupné. Pripojte sa k inej sieti a spustite aplikáciu znova.</string>
-    <string name="joox_auth_button_acquire_vip_instantly">Získať VIP členstvo</string>
-    <string name="joox_auth_button_login_to_acquire_vip">Prihlásiť sa a získať VIP členstvo</string>
-    <string name="joox_auth_dialog_message">Vybrali sme pre vás niekoľko piesní, ktoré by sa vám mohli páčiť. Získajte VIP členstvo a zbavte sa obmedzení.</string>
-    <string name="joox_auth_message_connect_network">Nejakú dobu ste neboli pripojený k serveru. Pripojte sa k sieti, aby ste mohli prehrávať stiahnuté skladby.</string>
-    <string name="joox_auth_message_content_for_vip_only">Táto položka je dostupná iba pre VIP členov</string>
-    <string name="joox_auth_message_content_offline">Online služby nie sú momentálne dostupné. Popracujeme natom a čoskoro obnovíme prístup. Ostaňte s nami!</string>
-    <string name="joox_auth_message_login_status_expired">Doba relácie prihlásenia vypršala. Prihláste sa znova.</string>
-    <string name="joox_auth_message_one_hour_limit_for_one_company">Každú hodinu môžete prehrávať až šesť skladieb od tej istej nahrávacej spoločnosti. Vypočujte si niektoré odporúčané skladby.</string>
     <string name="joox_auth_message_recommend_for_you">Odporúčané</string>
-    <string name="joox_auth_message_update_vip_to_change_playlist">Pre upravovanie zoznamov najskôr získajte VIP členstvo</string>
-    <string name="joox_auth_message_update_vip_to_download">Pre stiahnutie sa najskôr staňte VIP členom</string>
-    <string name="joox_auth_message_update_vip_to_listen_offline">Platnosť vášho VIP členstva vypršala. Teraz môžete počúvať piesne online. Pre sťahovanie piesní najskôr získajte VIP členstvo..</string>
-    <string name="joox_auth_message_update_vip_to_play_on_demand">Túto skladbu nie je možné prehrať z dôvodu obmedzení autorských práv. Pre počúvanie skúste náhodné prehrávanie alebo získajte VIP členstvo, aby ste si mohli prehrať práve túto skladbu.</string>
-    <string name="joox_auth_message_update_vip_to_seek_progress">Priebeh prehrávania nie je možné upraviť kvôli obmedzeniam autorských práv. Získajte VIP členstvo na zrušenie obmedzení.</string>
-    <string name="joox_auth_message_update_vip_to_switch_songs">Pre zmenu skladieb najskôr získajte VIP členstvo</string>
-    <string name="joox_auth_message_update_vip_to_use_function">Pre použitie tejto funkcie najskôr získajte VIP členstvo</string>
-    <string name="joox_auth_title_download_song">Stiahnuť piesne</string>
-    <string name="joox_auth_title_login_again">Prihlásiť sa</string>
-    <string name="joox_auth_title_long_time_no_network">Zdá sa, že ste nejakú dobu neboli online</string>
-    <string name="joox_auth_title_shuffle_play">Náhodný výber</string>
-    <string name="joox_auth_title_vip_content">VIP obsah</string>
-    <string name="joox_auth_title_vip_expired">Platnosť členstva vypršala</string>
-    <string name="joox_auth_title_vip_function">VIP funkcie</string>
-    <string name="joox_download_title">Stiahnuté súbory JOOX</string>
-    <string name="joox_privacy_desc">Zásady ochrany osobných údajov služby JOOX (voliteľné)</string>
-    <string name="joox_privacy_tips_content">Pred použitím online služieb si prečítajte a vyjadrite súhlas so <a href="/link/click">Zasadami ochrany osobných údajov služby JOOX</a>.</string>
-    <string name="joox_privacy_tips_title">Zásady ochrany osobných údajov služby JOOX</string>
-    <string name="joox_recommend_artist_title">Odporúčaní umelci</string>
     <string name="joox_recommend_playlist_title">Odporúčané zoznamy</string>
     <string name="joox_search_result_more">Viac</string>
-    <string name="joox_vip_check_to_pay">Zakúpiť</string>
-    <string name="joox_vip_expired_hint">Platnosť vášho VIP členstva vypršala. Piesne vymazané z JOOX sa zobrazia vo vašich stiahnutých súboroch.</string>
     <string name="jump_to_ytb_dialog_cancel">Zrušiť</string>
     <string name="jump_to_ytb_dialog_desc">Chystáte sa opustiť aplikáciu Mi Hudba a otvoriť YouTube. Otvoriť YouTube teraz?</string>
     <string name="jump_to_ytb_dialog_ok">Potvrdiť</string>
@@ -1258,6 +1232,7 @@ Po vymazaní všetkých údajov aplikáciu ukončíte. Tieto údaje budú natrva
     <string name="lyrics_guide_two">Vyberte želané slová skladby a skopírujte ich</string>
     <string name="lyrics_popup_title">Ťuknite pre vyhľadanie slov k piesni</string>
     <string name="material_clock_toggle_content_description">Vyberte AM alebo PM</string>
+    <string name="material_hour_24h_suffix">%1$s hodín</string>
     <string name="material_hour_selection">Vybrať hodinu</string>
     <string name="material_hour_suffix">%1$s</string>
     <string name="material_minute_selection">Vyberte minúty</string>
@@ -1387,21 +1362,29 @@ Po vymazaní všetkých údajov aplikáciu ukončíte. Tieto údaje budú natrva
     <string name="more_splendid_contents">Viac</string>
     <string name="morning">Ráno</string>
     <string name="mtrl_badge_numberless_content_description">Nové upozornenie</string>
+    <string name="mtrl_checkbox_state_description_checked">Začiarknuté</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Čiastočne začiarknuté</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nezačiarknuté</string>
     <string name="mtrl_chip_close_icon_content_description">Odstrániť položku %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Viac než %1$d nových upozornení</string>
     <string name="mtrl_picker_a11y_next_month">Ďalší mesiac</string>
     <string name="mtrl_picker_a11y_prev_month">Predchádzajúci mesiac</string>
+    <string name="mtrl_picker_announce_current_range_selection">Výber dátumu začatia: %1$s – Výber dátumu ukončenia: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Aktuálny výber: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">prázdne</string>
+    <string name="mtrl_picker_cancel">Zrušiť</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vyberte dátum</string>
     <string name="mtrl_picker_date_header_unselected">Vybraný dátum</string>
-    <string name="mtrl_picker_day_of_week_column_header">Stĺpec dní: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Dátum ukončenia %1$s</string>
     <string name="mtrl_picker_invalid_format">Neplatný formát.</string>
     <string name="mtrl_picker_invalid_format_example">Príklad: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Použite: %1$s</string>
     <string name="mtrl_picker_invalid_range">Neplatný rozsah.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Prejsť na rok %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Prejsť na aktuálny rok %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Prejsť na rok %1$d</string>
     <string name="mtrl_picker_out_of_range">Mimo rozsahu: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Dátum začatia – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – dátum ukončenia</string>
@@ -1409,16 +1392,20 @@ Po vymazaní všetkých údajov aplikáciu ukončíte. Tieto údaje budú natrva
     <string name="mtrl_picker_range_header_title">Vyberte rozsah</string>
     <string name="mtrl_picker_range_header_unselected">Dátum začatia – dátum ukončenia</string>
     <string name="mtrl_picker_save">Uložiť</string>
+    <string name="mtrl_picker_start_date_description">Dátum začatia %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Dátum</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Dátum ukončenia</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Dátum začatia</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_today_description">Dnes %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Prepnúť na kalendárový režim vstupu</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím prepnete na výber dňa</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím prepnete na zobrazenie kalendára</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Prepnúť na textový režim vstupu</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím prepnete na výber roka</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím prepnete na zobrazenie jednotlivých rokov</string>
+    <string name="mtrl_timepicker_cancel">Zrušiť</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="mulit_choice_management">Spravovať zdvojené položky</string>
     <string name="music_browser_label">Hudba</string>
     <string name="music_filter">Filtrovať zvukové súbory</string>
@@ -1864,6 +1851,8 @@ Ak nesúhlasíte s používaním vyššie uvedených služieb, nebudete môcť p
     <string name="search_result_online_songs">On-line</string>
     <string name="search_songs">Hľadať piesne</string>
     <string name="search_songs_count">Skladby: %d</string>
+    <string name="searchview_clear_text_content_description">Vymazať text</string>
+    <string name="searchview_navigation_content_description">Späť</string>
     <string name="see_more_videos">Viac videí</string>
     <string name="select">Vybrať</string>
     <string name="select_all">Vybrať všetko</string>
@@ -1908,6 +1897,7 @@ Ak nesúhlasíte s používaním vyššie uvedených služieb, nebudete môcť p
     <string name="shuffle_off_notif">Náhodné prehrávanie je vyp.</string>
     <string name="shuffle_on_notif">Náhodné prehrávanie je zap.</string>
     <string name="shuffle_play_toast_text">Miešajú sa skladby…</string>
+    <string name="side_sheet_accessibility_pane_title">Bočný hárok</string>
     <string name="similar_albums">Podobné albumy</string>
     <string name="similar_playlists">Podobné zoznamy</string>
     <string name="similar_podcasts">Podobné podcasty</string>
@@ -2145,7 +2135,6 @@ Ak nesúhlasíte s používaním vyššie uvedených služieb, nebudete môcť p
     <string name="unknown_artist_name">Neznámy umelec</string>
     <string name="unlimited_downloads">Neobmedzené sťahovania</string>
     <string name="unlimited_offline_songs">Neobmedzené množstvo offline hudby</string>
-    <string name="unlimited_skips">Neobmedzené preskočenia</string>
     <string name="update_now">AKTUALIZOVAŤ TERAZ</string>
     <string name="upgrade_music">Aktualizovať hudbu</string>
     <string name="upgrade_music_message">Aktualizácie sú pripravené. Aktualizácie sa spustia po reštartovaní.</string>
@@ -2255,7 +2244,6 @@ Ak nesúhlasíte s používaním vyššie uvedených služieb, nebudete môcť p
     <string name="xout_report_issue">Nahlásiť problém</string>
     <string name="yesterday">Včera</string>
     <string name="you_can_switch_mode_in_settings">Medzi režimami sa môžete prepínať v Nastaveniach</string>
-    <string name="you_may_like">Môže sa vám tiež páčiť</string>
     <string name="you_might_like_it">Mohlo by sa vám páčiť</string>
     <string name="youtube_delete_dialog_cancel">Zrušiť</string>
     <string name="youtube_delete_dialog_desc">Odstrániť túto skladbu z obľúbených?</string>
@@ -2282,5 +2270,4 @@ Ak nesúhlasíte s používaním vyššie uvedených služieb, nebudete môcť p
     <string name="youtube_tab_tiktok">TikTok</string>
     <string name="youtube_tab_trend">Trendy</string>
     <string name="ytb_privacy_statement">Prehliadaním tejto stránky vyjadrujete súhlas so zmluvami &lt;a href=\"%1$s\">Podmienky služby YouTube&lt;/a> a &lt;a href=\"%2$s\">Zásady ochrany osobných údajov Google&lt;/a></string>
-    <string name="ytb_turn_on_sound">Ťuknite pre zapnutie zvuku</string>
 </resources>
