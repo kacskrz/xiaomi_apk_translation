@@ -493,7 +493,7 @@ Streaming muzyki przez sieć komórkową może wiązać się z naliczeniem opła
     <string name="asm_subscribe_now">Zaczynajmy</string>
     <string name="asm_subscription_free">Rozpocznij bezpłatny okres próbny</string>
     <string name="asm_subscription_premium">Subskrybuj</string>
-    <string name="asm_subscription_privacy"><Data>Zamawiając subskrypcję zgadzasz się na &lt;font color=#3482FF>&lt;a href=%1$s>Umowę o świadczenie usług premium Vansound&lt;/a>&lt;/font> oraz &lt;font color=#3482FF>&lt;a href=%2$s> Ogólne warunki użytkowania i sprzedaży Qobuz&lt;/a>&lt;/font></Data></string>
+    <string name="asm_subscription_privacy">" "<Data>Rozpoczynając subskrypcję, zgadzasz się na &lt;font color=#3482FF>&lt;a href=%1$s>Umowę Vansound o świadczenie usługi premium&lt;/a>&lt;/font> i &lt;font color=#3482FF>&lt;a href=%2$s>Ogólne warunki sprzedaży oraz użytkowania Qobuz&lt;/a>&lt;/font></Data></string>
     <string name="asm_subscription_title">Bezpłatny okres próbny jest aktywny. Subskrybuj, aby móc słuchać całe utwory.</string>
     <string name="asm_system_message">Wiadomości systemowe</string>
     <string name="asm_tips_cannot_download_disable_songs">Nie można pobrać tego utworu</string>
@@ -554,7 +554,11 @@ Streaming muzyki przez sieć komórkową może wiązać się z naliczeniem opła
     <string name="best_experience">Najlepsze wrażenia</string>
     <string name="billion_char">%s bln</string>
     <string name="bluetooth_device">Urządzenie Bluetooth</string>
+    <string name="bottomsheet_action_collapse">Zwiń planszę dolną</string>
+    <string name="bottomsheet_action_expand">Rozwiń planszę dolną</string>
     <string name="bottomsheet_action_expand_halfway">Rozwiń do połowy</string>
+    <string name="bottomsheet_drag_handle_clicked">Dwukrotnie kliknięto uchwyt do przeciągania</string>
+    <string name="bottomsheet_drag_handle_content_description">Uchwyt do przeciągania</string>
     <string name="btn_text_edit">Edytuj</string>
     <string name="btn_text_view_all">Zobacz wszystko</string>
     <string name="buffering">Buforowanie…</string>
@@ -673,6 +677,14 @@ Streaming muzyki przez sieć komórkową może wiązać się z naliczeniem opła
     <string name="create_playlist_failure">Nie udało się stworzyć listy odtwarzania</string>
     <string name="create_playlist_input_hint">Wpisz nazwę listy odtwarzania</string>
     <string name="create_shortcut_for_playlist">Utworzyć skrót dla listy odtwarzania na Ekranie głównym?</string>
+    <string name="creative_login_credit">Zaloguj się, aby zdobyć punkty</string>
+    <string name="creative_privacy_agree_content_and_live"><Data>Stukając w \"Kontynuuj\", zgadzasz się na &lt;font color=#3482FF>&lt;a href=%1$s>Politykę Prywatności dotyczącą treści online&lt;/a>&lt;/font> i &lt;font color=#3482FF>&lt;a href=%2$s>Politykę Prywatności usługi strumieniowania online na żywo&lt;/a>&lt;/font>.</Data></string>
+    <string name="creative_privacy_agree_content_only">&lt;Data>Stukając w \"Kontynuuj\", zgadzasz się na &lt;font color=#3482FF>&lt;a href=%1$s>Politykę Prywatności dotyczącą treści online&lt;/a>&lt;/font>.&lt;/Data>&lt;/string></string>
+    <string name="creative_privacy_device_network_desc">Ta usługa musi mieć dostęp do informacji o urządzeniu i sieci, aby mogła działać normalnie.</string>
+    <string name="creative_tab_create">Kreatywność</string>
+    <string name="creative_tab_live">Na żywo</string>
+    <string name="creative_tab_local">Lokalna</string>
+    <string name="creative_tab_mine">Profil</string>
     <string name="current_album">Aktualna okładka albumu</string>
     <string name="current_lyric">Aktualny tekst</string>
     <string name="current_version">Aktualna wersja</string>
@@ -828,6 +840,7 @@ Po wyczyszczeniu wszystkich danych nastąpi zamknięcie aplikacji. Dane zostaną
     <string name="equalizer">Equalizer</string>
     <string name="eras_ad">n.e</string>
     <string name="eras_bc">p.n.e</string>
+    <string name="error_a11y_label">Błąd: nieprawidłowe</string>
     <string name="error_icon_content_description">Błąd</string>
     <string name="error_not_support">Nieobsługiwany</string>
     <string name="evening">Popołudnie</string>
@@ -1044,9 +1057,7 @@ Po wyczyszczeniu wszystkich danych nastąpi zamknięcie aplikacji. Dane zostaną
     <string name="headset_auto_play_disable_title">Wyłącz Automatyczne odtwarzanie muzyki</string>
     <string name="headset_auto_play_intro_message">Po połączeniu się ze słuchawkami aplikacja automatycznie odtworzy ostatnio słuchany utwór. Funkcję można włączyć lub wyłączyć w dowolnym momencie w: Ustawienia > Ustawienia zaawansowane > Automatyczne odtwarzanie muzyki. Zmiany zostaną zastosowane przy następnym uruchomieniu aplikacji.</string>
     <string name="headset_auto_play_intro_title">Automatyczne odtwarzanie muzyki</string>
-    <string name="hgm_failed_to_connect_hint">Sprawdź ustawienia sieci i spróbuj ponownie. Jeżeli przyczyną problemu jest błąd serwera hungama, naprawimy go tak szybko, jak to możliwe.</string>
     <string name="hgm_has_offline">Nie można odtwarzać muzyki dostarczonej przez hungama</string>
-    <string name="hgm_network_request_error_toast">Nie udało się połączyć z serwerami hungama. Spróbuj ponownie.</string>
     <string name="hgm_vip_btn_desc">Rozpocznij bezpłatny okres próbny</string>
     <string name="hgm_vip_high_quality">Pobieranie wysokiej jakości</string>
     <string name="hgm_vip_no_ads">Brak reklam i ograniczeń</string>
@@ -1126,46 +1137,9 @@ Po wyczyszczeniu wszystkich danych nastąpi zamknięcie aplikacji. Dane zostaną
     <string name="is_scanning_support_online">"Sprawdzanie pamięci…
  (w międzyczasie możesz słuchać muzyki online)"</string>
     <string name="item_view_role_description">Karta</string>
-    <string name="joox_account_bind_mi_account">Dodaj konto Xiaomi</string>
-    <string name="joox_account_cancel_login">Anuluj</string>
-    <string name="joox_account_continue_login">Zaloguj się</string>
-    <string name="joox_account_fans_center">Centrum fanów</string>
-    <string name="joox_account_login_conflict_message">Wygląda na to, że jesteś zalogowany na innym urządzeniu. Zalogować się tutaj?</string>
-    <string name="joox_account_login_exception">Zaloguj się ponownie</string>
-    <string name="joox_account_multi_device_login">Wiele urządzeń</string>
-    <string name="joox_area_check_failed">Wygląda na to, że znajdujesz się w obszarze, w którym nasze usługi nie są dostępne. Połącz się z inną siecią i ponownie uruchom aplikację.</string>
-    <string name="joox_auth_button_acquire_vip_instantly">Uzyskaj członkostwo VIP</string>
-    <string name="joox_auth_button_login_to_acquire_vip">Zaloguj się, aby uzyskać członkostwo VIP</string>
-    <string name="joox_auth_dialog_message">Poleciliśmy Ci kilka piosenek. Uzyskaj członkostwo VIP, aby znieść ograniczenia.</string>
-    <string name="joox_auth_message_connect_network">Dawno nie łączyłeś się z serwerem. Połącz się z siecią, aby móc odtwarzać pobrane utwory.</string>
-    <string name="joox_auth_message_content_for_vip_only">Ten element jest dostępny tylko dla członków VIP</string>
-    <string name="joox_auth_message_content_offline">Usługi online nie są teraz dostępne. Poprawimy kilka rzeczy i wkrótce ponownie je udostępnimy. Trzymaj się!</string>
-    <string name="joox_auth_message_login_status_expired">Sesja wygasła. Zaloguj się ponownie.</string>
-    <string name="joox_auth_message_one_hour_limit_for_one_company">Możesz odtwarzać maksymalnie sześć utworów z tej samej wytwórni co godzinę. Posłuchaj na razie rekomendowanych piosenek.</string>
     <string name="joox_auth_message_recommend_for_you">Polecane</string>
-    <string name="joox_auth_message_update_vip_to_change_playlist">Uzyskaj członkostwo VIP, aby edytować listę odtwarzania</string>
-    <string name="joox_auth_message_update_vip_to_download">Uzyskaj członkostwo VIP, aby pobrać</string>
-    <string name="joox_auth_message_update_vip_to_listen_offline">Twoje członkostwo VIP wygasło. Możesz teraz słuchać piosenek online. Uzyskaj członkostwo VIP, aby móc pobierać utwory.</string>
-    <string name="joox_auth_message_update_vip_to_play_on_demand">Nie można odtworzyć tego utworu z powodu ograniczeń praw autorskich. Spróbuj odtwarzać losowo, aby posłuchać innych utworów lub uzyskaj członkostwo VIP.</string>
-    <string name="joox_auth_message_update_vip_to_seek_progress">Nie można regulować postępu odtwarzania ze względu na ograniczenia praw autorskich. Uzyskaj członkostwo VIP, aby znieść ograniczenia.</string>
-    <string name="joox_auth_message_update_vip_to_switch_songs">Uzyskaj członkostwo VIP, aby zmieniać utwory</string>
-    <string name="joox_auth_message_update_vip_to_use_function">Uzyskaj członkostwo VIP, aby korzystać z tej funkcji</string>
-    <string name="joox_auth_title_download_song">Pobierz utwory</string>
-    <string name="joox_auth_title_login_again">Zaloguj się</string>
-    <string name="joox_auth_title_long_time_no_network">Wygląda na to, że od jakiegoś czasu nie łączyłeś się z siecią</string>
-    <string name="joox_auth_title_shuffle_play">Losowo</string>
-    <string name="joox_auth_title_vip_content">Treść VIP</string>
-    <string name="joox_auth_title_vip_expired">Członkowstwo wygasło</string>
-    <string name="joox_auth_title_vip_function">Funkcje VIP</string>
-    <string name="joox_download_title">Pobrania JOOX</string>
-    <string name="joox_privacy_desc">Polityka Prywatności JOOX (opcjonalnie)</string>
-    <string name="joox_privacy_tips_content">Przeczytaj i zaakceptuj <a href="/link/click">Politykę Prywatności JOOX</a>, przed skorzystaniem z usług online.</string>
-    <string name="joox_privacy_tips_title">Polityka Prywatności JOOX</string>
-    <string name="joox_recommend_artist_title">Polecani artyści</string>
     <string name="joox_recommend_playlist_title">Polecane listy odtwarzania</string>
     <string name="joox_search_result_more">Więcej</string>
-    <string name="joox_vip_check_to_pay">Kup</string>
-    <string name="joox_vip_expired_hint">Twoje członkostwo VIP wygasło. Utwory pobrane z JOOX będą wyświetlane tylko w pobranych plikach.</string>
     <string name="jump_to_ytb_dialog_cancel">Anuluj</string>
     <string name="jump_to_ytb_dialog_desc">Opuszczanie Mi Muyzka i otwieranie YouTube. Otworzyć Youtube?</string>
     <string name="jump_to_ytb_dialog_ok">Otwórz</string>
@@ -1258,6 +1232,7 @@ Po wyczyszczeniu wszystkich danych nastąpi zamknięcie aplikacji. Dane zostaną
     <string name="lyrics_guide_two">Wybierz tekst utworu i skupiuj go</string>
     <string name="lyrics_popup_title">Dotknij, aby wyszukać tekst utworu</string>
     <string name="material_clock_toggle_content_description">Wybierz: przed południem czy po południu</string>
+    <string name="material_hour_24h_suffix">%1$s godz.</string>
     <string name="material_hour_selection">Wybierz godzinę</string>
     <string name="material_hour_suffix">%1$s</string>
     <string name="material_minute_selection">Wybierz minuty</string>
@@ -1387,21 +1362,29 @@ Po wyczyszczeniu wszystkich danych nastąpi zamknięcie aplikacji. Dane zostaną
     <string name="more_splendid_contents">Więcej</string>
     <string name="morning">Poranek</string>
     <string name="mtrl_badge_numberless_content_description">Nowe powiadomienie</string>
+    <string name="mtrl_checkbox_state_description_checked">Zaznaczono</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Częściowo zaznaczono</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nie zaznaczono</string>
     <string name="mtrl_chip_close_icon_content_description">Usuń: (%1$s)</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Liczba nowych powiadomień przekracza %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Zmień na następny miesiąc</string>
     <string name="mtrl_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
+    <string name="mtrl_picker_announce_current_range_selection">Wybrana data rozpoczęcia: %1$s – wybrana data zakończenia: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Bieżący wybór: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">brak</string>
+    <string name="mtrl_picker_cancel">Anuluj</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Wybierz datę</string>
     <string name="mtrl_picker_date_header_unselected">Wybrana data</string>
-    <string name="mtrl_picker_day_of_week_column_header">Kolumna z dniami: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Data zakończenia %1$s</string>
     <string name="mtrl_picker_invalid_format">Nieprawidłowy format.</string>
     <string name="mtrl_picker_invalid_format_example">Przykład: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Użyj formatu: %1$s</string>
     <string name="mtrl_picker_invalid_range">Nieprawidłowy zakres.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Przejdź do roku %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Przejdź do bieżącego roku %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Przejdź do roku %1$d</string>
     <string name="mtrl_picker_out_of_range">Poza zakresem: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Data rozpoczęcia – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – data zakończenia</string>
@@ -1409,16 +1392,20 @@ Po wyczyszczeniu wszystkich danych nastąpi zamknięcie aplikacji. Dane zostaną
     <string name="mtrl_picker_range_header_title">Wybierz zakres</string>
     <string name="mtrl_picker_range_header_unselected">Data rozpoczęcia – data zakończenia</string>
     <string name="mtrl_picker_save">Zapisz</string>
+    <string name="mtrl_picker_start_date_description">Data rozpoczęcia %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data zakończenia</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Data rozpoczęcia</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_today_description">Dzisiaj %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Włącz kalendarzowy tryb wprowadzania</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Kliknij, by wybrać dzień</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Kliknij, aby przełączyć się na widok kalendarza</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Włącz tekstowy tryb wprowadzania</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Kliknij, by wybrać rok</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Kliknij, aby przełączyć się na widok roku</string>
+    <string name="mtrl_timepicker_cancel">Anuluj</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="mulit_choice_management">Zarządzaj wieloma elementami</string>
     <string name="music_browser_label">Muzyka</string>
     <string name="music_filter">Filtrowanie plików</string>
@@ -1864,6 +1851,8 @@ Jeśli nie zgadzasz się z naszą Polityką Prywatności, nie będzie możliwe k
     <string name="search_result_online_songs">Online</string>
     <string name="search_songs">Wyszukaj utworu</string>
     <string name="search_songs_count">Utwory: %d</string>
+    <string name="searchview_clear_text_content_description">Wyczyść tekst</string>
+    <string name="searchview_navigation_content_description">Wstecz</string>
     <string name="see_more_videos">Więcej filmów</string>
     <string name="select">Wybierz</string>
     <string name="select_all">Wszystkie</string>
@@ -1908,6 +1897,7 @@ Jeśli nie zgadzasz się z naszą Polityką Prywatności, nie będzie możliwe k
     <string name="shuffle_off_notif">Losowe odtwarzanie jest wyłączone.</string>
     <string name="shuffle_on_notif">Losowe odtwarzanie jest włączone.</string>
     <string name="shuffle_play_toast_text">Losowanie utworów…</string>
+    <string name="side_sheet_accessibility_pane_title">Arkusz boczny</string>
     <string name="similar_albums">Podobne albumy</string>
     <string name="similar_playlists">Podobne listy odtwarzania</string>
     <string name="similar_podcasts">Podobne podcasty</string>
@@ -2160,7 +2150,6 @@ Jeśli nie zgadzasz się z naszą Polityką Prywatności, nie będzie możliwe k
     <string name="unknown_artist_name">Nieznany wykonawca</string>
     <string name="unlimited_downloads">Nieograniczona liczba pobrań</string>
     <string name="unlimited_offline_songs">Nieograniczona liczba piosenek offline</string>
-    <string name="unlimited_skips">Nielimitowane przejścia</string>
     <string name="update_now">AKTUALIZUJ TERAZ</string>
     <string name="upgrade_music">Aktualizuj Muzykę</string>
     <string name="upgrade_music_message">Aktualizacje są gotowe. Uruchom ponownie, aby zaktualizować.</string>
@@ -2270,7 +2259,6 @@ Jeśli nie zgadzasz się z naszą Polityką Prywatności, nie będzie możliwe k
     <string name="xout_report_issue">Zgłoś problem</string>
     <string name="yesterday">Wczoraj</string>
     <string name="you_can_switch_mode_in_settings">Możesz przełączać tryby w Ustawieniach</string>
-    <string name="you_may_like">Może Ci się również spodobać</string>
     <string name="you_might_like_it">Może Ci się spodobać</string>
     <string name="youtube_delete_dialog_cancel">Anuluj</string>
     <string name="youtube_delete_dialog_desc">Usunąć ten utwór z ulubionych?</string>
@@ -2297,5 +2285,4 @@ Jeśli nie zgadzasz się z naszą Polityką Prywatności, nie będzie możliwe k
     <string name="youtube_tab_tiktok">TikTok</string>
     <string name="youtube_tab_trend">Popularne</string>
     <string name="ytb_privacy_statement">Przeglądanie strony jest równoznaczne z akceptacją &lt;a href=\"%1$s\">Warunków użytkowania YouTube&lt;/a> i &lt;a href=\"%2$s\">Polityki prywatności Google&lt;/a></string>
-    <string name="ytb_turn_on_sound">Dotknij, aby włączyć dźwięk</string>
 </resources>
