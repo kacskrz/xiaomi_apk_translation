@@ -19,6 +19,7 @@
     <string name="account_error_user_name">Teie sisestatud nimi on vale</string>
     <string name="account_global_region">Meretagused</string>
     <string name="account_invalid_user_avatar">See foto on vigane. Proovi mõnda muud.</string>
+    <string name="account_message_reminder">Xiaomi konto soovitused</string>
     <string name="account_no_set">Pole</string>
     <string name="account_none_binded_info">Pole</string>
     <string name="account_none_user_name">Pole</string>
@@ -88,6 +89,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="cancel">Tühista</string>
     <string name="change_password">Muuda parool</string>
     <string name="check_apk_update">Kontrolli värskendusi</string>
+    <string name="check_create_restore_credential">Kas soovite oma Xiaomi konto identimisteabe rakendusse Google Password Manager salvestada?</string>
     <string name="child_account_system_ad_disable_hint">See funktsioon pole lastekontode jaoks saadaval</string>
     <string name="clearable_edittext_clear_description">Puhasta</string>
     <string name="close">Sulge</string>
@@ -115,6 +117,11 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="confirm_bundled_phone_dialog_confirm">Kinnita</string>
     <string name="confirm_bundled_phone_dialog_confirm_timer">Kinnita (%ds)</string>
     <string name="confirm_bundled_phone_dialog_title">Kinnita seotud telefoninumber</string>
+    <string name="confirm_invalid_other_device_login_btn_negative">Logi välja</string>
+    <string name="confirm_invalid_other_device_login_btn_positive">Mitte praegu</string>
+    <string name="confirm_invalid_other_device_login_desc_cn">Kui teie parool on ohustatud, saate selle Xiaomi konto abil kõigist teistest seadmetest ja veebisaitidest välja logida.</string>
+    <string name="confirm_invalid_other_device_login_desc_global">Kui teie parool on ohustatud, saate selle Xiaomi konto abil kõigist teistest seadmetest ja veebisaitidest välja logida. Pärast väljalogimist kontrollige kõiki oma pääsuvõtmeid jaotises Xiaomi konto > Konto turvalisus > Pääsuvõti.</string>
+    <string name="confirm_invalid_other_device_login_title">Kas logida teistest seadmetest välja?</string>
     <string name="confirm_new_pwd">Kinnita uus salasõna</string>
     <string name="confirm_unbind">Eemalda selle konto ühendus?</string>
     <string name="confirm_unbundled_phone_dialog_message">Telefoninumber %1$s on seotud Xiaomi Kontoga %2$s. Kui Te jätkate, ei seota seda enam Xiaomi Kontoga %3$s. Jätkata?</string>
@@ -180,6 +187,8 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="fido2_fingerprint_auth_desc"><Data>Kasuta oma Xiaomi kontole sisselogimiseks ja identiteedi kinnitamiseks sõrmejälge. &lt;a href=>Lisateave&lt;/a></Data></string>
     <string name="fido2_fingerprint_changed_and_afresh_register">Teie seadme sõrmejälg on muutunud. Kinnitage oma konto uuesti, et saaksite sõrmejäljega kinnitamise sisse lülitada.</string>
     <string name="fido2_fingerprint_verify">Sõrmejälje kinnitamine</string>
+    <string name="fido2_no_credential_available">Näib, et teil ei ole pääsuvõtit. Logige selle loomiseks oma kontole sisse.</string>
+    <string name="fido2_no_options_available">Paroolihaldur ei ole saadaval. Kontrollige seadeid.</string>
     <string name="fido2_psw_changed_and_afresh_register">Teie salasõna on muutunud. Kinnitage oma sõrmejälg uuesti.</string>
     <string name="fido2_setting_ps_notify">Sõrmejäljega kinnitamise kasutamiseks pead määrama konto parooli. Seda saad teha menüüs Seaded > Xiaomi konto > Konto turvalisus > Parool.</string>
     <string name="fido2_verify_fingerprint">Kinnita sõrmejälg</string>
@@ -311,6 +320,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="local_invite_prompt_enable_describe">Lähedalasuvate seadmete otsimine. Lülitage Bluetooth sisse mõlemas seadmes.</string>
     <string name="local_invite_prompt_enable_title">Lähedalasuvate seadmete kutsumine</string>
     <string name="login_3rd_app_with_system_account">Logi sisse: %s</string>
+    <string name="login_by_passkey">Logi sisse pääsuvõtme abil</string>
     <string name="login_check_find_device">Telefoni turvalisusinfo hankimine…</string>
     <string name="login_check_find_device_failed_title">Seadme ohutusinfot ei õnnestunud kontrollida</string>
     <string name="login_find_device_bind">Seade on seotud olemasoleva Xiaomi Konto ID-ga (%s).</string>
@@ -321,7 +331,10 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="login_or_register_by_other_way">Kasuta mõnda muud meetodit</string>
     <string name="login_with_other">Veel valikuid</string>
     <string name="logout_account">Logige välja</string>
+    <string name="logout_accout_find_device_confirm">Funktsioon \"Leia seade\" on sisse lülitatud. Väljalogimiseks kinnitage oma parool.</string>
     <string name="logout_failed">Võimatu välja logida</string>
+    <string name="member_benefits">Liikmelisuse hüved</string>
+    <string name="message_action_go">Kuva</string>
     <string name="mi_account">Minu konto</string>
     <string name="mi_health">Xiaomi Tervis</string>
     <string name="midnight">Öö</string>
@@ -421,29 +434,11 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="multi_user_not_show_sync_activity_message_2">Sellisel juhul sünkroniseeritakse kogu info Teise ruumi. Selle vältimiseks ärge lülitage pilvega sünkroonimist sisse.</string>
     <string name="multi_user_not_show_sync_activity_title">Ärge lülitage pilvega sünkroonimist sisse</string>
     <string name="my_device_title">Praegune seade</string>
-    <string name="need_install_wechat">Paigalda kõigepealt WeChat</string>
     <string name="network_error">Ilmnes võrgu viga.</string>
     <string name="network_error_hint">Kontrollige URL-i ja proovige uuesti või kopeerige URL ja avage see oma brauseris.</string>
     <string name="new_version">Uus versioon</string>
     <string name="night">Õhtu</string>
-    <string name="no_account_desc">Teie Xiaomi konto on kõigi Xiaomi teenuste jaoks teie ainus identiteet. Logige sisse, et pääseda juurde kõigile Xiaomi teenustele kõigis Xiaomi toodetes.</string>
-    <string name="no_account_forgot_password">Unustasid salasõna</string>
-    <string name="no_account_login_later">Logi hiljem sisse jaotises Seaded</string>
-    <string name="no_account_or_forget_password">Loo konto või unustasid parooli?</string>
-    <string name="no_account_or_forget_password_or_login_later">Konto loomine, parooli toomine või sisselogimise vahelejätmine</string>
     <string name="no_account_or_skip">Mul ei ole Xiaomi kontot või jätan sisselogimise vahele</string>
-    <string name="no_account_page_title">Xiaomi konto</string>
-    <string name="no_account_register">Loo Xiaomi konto</string>
-    <string name="no_account_service_cloud">Xiaomi Cloud</string>
-    <string name="no_account_service_cloud_desc">Salvestage oma olulised andmed turvaliselt pilve ja sünkroonige need kõigis oma seadmetes</string>
-    <string name="no_account_service_find_device">Leia seade</string>
-    <string name="no_account_service_find_device_desc">Seadme andmete kaugotsimine ja kaitsmine</string>
-    <string name="no_account_service_gallery">Pilvealbumid</string>
-    <string name="no_account_service_gallery_desc">Juurdepääs kõigile fotodele ja videotele kõigis seadmetes</string>
-    <string name="no_account_service_market">GetApps</string>
-    <string name="no_account_service_market_desc">Avastage esiletõstetud rakendused ja mängud ning eksklusiivsed auhinnad</string>
-    <string name="no_account_service_theme">Teemad</string>
-    <string name="no_account_service_theme_desc">Isikupärastage oma seadet laia teemade ja taustapiltide valikuga</string>
     <string name="no_device_tip_message">Kui teie seadet siin ei kuvata, värskendage see uusimale versioonile</string>
     <string name="no_network_btn">Värskenda</string>
     <string name="no_network_refresh_btn">Värskenda</string>
@@ -478,6 +473,24 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="optional_permissions">Valikulised õigused</string>
     <string name="page_load_failed">Lehte ei saa avada</string>
     <string name="pasport_register_dialog_message">Kas luua Xiaomi konto teie telefoninumbri %s kaudu kohe?</string>
+    <string name="passkey_already_exist">Selles seadmes on pääsuvõti juba olemas</string>
+    <string name="passkey_create">Loo pääsuvõti</string>
+    <string name="passkey_create_privacy_notice">Jaotises Sõrmejäljed, näoandmed ja ekraanilukk kogutud ekraaniluku ja sõrmejälgede andmeid on vaja teie isiku tuvastamiseks. Kui teil on küsimusi selle kohta, kuidas me teie isikuandmeid töötleme, võite meiega ühendust võtta aadressil &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>.</string>
+    <string name="passkey_create_success">Edukalt loodud</string>
+    <string name="passkey_delete">Kustuta</string>
+    <string name="passkey_delete_confirm_message">Te ei saa seda pääsuvõtit oma Xiaomi kontole sisselogimiseks kasutada. Paroolihalduritesse salvestatud pääsuvõtmed tuleb käsitsi kustutada.</string>
+    <string name="passkey_delete_confirm_title">Kas pääsuvõti kustutada?</string>
+    <string name="passkey_delete_success">Kustutamine õnnestus</string>
+    <string name="passkey_detail_create_device">Loodud</string>
+    <string name="passkey_detail_create_time">Loomiskuupäev</string>
+    <string name="passkey_detail_last_use_time">Viimati kasutatud</string>
+    <string name="passkey_detail_name">Nimi</string>
+    <string name="passkey_detail_provider">Salvestuskoht</string>
+    <string name="passkey_empty_desc_create">Looge oma Xiaomi konto jaoks pääsuvõti</string>
+    <string name="passkey_empty_desc_use">Oma Xiaomi kontole saate sisse logida:</string>
+    <string name="passkey_empty_feature_fingerprint">Sõrmejälg</string>
+    <string name="passkey_empty_feature_screen_lock">Ekraanilukk</string>
+    <string name="passkey_management">Pääsuvõti</string>
     <string name="passport_access_denied">Ligipääs keelatud</string>
     <string name="passport_account_crop_user_avatar">Kärbi fotot</string>
     <string name="passport_account_empty_user_name">Sisesta oma nimi</string>
@@ -659,7 +672,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="passport_login_other_phone">Kasuta muud kontot</string>
     <string name="passport_login_other_way">Teised võimalused sisse logimiseks</string>
     <string name="passport_login_register_by_local_phone_long_text">Loo konto</string>
-    <string name="passport_login_title">Logige oma Xiaomi Kontole sisse</string>
+    <string name="passport_login_title">Xiaomi konto</string>
     <string name="passport_login_using_other_ways">Muud sisselogimise viisid</string>
     <string name="passport_login_with_sns">Teised võimalused sisse logimiseks</string>
     <string name="passport_logout_account">Logi välja</string>
@@ -765,6 +778,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="passport_to_verify_code_login">Logi sisse SMS-i abil</string>
     <string name="passport_trust_device">Lisage see seade kinnitatud seadmete hulka</string>
     <string name="passport_two_factor_auth">Kaheastmeline autentimine</string>
+    <string name="passport_two_factor_auth_desc"><Data>Läbige kaheastmeline kinnitamine, kui logite sisse uues seadmes või veebilehel. &lt;a href= >Lisateave&lt;/a></Data></string>
     <string name="passport_two_factor_auth_dialog_desc">Kui lülitate sisse kaheastmelise autentimise, logitakse teid oma Xiaomi kontolt välja teistes seadmetes ja kõigil veebisaitidel. Kas lülitada kohe sisse?</string>
     <string name="passport_two_factor_auth_dialog_negative_btn">Loobu</string>
     <string name="passport_two_factor_auth_dialog_positive_btn">Lülitage sisse</string>
@@ -789,6 +803,7 @@ Sa võid kohe sisse logida oma Xiaomi kontole, kasutades %s."</string>
     <string name="passport_two_factor_set_phone_dialog_positive_btn">Määra</string>
     <string name="passport_two_factor_set_phone_dialog_title">Konto parooli määramine</string>
     <string name="passport_two_factor_set_phone_hint">Kaheastmelise autentimise kasutamiseks lisage telefoninumber</string>
+    <string name="passport_two_factor_trusted_devices">See on usaldusväärne seade, mis saab vastu võtta Xiaomi konto kinnituskoode</string>
     <string name="passport_tz_invalid">Leiti turvariskid. See seade võib olla muudetud või ülekirjutatud püsivaraga. Proovige teisi sisselogimisvalikuid.</string>
     <string name="passport_unknown_error">Tundmatu viga</string>
     <string name="passport_unknown_host_network_error">Kontrolli võrguseadeid ja proovi uuesti</string>
@@ -931,55 +946,16 @@ Skannige allolev kood Xiaomi rakendusega."</string>
     <string name="sns_access_token_expired_warning">Konto sisselogimine on aegunud. Logi uuesti sisse, et ühendada seda kontot.</string>
     <string name="state_data_error">Andmete hankimine ebaõnnestus</string>
     <string name="state_loading">Üks hetk…</string>
+    <string name="store_account_not_support_toast">Seda toimingut ei toetata demoseadmetes</string>
     <string name="sunday">pühapäev</string>
     <string name="sunday_short">P</string>
     <string name="sunday_shortest">P</string>
-    <string name="system_ad">Reklaamid süsteemirakendustes</string>
+    <string name="system_ad">Süsteemireklaamid</string>
     <string name="system_ad_list">Vaadake seotud rakendusi</string>
     <string name="system_ad_summary">Lülitage see funktsioon sisse, et lubada süsteemirakendustes näidata väiksel arvul reklaame. Need reklaamid aitavad meil oma tooteid ja teenuseid arendada ja täiustada. Võite selle funktsiooni igal ajal välja lülitada.</string>
     <string name="system_ad_switch">Reklaamid süsteemirakendustes</string>
     <string name="system_ad_switch_failed">Seadistust ei saanud rakendada</string>
     <string name="talkback_scan_barcode">Skanneeri QR kood</string>
-    <string name="the_anniversary_of_lifting_martial_law">Sõjaseisukorra lõpetamise aastapäev</string>
-    <string name="the_anti_aggression_day">Agressioonivastane päev</string>
-    <string name="the_arbor_day">Puupäev</string>
-    <string name="the_armed_forces_day">Sõjajõudude päev</string>
-    <string name="the_armys_day">Hiina Rahvavabastusarmee päev</string>
-    <string name="the_childrens_day">Lastekaitsepäev</string>
-    <string name="the_chinese_youth_day">Noorte päev</string>
-    <string name="the_christmas_day">Jõulud</string>
-    <string name="the_double_ninth_festival">Topeltüheksa festival</string>
-    <string name="the_dragon_boat_festival">Draakonipaadi festival</string>
-    <string name="the_easter_day">Lihavõtted</string>
-    <string name="the_eve_of_the_spring_festival">Hiina vana-aasta õhtu</string>
-    <string name="the_fifth_day">Hiina uue aasta viies päev</string>
-    <string name="the_fools_day">Naljapäev</string>
-    <string name="the_forth_day">Hiina uue aasta neljas päev</string>
-    <string name="the_hksar_establishment_day">Hong Kong SAR taastamise päev</string>
-    <string name="the_international_womens_day">Naistepäev</string>
-    <string name="the_laba_festival">Laba festival</string>
-    <string name="the_labour_day">Töörahvapüha</string>
-    <string name="the_lantern_festival">Laternafestival</string>
-    <string name="the_mid_autumn_festival">Kesksügise-festival</string>
-    <string name="the_national_day">Rahvuslik tähtpäev</string>
-    <string name="the_national_father_day">"Sun Yat-sen'i sünnipäev"</string>
-    <string name="the_new_years_day">Uus aasta</string>
-    <string name="the_night_of_sevens">Qixi festival</string>
-    <string name="the_partys_day">Hiina Kommunistliku Partei päev</string>
-    <string name="the_peace_day">Mälestuspäev</string>
-    <string name="the_retrocession_day">Tagasivõtmise päev</string>
-    <string name="the_second_day">Hiina uue aasta teine päev</string>
-    <string name="the_seventh_day">Hiina uue aasta seitsmes päev</string>
-    <string name="the_sixth_day">Hiina uue aasta kuues päev</string>
-    <string name="the_spirit_festival">Vaimufestival</string>
-    <string name="the_spring_festival">Hiina uus aasta</string>
-    <string name="the_teachers_day">Õpetajate päev</string>
-    <string name="the_third_day">Hiina uue aasta kolmas päev</string>
-    <string name="the_tw_childrens_day">Lastekaitsepäev</string>
-    <string name="the_tw_youth_day">Noorte päev</string>
-    <string name="the_united_nations_day">Ühendatud rahvaste päev</string>
-    <string name="the_valentines_day">Valentinipäev</string>
-    <string name="the_water_lantern_festival">Veelaternafestival</string>
     <string name="third_party_login">Kolmanda osapoole kontod</string>
     <string name="thursday">neljapäev</string>
     <string name="thursday_short">N</string>
@@ -996,10 +972,6 @@ Skannige allolev kood Xiaomi rakendusega."</string>
     <string name="unbind_sns_description">Pärast konto katkestamist, ei ole võimalik kasutada oma %s Konto infot, Xiaomi Konto sisselogimiseks.</string>
     <string name="unit_gb">" GB"</string>
     <string name="unit_mb">" MB"</string>
-    <string name="unlock_help_notice">"Abi:
-%1$d. Kui unustasid oma parooli, mine aadressile id.mi.com, et see lähtestada.
-%2$d. Kui sa ei saa oma parooli lähtestada või kui keegi on su seadme lukustanud, mine aadressile i.mi.com, et see avada.
-%3$d. Sinu avamise number on: %4$s"</string>
     <string name="update_apk_version_later">Mitte praegu</string>
     <string name="update_apk_version_now">Installi</string>
     <string name="update_email_address_dialog_message">Te peate kinnitama oma identiteeti enne e-posti aadressi uuendamist.</string>
@@ -1035,9 +1007,6 @@ Skannige allolev kood Xiaomi rakendusega."</string>
 "</Data></string>
     <string name="user_license_without_3rd_unicom"><Data>"Olen läbi lugenud ja nõustun Xiaomi Konto &lt;a href=%1$s>Kasutajalepingu&lt;/a> ja &lt;a href=%2$s>Privaatsuspoliitikaga&lt;/a> ja &lt;a href=%3$s>China Unicomi autentimise kasutustingimustega&lt;/a>.
 "</Data></string>
-    <string name="wear_account_auth_failed_message">"Järgige uuesti sisselogimiseks neid samme:
-%1$d. Ühendage oma telefon ja kantav seade.
-%2$d. Avage Mi Fitness ja logige sisse."</string>
     <string name="wednesday">kolmapäev</string>
     <string name="wednesday_short">K</string>
     <string name="wednesday_shortest">K</string>

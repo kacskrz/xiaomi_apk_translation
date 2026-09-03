@@ -2,10 +2,8 @@
 <resources>
     <string name="abc_action_bar_home_description">Eiti į pagrindinį puslapį</string>
     <string name="abc_action_bar_up_description">Naršyti aukštyn</string>
-    <string name="abc_action_menu_overflow_description">Daugiau parinkčių</string>
     <string name="abc_action_mode_done">Atlikta</string>
     <string name="abc_activity_chooser_view_see_all">Žr. viską</string>
-    <string name="abc_activitychooserview_choose_application">Pasirinkite programą</string>
     <string name="abc_capital_off">IŠJUNGTI</string>
     <string name="abc_capital_on">ĮJUNGTI</string>
     <string name="abc_menu_alt_shortcut_label">„Alt“ +</string>
@@ -20,12 +18,9 @@
     <string name="abc_prepend_shortcut_label">„Menu“ +</string>
     <string name="abc_search_hint">Ieškoti…</string>
     <string name="abc_searchview_description_clear">Išvalyti užklausą</string>
-    <string name="abc_searchview_description_query">Paieškos užklausa</string>
     <string name="abc_searchview_description_search">Ieškoti</string>
     <string name="abc_searchview_description_submit">Pateikti užklausą</string>
     <string name="abc_searchview_description_voice">Paieška balsu</string>
-    <string name="abc_shareactionprovider_share_with">Bendrinti su</string>
-    <string name="abc_shareactionprovider_share_with_application">Bendrinti naudojant programą „%s“</string>
     <string name="abc_toolbar_collapse_description">Sutraukti</string>
     <string name="about_device_info">Peržiūrėti išsamią įrenginio informaciją</string>
     <string name="about_mi_account">Apie „Xiaomi“ paskyrą</string>
@@ -46,6 +41,7 @@
     <string name="account_error_user_name">Neteisingai įvestas vartotojo vardas</string>
     <string name="account_global_region">Užsienis</string>
     <string name="account_invalid_user_avatar">Šis vaizdas netinkamas. Pabandykite kitą.</string>
+    <string name="account_message_reminder">„Xiaomi“ paskyros pasiūlymai</string>
     <string name="account_no_set">Nenustatyta</string>
     <string name="account_none_binded_info">Nieko</string>
     <string name="account_none_user_name">Nenustatyta</string>
@@ -85,6 +81,8 @@
     <string name="afternoon">Popietė</string>
     <string name="agreement_and_privacy">Nuostatos ir sąlygos</string>
     <string name="am">Priešpiet</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Slaptažodis</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Passkey</string>
     <string name="app_name">„Xiaomi“ paskyra</string>
     <string name="area_code_no_search_result">Nepavyko rasti rezultatų</string>
     <string name="area_code_search_hint">Ieškoti šalies ar regiono</string>
@@ -110,13 +108,6 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="button_unbind">Atsijungti</string>
     <string name="calendar_date_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
     <string name="calendar_date_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
-    <string name="call_notification_answer_action">Atsakyti</string>
-    <string name="call_notification_answer_video_action">Vaizdo įrašas</string>
-    <string name="call_notification_decline_action">Atmesti</string>
-    <string name="call_notification_hang_up_action">Baigti pok.</string>
-    <string name="call_notification_incoming_text">Gaunamasis skambutis</string>
-    <string name="call_notification_ongoing_text">Vykstantis skambutis</string>
-    <string name="call_notification_screening_text">Gaunamojo skambučio tikrinimas</string>
     <string name="camera_permission_dialog_message_for_avatar">Leiskite fotoaparato prieigą, kad ji galėtų pakeisti jūsų profilio nuotrauką.</string>
     <string name="camera_permission_dialog_message_for_h5face">Leiskite fotoaparato prieigą, kad ji galėtų atpažinti jūsų veidą.</string>
     <string name="camera_permission_dialog_title">Leidimai būtini</string>
@@ -124,6 +115,7 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="cancel">Atšaukti</string>
     <string name="change_password">Pakeisti slaptažodį</string>
     <string name="check_apk_update">Tikrinti, ar yra atnaujinimų</string>
+    <string name="check_create_restore_credential">Išsaugoti savo „Xiaomi“ paskyros kredencialus „Google“ slaptažodžių tvarkyklėje?</string>
     <string name="child_account_system_ad_disable_hint">Ši funkcija nėra palaikoma vaikų paskyrose</string>
     <string name="clearable_edittext_clear_description">Išvalyti</string>
     <string name="close">Uždaryti</string>
@@ -171,6 +163,12 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="confirm_bundled_phone_dialog_confirm">Patvirtinti</string>
     <string name="confirm_bundled_phone_dialog_confirm_timer">Patvirtinti (%dsek.)</string>
     <string name="confirm_bundled_phone_dialog_title">Patvirtinkite susietą telefono numerį</string>
+    <string name="confirm_device_credential_password">Naudoti slaptažodį</string>
+    <string name="confirm_invalid_other_device_login_btn_negative">Atsijungti</string>
+    <string name="confirm_invalid_other_device_login_btn_positive">Ne dabar</string>
+    <string name="confirm_invalid_other_device_login_desc_cn">Jei jūsų slaptažodis buvo atskleistas, galite atsijungti nuo šios „Xiaomi“ paskyros visuose kituose įrenginiuose ir svetainėse.</string>
+    <string name="confirm_invalid_other_device_login_desc_global">Jei jūsų slaptažodis buvo atskleistas, galite atsijungti nuo šios „Xiaomi“ paskyros visuose kituose įrenginiuose ir svetainėse. Atsijungę patviritnkite visus prieigos raktus nuėję į „Xiaomi“ paskyra > Paskyros saugumas > Raktažodis.</string>
+    <string name="confirm_invalid_other_device_login_title">Atsijungti iš kitų įrenginių?</string>
     <string name="confirm_new_pwd">Patvirtinkite naują slaptažodį</string>
     <string name="confirm_unbind">Atsijungti iš šios paskyros?</string>
     <string name="confirm_unbundled_phone_dialog_message">Telefono numeris %1$s yra susietas su %2$s „Xiaomi“ paskyra. Jis daugiau nebebus susietas su „Xiaomi“ paskyra %3$s, jei tęsite. Tęsti?</string>
@@ -185,6 +183,7 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="date_picker_lunar">Tradicinis kinų kalendorius</string>
     <string name="date_time_picker_dialog_title">Nustatyti datą ir laiką</string>
     <string name="default_error_message">Netinkama įvestis</string>
+    <string name="default_error_msg">Nežinoma klaida</string>
     <string name="default_popup_window_title">Iššokantysis langas</string>
     <string name="delete_bank_card_message">„Mi Pay“ banko kortelės ir NFC kortelės bus ištrintos po to, kai atsijungsite.</string>
     <string name="delete_bank_card_title">Įspėjimas</string>
@@ -241,6 +240,8 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="fido2_fingerprint_auth_desc"><Data>Naudokite piršto atspaudą, kad prisijungtumėte prie savo „Xiaomi“ paskyros ir patvirtintumėte tapatybę&lt;a href=>Sužinokite daugiau&lt;/a></Data></string>
     <string name="fido2_fingerprint_changed_and_afresh_register">Jūsų įrenginio piršto atspaudas pasikeitė. Dar kartą patvirtinkite paskyrą, kad galėtumėte įjungti piršto atspaudą.</string>
     <string name="fido2_fingerprint_verify">Piršto atspaudo patvirtinimas</string>
+    <string name="fido2_no_credential_available">Atrodo, kad neturite raktažodžio. Norėdami jį sukurti, prisijunkite prie savo paskyros.</string>
+    <string name="fido2_no_options_available">Nėra prieinamos slaptažodžio tvarkyklės. Patikrinkite savo Parametrus.</string>
     <string name="fido2_psw_changed_and_afresh_register">Jūsų slaptažodis buvo pakeistas. Dar kartą patvirtinkite savo piršto atspaudą.</string>
     <string name="fido2_setting_ps_notify">Kad galėtumėte naudoti piršto atspaudo patvirtinimą, turėsite nustatyti paskyros slaptažodį. Tai padaryti galite nuėję į Parametrai > „Xiaomi“ paskyra > Paskyros saugumas > Slaptažodis.</string>
     <string name="fido2_verify_fingerprint">Patvirtinkite piršto atspaudą</string>
@@ -275,6 +276,13 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="find_device_unknown_error">Nepavyko nustatyti įrenginio būsenos. Luktelkite minutę ar dvi ir pabandykite dar kartą.</string>
     <string name="find_equipment">Rasti įrenginį</string>
     <string name="find_new_apk_version">Yra naujinimų</string>
+    <string name="fingerprint_dialog_touch_sensor">Palieskite piršto antspaudo jutiklį</string>
+    <string name="fingerprint_error_hw_not_available">Piršto antspaudo aparatinė įranga nepasiekiama.</string>
+    <string name="fingerprint_error_hw_not_present">Šiame įrenginyje nėra piršto antspaudo jutiklio</string>
+    <string name="fingerprint_error_lockout">Per daug bandymų. Vėliau bandykite dar kartą.</string>
+    <string name="fingerprint_error_no_fingerprints">Neužregistruota jokių kontrolinių kodų.</string>
+    <string name="fingerprint_error_user_canceled">Piršto antspaudo operaciją atšaukė naudotojas.</string>
+    <string name="fingerprint_not_recognized">Neatpažinta</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -331,6 +339,9 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="friday">Penktadienis</string>
     <string name="friday_short">Pn.</string>
     <string name="friday_shortest">Pn.</string>
+    <string name="generic_error_no_device_credential">Nenustatytas PIN kodas, atrakinimo piešinys arba slaptažodis.</string>
+    <string name="generic_error_no_keyguard">Šis įrenginys nepalaiko PIN kodo, šablono ar slaptažodžio.</string>
+    <string name="generic_error_user_canceled">Autentifikavimą atšaukė naudotojas.</string>
     <string name="get_back_password">Atstatyti slaptažodį</string>
     <string name="get_back_pwd">Atstatomas slaptažodis</string>
     <string name="get_device_info_error">Nepavyko gauti įrenginio informacijos</string>
@@ -374,6 +385,7 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="local_invite_prompt_enable_describe">Ieškoma netoliese esančių įrenginių. Abiejuose įrenginiuose įjunkite „Bluetooth“.</string>
     <string name="local_invite_prompt_enable_title">Pakviesti netoliese esančius įrenginius</string>
     <string name="login_3rd_app_with_system_account">Prisijungti prie %s</string>
+    <string name="login_by_passkey">Prisijunkite savo raktažodžiu</string>
     <string name="login_check_find_device">Gaunama saugumo informacija…</string>
     <string name="login_check_find_device_failed_title">Nepavyko patikrinti prietaiso saugumo informacijos</string>
     <string name="login_find_device_bind">Šis įrenginys jau susietas su egzistuojančia „Xiaomi“ paskyros ID (%s).</string>
@@ -384,7 +396,10 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="login_or_register_by_other_way">Naudoti kitą būdą</string>
     <string name="login_with_other">Daugiau parinkčių</string>
     <string name="logout_account">Atsijungti</string>
+    <string name="logout_accout_find_device_confirm">„Rasti įrenginį“ funkcija įjungta. Patvirtinkite savo slaptažodį, kad atsijungtumėte.</string>
     <string name="logout_failed">Nepavyko atsijungti</string>
+    <string name="member_benefits">Narystės naudos</string>
+    <string name="message_action_go">Peržiūrėti</string>
     <string name="mi_account">Mano paskyra</string>
     <string name="mi_health">„Xiaomi Health“</string>
     <string name="midnight">Naktis</string>
@@ -484,30 +499,11 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="multi_user_not_show_sync_activity_message_2">Tokiu atveju, visi duomenys bus sinchronizuoti su jūsų „Antrąja erdve“. Siekdami to išvengti, nejunkite sinchronizacijos su debesimi.</string>
     <string name="multi_user_not_show_sync_activity_title">Nejunkite sinchronizacijos su debesimi</string>
     <string name="my_device_title">Dabartinis įrenginys</string>
-    <string name="navigation_menu">Naršymo meniu</string>
-    <string name="need_install_wechat">Pirmiausia įdiekite „WeChat“</string>
     <string name="network_error">Įvyko tinklo klaida.</string>
     <string name="network_error_hint">Patikrinkite URL ir bandykite dar kartą arba nukopijuokite URL ir atidarykite jį savo naršyklėje.</string>
     <string name="new_version">Nauja versija</string>
     <string name="night">Vakaras</string>
-    <string name="no_account_desc">Jūsų „Xiaomi“ paskyra yra vienintelė tapatybė visoms „Xiaomi“ paslaugoms. Prisijunkite, kad pasiektumėte bet kokią „Xiaomi“ paslaugą bet kuriame „Xiaomi“ produkte.</string>
-    <string name="no_account_forgot_password">Pamiršau slaptažodį</string>
-    <string name="no_account_login_later">Prisijungti vėliau parametruose</string>
-    <string name="no_account_or_forget_password">Norite susikurti paskyrą arba pamiršote slaptažodį?</string>
-    <string name="no_account_or_forget_password_or_login_later">Sukurkite paskyrą, atkurkite slaptažodį arba praleiskite prisijungimą</string>
     <string name="no_account_or_skip">Neturiu „Xiaomi“ paskyros arba praleisti prisijungimą</string>
-    <string name="no_account_page_title">„Xiaomi“ paskyra</string>
-    <string name="no_account_register">Sukurti „Xiaomi“ paskyrą</string>
-    <string name="no_account_service_cloud">„Xiaomi debesis“</string>
-    <string name="no_account_service_cloud_desc">Apsaugokite savo svarbią informaciją debesyje ir sinchronizuokite ją visuose įrenginiuose</string>
-    <string name="no_account_service_find_device">Rasti įrenginį</string>
-    <string name="no_account_service_find_device_desc">Nuotoliniu būdu raskite ir apsaugokite įrenginio duomenis</string>
-    <string name="no_account_service_gallery">Debesies albumai</string>
-    <string name="no_account_service_gallery_desc">Pasiekite visas savo nuotraukas ir vaizdo įrašus visuose savo įrenginiuose</string>
-    <string name="no_account_service_market">GetApps</string>
-    <string name="no_account_service_market_desc">Atraskite siūlomas programas ir žaidimus, taip pat išskirtinius apdovanojimus</string>
-    <string name="no_account_service_theme">Temos</string>
-    <string name="no_account_service_theme_desc">Suasmeninkite savo įrenginį naudodami platų temų ir foto paveikslėlių pasirinkimą</string>
     <string name="no_device_tip_message">Jei jūsų įrenginys čia nerodomas, atnaujinkite jį naujausia versija.</string>
     <string name="no_network_btn">Atnaujinti</string>
     <string name="no_network_refresh_btn">Atnaujinti</string>
@@ -546,6 +542,24 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="optional_permissions">Pasirenkamieji leidimai</string>
     <string name="page_load_failed">Nepavyko atidaryti puslapio</string>
     <string name="pasport_register_dialog_message">Sukurti „Xiaomi“ paskyrą su jūsų telefono numeriu %s dabar?</string>
+    <string name="passkey_already_exist">Šiame įrenginyje jau egzistuoja prieigos raktas</string>
+    <string name="passkey_create">Sukurti raktažodį</string>
+    <string name="passkey_create_privacy_notice">Ekrano užraktas ir pirštų atspaudai, surinkti „Pirštų atspaudais, veido duomenimis ir ekrano užraktu, yra reikalingi jūsų tapatybei patvirtinti. Jei turite klausimų apie tai, kaip tvarkome jūsų asmens duomenis, galite susisiekti su mumis adresu: &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>.</string>
+    <string name="passkey_create_success">Sėkmingai sukurta</string>
+    <string name="passkey_delete">Ištrinti</string>
+    <string name="passkey_delete_confirm_message">Norėdami prisijungti prie savo „Xiaomi“ psakyros, negalėsite naudoti šio raktažodžio. Slaptažodžių tvarkyklėse išsaugoti raktažodžiai turi būti ištrinti rankiniu būdu.</string>
+    <string name="passkey_delete_confirm_title">Ištrinti raktažodį?</string>
+    <string name="passkey_delete_success">Sėkmingai ištrinta</string>
+    <string name="passkey_detail_create_device">Sukurta</string>
+    <string name="passkey_detail_create_time">Sukurta data</string>
+    <string name="passkey_detail_last_use_time">Paskutinį kartą naudota</string>
+    <string name="passkey_detail_name">Pavadinimas</string>
+    <string name="passkey_detail_provider">Saugojimo vieta</string>
+    <string name="passkey_empty_desc_create">Sukurkite raktažodį savo „Xiaomi“ paskyrai</string>
+    <string name="passkey_empty_desc_use">Prie savo „Xiaomi“ paskyros galite prisijungti:</string>
+    <string name="passkey_empty_feature_fingerprint">Pirštų atspaudu</string>
+    <string name="passkey_empty_feature_screen_lock">Ekrano užraktu</string>
+    <string name="passkey_management">Raktažodis</string>
     <string name="passport_access_denied">Prieiga nesuteikta</string>
     <string name="passport_account_crop_user_avatar">Apkirpti nuotrauką</string>
     <string name="passport_account_empty_user_name">Įveskite savo slapyvardį</string>
@@ -727,7 +741,7 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="passport_login_other_phone">Naudoti kitą paskyrą</string>
     <string name="passport_login_other_way">Kiti prisijungimo būdai</string>
     <string name="passport_login_register_by_local_phone_long_text">Sukurti paskyrą</string>
-    <string name="passport_login_title">Prisijunkite prie „Xiaomi“ paskyros</string>
+    <string name="passport_login_title">„Xiaomi“ paskyra</string>
     <string name="passport_login_using_other_ways">Kiti prisijungimo būdai</string>
     <string name="passport_login_with_sns">Kiti prisijungimo būdai</string>
     <string name="passport_logout_account">Atsijungti</string>
@@ -833,6 +847,7 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="passport_to_verify_code_login">Prisijungti naudojant SMS</string>
     <string name="passport_trust_device">Pridėti šį prietaisą prie patikrintų įrenginių</string>
     <string name="passport_two_factor_auth">Dviejų dalių autentifikavimas</string>
+    <string name="passport_two_factor_auth_desc"><Data>Atlikite 2 veiksmų patvirtinimą, prisijungdami iš naujo įrenginio arba interneto tinklapio. &lt;a href= >Sužinokite išsamiau&lt;/a></Data></string>
     <string name="passport_two_factor_auth_dialog_desc">Įjungus dviejų veiksnių autentifikavimą, būsite atjungti iš kituose įrenginiuose ir visuose tinklalapiuose esančios „Xiaomi“ paskyros. Vis tiek įjungti?</string>
     <string name="passport_two_factor_auth_dialog_negative_btn">Atšaukti</string>
     <string name="passport_two_factor_auth_dialog_positive_btn">Įjungti</string>
@@ -857,6 +872,7 @@ Dabar prie „Xiaomi“ paskyros prisijungti galite naudodami „%s“."</string
     <string name="passport_two_factor_set_phone_dialog_positive_btn">Nustatyti</string>
     <string name="passport_two_factor_set_phone_dialog_title">Nustatyti paskyros slaptažodį</string>
     <string name="passport_two_factor_set_phone_hint">Pridėkite telefono numerį, kad galėtumėte naudoti dviejų dalių autentifikavimą</string>
+    <string name="passport_two_factor_trusted_devices">Tai patikimas įrenginys, galintis gauti „Xiaomi“ paskyros patvirtinimo kodus</string>
     <string name="passport_tz_invalid">Rasta saugumo rizika. Šis įrenginys galimai yra pažeistas ar jame buvo įdiegtas sistemos atvaizdas. Išbandykite kitas prisijungimo parinktis.</string>
     <string name="passport_unknown_error">Nežinoma klaida</string>
     <string name="passport_unknown_host_network_error">Patikrinkite tinklo parametrus ir pabandykite dar kartą</string>
@@ -1005,11 +1021,12 @@ Nuskaitykite žemiau pateiktą kodą naudodami „Xiaomi“ programą."</string>
     <string name="state_data_error">Nepavyko gauti duomenų</string>
     <string name="state_loading">Sekundėlę…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store_account_not_support_toast">Šio veiksmo nepalaiko demo įrenginiai</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Sekmadienis</string>
     <string name="sunday_short">Sk.</string>
     <string name="sunday_shortest">Sk.</string>
-    <string name="system_ad">Skelbimai sisteminėse programose</string>
+    <string name="system_ad">Sistemos skelbimai</string>
     <string name="system_ad_list">Peržiūrėti susijusias programas</string>
     <string name="system_ad_summary">Įjunkite šią funkciją, norėdami sisteminėse programose leisti rodyti nedidelį kiekį skelbimų. Šie skelbimai mums padeda tobulinti ir gerinti mūsų produktų ir paslaugų kokybę. Šią funkciją bet kada galite išjungti.</string>
     <string name="system_ad_switch">Skelbimai sisteminėse programose</string>
@@ -1017,46 +1034,6 @@ Nuskaitykite žemiau pateiktą kodą naudodami „Xiaomi“ programą."</string>
     <string name="tab">Tabuliavimo klavišas</string>
     <string name="talkback_scan_barcode">Nuskaityti QR kodą</string>
     <string name="template_percent">Procentų: %1$d.</string>
-    <string name="the_anniversary_of_lifting_martial_law">Karo padėties atšaukimo metinės</string>
-    <string name="the_anti_aggression_day">Kovos su agresija diena</string>
-    <string name="the_arbor_day">Medžių diena</string>
-    <string name="the_armed_forces_day">Ginkluotųjų pajėgų diena</string>
-    <string name="the_armys_day">PLA diena</string>
-    <string name="the_childrens_day">Vaikų diena</string>
-    <string name="the_chinese_youth_day">Jaunimo diena</string>
-    <string name="the_christmas_day">Kalėdos</string>
-    <string name="the_double_ninth_festival">Yang šventė</string>
-    <string name="the_dragon_boat_festival">Drakono valčių šventė</string>
-    <string name="the_easter_day">Velykos</string>
-    <string name="the_eve_of_the_spring_festival">Kinijos Naujųjų metų išvakarės</string>
-    <string name="the_fifth_day">Penktoji Kinijos Naujųjų metų diena</string>
-    <string name="the_fools_day">Melagių diena</string>
-    <string name="the_forth_day">Ketvirtoji Kinijos Naujųjų metų diena</string>
-    <string name="the_hksar_establishment_day">Honkongo YAR įkūrimo diena</string>
-    <string name="the_international_womens_day">Moters diena</string>
-    <string name="the_laba_festival">Laba šventė</string>
-    <string name="the_labour_day">Tarptautinė darbo diena</string>
-    <string name="the_lantern_festival">Žibintų šventė</string>
-    <string name="the_mid_autumn_festival">Rudens vidurio šventė</string>
-    <string name="the_national_day">Nacionalinė šventė</string>
-    <string name="the_national_father_day">Sun Jatseno gimtadienis</string>
-    <string name="the_new_years_day">Naujieji metai</string>
-    <string name="the_night_of_sevens">Qixi šventė</string>
-    <string name="the_partys_day">CPC diena</string>
-    <string name="the_peace_day">Atminimo diena</string>
-    <string name="the_retrocession_day">Pakartotinio perdraudimo diena</string>
-    <string name="the_second_day">Antroji Kinijos Naujųjų metų diena</string>
-    <string name="the_seventh_day">Septintoji Kinijos Naujųjų metų diena</string>
-    <string name="the_sixth_day">Šeštoji Kinijos Naujųjų metų diena</string>
-    <string name="the_spirit_festival">Vaiduoklių šventė</string>
-    <string name="the_spring_festival">Kinijos Naujieji metai</string>
-    <string name="the_teachers_day">Mokytojo diena</string>
-    <string name="the_third_day">Trečioji Kinijos Naujųjų metų diena</string>
-    <string name="the_tw_childrens_day">Vaikų diena</string>
-    <string name="the_tw_youth_day">Jaunimo diena</string>
-    <string name="the_united_nations_day">Jungtinių Tautų diena</string>
-    <string name="the_valentines_day">Valentino diena</string>
-    <string name="the_water_lantern_festival">Vandens žibintų festivalis</string>
     <string name="third_party_login">Trečiųjų šalių paskyros</string>
     <string name="thursday">Ketvirtadienis</string>
     <string name="thursday_short">Kt.</string>
@@ -1073,10 +1050,6 @@ Nuskaitykite žemiau pateiktą kodą naudodami „Xiaomi“ programą."</string>
     <string name="unbind_sns_description">Jums atsijungus iš šios paskyros, jūs daugiau nebegalėsite naudoti %s Paskyros informacijos prisijungimui prie jūsų „Xiaomi“ paskyros.</string>
     <string name="unit_gb">" GB"</string>
     <string name="unit_mb">" MB"</string>
-    <string name="unlock_help_notice">"Pagalba:
-%1$d. Jei pamiršote slaptažodį, eikite į id.mi.com, norėdami jį akurti.
-%2$d. Jei negalite atstatyti slaptažodžio arba kas nors užrakino jūsų įrenginį, eikite į i.mi.com, kad jį atrakintumėte.
-%3$d. Jūsų atrakinimo numeris: %4$s"</string>
     <string name="update_apk_version_later">Ne dabar</string>
     <string name="update_apk_version_now">Įdiegti</string>
     <string name="update_email_address_dialog_message">Prieš atnaujinant el. paštą yra reikalinga tapatybės identifikacija.</string>
@@ -1114,9 +1087,6 @@ Nuskaitykite žemiau pateiktą kodą naudodami „Xiaomi“ programą."</string>
 "</Data></string>
     <string name="v7_preference_off">IŠJUNGTA</string>
     <string name="v7_preference_on">ĮJUNGTA</string>
-    <string name="wear_account_auth_failed_message">"Laikykitės šių žingsnių, kad vėl prisijungtumėte prie:
-%1$d. Prijunkite savo telefoną ir dėvimą įrenginį.
-%2$d. Atidarykite „Mi Fitness“ ir prisijunkite."</string>
     <string name="wednesday">Trečiadienis</string>
     <string name="wednesday_short">Tr.</string>
     <string name="wednesday_shortest">Tr.</string>

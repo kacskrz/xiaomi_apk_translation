@@ -2,10 +2,8 @@
 <resources>
     <string name="abc_action_bar_home_description">Portami a casa</string>
     <string name="abc_action_bar_up_description">Torna indietro</string>
-    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
     <string name="abc_action_mode_done">Fine</string>
     <string name="abc_activity_chooser_view_see_all">Mostra tutto</string>
-    <string name="abc_activitychooserview_choose_application">"Scelta di un'app"</string>
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
     <string name="abc_menu_alt_shortcut_label">ALT +</string>
@@ -20,12 +18,9 @@
     <string name="abc_prepend_shortcut_label">MENU +</string>
     <string name="abc_search_hint">Cerca…</string>
     <string name="abc_searchview_description_clear">Cancella query</string>
-    <string name="abc_searchview_description_query">Query di ricerca</string>
     <string name="abc_searchview_description_search">Cerca</string>
     <string name="abc_searchview_description_submit">Invia query</string>
     <string name="abc_searchview_description_voice">Ricerca vocale</string>
-    <string name="abc_shareactionprovider_share_with">Condividi con</string>
-    <string name="abc_shareactionprovider_share_with_application">Condividi tramite %s</string>
     <string name="abc_toolbar_collapse_description">Comprimi</string>
     <string name="about_device_info">Visualizza i dettagli del dispositivo</string>
     <string name="about_mi_account">Informazioni su Xiaomi Account</string>
@@ -46,6 +41,7 @@
     <string name="account_error_user_name">Il nome inserito non è valido</string>
     <string name="account_global_region">"All'estero"</string>
     <string name="account_invalid_user_avatar">"Questa foto non è valida. Usane un'altra."</string>
+    <string name="account_message_reminder">Suggerimenti Xiaomi Account</string>
     <string name="account_no_set">Nessuno</string>
     <string name="account_none_binded_info">Nessuno</string>
     <string name="account_none_user_name">Nessuno</string>
@@ -85,6 +81,8 @@
     <string name="afternoon">Pomeriggio</string>
     <string name="agreement_and_privacy">Termini e condizioni</string>
     <string name="am">AM</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Password</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Passkey</string>
     <string name="app_name">Xiaomi Account</string>
     <string name="area_code_no_search_result">Nessun risultato trovato</string>
     <string name="area_code_search_hint">Cerca paese o regione</string>
@@ -110,13 +108,6 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="button_unbind">Disconnetti</string>
     <string name="calendar_date_picker_a11y_next_month">Passa al mese successivo</string>
     <string name="calendar_date_picker_a11y_prev_month">Passa al mese precedente</string>
-    <string name="call_notification_answer_action">Rispondi</string>
-    <string name="call_notification_answer_video_action">Video</string>
-    <string name="call_notification_decline_action">Rifiuta</string>
-    <string name="call_notification_hang_up_action">Riaggancia</string>
-    <string name="call_notification_incoming_text">Chiamata in arrivo</string>
-    <string name="call_notification_ongoing_text">Chiamata in corso</string>
-    <string name="call_notification_screening_text">Applicazione filtro a chiamata in arrivo</string>
     <string name="camera_permission_dialog_message_for_avatar">"Consenti l'accesso alla fotocamera per poter cambiare la tua foto profilo."</string>
     <string name="camera_permission_dialog_message_for_h5face">"Consenti l'accesso alla fotocamera per il riconoscimento del tuo volto."</string>
     <string name="camera_permission_dialog_title">Autorizzazioni richieste</string>
@@ -124,6 +115,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="cancel">Annulla</string>
     <string name="change_password">Cambia la password</string>
     <string name="check_apk_update">Verifica aggiornamenti</string>
+    <string name="check_create_restore_credential">Salvare le credenziali dello Xiaomi Account in Google Password Manager?</string>
     <string name="child_account_system_ad_disable_hint">Questa funzionalità non è disponibile per gli account per minori</string>
     <string name="clearable_edittext_clear_description">Cancella</string>
     <string name="close">Chiudi</string>
@@ -187,13 +179,19 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="common_google_play_services_update_title">Aggiorna Google Play Services</string>
     <string name="common_google_play_services_updating_text">%1$s non funzionerà senza Google Play Services, attualmente in fase di aggiornamento.</string>
     <string name="common_google_play_services_wear_update_text">"È richiesta una nuova versione di Google Play Services. L'aggiornamento automatico verrà eseguito a breve."</string>
-    <string name="common_open_on_phone">Apri sul telefono</string>
+    <string name="common_open_on_phone">Apri su smartphone</string>
     <string name="common_signin_button_text">Accedi</string>
     <string name="common_signin_button_text_long">Accedi con Google</string>
     <string name="completed">Tutto impostato!</string>
     <string name="confirm_bundled_phone_dialog_confirm">Conferma</string>
     <string name="confirm_bundled_phone_dialog_confirm_timer">Conferma (%d s)</string>
     <string name="confirm_bundled_phone_dialog_title">Conferma il numero di telefono associato</string>
+    <string name="confirm_device_credential_password">Utilizza password</string>
+    <string name="confirm_invalid_other_device_login_btn_negative">Disconnetti</string>
+    <string name="confirm_invalid_other_device_login_btn_positive">Non ora</string>
+    <string name="confirm_invalid_other_device_login_desc_cn">Se la tua password è stata compromessa, puoi disconnetterti da tutti gli altri dispositivi e siti web che utilizzano questo Xiaomi Account.</string>
+    <string name="confirm_invalid_other_device_login_desc_global">"Se la tua password è stata compromessa, puoi disconnetterti da tutti gli altri dispositivi e siti web che utilizzano questo Xiaomi Account. Dopo aver effettuato la disconnessione, verifica tutti i tuoi passkey in Xiaomi Account > Sicurezza dell'account > Passkey."</string>
+    <string name="confirm_invalid_other_device_login_title">Disconnettersi dagli altri dispositivi?</string>
     <string name="confirm_new_pwd">Conferma la nuova password</string>
     <string name="confirm_unbind">Vuoi disconnettere questo account?</string>
     <string name="confirm_unbundled_phone_dialog_message">"Il numero di telefono %1$s è associato all'account %2$s. Se continui, non sarà più associato all'account %3$s. Continuare?"</string>
@@ -208,6 +206,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="date_picker_lunar">Calendario cinese tradizionale</string>
     <string name="date_time_picker_dialog_title">Imposta data e ora</string>
     <string name="default_error_message">Valore non valido</string>
+    <string name="default_error_msg">Errore sconosciuto</string>
     <string name="default_popup_window_title">Finestra popup</string>
     <string name="delete_bank_card_message">Le carte bancarie Mi Pay e le tessere NFC verranno eliminate dopo la disconnessione.</string>
     <string name="delete_bank_card_title">Attenzione</string>
@@ -264,6 +263,8 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="fido2_fingerprint_auth_desc"><Data>Usa la tua impronta per accedere al tuo Xiaomi Account e verificare la tua identità &lt;a href=>Scopri di più&lt;/a></Data></string>
     <string name="fido2_fingerprint_changed_and_afresh_register">"L'impronta digitale del tuo dispositivo è cambiata. Verifica nuovamente il tuo account per poter attivare la verifica dell'impronta digitale."</string>
     <string name="fido2_fingerprint_verify">"Verifica dell'impronta"</string>
+    <string name="fido2_no_credential_available">Sembra che tu non abbia un passkey. Accedi al tuo account per crearne uno.</string>
+    <string name="fido2_no_options_available">Nessun gestore password disponibile. Controlla le Impostazioni.</string>
     <string name="fido2_psw_changed_and_afresh_register">La tua password è cambiata. Verifica nuovamente la tua impronta.</string>
     <string name="fido2_setting_ps_notify">"Dovrai impostare una password per l'account per poter utilizzare la verifica dell'impronta. Puoi farlo in Impostazioni > Xiaomi Account > Sicurezza dell'account > Password."</string>
     <string name="fido2_verify_fingerprint">"Verifica l'impronta"</string>
@@ -298,6 +299,13 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="find_device_unknown_error">Impossibile ottenere lo stato del dispositivo. Aspetta un minuto o due e riprova.</string>
     <string name="find_equipment">Trova dispositivo</string>
     <string name="find_new_apk_version">Aggiornamento disponibile</string>
+    <string name="fingerprint_dialog_touch_sensor">Tocca sensore impronte</string>
+    <string name="fingerprint_error_hw_not_available">"Hardware per l'impronta non disponibile."</string>
+    <string name="fingerprint_error_hw_not_present">Questo dispositivo non è dotato di sensore di impronte</string>
+    <string name="fingerprint_error_lockout">È stato effettuato un numero eccessivo di tentativi. Riprova più tardi.</string>
+    <string name="fingerprint_error_no_fingerprints">Nessuna impronta digitale registrata.</string>
+    <string name="fingerprint_error_user_canceled">"Operazione di autenticazione dell'impronta annullata dall'utente."</string>
+    <string name="fingerprint_not_recognized">Non riconosciuta</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -354,6 +362,9 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="friday">Venerdì</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
+    <string name="generic_error_no_device_credential">Non hai impostato PIN, sequenza o password.</string>
+    <string name="generic_error_no_keyguard">Questo dispositivo non supporta il PIN, la sequenza o la password.</string>
+    <string name="generic_error_user_canceled">"Autenticazione annullata dall'utente."</string>
     <string name="get_back_password">Reimposta la password</string>
     <string name="get_back_pwd">Impostando nuovamente la password</string>
     <string name="get_device_info_error">Non è stato possibile acquisire le informazioni sul dispositivo</string>
@@ -397,6 +408,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="local_invite_prompt_enable_describe">Ricerca di dispositivi nelle vicinanze. Attiva il Bluetooth su entrambi i dispositivi.</string>
     <string name="local_invite_prompt_enable_title">Invita dispositivi nelle vicinanze</string>
     <string name="login_3rd_app_with_system_account">Accedi a %s</string>
+    <string name="login_by_passkey">Accedi tramite passkey</string>
     <string name="login_check_find_device">Acquisizione delle informazioni sicurezza sul dispositivo…</string>
     <string name="login_check_find_device_failed_title">Impossibile verificare le informazioni di sicurezza del dispositivo</string>
     <string name="login_find_device_bind">Questo dispositivo è associato a un ID Xiaomi Account esistente (%s).</string>
@@ -407,7 +419,10 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="login_or_register_by_other_way">Usa un altro metodo</string>
     <string name="login_with_other">Altre opzioni</string>
     <string name="logout_account">Disconnetti</string>
+    <string name="logout_accout_find_device_confirm">Trova dispositivo attivato. Verifica la password per uscire.</string>
     <string name="logout_failed">Impossibile disconnettersi</string>
+    <string name="member_benefits">"Vantaggi dell'abbonamento"</string>
+    <string name="message_action_go">Visualizza</string>
     <string name="mi_account">Il mio account</string>
     <string name="mi_health">Xiaomi Salute</string>
     <string name="midnight">Notte</string>
@@ -507,30 +522,11 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="multi_user_not_show_sync_activity_message_2">In questo caso, tutti i dati saranno sincronizzati con il tuo Secondo spazio. Per evitare questo, non attivare la sincronizzazione con il cloud.</string>
     <string name="multi_user_not_show_sync_activity_title">Non attivare la sincronizzazione con il cloud</string>
     <string name="my_device_title">Dispositivo attuale</string>
-    <string name="navigation_menu">Menu di navigazione</string>
-    <string name="need_install_wechat">Installa prima WeChat</string>
     <string name="network_error">Si è verificato un errore di rete.</string>
     <string name="network_error_hint">"Controlla l'URL e riprova, oppure copia l'URL e aprilo nel browser."</string>
     <string name="new_version">Nuova versione</string>
     <string name="night">Sera</string>
-    <string name="no_account_desc">Lo Xiaomi Account è la tua identità univoca per tutti i servizi Xiaomi. Accedi per utilizzare qualsiasi servizio Xiaomi su tutti i prodotti Xiaomi.</string>
-    <string name="no_account_forgot_password">Password dimenticata</string>
-    <string name="no_account_login_later">Accedi più tardi in Impostazioni</string>
-    <string name="no_account_or_forget_password">Creare un account o password dimenticata?</string>
-    <string name="no_account_or_forget_password_or_login_later">"Crea account, recupera password o salta l'accesso"</string>
     <string name="no_account_or_skip">"Non ho uno Xiaomi Account o salta l'accesso"</string>
-    <string name="no_account_page_title">Xiaomi Account</string>
-    <string name="no_account_register">Crea Xiaomi Account</string>
-    <string name="no_account_service_cloud">Xiaomi Cloud</string>
-    <string name="no_account_service_cloud_desc">Archivia in modo sicuro i tuoi dati importanti nel cloud e sincronizzali su tutti i tuoi dispositivi</string>
-    <string name="no_account_service_find_device">Trova dispositivo</string>
-    <string name="no_account_service_find_device_desc">Individua e proteggi i dati del tuo dispositivo da remoto</string>
-    <string name="no_account_service_gallery">Album in cloud</string>
-    <string name="no_account_service_gallery_desc">Accedi alle tue foto e ai tuoi video su tutti i tuoi dispositivi</string>
-    <string name="no_account_service_market">GetApps</string>
-    <string name="no_account_service_market_desc">Scopri app e giochi selezionati e ricevi ricompense esclusive</string>
-    <string name="no_account_service_theme">Temi</string>
-    <string name="no_account_service_theme_desc">"Personalizza il tuo dispositivo con un'ampia selezione di temi e sfondi"</string>
     <string name="no_device_tip_message">"Se il tuo dispositivo non compare qui, aggiornalo all'ultima versione"</string>
     <string name="no_network_btn">Aggiorna</string>
     <string name="no_network_refresh_btn">Aggiorna</string>
@@ -569,6 +565,24 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="optional_permissions">Permessi opzionali</string>
     <string name="page_load_failed">Impossibile aprire la pagina</string>
     <string name="pasport_register_dialog_message">Desideri creare uno Xiaomi Account tramite il tuo numero di telefono %s adesso?</string>
+    <string name="passkey_already_exist">Passkey già esistente nel dispositivo</string>
+    <string name="passkey_create">Crea passkey</string>
+    <string name="passkey_create_privacy_notice">Il blocco schermo e le impronte salvati nella sezione Impronte digitali, dati del volto e blocco schermo sono necessari per verificare la tua identità. Se hai domande su come trattiamo i tuoi dati personali, puoi contattarci all’indirizzo &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>.</string>
+    <string name="passkey_create_success">Creazione completata</string>
+    <string name="passkey_delete">Elimina</string>
+    <string name="passkey_delete_confirm_message">Non potrai utilizzare questo passkey per accedere al tuo Xiaomi Account. I passkey salvati nei gestori di password devono essere eliminati manualmente.</string>
+    <string name="passkey_delete_confirm_title">Eliminare passkey?</string>
+    <string name="passkey_delete_success">Eliminazione completata</string>
+    <string name="passkey_detail_create_device">Creato su</string>
+    <string name="passkey_detail_create_time">Data di creazione</string>
+    <string name="passkey_detail_last_use_time">Ultimo utilizzo</string>
+    <string name="passkey_detail_name">Nome</string>
+    <string name="passkey_detail_provider">"Posizione spazio d'archiviazione"</string>
+    <string name="passkey_empty_desc_create">Crea un passkey per il tuo Xiaomi Account</string>
+    <string name="passkey_empty_desc_use">Puoi accedere al tuo Xiaomi Account con:</string>
+    <string name="passkey_empty_feature_fingerprint">Impronta</string>
+    <string name="passkey_empty_feature_screen_lock">Blocco schermo</string>
+    <string name="passkey_management">Passkey</string>
     <string name="passport_access_denied">Accesso negato</string>
     <string name="passport_account_crop_user_avatar">Ritaglia la foto</string>
     <string name="passport_account_empty_user_name">Inserisci il tuo nome</string>
@@ -750,7 +764,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="passport_login_other_phone">Usa un altro account</string>
     <string name="passport_login_other_way">Altri modi per accedere</string>
     <string name="passport_login_register_by_local_phone_long_text">Crea un account</string>
-    <string name="passport_login_title">Accedi al tuo Xiaomi Account</string>
+    <string name="passport_login_title">Xiaomi Account</string>
     <string name="passport_login_using_other_ways">Altri modi per accedere</string>
     <string name="passport_login_with_sns">Altri modi per accedere</string>
     <string name="passport_logout_account">Esci</string>
@@ -856,6 +870,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="passport_to_verify_code_login">Accedi con SMS</string>
     <string name="passport_trust_device">Aggiungi questo dispositivo ai dispositivi verificati</string>
     <string name="passport_two_factor_auth">Autenticazione a due fattori</string>
+    <string name="passport_two_factor_auth_desc"><Data>Attiva la verifica in due passaggi quando accedi da un nuovo dispositivo o da pagine web. &lt;a href= >Scopri di più&lt;/a></Data></string>
     <string name="passport_two_factor_auth_dialog_desc">"Se attivi l'autenticazione a due fattori, verrai disconnesso dal tuo Xiaomi Account sugli altri dispositivi e su tutti i siti web. Attivare ora?"</string>
     <string name="passport_two_factor_auth_dialog_negative_btn">Annulla</string>
     <string name="passport_two_factor_auth_dialog_positive_btn">Attiva</string>
@@ -880,6 +895,7 @@ Puoi accedere al tuo Xiaomi Account con %s."</string>
     <string name="passport_two_factor_set_phone_dialog_positive_btn">Imposta</string>
     <string name="passport_two_factor_set_phone_dialog_title">"Imposta la password dell'account"</string>
     <string name="passport_two_factor_set_phone_hint">"Aggiungi un numero di telefono per poter utilizzare l'autenticazione a due fattori"</string>
+    <string name="passport_two_factor_trusted_devices">Questo è un dispositivo fidato che può ricevere i codici di verifica dello Xiaomi Account</string>
     <string name="passport_tz_invalid">Rischi per la sicurezza rilevati. Questo dispositivo potrebbe essere stato modificato o flashato. Prova altre opzioni di accesso.</string>
     <string name="passport_unknown_error">Errore sconosciuto</string>
     <string name="passport_unknown_host_network_error">Verifica le impostazioni di rete e riprova</string>
@@ -1028,11 +1044,12 @@ Scansiona il codice qui sotto con un'app Xiaomi."</string>
     <string name="state_data_error">Impossibile ottenere i dati</string>
     <string name="state_loading">Solo un secondo…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store_account_not_support_toast">"Quest'azione non è supportata sui dispositivi demo"</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Domenica</string>
     <string name="sunday_short">Dom</string>
     <string name="sunday_shortest">Dom</string>
-    <string name="system_ad">Annunci nelle app di sistema</string>
+    <string name="system_ad">Annunci di sistema</string>
     <string name="system_ad_list">Visualizza le app correlate</string>
     <string name="system_ad_summary">Attiva questa funzionalità per consentire la visualizzazione di un numero limitato di annunci nelle app di sistema. Questi annunci ci aiutano a sviluppare e migliorare i nostri prodotti e servizi. Puoi scegliere di disattivare questa funzionalità in qualsiasi momento.</string>
     <string name="system_ad_switch">Annunci nelle app di sistema</string>
@@ -1040,46 +1057,6 @@ Scansiona il codice qui sotto con un'app Xiaomi."</string>
     <string name="tab">Scheda</string>
     <string name="talkback_scan_barcode">Scansiona il codice QR</string>
     <string name="template_percent">%1$d percento.</string>
-    <string name="the_anniversary_of_lifting_martial_law">"Anniversario dell'abolizione della legge marziale"</string>
-    <string name="the_anti_aggression_day">Anti-Aggression Day</string>
-    <string name="the_arbor_day">Giornata degli Alberi</string>
-    <string name="the_armed_forces_day">Giornata delle forze armate</string>
-    <string name="the_armys_day">PLA Day</string>
-    <string name="the_childrens_day">Giornata dei bambini</string>
-    <string name="the_chinese_youth_day">Giornata della gioventù</string>
-    <string name="the_christmas_day">Natale</string>
-    <string name="the_double_ninth_festival">Festa del doppio nove</string>
-    <string name="the_dragon_boat_festival">Festival delle Barche Drago</string>
-    <string name="the_easter_day">Pasqua</string>
-    <string name="the_eve_of_the_spring_festival">Vigilia del capodanno cinese</string>
-    <string name="the_fifth_day">Quinto giorno del capodanno cinese</string>
-    <string name="the_fools_day">"Pesce d'aprile"</string>
-    <string name="the_forth_day">Quarto giorno del capodanno cinese</string>
-    <string name="the_hksar_establishment_day">Giornata della fondazione di Hong Kong SAR</string>
-    <string name="the_international_womens_day">Festa della donna</string>
-    <string name="the_laba_festival">Laba festival</string>
-    <string name="the_labour_day">Festa del lavoro</string>
-    <string name="the_lantern_festival">Festival delle Lanterne</string>
-    <string name="the_mid_autumn_festival">Festa di metà autunno</string>
-    <string name="the_national_day">Festa nazionale</string>
-    <string name="the_national_father_day">Compleanno di Sun Yat-sen</string>
-    <string name="the_new_years_day">Anno Nuovo</string>
-    <string name="the_night_of_sevens">Qixi festival</string>
-    <string name="the_partys_day">CPC Day</string>
-    <string name="the_peace_day">Remembrance Day</string>
-    <string name="the_retrocession_day">Giornata della retrocessione</string>
-    <string name="the_second_day">Secondo giorno del capodanno cinese</string>
-    <string name="the_seventh_day">Settimo giorno del capodanno cinese</string>
-    <string name="the_sixth_day">Sesto giorno del capodanno cinese</string>
-    <string name="the_spirit_festival">Ghost festival</string>
-    <string name="the_spring_festival">Capodanno cinese</string>
-    <string name="the_teachers_day">Giornata degli insegnanti</string>
-    <string name="the_third_day">Terzo giorno del capodanno cinese</string>
-    <string name="the_tw_childrens_day">Giornata dei bambini</string>
-    <string name="the_tw_youth_day">Giornata della gioventù</string>
-    <string name="the_united_nations_day">Giornata delle Nazioni Unite</string>
-    <string name="the_valentines_day">San Valentino</string>
-    <string name="the_water_lantern_festival">Festa delle lanterne</string>
     <string name="third_party_login">Account di terze parti</string>
     <string name="thursday">Giovedì</string>
     <string name="thursday_short">Gio</string>
@@ -1096,10 +1073,6 @@ Scansiona il codice qui sotto con un'app Xiaomi."</string>
     <string name="unbind_sns_description">Dopo aver disconnesso questo account, non potrai utilizzare le informazioni del tuo account %s per accedere al tuo Xiaomi Account.</string>
     <string name="unit_gb">" GB"</string>
     <string name="unit_mb">" MB"</string>
-    <string name="unlock_help_notice">"Aiuto:
-%1$d. Se hai dimenticato la tua password, vai su id.mi.com per reimpostarla.
-%2$d. Se non puoi reimpostare la password o qualcuno ha bloccato il tuo dispositivo, vai su i.mi.com per sbloccarlo.
-%3$d. Il tuo codice di sblocco: %4$s"</string>
     <string name="update_apk_version_later">Non ora</string>
     <string name="update_apk_version_now">Installa</string>
     <string name="update_email_address_dialog_message">"Devi verificare la tua identità prima di poter aggiornare l'indirizzo email."</string>
@@ -1137,9 +1110,6 @@ Scansiona il codice qui sotto con un'app Xiaomi."</string>
 "</Data></string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
-    <string name="wear_account_auth_failed_message">"Segui questi passaggi per accedere nuovamente:
-%1$d. Collega il tuo telefono e il dispositivo indossabile.
-%2$d. Apri Mi Fitness e accedi."</string>
     <string name="wednesday">Mercoledì</string>
     <string name="wednesday_short">Mer</string>
     <string name="wednesday_shortest">Mer</string>
