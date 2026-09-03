@@ -19,6 +19,7 @@
     <string name="account_error_user_name">Името што го внесовте е неважечко</string>
     <string name="account_global_region">Во странство</string>
     <string name="account_invalid_user_avatar">Оваа слика не е поддржана. Обидете се со друга.</string>
+    <string name="account_message_reminder">Предлози за Xiaomi сметка</string>
     <string name="account_no_set">Нема</string>
     <string name="account_none_binded_info">Нема</string>
     <string name="account_none_user_name">Нема</string>
@@ -88,6 +89,7 @@
     <string name="cancel">Откажи</string>
     <string name="change_password">Променете ја лозинката</string>
     <string name="check_apk_update">Провери за ажурирања</string>
+    <string name="check_create_restore_credential">Да се зачуваат вашите акредитиви на Xiaomi сметката во Google Password Manager?</string>
     <string name="child_account_system_ad_disable_hint">Оваа функ. не е достапна за детски сметки</string>
     <string name="clearable_edittext_clear_description">Избриши</string>
     <string name="close">Затвори</string>
@@ -115,6 +117,11 @@
     <string name="confirm_bundled_phone_dialog_confirm">Потврди</string>
     <string name="confirm_bundled_phone_dialog_confirm_timer">Потврди (%ds)</string>
     <string name="confirm_bundled_phone_dialog_title">Потврдете го поврзаниот телефонски број</string>
+    <string name="confirm_invalid_other_device_login_btn_negative">Одјави се</string>
+    <string name="confirm_invalid_other_device_login_btn_positive">Не сега</string>
+    <string name="confirm_invalid_other_device_login_desc_cn">Ако лозинката ви е нарушена, можете да се одјавите од сите уреди и веб-страници што ја користат оваа Xiaomi сметка.</string>
+    <string name="confirm_invalid_other_device_login_desc_global">Ако лозинката ви е нарушена, можете да се одјавите од сите други уреди и веб-страници што ја користат оваа Xiaomi сметка. Откако ќе се одјавите, проверете ги сите пристапни клучеви во Xiaomi сметка > Безбедност на сметка > пристапен клуч.</string>
+    <string name="confirm_invalid_other_device_login_title">Сакате да се одјавите од другите уреди?</string>
     <string name="confirm_new_pwd">Потврди ја новата лозинка</string>
     <string name="confirm_unbind">Прекинете ја врската со оваа сметка?</string>
     <string name="confirm_unbundled_phone_dialog_message">Телефонскиот број %1$s е поврзан со Xiaomi Сметката %2$s. Тој повеќе нема да е поврзан со Xiaomi Сметката %3$s доколку продолжите. Продолжете?</string>
@@ -180,6 +187,8 @@
     <string name="fido2_fingerprint_auth_desc"><Data>Користете го отпечатокот за да се најавите на вашата сметка на Xiaomi и да го потврдите вашиот идентитет &lt;a href=>Дознајте повеќе&lt;/a></Data></string>
     <string name="fido2_fingerprint_changed_and_afresh_register">Отпечатокот од прст на вашиот уред се измени. Потврдете ја повторно вашата сметка за да можете да вклучите верификација со отпечаток од прст.</string>
     <string name="fido2_fingerprint_verify">Верификација со отпечаток од прст</string>
+    <string name="fido2_no_credential_available">Се чини дека немате пристапен клуч. Најавете се на вашата сметка за да создадете.</string>
+    <string name="fido2_no_options_available">Нема достапен управувач со лозинка. Проверете ги вашите Поставки.</string>
     <string name="fido2_psw_changed_and_afresh_register">Вашата лозинка се измени. Потврдете го повторно отпечатокот од прст.</string>
     <string name="fido2_setting_ps_notify">Ќе треба да поставите лозинка за сметката за да можете да користите потврда за отпечаток од прст. Ова може да го направите во Поставки > Сметка на Xiaomi > Безбедност на сметката > Лозинка.</string>
     <string name="fido2_verify_fingerprint">Верификувај преку Отпечаток од прст</string>
@@ -311,6 +320,7 @@
     <string name="local_invite_prompt_enable_describe">Се пребаруваат уреди во близина. Вклучете Bluetooth на двата уреда.</string>
     <string name="local_invite_prompt_enable_title">Покани уреди во близина</string>
     <string name="login_3rd_app_with_system_account">Најавете се на %s</string>
+    <string name="login_by_passkey">Најавете се преку пристапен клуч</string>
     <string name="login_check_find_device">Добивање безбедносни информации за уредот…</string>
     <string name="login_check_find_device_failed_title">Не можеа да се проверат безбедносните информации за уредот</string>
     <string name="login_find_device_bind">Овој уред е поврзан со постоечката ID на Xiaomi Сметка (%s).</string>
@@ -321,7 +331,10 @@
     <string name="login_or_register_by_other_way">Користи друг метод</string>
     <string name="login_with_other">Повеќе опции</string>
     <string name="logout_account">Одјавете се</string>
+    <string name="logout_accout_find_device_confirm">Пронајди уред е вклучена. Извршете верификација на вашата лозинка за да се одјавите.</string>
     <string name="logout_failed">Не може да се одјавам</string>
+    <string name="member_benefits">Придобивки од членство</string>
+    <string name="message_action_go">Прикажи</string>
     <string name="mi_account">Моја сметка</string>
     <string name="mi_health">Xiaomi Health</string>
     <string name="midnight">Ноќ</string>
@@ -421,29 +434,11 @@
     <string name="multi_user_not_show_sync_activity_message_2">Во таков случај, сите податоци ќе се синхронизираат на вашиот Втор простор. За да се избегне ова, не ја вклучувајте синхронизацијата со cloud.</string>
     <string name="multi_user_not_show_sync_activity_title">Не ја вклучувајте синхронизацијата со cloud</string>
     <string name="my_device_title">Тековен уред</string>
-    <string name="need_install_wechat">Инсталирајте WeChat прво</string>
     <string name="network_error">Настана мрежна грешка.</string>
     <string name="network_error_hint">Проверете ја URL адресата и обидете се пак, или копирајте ја URL и отворете ја во вашиот пребарувач.</string>
     <string name="new_version">Нова верзија</string>
     <string name="night">Вечер</string>
-    <string name="no_account_desc">Твојата Xiaomi сметка е твојот единствен идентитет за сите услуги Xiaomi. Најави се за да пристапиш до услугите Xiaomi на сите производи Xiaomi.</string>
-    <string name="no_account_forgot_password">Заборавена лозинка</string>
-    <string name="no_account_login_later">Најави се подоцна во Поставки</string>
-    <string name="no_account_or_forget_password">Креирајте сметка или заборавивте лозинка?</string>
-    <string name="no_account_or_forget_password_or_login_later">Создајте сметка, повратете лозинка или прескокнете го најавувањето</string>
     <string name="no_account_or_skip">Немам Xiaomi Сметка или прескокни го најавувањето</string>
-    <string name="no_account_page_title">Xiaomi сметка</string>
-    <string name="no_account_register">Креирај Xiaomi сметка</string>
-    <string name="no_account_service_cloud">Xiaomi Cloud</string>
-    <string name="no_account_service_cloud_desc">Складирај ги безбедно сите важни податоци во cloud и синхронизирај ги на сите уреди</string>
-    <string name="no_account_service_find_device">Пронајди уред</string>
-    <string name="no_account_service_find_device_desc">Најди ги и заштити ги сите податоците на уредите далечински</string>
-    <string name="no_account_service_gallery">Албуми во cloud</string>
-    <string name="no_account_service_gallery_desc">Пристапи до сите фотографии и видеа на сите уреди</string>
-    <string name="no_account_service_market">GetApps</string>
-    <string name="no_account_service_market_desc">Откриј популарни апликации и игри и дополнително ексклузивни награди</string>
-    <string name="no_account_service_theme">Теми</string>
-    <string name="no_account_service_theme_desc">Персонализирај го уредот со голем избор теми и тапети</string>
     <string name="no_device_tip_message">Ако вашиот уред не се појави тука, ажурирајте го на најновата верзија</string>
     <string name="no_network_btn">Освежете</string>
     <string name="no_network_refresh_btn">Освежи</string>
@@ -478,6 +473,24 @@
     <string name="optional_permissions">Дополнителни дозволи</string>
     <string name="page_load_failed">Не може да отвори страница</string>
     <string name="pasport_register_dialog_message">Да се креира Xiaomi сметка преку вашиот телефонски број %s сега?</string>
+    <string name="passkey_already_exist">Пристапен клуч веќе постои на овој уред</string>
+    <string name="passkey_create">Создајте пристапен клуч</string>
+    <string name="passkey_create_privacy_notice">Заклучување екран и отпечатоците од прст собрани во Отпечаток од прст, податоци за лице и заклучување екран се потребни за верификација на вашиот идентитет. Ако имате прашања како ги обработуваме вашите лични податоци, можете да контактирате со нас на &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>.</string>
+    <string name="passkey_create_success">Се создаде успешно</string>
+    <string name="passkey_delete">Избриши</string>
+    <string name="passkey_delete_confirm_message">Нема да можете да го користите овој пристапен клуч за да се најавите на вашата Xiaomi сметка. Пристапните клучеви зачувани во управувачите со лозинка мора да се избришат рачно.</string>
+    <string name="passkey_delete_confirm_title">Да се избрише пристапниот клуч?</string>
+    <string name="passkey_delete_success">Се избриша успешно</string>
+    <string name="passkey_detail_create_device">Создаден на</string>
+    <string name="passkey_detail_create_time">Избриши го создадениот</string>
+    <string name="passkey_detail_last_use_time">Последно користење</string>
+    <string name="passkey_detail_name">Име</string>
+    <string name="passkey_detail_provider">Локација на склад</string>
+    <string name="passkey_empty_desc_create">Создајте пристапен клуч за вашата Xiaomi сметка</string>
+    <string name="passkey_empty_desc_use">Можете да се најавите на вашата Xiaomi сметка со:</string>
+    <string name="passkey_empty_feature_fingerprint">Отпечаток од прст</string>
+    <string name="passkey_empty_feature_screen_lock">Заклучување на екранот</string>
+    <string name="passkey_management">Пристапен клуч</string>
     <string name="passport_access_denied">Не е дозволен пристап</string>
     <string name="passport_account_crop_user_avatar">Исечете ја фотографијата</string>
     <string name="passport_account_empty_user_name">Внесете го Вашиот прекар</string>
@@ -659,7 +672,7 @@
     <string name="passport_login_other_phone">Користете друга сметка</string>
     <string name="passport_login_other_way">Други начини да се најавите</string>
     <string name="passport_login_register_by_local_phone_long_text">Креирај сметка</string>
-    <string name="passport_login_title">Најавете се на вашата Xiaomi Сметка</string>
+    <string name="passport_login_title">Xiaomi сметка</string>
     <string name="passport_login_using_other_ways">Други начини на најавување</string>
     <string name="passport_login_with_sns">Други начини за најавување</string>
     <string name="passport_logout_account">Одјавете се</string>
@@ -765,6 +778,7 @@
     <string name="passport_to_verify_code_login">Најавете се со SMS</string>
     <string name="passport_trust_device">Додајте го овој уред на проверени уреди</string>
     <string name="passport_two_factor_auth">Двофакторска автентикација</string>
+    <string name="passport_two_factor_auth_desc"><Data>Завршете ја верификацијата во 2 чекори кога се најавувате на нов уред или на веб-страници. &lt;a href= >Дознајте повеќе&lt;/a></Data></string>
     <string name="passport_two_factor_auth_dialog_desc">Ако ја вклучите двофакторската автентикација, ќе бидете одјавени од Xiaomi сметката на другите уреди и сите веб-страници. Да се вклучи сега?</string>
     <string name="passport_two_factor_auth_dialog_negative_btn">Откажи</string>
     <string name="passport_two_factor_auth_dialog_positive_btn">Вклучи</string>
@@ -789,6 +803,7 @@
     <string name="passport_two_factor_set_phone_dialog_positive_btn">Постави</string>
     <string name="passport_two_factor_set_phone_dialog_title">Поставете лозинка на сметка</string>
     <string name="passport_two_factor_set_phone_hint">Додадете телефонски број за да можете да користите двофакторска автентикација</string>
+    <string name="passport_two_factor_trusted_devices">Ова е доверлив уред што може да прима кодови за верификација на Xiaomi сметката</string>
     <string name="passport_tz_invalid">Најдени се безбедносни ризици. Овој уред беше компромитиран или флеширан. Обидете се со други опции за најавување.</string>
     <string name="passport_unknown_error">Непозната грешка</string>
     <string name="passport_unknown_host_network_error">Проверете го Вашето интернет поврзување и обидете се пак</string>
@@ -931,55 +946,16 @@
     <string name="sns_access_token_expired_warning">Најавата на сметката истече. Најавете се повторно за да ја поврзете оваа сметка повторно.</string>
     <string name="state_data_error">Не можеа да се добијат податоци</string>
     <string name="state_loading">Само момент…</string>
+    <string name="store_account_not_support_toast">Ова дејство не се поддржува на демо-уреди</string>
     <string name="sunday">Недела</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
-    <string name="system_ad">Реклами во системските апликации</string>
+    <string name="system_ad">Системски реклами</string>
     <string name="system_ad_list">Прикажи поврзани апл</string>
     <string name="system_ad_summary">Вклучете ја оваа функција за да овозможигте прикажување на мал број реклами во системските апликации. Овие реклами ни помагаат да ги развиеме и подобриме нашите производи и услуги. Можете да одберете да ја вклучите оваа функција во секое време.</string>
     <string name="system_ad_switch">Реклами во системските апликации</string>
     <string name="system_ad_switch_failed">Неуспешно применување на нагодувањето</string>
     <string name="talkback_scan_barcode">Скенирајте QR код</string>
-    <string name="the_anniversary_of_lifting_martial_law">Годишнина од укинувањето на воениот режим</string>
-    <string name="the_anti_aggression_day">Ден на анти-агресијата</string>
-    <string name="the_arbor_day">Ден на дрвото</string>
-    <string name="the_armed_forces_day">Ден на вооружените сили</string>
-    <string name="the_armys_day">Ден на Армијата</string>
-    <string name="the_childrens_day">Ден на децата</string>
-    <string name="the_chinese_youth_day">Ден на младината</string>
-    <string name="the_christmas_day">Божиќ</string>
-    <string name="the_double_ninth_festival">Чонг Јанг фестивал</string>
-    <string name="the_dragon_boat_festival">Фестивал на змејските бродови</string>
-    <string name="the_easter_day">Велигден</string>
-    <string name="the_eve_of_the_spring_festival">Вечер наспрема кинеска Нова Година</string>
-    <string name="the_fifth_day">Петти ден од кинеска Нова Година</string>
-    <string name="the_fools_day">Ден на шегата</string>
-    <string name="the_forth_day">Четврт ден од кинеска Нова Година</string>
-    <string name="the_hksar_establishment_day">Ден на основањето на посебниот административен регион Хонг Конг</string>
-    <string name="the_international_womens_day">Ден на жените</string>
-    <string name="the_laba_festival">Фестивал Лаба</string>
-    <string name="the_labour_day">Ден на трудот</string>
-    <string name="the_lantern_festival">Фестивал на фенерите</string>
-    <string name="the_mid_autumn_festival">Средноесенски фестивал</string>
-    <string name="the_national_day">Национален празник</string>
-    <string name="the_national_father_day">Роденден на Сун Јат-Сен</string>
-    <string name="the_new_years_day">Нова Година</string>
-    <string name="the_night_of_sevens">Кинески ден на заљубените</string>
-    <string name="the_partys_day">Ден на комунистичката партија на Кина</string>
-    <string name="the_peace_day">Ден на мирот</string>
-    <string name="the_retrocession_day">Ден на ретроцесијата на Тајван</string>
-    <string name="the_second_day">Втор ден од кинеска Нова Година</string>
-    <string name="the_seventh_day">Седми ден од кинеска Нова Година</string>
-    <string name="the_sixth_day">Шест ден од кинеска Нова Година</string>
-    <string name="the_spirit_festival">Фестивал на духовите</string>
-    <string name="the_spring_festival">кинеска Нова Година</string>
-    <string name="the_teachers_day">Ден на учителите</string>
-    <string name="the_third_day">Трет ден од кинеска Нова Година</string>
-    <string name="the_tw_childrens_day">Ден на децата</string>
-    <string name="the_tw_youth_day">Ден на младината</string>
-    <string name="the_united_nations_day">Ден на Обединетите Нации</string>
-    <string name="the_valentines_day">Ден на вљубените</string>
-    <string name="the_water_lantern_festival">Фестивал на водните фенери</string>
     <string name="third_party_login">Сметки од трети страни</string>
     <string name="thursday">Четврток</string>
     <string name="thursday_short">Чет</string>
@@ -996,10 +972,6 @@
     <string name="unbind_sns_description">Откако ќе ја исклучите оваа сметка, нема да можете да ги користите вашите %s Информации за сметката за да се најавите на вашата Xiaomi Сметка.</string>
     <string name="unit_gb">" GB"</string>
     <string name="unit_mb">" MB"</string>
-    <string name="unlock_help_notice">"Помош:
-%1$d. Доколку ја заборавивте вашата лозинка, одете на id.mi.com за да ја ресетирате.
-%2$d. Доколку не можете да ја ресетирате вашата лозинка или некој го заклучи вашиот уред, одете на i.mi.com за да го отклучите.
-%3$d. Вашиот отклучен број: %4$s"</string>
     <string name="update_apk_version_later">Не сега</string>
     <string name="update_apk_version_now">Инсталирај</string>
     <string name="update_email_address_dialog_message">Треба да го потврдите вашиот идентитет пред да можете да ја ажурирате е-поштата.</string>
@@ -1035,9 +1007,6 @@
 "</Data></string>
     <string name="user_license_without_3rd_unicom"><Data>"Ги прочитав и се согласувам со Корисничкиот Договор&lt;/a> и &lt;a href=%1$s>Политиката за Приватност&lt;/a> на Xiaomi Сметката &lt;a href=%2$s>, како и &lt;a href=%3$s>Условите за Користење на China Unicom Authentication&lt;/a>.
 "</Data></string>
-    <string name="wear_account_auth_failed_message">"Следете ги овие чекори за да се најавите повторно:
-%1$d. Поврзете го телефонот со носечкиот уред.
-%2$d. Отворете ја Mi Fitness и најавете се."</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>

@@ -19,6 +19,7 @@
     <string name="account_error_user_name">Sartu duzun izena baliogabea da</string>
     <string name="account_global_region">Atzerritarra</string>
     <string name="account_invalid_user_avatar">Argazki hau ez dago erabilgarri. Saiatu beste batekin.</string>
+    <string name="account_message_reminder">Xiaomi kontuaren iradokizunak</string>
     <string name="account_no_set">Bat ere ez</string>
     <string name="account_none_binded_info">Bat ere ez</string>
     <string name="account_none_user_name">Bat ere ez</string>
@@ -88,6 +89,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="cancel">Ezeztatu</string>
     <string name="change_password">Pasahitza aldatu</string>
     <string name="check_apk_update">Eguneratzeak bilatu</string>
+    <string name="check_create_restore_credential">Gorde zure Xiaomi kontuaren kredentzialak Google-ren pasahitz-kudeatzailean?</string>
     <string name="child_account_system_ad_disable_hint">Funtzio hau ez dago eskuragarri umeentzako kontuentzat</string>
     <string name="clearable_edittext_clear_description">Garbitu</string>
     <string name="close">Itxi</string>
@@ -115,6 +117,11 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="confirm_bundled_phone_dialog_confirm">Egiaztatu</string>
     <string name="confirm_bundled_phone_dialog_confirm_timer">Egiaztatu (%ds)</string>
     <string name="confirm_bundled_phone_dialog_title">Lotutako telefono zenbakia baieztatu</string>
+    <string name="confirm_invalid_other_device_login_btn_negative">Saioa itxi</string>
+    <string name="confirm_invalid_other_device_login_btn_positive">Orain ez</string>
+    <string name="confirm_invalid_other_device_login_desc_cn">Zure pasahitza arriskuan jartzen bada, Xiaomi kontu hau erabiltzen duten gainerako gailu eta webgune guztietatik saioa itxi dezakezu.</string>
+    <string name="confirm_invalid_other_device_login_desc_global">Zure pasahitza arriskuan badago, Xiaomi kontu hau erabiltzen duten gainerako gailu eta webgune guztietatik saioa itxi dezakezu. Saioa itxi ondoren, egiaztatu zure pasahitzik gabeko gako guztiak hemen: Xiaomi kontua > Kontuaren segurtasuna > Pasahitza.</string>
+    <string name="confirm_invalid_other_device_login_title">Saioa itxi beste gailuetan?</string>
     <string name="confirm_new_pwd">Pasahitz berria berretsi</string>
     <string name="confirm_unbind">Kontu hau deskonektatu?</string>
     <string name="confirm_unbundled_phone_dialog_message">%1$s telefono zenbakia %2$s Xiaomi Kontuarekin lotuta dago. Jarraitzen baduzu %3$s ez da lotuko Xiaomi Kontuarekin. Jarraitu?</string>
@@ -180,6 +187,8 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="fido2_fingerprint_auth_desc"><Data>Erabili zure hatz-marka zure Xiaomi Kontuan saioa hasteko eta zure nortasuna egiaztatzeko&lt;a href=>Gehiago jakin&lt;/a></Data></string>
     <string name="fido2_fingerprint_changed_and_afresh_register">Zure gailuaren hatz-marka aldatu da. Egiaztatu zure kontua berriz hatz-aztarna bidezko egiaztapena aktibatu ahal izateko.</string>
     <string name="fido2_fingerprint_verify">Hatz-marka bidezko egiaztapena</string>
+    <string name="fido2_no_credential_available">Badirudi ez duzula pasahitzik gabeko sarbide-gakoik. Hasi saioa zure kontuan bat sortzeko.</string>
+    <string name="fido2_no_options_available">Ez dago pasahitz-kudeatzailerik eskuragarri. Begiratu ezarpenak.</string>
     <string name="fido2_psw_changed_and_afresh_register">Zure pasahitza aldatu da. Egiaztatu zure hatz-marka berriz.</string>
     <string name="fido2_setting_ps_notify">Kontuaren pasahitz bat ezarri beharko duzu hatz-marka egiaztapena erabiltzeko. Hemen egin dezakezu: Ezarpenak > Xiaomi Kontua > Kontuaren segurtasuna > Pasahitza.</string>
     <string name="fido2_verify_fingerprint">Hatz-marka egiaztatu</string>
@@ -311,6 +320,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="local_invite_prompt_enable_describe">Inguruko gailuak bilatzen. Bluetootha aktibatu bi gailuetan.</string>
     <string name="local_invite_prompt_enable_title">Inguruko gailuak gonbidatu</string>
     <string name="login_3rd_app_with_system_account">Hasi saioa hemen: %s</string>
+    <string name="login_by_passkey">Pasahitza erabiliz saioa hasi</string>
     <string name="login_check_find_device">Gailuaren segurtasun informazioa jasotzen…</string>
     <string name="login_check_find_device_failed_title">Ezin izan da gailuaren segurtasun informazioa egiaztatu</string>
     <string name="login_find_device_bind">Gailu hau lehendik existitzen den Xiaomi Kontuaren ID batekin (%s) lotuta dago.</string>
@@ -321,7 +331,10 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="login_or_register_by_other_way">Beste metodo bat erabili</string>
     <string name="login_with_other">Aukera gehiago</string>
     <string name="logout_account">Irten</string>
+    <string name="logout_accout_find_device_confirm">Gailua aurkitu aktibatuta dago. Egiaztatu zure pasahitza saioa ixteko.</string>
     <string name="logout_failed">Ezin da saioa amaitu</string>
+    <string name="member_benefits">Bazkideen abantailak</string>
+    <string name="message_action_go">Ikusi</string>
     <string name="mi_account">Nire kontua</string>
     <string name="mi_health">Xiaomi Health</string>
     <string name="midnight">Gaua</string>
@@ -421,29 +434,11 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="multi_user_not_show_sync_activity_message_2">Kasu horretan, datu guztiak zure Bigarren tokira sinkronizatuko dira. Hau saihesteko, ez aktibatu Xiaomi Cloud-ekin sinkronizazioa.</string>
     <string name="multi_user_not_show_sync_activity_title">Ez aktibatu sinkronizazioa hodeiarekin</string>
     <string name="my_device_title">Oraingo gailua</string>
-    <string name="need_install_wechat">Instalatu WeChat lehenengo</string>
     <string name="network_error">Sare errore bat gertatu da.</string>
     <string name="network_error_hint">URL-a egiaztatu eta berriro saiatu, edo URL-a kopiatu eta zure nabigatzailean ireki.</string>
     <string name="new_version">Bertsio berria</string>
     <string name="night">Eguzki-sarrera</string>
-    <string name="no_account_desc">Zure Xiaomi kontua Xiaomi zerbitzu guztietarako zure identitate bakarra da. Hasi saioa Xiaomi produktu guztietako edozein Xiaomi zerbitzu atzitzeko.</string>
-    <string name="no_account_forgot_password">Pasahitza ahaztuta</string>
-    <string name="no_account_login_later">Saioa hasi geroago Ezarpenetan</string>
-    <string name="no_account_or_forget_password">Kontu bat sortu edo pasahitza ahaztuta?</string>
-    <string name="no_account_or_forget_password_or_login_later">Sortu kontua, berreskuratu pasahitza edo saltatu saioa hastea</string>
     <string name="no_account_or_skip">Ez dut Xiaomi Kontu bat, edo saioa hastea saihestu</string>
-    <string name="no_account_page_title">Xiaomi Kontua</string>
-    <string name="no_account_register">Xiaomi Kontua sortu</string>
-    <string name="no_account_service_cloud">Xiaomi Cloud</string>
-    <string name="no_account_service_cloud_desc">Gorde zure datu garrantzitsuak hodeian modu seguruan eta sinkronizatu zure gailu guztietan</string>
-    <string name="no_account_service_find_device">Gailua aurkitu</string>
-    <string name="no_account_service_find_device_desc">Zure gailuaren datuak urrunetik bilatu eta babestu</string>
-    <string name="no_account_service_gallery">Hodeiko albumak</string>
-    <string name="no_account_service_gallery_desc">Sartu zure argazki eta bideo guztietara zure gailu guztietan</string>
-    <string name="no_account_service_market">GetApps</string>
-    <string name="no_account_service_market_desc">Ezagutu aplikazio eta joko aipagarriak, eta sari esklusiboak ere bai</string>
-    <string name="no_account_service_theme">Gaiak</string>
-    <string name="no_account_service_theme_desc">Pertsonalizatu zure gailua gai eta horma-irudi aukeraketa zabal batekin</string>
     <string name="no_device_tip_message">Zure gailua hemen agertzen ez bada, eguneratu azken bertsiora</string>
     <string name="no_network_btn">Freskatu</string>
     <string name="no_network_refresh_btn">Freskatu</string>
@@ -478,6 +473,24 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="optional_permissions">Aukerako baimenak</string>
     <string name="page_load_failed">Ezin da orrialdea ireki</string>
     <string name="pasport_register_dialog_message">Xiaomi Kontua sortu zure telefono-zenbakia %s erabiliz?</string>
+    <string name="passkey_already_exist">Gailu honetan pasahitz bat dago jada</string>
+    <string name="passkey_create">Pasahitza sortu</string>
+    <string name="passkey_create_privacy_notice">Zure nortasuna egiaztatzeko, beharrezkoak dira pantaila-blokeoa eta Hatz-markak, aurpegi-datuak eta pantaila-blokeoa atalean jasotako hatz-markak. Zure datu pertsonalak nola tratatzen ditugun jakiteko zalantzarik baduzu, gurekin harremanetan jar zaitezke &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a> helbidean.</string>
+    <string name="passkey_create_success">Arrakastaz sortuta</string>
+    <string name="passkey_delete">Ezabatu</string>
+    <string name="passkey_delete_confirm_message">Ezin izango duzu pasahitzik gabeko gako hau erabili zure Xiaomi kontuan saioa hasteko. Pasahitz-kudeatzaileetan gordetako pasahitzik gabeko gakoak eskuz ezabatu behar dira.</string>
+    <string name="passkey_delete_confirm_title">Pasahitza ezabatu?</string>
+    <string name="passkey_delete_success">Behar bezala ezabatuta</string>
+    <string name="passkey_detail_create_device">Sortua</string>
+    <string name="passkey_detail_create_time">Noiz sortua</string>
+    <string name="passkey_detail_last_use_time">Azken aldiz erabilia</string>
+    <string name="passkey_detail_name">Izena</string>
+    <string name="passkey_detail_provider">Biltegiratze kokapena</string>
+    <string name="passkey_empty_desc_create">Sortu pasahitza zure Xiaomi Konturako</string>
+    <string name="passkey_empty_desc_use">Zure Xiaomi kontuan saioa has dezakezu honen bidez:</string>
+    <string name="passkey_empty_feature_fingerprint">Hatz-marka</string>
+    <string name="passkey_empty_feature_screen_lock">Pantailaren blokeoa</string>
+    <string name="passkey_management">Pasahitza</string>
     <string name="passport_access_denied">Sarbidea ukatuta</string>
     <string name="passport_account_crop_user_avatar">Moztu argazkia</string>
     <string name="passport_account_empty_user_name">Zure izena sartu</string>
@@ -659,7 +672,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="passport_login_other_phone">Erabili beste kontu bat</string>
     <string name="passport_login_other_way">Saioa hasteko beste modu batzuk</string>
     <string name="passport_login_register_by_local_phone_long_text">Kontua sortu</string>
-    <string name="passport_login_title">Saioa hasi zure Xiaomi Kontuan</string>
+    <string name="passport_login_title">Xiaomi Kontua</string>
     <string name="passport_login_using_other_ways">Saioa hasteko bestelako moduak</string>
     <string name="passport_login_with_sns">Saioa hasteko beste modu batzuk</string>
     <string name="passport_logout_account">Saioa itxi</string>
@@ -765,6 +778,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="passport_to_verify_code_login">Hasi saioa SMS bitartez</string>
     <string name="passport_trust_device">Gailu hau egiaztatutako gailuei gehitu</string>
     <string name="passport_two_factor_auth">Bi faktoreren autentifikazioa</string>
+    <string name="passport_two_factor_auth_desc"><Data>Osatu 2 urratseko egiaztapena gailu berri batean edo web-orrietan saioa hasten duzunean. &lt;a href= >Informazio gehiago&lt;/a></Data></string>
     <string name="passport_two_factor_auth_dialog_desc">Bi faktoreko autentifikazioa aktibatzen baduzu, beste gailu eta webgune guztietan zure Xiaomi Kontuan saioa itxiko. Aktibatu?</string>
     <string name="passport_two_factor_auth_dialog_negative_btn">Ezeztatu</string>
     <string name="passport_two_factor_auth_dialog_positive_btn">Aktibatu</string>
@@ -789,6 +803,7 @@ Saioa has dezakezu zure Xiaomi Kontuan %s orain erabiliz."</string>
     <string name="passport_two_factor_set_phone_dialog_positive_btn">Ezarri</string>
     <string name="passport_two_factor_set_phone_dialog_title">Kontuaren pasahitza ezarri</string>
     <string name="passport_two_factor_set_phone_hint">Gehitu telefono zenbaki bat bi faktoreren autentifikazioa erabili ahal izateko.</string>
+    <string name="passport_two_factor_trusted_devices">Hau Xiaomi kontuaren egiaztapen-kodeak jaso ditzakeen gailu fidagarria da</string>
     <string name="passport_tz_invalid">Segurtasun-arriskuak aurkitu dira. Baliteke gailu hau erroa atzitzeko moldatua edo flasheatua egotea. Saiatu saioa hasteko beste aukera batzuk.</string>
     <string name="passport_unknown_error">Errore ezezaguna</string>
     <string name="passport_unknown_host_network_error">Egiaztatu zure sare konfigurazioa eta saiatu berriro</string>
@@ -931,55 +946,16 @@ Eskaneatu beheko kodea Xiaomi aplikazio batekin."</string>
     <string name="sns_access_token_expired_warning">Kontuan saioa hastea iraungi da. Saioa berriro hasi kontu honekin berriz konektatzeko.</string>
     <string name="state_data_error">Ezin izan dira datuak lortu</string>
     <string name="state_loading">Segundo bat bakarrik…</string>
+    <string name="store_account_not_support_toast">Ekintza hau ez da onartzen demo-gailuetan</string>
     <string name="sunday">Igandea</string>
     <string name="sunday_short">Ig.</string>
     <string name="sunday_shortest">Ig.</string>
-    <string name="system_ad">Iragarkiak sistemaren aplikazioetan</string>
+    <string name="system_ad">Sistemaren iragarkiak</string>
     <string name="system_ad_list">Ikusi lotutako aplikazioak</string>
     <string name="system_ad_summary">Aktibatu funtzio hau sistema aplikazioetan iragarki kopuru txikia erakustea baimentzeko. Iragarki hauek gure produktuak eta zerbitzuak garatzen eta hobetzen laguntzen digute. Edozein momentutan, funtzio hau desaktibatzea aukera dezakezu.</string>
     <string name="system_ad_switch">Iragarkiak sistemaren aplikazioetan</string>
     <string name="system_ad_switch_failed">Ezin izan da ezarpena ezarri</string>
     <string name="talkback_scan_barcode">QR kodea eskaneatu</string>
-    <string name="the_anniversary_of_lifting_martial_law">Gerra legea abolizioaren urteurrena</string>
-    <string name="the_anti_aggression_day">Erasoen Aurkako Eguna</string>
-    <string name="the_arbor_day">Zuhaitzaren Eguna</string>
-    <string name="the_armed_forces_day">Indar Armatuen Eguna</string>
-    <string name="the_armys_day">PLA-ren Eguna</string>
-    <string name="the_childrens_day">Haurren Eguna</string>
-    <string name="the_chinese_youth_day">Gazteen Eguna</string>
-    <string name="the_christmas_day">Eguberri-eguna</string>
-    <string name="the_double_ninth_festival">Bederatzi bikoitzaren jaialdia</string>
-    <string name="the_dragon_boat_festival">Dragoiaren ontziaren jaialdia</string>
-    <string name="the_easter_day">Pazkoa</string>
-    <string name="the_eve_of_the_spring_festival">Txinatar Urteberriaren bezpera</string>
-    <string name="the_fifth_day">Txinatar Urteberriaren bosgarren eguna</string>
-    <string name="the_fools_day">Inuzente Eguna</string>
-    <string name="the_forth_day">Txinatar Urteberriaren laugarren eguna</string>
-    <string name="the_hksar_establishment_day">Hong Kong SAR Sorkuntzaren Eguna</string>
-    <string name="the_international_womens_day">Emakumearen Eguna</string>
-    <string name="the_laba_festival">Laba jaialdia</string>
-    <string name="the_labour_day">Lanaren Eguna</string>
-    <string name="the_lantern_festival">Farolen jaialdia</string>
-    <string name="the_mid_autumn_festival">Udazken-erdiko jaialdia</string>
-    <string name="the_national_day">Egun nazionala</string>
-    <string name="the_national_father_day">Sun Yat-sen-en Urteurrena</string>
-    <string name="the_new_years_day">Urteberri-eguna</string>
-    <string name="the_night_of_sevens">Qixi jaialdia</string>
-    <string name="the_partys_day">CPC-ren Eguna</string>
-    <string name="the_peace_day">Oroimenaren Eguna</string>
-    <string name="the_retrocession_day">Atzerapenaren Eguna</string>
-    <string name="the_second_day">Txinatar Urteberriaren bigarren eguna</string>
-    <string name="the_seventh_day">Txinatar Urteberriaren zazpigarren eguna</string>
-    <string name="the_sixth_day">Txinatar Urteberriaren seigarren eguna</string>
-    <string name="the_spirit_festival">Mamuen jaialdia</string>
-    <string name="the_spring_festival">Txinatar urteberria</string>
-    <string name="the_teachers_day">Irakasleen Eguna</string>
-    <string name="the_third_day">Txinatar Urteberriaren hirugarren eguna</string>
-    <string name="the_tw_childrens_day">Haurren Eguna</string>
-    <string name="the_tw_youth_day">Gazteen Eguna</string>
-    <string name="the_united_nations_day">Nazio Batuen Eguna</string>
-    <string name="the_valentines_day">San Valentin Eguna</string>
-    <string name="the_water_lantern_festival">Ur farolen jaialdia</string>
     <string name="third_party_login">Hirugarrenen kontuak</string>
     <string name="thursday">Osteguna</string>
     <string name="thursday_short">Og.</string>
@@ -996,10 +972,6 @@ Eskaneatu beheko kodea Xiaomi aplikazio batekin."</string>
     <string name="unbind_sns_description">Kontu hau deskonektatu eta gero, ezin izango duzu zure %s Kontuaren informazioa erabili Xiaomi Kontuan saioa hasteko.</string>
     <string name="unit_gb">" GB"</string>
     <string name="unit_mb">" MB"</string>
-    <string name="unlock_help_notice">"Laguntza:
-%1$d- Zure pasahitza ahaztu baduzu, joan id.mi.com helbidera berrezartzeko.
-%2$d. Ezin baduzu zure pasahitza berrezarri edo norbaitek zure gailua blokeatu badu, joan i.mi.com helbidera desblokeatzeko.
-%3$d- Zure desblokeatze zenbakia: %4$s"</string>
     <string name="update_apk_version_later">Orain ez</string>
     <string name="update_apk_version_now">Instalatu</string>
     <string name="update_email_address_dialog_message">Zure identitatea egiaztatu behar duzu posta elektronikoa eguneratu baino lehen.</string>
@@ -1035,9 +1007,6 @@ Eskaneatu beheko kodea Xiaomi aplikazio batekin."</string>
 "</Data></string>
     <string name="user_license_without_3rd_unicom"><Data>"Irakurri eta onartu ditu Xiaomi Kontuaren &lt;a href=%1$s>Erabiltzailearen akordioa&lt;/a> eta &lt;a href=%2$s>Pribatutasun politika&lt;/a> eta &lt;a href=%3$s>China Unicom Egiaztapenaren Zerbitzu Baldintzak&lt;/a>.
 "</Data></string>
-    <string name="wear_account_auth_failed_message">"Pausu hauek jarraitu saioa berriz hasteko:
-%1$d. Konektatu zure telefonoa eta gailu eramangarria.
-%2$d. Ireki Mi Fitness eta saioa hasi."</string>
     <string name="wednesday">Asteazkena</string>
     <string name="wednesday_short">Az.</string>
     <string name="wednesday_shortest">Az.</string>

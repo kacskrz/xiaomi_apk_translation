@@ -2,10 +2,8 @@
 <resources>
     <string name="abc_action_bar_home_description">Přejít na plochu</string>
     <string name="abc_action_bar_up_description">Přejít nahoru</string>
-    <string name="abc_action_menu_overflow_description">Další možnosti</string>
     <string name="abc_action_mode_done">Hotovo</string>
     <string name="abc_activity_chooser_view_see_all">Zobrazit vše</string>
-    <string name="abc_activitychooserview_choose_application">Vybrat aplikaci</string>
     <string name="abc_capital_off">VYP</string>
     <string name="abc_capital_on">ZAP</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
@@ -20,12 +18,9 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Vyhledat…</string>
     <string name="abc_searchview_description_clear">Smazat dotaz</string>
-    <string name="abc_searchview_description_query">Dotaz pro vyhledávání</string>
     <string name="abc_searchview_description_search">Hledat</string>
     <string name="abc_searchview_description_submit">Odeslat dotaz</string>
     <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
-    <string name="abc_shareactionprovider_share_with">Sdílet s</string>
-    <string name="abc_shareactionprovider_share_with_application">Sdílet s aplikací %s</string>
     <string name="abc_toolbar_collapse_description">Sbalit</string>
     <string name="about_device_info">Podrobnosti o zařízení</string>
     <string name="about_mi_account">O Xiaomi účtu</string>
@@ -46,6 +41,7 @@
     <string name="account_error_user_name">Zadaný název je neplatný</string>
     <string name="account_global_region">Zahraniční</string>
     <string name="account_invalid_user_avatar">Tato fotografie je neplatná. Zkuste jinou.</string>
+    <string name="account_message_reminder">Návrhy Xiaomi účtu</string>
     <string name="account_no_set">Prázdné</string>
     <string name="account_none_binded_info">Žádný</string>
     <string name="account_none_user_name">Žádné</string>
@@ -85,6 +81,8 @@
     <string name="afternoon">Odpoledne</string>
     <string name="agreement_and_privacy">Pravidla a podmínky</string>
     <string name="am">dop.</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Heslo</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Přístupový klíč</string>
     <string name="app_name">Xiaomi účet</string>
     <string name="area_code_no_search_result">Žádné výsledky</string>
     <string name="area_code_search_hint">Vyhledat zemi nebo oblast</string>
@@ -110,13 +108,6 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="button_unbind">Odpojit</string>
     <string name="calendar_date_picker_a11y_next_month">Přejít na další měsíc</string>
     <string name="calendar_date_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
-    <string name="call_notification_answer_action">Přijmout</string>
-    <string name="call_notification_answer_video_action">Video</string>
-    <string name="call_notification_decline_action">Odmítnout</string>
-    <string name="call_notification_hang_up_action">Zavěsit</string>
-    <string name="call_notification_incoming_text">Příchozí hovor</string>
-    <string name="call_notification_ongoing_text">Probíhající hovor</string>
-    <string name="call_notification_screening_text">Prověřování příchozího hovoru</string>
     <string name="camera_permission_dialog_message_for_avatar">Povolte přístup k fotoaparátu, aby bylo možné změnit vaši profilovou fotografii.</string>
     <string name="camera_permission_dialog_message_for_h5face">Povolte přístup k fotoaparátu, aby bylo možné rozpoznat vaši tvář.</string>
     <string name="camera_permission_dialog_title">Vyžadována povolení</string>
@@ -124,6 +115,7 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="cancel">Zrušit</string>
     <string name="change_password">Změnit heslo</string>
     <string name="check_apk_update">Zkontrolovat aktualizace</string>
+    <string name="check_create_restore_credential">Uložit přihlašovací údaje ke Xiaomi účtu do Správce hesel Google?</string>
     <string name="child_account_system_ad_disable_hint">Tato funkce není na dětském účtu dostupná</string>
     <string name="clearable_edittext_clear_description">Smazat</string>
     <string name="close">Zavřít</string>
@@ -189,11 +181,17 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="common_google_play_services_wear_update_text">Je vyžadována nová verze služeb Google Play. Nová verze se brzy sama nainstaluje.</string>
     <string name="common_open_on_phone">Otevřít v telefonu</string>
     <string name="common_signin_button_text">Přihlásit se</string>
-    <string name="common_signin_button_text_long">Přihlásit se k účtu Google</string>
+    <string name="common_signin_button_text_long">Přihlášení přes Google</string>
     <string name="completed">Vše nastaveno!</string>
     <string name="confirm_bundled_phone_dialog_confirm">Potvrdit</string>
     <string name="confirm_bundled_phone_dialog_confirm_timer">Potvrdit (%d s)</string>
     <string name="confirm_bundled_phone_dialog_title">Potvrďte spojené telefonní číslo</string>
+    <string name="confirm_device_credential_password">Použít heslo</string>
+    <string name="confirm_invalid_other_device_login_btn_negative">Odhlásit se</string>
+    <string name="confirm_invalid_other_device_login_btn_positive">Nyní ne</string>
+    <string name="confirm_invalid_other_device_login_desc_cn">Pokud je vaše heslo ohroženo, můžete se odhlásit ze všech ostatních zařízení a webových stránek pomocí tohoto Xiaomi účtu.</string>
+    <string name="confirm_invalid_other_device_login_desc_global">Pokud je vaše heslo ohroženo, můžete se odhlásit ze všech ostatních zařízení a webových stránek pomocí tohoto Xiaomi účtu. Po odhlášení ověřte všechny přístupové klíče v Xiaomi účtu > Zabezpečení účtu > Přístupový klíč.</string>
+    <string name="confirm_invalid_other_device_login_title">Odhlásit se z ostatních zařízení?</string>
     <string name="confirm_new_pwd">Potvrďte nové heslo</string>
     <string name="confirm_unbind">Odpojit tento účet?</string>
     <string name="confirm_unbundled_phone_dialog_message">Telefonní číslo %1$s je spojeno se Xiaomi účtem %2$s. Při pokračování bude spojení čísla se Xiaomi účtem %3$s zrušeno. Pokračovat?</string>
@@ -208,6 +206,7 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="date_picker_lunar">Tradiční čínský kalendář</string>
     <string name="date_time_picker_dialog_title">Nastavte datum a čas</string>
     <string name="default_error_message">Neplatný údaj</string>
+    <string name="default_error_msg">Neznámá chyba</string>
     <string name="default_popup_window_title">Vyskakovací okno</string>
     <string name="delete_bank_card_message">Po odhlášení budou bankovní karty Mi Plateb a NFC karty smazány.</string>
     <string name="delete_bank_card_title">Upozornění</string>
@@ -264,6 +263,8 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="fido2_fingerprint_auth_desc"><Data>Používejte k přihlašování k Xiaomi účtu a ověřování vaší identity otisk prstu &lt;a href=>Zjistit více&lt;/a></Data></string>
     <string name="fido2_fingerprint_changed_and_afresh_register">Otisk vašeho zařízení se změnil. Ověřte svůj účet znovu, abyste mohli zapnout ověřování otisků prstů.</string>
     <string name="fido2_fingerprint_verify">Ověření otiskem prstu</string>
+    <string name="fido2_no_credential_available">Vypadá to, že nemáte přístupový klíč. Přihlaste se ke svému účtu a vytvořte jej.</string>
+    <string name="fido2_no_options_available">Správce hesla není k dispozici. Zkontrolujte Nastavení.</string>
     <string name="fido2_psw_changed_and_afresh_register">Vaše heslo se změnilo. Znovu ověřte svůj otisk prstu.</string>
     <string name="fido2_setting_ps_notify">Abyste mohli používat ověřování otiskem prstu, musíte nastavit heslo k účtu. Provést to lze, když přejdete do Nastavení > Xiaomi účet > Zabezpečení účtu > Heslo.</string>
     <string name="fido2_verify_fingerprint">Ověřte otisk prstu</string>
@@ -298,6 +299,13 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="find_device_unknown_error">Stav zařízení se nepodařilo získat. Počkejte chvíli a zkuste to znovu.</string>
     <string name="find_equipment">Najít zařízení</string>
     <string name="find_new_apk_version">Dostupná aktualizace</string>
+    <string name="fingerprint_dialog_touch_sensor">Dotkněte se snímače otisků prstů</string>
+    <string name="fingerprint_error_hw_not_available">Není k dispozici hardware ke snímání otisků prstů.</string>
+    <string name="fingerprint_error_hw_not_present">Toto zařízení nemá snímač otisků prstů</string>
+    <string name="fingerprint_error_lockout">Příliš mnoho pokusů. Zkuste to později.</string>
+    <string name="fingerprint_error_no_fingerprints">Nejsou zaregistrovány žádné otisky prstů.</string>
+    <string name="fingerprint_error_user_canceled">Uživatel operaci s otiskem prstu zrušil.</string>
+    <string name="fingerprint_not_recognized">Nerozpoznáno</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -354,6 +362,9 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="friday">Pátek</string>
     <string name="friday_short">Pát</string>
     <string name="friday_shortest">Pát</string>
+    <string name="generic_error_no_device_credential">Není nastaven žádný PIN, gesto ani heslo.</string>
+    <string name="generic_error_no_keyguard">Toto zařízení nepodporuje kódy PIN, hesla ani gesta.</string>
+    <string name="generic_error_user_canceled">Ověření bylo zrušeno uživatelem.</string>
     <string name="get_back_password">Resetování hesla</string>
     <string name="get_back_pwd">Resetování hesla</string>
     <string name="get_device_info_error">Nelze získat informace o zařízení</string>
@@ -397,6 +408,7 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="local_invite_prompt_enable_describe">Probíhá hledání zařízení v okolí. Zapněte na obou zařízeních Bluetooth.</string>
     <string name="local_invite_prompt_enable_title">Pozvat zařízení v okolí</string>
     <string name="login_3rd_app_with_system_account">Přihlásit se k aplikaci %s</string>
+    <string name="login_by_passkey">Přihlásit se pomocí přístupového klíče</string>
     <string name="login_check_find_device">Získávám informace o zabezpečení zařízení…</string>
     <string name="login_check_find_device_failed_title">Nelze ověřit bezpečnostní informace zařízení</string>
     <string name="login_find_device_bind">Toto zařízení je spojeno s existujícím ID Xiaomi účtu (%s).</string>
@@ -407,7 +419,10 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="login_or_register_by_other_way">Použít jiný způsob</string>
     <string name="login_with_other">Více možností</string>
     <string name="logout_account">Odhlásit se</string>
+    <string name="logout_accout_find_device_confirm">Funkce „Najít zařízení“ je zapnuta. Ověřte heslo pro odhlášení.</string>
     <string name="logout_failed">Odhlášení se nezdařilo</string>
+    <string name="member_benefits">Členské výhody</string>
+    <string name="message_action_go">Zobrazit</string>
     <string name="mi_account">Můj účet</string>
     <string name="mi_health">Xiaomi Zdraví</string>
     <string name="midnight">Noc</string>
@@ -507,30 +522,11 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="multi_user_not_show_sync_activity_message_2">V takovém případě budou všechna data synchronizována s Druhým prostorem. Aby k tomu nedošlo, nezapínejte synchronizaci s cloudem.</string>
     <string name="multi_user_not_show_sync_activity_title">Nezapínat synchronizaci s cloudem</string>
     <string name="my_device_title">Současné zařízení</string>
-    <string name="navigation_menu">Navigační nabídka</string>
-    <string name="need_install_wechat">Nejprve nainstalujte WeChat</string>
     <string name="network_error">Došlo k chybě sítě.</string>
     <string name="network_error_hint">Zkontrolujte URL adresu a zkuste to znovu nebo URL adresu zkopírujte a otevřete ji pomocí prohlížeče.</string>
     <string name="new_version">Nová verze</string>
     <string name="night">Večer</string>
-    <string name="no_account_desc">Váš Xiaomi účet slouží jako jediná identita pro všechny Xiaomi služby. Přihlaste se a získejte přístup k libovolné Xiaomi službě napříč Xiaomi produkty.</string>
-    <string name="no_account_forgot_password">Zapomenuté heslo</string>
-    <string name="no_account_login_later">Přihlásit se později v Nastavení</string>
-    <string name="no_account_or_forget_password">Chcete vytvořit účet nebo jste zapomněli heslo?</string>
-    <string name="no_account_or_forget_password_or_login_later">Vytvořit účet, obnovit heslo nebo přeskočit přihlášení</string>
     <string name="no_account_or_skip">Nemám Xiaomi účet nebo přeskočit přihlášení</string>
-    <string name="no_account_page_title">Xiaomi účet</string>
-    <string name="no_account_register">Vytvořit Xiaomi účet</string>
-    <string name="no_account_service_cloud">Xiaomi Cloud</string>
-    <string name="no_account_service_cloud_desc">Bezpečně ukládejte důležitá data do cloudu a synchronizujte je napříč všemi vašimi zařízeními</string>
-    <string name="no_account_service_find_device">Najít zařízení</string>
-    <string name="no_account_service_find_device_desc">Vzdáleně vyhledejte a chraňte data zařízení</string>
-    <string name="no_account_service_gallery">Cloudová alba</string>
-    <string name="no_account_service_gallery_desc">Získejte přístup ke všem fotografiím a videím ze všech svých zařízení</string>
-    <string name="no_account_service_market">GetApps</string>
-    <string name="no_account_service_market_desc">Objevte vybrané aplikace a hry a k tomu exkluzivní odměny</string>
-    <string name="no_account_service_theme">Témata</string>
-    <string name="no_account_service_theme_desc">Přizpůsobte si zařízení díky bohaté nabídce témat a tapet</string>
     <string name="no_device_tip_message">Pokud zde není vaše zařízení zobrazeno, aktualizujte ho na nejnovější verzi</string>
     <string name="no_network_btn">Obnovit</string>
     <string name="no_network_refresh_btn">Obnovit</string>
@@ -569,6 +565,24 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="optional_permissions">Volitelná oprávnění</string>
     <string name="page_load_failed">Stránku nelze otevřít</string>
     <string name="pasport_register_dialog_message">Vytvořit Xiaomi účet pomocí telefonního čísla %s nyní?</string>
+    <string name="passkey_already_exist">Přístupový klíč již v tomto zařízení existuje</string>
+    <string name="passkey_create">Vytvořit přístupový klíč</string>
+    <string name="passkey_create_privacy_notice">Ověření totožnosti vyžaduje zámek obrazovky a otisky prstů shromážděné v rámci „Otisků prstů, tváře a zámku obrazovky“. Pokud máte jakékoli otázky ohledně toho, jak zpracováváme vaše osobní údaje, můžete nás kontaktovat na &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>.</string>
+    <string name="passkey_create_success">Úspěšně vytvořeno</string>
+    <string name="passkey_delete">Odstranit</string>
+    <string name="passkey_delete_confirm_message">Tento přístupový klíč nebudete moci použít k přihlášení ke svému Xiaomi účtu. Přístupové klíče uložené ve správcích hesel je nutné odstranit ručně.</string>
+    <string name="passkey_delete_confirm_title">Odstranit přístupový klíč?</string>
+    <string name="passkey_delete_success">Úspěšně odstraněno</string>
+    <string name="passkey_detail_create_device">Vytvořeno v</string>
+    <string name="passkey_detail_create_time">Datum vytvoření</string>
+    <string name="passkey_detail_last_use_time">Naposledy použito</string>
+    <string name="passkey_detail_name">Název</string>
+    <string name="passkey_detail_provider">Místo uložení</string>
+    <string name="passkey_empty_desc_create">Vytvořte přístupový klíč pro svůj Xiaomi účet</string>
+    <string name="passkey_empty_desc_use">Ke svému Xiaomi účtu se můžete přihlásit pomocí:</string>
+    <string name="passkey_empty_feature_fingerprint">Otisk prstu</string>
+    <string name="passkey_empty_feature_screen_lock">Zámek obrazovky</string>
+    <string name="passkey_management">Přístupový klíč</string>
     <string name="passport_access_denied">Přístup zamítnut</string>
     <string name="passport_account_crop_user_avatar">Oříznout fotografii</string>
     <string name="passport_account_empty_user_name">Zadejte jméno</string>
@@ -750,7 +764,7 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="passport_login_other_phone">Použít jiný účet</string>
     <string name="passport_login_other_way">Jiné způsoby přihlášení</string>
     <string name="passport_login_register_by_local_phone_long_text">Vytvořit účet</string>
-    <string name="passport_login_title">Přihlaste se ke svému Xiaomi účtu</string>
+    <string name="passport_login_title">Xiaomi účet</string>
     <string name="passport_login_using_other_ways">Jiné způsoby přihlášení</string>
     <string name="passport_login_with_sns">Jiné způsoby přihlášení</string>
     <string name="passport_logout_account">Odhlásit se</string>
@@ -856,6 +870,7 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="passport_to_verify_code_login">Přihlásit se pomocí SMS</string>
     <string name="passport_trust_device">Přidat toto zařízení k ověřeným zařízením</string>
     <string name="passport_two_factor_auth">Dvoufaktorové ověření</string>
+    <string name="passport_two_factor_auth_desc"><Data>Proveďte 2-stupňové ověření po přihlášení na nové zařízení nebo nové webové stránky. &lt;a href= >Zjistit více&lt;/a></Data></string>
     <string name="passport_two_factor_auth_dialog_desc">Pokud zapnete dvoufaktorové ověření, odhlásíte se z Xiaomi účtu na ostatních zařízeních a webech. Zapnout nyní?</string>
     <string name="passport_two_factor_auth_dialog_negative_btn">Zrušit</string>
     <string name="passport_two_factor_auth_dialog_positive_btn">Zapnout</string>
@@ -880,6 +895,7 @@ Ke svému Xiaomi účtu se nyní můžete přihlásit pomocí %s."</string>
     <string name="passport_two_factor_set_phone_dialog_positive_btn">Nastavit</string>
     <string name="passport_two_factor_set_phone_dialog_title">Nastavit heslo k účtu</string>
     <string name="passport_two_factor_set_phone_hint">Přidejte telefonní číslo, abyste mohli používat dvoufaktorové ověření</string>
+    <string name="passport_two_factor_trusted_devices">Toto je důvěryhodné zařízení, které může přijímat ověřovací kódy Xiaomi účtu</string>
     <string name="passport_tz_invalid">Nalezena bezpečnostní hrozba. Toto zařízení bylo ROOTováno nebo flashnuto. Zkuste jiný způsob přihlášení.</string>
     <string name="passport_unknown_error">Neznámá chyba</string>
     <string name="passport_unknown_host_network_error">Zkontrolujte nastavení sítě a zkuste to znovu</string>
@@ -1028,11 +1044,12 @@ Naskenujte níže uvedený kód pomocí aplikace Xiaomi."</string>
     <string name="state_data_error">Data nelze získat</string>
     <string name="state_loading">Ještě chvilku…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store_account_not_support_toast">Tato akce není podporována na demo zařízeních</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Neděle</string>
     <string name="sunday_short">Ned</string>
     <string name="sunday_shortest">Ned</string>
-    <string name="system_ad">Reklamy v systémových aplikacích</string>
+    <string name="system_ad">Systémové reklamy</string>
     <string name="system_ad_list">Zobrazit související aplikace</string>
     <string name="system_ad_summary">Zapnutím této funkce povolíte zobrazování malého množství reklam v systémových aplikacích. Tyto reklamy nám pomáhají vyvíjet a vylepšovat naše produkty a služby. Tuto funkci můžete kdykoli vypnout.</string>
     <string name="system_ad_switch">Reklamy v systémových aplikacích</string>
@@ -1040,46 +1057,6 @@ Naskenujte níže uvedený kód pomocí aplikace Xiaomi."</string>
     <string name="tab">Karta</string>
     <string name="talkback_scan_barcode">Naskenujte QR kód</string>
     <string name="template_percent">%1$d procent.</string>
-    <string name="the_anniversary_of_lifting_martial_law">Výročí zrušení stanného práva</string>
-    <string name="the_anti_aggression_day">Den proti agresi</string>
-    <string name="the_arbor_day">Den stromů</string>
-    <string name="the_armed_forces_day">Den ozbrojených sil</string>
-    <string name="the_armys_day">Den založení Čínské lidové osvobozenecké armády</string>
-    <string name="the_childrens_day">Den dětí</string>
-    <string name="the_chinese_youth_day">Světový den mládeže</string>
-    <string name="the_christmas_day">Vánoce</string>
-    <string name="the_double_ninth_festival">Svátek dvou devítek</string>
-    <string name="the_dragon_boat_festival">Festival dračích lodí</string>
-    <string name="the_easter_day">Velikonoce</string>
-    <string name="the_eve_of_the_spring_festival">Předvečer Čínského nového roku</string>
-    <string name="the_fifth_day">Pátý den Čínského nového roku</string>
-    <string name="the_fools_day">Apríl</string>
-    <string name="the_forth_day">Čtvrtý den Čínského nového roku</string>
-    <string name="the_hksar_establishment_day">Výročí založení SEZ Hongkong</string>
-    <string name="the_international_womens_day">Mezinárodní den žen</string>
-    <string name="the_laba_festival">Laba festival</string>
-    <string name="the_labour_day">Svátek práce</string>
-    <string name="the_lantern_festival">Lampiónový festival</string>
-    <string name="the_mid_autumn_festival">Svátky středu podzimu</string>
-    <string name="the_national_day">Den státnosti</string>
-    <string name="the_national_father_day">Narození Sunjatsena</string>
-    <string name="the_new_years_day">Nový rok</string>
-    <string name="the_night_of_sevens">Qixi festival</string>
-    <string name="the_partys_day">Den založení Čínské komunistické strany</string>
-    <string name="the_peace_day">Den válečných veteránů</string>
-    <string name="the_retrocession_day">Retrocesní den</string>
-    <string name="the_second_day">Druhý den Čínského nového roku</string>
-    <string name="the_seventh_day">Sedmý den Čínského nového roku</string>
-    <string name="the_sixth_day">Šestý den Čínského nového roku</string>
-    <string name="the_spirit_festival">Svátek duchů</string>
-    <string name="the_spring_festival">Čínský nový rok</string>
-    <string name="the_teachers_day">Den učitelů</string>
-    <string name="the_third_day">Třetí den Čínského nového roku</string>
-    <string name="the_tw_childrens_day">Den dětí</string>
-    <string name="the_tw_youth_day">Světový den mládeže</string>
-    <string name="the_united_nations_day">Den Spojených národů</string>
-    <string name="the_valentines_day">Valentýn</string>
-    <string name="the_water_lantern_festival">Lampiónový festival</string>
     <string name="third_party_login">Účty třetích stran</string>
     <string name="thursday">Čtvrtek</string>
     <string name="thursday_short">Čtv</string>
@@ -1096,10 +1073,6 @@ Naskenujte níže uvedený kód pomocí aplikace Xiaomi."</string>
     <string name="unbind_sns_description">Po odpojení tohoto účtu již nebudete moci moci využít připojení k Xiaomi účtu pomocí %s.</string>
     <string name="unit_gb">" GB"</string>
     <string name="unit_mb">" MB"</string>
-    <string name="unlock_help_notice">"Nápověda:
-%1$d. Pokud jste zapomněli své heslo, na stránce id.mi.com jej můžete resetovat.
-%2$d. Pokud se vám nedaří heslo resetovat nebo pokud bylo vaše zařízení uzamknuto, na stránce id.mi.com jej můžete odemknout.
-%3$d. Číslo odemknutí: %4$s"</string>
     <string name="update_apk_version_later">Nyní ne</string>
     <string name="update_apk_version_now">Instalovat</string>
     <string name="update_email_address_dialog_message">Před aktualizací e-mailu je zapotřebí ověřit vaši totožnost.</string>
@@ -1137,9 +1110,6 @@ Naskenujte níže uvedený kód pomocí aplikace Xiaomi."</string>
 "</Data></string>
     <string name="v7_preference_off">Vypnuto</string>
     <string name="v7_preference_on">Zapnuto</string>
-    <string name="wear_account_auth_failed_message">"Postup pro opětovné přihlášení:
-%1$d. Propojte svůj telefon a nositelné zařízení.
-%2$d. Otevřete Mi Fitness a přihlaste se."</string>
     <string name="wednesday">Středa</string>
     <string name="wednesday_short">Stř</string>
     <string name="wednesday_shortest">Stř</string>
