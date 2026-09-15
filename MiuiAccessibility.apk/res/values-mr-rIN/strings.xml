@@ -16,8 +16,6 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">चायनीज पारंपारिक कॅलेंडर</string>
-    <string name="date_time_picker_dialog_title">तारीख व वेळ सेट करा</string>
-    <string name="dialog_message_revoke_authorization_accessbility">सुरू ठेवल्यास, तुम्ही Mi Ditto च्या गोपनीयता धोरणाला तुमची संमती मागे घ्याल. आम्ही तुमची वैयक्तिक माहिती गोळा करणे थांबवू. आधीपासून संकलित केलेली आणि राखून ठेवलेली वैयक्तिक माहिती लागू कायदे आणि नियमांनुसार विशिष्ट कालावधीत डिलीट केली जाईल अन्यथा आवश्यक नसल्यास. Mi Ditto आवश्यक वैयक्तिक माहितीच्या संकलनावर आधारित सेवा पुरवत असल्याने, तुमची संमती मागे घेतली जाईल कारण Mi Ditto सेवा स्वीकारण्यास नकार दिला जाईल. आता संमती मागे घ्यायची?</string>
     <string name="dialog_message_revoke_authorization_cancel">रद्द</string>
     <string name="dialog_message_revoke_authorization_common" formatted="false">सुरू ठेवल्यास, तुम्ही %1s च्या गोपनीयता धोरणाला दिलेली संमती मागे घ्याल. आम्ही तुमची वैयक्तिक माहिती संकलित करणे थांबवू आणि आधीपासून संकलित केलेली आणि राखून ठेवलेली वैयक्तिक माहिती लागू कायदे आणि नियमांनुसार निर्दिष्ट कालावधीत डिलीट केली जाईल अन्यथा आवश्यक नसल्यास. %2s आवश्यक वैयक्तिक माहितीच्या संकलनावर आधारित त्याच्या सेवा पुरवत असल्याने, या सेवा स्वीकारण्यास नकार दिल्याने तुमची संमती मागे घेतली जाईल.</string>
     <string name="dialog_message_revoke_authorization_confirm">मागे घ्या (%dसे)</string>
@@ -139,6 +137,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">सर्व निवडी रद्द करा</string>
     <string name="miuix_appcompat_action_mode_select_all">सर्व निवडा</string>
     <string name="miuix_appcompat_action_mode_title_empty">आयटम्स निवडा</string>
+    <string name="miuix_appcompat_action_sheet_default_message">निवडा</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">अधिक</string>
     <string name="miuix_appcompat_cancel_description">रद्द</string>
     <string name="miuix_appcompat_confirm_description">पुष्टी करा</string>
@@ -152,6 +151,7 @@
     <string name="miuix_appcompat_select_all_description">सर्व निवडा</string>
     <string name="miuix_appcompat_select_item">आयटम्स निवडा</string>
     <string name="miuix_appcompat_show_dialog_description">पॉप-अप विंडो</string>
+    <string name="miuix_popup_show_description">पॉप-अप विंडो</string>
     <string name="miuix_progressbar_loading">लोडिंग</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">रिफ्रेश करण्यासाठी खाली ओढा</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">यशस्वीपणे रिफ्रेश केले</string>
@@ -212,7 +212,6 @@
     <string name="noon">दिवसा</string>
     <string name="notification_content_text">एकाच वेळी इंटरप्रिटेशन सुरु आहे</string>
     <string name="other_one">इतर व्यक्ती</string>
-    <string name="permission_content_title">Mi Ditto आवाज नियंत्रणे आणि सभोवतालच्या आवाजाची ओळख प्रदान करते.</string>
     <string name="permission_content_title_new">Mi Ditto मध्ये आपले स्वागत आहे! हे एप कॉल्स आणि कॉन्फरन्ससाठी एकाच वेळी भाषांतरची वैशिष्ट्ये प्रदान करते.</string>
     <string name="pm">PM</string>
     <string name="preference_authorization_title">गोपनीयता धोरण</string>
@@ -227,7 +226,6 @@
     <string name="saturday_short">शनि</string>
     <string name="saturday_shortest">शनि</string>
     <string name="self">मी</string>
-    <string name="send">पाठवा</string>
     <string name="server_error">एक सर्व्हर एरर आली. एक किंवा दोन मिनिट थांबून पुन्हा प्रयत्न करा.</string>
     <string name="settings_content_description">सेटिंग्ज उघडा</string>
     <string name="si_app_name">AI इंटरप्रिटर</string>
@@ -239,50 +237,9 @@
     <string name="sunday">रविवार</string>
     <string name="sunday_short">रविवार</string>
     <string name="sunday_shortest">रवि</string>
-    <string name="the_anniversary_of_lifting_martial_law">मार्शल लॉ उठवण्याचा वर्धापनदिन</string>
-    <string name="the_anti_aggression_day">आक्रमकता विरोधी दिन</string>
-    <string name="the_arbor_day">आर्बर डे</string>
-    <string name="the_armed_forces_day">सशस्त्र सेना दिन</string>
-    <string name="the_armys_day">PLA दिवस</string>
-    <string name="the_childrens_day">बाल दिन</string>
-    <string name="the_chinese_youth_day">युवा दिन</string>
-    <string name="the_christmas_day">ख्रिसमस</string>
-    <string name="the_double_ninth_festival">डबल नाइंथ फेस्टिव्हल</string>
-    <string name="the_dragon_boat_festival">ड्रॅगन बोट उत्सव</string>
-    <string name="the_easter_day">ईस्टर</string>
-    <string name="the_eve_of_the_spring_festival">चीनी नववर्षाची पूर्वसंध्या</string>
-    <string name="the_fifth_day">चायनीज नववर्षाचा पाचवा दिवस</string>
-    <string name="the_fools_day">एप्रिल फूल दिवस</string>
-    <string name="the_forth_day">चायनीज नववर्षाचा चौथा दिवस</string>
-    <string name="the_hksar_establishment_day">हॉन्गकॉन्ग SAR स्थापना दिवस</string>
-    <string name="the_international_womens_day">महिला दिन</string>
-    <string name="the_laba_festival">लबा उत्सव</string>
-    <string name="the_labour_day">कामगार दिन</string>
-    <string name="the_lantern_festival">कंदील उत्सव</string>
-    <string name="the_mid_autumn_festival">मध्य-शरदऋतू उत्सव</string>
-    <string name="the_national_day">राष्ट्रीय दिवस</string>
-    <string name="the_national_father_day">सन याट-सेनचा वाढदिवस</string>
-    <string name="the_new_years_day">नवीन वर्ष</string>
-    <string name="the_night_of_sevens">किक्सी उत्सव</string>
-    <string name="the_partys_day">CPC दिवस</string>
-    <string name="the_peace_day">स्मृतिदिन</string>
-    <string name="the_retrocession_day">रेट्रोसेसियन डे</string>
-    <string name="the_second_day">चायनीज नववर्षाचा दुसरा दिवस</string>
-    <string name="the_seventh_day">चायनीज नववर्षाचा सातवा दिवस</string>
-    <string name="the_sixth_day">चायनीज नववर्षाचा सहावा दिवस</string>
-    <string name="the_spirit_festival">भूत उत्सव</string>
-    <string name="the_spring_festival">चायनीज नववर्ष</string>
-    <string name="the_teachers_day">शिक्षक दिन</string>
-    <string name="the_third_day">चायनीज नववर्षाचा तिसरा दिवस</string>
-    <string name="the_tw_childrens_day">बाल दिन</string>
-    <string name="the_tw_youth_day">युवा दिन</string>
-    <string name="the_united_nations_day">संयुक्त राष्ट्र दिन</string>
-    <string name="the_valentines_day">व्हॅलेंटाईन डे</string>
-    <string name="the_water_lantern_festival">वॉटर लँटर्न फेस्टिव्हल</string>
     <string name="thursday">गुरुवार</string>
     <string name="thursday_short">गुरु</string>
     <string name="thursday_shortest">गुरु</string>
-    <string name="time_picker_dialog_title">वेळ सेट करा</string>
     <string name="time_picker_label_hour">तास</string>
     <string name="time_picker_label_minute">मिनिट</string>
     <string name="title_mute_other">इतर व्यक्तिला म्यूट करा</string>
@@ -308,5 +265,4 @@
     <string name="wednesday">बुधवार</string>
     <string name="wednesday_short">बुधवार</string>
     <string name="wednesday_shortest">बुध</string>
-    <string name="yesterday">काल</string>
 </resources>
