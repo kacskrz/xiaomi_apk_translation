@@ -505,6 +505,10 @@
     <string name="continuous_new_excerpt_title">새 발췌문</string>
     <string name="copy">복사</string>
     <string name="copy_toast_text">복사 성공</string>
+    <string name="cover_edit_back_to_canvas">캔버스로 돌아가기</string>
+    <string name="cover_footer_release">놓아서 캔버스로 돌아가기</string>
+    <string name="cover_footer_swipe_up">위로 스와이프하여 캔버스로 돌아가기</string>
+    <string name="cover_more_dialog_title">커버</string>
     <string name="create_failed_with_reason">생성 실패: %1$s</string>
     <string name="creation_audio_play_control_failed">재생을 제어할 수 없음</string>
     <string name="creation_audio_play_exit">나가기</string>
@@ -517,10 +521,14 @@
     <string name="creation_color_picker_view_page_text_hue">색조</string>
     <string name="creation_color_picker_view_page_text_lightness">밝기</string>
     <string name="creation_color_picker_view_page_text_saturation">채도</string>
+    <string name="creation_cover_index_accessibility">커버 %1$d</string>
+    <string name="creation_cover_none_accessibility">커버 없음</string>
     <string name="creation_edit_limit_dialog_cancel">취소</string>
     <string name="creation_eraser_pixel">픽셀</string>
     <string name="creation_eraser_size">지우개 크기</string>
     <string name="creation_eraser_stroke">획</string>
+    <string name="creation_header_cover_text">커버를 편집하려면 아래로 당기기</string>
+    <string name="creation_header_cover_text_release">놓아서 커버 편집</string>
     <string name="creation_more_tool_add_text">텍스트 상자 삽입</string>
     <string name="creation_more_tool_clear_content">페이지 지우기</string>
     <string name="creation_more_tool_clear_content_unbounded">콘텐츠 지우기</string>
@@ -573,6 +581,7 @@
     <string name="creation_ppw_shortcut_single_click">누르기</string>
     <string name="creation_ppw_shortcut_sk_single_click_tip">가장 최근에 사용한 색상으로 전환</string>
     <string name="creation_setting_select_background">배경 선택</string>
+    <string name="creation_setting_select_cover">커버 이미지 선택</string>
     <string name="creation_tool_color_center_talkback">색상 %d</string>
     <string name="creation_tool_color_left_talkback">색상 %d</string>
     <string name="creation_tool_color_right_talkback">색상 %d</string>
@@ -784,6 +793,7 @@
     <string name="editor_font_style_expand">서식 도구 모음 펼치기</string>
     <string name="editor_markdown_char_limit_exceeded">이 메모에 글자를 더 이상 입력할 수 없습니다</string>
     <string name="editor_menu_theme">배경 변경</string>
+    <string name="editor_operation_not_supported">이 작업은 지원되지 않습니다</string>
     <string name="editor_paste_content_not_supported">이 항목을 붙여 넣을 수 없음</string>
     <string name="editor_recording_cancel">녹음 취소</string>
     <string name="editor_recording_stop">녹음 끝내기</string>
@@ -836,6 +846,7 @@
     <string name="export_hidden_file_warning">파일 확장자를 변경하면 파일이 숨겨집니다.</string>
     <string name="export_markdown_saved_at">%1$s(으)로 내보냄</string>
     <string name="export_pdf_file_name_hint">파일 이름 입력</string>
+    <string name="export_preview_loading">Generating preview…</string>
     <string name="export_select_empty">최소 한 페이지 선택</string>
     <string name="export_share_image">이미지로 내보내기</string>
     <string name="export_share_pdf">PDF로 내보내기</string>
@@ -1039,6 +1050,7 @@
     <string name="import_generating_title">메모 생성 중…</string>
     <string name="import_image_failed">선택한 이미지 불러오기 실패</string>
     <string name="import_image_size_exceeded">크기가 %1$s 미만인 이미지만 지원됩니다</string>
+    <string name="import_processing_preview">Analyzing…</string>
     <string name="import_stop_ai_generation">중지</string>
     <string name="import_title_placeholder">제목 없음</string>
     <string name="info_note_enter_desktop">홈 화면에 추가됨</string>
@@ -1633,6 +1645,8 @@
     <string name="private_note_preview_deleted_list">이 메모는 볼 수 없습니다</string>
     <string name="private_note_title_deleted_list">숨겨진 메모의 내용은 볼 수 없습니다</string>
     <string name="private_notes_title">숨겨진 메모</string>
+    <string name="progress_dialog_btn_background">숨기기</string>
+    <string name="progress_dialog_format_converting_progress">%s 변환 중</string>
     <string name="progressbar_title">보안 문제 확인 중…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">빠른 메모를 사용하여 메모 및 발췌문 생성 가능</string>
@@ -1640,6 +1654,7 @@
     <string name="recently_deleted_action_restore">복구</string>
     <string name="recently_deleted_confirm_delete_title">영구적으로 삭제하시겠습니까?</string>
     <string name="recently_deleted_confirm_restore_message">이 메모를 복구하시겠습니까?</string>
+    <string name="recently_deleted_confirm_restore_title">Restore note</string>
     <string name="recently_deleted_delete_success">삭제됨</string>
     <string name="recently_deleted_empty">표시할 내용이 없습니다</string>
     <string name="recently_deleted_restore_success">복구됨</string>
@@ -2030,6 +2045,7 @@
     <string name="toast_refuse_to_use_external_storage">"저장소 권한이 제한되었습니다.
 SD 카드의 콘텐츠를 읽을 수 있도록 메모의 권한을 허용하세요."</string>
     <string name="toast_refuse_to_use_photos_in_excerpt">메모에 이미지를 추가할 수 있도록 이 앱의 사진 접근을 허용하세요</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt_new">Allow Notes to access your photos first</string>
     <string name="toast_refuse_to_use_record_audio">"마이크 권한이 제한되었습니다.
 오디오 녹음을 할 수 있도록 메모의 권한을 허용하세요."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">메모에 이미지를 추가할 수 있도록 저장소 접근 허용</string>

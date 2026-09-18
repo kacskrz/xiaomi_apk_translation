@@ -505,6 +505,10 @@
     <string name="continuous_new_excerpt_title">Fragment nou</string>
     <string name="copy">Copiați</string>
     <string name="copy_toast_text">Copiat cu succes</string>
+    <string name="cover_edit_back_to_canvas">Înapoi la pânză</string>
+    <string name="cover_footer_release">Eliberați pentru a reveni la pânză</string>
+    <string name="cover_footer_swipe_up">Glisează în sus pentru a reveni la pânză</string>
+    <string name="cover_more_dialog_title">Copertă</string>
     <string name="create_failed_with_reason">Nu s-a putut crea: %1$s</string>
     <string name="creation_audio_play_control_failed">Nu s-a putut controla redarea</string>
     <string name="creation_audio_play_exit">Ieșire</string>
@@ -517,10 +521,14 @@
     <string name="creation_color_picker_view_page_text_hue">Nuanțe</string>
     <string name="creation_color_picker_view_page_text_lightness">Luminozitate</string>
     <string name="creation_color_picker_view_page_text_saturation">Saturație</string>
+    <string name="creation_cover_index_accessibility">Copertă %1$d</string>
+    <string name="creation_cover_none_accessibility">Fără copertă</string>
     <string name="creation_edit_limit_dialog_cancel">Anulează</string>
     <string name="creation_eraser_pixel">Pixel</string>
     <string name="creation_eraser_size">Mărime radieră</string>
     <string name="creation_eraser_stroke">Linie</string>
+    <string name="creation_header_cover_text">Trageți în jos pentru a edita coperta</string>
+    <string name="creation_header_cover_text_release">Eliberați pentru a edita coperta</string>
     <string name="creation_more_tool_add_text">Inserați casetă de text</string>
     <string name="creation_more_tool_clear_content">Curăță pagina</string>
     <string name="creation_more_tool_clear_content_unbounded">Șterge conținutul</string>
@@ -573,6 +581,7 @@
     <string name="creation_ppw_shortcut_single_click">Apasă</string>
     <string name="creation_ppw_shortcut_sk_single_click_tip">Schimbă la cea mai recentă culoare utilizată</string>
     <string name="creation_setting_select_background">Selectați fundalul</string>
+    <string name="creation_setting_select_cover">Selectează imaginea de copertă</string>
     <string name="creation_tool_color_center_talkback">Culoarea %d</string>
     <string name="creation_tool_color_left_talkback">Culoarea %d</string>
     <string name="creation_tool_color_right_talkback">Culoarea %d</string>
@@ -784,6 +793,7 @@
     <string name="editor_font_style_expand">Extindeți instrumentele de formatare</string>
     <string name="editor_markdown_char_limit_exceeded">Nu se pot introduce mai multe caractere în această notă</string>
     <string name="editor_menu_theme">Schimbă fundalul</string>
+    <string name="editor_operation_not_supported">Această acțiune nu este acceptată</string>
     <string name="editor_paste_content_not_supported">Acest element nu poate fi lipit</string>
     <string name="editor_recording_cancel">Anulează înregistrarea</string>
     <string name="editor_recording_stop">Finalizează înregistrarea</string>
@@ -836,6 +846,7 @@
     <string name="export_hidden_file_warning">Fișierul va fi ascuns după ce îi schimbați extensia.</string>
     <string name="export_markdown_saved_at">Exportat la %1$s</string>
     <string name="export_pdf_file_name_hint">Introduceți numele fișierului</string>
+    <string name="export_preview_loading">Generating preview…</string>
     <string name="export_select_empty">Selectați cel puțin o pagină</string>
     <string name="export_share_image">Exportă ca imagine</string>
     <string name="export_share_pdf">Exportă ca PDF</string>
@@ -1039,6 +1050,7 @@ Vă mulțumim pentru înțelegere și sprijin!"</string>
     <string name="import_generating_title">Se creează note…</string>
     <string name="import_image_failed">Nu s-a putut încărca imaginea selectată</string>
     <string name="import_image_size_exceeded">Doar imagini mai mici decât %1$s sunt acceptate</string>
+    <string name="import_processing_preview">Analyzing…</string>
     <string name="import_stop_ai_generation">Oprește</string>
     <string name="import_title_placeholder">Fără titlu</string>
     <string name="info_note_enter_desktop">Adăugat pe Ecranul principal</string>
@@ -1633,6 +1645,8 @@ Notele convertite nu pot fi vizualizate în versiunile mai vechi."</string>
     <string name="private_note_preview_deleted_list">Nu pot vizualiza această notă</string>
     <string name="private_note_title_deleted_list">Nu poate vedea conținutul în notele ascunse</string>
     <string name="private_notes_title">Note ascunse</string>
+    <string name="progress_dialog_btn_background">Ascunde</string>
+    <string name="progress_dialog_format_converting_progress">Se convertește %s</string>
     <string name="progressbar_title">Se verifică pentru probleme de securitate…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Notele rapide vă permit să creați note și fragmente</string>
@@ -1640,6 +1654,7 @@ Notele convertite nu pot fi vizualizate în versiunile mai vechi."</string>
     <string name="recently_deleted_action_restore">Restabilește</string>
     <string name="recently_deleted_confirm_delete_title">Ștergeți definitiv?</string>
     <string name="recently_deleted_confirm_restore_message">Restabiliți această notă acum?</string>
+    <string name="recently_deleted_confirm_restore_title">Restore note</string>
     <string name="recently_deleted_delete_success">Șters cu succes</string>
     <string name="recently_deleted_empty">Nimic aici încă</string>
     <string name="recently_deleted_restore_success">Restabilită cu succes</string>
@@ -2030,6 +2045,7 @@ Notele convertite nu pot fi vizualizate în versiunile mai vechi."</string>
     <string name="toast_refuse_to_use_external_storage">"Permisiunile de stocare sunt restricționate.
 Permiteți ca Note să citească conținutul cardului dvs. SD."</string>
     <string name="toast_refuse_to_use_photos_in_excerpt">Permiteți acestei aplicații să vă acceseze fotografiile pentru a putea adăuga imagini la note</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt_new">Allow Notes to access your photos first</string>
     <string name="toast_refuse_to_use_record_audio">"Permisiunile microfonului sunt restricționate.
 Permiteți ca Note pentru a înregistra audio."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Permiteți ca Note să acceseze spațiul de stocare pentru a putea adăuga imagini la note</string>

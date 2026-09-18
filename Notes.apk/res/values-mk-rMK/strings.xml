@@ -447,6 +447,10 @@
     <string name="continuous_default_hint">Копирај текст, сочувај фотографии и слики од екран како извадоци</string>
     <string name="continuous_new_excerpt_title">Нов извадок</string>
     <string name="copy_toast_text">Се ископира успешно</string>
+    <string name="cover_edit_back_to_canvas">Назад на платно</string>
+    <string name="cover_footer_release">Отпуштете за да се вратите на платно</string>
+    <string name="cover_footer_swipe_up">Лизгајте нагоре за да се вратите на платно</string>
+    <string name="cover_more_dialog_title">Насловна страница</string>
     <string name="create_failed_with_reason">Неуспешно создавање: %1$s</string>
     <string name="creation_audio_play_control_failed">Не можеше да ја контролира репродукцијата</string>
     <string name="creation_audio_play_exit">Излези</string>
@@ -459,10 +463,14 @@
     <string name="creation_color_picker_view_page_text_hue">Нијанса</string>
     <string name="creation_color_picker_view_page_text_lightness">Осветленост</string>
     <string name="creation_color_picker_view_page_text_saturation">Заситеност</string>
+    <string name="creation_cover_index_accessibility">Насловна страница %1$d</string>
+    <string name="creation_cover_none_accessibility">Нема насловна страница</string>
     <string name="creation_edit_limit_dialog_cancel">Откажи</string>
     <string name="creation_eraser_pixel">Пиксел</string>
     <string name="creation_eraser_size">Големина на бришач</string>
     <string name="creation_eraser_stroke">Потег</string>
+    <string name="creation_header_cover_text">Повлечете надолу за да ја уредите насловната страница</string>
+    <string name="creation_header_cover_text_release">Отпуштете за да ја уредите насловната страница</string>
     <string name="creation_more_tool_add_text">Внеси текстуално поле</string>
     <string name="creation_more_tool_clear_content">Исчистете страница</string>
     <string name="creation_more_tool_clear_content_unbounded">Избришете ја содржината</string>
@@ -515,6 +523,7 @@
     <string name="creation_ppw_shortcut_single_click">Притиснете</string>
     <string name="creation_ppw_shortcut_sk_single_click_tip">Променете на најнеодамнешно користена боја</string>
     <string name="creation_setting_select_background">Избери позадина</string>
+    <string name="creation_setting_select_cover">Изберете слика на насловна страница</string>
     <string name="creation_tool_color_center_talkback">Боја %d</string>
     <string name="creation_tool_color_left_talkback">Боја %d</string>
     <string name="creation_tool_color_right_talkback">Боја %d</string>
@@ -726,6 +735,7 @@
     <string name="editor_font_style_expand">Проширете ја лентата за форматирање</string>
     <string name="editor_markdown_char_limit_exceeded">Не може да се внесат повеќе знаци во оваа белешка</string>
     <string name="editor_menu_theme">Промени позадина</string>
+    <string name="editor_operation_not_supported">Ова дејство не се поддржува</string>
     <string name="editor_paste_content_not_supported">Не може да се залепи оваа ставка</string>
     <string name="editor_recording_cancel">Откажете снимање</string>
     <string name="editor_recording_stop">Завршете снимање</string>
@@ -775,6 +785,7 @@
     <string name="export_hidden_file_warning">Датотеката ќе се скрие откако ќе ја смените нејзината наставка.</string>
     <string name="export_markdown_saved_at">Извезено во %1$s</string>
     <string name="export_pdf_file_name_hint">Внеси име на датотека</string>
+    <string name="export_preview_loading">Generating preview…</string>
     <string name="export_select_empty">Изберете најмалку една страница</string>
     <string name="export_share_image">Извези како слика</string>
     <string name="export_share_pdf">Извези како PDF</string>
@@ -976,6 +987,7 @@
     <string name="import_generating_title">Создавање белешки…</string>
     <string name="import_image_failed">Не можеше да се вчита избраната слика</string>
     <string name="import_image_size_exceeded">Се поддржуваат само слики помали од %1$s</string>
+    <string name="import_processing_preview">Analyzing…</string>
     <string name="import_stop_ai_generation">Запрете</string>
     <string name="import_title_placeholder">Без наслов</string>
     <string name="info_note_enter_desktop">Додадено на Почетен екран</string>
@@ -1508,6 +1520,8 @@
     <string name="private_note_preview_deleted_list">Оваа белешка не може да се прикаже</string>
     <string name="private_note_title_deleted_list">Не може да се прикаже содржината во скриени белешки</string>
     <string name="private_notes_title">Скриени белешки</string>
+    <string name="progress_dialog_btn_background">Сокриј</string>
+    <string name="progress_dialog_format_converting_progress">Конвертирање на %s</string>
     <string name="progressbar_title">Вршење проверка за безбедносни проблеми…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Брзите белешки ви дозволуваат да креирате белешки и извадоци</string>
@@ -1515,6 +1529,7 @@
     <string name="recently_deleted_action_restore">Обнови</string>
     <string name="recently_deleted_confirm_delete_title">Да се избрише трајно?</string>
     <string name="recently_deleted_confirm_restore_message">Да се обнови оваа белешка сега?</string>
+    <string name="recently_deleted_confirm_restore_title">Restore note</string>
     <string name="recently_deleted_delete_success">Се избриша успешно</string>
     <string name="recently_deleted_empty">Тука сè уште нема ништо</string>
     <string name="recently_deleted_restore_success">Успешно обновена</string>
@@ -1899,6 +1914,7 @@
     <string name="toast_refuse_to_use_external_storage">"Дозволите за чување се ограничени.
  Дозволи Забелешките да читат на содржината на вашата SD-картичка."</string>
     <string name="toast_refuse_to_use_photos_in_excerpt">Дозволете пристап на апликацијата за да можете да додавате слики во вашите белешки</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt_new">Allow Notes to access your photos first</string>
     <string name="toast_refuse_to_use_record_audio">"Дозволите за микрофон се ограничени.
 Дозволете Забелешките да снима аудио."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Дозволи пристап до складишен простор за Белешки за да можете да додавате слики во вашите белешки</string>

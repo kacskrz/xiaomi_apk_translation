@@ -509,6 +509,10 @@
     <string name="continuous_new_excerpt_title">最新摘錄</string>
     <string name="copy">複製</string>
     <string name="copy_toast_text">已複製到剪貼簿</string>
+    <string name="cover_edit_back_to_canvas">回到畫布</string>
+    <string name="cover_footer_release">鬆手回到畫布</string>
+    <string name="cover_footer_swipe_up">上滑回到畫布</string>
+    <string name="cover_more_dialog_title">封面</string>
     <string name="create_failed_with_reason">建立失敗：%1$s</string>
     <string name="creation_audio_play_control_failed">播放控制失敗</string>
     <string name="creation_audio_play_exit">退出</string>
@@ -521,10 +525,14 @@
     <string name="creation_color_picker_view_page_text_hue">色相</string>
     <string name="creation_color_picker_view_page_text_lightness">亮度</string>
     <string name="creation_color_picker_view_page_text_saturation">飽和度</string>
+    <string name="creation_cover_index_accessibility">封面%1$d</string>
+    <string name="creation_cover_none_accessibility">無封面</string>
     <string name="creation_edit_limit_dialog_cancel">取消</string>
     <string name="creation_eraser_pixel">像素橡皮擦</string>
     <string name="creation_eraser_size">橡皮擦大小</string>
     <string name="creation_eraser_stroke">筆劃橡皮擦</string>
+    <string name="creation_header_cover_text">下拉編輯封面</string>
+    <string name="creation_header_cover_text_release">鬆手進入編輯封面</string>
     <string name="creation_more_tool_add_text">插入文字框</string>
     <string name="creation_more_tool_clear_content">清除本頁內容</string>
     <string name="creation_more_tool_clear_content_unbounded">清除內容</string>
@@ -576,6 +584,7 @@
     <string name="creation_ppw_shortcut_single_click">按一下</string>
     <string name="creation_ppw_shortcut_sk_single_click_tip">切換為最近使用顏色</string>
     <string name="creation_setting_select_background">選擇畫紙</string>
+    <string name="creation_setting_select_cover">選擇封面</string>
     <string name="creation_tool_color_center_talkback">顏色%d</string>
     <string name="creation_tool_color_left_talkback">顏色%d</string>
     <string name="creation_tool_color_right_talkback">顏色%d</string>
@@ -792,6 +801,7 @@
     <string name="editor_font_style_expand">展開格式工具列</string>
     <string name="editor_markdown_char_limit_exceeded">筆記字元已達上限，暫不支援寫入</string>
     <string name="editor_menu_theme">更換背景</string>
+    <string name="editor_operation_not_supported">不支援此操作</string>
     <string name="editor_paste_content_not_supported">不支援貼上該內容</string>
     <string name="editor_recording_cancel">取消錄音</string>
     <string name="editor_recording_stop">完成錄音</string>
@@ -844,6 +854,7 @@
     <string name="export_hidden_file_warning">重新命名後檔案將被隱藏</string>
     <string name="export_markdown_saved_at">已匯出至%1$s</string>
     <string name="export_pdf_file_name_hint">輸入PDF檔案名</string>
+    <string name="export_preview_loading">正在生成预览图…</string>
     <string name="export_select_empty">至少選中一頁</string>
     <string name="export_share_image">匯出為圖片</string>
     <string name="export_share_pdf">匯出為PDF</string>
@@ -1048,6 +1059,7 @@
     <string name="import_generating_title">筆記生成中…</string>
     <string name="import_image_failed">無法開啟所選圖片</string>
     <string name="import_image_size_exceeded">僅支援%1$s以內的圖片</string>
+    <string name="import_processing_preview">正在智能解析中…</string>
     <string name="import_stop_ai_generation">停止生成</string>
     <string name="import_title_placeholder">未命名標題</string>
     <string name="info_note_enter_desktop">已新增到桌面</string>
@@ -1610,8 +1622,8 @@
     <string name="podcast_data_missing">播客檔案不存在或已刪除</string>
     <string name="podcast_error_generic">播放失敗，請稍後重試</string>
     <string name="podcast_error_mi_music">請前往「小米音樂」切換至QQ音樂模式</string>
-    <string name="podcast_error_music_not_installed">請先前往應用商店安裝「小米音樂」</string>
-    <string name="podcast_error_music_not_support">請先前往應用商店更新「小米音樂」</string>
+    <string name="podcast_error_music_not_installed">請先前往應用程式商店安裝「小米音樂」</string>
+    <string name="podcast_error_music_not_support">請先前往應用程式商店更新「小米音樂」</string>
     <string name="podcast_note_cannot_be_private">含播客內容的筆記暫不支援設為私密</string>
     <string name="polish_title">文字潤飾</string>
     <string name="positive_button">刪除</string>
@@ -1644,6 +1656,8 @@
     <string name="private_note_preview_deleted_list">私密筆記不可查看</string>
     <string name="private_note_title_deleted_list">無法查看私密筆記內容</string>
     <string name="private_notes_title">私密筆記</string>
+    <string name="progress_dialog_btn_background">背景轉化</string>
+    <string name="progress_dialog_format_converting_progress">格式轉換中%s</string>
     <string name="progressbar_title">正在安全檢測中...</string>
     <string name="quick_note_link_default_text">網頁連結</string>
     <string name="quick_note_new_user_guide">新增\"速記\"功能，快速建立筆記和摘錄</string>
@@ -1824,7 +1838,7 @@
     <string name="settings_revoke_privacy_fail_title">撤回失敗</string>
     <string name="settings_smart_call_note_summary">通話錄音結束後自動辨識關鍵內容，生成結構化筆記，減少手動整理</string>
     <string name="settings_smart_call_note_title">智慧通話筆記</string>
-    <string name="settings_smart_call_note_unavailable">請在應用商店下載安裝「小米錄音機」後使用</string>
+    <string name="settings_smart_call_note_unavailable">請在應用程式商店下載安裝「小米錄音機」後使用</string>
     <string name="settings_title">設定</string>
     <string name="settings_user_agreement">用戶協議</string>
     <string name="settings_version_info">版本資訊</string>
@@ -2066,6 +2080,7 @@
     <string name="toast_refuse_to_use_external_storage">"您已關閉存取儲存權限，
 建議前往權限管理開啟該權限"</string>
     <string name="toast_refuse_to_use_photos_in_excerpt">將圖片摘錄到便條，需開啟便條的瀏覽照片權限</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt_new">需开启“笔记”的访问照片权限</string>
     <string name="toast_refuse_to_use_record_audio">"您已關閉錄音權限，
 建議前往權限管理開啟該權限"</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">將圖片摘錄到筆記，需開啟筆記的存取手機儲存權限</string>

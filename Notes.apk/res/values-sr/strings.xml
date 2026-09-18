@@ -505,6 +505,10 @@
     <string name="continuous_new_excerpt_title">Нови одломак</string>
     <string name="copy">Копирај</string>
     <string name="copy_toast_text">Успешно копирано</string>
+    <string name="cover_edit_back_to_canvas">Назад на платно</string>
+    <string name="cover_footer_release">Отпустите да бисте се вратили на платно</string>
+    <string name="cover_footer_swipe_up">Превуците нагоре да бисте се вратили на платно</string>
+    <string name="cover_more_dialog_title">Омот</string>
     <string name="create_failed_with_reason">Креирање није успело: %1$s</string>
     <string name="creation_audio_play_control_failed">Не може се контролисати репродукција</string>
     <string name="creation_audio_play_exit">Излаз</string>
@@ -517,10 +521,14 @@
     <string name="creation_color_picker_view_page_text_hue">Нијанса</string>
     <string name="creation_color_picker_view_page_text_lightness">Светлина</string>
     <string name="creation_color_picker_view_page_text_saturation">Засићење</string>
+    <string name="creation_cover_index_accessibility">Омот %1$d</string>
+    <string name="creation_cover_none_accessibility">Без омота</string>
     <string name="creation_edit_limit_dialog_cancel">Откажи</string>
     <string name="creation_eraser_pixel">Пиксел</string>
     <string name="creation_eraser_size">Величина гумице</string>
     <string name="creation_eraser_stroke">Потез</string>
+    <string name="creation_header_cover_text">Превуците надоле да бисте уредили омот</string>
+    <string name="creation_header_cover_text_release">Отпустите за уређивање омота</string>
     <string name="creation_more_tool_add_text">Уметни оквир за текст</string>
     <string name="creation_more_tool_clear_content">Очисти страницу</string>
     <string name="creation_more_tool_clear_content_unbounded">Очисти садржај</string>
@@ -573,6 +581,7 @@
     <string name="creation_ppw_shortcut_single_click">Притисните</string>
     <string name="creation_ppw_shortcut_sk_single_click_tip">Пребаците се на последњу коришћену боју</string>
     <string name="creation_setting_select_background">Изаберите позадину</string>
+    <string name="creation_setting_select_cover">Изаберите слику омота</string>
     <string name="creation_tool_color_center_talkback">Боја %d</string>
     <string name="creation_tool_color_left_talkback">Боја %d</string>
     <string name="creation_tool_color_right_talkback">Боја %d</string>
@@ -784,6 +793,7 @@
     <string name="editor_font_style_expand">Прошири траку са алатима за форматирање</string>
     <string name="editor_markdown_char_limit_exceeded">Не може се унети више карактера у ову белешку</string>
     <string name="editor_menu_theme">Промени позадину</string>
+    <string name="editor_operation_not_supported">Ова радња није подржана</string>
     <string name="editor_paste_content_not_supported">Ова ставка се не може налепити</string>
     <string name="editor_recording_cancel">Откажи снимање</string>
     <string name="editor_recording_stop">Зварши снимање</string>
@@ -836,6 +846,7 @@
     <string name="export_hidden_file_warning">Фајл ће бити сакривен након што промените његову екстензију.</string>
     <string name="export_markdown_saved_at">Извезено у %1$s</string>
     <string name="export_pdf_file_name_hint">Унесите назив фајла</string>
+    <string name="export_preview_loading">Generating preview…</string>
     <string name="export_select_empty">Изаберите најмање једну страницу</string>
     <string name="export_share_image">Извези као слику</string>
     <string name="export_share_pdf">Извези као PDF</string>
@@ -1039,6 +1050,7 @@
     <string name="import_generating_title">Креирање белешки…</string>
     <string name="import_image_failed">Учитавање одабране слике није успело</string>
     <string name="import_image_size_exceeded">Подржане су само слике мање од %1$s</string>
+    <string name="import_processing_preview">Analyzing…</string>
     <string name="import_stop_ai_generation">Заустави</string>
     <string name="import_title_placeholder">Без наслова</string>
     <string name="info_note_enter_desktop">Додато на Почетни екран</string>
@@ -1633,6 +1645,8 @@
     <string name="private_note_preview_deleted_list">Ова белешка се не може видети</string>
     <string name="private_note_title_deleted_list">Не може се видети садржај у скривеним белешкама</string>
     <string name="private_notes_title">Скривене белешке</string>
+    <string name="progress_dialog_btn_background">Сакриј</string>
+    <string name="progress_dialog_format_converting_progress">Конвертовање %s</string>
     <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Брзе белешке вам омогућавају креирање белешки и одломака</string>
@@ -1640,6 +1654,7 @@
     <string name="recently_deleted_action_restore">Врати</string>
     <string name="recently_deleted_confirm_delete_title">Трајно обриши?</string>
     <string name="recently_deleted_confirm_restore_message">Вратити ову белешку сада?</string>
+    <string name="recently_deleted_confirm_restore_title">Restore note</string>
     <string name="recently_deleted_delete_success">Успешно oбрисано</string>
     <string name="recently_deleted_empty">Овде још увек нема ничега</string>
     <string name="recently_deleted_restore_success">Успешно враћено</string>
@@ -2030,6 +2045,7 @@
     <string name="toast_refuse_to_use_external_storage">"Ограничене су дозволе за складиштење.
 Дозволите да Белешке читају садржај са SD картице."</string>
     <string name="toast_refuse_to_use_photos_in_excerpt">Дозволите овој апликацији да приступи вашим фотографијама да бисте могли да додајете слике у белешке</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt_new">Allow Notes to access your photos first</string>
     <string name="toast_refuse_to_use_record_audio">"Ограничене су дозволе за микрофон.
 Дозволите да Белешке снимају звук."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Дозволите да Белешке приступе складишту да бисте могли да додајете слике белешкама</string>

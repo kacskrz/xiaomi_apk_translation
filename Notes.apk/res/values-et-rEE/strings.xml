@@ -447,6 +447,10 @@
     <string name="continuous_default_hint">Kopeeri tekst, salvesta pildid ja ekraanitõmmised väljavõtetena</string>
     <string name="continuous_new_excerpt_title">Uus väljavõte</string>
     <string name="copy_toast_text">Edukalt kopeeritud</string>
+    <string name="cover_edit_back_to_canvas">Tagasi lõuendile</string>
+    <string name="cover_footer_release">Vabasta lõuendile naasmiseks</string>
+    <string name="cover_footer_swipe_up">Lõuendile naasmiseks nipsake üles</string>
+    <string name="cover_more_dialog_title">Kaas</string>
     <string name="create_failed_with_reason">Loomine ebaõnnestus: %1$s</string>
     <string name="creation_audio_play_control_failed">Taasesitust ei saanud juhtida</string>
     <string name="creation_audio_play_exit">Välju</string>
@@ -459,10 +463,14 @@
     <string name="creation_color_picker_view_page_text_hue">Värvitoon</string>
     <string name="creation_color_picker_view_page_text_lightness">Heledus</string>
     <string name="creation_color_picker_view_page_text_saturation">Küllastus</string>
+    <string name="creation_cover_index_accessibility">Kaas %1$d</string>
+    <string name="creation_cover_none_accessibility">Kaanepilti pole</string>
     <string name="creation_edit_limit_dialog_cancel">Loobu</string>
     <string name="creation_eraser_pixel">Piksel</string>
     <string name="creation_eraser_size">Kustukummi suurus</string>
     <string name="creation_eraser_stroke">Punktiirjoon</string>
+    <string name="creation_header_cover_text">Kaanepildi muutmiseks tõmmake alla</string>
+    <string name="creation_header_cover_text_release">Kaanepildi muutmiseks vabastage</string>
     <string name="creation_more_tool_add_text">Sisesta tekstikast</string>
     <string name="creation_more_tool_clear_content">Tühjenda leht</string>
     <string name="creation_more_tool_clear_content_unbounded">Sisu kustutamine</string>
@@ -515,6 +523,7 @@
     <string name="creation_ppw_shortcut_single_click">Vajuta</string>
     <string name="creation_ppw_shortcut_sk_single_click_tip">Vaheta viimati kasutatud värvile</string>
     <string name="creation_setting_select_background">Vali taust</string>
+    <string name="creation_setting_select_cover">Vali kaanepilt</string>
     <string name="creation_tool_color_center_talkback">Värv %d</string>
     <string name="creation_tool_color_left_talkback">Värv %d</string>
     <string name="creation_tool_color_right_talkback">Värv %d</string>
@@ -726,6 +735,7 @@
     <string name="editor_font_style_expand">Laienda vormindamise tööriistariba</string>
     <string name="editor_markdown_char_limit_exceeded">Sellesse märkmesse ei saa rohkem tähemärke lisada</string>
     <string name="editor_menu_theme">Muuda tausta</string>
+    <string name="editor_operation_not_supported">Seda tegevust ei toetata</string>
     <string name="editor_paste_content_not_supported">Seda üksust ei saa kleepida</string>
     <string name="editor_recording_cancel">Tühista salvestamine</string>
     <string name="editor_recording_stop">Lõpeta salvestamine</string>
@@ -775,6 +785,7 @@
     <string name="export_hidden_file_warning">Fail peidetakse pärast laiendi muutmist.</string>
     <string name="export_markdown_saved_at">Eksporditud sihtkohta %1$s</string>
     <string name="export_pdf_file_name_hint">Sisesta faili nimi</string>
+    <string name="export_preview_loading">Generating preview…</string>
     <string name="export_select_empty">Valige vähemalt üks lehekülg</string>
     <string name="export_share_image">Ekspordi pildina</string>
     <string name="export_share_pdf">Ekspordi PDF-ina</string>
@@ -976,6 +987,7 @@ Täname mõistmise ja toetuse eest!"</string>
     <string name="import_generating_title">Märkmete loomine…</string>
     <string name="import_image_failed">Valitud pildi laadimine nurjus</string>
     <string name="import_image_size_exceeded">Toetatakse ainult väiksemaid pilte kui %1$s</string>
+    <string name="import_processing_preview">Analyzing…</string>
     <string name="import_stop_ai_generation">Lõpeta</string>
     <string name="import_title_placeholder">Nimeta</string>
     <string name="info_note_enter_desktop">Lisatud Avakuvale</string>
@@ -1508,6 +1520,8 @@ Teisendatud märkmeid ei saa vanemates versioonides vaadata."</string>
     <string name="private_note_preview_deleted_list">Seda märkust ei saa kuvada</string>
     <string name="private_note_title_deleted_list">Peidetud märkmetes ei saa sisu vaadata</string>
     <string name="private_notes_title">Peidetud märkmed</string>
+    <string name="progress_dialog_btn_background">Peida</string>
+    <string name="progress_dialog_format_converting_progress">Teisendamine %s</string>
     <string name="progressbar_title">Turvaprobleemide kontrollimine…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Kiired märkmed võimaldavad teil luua märkmeid ja väljavõtteid</string>
@@ -1515,6 +1529,7 @@ Teisendatud märkmeid ei saa vanemates versioonides vaadata."</string>
     <string name="recently_deleted_action_restore">Taasta</string>
     <string name="recently_deleted_confirm_delete_title">Kas kustutada lõplikult?</string>
     <string name="recently_deleted_confirm_restore_message">Kas taastada see märkus kohe?</string>
+    <string name="recently_deleted_confirm_restore_title">Restore note</string>
     <string name="recently_deleted_delete_success">Kustutamine õnnestus</string>
     <string name="recently_deleted_empty">Siin pole veel midagi</string>
     <string name="recently_deleted_restore_success">Taastamine õnnestus</string>
@@ -1769,7 +1784,7 @@ Teisendatud märkmeid ei saa vanemates versioonides vaadata."</string>
     <string name="sync_all_terms">%1$s, %2$s ja %3$s</string>
     <string name="sync_desc_state_complete">Sünkroonitud pilvega</string>
     <string name="sync_desc_state_complete_china">Kõik %1$s on sünkroonitud</string>
-    <string name="sync_desc_state_disable">Lülita pilvega sünkroonimine sisse</string>
+    <string name="sync_desc_state_disable">Lülitada pilvesünkroonimine sisse</string>
     <string name="sync_desc_state_running">Pilvega sünkroonimine</string>
     <string name="sync_enable_hint">Lülita pilvega sünkroonimine sisse</string>
     <string name="sync_folder_todo">%1$s ja %2$s</string>
@@ -1899,6 +1914,7 @@ Teisendatud märkmeid ei saa vanemates versioonides vaadata."</string>
     <string name="toast_refuse_to_use_external_storage">"Ladustamise õigused on keelatud.
 Võimaldavad märkmeid SD-kaardi sisu lugemiseks."</string>
     <string name="toast_refuse_to_use_photos_in_excerpt">Luba sellel rakendusel oma fotodele juurde pääseda, et märkmetesse pilte lisada</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt_new">Allow Notes to access your photos first</string>
     <string name="toast_refuse_to_use_record_audio">"Mikrofoni õigused on keelatud.
 Võimaldab salvestada heli märkmed."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Luba märkustel juurdepääs salvestusruumile, et saaksite märkustesse pilte lisada</string>
