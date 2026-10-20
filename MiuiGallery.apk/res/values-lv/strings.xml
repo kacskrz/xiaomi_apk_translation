@@ -51,7 +51,7 @@
     <string name="add_to_album_success">Pievienots albumam</string>
     <string name="add_to_album_tip">Mākoņa foto</string>
     <string name="add_to_favorites_failed">Neizdevās pievienot izlasei</string>
-    <string name="add_to_secret_exist">Šie vienumi jau ir pievienoti albumam</string>
+    <string name="add_to_secret_exist">Šis vienums jau ir privātajā albumā</string>
     <string name="add_to_secret_fail">Neizdevās pievienot privātajam albumam</string>
     <string name="add_to_secret_failed_with_reason">Nevar pievienot privātajam albumam. %1$s.</string>
     <string name="add_to_secret_successful">Pievienots privātajam albumam</string>
@@ -191,7 +191,7 @@ Tā vietā izvēlieties citus foto un mēģiniet vēlreiz."</string>
     <string name="ai_process_grogress_tip">Analizē Galerijas vienumus %1$s </string>
     <string name="ai_process_grogress_tip_search">Analizē Galerijas attēlus %1$s </string>
     <string name="ai_progress_click_talkback_show">Skatīt informāciju</string>
-    <string name="ai_progress_grogress_tip_guide">Ierīce ātrāk analizēs vienumus, ja tā tiek uzlādēta un ekrāns ir izslēgts</string>
+    <string name="ai_progress_grogress_tip_guide">Ierīce analizēs vienumus ātrāk, ja tā ir uzlādēta un ekrāns ir izslēgts</string>
     <string name="ai_re_create_image">Mēģināt vēlreiz</string>
     <string name="ai_ready_to_have_try">Sākt</string>
     <string name="ai_recreate_image_cancel_text_btn">Turpināt</string>
@@ -212,7 +212,7 @@ Labākie kadri tika automātiski izvēlēti. Varat manuāli pievienot vairāk fo
     <string name="ai_select_photo_error_guide_mask">Aizsegta seja</string>
     <string name="ai_select_photo_error_guide_title">Nepareizi</string>
     <string name="ai_select_photo_full_toast">Izvēlēti pārāk daudz foto. Izdzēsiet dažus no tiem un mēģiniet vēlreiz.</string>
-    <string name="ai_select_photo_guide_description">Augšupielādējiet vienas un tās pašas personas sejas vai ķermeņa daļas attēlus</string>
+    <string name="ai_select_photo_guide_description">Augšupielādējiet vienas un tās pašas personas sejas vai pusķermeņa daļas attēlus</string>
     <string name="ai_select_photo_guide_title">Kā izvēlēt foto</string>
     <string name="ai_select_photo_manual">Izvēlēt manuāli</string>
     <string name="ai_select_photo_need_select_manual">Nepietiek foto. Pievienot vēl.</string>
@@ -315,7 +315,7 @@ Labākie kadri tika automātiski izvēlēti. Varat manuāli pievienot vairāk fo
     <string name="album_sort_type_by_name">Kārtot pēc nosaukuma</string>
     <string name="album_sort_type_create_time">Kārtot pēc izveidošanas datuma</string>
     <string name="album_sort_type_create_time_asc">No vecā uz jauno</string>
-    <string name="album_sort_type_create_time_desc">No vecā uz jauno</string>
+    <string name="album_sort_type_create_time_desc">No jaunā uz veco</string>
     <string name="album_sort_type_custom">Personalizēts</string>
     <string name="album_sort_type_name_asc">No A līdz Z</string>
     <string name="album_sort_type_name_desc">No Z līdz A</string>
@@ -577,10 +577,10 @@ Pievienojiet lādētāju un izslēdziet ekrānu, lai parādītos atmiņas."</str
     <string name="card_license_operation_close">Noņemt \"Mani dokumenti un kartes\"</string>
     <string name="card_license_operation_close_dialog_subtitle">Pēc noņemšanas “Mani dokumenti un kartes” vairs neparādīsies jūsu albumos. Foto tajos netiks dzēsti. Šo funkciju varat atkal ieslēgt iestatījumos.</string>
     <string name="card_license_operation_close_dialog_title">Vai noņemt \"Mani dokumenti un kartes\"?</string>
-    <string name="card_license_operation_remove_photo_dialog_subtitle">Dzēstie foto vairs netiks atpazītas šajā tipā, bet tie netiks dzēsti.</string>
-    <string name="card_license_operation_remove_photo_dialog_title">Vai dzēst izvēlētos foto?</string>
+    <string name="card_license_operation_remove_photo_dialog_subtitle">Noņemtie foto vairs netiks atpazītas šajā tipā, bet tie netiks dzēsti.</string>
+    <string name="card_license_operation_remove_photo_dialog_title">Vai noņemt izvēlētos foto?</string>
     <string name="card_license_operation_remove_type">Noņemt veidu</string>
-    <string name="card_license_operation_remove_type_dialog_subtitle">Vai vēlaties dzēst šo dokumentu veidu? Foto tajā netiks dzēsti.</string>
+    <string name="card_license_operation_remove_type_dialog_subtitle">Vai vēlaties noņemt šo dokumentu veidu? Foto tajā netiks dzēsti.</string>
     <string name="card_license_operation_remove_type_dialog_title">Vai noņemt šo veidu?</string>
     <string name="card_license_operation_sort">Kārtot</string>
     <string name="card_license_other">Cits</string>
@@ -813,7 +813,7 @@ Pievienojiet lādētāju un izslēdziet ekrānu, lai parādītos atmiņas."</str
     <string name="cta_hybrid_feedback_network_declare">Lai skatītu visbiežāk sastopamo problēmu risinājumus, vispirms ļaujiet šai lietotnei izveidot savienojumu ar tīklu.</string>
     <string name="cta_network_declare">Lai sinhronizētu fotoattēlus un video ar Xiaomi Mākoni, šai lietotne ir nepieciešams izveidot savienojumu ar internetu.</string>
     <string name="cta_screenthrow_declare">Lai varētu pārraidīt šo ierīces ekrānu ārējā monitorā, šai lietotnei nepieciešams interneta savienojums.</string>
-    <string name="custom_select_title_deselect_all">Atmest</string>
+    <string name="custom_select_title_deselect_all">Noņemt atlasi</string>
     <string name="custom_select_title_quickly_share">Kopīgot</string>
     <string name="custom_select_title_select_all">Izvēlēt visus</string>
     <string name="custom_select_title_select_item">Izvēlēt vienumus</string>
@@ -852,7 +852,7 @@ Pievienojiet lādētāju un izslēdziet ekrānu, lai parādītos atmiņas."</str
     <string name="delete_media_for_cloud">Atlasītie vienumi mākonī un visās sinhronizētajās ierīcēs tiks pārvietoti uz mapi \"Nesen dzēstie vienumi\".</string>
     <string name="delete_media_from_cloud">Atlasītie vienumi tiks dzēsti no visām ierīcēm un mākoņa. Jebkurā gadījumā dzēst?</string>
     <string name="delete_origin">Dzēst vienumus no oriģinālā albuma</string>
-    <string name="delete_other_shared_images">Nevar dzēst foto, ar kuriem dalījušies citi</string>
+    <string name="delete_other_shared_images">Nevar dzēst citu kopīgotas fotogrāfijas</string>
     <string name="delete_owner_and_other_shared_images_format">%1$d dzēsti, %2$d saglabāti</string>
     <string name="delete_risk_alert_message">Esat atlasījis lielu skaitu dzēšamo vienumu. Ja turpināsiet, šie vienumi tiks pārvietoti uz “Nesen dzēstie vienumi”. Vai dzēst vienumus?</string>
     <string name="delete_risk_alert_title">Uzmanību</string>
@@ -916,7 +916,7 @@ Pievienojiet lādētāju un izslēdziet ekrānu, lai parādītos atmiņas."</str
     <string name="download_retry_title">Neizdevās lejupielādēt datnes</string>
     <string name="download_tip">Lejupielāde</string>
     <string name="download_title">Sagatavo datnes…</string>
-    <string name="download_type_origin">Sākotnējā kvalitāte</string>
+    <string name="download_type_origin">Sākotnējās datnes</string>
     <string name="download_type_origin_subtitle_china">Oriģinālie attēli aizņem vairāk vietas krātuvē un tos var lejupielādēt izmantojot tikai Wi-Fi.</string>
     <string name="download_type_origin_title">Oriģināls</string>
     <string name="download_type_thumbnail">Augsta kvalitāte</string>
@@ -988,7 +988,7 @@ Pievienojiet lādētāju un izslēdziet ekrānu, lai parādītos atmiņas."</str
     <string name="enter_email_hint">Ievadiet e-pasta adresi</string>
     <string name="enter_precise">Pavelciet uz augšu, lai veiktu precīzu regulēšanu</string>
     <string name="enter_precise_adjustment">Pavelciet uz augšu, lai veiktu precīzu regulēšanu</string>
-    <string name="enter_the_relationship">Pielāgotas attiecības</string>
+    <string name="enter_the_relationship">Ievadiet attiecības</string>
     <string name="equivalent_focal_length">(Ekvivalents fokusa attālums %dmm)</string>
     <string name="eras_ad">m.ē.</string>
     <string name="eras_bc">p.m.ē.</string>
@@ -1129,9 +1129,9 @@ efekti"</string>
     <string name="featured_edit_group_name">Rediģēt grupas nosaukumu</string>
     <string name="featured_edit_time_name">Rediģēt nosaukumu</string>
     <string name="featured_journey_empty_title">Šeit vēl nav ceļojumu</string>
-    <string name="featured_journey_pets_empty_des">Ceļojumi tiks organizēti, kad ierīce ir uzlādēta un ekrāns ir izslēgts</string>
+    <string name="featured_journey_pets_empty_des">Ceļojumi tiks organizēti, kad ierīce tiek uzlādēta un ekrāns ir izslēgts</string>
     <string name="featured_page_label">Kolekcijas</string>
-    <string name="featured_people_and_pets">Cilvēki un mājdzīvnieki tiks organizēti, kad ierīce ir uzlādēta un ekrāns ir izslēgts</string>
+    <string name="featured_people_and_pets">Cilvēki un mājdzīvnieki tiks organizēti, kad ierīce tiek uzlādēta un ekrāns ir izslēgts</string>
     <string name="featured_people_empty_des">Cilvēki un grupas tiks organizētas, kad ierīce ir uzlādēta un ekrāns ir izslēgts</string>
     <string name="featured_people_empty_title">Nav vēl cilvēku</string>
     <string name="featured_people_pets_empty_des">Ieslēdziet sinhronizēšanu ar mākoni un uzņemiet vairāk fotoattēlu, lai šeit redzētu ieteiktos cilvēkus, mājdzīvniekus un grupas</string>
@@ -1149,8 +1149,8 @@ efekti"</string>
     <string name="file_unsynced_talkback">Nav sinhronizēts mākonī</string>
     <string name="finish_create_baby_album_toast">Izveidots albums \"%s\" Xiaomi Mākonī</string>
     <string name="finish_fill_baby">Veidot</string>
-    <string name="first_delete_media_dialog_cloud">Izvēlētie vienumi mākonī un visās sinhronizētajās ierīcēs tiks pārvietoti uz mapi \"Nesen dzēstie vienumi\". Pēc tam tie tiks neatgriezeniski dzēsti, izmantojot %d, ja jums nav mākoņa atmiņas plāns. Lai tos atgūtu vai neatgriezeniski izdzēstu, varat doties uz “Nesen dzēsti vienumi”.</string>
-    <string name="first_delete_media_for_cloud">Izvēlētie vienumi mākonī un visās sinhronizētajās ierīcēs tiks pārvietoti uz mapi \"Nesen dzēstie vienumi\". Pēc tam tie tiks neatgriezeniski dzēsti, izmantojot %d, ja jums nav mākoņa atmiņas plāns. Vai dzēst?</string>
+    <string name="first_delete_media_dialog_cloud">Izvēlētie vienumi mākonī un visās sinhronizētajās ierīcēs tiks pārvietoti uz mapi \"Nesen dzēstie vienumi\". Pēc tam tie tiks neatgriezeniski dzēsti pēc %d dienām, ja jums nav mākoņa atmiņas plāns. Lai tos atgūtu vai neatgriezeniski izdzēstu, varat doties uz “Nesen dzēsti vienumi”.</string>
+    <string name="first_delete_media_for_cloud">Izvēlētie vienumi mākonī un visās sinhronizētajās ierīcēs tiks pārvietoti uz mapi \"Nesen dzēstie vienumi\". Pēc tam tie tiks neatgriezeniski dzēsti pēc %d dienām, ja jums nav mākoņa atmiņas plāns. Vai dzēst?</string>
     <string name="first_time_add_video_to_secret_tips">Atjaunot Galeriju, lai varētu pievienot video privātajam albumam</string>
     <string name="flash_off">Bez zibspuldzes</string>
     <string name="flash_on">Izmantota zibspuldze</string>
@@ -1246,7 +1246,7 @@ efekti"</string>
     <string name="galleryplus_screenshot_8k_saving">Saglabā 8K ekrānuzņēmumu…</string>
     <string name="galleryplus_screenshot_8k_share">Sūtīt datni uz</string>
     <string name="galleryplus_talkback_btn_mute">Izslēgt skaņu</string>
-    <string name="galleryplus_talkback_btn_pause">Pārtraukt video</string>
+    <string name="galleryplus_talkback_btn_pause">Apturēt video</string>
     <string name="galleryplus_talkback_btn_play">Atskaņot video</string>
     <string name="galleryplus_talkback_btn_unmute">Ieslēgt skaņu</string>
     <string name="galleryplus_talkback_focused_speed">Izvēlēts, %sX ātrums.</string>
@@ -1257,7 +1257,7 @@ efekti"</string>
     <string name="generate_story_summary">Uzņemiet pietiekami daudz foto, pievienojiet lādētāju un izslēdziet ekrānu, lai parādītos atmiņas. Jau ģenerētās atmiņas nepazudīs, ja izslēdzat šo funkciju.</string>
     <string name="generate_story_title">Atmiņas</string>
     <string name="get_GP_app_btn_install">Instalēt</string>
-    <string name="get_GP_app_msg">Lai izslēgtu dublēšanu, jums nepieciešams instalēt Google Photos. Lai turpinātu, atgriezieties šajā lapā pēc pakalpojuma Google Photos instalēšanas.</string>
+    <string name="get_GP_app_msg">Lai ieslēgtu dublēšanu, jums nepieciešams instalēt Google Photos. Lai turpinātu, atgriezieties šajā lapā pēc pakalpojuma Google Photos instalēšanas.</string>
     <string name="get_GP_app_title">Instalēt Google Photos</string>
     <string name="get_album_info_in_process">Iegūst kopīgotā albuma informāciju…</string>
     <string name="get_user_info_btn_text">Meklēt</string>
@@ -1439,7 +1439,7 @@ efekti"</string>
     <string name="install_media_editor_download_title">Lejupielādē Galerijas rediģētāja spraudni…</string>
     <string name="install_media_editor_function_message">Lejupielādējiet Galerijas rediģētāja jaunāko versiju, lai to varētu izmantot \"%1$s\".</string>
     <string name="install_media_editor_latest_message">Lai rediģētu vienumus, vispirms lejupielādējiet jaunāko spraudni</string>
-    <string name="install_media_editor_message">Lai varētu rediģēt vienumus, vispirms lejupielādējiet spraudni. Vai lejuplādēt tagad?</string>
+    <string name="install_media_editor_message">Lai varētu rediģēt vienumus, vispirms lejupielādējiet spraudni. Vai lejupielādēt tagad?</string>
     <string name="install_media_editor_title">Lejupielādēt spraudni</string>
     <string name="internal_storage_device">Iekšējā krātuve</string>
     <string name="invalid_invition_url">Nederīgs uzaicinājuma URL</string>
@@ -2157,7 +2157,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="photo_purge_dialog_message_local">Izvēlētie vienumi tiks neatgriezeniski dzēsti. Vai tāpat dzēst?</string>
     <string name="photo_purge_dialog_message_video">Jums nebūs iespējas atjaunot vienumus, ja tos izdzēsāt. Vai tāpat dzēst?</string>
     <string name="photo_purge_dialog_title">Dzēst izvēlētos vienumus</string>
-    <string name="photo_save_to_msg">Saglabāt %s</string>
+    <string name="photo_save_to_msg">Saglabāts %s</string>
     <string name="photo_size_not_support">Šī attēla izšķirtspēja nav atbalstīta</string>
     <string name="photo_video_count">%1$s un %2$s</string>
     <string name="photo_vlog_module_finish">Video rediģētājs veiksmīgi lejupielādēts</string>
@@ -2272,7 +2272,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="privacy_permission_disagree">Nav piešķirta</string>
     <string name="privacy_permission_location">Atrašanās vieta</string>
     <string name="privacy_permission_location_detail">Attēlu un video rādīšanai kartē</string>
-    <string name="privacy_permission_request_message"><Data>Galerijai nepieciešams piekļūt %3$s. Informācija tiks savākta saskaņā ar mūsu &lt;a href=\"%1$s\">\"Pakalpojumu sniegšanas noteikumiem\"&lt;/a> un &lt;a href=\"%2$s\">\"Konfidencialitātes politikai\"&lt;/a>. Vai atļaut?</Data></string>
+    <string name="privacy_permission_request_message"><Data>Galerijai nepieciešams piekļūt %3$s. Mūsu apkopotā informācija tiks izmantota saskaņā ar &lt;a href=\"%1$s\">\"Pakalpojumu sniegšanas noteikumiem\"&lt;/a> un &lt;a href=\"%2$s\">\"Konfidencialitātes politiku\"&lt;/a>. Vai atļaut?</Data></string>
     <string name="privacy_permission_request_negative">Ierobežot</string>
     <string name="privacy_permission_request_positive">Atļaut</string>
     <string name="privacy_permission_request_title">Nepieciešamas atļaujas</string>
@@ -2349,7 +2349,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="relation_text_maternal_grandfather">Mātes puses vectēvs</string>
     <string name="relation_text_maternal_grandmother">Mātes puses vecmāte</string>
     <string name="relation_text_mother">Māte</string>
-    <string name="relation_with_you">Izvēlēties attiecību statusu</string>
+    <string name="relation_with_you">Izvēlēties attiecības</string>
     <string name="remind_face_recommend_confirm">Apstiprināt</string>
     <string name="remove_from_album_content">Noņemtie vienumi vairs netiks parādīti šajā albumā.</string>
     <string name="remove_from_album_message">Šis foto šeit vairs netiks rādīts</string>
@@ -2371,7 +2371,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="remove_to_other_album">Apvienot ar citu cilvēku</string>
     <string name="removed_from_favorites_desc">Izņemts no izlases</string>
     <string name="removing_from_favorites">Izņem no izlases…</string>
-    <string name="rename_album">Pādēvētt albumu</string>
+    <string name="rename_album">Pārdēvēt albumu</string>
     <string name="rename_album_failed">Neizdevās pārdēvēt</string>
     <string name="rename_album_succeeded">Veiksmīgi pārdēvēts</string>
     <string name="rename_dialog_hint">Ievadīt virsrakstu</string>
@@ -2823,8 +2823,8 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="scene_tag_name_straightener">Matu taisnotājs</string>
     <string name="scene_tag_name_strainer">Sietiņš</string>
     <string name="scene_tag_name_submarine">Zemūdene</string>
-    <string name="scene_tag_name_subway_map">Metro mape</string>
-    <string name="scene_tag_name_summer_sleeping_mat">Guļammaiss</string>
+    <string name="scene_tag_name_subway_map">Metro karte</string>
+    <string name="scene_tag_name_summer_sleeping_mat">Guļampaklājiņš</string>
     <string name="scene_tag_name_sunflower_seeds">Saulespuķu sēklas</string>
     <string name="scene_tag_name_sunglasses">Saulebrilles</string>
     <string name="scene_tag_name_swimming">Peldēšana</string>
@@ -2861,7 +2861,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="scene_tag_name_tunnel">Tunelis</string>
     <string name="scene_tag_name_twist_car">Bērnu auto</string>
     <string name="scene_tag_name_u_shaped_pillow">Ceļojuma spilvens</string>
-    <string name="scene_tag_name_ultraman">Pārcilvēcisks</string>
+    <string name="scene_tag_name_ultraman">Ultraman</string>
     <string name="scene_tag_name_umbrella">Saulessargs</string>
     <string name="scene_tag_name_unicorn_beetle">Degunradža vabole</string>
     <string name="scene_tag_name_vending_machine">Pārdošanas automāts</string>
@@ -2886,7 +2886,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="scene_tag_name_wind_turbine">Vēja turbīna</string>
     <string name="scene_tag_name_window_curtains">Aizkari</string>
     <string name="scene_tag_name_wingsuit_flying">\"Wingsuit\" lidojumi</string>
-    <string name="scene_tag_name_winter_jujube">Džodžoba</string>
+    <string name="scene_tag_name_winter_jujube">Džudžube</string>
     <string name="scene_tag_name_winter_melon">Vaska ķirbis</string>
     <string name="scene_tag_name_wire_mesh">Ķēdes žogs</string>
     <string name="scene_tag_name_wish_tree">Vēlmju koks</string>
@@ -3059,7 +3059,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="setup_network_connection">Tīkla iestatījumi</string>
     <string name="share">Kopīgot</string>
     <string name="share_album">Kopīgot albumu</string>
-    <string name="share_album_action_mode_title">Kontroles piekļuve</string>
+    <string name="share_album_action_mode_title">Kontrolēt piekļuvi</string>
     <string name="share_album_add_share_photos">Pievienot kopīgotos foto</string>
     <string name="share_album_auto_add_people">Izvēlēties</string>
     <string name="share_album_baby_age">%1$s</string>
@@ -3073,7 +3073,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="share_album_family_add_sharer_dialog_title">Uzaicināt</string>
     <string name="share_album_family_cancel_share_dialog_message">Ja tagad pārtrauksiet šī albuma kopīgošanu, tas kļūs par parastu albumu un citi to vairs nevarēs skatīt. Vai tomēr pārtraukt kopīgošanu?</string>
     <string name="share_album_family_delete_sharer_message">Šī persona nevarēs skatīt šo albumu, ja jūs to tagad noņemsiet. Vai tomēr noņemt?</string>
-    <string name="share_album_family_delete_sharer_title">Ierobežo atļaujas</string>
+    <string name="share_album_family_delete_sharer_title">Piekļuves ierobežošana</string>
     <string name="share_album_family_invite_category_title">Pievienot dalībnieku ģimenes grupai</string>
     <string name="share_album_family_invite_confirm_dialog_message">Jūs esat ieslēdzis uzlaboto datu aizsardzību. Ja kopīgojat šo albumu, kopīgotais saturs netiks šifrēts. Vai tāpat kopīgot?</string>
     <string name="share_album_family_invite_confirm_dialog_title">Nevar izmantot uzlaboto datu aizsardzību ar kopīgotajiem vienumiem</string>
@@ -3099,7 +3099,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="share_album_home_choose_family">Izvēlieties viedās mājas vides</string>
     <string name="share_album_home_close_home_share_dialog_message">Jūsu ģimenes grupas dalībnieki vairs nevarēs skatīt šo albumu, ja tagad izslēgsiēt Ģimenes kopīgošanu. Vai tāpat izslēgt?</string>
     <string name="share_album_home_close_home_share_dialog_title">Izslēdz Ģimenes kopīgošanu</string>
-    <string name="share_album_home_device_low_version">Vispirms atjauniniet jaunāko versiju</string>
+    <string name="share_album_home_device_low_version">Vispirms atjauniniet uz jaunāko versiju</string>
     <string name="share_album_home_pref_cate_name">Viedā māja</string>
     <string name="share_album_home_pref_has_home_summary">Šai grupai jau ir ģimenes ekrānsaudzētājs</string>
     <string name="share_album_home_pref_name_default">Viedā māja</string>
@@ -3116,7 +3116,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="share_album_manage">Pārvaldīt kopīgotos vienumus</string>
     <string name="share_album_needs_auto_upload_tip">Nevar izslēgt sinhronizāšanu ar mākoni ar kopīgotajiem albumiem</string>
     <string name="share_album_pref_album_name">Albuma nosaukums</string>
-    <string name="share_album_pref_auto_add_photos_summary">Izvēlieties personas, kuras automātiski pievienos savus jaunos foto šim albumam</string>
+    <string name="share_album_pref_auto_add_photos_summary">Izvēlieties personas, lai viņu jaunie foto tiktu automātiski pievienoti šim albumam</string>
     <string name="share_album_pref_auto_add_photos_title">Pievienot viņu foto automātiski</string>
     <string name="share_album_qr_code">Albuma QR kods</string>
     <string name="share_album_risk_control_invalid_name">Nevar izmantot šo albuma nosaukumu. Izvēlieties citu un mēģiniet vēlreiz.</string>
@@ -3127,7 +3127,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="share_album_risk_control_tip_off_cate_political">Politisks</string>
     <string name="share_album_risk_control_tip_off_cate_sex">Seksuāls</string>
     <string name="share_album_risk_control_tip_off_cate_violence">Vardarbīgs</string>
-    <string name="share_album_risk_control_tip_off_dialog_message">Ja jūs ziņosiet par kopīgotā albuma saturu, tikai persona, kas to lejupielādēja varēs to skatīt. Vai ziņot tagad?</string>
+    <string name="share_album_risk_control_tip_off_dialog_message">Ja jūs ziņosiet par kopīgotā albuma saturu, tikai persona, kas to augšupielādēja varēs to skatīt. Vai ziņot tagad?</string>
     <string name="share_album_risk_control_tip_off_dialog_title">Ziņot</string>
     <string name="share_album_risk_control_tip_off_select">Izvēlēties satura veidu</string>
     <string name="share_album_risk_control_tip_off_success">Veiksmīgi ziņots</string>
@@ -3177,7 +3177,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="slim_action">Optimizēt</string>
     <string name="slim_action_auto_backup">Ieslēgt</string>
     <string name="slim_action_auto_backup_disable_description">Saglabājiet oriģinālos fotoattēlus un videoklipus mākonī, vienlaikus saglabājot mazākas augstas kvalitātes kopijas šajā ierīcē.</string>
-    <string name="slim_action_auto_backup_enable_description">Augšupielādē vienumus no mākoņa…</string>
+    <string name="slim_action_auto_backup_enable_description">Augšupielādē vienumus mākonī…</string>
     <string name="slim_action_auto_backup_sub_tip">Atbrīvot atmiņas vietu</string>
     <string name="slim_action_auto_backup_tip">Ieslēgt sinhronizēšanu ar mākoni</string>
     <string name="slim_auto_backup_cloud_confirm_detail">Lai augšupielādētu foto un video no ierīces mākonī, ieslēdziet mākoņa sinhronizāciju.</string>
@@ -3202,7 +3202,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="slim_exit_dialog_positive">Beigt</string>
     <string name="slim_exit_dialog_title">Pārtraukt optimizāciju</string>
     <string name="slim_finish_upgrade_tip"><Data>Jauniniet savu mākoņa atmiņas plānu, lai sinhronizētu vairāk vienumu ar mākoni. Pieskarieties, lai &lt;a href=\"%1$s\">jauninātu tūlīt&lt;/a>.</Data></string>
-    <string name="slim_function_summery_first">Optimizējiet foto savā ierīcē un saglabājiet sākotnējo foto mākonī</string>
+    <string name="slim_function_summery_first">Glabājiet optimizētus foto savā ierīcē un saglabājiet sākotnējo foto mākonī</string>
     <string name="slim_function_summery_second">Iepriekš izveidotās dantes tiks glabātas jūsu ierīcē %d dienas</string>
     <string name="slim_preference_scanning">Analizē fotoattēlus un video…</string>
     <string name="slim_preference_summery">Glabājiet oriģinālos fotoattēlus un videoklipus mākonī, vienlaikus šajā ierīcē saglabājot mazākas, augstas kvalitātes kopijas, kas aizstās oriģinālās datnes %d dienas pēc vienumu izveides.</string>
@@ -3247,7 +3247,7 @@ Pārkodēšana var aizņemt kādu laiku, kad pirmo reizi izmantojat šo funkciju
     <string name="start_debug">Atkļūdošanas galerija</string>
     <string name="start_to_use_face_albumset">Kārtot pēc cilvēkiem</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="stop_migration_msg">Jūs nevarēsiet atsākt pārsūtīšanu, ja to tatagd pārtrauksiet. Ja nolēmāt pārtraukt pārsūtīšanu, varat apmeklēt vietni i.mi.com, lai lejupielādētu Xiaomi Mākonī joprojām saglabātos vienumus.</string>
+    <string name="stop_migration_msg">Jūs nevarēsiet atsākt pārsūtīšanu, ja to tagad pārtrauksiet. Ja nolēmāt pārtraukt pārsūtīšanu, varat apmeklēt vietni i.mi.com, lai lejupielādētu Xiaomi Mākonī joprojām saglabātos vienumus.</string>
     <string name="stop_migration_ok">Apturēt</string>
     <string name="stop_migration_title">Vai pārtraukt pārsūtīšanu tagad?</string>
     <string name="stop_use_secret_cancel">Ne tagad</string>
@@ -3287,7 +3287,7 @@ Līdz %1$s, jūs varat pārvietot uz Google Photos vai apmeklēt vietni i.mi.com
     <string name="story_remove_confirm_title">Noņem foto</string>
     <string name="story_rename_invalid_char">"Nevar izmantot ''%s'' atmiņas virsrakstā. Izmantojiet burtus, ciparus un Ķīniešu rakstu zīmes."</string>
     <string name="story_rename_invalid_prefix">Atmiņas nosaukums nevar sākties ar \".\" vai \"_\"</string>
-    <string name="str_scan_form">Atpazīt galdu</string>
+    <string name="str_scan_form">Atpazīt tabulu</string>
     <string name="string_dialog_duplicate_album">Albums ar tādu pašu nosaukumu jau pastāv. Ja turpināsiet, abi albumi tiks apvienoti albumā \"Mazuļa albums\". Vai tāpat turpināt?</string>
     <string name="string_dialog_duplicate_title">Tas pats albums</string>
     <string name="string_guide_switch_view">Pieskarieties, lai pārslēgtu skatu</string>
@@ -3359,14 +3359,14 @@ Līdz %1$s, jūs varat pārvietot uz Google Photos vai apmeklēt vietni i.mi.com
     <string name="thanksgiving_day">Pateicības diena</string>
     <string name="the_anniversary_of_lifting_martial_law">Jūrnieku likuma cildināšanas gadadiena</string>
     <string name="the_anti_aggression_day">Pretagresijas diena</string>
-    <string name="the_arbor_day">Arbitrāžas diena</string>
+    <string name="the_arbor_day">Koku stādīšanas diena</string>
     <string name="the_armed_forces_day">Bruņoto spēku diena</string>
     <string name="the_armys_day">PLA diena</string>
     <string name="the_childrens_day">Bērnu diena</string>
     <string name="the_chinese_youth_day">Jaunatnes diena</string>
     <string name="the_christmas_day">Ziemassvētku diena</string>
     <string name="the_christmas_eve">Ziemassvētku vakars</string>
-    <string name="the_double_ninth_festival">Dubult deviņu svēkti</string>
+    <string name="the_double_ninth_festival">Dubult deviņu svētki</string>
     <string name="the_dragon_boat_festival">Pūķa laivas svētki</string>
     <string name="the_easter_day">Lieldienas</string>
     <string name="the_eve_of_the_spring_festival">Ķīniešu jaungada vakars</string>
@@ -3407,7 +3407,7 @@ Līdz %1$s, jūs varat pārvietot uz Google Photos vai apmeklēt vietni i.mi.com
     <string name="time_burst_preview_title">Sērījveida uzņemšana ar taimeri</string>
     <string name="time_burst_save_all">Eksportēt visus foto</string>
     <string name="time_burst_save_dialog_title">Eksportēt vienumus</string>
-    <string name="time_burst_save_select">Eksportēt visus foto</string>
+    <string name="time_burst_save_select">Eksportēt izvēlētos foto</string>
     <string name="time_burst_save_video">Saglabāt kā video</string>
     <string name="time_picker_dialog_title">Iestatīt laiku</string>
     <string name="time_picker_label_hour">H</string>
@@ -3465,7 +3465,7 @@ Līdz %1$s, jūs varat pārvietot uz Google Photos vai apmeklēt vietni i.mi.com
     <string name="tran_notification_preparing_msg">Sagatavo vienumus…</string>
     <string name="tran_notification_preparing_title">Gatavojas pārsūtīt jūsu foto un video</string>
     <string name="tran_notification_storage_msg">Jauniniet savu atmiņas plānu, lai atsāktu pārsūtīšanu</string>
-    <string name="tran_notification_storage_title">Nepietiek mākoņa atmiņas vietas</string>
+    <string name="tran_notification_storage_title">Nepietiekama mākoņa atmiņas vieta</string>
     <string name="tran_notification_succeeded_title">Veiksmīgi pārsūtīja foto un video</string>
     <string name="tran_notification_update_title">Pārsūta jūsu foto un video…</string>
     <string name="transfer_banner_btn_check_and_migrate">Pārsūtīt vienumus</string>
@@ -3497,7 +3497,7 @@ Līdz %1$s, jūs varat pārvietot uz Google Photos vai apmeklēt vietni i.mi.com
     <string name="transfer_service_msg">Xiaomi Mākoņa sinhronizācijas pakalpojumi ir aizstāti ar Google Photos dublējumu. Nesinhronizētu vienumu lejupielādes vairs nav pieejamas.</string>
     <string name="transfer_status_banner_msg_complete">Veiksmīgi pārsūtīti vienumi</string>
     <string name="transfer_status_banner_msg_need_retry">Pārsūtīšana pārtraukta. Mēģiniet vēlreiz vai apmeklējiet i.mi.com, lai lejupielādētu vienumus.</string>
-    <string name="transfer_status_banner_msg_no_space">Pārsūtīšana pārtraukta. Nepietiek Google konta atmiņas vietas. Jauniniet atmiņu, lai turpinātu.</string>
+    <string name="transfer_status_banner_msg_no_space">Pārsūtīšana apturēta. Nepietiekama Google konta atmiņas vieta. Jauniniet atmiņu, lai turpinātu.</string>
     <string name="transfer_status_banner_msg_no_space_inline">Jaunināt</string>
     <string name="transfer_status_banner_msg_not_started">Sinhronizēšana ar mākoni vairs nav pieejama. Pārsūtiet vai lejupielādējiet savus vienumus tagad.</string>
     <string name="transfer_status_banner_msg_pausing">Pārsūtīšana pārtraukta%1$s</string>
@@ -3557,7 +3557,7 @@ Līdz %1$s, jūs varat pārvietot uz Google Photos vai apmeklēt vietni i.mi.com
     <string name="unsupported_media_scanned_tip">Tika noteikti %1$s attēli. %2$s attēlu skatīšana nav atbalstīta šajā Android versijā.</string>
     <string name="unsupported_media_view_tip">Oriģinālo attēlu %s skatīšana nav atbalstīta šajā Android versijā</string>
     <string name="update_GP_app_btn_update">Atjaunināt</string>
-    <string name="update_GP_app_msg">Lai izslēgtu dublēšanu, jums nepieciešams atjaunināt Google Photos. Lai turpinātu, atgriezieties šajā lapā pēc pakalpojuma Google Photos atjaunināšanas.</string>
+    <string name="update_GP_app_msg">Lai ieslēgtu dublēšanu, jums nepieciešams atjaunināt Google Photos. Lai turpinātu, atgriezieties šajā lapā pēc pakalpojuma Google Photos atjaunināšanas.</string>
     <string name="update_GP_app_title">Atjaunināt Google Photos</string>
     <string name="update_apk_size">Atjaunināt izmēru: %s MB</string>
     <string name="update_btn_exit">Iziet</string>
@@ -3591,7 +3591,7 @@ Līdz %1$s, jūs varat pārvietot uz Google Photos vai apmeklēt vietni i.mi.com
     <string name="video_compress_save_stop_tips">Pieskarieties vēlreiz, lai apturētu saspiešanu</string>
     <string name="video_compress_size">(≈%s pēc saspiešanas)</string>
     <string name="video_edit_file_not_exits_tip">Vispirms lejupielādējiet video</string>
-    <string name="video_editor_component_delete_btn_content_description">Noņemt %d segmentu</string>
+    <string name="video_editor_component_delete_btn_content_description">Noņemt segmentu %d</string>
     <string name="video_editor_component_next_step">Nākamais %1$d/%2$d</string>
     <string name="video_editor_component_next_step_enabled_content_description">Tālāk</string>
     <string name="video_editor_component_picked_imageview_content_description">Slotā %d pievienots segments</string>
