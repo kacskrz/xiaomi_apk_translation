@@ -13,7 +13,6 @@
     <string name="afternoon">మధ్యాహ్నం</string>
     <string name="agree_description">ఈ యాప్ యొక్క అన్ని ఫీచర్‌లను ఉపయోగించేందుకు దానిని ఇంటర్నెట్‌కి కనెక్ట్ అయ్యేందుకు అనుమతించండి.</string>
     <string name="ai_recognition_other_speaker">(మరొకరు మాట్లాడుతున్నారు)</string>
-    <string name="ai_recognize_fail">ట్రాన్‌స్క్రైబ్ చేయలేకపోయాము</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">మైక్రోఫోన్ ఉపయోగంలో ఉన్నప్పుడు రికార్డ్ చేయలేరు</string>
     <string name="airecorder_month_day_hour_minute_format">dd/MM h:mm aaa</string>
     <string name="airecorder_notification_channel_name">రికార్డింగ్‌లు</string>
@@ -129,6 +128,7 @@
     <string name="evening">మధ్యాహ్నం</string>
     <string name="failed_to_get_summary">సారాంశీకరించలేరు. (click)మళ్లీ ప్రయత్నించండి(/click)</string>
     <string name="flag_list">గుర్తులు</string>
+    <string name="fmt_calendar_date_picker_header_date">dd/MM/yyyy</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -236,6 +236,7 @@
     <string name="miuix_appcompat_cloud_state_disabled">క్లౌడ్‌తో సింక్ ఆఫ్‌లో ఉంది</string>
     <string name="miuix_appcompat_cloud_state_finished">క్లౌడ్‌తో విజయవంతంగా సింక్ అయింది</string>
     <string name="miuix_appcompat_cloud_state_syncing">క్లౌడ్‌తో సింక్ అవుతోంది…</string>
+    <string name="miuix_appcompat_cloud_sync_tip_close">మూసివేయి</string>
     <string name="miuix_appcompat_confirm_description">నిర్ధారించండి</string>
     <string name="miuix_appcompat_delete_description">తొలగించు</string>
     <string name="miuix_appcompat_deselect_all">అన్నింటినీ ఎంపిక తీసివేయండి</string>
@@ -587,13 +588,14 @@
     <string name="play_with_no_record_toast">రికార్డింగ్ కనుగొనలేకపోయాము</string>
     <string name="playback_delete_records">రికార్డింగ్‌ని తొలగించు</string>
     <string name="playback_menu_copy_text">టెక్స్ట్ కాపీ చేయండి</string>
-    <string name="playback_menu_hide_speaker">స్పీకప్ పేర్లు దాచు</string>
+    <string name="playback_menu_hide_speaker">స్పీకర్ పేర్లు దాచు</string>
     <string name="playback_menu_rerecognize">మళ్లీ ట్రాన్‌స్క్రైబ్ చేయి</string>
     <string name="playback_menu_share">షేర్ చేయి</string>
     <string name="playback_menu_show_speaker">స్పీకప్ పేర్లు చూపు</string>
     <string name="playback_menu_to_note">గమనికలకు సేవ్ చేయి</string>
     <string name="playback_seekbar_content_description">ప్లేబ్యాక్ పురోగతి</string>
     <string name="playback_share_records">రికార్డింగ్‌ని పంచుకోండి</string>
+    <string name="playback_speed_format">%1$.1fX</string>
     <string name="playback_tabs_audio">ఆడియో</string>
     <string name="playback_tabs_text">టెక్స్ట్</string>
     <string name="pm">PM</string>
@@ -665,7 +667,7 @@
     <string name="recognize_retry_dialog_title">మళ్లీ ట్రాన్‌స్క్రైబ్ చేయి</string>
     <string name="recognize_tip_dialog_message">ఈ ఫీచర్ ఉపయోగించడానికి ఆడియోను టెక్స్ట్‌లోకి మార్చండి</string>
     <string name="recognize_tip_dialog_title">ఆడియోను టెక్స్ట్‌కు మార్చు</string>
-    <string name="recognize_tip_mark_account_un_login">సారాంశం చేయడానికి మరియు గుర్తించడానికి మీ Xiaomi ఖాతాకు సైన్ ఇన్ చేయండి. (క్లిక్ చేయండి)సైన్ ఇన్ చేయండి(/క్లిక్ చేయండి)</string>
+    <string name="recognize_tip_mark_account_un_login">సారాంశం చేయడానికి మరియు గుర్తించడానికి మీ Xiaomi ఖాతాకు సైన్ ఇన్ చేయండి. (click)సైన్ ఇన్ చేయండి(/click)</string>
     <string name="recognize_tip_part_one">"ట్రాన్‌స్క్రైబింగ్ ముగించలేదు. "</string>
     <string name="recognize_tip_part_two">మళ్లీ ప్రయత్నించండి</string>
     <string name="recognize_tip_re_recognize_with_polish">(click)మళ్లీ ట్రాన్‌స్క్రైబ్ చేయడానికి(/click) ట్యాప్ చేసి, AIతో టెక్స్ట్‌ను పాలీష్ చేయండి</string>
@@ -829,9 +831,13 @@
     <string name="summary_action_deadline_label">గడువు తేదీ</string>
     <string name="summary_action_deliverable_label">డెలివరీ చేయదగినవి</string>
     <string name="summary_basic_info_duration">కాలవ్యవధి</string>
+    <string name="summary_basic_info_duration_general">వ్యవధి</string>
     <string name="summary_basic_info_location">లొకేషన్</string>
+    <string name="summary_basic_info_location_general">స్థానం</string>
     <string name="summary_basic_info_participants">పాల్గొనేవారు</string>
+    <string name="summary_basic_info_participants_general">పాల్గొనేవారు</string>
     <string name="summary_basic_info_time">సమయం</string>
+    <string name="summary_basic_info_time_general">సమయం</string>
     <string name="summary_basic_info_title">సమావేశ సమాచారం</string>
     <string name="summary_content_need_deal">టాస్క్‌లు</string>
     <string name="summary_content_result_content">ప్రధాన కంటెంట్</string>

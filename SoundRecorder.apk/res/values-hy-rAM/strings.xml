@@ -13,7 +13,6 @@
     <string name="afternoon">Ցերեկ</string>
     <string name="agree_description">Թույլ տվեք, որ այս ծրագիրը միանա ինտերնետին, որպեսզի կարողանա օգտագործել իր բոլոր հնարավորությունները:</string>
     <string name="ai_recognition_other_speaker">(Ուրիշը խոսում է)</string>
-    <string name="ai_recognize_fail">Չհաջողվեց տեքստագրել</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Հնարավոր չէ ձայնագրել, երբ խոսափողն օգտագործվում է</string>
     <string name="airecorder_month_day_hour_minute_format">dd.MM h:mm aaa</string>
     <string name="airecorder_notification_channel_name">Ձայնագրումներ</string>
@@ -127,8 +126,9 @@
     <string name="error_sdcard_unmounted">Տեղադրել SD քարտը հիմա</string>
     <string name="error_tip">Ցանցի սխալ է տեղի ունեցել</string>
     <string name="evening">Ցերեկ</string>
-    <string name="failed_to_get_summary">Չհաջողվեց ամփոփել։ (սեղմել)Փորձեք կրկին(/սեղմել)</string>
+    <string name="failed_to_get_summary">Չհաջողվեց ամփոփել։ (click)Փորձեք կրկին(/click)</string>
     <string name="flag_list">Նշում</string>
+    <string name="fmt_calendar_date_picker_header_date">dd.MM.yyyy</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -236,6 +236,7 @@
     <string name="miuix_appcompat_cloud_state_disabled">Սինխրոնիզացիան cloud-ի հետ անջատված է</string>
     <string name="miuix_appcompat_cloud_state_finished">Համաժամեցված է ամպի հետ հաջողությամբ</string>
     <string name="miuix_appcompat_cloud_state_syncing">Համաժամեցվում է cloud հետ…</string>
+    <string name="miuix_appcompat_cloud_sync_tip_close">Փակել</string>
     <string name="miuix_appcompat_confirm_description">Հաստատել</string>
     <string name="miuix_appcompat_delete_description">Ջնջել</string>
     <string name="miuix_appcompat_deselect_all">Ընտրությունից հանել բոլորը</string>
@@ -594,6 +595,7 @@
     <string name="playback_menu_to_note">Պահպանել Նշումներում</string>
     <string name="playback_seekbar_content_description">Վերարտադրման առաջընթաց</string>
     <string name="playback_share_records">Կիսել ձայնագրությունը</string>
+    <string name="playback_speed_format">%1$.1fX</string>
     <string name="playback_tabs_audio">Աուդիո</string>
     <string name="playback_tabs_text">Տեքստ</string>
     <string name="pm">PM</string>
@@ -665,11 +667,11 @@
     <string name="recognize_retry_dialog_title">Կրկին վերծանել</string>
     <string name="recognize_tip_dialog_message">Փոխարկեք աուդիոն տեքստի՝ այս գործառույթն օգտագործելու համար</string>
     <string name="recognize_tip_dialog_title">Փոխարկել աուդիոն տեքստի</string>
-    <string name="recognize_tip_mark_account_un_login">Մուտք գործեք ձեր Xiaomi հաշիվ՝ ամփոփելու և գնահատելու համար։ (սեղմել)Մուտք գործել(/սեղմել)</string>
+    <string name="recognize_tip_mark_account_un_login">Մուտք գործեք ձեր Xiaomi հաշիվ՝ ամփոփելու և գնահատելու համար։ (click)Մուտք գործել(/click)</string>
     <string name="recognize_tip_part_one">"Չի ավարտվել արտագրումը: "</string>
     <string name="recognize_tip_part_two">Փորձեք կրկին</string>
-    <string name="recognize_tip_re_recognize_with_polish">Հպեք՝ (սեղմել) կրկին վերծանելու և տեքստը ԱԲ միջոցով մշակելու համար (/սեղմել)</string>
-    <string name="recognize_tip_re_recognize_without_polish">Հպեք՝ (սեղմել) կրկին վերծանելու համար (/սեղմել)</string>
+    <string name="recognize_tip_re_recognize_with_polish">Հպեք՝ (click)կրկին վերծանելու(/click) և տեքստը ԱԲ միջոցով մշակելու համար</string>
+    <string name="recognize_tip_re_recognize_without_polish">Հպեք՝ (click)կրկին վերծանելու համար(/click)</string>
     <string name="recognize_tip_summary_page_account_un_login">Մուտք գործեք ձեր Xiaomi հաշիվ՝ ամփոփում ստեղծելու համար</string>
     <string name="recognize_tip_summary_page_default">Ավտոմատ ամփոփել վերծանումն ավարտվելուց հետո</string>
     <string name="recognize_tip_summary_page_fail">Չհաջողվեց ստեղծել։ Փորձեք կրկին։</string>
@@ -829,9 +831,13 @@
     <string name="summary_action_deadline_label">Ժամկետ</string>
     <string name="summary_action_deliverable_label">Վերջնարդյունք</string>
     <string name="summary_basic_info_duration">Տևողություն</string>
+    <string name="summary_basic_info_duration_general">Տևողություն</string>
     <string name="summary_basic_info_location">Տեղադրություն</string>
+    <string name="summary_basic_info_location_general">Տեղադրություն</string>
     <string name="summary_basic_info_participants">Մասնակիցներ</string>
+    <string name="summary_basic_info_participants_general">Մասնակիցներ</string>
     <string name="summary_basic_info_time">Ժամանակ</string>
+    <string name="summary_basic_info_time_general">Ժամանակ</string>
     <string name="summary_basic_info_title">Հանդիպման մասին տեղեկություններ</string>
     <string name="summary_content_need_deal">Առաջադրանք</string>
     <string name="summary_content_result_content">Հիմնական բովանդակություն</string>

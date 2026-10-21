@@ -10,7 +10,6 @@
     <string name="add_mark">සලකුණු කරන්න</string>
     <string name="agree_description">මෙම යෙදුමට සියලු විශේෂාංග භාවිත කිරීමට හැකිවීමට අන්තර්ජාලයට සම්බන්ධ වීමට ඉඩ දෙන්න.</string>
     <string name="ai_recognition_other_speaker">(වෙනත් කෙනෙකු කතා කරයි)</string>
-    <string name="ai_recognize_fail">පිටපත් ලිවීමට නොහැකි විය</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">මයික්‍රොෆෝනය භාවිතයේ ඇති විට පටිගත කළ නොහැක</string>
     <string name="airecorder_month_day_hour_minute_format">MM/dd h:mm aaa</string>
     <string name="airecorder_notification_channel_name">පටිගත කිරීම්</string>
@@ -112,7 +111,7 @@
     <string name="error_sdcard_access">SD කාඩ්පත ප්‍රවේශ විය නොහැක</string>
     <string name="error_sdcard_unmounted">දැන් SD කාඩ්පත ඇතුල් කරන්න</string>
     <string name="error_tip">ජාල දෝෂයක් ඇති විය</string>
-    <string name="failed_to_get_summary">සාරාංශගත කළ නොහැකි විය. (ක්ලික් කරන්න) නැවත උත්සාහ කරන්න(/ක්ලික් කරන්න)</string>
+    <string name="failed_to_get_summary">සාරාංශගත කළ නොහැකි විය. (click)නැවත උත්සාහ කරන්න(/click)</string>
     <string name="flag_list">ලකුණු</string>
     <string name="head_set_tip_dialog_msg">නිශ්චිත පෙර සැකසුම් (උදා: සංගීතය, කටහඬ) සමගින් ශබ්දය පටිගත කිරීමට හැකි වන පරිදි ඔබේ කන්යොමු විසන්ධි කරන්න.</string>
     <string name="head_set_tip_dialog_ok">වැටහුණා</string>
@@ -456,6 +455,7 @@
     <string name="playback_menu_to_note">සටහන් වෙත සුරකින්න</string>
     <string name="playback_seekbar_content_description">පසුධාවන ප්‍රගතිය</string>
     <string name="playback_share_records">පටිගත කිරීම බෙදාගන්න</string>
+    <string name="playback_speed_format">%1$.1fX</string>
     <string name="playback_tabs_audio">ශ්‍රව්‍ය</string>
     <string name="playback_tabs_text">වචන පෙළ</string>
     <string name="preference_ai_recognize_summary">ASR කථන හඳුනාගැනීම, සාරාංශ සහ පරිවර්තනය සඳහා සහය දක්වයි</string>
@@ -529,8 +529,8 @@
     <string name="recognize_tip_mark_account_un_login">සාරාංශගත කිරීම සහ සලකුණු කිරීම සඳහා ඔබගේ Xiaomi ගිණුමට ඇතුල් වන්න. (click)ඇතුල් වන්න(/click)</string>
     <string name="recognize_tip_part_one">"පිටපත් ලිවීම නිමා කළේ නැත. "</string>
     <string name="recognize_tip_part_two">නැවත උත්සාහ කරන්න</string>
-    <string name="recognize_tip_re_recognize_with_polish">නැවත පිටපත් කිරීමට (ක්ලික් කරන්න) තට්ටු කරන්න(/ක්ලික් කරන්න) සහ AI සමඟ පෙළ සංස්කරණය කරන්න</string>
-    <string name="recognize_tip_re_recognize_without_polish">නැවත පිටපත් කිරීමට (ක්ලික් කරන්න) තට්ටු කරන්න(/ක්ලික් කරන්න)</string>
+    <string name="recognize_tip_re_recognize_with_polish">නැවත පිටපත් කිරීමට (click)තට්ටු කරන්න(/click) සහ AI සමඟ පෙළ සංස්කරණය කරන්න</string>
+    <string name="recognize_tip_re_recognize_without_polish">නැවත පිටපත් කිරීමට (click)තට්ටු කරන්න(/click)</string>
     <string name="recognize_tip_summary_page_account_un_login">සාරාංශයක් සකස් කිරීමට ඔබේ Xiaomi ගිණුමට ඇතුල් වන්න</string>
     <string name="recognize_tip_summary_page_default">කථනය පිටපත් කිරීම සම්පූර්ණ වූ පසු ස්වයංක්‍රීයව සාරාංශ කරන්න</string>
     <string name="recognize_tip_summary_page_fail">ජනනය කිරීමට නොහැකි විය. නැවත උත්සාහ කරන්න.</string>
@@ -679,9 +679,13 @@
     <string name="summary_action_deadline_label">නියමිත දිනය</string>
     <string name="summary_action_deliverable_label">ඉදිරිපත් කළ හැකි</string>
     <string name="summary_basic_info_duration">කාල සීමාව</string>
+    <string name="summary_basic_info_duration_general">කාල සීමාව</string>
     <string name="summary_basic_info_location">පිහිටීම</string>
+    <string name="summary_basic_info_location_general">පිහිටීම</string>
     <string name="summary_basic_info_participants">සහභාගිවන්නන්</string>
+    <string name="summary_basic_info_participants_general">සහභාගිවන්නන්</string>
     <string name="summary_basic_info_time">වේලාව</string>
+    <string name="summary_basic_info_time_general">වේලාව</string>
     <string name="summary_basic_info_title">රැස්වීම් තොරතුරු</string>
     <string name="summary_content_need_deal">කාර්ය</string>
     <string name="summary_content_result_content">ප්‍රධාන අන්තර්ගතය</string>

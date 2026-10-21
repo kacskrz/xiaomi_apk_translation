@@ -13,7 +13,6 @@
     <string name="afternoon">Pasdite</string>
     <string name="agree_description">Lejoni këtë aplikacion të lidhet me internetin të jetë në gjendje të përdorë të gjitha karakteristikat e tij.</string>
     <string name="ai_recognition_other_speaker">(Dikush tjetër flet)</string>
-    <string name="ai_recognize_fail">Nuk mund të transkriptohej</string>
     <string name="airecorder_mic_in_use_while_in_call_tip">Nuk mund të regjistrohet kur mikrofoni është në përdorim</string>
     <string name="airecorder_month_day_hour_minute_format">dd/MM h:mm aaa</string>
     <string name="airecorder_notification_channel_name">Regjistrime</string>
@@ -63,9 +62,9 @@
     <string name="call_record_list_group_unconnected">Palidhur</string>
     <string name="cancel">Anulo</string>
     <string name="cancel_dialog_message">Të anulohet dërgimi i artikujve të zgjedhur tani?</string>
-    <string name="cancel_dialog_negative_button">Mos anullo</string>
-    <string name="cancel_dialog_positive_button">Anullo</string>
-    <string name="cancel_send">Anullo dërgimin</string>
+    <string name="cancel_dialog_negative_button">Mos anulo</string>
+    <string name="cancel_dialog_positive_button">Anulo</string>
+    <string name="cancel_send">Anulo dërgimin</string>
     <string name="cant_generate_new_summary_by_block_list_error">Ju jeni bllokuar nga përdorimi i këtij funksioni për shkelje të shumta të udhëzimeve tona</string>
     <string name="cant_generate_new_summary_by_language_type_limit">Nuk mund të krijohen përmbledhje për këtë gjuhë</string>
     <string name="cant_generate_new_summary_by_network_error2">Provo përsëri</string>
@@ -127,8 +126,9 @@
     <string name="error_sdcard_unmounted">Fusni kartën SD tani</string>
     <string name="error_tip">Ndodhi një gabim në rrjet</string>
     <string name="evening">Pasdite</string>
-    <string name="failed_to_get_summary">Nuk mund të përmblidhej. (kliko) Provo përsëri (/kliko)</string>
+    <string name="failed_to_get_summary">Nuk mund të përmblidhej. (click) Provo përsëri (/click)</string>
     <string name="flag_list">Shëno</string>
+    <string name="fmt_calendar_date_picker_header_date">dd.MM.yyyy</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -191,7 +191,7 @@
     <string name="intelligent_polishing_cant_work_warning_title">Nuk mund të përdoret lustrimi inteligjent</string>
     <string name="intelligent_polishing_preference_summary">Hiqni tepricat dhe standardizoni formatin për gjuhën kineze</string>
     <string name="invisible_mode_dialog_message">Mikrofoni nuk mund të përdoret kur je i te panjohur. Çaktivizo fillimisht modalitetin e panjohur.</string>
-    <string name="invisible_mode_dialog_negative">Anullo</string>
+    <string name="invisible_mode_dialog_negative">Anulo</string>
     <string name="invisible_mode_dialog_positive">"Ç'aktivizo"</string>
     <string name="invisible_mode_dialog_title">Ti je i panjohur</string>
     <string name="invisible_mode_error_tip">Fikni modalitetin e panjohur te Cilësimet për të qenë në gjendje të përdorësh mikrofonin</string>
@@ -236,6 +236,7 @@
     <string name="miuix_appcompat_cloud_state_disabled">Sinkronizimi me Cloud është fikur</string>
     <string name="miuix_appcompat_cloud_state_finished">Sinkronizohet me re me sukses</string>
     <string name="miuix_appcompat_cloud_state_syncing">Sinkronizimi me re…</string>
+    <string name="miuix_appcompat_cloud_sync_tip_close">Mbyll</string>
     <string name="miuix_appcompat_confirm_description">Konfirmo</string>
     <string name="miuix_appcompat_delete_description">Fshij</string>
     <string name="miuix_appcompat_deselect_all">"Ç'zgjidh të gjithë"</string>
@@ -568,7 +569,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="permission_bluetooth_title">Lejet e kërkuara</string>
     <string name="permission_camera_description">Për të shkrepur foto gjatë regjistrimit</string>
     <string name="permission_desc">Detajet e lejeve</string>
-    <string name="permission_dialog_cancel">Anullo</string>
+    <string name="permission_dialog_cancel">Anulo</string>
     <string name="permission_dialog_ok">Cilësimet</string>
     <string name="permission_notification_description">Ky aplikacion ka nevojë për leje për të dërguar njoftime që të mund të dërgojë sinjalizime kur regjistron, luan dhe shkarkon përmbajtje.</string>
     <string name="permission_notification_dialog_description">Ky aplikacion ka nevojë për leje për të dërguar njoftime që të mund të dërgojë sinjalizime për statusin aktual të aplikacionit.</string>
@@ -594,6 +595,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="playback_menu_to_note">Ruaje te Shënimet</string>
     <string name="playback_seekbar_content_description">Përparimit i ridëgjimit</string>
     <string name="playback_share_records">Ndaj regjistrimin</string>
+    <string name="playback_speed_format">%1$.1fX</string>
     <string name="playback_tabs_audio">Audio</string>
     <string name="playback_tabs_text">Tekst</string>
     <string name="pm">PASDITE</string>
@@ -622,7 +624,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="preference_tip_rename">Emërto manualisht regjistrimet</string>
     <string name="privacy_dialog_content">Nëse vazhdoni, do të tërhiqni pëlqimin tuaj për Politikën e Privatësisë së Regjistruesit. Ne do të ndalojmë mbledhjen e të dhënave tuaja personale. Informacioni personal i mbledhur dhe i ruajtur tashmë do të fshihet brenda periudhës së caktuar në përputhje me ligjet dhe rregulloret në fuqi, përveç nëse kërkohet ndryshe. Duke qenë se Regjistruesi ofron shërbimet e tij bazuar në mbledhjen e informacionit të nevojshëm personal, tërheqja juaj e pëlqimit do të konsiderohet si refuzim për të pranuar shërbimet e Regjistruesit. Tërheqja e pëlqimit nuk do të fshijë regjistrimet e ruajtura në pajisjen tuaj. Tërhiqet pëlqimi tani?</string>
     <string name="privacy_dialog_negative_button">Tërheqë</string>
-    <string name="privacy_dialog_positive_button">Anullo</string>
+    <string name="privacy_dialog_positive_button">Anulo</string>
     <string name="privacy_dialog_title">Tërheqja e pëlqimit</string>
     <string name="privacy_settings">Privatësia</string>
     <string name="privacy_withdraw">Tërheqja e pëlqimit</string>
@@ -650,7 +652,7 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="recognition_error_stopped">Kopjimi u ndalua</string>
     <string name="recognition_error_unknown">Ndodhi një gabim i panjohur. Raportoje tek ne dhe provo sërisht.</string>
     <string name="recognition_interrupt_current_dialog_body">Transkriptimi mund të zgjasë ca kohë. Do të merrni një njoftim kur të përfundojë kjo detyrë. \"%s\" po transkriptohet tani. Shtoni këtë detyrë në radhën e transkriptimit?</string>
-    <string name="recognition_language_dialog_cancel">Anullo</string>
+    <string name="recognition_language_dialog_cancel">Anulo</string>
     <string name="recognition_language_dialog_title">Zgjidhni burimin e gjuhës</string>
     <string name="recognition_notification_channel">Duke kopjuar</string>
     <string name="recognition_notification_complete_success">Transkriptuar \"%s\" me sukses. Klikoni për të parë.</string>
@@ -665,11 +667,11 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="recognize_retry_dialog_title">Transkripto përsëri</string>
     <string name="recognize_tip_dialog_message">Konvertoni audion në tekst për të qenë në gjendje të përdorni këtë veçori</string>
     <string name="recognize_tip_dialog_title">Konvertoni audion në tekst</string>
-    <string name="recognize_tip_mark_account_un_login">Hyr në llogarinë tënde Xiaomi për të përmbledhur dhe shënuar. (kliko)Hyr(/kliko)</string>
+    <string name="recognize_tip_mark_account_un_login">Hyr në llogarinë tënde Xiaomi për të përmbledhur dhe shënuar. (click)Hyr(/click)</string>
     <string name="recognize_tip_part_one">"Nuk e kam mbaruar transkriptimin. "</string>
     <string name="recognize_tip_part_two">Provo përsëri</string>
-    <string name="recognize_tip_re_recognize_with_polish">Kliko për të (klikuar)transkriptuar përsëri(/klikuar) dhe përmirëso tekstin me Al</string>
-    <string name="recognize_tip_re_recognize_without_polish">Kliko për të (klikuar)transkriptuar përsëri(/klikoni)</string>
+    <string name="recognize_tip_re_recognize_with_polish">Kliko për të (click)transkriptuar përsëri(/click) dhe përmirëso tekstin me Al</string>
+    <string name="recognize_tip_re_recognize_without_polish">Kliko për të (click)transkriptuar përsëri(/click)</string>
     <string name="recognize_tip_summary_page_account_un_login">Qasuni në llogarinë tuaj Xiaomi për të gjeneruar një përmbledhje</string>
     <string name="recognize_tip_summary_page_default">Përmblidh automatikisht pasi të përfundojë transkriptimi</string>
     <string name="recognize_tip_summary_page_fail">Nuk mund të gjenerohej. Provo përsëri.</string>
@@ -829,9 +831,13 @@ Kliko \"%1$s\", dhe më pas zgjidh “%2$s”."</string>
     <string name="summary_action_deadline_label">Afati i fundit</string>
     <string name="summary_action_deliverable_label">Deliverable</string>
     <string name="summary_basic_info_duration">Kohëzgjatja</string>
+    <string name="summary_basic_info_duration_general">Kohëzgjatja</string>
     <string name="summary_basic_info_location">Vendndodhja</string>
+    <string name="summary_basic_info_location_general">Vendndodhja</string>
     <string name="summary_basic_info_participants">Pjesëmarrësit</string>
+    <string name="summary_basic_info_participants_general">Pjesëmarrësit</string>
     <string name="summary_basic_info_time">Ora</string>
+    <string name="summary_basic_info_time_general">Ora</string>
     <string name="summary_basic_info_title">Informacion takimi</string>
     <string name="summary_content_need_deal">Detyrat</string>
     <string name="summary_content_result_content">Përmbajtja kryesore</string>
