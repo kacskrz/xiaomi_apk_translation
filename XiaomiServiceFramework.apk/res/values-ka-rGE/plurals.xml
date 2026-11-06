@@ -1,7 +1,865 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">%d საათის წინ</item>
+        <item quantity="one">%d საათის წინ</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">ნახევარი საათის წინ</item>
+        <item quantity="one">ნახევარი საათის წინ</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">%d საათში</item>
+        <item quantity="one">%d საათში</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">ნახევარ საათში</item>
+        <item quantity="one">ნახევარ საათში</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">დაუყოვნებლივ</item>
+        <item quantity="one">დაუყოვნებლივ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d წუთში</item>
+        <item quantity="one">%d წუთში</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">ამ წუთას</item>
+        <item quantity="one">ამ წუთას</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d წუთის წინ</item>
+        <item quantity="one">%d წუთის წინ</item>
+    </plurals>
+    <plurals name="add_game_notification_title">
+        <item quantity="other">დამატებულია %d თამაში</item>
+        <item quantity="one">დამატებულია %d თამაში</item>
+    </plurals>
+    <plurals name="added_apps_count">
+        <item quantity="other">%d აპლიკაცია დაემატა</item>
+        <item quantity="one">%d აპლიკაცია დაემატა</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_title_desc">
+        <item quantity="other">%d აპლიკაცია</item>
+        <item quantity="one">%d აპლიკაცია</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_total_usage_item">
+        <item quantity="other">%d აპლიკაცია</item>
+        <item quantity="one">%d აპლიკაცია</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">დაშვებული %3$d დრო %1$s-სა და %2$s-ს შორის</item>
+        <item quantity="one">დაშვებული %3$d დრო %1$s-სა და %2$s-ს შორის</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">გამოიყენება %1$d წუთის განმავლობაში</item>
+        <item quantity="one">გამოიყენება %1$d წუთის განმავლობაში</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">გამოიყენება %1$d წუთის განმავლობაში %2$s-მდე</item>
+        <item quantity="one">გამოიყენება %1$d წუთის განმავლობაში %2$s-მდე</item>
+    </plurals>
+    <plurals name="app_behavior_record_close_content_text">
+        <item quantity="other">აპლიკაციის ქცევის ჩანაწერები შეინახება ამ მოწყობილობაზე %d დღის განმავლობაში. ამ ფუნქციის გამორთვა წაშლის აპლიკაციის ქცევის ყველა ჩანაწერს რომელიც არ არის რეკომენდებული.</item>
+        <item quantity="one">აპლიკაციის ქცევის ჩანაწერები შეინახება ამ მოწყობილობაზე %d დღის განმავლობაში. ამ ფუნქციის გამორთვა წაშლის აპლიკაციის ქცევის ყველა ჩანაწერს რომელიც არ არის რეკომენდებული.</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_accept">
+        <item quantity="other">დაშვებულია %d ნებართვა</item>
+        <item quantity="one">დაშვებულია %d ნებართვა</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_ask">
+        <item quantity="other">%d ნებართვის მოთხოვნა</item>
+        <item quantity="one">%d ნებართვის მოთხოვნა</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d-ჯერ</item>
+        <item quantity="one">%d-ჯერ</item>
+    </plurals>
+    <plurals name="app_manager_uninstall_notify_summary">
+        <item quantity="other">წაშლილია %d აპლიკაცია</item>
+        <item quantity="one">წაშლილია %d აპლიკაცია</item>
+    </plurals>
+    <plurals name="app_manager_updater_title">
+        <item quantity="other">განაახლეთ %d აპლიკაცია</item>
+        <item quantity="one">განაახლეთ %d აპლიკაცია</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">\u1c92ამოყენებული %d დღის წინ</item>
+        <item quantity="one">გამოყენებულია %d დღის წინ</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">გამოყენებულია %d თვის წინ</item>
+        <item quantity="one">გამოყენებულია %d თვის წინ</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">გამოყენებულია %d წლის წინ</item>
+        <item quantity="one">გამოყენებულია %d წლის წინ</item>
+    </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">შეგიძლიათ გამოიყენოთ აპლიკაციის დაბლოკვა %1$s აპლიკაციასთან ერთად</item>
+        <item quantity="one">შეგიძლიათ გამოიყენოთ აპლიკაციის დაბლოკვა %1$s აპლიკაციასთან ერთად</item>
+    </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">შეგიძლიათ დაიცვათ მინიმუმ %s აპლიკაცია</item>
+        <item quantity="one">შეგიძლიათ დაიცვათ მინიმუმ %s აპლიკაცია</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s აპლიკაცია დაცული იქნება აპლიკაციის დაბლოკვით</item>
+        <item quantity="one">%s აპლიკაცია დაცული იქნება აპლიკაციის დაბლოკვით</item>
+    </plurals>
+    <plurals name="cache_check_content">
+        <item quantity="other">დაიცავით %d აპლიკაცია</item>
+        <item quantity="one">დაიცავით %d აპლიკაცია</item>
+    </plurals>
+    <plurals name="deep_clean_auto_memory_clean">
+        <item quantity="other">%1$d წუთში</item>
+        <item quantity="one">%1$d წუთში</item>
+    </plurals>
+    <plurals name="exit_dialog_scan_message_new">
+        <item quantity="other">თქვენი მოწყობილობის მუშაობის ქულა %d პუნქტზე დაბალია. გსურთ ოპტიმიზაცია ახლავე?</item>
+        <item quantity="one">თქვენი მოწყობილობის მუშაობის ქულა %d პუნქტზე დაბალია. გსურთ ოპტიმიზაცია ახლავე?</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_hour">
+        <item quantity="other">%s სთ</item>
+        <item quantity="one">%s სთ</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_minute">
+        <item quantity="other">%s წთ</item>
+        <item quantity="one">%s წთ</item>
+    </plurals>
+    <plurals name="find_applications">
+        <item quantity="other">ძებნა %d აპლიკაციას შორის</item>
+        <item quantity="one">ძებნა %d აპლიკაციას შორის</item>
+    </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d კონფიდენციალურობასთან დაკავშირებული რისკი</item>
+        <item quantity="one">%d კონფიდენციალურობასთან დაკავშირებული რისკი</item>
+    </plurals>
+    <plurals name="first_aid_result_summary_exception">
+        <item quantity="other">%1$d პრობლემა მოითხოვს ოპტიმიზაციას</item>
+        <item quantity="one">%1$d პრობლემა მოითხოვს ოპტიმიზაციას</item>
+    </plurals>
+    <plurals name="found_apps_title">
+        <item quantity="other">ნაპოვნია %d აპლიკაცია</item>
+        <item quantity="one">ნაპოვნია %d აპლიკაცია</item>
+    </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d ფუნქცია</item>
+        <item quantity="one">%d ფუნქცია</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_link_message">
+        <item quantity="other">თქვენი თამაშის გამაძლიერებლის წევრობის ვადა %d დღეში იწურება.</item>
+        <item quantity="one">თქვენი თამაშის გამაძლიერებლის წევრობის ვადა %d დღეში იწურება.</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_message">
+        <item quantity="other">თქვენი თამაშის გამაძლიერებლის წევრობა %d დღეში იწურება. განაახლეთ ახლავე, რათა ისიამოვნოთ შეუფერხებელი თამაშით.</item>
+        <item quantity="one">თქვენი თამაშის გამაძლიერებლის წევრობა %d დღეში იწურება. განაახლეთ ახლავე, რათა ისიამოვნოთ შეუფერხებელი თამაშით.</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_minute_talkback">
+        <item quantity="other">%1$d წუთი</item>
+        <item quantity="one">%1$d წუთი</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_second_talkback">
+        <item quantity="other">%1$d წამი</item>
+        <item quantity="one">%1$d წამი</item>
+    </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">%2$d თამაშის (მათ შორის %1$s) დეინსტალაცია</item>
+        <item quantity="one">%2$d თამაშის (მათ შორის %1$s) დეინსტალაცია</item>
+    </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">ავტომატურად ჩაიწერეთ მნიშვნელოვანი მომენტები და შექმენით ვიდეოები სესიის მნიშვნელოვანი მომენტებით. შეგიძლიათ აირჩიოთ მათი სამუდამოდ შენახვა თითოეული თამაშის სესიის შემდეგ. შეუნახავი ვიდეოები ავტომატურად წაიშლება %1$d დღის შემდეგ.</item>
+        <item quantity="one">ავტომატურად ჩაიწერეთ მნიშვნელოვანი მომენტები და შექმენით ვიდეოები სესიის მნიშვნელოვანი მომენტებით. შეგიძლიათ აირჩიოთ მათი სამუდამოდ შენახვა თითოეული თამაშის სესიის შემდეგ. შეუნახავი ვიდეოები ავტომატურად წაიშლება %1$d დღის შემდეგ.</item>
+    </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">%d AI ჩანაწერი შენახულია თამაშის გამაძლიერებელში</item>
+        <item quantity="one">%d AI ჩანაწერი შენახულია თამაშის გამაძლიერებელში</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">%d წმ</item>
+        <item quantity="one">%d წმ</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">შემოწმებულია მიყოლებით %d-ჯერ</item>
+        <item quantity="one">შემოწმებულია %d-ჯერ</item>
+    </plurals>
+    <plurals name="gb_smart_battery_hrs">
+        <item quantity="other">%d სთ</item>
+        <item quantity="one">%d სთ</item>
+    </plurals>
+    <plurals name="gb_smart_battery_min">
+        <item quantity="other">%d წთ</item>
+        <item quantity="one">%d წთ</item>
+    </plurals>
+    <plurals name="gb_vision_enhance_desc_detail_new">
+        <item quantity="other">"დაიმახსოვრეთ:
+· გაუმჯობესებული ვიზუალი არ იქნება ხელმისაწვდომი, როდესაც ბატარეის დამზოგი ან თქვენი მოწყობილობა გადახურებულია.
+ · გაძლიერებული ჩარჩოს ზომა აჩვენებს საუკეთესო შედეგებს, როდესაც თქვენს ეკრანზე მითითებულია მინიმუმ%d ჩარჩო წამში."</item>
+        <item quantity="one">"დაიმახსოვრეთ:
+· გაუმჯობესებული ვიზუალი არ იქნება ხელმისაწვდომი, როდესაც ბატარეის დამზოგი ან თქვენი მოწყობილობა გადახურებულია.
+ · გაძლიერებული ჩარჩოს ზომა აჩვენებს საუკეთესო შედეგებს, როდესაც თქვენს ეკრანზე მითითებულია მინიმუმ%d ჩარჩო წამში."</item>
+    </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"სცადეთ ხმის შემცვლელი ახლავე
+რათა მიიღოთ %d დღიანი უფასო საცდელი ვერსია!"</item>
+        <item quantity="one">"სცადეთ ხმის შემცვლელი ახლავე
+რათა მიიღოთ %d დღიანი უფასო საცდელი ვერსია!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">%d-დღიანი უფასო საცდელი ვერსიის მიღება ვერ მოხერხდა</item>
+        <item quantity="one">%d-დღიანი უფასო საცდელი ვერსიის მიღება ვერ მოხერხდა</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">წარმატებით მივიღე %d-დღიანი უფასო საცდელი ვერსია</item>
+        <item quantity="one">წარმატებით მივიღე %d-დღიანი უფასო საცდელი ვერსია</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">მიიღეთ %d დღიანი უფასო საცდელი ვერსია</item>
+        <item quantity="one">მიიღეთ %d დღიანი უფასო საცდელი ვერსია</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"თქვენი გამოწერა ვადაგასული იყო.
+ახლა შეგიძლიათ მიიღოთ %d დღიანი უფასო საცდელი ვერსია!"</item>
+        <item quantity="one">"თქვენი გამოწერა ვადაგასული იყო.
+ახლა შეგიძლიათ მიიღოთ %d დღიანი უფასო საცდელი ვერსია!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">მიიღეთ %d დღიანი უფასო საცდელი ვერსია</item>
+        <item quantity="one">მიიღეთ %d დღიანი უფასო საცდელი ვერსია</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">დაამატეთ %d-მდე აპლიკაცია. გადაიტანეთ დამატებული ერთეულები გადასალაგებლად.</item>
+        <item quantity="one">დაამატეთ %d-მდე აპლიკაცია. გადაიტანეთ დამატებული ერთეულები გადასალაგებლად.</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">ეს ფუნქცია ამცირებს ეკრანის სიკაშკაშეს %d წუთის შემდეგ ავტომატურად ენერგიის დაზოგვის მიზნით. გსურთ ამ ფუნქციის ჩართვა?</item>
+        <item quantity="one">ეს ფუნქცია ამცირებს ეკრანის სიკაშკაშეს %d წუთის შემდეგ ავტომატურად ენერგიის დაზოგვის მიზნით. გსურთ ამ ფუნქციის ჩართვა?</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">ეკრანის სიკაშკაშის ავტომატური რეგულირება დაზოგავს ენერგიას %d წუთით, არააქტიურობის დროს</item>
+        <item quantity="one">ეკრანის სიკაშკაშის ავტომატური რეგულირება დაზოგავს ენერგიას %d წუთით, არააქტიურობის დროს</item>
+    </plurals>
+    <plurals name="gtb_spring_festival_colored_egg">
+        <item quantity="other">გილოცავთ! თქვენ განბლოკეთ %s სააღდგომო კვერცხი.</item>
+        <item quantity="one">გილოცავთ! თქვენ განბლოკეთ %s სააღდგომო კვერცხი.</item>
+    </plurals>
+    <plurals name="hide_txt_hint_with_blank_2">
+        <item quantity="other">    +%1$d მეტი სიმბოლო</item>
+        <item quantity="one">    +%1$d მეტი სიმბოლო</item>
+    </plurals>
+    <plurals name="hints_apps_perm_count">
+        <item quantity="other">%d ნებართვა</item>
+        <item quantity="one">%d ნებართვა</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title">
+        <item quantity="other">%d აპლიკაციას ავტომატური გაშვების უფლება არ აქვს</item>
+        <item quantity="one">%d აპლიკაციას ავტომატური გაშვების უფლება არ აქვს</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title_global">
+        <item quantity="other">%d აპლიკაციას არ აქვს ფონურ რეჟიმში გაშვების უფლება</item>
+        <item quantity="one">%d აპლიკაციას არ აქვს ფონურ რეჟიმში გაშვების უფლება</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title">
+        <item quantity="other">%d აპლიკაციას შეუძლია ავტომატური ჩართვა</item>
+        <item quantity="one">%d აპლიკაციას შეუძლია ავტომატური ჩართვა</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title_global">
+        <item quantity="other">%d აპლიკაციას შეუძლია უკანა ფონზე გაშვება</item>
+        <item quantity="one">%d აპლიკაციას შეუძლია უკანა ფონზე გაშვება</item>
+    </plurals>
+    <plurals name="hints_get_root_disable_title">
+        <item quantity="other">%d აპლიკაციას ძირეული წვდომა არ აქვს</item>
+        <item quantity="one">%d აპლიკაციას ძირეული წვდომა არ აქვს</item>
+    </plurals>
+    <plurals name="hints_get_root_enable_title">
+        <item quantity="other">%d აპლიკაციას აქვს ძირეული წვდომა</item>
+        <item quantity="one">%d აპლიკაციას აქვს ძირეული წვდომა</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_risk_number">
+        <item quantity="other">%d რისკი,</item>
+        <item quantity="one">%d რისკი,</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_virus_number">
+        <item quantity="other">%d trojans</item>
+        <item quantity="one">%d trojan</item>
+    </plurals>
+    <plurals name="hints_permission_apps_count">
+        <item quantity="other">%d აპლიკაცია</item>
+        <item quantity="one">%d აპლიკაცია</item>
+    </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">აღმოჩენილია %d რისკი</item>
+        <item quantity="one">აღმოჩენილია %d რისკი</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1 საათში</item>
+        <item quantity="one">1 საათში</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">ნახევარ საათში</item>
+        <item quantity="one">ნახევარ საათში</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">დაუყოვნებლივ</item>
+        <item quantity="one">დაუყოვნებლივ</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d წუთში</item>
+        <item quantity="one">1 წუთში</item>
+    </plurals>
+    <plurals name="install_game_count_title">
+        <item quantity="other">დამატებულია %d თამაში</item>
+        <item quantity="one">დამატებულია %d თამაში</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">თქვენ შეგიძლიათ დაიცვათ %d ერთეული</item>
+        <item quantity="one">თქვენ შეგიძლიათ დაიცვათ %d ერთეული</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%s საათი</item>
+        <item quantity="one">%s საათი</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%s წუთი</item>
+        <item quantity="one">%s წუთი</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">ახლა</item>
+        <item quantity="one">ახლა</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">შეაერთეთ მინიმუმ %d წერტილი</item>
+        <item quantity="one">შეაერთეთ მინიმუმ %d წერტილი</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">შეაერთეთ მინიმუმ %s წერტილი</item>
+        <item quantity="one">შეაერთეთ მინიმუმ %s წერტილი</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">"დაელოდეთ %d წამს და კიდევ სცადეთ. "</item>
+        <item quantity="one">"დაელოდეთ %d წამს და კიდევ სცადეთ. "</item>
+    </plurals>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d შეტყობინება ან ზარი დაიბლოკა</item>
+        <item quantity="one">%d შეტყობინება ან ზარი დაიბლოკა</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">მოწყობილობა %d დღის განმავლობაში არ დასკანირებულა</item>
+        <item quantity="one">მოწყობილობა %d დღის განმავლობაში არ დასკანირებულა</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d აპლიკაცია შეიცავს ვირუსებს ან მავნე პროგრამას</item>
+        <item quantity="one">%d აპლიკაცია შეიცავს ვირუსებს ან მავნე პროგრამას</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">ხელმისაწვდომია %d განახლება</item>
+        <item quantity="one">ხელმისაწვდომია %d განახლება</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d ერთეული მონიშნულია</item>
+        <item quantity="one">%d ერთეული მონიშნულია</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">შეიყვანეთ მინიმუმ %d სიმბოლო</item>
+        <item quantity="one">შეიყვანეთ მინიმუმ %d სიმბოლო</item>
+    </plurals>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">თქვენი ქსელის სიჩქარის გაზრდის სესია %d დღეში დასრულდება. შესაძლოა დაიწყოს ქსელის შეფერხებები. გსურთ სესიის განახლება ახლავე?</item>
+        <item quantity="one">თქვენი ქსელის სიჩქარის გაზრდის სესია %d დღეში დასრულდება. შესაძლოა დაიწყოს ქსელის შეფერხებები. გსურთ სესიის განახლება ახლავე?</item>
+    </plurals>
+    <plurals name="not_added_apps_count">
+        <item quantity="other">%d აპლიკაცია არ არის დამატებული</item>
+        <item quantity="one">%d აპლიკაცია არ არის დამატებული</item>
+    </plurals>
+    <plurals name="notification_antivirus_title">
+        <item quantity="other">%d დღე უსაფრთხოების სკანირების გარეშე</item>
+        <item quantity="one">%d დღე უსაფრთხოების სკანირების გარეშე</item>
+    </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">ბატარეის %2$d%% დაიცალა ბოლო %1$d წუთის განმავლობაში</item>
+        <item quantity="one">ბატარეის %2$d%% დაიცალა ბოლო %1$d წუთის განმავლობაში</item>
+    </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%2$d აპლიკაცია, მათ შორის %1$s, აჯენს ბატარეას</item>
+        <item quantity="one">%2$d აპლიკაცია, მათ შორის %1$s, აჯენს ბატარეას</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Delete %d installation packages</item>
+        <item quantity="one">Delete %d installation package</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">წაშალეთ %d ნარჩენი APK</item>
+        <item quantity="one">წაშალეთ %d ნარჩენი APK</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d ერთეული ენერგიის მაღალი მოხმარებით</item>
+        <item quantity="one">%d ერთეული ენერგიის მაღალი მოხმარებით</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">%d ერთეულის ოპტიმიზაცია ზოგავს ბატარეის მოხმარებას</item>
+        <item quantity="one">%d ერთეულის ოპტიმიზაცია ზოგავს ბატარეის მოხმარებას</item>
+    </plurals>
+    <plurals name="notification_title_cmcc_app_check">
+        <item quantity="other">ბოლო შემოწმებიდან %d დღე</item>
+        <item quantity="one">ბოლო შემოწმებიდან %d დღე</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d წუთის წინ</item>
+        <item quantity="one">1 წუთის წინ</item>
+    </plurals>
+    <plurals name="number_locked">
+        <item quantity="other">დაბლოკილია %d აპლიკაცია</item>
+        <item quantity="one">დაბლოკილია %d აპლიკაცია</item>
+    </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d აპლიკაცია</item>
+        <item quantity="one">%d აპლიკაცია</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">%d შეტყობინება დამალულია</item>
+        <item quantity="one">%d შეტყობინება დამალულია</item>
+    </plurals>
+    <plurals name="number_to_lock">
+        <item quantity="other">%d აპლიკაცია არ არის დაბლოკილი</item>
+        <item quantity="one">%d აპლიკაცია არ არის დაბლოკილი</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">ჩანს %d შეტყობინება</item>
+        <item quantity="one">ჩანს %d შეტყობინება</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">შეიყვანეთ მინიმუმ %d ციფრი</item>
+        <item quantity="one">შეიყვანეთ მინიმუმ %d ციფრი</item>
+    </plurals>
+    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
+        <item quantity="other">%2$d აპლიკაცია, მათ შორის %1$s, შესაძლოა მავნე იყოს</item>
+        <item quantity="one">%2$d აპლიკაცია, მათ შორის %1$s, შესაძლოა მავნე იყოს</item>
+    </plurals>
+    <plurals name="optimize_result_button_add_score">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+%d</item>
+    </plurals>
     <plurals name="payment_intercept_continue_countdown">
         <item quantity="other">გააგრძელეთ (%1$d)</item>
         <item quantity="one">გააგრძელეთ (%1$d)</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d აპლიკაცია სწრაფად აჯენს ბატარეას</item>
+        <item quantity="one">%d აპლიკაცია სწრაფად აჯენს ბატარეას</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_hour">
+        <item quantity="other">%d საათი</item>
+        <item quantity="one">%d საათი</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_minute">
+        <item quantity="other">%d წუთი</item>
+        <item quantity="one">%d წუთი</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">" სთ"</item>
+        <item quantity="one">" სთ"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">" წთ"</item>
+        <item quantity="one">" წთ"</item>
+    </plurals>
+    <plurals name="pc_battery_replacement_service_day">
+        <item quantity="other">%d-დღე</item>
+        <item quantity="one">%d-დღე</item>
+    </plurals>
+    <plurals name="pc_can_be_optimize_numbers">
+        <item quantity="other">%d ერთეული</item>
+        <item quantity="one">%d ერთეული</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title">
+        <item quantity="other">თქვენი მოწყობილობის ბატარეა დაჯდა. ჰიბერაციის რეჟიმში შესვლა %1$d წამში.</item>
+        <item quantity="one">თქვენი მოწყობილობის ბატარეა დაჯდა. ჰიბერაციის რეჟიმში შესვლა %1$d წამში.</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title_new">
+        <item quantity="other">ბატარეა ჯდება. თქვენი მოწყობილობა %1$d წამში გადავა ჰიბერნაციის რეჟიმში. შესრულება და სიგნალის სიძლიერე შეიძლება ოდნავ შემცირდეს.</item>
+        <item quantity="one">ბატარეა ჯდება. თქვენი მოწყობილობა %1$d წამში გადავა ჰიბერნაციის რეჟიმში. შესრულება და სიგნალის სიძლიერე შეიძლება ოდნავ შემცირდეს.</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s დღე</item>
+        <item quantity="one">%s დღე</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s საათი</item>
+        <item quantity="one">%s საათი</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s წუთი</item>
+        <item quantity="one">%s წუთი</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">სრულ დამუხტვამდე დარჩენილია %s დღე</item>
+        <item quantity="one">სრულ დამუხტვამდე დარჩენილია %s დღე</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">სრულ დამუხტვამდე დარჩენილია %s საათი</item>
+        <item quantity="one">სრულ დამუხტვამდე დარჩენილია %s საათი</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">სრულ დამუხტვამდე დარჩენილია %s წუთი</item>
+        <item quantity="one">სრულ დამუხტვამდე დარჩენილია %s წუთი</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">დარჩენილია %s დღე</item>
+        <item quantity="one">დარჩენილია %s დღე</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">დარჩენილია %s საათი</item>
+        <item quantity="one">დარჩენილია %s საათი</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">დარჩენილია %s წუთი</item>
+        <item quantity="one">დარჩენილია %s წუთი</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">დარჩენილია %d საათი</item>
+        <item quantity="one">დარჩენილია %d საათი</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">დარჩენილია %d წუთი</item>
+        <item quantity="one">დარჩენილია %d წუთი</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">%d წუთი ბოლო დამუხტვიდან</item>
+        <item quantity="one">%d წუთი ბოლო დამუხტვიდან</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">%d წამი ბოლო დამუხტვიდან</item>
+        <item quantity="one">%d წამი ბოლო დამუხტვიდან</item>
+    </plurals>
+    <plurals name="power_20s_shutdown">
+        <item quantity="other">თქვენი მოწყობილობა გამოირთვება %d წამში</item>
+        <item quantity="one">თქვენი მოწყობილობა გამოირთვება %d წამში</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s სთ</item>
+        <item quantity="one">%s სთ</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s წთ</item>
+        <item quantity="one">%s წთ</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">-ჯერ</item>
+        <item quantity="one">-ჯერ</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number_new">
+        <item quantity="other">%d-ჯერ</item>
+        <item quantity="one">%d-ჯერ</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d ერთეული ენერგიის მაღალი მოხმარებით</item>
+        <item quantity="one">%d ერთეული ენერგიის მაღალი მოხმარებით</item>
+    </plurals>
+    <plurals name="power_center_battery_day">
+        <item quantity="other">"%d დღე "</item>
+        <item quantity="one">"%d დღე "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" სთ"</item>
+        <item quantity="one">" სთ"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" წთ"</item>
+        <item quantity="one">" წთ"</item>
+    </plurals>
+    <plurals name="power_center_battery_hour">
+        <item quantity="other">"%d სთ "</item>
+        <item quantity="one">"%d სთ "</item>
+    </plurals>
+    <plurals name="power_center_battery_minute">
+        <item quantity="other">"%d წთ "</item>
+        <item quantity="one">"%d წთ "</item>
+    </plurals>
+    <plurals name="power_center_battery_optimization">
+        <item quantity="other">ბატარეის გამოყენების ოპტიმიზაცია %d სცენარში</item>
+        <item quantity="one">ბატარეის გამოყენების ოპტიმიზაცია %d სცენარში</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">%d მოაგვარეთ ბატარეის გამოყენების საკითხი</item>
+        <item quantity="one">%d მოაგვარეთ ბატარეის გამოყენების საკითხი</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">შეგიძლიათ ენერგიის მოხმარების ოპტიმიზაცია %d ერთეულისთვის</item>
+        <item quantity="one">შეგიძლიათ ენერგიის მოხმარების ოპტიმიზაცია %d ერთეულისთვის</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">შესაძლებელია %d ერთეულის ოპტიმიზაცია</item>
+        <item quantity="one">შესაძლებელია %d ერთეულის ოპტიმიზაცია</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">%d ერთეულის ოპტიმიზაცია ზოგავს ბატარეას</item>
+        <item quantity="one">%d ერთეულის ოპტიმიზაცია ზოგავს ბატარეას</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">თქვენ შეგიძლიათ მოახერხოთ %d ერთეულის ოპტიმიზაცია ბატარეის დაზოგვით</item>
+        <item quantity="one">თქვენ შეგიძლიათ მოახერხოთ %d ერთეულის ოპტიმიზაცია ბატარეის დაზოგვით</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+    </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">%d წუთის დამატება</item>
+        <item quantity="one">%d წუთის დამატება</item>
+    </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">ერთეულები</item>
+        <item quantity="one">ერთეული</item>
+    </plurals>
+    <plurals name="power_center_unoffical_battery_dialog_negative">
+        <item quantity="other">გაუქმება (%d წმ)</item>
+        <item quantity="one">გაუქმება (%d წმ)</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">დარჩენილია %s დღე</item>
+        <item quantity="one">დარჩენილია %s დღე</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">დარჩენილია %s საათი</item>
+        <item quantity="one">დარჩენილია %s საათი</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">დარჩენილია %s წუთი</item>
+        <item quantity="one">დარჩენილია %s წუთი</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">დარჩენილია ეკრანთან გატარებული დროის %s წუთი</item>
+        <item quantity="one">დარჩენილია ეკრანთან გატარებული დროის %s წუთი</item>
+    </plurals>
+    <plurals name="power_main_open_last_minute_screen_on">
+        <item quantity="other">ჩართეთ ეკრანთან %s წუთის დასამატებლად</item>
+        <item quantity="one">ჩართეთ ეკრანთან %s წუთის დასამატებლად</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">გასაგებია (%d)</item>
+        <item quantity="one">გასაგებია (%d)</item>
+    </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">გასაგებია (%dწმ)</item>
+        <item quantity="one">გასაგებია (%dწმ)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">თქვენი მოწყობილობა გაითიშება %d წამში. დააკავშირეთ დამტენი.</item>
+        <item quantity="one">თქვენი მოწყობილობა გაითიშება %d წამში. დააკავშირეთ დამტენი.</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d აპლიკაცია ხშირად ავტომატურად ირთვება</item>
+        <item quantity="one">%d აპლიკაცია ხშირად ავტომატურად ირთვება</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d აპლიკაცია მალე აჯენს ბატარეას</item>
+        <item quantity="one">%d აპლიკაცია მალე აჯენს ბატარეას</item>
+    </plurals>
+    <plurals name="privacy_apps_disable_header_title">
+        <item quantity="other">%d აპლიკაციის ხატულა დამალულია</item>
+        <item quantity="one">%d აპლიკაციის ხატულა დამალულია</item>
+    </plurals>
+    <plurals name="privacy_apps_enable_header_title">
+        <item quantity="other">%d აპლიკაციის ხატულა დამალული არ არის</item>
+        <item quantity="one">%d აპლიკაციის ხატულა დამალული არ არის</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">%s აპლიკაციას გააჩნია მუდმივი წვდომა</item>
+        <item quantity="one">%s აპლიკაციას გააჩნია მუდმივი წვდომა</item>
+    </plurals>
+    <plurals name="privacy_permission_summary_allow">
+        <item quantity="other">დაშვებულია %s აპლიკაციისთვის</item>
+        <item quantity="one">დაშვებულია %s აპლიკაციისთვის</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s-ჯერ</item>
+        <item quantity="one">%s-ჯერ</item>
+    </plurals>
+    <plurals name="privacy_revoke_dialog_positive_text_numbers_description">
+        <item quantity="other">თანხმობის გაუქმება შეგიძლიათ %d წამში</item>
+        <item quantity="one">თანხმობის გაუქმება შეგიძლიათ %d წამში</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">%d აპლიკაცია</item>
+        <item quantity="one">%d აპლიკაცია</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">%d გაიცემა მაღალი რისკის ნებართვა</item>
+        <item quantity="one">%d გაიცემა მაღალი რისკის ნებართვა</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">ნაპოვნია %d რისკის შემცველი აპლიკაცია</item>
+        <item quantity="one">ნაპოვნია %d რისკის შემცველი აპლიკაცია</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">%d რისკი აღმოჩენილი მდებარეობის ინფორმაციის გამჟღავნება</item>
+        <item quantity="one">%d რისკი აღმოჩენილი მდებარეობის ინფორმაციის გამჟღავნება</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">აღმოჩენილია %d რისკი</item>
+        <item quantity="one">აღმოჩენილია %d რისკი</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">ნაპოვნია %d შესაძლო რისკი</item>
+        <item quantity="one">ნაპოვნია %d შესაძლო რისკი</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">%d ფოტო შეიძლება შეიცავდეს ინფორმაციას, რომელიც არის პირადი ან მგრძნობიარე</item>
+        <item quantity="one">%d ფოტო შეიძლება შეიცავდეს ინფორმაციას, რომელიც არის პირადი ან მგრძნობიარე</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">%d ფუნქცია, რომელიც იცავს თქვენს კონფიდენციალურობას, გამორთულია</item>
+        <item quantity="one">%d ფუნქცია, რომელიც იცავს თქვენს კონფიდენციალურობას, გამორთულია</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">%d გაიცემა მგრძნობიარე ნებართვა</item>
+        <item quantity="one">%d გაიცემა მგრძნობიარე ნებართვა</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">%d აპლიკაციის დეინსტალაცია</item>
+        <item quantity="one">%d აპლიკაციის დეინსტალაცია</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">%d ერთეული საჭიროებს ექსტრა დაცვას</item>
+        <item quantity="one">%d ერთეული საჭიროებს ექსტრა დაცვას</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_count">
+        <item quantity="other">%d ბატარეის პრობლემები</item>
+        <item quantity="one">%d ბატარეის პრობლემები</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_found">
+        <item quantity="other">ნაპოვნია %d ბატარეის პრობლემები</item>
+        <item quantity="one">ნაპოვნია %d ბატარეის პრობლემები</item>
+    </plurals>
+    <plurals name="quick_optimize_suggest_issue_found">
+        <item quantity="other">ნაპოვნია %d ბატარეის პრობლემები, აღმოფხვერით ისინი</item>
+        <item quantity="one">ნაპოვნია %d ბატარეის პრობლემები, აღმოფხვერით ისინი</item>
+    </plurals>
+    <plurals name="quick_optimize_summary_text">
+        <item quantity="other">%d ერთეული ოპტიმიზირებულია ენერგიის მაღალი მოხმარებით</item>
+        <item quantity="one">%d ერთეული ოპტიმიზირებულია ენერგიის მაღალი მოხმარებით</item>
+    </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">ქარხნული პარამეტრების აღდგენა (%dწმ)</item>
+        <item quantity="one">ქარხნული პარამეტრების აღდგენა (%dწმ)</item>
+    </plurals>
+    <plurals name="section_clear_acc_item_right_tips">
+        <item quantity="other">%d დაბლოკილი აპლიკაცია ელოდება გასუფთავებას</item>
+        <item quantity="one">%d დაბლოკილი აპლიკაცია ელოდება გასუფთავებას</item>
+    </plurals>
+    <plurals name="section_security_defend_item_right_tips">
+        <item quantity="other">წაშლილია %d ვირუსი</item>
+        <item quantity="one">წაშლილია %d ვირუსი</item>
+    </plurals>
+    <plurals name="storage_compact_warning">
+        <item quantity="other">%1$d ნებართვის რედაქტირება</item>
+        <item quantity="one">%1$d ნებართვის რედაქტირება</item>
+    </plurals>
+    <plurals name="storage_fbo_btn_result_time">
+        <item quantity="other">დარჩენილია %1$d წთ</item>
+        <item quantity="one">დარჩენილია %1$d წთ</item>
+    </plurals>
+    <plurals name="storage_fbo_finish_tip">
+        <item quantity="other">დეფრაგმენტაცია დასრულდა. %1$d ფრაგმენტი ორგანიზებულია.</item>
+        <item quantity="one">დეფრაგმენტაცია დასრულდა. %1$d ფრაგმენტი ორგანიზებულია.</item>
+    </plurals>
+    <plurals name="storage_fbo_notification_finish_content">
+        <item quantity="other">ორგანიზებულია %1$d ფრაგმენტი</item>
+        <item quantity="one">ორგანიზებულია %1$d ფრაგმენტი</item>
+    </plurals>
+    <plurals name="storage_fbo_number_unit">
+        <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragments</item>
+        <item quantity="one">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragment</item>
+    </plurals>
+    <plurals name="storage_ufs_number">
+        <item quantity="other">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+        <item quantity="one">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+    </plurals>
+    <plurals name="summary_app_update">
+        <item quantity="other">განახლება ხელმისაწვდომია %d აპლიკაციისთვის.</item>
+        <item quantity="one">განახლება ხელმისაწვდომია %d აპლიკაციისთვის.</item>
+    </plurals>
+    <plurals name="summary_flow_verify">
+        <item quantity="other">ოპერატორის მონაცემთა გამოყენების სტატისტიკა %d დღის განმავლობაში არ სინქრონიზებულია</item>
+        <item quantity="one">ოპერატორის მონაცემთა გამოყენების სტატისტიკა %d დღის განმავლობაში არ სინქრონიზებულია</item>
+    </plurals>
+    <plurals name="system_anti_fraud_dialog_countdown_unit">
+        <item quantity="other">(%dწმ)</item>
+        <item quantity="one">(%dწმ)</item>
+    </plurals>
+    <plurals name="system_check_content">
+        <item quantity="other">დაცულია %1$d ერთეული</item>
+        <item quantity="one">დაცულია %1$d ერთეული</item>
+    </plurals>
+    <plurals name="title_app_update_cn">
+        <item quantity="other">&lt;Data>განაახლეთ &lt;font color=#F22424>%d&lt;/font> აპლიკაცია&lt;/Data></item>
+        <item quantity="one">&lt;Data>განაახლეთ &lt;font color=#F22424>%d&lt;/font> აპლიკაცია&lt;/Data></item>
+    </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">გაიწმინდა %d ვირუსი</item>
+        <item quantity="one">გაიწმინდა %d ვირუსი</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">%d ვირუსი ან სარისკო აპლიკაცია</item>
+        <item quantity="one">%d ვირუსი ან სარისკო აპლიკაცია</item>
+    </plurals>
+    <plurals name="uninstall_game_count_title">
+        <item quantity="other">არ დაემატა %d თამაში</item>
+        <item quantity="one">არ დაემატა %d თამაში</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">შეაერთეთ მინიმუმ %s წერტილი</item>
+        <item quantity="one">შეაერთეთ მინიმუმ %s წერტილი</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">შეიყვანეთ %s ციფრი</item>
+        <item quantity="one">შეიყვანეთ %s ციფრი</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_hour">
+        <item quantity="other">%dსთ</item>
+        <item quantity="one">%dსთ</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_minute">
+        <item quantity="other">%dწთ</item>
+        <item quantity="one">%dწთ</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">%d აპლიკაცია</item>
+        <item quantity="one">%d აპლიკაციები</item>
+    </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"თქვენ უკვე უყურეთ ვიდეოებს %d საათით.
+შეისვენეთ!"</item>
+        <item quantity="one">"თქვენ უკვე უყურეთ ვიდეოებს %d საათით.
+შეისვენეთ!"</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$d ნახვა</item>
+        <item quantity="one">%1$d ნახვა</item>
+    </plurals>
+    <plurals name="wakepath_allow_start_app_count">
+        <item quantity="other">%s აპლიკაცია</item>
+        <item quantity="one">%s აპლიკაცია</item>
+    </plurals>
+    <plurals name="white_list_risk_app_header">
+        <item quantity="other">სახიფათო აპლიკაცია: %d</item>
+        <item quantity="one">სახიფათო აპლიკაცია: %d</item>
+    </plurals>
+    <plurals name="white_list_trojan_header">
+        <item quantity="other">Trojans: %d</item>
+        <item quantity="one">Trojan: %d</item>
     </plurals>
 </resources>

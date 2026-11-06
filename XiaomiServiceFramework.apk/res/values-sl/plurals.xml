@@ -1,9 +1,1319 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Pred %d urami</item>
+        <item quantity="one">Pred %d uro</item>
+        <item quantity="two">Pred %d urama</item>
+        <item quantity="few">Pred %d urami</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Pred pol ure</item>
+        <item quantity="one">Pred pol ure</item>
+        <item quantity="two">Pred pol ure</item>
+        <item quantity="few">Pred pol ure</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Čez %d ur</item>
+        <item quantity="one">Čez %d uro</item>
+        <item quantity="two">Čez %d uri</item>
+        <item quantity="few">Čez %d ure</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Čez pol ure</item>
+        <item quantity="one">Čez pol ure</item>
+        <item quantity="two">Čez pol ure</item>
+        <item quantity="few">Čez pol ure</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Takoj</item>
+        <item quantity="one">Takoj</item>
+        <item quantity="two">Takoj</item>
+        <item quantity="few">Takoj</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">Čez %d minut</item>
+        <item quantity="one">Čez %d minuto</item>
+        <item quantity="two">Čez %d minuti</item>
+        <item quantity="few">Čez %d minute</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Pravkar</item>
+        <item quantity="one">Pravkar</item>
+        <item quantity="two">Pravkar</item>
+        <item quantity="few">Pravkar</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Pred %d min</item>
+        <item quantity="one">Pred %d min</item>
+        <item quantity="two">Pred %d min</item>
+        <item quantity="few">Pred %d min</item>
+    </plurals>
+    <plurals name="add_game_notification_title">
+        <item quantity="other">Added %d games</item>
+        <item quantity="one">Added %d game</item>
+        <item quantity="two">Added %d games</item>
+        <item quantity="few">Added %d games</item>
+    </plurals>
+    <plurals name="added_apps_count">
+        <item quantity="other">%d aplikacij dodanih</item>
+        <item quantity="one">%d aplikacija dodana</item>
+        <item quantity="two">%d aplikacij dodanih</item>
+        <item quantity="few">%d aplikacij dodanih</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_title_desc">
+        <item quantity="other">%d aplikacij</item>
+        <item quantity="one">%d aplikacija</item>
+        <item quantity="two">%d aplikacij</item>
+        <item quantity="few">%d aplikacij</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_total_usage_item">
+        <item quantity="other">%d aplikacij</item>
+        <item quantity="one">%d aplikacija</item>
+        <item quantity="two">%d aplikacij</item>
+        <item quantity="few">%d aplikacij</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">Dovoljeno %3$d-krat med %1$s in %2$s</item>
+        <item quantity="one">Dovoljeno %3$d-krat med %1$s in %2$s</item>
+        <item quantity="two">Dovoljeno %3$d-krat med %1$s in %2$s</item>
+        <item quantity="few">Dovoljeno %3$d-krat med %1$s in %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">V uporabi %1$d minut</item>
+        <item quantity="one">V uporabi %1$d minuto</item>
+        <item quantity="two">V uporabi %1$d minuti</item>
+        <item quantity="few">V uporabi %1$d minute</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">V uporabi %1$d minut do %2$s</item>
+        <item quantity="one">V uporabi %1$d minuto do %2$s</item>
+        <item quantity="two">V uporabi %1$d minuti do %2$s</item>
+        <item quantity="few">V uporabi %1$d minute do %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_record_close_content_text">
+        <item quantity="other">Zapisi o obnašanju aplikacije bodo v tej napravi shranjeni za %d dni. Če to funkcijo izklopite, bodo izbrisani vsi zapisi o obnašanju aplikacije, zato to ni priporočljivo.</item>
+        <item quantity="one">Zapisi o obnašanju aplikacije bodo v tej napravi shranjeni za %d dan. Če to funkcijo izklopite, bodo izbrisani vsi zapisi o obnašanju aplikacije, zato to ni priporočljivo.</item>
+        <item quantity="two">Zapisi o obnašanju aplikacije bodo v tej napravi shranjeni za %d dni. Če to funkcijo izklopite, bodo izbrisani vsi zapisi o obnašanju aplikacije, zato to ni priporočljivo.</item>
+        <item quantity="few">Zapisi o obnašanju aplikacije bodo v tej napravi shranjeni za %d dni. Če to funkcijo izklopite, bodo izbrisani vsi zapisi o obnašanju aplikacije, zato to ni priporočljivo.</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_accept">
+        <item quantity="other">Omogočenih %d dovoljenj</item>
+        <item quantity="one">Omogočeno %d dovoljenje</item>
+        <item quantity="two">Omogočeni %d dovoljenji</item>
+        <item quantity="few">Omogočena %d dovoljenja</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_ask">
+        <item quantity="other">Zaprosite za %d dovoljenj</item>
+        <item quantity="one">Zaprosite %d dovoljenje</item>
+        <item quantity="two">Zaprosite za %d dovoljenji</item>
+        <item quantity="few">Zaprosite za %d dovoljenja</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d-krat</item>
+        <item quantity="one">%d-krat</item>
+        <item quantity="two">%d-krat</item>
+        <item quantity="few">%d-krat</item>
+    </plurals>
+    <plurals name="app_manager_uninstall_notify_summary">
+        <item quantity="other">Odstrani %d aplikacij</item>
+        <item quantity="one">Odstrani %d aplikacijo</item>
+        <item quantity="two">Odstrani %d aplikacij</item>
+        <item quantity="few">Odstrani %d aplikacij</item>
+    </plurals>
+    <plurals name="app_manager_updater_title">
+        <item quantity="other">Posodobi %d aplikacije</item>
+        <item quantity="one">Posodobi %d aplikacijo</item>
+        <item quantity="two">Posodobi %d aplikacije</item>
+        <item quantity="few">Posodobi %d aplikacije</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">Uporabljeno pred %d dnevi</item>
+        <item quantity="one">Uporabljeno pred %d dnevom</item>
+        <item quantity="two">Uporabljeno pred %d dnevoma</item>
+        <item quantity="few">Uporabljeno pred %d dnevi</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">Uporabljeno pred %d meseci</item>
+        <item quantity="one">Uporabljeno pred %d mesecem</item>
+        <item quantity="two">Uporabljeno pred %d mesecema</item>
+        <item quantity="few">Uporabljeno pred %d meseci</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">Uporabljeno pred %d leti</item>
+        <item quantity="one">Uporabljeno pred %d letom</item>
+        <item quantity="two">Uporabljeno pred %d letoma</item>
+        <item quantity="few">Uporabljeno pred %d leti</item>
+    </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">Zaklepanje aplikacij lahko uporabite za %1$s aplikacij</item>
+        <item quantity="one">Zaklepanje aplikacij lahko uporabite za %1$s aplikacijo</item>
+        <item quantity="two">Zaklepanje aplikacij lahko uporabite za %1$s aplikaciji</item>
+        <item quantity="few">Zaklepanje aplikacij lahko uporabite za %1$s aplikacije</item>
+    </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">Zaščitite lahko vsaj %s aplikacij</item>
+        <item quantity="one">Zaščitite lahko vsaj %s aplikacijo</item>
+        <item quantity="two">Zaščitite lahko vsaj %s aplikaciji</item>
+        <item quantity="few">Zaščitite lahko vsaj %s aplikacije</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s aplikacij bo zaščitenih z zaklepanjem aplikacij</item>
+        <item quantity="one">%s aplikacija bo zaščitena z zaklepanjem aplikacij</item>
+        <item quantity="two">%s aplikaciji bosta zaščiteni z zaklepanjem aplikacij</item>
+        <item quantity="few">%s aplikacije bodo zaščitene z zaklepanjem aplikacij</item>
+    </plurals>
+    <plurals name="cache_check_content">
+        <item quantity="other">Zaščita %d aplikacij</item>
+        <item quantity="one">Zaščita %d aplikacije</item>
+        <item quantity="two">Zaščita %d aplikacij</item>
+        <item quantity="few">Zaščita %d aplikacij</item>
+    </plurals>
+    <plurals name="deep_clean_auto_memory_clean">
+        <item quantity="other">Čez %1$d minut</item>
+        <item quantity="one">Čez %1$d minuto</item>
+        <item quantity="two">Čez %1$d minuti</item>
+        <item quantity="few">Čez %1$d minute</item>
+    </plurals>
+    <plurals name="exit_dialog_scan_message_new">
+        <item quantity="other">Učinkovitost delovanja vaše naprave je ocenjena z manj kot %d točkami. Želite optimizirati zdaj?</item>
+        <item quantity="one">Učinkovitost delovanja vaše naprave je ocenjena z manj kot %d točko. Želite optimizirati zdaj?</item>
+        <item quantity="two">Učinkovitost delovanja vaše naprave je ocenjena z manj kot %d točkama. Želite optimizirati zdaj?</item>
+        <item quantity="few">Učinkovitost delovanja vaše naprave je ocenjena z manj kot %d točkami. Želite optimizirati zdaj?</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Premik naprej za %d sekund</item>
+        <item quantity="one">Premik naprej za %d sekundo</item>
+        <item quantity="two">Premik naprej za %d sekundi</item>
+        <item quantity="few">Premik naprej za %d sekunde</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Premik nazaj za %d sekund</item>
+        <item quantity="one">Premik nazaj za %d sekundo</item>
+        <item quantity="two">Premik nazaj za %d sekundi</item>
+        <item quantity="few">Premik nazaj za %d sekunde</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_hour">
+        <item quantity="other">%s ur</item>
+        <item quantity="one">%s uro</item>
+        <item quantity="two">%s ur</item>
+        <item quantity="few">%s ur</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_minute">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="two">%s min</item>
+        <item quantity="few">%s min</item>
+    </plurals>
+    <plurals name="find_applications">
+        <item quantity="other">Iskanje v %d aplikacijah</item>
+        <item quantity="one">Iskanje v %d aplikaciji</item>
+        <item quantity="two">Iskanje v %d aplikacijah</item>
+        <item quantity="few">Iskanje v %d aplikacijah</item>
+    </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d tveganj, povezanih z varnostjo</item>
+        <item quantity="one">%d tveganje, povezano z varnostjo</item>
+        <item quantity="two">%d tveganj, povezanih z varnostjo</item>
+        <item quantity="few">%d tveganj, povezanih z varnostjo</item>
+    </plurals>
+    <plurals name="first_aid_result_summary_exception">
+        <item quantity="other">%1$d težav zahteva optimizacijo</item>
+        <item quantity="one">%1$d težava zahteva optimizacijo</item>
+        <item quantity="two">%1$d težavi zahtevata optimizacijo</item>
+        <item quantity="few">%1$d težave zahtevajo optimizacijo</item>
+    </plurals>
+    <plurals name="found_apps_title">
+        <item quantity="other">%d najdenih aplikacij</item>
+        <item quantity="one">%d najdena aplikacija</item>
+        <item quantity="two">%d najdeni aplikaciji</item>
+        <item quantity="few">%d najdene aplikacije</item>
+    </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d funkcij</item>
+        <item quantity="one">%d funkcija</item>
+        <item quantity="two">%d funkciji</item>
+        <item quantity="few">%d funkcije</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+        <item quantity="two">%1$s:</item>
+        <item quantity="few">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+        <item quantity="two">%1$s</item>
+        <item quantity="few">%1$s</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_link_message">
+        <item quantity="other">Vaša članarina za Game Turbo bo potekla čez %d dni.</item>
+        <item quantity="one">Vaša članarina za Game Turbo bo potekla čez %d dan.</item>
+        <item quantity="two">Vaša članarina za Game Turbo bo potekla čez %d dni.</item>
+        <item quantity="few">Vaša članarina za Game Turbo bo potekla čez %d dni.</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_message">
+        <item quantity="other">Vaša članarina za Game Turbo bo potekla čez %d dneva. Obnovite zdaj in uživajte v brezhibnem igranju.</item>
+        <item quantity="one">Vaša članarina za Game Turbo bo potekla čez %d dan. Obnovite zdaj in uživajte v brezhibnem igranju.</item>
+        <item quantity="two">Vaša članarina za Game Turbo bo potekla čez %d dni. Obnovite zdaj in uživajte v brezhibnem igranju.</item>
+        <item quantity="few">Vaša članarina za Game Turbo bo potekla čez %d dneva. Obnovite zdaj in uživajte v brezhibnem igranju.</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_minute_talkback">
+        <item quantity="other">%1$d minut</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="two">%1$d minut</item>
+        <item quantity="few">%1$d minut</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_second_talkback">
+        <item quantity="other">%1$d sekund</item>
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="two">%1$d sekund</item>
+        <item quantity="few">%1$d sekund</item>
+    </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">Odstrani %2$d iger (vključno z %1$s)</item>
+        <item quantity="one">Odstrani %2$d igro (vključno z %1$s)</item>
+        <item quantity="two">Odstrani %2$d igri (vključno z %1$s)</item>
+        <item quantity="few">Odstrani %2$d igre (vključno z %1$s)</item>
+    </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">Samodejno posname ključne trenutke in iz njih naredi videoposnetke z izpostavljenimi deli seje. Vsakič, ko prenehate igrati, jih lahko trajno shranite. Neshranjeni videoposnetki bodo samodejno izbrisani po %1$d dneh.</item>
+        <item quantity="one">Samodejno posname ključne trenutke in iz njih naredi videoposnetke z izpostavljenimi deli seje. Vsakič, ko prenehate igrati, jih lahko trajno shranite. Neshranjeni videoposnetki bodo samodejno izbrisani po %1$d dnevu.</item>
+        <item quantity="two">Samodejno posname ključne trenutke in iz njih naredi videoposnetke z izpostavljenimi deli seje. Vsakič, ko prenehate igrati, jih lahko trajno shranite. Neshranjeni videoposnetki bodo samodejno izbrisani po %1$d dneh.</item>
+        <item quantity="few">Samodejno posname ključne trenutke in iz njih naredi videoposnetke z izpostavljenimi deli seje. Vsakič, ko prenehate igrati, jih lahko trajno shranite. Neshranjeni videoposnetki bodo samodejno izbrisani po %1$d dneh.</item>
+    </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">%d AI posnetkov je bilo shranjenih v Game Turbo</item>
+        <item quantity="one">%d AI posnetek je bil shranjen v Game Turbo</item>
+        <item quantity="two">%d AI posnetka sta bila shranjena v Game Turbo</item>
+        <item quantity="few">%d AI posnetki so bili shranjeni v Game Turbo</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="two">%d s</item>
+        <item quantity="few">%d s</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">Prijavljeni %d-krat</item>
+        <item quantity="one">Prijavljeni %d-krat</item>
+        <item quantity="two">Prijavljeni %d-krat</item>
+        <item quantity="few">Prijavljeni %d-krat</item>
+    </plurals>
+    <plurals name="gb_smart_battery_hrs">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d ur</item>
+        <item quantity="few">%d ur</item>
+    </plurals>
+    <plurals name="gb_smart_battery_min">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d minut</item>
+        <item quantity="few">%d minut</item>
+    </plurals>
+    <plurals name="gb_vision_enhance_desc_detail_new">
+        <item quantity="other">"Opomba:
+· Izboljšana slika ne bo na voljo, ko je vklopljeno varčevanje z baterijo, ali če je vaša naprava pregreta.
+· Povečano število sličic na sekundo kaže najboljše rezultate, ko je vaša igra nastavljena tako, da prikazuje vsaj %d sličic na sekundo."</item>
+        <item quantity="one">"Opomba:
+· Izboljšana slika ne bo na voljo, ko je vklopljeno varčevanje z baterijo, ali če je vaša naprava pregreta.
+· Povečano število sličic na sekundo kaže najboljše rezultate, ko je vaša igra nastavljena tako, da prikazuje vsaj %d sličico na sekundo."</item>
+        <item quantity="two">"Opomba:
+· Izboljšana slika ne bo na voljo, ko je vklopljeno varčevanje z baterijo, ali če je vaša naprava pregreta.
+· Povečano število sličic na sekundo kaže najboljše rezultate, ko je vaša igra nastavljena tako, da prikazuje vsaj %d sličic na sekundo."</item>
+        <item quantity="few">"Opomba:
+· Izboljšana slika ne bo na voljo, ko je vklopljeno varčevanje z baterijo, ali če je vaša naprava pregreta.
+· Povečano število sličic na sekundo kaže najboljše rezultate, ko je vaša igra nastavljena tako, da prikazuje vsaj %d sličic na sekundo."</item>
+    </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"Poskusite Spreminjanje glasa sedaj
+in uživajte v %d-dnevnem brezplačnem preizkusu!"</item>
+        <item quantity="one">"Poskusite Spreminjanje glasa sedaj
+in uživajte v %d-dnevnem brezplačnem preizkusu!"</item>
+        <item quantity="two">"Poskusite Spreminjanje glasa sedaj
+in uživajte v %d-dnevnem brezplačnem preizkusu!"</item>
+        <item quantity="few">"Poskusite Spreminjanje glasa sedaj
+in uživajte v %d-dnevnem brezplačnem preizkusu!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">%d-dnevni brezplačni preizkus ni bilo mogoče prejeti</item>
+        <item quantity="one">%d-dnevni brezplačni preizkus ni bilo mogoče prejeti</item>
+        <item quantity="two">%d-dnevni brezplačni preizkus ni bilo mogoče prejeti</item>
+        <item quantity="few">%d-dnevni brezplačni preizkus ni bilo mogoče prejeti</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">Uspešno ste prejeli %d-dnevni brezplačni preizkus</item>
+        <item quantity="one">Uspešno ste prejeli %d-dnevni brezplačni preizkus</item>
+        <item quantity="two">Uspešno ste prejeli %d-dnevni brezplačni preizkus</item>
+        <item quantity="few">Uspešno ste prejeli %d-dnevni brezplačni preizkus</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">Pridobi %d-dnevni brezplačni preizkus</item>
+        <item quantity="one">Pridobi %d-dnevni brezplačni preizkus</item>
+        <item quantity="two">Pridobi %d-dnevni brezplačni preizkus</item>
+        <item quantity="few">Pridobi %d-dnevni brezplačni preizkus</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"Vaša naročnina je potekla.
+Lahko pridobite %d-dnevni brezplačni preizkus!"</item>
+        <item quantity="one">"Vaša naročnina je potekla.
+Lahko pridobite %d-dnevni brezplačni preizkus!"</item>
+        <item quantity="two">"Vaša naročnina je potekla.
+Lahko pridobite %d-dnevni brezplačni preizkus!"</item>
+        <item quantity="few">"Vaša naročnina je potekla.
+Lahko pridobite %d-dnevni brezplačni preizkus!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">Pridobi %d-dnevni brezplačni preizkus</item>
+        <item quantity="one">Pridobi %d-dnevni brezplačni preizkus</item>
+        <item quantity="two">Pridobi %d-dnevni brezplačni preizkus</item>
+        <item quantity="few">Pridobi %d-dnevni brezplačni preizkus</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">Dodajte največ %d aplikacij. Pritisnite in držite, da prerazporedite.</item>
+        <item quantity="one">Dodajte največ %d aplikacijo. Pritisnite in držite, da prerazporedite.</item>
+        <item quantity="two">Dodajte največ %d aplikacij. Pritisnite in držite, da prerazporedite.</item>
+        <item quantity="few">Dodajte največ %d aplikacij. Pritisnite in držite, da prerazporedite.</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">Ta funkcija samodejno zmanjša svetlost zaslona po %d minut neaktivnosti, za varčevanje baterije. Ali želite obdržati to funkcijo vklopljeno?</item>
+        <item quantity="one">Ta funkcija samodejno zmanjša svetlost zaslona po %d minuti neaktivnosti, za varčevanje baterije. Ali želite obdržati to funkcijo vklopljeno?</item>
+        <item quantity="two">Ta funkcija samodejno zmanjša svetlost zaslona po %d minut neaktivnosti, za varčevanje baterije. Ali želite obdržati to funkcijo vklopljeno?</item>
+        <item quantity="few">Ta funkcija samodejno zmanjša svetlost zaslona po %d minut neaktivnosti, za varčevanje baterije. Ali želite obdržati to funkcijo vklopljeno?</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">Samodejno zmanjša svetlost zaslona po %d minut neaktivnosti, za varčevanje baterije</item>
+        <item quantity="one">Samodejno zmanjša svetlost zaslona po %d minuti neaktivnosti, za varčevanje baterije</item>
+        <item quantity="two">Samodejno zmanjša svetlost zaslona po %d minut neaktivnosti, za varčevanje baterije</item>
+        <item quantity="few">Samodejno zmanjša svetlost zaslona po %d minut neaktivnosti, za varčevanje baterije</item>
+    </plurals>
+    <plurals name="gtb_spring_festival_colored_egg">
+        <item quantity="other">Čestitke! Odklenili ste %s velikonočnih jajc.</item>
+        <item quantity="one">Čestitke! Odklenili ste %s velikonočno jajce.</item>
+        <item quantity="two">Čestitke! Odklenili ste %s velikonočnih jajc.</item>
+        <item quantity="few">Čestitke! Odklenili ste %s velikonočnih jajc.</item>
+    </plurals>
+    <plurals name="hide_txt_hint_with_blank_2">
+        <item quantity="other">    +%1$d dodatnih znakov</item>
+        <item quantity="one">    +%1$d dodatni znak</item>
+        <item quantity="two">    +%1$d dodatna znaka</item>
+        <item quantity="few">    +%1$d dodatni znaki</item>
+    </plurals>
+    <plurals name="hints_apps_perm_count">
+        <item quantity="other">%d dovoljenj</item>
+        <item quantity="one">%d dovoljenje</item>
+        <item quantity="two">%d dovoljenji</item>
+        <item quantity="few">%d dovoljenja</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title">
+        <item quantity="other">%d aplikacij nima dovoljenja za samodejni zagon</item>
+        <item quantity="one">%d aplikacija nima dovoljenja za samodejni zagon</item>
+        <item quantity="two">%d aplikaciji nimata dovoljenja za samodejni zagon</item>
+        <item quantity="few">%d aplikacije nimajo dovoljenja za samodejni zagon</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title_global">
+        <item quantity="other">%d aplikacij nima dovoljenja za zagon v ozadju</item>
+        <item quantity="one">%d aplikacija nima dovoljenja za zagon v ozadju</item>
+        <item quantity="two">%d aplikaciji nimata dovoljenja za zagon v ozadju</item>
+        <item quantity="few">%d aplikacije nimajo dovoljenja za zagon v ozadju</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title">
+        <item quantity="other">%d aplikacij se lahko samodejno zažene</item>
+        <item quantity="one">%d aplikacija se lahko samodejno zažene</item>
+        <item quantity="two">%d aplikaciji se lahko samodejno zaženeta</item>
+        <item quantity="few">%d aplikacije se lahko samodejno zaženejo</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title_global">
+        <item quantity="other">%d aplikacij se lahko zažene v ozadju</item>
+        <item quantity="one">%d aplikacija se lahko zažene v ozadju</item>
+        <item quantity="two">%d aplikacij se lahko zažene v ozadju</item>
+        <item quantity="few">%d aplikacij se lahko zažene v ozadju</item>
+    </plurals>
+    <plurals name="hints_get_root_disable_title">
+        <item quantity="other">%d aplikacij nima korenskega dostopa</item>
+        <item quantity="one">%d aplikacija nima korenskega dostopa</item>
+        <item quantity="two">%d aplikacij nima korenskega dostopa</item>
+        <item quantity="few">%d aplikacij nima korenskega dostopa</item>
+    </plurals>
+    <plurals name="hints_get_root_enable_title">
+        <item quantity="other">%d aplikacij ima korenski dostop</item>
+        <item quantity="one">%d aplikacija ima korenski dostop</item>
+        <item quantity="two">%d aplikacij ima korenski dostop</item>
+        <item quantity="few">%d aplikacij ima korenski dostop</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_risk_number">
+        <item quantity="other">%d tveganj,</item>
+        <item quantity="one">%d tveganje,</item>
+        <item quantity="two">%d tveganji,</item>
+        <item quantity="few">%d tveganja,</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_virus_number">
+        <item quantity="other">%d trojancev</item>
+        <item quantity="one">%d trojanec</item>
+        <item quantity="two">%d trojanca</item>
+        <item quantity="few">%d trojanci</item>
+    </plurals>
+    <plurals name="hints_permission_apps_count">
+        <item quantity="other">%d aplikacij</item>
+        <item quantity="one">%d aplikacija</item>
+        <item quantity="two">%d aplikacije</item>
+        <item quantity="few">%d aplikacij</item>
+    </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d tveganja zaznanih</item>
+        <item quantity="one">%d tveganje zaznano</item>
+        <item quantity="two">%d tveganja zaznanih</item>
+        <item quantity="few">%d tveganja zaznanih</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Čez 1 uro</item>
+        <item quantity="one">Čez 1 uro</item>
+        <item quantity="two">Čez 1 uro</item>
+        <item quantity="few">Čez 1 uro</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Čez pol ure</item>
+        <item quantity="one">Čez pol ure</item>
+        <item quantity="two">Čez pol ure</item>
+        <item quantity="few">Čez pol ure</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Takoj</item>
+        <item quantity="one">Takoj</item>
+        <item quantity="two">Takoj</item>
+        <item quantity="few">Takoj</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">čez %d minut</item>
+        <item quantity="one">čez 1 minuto</item>
+        <item quantity="two">čez %d minuti</item>
+        <item quantity="few">čez %d minut</item>
+    </plurals>
+    <plurals name="install_game_count_title">
+        <item quantity="other">Dodanih %d iger</item>
+        <item quantity="one">Dodana %d igra</item>
+        <item quantity="two">Dodani %d igri</item>
+        <item quantity="few">Dodane %d igre</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">Zavarujete lahko %d elementov</item>
+        <item quantity="one">Zavarujete lahko %d element</item>
+        <item quantity="two">Zavarujete lahko %d elementa</item>
+        <item quantity="few">Zavarujete lahko %d elemente</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%s ur</item>
+        <item quantity="one">%s ura</item>
+        <item quantity="two">%s uri</item>
+        <item quantity="few">%s ure</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%s minut</item>
+        <item quantity="one">%s minuta</item>
+        <item quantity="two">%s minuti</item>
+        <item quantity="few">%s minute</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Pravkar</item>
+        <item quantity="one">Pravkar</item>
+        <item quantity="two">Pravkar</item>
+        <item quantity="few">Pravkar</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Povežite vsaj %d pik</item>
+        <item quantity="one">Povežite vsaj %d piko</item>
+        <item quantity="two">Povežite vsaj %d pik</item>
+        <item quantity="few">Povežite vsaj %d pik</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">Povežite vsaj %s pik</item>
+        <item quantity="one">Povežite vsaj %s piko</item>
+        <item quantity="two">Povežite vsaj %s pik</item>
+        <item quantity="few">Povežite vsaj %s pik</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">"Počakajte %d sekund in poskusite ponovno. "</item>
+        <item quantity="one">"Počakajte %d sekundo in poskusite ponovno. "</item>
+        <item quantity="two">"Počakajte %d sekundi in poskusite ponovno. "</item>
+        <item quantity="few">"Počakajte %d sekunde in poskusite ponovno. "</item>
+    </plurals>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d sporočil ali klicev je bilo blokiranih</item>
+        <item quantity="one">%d sporočilo ali klic je bil blokiran</item>
+        <item quantity="two">%d sporočili ali klica sta bila blokirana</item>
+        <item quantity="few">%d sporočila ali klici so bili blokirani</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">Naprava ni bila skenirana že %d dni</item>
+        <item quantity="one">Naprava ni bila skenirana že %d dan</item>
+        <item quantity="two">Naprava ni bila skenirana že %d dneva</item>
+        <item quantity="few">Naprava ni bila skenirana že %d dni</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d aplikacij vsebuje viruse ali zlonamerno programsko opremo</item>
+        <item quantity="one">%d aplikacija vsebuje viruse ali zlonamerno programsko opremo</item>
+        <item quantity="two">%d aplikaciji vsebujeta viruse ali zlonamerno programsko opremo</item>
+        <item quantity="few">%d aplikacije vsebujejo viruse ali zlonamerno programsko opremo</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">%d posodobitev je na voljo</item>
+        <item quantity="one">%d posodobitev je na voljo</item>
+        <item quantity="two">%d posodobitvi sta na voljo</item>
+        <item quantity="few">%d posodobitve so na voljo</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d predmetov izbranih</item>
+        <item quantity="one">%d predmet izbran</item>
+        <item quantity="two">%d predmeta izbrana</item>
+        <item quantity="few">%d predmeti izbrani</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">Vnesite vsaj %d znakov</item>
+        <item quantity="one">Vnesite vsaj %d znak</item>
+        <item quantity="two">Vnesite vsaj %d znaka</item>
+        <item quantity="few">Vnesite vsaj %d znake</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obvestil</item>
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+    </plurals>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">Pospeševanje hitrosti omrežja bo končalo čez %d dni. Morda bo prišlo do zakasnitev v omrežju. Želite ponovno pospešiti hitrost?</item>
+        <item quantity="one">Pospeševanje hitrosti omrežja bo končalo čez %d dan. Morda bo prišlo do zakasnitev v omrežju. Želite ponovno pospešiti hitrost?</item>
+        <item quantity="two">Vaša seja za pospeševanje hitrosti omrežja bo potekla čez %d dni. Morda boste začeli opažati zakasnitve v omrežju. Želite sejo obnoviti zdaj?</item>
+        <item quantity="few">Pospeševanje hitrosti omrežja bo končalo čez %d dni. Morda bo prišlo do zakasnitev v omrežju. Želite ponovno pospešiti hitrost?</item>
+    </plurals>
+    <plurals name="not_added_apps_count">
+        <item quantity="other">%d aplikacij ni bilo dodanih</item>
+        <item quantity="one">%d aplikacija ni bila dodana</item>
+        <item quantity="two">%d aplikacij ni bilo dodanih</item>
+        <item quantity="few">%d aplikacij ni bilo dodanih</item>
+    </plurals>
+    <plurals name="notification_antivirus_title">
+        <item quantity="other">%d dni brez varnostnega skeniranja</item>
+        <item quantity="one">%d dan brez varnostnega skeniranja</item>
+        <item quantity="two">%d dneva brez varnostnega skeniranja</item>
+        <item quantity="few">%d dni brez varnostnega skeniranja</item>
+    </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">V zadnjih %1$d minutah porabljenih %2$d %% baterije</item>
+        <item quantity="one">V zadnji %1$d minuti porabljenih %2$d %% baterije</item>
+        <item quantity="two">V zadnjih %1$d minutah porabljenih %2$d %% baterije</item>
+        <item quantity="few">V zadnjih %1$d minutah porabljenih %2$d %% baterije</item>
+    </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%2$d aplikacij, vključno z %1$s, ki praznijo baterijo</item>
+        <item quantity="one">%2$d aplikacija, vključno z %1$s, ki prazni baterijo</item>
+        <item quantity="two">%2$d aplikaciji, vključno z %1$s, ki praznita baterijo</item>
+        <item quantity="few">%2$d aplikacije, vključno z %1$s, ki praznijo baterijo</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Delete %d installation packages</item>
+        <item quantity="one">Delete %d installation package</item>
+        <item quantity="two">Delete %d installation packages</item>
+        <item quantity="few">Delete %d installation packages</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">Izbrišite %d preostalih datotek APK</item>
+        <item quantity="one">Izbrišite %d preostalo datoteko APK</item>
+        <item quantity="two">Izbrišite %d preostali datoteki APK</item>
+        <item quantity="few">Izbrišite %d preostale datoteke APK</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d elementov z visoko porabo energije</item>
+        <item quantity="one">%d element z visoko porabo energije</item>
+        <item quantity="two">%d elementa z visoko porabo energije</item>
+        <item quantity="few">%d elementi z visoko porabo energije</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">Optimizirajte %d elementov, da prihranite baterijo</item>
+        <item quantity="one">Optimizirajte %d element, da prihranite baterijo</item>
+        <item quantity="two">Optimizirajte %d elementa, da prihranite baterijo</item>
+        <item quantity="few">Optimizirajte %d elemente, da prihranite baterijo</item>
+    </plurals>
+    <plurals name="notification_title_cmcc_app_check">
+        <item quantity="other">%d dni od zadnjega pregleda</item>
+        <item quantity="one">%d dan od zadnjega pregleda</item>
+        <item quantity="two">%d dni od zadnjega pregleda</item>
+        <item quantity="few">%d dni od zadnjega pregleda</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Pred %d minut</item>
+        <item quantity="one">pred 1 minuto</item>
+        <item quantity="two">Pred %d minutami</item>
+        <item quantity="few">Pred %d minut</item>
+    </plurals>
+    <plurals name="number_locked">
+        <item quantity="other">%d zaklenjenih aplikacij</item>
+        <item quantity="one">%d zaklenjena aplikacija</item>
+        <item quantity="two">%d zaklenjeni aplikaciji</item>
+        <item quantity="few">%d zaklenjene aplikacije</item>
+    </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d aplikacij</item>
+        <item quantity="one">%d aplikacija</item>
+        <item quantity="two">%d aplikacije</item>
+        <item quantity="few">%d aplikacij</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">%d obvestil je bilo skritih</item>
+        <item quantity="one">%d obvestilo je bilo skrito</item>
+        <item quantity="two">%d obvestili sta bili skriti</item>
+        <item quantity="few">%d obvestila so bila skrita</item>
+    </plurals>
+    <plurals name="number_to_lock">
+        <item quantity="other">%d aplikacij ni zaklenjenih</item>
+        <item quantity="one">%d aplikacija ni zaklenjena</item>
+        <item quantity="two">%d aplikaciji nista zaklenjeni</item>
+        <item quantity="few">%d aplikacije niso zaklenjene</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">%d obvestil je vidnih</item>
+        <item quantity="one">%d obvestilo je vidno</item>
+        <item quantity="two">%d obvestili sta vidni</item>
+        <item quantity="few">%d obvestila so vidna</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">Vnesite vsaj %d številk</item>
+        <item quantity="one">Vnesite vsaj %d številko</item>
+        <item quantity="two">Vnesite vsaj %d številki</item>
+        <item quantity="few">Vnesite vsaj %d številke</item>
+    </plurals>
+    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
+        <item quantity="other">%2$d aplikacij, vključno z aplikacijo %1$s, je lahko zlonamerna</item>
+        <item quantity="one">%2$d aplikacija, vključno z aplikacijo %1$s, je lahko zlonamerna</item>
+        <item quantity="two">%2$d aplikaciji, vključno z aplikacijo %1$s, sta lahko zlonamerni</item>
+        <item quantity="few">%2$d aplikacije, vključno z aplikacijo %1$s, so lahko zlonamerne</item>
+    </plurals>
+    <plurals name="optimize_result_button_add_score">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+%d</item>
+        <item quantity="two">+%d</item>
+        <item quantity="few">+%d</item>
+    </plurals>
     <plurals name="payment_intercept_continue_countdown">
         <item quantity="other">Nadaljujte (%1$d)</item>
         <item quantity="one">Nadaljujte (%1$d)</item>
         <item quantity="two">Nadaljujte (%1$d)</item>
         <item quantity="few">Nadaljujte (%1$d)</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d aplikacij prazni baterijo</item>
+        <item quantity="one">%d aplikacija prazni baterijo</item>
+        <item quantity="two">%d aplikaciji praznita baterijo</item>
+        <item quantity="few">%d aplikacije praznijo baterijo</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_hour">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_minute">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">"  ur"</item>
+        <item quantity="one">"  ura"</item>
+        <item quantity="two">"  uri"</item>
+        <item quantity="few">"  ure"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">"  min"</item>
+        <item quantity="one">"  min"</item>
+        <item quantity="two">"  min"</item>
+        <item quantity="few">"  min"</item>
+    </plurals>
+    <plurals name="pc_battery_replacement_service_day">
+        <item quantity="other">%d-dni</item>
+        <item quantity="one">%d-dni</item>
+        <item quantity="two">%d-dni</item>
+        <item quantity="few">%d-dni</item>
+    </plurals>
+    <plurals name="pc_can_be_optimize_numbers">
+        <item quantity="other">%d elementov</item>
+        <item quantity="one">%d element</item>
+        <item quantity="two">%d elementa</item>
+        <item quantity="few">%d elementi</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title">
+        <item quantity="other">Baterija naprave je izpraznjena. Vstop v način mirovanja čez %1$d sekund.</item>
+        <item quantity="one">Baterija naprave je izpraznjena. Vstop v način mirovanja čez %1$d sekundo.</item>
+        <item quantity="two">Baterija naprave je izpraznjena. Vstop v način mirovanja čez %1$d sekundi.</item>
+        <item quantity="few">Baterija naprave je izpraznjena. Vstop v način mirovanja čez %1$d sekunde.</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title_new">
+        <item quantity="other">Baterija je izpraznjena. Vaša naprava bo preklopila v način hibernacije čez %1$d sekund. Zmogljivost in moč signala sta lahko rahlo zmanjšana.</item>
+        <item quantity="one">Baterija je izpraznjena. Vaša naprava bo preklopila v način hibernacije čez %1$d sekundo. Zmogljivost in moč signala sta lahko rahlo zmanjšana.</item>
+        <item quantity="two">Baterija je izpraznjena. Vaša naprava bo preklopila v način hibernacije čez %1$d sekundi. Zmogljivost in moč signala sta lahko rahlo zmanjšana.</item>
+        <item quantity="few">Baterija je izpraznjena. Vaša naprava bo preklopila v način hibernacije čez %1$d sekunde. Zmogljivost in moč signala sta lahko rahlo zmanjšana.</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s dni</item>
+        <item quantity="one">%s dan</item>
+        <item quantity="two">%s dni</item>
+        <item quantity="few">%s dni</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s ur</item>
+        <item quantity="one">%s ura</item>
+        <item quantity="two">%s uri</item>
+        <item quantity="few">%s ure</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s minut</item>
+        <item quantity="one">%s minuta</item>
+        <item quantity="two">%s minuti</item>
+        <item quantity="few">%s minute</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">Še %s dni do napolnjenosti</item>
+        <item quantity="one">Še %s dan do napolnjenosti</item>
+        <item quantity="two">Še %s dni do napolnjenosti</item>
+        <item quantity="few">Še %s dni do napolnjenosti</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">Še %s ur do napolnjenosti</item>
+        <item quantity="one">Še %s ura do napolnjenosti</item>
+        <item quantity="two">Še %s uri do napolnjenosti</item>
+        <item quantity="few">Še %s ure do napolnjenosti</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">Še %s minut do napolnjenosti</item>
+        <item quantity="one">Še %s minuta do napolnjenosti</item>
+        <item quantity="two">Še %s minuti do napolnjenosti</item>
+        <item quantity="few">Še %s minute do napolnjenosti</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">Preostalih še %s dni</item>
+        <item quantity="one">Preostal še %s dan</item>
+        <item quantity="two">Preostala še %s dneva</item>
+        <item quantity="few">Preostali še %s dnevi</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">Še %s ur</item>
+        <item quantity="one">Še %s ura</item>
+        <item quantity="two">Še %s uri</item>
+        <item quantity="few">Še %s ure</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">Še %s minut</item>
+        <item quantity="one">Še %s minuta</item>
+        <item quantity="two">Še %s minuti</item>
+        <item quantity="few">Še %s minute</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">Še %d ur</item>
+        <item quantity="one">Še %d ura</item>
+        <item quantity="two">Še %d uri</item>
+        <item quantity="few">Še %d ure</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">Še %d minut</item>
+        <item quantity="one">Še %d minuta</item>
+        <item quantity="two">Še %d minuti</item>
+        <item quantity="few">Še %d minute</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">%d minut od zadnjega polnjenja</item>
+        <item quantity="one">%d minuta od zadnjega polnjenja</item>
+        <item quantity="two">%d minuti od zadnjega polnjenja</item>
+        <item quantity="few">%d minute od zadnjega polnjenja</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">%d sekund od zadnjega polnjenja</item>
+        <item quantity="one">%d sekunda od zadnjega polnjenja</item>
+        <item quantity="two">%d sekundi od zadnjega polnjenja</item>
+        <item quantity="few">%d sekunde od zadnjega polnjenja</item>
+    </plurals>
+    <plurals name="power_20s_shutdown">
+        <item quantity="other">Vaša naprava se bo izklopila čez %d sekund</item>
+        <item quantity="one">Vaša naprava se bo izklopila čez %d sekundo</item>
+        <item quantity="two">Vaša naprava se bo izklopila čez %d sekundi</item>
+        <item quantity="few">Vaša naprava se bo izklopila čez %d sekunde</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s ure</item>
+        <item quantity="one">%s ura</item>
+        <item quantity="two">%s uri</item>
+        <item quantity="few">%s ure</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="two">%s min</item>
+        <item quantity="few">%s min</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">-krat</item>
+        <item quantity="one">-krat</item>
+        <item quantity="two">-krat</item>
+        <item quantity="few">-krat</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number_new">
+        <item quantity="other">%d-krat</item>
+        <item quantity="one">%d-krat</item>
+        <item quantity="two">%d-krat</item>
+        <item quantity="few">%d-krat</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d elementov z visoko porabo energije</item>
+        <item quantity="one">%d element z visoko porabo energije</item>
+        <item quantity="two">%d elementa z visoko porabo energije</item>
+        <item quantity="few">%d elementi z visoko porabo energije</item>
+    </plurals>
+    <plurals name="power_center_battery_day">
+        <item quantity="other">"%d dni "</item>
+        <item quantity="one">"%d dan "</item>
+        <item quantity="two">"%d dni "</item>
+        <item quantity="few">"%d dni "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" ur"</item>
+        <item quantity="one">" ura"</item>
+        <item quantity="two">" uri"</item>
+        <item quantity="few">" ure"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
+        <item quantity="two">" min"</item>
+        <item quantity="few">" min"</item>
+    </plurals>
+    <plurals name="power_center_battery_hour">
+        <item quantity="other">"%d ur "</item>
+        <item quantity="one">"%d ura "</item>
+        <item quantity="two">"%d uri "</item>
+        <item quantity="few">"%d ure "</item>
+    </plurals>
+    <plurals name="power_center_battery_minute">
+        <item quantity="other">"%d min "</item>
+        <item quantity="one">"%d min "</item>
+        <item quantity="two">"%d min "</item>
+        <item quantity="few">"%d min "</item>
+    </plurals>
+    <plurals name="power_center_battery_optimization">
+        <item quantity="other">Optimizirajte porabo baterije v %d scenarijih</item>
+        <item quantity="one">Optimizirajte porabo baterije v %d scenariju</item>
+        <item quantity="two">Optimizirajte porabo baterije v %d scenarijih</item>
+        <item quantity="few">Optimizirajte porabo baterije v %d scenarijih</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">Popravi %d težav s porabo baterije</item>
+        <item quantity="one">Popravi %d težavo s porabo baterije</item>
+        <item quantity="two">Popravi %d težavi s porabo baterije</item>
+        <item quantity="few">Popravi %d težave s porabo baterije</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">Optimizirate lahko porabo energije za %d elementov</item>
+        <item quantity="one">Optimizirate lahko porabo energije za %d element</item>
+        <item quantity="two">Optimizirate lahko porabo energije za %d elementa</item>
+        <item quantity="few">Optimizirate lahko porabo energije za %d elemente</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d predmetov je mogoče optimizirati"</item>
+        <item quantity="one">" %d predmet je mogoče optimizirati"</item>
+        <item quantity="two">" %d predmetov je mogoče optimizirati"</item>
+        <item quantity="few">" %d predmetov je mogoče optimizirati"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">Optimizirajte %d elementov, da prihranite baterijo</item>
+        <item quantity="one">Optimizirajte %d element, da prihranite baterijo</item>
+        <item quantity="two">Optimizirajte %d elementa, da prihranite baterijo</item>
+        <item quantity="few">Optimizirajte %d elemente, da prihranite baterijo</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">Optimizirate lahko %d elementov za varčevanje z baterijo</item>
+        <item quantity="one">Optimizirate lahko %d element za varčevanje z baterijo</item>
+        <item quantity="two">Optimizirate lahko %d elementa za varčevanje z baterijo</item>
+        <item quantity="few">Optimizirate lahko %d elemente za varčevanje z baterijo</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+        <item quantity="two">%d ℃</item>
+        <item quantity="few">%d ℃</item>
+    </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+        <item quantity="two">%d mAh</item>
+        <item quantity="few">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">Dodaj %d minut</item>
+        <item quantity="one">Dodaj %d minuto</item>
+        <item quantity="two">Dodaj %d minuti</item>
+        <item quantity="few">Dodaj %d minute</item>
+    </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">elementov</item>
+        <item quantity="one">element</item>
+        <item quantity="two">elementa</item>
+        <item quantity="few">elementi</item>
+    </plurals>
+    <plurals name="power_center_unoffical_battery_dialog_negative">
+        <item quantity="other">Prekliči (%d s)</item>
+        <item quantity="one">Prekliči (%d s)</item>
+        <item quantity="two">Prekliči (%d s)</item>
+        <item quantity="few">Prekliči (%d s)</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">Preostalih še %s dni</item>
+        <item quantity="one">Preostal še %s dan</item>
+        <item quantity="two">Preostala še %s dneva</item>
+        <item quantity="few">Preostali še %s dnevi</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">Preostalih še %s ur</item>
+        <item quantity="one">Preostala še %s ura</item>
+        <item quantity="two">Preostali še %s uri</item>
+        <item quantity="few">Preostale še %s ure</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">Še %s minut</item>
+        <item quantity="one">Še %s minuta</item>
+        <item quantity="two">Še %s minuti</item>
+        <item quantity="few">Še %s minute</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">Preostali čas delovanja zaslona: %s min</item>
+        <item quantity="one">Preostali čas delovanja zaslona: %s min</item>
+        <item quantity="two">Preostali čas delovanja zaslona: %s min</item>
+        <item quantity="few">Preostali čas delovanja zaslona: %s min</item>
+    </plurals>
+    <plurals name="power_main_open_last_minute_screen_on">
+        <item quantity="other">Vklopite, da bi dodali %s min časa delovanja zaslona</item>
+        <item quantity="one">Vklopite, da bi dodali %s min časa delovanja zaslona</item>
+        <item quantity="two">Vklopite, da bi dodali %s min časa delovanja zaslona</item>
+        <item quantity="few">Vklopite, da bi dodali %s min časa delovanja zaslona</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">Razumem (%ds)</item>
+        <item quantity="one">Razumem (%ds)</item>
+        <item quantity="two">Razumem (%ds)</item>
+        <item quantity="few">Razumem (%ds)</item>
+    </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">Razumem (%d s)</item>
+        <item quantity="one">Razumem (%d s)</item>
+        <item quantity="two">Razumem (%d s)</item>
+        <item quantity="few">Razumem (%d s)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">Vaša naprava se bo izklopila čez %d sekund. Priklopite polnilec.</item>
+        <item quantity="one">Vaša naprava se bo izklopila čez %d sekundo. Priklopite polnilec.</item>
+        <item quantity="two">Vaša naprava se bo izklopila čez %d sekundi. Priklopite polnilec.</item>
+        <item quantity="few">Vaša naprava se bo izklopila čez %d sekunde. Priklopite polnilec.</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d aplikacij se pogosto samodejno zaganja</item>
+        <item quantity="one">%d aplikacija se pogosto samodejno zaganja</item>
+        <item quantity="two">%d aplikaciji se pogosto samodejno zaganjata</item>
+        <item quantity="few">%d aplikacije se pogosto samodejno zaganjajo</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d aplikacij hitro prazni baterijo</item>
+        <item quantity="one">%d aplikacija hitro prazni baterijo</item>
+        <item quantity="two">%d aplikaciji hitro praznita baterijo</item>
+        <item quantity="few">%d aplikacije hitro praznijo baterijo</item>
+    </plurals>
+    <plurals name="privacy_apps_disable_header_title">
+        <item quantity="other">%d ikon aplikacij je skritih</item>
+        <item quantity="one">%d ikona aplikacije je skrita</item>
+        <item quantity="two">%d ikoni aplikacij sta skriti</item>
+        <item quantity="few">%d ikone aplikacij so skrite</item>
+    </plurals>
+    <plurals name="privacy_apps_enable_header_title">
+        <item quantity="other">%d ikon aplikacij ni skritih</item>
+        <item quantity="one">%d ikona aplikacije ni skrita</item>
+        <item quantity="two">%d ikoni aplikacij nista skriti</item>
+        <item quantity="few">%d ikone aplikacij niso skrite</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">%s aplikacij ima stalni dostop</item>
+        <item quantity="one">%s aplikacija ima stalni dostop</item>
+        <item quantity="two">%s aplikaciji imata stalni dostop</item>
+        <item quantity="few">%s aplikacije imajo stalni dostop</item>
+    </plurals>
+    <plurals name="privacy_permission_summary_allow">
+        <item quantity="other">Dovoljeno za %s aplikacij</item>
+        <item quantity="one">Dovoljeno za %s aplikacijo</item>
+        <item quantity="two">Dovoljeno za %s aplikacij</item>
+        <item quantity="few">Dovoljeno za %s aplikacij</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s-krat</item>
+        <item quantity="one">%s-krat</item>
+        <item quantity="two">%s-krat</item>
+        <item quantity="few">%s-krat</item>
+    </plurals>
+    <plurals name="privacy_revoke_dialog_positive_text_numbers_description">
+        <item quantity="other">Soglasje lahko umaknete čez %d sekunde</item>
+        <item quantity="one">Soglasje lahko umaknete čez %d sekundo</item>
+        <item quantity="two">Soglasje lahko umaknete čez %d sekunde</item>
+        <item quantity="few">Soglasje lahko umaknete čez %d sekunde</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">%d aplikacij</item>
+        <item quantity="one">%d aplikacija</item>
+        <item quantity="two">%d aplikaciji</item>
+        <item quantity="few">%d aplikacije</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">Dodeljenih je bilo %d dovoljenj visokega tveganja</item>
+        <item quantity="one">Dodeljeno je bilo %d dovoljenje visokega tveganja</item>
+        <item quantity="two">Dodeljeni sta bili %d dovoljenji visokega tveganja</item>
+        <item quantity="few">Dodeljena so bila %d dovoljenja visokega tveganja</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">Najdenih je bilo %d tveganih aplikacij</item>
+        <item quantity="one">Najdena je bila %d tvegana aplikacija</item>
+        <item quantity="two">Najdeni sta bili %d tvegani aplikaciji</item>
+        <item quantity="few">Najdene so bile %d tvegane aplikacije</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">Zaznanih je bilo %d tveganj o razkrivanju podatkov lokacije</item>
+        <item quantity="one">Zaznano je bilo %d tveganje o razkrivanju podatkov lokacije</item>
+        <item quantity="two">Zaznani sta bili %d tveganji o razkrivanju podatkov lokacije</item>
+        <item quantity="few">Zaznana so bila %d tveganja o razkrivanju podatkov lokacije</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">Zaznanih %d tveganj</item>
+        <item quantity="one">Zaznano %d tveganje</item>
+        <item quantity="two">Zaznani %d tveganji</item>
+        <item quantity="few">Zaznana %d tveganja</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">Najdenih %d možnih tveganj</item>
+        <item quantity="one">Najdeno %d možno tveganje</item>
+        <item quantity="two">Najdeni %d možni tveganji</item>
+        <item quantity="few">Najdena %d možna tveganja</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">%d fotografij lahko vsebuje osebne ali občutljive podatke</item>
+        <item quantity="one">%d fotografija lahko vsebuje osebne ali občutljive podatke</item>
+        <item quantity="two">%d fotografiji lahko vsebujeta osebne ali občutljive podatke</item>
+        <item quantity="few">%d fotografije lahko vsebujejo osebne ali občutljive podatke</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">%d funkcij, ki varujejo vašo varnost je izklopljenih</item>
+        <item quantity="one">%d funkcija, ki varuje vašo varnost je izklopljena</item>
+        <item quantity="two">%d funkciji, ki varujeta vašo varnost sta izklopljeni</item>
+        <item quantity="few">%d funkcije, ki varujejo vašo varnost so izklopljene</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">Dodeljenih je bilo %d občutljivih dovoljenj</item>
+        <item quantity="one">Dodeljeno je bilo %d občutljivo dovoljenje</item>
+        <item quantity="two">Dodeljeni sta bili %d občutljivi dovoljenji</item>
+        <item quantity="few">Dodeljena so bila %d občutljiva dovoljenja</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">Odstranite %d aplikacij</item>
+        <item quantity="one">Odstranite %d aplikacijo</item>
+        <item quantity="two">Odstranite %d aplikaciji</item>
+        <item quantity="few">Odstranite %d aplikacije</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">%d elementov zahteva dodatno zaščito</item>
+        <item quantity="one">%d element zahteva dodatno zaščito</item>
+        <item quantity="two">%d elementa zahtevata dodatno zaščito</item>
+        <item quantity="few">%d elementi zahtevajo dodatno zaščito</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_count">
+        <item quantity="other">%d težav z baterijo</item>
+        <item quantity="one">%d težava z baterijo</item>
+        <item quantity="two">%d težavi z baterijo</item>
+        <item quantity="few">%d težave z baterijo</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_found">
+        <item quantity="other">Najdenih %d težav z baterijo</item>
+        <item quantity="one">Najdena %d težava z baterijo</item>
+        <item quantity="two">Najdeni %d težavi z baterijo</item>
+        <item quantity="few">Najdene %d težave z baterijo</item>
+    </plurals>
+    <plurals name="quick_optimize_suggest_issue_found">
+        <item quantity="other">Najdenih %d težav z baterijo, popravi jih</item>
+        <item quantity="one">Najdena %d težava z baterijo, popravi jo</item>
+        <item quantity="two">Najdeni %d težavi z baterijo, popravi ju</item>
+        <item quantity="few">Najdene %d težave z baterijo, popravi jih</item>
+    </plurals>
+    <plurals name="quick_optimize_summary_text">
+        <item quantity="other">Optimiziranih %d elementov z visoko porabo energije</item>
+        <item quantity="one">Optimiziran %d element z visoko porabo energije</item>
+        <item quantity="two">Optimizirana %d elementa z visoko porabo energije</item>
+        <item quantity="few">Optimizirani %d elementi z visoko porabo energije</item>
+    </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">Tovarniška ponastavitev (%d s)</item>
+        <item quantity="one">Tovarniška ponastavitev (%d s)</item>
+        <item quantity="two">Tovarniška ponastavitev (%d s)</item>
+        <item quantity="few">Tovarniška ponastavitev (%d s)</item>
+    </plurals>
+    <plurals name="section_clear_acc_item_right_tips">
+        <item quantity="other">%d zaklenjenih aplikacij čaka na brisanje</item>
+        <item quantity="one">%d zaklenjena aplikacija čaka na brisanje</item>
+        <item quantity="two">%d zaklenjeni aplikaciji čakata na brisanje</item>
+        <item quantity="few">%d zaklenjene aplikacije čakajo na brisanje</item>
+    </plurals>
+    <plurals name="section_security_defend_item_right_tips">
+        <item quantity="other">Deleted %d viruses</item>
+        <item quantity="one">Deleted %d virus</item>
+        <item quantity="two">Deleted %d viruses</item>
+        <item quantity="few">Deleted %d viruses</item>
+    </plurals>
+    <plurals name="storage_compact_warning">
+        <item quantity="other">Urejanje %1$d dovoljenj</item>
+        <item quantity="one">Urejanje %1$d dovoljenja</item>
+        <item quantity="two">Urejanje %1$d dovoljenj</item>
+        <item quantity="few">Urejanje %1$d dovoljenj</item>
+    </plurals>
+    <plurals name="storage_fbo_btn_result_time">
+        <item quantity="other">Preostalih %1$d min</item>
+        <item quantity="one">Preostala %1$d min</item>
+        <item quantity="two">Preostalih %1$d min</item>
+        <item quantity="few">Preostalih %1$d min</item>
+    </plurals>
+    <plurals name="storage_fbo_finish_tip">
+        <item quantity="other">Defragmentiranje je končano. Organiziranih je %1$d fragmentov.</item>
+        <item quantity="one">Defragmentiranje je končano. Organiziran je %1$d fragment.</item>
+        <item quantity="two">Defragmentiranje je končano. Organiziranih je %1$d fragmentov.</item>
+        <item quantity="few">Defragmentiranje je končano. Organiziranih je %1$d fragmentov.</item>
+    </plurals>
+    <plurals name="storage_fbo_notification_finish_content">
+        <item quantity="other">Organiziranih %1$d fragmentov</item>
+        <item quantity="one">Organiziran %1$d fragment</item>
+        <item quantity="two">Organiziranih %1$d fragmentov</item>
+        <item quantity="few">Organiziranih %1$d fragmentov</item>
+    </plurals>
+    <plurals name="storage_fbo_number_unit">
+        <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragments</item>
+        <item quantity="one">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragment</item>
+        <item quantity="two">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragments</item>
+        <item quantity="few">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragments</item>
+    </plurals>
+    <plurals name="storage_ufs_number">
+        <item quantity="other">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+        <item quantity="one">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+        <item quantity="two">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+        <item quantity="few">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+    </plurals>
+    <plurals name="summary_app_update">
+        <item quantity="other">Posodobitev je na voljo za %d aplikacij.</item>
+        <item quantity="one">Posodobitev je na voljo za %d aplikacijo.</item>
+        <item quantity="two">Posodobitev je na voljo za %d aplikaciji.</item>
+        <item quantity="few">Posodobitev je na voljo za %d aplikacije.</item>
+    </plurals>
+    <plurals name="summary_flow_verify">
+        <item quantity="other">Statistika porabe podatkov operaterja ni bila sinhronizirana že %d dni</item>
+        <item quantity="one">Statistika porabe podatkov operaterja ni bila sinhronizirana že %d dan</item>
+        <item quantity="two">Statistika porabe podatkov operaterja ni bila sinhronizirana že %d dni</item>
+        <item quantity="few">Statistika porabe podatkov operaterja ni bila sinhronizirana že %d dni</item>
+    </plurals>
+    <plurals name="system_anti_fraud_dialog_countdown_unit">
+        <item quantity="other">(%d s)</item>
+        <item quantity="one">(%d s)</item>
+        <item quantity="two">(%d s)</item>
+        <item quantity="few">(%d s)</item>
+    </plurals>
+    <plurals name="system_check_content">
+        <item quantity="other">%1$d elementov je zavarovanih</item>
+        <item quantity="one">%1$d element je zavarovan</item>
+        <item quantity="two">%1$d elementa sta zavarovana</item>
+        <item quantity="few">%1$d elementi so zavarovani</item>
+    </plurals>
+    <plurals name="title_app_update_cn">
+        <item quantity="other">&lt;Data>Posodobi &lt;font color=#F22424>%d&lt;/font> aplikacij&lt;/Data></item>
+        <item quantity="one">&lt;Data>Posodobi &lt;font color=#F22424>%d&lt;/font> aplikacijo&lt;/Data></item>
+        <item quantity="two">&lt;Data>Posodobi &lt;font color=#F22424>%d&lt;/font> aplikacij&lt;/Data></item>
+        <item quantity="few">&lt;Data>Posodobi &lt;font color=#F22424>%d&lt;/font> aplikacij&lt;/Data></item>
+    </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">Odstranjenih %d virusov</item>
+        <item quantity="one">Odstranjen %d virus</item>
+        <item quantity="two">Odstranjena %d virusa</item>
+        <item quantity="few">Odstranjeni %d virusi</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">%d virusov ali tveganih aplikacij</item>
+        <item quantity="one">%d virus ali tvegana aplikacija</item>
+        <item quantity="two">%d virusov ali tveganih aplikacij</item>
+        <item quantity="few">%d virusov ali tveganih aplikacij</item>
+    </plurals>
+    <plurals name="uninstall_game_count_title">
+        <item quantity="other">%d iger ni bilo dodanih</item>
+        <item quantity="one">%d igra ni bila dodana</item>
+        <item quantity="two">%d igri nista bili dodani</item>
+        <item quantity="few">%d igre niso bile dodane</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">Povežite vsaj %s pik</item>
+        <item quantity="one">Povežite vsaj %s piko</item>
+        <item quantity="two">Povežite vsaj %s pik</item>
+        <item quantity="few">Povežite vsaj %s pik</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">Vnesite %s številk</item>
+        <item quantity="one">Vnesite %s številko</item>
+        <item quantity="two">Vnesite %s številki</item>
+        <item quantity="few">Vnesite %s številke</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_hour">
+        <item quantity="other">%dur</item>
+        <item quantity="one">%dur</item>
+        <item quantity="two">%dur</item>
+        <item quantity="few">%dur</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_minute">
+        <item quantity="other">%dmin</item>
+        <item quantity="one">%dmin</item>
+        <item quantity="two">%dmin</item>
+        <item quantity="few">%dmin</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">%d aplikacij</item>
+        <item quantity="one">%d aplikacija</item>
+        <item quantity="two">%d aplikaciji</item>
+        <item quantity="few">%d aplikacije</item>
+    </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"Že %d ur gledate videoposnetke.
+Vzemite si odmor!"</item>
+        <item quantity="one">"Že %d uro gledate videoposnetke.
+Vzemite si odmor!"</item>
+        <item quantity="two">"Že %d uri gledate videoposnetke.
+Vzemite si odmor!"</item>
+        <item quantity="few">"Že %d ure gledate videoposnetke.
+Vzemite si odmor!"</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$d ogledov</item>
+        <item quantity="one">%1$d ogled</item>
+        <item quantity="two">%1$d ogleda</item>
+        <item quantity="few">%1$d ogledi</item>
+    </plurals>
+    <plurals name="wakepath_allow_start_app_count">
+        <item quantity="other">%s apps</item>
+        <item quantity="one">%s app</item>
+        <item quantity="two">%s apps</item>
+        <item quantity="few">%s apps</item>
+    </plurals>
+    <plurals name="white_list_risk_app_header">
+        <item quantity="other">Nevarnih aplikacij: %d</item>
+        <item quantity="one">Nevarna aplikacija: %d</item>
+        <item quantity="two">Nevarni aplikaciji: %d</item>
+        <item quantity="few">Nevarne aplikacije: %d</item>
+    </plurals>
+    <plurals name="white_list_trojan_header">
+        <item quantity="other">Trojancev: %d</item>
+        <item quantity="one">Trojanec: %d</item>
+        <item quantity="two">Trojanca: %d</item>
+        <item quantity="few">Trojanci: %d</item>
     </plurals>
 </resources>

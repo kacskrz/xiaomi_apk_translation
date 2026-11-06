@@ -1,7 +1,817 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="add_game_notification_title">
+        <item quantity="other">%d ጨዋታዎች ታክለዋል</item>
+        <item quantity="one">%d ጨዋታ ታክሏል</item>
+    </plurals>
+    <plurals name="added_apps_count">
+        <item quantity="other">%d መተግበሪያዎች ታክለዋል</item>
+        <item quantity="one">%d መተግበሪያ ታክሏል</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_title_desc">
+        <item quantity="other">%d መተግበሪያዎች</item>
+        <item quantity="one">%d መተግበሪያ</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_total_usage_item">
+        <item quantity="other">%d መተግበሪያዎች</item>
+        <item quantity="one">%d መተግበሪያ</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">በ%1$s እና %2$s መካከል ለ%3$d ጊዜያት ተፈቅዷል</item>
+        <item quantity="one">በ%1$s እና %2$s መካከል ለ%3$d ጊዜ ተፈቅዷል</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">ለ%1$d ደቂቃዎች ጥቅም ላይ ውሏል</item>
+        <item quantity="one">ለ%1$d ደቂቃ ጥቅም ላይ ውሏል</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">ለ%1$d ደቂቃዎች እስከ %2$s ድረስ ጥቅም ላይ ውሏል</item>
+        <item quantity="one">ለ%1$d ደቂቃ እስከ %2$s ድረስ ጥቅም ላይ ውሏል</item>
+    </plurals>
+    <plurals name="app_behavior_record_close_content_text">
+        <item quantity="other">የመተግበሪያ ባህሪ ቅጂዎች በዚህ መሣሪያ ላይ ለ%d ቀናት ይቀመጣሉ። ይህንን ባህሪ ማጥፋት ሁሉንም የመተግበሪያ ባህሪ ቅጂዎችን ይሰርዛል እና አይመከርም።</item>
+        <item quantity="one">የመተግበሪያ ባህሪ ቅጂዎች በዚህ መሣሪያ ላይ ለ%d ቀን ይቀመጣሉ። ይህንን ባህሪ ማጥፋት ሁሉንም የመተግበሪያ ባህሪ ቅጂዎችን ይሰርዛል እና አይመከርም።</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_accept">
+        <item quantity="other">%d ፈቃዶች ተፈቅደዋል</item>
+        <item quantity="one">%d ፈቃድ ተፈቀዷል</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_ask">
+        <item quantity="other">%d ፈቃዶችን ጠይቅ</item>
+        <item quantity="one">%d ፈቃድን ጠይቅ</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d ጊዜያት</item>
+        <item quantity="one">%d ጊዜ</item>
+    </plurals>
+    <plurals name="app_manager_uninstall_notify_summary">
+        <item quantity="other">%d መተግበሪያዎችን አራግፍ</item>
+        <item quantity="one">%d መተግበሪያን አራግፍ</item>
+    </plurals>
+    <plurals name="app_manager_updater_title">
+        <item quantity="other">%d መተግበሪያዎችን አዘምን</item>
+        <item quantity="one">%d መተግበሪያን አዘምን</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">%d ቀናት በፊት ጥቅም ላይ ውሏል</item>
+        <item quantity="one">%d ቀን በፊት ጥቅም ላይ ውሏል</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">%d ወራት በፊት ጥቅም ላይ ውሏል</item>
+        <item quantity="one">%d ወር በፊት ጥቅም ላይ ውሏል</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">%d ዓመታት በፊት ጥቅም ላይ ውሏል</item>
+        <item quantity="one">%d ዓመት በፊት ጥቅም ላይ ውሏል</item>
+    </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">መተግበሪያ መቆለፍያን ከ%1$s መተግበሪያዎች ጋር መጠቀም ይችላሉ</item>
+        <item quantity="one">መተግበሪያ መቆለፍያን ከ%1$s መተግበሪያ ጋር መጠቀም ይችላሉ</item>
+    </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">ቢያንስ %s መተግበሪያዎችን መጠበቅ ይችላሉ</item>
+        <item quantity="one">ቢያንስ %s መተግበሪያን መጠበቅ ይችላሉ</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s መተግበሪያዎች በመተግበሪያ መቆለፍያ ይጠበቃሉ</item>
+        <item quantity="one">%s መተግበሪያ በመተግበሪያ መቆለፍያ ይጠበቃል</item>
+    </plurals>
+    <plurals name="cache_check_content">
+        <item quantity="other">%d መተግበሪያዎች እየተጠበቁ ነው</item>
+        <item quantity="one">%d መተግበሪያ እየተጠበቀ ነው</item>
+    </plurals>
+    <plurals name="deep_clean_auto_memory_clean">
+        <item quantity="other">በ%1$d ደቂቃዎች ውስጥ</item>
+        <item quantity="one">በ%1$d ደቂቃ ውስጥ</item>
+    </plurals>
+    <plurals name="exit_dialog_scan_message_new">
+        <item quantity="other">የመሣሪያዎ የአፈጻጸም ነጥብ ከ%d ነጥቦች በታች ነው። አሁን ይሻሻል?</item>
+        <item quantity="one">የመሣሪያዎ የአፈጻጸም ነጥብ ከ%d ነጥብ በታች ነው። አሁን ይሻሻል?</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">በ%d ሰከንዶች በፍጥነት ወደፊት ያሳልፉ</item>
+        <item quantity="one">በ%d ሰከንዶች በፍጥነት ወደፊት ያሳልፉ</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">በ%d ሰከንዶች ወደኋላ ይመልሱ</item>
+        <item quantity="one">በ%d ሰከንዶች ወደኋላ ይመልሱ</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_hour">
+        <item quantity="other">%s ሰዓታት</item>
+        <item quantity="one">%s ሰዓት</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_minute">
+        <item quantity="other">%s ደቂቃ</item>
+        <item quantity="one">%s ደቂቃ</item>
+    </plurals>
+    <plurals name="find_applications">
+        <item quantity="other">በ%d መተግበሪያዎች መካከል ይፈልጉ</item>
+        <item quantity="one">ከ%d መተግበሪያ መካከል ይፈልጉ</item>
+    </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d ከግላዊነት ጋር የተያያዙ ስጋቶች</item>
+        <item quantity="one">%d ከግላዊነት ጋር የተያያዘ ስጋት</item>
+    </plurals>
+    <plurals name="first_aid_result_summary_exception">
+        <item quantity="other">%1$d ችግሮች ማሻሻልን ይፈልጋሉ</item>
+        <item quantity="one">%1$d ችግሩ ማሻሻልን ይፈልጋል</item>
+    </plurals>
+    <plurals name="found_apps_title">
+        <item quantity="other">%d መተግበሪያዎች ተገኝተዋል</item>
+        <item quantity="one">%d መተግበሪያ ተገኘቷል</item>
+    </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d ባህሪያት</item>
+        <item quantity="one">%d ባህሪ</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_link_message">
+        <item quantity="other">የጨዋታ ቱርቦ አባልነትዎ በ%d ቀናት ውስጥ ያበቃል።</item>
+        <item quantity="one">የጨዋታ ቱርቦ አባልነትዎ በ%d ቀን ውስጥ ያበቃል።</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_message">
+        <item quantity="other">የጨዋታ ቱርቦ አባልነትዎ በ%d ቀናት ውስጥ ያበቃል። እንከን የለሽ ጨዋታዎችን ለመደሰት አሁኑኑ ያድሱ።</item>
+        <item quantity="one">የጨዋታ ቱርቦ አባልነትዎ በ%d ቀን ውስጥ ያበቃል። እንከን የለሽ ጨዋታዎችን ለመደሰት አሁኑኑ ያድሱ።</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_minute_talkback">
+        <item quantity="other">%1$d ደቂቃዎች</item>
+        <item quantity="one">%1$d ደቂቃ</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_second_talkback">
+        <item quantity="other">%1$d ሰከንዶች</item>
+        <item quantity="one">%1$d ሰከንድ</item>
+    </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">%2$d ጨዋታዎችን (%1$sን ጨምሮ) አራግፉ</item>
+        <item quantity="one">%2$d ጨዋታን (%1$sን ጨምሮ) አራግፍ</item>
+    </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">ቁልፍ ቅጽበቶችን በራስ-ሰር ይቅዱ እና የክፍለ ጊዜ ጉልህ ነጥቦችን የያዙ ቪዲዮዎችን ያምንጩ። ከእያንዳንዱ የጨዋታ ክፍለ ጊዜ በኋላ በቋሚነት ለማስቀመጥ መምረጥ ይችላሉ። ያልተቀመጡ ቪዲዮዎች ከ%1$d ቀናትከ በኋላ በራስ-ሰር ይሰረዛሉ።</item>
+        <item quantity="one">ቁልፍ ቅጽበቶችን በራስ-ሰር ይቅዱ እና የክፍለ ጊዜ ጉልህ ነጥቦችን የያዙ ቪዲዮዎችን ያምንጩ። ከእያንዳንዱ የጨዋታ ክፍለ ጊዜ በኋላ በቋሚነት ለማስቀመጥ መምረጥ ይችላሉ። ያልተቀመጡ ቪዲዮዎች ከ%1$d ቀን በኋላ በራስ-ሰር ይሰረዛሉ።</item>
+    </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">%d የAI ቀረጻዎችን ወደ የጨዋታ ቱርቦ ተቀምጠዋል</item>
+        <item quantity="one">%d የAI ቀረጻን ወደ የጨዋታ ቱርቦ ተቀምጧል</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">%d ሰከንዶች</item>
+        <item quantity="one">%d ሰከንድ</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">በተከታታይ %d ቀናት ውስጥ ተጣርቷል</item>
+        <item quantity="one">በ%d ጊዜ ተጣርቷል</item>
+    </plurals>
+    <plurals name="gb_smart_battery_hrs">
+        <item quantity="other">%d ሰዓታት</item>
+        <item quantity="one">%d ሰዓት</item>
+    </plurals>
+    <plurals name="gb_smart_battery_min">
+        <item quantity="other">%d ደቂቃ</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="gb_vision_enhance_desc_detail_new">
+        <item quantity="other">"ማሳሰቢያ፦
+· ባትሪ ቆጣቢ ሲበራ ወይም መሣሪያዎ ከመጠን በላይ ሲሞቅ የተሻሻሉ ምስሎች አይገኙም።
+· የተሻሻለ የፍሬም መጠን ጨዋታዎ ቢያንስ %d ፍሬሞች በሰከንድ ለመታየት ሲዘጋጅ ምርጥ ውጤቶችን ያሳያል።"</item>
+        <item quantity="one">"ማሳሰቢያ፦
+· ባትሪ ቆጣቢ ሲበራ ወይም መሣሪያዎ ከመጠን በላይ ሲሞቅ የተሻሻሉ ምስሎች አይገኙም።
+· የተሻሻለ የፍሬም መጠን ጨዋታዎ ቢያንስ %d ፍሬም በሰከንድ ለመታየት ሲዘጋጅ ምርጥ ውጤቶችን ያሳያል።"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"የድምፅ መለወጫን አሁን ይሞክሩ
+ለ%d ቀን ነጻ የሙከራ ጊዜ ያግኙ!"</item>
+        <item quantity="one">"የድምፅ መለወጫን አሁን ይሞክሩ
+ለ%d ቀን ነጻ የሙከራ ጊዜ ያግኙ!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">የ%d-ቀን ነፃ ሙከራ መቀበል አልተቻለም</item>
+        <item quantity="one">የ%d-ቀን ነፃ ሙከራ መቀበል አልተቻለም</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">የ%d-ቀን ነፃ ሙከራ በተሳካ ሁኔታ ተቀብሏል</item>
+        <item quantity="one">የ%d-ቀን ነፃ ሙከራ በተሳካ ሁኔታ ተቀብሏል</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">%d -ቀን ነፃ ሙከራ ያግኙ</item>
+        <item quantity="one">%d -ቀን ነፃ ሙከራ ያግኙ</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"የደንበኝነት ምዝገባዎ አልቋል።
+አሁን ለ%d-ቀን ነጻ የሙከራ ጊዜ ማግኘት ይችላሉ!"</item>
+        <item quantity="one">"የደንበኝነት ምዝገባዎ አልቋል።
+አሁን ለ%d-ቀን ነጻ የሙከራ ጊዜ ማግኘት ይችላሉ!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">%d -ቀን ነፃ ሙከራ ያግኙ</item>
+        <item quantity="one">%d -ቀን ነፃ ሙከራ ያግኙ</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">እስከ %d መተግበሪያዎችን ያክሉ። እንደገና ለማስተካከል ይጫኑ እና ይያዙ።</item>
+        <item quantity="one">እስከ %d መተግበሪያ ያክሉ። እንደገና ለማስተካከል ይጫኑ እና ይያዙ።</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">ይህ ባህሪ ከ%d ደቂቃዎች እንቅስቃሴ-አልባነት በኋላ ኃይል ለመቆጠብ የማያ ገፁን ብሩህነት በራስ-ሰር ይቀንሳል። ይህን ባህሪ እንደበራ ይቆይ?</item>
+        <item quantity="one">ይህ ባህሪ ከ%d ደቂቃ እንቅስቃሴ-አልባነት በኋላ ኃይል ለመቆጠብ የማያ ገፁን ብሩህነት በራስ-ሰር ይቀንሳል። ይህን ባህሪ እንደበራ ይቆይ?</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">ከ%d ደቂቃዎች እንቅስቃሴ-አልባነት በኋላ ኃይል ለመቆጠብ የማያ ገፁን ብሩህነት በራስ-ሰር ይቀንሱ</item>
+        <item quantity="one">ከ%d ደቂቃ እንቅስቃሴ-አልባነት በኋላ ኃይል ለመቆጠብ የማያ ገፁን ብሩህነት በራስ-ሰር ይቀንሱ</item>
+    </plurals>
+    <plurals name="gtb_spring_festival_colored_egg">
+        <item quantity="other">እንኳን ደስ አለዎት! የ%s የፋሲካ እንቁላሎችን ከፍተዋል።።</item>
+        <item quantity="one">እንኳን ደስ አለዎት! የ%s የፋሲካ እንቁላልን ከፍተዋል።</item>
+    </plurals>
+    <plurals name="hide_txt_hint_with_blank_2">
+        <item quantity="other">    +%1$d ተጨማሪ ቁምፊዎች</item>
+        <item quantity="one">    +%1$d ተጨማሪ ቁምፊ</item>
+    </plurals>
+    <plurals name="hints_apps_perm_count">
+        <item quantity="other">%d ፈቃዶች</item>
+        <item quantity="one">%d ፈቃድ</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title">
+        <item quantity="other">%d መተግበሪያዎች ራስ ሰር ማስነሳት አይፈቀድላቸውም</item>
+        <item quantity="one">%d መተግበሪያ ራስ ሰር ማስነሳት አይፈቀድለትም</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title_global">
+        <item quantity="other">%d መተግበሪያዎች በስተጀርባ መጀመር አይፈቀድላቸውም</item>
+        <item quantity="one">%d መተግበሪያ በስተጀርባ መጀመር አይፈቀድለትም</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title">
+        <item quantity="other">%d መተግበሪያዎች ራስ ሰር ማስነሳት ይችላሉ</item>
+        <item quantity="one">%d መተግበሪያ ራስ ሰር ማስነሳት ይችላል</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title_global">
+        <item quantity="other">%d መተግበሪያዎች በስተጀርባ ሊጀምሩ ይችላሉ</item>
+        <item quantity="one">%d መተግበሪያ በስተጀርባ ሊጀምር ይችላል</item>
+    </plurals>
+    <plurals name="hints_get_root_disable_title">
+        <item quantity="other">%d መተግበሪያዎች የስርወ መዳረሻ የላቸውም</item>
+        <item quantity="one">%d መተግበሪያ የስርወ መዳረሻ የለውም</item>
+    </plurals>
+    <plurals name="hints_get_root_enable_title">
+        <item quantity="other">%d መተግበሪያዎች የስርወ መዳረሻ አላቸው</item>
+        <item quantity="one">%d መተግበሪያ የስርወ መዳረሻ አለው</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_risk_number">
+        <item quantity="other">%d አደጋዎች፣</item>
+        <item quantity="one">%d አደጋ፣</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_virus_number">
+        <item quantity="other">%d ትሮጃኖች</item>
+        <item quantity="one">%d ትሮጃን</item>
+    </plurals>
+    <plurals name="hints_permission_apps_count">
+        <item quantity="other">%d መተግበሪያዎች</item>
+        <item quantity="one">%d መተግበሪያ</item>
+    </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d ስጋቶች ተገኝተዋል</item>
+        <item quantity="one">%d ስጋት ተገኝቷል</item>
+    </plurals>
+    <plurals name="install_game_count_title">
+        <item quantity="other">%d ጨዋታዎች ታክለዋል</item>
+        <item quantity="one">%d ጨዋታ ታክሏል</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">%d ንጥሎች መጠበቅ ይችላሉ</item>
+        <item quantity="one">%d ንጥል መጠበቅ ይችላሉ</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%s ሰዓታት</item>
+        <item quantity="one">%s ሰዓት</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%s ደቂቃ</item>
+        <item quantity="one">%s ደቂቃ</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">ቢያንስ %d ነጥቦችን ያገናኙ</item>
+        <item quantity="one">ቢያንስ %d ነጥብ ያገናኙ</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">ቢያንስ %s ነጥቦችን ያገናኙ</item>
+        <item quantity="one">ቢያንስ %s ነጥብ ያገናኙ</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">"ለ%d ሰከንዶች ይጠብቁ እና እንደገና ይሞክሩ። "</item>
+        <item quantity="one">"ለ%d ሰከንድ ይጠብቁ እና እንደገና ይሞክሩ። "</item>
+    </plurals>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d መልዕክቶች እና ጥሪዎች ታግደዋል</item>
+        <item quantity="one">%d መልዕክት ወይም ጥሪ ታግዷል</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">መሳሪያው ለ%d ቀናት ስካን አልተደረገም</item>
+        <item quantity="one">መሳሪያው ለ%d ቀን ስካን አልተደረገም</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d መተግበሪያዎች ቫይረሶችን ወይም ማልዌር ይዘዋል</item>
+        <item quantity="one">%d መተግበሪያ ቫይረሶችን ወይም ማልዌር ይዟል</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">%d ዝማኔዎች ይገኛሉ</item>
+        <item quantity="one">%d ዝማኔ ይገኛል</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">ቢያንስ %d ባህሪያት አስገቡ</item>
+        <item quantity="one">ቢያንስ %d ባህሪ አስገባ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">የአውታረ መረብ ፍጥነት መጨመር ክፍለ ጊዜዎ በ%d ቀናት ውስጥ ያበቃል። የአውታረ መረብ መዘግየቶችን ማየት ሊጀምሩ ይችላሉ። ክፍለ ጊዜውን አሁን ይታደስ?</item>
+        <item quantity="one">የአውታረ መረብ ፍጥነት መጨመር ክፍለ ጊዜዎ በ%d ቀን ውስጥ ያበቃል። የአውታረ መረብ መዘግየቶችን ማየት ሊጀምሩ ይችላሉ። ክፍለ ጊዜውን አሁን ይታደስ?</item>
+    </plurals>
+    <plurals name="not_added_apps_count">
+        <item quantity="other">%d መተግበሪያዎች አልታከሉም</item>
+        <item quantity="one">%d መተግበሪያ አልታከለም</item>
+    </plurals>
+    <plurals name="notification_antivirus_title">
+        <item quantity="other">የደህንነት ስካኖች ሳይኖሩ %d ቀናት</item>
+        <item quantity="one">የደህንነት ስካኖች ሳይኖሩ %d ቀን</item>
+    </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">ባለፉት %1$d ደቂቃዎች ውስጥ %2$d%% የሚሆነውን ባትሪ ተሟጧል</item>
+        <item quantity="one">ባለፉት %1$d ደቂቃ ውስጥ %2$d%% የሚሆነውን ባትሪ ተሟጧል</item>
+    </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%2$d መተግበሪያዎች፣ %1$s ጨምሮ፣ ባትሪውን እያሟጠጡ ናቸው</item>
+        <item quantity="one">%2$d መተግበሪያ፣ %1$s ጨምሮ፣ ባትሪውን እያሟጠጠ ነው</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Delete %d installation packages</item>
+        <item quantity="one">Delete %d installation package</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">ከ%d ቀሪ መተግበሪያዎች</item>
+        <item quantity="one">ከ%d ቀሪ መተግበሪያን ይሰርዙ</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d ከፍተኛ የኃይል ፍጆታ ያላቸው ንጥሎች</item>
+        <item quantity="one">%d ከፍተኛ የኃይል ፍጆታ ያለው ንጥል</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">ባትሪን ለማስቀመጥ %d ንጥሎችን ያሻሽሉ</item>
+        <item quantity="one">ባትሪን ለማስቀመጥ %d ንጥልን ያሻሽሉ</item>
+    </plurals>
+    <plurals name="notification_title_cmcc_app_check">
+        <item quantity="other">ለመጨረሻ ጊዜ ምርመራ ከተደረገ %d ቀናት</item>
+        <item quantity="one">ለመጨረሻ ጊዜ ምርመራ ከተደረገ %d ቀን</item>
+    </plurals>
+    <plurals name="number_locked">
+        <item quantity="other">%d መተግበሪያዎች ተቆለፉ</item>
+        <item quantity="one">%d መተግበሪያ መቆለፍያ</item>
+    </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d መተግበሪያዎች</item>
+        <item quantity="one">%d መተግበሪያ</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">%d ማሳወቂያዎች ተደብቀዋል</item>
+        <item quantity="one">%d ማሳወቂያ ተደብቋል</item>
+    </plurals>
+    <plurals name="number_to_lock">
+        <item quantity="other">%d መተግበሪያዎች አልተቆልፉም</item>
+        <item quantity="one">%d መተግበሪያ አልተቆልፈም</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">%d ማሳወቂያዎች ይታያሉ</item>
+        <item quantity="one">%d ማሳወቂያ ይታያል</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">ቢያንስ %d አሃዞችን አስገቡ</item>
+        <item quantity="one">ቢያንስ %d አሃዝ አስገቡ</item>
+    </plurals>
+    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
+        <item quantity="other">%1$sን ጨምሮ %2$d መተግበሪያዎች ተንኮል አዘል ሊሆኑ ይችላሉ</item>
+        <item quantity="one">%1$sን ጨምሮ የ%2$d መተግበሪያ ተንኮል አዘል ሊሆን ይችላል</item>
+    </plurals>
+    <plurals name="optimize_result_button_add_score">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+%d</item>
+    </plurals>
     <plurals name="payment_intercept_continue_countdown">
         <item quantity="other">ቀጥል (%1$d)</item>
         <item quantity="one">ቀጥል (%1$d)</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d መተግበሪያዎች ባትሪውን እያሟጠጡ ናቸው</item>
+        <item quantity="one">%d መተግበሪያው ባትሪውን እያሟጠጠ ነው</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_hour">
+        <item quantity="other">%d ሰዓታት</item>
+        <item quantity="one">%d ሰዓት</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_minute">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">" ሰዓታት"</item>
+        <item quantity="one">" ሰዓት"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">" ደቂቃዎች"</item>
+        <item quantity="one">" ደቂቃ"</item>
+    </plurals>
+    <plurals name="pc_battery_replacement_service_day">
+        <item quantity="other">%d-ቀን</item>
+        <item quantity="one">%d-ቀን</item>
+    </plurals>
+    <plurals name="pc_can_be_optimize_numbers">
+        <item quantity="other">%d ንጥሎች</item>
+        <item quantity="one">%d ንጥል</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title">
+        <item quantity="other">የመሣሪያዎ ባትሪ አልቋል። ከ%1$d ሰከንዶች በኋላ ወደ ሃይል ቆጣቢ ሁነታ በመግባት ላይ።</item>
+        <item quantity="one">የመሣሪያዎ ባትሪ አልቋል። ከ%1$d ሰከንድ በኋላ ወደ ሃይል ቆጣቢ ሁነታ በመግባት ላይ።</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title_new">
+        <item quantity="other">ባትሪው ዝቅተኛ ነው። መሳሪያዎ ከ%1$d ሰከንዶች በኋላ ወደ ሃይል ቆጣቢ ሁነታ ይገባል። አፈጻጸም እና የሲግናል ጥንካሬ በትንሹ ሊቀንስ ይችላል።</item>
+        <item quantity="one">ባትሪው ዝቅተኛ ነው። መሳሪያዎ ከ%1$d ሰከንድ በኋላ ወደ ሃይል ቆጣቢ ሁነታ ይገባል። አፈጻጸም እና የሲግናል ጥንካሬ በትንሹ ሊቀንስ ይችላል።</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s ቀናት</item>
+        <item quantity="one">%s ቀን</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s ሰዓታት</item>
+        <item quantity="one">%s ሰዓት</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s ደቂቃ</item>
+        <item quantity="one">%s ደቂቃ</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">ሙሉ በሙሉ እስኪሞላ %s ቀናት ይቀራል</item>
+        <item quantity="one">ሙሉ በሙሉ እስኪሞላ %s ቀን ይቀራል</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">ሙሉ በሙሉ እስኪሞላ %s ሰዓታት ይቀራል</item>
+        <item quantity="one">ሙሉ በሙሉ እስኪሞላ %s ሰ ይቀራል</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">ሙሉ በሙሉ እስኪሞላ %s ደቂቃዎች ይቀራል</item>
+        <item quantity="one">ሙሉ በሙሉ እስኪሞላ %s ደቂቃ ይቀራል</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">%s ቀናት ቀርተዋል</item>
+        <item quantity="one">%s ቀን ቀርቷል</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">%s ሰዓታት ቀርተዋል</item>
+        <item quantity="one">%s ሰዓት ቀርቷል</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">%s ደቂቃዎች ቀርተዋል</item>
+        <item quantity="one">%s ደቂቃ ቀርቷል</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">%d ሰዓታት ቀርተዋል</item>
+        <item quantity="one">%d ሰዓት ቀርቷል</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">%d ደቂቃዎች ቀርተዋል</item>
+        <item quantity="one">%d ደቂቃ ቀርቷል</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">%d ደቂቃዎች ከመጨረሻው ኃይል መሙላት በኋላ</item>
+        <item quantity="one">%d ደቂቃ ከመጨረሻው ኃይል መሙላት በኋላ</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">%d ሰከንዶች ከመጨረሻው ኃይል መሙላት በኋላ</item>
+        <item quantity="one">%d ሰከንድ ከመጨረሻው ኃይል መሙላት በኋላ</item>
+    </plurals>
+    <plurals name="power_20s_shutdown">
+        <item quantity="other">መሣሪያዎ በ%d ሰከንዶች ውስጥ ይጠፋል</item>
+        <item quantity="one">መሣሪያዎ በ%d ሰከንድ ውስጥ ይጠፋል</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s ሰዓታት</item>
+        <item quantity="one">%s ሰዓት</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s ደቂቃ</item>
+        <item quantity="one">%s ደቂቃ</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">ጊዜያት</item>
+        <item quantity="one">ሰዓት</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number_new">
+        <item quantity="other">%d ጊዜያት</item>
+        <item quantity="one">%d ጊዜ</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d ከፍተኛ የኃይል ፍጆታ ያላቸው ንጥሎች</item>
+        <item quantity="one">%d ከፍተኛ የኃይል ፍጆታ ያለው ንጥል</item>
+    </plurals>
+    <plurals name="power_center_battery_day">
+        <item quantity="other">"%d ቀናት "</item>
+        <item quantity="one">"%d ቀን "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" ሰዓታት"</item>
+        <item quantity="one">" ሰዓት"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" ደቂቃዎች"</item>
+        <item quantity="one">" ደቂቃ"</item>
+    </plurals>
+    <plurals name="power_center_battery_hour">
+        <item quantity="other">"%d ሰዓት "</item>
+        <item quantity="one">"%d ሰዓት "</item>
+    </plurals>
+    <plurals name="power_center_battery_minute">
+        <item quantity="other">"%d ደቂቃ "</item>
+        <item quantity="one">"%d ደቂቃ "</item>
+    </plurals>
+    <plurals name="power_center_battery_optimization">
+        <item quantity="other">በ%d ሁኔታዎች ውስጥ የባትሪ አጠቃቀምን ያመቻቹ</item>
+        <item quantity="one">በ%d ሁኔታ ውስጥ የባትሪ አጠቃቀምን ያመቻቹ</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">%d የባትሪ አጠቃቀም ችግሮችን ያስተካክሉ</item>
+        <item quantity="one">%d የባትሪ አጠቃቀም ችግርን ያስተካክሉ</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">እርስዎ ለ%d ንጥሎች የኃይል ፍጆታን ማሻሻል ይችላሉ</item>
+        <item quantity="one">እርስዎ ለ%d ንጥል የኃይል ፍጆታን ማሻሻል ይችላሉ</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d ንጥሎች ሊሻሻሉ ይችላሉ"</item>
+        <item quantity="one">" %d ንጥል ሊሻሻል ይችላል"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">ባትሪን ለማስቀመጥ %d ንጥሎችን ያሻሽሉ</item>
+        <item quantity="one">ባትሪን ለማስቀመጥ %d ንጥልን ያሻሽሉ</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">ባትሪን ለመቆጠብ %d ንጥሎች ማሻሻል ይችላሉ</item>
+        <item quantity="one">ባትሪን ለመቆጠብ %d ንጥል ማሻሻል ይችላሉ</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+    </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">%d ደቂቃዎችን አክል</item>
+        <item quantity="one">%d ደቂቃን አክል</item>
+    </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">ንጥሎች</item>
+        <item quantity="one">ንጥል</item>
+    </plurals>
+    <plurals name="power_center_unoffical_battery_dialog_negative">
+        <item quantity="other">ይቅር (%dሰ)</item>
+        <item quantity="one">ይቅር (%dሰ)</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">%s ቀናት ቀርተዋል</item>
+        <item quantity="one">%s ቀን ቀርቷል</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">%s ሰዓታት ቀርተዋል</item>
+        <item quantity="one">%s ሰዓት ቀርቷል</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">%s ደቂቃዎች ቀርተዋል</item>
+        <item quantity="one">%s ደቂቃ ቀርቷል</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">%s ደቂቃዎች የማያ ገፅ ጊዜ ይቀራል</item>
+        <item quantity="one">%s ደቂቃ የማያ ገፅ ጊዜ ይቀራል</item>
+    </plurals>
+    <plurals name="power_main_open_last_minute_screen_on">
+        <item quantity="other">ለ%s ደቂቃዎች የማያ ገፅ ጊዜ ለማከል ያብሩ</item>
+        <item quantity="one">ለ%s ደቂቃ የማያ ገፅ ጊዜ ለማከል ያብሩ</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">ገብቶኛል (%d)</item>
+        <item quantity="one">ገብቶኛል (%d)</item>
+    </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">ገብቶኛል (%dሰ)</item>
+        <item quantity="one">ገብቶኛል (%dሰ)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">መሣሪያዎ በ%d ሰከንዶች ውስጥ ይዘጋል። ኃይል መሙያን ያገናኙ።</item>
+        <item quantity="one">መሣሪያዎ በ%d ሰከንድ ውስጥ ይዘጋል። ኃይል መሙያን ያገናኙ።</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d መተግበሪያዎች በተደጋጋሚ በራስ ሰር ይነሳሉ</item>
+        <item quantity="one">%d መተግበሪያ በተደጋጋሚ በራስ ሰር ይነሳል</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d መተግበሪያዎች ባትሪን ያሟጥጣሉ</item>
+        <item quantity="one">%d መተግበሪያ ባትሪን ያሟጥጣል</item>
+    </plurals>
+    <plurals name="privacy_apps_disable_header_title">
+        <item quantity="other">%d የመተግበሪያ አዶዎች ተደብቀዋል</item>
+        <item quantity="one">%d የመተግበሪያ አዶ ተደብቋል</item>
+    </plurals>
+    <plurals name="privacy_apps_enable_header_title">
+        <item quantity="other">%d የመተግበሪያ አዶዎች አልተደበቁም</item>
+        <item quantity="one">%d የመተግበሪያ አዶ አልተደበቀም</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">%s መተግበሪያዎች ቋሚ መዳረሻ አላቸው</item>
+        <item quantity="one">%s መተግበሪያ ቋሚ መዳረሻ አለው</item>
+    </plurals>
+    <plurals name="privacy_permission_summary_allow">
+        <item quantity="other">ለ%s መተግበሪያዎች ተፈቅዷል</item>
+        <item quantity="one">ለ%s መተግበሪያ ተፈቅዷል</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s ጊዜያት</item>
+        <item quantity="one">%s ጊዜ</item>
+    </plurals>
+    <plurals name="privacy_revoke_dialog_positive_text_numbers_description">
+        <item quantity="other">በ%d ሰከንዶች ውስጥ ስምምነትን ማቋረጥ ይችላሉ</item>
+        <item quantity="one">በ%d ሰከንድ ውስጥ ስምምነትን ማቋረጥ ይችላሉ</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">%d መተግበሪያዎች</item>
+        <item quantity="one">%d መተግበሪያ</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">%d ከፍተኛ ስጋት ያላቸው ፈቃዶች ተሰጥተዋል</item>
+        <item quantity="one">%d ከፍተኛ ስጋት ያለው ፈቃድ ተሰጥቷል</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">%d ስጋት ያላቸው መተግበሪያዎች ተገኝተዋል</item>
+        <item quantity="one">%d ስጋት ያለው መተግበሪያ ተገኝቷል</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">%d የቦታ መረጃን ይፋ የማድረግ ስጋቶች ተለይተዋል</item>
+        <item quantity="one">%d የቦታ መረጃን ይፋ የማድረግ ስጋት ተለይቷል</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">%d ስጋቶች ተገኝተዋል</item>
+        <item quantity="one">%d ስጋት ተገኝቷል</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">%d ሊሆኑ የሚችሉ ስጋቶች ተገኝተዋል</item>
+        <item quantity="one">%d ሊሆን የሚችል ስጋት ተገኝቷል</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">%d ፎቶዎቹ የግል ወይም ጥንቃቄ የሚፈልግ መረጃን ሊይዙ ይችላሉ</item>
+        <item quantity="one">%d ፎቶው የግል ወይም ጥንቃቄ የሚፈልግ መረጃን ሊይዝ ይችላል</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">%d ግላዊነትዎን የሚጠብቁ ባህሪያት ጠፍተዋል</item>
+        <item quantity="one">%d ግላዊነትዎን የሚጠብቅ ባህሪ ጠፍቷል</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">%d ጥንቃቄ የሚፈልጉ ፍቃዶች ተሰጥተዋል</item>
+        <item quantity="one">%d ጥንቃቄ የሚፈልግ ፈቃድ ተሰጥቷል</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">%d መተግበሪያዎችን አራግፍ</item>
+        <item quantity="one">%d መተግበሪያን አራግፍ</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">%d ንጥሎች ተጨማሪ ጥበቃ ያስፈልጋቸዋል</item>
+        <item quantity="one">%d ንጥሉ ተጨማሪ ጥበቃ ያስፈልገዋል</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_count">
+        <item quantity="other">%d የባትሪ ችግሮች</item>
+        <item quantity="one">%d የባትሪ ችግር</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_found">
+        <item quantity="other">%d የባትሪ ችግሮች ተገኝተዋል</item>
+        <item quantity="one">%d የባትሪ ችግር ተገኝቷል</item>
+    </plurals>
+    <plurals name="quick_optimize_suggest_issue_found">
+        <item quantity="other">%d የባትሪ ችግሮች ተገኝተዋል፣ ያስተካክሏቸው</item>
+        <item quantity="one">%d የባትሪ ችግር ተገኝቷል፣ ያስተካክሉት</item>
+    </plurals>
+    <plurals name="quick_optimize_summary_text">
+        <item quantity="other">ከፍተኛ የኃይል ፍጆታ ያላቸው %d ንጥሎች ተሻሽለዋል</item>
+        <item quantity="one">ከፍተኛ የኃይል ፍጆታ ያለው %d ንጥል ተሻሽሏል</item>
+    </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">የፋብሪካ ዳግም ማስጀመር (%dሰ)</item>
+        <item quantity="one">የፋብሪካ ዳግም ማስጀመር (%dሰ)</item>
+    </plurals>
+    <plurals name="section_clear_acc_item_right_tips">
+        <item quantity="other">%d የተቆለፉ መተግበሪያዎች እንዲጸዱ እየተጠባበቁ ነው</item>
+        <item quantity="one">%d የተቆለፈ መተግበሪያ እንዲጸዳ እየተጠባበቀ ነው</item>
+    </plurals>
+    <plurals name="section_security_defend_item_right_tips">
+        <item quantity="other">%d ቫይረሶች ተሰርተዋል</item>
+        <item quantity="one">%d ቫይረስ ተሰርዟል</item>
+    </plurals>
+    <plurals name="storage_compact_warning">
+        <item quantity="other">%1$d ፈቃዶችን ማርትዕ</item>
+        <item quantity="one">%1$d ፈቃድን ማርትዕ</item>
+    </plurals>
+    <plurals name="storage_fbo_btn_result_time">
+        <item quantity="other">%1$d ደቂቃዎች ቀርተዋል</item>
+        <item quantity="one">%1$d ደቂቃ ይቀራል</item>
+    </plurals>
+    <plurals name="storage_fbo_finish_tip">
+        <item quantity="other">የማሰባሰብ ሂደት ተጠናቋል። የተደራጀ %1$d መበታተኖች።</item>
+        <item quantity="one">የማሰባሰብ ሂደት ተጠናቋል። የተደራጀ %1$d መበታተን።</item>
+    </plurals>
+    <plurals name="storage_fbo_notification_finish_content">
+        <item quantity="other">የተደራጀ %1$d መበታተኖች</item>
+        <item quantity="one">የተደራጀ %1$d መበታተን</item>
+    </plurals>
+    <plurals name="storage_fbo_number_unit">
+        <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragments</item>
+        <item quantity="one">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragment</item>
+    </plurals>
+    <plurals name="storage_ufs_number">
+        <item quantity="other">&lt;big>&lt;big>%s&lt;/big>&lt;/big> ጊባ</item>
+        <item quantity="one">&lt;big>&lt;big>%s&lt;/big>&lt;/big> ጊባ</item>
+    </plurals>
+    <plurals name="summary_app_update">
+        <item quantity="other">ለ%d መተግበርያዎች ዝማኔዎች ይገኛሉ።</item>
+        <item quantity="one">ለ%d መተግበሪያ ዝማኔ ይገኛል።</item>
+    </plurals>
+    <plurals name="summary_flow_verify">
+        <item quantity="other">የአገልግሎት አቅራቢው የዳታ አጠቃቀም ስታቲስቲክስ ለ%d ቀናት አልተዋሃደም</item>
+        <item quantity="one">የአገልግሎት አቅራቢው የዳታ አጠቃቀም ስታቲስቲክስ ለ%d ቀን አልተዋሃደም</item>
+    </plurals>
+    <plurals name="system_anti_fraud_dialog_countdown_unit">
+        <item quantity="other">(%d ሰ)</item>
+        <item quantity="one">(%d ሰ)</item>
+    </plurals>
+    <plurals name="system_check_content">
+        <item quantity="other">%1$d ንጥሎች ደህንነታቸው የተጠበቀ ነው</item>
+        <item quantity="one">%1$d ንጥል ደህንነቱ የተጠበቀ ነው</item>
+    </plurals>
+    <plurals name="title_app_update_cn">
+        <item quantity="other">&lt;Data>አዘምን &lt;font color=#F22424>%d&lt;/font> መተግበርያዎች&lt;/Data></item>
+        <item quantity="one">&lt;Data>አዘምን &lt;font color=#F22424>%d&lt;/font> መተግበርያ&lt;/Data></item>
+    </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">%d ቫይረሶች ጽድተዋል</item>
+        <item quantity="one">%d ቫይረስ ጽድቷል</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">%d ቫይረሶች ወይም አደገኛ መተግበሪያዎች</item>
+        <item quantity="one">%d ቫይረስ ወይም አደገኛ መተግበሪያ</item>
+    </plurals>
+    <plurals name="uninstall_game_count_title">
+        <item quantity="other">%d ጨዋታዎች አልታከሉም</item>
+        <item quantity="one">%d ጨዋታ አልታከለም</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">ቢያንስ %s ነጥቦችን ያገናኙ</item>
+        <item quantity="one">ቢያንስ %s ነጥብ ያገናኙ</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">%s አሃዞችን አስገባ</item>
+        <item quantity="one">%s አሃዝ አስገባ</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_hour">
+        <item quantity="other">%dሰ</item>
+        <item quantity="one">%dሰ</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_minute">
+        <item quantity="other">%dደ</item>
+        <item quantity="one">%dደ</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">%d መተግበሪያዎች</item>
+        <item quantity="one">%d መተግበሪያ</item>
+    </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"ቀድሞውኑ ለ%d ሰዓታት ቪዲዮዎችን እየተመለከቱ ነበር።
+እረፍት ይውሰዱ!"</item>
+        <item quantity="one">"ቀድሞውኑ ለ%d ሰዓት ቪዲዮዎችን እየተመለከቱ ነበር።
+እረፍት ይውሰዱ!"</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$d ምልከታዎች</item>
+        <item quantity="one">%1$d ምልከታ</item>
+    </plurals>
+    <plurals name="wakepath_allow_start_app_count">
+        <item quantity="other">%s መተግበሪያዎች</item>
+        <item quantity="one">%s መተግበሪያ</item>
+    </plurals>
+    <plurals name="white_list_risk_app_header">
+        <item quantity="other">አደገኛ መተግበሪያዎች፦ %d</item>
+        <item quantity="one">አደገኛ መተግበሪያ፦ %d</item>
+    </plurals>
+    <plurals name="white_list_trojan_header">
+        <item quantity="other">ትሮጃኖች፦ %d</item>
+        <item quantity="one">ትሮጃን፦ %d</item>
     </plurals>
 </resources>

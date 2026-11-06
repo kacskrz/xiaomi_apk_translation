@@ -1,7 +1,805 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="add_game_notification_title">
+        <item quantity="other">ක්‍රීඩා %d ක් එකතු කරන ලදී</item>
+        <item quantity="one">%d ක්‍රීඩාවක් එකතු කරන ලදී</item>
+    </plurals>
+    <plurals name="added_apps_count">
+        <item quantity="other">යෙදුම් %dක් එක් කරන ලදි</item>
+        <item quantity="one">%d යෙදුම එකතු කරන ලදී</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_title_desc">
+        <item quantity="other">යෙදුම් %dක්</item>
+        <item quantity="one">යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_total_usage_item">
+        <item quantity="other">යෙදුම් %dක්</item>
+        <item quantity="one">යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">%1$s සහ %2$s අතර %3$d වතාවක් අවසර දී ඇත</item>
+        <item quantity="one">%1$s සහ %2$s අතර %3$d වතාවක් අවසර දී ඇත</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">මිනිත්තු %1$dක් භාවිත කරන ලදී</item>
+        <item quantity="one">%1$d මිනිත්තුවක් භාවිත කරන ලදී</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">%2$s තෙක් මිනිත්තු %1$dක් භාවිත කරන ලදී</item>
+        <item quantity="one">%2$s තෙක් %1$d මිනිත්තුවක් භාවිත කරන ලදී</item>
+    </plurals>
+    <plurals name="app_behavior_record_close_content_text">
+        <item quantity="other">යෙදුම් හැසිරීම් වාර්තා මෙම උපාංගයේ දින %dක් ගබඩා කෙරේ. මෙම විශේෂාංගය ක්‍රියාවිරහිත කිරීමෙන් සියලුම යෙදුම් හැසිරීම් වාර්තා මැකෙනු ඇති අතර එය නිර්දේශ නොකරයි.</item>
+        <item quantity="one">යෙදුම් හැසිරීම් වාර්තා මෙම උපාංගයේ %d දිනක් ගබඩා කෙරේ. මෙම විශේෂාංගය ක්‍රියාවිරහිත කිරීමෙන් සියලුම යෙදුම් හැසිරීම් වාර්තා මැකෙනු ඇති අතර එය නිර්දේශ නොකරයි.</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_accept">
+        <item quantity="other">%d සඳහා අවසර දී ඇත</item>
+        <item quantity="one">අවසර %d කට ඉඩදෙනු ලැබේ</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_ask">
+        <item quantity="other">%d අවසර ඉල්ලන්න</item>
+        <item quantity="one">%d අවසරය ඉල්ලන්න</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d වතාවක්</item>
+        <item quantity="one">%d වතාවක්</item>
+    </plurals>
+    <plurals name="app_manager_uninstall_notify_summary">
+        <item quantity="other">යෙදුම් %dක් අස්ථාපනය කරන්න</item>
+        <item quantity="one">%d යෙදුමක් අස්ථාපනය කරන්න</item>
+    </plurals>
+    <plurals name="app_manager_updater_title">
+        <item quantity="other">%d යෙදුම් යාවත්කාලීන කරන්න</item>
+        <item quantity="one">%d යෙදුම යාවත්කාලීන කරන්න</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">දින %d පෙර භාවිත කරන ලදී</item>
+        <item quantity="one">දින %d පෙර භාවිත කරන ලදී</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">මාස %d කට පෙර භාවිත කරන ලදී</item>
+        <item quantity="one">%d මාසයකට පෙර භාවිත කරන ලදී</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">වසර %d කට පෙර භාවිත කරන ලදී</item>
+        <item quantity="one">%d වසරකට පෙර භාවිත කරන ලදී</item>
+    </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">ඔබට %1$s යෙදුම් සමඟ යෙදුම් අගුළ භාවිත කළ හැකිය</item>
+        <item quantity="one">ඔබට %1$s යෙදුම සමඟ යෙදුම් අගුළ භාවිත කළ හැකිය</item>
+    </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">ඔබට අවම වශයෙන් යෙදුම් %sක් ආරක්ෂා කළ හැකිය</item>
+        <item quantity="one">ඔබට අවම වශයෙන් යෙදුම් %sක් ආරක්ෂා කළ හැකිය</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s යෙදුම් අගුළ සමඟ යෙදුම් ආරක්ෂා කෙරේ</item>
+        <item quantity="one">%s යෙදුම් අගුළ සමඟ යෙදුම ආරක්ෂා කෙරේ</item>
+    </plurals>
+    <plurals name="cache_check_content">
+        <item quantity="other">යෙදුම් %dක් ආරක්ෂා කරයි</item>
+        <item quantity="one">යෙදුම් %dක් ආරක්ෂා කරයි</item>
+    </plurals>
+    <plurals name="deep_clean_auto_memory_clean">
+        <item quantity="other">මිනිත්තු %1$d කින්</item>
+        <item quantity="one">%1$d මිනිත්තුවකින්</item>
+    </plurals>
+    <plurals name="exit_dialog_scan_message_new">
+        <item quantity="other">ඔබේ උපාංගයේ කාර්ය සාධන ලකුණු %d ට වඩා අඩුය. දැන් ප්‍රශස්ත කරන්නද?</item>
+        <item quantity="one">ඔබේ උපාංගයේ කාර්ය සාධන ලකුණු %d ට වඩා අඩුය. දැන් ප්‍රශස්ත කරන්නද?</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_hour">
+        <item quantity="other">පැය %s ක්</item>
+        <item quantity="one">පැය %s ක්</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_minute">
+        <item quantity="other">විනා %s ක්</item>
+        <item quantity="one">විනා %s ක්</item>
+    </plurals>
+    <plurals name="find_applications">
+        <item quantity="other">%d යෙදුම් අතර සොයන්න</item>
+        <item quantity="one">%d යෙදුම අතර සොයන්න</item>
+    </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">පෞද්ගලිකත්වයට අදාළ අවදානම් %dක්</item>
+        <item quantity="one">%d පෞද්ගලිකත්වයට අදාළ අවදානමක්</item>
+    </plurals>
+    <plurals name="first_aid_result_summary_exception">
+        <item quantity="other">%1$d ගැටලුවලට ප්‍රශස්තිකරණය අවශ්‍ය වේ</item>
+        <item quantity="one">%1$d ගැටලුවට ප්‍රශස්තිකරණය අවශ්‍යයි</item>
+    </plurals>
+    <plurals name="found_apps_title">
+        <item quantity="other">යෙදුම් %dක් හමු විය</item>
+        <item quantity="one">%d යෙදුම හමු විය</item>
+    </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d විශේෂාංග</item>
+        <item quantity="one">%d විශේෂාංගය</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_link_message">
+        <item quantity="other">ඔබේ Game Turbo සාමාජිකත්වය දින %d කින් කල් ඉකුත් වනු ඇත.</item>
+        <item quantity="one">ඔබේ Game Turbo සාමාජිකත්වය %d දිනකින් කල් ඉකුත් වනු ඇත.</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_message">
+        <item quantity="other">ඔබේ Game Turbo සාමාජිකත්වය දින %d කින් කල් ඉකුත් වනු ඇත. බාධාවකින් තොරව ක්‍රීඩා කිරීම භුක්ති විඳීමට දැන් අලුත් කරන්න.</item>
+        <item quantity="one">ඔබේ Game Turbo සාමාජිකත්වය %d දිනකින් කල් ඉකුත් වනු ඇත. බාධාවකින් තොරව ක්‍රීඩා කිරීම භුක්ති විඳීමට දැන් අලුත් කරන්න.</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_minute_talkback">
+        <item quantity="other">මිනිත්තු %1$dක්</item>
+        <item quantity="one">%1$d මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_second_talkback">
+        <item quantity="other">තත්පර %1$dක්</item>
+        <item quantity="one">තත්පර %1$dක්</item>
+    </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">ක්‍රීඩා %2$d ක් අස්ථාපනය කරන්න (%1$s ඇතුළුව)</item>
+        <item quantity="one">%2$d ක්‍රීඩාවක් අස්ථාපනය කරන්න (%1$s ඇතුළුව)</item>
+    </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">ප්‍රධාන අවස්ථා ස්වයංක්‍රීයව පටිගත කර සැසි උද්දීප්තයන් සහිත වීඩියෝ ජනනය කරන්න. සෑම ක්‍රීඩා සැසියකටම පසුව ඔබට ඒවා ස්ථිරවම සුරැකීමට තෝරා ගත හැකිය. සුරකින ලද වීඩියෝ දින %1$d කට පසු ස්වයංක්‍රීයව මැකෙනු ඇත.</item>
+        <item quantity="one">ප්‍රධාන අවස්ථා ස්වයංක්‍රීයව පටිගත කර සැසි උද්දීප්තයන් සහිත වීඩියෝ ජනනය කරන්න. සෑම ක්‍රීඩා සැසියකටම පසුව ඔබට ඒවා ස්ථිරවම සුරැකීමට තෝරා ගත හැකිය. සුරකින ලද වීඩියෝ %1$d දිනයකට පසු ස්වයංක්‍රීයව මැකෙනු ඇත.</item>
+    </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">Game Turbo වෙත AI පටිගත කිරීම් %d ක් සුරකින ලදී</item>
+        <item quantity="one">Game Turbo වෙත AI %d පටිගත කිරීමක් සුරකින ලදී</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">තත්පර %d ක්</item>
+        <item quantity="one">තත්පර %d ක්</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">දින %d ක් අඛණ්ඩව පරීක්ෂා කරන ලදී</item>
+        <item quantity="one">%d වරක් පරීක්ෂා කරන ලදී</item>
+    </plurals>
+    <plurals name="gb_smart_battery_hrs">
+        <item quantity="other">පැය %dක්</item>
+        <item quantity="one">පැය %dක්</item>
+    </plurals>
+    <plurals name="gb_smart_battery_min">
+        <item quantity="other">විනා %dක්</item>
+        <item quantity="one">විනා %dක්</item>
+    </plurals>
+    <plurals name="gb_vision_enhance_desc_detail_new">
+        <item quantity="other">"සටහන:
+· බැටරි සුරැකුම ක්‍රියාත්මකව ඇති විට හෝ ඔබේ උපාංගය අධික ලෙස රත් වී ඇති විට වැඩිදියුණු කළ දෘශ්‍ය ලබා ගත නොහැකිය.
+· ඔබේ ක්‍රීඩාව තත්පරයකට අවම වශයෙන් රාමු %dක් පෙන්වීමට සකසා ඇති විට වැඩිදියුණු කළ රාමු අනුපාතය හොඳම ප්‍රතිඵල පෙන්වයි."</item>
+        <item quantity="one">"සටහන:
+· බැටරි සුරැකුම ක්‍රියාත්මකව ඇති විට හෝ ඔබේ උපාංගය අධික ලෙස රත් වී ඇති විට වැඩිදියුණු කළ දෘශ්‍ය ලබා ගත නොහැකිය.
+· ඔබේ ක්‍රීඩාව තත්පරයකට අවම වශයෙන් %d රාමුවක් පෙන්වීමට සකසා ඇති විට වැඩිදියුණු කළ රාමු අනුපාතය හොඳම ප්‍රතිඵල පෙන්වයි."</item>
+    </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"
+දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගැනීමට දැන්ම %d හඬ වෙනස්කරනය උත්සාහ කරන්න!"</item>
+        <item quantity="one">"
+දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගැනීමට දැන්ම %d හඬ වෙනස්කරනය උත්සාහ කරන්න!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">%d දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගැනීමට නොහැකි විය</item>
+        <item quantity="one">%d දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගැනීමට නොහැකි විය</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">%d දිනක නොමිලේ අත්හදා බැලීමක් සාර්ථකව ලැබී ඇත</item>
+        <item quantity="one">%d දිනක නොමිලේ අත්හදා බැලීමක් සාර්ථකව ලැබී ඇත</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">%d දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගන්න</item>
+        <item quantity="one">%d දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගන්න</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"ඔබේ දායකත්වය කල් ඉකුත් විය.
+ඔබට දැන් %d දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගත හැක!"</item>
+        <item quantity="one">"ඔබේ දායකත්වය කල් ඉකුත් විය.
+ඔබට දැන් %d දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගත හැක!"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">%d දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගන්න</item>
+        <item quantity="one">%d දිනක නොමිලේ අත්හදා බැලීමක් ලබා ගන්න</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">යෙදුම් %dක් දක්වා එකතු කරන්න. නැවත සකස් කිරීමට ඔබාගෙන සිටින්න.</item>
+        <item quantity="one">යෙදුම %dක් දක්වා එකතු කරන්න. නැවත සකස් කිරීමට ඔබාගෙන සිටින්න.</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">මෙම විශේෂාංගය මිනිත්තු %d කට පසු ස්වයංක්‍රීයව තිර දීප්තිය අඩු කරන්නේ බලය ඉතිරි කර ගැනීම සඳහා ය. මෙම විශේෂාංගය ක්‍රියාත්මකව තබා ගන්න ද?</item>
+        <item quantity="one">මෙම විශේෂාංගය %d මිනිත්තුවකට පසු ස්වයංක්‍රීයව තිර දීප්තිය අඩු කරන්නේ බලය ඉතිරි කර ගැනීම සඳහා ය. මෙම විශේෂාංගය ක්‍රියාත්මකව තබා ගන්න ද?</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">ක්‍රියාවිරහිතව මිනිත්තු %d කට පසු බලය ඉතිරි කර ගැනීම සඳහා තිරයේ දීප්තිය ස්වයංක්‍රීයව අඩු කරන්න</item>
+        <item quantity="one">මිනිත්තු %dක් ක්‍රියාවිරහිතව සිටීමෙන් පසු බලය ඉතිරි කර ගැනීම සඳහා තිරයේ දීප්තිය ස්වයංක්‍රීයව අඩු කරන්න</item>
+    </plurals>
+    <plurals name="gtb_spring_festival_colored_egg">
+        <item quantity="other">සුභ පැතුම්! ඔබ පාස්කු බිත්තර %sක් අගුළු හැර ඇත.</item>
+        <item quantity="one">සුභ පැතුම්! ඔබ %s පාස්කු බිත්තරයක් අගුළු හැර ඇත.</item>
+    </plurals>
+    <plurals name="hide_txt_hint_with_blank_2">
+        <item quantity="other">    +%1$d තවත් අනුලකුණු</item>
+        <item quantity="one">    +%1$d වැඩි චරිතයක්</item>
+    </plurals>
+    <plurals name="hints_apps_perm_count">
+        <item quantity="other">%d අවසර</item>
+        <item quantity="one">%d අවසරය</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title">
+        <item quantity="other">%d යෙදුම් ස්වයං ඇරඹුමට අවසර නැත</item>
+        <item quantity="one">%d යෙදුම ස්වයං ඇරඹුමට අවසර නැත</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title_global">
+        <item quantity="other">%d යෙදුම් පසුබිමේ ආරම්භ කිරීමට අවසර නැත</item>
+        <item quantity="one">%d යෙදුම පසුබිමේ ආරම්භ කිරීමට අවසර නැත</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title">
+        <item quantity="other">%d යෙදුම් ස්වයංක්‍රීයව ආරම්භ කළ හැක</item>
+        <item quantity="one">%d යෙදුම ස්වයංක්‍රීයව ආරම්භ කළ හැක</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title_global">
+        <item quantity="other">%d යෙදුම් පසුබිමෙන් ආරම්භ විය හැක</item>
+        <item quantity="one">%d යෙදුම පසුබිමෙන් ආරම්භ කළ හැකිය</item>
+    </plurals>
+    <plurals name="hints_get_root_disable_title">
+        <item quantity="other">%d යෙදුම් වලට මූල ප්‍රවේශය නොමැත</item>
+        <item quantity="one">%d යෙදුමට මූල ප්‍රවේශය නොමැත</item>
+    </plurals>
+    <plurals name="hints_get_root_enable_title">
+        <item quantity="other">%d යෙදුම් වලට මූල ප්‍රවේශය ඇත</item>
+        <item quantity="one">%d යෙදුමට මූල ප්‍රවේශය ඇත</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_risk_number">
+        <item quantity="other">%d අවදානම්,</item>
+        <item quantity="one">%d අවදානම,</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_virus_number">
+        <item quantity="other">%d ට්‍රෝජන්</item>
+        <item quantity="one">%d ට්‍රෝජන්</item>
+    </plurals>
+    <plurals name="hints_permission_apps_count">
+        <item quantity="other">යෙදුම් %dක්</item>
+        <item quantity="one">යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">අවදානම් %dක් අනාවරණය විය</item>
+        <item quantity="one">%d අවදානම අනාවරණය විය</item>
+    </plurals>
+    <plurals name="install_game_count_title">
+        <item quantity="other">ක්‍රීඩා %d ක් එකතු කරන ලදී</item>
+        <item quantity="one">%d ක්‍රීඩාවක් එකතු කරන ලදී</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">ඔබට අයිතම් %d ක් ආරක්ෂා කළ හැකිය</item>
+        <item quantity="one">ඔබට %d අයිතමක් ආරක්ෂා කළ හැකිය</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">පැය %sක්</item>
+        <item quantity="one">පැය %sක්</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">මිනිත්තු %sක්</item>
+        <item quantity="one">%s මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">අවම වශයෙන් තිත් %dක් වත් යා කරන්න</item>
+        <item quantity="one">අවම වශයෙන් තිත් %dක් වත් යා කරන්න</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">අවම වශයෙන් තිත් %sක් වත් යා කරන්න</item>
+        <item quantity="one">අවම වශයෙන් තිත් %sක් වත් යා කරන්න</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">"තත්පර %d ක් රැඳී සිට නැවත උත්සාහ කරන්න. "</item>
+        <item quantity="one">"තත්පර %d ක් රැඳී සිට නැවත උත්සාහ කරන්න. "</item>
+    </plurals>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d පණිවුඩ සහ ඇමතුම් අවහිර කරන ලදී</item>
+        <item quantity="one">%d පණිවුඩය හෝ ඇමතුම අවහිර කර ඇත</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">දින %d කට උපාංගය ස්කෑන් කර නොමැත</item>
+        <item quantity="one">දින %d කට උපාංගය ස්කෑන් කර නොමැත</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d යෙදුම් වල වෛරස් හෝ අනිෂ්ට මෘදුකාංග අඩංගු වේ</item>
+        <item quantity="one">%d යෙදුමේ වෛරස් හෝ අනිෂ්ට මෘදුකාංග අඩංගු වේ</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">යාවත්කාලීන %d කිරීම් ලබා ගත් හැක</item>
+        <item quantity="one">යාවත්කාලීනය %dක් ලබා ගත හැකිය</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">අවම වශයෙන් අනුලකුණු %dක් වත් ඇතුළත් කරන්න</item>
+        <item quantity="one">අවම වශයෙන් අනුලකුණු %dක් වත් ඇතුළත් කරන්න</item>
+    </plurals>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">ඔබේ ජාල වේග වැඩි කිරීමේ සැසිය දින %d කින් අවසන් වනු ඇත. ඔබට ජාල ප්‍රමාදයන් අත්විඳීමට පටන් ගත හැකිය. දැන් සැසිය අලුත් කරන්නද?</item>
+        <item quantity="one">ඔබේ ජාල වේග වැඩි කිරීමේ සැසිය %d දිනකින් අවසන් වනු ඇත. ඔබට ජාල ප්‍රමාදයන් අත්විඳීමට පටන් ගත හැකිය. දැන් සැසිය අලුත් කරන්නද?</item>
+    </plurals>
+    <plurals name="not_added_apps_count">
+        <item quantity="other">%d යෙදුම් එක් කර නැත</item>
+        <item quantity="one">%d යෙදුම එක් කර නැත</item>
+    </plurals>
+    <plurals name="notification_antivirus_title">
+        <item quantity="other">ආරක්ෂක ස්කෑන් නොමැතිව දින %d ක්</item>
+        <item quantity="one">ආරක්ෂක ස්කෑන් නොමැතිව %d දිනයක්</item>
+    </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">පසුගිය %1$d මිනිත්තුව තුළ බැටරියෙන් %2$d%% ක් බැස ගියේය</item>
+        <item quantity="one">පසුගිය මිනිත්තු %1$d තුළ බැටරියෙන් %2$d%% ක් බැස ගියේය</item>
+    </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%1$s ඇතුළුව, %2$d යෙදුම්, නිසා බැටරිය බැස යමින් පවතී</item>
+        <item quantity="one">%1$s ඇතුළුව, %2$d යෙදුම, නිසා බැටරිය බැස යමින් පවතී</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Delete %d installation packages</item>
+        <item quantity="one">Delete %d installation package</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">ඉතිරි APK %d මකන්න</item>
+        <item quantity="one">ඉතිරි APK %d මකන්න</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d ඉහළ බල පරිභෝජනයක් සහිත අයිතම</item>
+        <item quantity="one">%d ඉහළ බල පරිභෝජනයක් සහිත අයිතමය</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">බැටරිය සුරැකීමට %d අයිතම ප්‍රශස්ත කරන්න</item>
+        <item quantity="one">බැටරිය සුරැකීමට %d අයිතමය ප්‍රශස්ත කරන්න</item>
+    </plurals>
+    <plurals name="notification_title_cmcc_app_check">
+        <item quantity="other">%d අවසන් පරීක්ෂාවෙන් පසු දින</item>
+        <item quantity="one">%d අවසන් පරීක්ෂාවෙන් පසු දිනය</item>
+    </plurals>
+    <plurals name="number_locked">
+        <item quantity="other">යෙදුම් %d කට අගුලු දමා ඇත</item>
+        <item quantity="one">යෙදුම් %d කට අගුලු දමා ඇත</item>
+    </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">යෙදුම් %dක්</item>
+        <item quantity="one">යෙදුම් %dක්</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">%d දැනුම්දීම් සඟවා තිබුණි</item>
+        <item quantity="one">%d දැනුම්දීම සැඟවී තිබුණි</item>
+    </plurals>
+    <plurals name="number_to_lock">
+        <item quantity="other">යෙදුම් %d කට අගුලු නොදමා ඇත</item>
+        <item quantity="one">යෙදුම් %d කට අගුලු නොදමා ඇත</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">%d දැනුම්දීම් දෘශ්‍යමාන වේ</item>
+        <item quantity="one">%d දැනුම්දීම දෘශ්‍යමාන වේ</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">අවම වශයෙන් අංක %dක් වත් ඇතුළත් කරන්න</item>
+        <item quantity="one">අවම වශයෙන් අංක %dක් වත් ඇතුළත් කරන්න</item>
+    </plurals>
+    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
+        <item quantity="other">%2$d ඇතුළුව %1$s යෙදුම් ද්වේෂසහගත විය හැක</item>
+        <item quantity="one">%2$d ඇතුළුව %1$s යෙදුම ද්වේෂසහගත විය හැක</item>
+    </plurals>
+    <plurals name="optimize_result_button_add_score">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+%d</item>
+    </plurals>
     <plurals name="payment_intercept_continue_countdown">
         <item quantity="other">ඉදිරියට යන්න (%1$d)</item>
         <item quantity="one">ඉදිරියට යන්න (%1$d)</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d යෙදුම් නිසා බැටරිය බැස යමින් පවතී</item>
+        <item quantity="one">%d යෙදුම නිසා බැටරිය බැස යමින් පවතී</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_hour">
+        <item quantity="other">පැය %dක්</item>
+        <item quantity="one">පැය %dක්</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_minute">
+        <item quantity="other">මිනිත්තු %dක්</item>
+        <item quantity="one">%d මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">" පැය"</item>
+        <item quantity="one">" පැය"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">" විනා"</item>
+        <item quantity="one">" විනා"</item>
+    </plurals>
+    <plurals name="pc_battery_replacement_service_day">
+        <item quantity="other">දින %dක්</item>
+        <item quantity="one">දින %dක්</item>
+    </plurals>
+    <plurals name="pc_can_be_optimize_numbers">
+        <item quantity="other">අයිතම %dක්</item>
+        <item quantity="one">අයිතම %dක්</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title">
+        <item quantity="other">ඔබේ උපාංගයේ බැටරිය අවසන් වී ඇත. තත්පර %1$d කින් ශිශිරතරණ ප්‍රකාරයට ඇතුළු වෙමින්.</item>
+        <item quantity="one">ඔබේ උපාංගයේ බැටරිය අවසන් වී ඇත. තත්පර %1$d කින් ශිශිරතරණ ප්‍රකාරයට ඇතුළු වෙමින්.</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title_new">
+        <item quantity="other">බැටරි අඩුයි. ඔබේ උපාංගය තත්පර %1$d ශිශිරතරණ ප්‍රකාරයට මාරු වනු ඇත. කාර්ය සාධනය සහ සංඥා ශක්තිය තරමක් අඩු විය හැක.</item>
+        <item quantity="one">බැටරි අඩුයි. ඔබේ උපාංගය තත්පර %1$d ශිශිරතරණ ප්‍රකාරයට මාරු වනු ඇත. කාර්ය සාධනය සහ සංඥා ශක්තිය තරමක් අඩු විය හැක.</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">දින %sක්</item>
+        <item quantity="one">දින %sක්</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">පැය %sක්</item>
+        <item quantity="one">පැය %sක්</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">මිනිත්තු %sක්</item>
+        <item quantity="one">%s මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">සම්පූර්ණයෙන්ම ආරෝපණය වීමට දින %sක් ගත වේ</item>
+        <item quantity="one">සම්පූර්ණයෙන්ම ආරෝපණය වීමට දින %sක් ගත වේ</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">සම්පූර්ණයෙන්ම ආරෝපණය වීමට පැය %sක් ගත වේ</item>
+        <item quantity="one">සම්පූර්ණයෙන්ම ආරෝපණය වීමට %s පැයක් ස්ලයිඩ් කරන්න</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">සම්පූර්ණයෙන්ම ආරෝපණය වීමට මිනිත්තු %sක් ගත වේ</item>
+        <item quantity="one">සම්පූර්ණයෙන්ම ආරෝපණය වීමට %s මිනිත්තුවක් ගත වේ</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">දින %sක් ඉතිරිව ඇත</item>
+        <item quantity="one">දින %sක් ඉතිරිව ඇත</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">පැය %sක් ඉතිරිව ඇත</item>
+        <item quantity="one">පැය %sක් ඉතිරිව ඇත</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">මිනිත්තු %sක් ඉතිරිව ඇත</item>
+        <item quantity="one">%s මිනිත්තුවක් ඉතිරිව ඇත</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">පැය %dක් ඉතිරිව ඇත</item>
+        <item quantity="one">පැය %dක් ඉතිරිව ඇත</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">මිනිත්තු %dක් ඉතිරිව ඇත</item>
+        <item quantity="one">%d මිනිත්තුවක් ඉතිරිව ඇත</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">අවසන් ආරෝපණයෙන් පසු මිනිත්තු %dක්</item>
+        <item quantity="one">අවසන් ආරෝපණයෙන් පසු %d මිනිත්තුවක්</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">අවසන් ආරෝපණයෙන් පසු තත්පර %dක් වේ</item>
+        <item quantity="one">අවසන් ආරෝපණයෙන් පසු තත්පර %dක් වේ</item>
+    </plurals>
+    <plurals name="power_20s_shutdown">
+        <item quantity="other">ඔබේ උපාංගය තත්පර %d කින් ක්‍රියාවිරහිත වනු ඇත</item>
+        <item quantity="one">ඔබේ උපාංගය තත්පර %d කින් ක්‍රියාවිරහිත වනු ඇත</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">පැය %sක්</item>
+        <item quantity="one">පැය %sක්</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">විනා %sක්</item>
+        <item quantity="one">විනා %sක්</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">වතාවක්</item>
+        <item quantity="one">වේලාව</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number_new">
+        <item quantity="other">%d වතාවක්</item>
+        <item quantity="one">%d වතාවක්</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d ඉහළ බල පරිභෝජනයක් සහිත අයිතම</item>
+        <item quantity="one">%d ඉහළ බල පරිභෝජනයක් සහිත අයිතමය</item>
+    </plurals>
+    <plurals name="power_center_battery_day">
+        <item quantity="other">"දින %dක් "</item>
+        <item quantity="one">"දින %dක් "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" පැය"</item>
+        <item quantity="one">" පැය"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" විනා"</item>
+        <item quantity="one">" විනා"</item>
+    </plurals>
+    <plurals name="power_center_battery_hour">
+        <item quantity="other">"පැය %dක් "</item>
+        <item quantity="one">"පැය %dක් "</item>
+    </plurals>
+    <plurals name="power_center_battery_minute">
+        <item quantity="other">"විනා %dක් "</item>
+        <item quantity="one">"විනා %dක් "</item>
+    </plurals>
+    <plurals name="power_center_battery_optimization">
+        <item quantity="other">%d අවස්ථා වලදී බැටරි භාවිතය ප්‍රශස්ත කරන්න</item>
+        <item quantity="one">%d අවස්ථාවකදී බැටරි භාවිතය ප්‍රශස්ත කරන්න</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">%d බැටරි භාවිතය පිළිබඳ ගැටළු නිවැරදි කරන්න</item>
+        <item quantity="one">%d බැටරි භාවිත ගැටලුව නිවැරදි කරන්න</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">ඔබට %d අයිතම වලට බල පරිභෝජනය ප්‍රශස්ත කළ හැකිය</item>
+        <item quantity="one">ඔබට %d අයිතමයට බල පරිභෝජනය ප්‍රශස්ත කළ හැකිය</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d අයිතම ප්‍රශස්තිකරණය කළ හැකිය"</item>
+        <item quantity="one">" %d අයිතමය ප්‍රශස්තිකරණය කළ හැකිය"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">බැටරිය සුරැකීමට %d අයිතම ප්‍රශස්ත කරන්න</item>
+        <item quantity="one">බැටරිය සුරැකීමට %d අයිතමය ප්‍රශස්ත කරන්න</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">ඔබට %d බැටරිය ඉතිරි කිරීමට අයිතම ප්‍රශස්තකරණය කළ හැකිය</item>
+        <item quantity="one">ඔබට %d බැටරිය සුරැකීමට අයිතමය ප්‍රශස්තකරණය කළ හැකිය</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+    </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">මිනිත්තු %dක් එකතු කරන්න</item>
+        <item quantity="one">විනා %dක් එකතු කරන්න</item>
+    </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">අයිතම</item>
+        <item quantity="one">අයිතම</item>
+    </plurals>
+    <plurals name="power_center_unoffical_battery_dialog_negative">
+        <item quantity="other">අවලංගු කරන්න (ත %d)</item>
+        <item quantity="one">අවලංගු කරන්න (ත %d)</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">දින %sක් ඉතිරිව ඇත</item>
+        <item quantity="one">දින %sක් ඉතිරිව ඇත</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">පැය %sක් ඉතිරිව ඇත</item>
+        <item quantity="one">පැය %sක් ඉතිරිව ඇත</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">මිනිත්තු %sක් ඉතිරිව ඇත</item>
+        <item quantity="one">%s මිනිත්තුවක් ඉතිරිව ඇත</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">ඉතිරි තිර කාලය මිනිත්තු %s වේ</item>
+        <item quantity="one">ඉතිරි තිර කාලයෙන් අවමය මිනිත්තු %s</item>
+    </plurals>
+    <plurals name="power_main_open_last_minute_screen_on">
+        <item quantity="other">තිර කාලයේ මිනිත්තු %sක් එකතු කිරීමට ක්‍රියාත්මක කරන්න</item>
+        <item quantity="one">තිර කාලයෙන් අවමය මිනිත්තු %sක් එකතු කිරීමට ක්‍රියාත්මක කරන්න</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">වැටහුණා (%d)</item>
+        <item quantity="one">වැටහුණා (%d)</item>
+    </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">වැටහුණා (තත් %d)</item>
+        <item quantity="one">වැටහුණා (තත් %d)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">ඔබේ උපාංගය තත්පර %d කින් වසා දමනු ඇත. ආරෝපකය සම්බන්ධ කරන්න.</item>
+        <item quantity="one">ඔබේ උපාංගය තත්පර %d ක් ඇතුළත වසා දමනු ඇත. ආරෝපකය සම්බන්ධ කරන්න.</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d යෙදුම් නිතර ස්වයංක්‍රීයව ආරම්භ වේ</item>
+        <item quantity="one">%d යෙදුම නිතර ස්වයංක්‍රීයව ආරම්භ වේ</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d යෙදුම් නිසා බැටරිය බැස යයි</item>
+        <item quantity="one">%d යෙදුම නිසා බැටරිය බැස යයි</item>
+    </plurals>
+    <plurals name="privacy_apps_disable_header_title">
+        <item quantity="other">%d යෙදුම් නිරූපක සඟවා ඇත</item>
+        <item quantity="one">%d යෙදුම් නිරූපකය සඟවා ඇත</item>
+    </plurals>
+    <plurals name="privacy_apps_enable_header_title">
+        <item quantity="other">%d යෙදුම් නිරූපක සඟවා නැත</item>
+        <item quantity="one">%d යෙදුම් නිරූපකය සැඟවී නැත</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">%s යෙදුම් වලට ස්ථිර ප්‍රවේශය ඇත</item>
+        <item quantity="one">%s යෙදුමට ස්ථිර ප්‍රවේශය ඇත</item>
+    </plurals>
+    <plurals name="privacy_permission_summary_allow">
+        <item quantity="other">යෙදුම් %s කට අවසර දී ඇත</item>
+        <item quantity="one">%s යෙදුමකට අවසර දී ඇත</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s වතාවක්</item>
+        <item quantity="one">%s වතාවක්</item>
+    </plurals>
+    <plurals name="privacy_revoke_dialog_positive_text_numbers_description">
+        <item quantity="other">තත්පර %dක් ඇතුළත ඔබට කැමැත්ත ඉල්ලා අස්කර ගත හැක</item>
+        <item quantity="one">%d තත්පරයක් ඇතුළත ඔබට කැමැත්ත ඉල්ලා අස්කර ගත හැක</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">යෙදුම් %d ක්</item>
+        <item quantity="one">යෙදුම් %d ක්</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">අධි අවදානම් අවසර %dක් ලබා දී ඇත</item>
+        <item quantity="one">%d අධි අවදානම් අවසරයක් ලබා දී ඇත</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">අවදානම් සහිත යෙදුම් %d ක් හමු විය</item>
+        <item quantity="one">%d අවදානම් සහිත යෙදුමක් හමු විය</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">වරණය කරගත් ස්ථාන තොරතුරු හෙළිදරව් කිරීමේ %d අවදානම්</item>
+        <item quantity="one">අනාවරණය කරගත් ස්ථාන තොරතුරු හෙළිදරව් කිරීමේ %d අවදානම</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">අවදානම් %d ක් අනාවරණය විය</item>
+        <item quantity="one">%d අවදානම අනාවරණය විය</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">විය හැකි අවදානම් %dක් හමු විය</item>
+        <item quantity="one">%d විය හැකි අවදානමක් හමු විය</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">ඡායාරූප %d ක පෞද්ගලික හෝ සංවේදී තොරතුරු අඩංගු විය හැකිය</item>
+        <item quantity="one">%d ඡායාරූපයක පෞද්ගලික හෝ සංවේදී තොරතුරු අඩංගු විය හැකිය</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">ඔබේ පෞද්ගලිකත්වය ආරක්ෂා කරන විශේෂාංග %d ක් ක්‍රියාවිරහිත කර ඇත</item>
+        <item quantity="one">ඔබේ පෞද්ගලිකත්වය ආරක්ෂා කරන %d විශේෂාංගයක් ක්‍රියාවිරහිත කර ඇත</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">සංවේදී අවසර %d ක් ලබා දී ඇත</item>
+        <item quantity="one">%d සංවේදී අවසරයක් ලබා දී ඇත</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">යෙදුම් %d ක් අස්ථාපනය කරන්න</item>
+        <item quantity="one">%d යෙදුමක් අස්ථාපනය කරන්න</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">අයිතම් %d කට අමතර ආරක්ෂාවක් අවශ්‍යයි</item>
+        <item quantity="one">%d අයිතමයකට අමතර ආරක්ෂාවක් අවශ්‍යයි</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_count">
+        <item quantity="other">%d බැටරි ගැටළු</item>
+        <item quantity="one">%d බැටරි ගැටළුව</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_found">
+        <item quantity="other">%d බැටරි ගැටළු හමු විය</item>
+        <item quantity="one">%d බැටරි ගැටළුව හමු විය</item>
+    </plurals>
+    <plurals name="quick_optimize_suggest_issue_found">
+        <item quantity="other">%d බැටරි ගැටළු හමු විය, ඒවා නිවැරදි කරන්න</item>
+        <item quantity="one">හමු විය %d බැටරි ගැටළුව හමු විය, එය නිවැරදි කරන්න</item>
+    </plurals>
+    <plurals name="quick_optimize_summary_text">
+        <item quantity="other">%d ඉහළ බල පරිභෝජනයක් සහිත අයිතම ප්‍රශස්තකරණය කරන ලදී</item>
+        <item quantity="one">%dක ඉහළ බල පරිභෝජනයක් සහිත අයිතමය ප්‍රශස්තකරණය කරන ලදී</item>
+    </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">කර්මාන්තශාලා සැකසුම නැවත පිහිටුවීම (ත %d)</item>
+        <item quantity="one">කර්මාන්තශාලා සැකසුම නැවත පිහිටුවීම (ත %d)</item>
+    </plurals>
+    <plurals name="section_clear_acc_item_right_tips">
+        <item quantity="other">%d අගුළු දැමූ යෙදුම් හිස් කිරීමට බලා සිටී</item>
+        <item quantity="one">%d අගුළු දැමූ යෙදුම හිස් කිරීමට බලා සිටී</item>
+    </plurals>
+    <plurals name="section_security_defend_item_right_tips">
+        <item quantity="other">වෛරස %d මකා දමන ලදී</item>
+        <item quantity="one">වෛරස %d මකා දමන ලදී</item>
+    </plurals>
+    <plurals name="storage_compact_warning">
+        <item quantity="other">%1$d සංස්කරණ අවසර</item>
+        <item quantity="one">%1$d සංස්කරණ අවසරය</item>
+    </plurals>
+    <plurals name="storage_fbo_btn_result_time">
+        <item quantity="other">මිනිත්තු %1$dක් ඉතිරියි</item>
+        <item quantity="one">%1$d මිනිත්තුවක් ඉතිරියි</item>
+    </plurals>
+    <plurals name="storage_fbo_finish_tip">
+        <item quantity="other">ඛණ්ඩනය ඉවත් කිරීම අවසන්. කොටස් %1$dක් සංවිධානය කරන ලදී.</item>
+        <item quantity="one">ඛණ්ඩනය ඉවත් කිරීම අවසන්. %1$d කොටසක් සංවිධානය කරන ලදී.</item>
+    </plurals>
+    <plurals name="storage_fbo_notification_finish_content">
+        <item quantity="other">කොටස් %1$dක් සංවිධානය කරන ලදී</item>
+        <item quantity="one">සංවිධානාත්මක %1$d කොටස</item>
+    </plurals>
+    <plurals name="storage_fbo_number_unit">
+        <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragments</item>
+        <item quantity="one">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragment</item>
+    </plurals>
+    <plurals name="storage_ufs_number">
+        <item quantity="other">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+        <item quantity="one">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+    </plurals>
+    <plurals name="summary_app_update">
+        <item quantity="other">%d යෙදුම් වලට යාවත්කාලීන කිරීම් ලබා ගත හැකිය.</item>
+        <item quantity="one">%d යෙදුමට යාවත්කාලීන ලබා ගත හැක.</item>
+    </plurals>
+    <plurals name="summary_flow_verify">
+        <item quantity="other">දින %d කින් වාහකයාගේ දත්ත භාවිත සංඛ්‍යාන සමමුහුර්ත කර නොමැත</item>
+        <item quantity="one">දින %d කින් වාහකයාගේ දත්ත භාවිත සංඛ්‍යාන සමමුහුර්ත කර නොමැත</item>
+    </plurals>
+    <plurals name="system_anti_fraud_dialog_countdown_unit">
+        <item quantity="other">(ත %d)</item>
+        <item quantity="one">(ත %d)</item>
+    </plurals>
+    <plurals name="system_check_content">
+        <item quantity="other">%1$d අයිතම ආරක්ෂිතයි</item>
+        <item quantity="one">අයිතම %1$dක් ආරක්ෂිතයි</item>
+    </plurals>
+    <plurals name="title_app_update_cn">
+        <item quantity="other">&lt;Data>&lt;font color=#F22424>%d&lt;/font>&lt;/Data> යෙදුම් යාවත්කාලීන කරන්න</item>
+        <item quantity="one">&lt;Data> &lt;font color=#F22424>%d&lt;/font>&lt;/Data> යෙදුම යාවත්කාලීන කරන්න</item>
+    </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">වෛරස%d හිස් කරන ලදී</item>
+        <item quantity="one">වෛරස %d හිස් කරන ලදී</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">%d වෛරස් හෝ අවදානම් සහිත යෙදුම්</item>
+        <item quantity="one">%d වෛරස් හෝ අවදානම් සහිත යෙදුම</item>
+    </plurals>
+    <plurals name="uninstall_game_count_title">
+        <item quantity="other">ක්‍රීඩා %d ක් එක් කර නැත</item>
+        <item quantity="one">%d ක්‍රීඩාවක් එක් කර නැත</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">අවම වශයෙන් තිත් %sක් වත් යා කරන්න</item>
+        <item quantity="one">අවම වශයෙන් තිත් %sක් වත් යා කරන්න</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">ඉලක්කම් %sක් ඇතුළත් කරන්න</item>
+        <item quantity="one">ඉලක්කම් %sක් ඇතුළත් කරන්න</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_hour">
+        <item quantity="other">පැ %d</item>
+        <item quantity="one">පැ %d</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_minute">
+        <item quantity="other">මි %d</item>
+        <item quantity="one">මි %d</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">යෙදුම් %d ක්</item>
+        <item quantity="one">යෙදුම් %d ක්</item>
+    </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"ඔබ පැය %d ක් තිස්සේ වීඩියෝ නරඹනවා.
+විවේකයක් ගන්න!"</item>
+        <item quantity="one">"ඔබ %d පැයක් තිස්සේ වීඩියෝ නරඹනවා.
+විවේකයක් ගන්න!"</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">දසුන් %1$dක්</item>
+        <item quantity="one">%1$d දසුනක්</item>
+    </plurals>
+    <plurals name="wakepath_allow_start_app_count">
+        <item quantity="other">යෙදුම් %sක්</item>
+        <item quantity="one">යෙදුම් %sක්</item>
+    </plurals>
+    <plurals name="white_list_risk_app_header">
+        <item quantity="other">භයානක යෙදුම්: %d</item>
+        <item quantity="one">භයානක යෙදුම: %d</item>
+    </plurals>
+    <plurals name="white_list_trojan_header">
+        <item quantity="other">ට්‍රෝජන්: %d</item>
+        <item quantity="one">ට්‍රෝජන්: %d</item>
     </plurals>
 </resources>

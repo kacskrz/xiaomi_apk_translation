@@ -1,6 +1,647 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">%d နာရီအကြာက</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">လွန်ခဲ့သော နာရီဝက်က</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">%d နာရီအတွင်း</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">နာရီဝက် အတွင်း</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">ချက်ချင်း</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d မိနစ်အတွင်း</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">ယခုလေးတင်</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d မိနစ်အကြာက</item>
+    </plurals>
+    <plurals name="add_game_notification_title">
+        <item quantity="other">Added %d games</item>
+    </plurals>
+    <plurals name="added_apps_count">
+        <item quantity="other">အက်(ပ်) %d ခု ထည့်ထားသည်</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_title_desc">
+        <item quantity="other">အက်ပ် %d ခု</item>
+    </plurals>
+    <plurals name="app_behavior_dashboard_total_usage_item">
+        <item quantity="other">အက်ပ် %d ခု</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage">
+        <item quantity="other">%1$s နှင့် %2$s ကြား %3$d ကြိမ် ခွင့်ပြုထားသည်</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time">
+        <item quantity="other">%1$d မိနစ် အသုံးပြုထားသည်</item>
+    </plurals>
+    <plurals name="app_behavior_desc_duration_usage_time_end">
+        <item quantity="other">%2$s အထိ %1$d ကို အသုံးပြုနိုင်သည်</item>
+    </plurals>
+    <plurals name="app_behavior_record_close_content_text">
+        <item quantity="other">အက်(ပ်)အမူအကျင့်မှတ်တမ်းများကို ဤစက်တွင် %d ရက် သိမ်းပါမည်။ ဤအင်္ဂါရပ်ကိုပိတ်ပါက အက်(ပ်)အမူအကျင့်မှတ်တမ်းများကို ဖျက်မည်ဖြစ်၍ ပိတ်ရန်အကြံမပြုပါ။</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_accept">
+        <item quantity="other">ခွင့်ပြုချက် %d ခု ခွင့်ပြုထားသည်</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_ask">
+        <item quantity="other">ခွင့်ပြုချက် %d ခုတောင်းရန်</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d ကြိမ်</item>
+    </plurals>
+    <plurals name="app_manager_uninstall_notify_summary">
+        <item quantity="other">အက်(ပ်) %d ခု ဖြုတ်ရန်</item>
+    </plurals>
+    <plurals name="app_manager_updater_title">
+        <item quantity="other">အက်(ပ်) %d ခု အပ်ပဒိတ်လုပ်ရန်</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">လွန်ခဲ့သော %d ရက်က သုံးထားသည်</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">လွန်ခဲ့သော %d လက သုံးထားသည်</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">လွန်ခဲ့သော %d နှစ်က သုံးထားသည်</item>
+    </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">အက်(ပ်)သော့ကို အက်(ပ်) %1$s ခုနှင့် သုံးနိုင်သည်</item>
+    </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">အနည်းဆုံး အက်(ပ်) %s ခုကို ကာကွယ်နိုင်သည်</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">အက်(ပ်) %s ခုကို အက်(ပ်)သော့နှင့် ကာကွယ်ပါမည်</item>
+    </plurals>
+    <plurals name="cache_check_content">
+        <item quantity="other">အက်(ပ်) %d ခု ကာကွယ်ထားသည်</item>
+    </plurals>
+    <plurals name="deep_clean_auto_memory_clean">
+        <item quantity="other">%1$d မိနစ်အတွင်း</item>
+    </plurals>
+    <plurals name="exit_dialog_scan_message_new">
+        <item quantity="other">သင့်စက်၏ စွမ်းဆောင်ရည်အမှတ်သည် %d မှတ်အောက် လျော့နေသည်။ ယခုအဆင့်မြှင့်လိုသလား။</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_hour">
+        <item quantity="other">%s နာရီ</item>
+    </plurals>
+    <plurals name="extreme_mode_runtime_minute">
+        <item quantity="other">%s မိနစ်</item>
+    </plurals>
+    <plurals name="find_applications">
+        <item quantity="other">အက်(ပ်) %d ခုတွင် ရှာရန်</item>
+    </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d ကိုယ်ရေးကိုယ်တာ-ဆက်စပ်သော ဘေးများ</item>
+    </plurals>
+    <plurals name="first_aid_result_summary_exception">
+        <item quantity="other">ပြဿနာ %1$d ခု အဆင့်မြှင့်ရန်လိုသည်</item>
+    </plurals>
+    <plurals name="found_apps_title">
+        <item quantity="other">အက်(ပ်) %d ခုတွေ့သည်</item>
+    </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">အင်္ဂါရပ် %d ခု</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_link_message">
+        <item quantity="other">ဂိမ်းအရှိန်မြှင့်စနစ် အဖွဲ့ဝင်ခွင့် %d ရက် အတွင်း သက်တမ်းကုန်ပါမည်။</item>
+    </plurals>
+    <plurals name="gamebooster_push_expiring_soon_message">
+        <item quantity="other">သင့် ဂိမ်းအရှိန်မြှင့်စနစ် အသင်းဝင်ခွင့် %d ရက်အတွင်း သက်တမ်းကုန်ပါမည်။ ချောမွေ့စွာ ဂိမ်းကစားနိုင်ရန် ယခုသက်တမ်းတိုးပါ။</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_minute_talkback">
+        <item quantity="other">%1$d မိနစ်</item>
+    </plurals>
+    <plurals name="gamebox_time_elapsed_time_second_talkback">
+        <item quantity="other">%1$d စက္ကန့်</item>
+    </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">ဂိမ်း %2$d ခု ဖြုတ်ရန် (%1$s အပါအဝင်)</item>
+    </plurals>
+    <plurals name="gb_dialog_record_way_ai_desc">
+        <item quantity="other">အဓိကအခိုက်အတန့်များကို အလိုအလျောက် မှတ်တမ်းတင်ပြီး ဆက်ရှင်ဟိုက်လိုက်များပါသော ဗီဒီယိုများ ထုတ်ပေးသည်။ ဂိမ်းဆက်ရှင်တစ်ခုပြီးတိုင်း ၎င်းတို့ကို အမြဲသိမ်းထားရန် ရွေးချယ်နိုင်သည်။ မသိမ်းသော ဗီဒီယိုများကို %1$d ရက် ကြာလျှင် အလိုအလျောက်ဖျက်ပါမည်။</item>
+    </plurals>
+    <plurals name="gb_game_video_ai_record_finish_tips">
+        <item quantity="other">AI အသံသွင်းဖိုင် %d ခုကို ဂိမ်းတာဘိုတွင် သိမ်းထားသည်</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">%d စက္ကန့်</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">%d ကြိမ် ဝင်ထားသည်</item>
+    </plurals>
+    <plurals name="gb_smart_battery_hrs">
+        <item quantity="other">%d နာရီ</item>
+    </plurals>
+    <plurals name="gb_smart_battery_min">
+        <item quantity="other">%d မိနစ်</item>
+    </plurals>
+    <plurals name="gb_vision_enhance_desc_detail_new">
+        <item quantity="other">"မှတ်ချက် -
+·ဓာတ်ခဲချွေတာစနစ်ဖွင့်ထားစဉ် သို့မဟုတ် စက်အပူလွန်နေချိန် အဆင့်မြင့်ပုံရိပ်များ ရနိုင်မည်မဟုတ်ပါ။
+·ဂိမ်းကို အနည်းဆုံး တစ်စက္ကန့် %d ဖရိန်နှုန်း ပြရန်သတ်မှတ်ထားချိန်တွင် အဆင့်မြင့်ဖရိန်နှုန်းက အကောင်းဆုံးရလဒ်ဖြင့် ပြပါမည်။"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_toast_tips_window_bubble">
+        <item quantity="other">"အသံပြောင်းစနစ်ကို စမ်းသုံးပြီး
+%d ရက် အခမဲ့ အစမ်းသုံးခွင့်ရယူပါ။"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_fail">
+        <item quantity="other">%d ရက် အခမဲ့အစမ်းသုံးခွင့် မရထားပါ</item>
+    </plurals>
+    <plurals name="gb_voice_changer_trial_gain_success">
+        <item quantity="other">အခမဲ့ %d ရက် အစမ်းသုံးခွင့်ကို အောင်မြင်စွာ ရယူပြီးပါပြီ</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_trial_card">
+        <item quantity="other">အခမဲ့ %d ရက် အစမ်းသုံးခွင့် ရယူပါ</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_status_get_twice_trial_card_dialog">
+        <item quantity="other">"သင့်စာရင်းသွင်းခြင်း သက်တမ်းကုန်ပါပြီ။
+အခမဲ့ %d ရက် အစမ်းသုံးခွင့် ရယူနိုင်ပါပြီ။"</item>
+    </plurals>
+    <plurals name="gb_voice_changer_user_tips_info">
+        <item quantity="other">အခမဲ့ %d ရက် အစမ်းသုံးခွင့် ရယူပါ</item>
+    </plurals>
+    <plurals name="gd_app_edit_desc_new">
+        <item quantity="other">အက်(ပ်) %d ခု အထိ ထည့်ပါ။ ပြန်စီရန် ထိပြီးဖိထားပါ။</item>
+    </plurals>
+    <plurals name="gtb_brightness_dialog_message">
+        <item quantity="other">အသုံးမပြုတာ %d မိနစ်ကြာပြီးနောက်တွင် စွမ်းအင်ချွေတာရန် ယခုအင်္ဂါရပ်က ဖန်သားပြင်အလင်းကို လျှော့ချသွားမည်။ ယခုအင်္ဂါရပ်ကို ဖွင့်ထားမှာလား။</item>
+    </plurals>
+    <plurals name="gtb_setting_item_summary_brightness">
+        <item quantity="other">စွမ်းအင်ချွေတာရန် အသုံးမပြုတာ %d မိနစ်ကြာပြီးနောက် ဖန်သားပြင်အလင်းကို အလိုအလျောက်လျှော့ချမည်</item>
+    </plurals>
+    <plurals name="gtb_spring_festival_colored_egg">
+        <item quantity="other">ဂုဏ်ယူပါသည်။ အီစတာဥ %s ဥ သော့ဖွင့်ပြီးပါပြီ။</item>
+    </plurals>
+    <plurals name="hide_txt_hint_with_blank_2">
+        <item quantity="other">    နောက်ထပ်အက္ခရာ +%1$d လုံး</item>
+    </plurals>
+    <plurals name="hints_apps_perm_count">
+        <item quantity="other">ခွင့်ပြုချက် %d ခု</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title">
+        <item quantity="other">အက်(ပ်) %d ကို အလိုအလျောက်စခွင့်မပေးထားပါ</item>
+    </plurals>
+    <plurals name="hints_auto_start_disable_title_global">
+        <item quantity="other">နောက်ခံတွင် အက်(ပ်) %d ခု စခွင့်မပြုထားပါ</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title">
+        <item quantity="other">အက်(ပ်) %d ခု အလိုအလျောက်စနိုင်သည်</item>
+    </plurals>
+    <plurals name="hints_auto_start_enable_title_global">
+        <item quantity="other">နောက်ခံတွင် အက်(ပ်) %d ခု စနိုင်သည်</item>
+    </plurals>
+    <plurals name="hints_get_root_disable_title">
+        <item quantity="other">အက်(ပ်) %d ခုတွင် ရုဖတ်ခွင့်မရှိပါ</item>
+    </plurals>
+    <plurals name="hints_get_root_enable_title">
+        <item quantity="other">အက်(ပ်) %d ခုတွင် ရုဖတ်ခွင့်ရှိသည်</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_risk_number">
+        <item quantity="other">အန္တရာယ် %d ခု၊</item>
+    </plurals>
+    <plurals name="hints_handle_item_text_virus_number">
+        <item quantity="other">ထရိုဂျန် %d ခု</item>
+    </plurals>
+    <plurals name="hints_permission_apps_count">
+        <item quantity="other">အက်(ပ်) %d ခု</item>
+    </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">အန္တရာယ် %d ခု တွေ့ထားသည်</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">၁ နာရီ အတွင်း</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">နာရီဝက် အတွင်း</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">ချက်ချင်း</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d မိနစ် အကြာမှာ</item>
+    </plurals>
+    <plurals name="install_game_count_title">
+        <item quantity="other">ဂိမ်း %d ခု ထည့်ထားသည်</item>
+    </plurals>
+    <plurals name="intl_perm_privacy_control_message_count">
+        <item quantity="other">အကြောင်းအရာ %d ခု ကာကွယ်နိုင်သည်</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%s နာရီ</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%s မိနစ်</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">ယခုလေးတင်</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">အနည်းဆုံး အစက် %d စက် ဆက်ပါ</item>
+    </plurals>
+    <plurals name="lockpattern_recording_intro_header_new">
+        <item quantity="other">အနည်းဆုံး အစက် %s စက် ဆက်ပါ</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">"%d စက္ကန့်စောင့်ပြီး ထပ်လုပ်ကြည့်ပါ။ "</item>
+    </plurals>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">မက်ဆေ့(ချ်)နှင့် ဖုန်းခေါ်ဆိုမှု %d ခု ကို ဘလော့လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">စက်ကို စကန်မလုပ်သည်မှာ %d ရက် ရှိပါပြီ</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">အက်(ပ်) %d ခုတွင် ဗိုင်းရပ် သို့မဟုတ် မဲလဝဲပါနေသည်</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">အပ်ပဒိတ် %d ခု ရနိုင်သည်</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">အိုင်တမ် %d ခု ရွေးချယ်ထားသည်</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">အနည်းဆုံး အက္ခရာ %d လုံး ထည့်ပါ</item>
+    </plurals>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">သင့် ကွန်ရက်အရှိန်မြှင့်စနစ်ဆက်ရှင် %d ရက်အတွင်း ပြီးဆုံးပါမည်။ ကွန်ရက်နှေးခြင်းများ စကြုံနိုင်ပါသည်။ ဆက်ရှင်ကို ယခု သက်တမ်းတိုးလိုသလား။</item>
+    </plurals>
+    <plurals name="not_added_apps_count">
+        <item quantity="other">အက်(ပ်) %d ခု မထည့်ထားပါ</item>
+    </plurals>
+    <plurals name="notification_antivirus_title">
+        <item quantity="other">လုံခြုံရေးစကန်မဖတ်ဘဲ %d ရက်</item>
+    </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">%1$d မိနစ်အတွင်း ဓာတ်ခဲ %2$d%% ကုန်ထားသည်</item>
+    </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%1$s အပါအဝင် အက်(ပ်) %2$d ခုက ဓာတ်ခဲကုန်စေသည်</item>
+    </plurals>
+    <plurals name="notification_checker_installed_apk_text">
+        <item quantity="other">Delete %d installation packages</item>
+    </plurals>
+    <plurals name="notification_link_cleaner_2006">
+        <item quantity="other">APK အကြွင်းကျန် %d ဖျက်ရန်</item>
+    </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">ပါဝါသုံးစွဲမှုမြင့်သော အကြောင်းအရာ %d ခု</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">ဓာတ်ခဲချွေတာရန် အကြောင်းအရာ %d ခု အဆင့်မြှင့်ပါ</item>
+    </plurals>
+    <plurals name="notification_title_cmcc_app_check">
+        <item quantity="other">နောက်ဆုံးစစ်ခြင်း %d ရက် ကြာပါပြီ</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">လွန်ခဲ့သော %d မိနစ်က</item>
+    </plurals>
+    <plurals name="number_locked">
+        <item quantity="other">အက်(ပ်) %d ခု သော့ခတ်ထားသည်</item>
+    </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">အက်(ပ်) %d ခု</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">အသိပေးချက် %d ခု ဖုံးထားသည်</item>
+    </plurals>
+    <plurals name="number_to_lock">
+        <item quantity="other">အက်(ပ်) %d ခု သော့မခတ်ထားပါ</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">အသိပေးချက် %d ခု မြင်ရသည်</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">အနည်းဆုံး ဂဏန်း %d လုံး ထည့်ပါ</item>
+    </plurals>
+    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
+        <item quantity="other">%1$s အပါအဝင် အက်(ပ်) %2$d ခုက အန္တရာယ်ရှိနိုင်သည်</item>
+    </plurals>
+    <plurals name="optimize_result_button_add_score">
+        <item quantity="other">+%d</item>
+    </plurals>
     <plurals name="payment_intercept_continue_countdown">
         <item quantity="other">ရှေ့ဆက်ရန် (%1$d)</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">အက်(ပ်) %d ခုက ဓာတ်ခဲကုန်စေသည်</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_hour">
+        <item quantity="other">%d နာရီ</item>
+    </plurals>
+    <plurals name="pc_battery_history_accessibility_minute">
+        <item quantity="other">%d မိနစ်</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">" နာရီ"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">" မိနစ်"</item>
+    </plurals>
+    <plurals name="pc_battery_replacement_service_day">
+        <item quantity="other">%d ရက်</item>
+    </plurals>
+    <plurals name="pc_can_be_optimize_numbers">
+        <item quantity="other">အကြောင်းအရာ %d ခု</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title">
+        <item quantity="other">သင့်စက်ဓာတ်ခဲကုန်ပါပြီ။ %1$d စက္ကန့်အတွင်း ဟိုက်ဘာနိတ်မုဒ်သို့ ဝင်ပါမည်။</item>
+    </plurals>
+    <plurals name="pc_extreme_mode_count_down_title_new">
+        <item quantity="other">ဓာတ်ခဲအားနည်သည်။ သင့်စက်ကို %1$d စက္ကန့်အတွင်း ဟိုက်ဘာနိတ်မုဒ်သို့ ပြောင်းပါမည်။ လုပ်ဆောင်ရည်နှင့် လိုင်းအား အနည်းငယ်လျော့နိုင်သည်။</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s ရက်</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s နာရီ</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s မိနစ်</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">အားပြည့်ရန် %s ရက် ကျန်သည်</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">အားပြည့်ရန် %s နာရီ ကျန်သည်</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">အားပြည့်ရန် %s မိနစ် ကျန်သည်</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">%s ရက် ကျန်သည်</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">%s နာရီ ကျန်သည်</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">%s မိနစ် ကျန်သည်</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">%d နာရီ ကျန်သည်</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">%d မိနစ် ကျန်သည်</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">နောက်ဆုံးအားသွင်းပြီး %d မိနစ်</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">နောက်ဆုံးအားသွင်းပြီး %d စက္ကန့်</item>
+    </plurals>
+    <plurals name="power_20s_shutdown">
+        <item quantity="other">သင့်စက်သည် %d စက္ကန့်အတွင်း ပါဝါပိတ်သွားပါမည်</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s နာရီ</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s မိနစ်</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">ကြိမ်</item>
+    </plurals>
+    <plurals name="power_center_battery_charge_number_new">
+        <item quantity="other">%d ကြိမ်</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">ပါဝါသုံးစွဲမှုမြင့်သော အကြောင်းအရာ %d ခု</item>
+    </plurals>
+    <plurals name="power_center_battery_day">
+        <item quantity="other">"%d ရက် "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" နာရီ"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" မိနစ်"</item>
+    </plurals>
+    <plurals name="power_center_battery_hour">
+        <item quantity="other">"%d နာရီ "</item>
+    </plurals>
+    <plurals name="power_center_battery_minute">
+        <item quantity="other">"%d မိနစ် "</item>
+    </plurals>
+    <plurals name="power_center_battery_optimization">
+        <item quantity="other">ဖြစ်စဉ် %d ခုတွင် ဓာတ်ခဲအသုံး အဆင့်မြှင့်ရန်</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">ဓာတ်ခဲအသုံးပြုမှု ပြဿနာ %d ခုကို ပြင်ပါ</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">အကြောင်းအရာ %d ခုအတွက် ပါဝါသုံးစွဲမှု အဆင့်မြှင့်နိုင်သည်</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" အကြောင်းအရာ %d ခု အဆင့်မြှင့်နိုင်သည်"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">ဓာတ်ခဲချွေတာရန် အကြောင်းအရာ %d ခု အဆင့်မြှင့်ပါ</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">ဓာတ်ခဲချွေတာရန် အကြောင်းအရာ %d ခု အဆင့်မြှင့်နိုင်သည်</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+    </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_list_item_optimize_button">
+        <item quantity="other">%d မိနစ်ထည့်ရန်</item>
+    </plurals>
+    <plurals name="power_center_menu_text">
+        <item quantity="other">ပစ္စည်း</item>
+    </plurals>
+    <plurals name="power_center_unoffical_battery_dialog_negative">
+        <item quantity="other">ဖျက်သိမ်းရန် (%dစက္ကန့်)</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">%s ရက် ကျန်သည်</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">%s နာရီ ကျန်သည်</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">%s မိနစ် ကျန်သည်</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">မျက်နှာပြင်ဖွင့်ချိန် %s မိနစ် ကျန်သည်</item>
+    </plurals>
+    <plurals name="power_main_open_last_minute_screen_on">
+        <item quantity="other">မျက်နှာပြင်ဖွင့်ချိန် %s မိနစ် ပေါင်းထည့်ရန် ဖွင့်ပါ</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">ရပါပြီ %d</item>
+    </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">နားလည်ပါပြီ (%dစက္ကန့်)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">%d စက္ကန့်အတွင်း သင့်စက်ပိတ်သွားပါမည်။ အားသွင်းကြိုးချိတ်ပါ။</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">အက်(ပ်) %d ခုက မကြာခဏ အလိုအလျောက်စသည်</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">အက်(ပ်) %d ခုက ဓာတ်ခဲကုန်စေသည်</item>
+    </plurals>
+    <plurals name="privacy_apps_disable_header_title">
+        <item quantity="other">အက်(ပ်)သင်္ကေတ %d ခု ဖုံးထားသည်</item>
+    </plurals>
+    <plurals name="privacy_apps_enable_header_title">
+        <item quantity="other">အက်(ပ်)သင်္ကေတ %d ခု ဖုံးမထားပါ</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">အက်(ပ်) %s ခုတွင်မျှ အမြဲတမ်းဖတ်ခွင့်ရှိသည်</item>
+    </plurals>
+    <plurals name="privacy_permission_summary_allow">
+        <item quantity="other">အက်(ပ်) %s ခု အတွက် ခွင့်ပြုရန်</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s ကြိမ်</item>
+    </plurals>
+    <plurals name="privacy_revoke_dialog_positive_text_numbers_description">
+        <item quantity="other">%d စက္ကန့်အတွင်း သဘောတူခွင့်ပြုချက်ရုပ်သိမ်းနိုင်သည်</item>
+    </plurals>
+    <plurals name="privacy_risk_app_count">
+        <item quantity="other">အက်(ပ်) %d ခု</item>
+    </plurals>
+    <plurals name="privacy_risk_dangerous_permissions_tip">
+        <item quantity="other">အန္တရာယ်များသော ခွင့်ပြုချက် %d ခု ခွင့်ပြုထားသည်</item>
+    </plurals>
+    <plurals name="privacy_risk_install_app_tip">
+        <item quantity="other">အန္တရာယ်များသော ခွင့်ပြုချက် %d ခု တွေ့ထားသည်</item>
+    </plurals>
+    <plurals name="privacy_risk_photo_location_tip">
+        <item quantity="other">တည်နေရာအချက်အလက် ဖော်ပြသော အန္တရာယ် %d ခု တွေ့ထားသည်</item>
+    </plurals>
+    <plurals name="privacy_risk_result_item_error">
+        <item quantity="other">အန္တရာယ် %d ခု တွေ့ထားသည်</item>
+    </plurals>
+    <plurals name="privacy_risk_result_msg">
+        <item quantity="other">အန္တရာယ်ဖြစ်နိုင်ခြေ %d ခု တွေ့ထားသည်</item>
+    </plurals>
+    <plurals name="privacy_risk_result_photo_sensitive_msg">
+        <item quantity="other">ဓာတ်ပုံ %d ပုံတွင် တစ်ကိုယ်ရေ သို့မဟုတ် ထိရှလွယ်သော အချက်အလက်များ ပါနိုင်သည်</item>
+    </plurals>
+    <plurals name="privacy_risk_result_protection_tip">
+        <item quantity="other">သင့်ကိုယ်ရေးအချက်အလက်လုံခြုံမှုကို ကာကွယ်သော အင်္ဂါရပ် %d ခုကို ပိတ်ထားသည်</item>
+    </plurals>
+    <plurals name="privacy_risk_sensitive_permissions_tip">
+        <item quantity="other">ထိရှလွယ်သော ခွင့်ပြုချက် %d ခု ခွင့်ပြုထားသည်</item>
+    </plurals>
+    <plurals name="privacy_risk_uninstall_btn">
+        <item quantity="other">အက်(ပ်) %d ခု ဖြုတ်ရန်</item>
+    </plurals>
+    <plurals name="privacy_risk_work_encryption_msg">
+        <item quantity="other">အကြောင်းအရာ %d ခုတွင် ထပ်ဆောင်းအကာအကွယ်လိုသည်</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_count">
+        <item quantity="other">ဓာတ်ခဲပြဿနာ %d ခု</item>
+    </plurals>
+    <plurals name="quick_optimize_issue_found">
+        <item quantity="other">ဓာတ်ခဲပြဿနာ %d ခု တွေ့သည်</item>
+    </plurals>
+    <plurals name="quick_optimize_suggest_issue_found">
+        <item quantity="other">ဓာတ်ခဲပြဿနာ %d ခု တွေ့သည်၊ ပြင်ပါ</item>
+    </plurals>
+    <plurals name="quick_optimize_summary_text">
+        <item quantity="other">ပါဝါသုံးစွဲမှုမြင့်သော အကြောင်းအရာ %d ခုကို အဆင့်မြှင့်ထားသည်</item>
+    </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">စက်ရုံထုတ် အနေအထားသို့ ပြန်သတ်မှတ်မည် (%dစက္ကန့်)</item>
+    </plurals>
+    <plurals name="section_clear_acc_item_right_tips">
+        <item quantity="other">သော့ခတ်ထားသောအက်(ပ်) %d ခု ရှင်းရန်စောင့်နေသည်</item>
+    </plurals>
+    <plurals name="section_security_defend_item_right_tips">
+        <item quantity="other">Deleted %d viruses</item>
+    </plurals>
+    <plurals name="storage_compact_warning">
+        <item quantity="other">ခွင့်ပြုချက် %1$d ခု ပြင်နေသည်</item>
+    </plurals>
+    <plurals name="storage_fbo_btn_result_time">
+        <item quantity="other">%1$d မိနစ် ကျန်သည်</item>
+    </plurals>
+    <plurals name="storage_fbo_finish_tip">
+        <item quantity="other">နေရာပြန်စီခြင်း ပြီးပါပြီ။ အစိတ်အပိုင်း %1$d ခု စီထားသည်။</item>
+    </plurals>
+    <plurals name="storage_fbo_notification_finish_content">
+        <item quantity="other">အစိတ်အပိုင်း %1$d ခု စီထားသည်</item>
+    </plurals>
+    <plurals name="storage_fbo_number_unit">
+        <item quantity="other">&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>&lt;big>%s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/big> fragments</item>
+    </plurals>
+    <plurals name="storage_ufs_number">
+        <item quantity="other">&lt;big>&lt;big>%s&lt;/big>&lt;/big> GB</item>
+    </plurals>
+    <plurals name="summary_app_update">
+        <item quantity="other">အက်(ပ်) %d ခုအတွက် အပ်ပဒိတ်ရရှိနိုင်သည်</item>
+    </plurals>
+    <plurals name="summary_flow_verify">
+        <item quantity="other">ဖုန်းလိုင်းကုမ္ပဏီ၏ ဒေတာသုံးစွဲမှုကိန်းဂဏန်းများကို %d ရက်အတွင်း ဆင့်(ခ်)မလုပ်ထားပါ</item>
+    </plurals>
+    <plurals name="system_anti_fraud_dialog_countdown_unit">
+        <item quantity="other">(%d ခု)</item>
+    </plurals>
+    <plurals name="system_check_content">
+        <item quantity="other">အကြောင်းအရာ %1$d ခု လုံခြုံသည်</item>
+    </plurals>
+    <plurals name="title_app_update_cn">
+        <item quantity="other">&lt;Data>အက်(ပ်) &lt;font color=#F22424>%d&lt;/font> ခု အပ်ပဒိတ်လုပ်ပါ&lt;/Data></item>
+    </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">ဗိုင်းရပ် %d ခု ရှင်းထားသည်</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">ဗိုင်းရပ် သို့မဟုတ် အန္တာရာယ်ရှိသော အက်(ပ်) %d ခု</item>
+    </plurals>
+    <plurals name="uninstall_game_count_title">
+        <item quantity="other">ဂိမ်း %d ခု မထည့်ထားပါ</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pattern_summary_new">
+        <item quantity="other">အနည်းဆုံး အစက် %s စက် ဆက်ပါ</item>
+    </plurals>
+    <plurals name="unlock_set_unlock_pin_summary_new">
+        <item quantity="other">ဂဏန်း %s လုံး ထည့်ပါ</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_hour">
+        <item quantity="other">%d နာရီ</item>
+    </plurals>
+    <plurals name="usage_type_power_consumption_ratio_hint_minute">
+        <item quantity="other">%d မိနစ်</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">အက်(ပ်) %d ခု</item>
+    </plurals>
+    <plurals name="videobox_settings_timing_bubble">
+        <item quantity="other">"%d နာရီကြာ ဗီဒီယိုကြည့်ထားသည်။
+အနားယူပါ။"</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">ကြည့်သူ %1$d ဦး</item>
+    </plurals>
+    <plurals name="wakepath_allow_start_app_count">
+        <item quantity="other">အက်(ပ်) %s ခု</item>
+    </plurals>
+    <plurals name="white_list_risk_app_header">
+        <item quantity="other">အန္တာရာယ်ရှိသောအက်(ပ်) - %d</item>
+    </plurals>
+    <plurals name="white_list_trojan_header">
+        <item quantity="other">ထရိုဂျန် − %d</item>
     </plurals>
 </resources>
