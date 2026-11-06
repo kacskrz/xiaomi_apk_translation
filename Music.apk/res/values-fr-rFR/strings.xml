@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="song_err_not_exist">La source audio demandée n’existe pas</string>
-    <string name="song_err_not_exist_clear">Supprimé automatiquement de la playlist car le fichier musical n’existe pas</string>
-    <string name="song_err_play">Échec de la lecture. Réessayez</string>
+    <string name="song_err_not_exist">La source audio demandée est introuvable</string>
+    <string name="song_err_not_exist_clear">Supprimé automatiquement de la playlist, car le fichier musical est introuvable</string>
+    <string name="song_err_play">Échec de la lecture. Réessayez.</string>
+    <string name="vs_a11y_aigc_creator_enhance_lyrics">Optimiser les paroles. Utilise %1$d crédits</string>
     <string name="vs_a11y_artist">"Ouvrir l'artiste"</string>
     <string name="vs_a11y_back">Retour</string>
     <string name="vs_a11y_cancel_upload">Annuler l’envoi</string>
@@ -14,15 +15,18 @@
     <string name="vs_a11y_close">Fermer</string>
     <string name="vs_a11y_close_comments">Fermer les commentaires</string>
     <string name="vs_a11y_close_play_source">Fermer la source de lecture</string>
+    <string name="vs_a11y_comment_count">Commentaire, %1$s</string>
     <string name="vs_a11y_comment_more">Options du commentaire</string>
     <string name="vs_a11y_copy_prompt">Copier le prompt</string>
     <string name="vs_a11y_create_center">Centre de création</string>
     <string name="vs_a11y_delete_item">Supprimer l’élément</string>
     <string name="vs_a11y_disabled">Désactivé</string>
     <string name="vs_a11y_download_free_songs">Télécharger des chansons gratuites</string>
-    <string name="vs_a11y_drag_handle">Poignée de déplacement</string>
+    <string name="vs_a11y_drag_handle">Glisser avec deux doigts</string>
+    <string name="vs_a11y_edit_song_title">Modifier le titre de la chanson###</string>
     <string name="vs_a11y_enabled">Activé</string>
     <string name="vs_a11y_expand_story">"Développer l'histoire de la chanson"</string>
+    <string name="vs_a11y_favorite_count">Favori, %1$s</string>
     <string name="vs_a11y_follow_user">Suivre l’utilisateur</string>
     <string name="vs_a11y_global_top_notice">Avis, %1$s</string>
     <string name="vs_a11y_home">Accueil</string>
@@ -36,12 +40,17 @@
     <string name="vs_a11y_open_comments">Ouvrir les commentaires</string>
     <string name="vs_a11y_open_hashtag">Ouvrir le hashtag, %1$s</string>
     <string name="vs_a11y_open_lyrics">Ouvrir les paroles</string>
+    <string name="vs_a11y_open_lyrics_with_text">Ouvrir les paroles, %1$s</string>
+    <string name="vs_a11y_open_membership_plans">"Voir les formules d'abonnement"</string>
     <string name="vs_a11y_open_play_source">Ouvrir la source de lecture, %1$s</string>
     <string name="vs_a11y_open_profile">Ouvrir le profil</string>
     <string name="vs_a11y_open_user">Ouvrir le profil de l’utilisateur</string>
     <string name="vs_a11y_pause">Mettre en pause</string>
     <string name="vs_a11y_play">Lire</string>
     <string name="vs_a11y_play_or_pause">Lire ou mettre en pause</string>
+    <string name="vs_a11y_preview_hashtags">Hashtags, %1$s###</string>
+    <string name="vs_a11y_preview_progress">Progression de la lecture, %1$s</string>
+    <string name="vs_a11y_preview_progress_idle">Progression de la lecture</string>
     <string name="vs_a11y_previous">Piste précédente</string>
     <string name="vs_a11y_profile">Profil</string>
     <string name="vs_a11y_quick_comment_boring">Commentaire rapide : Ennuyeux</string>
@@ -56,13 +65,16 @@
     <string name="vs_a11y_selected">Sélectionné</string>
     <string name="vs_a11y_send_comment">Envoyer un commentaire</string>
     <string name="vs_a11y_share">Partager</string>
+    <string name="vs_a11y_share_count">Partager, %1$s</string>
     <string name="vs_a11y_show_replies">Afficher les réponses</string>
     <string name="vs_a11y_song_more">Partage de chanson</string>
     <string name="vs_a11y_sync_status">État de synchronisation</string>
+    <string name="vs_a11y_thumb_up_count">J’aime, %1$s</string>
     <string name="vs_a11y_toggle_like">Ajouter ou retirer des favoris</string>
     <string name="vs_a11y_unfollow_user">Ne plus suivre l’utilisateur</string>
     <string name="vs_a11y_unlock_float_lyrics">Déverrouiller les paroles sur l’écran d’accueil</string>
     <string name="vs_a11y_upload_file">Importer un fichier</string>
+    <string name="vs_a11y_user_profile">Profil utilisateur, %1$s</string>
     <string name="vs_about_app_name">Musique</string>
     <string name="vs_about_copyright1">Copyright © Tonwav</string>
     <string name="vs_about_open_source">Déclaration relative aux logiciels open source</string>
@@ -75,7 +87,7 @@
     <string name="vs_action_favorite_failed_no_copyright">Aucun droit d’auteur pour cette chanson. Impossible de l’ajouter aux favoris.</string>
     <string name="vs_add_hashtag_chip_label">\# Hashtag</string>
     <string name="vs_add_hashtag_max_count">Ajoutez jusqu’à 5 hashtags</string>
-    <string name="vs_add_hashtag_max_length">caractères max. par hashtag</string>
+    <string name="vs_add_hashtag_max_length">Maximum de 50 caractères par hashtag</string>
     <string name="vs_add_hashtag_title">Ajouter un hashtag</string>
     <string name="vs_add_song_fail">Échec de l’ajout</string>
     <string name="vs_add_to_songlist">Ajouter à la playlist</string>
@@ -91,6 +103,7 @@
     <string name="vs_aigc_creator_create_success">Demande de création envoyée</string>
     <string name="vs_aigc_creator_create_title">Créer</string>
     <string name="vs_aigc_creator_create_wait_enhance">Les paroles sont toujours en cours d’amélioration</string>
+    <string name="vs_aigc_creator_credit_insufficient_message">À court de crédits ? Rechargez votre compte ou passez à l’abonnement pour continuer à créer !</string>
     <string name="vs_aigc_creator_credit_value">%1$d</string>
     <string name="vs_aigc_creator_custom">Personnalisé</string>
     <string name="vs_aigc_creator_custom_lyrics">Paroles personnalisées</string>
@@ -101,6 +114,7 @@
     <string name="vs_aigc_creator_enhance_empty_lyrics">"Saisissez d'abord les paroles"</string>
     <string name="vs_aigc_creator_enhance_failed">"Échec de l'optimisation des paroles"</string>
     <string name="vs_aigc_creator_generation_limit_message">Vous avez atteint votre limite de génération. Passez maintenant à un forfait supérieur pour continuer à enchaîner les hits !</string>
+    <string name="vs_aigc_creator_generation_limit_recharge">Recharger</string>
     <string name="vs_aigc_creator_generation_limit_title">Trop de talent pour ce forfait !</string>
     <string name="vs_aigc_creator_generation_limit_update">Mettre à niveau</string>
     <string name="vs_aigc_creator_genre_auto">Auto</string>
@@ -127,6 +141,7 @@ Balises de structure prises en charge :
     <string name="vs_aigc_creator_main_genre">Genre principal</string>
     <string name="vs_aigc_creator_prompt_default_hint">Décris une ambiance, un style, un instrument ou une histoire</string>
     <string name="vs_aigc_creator_prompt_empty">"Saisissez d'abord un prompt"</string>
+    <string name="vs_aigc_creator_prompt_suggestions_title">Besoin d’idées ? Choisis un modèle ci-dessous.</string>
     <string name="vs_aigc_creator_prompt_template_1">Joyeux anniversaire à ma mère</string>
     <string name="vs_aigc_creator_prompt_template_10">Phonk pour la salle</string>
     <string name="vs_aigc_creator_prompt_template_11">Piano mélancolique</string>
@@ -388,7 +403,7 @@ Parcourir les fichiers système"</string>
     <string name="vs_go_login_migrated_content">Votre playlist existe toujours. Nous la transférerons vers votre compte après votre inscription</string>
     <string name="vs_gp_unavailable">Google Play indisponible.</string>
     <string name="vs_guest_vip_placeholder">Profitez de services de meilleure qualité</string>
-    <string name="vs_hq_desc">–14 Mo par chanson</string>
+    <string name="vs_hq_desc">7–14 Mo par chanson</string>
     <string name="vs_hq_quality_msg">Qualité réglée sur Moyenne</string>
     <string name="vs_i_like_songlist">"J'aime"</string>
     <string name="vs_input_filter_emoji">Impossible de saisir des émoticônes</string>
@@ -461,6 +476,7 @@ Parcourir les fichiers système"</string>
     <string name="vs_me_like_songs">Musique favorite</string>
     <string name="vs_me_liked_songlist_empty">Aucune playlist favorite</string>
     <string name="vs_me_recent_songlist_empty">Playlists</string>
+    <string name="vs_me_subscription_upgrade">Passez à Mini</string>
     <string name="vs_me_title_account">Compte</string>
     <string name="vs_me_title_likes">J’aime</string>
     <string name="vs_mini_no_song_play_toast">Aucune chanson en cours de lecture</string>
@@ -481,7 +497,7 @@ Parcourir les fichiers système"</string>
     <string name="vs_month_nov">nov.</string>
     <string name="vs_month_oct">oct.</string>
     <string name="vs_month_sept">sept.</string>
-    <string name="vs_multi_limit_tip">éléments maximum peuvent être traités à la fois</string>
+    <string name="vs_multi_limit_tip">Un maximum de 300 éléments peut être traité à la fois</string>
     <string name="vs_multi_select">Sélection multiple</string>
     <string name="vs_multi_select_max">Vous pouvez sélectionner jusqu’à 100 éléments</string>
     <string name="vs_multi_select_null">Sélectionnez au moins 1 chanson</string>
@@ -559,6 +575,7 @@ Parcourir les fichiers système"</string>
     <string name="vs_play_queue_network_timeout">Oups ! Appuyez pour réessayer</string>
     <string name="vs_play_queue_next_up">À suivre（%d）</string>
     <string name="vs_play_queue_next_up_header">À suivre</string>
+    <string name="vs_play_queue_no_fresh_data">Aucun nouveau morceau pour l’instant. Veuillez réessayer plus tard.</string>
     <string name="vs_play_queue_offline_hint">Réseau indisponible. Affichage des chansons hors ligne</string>
     <string name="vs_play_queue_playing">Lecture en cours</string>
     <string name="vs_play_queue_recommend">Recommander</string>
@@ -625,6 +642,7 @@ Parcourir les fichiers système"</string>
     <string name="vs_setting_discord_not_installed">Discord n’est pas installé</string>
     <string name="vs_setting_download_label">Qualité de téléchargement</string>
     <string name="vs_setting_h5_debug">Débogage H5</string>
+    <string name="vs_setting_light_theme_debug">Mode clair</string>
     <string name="vs_setting_mobile_network_confirm">Continuer</string>
     <string name="vs_setting_mobile_network_messgae">Vous utilisez actuellement le réseau mobile. Des données seront utilisées</string>
     <string name="vs_setting_mobile_network_title">Conseils sur le réseau mobile</string>
@@ -666,9 +684,12 @@ Parcourir les fichiers système"</string>
     <string name="vs_sort_by_time_asc">Plus ancien en premier</string>
     <string name="vs_sort_by_time_desc">Plus récent en premier</string>
     <string name="vs_sort_type">Trier par</string>
-    <string name="vs_sq_desc">–30 Mo par chanson</string>
+    <string name="vs_spark_chorus_mode_hint">Le mode refrain est activé. Les morceaux commencent au refrain. Change de mode ici.</string>
+    <string name="vs_spark_subtitle">Commence chaque morceau par le refrain</string>
+    <string name="vs_spark_title">Spark</string>
+    <string name="vs_sq_desc">20–30 Mo par chanson</string>
     <string name="vs_sq_quality_msg">Qualité réglée sur Haute</string>
-    <string name="vs_standard_q_desc">–6 Mo par chanson</string>
+    <string name="vs_standard_q_desc">3–6 Mo par chanson</string>
     <string name="vs_stop_action_when_no_network">Rétablissez la connexion réseau et réessayez</string>
     <string name="vs_storage_external_name">Stockage interne</string>
     <string name="vs_system_ringtones">Définir comme sonnerie</string>
@@ -709,7 +730,7 @@ Parcourir les fichiers système"</string>
     <string name="vs_upload_aigc_field_not_editable">Impossible de modifier le contenu</string>
     <string name="vs_upload_aigc_more_action_unavailable">Impossible de terminer cette action</string>
     <string name="vs_upload_button_post">Publier</string>
-    <string name="vs_upload_char_count_default">/300</string>
+    <string name="vs_upload_char_count_default">0/300</string>
     <string name="vs_upload_community_guidelines_clickable">Règles de la communauté</string>
     <string name="vs_upload_cover_label">Pochette</string>
     <string name="vs_upload_cover_uploading">Importation de la couverture, veuillez patienter...</string>
@@ -776,6 +797,7 @@ Parcourir les fichiers système"</string>
     <string name="vs_upload_validating">Vérification en cours</string>
     <string name="vs_upload_validation_error">Lien Suno invalide</string>
     <string name="vs_upload_validation_success">Terminé</string>
+    <string name="vs_vanso_branding_generated_by">Généré par %1$s</string>
     <string name="vs_vansound_exit_cancel">Annuler</string>
     <string name="vs_vansound_exit_content">Êtes-vous sûr de vouloir abandonner les modifications ?</string>
     <string name="vs_vansound_exit_discard">Abandonner</string>
