@@ -60,6 +60,11 @@
     <string name="bottomsheet_action_expand_halfway">సగం వరకు విస్తరించు</string>
     <string name="bottomsheet_drag_handle_clicked">రెండుసార్లు ట్యాప్ చేసి హ్యాండిల్ లాగండి</string>
     <string name="bottomsheet_drag_handle_content_description">హ్యాండిల్ లాగండి</string>
+    <string name="bubble_app_empty_page">ఈ పరికరంలో సంభాషణ బబుల్స్‌కి మద్దతు ఇచ్చే యాప్‌లను గుర్తించలేకపోయాము</string>
+    <string name="bubble_app_manage">సంభాషణ బబుల్స్‌ని నిర్వహించండి</string>
+    <string name="bubble_notification">సంభాషణ బబుల్స్</string>
+    <string name="bubble_notification_switch">సంభాషణ బబుల్స్‌ని చూపించు</string>
+    <string name="bubble_notification_switch_desc">స్క్రీన్ అంచున తేలియాడే విండోలో సందేశ సేవ యాప్ దాచిపెట్టబడినపప్పుడు, వచ్చే సందేశాలను బబుల్స్‌లో చూపిస్తుంది.</string>
     <string name="button_text_next_step">తరువాత</string>
     <string name="button_text_next_step_timer">తదుపరి దశ (%d)</string>
     <string name="camera_key_action_app_title">అప్లికేషన్‌ను తెరవండి</string>
@@ -251,20 +256,21 @@
     <string name="fingerprint_double_tap">వేలిముద్ర సెన్సార్‌ని డబుల్ ట్యాప్ చేయండి</string>
     <string name="fingerprint_number_upper_limit">చాలా ఎక్కువ విఫల అన్‌లాక్ ప్రయత్నాలు</string>
     <string name="fingerprint_removal_failed">వేలిముద్రని తొలగించలేకపోయాము</string>
-    <string name="flashback_background_start_switch_summary">బ్యాక్‌గ్రౌండ్‌లో యాప్‌లు అమలు అవుతున్నప్పుడు స్వయంచాలకంగా కీలక సమాచారంతో ఫ్లాష్‌కార్డ్‌లను రూపొందిస్తుంది</string>
-    <string name="flashback_background_start_switch_title">స్వయంచాలకంగా ఫ్లాష్‌కార్డ్‌లను రూపొందిస్తోంది</string>
-    <string name="flashback_baidu_map_summary">మార్గాన్ని చూపుతుంది</string>
-    <string name="flashback_didi_summary">రైడ్ సమాచారాన్ని చూపుతుంది</string>
-    <string name="flashback_meituan_summary">డెలివరీ సమాచారాన్ని చూపుతుంది</string>
-    <string name="flashback_meituan_waimai_summary">డెలివరీ సమాచారాన్ని చూపుతుంది</string>
-    <string name="flashback_open_switch_summary">తేలియాడే విండోలు యాప్‌లు ప్రదర్శించబడినప్పుడు కీలక సమాచారాన్ని చూపుతుంది</string>
-    <string name="flashback_open_switch_title">యాప్ ప్లాష్‌కార్డ్‌లు</string>
-    <string name="flashback_shansong_summary">డెలివరీ ప్రోగ్రెస్‌ను చూపుతుంది</string>
-    <string name="flashback_summary">తేలియాడే విండోలు యాప్‌లు ప్రదర్శించబడినప్పుడు కీలక సమాచారాన్ని చూపుతుంది</string>
-    <string name="flashback_support_apps_title">అందుబాటులో ఉన్న యాప్‌లు</string>
-    <string name="flashback_title">యాప్ ప్లాష్‌కార్డ్‌లు</string>
-    <string name="flashback_wangzhe_summary">పునరుత్థానం కౌంట్‌డౌన్ చూపుతుంది</string>
+    <string name="flashback_background_start_switch_summary">యాప్‌లు నేపథ్యంలో అమల్లో ఉన్నప్పుడు కీలక సమాచారంతోపాటు ఫ్లాష్‌కార్డ్‌లు ఆటోమేటిక్‌గా సృష్టించబడతాయి</string>
+    <string name="flashback_background_start_switch_title">ఫ్లాష్‌కార్డ్‌లను ఆటోమేటిక్‌గా సృష్టించు</string>
+    <string name="flashback_baidu_map_summary">మార్గాన్ని చూపిస్తుంది</string>
+    <string name="flashback_didi_summary">రైడ్ సమాచారాన్ని చూపిస్తుంది</string>
+    <string name="flashback_meituan_summary">డెలివరీ సమాచారాన్ని చూపిస్తుంది</string>
+    <string name="flashback_meituan_waimai_summary">డెలివరీ సమాచారాన్ని చూపిస్తుంది</string>
+    <string name="flashback_open_switch_summary">తేలియాడే విండోలుగా యాప్‌లు ప్రదర్శించబడినప్పుడు కీలక సమాచారాన్ని చూపిస్తుంది</string>
+    <string name="flashback_open_switch_title">యాప్ ఫ్లాష్‌కార్డ్‌లు</string>
+    <string name="flashback_shansong_summary">డెలివరీ పురోగతిని చూపిస్తుంది</string>
+    <string name="flashback_summary">తేలియాడే విండోలుగా యాప్‌లు ప్రదర్శించబడినప్పుడు కీలక సమాచారాన్ని చూపిస్తుంది</string>
+    <string name="flashback_support_apps_title">అందుబాటులో ఉన్న యాప్స్</string>
+    <string name="flashback_title">యాప్ ఫ్లాష్‌కార్డ్‌లు</string>
+    <string name="flashback_wangzhe_summary">పునరుజ్జీవన కౌంట్‌డౌన్ చూపించు</string>
     <string name="flip_expand_screen_partial_screen_shot_disable">అంతర్గత స్క్రీన్‌లో మాత్రమే మద్దతు ఉంది</string>
+    <string name="fmt_calendar_date_picker_header_date">dd/MM/yyyy</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -326,11 +332,11 @@
     <string name="freeform_demo_final_restart">మళ్లీ మొదటి నుంచి ప్రారంభించండి</string>
     <string name="freeform_demo_final_title">మీరు సిద్ధంగా ఉన్నారు!</string>
     <string name="freeform_demo_go_on">తరువాత</string>
-    <string name="freeform_demo_next_tutorial">తరువాత</string>
+    <string name="freeform_demo_next_tutorial">తర్వాత</string>
     <string name="freeform_demo_previous_tutorial">వెనుకకు</string>
     <string name="freeform_demo_title_finish">బాగుంది!</string>
     <string name="freeform_demo_title_skip">దాటవేయి</string>
-    <string name="freeform_guide_dialog_freeform_close_summary">చర్య బార్‌ను నొక్కి పట్టుకుని, ఆపై మూసివేయడానికి పైకి స్వైప్ చేయండి</string>
+    <string name="freeform_guide_dialog_freeform_close_summary">తేలియాడే విండోని మూసివేసేందుకు, చర్యల బార్‌ని నొక్కి పట్టుకొని, ఆపై పైకి స్వైప్ చేయండి</string>
     <string name="freeform_guide_dialog_freeform_close_title">తేలియాడే విండోలను మూసివేయి</string>
     <string name="freeform_guide_dialog_freeform_controller_summary">తేలియాడే విండోను అటూ, ఇటూ తరలించడానికి దాని ఎగువ అంచు పట్టుకుని లాగండి</string>
     <string name="freeform_guide_dialog_freeform_resize_summary">పరిమాణం మార్చడానికి కింది మూలలను లాగండి</string>
@@ -342,8 +348,7 @@
     <string name="freeform_guide_dialog_split_double_title">స్క్రీన్ విభజన కలయికను మూసివేయి</string>
     <string name="freeform_guide_dialog_split_multi_summary">యాప్‌ను జోడించడానికి స్క్రీన్ దిగువ నుండి ఎగువ కుడి మూలకు పైకి స్వైప్ చేయండి. మీరు గరిష్టంగా %d యాప్స్‌ను జోడించవచ్చు.</string>
     <string name="freeform_guide_dialog_split_multi_title">స్క్రీన్ విభజన కలయికను తెరువు</string>
-    <string name="freeform_guide_dialog_split_single_summary">"యాప్‌ను మూసివేయడానికి దిగువ మధ్య భాగం
-నుండి పైకి స్వైప్ చేయండి"</string>
+    <string name="freeform_guide_dialog_split_single_summary">యాప్‌ను మూసివేయడానికి విండో కింది నుండి పైకి స్వైప్ చేయండి</string>
     <string name="freeform_guide_dialog_split_title">ఒక విండోను మూసివేయి</string>
     <string name="freeform_guide_dialog_start_button">ప్రారంభించండి</string>
     <string name="freeform_guide_dialog_step_button">తరువాత</string>
@@ -353,23 +358,23 @@
     <string name="freeform_guide_drag_fullscreen_title">పూర్తిస్క్రీన్ మోడ్‌కు మారడానికి లాగండి</string>
     <string name="freeform_guide_drag_split_title">స్క్రీన్ విభజన లేదా పూర్తిస్క్రీన్ మోడ్‌కు మారడానికి లాగండి</string>
     <string name="freeform_guide_drag_summary">ప్రదర్శన మోడ్‌ల మధ్య మారడానికి నిర్దిష్ట ప్రాంతాలకు విండోలను లాగండి</string>
-    <string name="freeform_guide_drop_down_to_fullscreen_summary">నొక్కి పట్టుకుని, ఆపై తేలియాడే విండో చర్య బార్‌ను కిందికి లాగండి</string>
-    <string name="freeform_guide_drop_down_to_fullscreen_title">తేలియాడే విండోలను పూర్తిస్క్రీన్ మోడ్‌లో చూస్తున్నారు</string>
+    <string name="freeform_guide_drop_down_to_fullscreen_summary">తేలియాడే విండో యొక్క చర్యల బార్‌ని నొక్కి పట్టుకొని, ఆపై కిందికి లాగండి</string>
+    <string name="freeform_guide_drop_down_to_fullscreen_title">పూర్తి స్క్రీన్ మోడ్‌లో తేలియాడే విండోలను చూడటం</string>
     <string name="freeform_guide_free_drag_summary">మద్దతు ఉన్న యాప్‌ల వేర్వేరు విండోల మధ్య టెక్స్ట్, ఇమేజ్‌లు లేదా ఫైళ్లు లాగండి.</string>
     <string name="freeform_guide_free_drag_title">విండోలవ్యాప్తంగా అంశాలను లాగండి</string>
     <string name="freeform_guide_free_drag_title_phone">ఇతర యాప్‌లకు కాపీ చేయడానికి లాగండి</string>
     <string name="freeform_guide_how_to_free_drag_summary_phone">చిత్రాన్ని నొక్కి, పట్టుకుని, దానిని ఇతర యాప్‌కు లాగండి</string>
     <string name="freeform_guide_move_and_close_summary">విండోను అటూ, ఇటూ తరలించడానికి దాని ఎగువ అంచును లాగండి లేదా దానిని మూసివేయడానికి అక్కడ ట్యాప్ చేయండి</string>
     <string name="freeform_guide_move_and_close_title">తేలియాడే విండోలను తరలించడం మరియు మూసివేయడం</string>
-    <string name="freeform_guide_move_summary">లాగడానికి తేలియాడే విండో చర్య బార్‌ను నొక్కి, పట్టుకోండి</string>
-    <string name="freeform_guide_move_title">తేలియాడే విండోలను అటూ, ఇటూ తరలించడం</string>
-    <string name="freeform_guide_move_to_small_freeform_window_summary">తేలియాడే విండోను స్క్రీన్ మూలకు లాగండి</string>
-    <string name="freeform_guide_move_to_small_freeform_window_title">తేలియాడే విండోలను కనిష్టీకరిస్తోంది</string>
+    <string name="freeform_guide_move_summary">తేలియాడే విండోని లాగేందుకు చర్యల బార్‌ని నొక్కి పట్టుకోండి</string>
+    <string name="freeform_guide_move_title">తేలియాడే విండోలను చుట్టూ తరలించడం</string>
+    <string name="freeform_guide_move_to_small_freeform_window_summary">స్క్రీన్ మూలకి తేలియాడే విండోని లాగండి</string>
+    <string name="freeform_guide_move_to_small_freeform_window_title">తేలియాడే విండోలను మినిమైజ్ చేయడం</string>
     <string name="freeform_guide_multiple_window_settings_summary">మీరు చర్య బార్‌ను ట్యాప్ చేయడం ద్వారా మద్దతు గల యాప్‌ల్లో కొత్త విండోలను తెరవవచ్చు</string>
     <string name="freeform_guide_multiple_window_summary">"ఒక కొత్త విండోని తెరిచేందుకు డాక్‌పై ఉన్న ఒక యాప్ చిహ్నాన్ని నొక్కి పట్టుకోండి.
 *ఈ ఫీచర్ గమనికలు, మెయిల్, బ్రౌజర్ మరియు WPSతో పని చేస్తుంది."</string>
     <string name="freeform_guide_multiple_window_title">పలు విండోలను తెరవండి</string>
-    <string name="freeform_guide_notification_drop_down_summary">నొక్కి పట్టుకుని, ఆపై నోటిఫికేషన్ చర్య బార్‌ను కిందికి లాగండి</string>
+    <string name="freeform_guide_notification_drop_down_summary">నోటిఫికేషన్ యొక్క చర్యల బార్‌ని నొక్కి పట్టుకొని, ఆపై కిందికి లాగండి</string>
     <string name="freeform_guide_notification_drop_down_title">తేలియాడే విండోలను తెరుస్తోంది</string>
     <string name="freeform_guide_replace_and_close_split_summary">స్క్రీన్ విభజనలో ఒకటి లేదా అన్ని విండోలను మూసివేస్తుంది</string>
     <string name="freeform_guide_replace_and_close_split_title">అన్ని విండోలను మూసివేస్తుంది</string>
@@ -384,16 +389,16 @@
 సిస్టమ్ నావిగేషన్‌ను సంజ్ఞలకు సెట్ చేసినప్పుడు మాత్రమే ఈ ఫీచర్ పని చేస్తుంది."</string>
     <string name="freeform_guide_slide_to_small_freeform_summary_pad">యాప్‌ని మినిమైజ్ చేసేందుకు మూలని లాగండి</string>
     <string name="freeform_guide_slide_to_small_freeform_summary_pad_global">యాప్‌ని మినిమైజ్ చేసేందుకు మూలని లాగండి</string>
-    <string name="freeform_guide_slide_to_small_freeform_summary_squarehot">"విండో దిగువన నొక్కి, పట్టుకుని, దానిని స్క్రీన్ ఎగువ అంచుకు లాగండి.
-సిస్టమ్ నావిగేషన్‌ను సంజ్ఞలకు సెట్ చేసినప్పుడు మాత్రమే ఈ ఫీచర్ పని చేస్తుంది."</string>
-    <string name="freeform_guide_slide_to_small_freeform_title">యాప్‌ను కనిష్టీకరించండి</string>
-    <string name="freeform_guide_slide_up_to_close_summary">తేలియాడే విండో చర్య బార్ నుండి పైకి స్వైప్ చేయండి</string>
-    <string name="freeform_guide_slide_up_to_close_title">తేలియాడే విండోలను మూసివేస్తోంది</string>
-    <string name="freeform_guide_split_screen_combination_fold">స్క్రీన్ విభజన కలయిక</string>
+    <string name="freeform_guide_slide_to_small_freeform_summary_squarehot">"విండో కింది భాగాన్ని నొక్కి పట్టుకొని, దానిని స్క్రీన్ ఎగువ అంచుకు లాగండి.
+సిస్టమ్ నావిగేషన్‌ని సంజ్ఞలకు సెట్ చేసినప్పుడు మాత్రమే ఈ ఫీచర్ పని చేస్తుంది."</string>
+    <string name="freeform_guide_slide_to_small_freeform_title">ఒక యాప్‌ని మినిమైజ్ చేయి</string>
+    <string name="freeform_guide_slide_up_to_close_summary">తేలియాడే విండో యొక్క చర్యల బార్‌ని పైకి స్వైప్ చేయండి</string>
+    <string name="freeform_guide_slide_up_to_close_title">తేలియాడే విండోలను మూసివేయడం</string>
+    <string name="freeform_guide_split_screen_combination_fold">స్క్రీన్ విభజన కాంబినేషన్</string>
     <string name="freeform_guide_split_screen_combination_settings_fold">స్క్రీన్ విభజన కలయిక</string>
     <string name="freeform_guide_split_screen_combination_summary">కలయిక కోసం షార్ట్‌కట్‌ను రూపొందించడానికి ఇటీవలివిలో స్క్రీన్ విభజన ప్రివ్యూను నొక్కి, పట్టుకోండి</string>
-    <string name="freeform_guide_split_screen_combination_summary_fold">లోపలి స్క్రీన్‌లో యాప్ డాక్ ఉపయోగించి స్క్రీన్ విభజన కలయికల కోసం షార్ట్‌కట్‌లను రూపొందించండి</string>
-    <string name="freeform_guide_split_screen_combination_summary_pad">యాప్ డాక్ ఉపయోగించి స్క్రీన్ విభజన కలయికల కోసం షార్ట్‌కట్‌లను రూపొందించండి</string>
+    <string name="freeform_guide_split_screen_combination_summary_fold">లోపలి స్క్రీన్‌లో యాప్ లాక్ ఉపయోగించి స్క్రీన్ విభజన కాంబినేషన్‌ల కోసం షార్ట్‌కట్‌లను సృష్టించండి</string>
+    <string name="freeform_guide_split_screen_combination_summary_pad">యాప్ లాక్ ఉపయోగించి స్క్రీన్ విభజన కాంబినేషన్ కోసం షార్ట్‌కట్‌లను సృష్టించండి</string>
     <string name="freeform_guide_split_screen_combination_title">స్క్రీన్ విభజన కలయిక</string>
     <string name="freeform_guide_swipe_up_into_split_summary_fold">"స్క్రీన్ విభజనను తెరవడానికి కింది నుండి ఎగువ ఎడమ మూలకు పైకి స్వైప్ చేయండి.
 లోపలి స్క్రీన్‌లో, పలు విండోలను తెరవడానికి స్క్రీన్ విభజన కలయిక దిగువ నుండి ఎడమ మూల ఎగవకు పైకి స్వైప్ చేయండి."</string>
@@ -433,7 +438,7 @@
     <string name="freeform_video_description_open_freeform_and_splitscreen">"· యాప్‌ని ఒక తేలియాడే విండోలో తెరిచేందుకు సైడ్‌బార్‌లో దానిపై ట్యాప్ చేయండి.
 · ఒక తేలియాడే విండోలో యాప్‌ని తెరిచేందుకు దానిని స్క్రీన్ మధ్యలోకి లాగండి లేదా స్క్రీన్ విభజనని ఉపయోగించేందుకు దానిని ప్రక్కవైపుకి లాగండి."</string>
     <string name="freeform_video_description_open_freeform_and_splitscreen_pad">యాప్‌ను ఉపయోగిస్తున్నప్పుడు, తేలియాడే విండోలో తెరవడానికి సైడ్‌బార్ నుండి మరొక దానిని స్క్రీన్ మధ్యలో లాగండి లేదా స్ప్లిట్-స్క్రీన్ ఉపయోగించడానికి పక్కకు లాగండి</string>
-    <string name="freeform_video_description_pad">తేలియాడే విండోలను తెరవడానికి ఐటమ్‌లను డాక్ వెలుపలికి లాగండి</string>
+    <string name="freeform_video_description_pad">తేలియాడే విండోలను తెరిచేందుకు డాక్ వెలుపలికి అంశాలను లాగండి</string>
     <string name="friday">శుక్రవారం</string>
     <string name="friday_short">శుక్ర</string>
     <string name="friday_shortest">శుక్ర</string>
@@ -446,7 +451,7 @@
     <string name="genimi_wake_up_guide_title_v2">అప్‌గ్రేడ్ చేసిన పవర్ బటన్ ఎంపికలు</string>
     <string name="gesture_disabled">ఆఫ్</string>
     <string name="gesture_enable">ఆన్</string>
-    <string name="gesture_function_dialog_message">%1$s \"%2$s\" పాటు ఉపయోగించబడింది. \"%3$s\"తో మార్చాలా?</string>
+    <string name="gesture_function_dialog_message">\"%1$s\" \"%2$s\" కోసం ఉపయోగించబడుతుంది. \"%3$s\"తో భర్తీ చేయాలా?</string>
     <string name="gesture_hint_call">కాల్‌కు సమాధానమిస్తోంది…</string>
     <string name="gesture_hint_endcall">కాల్‌ను ముగిస్తోంది…</string>
     <string name="gesture_hint_media_fast_forward">ఫాస్ట్ ఫార్వార్డ్ చేస్తోంది…</string>
@@ -595,7 +600,7 @@
     <string name="key_fsg_dialog_message">మీరు నావిగేషన్ కోసం పూర్తి స్క్రీన్ సంజ్ఞలను ఉపయోగిస్తున్నారు. బటన్-సంబంధిత ఫీచర్‌లు ఇప్పుడు అనుమతించబడవు. బటన్‌లకు మారాలా?</string>
     <string name="key_fsg_dialog_negative">రద్దు చేయి </string>
     <string name="key_fsg_dialog_positive">బటన్‌లకు మారండి</string>
-    <string name="key_gesture_function_dialog_message">%1$s అనేది %2$s కోసం ఉద్దేశించిన సత్వరమార్గం. %3$sతో మార్చాలా?</string>
+    <string name="key_gesture_function_dialog_message">\"%1$s\" అనేది \"%2$s\" కోసం షార్ట్‌కట్. \"%3$s\"తో భర్తీ చేయాలా?</string>
     <string name="key_gesture_function_dialog_negative">రద్దు చేయి</string>
     <string name="key_gesture_function_dialog_positive">భర్తీ చేయి</string>
     <string name="key_gesture_function_optional">ఐచ్ఛిక సంజ్ఞలు మరియు బటన్‌లు</string>
